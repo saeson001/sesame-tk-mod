@@ -1,1 +1,19 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuSWRNYXBNYW5hZ2VyCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuTWVtYmVyQmVuZWZpdHNNYXAKCmNsYXNzIE1lbWJlckJlbmVmaXQoaTogU3RyaW5nLCBuOiBTdHJpbmcpIDogTWFwcGVyRW50aXR5KCkgewoKICAgIGluaXQgewogICAgICAgIGlkID0gaQogICAgICAgIG5hbWUgPSBuCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIGdldExpc3QoKTogTGlzdDxNZW1iZXJCZW5lZml0PiB7CiAgICAgICAgICAgIHJldHVybiBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoTWVtYmVyQmVuZWZpdHNNYXA6OmNsYXNzLmphdmEpLm1hcAogICAgICAgICAgICAgICAgLm1hcCB7IChrZXksIHZhbHVlKSAtPiBNZW1iZXJCZW5lZml0KGtleSwgdmFsdWUpIH0KICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.entity
+
+import fansirsqi.xposed.sesame.util.maps.IdMapManager
+import fansirsqi.xposed.sesame.util.maps.MemberBenefitsMap
+
+class MemberBenefit(i: String, n: String) : MapperEntity() {
+
+    init {
+        id = i
+        name = n
+    }
+
+    companion object {
+        fun getList(): List<MemberBenefit> {
+            return IdMapManager.getInstance(MemberBenefitsMap::class.java).map
+                .map { (key, value) -> MemberBenefit(key, value) }
+        }
+    }
+}

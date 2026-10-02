@@ -1,1 +1,121 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZURpc3BhdGNoZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuU3VwZXJ2aXNvckpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlRpbWVvdXRDYW5jZWxsYXRpb25FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aFRpbWVvdXQKCi8qKgogKiDljY/nqIvlt6XlhbfnsbsKICoKICog5o+Q5L6b5Y2P56iL55u45YWz55qE6YCa55So5Yqf6IO977yM55So5LqO5pu/5Luj5Lyg57uf55qE57q/56iL5pON5L2cCiAqLwpvYmplY3QgQ29yb3V0aW5lVXRpbHMgewoKICAgIC8qKgogICAgICog5Y2P56iL5a6J5YWo55qE5bu26L+f5pa55rOVCiAgICAgKgogICAgICog5Zyo5Y2P56iL546v5aKD5Lit5L2/55SoIGRlbGF5KCnvvIzlnKjpnZ7ljY/nqIvnjq/looPkuK3pmY3nuqfliLAgVGhyZWFkLnNsZWVwKCkKICAgICAqCiAgICAgKiBAcGFyYW0gbWlsbGlzIOW7tui/n+avq+enkuaVsAogICAgICovCiAgICBASnZtU3RhdGljCiAgICBzdXNwZW5kIGZ1biBkZWxheUNvbXBhdChtaWxsaXM6IExvbmcpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBkZWxheShtaWxsaXMpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoIuWNj+eoi+W7tui/n+W8guW4uCIsIGUpCiAgICAgICAgICAgIC8vIOWmguaenOWNj+eoi+W7tui/n+Wksei0pe+8jOmZjee6p+WIsOe6v+eoi+S8keecoAogICAgICAgICAgICBUaHJlYWQuc2xlZXAobWlsbGlzKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWFvOWuueaAp+W7tui/n+aWueazle+8iOWQjOatpeeJiOacrO+8iQogICAgICoKICAgICAqIOWcqOW9k+WJjee6v+eoi+S4reaJp+ihjOW7tui/n++8jOiHquWKqOWkhOeQhuWNj+eoi+WSjOmdnuWNj+eoi+eOr+WigwogICAgICoKICAgICAqIEBwYXJhbSBtaWxsaXMg5bu26L+f5q+r56eS5pWwCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBzbGVlcENvbXBhdChtaWxsaXM6IExvbmcpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBydW5CbG9ja2luZyB7CiAgICAgICAgICAgICAgICBkZWxheShtaWxsaXMpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgLy8g6ZmN57qn5Yiw5Lyg57uf55qEIFRocmVhZC5zbGVlcCgpCiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoIuWNj+eoi+W7tui/n+W8guW4uCzlt7LlsJ3or5XpmY3nuqfliLAgVGhyZWFkLnNsZWVwKCkiLCBlKQogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgVGhyZWFkLnNsZWVwKG1pbGxpcykKICAgICAgICAgICAgfSBjYXRjaCAoaWU6IEludGVycnVwdGVkRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBUaHJlYWQuY3VycmVudFRocmVhZCgpLmludGVycnVwdCgpCiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKCJDb3JvdXRpbmVVdGlscyIsICLlu7bov5/ooqvkuK3mlq06ICR7aWUubWVzc2FnZX0iKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5Zyo5oyH5a6a6LCD5bqm5Zmo5LiK6L+Q6KGM5Y2P56iLCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBydW5PbkRpc3BhdGNoZXIoCiAgICAgICAgZGlzcGF0Y2hlcjogQ29yb3V0aW5lRGlzcGF0Y2hlciA9IERpc3BhdGNoZXJzLkRlZmF1bHQsCiAgICAgICAgYmxvY2s6IHN1c3BlbmQgQ29yb3V0aW5lU2NvcGUuKCkgLT4gVW5pdAogICAgKTogSm9iIHsKICAgICAgICByZXR1cm4gQ29yb3V0aW5lU2NvcGUoZGlzcGF0Y2hlciArIFN1cGVydmlzb3JKb2IoKSkubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGJsb2NrKCkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKCLljY/nqIvmiafooYzlvILluLgiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5ZyoSU/osIPluqblmajkuIrov5DooYzljY/nqIsKICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIHJ1bk9uSU8oYmxvY2s6IHN1c3BlbmQgQ29yb3V0aW5lU2NvcGUuKCkgLT4gVW5pdCk6IEpvYiB7CiAgICAgICAgcmV0dXJuIHJ1bk9uRGlzcGF0Y2hlcihEaXNwYXRjaGVycy5JTywgYmxvY2spCiAgICB9CgogICAgLyoqCiAgICAgKiDlnKjorqHnrpfosIPluqblmajkuIrov5DooYzljY/nqIsKICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIHJ1bk9uQ29tcHV0YXRpb24oYmxvY2s6IHN1c3BlbmQgQ29yb3V0aW5lU2NvcGUuKCkgLT4gVW5pdCk6IEpvYiB7CiAgICAgICAgcmV0dXJuIHJ1bk9uRGlzcGF0Y2hlcihEaXNwYXRjaGVycy5EZWZhdWx0LCBibG9jaykKICAgIH0KCiAgICAvKioKICAgICAqIOWQjOatpeaJp+ihjOWNj+eoi+S7o+eggeWdlwogICAgICoKICAgICAqIOitpuWRiu+8muatpOaWueazleS8mumYu+WhnuW9k+WJjee6v+eoi++8jOS7heWcqOW/heimgeaXtuS9v+eUqAogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gPFQ+IHJ1bkJsb2NraW5nU2FmZSgKICAgICAgICB0aW1lb3V0OiBMb25nID0gMzAwMDAsIC8vIDMw56eS6buY6K6k6LaF5pe2CiAgICAgICAgYmxvY2s6IHN1c3BlbmQgQ29yb3V0aW5lU2NvcGUuKCkgLT4gVAogICAgKTogVD8gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBydW5CbG9ja2luZyB7CiAgICAgICAgICAgICAgICB3aXRoVGltZW91dCh0aW1lb3V0KSB7CiAgICAgICAgICAgICAgICAgICAgYmxvY2soKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogVGltZW91dENhbmNlbGxhdGlvbkV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZXJyb3IoIkNvcm91dGluZVV0aWxzIiwgIuWNj+eoi+aJp+ihjOi2heaXtjogJHt0aW1lb3V0fW1zIikKICAgICAgICAgICAgbnVsbAogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKCLljY/nqIvlkIzmraXmiafooYzlvILluLgiLCBlKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.util
+
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.TimeoutCancellationException
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withTimeout
+
+/**
+ * 协程工具类
+ *
+ * 提供协程相关的通用功能，用于替代传统的线程操作
+ */
+object CoroutineUtils {
+
+    /**
+     * 协程安全的延迟方法
+     *
+     * 在协程环境中使用 delay()，在非协程环境中降级到 Thread.sleep()
+     *
+     * @param millis 延迟毫秒数
+     */
+    @JvmStatic
+    suspend fun delayCompat(millis: Long) {
+        try {
+            delay(millis)
+        } catch (e: Exception) {
+            Log.printStackTrace("协程延迟异常", e)
+            // 如果协程延迟失败，降级到线程休眠
+            Thread.sleep(millis)
+        }
+    }
+
+    /**
+     * 兼容性延迟方法（同步版本）
+     *
+     * 在当前线程中执行延迟，自动处理协程和非协程环境
+     *
+     * @param millis 延迟毫秒数
+     */
+    @JvmStatic
+    fun sleepCompat(millis: Long) {
+        try {
+            runBlocking {
+                delay(millis)
+            }
+        } catch (e: Exception) {
+            // 降级到传统的 Thread.sleep()
+            Log.printStackTrace("协程延迟异常,已尝试降级到 Thread.sleep()", e)
+            try {
+                Thread.sleep(millis)
+            } catch (ie: InterruptedException) {
+                Thread.currentThread().interrupt()
+                Log.record("CoroutineUtils", "延迟被中断: ${ie.message}")
+            }
+        }
+    }
+
+    /**
+     * 在指定调度器上运行协程
+     */
+    @JvmStatic
+    fun runOnDispatcher(
+        dispatcher: CoroutineDispatcher = Dispatchers.Default,
+        block: suspend CoroutineScope.() -> Unit
+    ): Job {
+        return CoroutineScope(dispatcher + SupervisorJob()).launch {
+            try {
+                block()
+            } catch (e: Exception) {
+                Log.printStackTrace("协程执行异常", e)
+            }
+        }
+    }
+
+    /**
+     * 在IO调度器上运行协程
+     */
+    @JvmStatic
+    fun runOnIO(block: suspend CoroutineScope.() -> Unit): Job {
+        return runOnDispatcher(Dispatchers.IO, block)
+    }
+
+    /**
+     * 在计算调度器上运行协程
+     */
+    @JvmStatic
+    fun runOnComputation(block: suspend CoroutineScope.() -> Unit): Job {
+        return runOnDispatcher(Dispatchers.Default, block)
+    }
+
+    /**
+     * 同步执行协程代码块
+     *
+     * 警告：此方法会阻塞当前线程，仅在必要时使用
+     */
+    @JvmStatic
+    fun <T> runBlockingSafe(
+        timeout: Long = 30000, // 30秒默认超时
+        block: suspend CoroutineScope.() -> T
+    ): T? {
+        return try {
+            runBlocking {
+                withTimeout(timeout) {
+                    block()
+                }
+            }
+        } catch (e: TimeoutCancellationException) {
+            Log.error("CoroutineUtils", "协程执行超时: ${timeout}ms")
+            null
+        } catch (e: Exception) {
+            Log.printStackTrace("协程同步执行异常", e)
+            null
+        }
+    }
+}

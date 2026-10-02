@@ -1,1 +1,494 @@
-PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9InpoLUNOIj4KCjxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAsIG1heGltdW0tc2NhbGU9MS4wLCB1c2VyLXNjYWxhYmxlPW5vIj4KICAgIDx0aXRsZT5TZXNhbWUgQ29uZmlnIC0gU2VtaSBEZXNpZ248L3RpdGxlPgogICAgPCEtLSDlvJXlhaUgU2VtaSBEZXNpZ24gQ1NTIC0tPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuL2Nzcy9zZW1pLm1pbi5jc3MiIC8+CiAgICA8c3R5bGU+CiAgICAgICAgYm9keSB7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXNlbWktY29sb3ItYmctMCk7CiAgICAgICAgICAgIG1hcmdpbjogMDsKICAgICAgICAgICAgcGFkZGluZzogMDsKICAgICAgICAgICAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgIlNlZ29lIFVJIiwgUm9ib3RvLCAiSGVsdmV0aWNhIE5ldWUiLCBBcmlhbCwgc2Fucy1zZXJpZjsKICAgICAgICB9CgogICAgICAgIC5jb250YWluZXIgewogICAgICAgICAgICBtYXgtd2lkdGg6IDYwMHB4OwogICAgICAgICAgICBtYXJnaW46IDAgYXV0bzsKICAgICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tc2VtaS1jb2xvci1iZy0xKTsKICAgICAgICAgICAgbWluLWhlaWdodDogMTAwdmg7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMCAyMHB4IHJnYmEoMCwgMCwgMCwgMC4wNSk7CiAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiA0MHB4OwogICAgICAgIH0KCiAgICAgICAgLmhlYWRlciB7CiAgICAgICAgICAgIHBhZGRpbmc6IDE2cHg7CiAgICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLXNlbWktY29sb3ItYmctMik7CiAgICAgICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCB2YXIoLS1zZW1pLWNvbG9yLWJvcmRlcik7CiAgICAgICAgICAgIHBvc2l0aW9uOiBzdGlja3k7CiAgICAgICAgICAgIHRvcDogMDsKICAgICAgICAgICAgei1pbmRleDogMTA7CiAgICAgICAgICAgIGJhY2tkcm9wLWZpbHRlcjogYmx1cigxMHB4KTsKICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjgpOwogICAgICAgIH0KCiAgICAgICAgYm9keVt0aGVtZS1tb2RlPSdkYXJrJ10gLmhlYWRlciB7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjIsIDIyLCAyNiwgMC44KTsKICAgICAgICB9CgogICAgICAgIC5maWVsZC1yb3cgewogICAgICAgICAgICBkaXNwbGF5OiBmbGV4OwogICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgICAgICAgICAgIHBhZGRpbmc6IDEycHggMDsKICAgICAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHZhcigtLXNlbWktY29sb3ItYm9yZGVyKTsKICAgICAgICB9CgogICAgICAgIC5maWVsZC1yb3c6bGFzdC1jaGlsZCB7CiAgICAgICAgICAgIGJvcmRlci1ib3R0b206IG5vbmU7CiAgICAgICAgfQoKICAgICAgICAuZmllbGQtbGFiZWwgewogICAgICAgICAgICBmb250LXNpemU6IDE0cHg7CiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7CiAgICAgICAgICAgIGNvbG9yOiB2YXIoLS1zZW1pLWNvbG9yLXRleHQtMCk7CiAgICAgICAgICAgIGZsZXg6IDE7CiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDEycHg7CiAgICAgICAgfQoKICAgICAgICAuZmllbGQtY29udHJvbCB7CiAgICAgICAgICAgIGZsZXgtc2hyaW5rOiAwOwogICAgICAgICAgICBtYXgtd2lkdGg6IDYwJTsKICAgICAgICB9CgogICAgICAgIC5zZWN0aW9uLXBhZGRpbmcgewogICAgICAgICAgICBwYWRkaW5nOiAwIDE2cHg7CiAgICAgICAgfQoKICAgICAgICAvKiDliJfooajlvLnnqpfmoLflvI8gKi8KICAgICAgICAubGlzdC1pdGVtIHsKICAgICAgICAgICAgZGlzcGxheTogZmxleDsKICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOwogICAgICAgICAgICBwYWRkaW5nOiAxMnB4IDA7CiAgICAgICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCB2YXIoLS1zZW1pLWNvbG9yLWJvcmRlcik7CiAgICAgICAgfQoKICAgICAgICAubGlzdC1pdGVtLWxlZnQgewogICAgICAgICAgICBkaXNwbGF5OiBmbGV4OwogICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAgICAgICAgICBmbGV4OiAxOwogICAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuOwogICAgICAgIH0KCiAgICAgICAgLmxpc3QtaXRlbS1uYW1lIHsKICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IDEwcHg7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTVweDsKICAgICAgICAgICAgd2hpdGUtc3BhY2U6IG5vd3JhcDsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICAgICAgICAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7CiAgICAgICAgICAgIGNvbG9yOiB2YXIoLS1zZW1pLWNvbG9yLXRleHQtMCk7CiAgICAgICAgfQoKICAgICAgICAubGlzdC1jb3VudC1pbnB1dCB7CiAgICAgICAgICAgIHdpZHRoOiA4MHB4OwogICAgICAgICAgICBtYXJnaW4tbGVmdDogMTBweDsKICAgICAgICB9CgogICAgICAgIC5zaGVldC1mb290ZXIgewogICAgICAgICAgICBkaXNwbGF5OiBmbGV4OwogICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kOwogICAgICAgICAgICBwYWRkaW5nLXRvcDogMTZweDsKICAgICAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkIHZhcigtLXNlbWktY29sb3ItYm9yZGVyKTsKICAgICAgICB9CiAgICA8L3N0eWxlPgoKICAgIDwhLS0gUmVhY3QgJiBSZWFjdERPTSAtLT4KICAgIDxzY3JpcHQgc3JjPSIuL2pzL3JlYWN0LmRldmVsb3BtZW50LmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSIuL2pzL3JlYWN0LWRvbS5kZXZlbG9wbWVudC5qcyI+PC9zY3JpcHQ+CiAgICA8IS0tIFNlbWkgVUkgSlMgLS0+CiAgICA8c2NyaXB0IHNyYz0iLi9qcy9zZW1pLXVpLm1pbi5qcyI+PC9zY3JpcHQ+CiAgICA8IS0tIFNlbWkgSWNvbnMgLS0+CiAgICA8c2NyaXB0IHNyYz0iLi9qcy9zZW1pLWljb25zLm1pbi5qcyI+PC9zY3JpcHQ+CiAgICA8IS0tIEJhYmVsIC0tPgogICAgPHNjcmlwdCBzcmM9Ii4vanMvYmFiZWwubWluLmpzIj48L3NjcmlwdD4KPC9oZWFkPgoKPGJvZHk+CiAgICA8ZGl2IGlkPSJhcHAiPjwvZGl2PgoKICAgIDxzY3JpcHQgdHlwZT0idGV4dC9iYWJlbCI+CiAgICAgICAgY29uc3Qgc3dpdGNoTW9kZSA9ICgpID0+IHsKICAgICAgICAgICAgY29uc3QgYm9keSA9IGRvY3VtZW50LmJvZHk7CiAgICAgICAgICAgIGlmIChib2R5Lmhhc0F0dHJpYnV0ZSgndGhlbWUtbW9kZScpKSB7CiAgICAgICAgICAgICAgICBib2R5LnJlbW92ZUF0dHJpYnV0ZSgndGhlbWUtbW9kZScpOwogICAgICAgICAgICAgICAgd2luZG93LnNldE1vZGUoJ2xpZ2h0Jyk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBib2R5LnNldEF0dHJpYnV0ZSgndGhlbWUtbW9kZScsICdkYXJrJyk7CiAgICAgICAgICAgICAgICB3aW5kb3cuc2V0TW9kZSgnZGFyaycpOwogICAgICAgICAgICB9CiAgICAgICAgfTsKICAgICAgICBjb25zdCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QsIHVzZU1lbW8sIHVzZVJlZiB9ID0gUmVhY3Q7CiAgICAgICAgY29uc3QgeyBDb2xsYXBzZSwgU3dpdGNoLCBJbnB1dCwgUmFkaW9Hcm91cCwgUmFkaW8sIEJ1dHRvbiwgVG9hc3QsIFNpZGVTaGVldCwgQ2hlY2tib3gsIElucHV0TnVtYmVyLCBUeXBvZ3JhcGh5IH0gPSBTZW1pVUk7CiAgICAgICAgY29uc3QgeyBJY29uU2VhcmNoIH0gPSBTZW1pSWNvbnM7CiAgICAgICAgY29uc3QgeyBUaXRsZSwgVGV4dCB9ID0gVHlwb2dyYXBoeTsKCiAgICAgICAgLy8gLS0tIE1vY2sgRGF0YSBXcmFwcGVycyAtLS0KICAgICAgICBjb25zdCBnZXRUYWJzRGF0YSA9ICgpID0+IHsKICAgICAgICAgICAgdHJ5IHsgcmV0dXJuIEpTT04ucGFyc2Uod2luZG93LkhPT0suZ2V0VGFicygpKTsgfSBjYXRjaCAoZSkgeyByZXR1cm4gW107IH0KICAgICAgICB9OwoKICAgICAgICBjb25zdCBnZXRNb2RlbERhdGEgPSAoY29kZSkgPT4gewogICAgICAgICAgICB0cnkgeyByZXR1cm4gSlNPTi5wYXJzZSh3aW5kb3cuSE9PSy5nZXRNb2RlbChjb2RlKSk7IH0gY2F0Y2ggKGUpIHsgcmV0dXJuIFtdOyB9CiAgICAgICAgfTsKCiAgICAgICAgY29uc3QgZ2V0RmllbGREYXRhID0gKG1vZGVsQ29kZSwgZmllbGRDb2RlKSA9PiB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBjb25zdCByZXMgPSBKU09OLnBhcnNlKHdpbmRvdy5IT09LLmdldEZpZWxkKG1vZGVsQ29kZSwgZmllbGRDb2RlKSk7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVzLmV4cGFuZFZhbHVlIHx8IFtdOwogICAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gW107CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIC0tLSBNYWluIENvbXBvbmVudCAtLS0KICAgICAgICBjb25zdCBBcHAgPSAoKSA9PiB7CgogICAgICAgICAgICAvLyAxLiDlpITnkIbkuLvpopjoh6rliqjliIfmjaLpgLvovpEKICAgICAgICAgICAgY29uc3QgYXBwbHlUaGVtZSA9ICgpID0+IHsKICAgICAgICAgICAgICAgIGxldCBpc0RhcmsgPSBmYWxzZTsKICAgICAgICAgICAgICAgIGlmICh3aW5kb3cuSE9PSyAmJiB3aW5kb3cuSE9PSy5pc05pZ2h0TW9kZSkgewogICAgICAgICAgICAgICAgICAgIHRyeSB7IGlzRGFyayA9IHdpbmRvdy5IT09LLmlzTmlnaHRNb2RlKCk7IH0gY2F0Y2ggKGUpIHsgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBpZiAod2luZG93Lm1hdGNoTWVkaWEgJiYgd2luZG93Lm1hdGNoTWVkaWEoJyhwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyayknKS5tYXRjaGVzKSBpc0RhcmsgPSB0cnVlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY29uc3QgYm9keSA9IGRvY3VtZW50LmJvZHk7CiAgICAgICAgICAgICAgICBpZiAoaXNEYXJrKSB7CiAgICAgICAgICAgICAgICAgICAgYm9keS5zZXRBdHRyaWJ1dGUoJ3RoZW1lLW1vZGUnLCAnZGFyaycpOwogICAgICAgICAgICAgICAgICAgIGlmICh3aW5kb3cuc2V0TW9kZSkgd2luZG93LnNldE1vZGUoJ2RhcmsnKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGJvZHkuaGFzQXR0cmlidXRlKCd0aGVtZS1tb2RlJykpIGJvZHkucmVtb3ZlQXR0cmlidXRlKCd0aGVtZS1tb2RlJyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKHdpbmRvdy5zZXRNb2RlKSB3aW5kb3cuc2V0TW9kZSgnbGlnaHQnKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfTsKICAgICAgICAgICAgYXBwbHlUaGVtZSgpOwoKICAgICAgICAgICAgY29uc3QgW3RhYnMsIHNldFRhYnNdID0gdXNlU3RhdGUoW10pOwogICAgICAgICAgICBjb25zdCBbbW9kZWxzTWFwLCBzZXRNb2RlbHNNYXBdID0gdXNlU3RhdGUoe30pOwoKICAgICAgICAgICAgLy8g5YiX6KGo5by556qX55u45YWz55qEIFN0YXRlCiAgICAgICAgICAgIGNvbnN0IFtzaGVldFZpc2libGUsIHNldFNoZWV0VmlzaWJsZV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgICAgICAgICAgIGNvbnN0IFtzaGVldENvbmZpZywgc2V0U2hlZXRDb25maWddID0gdXNlU3RhdGUoeyBtb2RlbENvZGU6ICcnLCBmaWVsZENvZGU6ICcnLCB0eXBlOiAnJywgdGl0bGU6ICcnLCBkZXNjOiAnJyB9KTsKICAgICAgICAgICAgY29uc3QgW3NoZWV0TGlzdCwgc2V0U2hlZXRMaXN0XSA9IHVzZVN0YXRlKFtdKTsgLy8g5a6M5pW05YiX6KGo5pWw5o2uCiAgICAgICAgICAgIGNvbnN0IFtzaGVldFNlYXJjaCwgc2V0U2hlZXRTZWFyY2hdID0gdXNlU3RhdGUoJycpOyAvLyDmkJzntKLlhbPplK7or40KICAgICAgICAgICAgY29uc3QgW3NlbGVjdGVkSWRzLCBzZXRTZWxlY3RlZElkc10gPSB1c2VTdGF0ZShuZXcgU2V0KCkpOyAvLyDpgInkuK3nmoRJROmbhuWQiAogICAgICAgICAgICBjb25zdCBbc2VsZWN0ZWRDb3VudHMsIHNldFNlbGVjdGVkQ291bnRzXSA9IHVzZVN0YXRlKHt9KTsgLy8gSUTlr7nlupTnmoTmlbDlgLwKCiAgICAgICAgICAgIC8vIOWIneWni+WMlgogICAgICAgICAgICB1c2VFZmZlY3QoKCkgPT4gewogICAgICAgICAgICAgICAgY29uc3QgdGFic0RhdGEgPSBnZXRUYWJzRGF0YSgpOwogICAgICAgICAgICAgICAgc2V0VGFicyh0YWJzRGF0YSk7CiAgICAgICAgICAgICAgICBjb25zdCBpbml0aWFsTWFwID0ge307CiAgICAgICAgICAgICAgICB0YWJzRGF0YS5mb3JFYWNoKHRhYiA9PiB7CiAgICAgICAgICAgICAgICAgICAgaW5pdGlhbE1hcFt0YWIubW9kZWxDb2RlXSA9IGdldE1vZGVsRGF0YSh0YWIubW9kZWxDb2RlKTsKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgc2V0TW9kZWxzTWFwKGluaXRpYWxNYXApOwogICAgICAgICAgICB9LCBbXSk7CgogICAgICAgICAgICBjb25zdCBoYW5kbGVGaWVsZENoYW5nZSA9IChtb2RlbENvZGUsIGZpZWxkQ29kZSwgbmV3VmFsdWUpID0+IHsKICAgICAgICAgICAgICAgIHNldE1vZGVsc01hcChwcmV2ID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBjdXJyZW50RmllbGRzID0gWy4uLnByZXZbbW9kZWxDb2RlXV07CiAgICAgICAgICAgICAgICAgICAgY29uc3QgZmllbGRJbmRleCA9IGN1cnJlbnRGaWVsZHMuZmluZEluZGV4KGYgPT4gZi5jb2RlID09PSBmaWVsZENvZGUpOwogICAgICAgICAgICAgICAgICAgIGlmIChmaWVsZEluZGV4ID4gLTEpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudEZpZWxkc1tmaWVsZEluZGV4XSA9IHsgLi4uY3VycmVudEZpZWxkc1tmaWVsZEluZGV4XSwgY29uZmlnVmFsdWU6IFN0cmluZyhuZXdWYWx1ZSkgfTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgY29uc3Qgc2F2ZVBheWxvYWQgPSB7fTsKICAgICAgICAgICAgICAgICAgICBjdXJyZW50RmllbGRzLmZvckVhY2goZiA9PiB7IHNhdmVQYXlsb2FkW2YuY29kZV0gPSB7IGNvbmZpZ1ZhbHVlOiBmLmNvbmZpZ1ZhbHVlIH07IH0pOwogICAgICAgICAgICAgICAgICAgIGlmICh3aW5kb3cuSE9PSyAmJiB3aW5kb3cuSE9PSy5zZXRNb2RlbCkgewogICAgICAgICAgICAgICAgICAgICAgICB3aW5kb3cuSE9PSy5zZXRNb2RlbChtb2RlbENvZGUsIEpTT04uc3RyaW5naWZ5KHNhdmVQYXlsb2FkKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiB7IC4uLnByZXYsIFttb2RlbENvZGVdOiBjdXJyZW50RmllbGRzIH07CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfTsKCiAgICAgICAgICAgIC8vIC0tLSDliJfooajlvLnnqpfpgLvovpEgKOWFs+mUruS/ruaUuemDqOWIhikgLS0tCgogICAgICAgICAgICBjb25zdCBvcGVuTGlzdFNoZWV0ID0gKG1vZGVsQ29kZSwgZmllbGRJdGVtKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCB7IGNvZGUsIG5hbWUsIHR5cGUsIGRlc2MsIGNvbmZpZ1ZhbHVlIH0gPSBmaWVsZEl0ZW07CgogICAgICAgICAgICAgICAgLy8gMS4g5YWI6I635Y+W5Y6f5aeL5pWw5o2uCiAgICAgICAgICAgICAgICBsZXQgbGlzdERhdGEgPSBnZXRGaWVsZERhdGEobW9kZWxDb2RlLCBjb2RlKTsKCiAgICAgICAgICAgICAgICAvLyAyLiDop6PmnpDlvZPliY3lt7LpgInkuK3nmoQgSUTvvIznlKjkuo7mjpLluo8KICAgICAgICAgICAgICAgIGNvbnN0IG5ld1NlbGVjdGVkSWRzID0gbmV3IFNldCgpOwogICAgICAgICAgICAgICAgY29uc3QgbmV3U2VsZWN0ZWRDb3VudHMgPSB7fTsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShjb25maWdWYWx1ZSk7CiAgICAgICAgICAgICAgICAgICAgaWYgKHR5cGUgPT09ICdTRUxFQ1QnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChBcnJheS5pc0FycmF5KHBhcnNlZCkpIHBhcnNlZC5mb3JFYWNoKGlkID0+IG5ld1NlbGVjdGVkSWRzLmFkZChpZCkpOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAodHlwZSA9PT0gJ1NFTEVDVF9BTkRfQ09VTlQnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChwYXJzZWQgJiYgdHlwZW9mIHBhcnNlZCA9PT0gJ29iamVjdCcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9iamVjdC5lbnRyaWVzKHBhcnNlZCkuZm9yRWFjaCgoW2lkLCBjb3VudF0pID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuZXdTZWxlY3RlZElkcy5hZGQoaWQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5ld1NlbGVjdGVkQ291bnRzW2lkXSA9IGNvdW50OwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlKSB7IGNvbnNvbGUuZXJyb3IoIlBhcnNlIGNvbmZpZyB2YWx1ZSBmYWlsZWQiLCBlKTsgfQoKICAgICAgICAgICAgICAgIC8vIDMuIOaJp+ihjOaOkuW6j++8muW3sumAieS4reeahOaOkuWcqOacgOWJjemdoiAo5Y+q5omn6KGM5LiA5qyhKQogICAgICAgICAgICAgICAgLy8gc29ydCDkvJrmlLnlj5jljp/mlbDnu4TvvIzov5nph4znm7TmjqXmk43kvZwgbGlzdERhdGEg5Y2z5Y+vCiAgICAgICAgICAgICAgICBsaXN0RGF0YS5zb3J0KChhLCBiKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgaXNBID0gbmV3U2VsZWN0ZWRJZHMuaGFzKGEuaWQpOwogICAgICAgICAgICAgICAgICAgIGNvbnN0IGlzQiA9IG5ld1NlbGVjdGVkSWRzLmhhcyhiLmlkKTsKICAgICAgICAgICAgICAgICAgICBpZiAoaXNBICYmICFpc0IpIHJldHVybiAtMTsgLy8gYSDlnKjliY0KICAgICAgICAgICAgICAgICAgICBpZiAoIWlzQSAmJiBpc0IpIHJldHVybiAxOyAgLy8gYiDlnKjliY0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gMDsgLy8g5L+d5oyB5Y6f6aG65bqPCiAgICAgICAgICAgICAgICB9KTsKCiAgICAgICAgICAgICAgICAvLyA0LiDlsIbmjpLlpb3luo/nmoTmlbDmja7orr7nva7liLAgU3RhdGUKICAgICAgICAgICAgICAgIHNldFNoZWV0TGlzdChsaXN0RGF0YSk7CiAgICAgICAgICAgICAgICBzZXRTaGVldENvbmZpZyh7IG1vZGVsQ29kZSwgZmllbGRDb2RlOiBjb2RlLCB0eXBlLCB0aXRsZTogbmFtZSwgZGVzYzogZGVzYyB9KTsKICAgICAgICAgICAgICAgIHNldFNoZWV0U2VhcmNoKCcnKTsKICAgICAgICAgICAgICAgIHNldFNlbGVjdGVkSWRzKG5ld1NlbGVjdGVkSWRzKTsKICAgICAgICAgICAgICAgIHNldFNlbGVjdGVkQ291bnRzKG5ld1NlbGVjdGVkQ291bnRzKTsKICAgICAgICAgICAgICAgIHNldFNoZWV0VmlzaWJsZSh0cnVlKTsKICAgICAgICAgICAgfTsKCiAgICAgICAgICAgIGNvbnN0IHNhdmVTaGVldCA9ICgpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IHsgbW9kZWxDb2RlLCBmaWVsZENvZGUsIHR5cGUgfSA9IHNoZWV0Q29uZmlnOwogICAgICAgICAgICAgICAgbGV0IG5ld1ZhbHVlU3RyID0gIiI7CiAgICAgICAgICAgICAgICBpZiAodHlwZSA9PT0gJ1NFTEVDVCcpIHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBhcnIgPSBBcnJheS5mcm9tKHNlbGVjdGVkSWRzKTsKICAgICAgICAgICAgICAgICAgICBuZXdWYWx1ZVN0ciA9IEpTT04uc3RyaW5naWZ5KGFycik7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IG9iaiA9IHt9OwogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkSWRzLmZvckVhY2goaWQgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBvYmpbaWRdID0gc2VsZWN0ZWRDb3VudHNbaWRdICE9PSB1bmRlZmluZWQgPyBzZWxlY3RlZENvdW50c1tpZF0gOiAwOwogICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgICAgIG5ld1ZhbHVlU3RyID0gSlNPTi5zdHJpbmdpZnkob2JqKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGhhbmRsZUZpZWxkQ2hhbmdlKG1vZGVsQ29kZSwgZmllbGRDb2RlLCBuZXdWYWx1ZVN0cik7CiAgICAgICAgICAgICAgICBzZXRTaGVldFZpc2libGUoZmFsc2UpOwogICAgICAgICAgICAgICAgVG9hc3Quc3VjY2Vzcygi5bey5L+d5a2Y5YiX6KGo6K6+572uIik7CiAgICAgICAgICAgIH07CgogICAgICAgICAgICBjb25zdCB0b2dnbGVJdGVtID0gKGlkLCBjaGVja2VkKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBuZXdJZHMgPSBuZXcgU2V0KHNlbGVjdGVkSWRzKTsKICAgICAgICAgICAgICAgIGlmIChjaGVja2VkKSB7CiAgICAgICAgICAgICAgICAgICAgbmV3SWRzLmFkZChpZCk7CiAgICAgICAgICAgICAgICAgICAgaWYgKHNoZWV0Q29uZmlnLnR5cGUgPT09ICdTRUxFQ1RfQU5EX0NPVU5UJyAmJiBzZWxlY3RlZENvdW50c1tpZF0gPT09IHVuZGVmaW5lZCkgewogICAgICAgICAgICAgICAgICAgICAgICBzZXRTZWxlY3RlZENvdW50cyhwcmV2ID0+ICh7IC4uLnByZXYsIFtpZF06IDEgfSkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgbmV3SWRzLmRlbGV0ZShpZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzZXRTZWxlY3RlZElkcyhuZXdJZHMpOwogICAgICAgICAgICB9OwoKICAgICAgICAgICAgY29uc3QgaGFuZGxlQ291bnRDaGFuZ2UgPSAoaWQsIHZhbCkgPT4gewogICAgICAgICAgICAgICAgc2V0U2VsZWN0ZWRDb3VudHMocHJldiA9PiAoeyAuLi5wcmV2LCBbaWRdOiB2YWwgfSkpOwogICAgICAgICAgICB9OwoKICAgICAgICAgICAgY29uc3QgdG9nZ2xlQWxsID0gKCkgPT4gewogICAgICAgICAgICAgICAgY29uc3QgZmlsdGVyZWRMaXN0ID0gc2hlZXRMaXN0LmZpbHRlcihpdGVtID0+IGl0ZW0ubmFtZS5pbmNsdWRlcyhzaGVldFNlYXJjaCkpOwogICAgICAgICAgICAgICAgY29uc3QgYWxsU2VsZWN0ZWQgPSBmaWx0ZXJlZExpc3QuZXZlcnkoaXRlbSA9PiBzZWxlY3RlZElkcy5oYXMoaXRlbS5pZCkpOwogICAgICAgICAgICAgICAgY29uc3QgbmV3SWRzID0gbmV3IFNldChzZWxlY3RlZElkcyk7CiAgICAgICAgICAgICAgICBmaWx0ZXJlZExpc3QuZm9yRWFjaChpdGVtID0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAoYWxsU2VsZWN0ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgbmV3SWRzLmRlbGV0ZShpdGVtLmlkKTsKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBuZXdJZHMuYWRkKGl0ZW0uaWQpOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2hlZXRDb25maWcudHlwZSA9PT0gJ1NFTEVDVF9BTkRfQ09VTlQnICYmIHNlbGVjdGVkQ291bnRzW2l0ZW0uaWRdID09PSB1bmRlZmluZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNldFNlbGVjdGVkQ291bnRzKHByZXYgPT4gKHsgLi4ucHJldiwgW2l0ZW0uaWRdOiAxIH0pKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgc2V0U2VsZWN0ZWRJZHMobmV3SWRzKTsKICAgICAgICAgICAgfTsKCiAgICAgICAgICAgIC8vIOa4suafk+i/h+a7pOWQjueahOWIl+ihqCAo5rOo5oSP77ya6L+Z6YeM5LiN5YaN5YyF5ZCr5o6S5bqP6YC76L6RKQogICAgICAgICAgICBjb25zdCByZW5kZXJTaGVldExpc3QgPSAoKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBmaWx0ZXJlZCA9IHNoZWV0TGlzdC5maWx0ZXIoaXRlbSA9PiBpdGVtLm5hbWUudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhzaGVldFNlYXJjaC50b0xvd2VyQ2FzZSgpKSk7CgogICAgICAgICAgICAgICAgaWYgKGZpbHRlcmVkLmxlbmd0aCA9PT0gMCkgcmV0dXJuIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogMjAsIHRleHRBbGlnbjogJ2NlbnRlcicsIGNvbG9yOiAnIzk5OScgfX0+5peg5pWw5o2uPC9kaXY+OwoKICAgICAgICAgICAgICAgIHJldHVybiBmaWx0ZXJlZC5tYXAoaXRlbSA9PiB7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgaXNDaGVja2VkID0gc2VsZWN0ZWRJZHMuaGFzKGl0ZW0uaWQpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtpdGVtLmlkfSBjbGFzc05hbWU9Imxpc3QtaXRlbSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGlzdC1pdGVtLWxlZnQiIG9uQ2xpY2s9eygpID0+IHRvZ2dsZUl0ZW0oaXRlbS5pZCwgIWlzQ2hlY2tlZCl9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxDaGVja2JveCBjaGVja2VkPXtpc0NoZWNrZWR9IHN0eWxlPXt7IHBvaW50ZXJFdmVudHM6ICdub25lJyB9fSAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibGlzdC1pdGVtLW5hbWUiPntpdGVtLm5hbWV9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c2hlZXRDb25maWcudHlwZSA9PT0gJ1NFTEVDVF9BTkRfQ09VTlQnICYmIGlzQ2hlY2tlZCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPElucHV0TnVtYmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibGlzdC1jb3VudC1pbnB1dCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZT0ic21hbGwiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbj17MH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3NlbGVjdGVkQ291bnRzW2l0ZW0uaWRdIHx8IDB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsodikgPT4gaGFuZGxlQ291bnRDaGFuZ2UoaXRlbS5pZCwgdil9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLmlbDph48iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfTsKCiAgICAgICAgICAgIC8vIC0tLSDmuLLmn5PkuLvnlYzpnaLphY3nva7pobkgLS0tCiAgICAgICAgICAgIGNvbnN0IHJlbmRlckZpZWxkSXRlbSA9IChtb2RlbENvZGUsIGl0ZW0pID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IHsgdHlwZSwgbmFtZSwgY29kZSwgY29uZmlnVmFsdWUsIGRlc2MsIGV4cGFuZEtleSB9ID0gaXRlbTsKICAgICAgICAgICAgICAgIGlmICh0eXBlID09PSAnQk9PTEVBTicpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmllbGQtcm93IiBrZXk9e2NvZGV9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpZWxkLWxhYmVsIj57bmFtZX08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaWVsZC1jb250cm9sIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8U3dpdGNoIGNoZWNrZWQ9e2NvbmZpZ1ZhbHVlID09PSAndHJ1ZSd9IG9uQ2hhbmdlPXsodikgPT4gaGFuZGxlRmllbGRDaGFuZ2UobW9kZWxDb2RlLCBjb2RlLCB2KX0gLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKFsnTVVMVElQTFlfSU5URUdFUicsICdMSVNUJywgJ0lOVEVHRVInLCAnU1RSSU5HJywgJ1RFWFQnXS5pbmNsdWRlcyh0eXBlKSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaWVsZC1yb3ciIGtleT17Y29kZX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmllbGQtbGFiZWwiPntuYW1lfTwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpZWxkLWNvbnRyb2wiIHN0eWxlPXt7IHdpZHRoOiAnNTAlJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXQgdmFsdWU9e2NvbmZpZ1ZhbHVlfSBvbkNoYW5nZT17KHYpID0+IGhhbmRsZUZpZWxkQ2hhbmdlKG1vZGVsQ29kZSwgY29kZSwgdil9IHBsYWNlaG9sZGVyPSLor7fovpPlhaUuLi4iIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICh0eXBlID09PSAnVVJMX1RFWFQnKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpZWxkLXJvdyIga2V5PXtjb2RlfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUZXh0IGxpbms9e3sgaHJlZjogY29uZmlnVmFsdWUgfX0+e25hbWV9PC9UZXh0PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKHR5cGUgPT09ICdDSE9JQ0UnKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiAnMTJweCAwJywgYm9yZGVyQm90dG9tOiAnMXB4IHNvbGlkIHZhcigtLXNlbWktY29sb3ItYm9yZGVyKScgfX0ga2V5PXtjb2RlfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgbWFyZ2luQm90dG9tOiA4LCBmb250V2VpZ2h0OiA2MDAsIGZvbnRTaXplOiAxNCwgY29sb3I6ICd2YXIoLS1zZW1pLWNvbG9yLXRleHQtMCknIH19PntuYW1lfTwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPFJhZGlvR3JvdXAgdHlwZT0iYnV0dG9uIiB2YWx1ZT17TnVtYmVyKGNvbmZpZ1ZhbHVlKX0gb25DaGFuZ2U9eyhlKSA9PiBoYW5kbGVGaWVsZENoYW5nZShtb2RlbENvZGUsIGNvZGUsIGUudGFyZ2V0LnZhbHVlKX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2V4cGFuZEtleSAmJiBleHBhbmRLZXkubWFwKChsYWJlbCwgaWR4KSA9PiAoPFJhZGlvIHZhbHVlPXtpZHh9IGtleT17aWR4fT57bGFiZWx9PC9SYWRpbz4pKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvUmFkaW9Hcm91cD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChbJ1NFTEVDVCcsICdTRUxFQ1RfQU5EX0NPVU5UJ10uaW5jbHVkZXModHlwZSkpIHsKICAgICAgICAgICAgICAgICAgICBsZXQgY291bnQgPSAwOwogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHBhcnNlZCA9IEpTT04ucGFyc2UoY29uZmlnVmFsdWUpOwogICAgICAgICAgICAgICAgICAgICAgICBjb3VudCA9IEFycmF5LmlzQXJyYXkocGFyc2VkKSA/IHBhcnNlZC5sZW5ndGggOiBPYmplY3Qua2V5cyhwYXJzZWQpLmxlbmd0aDsKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlKSB7IH0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmllbGQtcm93IiBrZXk9e2NvZGV9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpZWxkLWxhYmVsIj57bmFtZX08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaWVsZC1jb250cm9sIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uIHRoZW1lPSdzb2xpZCcgdHlwZT0nc2Vjb25kYXJ5JyBvbkNsaWNrPXsoKSA9PiBvcGVuTGlzdFNoZWV0KG1vZGVsQ29kZSwgaXRlbSl9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDlt7LpgIkge2NvdW50fSDpobkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICAgICAgfTsKCiAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGVhZGVyIj4KICAgICAgICAgICAgICAgICAgICAgICAgPFRpdGxlIGhlYWRpbmc9ezJ9IHN0eWxlPXt7IG1hcmdpbjogMCB9fT5TZXNhbWUtVEsg6K6+572uPC9UaXRsZT4KICAgICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiBkaXNhYmxlZCB0aGVtZT0iYm9yZGVybGVzcyI+5qyi6L+O5Yqg5YWl5oiR5Lus55qE57uE57uHPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUZXh0IHN0eWxlPXt7IG1hcmdpblJpZ2h0OiAxNSB9fSBsaW5rPXt7IGhyZWY6ICdodHRwczovL3QubWUvZmFuc2lyc3FpX3hwb3NlZF9zZXNhbWUnIH19PiDinqRURyA8L1RleHQ+IHwKICAgICAgICAgICAgICAgICAgICAgICAgPFRleHQgc3R5bGU9e3sgbWFyZ2luTGVmdDogMTUsIG1hcmdpblJpZ2h0OiAxNSB9fSBsaW5rPXt7IGhyZWY6ICdodHRwczovL3FtLnFxLmNvbS9xLzc0MERGUkdPWGUnIH19PiDinqRRUSA8L1RleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDxCdXR0b24gc3R5bGU9e3t9fSBvbkNsaWNrPXtzd2l0Y2hNb2RlfSA+IOWIh+aNouS4u+mimCA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxDb2xsYXBzZSBhY2NvcmRpb24gZGVmYXVsdEFjdGl2ZUtleT17dGFic1swXT8ubW9kZWxDb2RlfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHt0YWJzLm1hcCgodGFiKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPENvbGxhcHNlLlBhbmVsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcj17PGRpdiBzdHlsZT17eyBmb250V2VpZ2h0OiA2MDAgfX0+e3RhYi5tb2RlbE5hbWV9PC9kaXY+fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpdGVtS2V5PXt0YWIubW9kZWxDb2RlfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk9e3RhYi5tb2RlbENvZGV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge21vZGVsc01hcFt0YWIubW9kZWxDb2RlXSA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RlbHNNYXBbdGFiLm1vZGVsQ29kZV0ubWFwKGZpZWxkID0+IHJlbmRlckZpZWxkSXRlbSh0YWIubW9kZWxDb2RlLCBmaWVsZCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogMjAsIHRleHRBbGlnbjogJ2NlbnRlcicgfX0+5Yqg6L295LitLi4uPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L0NvbGxhcHNlLlBhbmVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvQ29sbGFwc2U+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogMjAsIHRleHRBbGlnbjogJ2NlbnRlcicgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRoZW1lPSdzb2xpZCcKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9J2RhbmdlcicKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJsb2NrCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHdpbmRvdy5IT09LICYmIHdpbmRvdy5IT09LLnNhdmVPbkV4aXQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2luZG93LkhPT0suc2F2ZU9uRXhpdCgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAod2luZG93LkFuZHJvaWQgJiYgd2luZG93LkFuZHJvaWQub25FeGl0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpbmRvdy5BbmRyb2lkLm9uRXhpdCgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCLmqKHmi586IOS/neWtmOW5tumAgOWHuiIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIOmAgOWHuuW5tuS/neWtmAogICAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgPFRleHQgc3R5bGU9e3sgbWFyZ2luVG9wOiAxNSwgY29sb3I6ICcjOTk5JywgZm9udFNpemU6IDEyIH19IGxpbms9e3sgaHJlZjogJ2h0dHBzOi8vZ2l0aHViLmNvbS9GYW5zaXJzcWkvU2VzYW1lLVRLJyB9fT4gR2l0aHVi5byA5rqQ5Zyw5Z2AIDwvVGV4dD4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBtYXJnaW5Ub3A6IDUsIGNvbG9yOiAnIzk5OScsIGZvbnRTaXplOiAxNCB9fT7wn6WzIFBvd2VyIGJ5IDxUZXh0IGxpbms9e3sgaHJlZjogJ2h0dHBzOi8vc2VtaS5kZXNpZ24vJyB9fT5TZW1pLkRlc2lnbjwvVGV4dD4gwqkgMjAyNS0xMi0xMSBXaXRoIDxUZXh0IGxpbms9e3sgaHJlZjogJ2h0dHBzOi8vZ2l0aHViLmNvbS9GYW5zaXJzcWknIH19PkJ5c2V2ZW4gT2ZmaWNhbDwvVGV4dD4gPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgbWFyZ2luVG9wOiA1LCBjb2xvcjogJyM5OTknLCBmb250U2l6ZTogMTQgfX0+VmVyOiB7d2luZG93LkhPT0suZ2V0QnVpbGRJbmZvKCl9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIHsvKiDkvqfovrnliJfooajlvLnnqpcgKi99CiAgICAgICAgICAgICAgICAgICAgPFNpZGVTaGVldAogICAgICAgICAgICAgICAgICAgICAgICB0aXRsZT17PHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDE2LCBmb250V2VpZ2h0OiA2MDAgfX0+e3NoZWV0Q29uZmlnLnRpdGxlfTwvc3Bhbj59CiAgICAgICAgICAgICAgICAgICAgICAgIHZpc2libGU9e3NoZWV0VmlzaWJsZX0KICAgICAgICAgICAgICAgICAgICAgICAgb25DYW5jZWw9eygpID0+IHNldFNoZWV0VmlzaWJsZShmYWxzZSl9CiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoPSIxMDAlIgogICAgICAgICAgICAgICAgICAgICAgICBwbGFjZW1lbnQ9InJpZ2h0IgogICAgICAgICAgICAgICAgICAgICAgICBib2R5U3R5bGU9e3sgcGFkZGluZzogMTAgfX0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUZXh0PntzaGVldENvbmZpZy5kZXNjfTwvVGV4dD4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiAnMTBweCAxNnB4JywgYm9yZGVyQm90dG9tOiAnMXB4IHNvbGlkIHZhcigtLXNlbWktY29sb3ItYm9yZGVyKScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmVmaXg9ezxJY29uU2VhcmNoIC8+fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLmkJzntKLlkI3np7AuLi4iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3NoZWV0U2VhcmNofQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtzZXRTaGVldFNlYXJjaH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IG1hcmdpblRvcDogMTAsIGRpc3BsYXk6ICdmbGV4JywganVzdGlmeUNvbnRlbnQ6ICdzcGFjZS1iZXR3ZWVuJywgYWxpZ25JdGVtczogJ2NlbnRlcicgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPENoZWNrYm94IG9uQ2hhbmdlPXt0b2dnbGVBbGx9IGNoZWNrZWQ9e2ZhbHNlfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg5YWo6YCJL+WPjemAiSAo5b2T5YmN5Y+v6KeBKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvQ2hlY2tib3g+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRleHQgc2l6ZT0ic21hbGwiIHR5cGU9InNlY29uZGFyeSI+5bey6YCJOiB7c2VsZWN0ZWRJZHMuc2l6ZX08L1RleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogJzAgMTZweCcsIG92ZXJmbG93WTogJ2F1dG8nLCBoZWlnaHQ6ICdjYWxjKDEwMHZoIC0gMTgwcHgpJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtyZW5kZXJTaGVldExpc3QoKX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaGVldC1mb290ZXIiIHN0eWxlPXt7IHBhZGRpbmc6ICcxNnB4JywganVzdGlmeUNvbnRlbnQ6ICdzcGFjZS1hcm91bmQnLCBwb3NpdGlvbjogJ2Fic29sdXRlJywgYm90dG9tOiAwLCB3aWR0aDogJzEwMCUnLCBiYWNrZ3JvdW5kOiAndmFyKC0tc2VtaS1jb2xvci1iZy0xKScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uIHN0eWxlPXt7IG1hcmdpblJpZ2h0OiAxMCB9fSBvbkNsaWNrPXsoKSA9PiBzZXRTaGVldFZpc2libGUoZmFsc2UpfT7lj5bmtog8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxCdXR0b24gdGhlbWU9InNvbGlkIiBvbkNsaWNrPXtzYXZlU2hlZXR9PuS/neWtmDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L1NpZGVTaGVldD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApOwogICAgICAgIH07CgogICAgICAgIFJlYWN0RE9NLnJlbmRlcig8QXBwIC8+LCBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYXBwJykpOwogICAgPC9zY3JpcHQ+CjwvYm9keT4KCjwvaHRtbD4=
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sesame Config - Semi Design</title>
+    <!-- 引入 Semi Design CSS -->
+    <link rel="stylesheet" href="./css/semi.min.css" />
+    <style>
+        body {
+            background-color: var(--semi-color-bg-0);
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--semi-color-bg-1);
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+            padding-bottom: 40px;
+        }
+
+        .header {
+            padding: 16px;
+            background: var(--semi-color-bg-2);
+            border-bottom: 1px solid var(--semi-color-border);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        body[theme-mode='dark'] .header {
+            background-color: rgba(22, 22, 26, 0.8);
+        }
+
+        .field-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--semi-color-border);
+        }
+
+        .field-row:last-child {
+            border-bottom: none;
+        }
+
+        .field-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--semi-color-text-0);
+            flex: 1;
+            padding-right: 12px;
+        }
+
+        .field-control {
+            flex-shrink: 0;
+            max-width: 60%;
+        }
+
+        .section-padding {
+            padding: 0 16px;
+        }
+
+        /* 列表弹窗样式 */
+        .list-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--semi-color-border);
+        }
+
+        .list-item-left {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .list-item-name {
+            margin-left: 10px;
+            font-size: 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: var(--semi-color-text-0);
+        }
+
+        .list-count-input {
+            width: 80px;
+            margin-left: 10px;
+        }
+
+        .sheet-footer {
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 16px;
+            border-top: 1px solid var(--semi-color-border);
+        }
+    </style>
+
+    <!-- React & ReactDOM -->
+    <script src="./js/react.development.js"></script>
+    <script src="./js/react-dom.development.js"></script>
+    <!-- Semi UI JS -->
+    <script src="./js/semi-ui.min.js"></script>
+    <!-- Semi Icons -->
+    <script src="./js/semi-icons.min.js"></script>
+    <!-- Babel -->
+    <script src="./js/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script type="text/babel">
+        const switchMode = () => {
+            const body = document.body;
+            if (body.hasAttribute('theme-mode')) {
+                body.removeAttribute('theme-mode');
+                window.setMode('light');
+            } else {
+                body.setAttribute('theme-mode', 'dark');
+                window.setMode('dark');
+            }
+        };
+        const { useState, useEffect, useMemo, useRef } = React;
+        const { Collapse, Switch, Input, RadioGroup, Radio, Button, Toast, SideSheet, Checkbox, InputNumber, Typography } = SemiUI;
+        const { IconSearch } = SemiIcons;
+        const { Title, Text } = Typography;
+
+        // --- Mock Data Wrappers ---
+        const getTabsData = () => {
+            try { return JSON.parse(window.HOOK.getTabs()); } catch (e) { return []; }
+        };
+
+        const getModelData = (code) => {
+            try { return JSON.parse(window.HOOK.getModel(code)); } catch (e) { return []; }
+        };
+
+        const getFieldData = (modelCode, fieldCode) => {
+            try {
+                const res = JSON.parse(window.HOOK.getField(modelCode, fieldCode));
+                return res.expandValue || [];
+            } catch (e) {
+                return [];
+            }
+        }
+
+        // --- Main Component ---
+        const App = () => {
+
+            // 1. 处理主题自动切换逻辑
+            const applyTheme = () => {
+                let isDark = false;
+                if (window.HOOK && window.HOOK.isNightMode) {
+                    try { isDark = window.HOOK.isNightMode(); } catch (e) { }
+                } else {
+                    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) isDark = true;
+                }
+                const body = document.body;
+                if (isDark) {
+                    body.setAttribute('theme-mode', 'dark');
+                    if (window.setMode) window.setMode('dark');
+                } else {
+                    if (body.hasAttribute('theme-mode')) body.removeAttribute('theme-mode');
+                    if (window.setMode) window.setMode('light');
+                }
+            };
+            applyTheme();
+
+            const [tabs, setTabs] = useState([]);
+            const [modelsMap, setModelsMap] = useState({});
+
+            // 列表弹窗相关的 State
+            const [sheetVisible, setSheetVisible] = useState(false);
+            const [sheetConfig, setSheetConfig] = useState({ modelCode: '', fieldCode: '', type: '', title: '', desc: '' });
+            const [sheetList, setSheetList] = useState([]); // 完整列表数据
+            const [sheetSearch, setSheetSearch] = useState(''); // 搜索关键词
+            const [selectedIds, setSelectedIds] = useState(new Set()); // 选中的ID集合
+            const [selectedCounts, setSelectedCounts] = useState({}); // ID对应的数值
+
+            // 初始化
+            useEffect(() => {
+                const tabsData = getTabsData();
+                setTabs(tabsData);
+                const initialMap = {};
+                tabsData.forEach(tab => {
+                    initialMap[tab.modelCode] = getModelData(tab.modelCode);
+                });
+                setModelsMap(initialMap);
+            }, []);
+
+            const handleFieldChange = (modelCode, fieldCode, newValue) => {
+                setModelsMap(prev => {
+                    const currentFields = [...prev[modelCode]];
+                    const fieldIndex = currentFields.findIndex(f => f.code === fieldCode);
+                    if (fieldIndex > -1) {
+                        currentFields[fieldIndex] = { ...currentFields[fieldIndex], configValue: String(newValue) };
+                    }
+                    const savePayload = {};
+                    currentFields.forEach(f => { savePayload[f.code] = { configValue: f.configValue }; });
+                    if (window.HOOK && window.HOOK.setModel) {
+                        window.HOOK.setModel(modelCode, JSON.stringify(savePayload));
+                    }
+                    return { ...prev, [modelCode]: currentFields };
+                });
+            };
+
+            // --- 列表弹窗逻辑 (关键修改部分) ---
+
+            const openListSheet = (modelCode, fieldItem) => {
+                const { code, name, type, desc, configValue } = fieldItem;
+
+                // 1. 先获取原始数据
+                let listData = getFieldData(modelCode, code);
+
+                // 2. 解析当前已选中的 ID，用于排序
+                const newSelectedIds = new Set();
+                const newSelectedCounts = {};
+                try {
+                    const parsed = JSON.parse(configValue);
+                    if (type === 'SELECT') {
+                        if (Array.isArray(parsed)) parsed.forEach(id => newSelectedIds.add(id));
+                    } else if (type === 'SELECT_AND_COUNT') {
+                        if (parsed && typeof parsed === 'object') {
+                            Object.entries(parsed).forEach(([id, count]) => {
+                                newSelectedIds.add(id);
+                                newSelectedCounts[id] = count;
+                            });
+                        }
+                    }
+                } catch (e) { console.error("Parse config value failed", e); }
+
+                // 3. 执行排序：已选中的排在最前面 (只执行一次)
+                // sort 会改变原数组，这里直接操作 listData 即可
+                listData.sort((a, b) => {
+                    const isA = newSelectedIds.has(a.id);
+                    const isB = newSelectedIds.has(b.id);
+                    if (isA && !isB) return -1; // a 在前
+                    if (!isA && isB) return 1;  // b 在前
+                    return 0; // 保持原顺序
+                });
+
+                // 4. 将排好序的数据设置到 State
+                setSheetList(listData);
+                setSheetConfig({ modelCode, fieldCode: code, type, title: name, desc: desc });
+                setSheetSearch('');
+                setSelectedIds(newSelectedIds);
+                setSelectedCounts(newSelectedCounts);
+                setSheetVisible(true);
+            };
+
+            const saveSheet = () => {
+                const { modelCode, fieldCode, type } = sheetConfig;
+                let newValueStr = "";
+                if (type === 'SELECT') {
+                    const arr = Array.from(selectedIds);
+                    newValueStr = JSON.stringify(arr);
+                } else {
+                    const obj = {};
+                    selectedIds.forEach(id => {
+                        obj[id] = selectedCounts[id] !== undefined ? selectedCounts[id] : 0;
+                    });
+                    newValueStr = JSON.stringify(obj);
+                }
+                handleFieldChange(modelCode, fieldCode, newValueStr);
+                setSheetVisible(false);
+                Toast.success("已保存列表设置");
+            };
+
+            const toggleItem = (id, checked) => {
+                const newIds = new Set(selectedIds);
+                if (checked) {
+                    newIds.add(id);
+                    if (sheetConfig.type === 'SELECT_AND_COUNT' && selectedCounts[id] === undefined) {
+                        setSelectedCounts(prev => ({ ...prev, [id]: 1 }));
+                    }
+                } else {
+                    newIds.delete(id);
+                }
+                setSelectedIds(newIds);
+            };
+
+            const handleCountChange = (id, val) => {
+                setSelectedCounts(prev => ({ ...prev, [id]: val }));
+            };
+
+            const toggleAll = () => {
+                const filteredList = sheetList.filter(item => item.name.includes(sheetSearch));
+                const allSelected = filteredList.every(item => selectedIds.has(item.id));
+                const newIds = new Set(selectedIds);
+                filteredList.forEach(item => {
+                    if (allSelected) {
+                        newIds.delete(item.id);
+                    } else {
+                        newIds.add(item.id);
+                        if (sheetConfig.type === 'SELECT_AND_COUNT' && selectedCounts[item.id] === undefined) {
+                            setSelectedCounts(prev => ({ ...prev, [item.id]: 1 }));
+                        }
+                    }
+                });
+                setSelectedIds(newIds);
+            };
+
+            // 渲染过滤后的列表 (注意：这里不再包含排序逻辑)
+            const renderSheetList = () => {
+                const filtered = sheetList.filter(item => item.name.toLowerCase().includes(sheetSearch.toLowerCase()));
+
+                if (filtered.length === 0) return <div style={{ padding: 20, textAlign: 'center', color: '#999' }}>无数据</div>;
+
+                return filtered.map(item => {
+                    const isChecked = selectedIds.has(item.id);
+                    return (
+                        <div key={item.id} className="list-item">
+                            <div className="list-item-left" onClick={() => toggleItem(item.id, !isChecked)}>
+                                <Checkbox checked={isChecked} style={{ pointerEvents: 'none' }} />
+                                <span className="list-item-name">{item.name}</span>
+                            </div>
+                            {sheetConfig.type === 'SELECT_AND_COUNT' && isChecked && (
+                                <InputNumber
+                                    className="list-count-input"
+                                    size="small"
+                                    min={0}
+                                    value={selectedCounts[item.id] || 0}
+                                    onChange={(v) => handleCountChange(item.id, v)}
+                                    placeholder="数量"
+                                />
+                            )}
+                        </div>
+                    );
+                });
+            };
+
+            // --- 渲染主界面配置项 ---
+            const renderFieldItem = (modelCode, item) => {
+                const { type, name, code, configValue, desc, expandKey } = item;
+                if (type === 'BOOLEAN') {
+                    return (
+                        <div className="field-row" key={code}>
+                            <div className="field-label">{name}</div>
+                            <div className="field-control">
+                                <Switch checked={configValue === 'true'} onChange={(v) => handleFieldChange(modelCode, code, v)} />
+                            </div>
+                        </div>
+                    );
+                }
+                if (['MULTIPLY_INTEGER', 'LIST', 'INTEGER', 'STRING', 'TEXT'].includes(type)) {
+                    return (
+                        <div className="field-row" key={code}>
+                            <div className="field-label">{name}</div>
+                            <div className="field-control" style={{ width: '50%' }}>
+                                <Input value={configValue} onChange={(v) => handleFieldChange(modelCode, code, v)} placeholder="请输入..." />
+                            </div>
+                        </div>
+                    );
+                }
+                if (type === 'URL_TEXT') {
+                    return (
+                        <div className="field-row" key={code}>
+                            <Text link={{ href: configValue }}>{name}</Text>
+                        </div>
+                    );
+                }
+                if (type === 'CHOICE') {
+                    return (
+                        <div style={{ padding: '12px 0', borderBottom: '1px solid var(--semi-color-border)' }} key={code}>
+                            <div style={{ marginBottom: 8, fontWeight: 600, fontSize: 14, color: 'var(--semi-color-text-0)' }}>{name}</div>
+                            <RadioGroup type="button" value={Number(configValue)} onChange={(e) => handleFieldChange(modelCode, code, e.target.value)}>
+                                {expandKey && expandKey.map((label, idx) => (<Radio value={idx} key={idx}>{label}</Radio>))}
+                            </RadioGroup>
+                        </div>
+                    );
+                }
+                if (['SELECT', 'SELECT_AND_COUNT'].includes(type)) {
+                    let count = 0;
+                    try {
+                        const parsed = JSON.parse(configValue);
+                        count = Array.isArray(parsed) ? parsed.length : Object.keys(parsed).length;
+                    } catch (e) { }
+                    return (
+                        <div className="field-row" key={code}>
+                            <div className="field-label">{name}</div>
+                            <div className="field-control">
+                                <Button theme='solid' type='secondary' onClick={() => openListSheet(modelCode, item)}>
+                                    已选 {count} 项
+                                </Button>
+                            </div>
+                        </div>
+                    )
+                }
+                return null;
+            };
+
+            return (
+                <div className="container">
+                    <div className="header">
+                        <Title heading={2} style={{ margin: 0 }}>Sesame-TK 设置</Title>
+                        <Button disabled theme="borderless">欢迎加入我们的组织</Button>
+                        <Text style={{ marginRight: 15 }} link={{ href: 'https://t.me/fansirsqi_xposed_sesame' }}> ➤TG </Text> |
+                        <Text style={{ marginLeft: 15, marginRight: 15 }} link={{ href: 'https://qm.qq.com/q/740DFRGOXe' }}> ➤QQ </Text>
+                        <Button style={{}} onClick={switchMode} > 切换主题 </Button>
+                    </div>
+
+                    <div className="section-padding">
+                        <Collapse accordion defaultActiveKey={tabs[0]?.modelCode}>
+                            {tabs.map((tab) => (
+                                <Collapse.Panel
+                                    header={<div style={{ fontWeight: 600 }}>{tab.modelName}</div>}
+                                    itemKey={tab.modelCode}
+                                    key={tab.modelCode}
+                                >
+                                    <div>
+                                        {modelsMap[tab.modelCode] ? (
+                                            modelsMap[tab.modelCode].map(field => renderFieldItem(tab.modelCode, field))
+                                        ) : (
+                                            <div style={{ padding: 20, textAlign: 'center' }}>加载中...</div>
+                                        )}
+                                    </div>
+                                </Collapse.Panel>
+                            ))}
+                        </Collapse>
+                    </div>
+
+                    <div style={{ padding: 20, textAlign: 'center' }}>
+                        <Button
+                            theme='solid'
+                            type='danger'
+                            block
+                            onClick={() => {
+                                if (window.HOOK && window.HOOK.saveOnExit) {
+                                    window.HOOK.saveOnExit();
+                                } else if (window.Android && window.Android.onExit) {
+                                    window.Android.onExit();
+                                } else {
+                                    console.log("模拟: 保存并退出");
+                                }
+                            }}
+                        >
+                            退出并保存
+                        </Button>
+                        <Text style={{ marginTop: 15, color: '#999', fontSize: 12 }} link={{ href: 'https://github.com/Fansirsqi/Sesame-TK' }}> Github开源地址 </Text>
+                        <div style={{ marginTop: 5, color: '#999', fontSize: 14 }}>🥳 Power by <Text link={{ href: 'https://semi.design/' }}>Semi.Design</Text> © 2025-12-11 With <Text link={{ href: 'https://github.com/Fansirsqi' }}>Byseven Offical</Text> </div>
+                        <div style={{ marginTop: 5, color: '#999', fontSize: 14 }}>Ver: {window.HOOK.getBuildInfo()}</div>
+                    </div>
+
+                    {/* 侧边列表弹窗 */}
+                    <SideSheet
+                        title={<span style={{ fontSize: 16, fontWeight: 600 }}>{sheetConfig.title}</span>}
+                        visible={sheetVisible}
+                        onCancel={() => setSheetVisible(false)}
+                        width="100%"
+                        placement="right"
+                        bodyStyle={{ padding: 10 }}
+                    >
+                        <Text>{sheetConfig.desc}</Text>
+                        <div style={{ padding: '10px 16px', borderBottom: '1px solid var(--semi-color-border)' }}>
+                            <Input
+                                prefix={<IconSearch />}
+                                placeholder="搜索名称..."
+                                value={sheetSearch}
+                                onChange={setSheetSearch}
+                            />
+                            <div style={{ marginTop: 10, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                <Checkbox onChange={toggleAll} checked={false}>
+                                    全选/反选 (当前可见)
+                                </Checkbox>
+                                <Text size="small" type="secondary">已选: {selectedIds.size}</Text>
+                            </div>
+                        </div>
+                        <div style={{ padding: '0 16px', overflowY: 'auto', height: 'calc(100vh - 180px)' }}>
+                            {renderSheetList()}
+                        </div>
+                        <div className="sheet-footer" style={{ padding: '16px', justifyContent: 'space-around', position: 'absolute', bottom: 0, width: '100%', background: 'var(--semi-color-bg-1)' }}>
+                            <Button style={{ marginRight: 10 }} onClick={() => setSheetVisible(false)}>取消</Button>
+                            <Button theme="solid" onClick={saveSheet}>保存</Button>
+                        </div>
+                    </SideSheet>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<App />, document.getElementById('app'));
+    </script>
+</body>
+
+</html>

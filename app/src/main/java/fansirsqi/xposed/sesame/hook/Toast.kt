@@ -1,1 +1,74 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQub3MuSGFuZGxlcgppbXBvcnQgYW5kcm9pZC5vcy5Mb29wZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLkJhc2VNb2RlbC5Db21wYW5pb24uc2hvd1RvYXN0CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5CYXNlTW9kZWwuQ29tcGFuaW9uLnRvYXN0UGVyZml4CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Ub2FzdFV0aWwKCm9iamVjdCBUb2FzdCB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUc6IFN0cmluZyA9ICJUb2FzdCIKCgogICAgLyoqCiAgICAgKiDmmL7npLogVG9hc3Qg5raI5oGvCiAgICAgKgogICAgICogQHBhcmFtIG1lc3NhZ2Ug6KaB5pi+56S655qE5raI5oGvCiAgICAgKi8KICAgIEBKdm1PdmVybG9hZHMKICAgIGZ1biBzaG93KG1lc3NhZ2U6IFN0cmluZz8sIGZvcmNlOiBCb29sZWFuID0gZmFsc2UpIHsKICAgICAgICB2YWwgY29udGV4dCA9IEFwcGxpY2F0aW9uSG9vay5hcHBDb250ZXh0CiAgICAgICAgaWYgKGNvbnRleHQgPT0gbnVsbCkgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiQ29udGV4dCBpcyBudWxsLCBjYW5ub3Qgc2hvdyB0b2FzdCAkbWVzc2FnZSIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YXIgZmluYWxNZXNzYWdlID0gbWVzc2FnZQogICAgICAgIHZhbCBzaG91bGRTaG93ID0gc2hvd1RvYXN0LnZhbHVlCiAgICAgICAgdmFsIHBlcmZpeCA9IHRvYXN0UGVyZml4LnZhbHVlCiAgICAgICAgaWYgKCFwZXJmaXguaXNOdWxsT3JCbGFuaygpICYmIHBlcmZpeCAhPSAibnVsbCIpIHsKICAgICAgICAgICAgZmluYWxNZXNzYWdlID0gIiRwZXJmaXg6JG1lc3NhZ2UiCiAgICAgICAgfQogICAgICAgIGlmIChzaG91bGRTaG93KSB7CiAgICAgICAgICAgIGRpc3BsYXlUb2FzdChjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCwgZmluYWxNZXNzYWdlKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOaYvuekuiBUb2FzdCDmtojmga/vvIjnoa7kv53lnKjkuLvnur/nqIvkuK3osIPnlKjvvIkKICAgICAqCiAgICAgKiBAcGFyYW0gY29udGV4dCDkuIrkuIvmlocKICAgICAqIEBwYXJhbSBtZXNzYWdlIOimgeaYvuekuueahOa2iOaBrwogICAgICovCiAgICBwcml2YXRlIGZ1biBkaXNwbGF5VG9hc3QoY29udGV4dDogQ29udGV4dD8sIG1lc3NhZ2U6IENoYXJTZXF1ZW5jZT8pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgbWFpbkhhbmRsZXIgPSBIYW5kbGVyKExvb3Blci5nZXRNYWluTG9vcGVyKCkpCiAgICAgICAgICAgIGlmIChMb29wZXIubXlMb29wZXIoKSA9PSBMb29wZXIuZ2V0TWFpbkxvb3BlcigpKSB7CiAgICAgICAgICAgICAgICAvLyDlpoLmnpzlvZPliY3nur/nqIvmmK/kuLvnur/nqIvvvIznm7TmjqXmmL7npLoKICAgICAgICAgICAgICAgIGNyZWF0ZUFuZFNob3dUb2FzdChjb250ZXh0LCBtZXNzYWdlKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgLy8g5Zyo6Z2e5Li757q/56iL77yM6YCa6L+HIEhhbmRsZXIg5YiH5o2i5Yiw5Li757q/56iLCiAgICAgICAgICAgICAgICBtYWluSGFuZGxlci5wb3N0IHsgY3JlYXRlQW5kU2hvd1RvYXN0KGNvbnRleHQsIG1lc3NhZ2UpIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgImRpc3BsYXlUb2FzdCBlcnI6IiwgdCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDliJvlu7rlubbmmL7npLogVG9hc3QKICAgICAqCiAgICAgKiBAcGFyYW0gY29udGV4dCDkuIrkuIvmlocKICAgICAqIEBwYXJhbSBtZXNzYWdlIOimgeaYvuekuueahOa2iOaBrwogICAgICovCiAgICBwcml2YXRlIGZ1biBjcmVhdGVBbmRTaG93VG9hc3QoY29udGV4dDogQ29udGV4dD8sIG1lc3NhZ2U6IENoYXJTZXF1ZW5jZT8pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgdG9hc3QgPSBhbmRyb2lkLndpZGdldC5Ub2FzdC5tYWtlVGV4dChjb250ZXh0LCBtZXNzYWdlLCBhbmRyb2lkLndpZGdldC5Ub2FzdC5MRU5HVEhfU0hPUlQpCiAgICAgICAgICAgIFRvYXN0VXRpbC5zZXRUb2FzdEdyYXZpdHkodG9hc3QpCiAgICAgICAgICAgIHRvYXN0LnNob3coKQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgImNyZWF0ZUFuZFNob3dUb2FzdCBlcnI6IiwgdCkKICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.hook
+
+import android.content.Context
+import android.os.Handler
+import android.os.Looper
+import fansirsqi.xposed.sesame.model.BaseModel.Companion.showToast
+import fansirsqi.xposed.sesame.model.BaseModel.Companion.toastPerfix
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ToastUtil
+
+object Toast {
+    private const val TAG: String = "Toast"
+
+
+    /**
+     * 显示 Toast 消息
+     *
+     * @param message 要显示的消息
+     */
+    @JvmOverloads
+    fun show(message: String?, force: Boolean = false) {
+        val context = ApplicationHook.appContext
+        if (context == null) {
+            Log.error(TAG, "Context is null, cannot show toast $message")
+            return
+        }
+        var finalMessage = message
+        val shouldShow = showToast.value
+        val perfix = toastPerfix.value
+        if (!perfix.isNullOrBlank() && perfix != "null") {
+            finalMessage = "$perfix:$message"
+        }
+        if (shouldShow) {
+            displayToast(context.applicationContext, finalMessage)
+        }
+    }
+
+    /**
+     * 显示 Toast 消息（确保在主线程中调用）
+     *
+     * @param context 上下文
+     * @param message 要显示的消息
+     */
+    private fun displayToast(context: Context?, message: CharSequence?) {
+        try {
+            val mainHandler = Handler(Looper.getMainLooper())
+            if (Looper.myLooper() == Looper.getMainLooper()) {
+                // 如果当前线程是主线程，直接显示
+                createAndShowToast(context, message)
+            } else {
+                // 在非主线程，通过 Handler 切换到主线程
+                mainHandler.post { createAndShowToast(context, message) }
+            }
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, "displayToast err:", t)
+        }
+    }
+
+    /**
+     * 创建并显示 Toast
+     *
+     * @param context 上下文
+     * @param message 要显示的消息
+     */
+    private fun createAndShowToast(context: Context?, message: CharSequence?) {
+        try {
+            val toast = android.widget.Toast.makeText(context, message, android.widget.Toast.LENGTH_SHORT)
+            ToastUtil.setToastGravity(toast)
+            toast.show()
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, "createAndShowToast err:", t)
+        }
+    }
+}

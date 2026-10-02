@@ -1,1 +1,10 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHM7Ci8qKgogKiDlkIjnp41JROaYoOWwhOW3peWFt+exu+OAggogKi8KcHVibGljIGNsYXNzIENvb3BlcmF0ZU1hcCBleHRlbmRzIElkTWFwTWFuYWdlciB7CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgdGhpc0ZpbGVOYW1lKCkgewogICAgICAgIHJldHVybiAiY29vcGVyYXRlTWFwLmpzb24iOy8v5ZCI56eNSUTmmKDlsITmlofku7blkI0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.util.maps;
+/**
+ * 合种ID映射工具类。
+ */
+public class CooperateMap extends IdMapManager {
+    @Override
+    public String thisFileName() {
+        return "cooperateMap.json";//合种ID映射文件名
+    }
+}

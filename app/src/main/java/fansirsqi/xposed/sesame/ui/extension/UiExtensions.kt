@@ -1,1 +1,78 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5leHRlbnNpb24KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkLndpZGdldC5Ub2FzdAppbXBvcnQgYW5kcm9pZHguY29yZS5uZXQudG9VcmkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5Vc2VyRW50aXR5CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5TZXR0aW5nQWN0aXZpdHkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLldlYlNldHRpbmdzQWN0aXZpdHkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLm1vZGVsLlVpTW9kZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkucmVwb3NpdG9yeS5Db25maWdSZXBvc2l0b3J5CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkRldGVjdG9yCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Ub2FzdFV0aWwKCi8qKgogKiDmianlsZXlh73mlbDvvJrmiZPlvIDmtY/op4jlmagKICovCgpmdW4gQ29udGV4dC5vcGVuVXJsKHVybDogU3RyaW5nKSB7CiAgICB0cnkgewogICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQoSW50ZW50LkFDVElPTl9WSUVXLCB1cmwudG9VcmkoKSkKICAgICAgICBzdGFydEFjdGl2aXR5KGludGVudCkKICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgIFRvYXN0Lm1ha2VUZXh0KHRoaXMsICLmnKrmib7liLDlj6/nlKjnmoTmtY/op4jlmagiLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgfQp9CgpmdW4gam9pblFRR3JvdXAoY29udGV4dDogQ29udGV4dCkgewogICAgdmFsIGludGVudCA9IEludGVudCgpCi8vICAgIGludGVudC5kYXRhID0gVXJpLnBhcnNlKCJtcXFvcGVuc2RrYXBpOi8vYml6QWdlbnQvcW0vcXI/dXJsPWh0dHAlM0ElMkYlMkZxbS5xcS5jb20lMkZjZ2ktYmluJTJGcW0lMkZxciUzRmZyb20lM0RhcHAlMjZwJTNEYW5kcm9pZCUyNmp1bXBfZnJvbSUzRHdlYmFwaSUyNmslM0Qka2V5IikKICAgIC8vIOaIluiAheS9v+eUqOabtOmAmueUqOeahOWNj+iuru+8mgogICAgaW50ZW50LmRhdGEgPSBVcmkucGFyc2UoIm1xcWFwaTovL2NhcmQvc2hvd19wc2xjYXJkP3NyY190eXBlPWludGVybmFsJnZlcnNpb249MSZjYXJkX3R5cGU9Z3JvdXAmdWluPTEwMDI2MTY2NTIiKQovLyAgICBpbnRlbnQuZGF0YSA9IFVyaS5wYXJzZSgibXFxYXBpOi8vY2FyZC9zaG93X3BzbGNhcmQ/c3JjX3R5cGU9aW50ZXJuYWwmdmVyc2lvbj0xJnVpbj0xMDAyNjE2NjUyJmNhcmRfdHlwZT1ncm91cCZzb3VyY2U9cXJjb2RlIikKCiAgICB0cnkgewogICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShpbnRlbnQpCiAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAvLyDlpoLmnpzmsqHlronoo4UgUVEg5oiW5ZSk6LW35aSx6LSl77yM5Zue6YCA5Yiw5omT5byA572R6aG1CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHdlYkludGVudCA9IEludGVudChJbnRlbnQuQUNUSU9OX1ZJRVcsICJodHRwczovL3FtLnFxLmNvbS9xL0FqMFhieTZBR1EiLnRvVXJpKCkpIC8vIOi/memHjOeahCBVUkwg57uT5p6E5Y+v6IO96ZyA6KaB5qC55o2u5a6e6ZmF55Sf5oiQ55qE6ZO+5o6l6LCD5pW0CiAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eSh3ZWJJbnRlbnQpCiAgICAgICAgfSBjYXRjaCAoZTI6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBUb2FzdC5tYWtlVGV4dChjb250ZXh0LCAi5peg5rOV5omT5byA6ZO+5o6lIiwgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCkKICAgICAgICB9CiAgICB9Cn0KCgpmdW4gQ29udGV4dC5wZXJmb3JtTmF2aWdhdGlvblRvU2V0dGluZ3ModXNlcjogVXNlckVudGl0eSkgewogICAgaWYgKERldGVjdG9yLmxvYWRMaWJyYXJ5KCJjaGVja2VyIikpIHsKICAgICAgICBMb2cucmVjb3JkKCLovb3lhaXnlKjmiLfphY3nva4gJHt1c2VyLnNob3dOYW1lfSIpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8gMS4g44CQ5pS55Yqo54K544CR5LuO5LuT5bqT6I635Y+W5b2T5YmN5qih5byPCiAgICAgICAgICAgIHZhbCBjdXJyZW50TW9kZSA9IENvbmZpZ1JlcG9zaXRvcnkudWlNb2RlLnZhbHVlCiAgICAgICAgICAgIC8vIDIuIOOAkOaUueWKqOeCueOAkeiOt+WPluWvueW6lOeahCBBY3Rpdml0eSDnsbsgKOS9v+eUqOS4iumdouWumuS5ieeahOaJqeWxleWxnuaApykKICAgICAgICAgICAgdmFsIHRhcmdldEFjdGl2aXR5ID0gY3VycmVudE1vZGUudGFyZ2V0QWN0aXZpdHkKCiAgICAgICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQodGhpcywgdGFyZ2V0QWN0aXZpdHkpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHB1dEV4dHJhKCJ1c2VySWQiLCB1c2VyLnVzZXJJZCkKICAgICAgICAgICAgICAgIHB1dEV4dHJhKCJ1c2VyTmFtZSIsIHVzZXIuc2hvd05hbWUpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgc3RhcnRBY3Rpdml0eShpbnRlbnQpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIFRvYXN0VXRpbC5zaG93VG9hc3QodGhpcywgIuaXoOazleWQr+WKqOiuvue9rumhtemdojogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9IGVsc2UgewogICAgICAgIERldGVjdG9yLnRpcHModGhpcywgIue8uuWwkeW/heimgeS+nei1lu+8gSIpCiAgICB9Cn0KCnZhbCBVaU1vZGUudGFyZ2V0QWN0aXZpdHk6IENsYXNzPCo+CiAgICBnZXQoKSA9IHdoZW4gKHRoaXMpIHsKICAgICAgICBVaU1vZGUuV2ViIC0+IFdlYlNldHRpbmdzQWN0aXZpdHk6OmNsYXNzLmphdmEKICAgICAgICBVaU1vZGUuTmV3IC0+IFNldHRpbmdBY3Rpdml0eTo6Y2xhc3MuamF2YQogICAgfQoK
+package fansirsqi.xposed.sesame.ui.extension
+
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.widget.Toast
+import androidx.core.net.toUri
+import fansirsqi.xposed.sesame.entity.UserEntity
+import fansirsqi.xposed.sesame.ui.SettingActivity
+import fansirsqi.xposed.sesame.ui.WebSettingsActivity
+import fansirsqi.xposed.sesame.ui.model.UiMode
+import fansirsqi.xposed.sesame.ui.repository.ConfigRepository
+import fansirsqi.xposed.sesame.util.Detector
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ToastUtil
+
+/**
+ * 扩展函数：打开浏览器
+ */
+
+fun Context.openUrl(url: String) {
+    try {
+        val intent = Intent(Intent.ACTION_VIEW, url.toUri())
+        startActivity(intent)
+    } catch (_: Exception) {
+        Toast.makeText(this, "未找到可用的浏览器", Toast.LENGTH_SHORT).show()
+    }
+}
+
+fun joinQQGroup(context: Context) {
+    val intent = Intent()
+//    intent.data = Uri.parse("mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26jump_from%3Dwebapi%26k%3D$key")
+    // 或者使用更通用的协议：
+    intent.data = Uri.parse("mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=1002616652")
+//    intent.data = Uri.parse("mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1002616652&card_type=group&source=qrcode")
+
+    try {
+        context.startActivity(intent)
+    } catch (e: Exception) {
+        // 如果没安装 QQ 或唤起失败，回退到打开网页
+        try {
+            val webIntent = Intent(Intent.ACTION_VIEW, "https://qm.qq.com/q/Aj0Xby6AGQ".toUri()) // 这里的 URL 结构可能需要根据实际生成的链接调整
+            context.startActivity(webIntent)
+        } catch (e2: Exception) {
+            Toast.makeText(context, "无法打开链接", Toast.LENGTH_SHORT).show()
+        }
+    }
+}
+
+
+fun Context.performNavigationToSettings(user: UserEntity) {
+    if (Detector.loadLibrary("checker")) {
+        Log.record("载入用户配置 ${user.showName}")
+        try {
+            // 1. 【改动点】从仓库获取当前模式
+            val currentMode = ConfigRepository.uiMode.value
+            // 2. 【改动点】获取对应的 Activity 类 (使用上面定义的扩展属性)
+            val targetActivity = currentMode.targetActivity
+
+            val intent = Intent(this, targetActivity).apply {
+                putExtra("userId", user.userId)
+                putExtra("userName", user.showName)
+            }
+            startActivity(intent)
+        } catch (e: Exception) {
+            ToastUtil.showToast(this, "无法启动设置页面: ${e.message}")
+        }
+    } else {
+        Detector.tips(this, "缺少必要依赖！")
+    }
+}
+
+val UiMode.targetActivity: Class<*>
+    get() = when (this) {
+        UiMode.Web -> WebSettingsActivity::class.java
+        UiMode.New -> SettingActivity::class.java
+    }
+

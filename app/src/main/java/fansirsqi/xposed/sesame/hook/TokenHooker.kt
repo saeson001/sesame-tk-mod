@@ -1,1 +1,86 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5JZE1hcE1hbmFnZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5WaXBEYXRhSWRNYXAKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCm9iamVjdCBUb2tlbkhvb2tlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlRva2VuSG9va2VyIgoKICAgIC8qKgogICAgICog5pa55rOV5ZCNIC0+IGhhbmRsZXIKICAgICAqIOazqOaEj++8mui/memHjOS4jemcgOimgeaUue+8jEhhbmRsZXIg5LuN54S25Y+q5o6l5pS2IEpTT05PYmplY3TvvIxVc2VySWQg6YCa6L+H6Zet5YyF5ZyoIHN0YXJ0IOS4reS8oOWFpQogICAgICovCiAgICBwcml2YXRlIHZhbCBycGNIYW5kbGVyTWFwOiBNdXRhYmxlTWFwPFN0cmluZywgKEpTT05PYmplY3QpIC0+IFVuaXQ+ID0gbXV0YWJsZU1hcE9mKCkKCiAgICAvKioKICAgICAqIOWIneWni+WMluebkeWQrAogICAgICogQHBhcmFtIGN1cnJlbnRVc2VySWQg5LuOIEFwcGxpY2F0aW9uSG9vayDkvKDlhaXnmoTlvZPliY3nlKjmiLdJRAogICAgICovCiAgICBmdW4gc3RhcnQoY3VycmVudFVzZXJJZDogU3RyaW5nKSB7CiAgICAgICAgaWYgKGN1cnJlbnRVc2VySWQuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLinYwg5ZCv5Yqo5aSx6LSl77ya5Lyg5YWl55qEIFVzZXJJZCDkuLrnqboiKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgLy8g5rOo5YaM6JqC6JqB5bqE5ZutIFJlZmVyVG9rZW4g5oqT5Y+WCiAgICAgICAgLy8g6L+Z6YeMIHBhcmFtc0pzb24g5pivIEhvb2tVdGlsIOS8oOadpeeahAogICAgICAgIC8vIGN1cnJlbnRVc2VySWQg5pivIHN0YXJ0IOaWueazleS8oOi/m+adpeeahO+8iOmXreWMheaNleiOt++8iQogICAgICAgIHJlZ2lzdGVyUnBjSGFuZGxlcigiY29tLmFsaXBheS5hZGV4Y2hhbmdlLmFkLmZhY2FkZS54bGlnaHRQbHVnaW4iKSB7IHBhcmFtc0pzb24gLT4KICAgICAgICAgICAgaGFuZGxlQW50RmFybVRva2VuKGN1cnJlbnRVc2VySWQsIHBhcmFtc0pzb24pCiAgICAgICAgfQoKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKchSBWSVDkuJrliqHnm5HlkKzlt7LlkK/liqjvvIzlvZPliY3nu5HlrprnlKjmiLc6ICRjdXJyZW50VXNlcklkIikKICAgIH0KCiAgICAvKiog5rOo5YaMIFJQQyDlm57osIPlpITnkIblmaggKi8KICAgIGZ1biByZWdpc3RlclJwY0hhbmRsZXIobWV0aG9kTmFtZTogU3RyaW5nLCBoYW5kbGVyOiAoSlNPTk9iamVjdCkgLT4gVW5pdCkgewogICAgICAgIHJwY0hhbmRsZXJNYXBbbWV0aG9kTmFtZV0gPSBoYW5kbGVyCiAgICB9CgogICAgLyoqCiAgICAgKiDosIPnlKggaGFuZGxlcgogICAgICogSG9va1V0aWwg6LCD55So5q2k5pa55rOV5pe277yM5LiN6ZyA6KaB5LygIHVzZXJJZO+8jOWboOS4uuWug+W3sue7j+iiqyBzdGFydCDmlrnms5XigJzorrDkvY/igJ3kuoYKICAgICAqLwogICAgZnVuIGhhbmRsZVJwYyhtZXRob2Q6IFN0cmluZywgcGFyYW1zSnNvbjogSlNPTk9iamVjdCkgewogICAgICAgIHJwY0hhbmRsZXJNYXBbbWV0aG9kXT8uaW52b2tlKHBhcmFtc0pzb24pCiAgICB9CgogICAgLyoqCiAgICAgKiDlhbfkvZPkuJrliqHpgLvovpEKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gaGFuZGxlQW50RmFybVRva2VuKHVzZXJJZDogU3RyaW5nLCBwYXJhbXNKc29uOiBKU09OT2JqZWN0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHBvc2l0aW9uUmVxdWVzdCA9IHBhcmFtc0pzb24ub3B0SlNPTk9iamVjdCgicG9zaXRpb25SZXF1ZXN0IikgPzogcnVuIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLmnKrmib7liLAgcG9zaXRpb25SZXF1ZXN0IikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgcmVmZXJJbmZvID0gcG9zaXRpb25SZXF1ZXN0Lm9wdEpTT05PYmplY3QoInJlZmVySW5mbyIpID86IHJ1biB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5pyq5om+5YiwIHJlZmVySW5mbyIpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHRva2VuID0gcmVmZXJJbmZvLm9wdFN0cmluZygicmVmZXJUb2tlbiIsICIiKQogICAgICAgICAgICBpZiAodG9rZW4uaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAicmVmZXJUb2tlbiDkuLrnqboiKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOS/neWtmOmAu+i+kQogICAgICAgICAgICB2YWwgdmlwRGF0YSA9IElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShWaXBEYXRhSWRNYXA6OmNsYXNzLmphdmEpCiAgICAgICAgICAgIHZpcERhdGEubG9hZCh1c2VySWQpCiAgICAgICAgICAgIHZpcERhdGEuYWRkKCJBbnRGYXJtUmVmZXJUb2tlbiIsIHRva2VuKQoKICAgICAgICAgICAgaWYgKHZpcERhdGEuc2F2ZSh1c2VySWQpKSB7CiAgICAgICAgICAgICAgICBMb2cub3RoZXIoVEFHLCAi8J+OgSDmjZXojrfliLDomoLomoHluoTlm60gcmVmZXJUb2tlbiDlubblt7Lkv53lrZgsIHVpZD0kdXNlcklkIikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLkv53lrZggdmlwZGF0YS5qc29uIOWksei0pSwgdWlkPSR1c2VySWQiKQogICAgICAgICAgICB9CgogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi6Kej5p6QIHJlZmVyVG9rZW4g5byC5bi4OiAke2UubWVzc2FnZX0iKQogICAgICAgIH0KICAgIH0KfQ==
+package fansirsqi.xposed.sesame.hook
+
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.maps.IdMapManager
+import fansirsqi.xposed.sesame.util.maps.VipDataIdMap
+import org.json.JSONObject
+
+object TokenHooker {
+
+    private const val TAG = "TokenHooker"
+
+    /**
+     * 方法名 -> handler
+     * 注意：这里不需要改，Handler 仍然只接收 JSONObject，UserId 通过闭包在 start 中传入
+     */
+    private val rpcHandlerMap: MutableMap<String, (JSONObject) -> Unit> = mutableMapOf()
+
+    /**
+     * 初始化监听
+     * @param currentUserId 从 ApplicationHook 传入的当前用户ID
+     */
+    fun start(currentUserId: String) {
+        if (currentUserId.isEmpty()) {
+            Log.error(TAG, "❌ 启动失败：传入的 UserId 为空")
+            return
+        }
+        // 注册蚂蚁庄园 ReferToken 抓取
+        // 这里 paramsJson 是 HookUtil 传来的
+        // currentUserId 是 start 方法传进来的（闭包捕获）
+        registerRpcHandler("com.alipay.adexchange.ad.facade.xlightPlugin") { paramsJson ->
+            handleAntFarmToken(currentUserId, paramsJson)
+        }
+
+        Log.record(TAG, "✅ VIP业务监听已启动，当前绑定用户: $currentUserId")
+    }
+
+    /** 注册 RPC 回调处理器 */
+    fun registerRpcHandler(methodName: String, handler: (JSONObject) -> Unit) {
+        rpcHandlerMap[methodName] = handler
+    }
+
+    /**
+     * 调用 handler
+     * HookUtil 调用此方法时，不需要传 userId，因为它已经被 start 方法“记住”了
+     */
+    fun handleRpc(method: String, paramsJson: JSONObject) {
+        rpcHandlerMap[method]?.invoke(paramsJson)
+    }
+
+    /**
+     * 具体业务逻辑
+     */
+    private fun handleAntFarmToken(userId: String, paramsJson: JSONObject) {
+        try {
+            val positionRequest = paramsJson.optJSONObject("positionRequest") ?: run {
+                Log.error(TAG, "未找到 positionRequest")
+                return
+            }
+
+            val referInfo = positionRequest.optJSONObject("referInfo") ?: run {
+                Log.error(TAG, "未找到 referInfo")
+                return
+            }
+
+            val token = referInfo.optString("referToken", "")
+            if (token.isEmpty()) {
+                Log.error(TAG, "referToken 为空")
+                return
+            }
+
+            // 保存逻辑
+            val vipData = IdMapManager.getInstance(VipDataIdMap::class.java)
+            vipData.load(userId)
+            vipData.add("AntFarmReferToken", token)
+
+            if (vipData.save(userId)) {
+                Log.other(TAG, "🎁 捕获到蚂蚁庄园 referToken 并已保存, uid=$userId")
+            } else {
+                Log.error(TAG, "保存 vipdata.json 失败, uid=$userId")
+            }
+
+        } catch (e: Exception) {
+            Log.error(TAG, "解析 referToken 异常: ${e.message}")
+        }
+    }
+}

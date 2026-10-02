@@ -1,1 +1,97 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgovKioKICog6buY6K6k6buR5ZCN5Y2V5YiX6KGo77yI5YyF5ZCr5bi46KeB5peg5rOV5a6M5oiQ55qE5Lu75Yqh77yJCiAqCiAqIOS9v+eUqOaWueazle+8mgogKiAxLiDmo4Dmn6Xku7vliqHmmK/lkKblnKjpu5HlkI3ljZXkuK3vvIjmqKHns4rljLnphY3vvInvvJoKICogICAgaWYgKFRhc2tCbGFja2xpc3QuaXNUYXNrSW5CbGFja2xpc3QodGFza0luZm8pKSB7IOi3s+i/h+S7u+WKoSB9CiAqCiAqIDMuIOagueaNrumUmeivr+eggeiHquWKqOa3u+WKoOS7u+WKoeWIsOm7keWQjeWNle+8mgogKiAgICBUYXNrQmxhY2tsaXN0LmF1dG9BZGRUb0JsYWNrbGlzdCh0YXNrSWQsIHRhc2tUaXRsZSwgZXJyb3JDb2RlKQogKgogKiA0LiDmiYvliqjmt7vliqAv56e76Zmk5Lu75Yqh77yaCiAqICAgIFRhc2tCbGFja2xpc3QuYWRkVG9CbGFja2xpc3QodGFza0lkKQogKiAgICBUYXNrQmxhY2tsaXN0LnJlbW92ZUZyb21CbGFja2xpc3QodGFza0lkKQogKi8KdmFsIGRlZmF1bHRCbGFja2xpc3QgPSBzZXRPZigKICAgIC8vIOiKnem6u+S/oeeUqOS7u+WKoQogICAgIuavj+aXpeaWveiCpemihuawtOaenCIsICAgICAgICAgICAvLyDpnIDopoHmt5jlrp3mk43kvZwKICAgICLlnZrmjIHnp43msLTmnpwiLCAgICAgICAgICAgICAgLy8g6ZyA6KaB5reY5a6d5pON5L2cCiAgICAi5Z2a5oyB5Y67546p5LyR6Zey5bCP5ri45oiPIiwgICAgICAgLy8g6ZyA6KaB5ri45oiP5pON5L2cCiAgICAi5Y67QVFhcHDmj5Dpl64iLCAgICAgICAgICAgIC8vIOmcgOimgeS4i+i9vUFQUAogICAgIuWOu0FR5o+Q6ZeuIiwgICAgICAgICAgICAgICAvLyDpnIDopoHkuIvovb1BUFAKICAgICLlnZrmjIHnnIvnm7Tmkq3poobnpo/liKkiLCAgICAgICAgLy8g6ZyA6KaB5reY5a6d55u05pKtCiAgICAi5Y675reY6YeR5biB6YCb5LiA6YCbIiwgICAgICAgICAgLy8g6ZyA6KaB5reY5a6d5pON5L2cCiAgICAi5Z2a5oyB5pSS5L+d6Zqc6YeRIiwgICAgICAgICAgICAvLyDlj4LmlbDplJnor6/vvJpwcm9taXNlQWN0aXZpdHlFeHRDaGVjawogICAgIuiKnem6u+enn+i1geS4i+WNleW+l+iKnem6u+eykiIsICAgICAvLyDpnIDopoHnp5/otYHmk43kvZwKICAgICLljrvnjqnlsI/muLjmiI8iLCAgICAgICAgICAgICAgLy8g5Y+C5pWw6ZSZ6K+v77yacHJvbWlzZUFjdGl2aXR5RXh0Q2hlY2sKICAgICLmtY/op4jnp5/otYHllYblrrblsI/nqIvluo8iLCAgICAgICAvLyDpnIDopoHlsI/nqIvluo/mk43kvZwKICAgICLorqLpmIXlsI/nu4Tku7YiLCAgICAgICAgICAgICAgLy8g5Y+C5pWw6ZSZ6K+v77yacHJvbWlzZUFjdGl2aXR5RXh0Q2hlY2sKICAgICLnp58x56yU5Zu+5LmmIiwgICAgICAgICAgICAgICAvLyDlj4LmlbDplJnor6/vvJpwcm9taXNlQWN0aXZpdHlFeHRDaGVjawogICAgIuWOu+iuoumYheiKnem6u+Wwj+e7hOS7tiIsICAgICAgICAgLy8g5Y+C5pWw6ZSZ6K+v77yacHJvbWlzZUFjdGl2aXR5RXh0Q2hlY2sKICAgICLlnZrmjIHmlJLkv53pmpwiLCAgICAgICAgICAgICAgLy8g5Y+C5pWw6ZSZ6K+v77yacHJvbWlzZUFjdGl2aXR5RXh0Q2hlY2vvvIjkuI4i5Z2a5oyB5pSS5L+d6Zqc6YeRIuexu+S8vO+8jOmYsuatouWMuemFjemBl+a8j++8iQogICAgIumAm+enn+i1geS8muWcuiIsICAgICAgICAgICAgICAvLyDmk43kvZzlpKrpopHnuYHvvJpPUF9SRVBFQVRfQ0hFQ0sKICAgICLljrvoirHlkZfnv7vljaEiLCAgICAgICAgICAgICAgIC8vIOaTjeS9nOWkqumikee5ge+8mk9QX1JFUEVBVF9DSEVDSwogICAgIumAm+e9keWVhuemj+WIqSIsICAgICAgICAgICAgICAvLyDmk43kvZzlpKrpopHnuYHvvJpPUF9SRVBFQVRfQ0hFQ0sKICAgICLpoobop4bpopHnuqLljIUiLCAgICAgICAgICAgICAgLy8g5pON5L2c5aSq6aKR57mB77yaT1BfUkVQRUFUX0NIRUNLCiAgICAi6aKG54K56aSQ5LyY5oOgIiwgICAgICAgICAgICAgICAvLyDmk43kvZzlpKrpopHnuYHvvJpPUF9SRVBFQVRfQ0hFQ0sKICAgICLljrvmipvnq7/pkpPpsbwiLCAgICAgICAgICAgICAgLy8g5pON5L2c5aSq6aKR57mB77yaT1BfUkVQRUFUX0NIRUNLCiAgICAi6YCb5ZWG5a6256ev5YiG5YWR5aW954mpIiwgICAgICAgICAvLyDmk43kvZzlpKrpopHnuYHvvJpPUF9SRVBFQVRfQ0hFQ0sKICAgICLlnZrmjIHmtY/op4jkuZDmuLjorrAiLCAgICAgICAgICAgLy8g5pON5L2c5aSq6aKR57mB77yaT1BfUkVQRUFUX0NIRUNLCiAgICAi5Y675L2T6aqM5YWI55So5ZCO5LuYIiwgICAgICAgICAgIC8vIOaTjeS9nOWkqumikee5ge+8mk9QX1JFUEVBVF9DSEVDSwogICAgIjAuMeWFg+i1t+enn+S8muWRmOaUkueykiIsICAgICAgICAvLyDlj4LmlbDplJnor6/vvJpJTExFR0FMX0FSR1VNRU5UCiAgICAi5a6M5oiQ5pen6KGj5Zue5pS25b6X546w6YeRIiwgICAgICAgIC8vIOWPguaVsOmUmeivr++8mklMTEVHQUxfQVJHVU1FTlQKICAgICLlnZrmjIHliLfop4bpopHotZrnpo/liKkiLCAgICAgICAgIC8vIOWtmOWcqOi/m+ihjOS4reeahOeUn+a0u+iusOW9le+8mlBST01JU0VfSEFTX1BST0NFU1NJTkdfVEVNUExBVEUKICAgICLljrvpoobnm67moIflupTnlKjnp6/liIYiLCAgICAgICAgICAgLy8g5a2Y5Zyo6L+b6KGM5Lit55qE55Sf5rS76K6w5b2V77yaUFJPTUlTRV9IQVNfUFJPQ0VTU0lOR19URU1QTEFURQogICAgIuWOu+WPguS4juiKseWRl+a0u+WKqCIsICAgICAgICAgICAvLyDlrZjlnKjov5vooYzkuK3nmoTnlJ/mtLvorrDlvZXvvJpQUk9NSVNFX0hBU19QUk9DRVNTSU5HX1RFTVBMQVRFCiAgICAi6YCb572R5ZWG6aKG56aP5Yip6YeRIiwgICAgICAgICAgIC8vIOWtmOWcqOi/m+ihjOS4reeahOeUn+a0u+iusOW9le+8mlBST01JU0VfSEFTX1BST0NFU1NJTkdfVEVNUExBVEUKICAgICLljrvmtY/op4jnp5/otYHlpKfkv4PkvJrlnLoiLCAgICAgICAgLy8g5a2Y5Zyo6L+b6KGM5Lit55qE55Sf5rS76K6w5b2V77yaUFJPTUlTRV9IQVNfUFJPQ0VTU0lOR19URU1QTEFURQogICAgIumAm+S4gOmAm+WFjei0uemihueCuemkkOS8mOaDoCIsICAgICAgLy8g5a2Y5Zyo6L+b6KGM5Lit55qE55Sf5rS76K6w5b2V77yaUFJPTUlTRV9IQVNfUFJPQ0VTU0lOR19URU1QTEFURQoKICAgIC8vIHByb2Nlc3NBbGNoZW15VGFza3Pmlrnms5XkuK3luLjop4Hku7vliqEgIOiKnem6u+eCvOmHkQogICAgIuavj+aXpeaWveiCpSIsCiAgICAi6Iqd6bq756ef6LWBIiwKICAgICLkvJHpl7LlsI/muLjmiI8iLAogICAgIkFRQXBwIiwKICAgICLorqLpmIXngrzph5EiLAogICAgIuenn+a4uOaIj+i0puWPtyIsCiAgICAi6Iqd6bq75aSn6KGo6bi9IiwKICAgICLlnZrmjIHnrb7liLAiLAogICAgIuWdmuaMgeWOu+eOqeS8kemXsuWwj+a4uOaIjyIsICAgICAvLyDlj4LmlbDplJnor6/vvJpJTExFR0FMX0FSR1VNRU5UCiAgICAi56ef5ri45oiP6LSm5Y+35b6X6Iqd6bq757KSIiwgICAgICAvLyDlj4LmlbDplJnor6/vvJpJTExFR0FMX0FSR1VNRU5UCgogICAgLy8g5Yac5Zy65Lu75YqhCiAgICAiT1JDSEFSRF9OT1JNQUxfS1VBSVNIT1VfTUFYIiwgIC8vIOmAm+S4gOmAm+W/q+aJiwogICAgIk9SQ0hBUkRfTk9STUFMX0RJQU9ZVTEiLCAgICAgICAvLyDpkpPpsbwx5qyhCiAgICAiWkhVRkFORzNJTjEiLCAgICAgICAgICAgICAgICAgIC8vIOa3u+WKoOWGnOWcuuWwj+e7hOS7tuW5tuiuv+mXrgogICAgIjEyMTcyIiwgICAgICAgICAgICAgICAgICAgICAgICAvLyDpgJvliqnlhpzlpb3otKflvpfogqXmlpkKICAgICIxMjE3MyIsICAgICAgICAgICAgICAgICAgICAgICAgLy8g5Lmw5aW96LSnCiAgICAiNzAwMDAiLCAgICAgICAgICAgICAgICAgICAgICAgIC8vIOmAm+WlveeJqeacgOmrmOW+lzE1MDDogqXmlpnvvIhYTElHSFTvvIkKICAgICJUT1VUSUFPIiwgICAgICAgICAgICAgICAgICAgICAgLy8g6YCb5LiA6YCb5LuK5pel5aS05p2hCiAgICAiT1JDSEFSRF9OT1JNQUxfWkFEQU4xMF8zMDAwIiwgIC8vIOWGnOWcuuWvueWvueeisAogICAgIlRBT0JBTzIiLCAgICAgICAgICAgICAgICAgICAgICAvLyDpgJvkuIDpgJvpl7LpsbwKICAgICJUQU9CQU8iLCAgICAgICAgICAgICAgICAgICAgICAgLy8g5LiL6L296Zi/56aPCiAgICAiT1JDSEFSRF9OT1JNQUxfSklVWUlIVUlTSE9VX1ZJU0lUIiwgLy8g5pen6KGj5pyN5Zue5pS2CiAgICAiT1JDSEFSRF9OT1JNQUxfU0hPVUpJU0hVTUFIVUlTSE9VIiwgLy8g5pWw56CB5Zue5pS2CiAgICAiT1JDSEFSRF9OT1JNQUxfVEFCM19aSElGQSIsICAgIC8vIOeci+inhumikemihuiCpeaWmQogICAgIk9SQ0hBUkRfTk9STUFMX0FRX1hJQVpBSSIsICAgICAvLyDkuIvovb1BUQogICAgCiAgICAvLyDluoTlm63ku7vliqEKICAgICJIRUFSVF9ET05BVElPTl9BRFZBTkNFRF9GT09EX1YyIiwgIC8v5Y675Lmw56eL5aSp56ys5LiA5p2v5aW26Iy2CiAgICAiSEVBUlRfRE9OQVRFIiwgIC8v54ix5b+D5o2Q6LWgCiAgICAiU0hBTkdPVV94aWFkYW4iLCAgLy/pgJvpl6rotK3lpJbljZYx5YWD6LW35ZCDCiAgICAiT0ZGTElORV9QQVkiLCAgLy/liLDlupfku5jmrL4s57q/5LiL5pSv5LuYCiAgICAiT05MSU5FX1BBWSIsICAvL+WcqOe6v+aUr+S7mAogICAgIkhVQUJFSV9NQVBfMTgwIiwgLy/nlKjoirHlkZflrozmiJDkuIDnrJTmlK/ku5gKCiAgICAvLyDmo67mnpfku7vliqEgLSDkuI3mlK/mjIFSUEPosIPnlKjnmoTku7vliqEKICAgICJaSFJXX0FRYXBwXzIwMjUxMiIsICAgIC8vIOWOu+iaguiagemYv+emj+WBpeW6t+mXruetlAogICAgIkxTSFNfaHVpc2hvMjBfMjAyNTA4IiwgIC8vIOWujOaIkOaXp+iho+WbnuaUtuW+l+iDvemHjwogICAgIlRFU1RfTEVBRl9UQVNLIiwgICAgICAgIC8vIOmAm+WGnOWcuuW+l+iQveWPtuiCpeaWmQogICAgIlNIQVJFVEFTS19ORVciLCAgICAgICAgIC8vIOmCgOivtzHkvY3lpb3lj4vliqnlipsKICAgICJZVVNIVV8yMDI1MTEiLCAgICAgICAgICAvLyDljZXnp43mpobmoJHvvIzlubTlubTmnInmpoYKICAgICJLVEtaX1lTMjAyNTExIiwgICAgICAgICAvLyDkuIDotbfnu4Tlm6Lnp43mpobmoJEKICAgICJtb2t1YWlfc2VubGluX2hseiIsICAgICAvLyDljrvnjqnkuIDnjqnlvpfmtLvlipvlgLwKCik=
+package fansirsqi.xposed.sesame.util
+
+/**
+ * 默认黑名单列表（包含常见无法完成的任务）
+ *
+ * 使用方法：
+ * 1. 检查任务是否在黑名单中（模糊匹配）：
+ *    if (TaskBlacklist.isTaskInBlacklist(taskInfo)) { 跳过任务 }
+ *
+ * 3. 根据错误码自动添加任务到黑名单：
+ *    TaskBlacklist.autoAddToBlacklist(taskId, taskTitle, errorCode)
+ *
+ * 4. 手动添加/移除任务：
+ *    TaskBlacklist.addToBlacklist(taskId)
+ *    TaskBlacklist.removeFromBlacklist(taskId)
+ */
+val defaultBlacklist = setOf(
+    // 芝麻信用任务
+    "每日施肥领水果",           // 需要淘宝操作
+    "坚持种水果",              // 需要淘宝操作
+    "坚持去玩休闲小游戏",       // 需要游戏操作
+    "去AQapp提问",            // 需要下载APP
+    "去AQ提问",               // 需要下载APP
+    "坚持看直播领福利",        // 需要淘宝直播
+    "去淘金币逛一逛",          // 需要淘宝操作
+    "坚持攒保障金",            // 参数错误：promiseActivityExtCheck
+    "芝麻租赁下单得芝麻粒",     // 需要租赁操作
+    "去玩小游戏",              // 参数错误：promiseActivityExtCheck
+    "浏览租赁商家小程序",       // 需要小程序操作
+    "订阅小组件",              // 参数错误：promiseActivityExtCheck
+    "租1笔图书",               // 参数错误：promiseActivityExtCheck
+    "去订阅芝麻小组件",         // 参数错误：promiseActivityExtCheck
+    "坚持攒保障",              // 参数错误：promiseActivityExtCheck（与"坚持攒保障金"类似，防止匹配遗漏）
+    "逛租赁会场",              // 操作太频繁：OP_REPEAT_CHECK
+    "去花呗翻卡",               // 操作太频繁：OP_REPEAT_CHECK
+    "逛网商福利",              // 操作太频繁：OP_REPEAT_CHECK
+    "领视频红包",              // 操作太频繁：OP_REPEAT_CHECK
+    "领点餐优惠",               // 操作太频繁：OP_REPEAT_CHECK
+    "去抛竿钓鱼",              // 操作太频繁：OP_REPEAT_CHECK
+    "逛商家积分兑好物",         // 操作太频繁：OP_REPEAT_CHECK
+    "坚持浏览乐游记",           // 操作太频繁：OP_REPEAT_CHECK
+    "去体验先用后付",           // 操作太频繁：OP_REPEAT_CHECK
+    "0.1元起租会员攒粒",        // 参数错误：ILLEGAL_ARGUMENT
+    "完成旧衣回收得现金",        // 参数错误：ILLEGAL_ARGUMENT
+    "坚持刷视频赚福利",         // 存在进行中的生活记录：PROMISE_HAS_PROCESSING_TEMPLATE
+    "去领目标应用积分",           // 存在进行中的生活记录：PROMISE_HAS_PROCESSING_TEMPLATE
+    "去参与花呗活动",           // 存在进行中的生活记录：PROMISE_HAS_PROCESSING_TEMPLATE
+    "逛网商领福利金",           // 存在进行中的生活记录：PROMISE_HAS_PROCESSING_TEMPLATE
+    "去浏览租赁大促会场",        // 存在进行中的生活记录：PROMISE_HAS_PROCESSING_TEMPLATE
+    "逛一逛免费领点餐优惠",      // 存在进行中的生活记录：PROMISE_HAS_PROCESSING_TEMPLATE
+
+    // processAlchemyTasks方法中常见任务  芝麻炼金
+    "每日施肥",
+    "芝麻租赁",
+    "休闲小游戏",
+    "AQApp",
+    "订阅炼金",
+    "租游戏账号",
+    "芝麻大表鸽",
+    "坚持签到",
+    "坚持去玩休闲小游戏",     // 参数错误：ILLEGAL_ARGUMENT
+    "租游戏账号得芝麻粒",      // 参数错误：ILLEGAL_ARGUMENT
+
+    // 农场任务
+    "ORCHARD_NORMAL_KUAISHOU_MAX",  // 逛一逛快手
+    "ORCHARD_NORMAL_DIAOYU1",       // 钓鱼1次
+    "ZHUFANG3IN1",                  // 添加农场小组件并访问
+    "12172",                        // 逛助农好货得肥料
+    "12173",                        // 买好货
+    "70000",                        // 逛好物最高得1500肥料（XLIGHT）
+    "TOUTIAO",                      // 逛一逛今日头条
+    "ORCHARD_NORMAL_ZADAN10_3000",  // 农场对对碰
+    "TAOBAO2",                      // 逛一逛闲鱼
+    "TAOBAO",                       // 下载阿福
+    "ORCHARD_NORMAL_JIUYIHUISHOU_VISIT", // 旧衣服回收
+    "ORCHARD_NORMAL_SHOUJISHUMAHUISHOU", // 数码回收
+    "ORCHARD_NORMAL_TAB3_ZHIFA",    // 看视频领肥料
+    "ORCHARD_NORMAL_AQ_XIAZAI",     // 下载AQ
+    
+    // 庄园任务
+    "HEART_DONATION_ADVANCED_FOOD_V2",  //去买秋天第一杯奶茶
+    "HEART_DONATE",  //爱心捐赠
+    "SHANGOU_xiadan",  //逛闪购外卖1元起吃
+    "OFFLINE_PAY",  //到店付款,线下支付
+    "ONLINE_PAY",  //在线支付
+    "HUABEI_MAP_180", //用花呗完成一笔支付
+
+    // 森林任务 - 不支持RPC调用的任务
+    "ZHRW_AQapp_202512",    // 去蚂蚁阿福健康问答
+    "LSHS_huisho20_202508",  // 完成旧衣回收得能量
+    "TEST_LEAF_TASK",        // 逛农场得落叶肥料
+    "SHARETASK_NEW",         // 邀请1位好友助力
+    "YUSHU_202511",          // 单种榆树，年年有榆
+    "KTKZ_YS202511",         // 一起组团种榆树
+    "mokuai_senlin_hlz",     // 去玩一玩得活力值
+
+)

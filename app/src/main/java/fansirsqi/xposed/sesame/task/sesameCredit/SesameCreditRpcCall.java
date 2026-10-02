@@ -1,1 +1,88 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLnNlc2FtZUNyZWRpdDsKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlJlcXVlc3RNYW5hZ2VyOwoKLyoqCiAqIOiKnem6u+S/oeeUqCBSUEMg6LCD55So77yI5L+h55So56ev57SvL+WuieW/g+ixhi/kv6HnlKjotYTmlpnvvIkKICog5Y2P6K6u5p2l5rqQ77ya6Iqd6bq757OKU1ZJUCAyLjAuNi42IOmAhuWQkei/mOWOn++8iFNlc2FtZUNyZWRpdFJwY0NhbGzvvIkKICovCnB1YmxpYyBjbGFzcyBTZXNhbWVDcmVkaXRScGNDYWxsIHsKCiAgICAvKiog6Iqd6bq75L+h55So6aaW6aG1ICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBxdWVyeUhvbWUoKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICAgICAiY29tLmFudGdyb3VwLnpteHkuem1jdXN0cHJvZC5iaXoucnBjLmhvbWUuYXBpLkhvbWVWNlJwY01hbmFnZXIucXVlcnlIb21lIiwKICAgICAgICAgICAgICAgICJbe1wibWluaVptR3JheUluc2lkZVwiOlwiXCJ9XSIpOwogICAgfQoKICAgIC8qKiDmn6Xor6Llj6/pooblj5bnmoTkv6HnlKjnp6/ntK/ku7vliqEgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHF1ZXJ5Q3JlZGl0RmVlZGJhY2soKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICAgICAiY29tLmFudGdyb3VwLnpteHkuem1jdXN0cHJvZC5iaXoucnBjLmhvbWUuY3JlZGl0YWNjdW11bGF0ZS5hcGkuQ3JlZGl0QWNjdW11bGF0ZVJwY01hbmFnZXIucXVlcnlDcmVkaXRGZWVkYmFjayIsCiAgICAgICAgICAgICAgICAiW3tcInF1ZXJ5UG90ZW50aWFsXCI6ZmFsc2UsXCJzaXplXCI6MjAsXCJzdGF0dXNcIjpcIlVOQ0xBSU1FRFwifV0iKTsKICAgIH0KCiAgICAvKiog6aKG5Y+W5L+h55So56ev57Sv77yI5o+Q5Lqk5Y+N6aaI77yJICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBjb2xsZWN0Q3JlZGl0RmVlZGJhY2soU3RyaW5nIGNyZWRpdEZlZWRiYWNrSWQpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYW50Z3JvdXAuem14eS56bWN1c3Rwcm9kLmJpei5ycGMuaG9tZS5jcmVkaXRhY2N1bXVsYXRlLmFwaS5DcmVkaXRBY2N1bXVsYXRlUnBjTWFuYWdlci5jb2xsZWN0Q3JlZGl0RmVlZGJhY2siLAogICAgICAgICAgICAgICAgIlt7XCJjb2xsZWN0QWxsXCI6ZmFsc2UsXCJjcmVkaXRGZWVkYmFja0lkXCI6XCIiICsgY3JlZGl0RmVlZGJhY2tJZCArICJcIixcInN0YXR1c1wiOlwiVU5DTEFJTUVEXCJ9XSIpOwogICAgfQoKICAgIC8qKiDmn6Xor6Lkv6HnlKjnp6/ntK/nrZbnlaXliJfooaggKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHF1ZXJ5TGlzdFYyKCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAgICAgImNvbS5hbnRncm91cC56bXh5LnptbWVtYmVyb3AuYml6LnJwYy5jcmVkaXRhY2N1bXVsYXRlLkNyZWRpdEFjY3VtdWxhdGVTdHJhdGVneVJwY01hbmFnZXIucXVlcnlMaXN0VjIiLAogICAgICAgICAgICAgICAgIlt7XCJzY2VuZUNvZGVcIjpcImNyZWRpdEFjY3VtdWxhdGVcIn1dIik7CiAgICB9CgogICAgLyoqIOWuieW/g+ixhiDigJQg5p+l55So5oi36LSm5oi35L+h5oGvICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBxdWVyeVVzZXJBY2NvdW50SW5mbygpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5Lmluc21hcmtldGluZ2JmZi5wb2ludC5xdWVyeVVzZXJBY2NvdW50SW5mbyIsCiAgICAgICAgICAgICAgICAiW3tcImNoYW5uZWxcIjpcImluc3BsYXRmb3JtX21vYmlsZXNlYXJjaF9hbnhpbmRvdVwiLFwicG9pbnRQcm9kQ29kZVwiOlwiSU5TX0JMVUVfQkVBTlwiLFwicG9pbnRVbml0VHlwZVwiOlwiQ09VTlRcIn1dIik7CiAgICB9CgogICAgLyoqIOWuieW/g+ixhiDigJQg5Lu75Yqh5Lit5b+D5p+l6K+iICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyB0YXNrQ2VudGVyQ29uc3VsdChTdHJpbmcgc2NlbmVDb2RlKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICAgICAiY29tLmFsaXBheS5pbnNtYXJrZXRpbmdiZmYuYmVhbi50YXNrQ2VudGVyQ29uc3VsdCIsCiAgICAgICAgICAgICAgICAiW3tcImJpekRhdGFcIjp7fSxcImRpc3BsYXlUYXNrQ291bnRcIjozMCxcImVudHJhbmNlXCI6XCJpbnNwbGF0Zm9ybV9taW5lX2FueGluZG91XCIsXCJzY2VuZUNvZGVcIjpcIiIKICAgICAgICAgICAgICAgICAgICAgICAgKyBzY2VuZUNvZGUgKyAiXCJ9XSIpOwogICAgfQoKICAgIC8qKiDlronlv4PosYYg4oCUIOS7u+WKoeinpuWPkSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgdGFza1RyaWdnZXIoU3RyaW5nIHNjZW5lQ29kZSkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAgICAgImNvbS5hbGlwYXkuaW5zbWFya2V0aW5nYmZmLmJlYW4udGFza1RyaWdnZXIiLAogICAgICAgICAgICAgICAgIlt7XCJzY2VuZUNvZGVcIjpcIiIgKyBzY2VuZUNvZGUgKyAiXCJ9XSIpOwogICAgfQoKICAgIC8qKiDlronlv4PosYYg4oCUIOetvuWIsOinpuWPkSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgc2lnbkluVHJpZ2dlcihTdHJpbmcgYXBwbGV0SWQpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5Lmluc21hcmtldGluZ2JmZi5iZWFuLnNpZ25JblRyaWdnZXIiLAogICAgICAgICAgICAgICAgIlt7XCJhcHBsZXRJZFwiOlwiIiArIGFwcGxldElkICsgIlwifV0iKTsKICAgIH0KCiAgICAvKiog5a6J5b+D6LGGIOKAlCDmn6Xnrb7liLDov5vluqYgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHF1ZXJ5U2lnbkluUHJvY2VzcyhTdHJpbmcgYXBwbGV0SWQpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5Lmluc21hcmtldGluZ2JmZi5iZWFuLnF1ZXJ5U2lnbkluUHJvY2VzcyIsCiAgICAgICAgICAgICAgICAiW3tcImFwcGxldElkXCI6XCIiICsgYXBwbGV0SWQgKyAiXCJ9XSIpOwogICAgfQoKICAgIC8qKiDkv6HnlKjnp5/otYHku7vliqHmj5DkuqQgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHJlbnRUYXNrU3VibWl0KFN0cmluZyByZW50VGFza0lkKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICAgICAiY29tLmFsaXBheS5jcmVkaXRhcG9sbG9uLmJpei5ycGMuYXBpLnJlbnQuUmVudFRhc2tScGNTZXJ2aWNlLnRhc2tTdWJtaXQiLAogICAgICAgICAgICAgICAgIlt7XCJyZW50VGFza0lkXCI6XCIiICsgcmVudFRhc2tJZCArICJcIn1dIik7CiAgICB9CgogICAgLyoqIOS/oeeUqCssIOS4gOmUrumihuWPlu+8iOiuoeWIkuinpuWPke+8iSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZXhjaGFuZ2UoU3RyaW5nIGl0ZW1JZCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAgICAgImNvbS5hbGlwYXkuaW5zbWFya2V0aW5nYmZmLm9uZXN0b3AucGxhblRyaWdnZXIiLAogICAgICAgICAgICAgICAgIlt7XCJleHRQYXJhbXNcIjp7XCJpdGVtSWRcIjpcIiIgKyBpdGVtSWQgKyAiXCJ9fV0iKTsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.task.sesameCredit;
+
+import fansirsqi.xposed.sesame.hook.RequestManager;
+
+/**
+ * 芝麻信用 RPC 调用（信用积累/安心豆/信用资料）
+ * 协议来源：芝麻糊SVIP 2.0.6.6 逆向还原（SesameCreditRpcCall）
+ */
+public class SesameCreditRpcCall {
+
+    /** 芝麻信用首页 */
+    public static String queryHome() {
+        return RequestManager.requestString(
+                "com.antgroup.zmxy.zmcustprod.biz.rpc.home.api.HomeV6RpcManager.queryHome",
+                "[{\"miniZmGrayInside\":\"\"}]");
+    }
+
+    /** 查询可领取的信用积累任务 */
+    public static String queryCreditFeedback() {
+        return RequestManager.requestString(
+                "com.antgroup.zmxy.zmcustprod.biz.rpc.home.creditaccumulate.api.CreditAccumulateRpcManager.queryCreditFeedback",
+                "[{\"queryPotential\":false,\"size\":20,\"status\":\"UNCLAIMED\"}]");
+    }
+
+    /** 领取信用积累（提交反馈） */
+    public static String collectCreditFeedback(String creditFeedbackId) {
+        return RequestManager.requestString(
+                "com.antgroup.zmxy.zmcustprod.biz.rpc.home.creditaccumulate.api.CreditAccumulateRpcManager.collectCreditFeedback",
+                "[{\"collectAll\":false,\"creditFeedbackId\":\"" + creditFeedbackId + "\",\"status\":\"UNCLAIMED\"}]");
+    }
+
+    /** 查询信用积累策略列表 */
+    public static String queryListV2() {
+        return RequestManager.requestString(
+                "com.antgroup.zmxy.zmmemberop.biz.rpc.creditaccumulate.CreditAccumulateStrategyRpcManager.queryListV2",
+                "[{\"sceneCode\":\"creditAccumulate\"}]");
+    }
+
+    /** 安心豆 — 查用户账户信息 */
+    public static String queryUserAccountInfo() {
+        return RequestManager.requestString(
+                "com.alipay.insmarketingbff.point.queryUserAccountInfo",
+                "[{\"channel\":\"insplatform_mobilesearch_anxindou\",\"pointProdCode\":\"INS_BLUE_BEAN\",\"pointUnitType\":\"COUNT\"}]");
+    }
+
+    /** 安心豆 — 任务中心查询 */
+    public static String taskCenterConsult(String sceneCode) {
+        return RequestManager.requestString(
+                "com.alipay.insmarketingbff.bean.taskCenterConsult",
+                "[{\"bizData\":{},\"displayTaskCount\":30,\"entrance\":\"insplatform_mine_anxindou\",\"sceneCode\":\""
+                        + sceneCode + "\"}]");
+    }
+
+    /** 安心豆 — 任务触发 */
+    public static String taskTrigger(String sceneCode) {
+        return RequestManager.requestString(
+                "com.alipay.insmarketingbff.bean.taskTrigger",
+                "[{\"sceneCode\":\"" + sceneCode + "\"}]");
+    }
+
+    /** 安心豆 — 签到触发 */
+    public static String signInTrigger(String appletId) {
+        return RequestManager.requestString(
+                "com.alipay.insmarketingbff.bean.signInTrigger",
+                "[{\"appletId\":\"" + appletId + "\"}]");
+    }
+
+    /** 安心豆 — 查签到进度 */
+    public static String querySignInProcess(String appletId) {
+        return RequestManager.requestString(
+                "com.alipay.insmarketingbff.bean.querySignInProcess",
+                "[{\"appletId\":\"" + appletId + "\"}]");
+    }
+
+    /** 信用租赁任务提交 */
+    public static String rentTaskSubmit(String rentTaskId) {
+        return RequestManager.requestString(
+                "com.alipay.creditapollon.biz.rpc.api.rent.RentTaskRpcService.taskSubmit",
+                "[{\"rentTaskId\":\"" + rentTaskId + "\"}]");
+    }
+
+    /** 信用+, 一键领取（计划触发） */
+    public static String exchange(String itemId) {
+        return RequestManager.requestString(
+                "com.alipay.insmarketingbff.onestop.planTrigger",
+                "[{\"extParams\":{\"itemId\":\"" + itemId + "\"}}]");
+    }
+}

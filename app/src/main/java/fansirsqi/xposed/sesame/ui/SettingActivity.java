@@ -1,1 +1,248 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aTsKCmltcG9ydCBhbmRyb2lkLmFwcC5BbGVydERpYWxvZzsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5DbGlwRGF0YTsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQ7CmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZTsKaW1wb3J0IGFuZHJvaWQudmlldy5NZW51OwppbXBvcnQgYW5kcm9pZC52aWV3Lk1lbnVJdGVtOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3Q7CgppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkuT25CYWNrUHJlc3NlZENhbGxiYWNrOwppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkucmVzdWx0LkFjdGl2aXR5UmVzdWx0TGF1bmNoZXI7CmltcG9ydCBhbmRyb2lkeC5hY3Rpdml0eS5yZXN1bHQuY29udHJhY3QuQWN0aXZpdHlSZXN1bHRDb250cmFjdHM7CmltcG9ydCBhbmRyb2lkeC5yZWN5Y2xlcnZpZXcud2lkZ2V0LkxpbmVhckxheW91dE1hbmFnZXI7CmltcG9ydCBhbmRyb2lkeC5yZWN5Y2xlcnZpZXcud2lkZ2V0LlJlY3ljbGVyVmlldzsKaW1wb3J0IGFuZHJvaWR4LnZpZXdwYWdlcjIud2lkZ2V0LlZpZXdQYWdlcjI7CgppbXBvcnQgamF2YS5pby5GaWxlOwppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5SOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZGF0YS5Db25maWc7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuQWxpcGF5VXNlcjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxDb25maWc7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5TZWxlY3RNb2RlbEZpZWxkRnVuYzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suTW9kZWxUYXNrOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkubW9kZWwuVWlNb2RlOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkucmVwb3NpdG9yeS5Db25maWdSZXBvc2l0b3J5OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuYWRhcHRlci5Db250ZW50UGFnZXJBZGFwdGVyOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkud2lkZ2V0Lkxpc3REaWFsb2c7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5hZGFwdGVyLlRhYkFkYXB0ZXI7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkZpbGVzOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5MYW5ndWFnZVV0aWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5CZWFjaE1hcDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5Db29wZXJhdGVNYXA7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuSWRNYXBNYW5hZ2VyOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLk1lbWJlckJlbmVmaXRzTWFwOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLlBhcmFkaXNlQ29pbkJlbmVmaXRJZE1hcDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5SZXNlcnZlYU1hcDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5TZXNhbWVHaWZ0TWFwOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLlVzZXJNYXA7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuVml0YWxpdHlSZXdhcmRzTWFwOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Qb3J0VXRpbDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuU3RyaW5nVXRpbDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuVG9hc3RVdGlsOwoKcHVibGljIGNsYXNzIFNldHRpbmdBY3Rpdml0eSBleHRlbmRzIEJhc2VBY3Rpdml0eSB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gU2V0dGluZ0FjdGl2aXR5LmNsYXNzLmdldFNpbXBsZU5hbWUoKTsKICAgIHByaXZhdGUgQWN0aXZpdHlSZXN1bHRMYXVuY2hlcjxJbnRlbnQ+IGV4cG9ydExhdW5jaGVyOwogICAgcHJpdmF0ZSBBY3Rpdml0eVJlc3VsdExhdW5jaGVyPEludGVudD4gaW1wb3J0TGF1bmNoZXI7CiAgICBwcml2YXRlIFN0cmluZyB1c2VySWQ7IC8vIOeUqOaItyBJRAogICAgcHJpdmF0ZSBTdHJpbmcgdXNlck5hbWU7IC8vIOeUqOaIt+WQjQoKICAgIEBPdmVycmlkZQogICAgcHJvdGVjdGVkIHZvaWQgb25DcmVhdGUoQnVuZGxlIHNhdmVkSW5zdGFuY2VTdGF0ZSkgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSk7CiAgICAgICAgLy8g5Yid5aeL5YyW55So5oi35L+h5oGvCiAgICAgICAgdGhpcy51c2VySWQgPSBudWxsOwogICAgICAgIHRoaXMudXNlck5hbWUgPSBudWxsOwogICAgICAgIEludGVudCBpbnRlbnQgPSBnZXRJbnRlbnQoKTsKICAgICAgICBpZiAoaW50ZW50ICE9IG51bGwpIHsKICAgICAgICAgICAgdGhpcy51c2VySWQgPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoInVzZXJJZCIpOwogICAgICAgICAgICB0aGlzLnVzZXJOYW1lID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKCJ1c2VyTmFtZSIpOwogICAgICAgIH0KCiAgICAgICAgLy8g5Yid5aeL5YyW5ZCE56eN6YWN572u5pWw5o2uCiAgICAgICAgTW9kZWwuaW5pdEFsbE1vZGVsKCk7CiAgICAgICAgVXNlck1hcC5zZXRDdXJyZW50VXNlcklkKHRoaXMudXNlcklkKTsKICAgICAgICBVc2VyTWFwLmxvYWQodGhpcy51c2VySWQpOwogICAgICAgIENvb3BlcmF0ZU1hcC5nZXRJbnN0YW5jZShDb29wZXJhdGVNYXAuY2xhc3MpLmxvYWQodGhpcy51c2VySWQpOwogICAgICAgIElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShWaXRhbGl0eVJld2FyZHNNYXAuY2xhc3MpLmxvYWQodGhpcy51c2VySWQpOwogICAgICAgIElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShNZW1iZXJCZW5lZml0c01hcC5jbGFzcykubG9hZCh0aGlzLnVzZXJJZCk7CiAgICAgICAgSWRNYXBNYW5hZ2VyLmdldEluc3RhbmNlKFNlc2FtZUdpZnRNYXAuY2xhc3MpLmxvYWQodGhpcy51c2VySWQpOwogICAgICAgIElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShQYXJhZGlzZUNvaW5CZW5lZml0SWRNYXAuY2xhc3MpLmxvYWQodGhpcy51c2VySWQpOwogICAgICAgIElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShSZXNlcnZlYU1hcC5jbGFzcykubG9hZCgpOwogICAgICAgIElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShCZWFjaE1hcC5jbGFzcykubG9hZCgpOwogICAgICAgIENvbmZpZy5sb2FkKHRoaXMudXNlcklkKTsKICAgICAgICAvLyDorr7nva7or63oqIDlkozluIPlsYAKICAgICAgICBMYW5ndWFnZVV0aWwuc2V0TG9jYWxlKHRoaXMpOwogICAgICAgIHNldENvbnRlbnRWaWV3KFIubGF5b3V0LmFjdGl2aXR5X3NldHRpbmdzKTsKICAgICAgICAvLyDlpITnkIbov5Tlm57plK4KICAgICAgICBnZXRPbkJhY2tQcmVzc2VkRGlzcGF0Y2hlcigpLmFkZENhbGxiYWNrKHRoaXMsIG5ldyBPbkJhY2tQcmVzc2VkQ2FsbGJhY2sodHJ1ZSkgewogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgaGFuZGxlT25CYWNrUHJlc3NlZCgpIHsKICAgICAgICAgICAgICAgIHNhdmUoKTsKICAgICAgICAgICAgICAgIGZpbmlzaCgpOwogICAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICAgICAgLy8g5Yid5aeL5YyW5a+85Ye66YC76L6RCiAgICAgICAgZXhwb3J0TGF1bmNoZXIgPSByZWdpc3RlckZvckFjdGl2aXR5UmVzdWx0KAogICAgICAgICAgICAgICAgbmV3IEFjdGl2aXR5UmVzdWx0Q29udHJhY3RzLlN0YXJ0QWN0aXZpdHlGb3JSZXN1bHQoKSwKICAgICAgICAgICAgICAgIHJlc3VsdCAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHJlc3VsdC5nZXRSZXN1bHRDb2RlKCkgPT0gUkVTVUxUX09LICYmIHJlc3VsdC5nZXREYXRhKCkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBQb3J0VXRpbC5oYW5kbGVFeHBvcnQodGhpcywgcmVzdWx0LmdldERhdGEoKS5nZXREYXRhKCksIHVzZXJJZCk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICk7CiAgICAgICAgLy8g5Yid5aeL5YyW5a+85YWl6YC76L6RCiAgICAgICAgaW1wb3J0TGF1bmNoZXIgPSByZWdpc3RlckZvckFjdGl2aXR5UmVzdWx0KAogICAgICAgICAgICAgICAgbmV3IEFjdGl2aXR5UmVzdWx0Q29udHJhY3RzLlN0YXJ0QWN0aXZpdHlGb3JSZXN1bHQoKSwKICAgICAgICAgICAgICAgIHJlc3VsdCAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHJlc3VsdC5nZXRSZXN1bHRDb2RlKCkgPT0gUkVTVUxUX09LICYmIHJlc3VsdC5nZXREYXRhKCkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBQb3J0VXRpbC5oYW5kbGVJbXBvcnQodGhpcywgcmVzdWx0LmdldERhdGEoKS5nZXREYXRhKCksIHVzZXJJZCk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICk7CiAgICAgICAgLy8g6K6+572u5Ymv5qCH6aKYCiAgICAgICAgaWYgKHRoaXMudXNlck5hbWUgIT0gbnVsbCkgewogICAgICAgICAgICBzZXRCYXNlU3VidGl0bGUoZ2V0U3RyaW5nKFIuc3RyaW5nLnNldHRpbmdzKSArICI6ICIgKyB0aGlzLnVzZXJOYW1lKTsKICAgICAgICB9CiAgICAgICAgaW5pdGlhbGl6ZVRhYnMoKTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgaW5pdGlhbGl6ZVRhYnMoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgUmVjeWNsZXJWaWV3IHJlY3ljbGVyVGFiTGlzdCA9IGZpbmRWaWV3QnlJZChSLmlkLnJlY3ljbGVyX3RhYl9saXN0KTsKICAgICAgICAgICAgcmVjeWNsZXJUYWJMaXN0LnNldExheW91dE1hbmFnZXIobmV3IExpbmVhckxheW91dE1hbmFnZXIodGhpcykpOwogICAgICAgICAgICBNYXA8U3RyaW5nLCBNb2RlbENvbmZpZz4gbW9kZWxDb25maWdNYXAgPSBNb2RlbFRhc2suZ2V0TW9kZWxDb25maWdNYXAoKTsKICAgICAgICAgICAgTGlzdDxTdHJpbmc+IHRhYlRpdGxlcyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgICAgICBmb3IgKE1vZGVsQ29uZmlnIGNvbmZpZyA6IG1vZGVsQ29uZmlnTWFwLnZhbHVlcygpKSB7CiAgICAgICAgICAgICAgICB0YWJUaXRsZXMuYWRkKGNvbmZpZy5nZXROYW1lKCkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIFRhYkFkYXB0ZXIgdGFiQWRhcHRlciA9IG5ldyBUYWJBZGFwdGVyKHRoaXMsIHRhYlRpdGxlcywgcG9zaXRpb24gLT4gewogICAgICAgICAgICAgICAgVmlld1BhZ2VyMiB2aWV3UGFnZXIgPSBmaW5kVmlld0J5SWQoUi5pZC52aWV3X3BhZ2VyX2NvbnRlbnQpOwogICAgICAgICAgICAgICAgdmlld1BhZ2VyLnNldEN1cnJlbnRJdGVtKHBvc2l0aW9uLCB0cnVlKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIHJlY3ljbGVyVGFiTGlzdC5zZXRBZGFwdGVyKHRhYkFkYXB0ZXIpOwogICAgICAgICAgICBWaWV3UGFnZXIyIHZpZXdQYWdlciA9IGZpbmRWaWV3QnlJZChSLmlkLnZpZXdfcGFnZXJfY29udGVudCk7CiAgICAgICAgICAgIENvbnRlbnRQYWdlckFkYXB0ZXIgY29udGVudEFkYXB0ZXIgPSBuZXcgQ29udGVudFBhZ2VyQWRhcHRlcihnZXRTdXBwb3J0RnJhZ21lbnRNYW5hZ2VyKCksIGdldExpZmVjeWNsZSgpLCBtb2RlbENvbmZpZ01hcCk7CiAgICAgICAgICAgIHZpZXdQYWdlci5zZXRBZGFwdGVyKGNvbnRlbnRBZGFwdGVyKTsKICAgICAgICAgICAgdmlld1BhZ2VyLnNldFVzZXJJbnB1dEVuYWJsZWQoZmFsc2UpOy8vIOemgeatoueUqOaIt+aJi+WKqOa7keWKqAogICAgICAgICAgICB2aWV3UGFnZXIucmVnaXN0ZXJPblBhZ2VDaGFuZ2VDYWxsYmFjayhuZXcgVmlld1BhZ2VyMi5PblBhZ2VDaGFuZ2VDYWxsYmFjaygpIHsKICAgICAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICAgICAgcHVibGljIHZvaWQgb25QYWdlU2VsZWN0ZWQoaW50IHBvc2l0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgcmVjeWNsZXJUYWJMaXN0LnNtb290aFNjcm9sbFRvUG9zaXRpb24ocG9zaXRpb24pOwogICAgICAgICAgICAgICAgICAgIHRhYkFkYXB0ZXIuc2V0U2VsZWN0ZWRQb3NpdGlvbihwb3NpdGlvbik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pOwogICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0KSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLliJ3lp4vljJZUYWJz5aSx6LSlOiAiICsgdC5nZXRNZXNzYWdlKCkpOwogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdCk7CiAgICAgICAgfQogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIGJvb2xlYW4gb25DcmVhdGVPcHRpb25zTWVudShNZW51IG1lbnUpIHsKICAgICAgICAvLyDliJvlu7roj5zljZXpgInpobkKICAgICAgICBtZW51LmFkZCgwLCAxLCAxLCAi5a+85Ye66YWN572uIik7CiAgICAgICAgbWVudS5hZGQoMCwgMiwgMiwgIuWvvOWFpemFjee9riIpOwogICAgICAgIG1lbnUuYWRkKDAsIDMsIDMsICLliKDpmaTphY3nva4iKTsKICAgICAgICBtZW51LmFkZCgwLCA0LCA0LCAi5Y2V5ZCR5aW95Y+LIik7CiAgICAgICAgbWVudS5hZGQoMCwgNSwgNSwgIuWIh+aNoldFQlVJIik7CiAgICAgICAgbWVudS5hZGQoMCwgNiwgNiwgIuS/neWtmCIpOwogICAgICAgIG1lbnUuYWRkKDAsIDcsIDcsICLlpI3liLZJRCIpOwogICAgICAgIHJldHVybiBzdXBlci5vbkNyZWF0ZU9wdGlvbnNNZW51KG1lbnUpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIGJvb2xlYW4gb25PcHRpb25zSXRlbVNlbGVjdGVkKE1lbnVJdGVtIGl0ZW0pIHsKICAgICAgICAvLyDlpITnkIboj5zljZXpobnngrnlh7vkuovku7YKICAgICAgICBzd2l0Y2ggKGl0ZW0uZ2V0SXRlbUlkKCkpIHsKICAgICAgICAgICAgY2FzZSAxOiAvLyDlr7zlh7rphY3nva4KICAgICAgICAgICAgICAgIEludGVudCBleHBvcnRJbnRlbnQgPSBuZXcgSW50ZW50KEludGVudC5BQ1RJT05fQ1JFQVRFX0RPQ1VNRU5UKTsKICAgICAgICAgICAgICAgIGV4cG9ydEludGVudC5hZGRDYXRlZ29yeShJbnRlbnQuQ0FURUdPUllfT1BFTkFCTEUpOwogICAgICAgICAgICAgICAgZXhwb3J0SW50ZW50LnNldFR5cGUoIiovKiIpOwogICAgICAgICAgICAgICAgZXhwb3J0SW50ZW50LnB1dEV4dHJhKEludGVudC5FWFRSQV9USVRMRSwgIlsiICsgdGhpcy51c2VyTmFtZSArICJdLWNvbmZpZ192Mi5qc29uIik7CiAgICAgICAgICAgICAgICBleHBvcnRMYXVuY2hlci5sYXVuY2goZXhwb3J0SW50ZW50KTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlIDI6IC8vIOWvvOWFpemFjee9rgogICAgICAgICAgICAgICAgSW50ZW50IGltcG9ydEludGVudCA9IG5ldyBJbnRlbnQoSW50ZW50LkFDVElPTl9HRVRfQ09OVEVOVCk7CiAgICAgICAgICAgICAgICBpbXBvcnRJbnRlbnQuYWRkQ2F0ZWdvcnkoSW50ZW50LkNBVEVHT1JZX09QRU5BQkxFKTsKICAgICAgICAgICAgICAgIGltcG9ydEludGVudC5zZXRUeXBlKCIqLyoiKTsKICAgICAgICAgICAgICAgIGltcG9ydEludGVudC5wdXRFeHRyYShJbnRlbnQuRVhUUkFfVElUTEUsICJjb25maWdfdjIuanNvbiIpOwogICAgICAgICAgICAgICAgaW1wb3J0TGF1bmNoZXIubGF1bmNoKGltcG9ydEludGVudCk7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgY2FzZSAzOiAvLyDliKDpmaTphY3nva4KICAgICAgICAgICAgICAgIG5ldyBBbGVydERpYWxvZy5CdWlsZGVyKHRoaXMpCiAgICAgICAgICAgICAgICAgICAgICAgIC5zZXRUaXRsZSgi6K2m5ZGKIikKICAgICAgICAgICAgICAgICAgICAgICAgLnNldE1lc3NhZ2UoIuehruiupOWIoOmZpOivpemFjee9ru+8nyIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5zZXRQb3NpdGl2ZUJ1dHRvbihSLnN0cmluZy5vaywgKGRpYWxvZywgaWQpIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEZpbGUgdXNlckNvbmZpZ0RpcmVjdG9yeUZpbGU7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoU3RyaW5nVXRpbC5pc0VtcHR5KHRoaXMudXNlcklkKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVzZXJDb25maWdEaXJlY3RvcnlGaWxlID0gRmlsZXMuZ2V0RGVmYXVsdENvbmZpZ1YyRmlsZSgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB1c2VyQ29uZmlnRGlyZWN0b3J5RmlsZSA9IEZpbGVzLmdldFVzZXJDb25maWdEaXIodGhpcy51c2VySWQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKEZpbGVzLmRlbEZpbGUodXNlckNvbmZpZ0RpcmVjdG9yeUZpbGUpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3RVdGlsLklOU1RBTkNFLm1ha2VUZXh0KHRoaXMsICLphY3nva7liKDpmaTmiJDlip8iLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3RVdGlsLklOU1RBTkNFLm1ha2VUZXh0KHRoaXMsICLphY3nva7liKDpmaTlpLHotKUiLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbmlzaCgpOwogICAgICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0TmVnYXRpdmVCdXR0b24oUi5zdHJpbmcuY2FuY2VsLCAoZGlhbG9nLCBpZCkgLT4gZGlhbG9nLmRpc21pc3MoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLmNyZWF0ZSgpCiAgICAgICAgICAgICAgICAgICAgICAgIC5zaG93KCk7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgY2FzZSA0OiAvLyDmn6XnnIvljZXlkJHlpb3lj4vliJfooagKICAgICAgICAgICAgICAgIExpc3REaWFsb2cuc2hvdyh0aGlzLCAi5Y2V5ZCR5aW95Y+L5YiX6KGoIiwgQWxpcGF5VXNlci5nZXRMaXN0KHVzZXIgLT4gdXNlci5nZXRGcmllbmRTdGF0dXMoKSAhPSAxKSwgU2VsZWN0TW9kZWxGaWVsZEZ1bmMubmV3TWFwSW5zdGFuY2UoKSwgZmFsc2UsIExpc3REaWFsb2cuTGlzdFR5cGUuU0hPVyk7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgY2FzZSA1OiAvLyDliIfmjaLliLDmlrAgVUkKICAgICAgICAgICAgICAgIENvbmZpZ1JlcG9zaXRvcnkuSU5TVEFOQ0Uuc2V0VWlNb2RlKFVpTW9kZS5XZWIpOwogICAgICAgICAgICAgICAgSW50ZW50IGludGVudCA9IG5ldyBJbnRlbnQodGhpcywgV2ViU2V0dGluZ3NBY3Rpdml0eS5jbGFzcyk7CiAgICAgICAgICAgICAgICBpbnRlbnQucHV0RXh0cmEoInVzZXJJZCIsIHVzZXJJZCk7CiAgICAgICAgICAgICAgICBpbnRlbnQucHV0RXh0cmEoInVzZXJOYW1lIiwgdXNlck5hbWUpOwogICAgICAgICAgICAgICAgZmluaXNoKCk7CiAgICAgICAgICAgICAgICBzdGFydEFjdGl2aXR5KGludGVudCk7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgY2FzZSA2OgogICAgICAgICAgICAgICAgc2F2ZSgpOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIGNhc2UgNzoKICAgICAgICAgICAgICAgIC8v5aSN5Yi2dXNlcklk5Yiw5Ymq5YiH5p2/CiAgICAgICAgICAgICAgICBhbmRyb2lkLmNvbnRlbnQuQ2xpcGJvYXJkTWFuYWdlciBjbSA9IChhbmRyb2lkLmNvbnRlbnQuQ2xpcGJvYXJkTWFuYWdlcikgZ2V0U3lzdGVtU2VydmljZShDTElQQk9BUkRfU0VSVklDRSk7CiAgICAgICAgICAgICAgICBDbGlwRGF0YSBjbGlwRGF0YSA9IENsaXBEYXRhLm5ld1BsYWluVGV4dCgidXNlcklkIiwgdGhpcy51c2VySWQpOwogICAgICAgICAgICAgICAgY20uc2V0UHJpbWFyeUNsaXAoY2xpcERhdGEpOwogICAgICAgICAgICAgICAgVG9hc3RVdGlsLklOU1RBTkNFLnNob3dUb2FzdFdpdGhEZWxheSh0aGlzLCAi5aSN5Yi25oiQ5Yqf77yBIiwgMTAwKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICByZXR1cm4gc3VwZXIub25PcHRpb25zSXRlbVNlbGVjdGVkKGl0ZW0pOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBzYXZlKCkgewogICAgICAgIHRyeSB7Ci8vICAgICAgICAgICAgaWYgKCFWaWV3QXBwSW5mby5JTlNUQU5DRS5nZXRWZXJpZnRhZygpKSB7Ci8vICAgICAgICAgICAgICAgIFRvYXN0VXRpbC5zaG93VG9hc3RXaXRoRGVsYXkodGhpcywgIumdnuWGhea1i+eUqOaIt++8gSIsIDEwMCk7Ci8vICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoQ29uZmlnLmlzTW9kaWZ5KHRoaXMudXNlcklkKSAmJiBDb25maWcuc2F2ZSh0aGlzLnVzZXJJZCwgZmFsc2UpKSB7CiAgICAgICAgICAgICAgICBUb2FzdFV0aWwuSU5TVEFOQ0Uuc2hvd1RvYXN0V2l0aERlbGF5KHRoaXMsICLkv53lrZjmiJDlip/vvIEiLCAxMDApOwogICAgICAgICAgICAgICAgaWYgKCFTdHJpbmdVdGlsLmlzRW1wdHkodGhpcy51c2VySWQpKSB7CiAgICAgICAgICAgICAgICAgICAgSW50ZW50IGludGVudCA9IG5ldyBJbnRlbnQoImNvbS5lZy5hbmRyb2lkLkFsaXBheUdwaG9uZS5zZXNhbWUucmVzdGFydCIpOwogICAgICAgICAgICAgICAgICAgIGludGVudC5wdXRFeHRyYSgidXNlcklkIiwgdGhpcy51c2VySWQpOwogICAgICAgICAgICAgICAgICAgIHNlbmRCcm9hZGNhc3QoaW50ZW50KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoIVN0cmluZ1V0aWwuaXNFbXB0eSh0aGlzLnVzZXJJZCkpIHsKICAgICAgICAgICAgICAgIFVzZXJNYXAuc2F2ZSh0aGlzLnVzZXJJZCk7CiAgICAgICAgICAgICAgICBDb29wZXJhdGVNYXAuZ2V0SW5zdGFuY2UoQ29vcGVyYXRlTWFwLmNsYXNzKS5zYXZlKHRoaXMudXNlcklkKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0aCkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKHRoKTsKICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.ui;
+
+import android.app.AlertDialog;
+import android.content.ClipData;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
+
+import androidx.activity.OnBackPressedCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager2.widget.ViewPager2;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.data.Config;
+import fansirsqi.xposed.sesame.entity.AlipayUser;
+import fansirsqi.xposed.sesame.model.Model;
+import fansirsqi.xposed.sesame.model.ModelConfig;
+import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
+import fansirsqi.xposed.sesame.task.ModelTask;
+import fansirsqi.xposed.sesame.ui.model.UiMode;
+import fansirsqi.xposed.sesame.ui.repository.ConfigRepository;
+import fansirsqi.xposed.sesame.ui.adapter.ContentPagerAdapter;
+import fansirsqi.xposed.sesame.ui.widget.ListDialog;
+import fansirsqi.xposed.sesame.ui.adapter.TabAdapter;
+import fansirsqi.xposed.sesame.util.Files;
+import fansirsqi.xposed.sesame.util.LanguageUtil;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.maps.BeachMap;
+import fansirsqi.xposed.sesame.util.maps.CooperateMap;
+import fansirsqi.xposed.sesame.util.maps.IdMapManager;
+import fansirsqi.xposed.sesame.util.maps.MemberBenefitsMap;
+import fansirsqi.xposed.sesame.util.maps.ParadiseCoinBenefitIdMap;
+import fansirsqi.xposed.sesame.util.maps.ReserveaMap;
+import fansirsqi.xposed.sesame.util.maps.SesameGiftMap;
+import fansirsqi.xposed.sesame.util.maps.UserMap;
+import fansirsqi.xposed.sesame.util.maps.VitalityRewardsMap;
+import fansirsqi.xposed.sesame.util.PortUtil;
+import fansirsqi.xposed.sesame.util.StringUtil;
+import fansirsqi.xposed.sesame.util.ToastUtil;
+
+public class SettingActivity extends BaseActivity {
+    private static final String TAG = SettingActivity.class.getSimpleName();
+    private ActivityResultLauncher<Intent> exportLauncher;
+    private ActivityResultLauncher<Intent> importLauncher;
+    private String userId; // 用户 ID
+    private String userName; // 用户名
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // 初始化用户信息
+        this.userId = null;
+        this.userName = null;
+        Intent intent = getIntent();
+        if (intent != null) {
+            this.userId = intent.getStringExtra("userId");
+            this.userName = intent.getStringExtra("userName");
+        }
+
+        // 初始化各种配置数据
+        Model.initAllModel();
+        UserMap.setCurrentUserId(this.userId);
+        UserMap.load(this.userId);
+        CooperateMap.getInstance(CooperateMap.class).load(this.userId);
+        IdMapManager.getInstance(VitalityRewardsMap.class).load(this.userId);
+        IdMapManager.getInstance(MemberBenefitsMap.class).load(this.userId);
+        IdMapManager.getInstance(SesameGiftMap.class).load(this.userId);
+        IdMapManager.getInstance(ParadiseCoinBenefitIdMap.class).load(this.userId);
+        IdMapManager.getInstance(ReserveaMap.class).load();
+        IdMapManager.getInstance(BeachMap.class).load();
+        Config.load(this.userId);
+        // 设置语言和布局
+        LanguageUtil.setLocale(this);
+        setContentView(R.layout.activity_settings);
+        // 处理返回键
+        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                save();
+                finish();
+            }
+        });
+        // 初始化导出逻辑
+        exportLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartActivityForResult(),
+                result -> {
+                    if (result.getResultCode() == RESULT_OK && result.getData() != null) {
+                        PortUtil.handleExport(this, result.getData().getData(), userId);
+                    }
+                }
+        );
+        // 初始化导入逻辑
+        importLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartActivityForResult(),
+                result -> {
+                    if (result.getResultCode() == RESULT_OK && result.getData() != null) {
+                        PortUtil.handleImport(this, result.getData().getData(), userId);
+                    }
+                }
+        );
+        // 设置副标题
+        if (this.userName != null) {
+            setBaseSubtitle(getString(R.string.settings) + ": " + this.userName);
+        }
+        initializeTabs();
+    }
+
+    private void initializeTabs() {
+        try {
+            RecyclerView recyclerTabList = findViewById(R.id.recycler_tab_list);
+            recyclerTabList.setLayoutManager(new LinearLayoutManager(this));
+            Map<String, ModelConfig> modelConfigMap = ModelTask.getModelConfigMap();
+            List<String> tabTitles = new ArrayList<>();
+            for (ModelConfig config : modelConfigMap.values()) {
+                tabTitles.add(config.getName());
+            }
+            TabAdapter tabAdapter = new TabAdapter(this, tabTitles, position -> {
+                ViewPager2 viewPager = findViewById(R.id.view_pager_content);
+                viewPager.setCurrentItem(position, true);
+            });
+            recyclerTabList.setAdapter(tabAdapter);
+            ViewPager2 viewPager = findViewById(R.id.view_pager_content);
+            ContentPagerAdapter contentAdapter = new ContentPagerAdapter(getSupportFragmentManager(), getLifecycle(), modelConfigMap);
+            viewPager.setAdapter(contentAdapter);
+            viewPager.setUserInputEnabled(false);// 禁止用户手动滑动
+            viewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+                @Override
+                public void onPageSelected(int position) {
+                    recyclerTabList.smoothScrollToPosition(position);
+                    tabAdapter.setSelectedPosition(position);
+                }
+            });
+        } catch (Throwable t) {
+            Log.error(TAG, "初始化Tabs失败: " + t.getMessage());
+            Log.printStackTrace(TAG, t);
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // 创建菜单选项
+        menu.add(0, 1, 1, "导出配置");
+        menu.add(0, 2, 2, "导入配置");
+        menu.add(0, 3, 3, "删除配置");
+        menu.add(0, 4, 4, "单向好友");
+        menu.add(0, 5, 5, "切换WEBUI");
+        menu.add(0, 6, 6, "保存");
+        menu.add(0, 7, 7, "复制ID");
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // 处理菜单项点击事件
+        switch (item.getItemId()) {
+            case 1: // 导出配置
+                Intent exportIntent = new Intent(Intent.ACTION_CREATE_DOCUMENT);
+                exportIntent.addCategory(Intent.CATEGORY_OPENABLE);
+                exportIntent.setType("*/*");
+                exportIntent.putExtra(Intent.EXTRA_TITLE, "[" + this.userName + "]-config_v2.json");
+                exportLauncher.launch(exportIntent);
+                break;
+            case 2: // 导入配置
+                Intent importIntent = new Intent(Intent.ACTION_GET_CONTENT);
+                importIntent.addCategory(Intent.CATEGORY_OPENABLE);
+                importIntent.setType("*/*");
+                importIntent.putExtra(Intent.EXTRA_TITLE, "config_v2.json");
+                importLauncher.launch(importIntent);
+                break;
+            case 3: // 删除配置
+                new AlertDialog.Builder(this)
+                        .setTitle("警告")
+                        .setMessage("确认删除该配置？")
+                        .setPositiveButton(R.string.ok, (dialog, id) -> {
+                            File userConfigDirectoryFile;
+                            if (StringUtil.isEmpty(this.userId)) {
+                                userConfigDirectoryFile = Files.getDefaultConfigV2File();
+                            } else {
+                                userConfigDirectoryFile = Files.getUserConfigDir(this.userId);
+                            }
+                            if (Files.delFile(userConfigDirectoryFile)) {
+                                ToastUtil.INSTANCE.makeText(this, "配置删除成功", Toast.LENGTH_SHORT).show();
+                            } else {
+                                ToastUtil.INSTANCE.makeText(this, "配置删除失败", Toast.LENGTH_SHORT).show();
+                            }
+                            finish();
+                        })
+                        .setNegativeButton(R.string.cancel, (dialog, id) -> dialog.dismiss())
+                        .create()
+                        .show();
+                break;
+            case 4: // 查看单向好友列表
+                ListDialog.show(this, "单向好友列表", AlipayUser.getList(user -> user.getFriendStatus() != 1), SelectModelFieldFunc.newMapInstance(), false, ListDialog.ListType.SHOW);
+                break;
+            case 5: // 切换到新 UI
+                ConfigRepository.INSTANCE.setUiMode(UiMode.Web);
+                Intent intent = new Intent(this, WebSettingsActivity.class);
+                intent.putExtra("userId", userId);
+                intent.putExtra("userName", userName);
+                finish();
+                startActivity(intent);
+                break;
+            case 6:
+                save();
+                break;
+            case 7:
+                //复制userId到剪切板
+                android.content.ClipboardManager cm = (android.content.ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+                ClipData clipData = ClipData.newPlainText("userId", this.userId);
+                cm.setPrimaryClip(clipData);
+                ToastUtil.INSTANCE.showToastWithDelay(this, "复制成功！", 100);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void save() {
+        try {
+//            if (!ViewAppInfo.INSTANCE.getVeriftag()) {
+//                ToastUtil.showToastWithDelay(this, "非内测用户！", 100);
+//            }
+            if (Config.isModify(this.userId) && Config.save(this.userId, false)) {
+                ToastUtil.INSTANCE.showToastWithDelay(this, "保存成功！", 100);
+                if (!StringUtil.isEmpty(this.userId)) {
+                    Intent intent = new Intent("com.eg.android.AlipayGphone.sesame.restart");
+                    intent.putExtra("userId", this.userId);
+                    sendBroadcast(intent);
+                }
+            }
+            if (!StringUtil.isEmpty(this.userId)) {
+                UserMap.save(this.userId);
+                CooperateMap.getInstance(CooperateMap.class).save(this.userId);
+            }
+        } catch (Throwable th) {
+            Log.printStackTrace(th);
+        }
+    }
+}

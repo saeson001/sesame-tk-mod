@@ -1,1 +1,135 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGNvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5jYXJkLk1hdGVyaWFsQ2FyZFZpZXcgeG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOmxheW91dF9tYXJnaW49IjRkcCIKICAgIGFwcDpjYXJkQ29ybmVyUmFkaXVzPSI4ZHAiCiAgICBhcHA6Y2FyZEVsZXZhdGlvbj0iMWRwIgogICAgYXBwOnN0cm9rZVdpZHRoPSIwZHAiCiAgICBzdHlsZT0iQHN0eWxlL1dpZGdldC5NYXRlcmlhbDMuQ2FyZFZpZXcuRWxldmF0ZWQiPgoKICAgIDxMaW5lYXJMYXlvdXQKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6b3JpZW50YXRpb249InZlcnRpY2FsIgogICAgICAgIGFuZHJvaWQ6cGFkZGluZz0iMTJkcCI+CgogICAgICAgIDwhLS0g5ZCN56ew5ZKM5pON5L2c5oyJ6ZKuIC0tPgogICAgICAgIDxMaW5lYXJMYXlvdXQKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6b3JpZW50YXRpb249Imhvcml6b250YWwiCiAgICAgICAgICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyX3ZlcnRpY2FsIgogICAgICAgICAgICBhbmRyb2lkOm1pbkhlaWdodD0iNDBkcCI+CgogICAgICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvdHZfcnBjX25hbWUiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93ZWlnaHQ9IjEiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHQ9IuWKn+iDveWQjeensCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjE2c3AiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRTdHlsZT0iYm9sZCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSI/YXR0ci9jb2xvck9uU3VyZmFjZSIgLz4KCiAgICAgICAgICAgIDwhLS0g6L+Q6KGM5oyJ6ZKuIC0tPgogICAgICAgICAgICA8Y29tLmdvb2dsZS5hbmRyb2lkLm1hdGVyaWFsLmJ1dHRvbi5NYXRlcmlhbEJ1dHRvbgogICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9idG5fcnVuIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IjQwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjQwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5TdGFydD0iNGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyX3ZlcnRpY2FsIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldFRvcD0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldEJvdHRvbT0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldExlZnQ9IjBkcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aW5zZXRSaWdodD0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nPSIwZHAiCiAgICAgICAgICAgICAgICBhcHA6aWNvbj0iQGFuZHJvaWQ6ZHJhd2FibGUvaWNfbWVkaWFfcGxheSIKICAgICAgICAgICAgICAgIGFwcDppY29uU2l6ZT0iMjBkcCIKICAgICAgICAgICAgICAgIGFwcDppY29uR3Jhdml0eT0idGV4dFN0YXJ0IgogICAgICAgICAgICAgICAgYXBwOmljb25QYWRkaW5nPSIwZHAiCiAgICAgICAgICAgICAgICBhcHA6Y29ybmVyUmFkaXVzPSIyMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpjb250ZW50RGVzY3JpcHRpb249Iui/kOihjCIKICAgICAgICAgICAgICAgIHN0eWxlPSJAc3R5bGUvV2lkZ2V0Lk1hdGVyaWFsMy5CdXR0b24uSWNvbkJ1dHRvbi5GaWxsZWQiIC8+CgogICAgICAgICAgICA8IS0tIOWkjeWItuaMiemSriAtLT4KICAgICAgICAgICAgPGNvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5idXR0b24uTWF0ZXJpYWxCdXR0b24KICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvYnRuX2NvcHkiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iNDBkcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0iNDBkcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSI0ZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmluc2V0VG9wPSIwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmluc2V0Qm90dG9tPSIwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmluc2V0TGVmdD0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldFJpZ2h0PSIwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnBhZGRpbmc9IjBkcCIKICAgICAgICAgICAgICAgIGFwcDppY29uPSJAYW5kcm9pZDpkcmF3YWJsZS9pY19tZW51X3NhdmUiCiAgICAgICAgICAgICAgICBhcHA6aWNvblNpemU9IjIwZHAiCiAgICAgICAgICAgICAgICBhcHA6aWNvbkdyYXZpdHk9InRleHRTdGFydCIKICAgICAgICAgICAgICAgIGFwcDppY29uUGFkZGluZz0iMGRwIgogICAgICAgICAgICAgICAgYXBwOmNvcm5lclJhZGl1cz0iMjBkcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y29udGVudERlc2NyaXB0aW9uPSLlpI3liLYiCiAgICAgICAgICAgICAgICBzdHlsZT0iQHN0eWxlL1dpZGdldC5NYXRlcmlhbDMuQnV0dG9uLkljb25CdXR0b24uRmlsbGVkLlRvbmFsIiAvPgoKICAgICAgICAgICAgPCEtLSDnvJbovpHmjInpkq4gLS0+CiAgICAgICAgICAgIDxjb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwuYnV0dG9uLk1hdGVyaWFsQnV0dG9uCiAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2J0bl9lZGl0IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IjQwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjQwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5TdGFydD0iNGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyX3ZlcnRpY2FsIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldFRvcD0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldEJvdHRvbT0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldExlZnQ9IjBkcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aW5zZXRSaWdodD0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nPSIwZHAiCiAgICAgICAgICAgICAgICBhcHA6aWNvbj0iQGFuZHJvaWQ6ZHJhd2FibGUvaWNfbWVudV9lZGl0IgogICAgICAgICAgICAgICAgYXBwOmljb25TaXplPSIyMGRwIgogICAgICAgICAgICAgICAgYXBwOmljb25HcmF2aXR5PSJ0ZXh0U3RhcnQiCiAgICAgICAgICAgICAgICBhcHA6aWNvblBhZGRpbmc9IjBkcCIKICAgICAgICAgICAgICAgIGFwcDpjb3JuZXJSYWRpdXM9IjIwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmNvbnRlbnREZXNjcmlwdGlvbj0i57yW6L6RIgogICAgICAgICAgICAgICAgc3R5bGU9IkBzdHlsZS9XaWRnZXQuTWF0ZXJpYWwzLkJ1dHRvbi5JY29uQnV0dG9uLkZpbGxlZC5Ub25hbCIgLz4KCiAgICAgICAgICAgIDwhLS0g5Yig6Zmk5oyJ6ZKuIC0tPgogICAgICAgICAgICA8Y29tLmdvb2dsZS5hbmRyb2lkLm1hdGVyaWFsLmJ1dHRvbi5NYXRlcmlhbEJ1dHRvbgogICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9idG5fZGVsZXRlIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IjQwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjQwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5TdGFydD0iNGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyX3ZlcnRpY2FsIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldFRvcD0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldEJvdHRvbT0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDppbnNldExlZnQ9IjBkcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aW5zZXRSaWdodD0iMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nPSIwZHAiCiAgICAgICAgICAgICAgICBhcHA6aWNvbj0iQGFuZHJvaWQ6ZHJhd2FibGUvaWNfbWVudV9kZWxldGUiCiAgICAgICAgICAgICAgICBhcHA6aWNvblNpemU9IjIwZHAiCiAgICAgICAgICAgICAgICBhcHA6aWNvbkdyYXZpdHk9InRleHRTdGFydCIKICAgICAgICAgICAgICAgIGFwcDppY29uUGFkZGluZz0iMGRwIgogICAgICAgICAgICAgICAgYXBwOmNvcm5lclJhZGl1cz0iMjBkcCIKICAgICAgICAgICAgICAgIGFwcDppY29uVGludD0iP2F0dHIvY29sb3JFcnJvciIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y29udGVudERlc2NyaXB0aW9uPSLliKDpmaQiCiAgICAgICAgICAgICAgICBzdHlsZT0iQHN0eWxlL1dpZGdldC5NYXRlcmlhbDMuQnV0dG9uLkljb25CdXR0b24uT3V0bGluZWQiIC8+CiAgICAgICAgPC9MaW5lYXJMYXlvdXQ+CgogICAgICAgIDwhLS0gTWV0aG9kIC0tPgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3R2X3JwY19tZXRob2QiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Ub3A9IjhkcCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJhbGlwYXkueHh4Lnh4eCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTNzcCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9Ij9hdHRyL2NvbG9yT25TdXJmYWNlVmFyaWFudCIKICAgICAgICAgICAgYW5kcm9pZDpmb250RmFtaWx5PSJtb25vc3BhY2UiCiAgICAgICAgICAgIGFuZHJvaWQ6ZWxsaXBzaXplPSJlbmQiCiAgICAgICAgICAgIGFuZHJvaWQ6bWF4TGluZXM9IjIiIC8+CgogICAgPC9MaW5lYXJMYXlvdXQ+Cgo8L2NvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5jYXJkLk1hdGVyaWFsQ2FyZFZpZXc+Cgo=
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="1dp"
+    app:strokeWidth="0dp"
+    style="@style/Widget.Material3.CardView.Elevated">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- 名称和操作按钮 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:minHeight="40dp">
+
+            <TextView
+                android:id="@+id/tv_rpc_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="功能名称"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface" />
+
+            <!-- 运行按钮 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_run"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:layout_gravity="center_vertical"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:padding="0dp"
+                app:icon="@android:drawable/ic_media_play"
+                app:iconSize="20dp"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:cornerRadius="20dp"
+                android:contentDescription="运行"
+                style="@style/Widget.Material3.Button.IconButton.Filled" />
+
+            <!-- 复制按钮 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_copy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:layout_gravity="center_vertical"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:padding="0dp"
+                app:icon="@android:drawable/ic_menu_save"
+                app:iconSize="20dp"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:cornerRadius="20dp"
+                android:contentDescription="复制"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal" />
+
+            <!-- 编辑按钮 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_edit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:layout_gravity="center_vertical"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:padding="0dp"
+                app:icon="@android:drawable/ic_menu_edit"
+                app:iconSize="20dp"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:cornerRadius="20dp"
+                android:contentDescription="编辑"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal" />
+
+            <!-- 删除按钮 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_delete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:layout_gravity="center_vertical"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:padding="0dp"
+                app:icon="@android:drawable/ic_menu_delete"
+                app:iconSize="20dp"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:cornerRadius="20dp"
+                app:iconTint="?attr/colorError"
+                android:contentDescription="删除"
+                style="@style/Widget.Material3.Button.IconButton.Outlined" />
+        </LinearLayout>
+
+        <!-- Method -->
+        <TextView
+            android:id="@+id/tv_rpc_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="alipay.xxx.xxx"
+            android:textSize="13sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:fontFamily="monospace"
+            android:ellipsize="end"
+            android:maxLines="2" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+

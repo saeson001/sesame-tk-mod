@@ -1,1 +1,74 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnNlcnZlcgoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suc2VydmVyLmhhbmRsZXJzLkRlYnVnSGFuZGxlcgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5zZXJ2ZXIuaGFuZGxlcnMuSHR0cEhhbmRsZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRAppbXBvcnQgamF2YS5pby5EYXRhSW5wdXRTdHJlYW0KaW1wb3J0IGphdmEubmlvLmNoYXJzZXQuU3RhbmRhcmRDaGFyc2V0cwoKY2xhc3MgTW9kdWxlSHR0cFNlcnZlcigKICAgIHBvcnQ6IEludCA9IDgwODAsCiAgICBzZWNyZXRUb2tlbjogU3RyaW5nID0gIiIKKSA6IE5hbm9IVFRQRCgiMC4wLjAuMCIsIHBvcnQpIHsKICAgIHByaXZhdGUgdmFsIHRhZyA9ICJNb2R1bGVIdHRwU2VydmVyIgoKICAgIHByaXZhdGUgdmFsIHJvdXRlcyA9IG11dGFibGVNYXBPZjxTdHJpbmcsIEh0dHBIYW5kbGVyPigpCgogICAgaW5pdCB7CiAgICAgICAgLy8g5rOo5YaM6Lev55SxCiAgICAgICAgcmVnaXN0ZXIoIi9kZWJ1Z0hhbmRsZXIiLCBEZWJ1Z0hhbmRsZXIoc2VjcmV0VG9rZW4pLCAi6LCD6K+V5o6l5Y+jIikKICAgIH0KCiAgICBAU3VwcHJlc3MoIlNhbWVQYXJhbWV0ZXJWYWx1ZSIpCiAgICBwcml2YXRlIGZ1biByZWdpc3RlcihwYXRoOiBTdHJpbmcsIGhhbmRsZXI6IEh0dHBIYW5kbGVyLCBkZXNjcmlwdGlvbjogU3RyaW5nID0gIiIpIHsKICAgICAgICBMb2cucmVjb3JkKHRhZywgIlJlZ2lzdGVyaW5nIGhhbmRsZXIgOiAkcGF0aCAtPiAkZGVzY3JpcHRpb24iKQogICAgICAgIHJvdXRlc1twYXRoXSA9IGhhbmRsZXIKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gc2VydmUoc2Vzc2lvbjogSUhUVFBTZXNzaW9uKTogUmVzcG9uc2UgewogICAgICAgIHZhbCB1cmkgPSBzZXNzaW9uLnVyaQogICAgICAgIHZhbCBoYW5kbGVyID0gcm91dGVzW3VyaV0gPzogcmV0dXJuIG5vdEZvdW5kKCkKCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIC8vIOWmguaenOaYryBQT1NUL1BVVCDor7fmsYLvvIzlronlhajor7vlj5YgQm9keQogICAgICAgICAgICB2YXIgYm9keTogU3RyaW5nPyA9IG51bGwKICAgICAgICAgICAgaWYgKHNlc3Npb24ubWV0aG9kID09IE1ldGhvZC5QT1NUIHx8IHNlc3Npb24ubWV0aG9kID09IE1ldGhvZC5QVVQpIHsKICAgICAgICAgICAgICAgIGJvZHkgPSBnZXRQb3N0Qm9keVNhZmUoc2Vzc2lvbikKICAgICAgICAgICAgfQogICAgICAgICAgICBoYW5kbGVyLmhhbmRsZShzZXNzaW9uLCBib2R5KQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAvLyDwn5SlIOWFqOWxgOW8guW4uOaNleiOt++8jOmYsuatoiBIYW5kbGVyIOWGhemDqOW0qea6g+WvvOiHtCBTb2NrZXQg5Lit5patCiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UodGFnLCAiU2VydmVyIEVycm9yIG9uICR1cmkiLCBlKQogICAgICAgICAgICBuZXdGaXhlZExlbmd0aFJlc3BvbnNlKFJlc3BvbnNlLlN0YXR1cy5JTlRFUk5BTF9FUlJPUiwgU2VydmVyQ29tbW9uLk1JTUVfUExBSU5URVhULCAiSW50ZXJuYWwgU2VydmVyIEVycm9yOiAke2UubWVzc2FnZX0iKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIPCflKXjgJDlhbPplK7kv67lpI3jgJHlronlhajor7vlj5YgQm9keQogICAgICogMS4g56Gu5L+d6K+75ruhIGNvbnRlbnQtbGVuZ3RoIOmVv+W6pueahOaVsOaNrgogICAgICogMi4g5oyH5a6aIFVURi04IOe8lueggQogICAgICovCiAgICBwcml2YXRlIGZ1biBnZXRQb3N0Qm9keVNhZmUoc2Vzc2lvbjogSUhUVFBTZXNzaW9uKTogU3RyaW5nPyB7CiAgICAgICAgdmFsIGNvbnRlbnRMZW5ndGggPSBzZXNzaW9uLmhlYWRlcnNbImNvbnRlbnQtbGVuZ3RoIl0/LnRvSW50T3JOdWxsKCkgPzogcmV0dXJuIG51bGwKICAgICAgICBpZiAoY29udGVudExlbmd0aCA9PSAwKSByZXR1cm4gIiIKCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBidWZmZXIgPSBCeXRlQXJyYXkoY29udGVudExlbmd0aCkKICAgICAgICAgICAgdmFsIGlucHV0U3RyZWFtID0gRGF0YUlucHV0U3RyZWFtKHNlc3Npb24uaW5wdXRTdHJlYW0pCgogICAgICAgICAgICAvLyDkvb/nlKggcmVhZEZ1bGx5IOehruS/neivu+a7oeaJgOacieWtl+iKgu+8jOS4jeWkn+S8mumYu+WhnuetieW+he+8jOebtOWIsOivu+WujOaIlui2heaXtgogICAgICAgICAgICBpbnB1dFN0cmVhbS5yZWFkRnVsbHkoYnVmZmVyKQoKICAgICAgICAgICAgLy8g5piO56Gu5L2/55SoIFVURi0477yM6Ziy5q2i5Lit5paH5Lmx56CBCiAgICAgICAgICAgIFN0cmluZyhidWZmZXIsIFN0YW5kYXJkQ2hhcnNldHMuVVRGXzgpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UodGFnLCAiRmFpbGVkIHRvIHJlYWQgYm9keSIsIGUpCiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbm90Rm91bmQoKTogUmVzcG9uc2UgewogICAgICAgIHJldHVybiBuZXdGaXhlZExlbmd0aFJlc3BvbnNlKFJlc3BvbnNlLlN0YXR1cy5OT1RfRk9VTkQsIFNlcnZlckNvbW1vbi5NSU1FX1BMQUlOVEVYVCwgIk5vdCBGb3VuZCIpCiAgICB9Cn0=
+package fansirsqi.xposed.sesame.hook.server
+
+import fansirsqi.xposed.sesame.hook.server.handlers.DebugHandler
+import fansirsqi.xposed.sesame.hook.server.handlers.HttpHandler
+import fansirsqi.xposed.sesame.util.Log
+import fi.iki.elonen.NanoHTTPD
+import java.io.DataInputStream
+import java.nio.charset.StandardCharsets
+
+class ModuleHttpServer(
+    port: Int = 8080,
+    secretToken: String = ""
+) : NanoHTTPD("0.0.0.0", port) {
+    private val tag = "ModuleHttpServer"
+
+    private val routes = mutableMapOf<String, HttpHandler>()
+
+    init {
+        // 注册路由
+        register("/debugHandler", DebugHandler(secretToken), "调试接口")
+    }
+
+    @Suppress("SameParameterValue")
+    private fun register(path: String, handler: HttpHandler, description: String = "") {
+        Log.record(tag, "Registering handler : $path -> $description")
+        routes[path] = handler
+    }
+
+    override fun serve(session: IHTTPSession): Response {
+        val uri = session.uri
+        val handler = routes[uri] ?: return notFound()
+
+        return try {
+            // 如果是 POST/PUT 请求，安全读取 Body
+            var body: String? = null
+            if (session.method == Method.POST || session.method == Method.PUT) {
+                body = getPostBodySafe(session)
+            }
+            handler.handle(session, body)
+        } catch (e: Exception) {
+            // 🔥 全局异常捕获，防止 Handler 内部崩溃导致 Socket 中断
+            Log.printStackTrace(tag, "Server Error on $uri", e)
+            newFixedLengthResponse(Response.Status.INTERNAL_ERROR, ServerCommon.MIME_PLAINTEXT, "Internal Server Error: ${e.message}")
+        }
+    }
+
+    /**
+     * 🔥【关键修复】安全读取 Body
+     * 1. 确保读满 content-length 长度的数据
+     * 2. 指定 UTF-8 编码
+     */
+    private fun getPostBodySafe(session: IHTTPSession): String? {
+        val contentLength = session.headers["content-length"]?.toIntOrNull() ?: return null
+        if (contentLength == 0) return ""
+
+        return try {
+            val buffer = ByteArray(contentLength)
+            val inputStream = DataInputStream(session.inputStream)
+
+            // 使用 readFully 确保读满所有字节，不够会阻塞等待，直到读完或超时
+            inputStream.readFully(buffer)
+
+            // 明确使用 UTF-8，防止中文乱码
+            String(buffer, StandardCharsets.UTF_8)
+        } catch (e: Exception) {
+            Log.printStackTrace(tag, "Failed to read body", e)
+            null
+        }
+    }
+
+    private fun notFound(): Response {
+        return newFixedLengthResponse(Response.Status.NOT_FOUND, ServerCommon.MIME_PLAINTEXT, "Not Found")
+    }
+}

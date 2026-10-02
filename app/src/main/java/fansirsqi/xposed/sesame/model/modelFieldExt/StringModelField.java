@@ -1,1 +1,43 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuR3Jhdml0eTsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkJ1dHRvbjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkxpbmVhckxheW91dDsKaW1wb3J0IGFuZHJvaWR4LmNvcmUuY29udGVudC5Db250ZXh0Q29tcGF0OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS53aWRnZXQuU3RyaW5nRGlhbG9nOwpwdWJsaWMgY2xhc3MgU3RyaW5nTW9kZWxGaWVsZCBleHRlbmRzIE1vZGVsRmllbGQ8U3RyaW5nPiB7CiAgICBwdWJsaWMgU3RyaW5nTW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIFN0cmluZyB2YWx1ZSkgewogICAgICAgIHN1cGVyKGNvZGUsIG5hbWUsIHZhbHVlKTsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIFN0cmluZyBnZXRUeXBlKCkgewogICAgICAgIHJldHVybiAiU1RSSU5HIjsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIFN0cmluZyBnZXRDb25maWdWYWx1ZSgpIHsKICAgICAgICByZXR1cm4gdmFsdWU7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIHNldENvbmZpZ1ZhbHVlKFN0cmluZyBjb25maWdWYWx1ZSkgewogICAgICAgIHZhbHVlID0gY29uZmlnVmFsdWU7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBWaWV3IGdldFZpZXcoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgQnV0dG9uIGJ0biA9IG5ldyBCdXR0b24oY29udGV4dCk7CiAgICAgICAgYnRuLnNldFRleHQoZ2V0TmFtZSgpKTsKICAgICAgICBidG4uc2V0TGF5b3V0UGFyYW1zKG5ldyBMaW5lYXJMYXlvdXQuTGF5b3V0UGFyYW1zKFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5ULCBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLldSQVBfQ09OVEVOVCkpOwogICAgICAgIGJ0bi5zZXRUZXh0Q29sb3IoQ29udGV4dENvbXBhdC5nZXRDb2xvcihjb250ZXh0LCBSLmNvbG9yLnNlbGVjdGlvbl9jb2xvcikpOwogICAgICAgIGJ0bi5zZXRCYWNrZ3JvdW5kKENvbnRleHRDb21wYXQuZ2V0RHJhd2FibGUoY29udGV4dCwgUi5kcmF3YWJsZS5kaWFsb2dfbGlzdF9idXR0b24pKTsKICAgICAgICBidG4uc2V0R3Jhdml0eShHcmF2aXR5LlNUQVJUIHwgR3Jhdml0eS5DRU5URVJfVkVSVElDQUwpOwogICAgICAgIGJ0bi5zZXRNaW5IZWlnaHQoMTUwKTsKICAgICAgICBidG4uc2V0TWF4SGVpZ2h0KDE4MCk7CiAgICAgICAgYnRuLnNldFBhZGRpbmdSZWxhdGl2ZSg0MCwgMCwgNDAsIDApOwogICAgICAgIGJ0bi5zZXRBbGxDYXBzKGZhbHNlKTsKICAgICAgICBidG4uc2V0T25DbGlja0xpc3RlbmVyKHYgLT4gU3RyaW5nRGlhbG9nLnNob3dFZGl0RGlhbG9nKHYuZ2V0Q29udGV4dCgpLCAoKEJ1dHRvbikgdikuZ2V0VGV4dCgpLCB0aGlzKSk7CiAgICAgICAgcmV0dXJuIGJ0bjsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+import android.content.Context;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import androidx.core.content.ContextCompat;
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.ui.widget.StringDialog;
+public class StringModelField extends ModelField<String> {
+    public StringModelField(String code, String name, String value) {
+        super(code, name, value);
+    }
+    @Override
+    public String getType() {
+        return "STRING";
+    }
+    @Override
+    public String getConfigValue() {
+        return value;
+    }
+    @Override
+    public void setConfigValue(String configValue) {
+        value = configValue;
+    }
+    @Override
+    public View getView(Context context) {
+        Button btn = new Button(context);
+        btn.setText(getName());
+        btn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        btn.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+        btn.setBackground(ContextCompat.getDrawable(context, R.drawable.dialog_list_button));
+        btn.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+        btn.setMinHeight(150);
+        btn.setMaxHeight(180);
+        btn.setPaddingRelative(40, 0, 40, 0);
+        btn.setAllCaps(false);
+        btn.setOnClickListener(v -> StringDialog.showEditDialog(v.getContext(), ((Button) v).getText(), this));
+        return btn;
+    }
+}

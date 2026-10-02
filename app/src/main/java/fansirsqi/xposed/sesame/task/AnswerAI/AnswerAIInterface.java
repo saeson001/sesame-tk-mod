@@ -1,1 +1,94 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLkFuc3dlckFJOwoKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKLyoqCiAqIEFJ562U6aKY5pyN5Yqh5o6l5Y+jCiAqIOWumuS5ieS6hkFJ562U6aKY5pyN5Yqh55qE5Z+65pys5pON5L2c77yM5YyF5ous6I635Y+W562U5qGI44CB6K6+572u5qih5Z6L562J5Yqf6IO9CiAqLwpwdWJsaWMgaW50ZXJmYWNlIEFuc3dlckFJSW50ZXJmYWNlIHsKCiAgICAvKioKICAgICAqIOiuvue9ruaooeWei+WQjeensAogICAgICoKICAgICAqIEBwYXJhbSBtb2RlbE5hbWUg5qih5Z6L5ZCN56ewCiAgICAgKi8KICAgIGRlZmF1bHQgdm9pZCBzZXRNb2RlbE5hbWUoU3RyaW5nIG1vZGVsTmFtZSkgewogICAgICAgIC8vIOm7mOiupOepuuWunueOsAogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5qih5Z6L5ZCN56ewCiAgICAgKgogICAgICogQHJldHVybiDlvZPliY3kvb/nlKjnmoTmqKHlnovlkI3np7AKICAgICAqLwogICAgZGVmYXVsdCBTdHJpbmcgZ2V0TW9kZWxOYW1lKCkgewogICAgICAgIC8vIOm7mOiupOepuuWunueOsAogICAgICAgIHJldHVybiAiIjsKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPlkFJ5Zue562U57uT5p6cCiAgICAgKgogICAgICogQHBhcmFtIHRleHQg6Zeu6aKY5YaF5a65CiAgICAgKiBAcmV0dXJuIEFJ5Zue562U57uT5p6c77yM5aaC5p6c6I635Y+W5aSx6LSl6L+U5Zue56m65a2X56ym5LiyCiAgICAgKi8KICAgIFN0cmluZyBnZXRBbnN3ZXJTdHIoU3RyaW5nIHRleHQpOwoKICAgIC8qKgogICAgICog6I635Y+WQUnlm57nrZTnu5PmnpzvvIzmjIflrprmqKHlnosKICAgICAqCiAgICAgKiBAcGFyYW0gdGV4dCAg6Zeu6aKY5YaF5a65CiAgICAgKiBAcGFyYW0gbW9kZWwg5qih5Z6L5ZCN56ewCiAgICAgKiBAcmV0dXJuIEFJ5Zue562U57uT5p6c77yM5aaC5p6c6I635Y+W5aSx6LSl6L+U5Zue56m65a2X56ym5LiyCiAgICAgKi8KICAgIFN0cmluZyBnZXRBbnN3ZXJTdHIoU3RyaW5nIHRleHQsIFN0cmluZyBtb2RlbCk7CgogICAgLyoqCiAgICAgKiDojrflj5ZBSeetlOahiAogICAgICoKICAgICAqIEBwYXJhbSB0aXRsZSAgICAgIOmXrumimOagh+mimAogICAgICogQHBhcmFtIGFuc3dlckxpc3Qg5YCZ6YCJ562U5qGI5YiX6KGoCiAgICAgKiBAcmV0dXJuIOmAieS4reeahOetlOahiOe0ouW8le+8jOWmguaenOayoeacieaJvuWIsOWQiOmAgueahOetlOahiOi/lOWbni0xCiAgICAgKi8KICAgIEludGVnZXIgZ2V0QW5zd2VyKFN0cmluZyB0aXRsZSwgTGlzdDxTdHJpbmc+IGFuc3dlckxpc3QpOwoKICAgIC8qKgogICAgICog6YeK5pS+6LWE5rqQCiAgICAgKiDlrp7njrDnsbvlupTlnKjmraTmlrnms5XkuK3muIXnkIbmiYDmnInkvb/nlKjnmoTotYTmupAKICAgICAqLwogICAgZGVmYXVsdCB2b2lkIHJlbGVhc2UoKSB7CiAgICAgICAgLy8g6buY6K6k56m65a6e546wCiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5bljZXkvovlrp7kvosKICAgICAqCiAgICAgKiBAcmV0dXJuIOm7mOiupOeahEFJ562U6aKY5pyN5Yqh5a6e546wCiAgICAgKi8KICAgIHN0YXRpYyBBbnN3ZXJBSUludGVyZmFjZSBnZXRJbnN0YW5jZSgpIHsKICAgICAgICByZXR1cm4gU2luZ2xldG9uSG9sZGVyLklOU1RBTkNFOwogICAgfQoKICAgIC8qKgogICAgICog5Y2V5L6L5oyB5pyJ6ICF77yM5bu26L+f5Yqg6L29CiAgICAgKi8KICAgIGNsYXNzIFNpbmdsZXRvbkhvbGRlciB7CiAgICAgICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgQW5zd2VyQUlJbnRlcmZhY2UgSU5TVEFOQ0UgPSBuZXcgQW5zd2VyQUlJbnRlcmZhY2UoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgU3RyaW5nIGdldEFuc3dlclN0cihTdHJpbmcgdGV4dCkgewogICAgICAgICAgICAgICAgcmV0dXJuICIiOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIFN0cmluZyBnZXRBbnN3ZXJTdHIoU3RyaW5nIHRleHQsIFN0cmluZyBtb2RlbCkgewogICAgICAgICAgICAgICAgcmV0dXJuICIiOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIEludGVnZXIgZ2V0QW5zd2VyKFN0cmluZyB0aXRsZSwgTGlzdDxTdHJpbmc+IGFuc3dlckxpc3QpIHsKICAgICAgICAgICAgICAgIHJldHVybiAtMTsKICAgICAgICAgICAgfQogICAgICAgIH07CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task.AnswerAI;
+
+import java.util.List;
+
+/**
+ * AI答题服务接口
+ * 定义了AI答题服务的基本操作，包括获取答案、设置模型等功能
+ */
+public interface AnswerAIInterface {
+
+    /**
+     * 设置模型名称
+     *
+     * @param modelName 模型名称
+     */
+    default void setModelName(String modelName) {
+        // 默认空实现
+    }
+
+    /**
+     * 获取模型名称
+     *
+     * @return 当前使用的模型名称
+     */
+    default String getModelName() {
+        // 默认空实现
+        return "";
+    }
+
+    /**
+     * 获取AI回答结果
+     *
+     * @param text 问题内容
+     * @return AI回答结果，如果获取失败返回空字符串
+     */
+    String getAnswerStr(String text);
+
+    /**
+     * 获取AI回答结果，指定模型
+     *
+     * @param text  问题内容
+     * @param model 模型名称
+     * @return AI回答结果，如果获取失败返回空字符串
+     */
+    String getAnswerStr(String text, String model);
+
+    /**
+     * 获取AI答案
+     *
+     * @param title      问题标题
+     * @param answerList 候选答案列表
+     * @return 选中的答案索引，如果没有找到合适的答案返回-1
+     */
+    Integer getAnswer(String title, List<String> answerList);
+
+    /**
+     * 释放资源
+     * 实现类应在此方法中清理所有使用的资源
+     */
+    default void release() {
+        // 默认空实现
+    }
+
+    /**
+     * 获取单例实例
+     *
+     * @return 默认的AI答题服务实现
+     */
+    static AnswerAIInterface getInstance() {
+        return SingletonHolder.INSTANCE;
+    }
+
+    /**
+     * 单例持有者，延迟加载
+     */
+    class SingletonHolder {
+        private static final AnswerAIInterface INSTANCE = new AnswerAIInterface() {
+            @Override
+            public String getAnswerStr(String text) {
+                return "";
+            }
+
+            @Override
+            public String getAnswerStr(String text, String model) {
+                return "";
+            }
+
+            @Override
+            public Integer getAnswer(String title, List<String> answerList) {
+                return -1;
+            }
+        };
+    }
+}

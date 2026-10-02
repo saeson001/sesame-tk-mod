@@ -1,1 +1,50 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5kdG87CmltcG9ydCBsb21ib2suRGF0YTsKaW1wb3J0IGphdmEuaW8uU2VyaWFsaXphYmxlOwppbXBvcnQgamF2YS51dGlsLkxpc3Q7Ci8qKgogKiDmqKHlnovmlbDmja7kvKDovpPlr7nosaHjgIIKICog55So5LqO5bCB6KOF5qih5Z6L55qE5Luj56CB44CB5ZCN56ew44CB57uE5Luj56CB5Lul5Y+K5qih5Z6L5a2X5q615bGV56S65L+h5oGv44CCCiAqLwpARGF0YQpwdWJsaWMgY2xhc3MgTW9kZWxEdG8gaW1wbGVtZW50cyBTZXJpYWxpemFibGUgewogICAgLyoqCiAgICAgKiDmqKHlnovku6PnoIHjgIIKICAgICAqLwogICAgcHJpdmF0ZSBTdHJpbmcgbW9kZWxDb2RlOwogICAgLyoqCiAgICAgKiDmqKHlnovlkI3np7DjgIIKICAgICAqLwogICAgcHJpdmF0ZSBTdHJpbmcgbW9kZWxOYW1lOwogICAgLyoqCiAgICAgKiDmqKHlnovlm77moIcKICAgICAqLwogICAgcHJpdmF0ZSBTdHJpbmcgbW9kZWxJY29uOwogICAgLyoqCiAgICAgKiDnu4Tku6PnoIHjgIIKICAgICAqLwogICAgcHJpdmF0ZSBTdHJpbmcgZ3JvdXBDb2RlOwogICAgLyoqCiAgICAgKiDmqKHlnovlrZfmrrXlsZXnpLrkv6Hmga/liJfooajjgIIKICAgICAqLwogICAgcHJpdmF0ZSBMaXN0PE1vZGVsRmllbGRTaG93RHRvPiBtb2RlbEZpZWxkczsKICAgIC8qKgogICAgICog5peg5Y+C5p6E6YCg5Ye95pWw44CCCiAgICAgKi8KICAgIHB1YmxpYyBNb2RlbER0bygpIHsKICAgIH0KICAgIC8qKgogICAgICog5YWo5Y+C5p6E6YCg5Ye95pWw44CCCiAgICAgKiBAcGFyYW0gbW9kZWxDb2RlIOaooeWei+S7o+eggQogICAgICogQHBhcmFtIG1vZGVsTmFtZSDmqKHlnovlkI3np7AKICAgICAqIEBwYXJhbSBncm91cENvZGUg57uE5Luj56CBCiAgICAgKiBAcGFyYW0gbW9kZWxGaWVsZHMg5qih5Z6L5a2X5q615bGV56S65L+h5oGv5YiX6KGoCiAgICAgKi8KICAgIHB1YmxpYyBNb2RlbER0byhTdHJpbmcgbW9kZWxDb2RlLCBTdHJpbmcgbW9kZWxOYW1lLCBTdHJpbmcgaWNvbiwgU3RyaW5nIGdyb3VwQ29kZSwgTGlzdDxNb2RlbEZpZWxkU2hvd0R0bz4gbW9kZWxGaWVsZHMpIHsKICAgICAgICB0aGlzLm1vZGVsQ29kZSA9IG1vZGVsQ29kZTsKICAgICAgICB0aGlzLm1vZGVsTmFtZSA9IG1vZGVsTmFtZTsKICAgICAgICB0aGlzLm1vZGVsSWNvbiA9IGljb247CiAgICAgICAgdGhpcy5ncm91cENvZGUgPSBncm91cENvZGU7CiAgICAgICAgdGhpcy5tb2RlbEZpZWxkcyA9IG1vZGVsRmllbGRzOwogICAgfQp9
+package fansirsqi.xposed.sesame.ui.dto;
+import lombok.Data;
+import java.io.Serializable;
+import java.util.List;
+/**
+ * 模型数据传输对象。
+ * 用于封装模型的代码、名称、组代码以及模型字段展示信息。
+ */
+@Data
+public class ModelDto implements Serializable {
+    /**
+     * 模型代码。
+     */
+    private String modelCode;
+    /**
+     * 模型名称。
+     */
+    private String modelName;
+    /**
+     * 模型图标
+     */
+    private String modelIcon;
+    /**
+     * 组代码。
+     */
+    private String groupCode;
+    /**
+     * 模型字段展示信息列表。
+     */
+    private List<ModelFieldShowDto> modelFields;
+    /**
+     * 无参构造函数。
+     */
+    public ModelDto() {
+    }
+    /**
+     * 全参构造函数。
+     * @param modelCode 模型代码
+     * @param modelName 模型名称
+     * @param groupCode 组代码
+     * @param modelFields 模型字段展示信息列表
+     */
+    public ModelDto(String modelCode, String modelName, String icon, String groupCode, List<ModelFieldShowDto> modelFields) {
+        this.modelCode = modelCode;
+        this.modelName = modelName;
+        this.modelIcon = icon;
+        this.groupCode = groupCode;
+        this.modelFields = modelFields;
+    }
+}

@@ -1,1 +1,523 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLm90aGVyLmNyZWRpdDIxMDEKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlJlcXVlc3RNYW5hZ2VyCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgpvYmplY3QgQ3JlZGl0MjEwMVJwY0NhbGwgewoKICAgIC8qKiDmn6Xor6LotKbmiLfotYTkuqfvvJrljIXlkKvkv6HnlKjljbDorrDjgIHnoo7niYfjgIHkvZPlipvjgIHlrp3nrrHnrYkgKi8KICAgIGZ1biBxdWVyeUFjY291bnRBc3NldCgpOiBTdHJpbmcgewogICAgICAgIHZhbCBkYXRhID0gIlt7fV0iCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMucXVlcnlBY2NvdW50QXNzZXQiLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDlvIDlrp3nrrHvvIjop6blj5HmlLbnm4rvvIkgKi8KICAgIGZ1biB0cmlnZ2VyQmVuZWZpdCgpOiBTdHJpbmcgewogICAgICAgIHZhbCBkYXRhID0gIlt7fV0iCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMudHJpZ2dlckJlbmVmaXQiLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDmn6Xor6Lnrb7liLDmlbDmja4gKi8KICAgIGZ1biBxdWVyeVNpZ25JbkRhdGEoKTogU3RyaW5nIHsKICAgICAgICB2YWwgZGF0YSA9ICJbe31dIgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLnF1ZXJ5U2lnbkluRGF0YSIsCiAgICAgICAgICAgIGRhdGEKICAgICAgICApCiAgICB9CgogICAgLyoqIOaJp+ihjOetvuWIsO+8jGRheSDkuLogdG90YWxMb2dpbkRheXMgKi8KICAgIGZ1biB1c2VyU2lnbkluKGRheTogSW50KTogU3RyaW5nIHsKICAgICAgICB2YWwgZGF0YSA9ICJbe1wiZGF5XCI6JGRheX1dIgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLnVzZXJTaWduSW4iLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDmn6Xor6LlvZPliY3lnZDmoIfpmYTov5Hkuovku7YgKi8KICAgIGZ1biBxdWVyeUdyaWRFdmVudChjaXR5Q29kZTogU3RyaW5nLCBsYXRpdHVkZTogRG91YmxlLCBsb25naXR1ZGU6IERvdWJsZSwgZ3VpZGVTdGF0ZTogQm9vbGVhbiA9IGZhbHNlKTogU3RyaW5nIHsKICAgICAgICB2YWwgZGF0YSA9ICIiIlsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgImV4dFBhcmFtcyI6IHsKICAgICAgICAgICAgICAgICAgICAiY2l0eUNvZGUiOiAiJGNpdHlDb2RlIiwKICAgICAgICAgICAgICAgICAgICAibGF0aXR1ZGUiOiAiJGxhdGl0dWRlIiwKICAgICAgICAgICAgICAgICAgICAibG9uZ2l0dWRlIjogIiRsb25naXR1ZGUiCiAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICJndWlkZVN0YXRlIjogJGd1aWRlU3RhdGUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXSIiIi50cmltSW5kZW50KCkKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMucXVlcnlHcmlkRXZlbnQiLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDlsI/muLjmiI/lvIDlp4vvvJpNSU5JX0dBTUVfRUxJTUlOQVRFIC8gTUlOSV9HQU1FX0NPTExFQ1RZSiDpgJrnlKggKi8KICAgIGZ1biBldmVudEdhbWVTdGFydChiYXRjaE5vOiBTdHJpbmcsIGV2ZW50SWQ6IFN0cmluZywgbWluaUdhbWVTdGFnZUlkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBkYXRhID0gIiIiWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAiYmF0Y2hObyI6ICIkYmF0Y2hObyIsCiAgICAgICAgICAgICAgICAgICJldmVudElkIjogIiRldmVudElkIiwKICAgICAgICAgICAgICAgICAgIm1pbmlHYW1lU3RhZ2VJZCI6ICIkbWluaUdhbWVTdGFnZUlkIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBdIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuaW5ub3ZhdGlvbnByb2QuYml6LnJwYy5ldmVudEdhbWVTdGFydCIsCiAgICAgICAgICAgIGRhdGEKICAgICAgICApCiAgICB9CgoKICAgIC8qKgogICAgICog5bCP5ri45oiP5a6M5oiQ77ya5pS26ZuGIFlKIOexu+Wei++8iOW4piBjb2xsZWN0ZWRZSiDmianlsZXlj4LmlbDvvIkKICAgICAqIEBwYXJhbSBiYXRjaE5vIOaJueasoeWPt++8iOmdnuepuu+8iQogICAgICogQHBhcmFtIGV2ZW50SWQg5LqL5Lu2SUTvvIjpnZ7nqbrvvIkKICAgICAqIEBwYXJhbSBtaW5pR2FtZVN0YWdlSWQg5bCP5ri45oiP5YWz5Y2hSUTvvIjpnZ7nqbrvvIkKICAgICAqIEBwYXJhbSBjb2xsZWN0ZWRZSiDmlLbpm4bnmoTljbDorrDmlbAKICAgICAqIEByZXR1cm4g5o6l5Y+j5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBldmVudEdhbWVDb21wbGV0ZUNvbGxlY3RZaigKICAgICAgICBiYXRjaE5vOiBTdHJpbmcsCiAgICAgICAgZXZlbnRJZDogU3RyaW5nLAogICAgICAgIG1pbmlHYW1lU3RhZ2VJZDogU3RyaW5nLAogICAgICAgIGNvbGxlY3RlZFlKOiBJbnQgLy8g5piO56Gu6KaB5rGC5Lyg5YWlIEludCDnsbvlnosKICAgICk6IFN0cmluZyB7CgogICAgICAgIHZhbCBleHRQYXJhbXMgPSBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICBwdXQoImNvbGxlY3RlZFlKIiwgY29sbGVjdGVkWUopIC8vIEpTT05PYmplY3Qg5a2Y5YWlIEludCDml7bkuI3kvJrluKblvJXlj7cKICAgICAgICB9CgogICAgICAgIHZhbCByZXF1ZXN0T2JqID0gSlNPTk9iamVjdCgpLmFwcGx5IHsKICAgICAgICAgICAgcHV0KCJiYXRjaE5vIiwgYmF0Y2hObykKICAgICAgICAgICAgcHV0KCJldmVudElkIiwgZXZlbnRJZCkKICAgICAgICAgICAgcHV0KCJleHRQYXJhbXMiLCBleHRQYXJhbXMpCiAgICAgICAgICAgIHB1dCgibWluaUdhbWVTdGFnZUlkIiwgbWluaUdhbWVTdGFnZUlkKQogICAgICAgICAgICBwdXQoInBhc3NlZCIsIDEpIC8vIOS/neaMgeS4uuaVsOWtlyAxCiAgICAgICAgfQoKICAgICAgICAvLyDljIXoo4XmiJDmlbDnu4QgWyB7Li4ufSBdCiAgICAgICAgdmFsIGRhdGEgPSBKU09OQXJyYXkoKS5hcHBseSB7CiAgICAgICAgICAgIHB1dChyZXF1ZXN0T2JqKQogICAgICAgIH0udG9TdHJpbmcoKQoKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuaW5ub3ZhdGlvbnByb2QuYml6LnJwYy5ldmVudEdhbWVDb21wbGV0ZSIsCiAgICAgICAgICAgIGRhdGEKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiDlsI/muLjmiI/lrozmiJDvvIjpgJrnlKjvvIkKICAgICAqCiAgICAgKiBAcGFyYW0gZXh0UGFyYW1zIOWlluWKsSAvIOaJqeWxleWPguaVsO+8jOWujOWFqOeUseS4iuWxguWGs+WumgogICAgICogICAgICAgICAgICAgICAgICDkvovlpoLvvJoKICAgICAqICAgICAgICAgICAgICAgICAgewogICAgICogICAgICAgICAgICAgICAgICAgICJZSl9QUklaRSI6IDExOCwKICAgICAqICAgICAgICAgICAgICAgICAgICAia2lsbENvdW50IjogMywKICAgICAqICAgICAgICAgICAgICAgICAgICAiQlhfUFJJWkUiOiAzCiAgICAgKiAgICAgICAgICAgICAgICAgIH0KICAgICAqLwogICAgZnVuIGV2ZW50R2FtZUNvbXBsZXRlKAogICAgICAgIGJhdGNoTm86IFN0cmluZywKICAgICAgICBldmVudElkOiBTdHJpbmcsCiAgICAgICAgbWluaUdhbWVTdGFnZUlkOiBTdHJpbmcsCiAgICAgICAgZXh0UGFyYW1zOiBKU09OT2JqZWN0PwogICAgKTogU3RyaW5nIHsKCiAgICAgICAgdmFsIGV4dFBhcmFtc1N0ciA9IGV4dFBhcmFtcz8udG9TdHJpbmcoKSA/OiAibnVsbCIKCiAgICAgICAgdmFsIGRhdGEgPSAiIiIKICAgICAgICBbCiAgICAgICAgICB7CiAgICAgICAgICAgICJiYXRjaE5vIjogIiRiYXRjaE5vIiwKICAgICAgICAgICAgImV2ZW50SWQiOiAiJGV2ZW50SWQiLAogICAgICAgICAgICAibWluaUdhbWVTdGFnZUlkIjogIiRtaW5pR2FtZVN0YWdlSWQiLAogICAgICAgICAgICAicGFzc2VkIjogMSwKICAgICAgICAgICAgImV4dFBhcmFtcyI6ICRleHRQYXJhbXNTdHIKICAgICAgICAgIH0KICAgICAgICBdCiAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLmV2ZW50R2FtZUNvbXBsZXRlIiwKICAgICAgICAgICAgZGF0YQogICAgICAgICkKICAgIH0KCiAgICAvKiog5bCP5ri45oiP5a6M5oiQ77ya5pmu6YCa5raI6Zmk57G777yM5LiN5bimIGV4dFBhcmFtcyAqLwogICAgZnVuIGV2ZW50R2FtZUNvbXBsZXRlU2ltcGxlKAogICAgICAgIGJhdGNoTm86IFN0cmluZywKICAgICAgICBldmVudElkOiBTdHJpbmcsCiAgICAgICAgbWluaUdhbWVTdGFnZUlkOiBTdHJpbmcKICAgICk6IFN0cmluZyB7CiAgICAgICAgdmFsIGRhdGEgPSAiIiJbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJiYXRjaE5vIjogIiRiYXRjaE5vIiwKICAgICAgICAgICAgICAgICAgImV2ZW50SWQiOiAiJGV2ZW50SWQiLAogICAgICAgICAgICAgICAgICAibWluaUdhbWVTdGFnZUlkIjogIiRtaW5pR2FtZVN0YWdlSWQiLAogICAgICAgICAgICAgICAgICAicGFzc2VkIjogMQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBdIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuaW5ub3ZhdGlvbnByb2QuYml6LnJwYy5ldmVudEdhbWVDb21wbGV0ZSIsCiAgICAgICAgICAgIGRhdGEKICAgICAgICApCiAgICB9CgogICAgLyoqIOm7hOmHkeWNsOiusOS6i+S7tumihuWPliAqLwogICAgZnVuIGNvbGxlY3RDcmVkaXQoCiAgICAgICAgYmF0Y2hObzogU3RyaW5nLAogICAgICAgIGV2ZW50SWQ6IFN0cmluZywKICAgICAgICBjaXR5Q29kZTogU3RyaW5nLAogICAgICAgIGxhdGl0dWRlOiBEb3VibGUsCiAgICAgICAgbG9uZ2l0dWRlOiBEb3VibGUKICAgICk6IFN0cmluZyB7CiAgICAgICAgdmFsIGRhdGEgPSAiIiJbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJiYXRjaE5vIjogIiRiYXRjaE5vIiwKICAgICAgICAgICAgICAgICAgImV2ZW50SWQiOiAiJGV2ZW50SWQiLAogICAgICAgICAgICAgICAgICAiZXh0UGFyYW1zIjogewogICAgICAgICAgICAgICAgICAgICJjaXR5Q29kZSI6ICIkY2l0eUNvZGUiLAogICAgICAgICAgICAgICAgICAgICJsYXRpdHVkZSI6ICRsYXRpdHVkZSwKICAgICAgICAgICAgICAgICAgICAibG9uZ2l0dWRlIjogJGxvbmdpdHVkZQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIF0iIiIudHJpbUluZGVudCgpCgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLmNvbGxlY3RDcmVkaXQiLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDmn6Xor6Lpu5HoibLljbDorrDkuovku7bor6bmg4UgKi8KICAgIGZ1biBxdWVyeUJsYWNrTWFya0V2ZW50KGV2ZW50SWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGRhdGEgPSAiW3tcImV2ZW50SWRcIjpcIiRldmVudElkXCJ9XSIKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMucXVlcnlCbGFja01hcmtFdmVudCIsCiAgICAgICAgICAgIGRhdGEKICAgICAgICApCiAgICB9CgogICAgLyoqIOWKoOWFpem7keiJsuWNsOiusOS6i+S7tu+8iOacgOS9jiAxMCDngrnog73ph4/vvIkgKi8KICAgIGZ1biBqb2luQmxhY2tNYXJrRXZlbnQoY3JlZGl0RW5lcmd5OiBJbnQsIGV2ZW50SWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGRhdGEgPSAiIiJbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJjcmVkaXRFbmVyZ3kiOiAkY3JlZGl0RW5lcmd5LAogICAgICAgICAgICAgICAgICAiZXZlbnRJZCI6ICIkZXZlbnRJZCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXSIiIi50cmltSW5kZW50KCkKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMuam9pbkJsYWNrTWFya0V2ZW50IiwKICAgICAgICAgICAgZGF0YQogICAgICAgICkKICAgIH0KCiAgICAvKiog6buR6Imy5Y2w6K6w5LqL5Lu25rOo6IO9ICovCiAgICBmdW4gY2hhcmdlQmxhY2tNYXJrRXZlbnQoY3JlZGl0RW5lcmd5OiBJbnQsIGV2ZW50SWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGRhdGEgPSAiIiJbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJjcmVkaXRFbmVyZ3kiOiAkY3JlZGl0RW5lcmd5LAogICAgICAgICAgICAgICAgICAiZXZlbnRJZCI6ICIkZXZlbnRJZCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXSIiIi50cmltSW5kZW50KCkKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMuY2hhcmdlQmxhY2tNYXJrRXZlbnQiLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDmjqLmtYvkuovku7bvvIjmtojogJfmjqLntKLmrKHmlbDvvIkgKi8KICAgIGZ1biBleHBsb3JlR3JpZEV2ZW50KGNpdHlDb2RlOiBTdHJpbmcsIGxhdGl0dWRlOiBEb3VibGUsIGxvbmdpdHVkZTogRG91YmxlKTogU3RyaW5nIHsKICAgICAgICB2YWwgZGF0YSA9ICIiIlsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgImV4dFBhcmFtcyI6IHsKICAgICAgICAgICAgICAgICAgICAiY2l0eUNvZGUiOiAiJGNpdHlDb2RlIiwKICAgICAgICAgICAgICAgICAgICAibGF0aXR1ZGUiOiAiJGxhdGl0dWRlIiwKICAgICAgICAgICAgICAgICAgICAibG9uZ2l0dWRlIjogIiRsb25naXR1ZGUiCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXSIiIi50cmltSW5kZW50KCkKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMuZXhwbG9yZUdyaWRFdmVudCIsCiAgICAgICAgICAgIGRhdGEKICAgICAgICApCiAgICB9CgogICAgLyoqIOafpeivouavj+aXpeS7u+WKoeWIl+ihqCAqLwogICAgZnVuIHF1ZXJ5VXNlclRhc2soKTogU3RyaW5nIHsKICAgICAgICB2YWwgZGF0YSA9ICJbe31dIgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLnF1ZXJ5VXNlclRhc2siLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDku7vliqHmk43kvZzvvJrkvovlpoIgVEFTS19DTEFJTSAqLwogICAgZnVuIG9wZXJhdGVUYXNrKHRhc2tBY3Rpb246IFN0cmluZywgdGFza0NvbmZpZ0lkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBkYXRhID0gIiIiWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAidGFza0FjdGlvbiI6ICIkdGFza0FjdGlvbiIsCiAgICAgICAgICAgICAgICAgICJ0YXNrQ29uZmlnSWQiOiAiJHRhc2tDb25maWdJZCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXSIiIi50cmltSW5kZW50KCkKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMub3BlcmF0ZVRhc2siLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDpooblj5bku7vliqHlpZblirEgKi8KICAgIGZ1biBhd2FyZFRhc2sodGFza0NvbmZpZ0lkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBkYXRhID0gIiIiWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAidGFza0NvbmZpZ0lkIjogIiR0YXNrQ29uZmlnSWQiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIF0iIiIudHJpbUluZGVudCgpCgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLmF3YXJkVGFzayIsCiAgICAgICAgICAgIGRhdGEKICAgICAgICApCiAgICB9CgogICAgLyoqIOafpeivouaVheS6i+S6i+S7tu+8iOaXtuepuuS5i+mXqO+8iSAqLwogICAgZnVuIHF1ZXJ5RXZlbnRHYXRlKAogICAgICAgIGJhdGNoTm86IFN0cmluZywKICAgICAgICBldmVudElkOiBTdHJpbmcsCiAgICAgICAgY2l0eUNvZGU6IFN0cmluZywKICAgICAgICBsYXRpdHVkZTogRG91YmxlLAogICAgICAgIGxvbmdpdHVkZTogRG91YmxlCiAgICApOiBTdHJpbmcgewogICAgICAgIHZhbCBkYXRhID0gIiIiWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAiYmF0Y2hObyI6ICIkYmF0Y2hObyIsCiAgICAgICAgICAgICAgICAgICJldmVudElkIjogIiRldmVudElkIiwKICAgICAgICAgICAgICAgICAgImV4dFBhcmFtcyI6IHsKICAgICAgICAgICAgICAgICAgICAiY2l0eUNvZGUiOiAiJGNpdHlDb2RlIiwKICAgICAgICAgICAgICAgICAgICAibGF0aXR1ZGUiOiAiJGxhdGl0dWRlIiwKICAgICAgICAgICAgICAgICAgICAibG9uZ2l0dWRlIjogIiRsb25naXR1ZGUiCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXSIiIi50cmltSW5kZW50KCkKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMucXVlcnlFdmVudEdhdGUiLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDlrozmiJDmlYXkuovkuovku7bvvIjml7bnqbrkuYvpl6jvvIkgKi8KICAgIGZ1biBjb21wbGV0ZUV2ZW50R2F0ZSgKICAgICAgICBiYXRjaE5vOiBTdHJpbmcsCiAgICAgICAgZXZlbnRJZDogU3RyaW5nLAogICAgICAgIGNpdHlDb2RlOiBTdHJpbmcsCiAgICAgICAgbGF0aXR1ZGU6IERvdWJsZSwKICAgICAgICBsb25naXR1ZGU6IERvdWJsZSwKICAgICAgICBzdG9yeUlkOiBTdHJpbmcKICAgICk6IFN0cmluZyB7CiAgICAgICAgdmFsIGRhdGEgPSAiIiJbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJiYXRjaE5vIjogIiRiYXRjaE5vIiwKICAgICAgICAgICAgICAgICAgImV2ZW50SWQiOiAiJGV2ZW50SWQiLAogICAgICAgICAgICAgICAgICAiZXh0UGFyYW1zIjogewogICAgICAgICAgICAgICAgICAgICJjaXR5Q29kZSI6ICIkY2l0eUNvZGUiLAogICAgICAgICAgICAgICAgICAgICJsYXRpdHVkZSI6ICIkbGF0aXR1ZGUiLAogICAgICAgICAgICAgICAgICAgICJsb25naXR1ZGUiOiAiJGxvbmdpdHVkZSIsCiAgICAgICAgICAgICAgICAgICAgInN0b3J5SWQiOiAiJHN0b3J5SWQiCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXSIiIi50cmltSW5kZW50KCkKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMuY29tcGxldGVFdmVudEdhdGUiLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICog5p+l6K+i5by556qX5bGV56S65L+h5oGvCiAgICAgKgogICAgICogUlBDOiBjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMucXVlcnlQb3B1cFZpZXcKICAgICAqCiAgICAgKiDor7fmsYLlj4LmlbDnpLrkvovvvJoKICAgICAqIFsKICAgICAqICAgewogICAgICogICAgICJwb3B1cElkIjogIjEiCiAgICAgKiAgIH0KICAgICAqIF0KICAgICAqCiAgICAgKiDlk43lupTnpLrkvosgMe+8mgogICAgICogewogICAgICogICAiYXJpdmVyUnBjVHJhY2VJZCI6ICJjbGllbnRgYUJZU09SL3kweEVEQUNXdTJ5OW1Qb3FNUGlUM1dNZF81ODQ5ODE1IiwKICAgICAqICAgImRlZ3JhZGUiOiBmYWxzZSwKICAgICAqICAgInBvcHVwVmlld1ZPIjogewogICAgICogICAgICJyZXN1bHRNYXAiOiB7CiAgICAgKiAgICAgICAiZW5lcmd5UmVjb3ZlciI6IDc4LAogICAgICogICAgICAgImV4cGxvcmVSZWNvdmVyIjogMQogICAgICogICAgIH0sCiAgICAgKiAgICAgInNob3dSZXN1bHQiOiB0cnVlCiAgICAgKiAgIH0sCiAgICAgKiAgICJyZXN1bHRDb2RlIjogIlNVQ0NFU1MiLAogICAgICogICAicmVzdWx0TXNnIjogIuaIkOWKnyIsCiAgICAgKiAgICJzdWNjZXNzIjogdHJ1ZSwKICAgICAqICAgInRyYWNlSWQiOiAiMGI0MDdiMTYxNzY1NzE5MDE2ODYwNTkzOGUyMmU3IgogICAgICogfQogICAgICoKICAgICAqIOWTjeW6lOekuuS+iyAy77yaCiAgICAgKiB7CiAgICAgKiAgICJhcml2ZXJScGNUcmFjZUlkIjogIjBiNDNiNDk1MTc2NTcyMTA4MTE0NDY1MzNlYmJjZSIsCiAgICAgKiAgICJkZWdyYWRlIjogZmFsc2UsCiAgICAgKiAgICJwb3B1cFZpZXdWTyI6IHsKICAgICAqICAgICAicmVzdWx0TWFwIjogewogICAgICogICAgICAgIm5leHRFbmVyZ3lSZWNvdmVyTWludXRlcyI6IDI1LAogICAgICogICAgICAgIm5leHRFeHBsb3JlUmVjb3Zlck1pbnV0ZXMiOiAzMQogICAgICogICAgIH0sCiAgICAgKiAgICAgInNob3dSZXN1bHQiOiB0cnVlCiAgICAgKiAgIH0sCiAgICAgKiAgICJyZXN1bHRDb2RlIjogIlNVQ0NFU1MiLAogICAgICogICAicmVzdWx0TXNnIjogIuaIkOWKnyIsCiAgICAgKiAgICJzdWNjZXNzIjogdHJ1ZSwKICAgICAqICAgInRyYWNlSWQiOiAiMGI0M2I0OTUxNzY1NzIxMDgxMTQ0NjUzM2ViYmNlIgogICAgICogfQogICAgICoKICAgICAqIEBwYXJhbSBwb3B1cElkIOW8ueeqlyBJRAogICAgICogQHJldHVybiBSUEMg6L+U5Zue55qE5Y6f5aeLIEpTT04g5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBxdWVyeVBvcHVwVmlldyhwb3B1cElkOiBTdHJpbmcgPSAiMSIpOiBTdHJpbmcgewogICAgICAgIHZhbCBkYXRhID0gIiIiCiAgICAgICAgWwogICAgICAgICAgewogICAgICAgICAgICAicG9wdXBJZCI6ICIkcG9wdXBJZCIKICAgICAgICAgIH0KICAgICAgICBdCiAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLnF1ZXJ5UG9wdXBWaWV3IiwKICAgICAgICAgICAgZGF0YQogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIOafpeivouaJgOacieWbvumJtOi/m+W6pgogICAgICoKICAgICAqIOekuuS+i+WTjeW6lO+8mgogICAgICogewogICAgICogInN1Y2Nlc3MiOiB0cnVlLAogICAgICogInJlc3VsdENvZGUiOiAiU1VDQ0VTUyIsCiAgICAgKiAiY2hhcnRlclByb2dyZXNzIjogWwogICAgICogeyAiY2hhcHRlciI6ICIxMDAwOCIsICJjYXJkQ291bnQiOiA2LCAib2J0YWluZWRDYXJkQ291bnQiOiA2LCAiYXdhcmRTdGF0dXMiOiAiQ0xBSU1FRCIgfSwKICAgICAqIHsgImNoYXB0ZXIiOiAiMTAwMDciLCAiY2FyZENvdW50IjogNiwgIm9idGFpbmVkQ2FyZENvdW50IjogNCwgImF3YXJkU3RhdHVzIjogIkxPQ0tFRCIgfQogICAgICogXQogICAgICogfQogICAgICovCiAgICBmdW4gcXVlcnlDaGFwdGVyUHJvZ3Jlc3MoKTogU3RyaW5nIHsKICAgICAgICB2YWwgZGF0YSA9ICJbe31dIgoKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuaW5ub3ZhdGlvbnByb2QuYml6LnJwYy5xdWVyeUNoYXB0ZXJQcm9ncmVzcyIsCiAgICAgICAgICAgIGRhdGEKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiDmiafooYzlm77pibTliqjkvZzvvIjlkIjmiJDmiJbpooblpZbvvIkKICAgICAqCiAgICAgKiBAcGFyYW0gYWN0aW9uICDliqjkvZznsbvlnovvvJoKICAgICAqICJDSEFQVEVSX0NPTVBMRVRFIiAtPiDlkIjmiJDlm77pibQKICAgICAqICJDSEFQVEVSX0FXQVJEIiAgICAtPiDpooblj5blm77pibTlpZblirEKICAgICAqIEBwYXJhbSBjaGFwdGVyIOWbvumJtOeroOiKgklEICjkvovlpoI6ICIxMDAwNSIpCiAgICAgKgogICAgICog5ZCI5oiQ5ZON5bqU56S65L6L77yaeyJzdWNjZXNzIjp0cnVlLCAiY2hhcHRlciI6IjEwMDA1IiwgImF3YXJkU3RhdHVzIjoiVU5MT0NLRUQifQogICAgICog6aKG5aWW5ZON5bqU56S65L6L77yaeyJzdWNjZXNzIjp0cnVlLCAiZ2FpbkJ5Q29sbGVjdGVkQWxsIjp7ImF3YXJkQW1vdW50IjoiMTIwMCIsImF3YXJkVHlwZSI6IllKX1BSSVpFIn19CiAgICAgKi8KICAgIGZ1biBjb21wbGV0ZUNoYXB0ZXJBY3Rpb24oYWN0aW9uOiBTdHJpbmcsIGNoYXB0ZXI6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGRhdGEgPSAiIiIKICAgICAgICBbCiAgICAgICAgICB7CiAgICAgICAgICAgICJhY3Rpb24iOiAiJGFjdGlvbiIsCiAgICAgICAgICAgICJjaGFwdGVyIjogIiRjaGFwdGVyIgogICAgICAgICAgfQogICAgICAgIF0KICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lmlubm92YXRpb25wcm9kLmJpei5ycGMuY29tcGxldGVDaGFwdGVyQWN0aW9uIiwKICAgICAgICAgICAgZGF0YQogICAgICAgICkKICAgIH0KCiAgICAvKiog5p+l6K+i5aSp6LWL54q25oCBICovCiAgICBmdW4gcXVlcnlSZWxhdGlvblRhbGVudCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLnF1ZXJ5UmVsYXRpb25UYWxlbnQiLAogICAgICAgICAgICAiW3t9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqIOWNh+e6p+WFt+S9k+WxnuaApyAqLwogICAgZnVuIHVwZ3JhZGVUYWxlbnRBdHRyaWJ1dGUoCiAgICAgICAgYXR0clR5cGU6IFN0cmluZywKICAgICAgICB0cmVlVHlwZTogU3RyaW5nLAogICAgICAgIHRhcmdldExldmVsOiBJbnQKICAgICk6IFN0cmluZyB7CiAgICAgICAgdmFsIHJlcXVlc3RPYmogPSBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICBwdXQoInJvbGVJZCIsICIiKQogICAgICAgICAgICBwdXQoInRhbGVudEF0dHJpYnV0ZVR5cGUiLCBhdHRyVHlwZSkKICAgICAgICAgICAgcHV0KCJ0YWxlbnRUcmVlVHlwZSIsIHRyZWVUeXBlKQogICAgICAgICAgICBwdXQoInRhcmdldEF0dHJpYnV0ZUxldmVsIiwgdGFyZ2V0TGV2ZWwudG9TdHJpbmcoKSkgLy8g5Lil5qC85a+56b2Q5oqT5YyF77ya5a2X56ym5Liy57G75Z6LCiAgICAgICAgfQoKICAgICAgICB2YWwgcmVxdWVzdEFycmF5ID0gSlNPTkFycmF5KCkuYXBwbHkgewogICAgICAgICAgICBwdXQocmVxdWVzdE9iaikKICAgICAgICB9CgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5pbm5vdmF0aW9ucHJvZC5iaXoucnBjLnVwZ3JhZGVUYWxlbnRBdHRyaWJ1dGUiLAogICAgICAgICAgICByZXF1ZXN0QXJyYXkudG9TdHJpbmcoKQogICAgICAgICkKICAgIH0KCiAgICAvKiog5p+l6K+i5L+u5aSN5YiX6KGoICjpu5HoibLljbDorrDliJfooagpICovCiAgICBmdW4gcXVlcnlHdWFyZE1hcmtMaXN0KCk6IFN0cmluZyB7CiAgICAgICAgLy8g5p6E6YCg5p+l6K+i5Y+C5pWw77yM6YCa5bi45Li6IFt7fV0KICAgICAgICB2YWwgZGF0YSA9ICJbe31dIgoKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuaW5ub3ZhdGlvbnByb2QuYml6LnJwYy5xdWVyeUd1YXJkTWFya0xpc3QiLAogICAgICAgICAgICBkYXRhCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDpooblj5bkv67lpI3liJfooajlpZblirEgKi8KICAgIGZ1biBjbGFpbUd1YXJkTWFya0F3YXJkKCk6IFN0cmluZyB7CgogICAgICAgIHZhbCBkYXRhID0gIlt7fV0iCgoKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuaW5ub3ZhdGlvbnByb2QuYml6LnJwYy5jbGFpbUd1YXJkTWFya0F3YXJkIiwKICAgICAgICAgICAgZGF0YQogICAgICAgICkKICAgIH0KCgp9
+package fansirsqi.xposed.sesame.task.other.credit2101
+
+import fansirsqi.xposed.sesame.hook.RequestManager
+import fansirsqi.xposed.sesame.util.Log
+import org.json.JSONArray
+import org.json.JSONObject
+
+object Credit2101RpcCall {
+
+    /** 查询账户资产：包含信用印记、碎片、体力、宝箱等 */
+    fun queryAccountAsset(): String {
+        val data = "[{}]"
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryAccountAsset",
+            data
+        )
+    }
+
+    /** 开宝箱（触发收益） */
+    fun triggerBenefit(): String {
+        val data = "[{}]"
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.triggerBenefit",
+            data
+        )
+    }
+
+    /** 查询签到数据 */
+    fun querySignInData(): String {
+        val data = "[{}]"
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.querySignInData",
+            data
+        )
+    }
+
+    /** 执行签到，day 为 totalLoginDays */
+    fun userSignIn(day: Int): String {
+        val data = "[{\"day\":$day}]"
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.userSignIn",
+            data
+        )
+    }
+
+    /** 查询当前坐标附近事件 */
+    fun queryGridEvent(cityCode: String, latitude: Double, longitude: Double, guideState: Boolean = false): String {
+        val data = """[
+                {
+                  "extParams": {
+                    "cityCode": "$cityCode",
+                    "latitude": "$latitude",
+                    "longitude": "$longitude"
+                  },
+                  "guideState": $guideState
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryGridEvent",
+            data
+        )
+    }
+
+    /** 小游戏开始：MINI_GAME_ELIMINATE / MINI_GAME_COLLECTYJ 通用 */
+    fun eventGameStart(batchNo: String, eventId: String, miniGameStageId: String): String {
+        val data = """[
+                {
+                  "batchNo": "$batchNo",
+                  "eventId": "$eventId",
+                  "miniGameStageId": "$miniGameStageId"
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.eventGameStart",
+            data
+        )
+    }
+
+
+    /**
+     * 小游戏完成：收集 YJ 类型（带 collectedYJ 扩展参数）
+     * @param batchNo 批次号（非空）
+     * @param eventId 事件ID（非空）
+     * @param miniGameStageId 小游戏关卡ID（非空）
+     * @param collectedYJ 收集的印记数
+     * @return 接口响应字符串
+     */
+    fun eventGameCompleteCollectYj(
+        batchNo: String,
+        eventId: String,
+        miniGameStageId: String,
+        collectedYJ: Int // 明确要求传入 Int 类型
+    ): String {
+
+        val extParams = JSONObject().apply {
+            put("collectedYJ", collectedYJ) // JSONObject 存入 Int 时不会带引号
+        }
+
+        val requestObj = JSONObject().apply {
+            put("batchNo", batchNo)
+            put("eventId", eventId)
+            put("extParams", extParams)
+            put("miniGameStageId", miniGameStageId)
+            put("passed", 1) // 保持为数字 1
+        }
+
+        // 包装成数组 [ {...} ]
+        val data = JSONArray().apply {
+            put(requestObj)
+        }.toString()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.eventGameComplete",
+            data
+        )
+    }
+
+    /**
+     * 小游戏完成（通用）
+     *
+     * @param extParams 奖励 / 扩展参数，完全由上层决定
+     *                  例如：
+     *                  {
+     *                    "YJ_PRIZE": 118,
+     *                    "killCount": 3,
+     *                    "BX_PRIZE": 3
+     *                  }
+     */
+    fun eventGameComplete(
+        batchNo: String,
+        eventId: String,
+        miniGameStageId: String,
+        extParams: JSONObject?
+    ): String {
+
+        val extParamsStr = extParams?.toString() ?: "null"
+
+        val data = """
+        [
+          {
+            "batchNo": "$batchNo",
+            "eventId": "$eventId",
+            "miniGameStageId": "$miniGameStageId",
+            "passed": 1,
+            "extParams": $extParamsStr
+          }
+        ]
+    """.trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.eventGameComplete",
+            data
+        )
+    }
+
+    /** 小游戏完成：普通消除类，不带 extParams */
+    fun eventGameCompleteSimple(
+        batchNo: String,
+        eventId: String,
+        miniGameStageId: String
+    ): String {
+        val data = """[
+                {
+                  "batchNo": "$batchNo",
+                  "eventId": "$eventId",
+                  "miniGameStageId": "$miniGameStageId",
+                  "passed": 1
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.eventGameComplete",
+            data
+        )
+    }
+
+    /** 黄金印记事件领取 */
+    fun collectCredit(
+        batchNo: String,
+        eventId: String,
+        cityCode: String,
+        latitude: Double,
+        longitude: Double
+    ): String {
+        val data = """[
+                {
+                  "batchNo": "$batchNo",
+                  "eventId": "$eventId",
+                  "extParams": {
+                    "cityCode": "$cityCode",
+                    "latitude": $latitude,
+                    "longitude": $longitude
+                  }
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.collectCredit",
+            data
+        )
+    }
+
+    /** 查询黑色印记事件详情 */
+    fun queryBlackMarkEvent(eventId: String): String {
+        val data = "[{\"eventId\":\"$eventId\"}]"
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryBlackMarkEvent",
+            data
+        )
+    }
+
+    /** 加入黑色印记事件（最低 10 点能量） */
+    fun joinBlackMarkEvent(creditEnergy: Int, eventId: String): String {
+        val data = """[
+                {
+                  "creditEnergy": $creditEnergy,
+                  "eventId": "$eventId"
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.joinBlackMarkEvent",
+            data
+        )
+    }
+
+    /** 黑色印记事件注能 */
+    fun chargeBlackMarkEvent(creditEnergy: Int, eventId: String): String {
+        val data = """[
+                {
+                  "creditEnergy": $creditEnergy,
+                  "eventId": "$eventId"
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.chargeBlackMarkEvent",
+            data
+        )
+    }
+
+    /** 探测事件（消耗探索次数） */
+    fun exploreGridEvent(cityCode: String, latitude: Double, longitude: Double): String {
+        val data = """[
+                {
+                  "extParams": {
+                    "cityCode": "$cityCode",
+                    "latitude": "$latitude",
+                    "longitude": "$longitude"
+                  }
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.exploreGridEvent",
+            data
+        )
+    }
+
+    /** 查询每日任务列表 */
+    fun queryUserTask(): String {
+        val data = "[{}]"
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryUserTask",
+            data
+        )
+    }
+
+    /** 任务操作：例如 TASK_CLAIM */
+    fun operateTask(taskAction: String, taskConfigId: String): String {
+        val data = """[
+                {
+                  "taskAction": "$taskAction",
+                  "taskConfigId": "$taskConfigId"
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.operateTask",
+            data
+        )
+    }
+
+    /** 领取任务奖励 */
+    fun awardTask(taskConfigId: String): String {
+        val data = """[
+                {
+                  "taskConfigId": "$taskConfigId"
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.awardTask",
+            data
+        )
+    }
+
+    /** 查询故事事件（时空之门） */
+    fun queryEventGate(
+        batchNo: String,
+        eventId: String,
+        cityCode: String,
+        latitude: Double,
+        longitude: Double
+    ): String {
+        val data = """[
+                {
+                  "batchNo": "$batchNo",
+                  "eventId": "$eventId",
+                  "extParams": {
+                    "cityCode": "$cityCode",
+                    "latitude": "$latitude",
+                    "longitude": "$longitude"
+                  }
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryEventGate",
+            data
+        )
+    }
+
+    /** 完成故事事件（时空之门） */
+    fun completeEventGate(
+        batchNo: String,
+        eventId: String,
+        cityCode: String,
+        latitude: Double,
+        longitude: Double,
+        storyId: String
+    ): String {
+        val data = """[
+                {
+                  "batchNo": "$batchNo",
+                  "eventId": "$eventId",
+                  "extParams": {
+                    "cityCode": "$cityCode",
+                    "latitude": "$latitude",
+                    "longitude": "$longitude",
+                    "storyId": "$storyId"
+                  }
+                }
+            ]""".trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.completeEventGate",
+            data
+        )
+    }
+
+    /**
+     * 查询弹窗展示信息
+     *
+     * RPC: com.alipay.innovationprod.biz.rpc.queryPopupView
+     *
+     * 请求参数示例：
+     * [
+     *   {
+     *     "popupId": "1"
+     *   }
+     * ]
+     *
+     * 响应示例 1：
+     * {
+     *   "ariverRpcTraceId": "client`aBYSOR/y0xEDACWu2y9mPoqMPiT3WMd_5849815",
+     *   "degrade": false,
+     *   "popupViewVO": {
+     *     "resultMap": {
+     *       "energyRecover": 78,
+     *       "exploreRecover": 1
+     *     },
+     *     "showResult": true
+     *   },
+     *   "resultCode": "SUCCESS",
+     *   "resultMsg": "成功",
+     *   "success": true,
+     *   "traceId": "0b407b1617657190168605938e22e7"
+     * }
+     *
+     * 响应示例 2：
+     * {
+     *   "ariverRpcTraceId": "0b43b49517657210811446533ebbce",
+     *   "degrade": false,
+     *   "popupViewVO": {
+     *     "resultMap": {
+     *       "nextEnergyRecoverMinutes": 25,
+     *       "nextExploreRecoverMinutes": 31
+     *     },
+     *     "showResult": true
+     *   },
+     *   "resultCode": "SUCCESS",
+     *   "resultMsg": "成功",
+     *   "success": true,
+     *   "traceId": "0b43b49517657210811446533ebbce"
+     * }
+     *
+     * @param popupId 弹窗 ID
+     * @return RPC 返回的原始 JSON 字符串
+     */
+    fun queryPopupView(popupId: String = "1"): String {
+        val data = """
+        [
+          {
+            "popupId": "$popupId"
+          }
+        ]
+    """.trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryPopupView",
+            data
+        )
+    }
+
+    /**
+     * 查询所有图鉴进度
+     *
+     * 示例响应：
+     * {
+     * "success": true,
+     * "resultCode": "SUCCESS",
+     * "charterProgress": [
+     * { "chapter": "10008", "cardCount": 6, "obtainedCardCount": 6, "awardStatus": "CLAIMED" },
+     * { "chapter": "10007", "cardCount": 6, "obtainedCardCount": 4, "awardStatus": "LOCKED" }
+     * ]
+     * }
+     */
+    fun queryChapterProgress(): String {
+        val data = "[{}]"
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryChapterProgress",
+            data
+        )
+    }
+
+    /**
+     * 执行图鉴动作（合成或领奖）
+     *
+     * @param action  动作类型：
+     * "CHAPTER_COMPLETE" -> 合成图鉴
+     * "CHAPTER_AWARD"    -> 领取图鉴奖励
+     * @param chapter 图鉴章节ID (例如: "10005")
+     *
+     * 合成响应示例：{"success":true, "chapter":"10005", "awardStatus":"UNLOCKED"}
+     * 领奖响应示例：{"success":true, "gainByCollectedAll":{"awardAmount":"1200","awardType":"YJ_PRIZE"}}
+     */
+    fun completeChapterAction(action: String, chapter: String): String {
+        val data = """
+        [
+          {
+            "action": "$action",
+            "chapter": "$chapter"
+          }
+        ]
+    """.trimIndent()
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.completeChapterAction",
+            data
+        )
+    }
+
+    /** 查询天赋状态 */
+    fun queryRelationTalent(): String {
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryRelationTalent",
+            "[{}]"
+        )
+    }
+
+    /** 升级具体属性 */
+    fun upgradeTalentAttribute(
+        attrType: String,
+        treeType: String,
+        targetLevel: Int
+    ): String {
+        val requestObj = JSONObject().apply {
+            put("roleId", "")
+            put("talentAttributeType", attrType)
+            put("talentTreeType", treeType)
+            put("targetAttributeLevel", targetLevel.toString()) // 严格对齐抓包：字符串类型
+        }
+
+        val requestArray = JSONArray().apply {
+            put(requestObj)
+        }
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.upgradeTalentAttribute",
+            requestArray.toString()
+        )
+    }
+
+    /** 查询修复列表 (黑色印记列表) */
+    fun queryGuardMarkList(): String {
+        // 构造查询参数，通常为 [{}]
+        val data = "[{}]"
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.queryGuardMarkList",
+            data
+        )
+    }
+
+    /** 领取修复列表奖励 */
+    fun claimGuardMarkAward(): String {
+
+        val data = "[{}]"
+
+
+        return RequestManager.requestString(
+            "com.alipay.innovationprod.biz.rpc.claimGuardMarkAward",
+            data
+        )
+    }
+
+
+}

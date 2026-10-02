@@ -1,1 +1,27 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDwhLS0g5aSc6Ze05qih5byPIC0tPgogICAgPGNvbG9yIG5hbWU9ImJhY2tncm91bmQiPiMxQTFBMUE8L2NvbG9yPgogICAgPGNvbG9yIG5hbWU9ImJhc2VfY29sb3IiPiM0RDRENEQ8L2NvbG9yPgogICAgPCEtLSB0aGVtZS1jb2xvciAtLT4KICAgIDxjb2xvciBuYW1lPSJjb2xvclByaW1hcnkiPiM0RDRENEQ8L2NvbG9yPgogICAgPGNvbG9yIG5hbWU9InRleHRDb2xvclByaW1hcnkiPiNGRkZGRkY8L2NvbG9yPgoKICAgIDxjb2xvciBuYW1lPSJzZWxlY3Rpb25fY29sb3IiPiNGODc2NDA8L2NvbG9yPgoKICAgIDxjb2xvciBuYW1lPSJtYWluX2J1dHRvbiI+IzNBM0EzQTwvY29sb3I+CiAgICA8Y29sb3IgbmFtZT0ibWFpbl9idXR0b25fcHJlc3NlZCI+I0ZGRUJDRDwvY29sb3I+CgogICAgPGNvbG9yIG5hbWU9Im9yYW5nZSI+I0Y4NzY0MDwvY29sb3I+CgogICAgPGNvbG9yIG5hbWU9Im5vdF9hY3RpdmVfdGV4dCI+I0Y0RDAyMjwvY29sb3I+CiAgICA8Y29sb3IgbmFtZT0iYWN0aXZlX3RleHQiPiNERURCREI8L2NvbG9yPgogICAgPGNvbG9yIG5hbWU9ImxvYWRfYWN0aXZlX3RleHQiPiNDOEI5Qjk8L2NvbG9yPgoKICAgIDxjb2xvciBuYW1lPSJuYXZpZ2F0aW9uQmFyQ29sb3IiPiNBQTAwMDAwMDwvY29sb3I+CgogICAgPGNvbG9yIG5hbWU9InRvYXN0X3RleHRfY29sb3IiPiNGQkZCRkI8L2NvbG9yPgoKICAgIDxjb2xvciBuYW1lPSJzd2l0Y2hfd2hpdGUiPiNGRkZGRkY8L2NvbG9yPgogICAgPGNvbG9yIG5hbWU9InN3aXRjaF9vZmYiPiNERkRGREY8L2NvbG9yPgo8L3Jlc291cmNlcz4=
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 夜间模式 -->
+    <color name="background">#1A1A1A</color>
+    <color name="base_color">#4D4D4D</color>
+    <!-- theme-color -->
+    <color name="colorPrimary">#4D4D4D</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+
+    <color name="selection_color">#F87640</color>
+
+    <color name="main_button">#3A3A3A</color>
+    <color name="main_button_pressed">#FFEBCD</color>
+
+    <color name="orange">#F87640</color>
+
+    <color name="not_active_text">#F4D022</color>
+    <color name="active_text">#DEDBDB</color>
+    <color name="load_active_text">#C8B9B9</color>
+
+    <color name="navigationBarColor">#AA000000</color>
+
+    <color name="toast_text_color">#FBFBFB</color>
+
+    <color name="switch_white">#FFFFFF</color>
+    <color name="switch_off">#DFDFDF</color>
+</resources>

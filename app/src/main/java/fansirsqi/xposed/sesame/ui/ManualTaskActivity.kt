@@ -1,1 +1,86 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBhbmRyb2lkeC5hY3Rpdml0eS5Db21wb25lbnRBY3Rpdml0eQppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkuY29tcG9zZS5zZXRDb250ZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvcmUubmV0LnRvVXJpCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuY29tcG9zZS5jb2xsZWN0QXNTdGF0ZVdpdGhMaWZlY3ljbGUKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuQ29uZmlnCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuVXNlckVudGl0eQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suY3VzdG9tVGFza3MuQ3VzdG9tVGFzawppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuc2NyZWVuLk1hbnVhbFRhc2tTY3JlZW4KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLnRoZW1lLkFwcFRoZW1lCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS50aGVtZS5UaGVtZU1hbmFnZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRGF0YVN0b3JlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkZpbGVzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlRvYXN0VXRpbAoKLyoqCiAqIOaJi+WKqOS7u+WKoSBGcmFnbWVudCAoQ29tcG9zZSDlrp7njrApCiAqIOmHh+eUqOWIl+ihqOWxleekuuaJgOacieWPr+eUqOeahOWtkOS7u+WKoe+8jOeCueWHu+WNs+WPr+i/kOihjAogKi8KY2xhc3MgTWFudWFsVGFza0FjdGl2aXR5IDogQ29tcG9uZW50QWN0aXZpdHkoKSB7CgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKCiAgICAgICAgLy8gMS4g5Yid5aeL5YyW6YWN572uCiAgICAgICAgZW5zdXJlQ29uZmlnTG9hZGVkKCkKCiAgICAgICAgc2V0Q29udGVudCB7CiAgICAgICAgICAgIHZhbCBpc0R5bmFtaWNDb2xvciBieSBUaGVtZU1hbmFnZXIuaXNEeW5hbWljQ29sb3IuY29sbGVjdEFzU3RhdGVXaXRoTGlmZWN5Y2xlKCkKICAgICAgICAgICAgQXBwVGhlbWUoZHluYW1pY0NvbG9yID0gaXNEeW5hbWljQ29sb3IpIHsKICAgICAgICAgICAgICAgIE1hbnVhbFRhc2tTY3JlZW4oCiAgICAgICAgICAgICAgICAgICAgb25CYWNrQ2xpY2sgPSB7IGZpbmlzaCgpIH0sCiAgICAgICAgICAgICAgICAgICAgb25UYXNrQ2xpY2sgPSB7IHRhc2ssIHBhcmFtcyAtPiBydW5UYXNrKHRhc2ssIHBhcmFtcykgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGVuc3VyZUNvbmZpZ0xvYWRlZCgpIHsKICAgICAgICBNb2RlbC5pbml0QWxsTW9kZWwoKQogICAgICAgIHZhbCBhY3RpdmVVc2VyID0gRGF0YVN0b3JlLmdldCgiYWN0aXZlZFVzZXIiLCBVc2VyRW50aXR5OjpjbGFzcy5qYXZhKQogICAgICAgIGFjdGl2ZVVzZXI/LnVzZXJJZD8ubGV0IHsgdWlkIC0+CiAgICAgICAgICAgIENvbmZpZy5sb2FkKHVpZCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcnVuVGFzayh0YXNrOiBDdXN0b21UYXNrLCBwYXJhbXM6IE1hcDxTdHJpbmcsIEFueT4pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KCJjb20uZWcuYW5kcm9pZC5BbGlwYXlHcGhvbmUuc2VzYW1lLm1hbnVhbF90YXNrIikKICAgICAgICAgICAgaW50ZW50LnB1dEV4dHJhKCJ0YXNrIiwgdGFzay5uYW1lKQogICAgICAgICAgICBwYXJhbXMuZm9yRWFjaCB7IChrZXksIHZhbHVlKSAtPgogICAgICAgICAgICAgICAgd2hlbiAodmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICBpcyBJbnQgLT4gaW50ZW50LnB1dEV4dHJhKGtleSwgdmFsdWUpCiAgICAgICAgICAgICAgICAgICAgaXMgU3RyaW5nIC0+IGludGVudC5wdXRFeHRyYShrZXksIHZhbHVlKQogICAgICAgICAgICAgICAgICAgIGlzIEJvb2xlYW4gLT4gaW50ZW50LnB1dEV4dHJhKGtleSwgdmFsdWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2VuZEJyb2FkY2FzdChpbnRlbnQpCiAgICAgICAgICAgIFRvYXN0VXRpbC5zaG93VG9hc3QodGhpcywgIvCfmoAg5bey5Y+R6YCB5oyH5LukOiAke3Rhc2suZGlzcGxheU5hbWV9IikKICAgICAgICAgICAgb3BlblJlY29yZExvZygpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIFRvYXN0VXRpbC5zaG93VG9hc3QodGhpcywgIuKdjCDlj5HpgIHlpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIG9wZW5SZWNvcmRMb2coKSB7CiAgICAgICAgdmFsIGxvZ0ZpbGUgPSBGaWxlcy5nZXRSZWNvcmRMb2dGaWxlKCkKICAgICAgICBpZiAoIWxvZ0ZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgVG9hc3RVdGlsLnNob3dUb2FzdCh0aGlzLCAi5pel5b+X5paH5Lu25bCa5pyq55Sf5oiQIikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQodGhpcywgTG9nVmlld2VyQWN0aXZpdHk6OmNsYXNzLmphdmEpLmFwcGx5IHsKICAgICAgICAgICAgZGF0YSA9IGxvZ0ZpbGUudG9VcmkoKQogICAgICAgIH0KICAgICAgICBzdGFydEFjdGl2aXR5KGludGVudCkKICAgIH0KfQoKCgoK
+package fansirsqi.xposed.sesame.ui
+
+import android.content.Intent
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.runtime.getValue
+import androidx.core.net.toUri
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import fansirsqi.xposed.sesame.data.Config
+import fansirsqi.xposed.sesame.entity.UserEntity
+import fansirsqi.xposed.sesame.model.Model
+import fansirsqi.xposed.sesame.task.customTasks.CustomTask
+import fansirsqi.xposed.sesame.ui.screen.ManualTaskScreen
+import fansirsqi.xposed.sesame.ui.theme.AppTheme
+import fansirsqi.xposed.sesame.ui.theme.ThemeManager
+import fansirsqi.xposed.sesame.util.DataStore
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.ToastUtil
+
+/**
+ * 手动任务 Fragment (Compose 实现)
+ * 采用列表展示所有可用的子任务，点击即可运行
+ */
+class ManualTaskActivity : ComponentActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        // 1. 初始化配置
+        ensureConfigLoaded()
+
+        setContent {
+            val isDynamicColor by ThemeManager.isDynamicColor.collectAsStateWithLifecycle()
+            AppTheme(dynamicColor = isDynamicColor) {
+                ManualTaskScreen(
+                    onBackClick = { finish() },
+                    onTaskClick = { task, params -> runTask(task, params) }
+                )
+            }
+        }
+    }
+
+    private fun ensureConfigLoaded() {
+        Model.initAllModel()
+        val activeUser = DataStore.get("activedUser", UserEntity::class.java)
+        activeUser?.userId?.let { uid ->
+            Config.load(uid)
+        }
+    }
+
+    private fun runTask(task: CustomTask, params: Map<String, Any>) {
+        try {
+            val intent = Intent("com.eg.android.AlipayGphone.sesame.manual_task")
+            intent.putExtra("task", task.name)
+            params.forEach { (key, value) ->
+                when (value) {
+                    is Int -> intent.putExtra(key, value)
+                    is String -> intent.putExtra(key, value)
+                    is Boolean -> intent.putExtra(key, value)
+                }
+            }
+            sendBroadcast(intent)
+            ToastUtil.showToast(this, "🚀 已发送指令: ${task.displayName}")
+            openRecordLog()
+        } catch (e: Exception) {
+            ToastUtil.showToast(this, "❌ 发送失败: ${e.message}")
+        }
+    }
+
+    private fun openRecordLog() {
+        val logFile = Files.getRecordLogFile()
+        if (!logFile.exists()) {
+            ToastUtil.showToast(this, "日志文件尚未生成")
+            return
+        }
+        val intent = Intent(this, LogViewerActivity::class.java).apply {
+            data = logFile.toUri()
+        }
+        startActivity(intent)
+    }
+}
+
+
+
+

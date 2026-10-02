@@ -1,1 +1,183 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmludGVybmFsCgppbXBvcnQgZGUucm9idi5hbmRyb2lkLnhwb3NlZC5YQ19NZXRob2RIb29rCmltcG9ydCBkZS5yb2J2LmFuZHJvaWQueHBvc2VkLlhwb3NlZEhlbHBlcnMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRmlsZXMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZVdyaXRlcgppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC5EYXRlCmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlCgovKioKICogUlBDIOaVsOaNruaKk+WMheWKqeaJiyAtIOWQjOaXtiBIb29rIOaWsOaXpyBSUEMg6YCa6YGT77yM5a6e5pe25YaZ5YWl5paH5Lu2CiAqLwpvYmplY3QgUnBjQ2FwdHVyZUhlbHBlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlJwY0NhcHR1cmUiCiAgICBwcml2YXRlIHZhciBjbGFzc0xvYWRlcjogQ2xhc3NMb2FkZXI/ID0gbnVsbAogICAgQFZvbGF0aWxlIHZhciBpc1JlY29yZGluZyA9IGZhbHNlCiAgICAgICAgcHJpdmF0ZSBzZXQKICAgIHByaXZhdGUgdmFyIHdyaXRlcjogRmlsZVdyaXRlcj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBob29rSW5zdGFsbGVkID0gZmFsc2UKCiAgICBmdW4gaW5pdChsb2FkZXI6IENsYXNzTG9hZGVyKSB7CiAgICAgICAgY2xhc3NMb2FkZXIgPSBsb2FkZXIKICAgICAgICBzdGFydFJlY29yZGluZygpCiAgICB9CgogICAgLyoqIOaKk+WMhee7k+aenOWbuuWumuWGmei/meS4gOS4quaWh+S7tu+8iOS9jeS6jiBzZXNhbWUtVEsvbG9nIOS4i++8ie+8jOaWueS+vyBVSSDkuI7ohJrmnKznm7TmjqXor7vlj5YgKi8KICAgIGNvbnN0IHZhbCBDQVBUVVJFX0ZJTEVfTkFNRSA9ICJycGNfY2FwLnR4dCIKCiAgICAvKiog5Y2V5Liq5ZON5bqU5pyA5aSa6K6w5b2V5aSa5bCR5a2X56ym44CC5pS+5a695YiwIDgwMDDvvIzlpJ/nnIvmuIXkuJrliqHlrZfmrrUgKi8KICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9SRVNfTEVOID0gODAwMAoKICAgIC8qKiDotoXov4fov5nkuKrkvZPnp6/lsLHmuIXnqbrph43mnaXvvIzpgb/lhY3ml6DpmZDlop7plb/vvIgyME1C77yJICovCiAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVhfRklMRV9CWVRFUyA9IDIwTCAqIDEwMjQgKiAxMDI0CgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHN0YXJ0UmVjb3JkaW5nKCkgewogICAgICAgIGlmIChpc1JlY29yZGluZykgcmV0dXJuCiAgICAgICAgaXNSZWNvcmRpbmcgPSB0cnVlCiAgICAgICAgdmFsIGRpciA9IEZpbGVzLkxPR19ESVIKICAgICAgICB2YWwgZmlsZSA9IEZpbGUoZGlyLCBDQVBUVVJFX0ZJTEVfTkFNRSkKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoIWRpci5leGlzdHMoKSkgZGlyLm1rZGlycygpCiAgICAgICAgICAgIGlmIChmaWxlLmV4aXN0cygpICYmIGZpbGUubGVuZ3RoKCkgPiBNQVhfRklMRV9CWVRFUykgZmlsZS5kZWxldGUoKQogICAgICAgICAgICB3cml0ZXIgPSBGaWxlV3JpdGVyKGZpbGUsIHRydWUpCiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiUlBDIOaKk+WMheW3suW8gOWQryDihpIgJHtmaWxlLmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICB3cml0ZSgiPT09IFNUQVJUICR7U2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZCBISDptbTpzcyIsIExvY2FsZS5nZXREZWZhdWx0KCkpLmZvcm1hdChEYXRlKCkpfSA9PT1cbiIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLliJvlu7rmlofku7blpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCBlKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5b2T5YmN5oqT5YyF5paH5Lu277yI5L6bIFVJIC8g5YW25a6D5qih5Z2X55u05o6l6K+75Y+W77yJICovCiAgICBmdW4gY2FwdHVyZUZpbGUoKTogRmlsZSA9IEZpbGUoRmlsZXMuTE9HX0RJUiwgQ0FQVFVSRV9GSUxFX05BTUUpCgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHN0b3BSZWNvcmRpbmcoKSB7CiAgICAgICAgaWYgKCFpc1JlY29yZGluZykgcmV0dXJuCiAgICAgICAgaXNSZWNvcmRpbmcgPSBmYWxzZQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHdyaXRlKCI9PT0gUlBDIENhcHR1cmUgU3RvcHBlZCA9PT1cbiIpCiAgICAgICAgICAgIHdyaXRlcj8uZmx1c2goKQogICAgICAgICAgICB3cml0ZXI/LmNsb3NlKCkKICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHt9CiAgICAgICAgd3JpdGVyID0gbnVsbAogICAgICAgIExvZy5yZWNvcmQoVEFHLCAi4pqqIOWBnOatouW9leWItiIpCiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgcHJpdmF0ZSBmdW4gd3JpdGUodGV4dDogU3RyaW5nKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgd3JpdGVyPy5hcHBlbmQodGV4dCk/LmZsdXNoKCkKICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHt9CiAgICB9CgogICAgLyoqIOWuieijhSBSUEMg5oum5oiqIEhvb2sgLSDlkIzml7bopobnm5bmlrDml6fkuKTmnaEgUlBDIOmAmumBkyAqLwogICAgZnVuIGluc3RhbGxScGNDYXB0dXJlSG9va3MoKSB7CiAgICAgICAgaWYgKGhvb2tJbnN0YWxsZWQpIHJldHVybgogICAgICAgIHZhbCBsb2FkZXIgPSBjbGFzc0xvYWRlciA/OiByZXR1cm4KCiAgICAgICAgLy8gMS4g5paw54mIIFJQQzogUnBjQnJpZGdlRXh0ZW5zaW9uLnJwYygpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGJyaWRnZUNsYXNzID0gWHBvc2VkSGVscGVycy5maW5kQ2xhc3MoCiAgICAgICAgICAgICAgICAiY29tLmFsaWJhYmEuYXJpdmVyLmNvbW1vbmFiaWxpdHkubmV0d29yay5ycGMuUnBjQnJpZGdlRXh0ZW5zaW9uIiwgbG9hZGVyCiAgICAgICAgICAgICkKICAgICAgICAgICAgdmFsIGpzb25DbGFzcyA9IENsYXNzLmZvck5hbWUoImNvbS5hbGliYWJhLmZhc3Rqc29uLkpTT05PYmplY3QiLCBmYWxzZSwgbG9hZGVyKQogICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmZpbmRBbmRIb29rTWV0aG9kKAogICAgICAgICAgICAgICAgYnJpZGdlQ2xhc3MsICJycGMiLAogICAgICAgICAgICAgICAgU3RyaW5nOjpjbGFzcy5qYXZhLCBqYXZhLmxhbmcuQm9vbGVhbi5UWVBFLCBqYXZhLmxhbmcuQm9vbGVhbi5UWVBFLAogICAgICAgICAgICAgICAgU3RyaW5nOjpjbGFzcy5qYXZhLCBqc29uQ2xhc3MsIFN0cmluZzo6Y2xhc3MuamF2YSwganNvbkNsYXNzLAogICAgICAgICAgICAgICAgamF2YS5sYW5nLkJvb2xlYW4uVFlQRSwgamF2YS5sYW5nLkJvb2xlYW4uVFlQRSwKICAgICAgICAgICAgICAgIEludGVnZXIuVFlQRSwgamF2YS5sYW5nLkJvb2xlYW4uVFlQRSwgU3RyaW5nOjpjbGFzcy5qYXZhLAogICAgICAgICAgICAgICAgWHBvc2VkSGVscGVycy5maW5kQ2xhc3MoImNvbS5hbGliYWJhLmFyaXZlci5hcHAuYXBpLkFwcCIsIGxvYWRlciksCiAgICAgICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmZpbmRDbGFzcygiY29tLmFsaWJhYmEuYXJpdmVyLmFwcC5hcGkuUGFnZSIsIGxvYWRlciksCiAgICAgICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmZpbmRDbGFzcygiY29tLmFsaWJhYmEuYXJpdmVyLmVuZ2luZS5hcGkuYnJpZGdlLm1vZGVsLkFwaUNvbnRleHQiLCBsb2FkZXIpLAogICAgICAgICAgICAgICAgWHBvc2VkSGVscGVycy5maW5kQ2xhc3MoImNvbS5hbGliYWJhLmFyaXZlci5lbmdpbmUuYXBpLmJyaWRnZS5leHRlbnNpb24uQnJpZGdlQ2FsbGJhY2siLCBsb2FkZXIpLAogICAgICAgICAgICAgICAgY3JlYXRlTmV3UnBjSG9vaygpCiAgICAgICAgICAgICkKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmlrBSUEMgSG9vayDlronoo4XmiJDlip8iKQogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuaWsFJQQyBIb29rIOWksei0pTogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CgogICAgICAgIC8vIDIuIOaXp+eJiCBSUEM6IEg1UnBjVXRpbC5ycGNDYWxsKCkKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgaDVScGNVdGlsQ2xhc3MgPSBYcG9zZWRIZWxwZXJzLmZpbmRDbGFzcygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5Lm1vYmlsZS5uZWJ1bGFhcHBwcm94eS5hcGkucnBjLkg1UnBjVXRpbCIsIGxvYWRlcgogICAgICAgICAgICApCiAgICAgICAgICAgIHZhbCBoNVBhZ2VDbGFzcyA9IFhwb3NlZEhlbHBlcnMuZmluZENsYXNzKAogICAgICAgICAgICAgICAgImNvbS5hbGlwYXkubW9iaWxlLmg1Y29udGFpbmVyLmFwaS5INVBhZ2UiLCBsb2FkZXIKICAgICAgICAgICAgKQogICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmZpbmRBbmRIb29rTWV0aG9kKAogICAgICAgICAgICAgICAgaDVScGNVdGlsQ2xhc3MsICJycGNDYWxsIiwKICAgICAgICAgICAgICAgIFN0cmluZzo6Y2xhc3MuamF2YSwgU3RyaW5nOjpjbGFzcy5qYXZhLCBTdHJpbmc6OmNsYXNzLmphdmEsCiAgICAgICAgICAgICAgICBqYXZhLmxhbmcuQm9vbGVhbi5UWVBFLAogICAgICAgICAgICAgICAgbG9hZGVyLmxvYWRDbGFzcygiY29tLmFsaWJhYmEuZmFzdGpzb24uSlNPTk9iamVjdCIpLAogICAgICAgICAgICAgICAgU3RyaW5nOjpjbGFzcy5qYXZhLCBqYXZhLmxhbmcuQm9vbGVhbi5UWVBFLAogICAgICAgICAgICAgICAgaDVQYWdlQ2xhc3MsIEludGVnZXIuVFlQRSwKICAgICAgICAgICAgICAgIFN0cmluZzo6Y2xhc3MuamF2YSwgamF2YS5sYW5nLkJvb2xlYW4uVFlQRSwKICAgICAgICAgICAgICAgIEludGVnZXIuVFlQRSwgU3RyaW5nOjpjbGFzcy5qYXZhLAogICAgICAgICAgICAgICAgY3JlYXRlT2xkUnBjSG9vaygpCiAgICAgICAgICAgICkKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLml6dSUEMgSG9vayDlronoo4XmiJDlip8iKQogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuaXp1JQQyBIb29rIOWksei0pTogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CgogICAgICAgIGhvb2tJbnN0YWxsZWQgPSB0cnVlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY3JlYXRlTmV3UnBjSG9vaygpID0gb2JqZWN0IDogWENfTWV0aG9kSG9vaygpIHsKICAgICAgICBvdmVycmlkZSBmdW4gYmVmb3JlSG9va2VkTWV0aG9kKHBhcmFtOiBNZXRob2RIb29rUGFyYW0pIHsKICAgICAgICAgICAgaWYgKCFpc1JlY29yZGluZyB8fCB3cml0ZXIgPT0gbnVsbCkgcmV0dXJuCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgbWV0aG9kID0gcGFyYW0uYXJnc1swXSBhcz8gU3RyaW5nID86IHJldHVybgogICAgICAgICAgICAgICAgdmFsIHBhcmFtcyA9IHBhcmFtLmFyZ3NbNF0/LnRvU3RyaW5nKCkgPzogIm51bGwiCiAgICAgICAgICAgICAgICB2YWwgdHMgPSBub3coKQogICAgICAgICAgICAgICAgd3JpdGUoIlskdHNdIE5FV19SRVEgJG1ldGhvZFxuICAkcGFyYW1zXG4iKQogICAgICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHt9CiAgICAgICAgfQogICAgICAgIG92ZXJyaWRlIGZ1biBhZnRlckhvb2tlZE1ldGhvZChwYXJhbTogTWV0aG9kSG9va1BhcmFtKSB7CiAgICAgICAgICAgIGlmICghaXNSZWNvcmRpbmcgfHwgd3JpdGVyID09IG51bGwpIHJldHVybgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIG1ldGhvZCA9IHBhcmFtLmFyZ3NbMF0gYXM/IFN0cmluZyA/OiByZXR1cm4KICAgICAgICAgICAgICAgIHZhbCBjYiA9IHBhcmFtLmFyZ3NbMTVdID86IHJldHVybgogICAgICAgICAgICAgICAgdmFsIHJlc3BGaWVsZCA9IGNiLmphdmFDbGFzcy5nZXREZWNsYXJlZEZpZWxkKCJtSlNPTlJlc3BvbnNlIikKICAgICAgICAgICAgICAgIHJlc3BGaWVsZC5pc0FjY2Vzc2libGUgPSB0cnVlCiAgICAgICAgICAgICAgICB2YWwgcmVzcCA9IHJlc3BGaWVsZC5nZXQoY2IpPy50b1N0cmluZygpCiAgICAgICAgICAgICAgICBpZiAocmVzcCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgd3JpdGUoIlske25vdygpfV0gTkVXX1JFUyAkbWV0aG9kXG4gICR7Y2xpcChyZXNwKX1cbiIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKF86IFRocm93YWJsZSkge30KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY3JlYXRlT2xkUnBjSG9vaygpID0gb2JqZWN0IDogWENfTWV0aG9kSG9vaygpIHsKICAgICAgICBvdmVycmlkZSBmdW4gYmVmb3JlSG9va2VkTWV0aG9kKHBhcmFtOiBNZXRob2RIb29rUGFyYW0pIHsKICAgICAgICAgICAgaWYgKCFpc1JlY29yZGluZyB8fCB3cml0ZXIgPT0gbnVsbCkgcmV0dXJuCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgbWV0aG9kID0gcGFyYW0uYXJnc1swXSBhcz8gU3RyaW5nID86IHJldHVybgogICAgICAgICAgICAgICAgdmFsIGFyZ3MgPSBwYXJhbS5hcmdzWzFdPy50b1N0cmluZygpID86ICJudWxsIgogICAgICAgICAgICAgICAgd3JpdGUoIlske25vdygpfV0gT0xEX1JFUSAkbWV0aG9kXG4gICRhcmdzXG4iKQogICAgICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHt9CiAgICAgICAgfQogICAgICAgIG92ZXJyaWRlIGZ1biBhZnRlckhvb2tlZE1ldGhvZChwYXJhbTogTWV0aG9kSG9va1BhcmFtKSB7CiAgICAgICAgICAgIGlmICghaXNSZWNvcmRpbmcgfHwgd3JpdGVyID09IG51bGwpIHJldHVybgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIG1ldGhvZCA9IHBhcmFtLmFyZ3NbMF0gYXM/IFN0cmluZyA/OiByZXR1cm4KICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBwYXJhbS5yZXN1bHQgPzogcmV0dXJuCiAgICAgICAgICAgICAgICB2YWwgcmVzcCA9IHJlc3VsdC5qYXZhQ2xhc3MuZ2V0TWV0aG9kKCJnZXRSZXNwb25zZSIpLmludm9rZShyZXN1bHQpIGFzPyBTdHJpbmcgPzogcmV0dXJuCiAgICAgICAgICAgICAgICB3cml0ZSgiWyR7bm93KCl9XSBPTERfUkVTICRtZXRob2RcbiAgJHtjbGlwKHJlc3ApfVxuIikKICAgICAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7fQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBub3coKSA9IFNpbXBsZURhdGVGb3JtYXQoIkhIOm1tOnNzLlNTUyIsIExvY2FsZS5nZXREZWZhdWx0KCkpLmZvcm1hdChEYXRlKCkpCgogICAgcHJpdmF0ZSBmdW4gY2xpcChzOiBTdHJpbmcpID0gaWYgKHMubGVuZ3RoID4gTUFYX1JFU19MRU4pIHMudGFrZShNQVhfUkVTX0xFTikgKyAiLi4uW+aIquaWrV0iIGVsc2Ugcwp9Cg==
+package fansirsqi.xposed.sesame.hook.internal
+
+import de.robv.android.xposed.XC_MethodHook
+import de.robv.android.xposed.XposedHelpers
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.Log
+import java.io.File
+import java.io.FileWriter
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+/**
+ * RPC 数据抓包助手 - 同时 Hook 新旧 RPC 通道，实时写入文件
+ */
+object RpcCaptureHelper {
+
+    private const val TAG = "RpcCapture"
+    private var classLoader: ClassLoader? = null
+    @Volatile var isRecording = false
+        private set
+    private var writer: FileWriter? = null
+    private var hookInstalled = false
+
+    fun init(loader: ClassLoader) {
+        classLoader = loader
+        startRecording()
+    }
+
+    /** 抓包结果固定写这一个文件（位于 sesame-TK/log 下），方便 UI 与脚本直接读取 */
+    const val CAPTURE_FILE_NAME = "rpc_cap.txt"
+
+    /** 单个响应最多记录多少字符。放宽到 8000，够看清业务字段 */
+    private const val MAX_RES_LEN = 8000
+
+    /** 超过这个体积就清空重来，避免无限增长（20MB） */
+    private const val MAX_FILE_BYTES = 20L * 1024 * 1024
+
+    @Synchronized
+    fun startRecording() {
+        if (isRecording) return
+        isRecording = true
+        val dir = Files.LOG_DIR
+        val file = File(dir, CAPTURE_FILE_NAME)
+        try {
+            if (!dir.exists()) dir.mkdirs()
+            if (file.exists() && file.length() > MAX_FILE_BYTES) file.delete()
+            writer = FileWriter(file, true)
+            Log.record(TAG, "RPC 抓包已开启 → ${file.absolutePath}")
+            write("=== START ${SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(Date())} ===\n")
+        } catch (e: Exception) {
+            Log.error(TAG, "创建文件失败: ${e.message}")
+            Log.printStackTrace(TAG, e)
+        }
+    }
+
+    /** 当前抓包文件（供 UI / 其它模块直接读取） */
+    fun captureFile(): File = File(Files.LOG_DIR, CAPTURE_FILE_NAME)
+
+    @Synchronized
+    fun stopRecording() {
+        if (!isRecording) return
+        isRecording = false
+        try {
+            write("=== RPC Capture Stopped ===\n")
+            writer?.flush()
+            writer?.close()
+        } catch (_: Throwable) {}
+        writer = null
+        Log.record(TAG, "⚪ 停止录制")
+    }
+
+    @Synchronized
+    private fun write(text: String) {
+        try {
+            writer?.append(text)?.flush()
+        } catch (_: Throwable) {}
+    }
+
+    /** 安装 RPC 拦截 Hook - 同时覆盖新旧两条 RPC 通道 */
+    fun installRpcCaptureHooks() {
+        if (hookInstalled) return
+        val loader = classLoader ?: return
+
+        // 1. 新版 RPC: RpcBridgeExtension.rpc()
+        try {
+            val bridgeClass = XposedHelpers.findClass(
+                "com.alibaba.ariver.commonability.network.rpc.RpcBridgeExtension", loader
+            )
+            val jsonClass = Class.forName("com.alibaba.fastjson.JSONObject", false, loader)
+            XposedHelpers.findAndHookMethod(
+                bridgeClass, "rpc",
+                String::class.java, java.lang.Boolean.TYPE, java.lang.Boolean.TYPE,
+                String::class.java, jsonClass, String::class.java, jsonClass,
+                java.lang.Boolean.TYPE, java.lang.Boolean.TYPE,
+                Integer.TYPE, java.lang.Boolean.TYPE, String::class.java,
+                XposedHelpers.findClass("com.alibaba.ariver.app.api.App", loader),
+                XposedHelpers.findClass("com.alibaba.ariver.app.api.Page", loader),
+                XposedHelpers.findClass("com.alibaba.ariver.engine.api.bridge.model.ApiContext", loader),
+                XposedHelpers.findClass("com.alibaba.ariver.engine.api.bridge.extension.BridgeCallback", loader),
+                createNewRpcHook()
+            )
+            Log.record(TAG, "新RPC Hook 安装成功")
+        } catch (e: Throwable) {
+            Log.record(TAG, "新RPC Hook 失败: ${e.message}")
+        }
+
+        // 2. 旧版 RPC: H5RpcUtil.rpcCall()
+        try {
+            val h5RpcUtilClass = XposedHelpers.findClass(
+                "com.alipay.mobile.nebulaappproxy.api.rpc.H5RpcUtil", loader
+            )
+            val h5PageClass = XposedHelpers.findClass(
+                "com.alipay.mobile.h5container.api.H5Page", loader
+            )
+            XposedHelpers.findAndHookMethod(
+                h5RpcUtilClass, "rpcCall",
+                String::class.java, String::class.java, String::class.java,
+                java.lang.Boolean.TYPE,
+                loader.loadClass("com.alibaba.fastjson.JSONObject"),
+                String::class.java, java.lang.Boolean.TYPE,
+                h5PageClass, Integer.TYPE,
+                String::class.java, java.lang.Boolean.TYPE,
+                Integer.TYPE, String::class.java,
+                createOldRpcHook()
+            )
+            Log.record(TAG, "旧RPC Hook 安装成功")
+        } catch (e: Throwable) {
+            Log.record(TAG, "旧RPC Hook 失败: ${e.message}")
+        }
+
+        hookInstalled = true
+    }
+
+    private fun createNewRpcHook() = object : XC_MethodHook() {
+        override fun beforeHookedMethod(param: MethodHookParam) {
+            if (!isRecording || writer == null) return
+            try {
+                val method = param.args[0] as? String ?: return
+                val params = param.args[4]?.toString() ?: "null"
+                val ts = now()
+                write("[$ts] NEW_REQ $method\n  $params\n")
+            } catch (_: Throwable) {}
+        }
+        override fun afterHookedMethod(param: MethodHookParam) {
+            if (!isRecording || writer == null) return
+            try {
+                val method = param.args[0] as? String ?: return
+                val cb = param.args[15] ?: return
+                val respField = cb.javaClass.getDeclaredField("mJSONResponse")
+                respField.isAccessible = true
+                val resp = respField.get(cb)?.toString()
+                if (resp != null) {
+                    write("[${now()}] NEW_RES $method\n  ${clip(resp)}\n")
+                }
+            } catch (_: Throwable) {}
+        }
+    }
+
+    private fun createOldRpcHook() = object : XC_MethodHook() {
+        override fun beforeHookedMethod(param: MethodHookParam) {
+            if (!isRecording || writer == null) return
+            try {
+                val method = param.args[0] as? String ?: return
+                val args = param.args[1]?.toString() ?: "null"
+                write("[${now()}] OLD_REQ $method\n  $args\n")
+            } catch (_: Throwable) {}
+        }
+        override fun afterHookedMethod(param: MethodHookParam) {
+            if (!isRecording || writer == null) return
+            try {
+                val method = param.args[0] as? String ?: return
+                val result = param.result ?: return
+                val resp = result.javaClass.getMethod("getResponse").invoke(result) as? String ?: return
+                write("[${now()}] OLD_RES $method\n  ${clip(resp)}\n")
+            } catch (_: Throwable) {}
+        }
+    }
+
+    private fun now() = SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault()).format(Date())
+
+    private fun clip(s: String) = if (s.length > MAX_RES_LEN) s.take(MAX_RES_LEN) + "...[截断]" else s
+}

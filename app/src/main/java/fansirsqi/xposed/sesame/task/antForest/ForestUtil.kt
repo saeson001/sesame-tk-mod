@@ -1,1 +1,241 @@
-QGZpbGU6SnZtTmFtZSgiRm9yZXN0VXRpbCIpCgpwYWNrYWdlIGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suYW50Rm9yZXN0CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5Vc2VyTWFwCmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAoKb2JqZWN0IEZvcmVzdFV0aWwgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJGb3Jlc3RVdGlsIgoKICAgIC8qKgogICAgICog55So5oi36aKR546H6ZmQ5Yi25L+h5oGvCiAgICAgKiBAcGFyYW0gZmFpbENvdW50IOWksei0peasoeaVsO+8iDEtM++8iQogICAgICogQHBhcmFtIGNvb2xkb3duVW50aWwg5Ya35Y2057uT5p2f5pe26Ze077yI5q+r56eS5pe26Ze05oiz77yJCiAgICAgKi8KICAgIHByaXZhdGUgZGF0YSBjbGFzcyBGcmVxdWVuY3lMaW1pdEluZm8oCiAgICAgICAgdmFyIGZhaWxDb3VudDogSW50ID0gMCwKICAgICAgICB2YXIgY29vbGRvd25VbnRpbDogTG9uZyA9IDBMCiAgICApCgogICAgLyoqCiAgICAgKiDlrZjlgqjmr4/kuKrnlKjmiLfnmoTpopHnjofpmZDliLbkv6Hmga8KICAgICAqIEtleTogdXNlcklkLCBWYWx1ZTogRnJlcXVlbmN5TGltaXRJbmZvCiAgICAgKi8KICAgIHByaXZhdGUgdmFsIHVzZXJGcmVxdWVuY3lNYXAgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIEZyZXF1ZW5jeUxpbWl0SW5mbz4oKQoKICAgIC8qKgogICAgICog5qOA5p+l55So5oi35piv5ZCm5ZyoIuaJi+mAn+WkquW/qyLlhrfljbTmnJ/kuK0KICAgICAqIEBwYXJhbSB1c2VySWQg55So5oi3SUQKICAgICAqIEByZXR1cm4gdHJ1ZeihqOekuuWcqOWGt+WNtOacn++8jOW6lOivpei3s+i/h++8m2ZhbHNl6KGo56S65Y+v5Lul5aSE55CGCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBpc1VzZXJJbkZyZXF1ZW5jeUNvb2xkb3duKHVzZXJJZDogU3RyaW5nPyk6IEJvb2xlYW4gewogICAgICAgIGlmICh1c2VySWQgPT0gbnVsbCkgcmV0dXJuIGZhbHNlCgogICAgICAgIHZhbCBpbmZvID0gdXNlckZyZXF1ZW5jeU1hcFt1c2VySWRdID86IHJldHVybiBmYWxzZQogICAgICAgIHZhbCBjdXJyZW50VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgaWYgKGN1cnJlbnRUaW1lIDwgaW5mby5jb29sZG93blVudGlsKSB7CiAgICAgICAgICAgIHZhbCByZW1haW5pbmdNaW51dGVzID0gKGluZm8uY29vbGRvd25VbnRpbCAtIGN1cnJlbnRUaW1lKSAvIDYwMDAwCiAgICAgICAgICAgIHZhbCByZW1haW5pbmdTZWNvbmRzID0gKChpbmZvLmNvb2xkb3duVW50aWwgLSBjdXJyZW50VGltZSkgJSA2MDAwMCkgLyAxMDAwCiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiWyR7VXNlck1hcC5nZXRNYXNrTmFtZSh1c2VySWQpfV0g5omL6YCf5aSq5b+r5Ya35Y205Lit77yM6L+Y6ZyA562J5b6FICR7cmVtYWluaW5nTWludXRlc33liIYke3JlbWFpbmluZ1NlY29uZHN956eSIikKICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICB9CiAgICAgICAgLy8g5Ya35Y205pyf57uT5p2f77yM5riF6Zmk6K6w5b2VCiAgICAgICAgaWYgKGluZm8uY29vbGRvd25VbnRpbCA+IDApIHsKICAgICAgICAgICAgdXNlckZyZXF1ZW5jeU1hcC5yZW1vdmUodXNlcklkKQogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIlske1VzZXJNYXAuZ2V0TWFza05hbWUodXNlcklkKX1dIOWGt+WNtOacn+e7k+adn++8jOaBouWkjeato+W4uOWkhOeQhiIpCiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZQogICAgfQoKICAgIC8qKgogICAgICog5qOA5rWL5piv5ZCm5Li6IuaJi+mAn+WkquW/qyLnm7jlhbPplJnor68KICAgICAqIEBwYXJhbSByZXN1bHRDb2RlIOi/lOWbnueggQogICAgICogQHBhcmFtIHJlc3VsdERlc2Mg6L+U5Zue5o+P6L+wCiAgICAgKiBAcmV0dXJuIHRydWXooajnpLrmmK/popHnjofpmZDliLbplJnor6/vvIxmYWxzZeihqOekuuS4jeaYrwogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gaXNGcmVxdWVuY3lFcnJvcihyZXN1bHRDb2RlOiBTdHJpbmc/LCByZXN1bHREZXNjOiBTdHJpbmc/KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKHJlc3VsdENvZGUgPT0gbnVsbCAmJiByZXN1bHREZXNjID09IG51bGwpIHJldHVybiBmYWxzZQoKICAgICAgICByZXR1cm4gcmVzdWx0Q29kZSA9PSAiUExVR0lOX0ZSRVFVRU5DWV9JTlRFUkNFUFQiIHx8CiAgICAgICAgICAgICAgICByZXN1bHREZXNjPy5jb250YWlucygi5omL6YCf5aSq5b+rIikgPT0gdHJ1ZSB8fAogICAgICAgICAgICAgICAgcmVzdWx0RGVzYz8uY29udGFpbnMoIumikee5gSIpID09IHRydWUgfHwKICAgICAgICAgICAgICAgIHJlc3VsdERlc2M/LmNvbnRhaW5zKCLmk43kvZzov4fkuo7popHnuYEiKSA9PSB0cnVlCiAgICB9CgogICAgLyoqCiAgICAgKiDmo4DmtYsgSlNPTk9iamVjdCDmmK/lkKbkuLoi5omL6YCf5aSq5b+rIuebuOWFs+mUmeivrwogICAgICogQHBhcmFtIGpvIEpTT07lr7nosaEKICAgICAqIEByZXR1cm4gdHJ1ZeihqOekuuaYr+mikeeOh+mZkOWItumUmeivr++8jGZhbHNl6KGo56S65LiN5pivCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBpc0ZyZXF1ZW5jeUVycm9yKGpvOiBKU09OT2JqZWN0Pyk6IEJvb2xlYW4gewogICAgICAgIGlmIChqbyA9PSBudWxsKSByZXR1cm4gZmFsc2UKICAgICAgICB2YWwgcmVzdWx0Q29kZSA9IGpvLm9wdFN0cmluZygicmVzdWx0Q29kZSIsICIiKQogICAgICAgIHZhbCByZXN1bHREZXNjID0gam8ub3B0U3RyaW5nKCJyZXN1bHREZXNjIiwgIiIpCiAgICAgICAgcmV0dXJuIGlzRnJlcXVlbmN5RXJyb3IocmVzdWx0Q29kZSwgcmVzdWx0RGVzYykKICAgIH0KCiAgICAvKioKICAgICAqIOiusOW9leeUqOaItyLmiYvpgJ/lpKrlv6si6ZSZ6K+v77yM5bm26K6+572u55u45bqU55qE5Ya35Y205pe26Ze0CiAgICAgKiBAcGFyYW0gdXNlcklkIOeUqOaIt0lECiAgICAgKiBAcmV0dXJuIHRydWXooajnpLrorrDlvZXmiJDlip/vvIxmYWxzZeihqOekuuWPguaVsOaXoOaViAogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gcmVjb3JkRnJlcXVlbmN5RXJyb3IodXNlcklkOiBTdHJpbmc/KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKHVzZXJJZCA9PSBudWxsKSByZXR1cm4gZmFsc2UKICAgICAgICB2YWwgdXNlck5hbWUgPSBVc2VyTWFwLmdldE1hc2tOYW1lKHVzZXJJZCkKICAgICAgICB2YWwgY3VycmVudFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHZhbCBpbmZvID0gdXNlckZyZXF1ZW5jeU1hcC5nZXRPclB1dCh1c2VySWQpIHsgRnJlcXVlbmN5TGltaXRJbmZvKCkgfQogICAgICAgIC8vIOWinuWKoOWksei0peasoeaVsAogICAgICAgIGluZm8uZmFpbENvdW50KysKICAgICAgICAvLyDmoLnmja7lpLHotKXmrKHmlbDorr7nva7lhrfljbTml7bpl7QKICAgICAgICB2YWwgY29vbGRvd25NaW51dGVzID0gd2hlbiAoaW5mby5mYWlsQ291bnQpIHsKICAgICAgICAgICAgMSAtPiB7CiAgICAgICAgICAgICAgICBpbmZvLmNvb2xkb3duVW50aWwgPSBjdXJyZW50VGltZSArIDIgKiA2MCAqIDEwMDBMICAvLyAy5YiG6ZKfCiAgICAgICAgICAgICAgICAyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgMiAtPiB7CiAgICAgICAgICAgICAgICBpbmZvLmNvb2xkb3duVW50aWwgPSBjdXJyZW50VGltZSArIDEwICogNjAgKiAxMDAwTCAgLy8gMTDliIbpkp8KICAgICAgICAgICAgICAgIDEwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICBpbmZvLmNvb2xkb3duVW50aWwgPSBjdXJyZW50VGltZSArIDMwICogNjAgKiAxMDAwTCAgLy8gMzDliIbpkp8KICAgICAgICAgICAgICAgIDMwCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIExvZy5yZWNvcmQoVEFHLCAi4pqg77iPIFskdXNlck5hbWVdIOaJi+mAn+WkquW/q++8geesrCR7aW5mby5mYWlsQ291bnR95qyh5byC5bi477yM5LyR5oGvJHtjb29sZG93bk1pbnV0ZXN95YiG6ZKf77yM5LiL5qyh5pqC5LiN5aSE55CGIikKCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICAvKioKICAgICAqIOajgOa1i+W5tuiusOW9lSLmiYvpgJ/lpKrlv6si6ZSZ6K+v77yI57uE5ZCI5pa55rOV77yJCiAgICAgKiBAcGFyYW0gdXNlcklkIOeUqOaIt0lECiAgICAgKiBAcGFyYW0gam8gSlNPTuWvueixoQogICAgICogQHJldHVybiB0cnVl6KGo56S65qOA5rWL5Yiw6aKR546H6ZSZ6K+v5bm25bey6K6w5b2V77yMZmFsc2XooajnpLrkuI3mmK/popHnjofplJnor68KICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIGNoZWNrQW5kUmVjb3JkRnJlcXVlbmN5RXJyb3IodXNlcklkOiBTdHJpbmc/LCBqbzogSlNPTk9iamVjdD8pOiBCb29sZWFuIHsKICAgICAgICBpZiAoaXNGcmVxdWVuY3lFcnJvcihqbykpIHsKICAgICAgICAgICAgcmVjb3JkRnJlcXVlbmN5RXJyb3IodXNlcklkKQogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICAvKioKICAgICAqIOa4hemZpOaJgOacieeUqOaIt+eahOmikeeOh+mZkOWItuiusOW9le+8iOeUqOS6juS7u+WKoee7k+adn+aXtua4heeQhu+8iQogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gY2xlYXJBbGxGcmVxdWVuY3lMaW1pdHMoKSB7CiAgICAgICAgdmFsIGNvdW50ID0gdXNlckZyZXF1ZW5jeU1hcC5zaXplCiAgICAgICAgaWYgKGNvdW50ID4gMCkgewogICAgICAgICAgICB1c2VyRnJlcXVlbmN5TWFwLmNsZWFyKCkKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLlt7LmuIXpmaQke2NvdW50feS4queUqOaIt+eahOmikeeOh+mZkOWItuiusOW9lSIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5omL5Yqo5riF6Zmk5oyH5a6a55So5oi355qE6aKR546H6ZmQ5Yi277yI55So5LqO5rWL6K+V5oiW5omL5Yqo5oGi5aSN77yJCiAgICAgKiBAcGFyYW0gdXNlcklkIOeUqOaIt0lECiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBjbGVhclVzZXJGcmVxdWVuY3lMaW1pdCh1c2VySWQ6IFN0cmluZz8pIHsKICAgICAgICBpZiAodXNlcklkICE9IG51bGwgJiYgdXNlckZyZXF1ZW5jeU1hcC5yZW1vdmUodXNlcklkKSAhPSBudWxsKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiWyR7VXNlck1hcC5nZXRNYXNrTmFtZSh1c2VySWQpfV0g6aKR546H6ZmQ5Yi25bey5riF6ZmkIikKICAgICAgICB9CiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGhhc1NoaWVsZCh1c2VySG9tZU9iajogSlNPTk9iamVjdCwgc2VydmVyVGltZTogTG9uZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBoYXNQcm9wR3JvdXAodXNlckhvbWVPYmosICJzaGllbGQiLCBzZXJ2ZXJUaW1lKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBoYXNCb21iQ2FyZCh1c2VySG9tZU9iajogSlNPTk9iamVjdCwgc2VydmVyVGltZTogTG9uZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBoYXNQcm9wR3JvdXAodXNlckhvbWVPYmosICJlbmVyZ3lCb21iQ2FyZCIsIHNlcnZlclRpbWUpCiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5bkv53miqTnvannu5PmnZ/ml7bpl7QKICAgICAqIEBwYXJhbSB1c2VySG9tZU9iaiDnlKjmiLfkuLvpobXmlbDmja4KICAgICAqIEByZXR1cm4g5L+d5oqk572p57uT5p2f5pe26Ze05oiz77yM5aaC5p6c5rKh5pyJ5L+d5oqk572p5YiZ6L+U5ZueMAogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0U2hpZWxkRW5kVGltZSh1c2VySG9tZU9iajogSlNPTk9iamVjdCk6IExvbmcgewogICAgICAgIHJldHVybiBnZXRQcm9wR3JvdXBFbmRUaW1lKHVzZXJIb21lT2JqLCAic2hpZWxkIikKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPlueCuOW8ueWNoee7k+adn+aXtumXtAogICAgICogQHBhcmFtIHVzZXJIb21lT2JqIOeUqOaIt+S4u+mhteaVsOaNrgogICAgICogQHJldHVybiDngrjlvLnljaHnu5PmnZ/ml7bpl7TmiLPvvIzlpoLmnpzmsqHmnInngrjlvLnljaHliJnov5Tlm54wCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRCb21iQ2FyZEVuZFRpbWUodXNlckhvbWVPYmo6IEpTT05PYmplY3QpOiBMb25nIHsKICAgICAgICByZXR1cm4gZ2V0UHJvcEdyb3VwRW5kVGltZSh1c2VySG9tZU9iaiwgImVuZXJneUJvbWJDYXJkIikKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPlueUqOaIt+eahOS/neaKpOe7k+adn+aXtumXtO+8iOWPluS/neaKpOe9qeWSjOeCuOW8ueWNoeS4reacgOaZmueahOaXtumXtO+8iQogICAgICogQHBhcmFtIHVzZXJIb21lT2JqIOeUqOaIt+S4u+mhteaVsOaNrgogICAgICogQHJldHVybiDkv53miqTnu5PmnZ/ml7bpl7TmiLPvvIzlpoLmnpzpg73msqHmnInliJnov5Tlm54wCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRQcm90ZWN0aW9uRW5kVGltZSh1c2VySG9tZU9iajogSlNPTk9iamVjdCk6IExvbmcgewogICAgICAgIHZhbCBzaGllbGRFbmRUaW1lID0gZ2V0U2hpZWxkRW5kVGltZSh1c2VySG9tZU9iaikKICAgICAgICB2YWwgYm9tYkVuZFRpbWUgPSBnZXRCb21iQ2FyZEVuZFRpbWUodXNlckhvbWVPYmopCiAgICAgICAgcmV0dXJuIG1heE9mKHNoaWVsZEVuZFRpbWUsIGJvbWJFbmRUaW1lKQogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+l5piv5ZCm5bqU6K+l6Lez6L+H6Lmy54K577yI5L+d5oqk5pe26Ze05q+U6IO96YeP55CD5oiQ54af5pe26Ze06ZW/77yJCiAgICAgKiBAcGFyYW0gdXNlckhvbWVPYmog55So5oi35Li76aG15pWw5o2uCiAgICAgKiBAcGFyYW0gZW5lcmd5TWF0dXJpdHlUaW1lIOiDvemHj+eQg+aIkOeGn+aXtumXtAogICAgICogQHJldHVybiB0cnVl6KGo56S65bqU6K+l6Lez6L+H6Lmy54K577yMZmFsc2XooajnpLrlj6/ku6XoubLngrkKICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIHNob3VsZFNraXBXYWl0aW5nRHVlVG9Qcm90ZWN0aW9uKHVzZXJIb21lT2JqOiBKU09OT2JqZWN0LCBlbmVyZ3lNYXR1cml0eVRpbWU6IExvbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgcHJvdGVjdGlvbkVuZFRpbWUgPSBnZXRQcm90ZWN0aW9uRW5kVGltZSh1c2VySG9tZU9iaikKICAgICAgICByZXR1cm4gcHJvdGVjdGlvbkVuZFRpbWUgPiBlbmVyZ3lNYXR1cml0eVRpbWUKICAgIH0KCiAgICBwcml2YXRlIGZ1biBoYXNQcm9wR3JvdXAodXNlckhvbWVPYmo6IEpTT05PYmplY3QsIGdyb3VwOiBTdHJpbmcsIHNlcnZlclRpbWU6IExvbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgcHJvcHMgPSB1c2VySG9tZU9iai5vcHRKU09OQXJyYXkoInVzaW5nVXNlclByb3BzIikKICAgICAgICAgICAgPzogdXNlckhvbWVPYmoub3B0SlNPTkFycmF5KCJ1c2luZ1VzZXJQcm9wc05ldyIpCiAgICAgICAgICAgID86IHJldHVybiBmYWxzZQogICAgICAgIHJldHVybiAoMCB1bnRpbCBwcm9wcy5sZW5ndGgoKSkuYW55IHsgaSAtPgogICAgICAgICAgICB2YWwgcHJvcCA9IHByb3BzLm9wdEpTT05PYmplY3QoaSkKICAgICAgICAgICAgcHJvcD8ub3B0U3RyaW5nKCJwcm9wR3JvdXAiKSA9PSBncm91cCAmJiBwcm9wLm9wdExvbmcoImVuZFRpbWUiLCAwTCkgPiBzZXJ2ZXJUaW1lCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5oyH5a6a6YGT5YW357uE55qE57uT5p2f5pe26Ze0CiAgICAgKiBAcGFyYW0gdXNlckhvbWVPYmog55So5oi35Li76aG15pWw5o2uCiAgICAgKiBAcGFyYW0gZ3JvdXAg6YGT5YW357uE5ZCN56ew77yI5aaCInNoaWVsZCLjgIEiZW5lcmd5Qm9tYkNhcmQi77yJCiAgICAgKiBAcmV0dXJuIOe7k+adn+aXtumXtOaIs++8jOWmguaenOayoeacieivpemBk+WFt+WImei/lOWbnjAKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gZ2V0UHJvcEdyb3VwRW5kVGltZSh1c2VySG9tZU9iajogSlNPTk9iamVjdCwgZ3JvdXA6IFN0cmluZyk6IExvbmcgewogICAgICAgIHZhbCBwcm9wcyA9IHVzZXJIb21lT2JqLm9wdEpTT05BcnJheSgidXNpbmdVc2VyUHJvcHMiKQogICAgICAgICAgICA/OiB1c2VySG9tZU9iai5vcHRKU09OQXJyYXkoInVzaW5nVXNlclByb3BzTmV3IikKICAgICAgICAgICAgPzogcmV0dXJuIDBMCgogICAgICAgIHZhciBsYXRlc3RFbmRUaW1lID0gMEwKICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBwcm9wcy5sZW5ndGgoKSkgewogICAgICAgICAgICB2YWwgcHJvcCA9IHByb3BzLm9wdEpTT05PYmplY3QoaSkgPzogY29udGludWUKICAgICAgICAgICAgaWYgKHByb3Aub3B0U3RyaW5nKCJwcm9wR3JvdXAiKSA9PSBncm91cCkgewogICAgICAgICAgICAgICAgdmFsIGVuZFRpbWUgPSBwcm9wLm9wdExvbmcoImVuZFRpbWUiLCAwTCkKICAgICAgICAgICAgICAgIGxhdGVzdEVuZFRpbWUgPSBtYXhPZihsYXRlc3RFbmRUaW1lLCBlbmRUaW1lKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBsYXRlc3RFbmRUaW1lCiAgICB9Cn0=
+@file:JvmName("ForestUtil")
+
+package fansirsqi.xposed.sesame.task.antForest
+
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.maps.UserMap
+import org.json.JSONObject
+import java.util.concurrent.ConcurrentHashMap
+
+object ForestUtil {
+
+    private const val TAG = "ForestUtil"
+
+    /**
+     * 用户频率限制信息
+     * @param failCount 失败次数（1-3）
+     * @param cooldownUntil 冷却结束时间（毫秒时间戳）
+     */
+    private data class FrequencyLimitInfo(
+        var failCount: Int = 0,
+        var cooldownUntil: Long = 0L
+    )
+
+    /**
+     * 存储每个用户的频率限制信息
+     * Key: userId, Value: FrequencyLimitInfo
+     */
+    private val userFrequencyMap = ConcurrentHashMap<String, FrequencyLimitInfo>()
+
+    /**
+     * 检查用户是否在"手速太快"冷却期中
+     * @param userId 用户ID
+     * @return true表示在冷却期，应该跳过；false表示可以处理
+     */
+    @JvmStatic
+    fun isUserInFrequencyCooldown(userId: String?): Boolean {
+        if (userId == null) return false
+
+        val info = userFrequencyMap[userId] ?: return false
+        val currentTime = System.currentTimeMillis()
+        if (currentTime < info.cooldownUntil) {
+            val remainingMinutes = (info.cooldownUntil - currentTime) / 60000
+            val remainingSeconds = ((info.cooldownUntil - currentTime) % 60000) / 1000
+            Log.record(TAG, "[${UserMap.getMaskName(userId)}] 手速太快冷却中，还需等待 ${remainingMinutes}分${remainingSeconds}秒")
+            return true
+        }
+        // 冷却期结束，清除记录
+        if (info.cooldownUntil > 0) {
+            userFrequencyMap.remove(userId)
+            Log.record(TAG, "[${UserMap.getMaskName(userId)}] 冷却期结束，恢复正常处理")
+        }
+        return false
+    }
+
+    /**
+     * 检测是否为"手速太快"相关错误
+     * @param resultCode 返回码
+     * @param resultDesc 返回描述
+     * @return true表示是频率限制错误，false表示不是
+     */
+    @JvmStatic
+    fun isFrequencyError(resultCode: String?, resultDesc: String?): Boolean {
+        if (resultCode == null && resultDesc == null) return false
+
+        return resultCode == "PLUGIN_FREQUENCY_INTERCEPT" ||
+                resultDesc?.contains("手速太快") == true ||
+                resultDesc?.contains("频繁") == true ||
+                resultDesc?.contains("操作过于频繁") == true
+    }
+
+    /**
+     * 检测 JSONObject 是否为"手速太快"相关错误
+     * @param jo JSON对象
+     * @return true表示是频率限制错误，false表示不是
+     */
+    @JvmStatic
+    fun isFrequencyError(jo: JSONObject?): Boolean {
+        if (jo == null) return false
+        val resultCode = jo.optString("resultCode", "")
+        val resultDesc = jo.optString("resultDesc", "")
+        return isFrequencyError(resultCode, resultDesc)
+    }
+
+    /**
+     * 记录用户"手速太快"错误，并设置相应的冷却时间
+     * @param userId 用户ID
+     * @return true表示记录成功，false表示参数无效
+     */
+    @JvmStatic
+    fun recordFrequencyError(userId: String?): Boolean {
+        if (userId == null) return false
+        val userName = UserMap.getMaskName(userId)
+        val currentTime = System.currentTimeMillis()
+        val info = userFrequencyMap.getOrPut(userId) { FrequencyLimitInfo() }
+        // 增加失败次数
+        info.failCount++
+        // 根据失败次数设置冷却时间
+        val cooldownMinutes = when (info.failCount) {
+            1 -> {
+                info.cooldownUntil = currentTime + 2 * 60 * 1000L  // 2分钟
+                2
+            }
+            2 -> {
+                info.cooldownUntil = currentTime + 10 * 60 * 1000L  // 10分钟
+                10
+            }
+            else -> {
+                info.cooldownUntil = currentTime + 30 * 60 * 1000L  // 30分钟
+                30
+            }
+        }
+
+        Log.record(TAG, "⚠️ [$userName] 手速太快！第${info.failCount}次异常，休息${cooldownMinutes}分钟，下次暂不处理")
+
+        return true
+    }
+
+    /**
+     * 检测并记录"手速太快"错误（组合方法）
+     * @param userId 用户ID
+     * @param jo JSON对象
+     * @return true表示检测到频率错误并已记录，false表示不是频率错误
+     */
+    @JvmStatic
+    fun checkAndRecordFrequencyError(userId: String?, jo: JSONObject?): Boolean {
+        if (isFrequencyError(jo)) {
+            recordFrequencyError(userId)
+            return true
+        }
+        return false
+    }
+
+    /**
+     * 清除所有用户的频率限制记录（用于任务结束时清理）
+     */
+    @JvmStatic
+    fun clearAllFrequencyLimits() {
+        val count = userFrequencyMap.size
+        if (count > 0) {
+            userFrequencyMap.clear()
+            Log.record(TAG, "已清除${count}个用户的频率限制记录")
+        }
+    }
+
+    /**
+     * 手动清除指定用户的频率限制（用于测试或手动恢复）
+     * @param userId 用户ID
+     */
+    @JvmStatic
+    fun clearUserFrequencyLimit(userId: String?) {
+        if (userId != null && userFrequencyMap.remove(userId) != null) {
+            Log.record(TAG, "[${UserMap.getMaskName(userId)}] 频率限制已清除")
+        }
+    }
+
+    @JvmStatic
+    fun hasShield(userHomeObj: JSONObject, serverTime: Long): Boolean {
+        return hasPropGroup(userHomeObj, "shield", serverTime)
+    }
+
+    @JvmStatic
+    fun hasBombCard(userHomeObj: JSONObject, serverTime: Long): Boolean {
+        return hasPropGroup(userHomeObj, "energyBombCard", serverTime)
+    }
+
+    /**
+     * 获取保护罩结束时间
+     * @param userHomeObj 用户主页数据
+     * @return 保护罩结束时间戳，如果没有保护罩则返回0
+     */
+    @JvmStatic
+    fun getShieldEndTime(userHomeObj: JSONObject): Long {
+        return getPropGroupEndTime(userHomeObj, "shield")
+    }
+
+    /**
+     * 获取炸弹卡结束时间
+     * @param userHomeObj 用户主页数据
+     * @return 炸弹卡结束时间戳，如果没有炸弹卡则返回0
+     */
+    @JvmStatic
+    fun getBombCardEndTime(userHomeObj: JSONObject): Long {
+        return getPropGroupEndTime(userHomeObj, "energyBombCard")
+    }
+
+    /**
+     * 获取用户的保护结束时间（取保护罩和炸弹卡中最晚的时间）
+     * @param userHomeObj 用户主页数据
+     * @return 保护结束时间戳，如果都没有则返回0
+     */
+    @JvmStatic
+    fun getProtectionEndTime(userHomeObj: JSONObject): Long {
+        val shieldEndTime = getShieldEndTime(userHomeObj)
+        val bombEndTime = getBombCardEndTime(userHomeObj)
+        return maxOf(shieldEndTime, bombEndTime)
+    }
+
+    /**
+     * 检查是否应该跳过蹲点（保护时间比能量球成熟时间长）
+     * @param userHomeObj 用户主页数据
+     * @param energyMaturityTime 能量球成熟时间
+     * @return true表示应该跳过蹲点，false表示可以蹲点
+     */
+    @JvmStatic
+    fun shouldSkipWaitingDueToProtection(userHomeObj: JSONObject, energyMaturityTime: Long): Boolean {
+        val protectionEndTime = getProtectionEndTime(userHomeObj)
+        return protectionEndTime > energyMaturityTime
+    }
+
+    private fun hasPropGroup(userHomeObj: JSONObject, group: String, serverTime: Long): Boolean {
+        val props = userHomeObj.optJSONArray("usingUserProps")
+            ?: userHomeObj.optJSONArray("usingUserPropsNew")
+            ?: return false
+        return (0 until props.length()).any { i ->
+            val prop = props.optJSONObject(i)
+            prop?.optString("propGroup") == group && prop.optLong("endTime", 0L) > serverTime
+        }
+    }
+
+    /**
+     * 获取指定道具组的结束时间
+     * @param userHomeObj 用户主页数据
+     * @param group 道具组名称（如"shield"、"energyBombCard"）
+     * @return 结束时间戳，如果没有该道具则返回0
+     */
+    private fun getPropGroupEndTime(userHomeObj: JSONObject, group: String): Long {
+        val props = userHomeObj.optJSONArray("usingUserProps")
+            ?: userHomeObj.optJSONArray("usingUserPropsNew")
+            ?: return 0L
+
+        var latestEndTime = 0L
+        for (i in 0 until props.length()) {
+            val prop = props.optJSONObject(i) ?: continue
+            if (prop.optString("propGroup") == group) {
+                val endTime = prop.optLong("endTime", 0L)
+                latestEndTime = maxOf(latestEndTime, endTime)
+            }
+        }
+        return latestEndTime
+    }
+}

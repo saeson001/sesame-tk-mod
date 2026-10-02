@@ -1,1 +1,12 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBqYXZhLmlvLlNlcmlhbAppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGUKCm9wZW4gY2xhc3MgS1ZNYXA8SywgVj4gKHZhciBrZXk6IEssIHZhciB2YWx1ZTogVikgOiBTZXJpYWxpemFibGUgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIEBTZXJpYWwKICAgICAgICBjb25zdCB2YWwgc2VyaWFsVmVyc2lvblVJRDogTG9uZyA9IDFMCiAgICB9Cn0=
+package fansirsqi.xposed.sesame.entity
+
+import java.io.Serial
+import java.io.Serializable
+
+open class KVMap<K, V> (var key: K, var value: V) : Serializable {
+
+    companion object {
+        @Serial
+        const val serialVersionUID: Long = 1L
+    }
+}

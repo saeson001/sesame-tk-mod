@@ -1,1 +1,219 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudENvb3BlcmF0ZQoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suUmVxdWVzdE1hbmFnZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuUmFuZG9tVXRpbAppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09ORXhjZXB0aW9uCmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBqYXZhLnV0aWwuUmFuZG9tCgpvYmplY3QgQW50Q29vcGVyYXRlUnBjQ2FsbCB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBWRVJTSU9OID0gIjIwMjMwNTAxIgoKICAgIC8vIOS9v+eUqCBSYW5kb20g5L+d5oyB5LiO5Y6fIEphdmEg6YC76L6R5LiA6Ie0CiAgICBwcml2YXRlIHZhbCBSQU5ET006IFJhbmRvbSA9IFJhbmRvbSgpCgogICAgQEp2bVN0YXRpYwogICAgZnVuIHF1ZXJ5VXNlckNvb3BlcmF0ZVBsYW50TGlzdCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiYWxpcGF5LmFudG1lbWJlci5mb3Jlc3QuaDUucXVlcnlVc2VyQ29vcGVyYXRlUGxhbnRMaXN0IiwKICAgICAgICAgICAgIlt7fV0iCiAgICAgICAgKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBxdWVyeUNvb3BlcmF0ZVBsYW50KGNvb3BJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgYXJnczEgPSAiW3tcImNvb3BlcmF0aW9uSWRcIjpcIiIgKyBjb29wSWQgKyAiXCJ9XSIKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5hbnRtZW1iZXIuZm9yZXN0Lmg1LnF1ZXJ5Q29vcGVyYXRlUGxhbnQiLAogICAgICAgICAgICBhcmdzMQogICAgICAgICkKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gY29vcGVyYXRlV2F0ZXIodWlkOiBTdHJpbmc/LCBjb29wSWQ6IFN0cmluZywgY291bnQ6IEludCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGFyZ3MgPSAiW3tcImJpek5vXCI6XCIiICsgdWlkICsgIl8iICsgY29vcElkICsgIl8iICsgU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgKwogICAgICAgICAgICAgICAgIlwiLFwiY29vcGVyYXRpb25JZFwiOlwiIiArIGNvb3BJZCArICJcIixcImVuZXJneUNvdW50XCI6IiArIGNvdW50ICsKICAgICAgICAgICAgICAgICIsXCJzb3VyY2VcIjpcIlwiLFwidmVyc2lvblwiOlwiIiArIFZFUlNJT04gKyAiXCJ9XSIKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5hbnRtZW1iZXIuZm9yZXN0Lmg1LmNvb3BlcmF0ZVdhdGVyIiwKICAgICAgICAgICAgYXJncwogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluWQiOenjea1h+awtOmHj+aOkuihjAogICAgICoKICAgICAqIEBwYXJhbSBiaXpUeXBlIOWPguaVsO+8mkQvQSzigJxE4oCd5Li65p+l6K+i5b2T5aSp77yM4oCcQeKAneS4uuafpeivouaJgOaciQogICAgICogQHBhcmFtIGNvb3BJZCAg5ZCI56eNSUQKICAgICAqIEByZXR1cm4geAogICAgICovCiAgICBmdW4gcXVlcnlDb29wZXJhdGVSYW5rKGJpelR5cGU6IFN0cmluZz8sIGNvb3BJZDogU3RyaW5nPyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJhbGlwYXkuYW50bWVtYmVyLmZvcmVzdC5oNS5xdWVyeUNvb3BlcmF0ZVJhbmsiLAogICAgICAgICAgICAiW3tcImJpelR5cGVcIjpcIiRiaXpUeXBlXCIsXCJjb29wZXJhdGlvbklkXCI6XCIkY29vcElkXCIsXCJzb3VyY2VcIjpcImNoX2FwcGNlbnRlcl9fY2hzdWJfOXBhdGNoXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiDmm7TmlrDnlKjmiLfphY3nva7vvIjmmK/lkKblpITkuo7pmJ/kvI3kuK3vvIkKICAgICAqCiAgICAgKiDnpLrkvovor7fmsYLkvZPvvJoKICAgICAqIFsKICAgICAqICAgewogICAgICogICAgICJjb25maWdNYXAiOiB7CiAgICAgKiAgICAgICAiaW5UZWFtIjogIlkiCiAgICAgKiAgICAgfSwKICAgICAqICAgICAic291cmNlIjogImNoSW5mb19jaF9hcHBjZW50ZXJfX2Noc3ViXzlwYXRjaCIKICAgICAqICAgfQogICAgICogXQogICAgICoKICAgICAqIOivtOaYju+8mgogICAgICogLSBpblRlYW0gPSAiWSIg6KGo56S655So5oi35Zyo6Zif5LyN5LitCiAgICAgKiAtIGluVGVhbSA9ICJOIiDooajnpLrnlKjmiLfkuI3lnKjpmJ/kvI3kuK0KICAgICAqCiAgICAgKiBAcGFyYW0gaW5UZWFtIOaYr+WQpuWcqOmYn+S8jeS4re+8iHRydWUgPSBZ77yMZmFsc2UgPSBO77yJCiAgICAgKiBAcmV0dXJuIOi/lOWbniBSUEMg5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KCgogICAgQEp2bVN0YXRpYwogICAgZnVuIHVwZGF0ZVVzZXJDb25maWcoaW5UZWFtOiBCb29sZWFuKTogU3RyaW5nIHsKICAgICAgICB2YWwgaW5UZWFtVmFsdWUgPSBpZiAoaW5UZWFtKSAiWSIgZWxzZSAiTiIKICAgICAgICB2YWwgYXJncyA9ICJbeyIgKwogICAgICAgICAgICAgICAgIlwiY29uZmlnTWFwXCI6e1wiaW5UZWFtXCI6XCIkaW5UZWFtVmFsdWVcIn0sIiArCiAgICAgICAgICAgICAgICAiXCJzb3VyY2VcIjpcImNoSW5mb19jaF9hcHBjZW50ZXJfX2Noc3ViXzlwYXRjaFwiIiArCiAgICAgICAgICAgICAgICAifV0iCgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiYWxpcGF5LmFudGZvcmVzdC5mb3Jlc3QuaDUudXBkYXRlVXNlckNvbmZpZyIsCiAgICAgICAgICAgIGFyZ3MKICAgICAgICApCiAgICB9CgoKICAgIEBKdm1TdGF0aWMKICAgIEBUaHJvd3MoSlNPTkV4Y2VwdGlvbjo6Y2xhc3MpCiAgICBmdW4gc2VuZENvb3BlcmF0ZUJlY2tvbih1c2VySWQ6IFN0cmluZywgY29vcGVyYXRpb25JZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgam8gPSBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICBwdXQoImJpekltYWdlIiwgImh0dHBzOi8vZ3cuYWxpcGF5b2JqZWN0cy5jb20vem9zL3Jtc3BvcnRhbC9nellQZnhkQXhMcmt6RlVlVmtpWS5qcGciKQogICAgICAgICAgICBwdXQoCiAgICAgICAgICAgICAgICAibGluayIsCiAgICAgICAgICAgICAgICAibGlwYXlzOi8vcGxhdGZvcm1hcGkvc3RhcnRhcHA/YXBwSWQ9NjY2NjY4ODYmdXJsPSUyRnd3dyUyRmNvb3BlcmF0aW9uJTJGaW5kZXguaHRtJTNGY29vcGVyYXRpb25JZCUzRCIgKwogICAgICAgICAgICAgICAgICAgICAgICBjb29wZXJhdGlvbklkICsgIiUyNnNvdXJjZU5hbWUlM0RjYXJkIgogICAgICAgICAgICApCiAgICAgICAgICAgIHB1dCgibWlkVGl0bGUiLCAi5b+r5p2l57uZ5oiR5Lus55qE5qCR6IuX5rWH5rC077yM6K6p5a6D5b+r5b+r6ZW/5aSn44CCIikKICAgICAgICAgICAgcHV0KAogICAgICAgICAgICAgICAgIm5vdGljZUxpbmsiLAogICAgICAgICAgICAgICAgImFsaXBheXM6Ly9wbGF0Zm9ybWFwaS9zdGFydGFwcD9hcHBJZD02MDAwMDAwMiZ1cmw9aHR0cHMlM0ElMkYlMkZyZW5kZXIuYWxpcGF5LmNvbSUyRnAlMkZjJTJGMTd1c3NiZDh2dGZnJTJGbWVzc2FnZS5odG1sJTNGc291cmNlTmFtZSUzRGNhcmQmc2hvd09wdGlvbk1lbnU9Tk8mdHJhbnNwYXJlbnRUaXRsZT1OTyIKICAgICAgICAgICAgKQogICAgICAgICAgICBwdXQoInRvcFRpdGxlIiwgIuagkeiLl+mcgOimgeS9oOeahOWRteaKpCIpCiAgICAgICAgICAgIHB1dCgic291cmNlIiwgImNoSW5mb19jaF91cmwtaHR0cHM6Ly9yZW5kZXIuYWxpcGF5LmNvbS9wL3l1eWFuLzE4MDAyMDAxMDAwMTI0NzU4MC9ob21lLmh0bWwiKQogICAgICAgICAgICBwdXQoImNvb3BlcmF0aW9uSWQiLCBjb29wZXJhdGlvbklkKQogICAgICAgICAgICBwdXQoInVzZXJJZCIsIHVzZXJJZCkKICAgICAgICB9CiAgICAgICAgdmFsIGFyZ3MgPSBKU09OQXJyYXkoKS5wdXQoam8pLnRvU3RyaW5nKCkKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5hbnRtZW1iZXIuZm9yZXN0Lmg1LnNlbmRDb29wZXJhdGVCZWNrb24iLAogICAgICAgICAgICBhcmdzCiAgICAgICAgKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBxdWVyeUxvdmVIb21lKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIHN0YXJ0ID0gIjIwMjUxMDIyIgogICAgICAgIHZhbCBlbmQgPSAiMjAyNTEyMTciCiAgICAgICAgdmFsIGFyZ3MgPSAiW3tcImNhbGVuZGVyRW5kXCI6XCIiICsgZW5kICsKICAgICAgICAgICAgICAgICJcIixcImNhbGVuZGVyU3RhcnRcIjpcIiIgKyBzdGFydCArCiAgICAgICAgICAgICAgICAiXCIsXCJzb3VyY2VcIjpcImNoSW5mb19jaF9hcHBjZW50ZXJfX2Noc3ViXzlwYXRjaFwifV0iCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJhbGlwYXkuZ3JlZW5tYXRyaXgucnBjLmg1LmxvdmUubG92ZUhvbWUiLAogICAgICAgICAgICBhcmdzCiAgICAgICAgKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBsb3ZlVGVhbVdhdGVyKHRlYW1JZDogU3RyaW5nLCBkb25hdGVOdW06IEludCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGFyZ3MgPSAiW3tcImRvbmF0ZU51bVwiOiIgKyBkb25hdGVOdW0gKwogICAgICAgICAgICAgICAgIixcInNvdXJjZVwiOlwiY2hJbmZvX2NoX2FwcGNlbnRlcl9fY2hzdWJfOXBhdGNoXCIsXCJ0ZWFtSWRcIjpcIiIgKyB0ZWFtSWQgKyAiXCJ9XSIKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5ncmVlbm1hdHJpeC5ycGMuaDUubG92ZS50ZWFtV2F0ZXIiLAogICAgICAgICAgICBhcmdzCiAgICAgICAgKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBxdWVyeUhvbWVQYWdlKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGFyZ3MgPSAiW3tcImNvbmZpZ1ZlcnNpb25NYXBcIjp7XCJ3YXRlcmluZ0J1YmJsZUNvbmZpZ1wiOlwiMFwifSxcInNraXBXaGFja01vbGVcIjpmYWxzZSxcInNvdXJjZVwiOlwiY2hJbmZvX2NoX2FwcGNlbnRlcl9fY2hzdWJfOXBhdGNoXCIsXCJ2ZXJzaW9uXCI6XCIyMDI1MDgxOFwifV0iCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJhbGlwYXkuYW50Zm9yZXN0LmZvcmVzdC5oNS5xdWVyeUhvbWVQYWdlIiwKICAgICAgICAgICAgYXJncwogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIOe7hOmYn+eJiOa1h+awtAogICAgICog5L+u5aSN5LqGIHNUb2tlbiDnlJ/miJDpgLvovpHvvIzlv4XpobvmmK8g5pe26Ze05oizXzjkvY0KICAgICAqIEBwYXJhbSB0ZWFtSWQg6Zif5LyNSUQKICAgICAqIEBwYXJhbSBlbmVyZ3lDb3VudCDmtYfmsLTlhYvmlbAKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5Liy77yM5Y+v6IO95Li6IG51bGwKICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIHRlYW1XYXRlcih0ZWFtSWQ6IFN0cmluZywgZW5lcmd5Q291bnQ6IEludCk6IFN0cmluZyB7CiAgICAgICAgLy8gMS4g55Sf5oiQ5q+r56eS57qn5pe26Ze05oizCiAgICAgICAgdmFsIHRzID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKCiAgICAgICAgLy8gMi4g55Sf5oiQIDgg5L2N6ZqP5py65pWw5a2X5a2X56ymCiAgICAgICAgdmFsIHJhbmQgPSBSYW5kb21VdGlsLmdldFJhbmRvbVN0cmluZyg4KQoKICAgICAgICAvLyAzLiDmi7zmjqUgc1Rva2Vu77ya5pe26Ze05oizXzjkvY3mlbDlrZflrZfnrKYKICAgICAgICB2YWwgc1Rva2VuID0gIiR7dHN9XyR7cmFuZH0iCgogICAgICAgIC8vIDQuIOaehOmAoOWPguaVsCBKU09OIOWtl+espuS4su+8iOS4jiBxdWVyeUxvdmVIb21lIOS4gOiHtOeahOWGmeazle+8iQogICAgICAgIHZhbCBhcmdzID0gIlt7IiArCiAgICAgICAgICAgICAgICAiXCJlbmVyZ3lDb3VudFwiOiRlbmVyZ3lDb3VudCwiICsKICAgICAgICAgICAgICAgICJcInNUb2tlblwiOlwiJHNUb2tlblwiLCIgKwogICAgICAgICAgICAgICAgIlwic291cmNlXCI6XCJjaEluZm9fY2hfYXBwY2VudGVyX19jaHN1Yl85cGF0Y2hcIiwiICsKICAgICAgICAgICAgICAgICJcInRlYW1JZFwiOlwiJHRlYW1JZFwiIiArCiAgICAgICAgICAgICAgICAifV0iCgogICAgICAgIC8vIDUuIFJQQyDosIPnlKgKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5hbnRmb3Jlc3QuZm9yZXN0Lmg1LnRlYW1XYXRlciIsCiAgICAgICAgICAgIGFyZ3MKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiDmn6Xor6IgTWlzY0luZm/vvIh0ZWFtRmxhZ1RyZWVDb3VudCDnrYnvvIkKICAgICAqCiAgICAgKiDnpLrkvovor7fmsYLkvZPvvJoKICAgICAqIHsKICAgICAqICAgImNvbmZpZ1ZlcnNpb25NYXAiOiB7fSwKICAgICAqICAgImV4dEluZm8iOiB7fSwKICAgICAqICAgInF1ZXJ5Qml6VHlwZSI6ICJ0ZWFtRmxhZ1RyZWVDb3VudCIsCiAgICAgKiAgICJzb3VyY2UiOiAiU0VMRl9IT01FIiwKICAgICAqICAgInZlcnNpb24iOiAiMjAyNDAyMDEiCiAgICAgKiB9CiAgICAgKgogICAgICogQHBhcmFtIHF1ZXJ5Qml6VHlwZSDmn6Xor6LnmoTkuJrliqHnsbvlnovvvIzkvovlpoIgInRlYW1GbGFnVHJlZUNvdW50IgogICAgICogQHJldHVybiDov5Tlm54gUlBDIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gcXVlcnlNaXNjSW5mbyhxdWVyeUJpelR5cGU6IFN0cmluZywgVGVhbWlkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIC8vIOaehOmAoCBINSBSUEMg5Y+C5pWw77yI5qOu5p6X5omA5pyJIEg1IFJQQyDpg73opoHmsYLlpJblsYLljIXkuIDlsYLmlbDnu4TvvIkKICAgICAgICB2YWwgYXJncyA9ICIiIgogICAgICAgIFt7CiAgICAgICAgICAgICJxdWVyeUJpelR5cGUiOiIkcXVlcnlCaXpUeXBlIiwKICAgICAgICAgICAgInNvdXJjZSI6IlNFTEZfSE9NRSIsCiAgICAgICAgICAgICJ0YXJnZXRVc2VySWQiOiIkVGVhbWlkIiwKICAgICAgICAgICAgInZlcnNpb24iOiIyMDI0MDIwMSIKICAgICAgICB9XQogICAgIiIiLnRyaW1JbmRlbnQoKSAvLyB0cmltSW5kZW50IOWOu+mZpOaNouihjOWSjOe8qei/m++8jOS/neivgSBKU09OIOagvOW8j+ato+ehrgoKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5hbnRmb3Jlc3QuZm9yZXN0Lmg1LnF1ZXJ5TWlzY0luZm8iLAogICAgICAgICAgICBhcmdzCiAgICAgICAgKQogICAgfQp9
+package fansirsqi.xposed.sesame.task.antCooperate
+
+import fansirsqi.xposed.sesame.hook.RequestManager
+import fansirsqi.xposed.sesame.util.RandomUtil
+import org.json.JSONArray
+import org.json.JSONException
+import org.json.JSONObject
+import java.util.Random
+
+object AntCooperateRpcCall {
+    private const val VERSION = "20230501"
+
+    // 使用 Random 保持与原 Java 逻辑一致
+    private val RANDOM: Random = Random()
+
+    @JvmStatic
+    fun queryUserCooperatePlantList(): String {
+        return RequestManager.requestString(
+            "alipay.antmember.forest.h5.queryUserCooperatePlantList",
+            "[{}]"
+        )
+    }
+
+    @JvmStatic
+    fun queryCooperatePlant(coopId: String): String {
+        val args1 = "[{\"cooperationId\":\"" + coopId + "\"}]"
+        return RequestManager.requestString(
+            "alipay.antmember.forest.h5.queryCooperatePlant",
+            args1
+        )
+    }
+
+    @JvmStatic
+    fun cooperateWater(uid: String?, coopId: String, count: Int): String {
+        val args = "[{\"bizNo\":\"" + uid + "_" + coopId + "_" + System.currentTimeMillis() +
+                "\",\"cooperationId\":\"" + coopId + "\",\"energyCount\":" + count +
+                ",\"source\":\"\",\"version\":\"" + VERSION + "\"}]"
+        return RequestManager.requestString(
+            "alipay.antmember.forest.h5.cooperateWater",
+            args
+        )
+    }
+
+    /**
+     * 获取合种浇水量排行
+     *
+     * @param bizType 参数：D/A,“D”为查询当天，“A”为查询所有
+     * @param coopId  合种ID
+     * @return x
+     */
+    fun queryCooperateRank(bizType: String?, coopId: String?): String {
+        return RequestManager.requestString(
+            "alipay.antmember.forest.h5.queryCooperateRank",
+            "[{\"bizType\":\"$bizType\",\"cooperationId\":\"$coopId\",\"source\":\"ch_appcenter__chsub_9patch\"}]"
+        )
+    }
+
+    /**
+     * 更新用户配置（是否处于队伍中）
+     *
+     * 示例请求体：
+     * [
+     *   {
+     *     "configMap": {
+     *       "inTeam": "Y"
+     *     },
+     *     "source": "chInfo_ch_appcenter__chsub_9patch"
+     *   }
+     * ]
+     *
+     * 说明：
+     * - inTeam = "Y" 表示用户在队伍中
+     * - inTeam = "N" 表示用户不在队伍中
+     *
+     * @param inTeam 是否在队伍中（true = Y，false = N）
+     * @return 返回 RPC 响应字符串
+     */
+
+
+    @JvmStatic
+    fun updateUserConfig(inTeam: Boolean): String {
+        val inTeamValue = if (inTeam) "Y" else "N"
+        val args = "[{" +
+                "\"configMap\":{\"inTeam\":\"$inTeamValue\"}," +
+                "\"source\":\"chInfo_ch_appcenter__chsub_9patch\"" +
+                "}]"
+
+        return RequestManager.requestString(
+            "alipay.antforest.forest.h5.updateUserConfig",
+            args
+        )
+    }
+
+
+    @JvmStatic
+    @Throws(JSONException::class)
+    fun sendCooperateBeckon(userId: String, cooperationId: String): String {
+        val jo = JSONObject().apply {
+            put("bizImage", "https://gw.alipayobjects.com/zos/rmsportal/gzYPfxdAxLrkzFUeVkiY.jpg")
+            put(
+                "link",
+                "lipays://platformapi/startapp?appId=66666886&url=%2Fwww%2Fcooperation%2Findex.htm%3FcooperationId%3D" +
+                        cooperationId + "%26sourceName%3Dcard"
+            )
+            put("midTitle", "快来给我们的树苗浇水，让它快快长大。")
+            put(
+                "noticeLink",
+                "alipays://platformapi/startapp?appId=60000002&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F17ussbd8vtfg%2Fmessage.html%3FsourceName%3Dcard&showOptionMenu=NO&transparentTitle=NO"
+            )
+            put("topTitle", "树苗需要你的呵护")
+            put("source", "chInfo_ch_url-https://render.alipay.com/p/yuyan/180020010001247580/home.html")
+            put("cooperationId", cooperationId)
+            put("userId", userId)
+        }
+        val args = JSONArray().put(jo).toString()
+        return RequestManager.requestString(
+            "alipay.antmember.forest.h5.sendCooperateBeckon",
+            args
+        )
+    }
+
+    @JvmStatic
+    fun queryLoveHome(): String {
+        val start = "20251022"
+        val end = "20251217"
+        val args = "[{\"calenderEnd\":\"" + end +
+                "\",\"calenderStart\":\"" + start +
+                "\",\"source\":\"chInfo_ch_appcenter__chsub_9patch\"}]"
+        return RequestManager.requestString(
+            "alipay.greenmatrix.rpc.h5.love.loveHome",
+            args
+        )
+    }
+
+    @JvmStatic
+    fun loveTeamWater(teamId: String, donateNum: Int): String {
+        val args = "[{\"donateNum\":" + donateNum +
+                ",\"source\":\"chInfo_ch_appcenter__chsub_9patch\",\"teamId\":\"" + teamId + "\"}]"
+        return RequestManager.requestString(
+            "alipay.greenmatrix.rpc.h5.love.teamWater",
+            args
+        )
+    }
+
+    @JvmStatic
+    fun queryHomePage(): String {
+        val args = "[{\"configVersionMap\":{\"wateringBubbleConfig\":\"0\"},\"skipWhackMole\":false,\"source\":\"chInfo_ch_appcenter__chsub_9patch\",\"version\":\"20250818\"}]"
+        return RequestManager.requestString(
+            "alipay.antforest.forest.h5.queryHomePage",
+            args
+        )
+    }
+
+    /**
+     * 组队版浇水
+     * 修复了 sToken 生成逻辑，必须是 时间戳_8位
+     * @param teamId 队伍ID
+     * @param energyCount 浇水克数
+     * @return 响应字符串，可能为 null
+     */
+    @JvmStatic
+    fun teamWater(teamId: String, energyCount: Int): String {
+        // 1. 生成毫秒级时间戳
+        val ts = System.currentTimeMillis()
+
+        // 2. 生成 8 位随机数字字符
+        val rand = RandomUtil.getRandomString(8)
+
+        // 3. 拼接 sToken：时间戳_8位数字字符
+        val sToken = "${ts}_${rand}"
+
+        // 4. 构造参数 JSON 字符串（与 queryLoveHome 一致的写法）
+        val args = "[{" +
+                "\"energyCount\":$energyCount," +
+                "\"sToken\":\"$sToken\"," +
+                "\"source\":\"chInfo_ch_appcenter__chsub_9patch\"," +
+                "\"teamId\":\"$teamId\"" +
+                "}]"
+
+        // 5. RPC 调用
+        return RequestManager.requestString(
+            "alipay.antforest.forest.h5.teamWater",
+            args
+        )
+    }
+
+    /**
+     * 查询 MiscInfo（teamFlagTreeCount 等）
+     *
+     * 示例请求体：
+     * {
+     *   "configVersionMap": {},
+     *   "extInfo": {},
+     *   "queryBizType": "teamFlagTreeCount",
+     *   "source": "SELF_HOME",
+     *   "version": "20240201"
+     * }
+     *
+     * @param queryBizType 查询的业务类型，例如 "teamFlagTreeCount"
+     * @return 返回 RPC 响应字符串
+     */
+    @JvmStatic
+    fun queryMiscInfo(queryBizType: String, Teamid: String): String {
+        // 构造 H5 RPC 参数（森林所有 H5 RPC 都要求外层包一层数组）
+        val args = """
+        [{
+            "queryBizType":"$queryBizType",
+            "source":"SELF_HOME",
+            "targetUserId":"$Teamid",
+            "version":"20240201"
+        }]
+    """.trimIndent() // trimIndent 去除换行和缩进，保证 JSON 格式正确
+
+        return RequestManager.requestString(
+            "alipay.antforest.forest.h5.queryMiscInfo",
+            args
+        )
+    }
+}

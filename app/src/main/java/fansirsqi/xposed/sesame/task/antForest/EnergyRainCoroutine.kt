@@ -1,1 +1,303 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZvcmVzdAoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuU3RhdHVzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlRvYXN0CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkdhbWVUYXNrCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5SZXNDaGVja2VyCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuVXNlck1hcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBrb3RsaW4ucmFuZG9tLlJhbmRvbQoKLyoqCiAqIOiDvemHj+mbqOWKn+iDvSAtIEtvdGxpbuWNj+eoi+eJiOacrAogKgogKiDov5nmmK9FbmVyZ3lSYWluLmphdmHnmoTljY/nqIvniYjmnKzph43mnoTvvIzmj5Dkvpvmm7Tlpb3nmoTmgKfog73lkozlj6/nu7TmiqTmgKcKICovCm9iamVjdCBFbmVyZ3lSYWluQ29yb3V0aW5lIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJFbmVyZ3lSYWluIgoKICAgIC8qKgogICAgICog5LiK5qyh5omn6KGM6IO96YeP6Zuo55qE5pe26Ze05oizCiAgICAgKi8KICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgbGFzdEV4ZWN1dGVUaW1lOiBMb25nID0gMAoKICAgIC8qKgogICAgICog6ZqP5py65bu26L+f77yM5aKe5Yqg6ZqP5py65oCn6YG/5YWN6aOO5o6n5qOA5rWLCiAgICAgKiBAcGFyYW0gbWluIOacgOWwj+W7tui/n++8iOavq+enku+8iQogICAgICogQHBhcmFtIG1heCDmnIDlpKflu7bov5/vvIjmr6vnp5LvvIkKICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biByYW5kb21EZWxheShtaW46IEludCwgbWF4OiBJbnQpIHsKICAgICAgICB2YWwgZGVsYXlUaW1lID0gUmFuZG9tLm5leHRJbnQobWluLCBtYXggKyAxKS50b0xvbmcoKQogICAgICAgIGRlbGF5KGRlbGF5VGltZSkKICAgIH0KCiAgICAvKioKICAgICAqIOaJp+ihjOiDvemHj+mbqOWKn+iDvQogICAgICovCiAgICBzdXNwZW5kIGZ1biBleGVjRW5lcmd5UmFpbigpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyDmiafooYzpopHnjofmo4Dmn6XvvJrpmLLmraLnn63ml7bpl7TlhoXph43lpI3miafooYwKICAgICAgICAgICAgdmFsIGN1cnJlbnRUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgdmFsIHRpbWVTaW5jZUxhc3RFeGVjID0gY3VycmVudFRpbWUgLSBsYXN0RXhlY3V0ZVRpbWUKICAgICAgICAgICAgdmFsIGNvb2xkb3duU2Vjb25kcyA9IDMgLy8g5Ya35Y205pe26Ze077yaM+enkgoKICAgICAgICAgICAgaWYgKHRpbWVTaW5jZUxhc3RFeGVjIDwgY29vbGRvd25TZWNvbmRzICogMTAwMCkgewogICAgICAgICAgICAgICAgLy8g57KX5pS+54K577yMZGVsYXkgM+enkgogICAgICAgICAgICAgICAgZGVsYXkoY29vbGRvd25TZWNvbmRzICogMTAwMC50b0xvbmcoKSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZW5lcmd5UmFpbigpCgogICAgICAgICAgICAvLyDmm7TmlrDmnIDlkI7miafooYzml7bpl7QKICAgICAgICAgICAgbGFzdEV4ZWN1dGVUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB9IGNhdGNoIChlOiBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIOWNj+eoi+WPlua2iOaYr+ato+W4uOeOsOixoe+8jOS4jeiusOW9leS4uumUmeivrwogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgImV4ZWNFbmVyZ3lSYWluIOWNj+eoi+iiq+WPlua2iCIpCiAgICAgICAgICAgIHRocm93IGUgIC8vIOW/hemhu+mHjeaWsOaKm+WHuuS7peS/neivgeWPlua2iOacuuWItuato+W4uOW3peS9nAogICAgICAgIH0gY2F0Y2ggKHRoOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICLmiafooYzog73ph4/pm6jlh7rplJk6IiwgdGgpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6IO96YeP6Zuo5Li76YC76L6R77yI5Y2P56iL54mI5pys77yJCiAgICAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZW5lcmd5UmFpbigpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YXIgcGxheWVkQ291bnQgPSAwCiAgICAgICAgICAgIHZhbCBtYXhQbGF5TGltaXQgPSAxMAoKICAgICAgICAgICAgZG8gewogICAgICAgICAgICAgICAgdmFsIGpvRW5lcmd5UmFpbkhvbWUgPSBKU09OT2JqZWN0KEFudEZvcmVzdFJwY0NhbGwucXVlcnlFbmVyZ3lSYWluSG9tZSgpKQogICAgICAgICAgICAgICAgcmFuZG9tRGVsYXkoMjUwLCA0MDApIC8vIOmaj+acuuW7tui/nyAzMDAtNDAwbXMKICAgICAgICAgICAgICAgIGlmICghUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIGpvRW5lcmd5UmFpbkhvbWUpKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmn6Xor6Log73ph4/pm6jnirbmgIHlpLHotKUiKQogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgY2FuUGxheVRvZGF5ID0gam9FbmVyZ3lSYWluSG9tZS5vcHRCb29sZWFuKCJjYW5QbGF5VG9kYXkiLCBmYWxzZSkKICAgICAgICAgICAgICAgIHZhbCBjYW5QbGF5R2FtZSA9IGpvRW5lcmd5UmFpbkhvbWUub3B0Qm9vbGVhbigiY2FuUGxheUdhbWUiLCBmYWxzZSkKICAgICAgICAgICAgICAgIHZhbCBjYW5HcmFudFN0YXR1cyA9IGpvRW5lcmd5UmFpbkhvbWUub3B0Qm9vbGVhbigiY2FuR3JhbnRTdGF0dXMiLCBmYWxzZSkKCiAgICAgICAgICAgICAgICAvLyAx77iP4oOjIOajgOafpeaYr+WQpuWPr+S7peW8gOWni+iDvemHj+mbqAogICAgICAgICAgICAgICAgaWYgKGNhblBsYXlUb2RheSkgewogICAgICAgICAgICAgICAgICAgIHN0YXJ0RW5lcmd5UmFpbigpCiAgICAgICAgICAgICAgICAgICAgcGxheWVkQ291bnQrKwogICAgICAgICAgICAgICAgICAgIHJhbmRvbURlbGF5KDMwMDAsIDUwMDApIC8vIOmaj+acuuW7tui/nzMtNeenkgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8gMu+4j+KDoyDmo4Dmn6XmmK/lkKblj6/ku6XotaDpgIHog73ph4/pm6gKICAgICAgICAgICAgICAgIGlmIChjYW5HcmFudFN0YXR1cykgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5pyJ6YCB6IO96YeP6Zuo55qE5py65LyaIikKICAgICAgICAgICAgICAgICAgICB2YWwgam9FbmVyZ3lSYWluQ2FuR3JhbnRMaXN0ID0gSlNPTk9iamVjdChBbnRGb3Jlc3RScGNDYWxsLnF1ZXJ5RW5lcmd5UmFpbkNhbkdyYW50TGlzdCgpKQogICAgICAgICAgICAgICAgICAgIHZhbCBncmFudEluZm9zID0gam9FbmVyZ3lSYWluQ2FuR3JhbnRMaXN0Lm9wdEpTT05BcnJheSgiZ3JhbnRJbmZvcyIpID86IG9yZy5qc29uLkpTT05BcnJheSgpCiAgICAgICAgICAgICAgICAgICAgdmFsIGdpdmVFbmVyZ3lSYWluU2V0ID0gQW50Rm9yZXN0LmdpdmVFbmVyZ3lSYWluTGlzdCEhLnZhbHVlCiAgICAgICAgICAgICAgICAgICAgdmFyIGdyYW50ZWQgPSBmYWxzZQoKICAgICAgICAgICAgICAgICAgICBmb3IgKGogaW4gMCB1bnRpbCBncmFudEluZm9zLmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBncmFudEluZm8gPSBncmFudEluZm9zLmdldEpTT05PYmplY3QoaikKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGdyYW50SW5mby5vcHRCb29sZWFuKCJjYW5HcmFudGVkU3RhdHVzIiwgZmFsc2UpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgdWlkID0gZ3JhbnRJbmZvLmdldFN0cmluZygidXNlcklkIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChnaXZlRW5lcmd5UmFpblNldC5jb250YWlucyh1aWQpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJhaW5Kc29uT2JqID0gSlNPTk9iamVjdChBbnRGb3Jlc3RScGNDYWxsLmdyYW50RW5lcmd5UmFpbkNoYW5jZSh1aWQpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5bCd6K+V6YCB6IO96YeP6Zuo57uZ44CQJHtVc2VyTWFwLmdldE1hc2tOYW1lKHVpZCl944CRIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIHJhaW5Kc29uT2JqKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cuZm9yZXN0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIui1oOmAgeiDvemHj+mbqOacuuS8mue7mfCfjKfvuI9bJHtVc2VyTWFwLmdldE1hc2tOYW1lKHVpZCl9XSMkewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFVzZXJNYXAuZ2V0TWFza05hbWUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFVzZXJNYXAuY3VycmVudFVpZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmFuZG9tRGVsYXkoMzAwLCA0MDApIC8vIOmaj+acuuW7tui/nyAzMDAtNDAwbXMKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JhbnRlZCA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi6YCB6IO96YeP6Zuo5aSx6LSlICRyYWluSnNvbk9iaiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIChncmFudGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLku4rml6Xml6Dlj6/pgIHog73ph4/pm6jlpb3lj4vmiJblt7Lovr7liLDotaDpgIHkuIrpmZAiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyAz77iP4oOjIOajgOafpeaYr+WQpuWPr+S7peiDvemHj+mbqOa4uOaIjwogICAgICAgICAgICAgICAgLy8gY2FuUGxheUdhbWUg5aW95YOP5LiA55u05pivdHJ1ZSAgICAgICAg5rOo5oSP77ya6IO96YeP6Zuo5ri45oiP5Y+q6IO95omn6KGM5LiA5qyh77yM5omn6KGM5ZCO5Lya6K6+572u5qCH6K6w6Ziy5q2i6YeN5aSNCiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuaYr+WQpuWPr+S7peiDvemHj+mbqOa4uOaIjzogJGNhblBsYXlHYW1lIikKCiAgICAgICAgICAgICAgICBpZiAoY2FuUGxheUdhbWUpIHsKICAgICAgICAgICAgICAgICAgICAvLyDpmLLmraLog73ph4/pm6jmuLjmiI/ph43lpI3miafooYwKICAgICAgICAgICAgICAgICAgICB2YWwgZW5lcmd5UmFpbkdhbWVGbGFnID0gIkVuZXJneVJhaW46OuiDvemHj+mbqOa4uOaIj+S7u+WKoSIKICAgICAgICAgICAgICAgICAgICBpZiAoU3RhdHVzLmhhc0ZsYWdUb2RheShlbmVyZ3lSYWluR2FtZUZsYWcpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHZhbCBoYXNUYXNrVG9Qcm9jZXNzID0gY2hlY2tBbmREb0VuZEdhbWVUYXNrKCkvL+ajgOafpeiDvemHj+mbqCDmuLjmiI/ku7vliqEg5bm25o6l5Y+WCiAgICAgICAgICAgICAgICAgICAgcmFuZG9tRGVsYXkoMzAwMCwgNTAwMCkgLy8g6ZqP5py65bu26L+fMy0156eSCiAgICAgICAgICAgICAgICAgICAgcGxheWVkQ291bnQrKwogICAgICAgICAgICAgICAgICAgIC8vIOWPquacieW9k+acieWunumZheS7u+WKoemcgOimgeWkhOeQhuaXtuaJjee7p+e7reW+queOrwogICAgICAgICAgICAgICAgICAgIGlmIChoYXNUYXNrVG9Qcm9jZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5rKh5pyJ5Lu75Yqh6ZyA6KaB5aSE55CG77yM6Lez5Ye65b6q546vCiAgICAgICAgICAgICAgICAgICAgICAgIFN0YXR1cy5zZXRGbGFnVG9kYXkoZW5lcmd5UmFpbkdhbWVGbGFnKQogICAgICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8qCiAgICAgICAgICAgICAgICAvLyAz77iP4oOjIOajgOafpeiDvemHj+mbqOa4uOaIj+S7u+WKoQogICAgICAgICAgICAgICAgdmFsIGVuZXJneVJhaW5HYW1lRmxhZyA9ICJFbmVyZ3lSYWluOjrog73ph4/pm6jmuLjmiI/ku7vliqEiCiAgICAgICAgICAgICAgICBpZiAoIVN0YXR1cy5oYXNGbGFnVG9kYXkoZW5lcmd5UmFpbkdhbWVGbGFnKSkgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5qOA5p+l6IO96YeP6Zuo5ri45oiP5Lu75YqhIikKICAgICAgICAgICAgICAgICAgICB2YWwgaGFzVGFza1RvUHJvY2VzcyA9IGNoZWNrQW5kRG9FbmRHYW1lVGFzaygpLy/mo4Dmn6Xog73ph4/pm6gg5ri45oiP5Lu75YqhCiAgICAgICAgICAgICAgICAgICAgcmFuZG9tRGVsYXkoMzAwMCwgNTAwMCkgLy8g6ZqP5py65bu26L+fMy0156eSCiAgICAgICAgICAgICAgICAgICAgcGxheWVkQ291bnQrKwogICAgICAgICAgICAgICAgICAgIC8vIOWPquacieW9k+acieWunumZheS7u+WKoemcgOimgeWkhOeQhuaXtuaJjee7p+e7reW+queOrwogICAgICAgICAgICAgICAgICAgIGlmIChoYXNUYXNrVG9Qcm9jZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8g6K6+572u6IO96YeP6Zuo5ri45oiP5bey5omn6KGM5qCH5b+XCiAgICAgICAgICAgICAgICAgICAgICAgIFN0YXR1cy5zZXRGbGFnVG9kYXkoZW5lcmd5UmFpbkdhbWVGbGFnKQogICAgICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5LuK5aSp5bey57uP5omn6KGM6L+H6IO96YeP6Zuo5ri45oiP5Lu75Yqh77yM6Lez5Ye65b6q546vCiAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKi8KCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICB9IHdoaWxlIChwbGF5ZWRDb3VudCA8IG1heFBsYXlMaW1pdCkKICAgICAgICAgICAgaWYgKHBsYXllZENvdW50ID49IG1heFBsYXlMaW1pdCkgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLog73ph4/pm6jmiafooYzovr7liLDljZXmrKHku7vliqHkuIrpmZAoJG1heFBsYXlMaW1pdCnvvIzlgZzmraLmiafooYwiKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZToga290bGlueC5jb3JvdXRpbmVzLkNhbmNlbGxhdGlvbkV4Y2VwdGlvbikgewogICAgICAgICAgICAvLyDljY/nqIvlj5bmtojmmK/mraPluLjnjrDosaHvvIzkuI3orrDlvZXkuLrplJnor68KICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJlbmVyZ3lSYWluIOWNj+eoi+iiq+WPlua2iCIpCiAgICAgICAgICAgIHRocm93IGUgIC8vIOW/hemhu+mHjeaWsOaKm+WHuuS7peS/neivgeWPlua2iOacuuWItuato+W4uOW3peS9nAogICAgICAgIH0gY2F0Y2ggKHRoOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJlbmVyZ3lSYWluIGVycjoiKQogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdGgpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5byA5aeL6IO96YeP6Zuo77yI5Y2P56iL54mI5pys77yJCiAgICAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gc3RhcnRFbmVyZ3lSYWluKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoIuW8gOWni+aJp+ihjOiDvemHj+mbqPCfjKfvuI8iKQogICAgICAgICAgICB2YWwgam9TdGFydCA9IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5zdGFydEVuZXJneVJhaW4oKSkKCiAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgam9TdGFydCkpIHsKICAgICAgICAgICAgICAgIHZhbCB0b2tlbiA9IGpvU3RhcnQuZ2V0U3RyaW5nKCJ0b2tlbiIpCiAgICAgICAgICAgICAgICB2YWwgYnViYmxlRW5lcmd5TGlzdCA9IGpvU3RhcnQuZ2V0SlNPTk9iamVjdCgiZGlmZmljdWx0eUluZm8iKS5nZXRKU09OQXJyYXkoImJ1YmJsZUVuZXJneUxpc3QiKQogICAgICAgICAgICAgICAgdmFyIHN1bSA9IDAKCiAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBidWJibGVFbmVyZ3lMaXN0Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgc3VtICs9IGJ1YmJsZUVuZXJneUxpc3QuZ2V0SW50KGkpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcmFuZG9tRGVsYXkoNTAwMCwgNTIwMCkgLy8g6ZqP5py65bu26L+fIDUtNS4y56eS77yM5qih5ouf55yf5Lq6546p5ri45oiPCiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0SnNvbiA9IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5lbmVyZ3lSYWluU2V0dGxlbWVudChzdW0sIHRva2VuKSkKCiAgICAgICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIHJlc3VsdEpzb24pKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHMgPSAi5pS26I636IO96YeP6Zuo8J+Mp++4j1ske3N1bX1nXSIKICAgICAgICAgICAgICAgICAgICBUb2FzdC5zaG93KHMpCiAgICAgICAgICAgICAgICAgICAgTG9nLmZvcmVzdChzKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmFuZG9tRGVsYXkoMzAwLCA0MDApIC8vIOmaj+acuuW7tui/nyAzMDAtNDAwbXMKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAic3RhcnRFbmVyZ3lSYWluOiAkam9TdGFydCIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIOWNj+eoi+WPlua2iOaYr+ato+W4uOeOsOixoe+8jOS4jeiusOW9leS4uumUmeivrwogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgInN0YXJ0RW5lcmd5UmFpbiDljY/nqIvooqvlj5bmtogiKQogICAgICAgICAgICB0aHJvdyBlICAvLyDlv4Xpobvph43mlrDmipvlh7rku6Xkv53or4Hlj5bmtojmnLrliLbmraPluLjlt6XkvZwKICAgICAgICB9IGNhdGNoICh0aDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAic3RhcnRFbmVyZ3lSYWluIGVycjoiKQogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdGgpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+l5bm26aKG5Y+W6IO96YeP6Zuo5ZCO55qE6aKd5aSW5ri45oiP5Lu75YqhCiAgICAgKiBAcmV0dXJuIEJvb2xlYW4g5piv5ZCm6L+Y5pyJ5b6F5aSE55CG55qE5Lu75YqhCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIHByaXZhdGUgZnVuIGNoZWNrQW5kRG9FbmRHYW1lVGFzaygpOiBCb29sZWFuIHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyAxLiDmn6Xor6LlvZPliY3mmK/lkKbmnInlj6/mjqXmiJblt7LmjqXnmoTmuLjmiI/ku7vliqEKICAgICAgICAgICAgdmFsIHJlc3BvbnNlID0gQW50Rm9yZXN0UnBjQ2FsbC5xdWVyeUVuZXJneVJhaW5FbmRHYW1lTGlzdCgpCiAgICAgICAgICAgIHZhbCBqbyA9IEpTT05PYmplY3QocmVzcG9uc2UpCiAgICAgICAgICAgIGlmICghUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIGpvKSkgewogICAgICAgICAgICAgICAgLy9Mb2cuZXJyb3IoVEFHLCAi5p+l6K+i6IO96YeP6Zuo5ri45oiP5Lu75Yqh5aSx6LSlICRqbyIpCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyAyLiDlhYjlpITnkIbigJzmnInmlrDku7vliqHlj6/ku6XmjqXigJ3nmoTmg4XlhrUKICAgICAgICAgICAgaWYgKGpvLm9wdEJvb2xlYW4oIm5lZWRJbml0VGFzayIsIGZhbHNlKSkgewogICAgICAgICAgICAgICAgLy8gTG9nLnJlY29yZChUQUcsICLmo4DmtYvliLDmlrDku7vliqHvvIzlh4blpIfmjqXlhaVb5qOu5p6X5pWR5o+06ZifXS4uLiIpCiAgICAgICAgICAgICAgICB2YWwgaW5pdFJlcyA9IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5pbml0VGFzaygiR0FNRV9ET05FX1NMSllEIikpCiAgICAgICAgICAgICAgICBpZiAoIVJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBpbml0UmVzKSkgewogICAgICAgICAgICAgICAgICAgIC8vIExvZy5yZWNvcmQoVEFHLCAiW+ajruael+aVkeaPtOmYn10g5Lu75Yqh5o6l5YWl5aSx6LSlIikKICAgICAgICAgICAgICAgICAgICAvLyDliJ3lp4vljJblpLHotKXvvIznm7TmjqXov5Tlm55mYWxzZQogICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIDMuIOaguOW/g+mAu+i+ke+8mumBjeWOhuS7u+WKoeWIl+ihqO+8jOajgOafpeaYr+WQpuacieWkhOS6jiBUTyBETyDnirbmgIHnmoTku7vliqEKICAgICAgICAgICAgICAgIHZhbCBncm91cFRhc2sgPSBqby5vcHRKU09OT2JqZWN0KCJlbmVyZ3lSYWluRW5kR2FtZUdyb3VwVGFzayIpCiAgICAgICAgICAgICAgICB2YWwgdGFza0luZm9MaXN0ID0gZ3JvdXBUYXNrPy5vcHRKU09OQXJyYXkoInRhc2tJbmZvTGlzdCIpCiAgICAgICAgICAgICAgICBpZiAodGFza0luZm9MaXN0ICE9IG51bGwgJiYgdGFza0luZm9MaXN0Lmxlbmd0aCgpID4gMCkgewogICAgICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIHRhc2tJbmZvTGlzdC5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgdGFzayA9IHRhc2tJbmZvTGlzdC5nZXRKU09OT2JqZWN0KGkpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBiYXNlSW5mbyA9IHRhc2sub3B0SlNPTk9iamVjdCgidGFza0Jhc2VJbmZvIikgPzogY29udGludWUKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHRhc2tUeXBlID0gYmFzZUluZm8ub3B0U3RyaW5nKCJ0YXNrVHlwZSIpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB0YXNrU3RhdHVzID0gYmFzZUluZm8ub3B0U3RyaW5nKCJ0YXNrU3RhdHVzIikgLy8g5YWz6ZSu54q25oCBCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWPquacieW9k+S7u+WKoeaYr+aIkeS7rOimgeeahOaVkeaPtOmYn++8jOS4lOeKtuaAgeaYryB0byBkbyDmiJbov5jmsqHlvIDlp4vop6blj5Hml7YKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHRhc2tUeXBlID09ICJHQU1FX0RPTkVfU0xKWUQiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAodGFza1N0YXR1cyA9PSAiVE9ETyIgfHwgdGFza1N0YXR1cyA9PSAiTk9UX1RSSUdHRVIiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gTG9nLnJlY29yZChUQUcsICLlj5HnjrDlvoXlrozmiJDku7vliqFbJHRhc2tUeXBlXe+8jOW9k+WJjeeKtuaAgTogJHRhc2tTdGF0dXPvvIzlvIDlp4vmiafooYwuLi4iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOaJp+ihjOS4iuaKpemAu+i+kQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEdhbWVUYXNrLkZvcmVzdF9zbGp5ZC5yZXBvcnQoMSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlrozmiJDku7vliqHlkI7vvIzmo4Dmn6XmmK/lkKbov5jmnInmm7TlpJrku7vliqHpnIDopoHlpITnkIYKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmICh0YXNrU3RhdHVzID09ICJGSU5JU0hFRCIgfHwgdGFza1N0YXR1cyA9PSAiRE9ORSIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBMb2cucmVjb3JkKFRBRywgIuS7u+WKoVskdGFza1R5cGVd5bey5a6M5oiQ77yM5peg6ZyA6YeN5aSN5omn6KGMIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5YiX6KGo5Li656m65LiUIG5lZWRJbml0VGFzayDkuZ/mmK8gZmFsc2XvvIzor7TmmI7nnJ/msqHku7vliqHkuoYKICAgICAgICAgICAgICAgICAgICBpZiAoIWpvLm9wdEJvb2xlYW4oIm5lZWRJbml0VGFzayIsIGZhbHNlKSkgewogICAgICAgICAgICAgICAgICAgICAgICAvL0xvZy5lcnJvcihUQUcsICLlvZPliY3ml6Dku7vkvZXog73ph4/pm6jpmYTliqDku7vliqFbJGpvXSIpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8gNC4g5aaC5p6c5rKh5pyJ5om+5Yiw5Lu75L2V5b6F5aSE55CG55qE5Lu75Yqh77yM6L+U5ZueZmFsc2UKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfSBjYXRjaCAodGg6IFRocm93YWJsZSkgewogICAgICAgICAgICAvL0xvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi5omn6KGM6IO96YeP6Zuo5ZCO57ut5Lu75Yqh5Ye66ZSZOiIsIHRoKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlhbzlrrlKYXZh6LCD55So55qE5YyF6KOF5pa55rOVCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBleGVjRW5lcmd5UmFpbkNvbXBhdCgpIHsKICAgICAgICBrb3RsaW54LmNvcm91dGluZXMucnVuQmxvY2tpbmcgewogICAgICAgICAgICBleGVjRW5lcmd5UmFpbigpCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.task.antForest
+
+import fansirsqi.xposed.sesame.data.Status
+import fansirsqi.xposed.sesame.hook.Toast
+import fansirsqi.xposed.sesame.util.GameTask
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ResChecker
+import fansirsqi.xposed.sesame.util.maps.UserMap
+import kotlinx.coroutines.delay
+import org.json.JSONObject
+import kotlin.random.Random
+
+/**
+ * 能量雨功能 - Kotlin协程版本
+ *
+ * 这是EnergyRain.java的协程版本重构，提供更好的性能和可维护性
+ */
+object EnergyRainCoroutine {
+    private const val TAG = "EnergyRain"
+
+    /**
+     * 上次执行能量雨的时间戳
+     */
+    @Volatile
+    private var lastExecuteTime: Long = 0
+
+    /**
+     * 随机延迟，增加随机性避免风控检测
+     * @param min 最小延迟（毫秒）
+     * @param max 最大延迟（毫秒）
+     */
+    private suspend fun randomDelay(min: Int, max: Int) {
+        val delayTime = Random.nextInt(min, max + 1).toLong()
+        delay(delayTime)
+    }
+
+    /**
+     * 执行能量雨功能
+     */
+    suspend fun execEnergyRain() {
+        try {
+            // 执行频率检查：防止短时间内重复执行
+            val currentTime = System.currentTimeMillis()
+            val timeSinceLastExec = currentTime - lastExecuteTime
+            val cooldownSeconds = 3 // 冷却时间：3秒
+
+            if (timeSinceLastExec < cooldownSeconds * 1000) {
+                // 粗放点，delay 3秒
+                delay(cooldownSeconds * 1000.toLong())
+            }
+
+            energyRain()
+
+            // 更新最后执行时间
+            lastExecuteTime = System.currentTimeMillis()
+        } catch (e: kotlinx.coroutines.CancellationException) {
+            // 协程取消是正常现象，不记录为错误
+            Log.record(TAG, "execEnergyRain 协程被取消")
+            throw e  // 必须重新抛出以保证取消机制正常工作
+        } catch (th: Throwable) {
+            Log.printStackTrace(TAG, "执行能量雨出错:", th)
+        }
+    }
+
+    /**
+     * 能量雨主逻辑（协程版本）
+     */
+    private suspend fun energyRain() {
+        try {
+            var playedCount = 0
+            val maxPlayLimit = 10
+
+            do {
+                val joEnergyRainHome = JSONObject(AntForestRpcCall.queryEnergyRainHome())
+                randomDelay(250, 400) // 随机延迟 300-400ms
+                if (!ResChecker.checkRes(TAG, joEnergyRainHome)) {
+                    Log.record(TAG, "查询能量雨状态失败")
+                    break
+                }
+                val canPlayToday = joEnergyRainHome.optBoolean("canPlayToday", false)
+                val canPlayGame = joEnergyRainHome.optBoolean("canPlayGame", false)
+                val canGrantStatus = joEnergyRainHome.optBoolean("canGrantStatus", false)
+
+                // 1️⃣ 检查是否可以开始能量雨
+                if (canPlayToday) {
+                    startEnergyRain()
+                    playedCount++
+                    randomDelay(3000, 5000) // 随机延迟3-5秒
+                    continue
+                }
+
+                // 2️⃣ 检查是否可以赠送能量雨
+                if (canGrantStatus) {
+                    Log.record(TAG, "有送能量雨的机会")
+                    val joEnergyRainCanGrantList = JSONObject(AntForestRpcCall.queryEnergyRainCanGrantList())
+                    val grantInfos = joEnergyRainCanGrantList.optJSONArray("grantInfos") ?: org.json.JSONArray()
+                    val giveEnergyRainSet = AntForest.giveEnergyRainList!!.value
+                    var granted = false
+
+                    for (j in 0 until grantInfos.length()) {
+                        val grantInfo = grantInfos.getJSONObject(j)
+                        if (grantInfo.optBoolean("canGrantedStatus", false)) {
+                            val uid = grantInfo.getString("userId")
+                            if (giveEnergyRainSet.contains(uid)) {
+                                val rainJsonObj = JSONObject(AntForestRpcCall.grantEnergyRainChance(uid))
+                                Log.record(TAG, "尝试送能量雨给【${UserMap.getMaskName(uid)}】")
+                                if (ResChecker.checkRes(TAG, rainJsonObj)) {
+                                    Log.forest(
+                                        "赠送能量雨机会给🌧️[${UserMap.getMaskName(uid)}]#${
+                                            UserMap.getMaskName(
+                                                UserMap.currentUid
+                                            )
+                                        }"
+                                    )
+                                    randomDelay(300, 400) // 随机延迟 300-400ms
+                                    granted = true
+                                    break
+                                } else {
+                                    Log.error(TAG, "送能量雨失败 $rainJsonObj")
+                                }
+                            }
+                        }
+                    }
+                    if (granted) {
+                        continue
+                    } else {
+                        Log.record(TAG, "今日无可送能量雨好友或已达到赠送上限")
+                    }
+                }
+
+                // 3️⃣ 检查是否可以能量雨游戏
+                // canPlayGame 好像一直是true        注意：能量雨游戏只能执行一次，执行后会设置标记防止重复
+                Log.record(TAG, "是否可以能量雨游戏: $canPlayGame")
+
+                if (canPlayGame) {
+                    // 防止能量雨游戏重复执行
+                    val energyRainGameFlag = "EnergyRain::能量雨游戏任务"
+                    if (Status.hasFlagToday(energyRainGameFlag)) {
+                        break
+                    }
+                    val hasTaskToProcess = checkAndDoEndGameTask()//检查能量雨 游戏任务 并接取
+                    randomDelay(3000, 5000) // 随机延迟3-5秒
+                    playedCount++
+                    // 只有当有实际任务需要处理时才继续循环
+                    if (hasTaskToProcess) {
+                        continue
+                    } else {
+                        // 没有任务需要处理，跳出循环
+                        Status.setFlagToday(energyRainGameFlag)
+                        break
+                    }
+                }
+
+            /*
+                // 3️⃣ 检查能量雨游戏任务
+                val energyRainGameFlag = "EnergyRain::能量雨游戏任务"
+                if (!Status.hasFlagToday(energyRainGameFlag)) {
+                    Log.record(TAG, "检查能量雨游戏任务")
+                    val hasTaskToProcess = checkAndDoEndGameTask()//检查能量雨 游戏任务
+                    randomDelay(3000, 5000) // 随机延迟3-5秒
+                    playedCount++
+                    // 只有当有实际任务需要处理时才继续循环
+                    if (hasTaskToProcess) {
+                        continue
+                    } else {
+                        // 设置能量雨游戏已执行标志
+                        Status.setFlagToday(energyRainGameFlag)
+                        break
+                    }
+                } else {
+                    // 今天已经执行过能量雨游戏任务，跳出循环
+                    break
+                }
+            */
+
+                break
+            } while (playedCount < maxPlayLimit)
+            if (playedCount >= maxPlayLimit) {
+                Log.record(TAG, "能量雨执行达到单次任务上限($maxPlayLimit)，停止执行")
+            }
+        } catch (e: kotlinx.coroutines.CancellationException) {
+            // 协程取消是正常现象，不记录为错误
+            Log.record(TAG, "energyRain 协程被取消")
+            throw e  // 必须重新抛出以保证取消机制正常工作
+        } catch (th: Throwable) {
+            Log.record(TAG, "energyRain err:")
+            Log.printStackTrace(TAG, th)
+        }
+    }
+
+    /**
+     * 开始能量雨（协程版本）
+     */
+    private suspend fun startEnergyRain() {
+        try {
+            Log.record("开始执行能量雨🌧️")
+            val joStart = JSONObject(AntForestRpcCall.startEnergyRain())
+
+            if (ResChecker.checkRes(TAG, joStart)) {
+                val token = joStart.getString("token")
+                val bubbleEnergyList = joStart.getJSONObject("difficultyInfo").getJSONArray("bubbleEnergyList")
+                var sum = 0
+
+                for (i in 0 until bubbleEnergyList.length()) {
+                    sum += bubbleEnergyList.getInt(i)
+                }
+
+                randomDelay(5000, 5200) // 随机延迟 5-5.2秒，模拟真人玩游戏
+                val resultJson = JSONObject(AntForestRpcCall.energyRainSettlement(sum, token))
+
+                if (ResChecker.checkRes(TAG, resultJson)) {
+                    val s = "收获能量雨🌧️[${sum}g]"
+                    Toast.show(s)
+                    Log.forest(s)
+                }
+                randomDelay(300, 400) // 随机延迟 300-400ms
+            } else {
+                Log.record(TAG, "startEnergyRain: $joStart")
+            }
+        } catch (e: kotlinx.coroutines.CancellationException) {
+            // 协程取消是正常现象，不记录为错误
+            Log.record(TAG, "startEnergyRain 协程被取消")
+            throw e  // 必须重新抛出以保证取消机制正常工作
+        } catch (th: Throwable) {
+            Log.record(TAG, "startEnergyRain err:")
+            Log.printStackTrace(TAG, th)
+        }
+    }
+
+    /**
+     * 检查并领取能量雨后的额外游戏任务
+     * @return Boolean 是否还有待处理的任务
+     */
+    @JvmStatic
+    private fun checkAndDoEndGameTask(): Boolean {
+        try {
+            // 1. 查询当前是否有可接或已接的游戏任务
+            val response = AntForestRpcCall.queryEnergyRainEndGameList()
+            val jo = JSONObject(response)
+            if (!ResChecker.checkRes(TAG, jo)) {
+                //Log.error(TAG, "查询能量雨游戏任务失败 $jo")
+                return false
+            }
+            // 2. 先处理“有新任务可以接”的情况
+            if (jo.optBoolean("needInitTask", false)) {
+                // Log.record(TAG, "检测到新任务，准备接入[森林救援队]...")
+                val initRes = JSONObject(AntForestRpcCall.initTask("GAME_DONE_SLJYD"))
+                if (!ResChecker.checkRes(TAG, initRes)) {
+                    // Log.record(TAG, "[森林救援队] 任务接入失败")
+                    // 初始化失败，直接返回false
+                    return false
+                }
+
+                // 3. 核心逻辑：遍历任务列表，检查是否有处于 TO DO 状态的任务
+                val groupTask = jo.optJSONObject("energyRainEndGameGroupTask")
+                val taskInfoList = groupTask?.optJSONArray("taskInfoList")
+                if (taskInfoList != null && taskInfoList.length() > 0) {
+                    for (i in 0 until taskInfoList.length()) {
+                        val task = taskInfoList.getJSONObject(i)
+                        val baseInfo = task.optJSONObject("taskBaseInfo") ?: continue
+                        val taskType = baseInfo.optString("taskType")
+                        val taskStatus = baseInfo.optString("taskStatus") // 关键状态
+                        // 只有当任务是我们要的救援队，且状态是 to do 或还没开始触发时
+                        if (taskType == "GAME_DONE_SLJYD") {
+                            if (taskStatus == "TODO" || taskStatus == "NOT_TRIGGER") {
+                                // Log.record(TAG, "发现待完成任务[$taskType]，当前状态: $taskStatus，开始执行...")
+                                // 执行上报逻辑
+                                GameTask.Forest_sljyd.report(1)
+                                // 完成任务后，检查是否还有更多任务需要处理
+                                return true
+                            } else if (taskStatus == "FINISHED" || taskStatus == "DONE") {
+                                // Log.record(TAG, "任务[$taskType]已完成，无需重复执行")
+                                return false
+                            }
+                        }
+                    }
+                } else {
+                    // 如果列表为空且 needInitTask 也是 false，说明真没任务了
+                    if (!jo.optBoolean("needInitTask", false)) {
+                        //Log.error(TAG, "当前无任何能量雨附加任务[$jo]")
+                        return false
+                    }
+                }
+
+            }
+            // 4. 如果没有找到任何待处理的任务，返回false
+            return false
+        } catch (th: Throwable) {
+            //Log.printStackTrace(TAG, "执行能量雨后续任务出错:", th)
+            return false
+        }
+    }
+
+    /**
+     * 兼容Java调用的包装方法
+     */
+    @JvmStatic
+    fun execEnergyRainCompat() {
+        kotlinx.coroutines.runBlocking {
+            execEnergyRain()
+        }
+    }
+}

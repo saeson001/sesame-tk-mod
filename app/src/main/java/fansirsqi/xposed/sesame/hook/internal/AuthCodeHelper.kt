@@ -1,1 +1,80 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmludGVybmFsCgppbXBvcnQgZGUucm9idi5hbmRyb2lkLnhwb3NlZC5YcG9zZWRIZWxwZXJzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgamF2YS51dGlsLkhhc2hNYXAKCi8qKgogKiBPQXV0aDIg5o6I5p2D56CB5pyN5Yqh5Yqp5omL57G7CiAqIOeUqOS6juiwg+eUqOebruagh+W6lOeUqOeahCBPcGVuQXV0aEV4dGVuc2lvbi5nZXRBdXRoQ29kZSDmlrnms5UKICovCm9iamVjdCBBdXRoQ29kZUhlbHBlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIk9hdXRoMkF1dGhDb2RlSGVscGVyIgogICAgcHJpdmF0ZSB2YXIgY2xhc3NMb2FkZXI6IENsYXNzTG9hZGVyPyA9IG51bGwKCiAgICAvKioKICAgICAqIOWIneWni+WMliBPYXV0aDJBdXRoQ29kZUhlbHBlcgogICAgICogQHBhcmFtIGxvYWRlciDlupTnlKjnsbvliqDovb3lmagKICAgICAqLwogICAgZnVuIGluaXQobG9hZGVyOiBDbGFzc0xvYWRlcikgewogICAgICAgIGNsYXNzTG9hZGVyID0gbG9hZGVyCiAgICAgICAgTG9nLnJlY29yZChUQUcsICJPYXV0aDJBdXRoQ29kZUhlbHBlciDliJ3lp4vljJblrozmiJAiKQogICAgfQoKCiAgICAvKioKICAgICAqIOS4u+WKqOiwg+eUqOiOt+WPluaOiOadg+eggQogICAgICog6YCa6L+H5Y+N5bCE6LCD55SoIE9hdXRoMkF1dGhDb2RlU2VydmljZS5nZXRBdXRoU2tpcFJlc3VsdCDmlrnms5Xojrflj5bmjojmnYPnoIEKICAgICAqCiAgICAgKiBAcGFyYW0gYXBwSWQg5bqU55SoSUQKICAgICAqIEByZXR1cm4gY29kZe+8jOWksei0pei/lOWbnm51bGwKICAgICAqLwogICAgZnVuIGdldEF1dGhDb2RlKAogICAgICAgIGFwcElkOiBTdHJpbmcKICAgICk6IFN0cmluZz8gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChjbGFzc0xvYWRlciA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiT2F1dGgyQXV0aENvZGVIZWxwZXIg5pyq5Yid5aeL5YyW77yM6K+35YWI6LCD55SoIGluaXQg5pa55rOVIikKICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIG9hdXRoMkF1dGhDb2RlU2VydmljZUltcGxDbGFzcyA9IFhwb3NlZEhlbHBlcnMuZmluZENsYXNzKCJjb20uYWxpYmFiYS5hcml2ZXIucnBjLmJpei5wcm94eS5PYXV0aDJBdXRoQ29kZVNlcnZpY2VJbXBsIiwgY2xhc3NMb2FkZXIpCiAgICAgICAgICAgIHZhbCBvYXV0aDJBdXRoQ29kZVNlcnZpY2VJbXBsID0gWHBvc2VkSGVscGVycy5uZXdJbnN0YW5jZShvYXV0aDJBdXRoQ29kZVNlcnZpY2VJbXBsQ2xhc3MpCiAgICAgICAgICAgIHZhbCBhdXRoU2tpcFJlcXVlc3RNb2RlbENsYXNzID0gWHBvc2VkSGVscGVycy5maW5kQ2xhc3MoImNvbS5hbGliYWJhLmFyaXZlci5wZXJtaXNzaW9uLm9wZW5hdXRoLm1vZGVsLnJlcXVlc3QuQXV0aFNraXBSZXF1ZXN0TW9kZWwiLCBjbGFzc0xvYWRlcikKICAgICAgICAgICAgdmFsIGF1dGhTa2lwUmVxdWVzdE1vZGVsID0gWHBvc2VkSGVscGVycy5uZXdJbnN0YW5jZShhdXRoU2tpcFJlcXVlc3RNb2RlbENsYXNzKQogICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2QoYXV0aFNraXBSZXF1ZXN0TW9kZWwsICJzZXRBcHBJZCIsIGFwcElkKQogICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2QoYXV0aFNraXBSZXF1ZXN0TW9kZWwsICJzZXRDdXJyZW50UGFnZVVybCIsICJodHRwczovLyR7YXBwSWR9Lmh5YnJpZC5hbGlwYXktZWNvLmNvbS9pbmRleC5odG1sIikKICAgICAgICAgICAgWHBvc2VkSGVscGVycy5jYWxsTWV0aG9kKGF1dGhTa2lwUmVxdWVzdE1vZGVsLCAic2V0RnJvbVN5c3RlbSIsICJtb2JpbGVnd19hbmRyb2lkIikKICAgICAgICAgICAgWHBvc2VkSGVscGVycy5jYWxsTWV0aG9kKGF1dGhTa2lwUmVxdWVzdE1vZGVsLCAic2V0U2NvcGVOaWNrcyIsIGxpc3RPZigiYXV0aF9iYXNlIikpCiAgICAgICAgICAgIFhwb3NlZEhlbHBlcnMuY2FsbE1ldGhvZChhdXRoU2tpcFJlcXVlc3RNb2RlbCwgInNldFN0YXRlIiwgIlFuSnBibWNnYzIxaGJHd2dZVzVrSUdKbFlYVjBhV1oxYkNCamFHRnVaMlZ6SUhSdklIUm9aU0IzYjNKc1pBPT0iKQogICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2QoYXV0aFNraXBSZXF1ZXN0TW9kZWwsICJzZXRJc3ZBcHBJZCIsICIiKQogICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2QoYXV0aFNraXBSZXF1ZXN0TW9kZWwsICJzZXRFeHRJbmZvIiwgSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4oKSkKICAgICAgICAgICAgdmFsIGFwcEV4dEluZm8gPSBIYXNoTWFwPFN0cmluZywgU3RyaW5nPigpCiAgICAgICAgICAgIGFwcEV4dEluZm9bImNoYW5uZWwiXSA9ICJ0aW55YXBwIgogICAgICAgICAgICBhcHBFeHRJbmZvWyJjbGllbnRBcHBJZCJdID0gYXBwSWQKICAgICAgICAgICAgWHBvc2VkSGVscGVycy5jYWxsTWV0aG9kKGF1dGhTa2lwUmVxdWVzdE1vZGVsLCAic2V0QXBwRXh0SW5mbyIsIGFwcEV4dEluZm8pCiAgICAgICAgICAgIHZhbCBhdXRoU2tpcFJlc3VsdCA9IFhwb3NlZEhlbHBlcnMuY2FsbE1ldGhvZCgKICAgICAgICAgICAgICAgIG9hdXRoMkF1dGhDb2RlU2VydmljZUltcGwsCiAgICAgICAgICAgICAgICAiZ2V0QXV0aFNraXBSZXN1bHQiLAogICAgICAgICAgICAgICAgIkFQIiwKICAgICAgICAgICAgICAgIG51bGwsCiAgICAgICAgICAgICAgICBhdXRoU2tpcFJlcXVlc3RNb2RlbAogICAgICAgICAgICApCgogICAgICAgICAgICBpZiAoYXV0aFNraXBSZXN1bHQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgLy8g55u05o6l5LuO6L+U5Zue55qEIEF1dGhTa2lwUmVzdWx0TW9kZWwg6I635Y+WIGF1dGhFeGVjdXRlUmVzdWx0CiAgICAgICAgICAgICAgICB2YWwgYXV0aEV4ZWN1dGVSZXN1bHQgPSBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2QoYXV0aFNraXBSZXN1bHQsICJnZXRBdXRoRXhlY3V0ZVJlc3VsdCIpCiAgICAgICAgICAgICAgICBpZiAoYXV0aEV4ZWN1dGVSZXN1bHQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHZhbCBhdXRoQ29kZSA9IFhwb3NlZEhlbHBlcnMuY2FsbE1ldGhvZChhdXRoRXhlY3V0ZVJlc3VsdCwgImdldEF1dGhDb2RlIikgYXM/IFN0cmluZwogICAgICAgICAgICAgICAgICAgIHJldHVybiBhdXRoQ29kZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIuS4u+WKqOiwg+eUqOiOt+WPluaOiOadg+eggeWksei0pTogJHtlLm1lc3NhZ2V9IiwgZSkKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICB9Cgp9Cg==
+package fansirsqi.xposed.sesame.hook.internal
+
+import de.robv.android.xposed.XposedHelpers
+import fansirsqi.xposed.sesame.util.Log
+import java.util.HashMap
+
+/**
+ * OAuth2 授权码服务助手类
+ * 用于调用目标应用的 OpenAuthExtension.getAuthCode 方法
+ */
+object AuthCodeHelper {
+
+    private const val TAG = "Oauth2AuthCodeHelper"
+    private var classLoader: ClassLoader? = null
+
+    /**
+     * 初始化 Oauth2AuthCodeHelper
+     * @param loader 应用类加载器
+     */
+    fun init(loader: ClassLoader) {
+        classLoader = loader
+        Log.record(TAG, "Oauth2AuthCodeHelper 初始化完成")
+    }
+
+
+    /**
+     * 主动调用获取授权码
+     * 通过反射调用 Oauth2AuthCodeService.getAuthSkipResult 方法获取授权码
+     *
+     * @param appId 应用ID
+     * @return code，失败返回null
+     */
+    fun getAuthCode(
+        appId: String
+    ): String? {
+        try {
+            if (classLoader == null) {
+                Log.error(TAG, "Oauth2AuthCodeHelper 未初始化，请先调用 init 方法")
+                return null
+            }
+            val oauth2AuthCodeServiceImplClass = XposedHelpers.findClass("com.alibaba.ariver.rpc.biz.proxy.Oauth2AuthCodeServiceImpl", classLoader)
+            val oauth2AuthCodeServiceImpl = XposedHelpers.newInstance(oauth2AuthCodeServiceImplClass)
+            val authSkipRequestModelClass = XposedHelpers.findClass("com.alibaba.ariver.permission.openauth.model.request.AuthSkipRequestModel", classLoader)
+            val authSkipRequestModel = XposedHelpers.newInstance(authSkipRequestModelClass)
+            XposedHelpers.callMethod(authSkipRequestModel, "setAppId", appId)
+            XposedHelpers.callMethod(authSkipRequestModel, "setCurrentPageUrl", "https://${appId}.hybrid.alipay-eco.com/index.html")
+            XposedHelpers.callMethod(authSkipRequestModel, "setFromSystem", "mobilegw_android")
+            XposedHelpers.callMethod(authSkipRequestModel, "setScopeNicks", listOf("auth_base"))
+            XposedHelpers.callMethod(authSkipRequestModel, "setState", "QnJpbmcgc21hbGwgYW5kIGJlYXV0aWZ1bCBjaGFuZ2VzIHRvIHRoZSB3b3JsZA==")
+            XposedHelpers.callMethod(authSkipRequestModel, "setIsvAppId", "")
+            XposedHelpers.callMethod(authSkipRequestModel, "setExtInfo", HashMap<String, String>())
+            val appExtInfo = HashMap<String, String>()
+            appExtInfo["channel"] = "tinyapp"
+            appExtInfo["clientAppId"] = appId
+            XposedHelpers.callMethod(authSkipRequestModel, "setAppExtInfo", appExtInfo)
+            val authSkipResult = XposedHelpers.callMethod(
+                oauth2AuthCodeServiceImpl,
+                "getAuthSkipResult",
+                "AP",
+                null,
+                authSkipRequestModel
+            )
+
+            if (authSkipResult != null) {
+                // 直接从返回的 AuthSkipResultModel 获取 authExecuteResult
+                val authExecuteResult = XposedHelpers.callMethod(authSkipResult, "getAuthExecuteResult")
+                if (authExecuteResult != null) {
+                    val authCode = XposedHelpers.callMethod(authExecuteResult, "getAuthCode") as? String
+                    return authCode
+                }
+            }
+
+            return null
+        } catch (e: Throwable) {
+            Log.printStackTrace(TAG, "主动调用获取授权码失败: ${e.message}", e)
+            return null
+        }
+    }
+
+}

@@ -1,1 +1,162 @@
-LyoqCiAqIEBhdXRob3IgQnlzZXZlbgogKiBAZGF0ZSAyMDI1LzEvMzAKICogQGFwaU5vdGUKICovCgpwYWNrYWdlIGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suQW5zd2VyQUk7CgppbXBvcnQgc3RhdGljIGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuSnNvblV0aWwuZ2V0VmFsdWVCeVBhdGg7CgppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5OwppbXBvcnQgb3JnLmpzb24uSlNPTkV4Y2VwdGlvbjsKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3Q7CgppbXBvcnQgamF2YS5pby5JT0V4Y2VwdGlvbjsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQ7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2c7CmltcG9ydCBsb21ib2suR2V0dGVyOwppbXBvcnQgbG9tYm9rLlNldHRlcjsKaW1wb3J0IG9raHR0cDMuTWVkaWFUeXBlOwppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQ7CmltcG9ydCBva2h0dHAzLlJlcXVlc3Q7CmltcG9ydCBva2h0dHAzLlJlcXVlc3RCb2R5OwppbXBvcnQgb2todHRwMy5SZXNwb25zZTsKCgovKioKICogRGVlcFNlZWvluK7liqnnsbvvvIznlKjkuo7kuI5EZWVwU2Vla+aOpeWPo+S6pOS6kuS7peiOt+WPlkFJ5Zue562UCiAqIOaUr+aMgeWNleadoeaWh+acrOmXrumimOWPiuW4puacieWAmemAieetlOahiOWIl+ihqOeahOmXrumimOivt+axggogKi8KcHVibGljIGNsYXNzIERlZXBTZWVrIGltcGxlbWVudHMgQW5zd2VyQUlJbnRlcmZhY2UgewogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFRBRyA9IERlZXBTZWVrLmNsYXNzLmdldFNpbXBsZU5hbWUoKTsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBCQVNFX1VSTCA9ICJodHRwczovL2FwaS5kZWVwc2Vlay5jb20vdjEvY2hhdC9jb21wbGV0aW9ucyI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgQ09OVEVOVF9UWVBFID0gImFwcGxpY2F0aW9uL2pzb24iOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIEpTT05fUEFUSCA9ICJjaG9pY2VzLlswXS5tZXNzYWdlLmNvbnRlbnQiOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFNZU1RFTV9NRVNTQUdFID0gIuS9oOaYr+S4gOS4quaLpeacieS4sOWvjOeahOefpeivhu+8jOW5tuS4lOiDveagueaNruefpeivhuWbnuetlOmXrumimOeahOS4k+WutuOAgiI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgQVVUSF9IRUFERVJfUFJFRklYID0gIkJlYXJlciAiOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgSW50ZWdlciBUSU1FX09VVF9TRUNPTkRTID0gMTgwOwoKICAgIEBTZXR0ZXIKICAgIEBHZXR0ZXIKICAgIHByaXZhdGUgU3RyaW5nIG1vZGVsTmFtZSA9ICJkZWVwc2Vlay1yZWFzb25lciI7IC8vImRlZXBzZWVrLWNoYXQiOwoKICAgIHByaXZhdGUgZmluYWwgU3RyaW5nIGFwaUtleTsKCiAgICAvLyDmnoTpgKDlh73mlbDvvIzliJ3lp4vljJZBUEkgS2V5CiAgICBwdWJsaWMgRGVlcFNlZWsoU3RyaW5nIGFwaUtleSkgewogICAgICAgIHRoaXMuYXBpS2V5ID0gYXBpS2V5ICE9IG51bGwgJiYgIWFwaUtleS5pc0VtcHR5KCkgPyBhcGlLZXkgOiAiIjsKICAgIH0KCiAgICAvLyDnp7vpmaTmjqfliLblrZfnrKYKICAgIHByaXZhdGUgU3RyaW5nIHJlbW92ZUNvbnRyb2xDaGFyYWN0ZXJzKFN0cmluZyB0ZXh0KSB7CiAgICAgICAgcmV0dXJuIHRleHQucmVwbGFjZUFsbCgiXFxwe0NudHJsfSYmW15cbiIgKyAiXHRdIiwgIiIpOwogICAgfQoKICAgIC8vIOaehOW7uuivt+axguS9k+eahEpTT07lr7nosaEKICAgIHByaXZhdGUgSlNPTk9iamVjdCBidWlsZFJlcXVlc3RKc29uKFN0cmluZyB0ZXh0KSB0aHJvd3MgSlNPTkV4Y2VwdGlvbiB7CiAgICAgICAgdGV4dCA9IHJlbW92ZUNvbnRyb2xDaGFyYWN0ZXJzKHRleHQpOwogICAgICAgIEpTT05PYmplY3QgcmVxdWVzdEpzb24gPSBuZXcgSlNPTk9iamVjdCgpOwogICAgICAgIHJlcXVlc3RKc29uLnB1dCgibW9kZWwiLCB0aGlzLm1vZGVsTmFtZSk7CgogICAgICAgIEpTT05BcnJheSBtZXNzYWdlcyA9IG5ldyBKU09OQXJyYXkoKTsKICAgICAgICBKU09OT2JqZWN0IHN5c3RlbU1lc3NhZ2UgPSBuZXcgSlNPTk9iamVjdCgpOwogICAgICAgIHN5c3RlbU1lc3NhZ2UucHV0KCJyb2xlIiwgInN5c3RlbSIpOwogICAgICAgIHN5c3RlbU1lc3NhZ2UucHV0KCJjb250ZW50IiwgU1lTVEVNX01FU1NBR0UpOwogICAgICAgIG1lc3NhZ2VzLnB1dChzeXN0ZW1NZXNzYWdlKTsKCiAgICAgICAgSlNPTk9iamVjdCB1c2VyTWVzc2FnZSA9IG5ldyBKU09OT2JqZWN0KCk7CiAgICAgICAgdXNlck1lc3NhZ2UucHV0KCJyb2xlIiwgInVzZXIiKTsKICAgICAgICB1c2VyTWVzc2FnZS5wdXQoImNvbnRlbnQiLCB0ZXh0KTsKICAgICAgICBtZXNzYWdlcy5wdXQodXNlck1lc3NhZ2UpOwoKICAgICAgICByZXF1ZXN0SnNvbi5wdXQoIm1lc3NhZ2VzIiwgbWVzc2FnZXMpOwogICAgICAgIHJlcXVlc3RKc29uLnB1dCgic3RyZWFtIiwgZmFsc2UpOwogICAgICAgIHJldHVybiByZXF1ZXN0SnNvbjsKICAgIH0KCiAgICAvLyDlj5HpgIHor7fmsYLlubblpITnkIblk43lupQKICAgIHByaXZhdGUgU3RyaW5nIHNlbmRSZXF1ZXN0KEpTT05PYmplY3QgcmVxdWVzdEpzb24pIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgT2tIdHRwQ2xpZW50IGNsaWVudCA9IG5ldyBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAuY29ubmVjdFRpbWVvdXQoVElNRV9PVVRfU0VDT05EUywgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgICAgIC53cml0ZVRpbWVvdXQoVElNRV9PVVRfU0VDT05EUywgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgICAgIC5yZWFkVGltZW91dChUSU1FX09VVF9TRUNPTkRTLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAgICAgLmJ1aWxkKCk7CiAgICAgICAgTWVkaWFUeXBlIG1lZGlhVHlwZSA9IE1lZGlhVHlwZS5wYXJzZShDT05URU5UX1RZUEUpOwogICAgICAgIFJlcXVlc3RCb2R5IGJvZHkgPSBSZXF1ZXN0Qm9keS5jcmVhdGUocmVxdWVzdEpzb24udG9TdHJpbmcoKSwgbWVkaWFUeXBlKTsKICAgICAgICBSZXF1ZXN0IHJlcXVlc3QgPSBuZXcgUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgICAgIC51cmwoQkFTRV9VUkwpCiAgICAgICAgICAgICAgICAubWV0aG9kKCJQT1NUIiwgYm9keSkKICAgICAgICAgICAgICAgIC5hZGRIZWFkZXIoIkNvbnRlbnQtVHlwZSIsIENPTlRFTlRfVFlQRSkKICAgICAgICAgICAgICAgIC5hZGRIZWFkZXIoIkF1dGhvcml6YXRpb24iLCBBVVRIX0hFQURFUl9QUkVGSVggKyBhcGlLZXkpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsKCiAgICAgICAgdHJ5IChSZXNwb25zZSByZXNwb25zZSA9IGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKSkgewogICAgICAgICAgICBpZiAocmVzcG9uc2UuYm9keSgpID09IG51bGwpIHsKICAgICAgICAgICAgICAgIHJldHVybiAiIjsKICAgICAgICAgICAgfQogICAgICAgICAgICBTdHJpbmcganNvbiA9IHJlc3BvbnNlLmJvZHkoKS5zdHJpbmcoKTsKICAgICAgICAgICAgaWYgKCFyZXNwb25zZS5pc1N1Y2Nlc3NmdWwoKSkgewogICAgICAgICAgICAgICAgTG9nLm90aGVyKCJEZWVwU2Vla+ivt+axguWksei0pSIpOwogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsIkRlZXBTZWVr5o6l5Y+j5byC5bi477yaIiArIGpzb24pOwogICAgICAgICAgICAgICAgcmV0dXJuICIiOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBqc29uOwogICAgICAgIH0KICAgIH0KCgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgU3RyaW5nIGdldEFuc3dlclN0cihTdHJpbmcgdGV4dCwgU3RyaW5nIG1vZGVsKSB7CiAgICAgICAgc2V0TW9kZWxOYW1lKG1vZGVsKTsKICAgICAgICByZXR1cm4gZ2V0QW5zd2VyU3RyKHRleHQpOwogICAgfQoKICAgIC8qKgogICAgICog6I635Y+WQUnlm57nrZTnu5PmnpwKICAgICAqCiAgICAgKiBAcGFyYW0gdGV4dCDpl67popjlhoXlrrkKICAgICAqIEByZXR1cm4gQUnlm57nrZTnu5PmnpwKICAgICAqLwogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgU3RyaW5nIGdldEFuc3dlclN0cihTdHJpbmcgdGV4dCkgewogICAgICAgIFN0cmluZyByZXN1bHQgPSAiIjsKICAgICAgICB0cnkgewogICAgICAgICAgICBKU09OT2JqZWN0IHJlcXVlc3RKc29uID0gYnVpbGRSZXF1ZXN0SnNvbih0ZXh0KTsKICAgICAgICAgICAgU3RyaW5nIGpzb25SZXNwb25zZSA9IHNlbmRSZXF1ZXN0KHJlcXVlc3RKc29uKTsKICAgICAgICAgICAgaWYgKCFqc29uUmVzcG9uc2UuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBKU09OT2JqZWN0IGpzb25PYmplY3QgPSBuZXcgSlNPTk9iamVjdChqc29uUmVzcG9uc2UpOwogICAgICAgICAgICAgICAgcmVzdWx0ID0gZ2V0VmFsdWVCeVBhdGgoanNvbk9iamVjdCwgSlNPTl9QQVRIKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIHwgSlNPTkV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCBlKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJlc3VsdDsKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluetlOahiAogICAgICoKICAgICAqIEBwYXJhbSB0aXRsZSAgICAgIOmXrumimAogICAgICogQHBhcmFtIGFuc3dlckxpc3Qg562U5qGI6ZuG5ZCICiAgICAgKiBAcmV0dXJuIOepuuayoeacieiOt+WPluWIsAogICAgICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBJbnRlZ2VyIGdldEFuc3dlcihTdHJpbmcgdGl0bGUsIExpc3Q8U3RyaW5nPiBhbnN3ZXJMaXN0KSB7CiAgICAgICAgU3RyaW5nQnVpbGRlciBhbnN3ZXJTdHIgPSBuZXcgU3RyaW5nQnVpbGRlcigpOwogICAgICAgIGZvciAoU3RyaW5nIGFuc3dlciA6IGFuc3dlckxpc3QpIHsKICAgICAgICAgICAgYW5zd2VyU3RyLmFwcGVuZCgiWyIpLmFwcGVuZChhbnN3ZXIpLmFwcGVuZCgiXSIpOwogICAgICAgIH0KICAgICAgICBTdHJpbmcgYW5zd2VyUmVzdWx0ID0gZ2V0QW5zd2VyU3RyKHRpdGxlICsgIlxuIiArIGFuc3dlclN0cik7CiAgICAgICAgaWYgKGFuc3dlclJlc3VsdCAhPSBudWxsICYmICFhbnN3ZXJSZXN1bHQuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgYW5zd2VyTGlzdC5zaXplKCk7IGkrKykgewogICAgICAgICAgICAgICAgaWYgKGFuc3dlclJlc3VsdC5jb250YWlucyhhbnN3ZXJMaXN0LmdldChpKSkpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gaTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gLTE7CiAgICB9Cn0=
+/**
+ * @author Byseven
+ * @date 2025/1/30
+ * @apiNote
+ */
+
+package fansirsqi.xposed.sesame.task.AnswerAI;
+
+import static fansirsqi.xposed.sesame.util.JsonUtil.getValueByPath;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import fansirsqi.xposed.sesame.util.Log;
+import lombok.Getter;
+import lombok.Setter;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+
+
+/**
+ * DeepSeek帮助类，用于与DeepSeek接口交互以获取AI回答
+ * 支持单条文本问题及带有候选答案列表的问题请求
+ */
+public class DeepSeek implements AnswerAIInterface {
+    private static final String TAG = DeepSeek.class.getSimpleName();
+    private static final String BASE_URL = "https://api.deepseek.com/v1/chat/completions";
+    private static final String CONTENT_TYPE = "application/json";
+    private static final String JSON_PATH = "choices.[0].message.content";
+    private static final String SYSTEM_MESSAGE = "你是一个拥有丰富的知识，并且能根据知识回答问题的专家。";
+    private static final String AUTH_HEADER_PREFIX = "Bearer ";
+    private static final Integer TIME_OUT_SECONDS = 180;
+
+    @Setter
+    @Getter
+    private String modelName = "deepseek-reasoner"; //"deepseek-chat";
+
+    private final String apiKey;
+
+    // 构造函数，初始化API Key
+    public DeepSeek(String apiKey) {
+        this.apiKey = apiKey != null && !apiKey.isEmpty() ? apiKey : "";
+    }
+
+    // 移除控制字符
+    private String removeControlCharacters(String text) {
+        return text.replaceAll("\\p{Cntrl}&&[^\n" + "\t]", "");
+    }
+
+    // 构建请求体的JSON对象
+    private JSONObject buildRequestJson(String text) throws JSONException {
+        text = removeControlCharacters(text);
+        JSONObject requestJson = new JSONObject();
+        requestJson.put("model", this.modelName);
+
+        JSONArray messages = new JSONArray();
+        JSONObject systemMessage = new JSONObject();
+        systemMessage.put("role", "system");
+        systemMessage.put("content", SYSTEM_MESSAGE);
+        messages.put(systemMessage);
+
+        JSONObject userMessage = new JSONObject();
+        userMessage.put("role", "user");
+        userMessage.put("content", text);
+        messages.put(userMessage);
+
+        requestJson.put("messages", messages);
+        requestJson.put("stream", false);
+        return requestJson;
+    }
+
+    // 发送请求并处理响应
+    private String sendRequest(JSONObject requestJson) throws IOException {
+        OkHttpClient client = new OkHttpClient.Builder()
+                .connectTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
+                .writeTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
+                .readTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
+                .build();
+        MediaType mediaType = MediaType.parse(CONTENT_TYPE);
+        RequestBody body = RequestBody.create(requestJson.toString(), mediaType);
+        Request request = new Request.Builder()
+                .url(BASE_URL)
+                .method("POST", body)
+                .addHeader("Content-Type", CONTENT_TYPE)
+                .addHeader("Authorization", AUTH_HEADER_PREFIX + apiKey)
+                .build();
+
+        try (Response response = client.newCall(request).execute()) {
+            if (response.body() == null) {
+                return "";
+            }
+            String json = response.body().string();
+            if (!response.isSuccessful()) {
+                Log.other("DeepSeek请求失败");
+                Log.record(TAG,"DeepSeek接口异常：" + json);
+                return "";
+            }
+            return json;
+        }
+    }
+
+
+    @Override
+    public String getAnswerStr(String text, String model) {
+        setModelName(model);
+        return getAnswerStr(text);
+    }
+
+    /**
+     * 获取AI回答结果
+     *
+     * @param text 问题内容
+     * @return AI回答结果
+     */
+    @Override
+    public String getAnswerStr(String text) {
+        String result = "";
+        try {
+            JSONObject requestJson = buildRequestJson(text);
+            String jsonResponse = sendRequest(requestJson);
+            if (!jsonResponse.isEmpty()) {
+                JSONObject jsonObject = new JSONObject(jsonResponse);
+                result = getValueByPath(jsonObject, JSON_PATH);
+            }
+        } catch (IOException | JSONException e) {
+            Log.printStackTrace(TAG, e);
+        }
+        return result;
+    }
+
+    /**
+     * 获取答案
+     *
+     * @param title      问题
+     * @param answerList 答案集合
+     * @return 空没有获取到
+     */
+    @Override
+    public Integer getAnswer(String title, List<String> answerList) {
+        StringBuilder answerStr = new StringBuilder();
+        for (String answer : answerList) {
+            answerStr.append("[").append(answer).append("]");
+        }
+        String answerResult = getAnswerStr(title + "\n" + answerStr);
+        if (answerResult != null && !answerResult.isEmpty()) {
+            for (int i = 0; i < answerList.size(); i++) {
+                if (answerResult.contains(answerList.get(i))) {
+                    return i;
+                }
+            }
+        }
+        return -1;
+    }
+}

@@ -1,1 +1,43 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZC5vcy5GaWxlT2JzZXJ2ZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jaGFubmVscy5hd2FpdENsb3NlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5jYWxsYmFja0Zsb3cKaW1wb3J0IGphdmEuaW8uRmlsZQoKb2JqZWN0IERpcmVjdG9yeVdhdGNoZXIgewoKICAgIGZ1biBvYnNlcnZlRGlyZWN0b3J5Q2hhbmdlcyhkaXJlY3Rvcnk6IEZpbGUpOiBGbG93PFVuaXQ+ID0gY2FsbGJhY2tGbG93IHsKICAgICAgICBpZiAoIWRpcmVjdG9yeS5leGlzdHMoKSkgewogICAgICAgICAgICBkaXJlY3RvcnkubWtkaXJzKCkKICAgICAgICB9CgogICAgICAgIHZhbCBtYXNrID0gRmlsZU9ic2VydmVyLkNSRUFURSBvciBGaWxlT2JzZXJ2ZXIuREVMRVRFIG9yIEZpbGVPYnNlcnZlci5NT1ZFRF9UTyBvciBGaWxlT2JzZXJ2ZXIuTU9WRURfRlJPTQoKICAgICAgICAvLyDpgILphY3kuI3lkIwgQW5kcm9pZCDniYjmnKwKICAgICAgICB2YWwgb2JzZXJ2ZXIgPSBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuUSkgewogICAgICAgICAgICAvLyBBbmRyb2lkIDEwKyDkvb/nlKggRmlsZSDmnoTpgKDlh73mlbAKICAgICAgICAgICAgb2JqZWN0IDogRmlsZU9ic2VydmVyKGRpcmVjdG9yeSwgbWFzaykgewogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uRXZlbnQoZXZlbnQ6IEludCwgcGF0aDogU3RyaW5nPykgewogICAgICAgICAgICAgICAgICAgIGlmIChwYXRoICE9IG51bGwpIHRyeVNlbmQoVW5pdCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIC8vIEFuZHJvaWQgOSDlj4rku6XkuIvkvb/nlKggU3RyaW5nIOaehOmAoOWHveaVsAogICAgICAgICAgICBAU3VwcHJlc3MoIkRFUFJFQ0FUSU9OIikKICAgICAgICAgICAgb2JqZWN0IDogRmlsZU9ic2VydmVyKGRpcmVjdG9yeS5hYnNvbHV0ZVBhdGgsIG1hc2spIHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkV2ZW50KGV2ZW50OiBJbnQsIHBhdGg6IFN0cmluZz8pIHsKICAgICAgICAgICAgICAgICAgICBpZiAocGF0aCAhPSBudWxsKSB0cnlTZW5kKFVuaXQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIG9ic2VydmVyLnN0YXJ0V2F0Y2hpbmcoKQoKICAgICAgICBhd2FpdENsb3NlIHsKICAgICAgICAgICAgb2JzZXJ2ZXIuc3RvcFdhdGNoaW5nKCkKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.util
+
+import android.os.Build
+import android.os.FileObserver
+import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.callbackFlow
+import java.io.File
+
+object DirectoryWatcher {
+
+    fun observeDirectoryChanges(directory: File): Flow<Unit> = callbackFlow {
+        if (!directory.exists()) {
+            directory.mkdirs()
+        }
+
+        val mask = FileObserver.CREATE or FileObserver.DELETE or FileObserver.MOVED_TO or FileObserver.MOVED_FROM
+
+        // 适配不同 Android 版本
+        val observer = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            // Android 10+ 使用 File 构造函数
+            object : FileObserver(directory, mask) {
+                override fun onEvent(event: Int, path: String?) {
+                    if (path != null) trySend(Unit)
+                }
+            }
+        } else {
+            // Android 9 及以下使用 String 构造函数
+            @Suppress("DEPRECATION")
+            object : FileObserver(directory.absolutePath, mask) {
+                override fun onEvent(event: Int, path: String?) {
+                    if (path != null) trySend(Unit)
+                }
+            }
+        }
+
+        observer.startWatching()
+
+        awaitClose {
+            observer.stopWatching()
+        }
+    }
+}

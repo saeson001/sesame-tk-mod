@@ -1,1 +1,43 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS53aWRnZXQ7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuRGlhbG9nSW50ZXJmYWNlOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuQnV0dG9uOwoKaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5kaWFsb2cuTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXI7CgppbXBvcnQgYW5kcm9pZHguY29yZS5jb250ZW50LkNvbnRleHRDb21wYXQ7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuQ2hvaWNlTW9kZWxGaWVsZDsKCnB1YmxpYyBjbGFzcyBDaG9pY2VEaWFsb2cgewoKICAgIC8qKgogICAgICog5pi+56S65Y2V6YCJ5a+56K+d5qGG77yITWF0ZXJpYWwzIOmjjuagvO+8iQogICAgICoKICAgICAqIEBwYXJhbSBjb250ZXh0ICAgICAgICAgIOW9k+WJjeS4iuS4i+aWh++8jOeUqOS6juaehOW7uuWvueivneahhgogICAgICogQHBhcmFtIHRpdGxlICAgICAgICAgICAg5a+56K+d5qGG55qE5qCH6aKYCiAgICAgKiBAcGFyYW0gY2hvaWNlTW9kZWxGaWVsZCDljIXlkKvpgInpobnmlbDmja7nmoQgQ2hvaWNlTW9kZWxGaWVsZCDlr7nosaEKICAgICAqLwogICAgcHVibGljIHN0YXRpYyB2b2lkIHNob3coQ29udGV4dCBjb250ZXh0LCBDaGFyU2VxdWVuY2UgdGl0bGUsIENob2ljZU1vZGVsRmllbGQgY2hvaWNlTW9kZWxGaWVsZCkgewogICAgICAgIC8vIOS9v+eUqCBNYXRlcmlhbDMg5a+56K+d5qGG5p6E6YCg5ZmoCiAgICAgICAgYW5kcm9pZHguYXBwY29tcGF0LmFwcC5BbGVydERpYWxvZyBkaWFsb2cgPSBuZXcgTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXIoY29udGV4dCkKICAgICAgICAgICAgICAgIC5zZXRUaXRsZSh0aXRsZSkKICAgICAgICAgICAgICAgIC5zZXRTaW5nbGVDaG9pY2VJdGVtcyhjaG9pY2VNb2RlbEZpZWxkLmdldEV4cGFuZEtleSgpLCBjaG9pY2VNb2RlbEZpZWxkLmdldFZhbHVlKCksIChwMSwgcDIpIC0+IGNob2ljZU1vZGVsRmllbGQuc2V0T2JqZWN0VmFsdWUocDIpKQogICAgICAgICAgICAgICAgLnNldFBvc2l0aXZlQnV0dG9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm9rKSwgbnVsbCkKICAgICAgICAgICAgICAgIC5jcmVhdGUoKTsKCiAgICAgICAgLy8g6K6+572u56Gu6K6k5oyJ6ZKu6aKc6ImyCiAgICAgICAgZGlhbG9nLnNldE9uU2hvd0xpc3RlbmVyKChEaWFsb2dJbnRlcmZhY2UgZGlhbG9nSW50ZXJmYWNlKSAtPiB7CiAgICAgICAgICAgIEJ1dHRvbiBwb3NpdGl2ZUJ1dHRvbiA9IGRpYWxvZy5nZXRCdXR0b24oRGlhbG9nSW50ZXJmYWNlLkJVVFRPTl9QT1NJVElWRSk7CiAgICAgICAgICAgIGlmIChwb3NpdGl2ZUJ1dHRvbiAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBwb3NpdGl2ZUJ1dHRvbi5zZXRUZXh0Q29sb3IoQ29udGV4dENvbXBhdC5nZXRDb2xvcihjb250ZXh0LCBSLmNvbG9yLnNlbGVjdGlvbl9jb2xvcikpOwogICAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICAgICAgZGlhbG9nLnNob3coKTsKICAgIH0KCiAgICAvLyDms6jmhI/vvJpQcmlvcml0eU1vZGVsRmllbGQg55u45YWz55qE5pa55rOV5bey6KKr56e76Zmk77yM5Zug5Li6546w5Zyo5L2/55So566A5Y2V55qEIEJvb2xlYW5Nb2RlbEZpZWxkIOW8gOWFs+aooeW8jwoKfQo=
+package fansirsqi.xposed.sesame.ui.widget;
+
+import android.content.Context;
+import android.content.DialogInterface;
+import android.widget.Button;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
+import androidx.core.content.ContextCompat;
+
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.modelFieldExt.ChoiceModelField;
+
+public class ChoiceDialog {
+
+    /**
+     * 显示单选对话框（Material3 风格）
+     *
+     * @param context          当前上下文，用于构建对话框
+     * @param title            对话框的标题
+     * @param choiceModelField 包含选项数据的 ChoiceModelField 对象
+     */
+    public static void show(Context context, CharSequence title, ChoiceModelField choiceModelField) {
+        // 使用 Material3 对话框构造器
+        androidx.appcompat.app.AlertDialog dialog = new MaterialAlertDialogBuilder(context)
+                .setTitle(title)
+                .setSingleChoiceItems(choiceModelField.getExpandKey(), choiceModelField.getValue(), (p1, p2) -> choiceModelField.setObjectValue(p2))
+                .setPositiveButton(context.getString(R.string.ok), null)
+                .create();
+
+        // 设置确认按钮颜色
+        dialog.setOnShowListener((DialogInterface dialogInterface) -> {
+            Button positiveButton = dialog.getButton(DialogInterface.BUTTON_POSITIVE);
+            if (positiveButton != null) {
+                positiveButton.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+            }
+        });
+        dialog.show();
+    }
+
+    // 注意：PriorityModelField 相关的方法已被移除，因为现在使用简单的 BooleanModelField 开关模式
+
+}

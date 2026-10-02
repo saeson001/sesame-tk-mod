@@ -1,1 +1,160 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlSW5wdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uRmlsZU91dHB1dFN0cmVhbQppbXBvcnQgamF2YS5tYXRoLkJpZ0ludGVnZXIKaW1wb3J0IGphdmEuc2VjdXJpdHkuTWVzc2FnZURpZ2VzdAoKLyoqCiAqIOeUqOS6juWkhOeQhkFzc2V0c+i1hOa6kOaWh+S7tueahOW3peWFt+exuwogKi8Kb2JqZWN0IEFzc2V0VXRpbCB7CiAgICBwcml2YXRlIHZhbCBUQUc6IFN0cmluZyA9IEFzc2V0VXRpbDo6Y2xhc3MuamF2YS5zaW1wbGVOYW1lCiAgICBjb25zdCB2YWwgQ0hFS0NFX1NPID0gImxpYmNoZWNrZXIuc28iCiAgICBjb25zdCB2YWwgREVYS0lUX09TID0gImxpYmRleGtpdC5zbyIKICAgIHByaXZhdGUgdmFyIGRlc3REaXI6IFN0cmluZyA9IEZpbGVzLk1BSU5fRElSLmFic29sdXRlUGF0aCArIEZpbGUuc2VwYXJhdG9yICsgImxpYiIKICAgIHZhciBjaGVja2VyRGVzdEZpbGU6IEZpbGUgPSBGaWxlKGRlc3REaXIsIENIRUtDRV9TTykKICAgIHZhciBkZXhraXREZXN0RmlsZTogRmlsZSA9IEZpbGUoZGVzdERpciwgREVYS0lUX09TKQoKICAgIHByaXZhdGUgZnVuIGNvbXBhcmVNRDUoZmlsZTE6IFN0cmluZywgZmlsZTI6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBtZDUxID0gZ2V0TUQ1KGZpbGUxKQogICAgICAgICAgICB2YWwgbWQ1MiA9IGdldE1ENShmaWxlMikKICAgICAgICAgICAgaWYgKG1kNTEgPT0gbnVsbCB8fCBtZDUyID09IG51bGwgfHwgbWQ1MS5pc0VtcHR5KCkgfHwgbWQ1Mi5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBtZDUxID09IG1kNTIKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIkZhaWxlZCB0byBjb21wYXJlIE1ENTogIiArIGUubWVzc2FnZSkKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgfQoKCiAgICBwcml2YXRlIGZ1biBnZXRNRDUoZmlsZVBhdGg6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBmaWxlID0gRmlsZShmaWxlUGF0aCkKICAgICAgICAgICAgaWYgKCFmaWxlLmlzRmlsZSkgewogICAgICAgICAgICAgICAgcmV0dXJuIG51bGwgLy8g5paH5Lu25peg5pWI5pe26L+U5ZuebnVsbAogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBkaWdlc3QgPSBNZXNzYWdlRGlnZXN0LmdldEluc3RhbmNlKCJNRDUiKQogICAgICAgICAgICBGaWxlSW5wdXRTdHJlYW0oZmlsZSkudXNlIHsgYGluYCAtPiAgLy8g5L2/55SodHJ5LXdpdGgtcmVzb3VyY2VzCiAgICAgICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KDEwMjQpCiAgICAgICAgICAgICAgICB2YXIgbGVuOiBJbnQKICAgICAgICAgICAgICAgIHdoaWxlICgoYGluYC5yZWFkKGJ1ZmZlcikuYWxzbyB7IGxlbiA9IGl0IH0pICE9IC0xKSB7CiAgICAgICAgICAgICAgICAgICAgZGlnZXN0LnVwZGF0ZShidWZmZXIsIDAsIGxlbikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgZGlnZXN0Qnl0ZXMgPSBkaWdlc3QuZGlnZXN0KCkKICAgICAgICAgICAgcmV0dXJuIEJpZ0ludGVnZXIoMSwgZGlnZXN0Qnl0ZXMpLnRvU3RyaW5nKDE2KQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiRmFpbGVkIHRvIGdldCBNRDU6ICIgKyBlLm1lc3NhZ2UpCiAgICAgICAgICAgIHJldHVybiBudWxsIC8vIOW8guW4uOaXtui/lOWbnm51bGwKICAgICAgICB9CiAgICB9CgoKICAgIC8qKgogICAgICog5LuO5bqU55So5a6J6KOF55uu5b2V5aSN5Yi2c2/lupPliLDmqKHlnZfnp4HmnInnm67lvZUKICAgICAqCiAgICAgKiBAcGFyYW0gY29udGV4dCDkuIrkuIvmlocKICAgICAqIEBwYXJhbSBkZXN0RmlsZSAg55uu5qCHc2/lupPmlofku7YKICAgICAqIEByZXR1cm4g5aSN5Yi25piv5ZCm5oiQ5YqfCiAgICAgKi8KICAgIGZ1biBjb3B5U29GaWxlVG9TdG9yYWdlKGNvbnRleHQ6IENvbnRleHQsIGRlc3RGaWxlOiBGaWxlKTogQm9vbGVhbiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgRmlsZXMuZW5zdXJlRGlyKEZpbGUoZGVzdERpcikpCiAgICAgICAgICAgIHZhbCBhcHBJbmZvID0gY29udGV4dC5hcHBsaWNhdGlvbkluZm8KICAgICAgICAgICAgdmFsIHNvdXJjZURpciA9IGFwcEluZm8ubmF0aXZlTGlicmFyeURpciArIEZpbGUuc2VwYXJhdG9yICsgZGVzdEZpbGUubmFtZQovLyAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJDb3B5aW5nIFNPIGZpbGUgZnJvbSAkc291cmNlRGlyIHRvICR7ZGVzdEZpbGUuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIGlmIChkZXN0RmlsZS5leGlzdHMoKSAmJiBjb21wYXJlTUQ1KHNvdXJjZURpciwgZGVzdEZpbGUuYWJzb2x1dGVQYXRoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgfQogICAgICAgICAgICBGaWxlSW5wdXRTdHJlYW0oc291cmNlRGlyKS51c2UgeyBmaXMgLT4KICAgICAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0oZGVzdEZpbGUpLnVzZSB7IGZvcyAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBidWZmZXIgPSBCeXRlQXJyYXkoNDA5NikKICAgICAgICAgICAgICAgICAgICB2YXIgbGVuZ3RoOiBJbnQKICAgICAgICAgICAgICAgICAgICB3aGlsZSAoKGZpcy5yZWFkKGJ1ZmZlcikuYWxzbyB7IGxlbmd0aCA9IGl0IH0pID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICBmb3Mud3JpdGUoYnVmZmVyLCAwLCBsZW5ndGgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGZvcy5mbHVzaCgpCiAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZCgKICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAiQ29waWVkICR7ZGVzdEZpbGUubmFtZX0gZnJvbSAkc291cmNlRGlyICR7Y2hlY2tlckRlc3RGaWxlLmFic29sdXRlUGF0aH0iCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHNldEV4ZWN1dGFibGVQZXJtaXNzaW9ucyhkZXN0RmlsZSkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJGYWlsZWQgdG8gY29weSBTTyBmaWxlOiAiICsgZS5tZXNzYWdlKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDku47mqKHlnZfnp4HmnInnm67lvZXlpI3liLZzb+W6k+WIsOW6lOeUqOWuieijheebruW9lQogICAgICogQHBhcmFtIGNvbnRleHQg5LiK5LiL5paHCiAgICAgKiBAcGFyYW0gc291cmNlRmlsZSAg5rqQc2/lupPmlofku7YKICAgICAqIEByZXR1cm4g5aSN5Yi25piv5ZCm5oiQ5YqfCiAgICAgKi8KICAgIGZ1biBjb3B5U3RvcmFnZVNvRmlsZVRvUHJpdmF0ZURpcihjb250ZXh0OiBDb250ZXh0LCBzb3VyY2VGaWxlOiBGaWxlKTogRmlsZT8gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmICghc291cmNlRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIlNPIGZpbGUgbm90IGV4aXN0czogIiArIHNvdXJjZUZpbGUuYWJzb2x1dGVQYXRoKQogICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgdGFyZ2V0RGlyID0gY29udGV4dC5nZXREaXIoInNlc2FtZV9saWJzIiwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCiAgICAgICAgICAgIHZhbCB0YXJnZXRGaWxlID0gRmlsZSh0YXJnZXREaXIsIHNvdXJjZUZpbGUubmFtZSkKICAgICAgICAgICAgaWYgKHRhcmdldEZpbGUuZXhpc3RzKCkgJiYgY29tcGFyZU1ENSgKICAgICAgICAgICAgICAgICAgICBzb3VyY2VGaWxlLmFic29sdXRlUGF0aCwKICAgICAgICAgICAgICAgICAgICB0YXJnZXRGaWxlLmFic29sdXRlUGF0aAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIHJldHVybiB0YXJnZXRGaWxlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgRmlsZUlucHV0U3RyZWFtKHNvdXJjZUZpbGUpLnVzZSB7IGZpcyAtPgogICAgICAgICAgICAgICAgRmlsZU91dHB1dFN0cmVhbSh0YXJnZXRGaWxlKS51c2UgeyBmb3MgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KDQwOTYpCiAgICAgICAgICAgICAgICAgICAgdmFyIGxlbmd0aDogSW50CiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKChmaXMucmVhZChidWZmZXIpLmFsc28geyBsZW5ndGggPSBpdCB9KSA+IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgZm9zLndyaXRlKGJ1ZmZlciwgMCwgbGVuZ3RoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBmb3MuZmx1c2goKQogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiQ29waWVkICR7c291cmNlRmlsZS5uYW1lfSBmcm9tICR7c291cmNlRmlsZS5hYnNvbHV0ZVBhdGh9IHRvICR7dGFyZ2V0RmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgICAgICAgICBzZXRFeGVjdXRhYmxlUGVybWlzc2lvbnModGFyZ2V0RmlsZSkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdGFyZ2V0RmlsZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJGYWlsZWQgdG8gY29weSAke3NvdXJjZUZpbGUubmFtZX0gb2Ygc3RvcmFnZTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICB9CgoKICAgIC8qKgogICAgICog6K6+572u55uu5qCH5paH5Lu255qE5omn6KGM5p2D6ZmQCiAgICAgKgogICAgICogQHBhcmFtIGZpbGUgc2/lupPmlofku7YKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gc2V0RXhlY3V0YWJsZVBlcm1pc3Npb25zKGZpbGU6IEZpbGUpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoZmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgdmFsIGV4ZWNTdWNjZXNzID0gZmlsZS5zZXRFeGVjdXRhYmxlKHRydWUsIGZhbHNlKQogICAgICAgICAgICAgICAgQFN1cHByZXNzTGludCgiU2V0V29ybGRSZWFkYWJsZSIpIHZhbCByZWFkU3VjY2VzcyA9IGZpbGUuc2V0UmVhZGFibGUodHJ1ZSwgZmFsc2UpCiAgICAgICAgICAgICAgICBpZiAoIWV4ZWNTdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIkZhaWxlZCB0byBzZXQgZXhlY3V0YWJsZSBwZXJtaXNzaW9uIGZvciAiICsgZmlsZS5hYnNvbHV0ZVBhdGgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoIXJlYWRTdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIkZhaWxlZCB0byBzZXQgcmVhZGFibGUgcGVybWlzc2lvbiBmb3IgIiArIGZpbGUuYWJzb2x1dGVQYXRoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJGYWlsZWQgdG8gc2V0IGZpbGUgcGVybWlzc2lvbnM6ICIgKyBlLm1lc3NhZ2UpCiAgICAgICAgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.util
+
+import android.annotation.SuppressLint
+import android.content.Context
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.math.BigInteger
+import java.security.MessageDigest
+
+/**
+ * 用于处理Assets资源文件的工具类
+ */
+object AssetUtil {
+    private val TAG: String = AssetUtil::class.java.simpleName
+    const val CHEKCE_SO = "libchecker.so"
+    const val DEXKIT_OS = "libdexkit.so"
+    private var destDir: String = Files.MAIN_DIR.absolutePath + File.separator + "lib"
+    var checkerDestFile: File = File(destDir, CHEKCE_SO)
+    var dexkitDestFile: File = File(destDir, DEXKIT_OS)
+
+    private fun compareMD5(file1: String, file2: String): Boolean {
+        try {
+            val md51 = getMD5(file1)
+            val md52 = getMD5(file2)
+            if (md51 == null || md52 == null || md51.isEmpty() || md52.isEmpty()) {
+                return false
+            }
+            return md51 == md52
+        } catch (e: Exception) {
+            Log.error(TAG, "Failed to compare MD5: " + e.message)
+            return false
+        }
+    }
+
+
+    private fun getMD5(filePath: String): String? {
+        try {
+            val file = File(filePath)
+            if (!file.isFile) {
+                return null // 文件无效时返回null
+            }
+            val digest = MessageDigest.getInstance("MD5")
+            FileInputStream(file).use { `in` ->  // 使用try-with-resources
+                val buffer = ByteArray(1024)
+                var len: Int
+                while ((`in`.read(buffer).also { len = it }) != -1) {
+                    digest.update(buffer, 0, len)
+                }
+            }
+            val digestBytes = digest.digest()
+            return BigInteger(1, digestBytes).toString(16)
+        } catch (e: Exception) {
+            Log.error(TAG, "Failed to get MD5: " + e.message)
+            return null // 异常时返回null
+        }
+    }
+
+
+    /**
+     * 从应用安装目录复制so库到模块私有目录
+     *
+     * @param context 上下文
+     * @param destFile  目标so库文件
+     * @return 复制是否成功
+     */
+    fun copySoFileToStorage(context: Context, destFile: File): Boolean {
+        try {
+            Files.ensureDir(File(destDir))
+            val appInfo = context.applicationInfo
+            val sourceDir = appInfo.nativeLibraryDir + File.separator + destFile.name
+//            Log.error(TAG, "Copying SO file from $sourceDir to ${destFile.absolutePath}")
+            if (destFile.exists() && compareMD5(sourceDir, destFile.absolutePath)) {
+                return true
+            }
+            FileInputStream(sourceDir).use { fis ->
+                FileOutputStream(destFile).use { fos ->
+                    val buffer = ByteArray(4096)
+                    var length: Int
+                    while ((fis.read(buffer).also { length = it }) > 0) {
+                        fos.write(buffer, 0, length)
+                    }
+                    fos.flush()
+                    Log.record(
+                        TAG,
+                        "Copied ${destFile.name} from $sourceDir ${checkerDestFile.absolutePath}"
+                    )
+                    setExecutablePermissions(destFile)
+                    return true
+                }
+            }
+        } catch (e: Exception) {
+            Log.error(TAG, "Failed to copy SO file: " + e.message)
+            return false
+        }
+    }
+
+    /**
+     * 从模块私有目录复制so库到应用安装目录
+     * @param context 上下文
+     * @param sourceFile  源so库文件
+     * @return 复制是否成功
+     */
+    fun copyStorageSoFileToPrivateDir(context: Context, sourceFile: File): File? {
+        try {
+            if (!sourceFile.exists()) {
+                Log.error(TAG, "SO file not exists: " + sourceFile.absolutePath)
+                return null
+            }
+            val targetDir = context.getDir("sesame_libs", Context.MODE_PRIVATE)
+            val targetFile = File(targetDir, sourceFile.name)
+            if (targetFile.exists() && compareMD5(
+                    sourceFile.absolutePath,
+                    targetFile.absolutePath
+                )
+            ) {
+                return targetFile
+            }
+            FileInputStream(sourceFile).use { fis ->
+                FileOutputStream(targetFile).use { fos ->
+                    val buffer = ByteArray(4096)
+                    var length: Int
+                    while ((fis.read(buffer).also { length = it }) > 0) {
+                        fos.write(buffer, 0, length)
+                    }
+                    fos.flush()
+                    Log.record(TAG, "Copied ${sourceFile.name} from ${sourceFile.absolutePath} to ${targetFile.absolutePath}")
+                    setExecutablePermissions(targetFile)
+                    return targetFile
+                }
+            }
+        } catch (e: Exception) {
+            Log.error(TAG, "Failed to copy ${sourceFile.name} of storage: ${e.message}")
+            return null
+        }
+    }
+
+
+    /**
+     * 设置目标文件的执行权限
+     *
+     * @param file so库文件
+     */
+    private fun setExecutablePermissions(file: File) {
+        try {
+            if (file.exists()) {
+                val execSuccess = file.setExecutable(true, false)
+                @SuppressLint("SetWorldReadable") val readSuccess = file.setReadable(true, false)
+                if (!execSuccess) {
+                    Log.error(TAG, "Failed to set executable permission for " + file.absolutePath)
+                }
+                if (!readSuccess) {
+                    Log.error(TAG, "Failed to set readable permission for " + file.absolutePath)
+                }
+            }
+        } catch (e: Exception) {
+            Log.error(TAG, "Failed to set file permissions: " + e.message)
+        }
+    }
+}

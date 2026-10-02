@@ -1,1 +1,35 @@
-cGx1Z2luTWFuYWdlbWVudCB7CiAgICByZXBvc2l0b3JpZXMgewogICAgICAgIG1hdmVuIHsgdXJsID0gdXJpKCJodHRwczovL21hdmVuLmFsaXl1bi5jb20vcmVwb3NpdG9yeS9wdWJsaWMiKSB9CiAgICAgICAgbWF2ZW4geyB1cmwgPSB1cmkoImh0dHBzOi8vbWF2ZW4uYWxpeXVuLmNvbS9yZXBvc2l0b3J5L2dvb2dsZSIpIH0KICAgICAgICBtYXZlbiB7IHVybCA9IHVyaSgiaHR0cHM6Ly9tYXZlbi5hbGl5dW4uY29tL3JlcG9zaXRvcnkvZ3JhZGxlLXBsdWdpbiIpIH0KICAgICAgICBtYXZlbkNlbnRyYWwoKQogICAgICAgIGdyYWRsZVBsdWdpblBvcnRhbCgpCiAgICAgICAgZ29vZ2xlKCkKICAgIH0KICAgIHBsdWdpbnMgewogICAgICAgIGtvdGxpbigianZtIikgdmVyc2lvbiAiMi4yLjIxIgogICAgfQp9CgpkZXBlbmRlbmN5UmVzb2x1dGlvbk1hbmFnZW1lbnQgewogICAgcmVwb3NpdG9yaWVzTW9kZSA9IFJlcG9zaXRvcmllc01vZGUuRkFJTF9PTl9QUk9KRUNUX1JFUE9TCiAgICByZXBvc2l0b3JpZXMgewogICAgICAgIG1hdmVuIHsgdXJsID0gdXJpKCJodHRwczovL21hdmVuLmFsaXl1bi5jb20vcmVwb3NpdG9yeS9wdWJsaWMiKSB9CiAgICAgICAgbWF2ZW4geyB1cmwgPSB1cmkoImh0dHBzOi8vbWF2ZW4uYWxpeXVuLmNvbS9yZXBvc2l0b3J5L2dvb2dsZSIpIH0KICAgICAgICBnb29nbGUoKQogICAgICAgIG1hdmVuQ2VudHJhbCgpCiAgICAgICAgbWF2ZW4geyB1cmwgPSB1cmkoImh0dHBzOi8vaml0cGFjay5pbyIpIH0KICAgICAgICBtYXZlbigiaHR0cHM6Ly9tYXZlbi5hbGl5dW4uY29tL3JlcG9zaXRvcnkvc3ByaW5nIikKICAgICAgICBtYXZlbkxvY2FsIHsKICAgICAgICAgICAgY29udGVudCB7CiAgICAgICAgICAgICAgICBpbmNsdWRlR3JvdXAoImlvLmdpdGh1Yi5saWJ4cG9zZWQiKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgdmVyc2lvbkNhdGFsb2dzIHsKICAgICAgICBjcmVhdGUoImxpYnMiKQogICAgfQp9CgppbmNsdWRlKCI6YXBwIikK
+pluginManagement {
+    repositories {
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+        mavenCentral()
+        gradlePluginPortal()
+        google()
+    }
+    plugins {
+        kotlin("jvm") version "2.2.21"
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode = RepositoriesMode.FAIL_ON_PROJECT_REPOS
+    repositories {
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+        maven("https://maven.aliyun.com/repository/spring")
+        mavenLocal {
+            content {
+                includeGroup("io.github.libxposed")
+            }
+        }
+    }
+    versionCatalogs {
+        create("libs")
+    }
+}
+
+include(":app")

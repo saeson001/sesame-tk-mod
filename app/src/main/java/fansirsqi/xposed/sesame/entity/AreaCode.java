@@ -1,1 +1,72 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHk7CmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXk7CmltcG9ydCBvcmcuanNvbi5KU09ORXhjZXB0aW9uOwppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdDsKaW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRmlsZXM7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKLyoqCiAqIOWMuuWfn+S7o+eggeexu++8jOe7p+aJv+iHqklkQW5kTmFtZeOAggogKiDor6XnsbvnlKjkuo7nrqHnkIbln47luILku6PnoIHlkozln47luILlkI3np7DjgIIKICovCnB1YmxpYyBjbGFzcyBBcmVhQ29kZSBleHRlbmRzIE1hcHBlckVudGl0eSB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gQXJlYUNvZGUuY2xhc3MuZ2V0U2ltcGxlTmFtZSgpOwogICAgcHJpdmF0ZSBzdGF0aWMgTGlzdDxBcmVhQ29kZT4gbGlzdDsKICAgIC8qKgogICAgICog5p6E6YCg5Ye95pWw77yM5Yid5aeL5YyW5Yy65Z+f5Luj56CB5a+56LGh44CCCiAgICAgKgogICAgICogQHBhcmFtIGkg5Yy65Z+f5Luj56CBCiAgICAgKiBAcGFyYW0gbiDljLrln5/lkI3np7AKICAgICAqLwogICAgcHVibGljIEFyZWFDb2RlKFN0cmluZyBpLCBTdHJpbmcgbikgewogICAgICAgIGlkID0gaTsKICAgICAgICBuYW1lID0gbjsKICAgIH0KICAgIC8qKgogICAgICog6I635Y+W5Yy65Z+f5Luj56CB5YiX6KGo44CCCiAgICAgKiDlpoLmnpzliJfooajlsJrmnKrliJ3lp4vljJbvvIzliJnku47mlofku7bkuK3or7vlj5bln47luILku6PnoIHjgIIKICAgICAqIOWmguaenOivu+WPluWksei0pe+8jOWImeS9v+eUqOm7mOiupOWfjuW4guS7o+eggeOAggogICAgICoKICAgICAqIEByZXR1cm4g5Yy65Z+f5Luj56CB5YiX6KGoCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgTGlzdDxBcmVhQ29kZT4gZ2V0TGlzdCgpIHRocm93cyBKU09ORXhjZXB0aW9uIHsKICAgICAgICBpZiAobGlzdCA9PSBudWxsKSB7CiAgICAgICAgICAgIFN0cmluZyBjaXR5Q29kZSA9IEZpbGVzLnJlYWRGcm9tRmlsZShGaWxlcy5nZXRDaXR5Q29kZUZpbGUoKSk7CiAgICAgICAgICAgIEpTT05BcnJheSBqYSA9IHBhcnNlQ2l0eUNvZGUoY2l0eUNvZGUpOwogICAgICAgICAgICBsaXN0ID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgamEubGVuZ3RoKCk7IGkrKykgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBKU09OT2JqZWN0IGpvID0gamEuZ2V0SlNPTk9iamVjdChpKTsKICAgICAgICAgICAgICAgICAgICBsaXN0LmFkZChuZXcgQXJlYUNvZGUoam8uZ2V0U3RyaW5nKCJjaXR5Q29kZSIpLCBqby5nZXRTdHJpbmcoImNpdHlOYW1lIikpKTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEpTT05FeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCBlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gbGlzdDsKICAgIH0KICAgIC8qKgogICAgICog6Kej5p6Q5Z+O5biC5Luj56CB5a2X56ym5Liy5Li6SlNPTkFycmF544CCCiAgICAgKiDlpoLmnpzop6PmnpDlpLHotKXvvIzliJnov5Tlm57pu5jorqTnmoTln47luILku6PnoIFKU09OQXJyYXnjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gY2l0eUNvZGUg5Z+O5biC5Luj56CB5a2X56ym5LiyCiAgICAgKiBAcmV0dXJuIOino+aekOWQjueahEpTT05BcnJheQogICAgICovCiAgICBwcml2YXRlIHN0YXRpYyBKU09OQXJyYXkgcGFyc2VDaXR5Q29kZShTdHJpbmcgY2l0eUNvZGUpIHRocm93cyBKU09ORXhjZXB0aW9uIHsKICAgICAgICB0cnkgewogICAgICAgICAgICByZXR1cm4gbmV3IEpTT05BcnJheShjaXR5Q29kZSk7CiAgICAgICAgfSBjYXRjaCAoSlNPTkV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIC8vIOino+aekOWksei0pe+8jOS9v+eUqOm7mOiupOWfjuW4guS7o+eggQogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgInBhcnNlQ2l0eUNvZGUgZmFpbGVkIHdpdGggZXJyb3IgbWVzc2FnZTogIiArIGUuZ2V0TWVzc2FnZSgpKyJcbiBOb3cgdXNlIGRlZmF1bHQgY2l0aWVzLiIpOwogICAgICAgICAgICBKU09OQXJyYXkgZGVmYXVsdENpdGllcyA9IG5ldyBKU09OQXJyYXkoKTsKICAgICAgICAgICAgZGVmYXVsdENpdGllcy5wdXQobmV3IEpTT05PYmplY3QoKS5wdXQoImNpdHlDb2RlIiwgIjM1MDEwMCIpLnB1dCgiY2l0eU5hbWUiLCAi56aP5bee5biCIikpOwogICAgICAgICAgICBkZWZhdWx0Q2l0aWVzLnB1dChuZXcgSlNPTk9iamVjdCgpLnB1dCgiY2l0eUNvZGUiLCAiNDQwMTAwIikucHV0KCJjaXR5TmFtZSIsICLlub/lt57luIIiKSk7CiAgICAgICAgICAgIGRlZmF1bHRDaXRpZXMucHV0KG5ldyBKU09OT2JqZWN0KCkucHV0KCJjaXR5Q29kZSIsICIzMzAxMDAiKS5wdXQoImNpdHlOYW1lIiwgIuadreW3nuW4giIpKTsKICAgICAgICAgICAgZGVmYXVsdENpdGllcy5wdXQobmV3IEpTT05PYmplY3QoKS5wdXQoImNpdHlDb2RlIiwgIjM3MDEwMCIpLnB1dCgiY2l0eU5hbWUiLCAi5rWO5Y2X5biCIikpOwogICAgICAgICAgICBkZWZhdWx0Q2l0aWVzLnB1dChuZXcgSlNPTk9iamVjdCgpLnB1dCgiY2l0eUNvZGUiLCAiMzIwMTAwIikucHV0KCJjaXR5TmFtZSIsICLljZfkuqzluIIiKSk7CiAgICAgICAgICAgIGRlZmF1bHRDaXRpZXMucHV0KG5ldyBKU09OT2JqZWN0KCkucHV0KCJjaXR5Q29kZSIsICI0MzAxMDAiKS5wdXQoImNpdHlOYW1lIiwgIumVv+aymeW4giIpKTsKICAgICAgICAgICAgcmV0dXJuIGRlZmF1bHRDaXRpZXM7CiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.entity;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import java.util.ArrayList;
+import java.util.List;
+import fansirsqi.xposed.sesame.util.Files;
+import fansirsqi.xposed.sesame.util.Log;
+/**
+ * 区域代码类，继承自IdAndName。
+ * 该类用于管理城市代码和城市名称。
+ */
+public class AreaCode extends MapperEntity {
+    private static final String TAG = AreaCode.class.getSimpleName();
+    private static List<AreaCode> list;
+    /**
+     * 构造函数，初始化区域代码对象。
+     *
+     * @param i 区域代码
+     * @param n 区域名称
+     */
+    public AreaCode(String i, String n) {
+        id = i;
+        name = n;
+    }
+    /**
+     * 获取区域代码列表。
+     * 如果列表尚未初始化，则从文件中读取城市代码。
+     * 如果读取失败，则使用默认城市代码。
+     *
+     * @return 区域代码列表
+     */
+    public static List<AreaCode> getList() throws JSONException {
+        if (list == null) {
+            String cityCode = Files.readFromFile(Files.getCityCodeFile());
+            JSONArray ja = parseCityCode(cityCode);
+            list = new ArrayList<>();
+            for (int i = 0; i < ja.length(); i++) {
+                try {
+                    JSONObject jo = ja.getJSONObject(i);
+                    list.add(new AreaCode(jo.getString("cityCode"), jo.getString("cityName")));
+                } catch (JSONException e) {
+                    Log.printStackTrace(TAG, e);
+                }
+            }
+        }
+        return list;
+    }
+    /**
+     * 解析城市代码字符串为JSONArray。
+     * 如果解析失败，则返回默认的城市代码JSONArray。
+     *
+     * @param cityCode 城市代码字符串
+     * @return 解析后的JSONArray
+     */
+    private static JSONArray parseCityCode(String cityCode) throws JSONException {
+        try {
+            return new JSONArray(cityCode);
+        } catch (JSONException e) {
+            // 解析失败，使用默认城市代码
+            Log.record(TAG, "parseCityCode failed with error message: " + e.getMessage()+"\n Now use default cities.");
+            JSONArray defaultCities = new JSONArray();
+            defaultCities.put(new JSONObject().put("cityCode", "350100").put("cityName", "福州市"));
+            defaultCities.put(new JSONObject().put("cityCode", "440100").put("cityName", "广州市"));
+            defaultCities.put(new JSONObject().put("cityCode", "330100").put("cityName", "杭州市"));
+            defaultCities.put(new JSONObject().put("cityCode", "370100").put("cityName", "济南市"));
+            defaultCities.put(new JSONObject().put("cityCode", "320100").put("cityName", "南京市"));
+            defaultCities.put(new JSONObject().put("cityCode", "430100").put("cityName", "长沙市"));
+            return defaultCities;
+        }
+    }
+}

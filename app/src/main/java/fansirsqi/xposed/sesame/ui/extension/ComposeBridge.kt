@@ -1,1 +1,90 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5leHRlbnNpb24KCmltcG9ydCBhbmRyb2lkLmFwcC5BY3Rpdml0eQppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQub3MuQ291bnREb3duVGltZXIKaW1wb3J0IGFuZHJvaWQub3MuSGFuZGxlcgppbXBvcnQgYW5kcm9pZC5vcy5Mb29wZXIKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3R3JvdXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkFsZXJ0RGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0QnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uQ29tcG9zZVZpZXcKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5jb21wb3NlLmNvbGxlY3RBc1N0YXRlV2l0aExpZmVjeWNsZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuY29tcG9zZS5Db21tb25BbGVydERpYWxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkudGhlbWUuQXBwVGhlbWUKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLnRoZW1lLlRoZW1lTWFuYWdlcgppbXBvcnQga290bGluLnN5c3RlbS5leGl0UHJvY2VzcwoKCm9iamVjdCBOYXRpdmVDb21wb3NlQnJpZGdlIHsKCgogICAgLyoqCiAgICAgKiDkvpsgQysrIOiwg+eUqOeahOmdmeaAgeWFpeWPowogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gc2hvd0FsZXJ0RGlhbG9nKGNvbnRleHQ6IENvbnRleHQsIHRpdGxlOiBTdHJpbmcsIG1lc3NhZ2U6IFN0cmluZywgYnV0dG9uVGV4dDogU3RyaW5nKSB7CiAgICAgICAgLy8gSk5JIOiwg+eUqOWPr+iDveWcqOWQjuWPsOe6v+eoi++8jOW/hemhu+WIh+WbnuS4u+e6v+eoi+aTjeS9nCBVSQogICAgICAgIEhhbmRsZXIoTG9vcGVyLmdldE1haW5Mb29wZXIoKSkucG9zdCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgYWN0aXZpdHkgPSBjb250ZXh0IGFzPyBBY3Rpdml0eSA/OiAvLyDlpoLmnpwgQ29udGV4dCDkuI3mmK8gQWN0aXZpdHnvvIzml6Dms5XmmL7npLogQ29tcG9zZSBEaWFsb2cKICAgICAgICAgICAgICAgIHJldHVybkBwb3N0CiAgICAgICAgICAgICAgICB2YWwgcm9vdFZpZXcgPSBhY3Rpdml0eS5maW5kVmlld0J5SWQ8Vmlld0dyb3VwPihhbmRyb2lkLlIuaWQuY29udGVudCkKICAgICAgICAgICAgICAgIHZhbCBjb21wb3NlVmlldyA9IENvbXBvc2VWaWV3KGNvbnRleHQpCiAgICAgICAgICAgICAgICBjb21wb3NlVmlldy5zZXRDb250ZW50IHsKICAgICAgICAgICAgICAgICAgICB2YWwgaXNEeW5hbWljQ29sb3IgYnkgVGhlbWVNYW5hZ2VyLmlzRHluYW1pY0NvbG9yLmNvbGxlY3RBc1N0YXRlV2l0aExpZmVjeWNsZSgpCiAgICAgICAgICAgICAgICAgICAgQXBwVGhlbWUoZHluYW1pY0NvbG9yID0gaXNEeW5hbWljQ29sb3IpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHNob3cgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZih0cnVlKSB9CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzaG93KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBDb21tb25BbGVydERpYWxvZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaG93RGlhbG9nID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaG93ID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9vdFZpZXcucG9zdCB7IHJvb3RWaWV3LnJlbW92ZVZpZXcoY29tcG9zZVZpZXcpIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ29uZmlybSA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gdGl0bGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IG1lc3NhZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlybVRleHQgPSBidXR0b25UZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNob3dDYW5jZWxCdXR0b24gPSBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcm9vdFZpZXcuYWRkVmlldyhjb21wb3NlVmlldykKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgoKCgoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBzaG93QWxlcnRBZnRlckRlbGF5KAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgdGl0bGU6IFN0cmluZywKICAgICAgICBtZXNzYWdlOiBTdHJpbmcsCiAgICAgICAgYnV0dG9uVGV4dDogU3RyaW5nLAogICAgICAgIGRlbGF5TWlsbGlzOiBMb25nCiAgICApIHsKICAgICAgICAvLyAxLiDkvb/nlKjku44gQysrIOS8oOWFpeeahOWPguaVsOaYvuekuuWvueivneahhgogICAgICAgIHNob3dBbGVydERpYWxvZyhjb250ZXh0LCB0aXRsZSwgbWVzc2FnZSwgYnV0dG9uVGV4dCkKCiAgICAgICAgLy8gMi4g5L2/55So5LuOIEMrKyDkvKDlhaXnmoTlu7bov5/ml7bpl7TmnaXmiafooYzpgIDlh7rmk43kvZwKICAgICAgICBIYW5kbGVyKExvb3Blci5nZXRNYWluTG9vcGVyKCkpLnBvc3REZWxheWVkKHsKICAgICAgICAgICAgZXhpdFByb2Nlc3MoMCkKICAgICAgICB9LCBkZWxheU1pbGxpcykKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.ui.extension
+
+import android.app.Activity
+import android.content.Context
+import android.os.CountDownTimer
+import android.os.Handler
+import android.os.Looper
+import android.view.ViewGroup
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.ComposeView
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import fansirsqi.xposed.sesame.ui.compose.CommonAlertDialog
+import fansirsqi.xposed.sesame.ui.theme.AppTheme
+import fansirsqi.xposed.sesame.ui.theme.ThemeManager
+import kotlin.system.exitProcess
+
+
+object NativeComposeBridge {
+
+
+    /**
+     * 供 C++ 调用的静态入口
+     */
+    @JvmStatic
+    fun showAlertDialog(context: Context, title: String, message: String, buttonText: String) {
+        // JNI 调用可能在后台线程，必须切回主线程操作 UI
+        Handler(Looper.getMainLooper()).post {
+            try {
+                val activity = context as? Activity ?: // 如果 Context 不是 Activity，无法显示 Compose Dialog
+                return@post
+                val rootView = activity.findViewById<ViewGroup>(android.R.id.content)
+                val composeView = ComposeView(context)
+                composeView.setContent {
+                    val isDynamicColor by ThemeManager.isDynamicColor.collectAsStateWithLifecycle()
+                    AppTheme(dynamicColor = isDynamicColor) {
+                        var show by remember { mutableStateOf(true) }
+                        if (show) {
+                            CommonAlertDialog(
+                                showDialog = true,
+                                onDismissRequest = {
+                                    show = false
+                                    rootView.post { rootView.removeView(composeView) }
+                                },
+                                onConfirm = {
+                                },
+                                title = title,
+                                text = message,
+                                confirmText = buttonText,
+                                showCancelButton = false
+                            )
+                        }
+                    }
+                }
+                rootView.addView(composeView)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
+
+
+
+
+
+    @JvmStatic
+    fun showAlertAfterDelay(
+        context: Context,
+        title: String,
+        message: String,
+        buttonText: String,
+        delayMillis: Long
+    ) {
+        // 1. 使用从 C++ 传入的参数显示对话框
+        showAlertDialog(context, title, message, buttonText)
+
+        // 2. 使用从 C++ 传入的延迟时间来执行退出操作
+        Handler(Looper.getMainLooper()).postDelayed({
+            exitProcess(0)
+        }, delayMillis)
+    }
+}

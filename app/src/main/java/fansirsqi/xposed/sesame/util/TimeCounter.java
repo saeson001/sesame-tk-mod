@@ -1,1 +1,68 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nOwoKaW1wb3J0IGphdmEudGltZS5JbnN0YW50OwppbXBvcnQgamF2YS50aW1lLkR1cmF0aW9uOwppbXBvcnQgamF2YS51dGlsLmZ1bmN0aW9uLkJpQ29uc3VtZXI7CmltcG9ydCBqYXZhLnV0aWwuZnVuY3Rpb24uQ29uc3VtZXI7CgpwdWJsaWMgY2xhc3MgVGltZUNvdW50ZXIgewoKICAgIHByaXZhdGUgZmluYWwgU3RyaW5nIG5hbWU7CiAgICBwcml2YXRlIGZpbmFsIEluc3RhbnQgc3RhcnQ7CiAgICBwcml2YXRlIEluc3RhbnQgbGFzdENoZWNrcG9pbnQ7CiAgICBwcml2YXRlIGJvb2xlYW4gc3RvcHBlZCA9IGZhbHNlOwogICAgcHJpdmF0ZSBpbnQgdW5leGNlcHRDbnQgPSAwOwogICAgcHJpdmF0ZSBmaW5hbCBTdHJpbmdCdWlsZGVyIHJlc3VsdE1zZyA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7CiAgICBwcml2YXRlIENvbnN1bWVyPFN0cmluZz4gX2xvZ2dlcjsKCiAgICBwdWJsaWMgVGltZUNvdW50ZXIoU3RyaW5nIG5hbWUpIHsKICAgICAgICB0aGlzLm5hbWUgPSBuYW1lOwogICAgICAgIHRoaXMuc3RhcnQgPSBJbnN0YW50Lm5vdygpOwogICAgICAgIHRoaXMubGFzdENoZWNrcG9pbnQgPSB0aGlzLnN0YXJ0OwogICAgfQoKICAgIC8vIOexu+S8vCBDKysg5p6Q5p6E55qE5omL5Yqo6LCD55So6YC76L6RCiAgICBwdWJsaWMgdm9pZCBjbG9zZSgpIHsKICAgICAgICBpZiAoc3RvcHBlZCkgewogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIGlmICh1bmV4Y2VwdENudCA+IDApIHsKICAgICAgICAgICAgc3RvcCgpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzdG9wKCkgewogICAgICAgIEluc3RhbnQgZW5kID0gSW5zdGFudC5ub3coKTsKICAgICAgICBsb25nIGR1cmF0aW9uTXMgPSBEdXJhdGlvbi5iZXR3ZWVuKHN0YXJ0LCBlbmQpLnRvTWlsbGlzKCk7CiAgICAgICAgTG9nLnJlY29yZChuYW1lLFN0cmluZy5mb3JtYXQoIj09PT09PT09PT09PT09PT09PT09PT09PVxuJXMg6ICX5pe2OiAlZCBtcyAoJXMpIiwgCiAgICAgICAgICAgICAgICBuYW1lLCBkdXJhdGlvbk1zLCByZXN1bHRNc2cpKTsKICAgICAgICBzdG9wcGVkID0gdHJ1ZTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBjb3VudERlYnVnKFN0cmluZyBtc2cpIHsKICAgICAgICBJbnN0YW50IG5vdyA9IEluc3RhbnQubm93KCk7CiAgICAgICAgbG9uZyBkdXJhdGlvbk1zID0gRHVyYXRpb24uYmV0d2VlbihsYXN0Q2hlY2twb2ludCwgbm93KS50b01pbGxpcygpOwogICAgICAgIExvZy5yZWNvcmQobmFtZSxTdHJpbmcuZm9ybWF0KCI9PT09PT09PT09PT09PT09PT09PT09PT1cbiVzIOiAl+aXtjogJWQgbXMiLCBtc2csIGR1cmF0aW9uTXMpKTsKICAgICAgICBsYXN0Q2hlY2twb2ludCA9IG5vdzsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBjb3VudChTdHJpbmcgbXNnKSB7CiAgICAgICAgSW5zdGFudCBub3cgPSBJbnN0YW50Lm5vdygpOwogICAgICAgIGxvbmcgZHVyYXRpb25NcyA9IER1cmF0aW9uLmJldHdlZW4obGFzdENoZWNrcG9pbnQsIG5vdykudG9NaWxsaXMoKTsKICAgICAgICByZXN1bHRNc2cuYXBwZW5kKG1zZykuYXBwZW5kKCI6IikuYXBwZW5kKGR1cmF0aW9uTXMpLmFwcGVuZCgiIG1zLCAiKTsKICAgICAgICBsYXN0Q2hlY2twb2ludCA9IG5vdzsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBjb3VudFVuZXhjZXB0KFN0cmluZyBtc2csIGxvbmcgZXhjZXB0TXMpIHsKICAgICAgICBJbnN0YW50IG5vdyA9IEluc3RhbnQubm93KCk7CiAgICAgICAgbG9uZyBkdXJhdGlvbk1zID0gRHVyYXRpb24uYmV0d2VlbihsYXN0Q2hlY2twb2ludCwgbm93KS50b01pbGxpcygpOwogICAgICAgIGlmIChkdXJhdGlvbk1zID4gZXhjZXB0TXMpIHsKICAgICAgICAgICAgcmVzdWx0TXNnLmFwcGVuZChtc2cpLmFwcGVuZCgiOiIpLmFwcGVuZChkdXJhdGlvbk1zKQogICAgICAgICAgICAgICAgICAgICAuYXBwZW5kKCIgbXMoZXhjZXB0OiIpLmFwcGVuZChleGNlcHRNcykuYXBwZW5kKCJtcyksICIpOwogICAgICAgICAgICB1bmV4Y2VwdENudCsrOwogICAgICAgIH0KICAgICAgICBsYXN0Q2hlY2twb2ludCA9IG5vdzsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.util;
+
+import fansirsqi.xposed.sesame.util.Log;
+
+import java.time.Instant;
+import java.time.Duration;
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+
+public class TimeCounter {
+
+    private final String name;
+    private final Instant start;
+    private Instant lastCheckpoint;
+    private boolean stopped = false;
+    private int unexceptCnt = 0;
+    private final StringBuilder resultMsg = new StringBuilder();
+    private Consumer<String> _logger;
+
+    public TimeCounter(String name) {
+        this.name = name;
+        this.start = Instant.now();
+        this.lastCheckpoint = this.start;
+    }
+
+    // 类似 C++ 析构的手动调用逻辑
+    public void close() {
+        if (stopped) {
+            return;
+        }
+        if (unexceptCnt > 0) {
+            stop();
+        }
+    }
+
+    public void stop() {
+        Instant end = Instant.now();
+        long durationMs = Duration.between(start, end).toMillis();
+        Log.record(name,String.format("========================\n%s 耗时: %d ms (%s)", 
+                name, durationMs, resultMsg));
+        stopped = true;
+    }
+
+    public void countDebug(String msg) {
+        Instant now = Instant.now();
+        long durationMs = Duration.between(lastCheckpoint, now).toMillis();
+        Log.record(name,String.format("========================\n%s 耗时: %d ms", msg, durationMs));
+        lastCheckpoint = now;
+    }
+
+    public void count(String msg) {
+        Instant now = Instant.now();
+        long durationMs = Duration.between(lastCheckpoint, now).toMillis();
+        resultMsg.append(msg).append(":").append(durationMs).append(" ms, ");
+        lastCheckpoint = now;
+    }
+
+    public void countUnexcept(String msg, long exceptMs) {
+        Instant now = Instant.now();
+        long durationMs = Duration.between(lastCheckpoint, now).toMillis();
+        if (durationMs > exceptMs) {
+            resultMsg.append(msg).append(":").append(durationMs)
+                     .append(" ms(except:").append(exceptMs).append("ms), ");
+            unexceptCnt++;
+        }
+        lastCheckpoint = now;
+    }
+}

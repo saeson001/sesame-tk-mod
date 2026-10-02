@@ -1,1 +1,80 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuR3Jhdml0eTsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkJ1dHRvbjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkxpbmVhckxheW91dDsKaW1wb3J0IGFuZHJvaWR4LmNvcmUuY29udGVudC5Db250ZXh0Q29tcGF0OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5LVk1hcDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5TZWxlY3RNb2RlbEZpZWxkRnVuYzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5NYXBwZXJFbnRpdHk7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS53aWRnZXQuTGlzdERpYWxvZzsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk9iamVjdHM7CnB1YmxpYyBjbGFzcyBTZWxlY3RBbmRDb3VudE9uZU1vZGVsRmllbGQgZXh0ZW5kcyBNb2RlbEZpZWxkPEtWTWFwPFN0cmluZywgSW50ZWdlcj4+IGltcGxlbWVudHMgU2VsZWN0TW9kZWxGaWVsZEZ1bmMgewogICAgcHJpdmF0ZSBTZWxlY3RMaXN0RnVuYyBzZWxlY3RMaXN0RnVuYzsKICAgIHByaXZhdGUgTGlzdDw/IGV4dGVuZHMgTWFwcGVyRW50aXR5PiBleHBhbmRWYWx1ZTsKICAgIHB1YmxpYyBTZWxlY3RBbmRDb3VudE9uZU1vZGVsRmllbGQoU3RyaW5nIGNvZGUsIFN0cmluZyBuYW1lLCBLVk1hcDxTdHJpbmcsIEludGVnZXI+IHZhbHVlLCBMaXN0PD8gZXh0ZW5kcyBNYXBwZXJFbnRpdHk+IGV4cGFuZFZhbHVlKSB7CiAgICAgICAgc3VwZXIoY29kZSwgbmFtZSwgdmFsdWUpOwogICAgICAgIHRoaXMuZXhwYW5kVmFsdWUgPSBleHBhbmRWYWx1ZTsKICAgIH0KICAgIHB1YmxpYyBTZWxlY3RBbmRDb3VudE9uZU1vZGVsRmllbGQoU3RyaW5nIGNvZGUsIFN0cmluZyBuYW1lLCBLVk1hcDxTdHJpbmcsIEludGVnZXI+IHZhbHVlLCBTZWxlY3RMaXN0RnVuYyBzZWxlY3RMaXN0RnVuYykgewogICAgICAgIHN1cGVyKGNvZGUsIG5hbWUsIHZhbHVlKTsKICAgICAgICB0aGlzLnNlbGVjdExpc3RGdW5jID0gc2VsZWN0TGlzdEZ1bmM7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0VHlwZSgpIHsKICAgICAgICByZXR1cm4gIlNFTEVDVF9BTkRfQ09VTlRfT05FIjsKICAgIH0KICAgIHB1YmxpYyBMaXN0PD8gZXh0ZW5kcyBNYXBwZXJFbnRpdHk+IGdldEV4cGFuZFZhbHVlKCkgewogICAgICAgIHJldHVybiBzZWxlY3RMaXN0RnVuYyA9PSBudWxsID8gZXhwYW5kVmFsdWUgOiBzZWxlY3RMaXN0RnVuYy5nZXRMaXN0KCk7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBWaWV3IGdldFZpZXcoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgQnV0dG9uIGJ0biA9IG5ldyBCdXR0b24oY29udGV4dCk7CiAgICAgICAgYnRuLnNldFRleHQoZ2V0TmFtZSgpKTsKICAgICAgICBidG4uc2V0TGF5b3V0UGFyYW1zKG5ldyBMaW5lYXJMYXlvdXQuTGF5b3V0UGFyYW1zKFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5ULCBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLldSQVBfQ09OVEVOVCkpOwogICAgICAgIGJ0bi5zZXRUZXh0Q29sb3IoQ29udGV4dENvbXBhdC5nZXRDb2xvcihjb250ZXh0LCBSLmNvbG9yLnNlbGVjdGlvbl9jb2xvcikpOwogICAgICAgIGJ0bi5zZXRCYWNrZ3JvdW5kKENvbnRleHRDb21wYXQuZ2V0RHJhd2FibGUoY29udGV4dCwgUi5kcmF3YWJsZS5kaWFsb2dfbGlzdF9idXR0b24pKTsKICAgICAgICBidG4uc2V0R3Jhdml0eShHcmF2aXR5LlNUQVJUIHwgR3Jhdml0eS5DRU5URVJfVkVSVElDQUwpOwogICAgICAgIGJ0bi5zZXRNaW5IZWlnaHQoMTUwKTsKICAgICAgICBidG4uc2V0UGFkZGluZ1JlbGF0aXZlKDQwLCAwLCA0MCwgMCk7CiAgICAgICAgYnRuLnNldEFsbENhcHMoZmFsc2UpOwogICAgICAgIGJ0bi5zZXRPbkNsaWNrTGlzdGVuZXIodiAtPiBMaXN0RGlhbG9nLnNob3codi5nZXRDb250ZXh0KCksICgoQnV0dG9uKSB2KS5nZXRUZXh0KCksIHRoaXMsIExpc3REaWFsb2cuTGlzdFR5cGUuUkFESU8pKTsKICAgICAgICByZXR1cm4gYnRuOwogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBjbGVhcigpIHsKICAgICAgICB2YWx1ZSA9IGRlZmF1bHRWYWx1ZTsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIEludGVnZXIgZ2V0KFN0cmluZyBpZCkgewogICAgICAgIEtWTWFwPFN0cmluZywgSW50ZWdlcj4gS1ZNYXAgPSBnZXRWYWx1ZSgpOwogICAgICAgIGlmIChLVk1hcCAhPSBudWxsICYmIE9iamVjdHMuZXF1YWxzKEtWTWFwLmdldEtleSgpLCBpZCkpIHsKICAgICAgICAgICAgcmV0dXJuIEtWTWFwLmdldFZhbHVlKCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiAwOwogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBhZGQoU3RyaW5nIGlkLCBJbnRlZ2VyIGNvdW50KSB7CiAgICAgICAgdmFsdWUgPSBuZXcgS1ZNYXA8PihpZCwgY291bnQpOwogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCByZW1vdmUoU3RyaW5nIGlkKSB7CiAgICAgICAgS1ZNYXA8U3RyaW5nLCBJbnRlZ2VyPiBLVk1hcCA9IGdldFZhbHVlKCk7CiAgICAgICAgaWYgKEtWTWFwICE9IG51bGwgJiYgT2JqZWN0cy5lcXVhbHMoS1ZNYXAuZ2V0S2V5KCksIGlkKSkgewogICAgICAgICAgICB2YWx1ZSA9IGRlZmF1bHRWYWx1ZTsKICAgICAgICB9CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBCb29sZWFuIGNvbnRhaW5zKFN0cmluZyBpZCkgewogICAgICAgIEtWTWFwPFN0cmluZywgSW50ZWdlcj4gS1ZNYXAgPSBnZXRWYWx1ZSgpOwogICAgICAgIHJldHVybiBLVk1hcCAhPSBudWxsICYmIE9iamVjdHMuZXF1YWxzKEtWTWFwLmdldEtleSgpLCBpZCk7CiAgICB9CiAgICBwdWJsaWMgaW50ZXJmYWNlIFNlbGVjdExpc3RGdW5jIHsKICAgICAgICBMaXN0PD8gZXh0ZW5kcyBNYXBwZXJFbnRpdHk+IGdldExpc3QoKTsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+import android.content.Context;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import androidx.core.content.ContextCompat;
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.entity.KVMap;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
+import fansirsqi.xposed.sesame.entity.MapperEntity;
+import fansirsqi.xposed.sesame.ui.widget.ListDialog;
+import java.util.List;
+import java.util.Objects;
+public class SelectAndCountOneModelField extends ModelField<KVMap<String, Integer>> implements SelectModelFieldFunc {
+    private SelectListFunc selectListFunc;
+    private List<? extends MapperEntity> expandValue;
+    public SelectAndCountOneModelField(String code, String name, KVMap<String, Integer> value, List<? extends MapperEntity> expandValue) {
+        super(code, name, value);
+        this.expandValue = expandValue;
+    }
+    public SelectAndCountOneModelField(String code, String name, KVMap<String, Integer> value, SelectListFunc selectListFunc) {
+        super(code, name, value);
+        this.selectListFunc = selectListFunc;
+    }
+    @Override
+    public String getType() {
+        return "SELECT_AND_COUNT_ONE";
+    }
+    public List<? extends MapperEntity> getExpandValue() {
+        return selectListFunc == null ? expandValue : selectListFunc.getList();
+    }
+    @Override
+    public View getView(Context context) {
+        Button btn = new Button(context);
+        btn.setText(getName());
+        btn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        btn.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+        btn.setBackground(ContextCompat.getDrawable(context, R.drawable.dialog_list_button));
+        btn.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+        btn.setMinHeight(150);
+        btn.setPaddingRelative(40, 0, 40, 0);
+        btn.setAllCaps(false);
+        btn.setOnClickListener(v -> ListDialog.show(v.getContext(), ((Button) v).getText(), this, ListDialog.ListType.RADIO));
+        return btn;
+    }
+    @Override
+    public void clear() {
+        value = defaultValue;
+    }
+    @Override
+    public Integer get(String id) {
+        KVMap<String, Integer> KVMap = getValue();
+        if (KVMap != null && Objects.equals(KVMap.getKey(), id)) {
+            return KVMap.getValue();
+        }
+        return 0;
+    }
+    @Override
+    public void add(String id, Integer count) {
+        value = new KVMap<>(id, count);
+    }
+    @Override
+    public void remove(String id) {
+        KVMap<String, Integer> KVMap = getValue();
+        if (KVMap != null && Objects.equals(KVMap.getKey(), id)) {
+            value = defaultValue;
+        }
+    }
+    @Override
+    public Boolean contains(String id) {
+        KVMap<String, Integer> KVMap = getValue();
+        return KVMap != null && Objects.equals(KVMap.getKey(), id);
+    }
+    public interface SelectListFunc {
+        List<? extends MapperEntity> getList();
+    }
+}

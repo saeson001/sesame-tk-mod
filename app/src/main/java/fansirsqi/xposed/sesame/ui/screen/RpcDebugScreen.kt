@@ -1,1 +1,126 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4KCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUGFkZGluZ1ZhbHVlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4U2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Q29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5pdGVtcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQWRkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5Nb3JlVmVydAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRHJvcGRvd25NZW51CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5Ecm9wZG93bk1lbnVJdGVtCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5FeHBlcmltZW50YWxNYXRlcmlhbDNBcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkZsb2F0aW5nQWN0aW9uQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TY2FmZm9sZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVG9wQXBwQmFyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmNvbGxlY3RBc1N0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUudmlld21vZGVsLmNvbXBvc2Uudmlld01vZGVsCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uY29tcG9uZW50cy5ScGNEaWFsb2dIYW5kbGVyCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uY2FyZC5ScGNJdGVtQ2FyZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkudmlld21vZGVsLlJwY0RlYnVnVmlld01vZGVsCgpAT3B0SW4oRXhwZXJpbWVudGFsTWF0ZXJpYWwzQXBpOjpjbGFzcykKQENvbXBvc2FibGUKZnVuIFJwY0RlYnVnU2NyZWVuKAogICAgb25CYWNrOiAoKSAtPiBVbml0LAogICAgdmlld01vZGVsOiBScGNEZWJ1Z1ZpZXdNb2RlbCA9IHZpZXdNb2RlbCgpCikgewogICAgdmFsIGl0ZW1zIGJ5IHZpZXdNb2RlbC5pdGVtcy5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgZGlhbG9nU3RhdGUgYnkgdmlld01vZGVsLmRpYWxvZ1N0YXRlLmNvbGxlY3RBc1N0YXRlKCkKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhciBzaG93TWVudSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CgoKICAgIFNjYWZmb2xkKAogICAgICAgIHRvcEJhciA9IHsKICAgICAgICAgICAgVG9wQXBwQmFyKAogICAgICAgICAgICAgICAgdGl0bGUgPSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5L2/55SoIENvbHVtbiDlnoLnm7TmjpLliJfkuLvmoIfpopjlkozlia/moIfpopgKICAgICAgICAgICAgICAgICAgICBDb2x1bW4gewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9ICJSUEMg6LCD6K+VIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTGFyZ2UKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9ICLimqDvuI8g5pWP5oSf5Yqf6IO977yM6K+36LCo5oWO5pON5L2cIiwgLy8g6K2m5ZGK5paH5qGICiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbE1lZGl1bSwgLy8g5L2/55So6L6D5bCP55qE5a2X5Y+3CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IgLy8g5L2/55So6ZSZ6K+v6ImyKOe6ouiJsinnpLrorabvvIzmiJbogIXkvb/nlKggb3V0bGluZSDlj5jkvZMKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBuYXZpZ2F0aW9uSWNvbiA9IHsgLyogSWNvbkJ1dHRvbihvbkNsaWNrID0gb25CYWNrKSAuLi4gKi8gfSwKICAgICAgICAgICAgICAgIGFjdGlvbnMgPSB7CiAgICAgICAgICAgICAgICAgICAgSWNvbkJ1dHRvbihvbkNsaWNrID0geyBzaG93TWVudSA9IHRydWUgfSkgewogICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuTW9yZVZlcnQsICLmm7TlpJoiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBEcm9wZG93bk1lbnUoCiAgICAgICAgICAgICAgICAgICAgICAgIGV4cGFuZGVkID0gc2hvd01lbnUsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSB7IHNob3dNZW51ID0gZmFsc2UgfQogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBEcm9wZG93bk1lbnVJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHsgVGV4dCgi5aSH5Lu95pWw5o2uIikgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IHZpZXdNb2RlbC5iYWNrdXBUb0NsaXBib2FyZChjb250ZXh0KTsgc2hvd01lbnUgPSBmYWxzZSB9CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgRHJvcGRvd25NZW51SXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSB7IFRleHQoIuaBouWkjeaVsOaNriIpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyB2aWV3TW9kZWwudHJ5UmVzdG9yZUZyb21DbGlwYm9hcmQoY29udGV4dCk7IHNob3dNZW51ID0gZmFsc2UgfQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIERyb3Bkb3duTWVudUl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0geyBUZXh0KCLliqDovb3pu5jorqQiKSB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgdmlld01vZGVsLmxvYWREZWZhdWx0SXRlbXMoKTsgc2hvd01lbnUgPSBmYWxzZSB9CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgICAgIGZsb2F0aW5nQWN0aW9uQnV0dG9uID0gewogICAgICAgICAgICBGbG9hdGluZ0FjdGlvbkJ1dHRvbihvbkNsaWNrID0geyB2aWV3TW9kZWwuc2hvd0FkZERpYWxvZyhjb250ZXh0KSB9KSB7CiAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuQWRkLCAi5re75YqgIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkgeyBwYWRkaW5nIC0+CiAgICAgICAgaWYgKGl0ZW1zLmlzRW1wdHkoKSkgewogICAgICAgICAgICBCb3goTW9kaWZpZXIuZmlsbE1heFNpemUoKS5wYWRkaW5nKHBhZGRpbmcpLCBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcikgewogICAgICAgICAgICAgICAgVGV4dCgi5pqC5peg5pWw5o2u77yM6K+354K55Ye75Y+z5LiL6KeS5re75YqgIiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keUxhcmdlKQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgTGF6eUNvbHVtbigKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFNpemUoKS5wYWRkaW5nKHBhZGRpbmcpLAogICAgICAgICAgICAgICAgY29udGVudFBhZGRpbmcgPSBQYWRkaW5nVmFsdWVzKDE2LmRwKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGl0ZW1zKGl0ZW1zKSB7IGl0ZW0gLT4KICAgICAgICAgICAgICAgICAgICBScGNJdGVtQ2FyZCgKICAgICAgICAgICAgICAgICAgICAgICAgaXRlbSA9IGl0ZW0sCiAgICAgICAgICAgICAgICAgICAgICAgIG9uUnVuID0geyB2aWV3TW9kZWwucnVuUnBjSXRlbShpdGVtLCBjb250ZXh0KSB9LAogICAgICAgICAgICAgICAgICAgICAgICBvbkVkaXQgPSB7IHZpZXdNb2RlbC5zaG93RWRpdERpYWxvZyhpdGVtKSB9LAogICAgICAgICAgICAgICAgICAgICAgICBvbkRlbGV0ZSA9IHsgdmlld01vZGVsLnNob3dEZWxldGVEaWFsb2coaXRlbSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgb25Db3B5ID0geyB2aWV3TW9kZWwuc2hhcmVJdGVtKGl0ZW0sY29udGV4dCkgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8g5aSE55CG5omA5pyJ5by556qXCiAgICAgICAgUnBjRGlhbG9nSGFuZGxlcihkaWFsb2dTdGF0ZSwgdmlld01vZGVsKQogICAgfQp9CgoK
+package fansirsqi.xposed.sesame.ui.screen
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
+import fansirsqi.xposed.sesame.ui.screen.components.RpcDialogHandler
+import fansirsqi.xposed.sesame.ui.screen.card.RpcItemCard
+import fansirsqi.xposed.sesame.ui.viewmodel.RpcDebugViewModel
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun RpcDebugScreen(
+    onBack: () -> Unit,
+    viewModel: RpcDebugViewModel = viewModel()
+) {
+    val items by viewModel.items.collectAsState()
+    val dialogState by viewModel.dialogState.collectAsState()
+    val context = LocalContext.current
+    var showMenu by remember { mutableStateOf(false) }
+
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = {
+                    // 使用 Column 垂直排列主标题和副标题
+                    Column {
+                        Text(
+                            text = "RPC 调试",
+                            style = MaterialTheme.typography.titleLarge
+                        )
+                        Text(
+                            text = "⚠️ 敏感功能，请谨慎操作", // 警告文案
+                            style = MaterialTheme.typography.labelMedium, // 使用较小的字号
+                            color = MaterialTheme.colorScheme.error // 使用错误色(红色)示警，或者使用 outline 变体
+                        )
+                    }
+                },
+                navigationIcon = { /* IconButton(onClick = onBack) ... */ },
+                actions = {
+                    IconButton(onClick = { showMenu = true }) {
+                        Icon(Icons.Default.MoreVert, "更多")
+                    }
+                    DropdownMenu(
+                        expanded = showMenu,
+                        onDismissRequest = { showMenu = false }
+                    ) {
+                        DropdownMenuItem(
+                            text = { Text("备份数据") },
+                            onClick = { viewModel.backupToClipboard(context); showMenu = false }
+                        )
+                        DropdownMenuItem(
+                            text = { Text("恢复数据") },
+                            onClick = { viewModel.tryRestoreFromClipboard(context); showMenu = false }
+                        )
+                        DropdownMenuItem(
+                            text = { Text("加载默认") },
+                            onClick = { viewModel.loadDefaultItems(); showMenu = false }
+                        )
+                    }
+                }
+            )
+        },
+        floatingActionButton = {
+            FloatingActionButton(onClick = { viewModel.showAddDialog(context) }) {
+                Icon(Icons.Default.Add, "添加")
+            }
+        }
+    ) { padding ->
+        if (items.isEmpty()) {
+            Box(Modifier.fillMaxSize().padding(padding), contentAlignment = Alignment.Center) {
+                Text("暂无数据，请点击右下角添加", style = MaterialTheme.typography.bodyLarge)
+            }
+        } else {
+            LazyColumn(
+                modifier = Modifier.fillMaxSize().padding(padding),
+                contentPadding = PaddingValues(16.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                items(items) { item ->
+                    RpcItemCard(
+                        item = item,
+                        onRun = { viewModel.runRpcItem(item, context) },
+                        onEdit = { viewModel.showEditDialog(item) },
+                        onDelete = { viewModel.showDeleteDialog(item) },
+                        onCopy = { viewModel.shareItem(item,context) }
+                    )
+                }
+            }
+        }
+
+        // 处理所有弹窗
+        RpcDialogHandler(dialogState, viewModel)
+    }
+}
+
+

@@ -1,1 +1,55 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuSWRNYXBNYW5hZ2VyCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuVml0YWxpdHlSZXdhcmRzTWFwCmltcG9ydCBsb21ib2suR2V0dGVyCgovKioKICogQGF1dGhvciBCeXNldmVuCiAqIEBkYXRlIDIwMjUvMS8yMAogKiBAYXBpTm90ZQogKi8KY2xhc3MgVml0YWxpdHlTdG9yZShpOiBTdHJpbmcsIG46IFN0cmluZykgOiBNYXBwZXJFbnRpdHkoKSB7CiAgICBpbml0IHsKICAgICAgICB0aGlzLmlkID0gaQogICAgICAgIHRoaXMubmFtZSA9IG4KICAgIH0KCiAgICBAR2V0dGVyCiAgICBlbnVtIGNsYXNzIEV4Y2hhbmdlU3RhdHVzKHZhbCBuaWNrTmFtZTogU3RyaW5nKSB7CiAgICAgICAgTk9fRU5PVUdIX1BPSU5UKCLmtLvlipvlgLzkuI3otrMiKSwKICAgICAgICBOT19FTk9VR0hfU1RPQ0soIuW6k+WtmOmHj+S4jei2syIpLAogICAgICAgIFJFQUNIX0xJTUlUKCLlhZHmjaLovr7kuIrpmZAiKSwKICAgICAgICBTRUNLSUxMX05PVF9CRUdJTigi56eS5p2A5pyq5byA5aeLIiksCiAgICAgICAgU0VDS0lMTF9IQVNfRU5EKCLnp5LmnYDlt7Lnu5PmnZ8iKSwKICAgICAgICBIQVNfTkVWRVJfRVhQSVJFX0RSRVNTKCLkuI3pmZDml7bnmq7ogqQiKTsKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIHZhciBpZE5hbWVNYXA6IE11dGFibGVNYXA8U3RyaW5nPywgU3RyaW5nPz4/ID0gbnVsbAoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgdmFsIGxpc3Q6IE11dGFibGVMaXN0PFZpdGFsaXR5U3RvcmU+CiAgICAgICAgICAgIGdldCgpIHsKICAgICAgICAgICAgICAgIHZhbCBsaXN0OiBNdXRhYmxlTGlzdDxWaXRhbGl0eVN0b3JlPiA9IEFycmF5TGlzdCgpCiAgICAgICAgICAgICAgICB2YWwgaW5zdGFuY2UgPSBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoVml0YWxpdHlSZXdhcmRzTWFwOjpjbGFzcy5qYXZhKQogICAgICAgICAgICAgICAgdmFsIGVudHJpZXMgPSBpbnN0YW5jZT8ubWFwPy5lbnRyaWVzID86IGVtcHR5U2V0KCkKCiAgICAgICAgICAgICAgICBmb3IgKGVudHJ5IGluIGVudHJpZXMpIHsKICAgICAgICAgICAgICAgICAgICBsaXN0LmFkZChWaXRhbGl0eVN0b3JlKGVudHJ5LmtleSEhLCBlbnRyeS52YWx1ZSEhKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybiBsaXN0CiAgICAgICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBnZXROYW1lQnlJZChpZDogU3RyaW5nPyk6IFN0cmluZz8gewogICAgICAgICAgICBpZiAoaWROYW1lTWFwID09IG51bGwpIHsKICAgICAgICAgICAgICAgIGlkTmFtZU1hcCA9IEhhc2hNYXAoKQogICAgICAgICAgICAgICAgZm9yIChzdG9yZSBpbiBsaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgaWROYW1lTWFwISEucHV0KHN0b3JlLmlkLCBzdG9yZS5uYW1lKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBpZE5hbWVNYXAhIVtpZF0KICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.entity
+
+import fansirsqi.xposed.sesame.util.maps.IdMapManager
+import fansirsqi.xposed.sesame.util.maps.VitalityRewardsMap
+import lombok.Getter
+
+/**
+ * @author Byseven
+ * @date 2025/1/20
+ * @apiNote
+ */
+class VitalityStore(i: String, n: String) : MapperEntity() {
+    init {
+        this.id = i
+        this.name = n
+    }
+
+    @Getter
+    enum class ExchangeStatus(val nickName: String) {
+        NO_ENOUGH_POINT("活力值不足"),
+        NO_ENOUGH_STOCK("库存量不足"),
+        REACH_LIMIT("兑换达上限"),
+        SECKILL_NOT_BEGIN("秒杀未开始"),
+        SECKILL_HAS_END("秒杀已结束"),
+        HAS_NEVER_EXPIRE_DRESS("不限时皮肤");
+    }
+
+    companion object {
+        private var idNameMap: MutableMap<String?, String?>? = null
+
+        @JvmStatic
+        val list: MutableList<VitalityStore>
+            get() {
+                val list: MutableList<VitalityStore> = ArrayList()
+                val instance = IdMapManager.getInstance(VitalityRewardsMap::class.java)
+                val entries = instance?.map?.entries ?: emptySet()
+
+                for (entry in entries) {
+                    list.add(VitalityStore(entry.key!!, entry.value!!))
+                }
+                return list
+            }
+
+        @JvmStatic
+        fun getNameById(id: String?): String? {
+            if (idNameMap == null) {
+                idNameMap = HashMap()
+                for (store in list) {
+                    idNameMap!!.put(store.id, store.name)
+                }
+            }
+            return idNameMap!![id]
+        }
+    }
+}

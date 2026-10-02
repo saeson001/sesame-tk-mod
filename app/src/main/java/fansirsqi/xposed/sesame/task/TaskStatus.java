@@ -1,1 +1,7 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrOwoKcHVibGljIGVudW0gVGFza1N0YXR1cyB7CiAgICBUT0RPLCAvL+W+heWKnuS7u+WKoeaIluacquWujOaIkAogICAgRklOSVNIRUQsIC8v5Lu75Yqh5bey5a6M5oiQ5L2G5aWW5Yqx5pyq6aKG5Y+WCiAgICBSRUNFSVZFRCAvL+S7u+WKoeW3suWujOaIkOS4lOWlluWKseW3sumihuWPlgp9Cg==
+package fansirsqi.xposed.sesame.task;
+
+public enum TaskStatus {
+    TODO, //待办任务或未完成
+    FINISHED, //任务已完成但奖励未领取
+    RECEIVED //任务已完成且奖励已领取
+}

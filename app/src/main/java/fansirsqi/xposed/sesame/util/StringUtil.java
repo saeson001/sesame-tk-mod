@@ -1,1 +1,80 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwppbXBvcnQgamF2YS51dGlsLkNvbGxlY3Rpb247CmltcG9ydCBqYXZhLnV0aWwuSXRlcmF0b3I7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwppbXBvcnQgamF2YS51dGlsLk9iamVjdHM7CnB1YmxpYyBjbGFzcyBTdHJpbmdVdGlsIHsKICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBpc0VtcHR5KFN0cmluZyBzdHIpIHsKICAgICAgICByZXR1cm4gc3RyID09IG51bGwgfHwgc3RyLmlzRW1wdHkoKTsKICAgIH0KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGNvbGxlY3Rpb25Kb2luU3RyaW5nKENoYXJTZXF1ZW5jZSBjb25qdW5jdGlvbiwgQ29sbGVjdGlvbjw/PiBjb2xsZWN0aW9uKSB7CiAgICAgICAgaWYgKCFjb2xsZWN0aW9uLmlzRW1wdHkoKSkgewogICAgICAgICAgICBTdHJpbmdCdWlsZGVyIGIgPSBuZXcgU3RyaW5nQnVpbGRlcigpOwogICAgICAgICAgICBJdGVyYXRvcjw/PiBpdGVyYXRvciA9IGNvbGxlY3Rpb24uaXRlcmF0b3IoKTsKICAgICAgICAgICAgYi5hcHBlbmQodG9TdHJpbmdPckVtcHR5KGl0ZXJhdG9yLm5leHQoKSkpOwogICAgICAgICAgICB3aGlsZSAoaXRlcmF0b3IuaGFzTmV4dCgpKSB7CiAgICAgICAgICAgICAgICBiLmFwcGVuZChjb25qdW5jdGlvbikuYXBwZW5kKHRvU3RyaW5nT3JFbXB0eShpdGVyYXRvci5uZXh0KCkpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gYi50b1N0cmluZygpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gIiI7CiAgICB9CiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBhcnJheUpvaW5TdHJpbmcoQ2hhclNlcXVlbmNlIGNvbmp1bmN0aW9uLCBPYmplY3QuLi4gYXJyYXkpIHsKICAgICAgICBpbnQgbGVuZ3RoID0gYXJyYXkubGVuZ3RoOwogICAgICAgIGlmIChsZW5ndGggPiAwKSB7CiAgICAgICAgICAgIFN0cmluZ0J1aWxkZXIgYiA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7CiAgICAgICAgICAgIGIuYXBwZW5kKHRvU3RyaW5nT3JFbXB0eShhcnJheVswXSkpOwogICAgICAgICAgICBmb3IgKGludCBpID0gMTsgaSA8IGxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgICAgICBiLmFwcGVuZChjb25qdW5jdGlvbikuYXBwZW5kKHRvU3RyaW5nT3JFbXB0eShhcnJheVtpXSkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBiLnRvU3RyaW5nKCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiAiIjsKICAgIH0KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGFycmF5VG9TdHJpbmcoT2JqZWN0Li4uIGFycmF5KSB7CiAgICAgICAgcmV0dXJuIGFycmF5Sm9pblN0cmluZygiLCIsIGFycmF5KTsKICAgIH0KICAgIHByaXZhdGUgc3RhdGljIFN0cmluZyB0b1N0cmluZ09yRW1wdHkoT2JqZWN0IG9iaikgewogICAgICAgIHJldHVybiBPYmplY3RzLnRvU3RyaW5nKG9iaiwgIiIpOwogICAgfQogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcGFkTGVmdChpbnQgc3RyLCBpbnQgdG90YWxXaWR0aCwgY2hhciBwYWRDaGFyKSB7CiAgICAgICAgcmV0dXJuIHBhZExlZnQoU3RyaW5nLnZhbHVlT2Yoc3RyKSwgdG90YWxXaWR0aCwgcGFkQ2hhcik7CiAgICB9CiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBwYWRSaWdodChpbnQgc3RyLCBpbnQgdG90YWxXaWR0aCwgY2hhciBwYWRDaGFyKSB7CiAgICAgICAgcmV0dXJuIHBhZFJpZ2h0KFN0cmluZy52YWx1ZU9mKHN0ciksIHRvdGFsV2lkdGgsIHBhZENoYXIpOwogICAgfQogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcGFkTGVmdChTdHJpbmcgc3RyLCBpbnQgdG90YWxXaWR0aCwgY2hhciBwYWRDaGFyKSB7CiAgICAgICAgU3RyaW5nQnVpbGRlciBzYiA9IG5ldyBTdHJpbmdCdWlsZGVyKHN0cik7CiAgICAgICAgd2hpbGUgKHNiLmxlbmd0aCgpIDwgdG90YWxXaWR0aCkgewogICAgICAgICAgICBzYi5pbnNlcnQoMCwgcGFkQ2hhcik7CiAgICAgICAgfQogICAgICAgIHJldHVybiBzYi50b1N0cmluZygpOwogICAgfQogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcGFkUmlnaHQoU3RyaW5nIHN0ciwgaW50IHRvdGFsV2lkdGgsIGNoYXIgcGFkQ2hhcikgewogICAgICAgIFN0cmluZ0J1aWxkZXIgc2IgPSBuZXcgU3RyaW5nQnVpbGRlcihzdHIpOwogICAgICAgIHdoaWxlIChzYi5sZW5ndGgoKSA8IHRvdGFsV2lkdGgpIHsKICAgICAgICAgICAgc2IuYXBwZW5kKHBhZENoYXIpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gc2IudG9TdHJpbmcoKTsKICAgIH0KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldFN1YlN0cmluZyhTdHJpbmcgdGV4dCwgU3RyaW5nIGxlZnQsIFN0cmluZyByaWdodCkgewogICAgICAgIFN0cmluZyByZXN1bHQgPSAiIjsKICAgICAgICBpbnQgekxlbjsKICAgICAgICBpZiAobGVmdCA9PSBudWxsIHx8IGxlZnQuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHpMZW4gPSAwOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHpMZW4gPSB0ZXh0LmluZGV4T2YobGVmdCk7CiAgICAgICAgICAgIGlmICh6TGVuID4gLTEpIHsKICAgICAgICAgICAgICAgIHpMZW4gKz0gbGVmdC5sZW5ndGgoKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHpMZW4gPSAwOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGludCB5TGVuID0gdGV4dC5pbmRleE9mKHJpZ2h0LCB6TGVuKTsKICAgICAgICBpZiAoeUxlbiA8IDAgfHwgcmlnaHQgPT0gbnVsbCB8fCByaWdodC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgeUxlbiA9IHRleHQubGVuZ3RoKCk7CiAgICAgICAgfQogICAgICAgIHJlc3VsdCA9IHRleHQuc3Vic3RyaW5nKHpMZW4sIHlMZW4pOwogICAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Objects;
+public class StringUtil {
+    public static boolean isEmpty(String str) {
+        return str == null || str.isEmpty();
+    }
+    public static String collectionJoinString(CharSequence conjunction, Collection<?> collection) {
+        if (!collection.isEmpty()) {
+            StringBuilder b = new StringBuilder();
+            Iterator<?> iterator = collection.iterator();
+            b.append(toStringOrEmpty(iterator.next()));
+            while (iterator.hasNext()) {
+                b.append(conjunction).append(toStringOrEmpty(iterator.next()));
+            }
+            return b.toString();
+        }
+        return "";
+    }
+    public static String arrayJoinString(CharSequence conjunction, Object... array) {
+        int length = array.length;
+        if (length > 0) {
+            StringBuilder b = new StringBuilder();
+            b.append(toStringOrEmpty(array[0]));
+            for (int i = 1; i < length; i++) {
+                b.append(conjunction).append(toStringOrEmpty(array[i]));
+            }
+            return b.toString();
+        }
+        return "";
+    }
+    public static String arrayToString(Object... array) {
+        return arrayJoinString(",", array);
+    }
+    private static String toStringOrEmpty(Object obj) {
+        return Objects.toString(obj, "");
+    }
+    public static String padLeft(int str, int totalWidth, char padChar) {
+        return padLeft(String.valueOf(str), totalWidth, padChar);
+    }
+    public static String padRight(int str, int totalWidth, char padChar) {
+        return padRight(String.valueOf(str), totalWidth, padChar);
+    }
+    public static String padLeft(String str, int totalWidth, char padChar) {
+        StringBuilder sb = new StringBuilder(str);
+        while (sb.length() < totalWidth) {
+            sb.insert(0, padChar);
+        }
+        return sb.toString();
+    }
+    public static String padRight(String str, int totalWidth, char padChar) {
+        StringBuilder sb = new StringBuilder(str);
+        while (sb.length() < totalWidth) {
+            sb.append(padChar);
+        }
+        return sb.toString();
+    }
+    public static String getSubString(String text, String left, String right) {
+        String result = "";
+        int zLen;
+        if (left == null || left.isEmpty()) {
+            zLen = 0;
+        } else {
+            zLen = text.indexOf(left);
+            if (zLen > -1) {
+                zLen += left.length();
+            } else {
+                zLen = 0;
+            }
+        }
+        int yLen = text.indexOf(right, zLen);
+        if (yLen < 0 || right == null || right.isEmpty()) {
+            yLen = text.length();
+        }
+        result = text.substring(zLen, yLen);
+        return result;
+    }
+}

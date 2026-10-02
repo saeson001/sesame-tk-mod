@@ -1,1 +1,366 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uTm9uTnVsbDsKCmltcG9ydCBqYXZhLmlvLklPRXhjZXB0aW9uOwppbXBvcnQgamF2YS5pby5PYmplY3RJbnB1dFN0cmVhbTsKaW1wb3J0IGphdmEuaW8uT2JqZWN0T3V0cHV0U3RyZWFtOwppbXBvcnQgamF2YS5pby5TZXJpYWw7CmltcG9ydCBqYXZhLmlvLlNlcmlhbGl6YWJsZTsKaW1wb3J0IGphdmEudXRpbC4qOwoKLyoqIOa6kOeggeadpeiHqu+8mkFwYWNoZSBDb21tb25zIENvbGxlY3Rpb25zIDQuNCDlsJHph4/lrprliLYgKi8KcHVibGljIGNsYXNzIENpcmN1bGFyRmlmb1F1ZXVlPEU+IGV4dGVuZHMgQWJzdHJhY3RDb2xsZWN0aW9uPEU+IGltcGxlbWVudHMgUXVldWU8RT4sIFNlcmlhbGl6YWJsZSB7CiAgICAvKiogU2VyaWFsaXphdGlvbiB2ZXJzaW9uLiAqLwogICAgQFNlcmlhbCBwcml2YXRlIHN0YXRpYyBmaW5hbCBsb25nIHNlcmlhbFZlcnNpb25VSUQgPSAtODQyMzQxMzgzNDY1NzYxMDQwNkw7CgogICAgLyoqIFVuZGVybHlpbmcgc3RvcmFnZSBhcnJheS4gKi8KICAgIHByaXZhdGUgdHJhbnNpZW50IEVbXSBlbGVtZW50czsKCiAgICAvKiogQXJyYXkgaW5kZXggb2YgZmlyc3QgKG9sZGVzdCkgcXVldWUgZWxlbWVudC4gKi8KICAgIHByaXZhdGUgdHJhbnNpZW50IGludCBzdGFydCA9IDA7CgogICAgLyoqCiAgICAgKiBJbmRleCBtb2QgbWF4RWxlbWVudHMgb2YgdGhlIGFycmF5IHBvc2l0aW9uIGZvbGxvd2luZyB0aGUgbGFzdCBxdWV1ZSBlbGVtZW50LiBRdWV1ZSBlbGVtZW50cwogICAgICogc3RhcnQgYXQgZWxlbWVudHNbc3RhcnRdIGFuZCAid3JhcCBhcm91bmQiIGVsZW1lbnRzW21heEVsZW1lbnRzLTFdLCBlbmRpbmcgYXQKICAgICAqIGVsZW1lbnRzW2RlY3JlbWVudChlbmQpXS4gRm9yIGV4YW1wbGUsIGVsZW1lbnRzID0ge2MsYSxifSwgc3RhcnQ9MSwgZW5kPTEgY29ycmVzcG9uZHMgdG8gdGhlCiAgICAgKiBxdWV1ZSBbYSxiLGNdLgogICAgICovCiAgICBwcml2YXRlIHRyYW5zaWVudCBpbnQgZW5kID0gMDsKCiAgICAvKiogRmxhZyB0byBpbmRpY2F0ZSBpZiB0aGUgcXVldWUgaXMgY3VycmVudGx5IGZ1bGwuICovCiAgICBwcml2YXRlIHRyYW5zaWVudCBib29sZWFuIGZ1bGwgPSBmYWxzZTsKCiAgICAvKiogQ2FwYWNpdHkgb2YgdGhlIHF1ZXVlLiAqLwogICAgcHJpdmF0ZSBmaW5hbCBpbnQgbWF4RWxlbWVudHM7CgogICAgLyoqCiAgICAgKiBDb25zdHJ1Y3RvciB0aGF0IGNyZWF0ZXMgYSBxdWV1ZSB3aXRoIHRoZSBzcGVjaWZpZWQgc2l6ZS4KICAgICAqCiAgICAgKiBAcGFyYW0gc2l6ZSB0aGUgc2l6ZSBvZiB0aGUgcXVldWUgKGNhbm5vdCBiZSBjaGFuZ2VkKQogICAgICogQHRocm93cyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24gaWYgdGhlIHNpemUgaXMgJmx0OyAxCiAgICAgKi8KICAgIEBTdXBwcmVzc1dhcm5pbmdzKCJ1bmNoZWNrZWQiKQogICAgcHVibGljIENpcmN1bGFyRmlmb1F1ZXVlKGZpbmFsIGludCBzaXplKSB7CiAgICAgICAgaWYgKHNpemUgPD0gMCkgewogICAgICAgICAgICB0aHJvdyBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJUaGUgc2l6ZSBtdXN0IGJlIGdyZWF0ZXIgdGhhbiAwIik7CiAgICAgICAgfQogICAgICAgIGVsZW1lbnRzID0gKEVbXSkgbmV3IE9iamVjdFtzaXplXTsKICAgICAgICBtYXhFbGVtZW50cyA9IGVsZW1lbnRzLmxlbmd0aDsKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKICAgIC8qKgogICAgICogV3JpdGUgdGhlIHF1ZXVlIG91dCB1c2luZyBhIGN1c3RvbSByb3V0aW5lLgogICAgICoKICAgICAqIEBwYXJhbSBvdXQgdGhlIG91dHB1dCBzdHJlYW0KICAgICAqIEB0aHJvd3MgSU9FeGNlcHRpb24gaWYgYW4gSS9PIGVycm9yIG9jY3VycyB3aGlsZSB3cml0aW5nIHRvIHRoZSBvdXRwdXQgc3RyZWFtCiAgICAgKi8KICAgIEBTZXJpYWwKICAgIHByaXZhdGUgdm9pZCB3cml0ZU9iamVjdChmaW5hbCBPYmplY3RPdXRwdXRTdHJlYW0gb3V0KSB0aHJvd3MgSU9FeGNlcHRpb24gewogICAgICAgIG91dC5kZWZhdWx0V3JpdGVPYmplY3QoKTsKICAgICAgICBvdXQud3JpdGVJbnQoc2l6ZSgpKTsKICAgICAgICBmb3IgKGZpbmFsIEUgZSA6IHRoaXMpIHsKICAgICAgICAgICAgb3V0LndyaXRlT2JqZWN0KGUpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIFJlYWQgdGhlIHF1ZXVlIGluIHVzaW5nIGEgY3VzdG9tIHJvdXRpbmUuCiAgICAgKgogICAgICogQHBhcmFtIGluIHRoZSBpbnB1dCBzdHJlYW0KICAgICAqIEB0aHJvd3MgSU9FeGNlcHRpb24gaWYgYW4gSS9PIGVycm9yIG9jY3VycyB3aGlsZSB3cml0aW5nIHRvIHRoZSBvdXRwdXQgc3RyZWFtCiAgICAgKiBAdGhyb3dzIENsYXNzTm90Rm91bmRFeGNlcHRpb24gaWYgdGhlIGNsYXNzIG9mIGEgc2VyaWFsaXplZCBvYmplY3QgY2FuIG5vdCBiZSBmb3VuZAogICAgICovCiAgICBAU2VyaWFsCiAgICBAU3VwcHJlc3NXYXJuaW5ncygidW5jaGVja2VkIikKICAgIHByaXZhdGUgdm9pZCByZWFkT2JqZWN0KGZpbmFsIE9iamVjdElucHV0U3RyZWFtIGluKSB0aHJvd3MgSU9FeGNlcHRpb24sIENsYXNzTm90Rm91bmRFeGNlcHRpb24gewogICAgICAgIGluLmRlZmF1bHRSZWFkT2JqZWN0KCk7CiAgICAgICAgZWxlbWVudHMgPSAoRVtdKSBuZXcgT2JqZWN0W21heEVsZW1lbnRzXTsKICAgICAgICBmaW5hbCBpbnQgc2l6ZSA9IGluLnJlYWRJbnQoKTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHNpemU7IGkrKykgewogICAgICAgICAgICBlbGVtZW50c1tpXSA9IChFKSBpbi5yZWFkT2JqZWN0KCk7CiAgICAgICAgfQogICAgICAgIHN0YXJ0ID0gMDsKICAgICAgICBmdWxsID0gc2l6ZSA9PSBtYXhFbGVtZW50czsKICAgICAgICBpZiAoZnVsbCkgewogICAgICAgICAgICBlbmQgPSAwOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGVuZCA9IHNpemU7CiAgICAgICAgfQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgogICAgLyoqCiAgICAgKiBSZXR1cm5zIHRoZSBudW1iZXIgb2YgZWxlbWVudHMgc3RvcmVkIGluIHRoZSBxdWV1ZS4KICAgICAqCiAgICAgKiBAcmV0dXJuIHRoaXMgcXVldWUncyBzaXplCiAgICAgKi8KICAgIEBPdmVycmlkZQogICAgcHVibGljIGludCBzaXplKCkgewogICAgICAgIGludCBzaXplOwogICAgICAgIGlmIChlbmQgPCBzdGFydCkgewogICAgICAgICAgICBzaXplID0gbWF4RWxlbWVudHMgLSBzdGFydCArIGVuZDsKICAgICAgICB9IGVsc2UgaWYgKGVuZCA9PSBzdGFydCkgewogICAgICAgICAgICBzaXplID0gZnVsbCA/IG1heEVsZW1lbnRzIDogMDsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzaXplID0gZW5kIC0gc3RhcnQ7CiAgICAgICAgfQogICAgICAgIHJldHVybiBzaXplOwogICAgfQoKICAgIC8qKgogICAgICogUmV0dXJucyB0cnVlIGlmIHRoaXMgcXVldWUgaXMgZW1wdHk7IGZhbHNlIG90aGVyd2lzZS4KICAgICAqCiAgICAgKiBAcmV0dXJuIHRydWUgaWYgdGhpcyBxdWV1ZSBpcyBlbXB0eQogICAgICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBib29sZWFuIGlzRW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIHNpemUoKSA9PSAwOwogICAgfQoKICAgIC8qKgogICAgICoge0Bpbmhlcml0RG9jfQogICAgICoKICAgICAqIDxwPkEge0Bjb2RlIENpcmN1bGFyRmlmb1F1ZXVlfSBjYW4gbmV2ZXIgYmUgZnVsbCwgdGh1cyB0aGlzIHJldHVybnMgYWx3YXlzIHtAY29kZSBmYWxzZX0uCiAgICAgKgogICAgICogQHJldHVybiBhbHdheXMgcmV0dXJucyB7QGNvZGUgZmFsc2V9CiAgICAgKi8KICAgIHB1YmxpYyBib29sZWFuIGlzRnVsbCgpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgLyoqCiAgICAgKiBSZXR1cm5zIHtAY29kZSB0cnVlfSBpZiB0aGUgY2FwYWNpdHkgbGltaXQgb2YgdGhpcyBxdWV1ZSBoYXMgYmVlbiByZWFjaGVkLCBpLmUuIHRoZSBudW1iZXIgb2YKICAgICAqIGVsZW1lbnRzIHN0b3JlZCBpbiB0aGUgcXVldWUgZXF1YWxzIGl0cyBtYXhpbXVtIHNpemUuCiAgICAgKgogICAgICogQHJldHVybiB7QGNvZGUgdHJ1ZX0gaWYgdGhlIGNhcGFjaXR5IGxpbWl0IGhhcyBiZWVuIHJlYWNoZWQsIHtAY29kZSBmYWxzZX0gb3RoZXJ3aXNlCiAgICAgKiBAc2luY2UgNC4xCiAgICAgKi8KICAgIHB1YmxpYyBib29sZWFuIGlzQXRGdWxsQ2FwYWNpdHkoKSB7CiAgICAgICAgcmV0dXJuIHNpemUoKSA9PSBtYXhFbGVtZW50czsKICAgIH0KCiAgICAvKiogQ2xlYXJzIHRoaXMgcXVldWUuICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIGNsZWFyKCkgewogICAgICAgIGZ1bGwgPSBmYWxzZTsKICAgICAgICBzdGFydCA9IDA7CiAgICAgICAgZW5kID0gMDsKICAgICAgICBBcnJheXMuZmlsbChlbGVtZW50cywgbnVsbCk7CiAgICB9CgogICAgcHVibGljIEUgcHVzaChmaW5hbCBFIGVsZW1lbnQpIHsKICAgICAgICBpZiAobnVsbCA9PSBlbGVtZW50KSB7CiAgICAgICAgICAgIHRocm93IG5ldyBOdWxsUG9pbnRlckV4Y2VwdGlvbigiQXR0ZW1wdGVkIHRvIGFkZCBudWxsIG9iamVjdCB0byBxdWV1ZSIpOwogICAgICAgIH0KICAgICAgICBFIG9sZEVsZW1lbnQ7CiAgICAgICAgaWYgKGlzQXRGdWxsQ2FwYWNpdHkoKSkgewogICAgICAgICAgICBvbGRFbGVtZW50ID0gcmVtb3ZlKCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgb2xkRWxlbWVudCA9IG51bGw7CiAgICAgICAgfQogICAgICAgIGVsZW1lbnRzW2VuZF0gPSBlbGVtZW50OyAvLyDlhYjlhpnlhaUKICAgICAgICBlbmQgPSBpbmNyZW1lbnQoZW5kKTsgLy8g5YaN56e75YqoIGVuZO+8iOiHquWKqOWbnue7le+8iQogICAgICAgIGlmIChlbmQgPT0gc3RhcnQpIHsKICAgICAgICAgICAgZnVsbCA9IHRydWU7CiAgICAgICAgfQogICAgICAgIHJldHVybiBvbGRFbGVtZW50OwogICAgfQoKICAgIC8qKgogICAgICogQWRkcyB0aGUgZ2l2ZW4gZWxlbWVudCB0byB0aGlzIHF1ZXVlLiBJZiB0aGUgcXVldWUgaXMgZnVsbCwgdGhlIGxlYXN0IHJlY2VudGx5IGFkZGVkIGVsZW1lbnQKICAgICAqIGlzIGRpc2NhcmRlZCBzbyB0aGF0IGEgbmV3IGVsZW1lbnQgY2FuIGJlIGluc2VydGVkLgogICAgICoKICAgICAqIEBwYXJhbSBlbGVtZW50IHRoZSBlbGVtZW50IHRvIGFkZAogICAgICogQHJldHVybiB0cnVlLCBhbHdheXMKICAgICAqIEB0aHJvd3MgTnVsbFBvaW50ZXJFeGNlcHRpb24gaWYgdGhlIGdpdmVuIGVsZW1lbnQgaXMgbnVsbAogICAgICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBib29sZWFuIGFkZChmaW5hbCBFIGVsZW1lbnQpIHsKICAgICAgICBpZiAobnVsbCA9PSBlbGVtZW50KSB7CiAgICAgICAgICAgIHRocm93IG5ldyBOdWxsUG9pbnRlckV4Y2VwdGlvbigiQXR0ZW1wdGVkIHRvIGFkZCBudWxsIG9iamVjdCB0byBxdWV1ZSIpOwogICAgICAgIH0KICAgICAgICBpZiAoaXNBdEZ1bGxDYXBhY2l0eSgpKSB7CiAgICAgICAgICAgIHJlbW92ZSgpOwogICAgICAgIH0KCiAgICAgICAgZWxlbWVudHNbZW5kXSA9IGVsZW1lbnQ7CiAgICAgICAgZW5kID0gaW5jcmVtZW50KGVuZCk7IC8vIOS9v+eUqCBpbmNyZW1lbnQg5pa55rOVCgogICAgICAgIGlmIChlbmQgPT0gc3RhcnQpIHsKICAgICAgICAgICAgZnVsbCA9IHRydWU7CiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIC8qKgogICAgICogUmV0dXJucyB0aGUgZWxlbWVudCBhdCB0aGUgc3BlY2lmaWVkIHBvc2l0aW9uIGluIHRoaXMgcXVldWUuCiAgICAgKgogICAgICogQHBhcmFtIGluZGV4IHRoZSBwb3NpdGlvbiBvZiB0aGUgZWxlbWVudCBpbiB0aGUgcXVldWUKICAgICAqIEByZXR1cm4gdGhlIGVsZW1lbnQgYXQgcG9zaXRpb24ge0Bjb2RlIGluZGV4fQogICAgICogQHRocm93cyBOb1N1Y2hFbGVtZW50RXhjZXB0aW9uIGlmIHRoZSByZXF1ZXN0ZWQgcG9zaXRpb24gaXMgb3V0c2lkZSB0aGUgcmFuZ2UgWzAsIHNpemUpCiAgICAgKi8KICAgIHB1YmxpYyBFIGdldChmaW5hbCBpbnQgaW5kZXgpIHsKICAgICAgICBmaW5hbCBpbnQgc3ogPSBzaXplKCk7CiAgICAgICAgaWYgKGluZGV4IDwgMCB8fCBpbmRleCA+PSBzeikgewogICAgICAgICAgICB0aHJvdyBuZXcgTm9TdWNoRWxlbWVudEV4Y2VwdGlvbigKICAgICAgICAgICAgU3RyaW5nLmZvcm1hdCgiVGhlIHNwZWNpZmllZCBpbmRleCAoJTEkZCkgaXMgb3V0c2lkZSB0aGUgYXZhaWxhYmxlIHJhbmdlIFswLCAlMiRkKSIsCiAgICAgICAgICAgICAgICAgICAgaW5kZXgsIHN6KSk7CiAgICAgICAgfQogICAgICAgIGZpbmFsIGludCBpZHggPSAoc3RhcnQgKyBpbmRleCkgJSBtYXhFbGVtZW50czsKICAgICAgICByZXR1cm4gZWxlbWVudHNbaWR4XTsKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKICAgIC8qKgogICAgICogQWRkcyB0aGUgZ2l2ZW4gZWxlbWVudCB0byB0aGlzIHF1ZXVlLiBJZiB0aGUgcXVldWUgaXMgZnVsbCwgdGhlIGxlYXN0IHJlY2VudGx5IGFkZGVkIGVsZW1lbnQKICAgICAqIGlzIGRpc2NhcmRlZCBzbyB0aGF0IGEgbmV3IGVsZW1lbnQgY2FuIGJlIGluc2VydGVkLgogICAgICoKICAgICAqIEBwYXJhbSBlbGVtZW50IHRoZSBlbGVtZW50IHRvIGFkZAogICAgICogQHJldHVybiB0cnVlLCBhbHdheXMKICAgICAqIEB0aHJvd3MgTnVsbFBvaW50ZXJFeGNlcHRpb24gaWYgdGhlIGdpdmVuIGVsZW1lbnQgaXMgbnVsbAogICAgICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBib29sZWFuIG9mZmVyKGZpbmFsIEUgZWxlbWVudCkgewogICAgICAgIHJldHVybiBhZGQoZWxlbWVudCk7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgRSBwb2xsKCkgewogICAgICAgIGlmIChpc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfQogICAgICAgIHJldHVybiByZW1vdmUoKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBFIGVsZW1lbnQoKSB7CiAgICAgICAgaWYgKGlzRW1wdHkoKSkgewogICAgICAgICAgICB0aHJvdyBuZXcgTm9TdWNoRWxlbWVudEV4Y2VwdGlvbigicXVldWUgaXMgZW1wdHkiKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHBlZWsoKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBFIHBlZWsoKSB7CiAgICAgICAgaWYgKGlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGVsZW1lbnRzW3N0YXJ0XTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBFIHJlbW92ZSgpIHsKICAgICAgICBpZiAoaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBOb1N1Y2hFbGVtZW50RXhjZXB0aW9uKCJxdWV1ZSBpcyBlbXB0eSIpOwogICAgICAgIH0KICAgICAgICBmaW5hbCBFIGVsZW1lbnQgPSBlbGVtZW50c1tzdGFydF07CiAgICAgICAgaWYgKG51bGwgIT0gZWxlbWVudCkgewogICAgICAgICAgICBlbGVtZW50c1tzdGFydCsrXSA9IG51bGw7CiAgICAgICAgICAgIGlmIChzdGFydCA+PSBtYXhFbGVtZW50cykgewogICAgICAgICAgICAgICAgc3RhcnQgPSAwOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGZ1bGwgPSBmYWxzZTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGVsZW1lbnQ7CiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiAgICAvKioKICAgICAqIEluY3JlbWVudHMgdGhlIGludGVybmFsIGluZGV4LgogICAgICoKICAgICAqIEBwYXJhbSBpbmRleCB0aGUgaW5kZXggdG8gaW5jcmVtZW50CiAgICAgKiBAcmV0dXJuIHRoZSB1cGRhdGVkIGluZGV4CiAgICAgKi8KICAgIHByaXZhdGUgaW50IGluY3JlbWVudChpbnQgaW5kZXgpIHsKICAgICAgICBpbmRleCsrOwogICAgICAgIGlmIChpbmRleCA+PSBtYXhFbGVtZW50cykgewogICAgICAgICAgICBpbmRleCA9IDA7CiAgICAgICAgfQogICAgICAgIHJldHVybiBpbmRleDsKICAgIH0KCiAgICAvKioKICAgICAqIERlY3JlbWVudHMgdGhlIGludGVybmFsIGluZGV4LgogICAgICoKICAgICAqIEBwYXJhbSBpbmRleCB0aGUgaW5kZXggdG8gZGVjcmVtZW50CiAgICAgKiBAcmV0dXJuIHRoZSB1cGRhdGVkIGluZGV4CiAgICAgKi8KICAgIHByaXZhdGUgaW50IGRlY3JlbWVudChpbnQgaW5kZXgpIHsKICAgICAgICBpbmRleC0tOwogICAgICAgIGlmIChpbmRleCA8IDApIHsKICAgICAgICAgICAgaW5kZXggPSBtYXhFbGVtZW50cyAtIDE7CiAgICAgICAgfQogICAgICAgIHJldHVybiBpbmRleDsKICAgIH0KCiAgICAvKioKICAgICAqIFJldHVybnMgYW4gaXRlcmF0b3Igb3ZlciB0aGlzIHF1ZXVlJ3MgZWxlbWVudHMuCiAgICAgKgogICAgICogQHJldHVybiBhbiBpdGVyYXRvciBvdmVyIHRoaXMgcXVldWUncyBlbGVtZW50cwogICAgICovCiAgICBATm9uTnVsbAogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgSXRlcmF0b3I8RT4gaXRlcmF0b3IoKSB7CiAgICAgICAgcmV0dXJuIG5ldyBJdGVyYXRvcjw+KCkgewogICAgICAgICAgICBwcml2YXRlIGludCBpbmRleCA9IHN0YXJ0OwogICAgICAgICAgICBwcml2YXRlIGludCBsYXN0UmV0dXJuZWRJbmRleCA9IC0xOwogICAgICAgICAgICBwcml2YXRlIGJvb2xlYW4gaXNGaXJzdCA9IGZ1bGw7CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIGJvb2xlYW4gaGFzTmV4dCgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBpc0ZpcnN0IHx8IGluZGV4ICE9IGVuZDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyBFIG5leHQoKSB7CiAgICAgICAgICAgICAgICBpZiAoIWhhc05leHQoKSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBOb1N1Y2hFbGVtZW50RXhjZXB0aW9uKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpc0ZpcnN0ID0gZmFsc2U7CiAgICAgICAgICAgICAgICBsYXN0UmV0dXJuZWRJbmRleCA9IGluZGV4OwogICAgICAgICAgICAgICAgaW5kZXggPSBpbmNyZW1lbnQoaW5kZXgpOwogICAgICAgICAgICAgICAgcmV0dXJuIGVsZW1lbnRzW2xhc3RSZXR1cm5lZEluZGV4XTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIHJlbW92ZSgpIHsKICAgICAgICAgICAgICAgIGlmIChsYXN0UmV0dXJuZWRJbmRleCA9PSAtMSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIC8vIEZpcnN0IGVsZW1lbnQgY2FuIGJlIHJlbW92ZWQgcXVpY2tseQogICAgICAgICAgICAgICAgaWYgKGxhc3RSZXR1cm5lZEluZGV4ID09IHN0YXJ0KSB7CiAgICAgICAgICAgICAgICAgICAgQ2lyY3VsYXJGaWZvUXVldWUudGhpcy5yZW1vdmUoKTsKICAgICAgICAgICAgICAgICAgICBsYXN0UmV0dXJuZWRJbmRleCA9IC0xOwogICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGludCBwb3MgPSBsYXN0UmV0dXJuZWRJbmRleCArIDE7CiAgICAgICAgICAgICAgICBpZiAoc3RhcnQgPCBsYXN0UmV0dXJuZWRJbmRleCAmJiBwb3MgPCBlbmQpIHsKICAgICAgICAgICAgICAgICAgICAvLyBzaGlmdCBpbiBvbmUgcGFydAogICAgICAgICAgICAgICAgICAgIFN5c3RlbS5hcnJheWNvcHkoZWxlbWVudHMsIHBvcywgZWxlbWVudHMsIGxhc3RSZXR1cm5lZEluZGV4LCBlbmQgLSBwb3MpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAvLyBPdGhlciBlbGVtZW50cyByZXF1aXJlIHVzIHRvIHNoaWZ0IHRoZSBzdWJzZXF1ZW50IGVsZW1lbnRzCiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKHBvcyAhPSBlbmQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHBvcyA+PSBtYXhFbGVtZW50cykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudHNbcG9zIC0gMV0gPSBlbGVtZW50c1swXTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvcyA9IDA7CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50c1tkZWNyZW1lbnQocG9zKV0gPSBlbGVtZW50c1twb3NdOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zID0gaW5jcmVtZW50KHBvcyk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsYXN0UmV0dXJuZWRJbmRleCA9IC0xOwogICAgICAgICAgICAgICAgZW5kID0gZGVjcmVtZW50KGVuZCk7CiAgICAgICAgICAgICAgICBlbGVtZW50c1tlbmRdID0gbnVsbDsKICAgICAgICAgICAgICAgIGZ1bGwgPSBmYWxzZTsKICAgICAgICAgICAgICAgIGluZGV4ID0gZGVjcmVtZW50KGluZGV4KTsKICAgICAgICAgICAgfQogICAgICAgIH07CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util;
+
+import androidx.annotation.NonNull;
+
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serial;
+import java.io.Serializable;
+import java.util.*;
+
+/** 源码来自：Apache Commons Collections 4.4 少量定制 */
+public class CircularFifoQueue<E> extends AbstractCollection<E> implements Queue<E>, Serializable {
+    /** Serialization version. */
+    @Serial private static final long serialVersionUID = -8423413834657610406L;
+
+    /** Underlying storage array. */
+    private transient E[] elements;
+
+    /** Array index of first (oldest) queue element. */
+    private transient int start = 0;
+
+    /**
+     * Index mod maxElements of the array position following the last queue element. Queue elements
+     * start at elements[start] and "wrap around" elements[maxElements-1], ending at
+     * elements[decrement(end)]. For example, elements = {c,a,b}, start=1, end=1 corresponds to the
+     * queue [a,b,c].
+     */
+    private transient int end = 0;
+
+    /** Flag to indicate if the queue is currently full. */
+    private transient boolean full = false;
+
+    /** Capacity of the queue. */
+    private final int maxElements;
+
+    /**
+     * Constructor that creates a queue with the specified size.
+     *
+     * @param size the size of the queue (cannot be changed)
+     * @throws IllegalArgumentException if the size is &lt; 1
+     */
+    @SuppressWarnings("unchecked")
+    public CircularFifoQueue(final int size) {
+        if (size <= 0) {
+            throw new IllegalArgumentException("The size must be greater than 0");
+        }
+        elements = (E[]) new Object[size];
+        maxElements = elements.length;
+    }
+
+    // -----------------------------------------------------------------------
+
+    /**
+     * Write the queue out using a custom routine.
+     *
+     * @param out the output stream
+     * @throws IOException if an I/O error occurs while writing to the output stream
+     */
+    @Serial
+    private void writeObject(final ObjectOutputStream out) throws IOException {
+        out.defaultWriteObject();
+        out.writeInt(size());
+        for (final E e : this) {
+            out.writeObject(e);
+        }
+    }
+
+    /**
+     * Read the queue in using a custom routine.
+     *
+     * @param in the input stream
+     * @throws IOException if an I/O error occurs while writing to the output stream
+     * @throws ClassNotFoundException if the class of a serialized object can not be found
+     */
+    @Serial
+    @SuppressWarnings("unchecked")
+    private void readObject(final ObjectInputStream in) throws IOException, ClassNotFoundException {
+        in.defaultReadObject();
+        elements = (E[]) new Object[maxElements];
+        final int size = in.readInt();
+        for (int i = 0; i < size; i++) {
+            elements[i] = (E) in.readObject();
+        }
+        start = 0;
+        full = size == maxElements;
+        if (full) {
+            end = 0;
+        } else {
+            end = size;
+        }
+    }
+
+    // -----------------------------------------------------------------------
+
+    /**
+     * Returns the number of elements stored in the queue.
+     *
+     * @return this queue's size
+     */
+    @Override
+    public int size() {
+        int size;
+        if (end < start) {
+            size = maxElements - start + end;
+        } else if (end == start) {
+            size = full ? maxElements : 0;
+        } else {
+            size = end - start;
+        }
+        return size;
+    }
+
+    /**
+     * Returns true if this queue is empty; false otherwise.
+     *
+     * @return true if this queue is empty
+     */
+    @Override
+    public boolean isEmpty() {
+        return size() == 0;
+    }
+
+    /**
+     * {@inheritDoc}
+     *
+     * <p>A {@code CircularFifoQueue} can never be full, thus this returns always {@code false}.
+     *
+     * @return always returns {@code false}
+     */
+    public boolean isFull() {
+        return false;
+    }
+
+    /**
+     * Returns {@code true} if the capacity limit of this queue has been reached, i.e. the number of
+     * elements stored in the queue equals its maximum size.
+     *
+     * @return {@code true} if the capacity limit has been reached, {@code false} otherwise
+     * @since 4.1
+     */
+    public boolean isAtFullCapacity() {
+        return size() == maxElements;
+    }
+
+    /** Clears this queue. */
+    @Override
+    public void clear() {
+        full = false;
+        start = 0;
+        end = 0;
+        Arrays.fill(elements, null);
+    }
+
+    public E push(final E element) {
+        if (null == element) {
+            throw new NullPointerException("Attempted to add null object to queue");
+        }
+        E oldElement;
+        if (isAtFullCapacity()) {
+            oldElement = remove();
+        } else {
+            oldElement = null;
+        }
+        elements[end] = element; // 先写入
+        end = increment(end); // 再移动 end（自动回绕）
+        if (end == start) {
+            full = true;
+        }
+        return oldElement;
+    }
+
+    /**
+     * Adds the given element to this queue. If the queue is full, the least recently added element
+     * is discarded so that a new element can be inserted.
+     *
+     * @param element the element to add
+     * @return true, always
+     * @throws NullPointerException if the given element is null
+     */
+    @Override
+    public boolean add(final E element) {
+        if (null == element) {
+            throw new NullPointerException("Attempted to add null object to queue");
+        }
+        if (isAtFullCapacity()) {
+            remove();
+        }
+
+        elements[end] = element;
+        end = increment(end); // 使用 increment 方法
+
+        if (end == start) {
+            full = true;
+        }
+        return true;
+    }
+
+    /**
+     * Returns the element at the specified position in this queue.
+     *
+     * @param index the position of the element in the queue
+     * @return the element at position {@code index}
+     * @throws NoSuchElementException if the requested position is outside the range [0, size)
+     */
+    public E get(final int index) {
+        final int sz = size();
+        if (index < 0 || index >= sz) {
+            throw new NoSuchElementException(
+            String.format("The specified index (%1$d) is outside the available range [0, %2$d)",
+                    index, sz));
+        }
+        final int idx = (start + index) % maxElements;
+        return elements[idx];
+    }
+
+    // -----------------------------------------------------------------------
+
+    /**
+     * Adds the given element to this queue. If the queue is full, the least recently added element
+     * is discarded so that a new element can be inserted.
+     *
+     * @param element the element to add
+     * @return true, always
+     * @throws NullPointerException if the given element is null
+     */
+    @Override
+    public boolean offer(final E element) {
+        return add(element);
+    }
+
+    @Override
+    public E poll() {
+        if (isEmpty()) {
+            return null;
+        }
+        return remove();
+    }
+
+    @Override
+    public E element() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("queue is empty");
+        }
+        return peek();
+    }
+
+    @Override
+    public E peek() {
+        if (isEmpty()) {
+            return null;
+        }
+        return elements[start];
+    }
+
+    @Override
+    public E remove() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("queue is empty");
+        }
+        final E element = elements[start];
+        if (null != element) {
+            elements[start++] = null;
+            if (start >= maxElements) {
+                start = 0;
+            }
+            full = false;
+        }
+        return element;
+    }
+
+    // -----------------------------------------------------------------------
+
+    /**
+     * Increments the internal index.
+     *
+     * @param index the index to increment
+     * @return the updated index
+     */
+    private int increment(int index) {
+        index++;
+        if (index >= maxElements) {
+            index = 0;
+        }
+        return index;
+    }
+
+    /**
+     * Decrements the internal index.
+     *
+     * @param index the index to decrement
+     * @return the updated index
+     */
+    private int decrement(int index) {
+        index--;
+        if (index < 0) {
+            index = maxElements - 1;
+        }
+        return index;
+    }
+
+    /**
+     * Returns an iterator over this queue's elements.
+     *
+     * @return an iterator over this queue's elements
+     */
+    @NonNull
+    @Override
+    public Iterator<E> iterator() {
+        return new Iterator<>() {
+            private int index = start;
+            private int lastReturnedIndex = -1;
+            private boolean isFirst = full;
+
+            @Override
+            public boolean hasNext() {
+                return isFirst || index != end;
+            }
+
+            @Override
+            public E next() {
+                if (!hasNext()) {
+                    throw new NoSuchElementException();
+                }
+                isFirst = false;
+                lastReturnedIndex = index;
+                index = increment(index);
+                return elements[lastReturnedIndex];
+            }
+
+            @Override
+            public void remove() {
+                if (lastReturnedIndex == -1) {
+                    throw new IllegalStateException();
+                }
+                // First element can be removed quickly
+                if (lastReturnedIndex == start) {
+                    CircularFifoQueue.this.remove();
+                    lastReturnedIndex = -1;
+                    return;
+                }
+                int pos = lastReturnedIndex + 1;
+                if (start < lastReturnedIndex && pos < end) {
+                    // shift in one part
+                    System.arraycopy(elements, pos, elements, lastReturnedIndex, end - pos);
+                } else {
+                    // Other elements require us to shift the subsequent elements
+                    while (pos != end) {
+                        if (pos >= maxElements) {
+                            elements[pos - 1] = elements[0];
+                            pos = 0;
+                        } else {
+                            elements[decrement(pos)] = elements[pos];
+                            pos = increment(pos);
+                        }
+                    }
+                }
+                lastReturnedIndex = -1;
+                end = decrement(end);
+                elements[end] = null;
+                full = false;
+                index = decrement(index);
+            }
+        };
+    }
+}

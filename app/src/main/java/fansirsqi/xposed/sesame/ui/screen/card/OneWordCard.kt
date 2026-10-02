@@ -1,1 +1,89 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uY2FyZAoKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5BbmltYXRlZENvbnRlbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmZhZGVJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uZmFkZU91dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24udG9nZXRoZXJXaXRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY29tYmluZWRDbGlja2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHRJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkNpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LmNsaXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0QWxpZ24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCgpAQ29tcG9zYWJsZQpmdW4gT25lV29yZENhcmQoCiAgICBvbmVXb3JkOiBTdHJpbmcsCiAgICBpc0xvYWRpbmc6IEJvb2xlYW4sCiAgICBvbkNsaWNrOiAoKSAtPiBVbml0LAogICAgb25Mb25nQ2xpY2s6ICgoKSAtPiBVbml0KT8gPSBudWxsCikgewogICAgQm94KAogICAgICAgIGNvbnRlbnRBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyLAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgIC5oZWlnaHRJbihtaW4gPSAxMTIuZHApCiAgICAgICAgICAgIC5wYWRkaW5nKHZlcnRpY2FsID0gOC5kcCkKICAgICAgICAgICAgLy8g6KOB5Ymq5Li65ZyG6KeSCiAgICAgICAgICAgIC5jbGlwKFJvdW5kZWRDb3JuZXJTaGFwZSgxMi5kcCkpCiAgICAgICAgICAgIC8vIOe7hOWQiOeCueWHu+S6i+S7tiAo5pSv5oyB6ZW/5oyJKQogICAgICAgICAgICAuY29tYmluZWRDbGlja2FibGUoCiAgICAgICAgICAgICAgICBlbmFibGVkID0gIWlzTG9hZGluZywKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkNsaWNrLAogICAgICAgICAgICAgICAgb25Mb25nQ2xpY2sgPSBvbkxvbmdDbGljawogICAgICAgICAgICApCiAgICAgICAgICAgIC8vIOWGhemDqCBQYWRkaW5nCiAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKQogICAgKSB7CiAgICAgICAgQW5pbWF0ZWRDb250ZW50KAogICAgICAgICAgICB0YXJnZXRTdGF0ZSA9IGlzTG9hZGluZywKICAgICAgICAgICAgdHJhbnNpdGlvblNwZWMgPSB7IGZhZGVJbigpIHRvZ2V0aGVyV2l0aCBmYWRlT3V0KCkgfSwKICAgICAgICAgICAgbGFiZWwgPSAiT25lV29yZEFuaW1hdGlvbiIKICAgICAgICApIHsgbG9hZGluZyAtPgogICAgICAgICAgICBpZiAobG9hZGluZykgewogICAgICAgICAgICAgICAgLy8g5Yqg6L2954q25oCBCiAgICAgICAgICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHksCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LkNlbnRlcgogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcigKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDI0LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggPSAyLmRwLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9ICLmnKzmnaXml6DkuIDniaks5L2V5aSE5oO55bCYLi4iLAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbE1lZGl1bSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyDmmL7npLrkuIDoqIAKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IG9uZVdvcmQsCiAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSAxNC5zcCwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgICAgIHRleHRBbGlnbiA9IFRleHRBbGlnbi5DZW50ZXIsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==
+package fansirsqi.xposed.sesame.ui.screen.card
+
+
+import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.togetherWith
+import androidx.compose.foundation.combinedClickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+
+@Composable
+fun OneWordCard(
+    oneWord: String,
+    isLoading: Boolean,
+    onClick: () -> Unit,
+    onLongClick: (() -> Unit)? = null
+) {
+    Box(
+        contentAlignment = Alignment.Center,
+        modifier = Modifier
+            .fillMaxWidth()
+            .heightIn(min = 112.dp)
+            .padding(vertical = 8.dp)
+            // 裁剪为圆角
+            .clip(RoundedCornerShape(12.dp))
+            // 组合点击事件 (支持长按)
+            .combinedClickable(
+                enabled = !isLoading,
+                onClick = onClick,
+                onLongClick = onLongClick
+            )
+            // 内部 Padding
+            .padding(16.dp)
+    ) {
+        AnimatedContent(
+            targetState = isLoading,
+            transitionSpec = { fadeIn() togetherWith fadeOut() },
+            label = "OneWordAnimation"
+        ) { loading ->
+            if (loading) {
+                // 加载状态
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
+                ) {
+                    CircularProgressIndicator(
+                        modifier = Modifier.size(24.dp),
+                        strokeWidth = 2.dp,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = "本来无一物,何处惹尘..",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            } else {
+                // 显示一言
+                Text(
+                    text = oneWord,
+                    fontSize = 14.sp,
+                    style = MaterialTheme.typography.bodyMedium,
+                    textAlign = TextAlign.Center,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        }
+    }
+}

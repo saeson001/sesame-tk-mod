@@ -1,1 +1,246 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5zZXJ2aWNlCgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludAppbXBvcnQgYW5kcm9pZC5hcHAuTm90aWZpY2F0aW9uCmltcG9ydCBhbmRyb2lkLmFwcC5Ob3RpZmljYXRpb25DaGFubmVsCmltcG9ydCBhbmRyb2lkLmFwcC5Ob3RpZmljYXRpb25NYW5hZ2VyCmltcG9ydCBhbmRyb2lkLmFwcC5QZW5kaW5nSW50ZW50CmltcG9ydCBhbmRyb2lkLmFwcC5TZXJ2aWNlCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm9zLklCaW5kZXIKaW1wb3J0IGFuZHJvaWQub3MuUmVtb3RlQ2FsbGJhY2tMaXN0CmltcG9ydCBhbmRyb2lkLm9zLlJlbW90ZUV4Y2VwdGlvbgppbXBvcnQgYW5kcm9pZHguY29yZS5hcHAuTm90aWZpY2F0aW9uQ29tcGF0CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5JQ2FsbGJhY2sKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLklDb21tYW5kU2VydmljZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuSVN0YXR1c0xpc3RlbmVyCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5SCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5NYWluQWN0aXZpdHkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jYW5jZWwKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLk11dGV4CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy53aXRoTG9jawppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhUaW1lb3V0CgovKioKICog5ZG95Luk5omn6KGM5pyN5Yqh77yI5YmN5Y+w5pyN5Yqh77yJCiAqIOi0n+i0o+mAmui/hyBTaGVsbE1hbmFnZXIg5omn6KGM5bqV5bGC5ZG95LukCiAqLwpjbGFzcyBDb21tYW5kU2VydmljZSA6IFNlcnZpY2UoKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkNvbW1hbmRTZXJ2aWNlIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIE5PVElGSUNBVElPTl9JRCA9IDEwMDEKCiAgICAgICAgLy8g57uf5LiAIElEIOWSjCDlkI3np7AKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDSEFOTkVMX0lEID0gIlNlc2FtZUNvbW1hbmRDaGFubmVsIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIENIQU5ORUxfTkFNRSA9ICLlkI7lj7Dlkb3ku6TmnI3liqEiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgTk9USUZJQ0FUSU9OX1RJVExFID0gIuWQjuWPsOWRveS7pOacjeWKoSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBOT1RJRklDQVRJT05fQ09OVEVOVCA9ICLmnI3liqHmraPlnKjov5DooYzvvIznrYnlvoXmiafooYzmjIfku6QuLi4iCgogICAgICAgIC8vIOiuvue9ruWRveS7pOaJp+ihjOi2heaXtuaXtumXtO+8jOS+i+WmgiAxNSDnp5IKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDT01NQU5EX1RJTUVPVVRfTVMgPSAxNTAwMEwKICAgIH0KCiAgICAvKioKICAgICAqIOeUqOS6jueuoeeQhui3qOi/m+eoi+Wbnuiwg+eahOWIl+ihqAogICAgICovCiAgICBwcml2YXRlIHZhbCBsaXN0ZW5lcnMgPSBSZW1vdGVDYWxsYmFja0xpc3Q8SVN0YXR1c0xpc3RlbmVyPigpCgogICAgLy8g5L2/55SoIFN1cGVydmlzb3JKb2LvvIznoa7kv53ljZXkuKrku7vliqHltKnmuoPkuI3lvbHlk43mlbTkuKrkvZznlKjln58KICAgIHByaXZhdGUgdmFsIHNlcnZpY2VTY29wZSA9IENvcm91dGluZVNjb3BlKERpc3BhdGNoZXJzLklPICsgU3VwZXJ2aXNvckpvYigpKQogICAgcHJpdmF0ZSB2YWwgY29tbWFuZE11dGV4ID0gTXV0ZXgoKQoKICAgIC8vIFNoZWxsTWFuYWdlciDlrp7kvosKICAgIHByaXZhdGUgdmFyIHNoZWxsTWFuYWdlcjogU2hlbGxNYW5hZ2VyPyA9IG51bGwKCiAgICBwcml2YXRlIHZhbCBiaW5kZXIgPSBvYmplY3QgOiBJQ29tbWFuZFNlcnZpY2UuU3R1YigpIHsKICAgICAgICBvdmVycmlkZSBmdW4gZXhlY3V0ZUNvbW1hbmQoY29tbWFuZDogU3RyaW5nLCBjYWxsYmFjazogSUNhbGxiYWNrPykgewogICAgICAgICAgICBzZXJ2aWNlU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIGNvbW1hbmRNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgZW5zdXJlU2hlbGxNYW5hZ2VyKCkKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5LyY5YyWOiDlpoLmnpwgU2hlbGxNYW5hZ2VyIOS+neeEtuayoeaciSBTaGVsbO+8jOWwneivlemHjee9ruS4gOS4i++8iOW6lOWvuSBTaGl6dWt1IOWImuaOiOadg+eahOaDheWGte+8iQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2hlbGxNYW5hZ2VyPy5zZWxlY3RlZE5hbWUgPT0gIm5vX2V4ZWN1dG9yIikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hlbGxNYW5hZ2VyPy5yZXNldCgpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOaJp+ihjAogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gd2l0aFRpbWVvdXQoQ09NTUFORF9USU1FT1VUX01TKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGVsbE1hbmFnZXIhIS5leGVjKGNvbW1hbmQpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZXN1bHQuaXNTdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzYWZlQ2FsbGJhY2tTdWNjZXNzKGNhbGxiYWNrLCByZXN1bHQuc3Rkb3V0LnRyaW0oKSkKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOS8mOWMlumUmeivr+S/oeaBr+i/lOWbnu+8jOWMuuWIhuaYryBTaGVsbCDmib7kuI3liLDov5jmmK/lkb3ku6TmiafooYzplJkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBlcnJvck1zZyA9IGlmIChyZXN1bHQuZXhpdENvZGUgPT0gLTEgJiYgcmVzdWx0LnN0ZGVyci5jb250YWlucygiTm8gdmFsaWQiKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICLml6AgUm9vdC9TaGl6dWt1IOadg+mZkCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNvZGU6JHtyZXN1bHQuZXhpdENvZGV9LCBFcnI6JHtyZXN1bHQuc3RkZXJyfSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNhZmVDYWxsYmFja0Vycm9yKGNhbGxiYWNrLCBlcnJvck1zZykKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICAvLyAuLi4g5byC5bi45aSE55CGIC4uLgogICAgICAgICAgICAgICAgICAgICAgICBMb2cuZShUQUcsICLmiafooYzlvILluLgiLCBlKQogICAgICAgICAgICAgICAgICAgICAgICBzYWZlQ2FsbGJhY2tFcnJvcihjYWxsYmFjaywgZS5tZXNzYWdlID86ICJTZXJ2aWNlIEVycm9yIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgoKICAgICAgICAvKioKICAgICAgICAgKiDlrp7njrDms6jlhowKICAgICAgICAgKi8KICAgICAgICBvdmVycmlkZSBmdW4gcmVnaXN0ZXJMaXN0ZW5lcihsaXN0ZW5lcjogSVN0YXR1c0xpc3RlbmVyPykgewogICAgICAgICAgICBsaXN0ZW5lcnMucmVnaXN0ZXIobGlzdGVuZXIpCiAgICAgICAgICAgIC8vIPCfkqEg5rOo5YaM5pe256uL5Y2z5Zue6LCD5LiA5qyh5b2T5YmN54q25oCB77yM6Ziy5q2i5a6i5oi356uv54q25oCB5LiN5ZCM5q2lCiAgICAgICAgICAgIGxpc3RlbmVyPy5vblN0YXR1c0NoYW5nZWQoc2hlbGxNYW5hZ2VyPy5zZWxlY3RlZE5hbWUpCiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiDlrp7njrDms6jplIAKICAgICAgICAgKi8KICAgICAgICBvdmVycmlkZSBmdW4gdW5yZWdpc3Rlckxpc3RlbmVyKGxpc3RlbmVyOiBJU3RhdHVzTGlzdGVuZXI/KSB7CiAgICAgICAgICAgIGxpc3RlbmVycy51bnJlZ2lzdGVyKGxpc3RlbmVyKQogICAgICAgIH0KICAgIH0KCiAgICBAU3VwcHJlc3NMaW50KCJGb3JlZ3JvdW5kU2VydmljZVR5cGUiKQogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKCkgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKCkKCiAgICAgICAgTG9nLmQoVEFHLCAiQ29tbWFuZFNlcnZpY2Ugb25DcmVhdGUiKQogICAgICAgIC8vIOeri+WNs+WQr+WKqOWJjeWPsOacjeWKoe+8jOmBv+WFjei2heaXtgogICAgICAgIGNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoKQogICAgICAgIHN0YXJ0Rm9yZWdyb3VuZChOT1RJRklDQVRJT05fSUQsIGNyZWF0ZU5vdGlmaWNhdGlvbigpKQogICAgICAgIC8vIOW7tui/n+WIneWni+WMliBTaGVsbE1hbmFnZXLvvIjkuI3pmLvloZ7liY3lj7DmnI3liqHlkK/liqjvvIkKICAgICAgICBzZXJ2aWNlU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGVuc3VyZVNoZWxsTWFuYWdlcigpCiAgICAgICAgICAgICAgICBzaGVsbE1hbmFnZXI/Lm9uU3RhdGVDaGFuZ2VkID0geyBuZXdUeXBlIC0+CiAgICAgICAgICAgICAgICAgICAgZGlzcGF0Y2hTdGF0dXNDaGFuZ2UobmV3VHlwZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cuZShUQUcsICJTaGVsbE1hbmFnZXIg5Yid5aeL5YyW5aSx6LSlIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWIhuWPkeeKtuaAgee7meaJgOacieWuouaIt+errwogICAgICovCiAgICBwcml2YXRlIGZ1biBkaXNwYXRjaFN0YXR1c0NoYW5nZSh0eXBlOiBTdHJpbmcpIHsKICAgICAgICB2YWwgY291bnQgPSBsaXN0ZW5lcnMuYmVnaW5Ccm9hZGNhc3QoKQogICAgICAgIGZvciAoaSBpbiAwIHVudGlsIGNvdW50KSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBsaXN0ZW5lcnMuZ2V0QnJvYWRjYXN0SXRlbShpKS5vblN0YXR1c0NoYW5nZWQodHlwZSkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAvLyDlrqLmiLfnq6/lj6/og73mrbvmjonkuobvvIxSZW1vdGVDYWxsYmFja0xpc3Qg5Lya6Ieq5Yqo5riF55CGCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgbGlzdGVuZXJzLmZpbmlzaEJyb2FkY2FzdCgpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uQmluZChpbnRlbnQ6IEludGVudD8pOiBJQmluZGVyIHsKICAgICAgICBMb2cuZChUQUcsICJDb21tYW5kU2VydmljZSBvbkJpbmQiKQogICAgICAgIHJldHVybiBiaW5kZXIKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25TdGFydENvbW1hbmQoaW50ZW50OiBJbnRlbnQ/LCBmbGFnczogSW50LCBzdGFydElkOiBJbnQpOiBJbnQgewogICAgICAgIC8vIOWmguaenOacjeWKoeiiq+W8guW4uOadgOatu++8jOWwneivlemHjeWQrwogICAgICAgIHJldHVybiBTVEFSVF9TVElDS1kKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25EZXN0cm95KCkgewogICAgICAgIHN1cGVyLm9uRGVzdHJveSgpCi8vICAgICAgICBMb2cuZChUQUcsICJDb21tYW5kU2VydmljZSBvbkRlc3Ryb3kiKQogICAgICAgIHN0b3BGb3JlZ3JvdW5kKFNUT1BfRk9SRUdST1VORF9SRU1PVkUpCiAgICAgICAgc2hlbGxNYW5hZ2VyID0gbnVsbAogICAgICAgIHNlcnZpY2VTY29wZS5jYW5jZWwoKSAvLyDplIDmr4Hml7blj5bmtojmiYDmnInljY/nqIvku7vliqEKICAgIH0KCiAgICAvKioKICAgICAqIOehruS/nSBTaGVsbE1hbmFnZXIg5bey5Yid5aeL5YyWCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGVuc3VyZVNoZWxsTWFuYWdlcigpIHsKICAgICAgICBpZiAoc2hlbGxNYW5hZ2VyID09IG51bGwpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHNoZWxsTWFuYWdlciA9IFNoZWxsTWFuYWdlcihhcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLmUoVEFHLCAiU2hlbGxNYW5hZ2VyIGluaXQgZXJyb3IiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5a6J5YWo5Zue6LCDIFN1Y2Nlc3PvvIzlpITnkIYgRGVhZE9iamVjdEV4Y2VwdGlvbgogICAgICovCiAgICBwcml2YXRlIGZ1biBzYWZlQ2FsbGJhY2tTdWNjZXNzKGNhbGxiYWNrOiBJQ2FsbGJhY2s/LCByZXN1bHQ6IFN0cmluZykgewogICAgICAgIGlmIChjYWxsYmFjayA9PSBudWxsKSByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICBjYWxsYmFjay5vblN1Y2Nlc3MocmVzdWx0KQogICAgICAgIH0gY2F0Y2ggKGU6IFJlbW90ZUV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cudyhUQUcsICLlm57osIPlpLHotKUo5a6i5oi356uv5bey5q275LqhKTogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlronlhajlm57osIMgRXJyb3LvvIzlpITnkIYgRGVhZE9iamVjdEV4Y2VwdGlvbgogICAgICovCiAgICBwcml2YXRlIGZ1biBzYWZlQ2FsbGJhY2tFcnJvcihjYWxsYmFjazogSUNhbGxiYWNrPywgZXJyb3I6IFN0cmluZykgewogICAgICAgIGlmIChjYWxsYmFjayA9PSBudWxsKSByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICBjYWxsYmFjay5vbkVycm9yKGVycm9yKQogICAgICAgIH0gY2F0Y2ggKGU6IFJlbW90ZUV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cudyhUQUcsICLlm57osIPlpLHotKUo5a6i5oi356uv5bey5q275LqhKTogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDliJvlu7rpgJrnn6XmuKDpgZPvvIhBbmRyb2lkIDguMCsg6ZyA6KaB77yJCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoKSB7CiAgICAgICAgdmFsIGNoYW5uZWwgPSBOb3RpZmljYXRpb25DaGFubmVsKAogICAgICAgICAgICBDSEFOTkVMX0lELAogICAgICAgICAgICBDSEFOTkVMX05BTUUsCiAgICAgICAgICAgIE5vdGlmaWNhdGlvbk1hbmFnZXIuSU1QT1JUQU5DRV9MT1cgLy8g5L2O5LyY5YWI57qn77yM5LiN5Y+R5Ye65aOw6Z+zCiAgICAgICAgKS5hcHBseSB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gIueUqOS6jue7tOaMgeWQjuWPsOWRveS7pOaJp+ihjOacjeWKoeeahOi/kOihjCIKICAgICAgICAgICAgc2V0U2hvd0JhZGdlKGZhbHNlKQogICAgICAgIH0KICAgICAgICB2YWwgbm90aWZpY2F0aW9uTWFuYWdlciA9IGdldFN5c3RlbVNlcnZpY2UoTm90aWZpY2F0aW9uTWFuYWdlcjo6Y2xhc3MuamF2YSkKICAgICAgICBub3RpZmljYXRpb25NYW5hZ2VyLmNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoY2hhbm5lbCkKICAgIH0KCiAgICAvKioKICAgICAqIOWIm+W7uuWJjeWPsOacjeWKoemAmuefpQogICAgICovCiAgICBwcml2YXRlIGZ1biBjcmVhdGVOb3RpZmljYXRpb24oKTogTm90aWZpY2F0aW9uIHsKICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KHRoaXMsIE1haW5BY3Rpdml0eTo6Y2xhc3MuamF2YSkuYXBwbHkgewogICAgICAgICAgICBmbGFncyA9IEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLIG9yIEludGVudC5GTEFHX0FDVElWSVRZX0NMRUFSX1RPUAogICAgICAgIH0KCiAgICAgICAgdmFsIHBlbmRpbmdJbnRlbnQgPSBQZW5kaW5nSW50ZW50LmdldEFjdGl2aXR5KAogICAgICAgICAgICB0aGlzLAogICAgICAgICAgICAwLAogICAgICAgICAgICBpbnRlbnQsCiAgICAgICAgICAgIFBlbmRpbmdJbnRlbnQuRkxBR19VUERBVEVfQ1VSUkVOVCBvciBQZW5kaW5nSW50ZW50LkZMQUdfSU1NVVRBQkxFCiAgICAgICAgKQoKICAgICAgICByZXR1cm4gTm90aWZpY2F0aW9uQ29tcGF0LkJ1aWxkZXIodGhpcywgQ0hBTk5FTF9JRCkKICAgICAgICAgICAgLnNldENvbnRlbnRUaXRsZShOT1RJRklDQVRJT05fVElUTEUpCiAgICAgICAgICAgIC5zZXRDb250ZW50VGV4dChOT1RJRklDQVRJT05fQ09OVEVOVCkKICAgICAgICAgICAgLnNldFNtYWxsSWNvbihSLmRyYXdhYmxlLnRpdGxlX2xvZ28pCiAgICAgICAgICAgIC5zZXRDb250ZW50SW50ZW50KHBlbmRpbmdJbnRlbnQpCiAgICAgICAgICAgIC5zZXRQcmlvcml0eShOb3RpZmljYXRpb25Db21wYXQuUFJJT1JJVFlfTE9XKQogICAgICAgICAgICAuc2V0T25nb2luZyh0cnVlKSAvLyDnpoHmraLnlKjmiLfkvqfmu5HliKDpmaQKICAgICAgICAgICAgLmJ1aWxkKCkKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.service
+
+import android.annotation.SuppressLint
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
+import android.app.Service
+import android.content.Intent
+import android.os.IBinder
+import android.os.RemoteCallbackList
+import android.os.RemoteException
+import androidx.core.app.NotificationCompat
+import fansirsqi.xposed.sesame.ICallback
+import fansirsqi.xposed.sesame.ICommandService
+import fansirsqi.xposed.sesame.IStatusListener
+import fansirsqi.xposed.sesame.R
+import fansirsqi.xposed.sesame.ui.MainActivity
+import fansirsqi.xposed.sesame.util.Log
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import kotlinx.coroutines.withTimeout
+
+/**
+ * 命令执行服务（前台服务）
+ * 负责通过 ShellManager 执行底层命令
+ */
+class CommandService : Service() {
+
+    companion object {
+        private const val TAG = "CommandService"
+        private const val NOTIFICATION_ID = 1001
+
+        // 统一 ID 和 名称
+        private const val CHANNEL_ID = "SesameCommandChannel"
+        private const val CHANNEL_NAME = "后台命令服务"
+        private const val NOTIFICATION_TITLE = "后台命令服务"
+        private const val NOTIFICATION_CONTENT = "服务正在运行，等待执行指令..."
+
+        // 设置命令执行超时时间，例如 15 秒
+        private const val COMMAND_TIMEOUT_MS = 15000L
+    }
+
+    /**
+     * 用于管理跨进程回调的列表
+     */
+    private val listeners = RemoteCallbackList<IStatusListener>()
+
+    // 使用 SupervisorJob，确保单个任务崩溃不影响整个作用域
+    private val serviceScope = CoroutineScope(Dispatchers.IO + SupervisorJob())
+    private val commandMutex = Mutex()
+
+    // ShellManager 实例
+    private var shellManager: ShellManager? = null
+
+    private val binder = object : ICommandService.Stub() {
+        override fun executeCommand(command: String, callback: ICallback?) {
+            serviceScope.launch {
+                commandMutex.withLock {
+                    try {
+                        ensureShellManager()
+                        // 优化: 如果 ShellManager 依然没有 Shell，尝试重置一下（应对 Shizuku 刚授权的情况）
+                        if (shellManager?.selectedName == "no_executor") {
+                            shellManager?.reset()
+                        }
+
+                        // 执行
+                        val result = withTimeout(COMMAND_TIMEOUT_MS) {
+                            shellManager!!.exec(command)
+                        }
+
+                        if (result.isSuccess) {
+                            safeCallbackSuccess(callback, result.stdout.trim())
+                        } else {
+                            // 优化错误信息返回，区分是 Shell 找不到还是命令执行错
+                            val errorMsg = if (result.exitCode == -1 && result.stderr.contains("No valid")) {
+                                "无 Root/Shizuku 权限"
+                            } else {
+                                "Code:${result.exitCode}, Err:${result.stderr}"
+                            }
+                            safeCallbackError(callback, errorMsg)
+                        }
+                    } catch (e: Exception) {
+                        // ... 异常处理 ...
+                        Log.e(TAG, "执行异常", e)
+                        safeCallbackError(callback, e.message ?: "Service Error")
+                    }
+                }
+            }
+        }
+
+
+        /**
+         * 实现注册
+         */
+        override fun registerListener(listener: IStatusListener?) {
+            listeners.register(listener)
+            // 💡 注册时立即回调一次当前状态，防止客户端状态不同步
+            listener?.onStatusChanged(shellManager?.selectedName)
+        }
+
+        /**
+         * 实现注销
+         */
+        override fun unregisterListener(listener: IStatusListener?) {
+            listeners.unregister(listener)
+        }
+    }
+
+    @SuppressLint("ForegroundServiceType")
+    override fun onCreate() {
+        super.onCreate()
+
+        Log.d(TAG, "CommandService onCreate")
+        // 立即启动前台服务，避免超时
+        createNotificationChannel()
+        startForeground(NOTIFICATION_ID, createNotification())
+        // 延迟初始化 ShellManager（不阻塞前台服务启动）
+        serviceScope.launch {
+            try {
+                ensureShellManager()
+                shellManager?.onStateChanged = { newType ->
+                    dispatchStatusChange(newType)
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "ShellManager 初始化失败", e)
+            }
+        }
+    }
+
+    /**
+     * 分发状态给所有客户端
+     */
+    private fun dispatchStatusChange(type: String) {
+        val count = listeners.beginBroadcast()
+        for (i in 0 until count) {
+            try {
+                listeners.getBroadcastItem(i).onStatusChanged(type)
+            } catch (e: Exception) {
+                // 客户端可能死掉了，RemoteCallbackList 会自动清理
+            }
+        }
+        listeners.finishBroadcast()
+    }
+
+    override fun onBind(intent: Intent?): IBinder {
+        Log.d(TAG, "CommandService onBind")
+        return binder
+    }
+
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        // 如果服务被异常杀死，尝试重启
+        return START_STICKY
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+//        Log.d(TAG, "CommandService onDestroy")
+        stopForeground(STOP_FOREGROUND_REMOVE)
+        shellManager = null
+        serviceScope.cancel() // 销毁时取消所有协程任务
+    }
+
+    /**
+     * 确保 ShellManager 已初始化
+     */
+    private fun ensureShellManager() {
+        if (shellManager == null) {
+            try {
+                shellManager = ShellManager(applicationContext)
+            } catch (e: Exception) {
+                Log.e(TAG, "ShellManager init error", e)
+            }
+        }
+    }
+
+    /**
+     * 安全回调 Success，处理 DeadObjectException
+     */
+    private fun safeCallbackSuccess(callback: ICallback?, result: String) {
+        if (callback == null) return
+        try {
+            callback.onSuccess(result)
+        } catch (e: RemoteException) {
+            Log.w(TAG, "回调失败(客户端已死亡): ${e.message}")
+        }
+    }
+
+    /**
+     * 安全回调 Error，处理 DeadObjectException
+     */
+    private fun safeCallbackError(callback: ICallback?, error: String) {
+        if (callback == null) return
+        try {
+            callback.onError(error)
+        } catch (e: RemoteException) {
+            Log.w(TAG, "回调失败(客户端已死亡): ${e.message}")
+        }
+    }
+
+    /**
+     * 创建通知渠道（Android 8.0+ 需要）
+     */
+    private fun createNotificationChannel() {
+        val channel = NotificationChannel(
+            CHANNEL_ID,
+            CHANNEL_NAME,
+            NotificationManager.IMPORTANCE_LOW // 低优先级，不发出声音
+        ).apply {
+            description = "用于维持后台命令执行服务的运行"
+            setShowBadge(false)
+        }
+        val notificationManager = getSystemService(NotificationManager::class.java)
+        notificationManager.createNotificationChannel(channel)
+    }
+
+    /**
+     * 创建前台服务通知
+     */
+    private fun createNotification(): Notification {
+        val intent = Intent(this, MainActivity::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+        }
+
+        val pendingIntent = PendingIntent.getActivity(
+            this,
+            0,
+            intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+
+        return NotificationCompat.Builder(this, CHANNEL_ID)
+            .setContentTitle(NOTIFICATION_TITLE)
+            .setContentText(NOTIFICATION_CONTENT)
+            .setSmallIcon(R.drawable.title_logo)
+            .setContentIntent(pendingIntent)
+            .setPriority(NotificationCompat.PRIORITY_LOW)
+            .setOngoing(true) // 禁止用户侧滑删除
+            .build()
+    }
+}

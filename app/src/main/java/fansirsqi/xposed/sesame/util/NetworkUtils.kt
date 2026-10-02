@@ -1,1 +1,41 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5NYW5pZmVzdAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQubmV0LkNvbm5lY3Rpdml0eU1hbmFnZXIKaW1wb3J0IGFuZHJvaWQubmV0Lk5ldHdvcmtDYXBhYmlsaXRpZXMKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uUmVxdWlyZXNQZXJtaXNzaW9uCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLkFwcGxpY2F0aW9uSG9vawoKb2JqZWN0IE5ldHdvcmtVdGlscyB7CgogICAgQFJlcXVpcmVzUGVybWlzc2lvbihNYW5pZmVzdC5wZXJtaXNzaW9uLkFDQ0VTU19ORVRXT1JLX1NUQVRFKQogICAgZnVuIGlzTmV0d29ya0F2YWlsYWJsZSgpOiBCb29sZWFuIHsKICAgICAgICB2YWwgY29udGV4dCA9IEFwcGxpY2F0aW9uSG9vay5hcHBDb250ZXh0ID86IHJldHVybiBmYWxzZQogICAgICAgIHZhbCBjb25uZWN0aXZpdHlNYW5hZ2VyID0gY29udGV4dC5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuQ09OTkVDVElWSVRZX1NFUlZJQ0UpIGFzPyBDb25uZWN0aXZpdHlNYW5hZ2VyID86IHJldHVybiBmYWxzZQogICAgICAgIHZhbCBuZXR3b3JrID0gY29ubmVjdGl2aXR5TWFuYWdlci5hY3RpdmVOZXR3b3JrID86IHJldHVybiBmYWxzZQogICAgICAgIHZhbCBhY3RpdmVOZXR3b3JrID0gY29ubmVjdGl2aXR5TWFuYWdlci5nZXROZXR3b3JrQ2FwYWJpbGl0aWVzKG5ldHdvcmspID86IHJldHVybiBmYWxzZQogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgYWN0aXZlTmV0d29yay5oYXNUcmFuc3BvcnQoTmV0d29ya0NhcGFiaWxpdGllcy5UUkFOU1BPUlRfVlBOKSAtPiB0cnVlCiAgICAgICAgICAgIGFjdGl2ZU5ldHdvcmsuaGFzVHJhbnNwb3J0KE5ldHdvcmtDYXBhYmlsaXRpZXMuVFJBTlNQT1JUX1dJRkkpIC0+IHRydWUKICAgICAgICAgICAgYWN0aXZlTmV0d29yay5oYXNUcmFuc3BvcnQoTmV0d29ya0NhcGFiaWxpdGllcy5UUkFOU1BPUlRfQ0VMTFVMQVIpIC0+IHRydWUKICAgICAgICAgICAgYWN0aXZlTmV0d29yay5oYXNUcmFuc3BvcnQoTmV0d29ya0NhcGFiaWxpdGllcy5UUkFOU1BPUlRfRVRIRVJORVQpIC0+IHRydWUKICAgICAgICAgICAgZWxzZSAtPiBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICBAUmVxdWlyZXNQZXJtaXNzaW9uKE1hbmlmZXN0LnBlcm1pc3Npb24uQUNDRVNTX05FVFdPUktfU1RBVEUpCiAgICBmdW4gZ2V0TmV0d29ya1R5cGUoKTogU3RyaW5nIHsKICAgICAgICB2YWwgY29udGV4dCA9IEFwcGxpY2F0aW9uSG9vay5hcHBDb250ZXh0ID86IHJldHVybiAiVU5LTk9XTiIKICAgICAgICB2YWwgY29ubmVjdGl2aXR5TWFuYWdlciA9IGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LkNPTk5FQ1RJVklUWV9TRVJWSUNFKSBhcz8gQ29ubmVjdGl2aXR5TWFuYWdlciA/OiByZXR1cm4gIlVOS05PV04iCiAgICAgICAgdmFsIG5ldHdvcmsgPSBjb25uZWN0aXZpdHlNYW5hZ2VyLmFjdGl2ZU5ldHdvcmsgPzogcmV0dXJuICJOT05FIgogICAgICAgIHZhbCBhY3RpdmVOZXR3b3JrID0gY29ubmVjdGl2aXR5TWFuYWdlci5nZXROZXR3b3JrQ2FwYWJpbGl0aWVzKG5ldHdvcmspID86IHJldHVybiAiVU5LTk9XTiIKICAgICAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgICAgIGFjdGl2ZU5ldHdvcmsuaGFzVHJhbnNwb3J0KE5ldHdvcmtDYXBhYmlsaXRpZXMuVFJBTlNQT1JUX1ZQTikgLT4gIlZQTiIKICAgICAgICAgICAgYWN0aXZlTmV0d29yay5oYXNUcmFuc3BvcnQoTmV0d29ya0NhcGFiaWxpdGllcy5UUkFOU1BPUlRfV0lGSSkgLT4gIldJRkkiCiAgICAgICAgICAgIGFjdGl2ZU5ldHdvcmsuaGFzVHJhbnNwb3J0KE5ldHdvcmtDYXBhYmlsaXRpZXMuVFJBTlNQT1JUX0NFTExVTEFSKSAtPiAi56e75Yqo5pWw5o2uIgogICAgICAgICAgICBhY3RpdmVOZXR3b3JrLmhhc1RyYW5zcG9ydChOZXR3b3JrQ2FwYWJpbGl0aWVzLlRSQU5TUE9SVF9FVEhFUk5FVCkgLT4gIuS7peWkque9kSIKICAgICAgICAgICAgZWxzZSAtPiAiVU5LTk9XTiIKICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util
+
+import android.Manifest
+import android.content.Context
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
+import androidx.annotation.RequiresPermission
+import fansirsqi.xposed.sesame.hook.ApplicationHook
+
+object NetworkUtils {
+
+    @RequiresPermission(Manifest.permission.ACCESS_NETWORK_STATE)
+    fun isNetworkAvailable(): Boolean {
+        val context = ApplicationHook.appContext ?: return false
+        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as? ConnectivityManager ?: return false
+        val network = connectivityManager.activeNetwork ?: return false
+        val activeNetwork = connectivityManager.getNetworkCapabilities(network) ?: return false
+        return when {
+            activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_VPN) -> true
+            activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> true
+            activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> true
+            activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> true
+            else -> false
+        }
+    }
+
+    @RequiresPermission(Manifest.permission.ACCESS_NETWORK_STATE)
+    fun getNetworkType(): String {
+        val context = ApplicationHook.appContext ?: return "UNKNOWN"
+        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as? ConnectivityManager ?: return "UNKNOWN"
+        val network = connectivityManager.activeNetwork ?: return "NONE"
+        val activeNetwork = connectivityManager.getNetworkCapabilities(network) ?: return "UNKNOWN"
+        return when {
+            activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_VPN) -> "VPN"
+            activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> "WIFI"
+            activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> "移动数据"
+            activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> "以太网"
+            else -> "UNKNOWN"
+        }
+    }
+}

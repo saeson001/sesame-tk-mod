@@ -1,1 +1,17 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLm1vZHVsZS5rb3RsaW4uamFja3Nvbk9iamVjdE1hcHBlcgppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLm1vZHVsZS5rb3RsaW4ucmVhZFZhbHVlCgpvYmplY3QgSnNvbkhlbHBlciB7CiAgICB2YWwgbWFwcGVyID0gamFja3Nvbk9iamVjdE1hcHBlcigpCgoKICAgIGlubGluZSBmdW4gPHJlaWZpZWQgVD4gZnJvbUpzb24oanNvbjogU3RyaW5nKTogVCB7CiAgICAgICAgcmV0dXJuIG1hcHBlci5yZWFkVmFsdWUoanNvbikKICAgIH0KCiAgICBmdW4gdG9Kc29uKG9iajogQW55KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gbWFwcGVyLndyaXRlVmFsdWVBc1N0cmluZyhvYmopCiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util
+
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import com.fasterxml.jackson.module.kotlin.readValue
+
+object JsonHelper {
+    val mapper = jacksonObjectMapper()
+
+
+    inline fun <reified T> fromJson(json: String): T {
+        return mapper.readValue(json)
+    }
+
+    fun toJson(obj: Any): String {
+        return mapper.writeValueAsString(obj)
+    }
+}

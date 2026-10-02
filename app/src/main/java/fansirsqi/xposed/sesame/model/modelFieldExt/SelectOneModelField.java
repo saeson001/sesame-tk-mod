@@ -1,1 +1,73 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuR3Jhdml0eTsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkJ1dHRvbjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkxpbmVhckxheW91dDsKaW1wb3J0IGFuZHJvaWR4LmNvcmUuY29udGVudC5Db250ZXh0Q29tcGF0OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5TZWxlY3RNb2RlbEZpZWxkRnVuYzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5NYXBwZXJFbnRpdHk7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS53aWRnZXQuTGlzdERpYWxvZzsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk9iamVjdHM7CnB1YmxpYyBjbGFzcyBTZWxlY3RPbmVNb2RlbEZpZWxkIGV4dGVuZHMgTW9kZWxGaWVsZDxTdHJpbmc+IGltcGxlbWVudHMgU2VsZWN0TW9kZWxGaWVsZEZ1bmMgewogICAgcHJpdmF0ZSBTZWxlY3RMaXN0RnVuYyBzZWxlY3RMaXN0RnVuYzsKICAgIHByaXZhdGUgTGlzdDw/IGV4dGVuZHMgTWFwcGVyRW50aXR5PiBleHBhbmRWYWx1ZTsKICAgIHB1YmxpYyBTZWxlY3RPbmVNb2RlbEZpZWxkKFN0cmluZyBjb2RlLCBTdHJpbmcgbmFtZSwgU3RyaW5nIHZhbHVlLCBMaXN0PD8gZXh0ZW5kcyBNYXBwZXJFbnRpdHk+IGV4cGFuZFZhbHVlKSB7CiAgICAgICAgc3VwZXIoY29kZSwgbmFtZSwgdmFsdWUpOwogICAgICAgIHRoaXMuZXhwYW5kVmFsdWUgPSBleHBhbmRWYWx1ZTsKICAgIH0KICAgIHB1YmxpYyBTZWxlY3RPbmVNb2RlbEZpZWxkKFN0cmluZyBjb2RlLCBTdHJpbmcgbmFtZSwgU3RyaW5nIHZhbHVlLCBTZWxlY3RMaXN0RnVuYyBzZWxlY3RMaXN0RnVuYykgewogICAgICAgIHN1cGVyKGNvZGUsIG5hbWUsIHZhbHVlKTsKICAgICAgICB0aGlzLnNlbGVjdExpc3RGdW5jID0gc2VsZWN0TGlzdEZ1bmM7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0VHlwZSgpIHsKICAgICAgICByZXR1cm4gIlNFTEVDVF9PTkUiOwogICAgfQogICAgcHVibGljIExpc3Q8PyBleHRlbmRzIE1hcHBlckVudGl0eT4gZ2V0RXhwYW5kVmFsdWUoKSB7CiAgICAgICAgcmV0dXJuIHNlbGVjdExpc3RGdW5jID09IG51bGwgPyBleHBhbmRWYWx1ZSA6IHNlbGVjdExpc3RGdW5jLmdldExpc3QoKTsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIFZpZXcgZ2V0VmlldyhDb250ZXh0IGNvbnRleHQpIHsKICAgICAgICBCdXR0b24gYnRuID0gbmV3IEJ1dHRvbihjb250ZXh0KTsKICAgICAgICBidG4uc2V0VGV4dChnZXROYW1lKCkpOwogICAgICAgIGJ0bi5zZXRMYXlvdXRQYXJhbXMobmV3IExpbmVhckxheW91dC5MYXlvdXRQYXJhbXMoVmlld0dyb3VwLkxheW91dFBhcmFtcy5NQVRDSF9QQVJFTlQsIFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuV1JBUF9DT05URU5UKSk7CiAgICAgICAgYnRuLnNldFRleHRDb2xvcihDb250ZXh0Q29tcGF0LmdldENvbG9yKGNvbnRleHQsIFIuY29sb3Iuc2VsZWN0aW9uX2NvbG9yKSk7CiAgICAgICAgYnRuLnNldEJhY2tncm91bmQoQ29udGV4dENvbXBhdC5nZXREcmF3YWJsZShjb250ZXh0LCBSLmRyYXdhYmxlLmRpYWxvZ19saXN0X2J1dHRvbikpOwogICAgICAgIGJ0bi5zZXRHcmF2aXR5KEdyYXZpdHkuU1RBUlQgfCBHcmF2aXR5LkNFTlRFUl9WRVJUSUNBTCk7CiAgICAgICAgYnRuLnNldE1pbkhlaWdodCgxNTApOwogICAgICAgIGJ0bi5zZXRQYWRkaW5nUmVsYXRpdmUoNDAsIDAsIDQwLCAwKTsKICAgICAgICBidG4uc2V0QWxsQ2FwcyhmYWxzZSk7CiAgICAgICAgYnRuLnNldE9uQ2xpY2tMaXN0ZW5lcih2IC0+IExpc3REaWFsb2cuc2hvdyh2LmdldENvbnRleHQoKSwgKChCdXR0b24pIHYpLmdldFRleHQoKSwgdGhpcywgTGlzdERpYWxvZy5MaXN0VHlwZS5SQURJTykpOwogICAgICAgIHJldHVybiBidG47CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIGNsZWFyKCkgewogICAgICAgIHZhbHVlID0gZGVmYXVsdFZhbHVlOwogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgSW50ZWdlciBnZXQoU3RyaW5nIGlkKSB7CiAgICAgICAgcmV0dXJuIDA7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIGFkZChTdHJpbmcgaWQsIEludGVnZXIgY291bnQpIHsKICAgICAgICB2YWx1ZSA9IGlkOwogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCByZW1vdmUoU3RyaW5nIGlkKSB7CiAgICAgICAgaWYgKE9iamVjdHMuZXF1YWxzKHZhbHVlLCBpZCkpIHsKICAgICAgICAgICAgdmFsdWUgPSBkZWZhdWx0VmFsdWU7CiAgICAgICAgfQogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgQm9vbGVhbiBjb250YWlucyhTdHJpbmcgaWQpIHsKICAgICAgICByZXR1cm4gT2JqZWN0cy5lcXVhbHModmFsdWUsIGlkKTsKICAgIH0KICAgIHB1YmxpYyBpbnRlcmZhY2UgU2VsZWN0TGlzdEZ1bmMgewogICAgICAgIExpc3Q8PyBleHRlbmRzIE1hcHBlckVudGl0eT4gZ2V0TGlzdCgpOwogICAgfQp9
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+import android.content.Context;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import androidx.core.content.ContextCompat;
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
+import fansirsqi.xposed.sesame.entity.MapperEntity;
+import fansirsqi.xposed.sesame.ui.widget.ListDialog;
+import java.util.List;
+import java.util.Objects;
+public class SelectOneModelField extends ModelField<String> implements SelectModelFieldFunc {
+    private SelectListFunc selectListFunc;
+    private List<? extends MapperEntity> expandValue;
+    public SelectOneModelField(String code, String name, String value, List<? extends MapperEntity> expandValue) {
+        super(code, name, value);
+        this.expandValue = expandValue;
+    }
+    public SelectOneModelField(String code, String name, String value, SelectListFunc selectListFunc) {
+        super(code, name, value);
+        this.selectListFunc = selectListFunc;
+    }
+    @Override
+    public String getType() {
+        return "SELECT_ONE";
+    }
+    public List<? extends MapperEntity> getExpandValue() {
+        return selectListFunc == null ? expandValue : selectListFunc.getList();
+    }
+    @Override
+    public View getView(Context context) {
+        Button btn = new Button(context);
+        btn.setText(getName());
+        btn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        btn.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+        btn.setBackground(ContextCompat.getDrawable(context, R.drawable.dialog_list_button));
+        btn.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+        btn.setMinHeight(150);
+        btn.setPaddingRelative(40, 0, 40, 0);
+        btn.setAllCaps(false);
+        btn.setOnClickListener(v -> ListDialog.show(v.getContext(), ((Button) v).getText(), this, ListDialog.ListType.RADIO));
+        return btn;
+    }
+    @Override
+    public void clear() {
+        value = defaultValue;
+    }
+    @Override
+    public Integer get(String id) {
+        return 0;
+    }
+    @Override
+    public void add(String id, Integer count) {
+        value = id;
+    }
+    @Override
+    public void remove(String id) {
+        if (Objects.equals(value, id)) {
+            value = defaultValue;
+        }
+    }
+    @Override
+    public Boolean contains(String id) {
+        return Objects.equals(value, id);
+    }
+    public interface SelectListFunc {
+        List<? extends MapperEntity> getList();
+    }
+}

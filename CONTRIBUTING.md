@@ -1,1 +1,37 @@
-IyDotKHnjK7mjIfljZfvvIjnroDniYjvvIkKCuacrOmhueebru+8iGBzYWVzb24wMDEvc2VzYW1lLXRrLW1vZGDvvInmmK8gW2B3aXRyZXIvU2VzYW1lLUFHLTIwMjZgXShodHRwczovL2dpdGh1Yi5jb20vd2l0cmVyL1Nlc2FtZS1BRy0yMDI2KSDnmoTkuIDkuKoqKuS4quS6uuS/ruaUueeJiCoq77yM5Li76KaB57u05oqk6Z2g5L2c6ICF5pys5Lq644CC5qyi6L+O5Lqk5rWB77yM5L2G5LiN5om/6K+65ZWG5Lia57qn5pSv5oyB44CC5o+QIElzc3VlIC8gUFIg5YmN77yM6K+35YWI6K+7IFtSRUFETUUubWRdKFJFQURNRS5tZCkg5ZKMIFtMRUdBTC5tZF0oTEVHQUwubWQp44CCCgojIyDlj43ppojpl67popjvvIhJc3N1Ze+8iQoK5o+Q5Lqk5YmN6K+35bC96YeP5bim5LiK6L+Z5Lqb77yM57y65LqG6YCa5bi45rKh5rOV5aSE55CG77yaCgotICoq546v5aKDKirvvJpBbmRyb2lkIOeJiOacrOOAgVhwb3NlZCAvIExTUG9zZWQg5qGG5p625Y+K54mI5pys44CB5pys5qih5Z2X54mI5pys44CB5pSv5LuY5a6d54mI5pys77ybCi0gKirlpI3njrDmraXpqqQqKu+8muS7juaJk+W8gOS7gOS5iOOAgeeCueS7gOS5iOOAgemFjeS7gOS5iO+8jOWIsOacgOe7iOWHuuS6huS7gOS5iOmXrumimO+8mwotICoq55u45YWz5pel5b+XKirvvJpUSyDmipPljIXml6Xlv5fvvIhgcnBjX2NhcC50eHRg77yJ5oiW5bSp5rqD5pel5b+X77ybCi0gKirohLHmlY8qKu+8muWPkeWHuuWOu+S5i+WJjeiHquW3seaKiui0puWPt+OAgVRva2Vu44CB6K6+5aSH5qCH6K+G562J5pWP5oSf5L+h5oGv5oq55o6J77yM5Yir5aSW5rOE44CCCgrlu7rorq7nlKjpnZ7kuLvlipvlsI/lj7fmtYvor5XvvIzlpKflj7fmnInpu5Hlj7fpo47pmanjgIIKCiMjIOaPkOS6pOaUueWKqO+8iFBS77yJCgotIOWfuuS6jiAqKmBtYWluYCoqIOWIhuaUr+WPkei1t++8iOacrOS7k+W6k+ayoeaciSBgZGV2YCDliIbmlK/vvInvvJsKLSDmlLnliqjogZrnhKbvvJrliKvmiormoLzlvI/ljJbjgIHph43lkb3lkI3lkozlip/og73mgKfkv67mlLnmt7fov5vlkIzkuIDkuKogUFLvvJsKLSAqKuS4jeimgeaPkOS6pCoq5Lu75L2V5a+G6ZKl44CB6LSm5Y+344CBVG9rZW7jgIHmipPljIXmlbDmja7nrYnmlY/mhJ/lhoXlrrnvvJsKLSBQUiDmj4/ov7Dph4zlhpnmuIXvvJrmlLnliqjnm67nmoTjgIHkuLvopoHmlLnliqjngrnjgIHlvbHlk43ojIPlm7TjgIHmgI7kuYjpqozor4HnmoTjgIIKCiMjIOS4jeWcqOiMg+WbtOWGheeahOmcgOaxggoKLSDllYbkuJrnlKjpgJTjgIHpl63mupDlgJLljZbjgIHop4Tpgb/lubPlj7Dop4TliJnnmoTor7fmsYLvvJsKLSDmsqHmnInkvb/nlKjlnLrmma/jgIHlj6rmnInkuIDlj6XjgIzpobrmiYvliqDkuIDkuIvjgI3nmoTmqKHns4rmhL/mnJvvvJsKLSDkuI7jgIzlrabkuaDnoJTnqbbjgI3lrprkvY3mmI7mmL7kuI3nrKbnmoTpnIDmsYLjgIIKCui/meexu+WGheWuuemAmuW4uOS4jeS8muiiq+WkhOeQhuOAggoKIyMg5oCO5LmI5rKf6YCa5pyA6auY5pWICgoxLiDlhYjor7vku5PlupPmlofmoaPvvIhSRUFETUUgLyBMRUdBTO+8ie+8mwoyLiDlho3nu5nlh7rmnIDlsI/lj6/lpI3njrDkv6Hmga/vvJsKMy4g5piO56Gu5L2g5piv5Zyo5Y+N6aaIIEJ1Z+OAgeaPkOW7uuiuru+8jOi/mOaYr+W3sue7j+WHhuWkh+WlveaPkOS6pOS/ruWkjeOAggoK5L+h5oGv5a6M5pW044CB6IO95oyB57ut6Lef6L+b55qE6Zeu6aKY77yM5pu05a655piT5b6X5Yiw5ZON5bqU44CCCg==
+# 贡献指南（简版）
+
+本项目（`saeson001/sesame-tk-mod`）是 [`witrer/Sesame-AG-2026`](https://github.com/witrer/Sesame-AG-2026) 的一个**个人修改版**，主要维护靠作者本人。欢迎交流，但不承诺商业级支持。提 Issue / PR 前，请先读 [README.md](README.md) 和 [LEGAL.md](LEGAL.md)。
+
+## 反馈问题（Issue）
+
+提交前请尽量带上这些，缺了通常没法处理：
+
+- **环境**：Android 版本、Xposed / LSPosed 框架及版本、本模块版本、支付宝版本；
+- **复现步骤**：从打开什么、点什么、配什么，到最终出了什么问题；
+- **相关日志**：TK 抓包日志（`rpc_cap.txt`）或崩溃日志；
+- **脱敏**：发出去之前自己把账号、Token、设备标识等敏感信息抹掉，别外泄。
+
+建议用非主力小号测试，大号有黑号风险。
+
+## 提交改动（PR）
+
+- 基于 **`main`** 分支发起（本仓库没有 `dev` 分支）；
+- 改动聚焦：别把格式化、重命名和功能性修改混进同一个 PR；
+- **不要提交**任何密钥、账号、Token、抓包数据等敏感内容；
+- PR 描述里写清：改动目的、主要改动点、影响范围、怎么验证的。
+
+## 不在范围内的需求
+
+- 商业用途、闭源倒卖、规避平台规则的请求；
+- 没有使用场景、只有一句「顺手加一下」的模糊愿望；
+- 与「学习研究」定位明显不符的需求。
+
+这类内容通常不会被处理。
+
+## 怎么沟通最高效
+
+1. 先读仓库文档（README / LEGAL）；
+2. 再给出最小可复现信息；
+3. 明确你是在反馈 Bug、提建议，还是已经准备好提交修复。
+
+信息完整、能持续跟进的问题，更容易得到响应。

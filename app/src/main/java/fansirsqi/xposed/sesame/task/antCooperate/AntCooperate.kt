@@ -1,1 +1,485 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudENvb3BlcmF0ZQoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuU3RhdHVzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhLlN0YXR1c0ZsYWdzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuQ29vcGVyYXRlRW50aXR5LkNvbXBhbmlvbi5nZXRMaXN0CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5CYXNlTW9kZWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGRzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEdyb3VwCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LkJvb2xlYW5Nb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LkludGVnZXJNb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LlNlbGVjdEFuZENvdW50TW9kZWxGaWVsZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5Nb2RlbFRhc2sKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suVGFza0NvbW1vbgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuUmVzQ2hlY2tlcgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5UaW1lVXRpbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLkNvb3BlcmF0ZU1hcAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLlVzZXJNYXAKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCmNsYXNzIEFudENvb3BlcmF0ZSA6IE1vZGVsVGFzaygpIHsKICAgIC8qKgogICAgICog6I635Y+W5Lu75Yqh5ZCN56ewCiAgICAgKgogICAgICogQHJldHVybiDlkIjnp43ku7vliqHlkI3np7AKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIGdldE5hbWUoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIuiaguiageajruael+WQiOenjSIgLy/kv53nlZnov5nkuKrlhajnp7AKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluS7u+WKoeWIhue7hAogICAgICoKICAgICAqIEByZXR1cm4g5qOu5p6X5YiG57uECiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBnZXRHcm91cCgpOiBNb2RlbEdyb3VwIHsKICAgICAgICByZXR1cm4gTW9kZWxHcm91cC5GT1JFU1QKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluS7u+WKoeWbvuaghwogICAgICoKICAgICAqIEByZXR1cm4g5ZCI56eN5Lu75Yqh5Zu+5qCH5paH5Lu25ZCNCiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBnZXRJY29uKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICJBbnRDb29wZXJhdGUucG5nIgogICAgfQoKICAgIHByaXZhdGUgdmFsIGNvb3BlcmF0ZVdhdGVyID0gQm9vbGVhbk1vZGVsRmllbGQoImNvb3BlcmF0ZVdhdGVyIiwgIuWQiOenjea1h+awtHzlvIDlkK8iLCBmYWxzZSkKICAgIHByaXZhdGUgdmFsIGNvb3BlcmF0ZVdhdGVyTGlzdCA9IFNlbGVjdEFuZENvdW50TW9kZWxGaWVsZCgKICAgICAgICAiY29vcGVyYXRlV2F0ZXJMaXN0IiwKICAgICAgICAi5ZCI56eN5rWH5rC05YiX6KGoIiwKICAgICAgICBMaW5rZWRIYXNoTWFwPFN0cmluZz8sIEludD8+KCksCiAgICAgICAgeyBnZXRMaXN0KCkgfSwKICAgICAgICAi5omT5byA5LiK6Z2i55qE5byA5YWz5ZCO5omn6KGM5LiA5qyh5ZCO5YaN6YeN5paw5Zue5p2l5bqU6K+l6IO95Yqg6L295Ye65p2lIgogICAgKQogICAgcHJpdmF0ZSB2YWwgY29vcGVyYXRlV2F0ZXJUb3RhbExpbWl0TGlzdCA9IFNlbGVjdEFuZENvdW50TW9kZWxGaWVsZCgKICAgICAgICAiY29vcGVyYXRlV2F0ZXJUb3RhbExpbWl0TGlzdCIsCiAgICAgICAgIua1h+awtOaAu+mHj+mZkOWItuWIl+ihqCIsCiAgICAgICAgTGlua2VkSGFzaE1hcDxTdHJpbmc/LCBJbnQ/PigpLAogICAgICAgIHsgZ2V0TGlzdCgpIH0sCiAgICAgICAgIuW9k+a1h+a7oeWQjueQhuiuuuS4jeS8muWGjea1h+S6hiIKICAgICkKICAgIHByaXZhdGUgdmFsIGNvb3BlcmF0ZVNlbmRDb29wZXJhdGVCZWNrb24gPSBCb29sZWFuTW9kZWxGaWVsZCgiY29vcGVyYXRlU2VuZENvb3BlcmF0ZUJlY2tvbiIsICLlkIjnp40gfCDlj6zllKTpmJ/lj4vmtYfmsLR8IOS7hemYn+mVvyAiLCBmYWxzZSkKICAgIHByaXZhdGUgdmFsIGxvdmVDb29wZXJhdGVXYXRlciA9IEJvb2xlYW5Nb2RlbEZpZWxkKCJsb3ZlQ29vcGVyYXRlV2F0ZXIiLCAi55yf54ix5ZCI56eNIHwg5rWH5rC0IiwgZmFsc2UpCiAgICBwcml2YXRlIHZhbCBsb3ZlQ29vcGVyYXRlV2F0ZXJOdW0gPSBJbnRlZ2VyTW9kZWxGaWVsZCgibG92ZUNvb3BlcmF0ZVdhdGVyTnVtIiwgIuecn+eIseWQiOenjSB8IOa1h+awtOWFi+aVsCjpu5jorqQyMGcpIiwgMjApCiAgICBwcml2YXRlIHZhbCB0ZWFtQ29vcGVyYXRlV2F0ZXJOdW0gPSBJbnRlZ2VyTW9kZWxGaWVsZCgidGVhbUNvb3BlcmF0ZVdhdGVyTnVtIiwgIue7hOmYn+WQiOenjSB8IOa1h+awtOWFi+aVsCgw5Li65YWz6Zet77yMMTAtNTAwMCkiLCAwKQogICAgb3ZlcnJpZGUgZnVuIGdldEZpZWxkcygpOiBNb2RlbEZpZWxkcyB7CiAgICAgICAgdmFsIG1vZGVsRmllbGRzID0gTW9kZWxGaWVsZHMoKQogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGNvb3BlcmF0ZVdhdGVyKQogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGNvb3BlcmF0ZVdhdGVyTGlzdCkKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChjb29wZXJhdGVXYXRlclRvdGFsTGltaXRMaXN0KQogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGNvb3BlcmF0ZVNlbmRDb29wZXJhdGVCZWNrb24pCiAgICAgICAgLy8g55yf54ix5ZCI56eN6YWN572uCiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQobG92ZUNvb3BlcmF0ZVdhdGVyKQogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGxvdmVDb29wZXJhdGVXYXRlck51bSkKICAgICAgICAvLyDnu4TpmJ/lkIjnp43phY3nva4KICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZCh0ZWFtQ29vcGVyYXRlV2F0ZXJOdW0pCiAgICAgICAgcmV0dXJuIG1vZGVsRmllbGRzCiAgICB9CgogICAgLyoqCiAgICAgKiDmiafooYzlkIjnp43ku7vliqHnmoTkuLvopoHpgLvovpEKICAgICAqLwogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcnVuU3VzcGVuZCgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuaJp+ihjOW8gOWniy0kbmFtZSIpCgogICAgICAgICAgICAvLyAxLiDnnJ/niLHlkIjnp40KICAgICAgICAgICAgaWYgKGxvdmVDb29wZXJhdGVXYXRlci52YWx1ZSkgewogICAgICAgICAgICAgICAgbG92ZUNvb3BlcmF0ZVdhdGVyKCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gMi4g57uE6Zif5ZCI56eNCiAgICAgICAgICAgIGlmICh0ZWFtQ29vcGVyYXRlV2F0ZXJOdW0udmFsdWUgPiAwKSB7CiAgICAgICAgICAgICAgICB0ZWFtQ29vcGVyYXRlV2F0ZXIoKQoKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyAzLiDmma7pgJrlkIjnp40KICAgICAgICAgICAgaWYgKGNvb3BlcmF0ZVdhdGVyLnZhbHVlKSB7CiAgICAgICAgICAgICAgICB2YWwgcXVlcnlVc2VyQ29vcGVyYXRlUGxhbnRMaXN0ID0gSlNPTk9iamVjdChBbnRDb29wZXJhdGVScGNDYWxsLnF1ZXJ5VXNlckNvb3BlcmF0ZVBsYW50TGlzdCgpKQogICAgICAgICAgICAgICAgaWYgKFJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBxdWVyeVVzZXJDb29wZXJhdGVQbGFudExpc3QpKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gMS4g6I635Y+W5b2T5YmN6IO96YeP77yM6K6+5Li6IHZhcu+8jOWboOS4uua1h+awtOWQjuacrOWcsOmcgOimgeaJo+WHj++8jOWQpuWImeS4i+S4gOS4quWQiOenjeS8muivr+WIpOiDvemHj+WFhei2swogICAgICAgICAgICAgICAgICAgIHZhciB1c2VyQ3VycmVudEVuZXJneSA9IHF1ZXJ5VXNlckNvb3BlcmF0ZVBsYW50TGlzdC5nZXRJbnQoInVzZXJDdXJyZW50RW5lcmd5IikKICAgICAgICAgICAgICAgICAgICB2YWwgY29vcGVyYXRlUGxhbnRzID0gcXVlcnlVc2VyQ29vcGVyYXRlUGxhbnRMaXN0LmdldEpTT05BcnJheSgiY29vcGVyYXRlUGxhbnRzIikKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuiOt+WPluWQiOenjeWIl+ihqOaIkOWKnzogJHtjb29wZXJhdGVQbGFudHMubGVuZ3RoKCl9IOmil+WQiOenjSIpCiAgICAgICAgICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgY29vcGVyYXRlUGxhbnRzLmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhciBwbGFudCA9IGNvb3BlcmF0ZVBsYW50cy5nZXRKU09OT2JqZWN0KGkpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjb29wZXJhdGlvbklkID0gcGxhbnQuZ2V0U3RyaW5nKCJjb29wZXJhdGlvbklkIikKICAgICAgICAgICAgICAgICAgICAgICAgLy8g6KGl5YWo57y65aSx55qE5ZCI56eN5ZCN56ew5L+h5oGvCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghcGxhbnQuaGFzKCJuYW1lIikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBkZXRhaWxSZXNwID0gQW50Q29vcGVyYXRlUnBjQ2FsbC5xdWVyeUNvb3BlcmF0ZVBsYW50KGNvb3BlcmF0aW9uSWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFudCA9IEpTT05PYmplY3QoZGV0YWlsUmVzcCkuZ2V0SlNPTk9iamVjdCgiY29vcGVyYXRlUGxhbnQiKQogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICB2YWwgbmFtZSA9IHBsYW50LmdldFN0cmluZygibmFtZSIpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhZG1pbiA9IHBsYW50LmdldFN0cmluZygiYWRtaW4iKQoKICAgICAgICAgICAgICAgICAgICAgICAgLy8gMi4g5ZCI56eN5omT5oub5ZG86YC76L6RICjni6znq4vliKTmlq3vvIzkuI3lvbHlk43mtYfmsLTkuLvmtYHnqIspCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb29wZXJhdGVTZW5kQ29vcGVyYXRlQmVja29uLnZhbHVlICYmIFVzZXJNYXAuY3VycmVudFVpZCA9PSBhZG1pbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29vcGVyYXRlU2VuZENvb3BlcmF0ZUJlY2tvbihjb29wZXJhdGlvbklkLCBuYW1lKQogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAvLyAzLiDorrDlvZXlkIjnp43kv6Hmga/liLDmnKzlnLAgTWFwCiAgICAgICAgICAgICAgICAgICAgICAgIENvb3BlcmF0ZU1hcC5nZXRJbnN0YW5jZShDb29wZXJhdGVNYXA6OmNsYXNzLmphdmEpLmFkZChjb29wZXJhdGlvbklkLCBuYW1lKQoKICAgICAgICAgICAgICAgICAgICAgICAgLy8gNC4g5qOA5p+l5piv5ZCm5ruh6Laz4oCc5LuK5pel5piv5ZCm5Y+v5rWH5rC04oCd55qE5pys5Zyw54q25oCB57yT5a2YCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghU3RhdHVzLmNhbkNvb3BlcmF0ZVdhdGVyVG9kYXkoVXNlck1hcC5jdXJyZW50VWlkLCBjb29wZXJhdGlvbklkKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gTG9nLnJ1bnRpbWUoVEFHLCAiJG5hbWUg5LuK5pel5bey5qCH6K6w5Li65LiN5Y+v5rWH5rC0L+W3sua1h+WujCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAvLyDojrflj5bmnI3liqHnq6/pmZDliLYKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHdhdGVyRGF5TGltaXQgPSBwbGFudC5nZXRJbnQoIndhdGVyRGF5TGltaXQiKSAvLyDku4rml6XliankvZnlj6/mtYfmsLTph48KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHdhdGVyTGltaXQgPSBwbGFudC5nZXRKU09OT2JqZWN0KCJjb29wZXJhdGVUZW1wbGF0ZSIpLmdldEludCgid2F0ZXJMaW1pdCIpIC8vIOavj+aXpeaAu+S4iumZkAogICAgICAgICAgICAgICAgICAgICAgICAvLyB2YWwgd2F0ZXJlZCA9IHdhdGVyTGltaXQgLSB3YXRlckRheUxpbWl0CiAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi6I635Y+W5ZCI56eNWyRuYW1lXSDmtYfmsLTkv6Hmga86IOWJqeS9meWPr+a1hyAkd2F0ZXJEYXlMaW1pdCBnIC8g5oC76ZmQ5Yi2ICR3YXRlckxpbWl0IGciKQoKICAgICAgICAgICAgICAgICAgICAgICAgLy8gNS4g6I635Y+W6YWN572uCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjb25maWdQZXJSb3VuZCA9IGNvb3BlcmF0ZVdhdGVyTGlzdC52YWx1ZVtjb29wZXJhdGlvbklkXSAvLyDmnKzova7phY3nva7mtYfmsLTph48KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNvbmZpZ1RvdGFsTGltaXQgPSBjb29wZXJhdGVXYXRlclRvdGFsTGltaXRMaXN0LnZhbHVlW2Nvb3BlcmF0aW9uSWRdIC8vIOmFjee9rueahOaAu+a1h+awtOS4iumZkCjntK/orqEpCgogICAgICAgICAgICAgICAgICAgICAgICBpZiAoY29uZmlnUGVyUm91bmQgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmtYfmsLTliJfooajkuK3msqHmnInkuLpbJG5hbWVd6YWN572u77yM6Lez6L+HIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIDYuIOiuoeeul+acrOi9ruebruagh+a1h+awtOmHjyAoVGFyZ2V0IFdhdGVyKQogICAgICAgICAgICAgICAgICAgICAgICB2YXIgcGxhblRvV2F0ZXI6IEludAoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNvbmZpZ1RvdGFsTGltaXQgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g6YC76L6R5L+d5oyB5Y6f5oSP77ya5aaC5p6c5rKh5pyJ6YWN572u5oC76ZmQ5Yi277yM5YiZ55u05o6l5oqK5LuK5pel5Ymp5L2Z6aKd5bqm5ouJ5ruhCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuacqumFjee9riAkbmFtZSDpmZDliLbmgLvmtYfmsLTvvIznm67moIfkuLrloavmu6Hku4rml6Xlj6/mtYfmsLTph4/vvIjmnI3liqHnq6/miJbmnKzlnLDpmZDliLbvvIkiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhblRvV2F0ZXIgPSB3YXRlckRheUxpbWl0CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIui9veWFpemFjee9riAkbmFtZSDpmZDliLbmgLvmtYfmsLRbJGNvbmZpZ1RvdGFsTGltaXRdZyIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgdG90YWxXYXRlcmVkID0gZ2V0VG90YWxXYXRlcmluZyhjb29wZXJhdGlvbklkKSAvLyDojrflj5blt7LntK/orqHmtYfmsLQKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAodG90YWxXYXRlcmVkIDwgMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5peg5rOV6I635Y+W55So5oi3WyR7VXNlck1hcC5jdXJyZW50VWlkfV3nmoTntK/orqHmtYfmsLTmlbDmja7vvIzot7Pov4cgJG5hbWUiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlbWFpbmluZ1F1b3RhID0gY29uZmlnVG90YWxMaW1pdCAtIHRvdGFsV2F0ZXJlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlbWFpbmluZ1F1b3RhIDw9IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cuZm9yZXN0KCIkbmFtZSDntK/orqHmtYfmsLTlt7Lovr7moIcoJHRvdGFsV2F0ZXJlZC8kY29uZmlnVG90YWxMaW1pdCnvvIzot7Pov4ciKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhblRvV2F0ZXIgPSByZW1haW5pbmdRdW90YQogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAvLyA3LiDmnIDnu4jmlbDlgLzkv67mraMgKOaguOW/g+S8mOWMlu+8mue7n+S4gOS9v+eUqCBtaW4g6YC76L6RKQogICAgICAgICAgICAgICAgICAgICAgICAvLyDlrp7pmYXmtYfmsLTph48gPSBNaW4o6K6h5YiS6YePLCDku4rml6XliankvZnlj6/mtYfph48sIOW9k+WJjeiDjOWMheiDvemHjykKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGFjdHVhbFdhdGVyID0gcGxhblRvV2F0ZXIKCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhY3R1YWxXYXRlciA+IHdhdGVyRGF5TGltaXQpIGFjdHVhbFdhdGVyID0gd2F0ZXJEYXlMaW1pdAogICAgICAgICAgICAgICAgICAgICAgICBpZiAoYWN0dWFsV2F0ZXIgPiBjb25maWdQZXJSb3VuZCkgYWN0dWFsV2F0ZXIgPSBjb25maWdQZXJSb3VuZAogICAgICAgICAgICAgICAgICAgICAgICBpZiAoYWN0dWFsV2F0ZXIgPiB1c2VyQ3VycmVudEVuZXJneSkgYWN0dWFsV2F0ZXIgPSB1c2VyQ3VycmVudEVuZXJneQoKICAgICAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJbJG5hbWVdIOe7k+eulzog6K6h5YiSICRwbGFuVG9XYXRlciwg5Ymp5L2Z6ZmQ6aKdICR3YXRlckRheUxpbWl0LCDog4zljIUgJHVzZXJDdXJyZW50RW5lcmd5IC0+IOWunumZhTogJGFjdHVhbFdhdGVyIikKCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIDguIOaJp+ihjOa1h+awtAogICAgICAgICAgICAgICAgICAgICAgICBpZiAoYWN0dWFsV2F0ZXIgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb29wZXJhdGVXYXRlcihjb29wZXJhdGlvbklkLCBhY3R1YWxXYXRlciwgbmFtZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vICEhISDlhbPplK7kv67mraPvvJrmnKzlnLDmiaPpmaTog73ph4/vvIzkvpvkuIvkuIDmrKHlvqrnjq/liKTmlq3kvb/nlKggISEhCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1c2VyQ3VycmVudEVuZXJneSAtPSBhY3R1YWxXYXRlcgogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmtYfmsLTliJfooajkuK3msqHmnInkuLpbJG5hbWVd6YWN572uIikKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdCkKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBDb29wZXJhdGVNYXAuZ2V0SW5zdGFuY2UoQ29vcGVyYXRlTWFwOjpjbGFzcy5qYXZhKS5zYXZlKFVzZXJNYXAuY3VycmVudFVpZCkKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmiafooYznu5PmnZ8tJG5hbWUiKQogICAgICAgIH0KICAgIH0KCiAgICAvLyDnnJ/niLHlkIjnp43pgLvovpEKICAgIHByaXZhdGUgZnVuIGxvdmVDb29wZXJhdGVXYXRlcigpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyAxLiDmnKzlnLDnirbmgIHmo4Dmn6UgKOW/q+mAn+Wksei0pSkKICAgICAgICAgICAgaWYgKFN0YXR1cy5oYXNGbGFnVG9kYXkoImxvdmU6OnRlYW1XYXRlciIpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuecn+eIseWQiOenjeS7iuaXpeW3sua1h+i/h+awtCIpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gMi4g5p+l6K+i6aaW6aG15pWw5o2uCiAgICAgICAgICAgIHZhbCBxdWVyeVJlc3VsdCA9IEFudENvb3BlcmF0ZVJwY0NhbGwucXVlcnlMb3ZlSG9tZSgpCiAgICAgICAgICAgIHZhbCBxdWVyeUxvdmVIb21lID0gdHJ5IHsKICAgICAgICAgICAgICAgIEpTT05PYmplY3QocXVlcnlSZXN1bHQpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICLnnJ/niLHlkIjnp43lk43lupRKU09O6Kej5p6Q5aSx6LSlIiwgZSkKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIVJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBxdWVyeUxvdmVIb21lKSkgewogICAgICAgICAgICAgICAgLy8gUmVzQ2hlY2tlciDlhoXpg6jpgJrluLjlt7Lnu4/miZPljbDkuobplJnor6/ml6Xlv5cKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyAzLiDop6PmnpDpmJ/kvI3kv6Hmga8KICAgICAgICAgICAgdmFsIHRlYW1JbmZvID0gcXVlcnlMb3ZlSG9tZS5vcHRKU09OT2JqZWN0KCJ0ZWFtSW5mbyIpCiAgICAgICAgICAgIGlmICh0ZWFtSW5mbyA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5pyq5om+5Yiw55yf54ix5ZCI56eN6Zif5LyN5L+h5oGv77yM5Y+v6IO95piv5pyq5byA5ZCv5oiW57uT5p6E5Y+Y5pu0IikKICAgICAgICAgICAgICAgIC8vIOWmguaenOehruiupOaYr+acquW8gOWQr++8jOWPr+S7peiAg+iZkeiHquWKqOWFs+mXreW8gOWFswogICAgICAgICAgICAgICAgLy8gbG92ZUNvb3BlcmF0ZVdhdGVyLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgdGVhbUlkID0gdGVhbUluZm8ub3B0U3RyaW5nKCJ0ZWFtSWQiKQogICAgICAgICAgICB2YWwgdGVhbVN0YXR1cyA9IHRlYW1JbmZvLm9wdFN0cmluZygidGVhbVN0YXR1cyIpCgogICAgICAgICAgICAvLyA0LiDmo4Dmn6XmnI3liqHnq6/orrDlvZXnmoTku4rml6XmtYfmsLTnirbmgIEKICAgICAgICAgICAgLy8g57uT5p6E6YCa5bi45pivOiB3YXRlckluZm8gLT4gdG9kYXlXYXRlck1hcCAtPiB7InVpZCI6IHdhdGVyQW1vdW50fQogICAgICAgICAgICB2YWwgbXlXYXRlcmVkQW1vdW50ID0gdGVhbUluZm8ub3B0SlNPTk9iamVjdCgid2F0ZXJJbmZvIikKICAgICAgICAgICAgICAgID8ub3B0SlNPTk9iamVjdCgidG9kYXlXYXRlck1hcCIpCiAgICAgICAgICAgICAgICA/Lm9wdEludChVc2VyTWFwLmN1cnJlbnRVaWQsIDApID86IDAKCiAgICAgICAgICAgIGlmIChteVdhdGVyZWRBbW91bnQgPiAwKSB7CiAgICAgICAgICAgICAgICBMb2cuZm9yZXN0KCLnnJ/niLHlkIjnp43ku4rml6Xlt7LmtYfmsLQoJHtteVdhdGVyZWRBbW91bnR9ZykiKQogICAgICAgICAgICAgICAgLy8g5pei54S25pyN5Yqh56uv6K+05rWH6L+H5LqG77yM5pu05paw5pys5Zyw54q25oCB5bm26YCA5Ye6CiAgICAgICAgICAgICAgICBTdGF0dXMuc2V0RmxhZ1RvZGF5KCJsb3ZlOjp0ZWFtV2F0ZXIiKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIDUuIOagoemqjOmYn+S8jeeKtuaAgeaYr+WQpuWFgeiuuOa1h+awtAogICAgICAgICAgICBpZiAodGVhbUlkLmlzRW1wdHkoKSB8fCAiQUNUSVZBVEVEIiAhPSB0ZWFtU3RhdHVzKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuecn+eIseWQiOenjemYn+S8jeS4jeWPr+eUqCAo54q25oCBOiAkdGVhbVN0YXR1cywgSUQ6ICR0ZWFtSWQpIikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyA2LiDmiafooYzmtYfmsLQKICAgICAgICAgICAgdmFsIHdhdGVyQW1vdW50ID0gbG92ZUNvb3BlcmF0ZVdhdGVyTnVtLnZhbHVlID86IDAgLy8g6Ziy5q2i56m65oyH6ZKICiAgICAgICAgICAgIGlmICh3YXRlckFtb3VudCA8PSAwKSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi6YWN572u55qE5rWH5rC05pWw5YC85peg5pWIOiAkd2F0ZXJBbW91bnQiKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCB3YXRlclJlc3VsdCA9IEFudENvb3BlcmF0ZVJwY0NhbGwubG92ZVRlYW1XYXRlcih0ZWFtSWQsIHdhdGVyQW1vdW50KQogICAgICAgICAgICB2YWwgd2F0ZXJKbyA9IEpTT05PYmplY3Qod2F0ZXJSZXN1bHQpCgogICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIHdhdGVySm8pKSB7CiAgICAgICAgICAgICAgICBMb2cuZm9yZXN0KCLnnJ/niLHlkIjnp43wn5KWW+a1h+awtOaIkOWKn10jJHt3YXRlckFtb3VudH1nIikKICAgICAgICAgICAgICAgIFN0YXR1cy5zZXRGbGFnVG9kYXkoImxvdmU6OnRlYW1XYXRlciIpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi55yf54ix5ZCI56eN5rWH5rC05aSx6LSlOiAiICsgd2F0ZXJKby5vcHRTdHJpbmcoInJlc3VsdERlc2MiKSkKICAgICAgICAgICAgfQoKICAgICAgICB9IGNhdGNoICh0OiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJsb3ZlQ29vcGVyYXRlV2F0ZXIg5byC5bi4OiIsIHQpCiAgICAgICAgfQogICAgfQoKICAgIC8vIOe7hOmYn+WQiOenjea1h+awtOmAu+i+kQogICAgcHJpdmF0ZSBmdW4gdGVhbUNvb3BlcmF0ZVdhdGVyKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIC0tLSAxLiDln7rnoYDphY3nva7kuI7mnKzlnLDmoKHpqowgLS0tCiAgICAgICAgICAgIC8vIOeUqOaIt+iuvue9rueahOKAnOavj+aXpeebruagh+a1h+awtOmHj+KAnQogICAgICAgICAgICB2YWwgdXNlckRhaWx5VGFyZ2V0ID0gKHRlYW1Db29wZXJhdGVXYXRlck51bS52YWx1ZSA/OiAxMCkuY29lcmNlSW4oMTAsIDUwMDApCgogICAgICAgICAgICAvLyDojrflj5bku4rml6Xlt7LmtYfmsLTph48KICAgICAgICAgICAgdmFsIHRvZGF5VXNlZCA9IFN0YXR1cy5nZXRJbnRGbGFnVG9kYXkoU3RhdHVzRmxhZ3MuRkxBR19URUFNX1dBVEVSX0RBSUxZX0NPVU5UKSA/OiAwCgogICAgICAgICAgICAvLyDorqHnrpfnlKjmiLfop4bop5LnmoTku4rml6XliankvZnpop3luqYKICAgICAgICAgICAgdmFsIHVzZXJSZW1haW5pbmdRdW90YSA9IHVzZXJEYWlseVRhcmdldCAtIHRvZGF5VXNlZAoKICAgICAgICAgICAgLy8g5aaC5p6c5Ymp5L2Z6aKd5bqm5bCP5LqO5pyA5bCP5rWH5rC05Y2V5L2NKDEwZynvvIznm7TmjqXnu5PmnZ8KICAgICAgICAgICAgaWYgKHVzZXJSZW1haW5pbmdRdW90YSA8IDEwKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIue7hOmYn+WQiOenjeS7iuaXpeW3sui+vuaghyAo5bey5rWHJHt0b2RheVVzZWR9ZyAvIOebruaghyR7dXNlckRhaWx5VGFyZ2V0fWcp77yM6Lez6L+HIikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyAtLS0gMi4g6I635Y+W5pyN5Yqh56uv5pWw5o2uIChUZWFtSUQgJiDog73ph48pIC0tLQogICAgICAgICAgICB2YWwgaG9tZVBhZ2VTdHIgPSBBbnRDb29wZXJhdGVScGNDYWxsLnF1ZXJ5SG9tZVBhZ2UoKQogICAgICAgICAgICB2YWwgaG9tZUpvID0gSlNPTk9iamVjdChob21lUGFnZVN0cikKICAgICAgICAgICAgaWYgKCFSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgaG9tZUpvKSkgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJxdWVyeUhvbWVQYWdlIOi/lOWbnuW8guW4uCIpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHRlYW1JZCA9IGhvbWVKby5vcHRKU09OT2JqZWN0KCJ0ZWFtSG9tZVJlc3VsdCIpCiAgICAgICAgICAgICAgICA/Lm9wdEpTT05PYmplY3QoInRlYW1CYXNlSW5mbyIpCiAgICAgICAgICAgICAgICA/Lm9wdFN0cmluZygidGVhbUlkIikKICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KCiAgICAgICAgICAgIGlmICh0ZWFtSWQgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmnKrojrflj5bliLDnu4TpmJ/lkIjnp40gVGVhbUlEIikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgY3VycmVudEVuZXJneSA9IGhvbWVKby5vcHRKU09OT2JqZWN0KCJ1c2VyQmFzZUluZm8iKT8ub3B0SW50KCJjdXJyZW50RW5lcmd5IikgPzogMAogICAgICAgICAgICBpZiAoY3VycmVudEVuZXJneSA8IDEwKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuW9k+WJjeiDvemHj+S4jei2szEwZyAoJHtjdXJyZW50RW5lcmd5fWcp77yM5peg5rOV5rWH5rC0IikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICB2YXIgbmVlZFJldHVybiA9IGZhbHNlIC8v5Yik5pat5piv5ZCm6KaB6L+U5Zue5Liq5Lq6CiAgICAgICAgICAgIGlmICghaXNUZWFtKGhvbWVKbykpIHsKCiAgICAgICAgICAgICAgICB2YWwgdXBkYXRlVXNlckNvbmZpZ1N0ciA9IEFudENvb3BlcmF0ZVJwY0NhbGwudXBkYXRlVXNlckNvbmZpZyh0cnVlKQogICAgICAgICAgICAgICAgdmFsIHVzZXJDb25maWdKbyA9IEpTT05PYmplY3QodXBkYXRlVXNlckNvbmZpZ1N0cikKICAgICAgICAgICAgICAgIGlmICghUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIHVzZXJDb25maWdKbykpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgInVwZGF0ZVVzZXJDb25maWcg6L+U5Zue5byC5bi4IikKICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIG5lZWRSZXR1cm4gPSB0cnVlCiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuS4jeWcqOmYn+S8jeaooeW8jyzlt7LkuLrmgqjliIfmjaLoh7Pnu4TpmJ/mtYfmsLQiKQoKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gLS0tIDMuIOiOt+WPluacjeWKoeerr+mZkOWItiAo5Ymp5L2Z5Y+v5rWH5rC06YePKSAtLS0KICAgICAgICAgICAgdmFsIG1pc2NJbmZvU3RyID0gQW50Q29vcGVyYXRlUnBjQ2FsbC5xdWVyeU1pc2NJbmZvKCJ0ZWFtQ2FuV2F0ZXJDb3VudCIsIHRlYW1JZCkKICAgICAgICAgICAgdmFsIG1pc2NKbyA9IEpTT05PYmplY3QobWlzY0luZm9TdHIpCiAgICAgICAgICAgIGlmICghUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIG1pc2NKbykpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAicXVlcnlNaXNjSW5mbyDmn6Xor6LlpLHotKUiKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIHNlcnZlclJlbWFpbmluZzog5pyN5Yqh56uv6L+U5Zue55qE5LuK5pel5Ymp5L2Z5Y+v5rWH5rC06aKd5bqmCiAgICAgICAgICAgIHZhbCBzZXJ2ZXJSZW1haW5pbmcgPSBtaXNjSm8ub3B0SlNPTk9iamVjdCgiY29tYmluZUhhbmRsZXJWT01hcCIpCiAgICAgICAgICAgICAgICA/Lm9wdEpTT05PYmplY3QoInRlYW1DYW5XYXRlckNvdW50IikKICAgICAgICAgICAgICAgID8ub3B0SW50KCJ3YXRlckNvdW50IiwgMCkgPzogMAoKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLnu4TpmJ/nirbmgIHmo4Dmn6U6IOebruagh+WJqeS9mSR7dXNlclJlbWFpbmluZ1F1b3RhfWcgfCDlrpjmlrnliankvZkke3NlcnZlclJlbWFpbmluZ31nIHwg6IOM5YyF6IO96YePJHtjdXJyZW50RW5lcmd5fWciKQoKICAgICAgICAgICAgaWYgKHNlcnZlclJlbWFpbmluZyA8IDEwKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuWumOaWuemZkOWItuS7iuaXpeaXoOWPr+a1h+awtOmineW6pu+8jOi3s+i/hyIpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gLS0tIDQuIOaguOW/g+iuoeeulyAo5Y+W5Lqk6ZuGL+acgOWwj+WAvCkgLS0tCiAgICAgICAgICAgIC8vIOacgOe7iOa1h+awtOmHjyA9IE1pbijnlKjmiLfliankvZnphY3pop0sIOWumOaWueWJqeS9memFjeminSwg5b2T5YmN6IOM5YyF6IO96YePKQogICAgICAgICAgICB2YWwgZmluYWxXYXRlckFtb3VudCA9IHVzZXJSZW1haW5pbmdRdW90YQogICAgICAgICAgICAgICAgLmNvZXJjZUF0TW9zdChzZXJ2ZXJSZW1haW5pbmcpCiAgICAgICAgICAgICAgICAuY29lcmNlQXRNb3N0KGN1cnJlbnRFbmVyZ3kpCgogICAgICAgICAgICAvLyAtLS0gNS4g5pyA57uI5qCh6aqM5LiO5omn6KGMIC0tLQogICAgICAgICAgICBpZiAoZmluYWxXYXRlckFtb3VudCA8IDEwKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuiuoeeul+WQjua1h+awtOmHjygke2ZpbmFsV2F0ZXJBbW91bnR9ZynkvY7kuo7mnIDlsI/pmZDliLYxMGfvvIzkuI3miafooYwiKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5omn6KGM5rWH5rC0OiAke2ZpbmFsV2F0ZXJBbW91bnR9ZyIpCiAgICAgICAgICAgIHZhbCB3YXRlclJlc1N0ciA9IEFudENvb3BlcmF0ZVJwY0NhbGwudGVhbVdhdGVyKHRlYW1JZCwgZmluYWxXYXRlckFtb3VudCkKICAgICAgICAgICAgdmFsIHdhdGVySm8gPSBKU09OT2JqZWN0KHdhdGVyUmVzU3RyKQoKICAgICAgICAgICAgaWYgKFJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCB3YXRlckpvKSkgewogICAgICAgICAgICAgICAgTG9nLmZvcmVzdCgi57uE6Zif5ZCI56eN8J+MslvmtYfmsLTmiJDlip9dICMke2ZpbmFsV2F0ZXJBbW91bnR9ZyIpCiAgICAgICAgICAgICAgICAvLyDmm7TmlrDmnKzlnLDnu5/orqEKICAgICAgICAgICAgICAgIHZhbCBuZXdUb3RhbCA9IHRvZGF5VXNlZCArIGZpbmFsV2F0ZXJBbW91bnQKICAgICAgICAgICAgICAgIFN0YXR1cy5zZXRJbnRGbGFnVG9kYXkoU3RhdHVzRmxhZ3MuRkxBR19URUFNX1dBVEVSX0RBSUxZX0NPVU5ULCBuZXdUb3RhbCkKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5LuK5pel57Sv6K6hOiAke25ld1RvdGFsfWcgLyAke3VzZXJEYWlseVRhcmdldH1nIikKICAgICAgICAgICAgfQogICAgICAgICAgICAvL+WmguaenOS7juS4quS6uuadpeeahOWwseWbnuWIsOS4quS6ugogICAgICAgICAgICBpZiAobmVlZFJldHVybikgewoKICAgICAgICAgICAgICAgIHZhbCB1cGRhdGVVc2VyQ29uZmlnU3RyID0gQW50Q29vcGVyYXRlUnBjQ2FsbC51cGRhdGVVc2VyQ29uZmlnKGZhbHNlKQogICAgICAgICAgICAgICAgdmFsIHVzZXJDb25maWdKbyA9IEpTT05PYmplY3QodXBkYXRlVXNlckNvbmZpZ1N0cikKICAgICAgICAgICAgICAgIGlmICghUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIHVzZXJDb25maWdKbykpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgInVwZGF0ZVVzZXJDb25maWcg6L+U5Zue5byC5bi4IikKICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5bey6L+U5Zue5Liq5Lq65qih5byPIikKCiAgICAgICAgICAgIH0KCiAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAidGVhbUNvb3BlcmF0ZVdhdGVyIOW8guW4uDoiLCB0KQogICAgICAgIH0KICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIHZhbCBUQUc6IFN0cmluZyA9IEFudENvb3BlcmF0ZTo6Y2xhc3MuamF2YS5nZXRTaW1wbGVOYW1lKCkKCgogICAgICAgIC8qKgogICAgICAgICAqIOWIpOaWreaYr+WQpuS4uuWboumYnwogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIGhvbWVPYmog55So5oi35Li76aG155qESlNPTuWvueixoQogICAgICAgICAqIEByZXR1cm4g5piv5ZCm5Li65Zui6ZifCiAgICAgICAgICovCiAgICAgICAgcHJpdmF0ZSBmdW4gaXNUZWFtKGhvbWVPYmo6IEpTT05PYmplY3QpOiBCb29sZWFuIHsKICAgICAgICAgICAgLy8g5L+u5aSN6YC76L6R77yaCiAgICAgICAgICAgIC8vIOWmguaenCBuZXh0QWN0aW9uIOaYryAiVGVhbSLvvIzor7TmmI7lvZPliY3lnKjkuKrkurrkuLvpobXvvIjmmL7npLrljrvnu4TpmJ/nmoTlhaXlj6PvvInvvIzlm6DmraTkuI3mmK/lm6LpmJ/mqKHlvI/vvIzlupTov5Tlm54gZmFsc2UKICAgICAgICAgICAgLy8g5aaC5p6cIG5leHRBY3Rpb24g5pivICJDdWx0aXZhdGUi77yM6K+05piO5b2T5YmN5Zyo5Zui6Zif5Li76aG177yI5pi+56S65Y6756eN5qCR55qE5YWl5Y+j77yJ77yM5piv5Zui6Zif5qih5byP77yM5bqU6L+U5ZueIHRydWUKICAgICAgICAgICAgcmV0dXJuICJUZWFtIiAhPSBob21lT2JqLm9wdFN0cmluZygibmV4dEFjdGlvbiIsICIiKQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog5ZCI56eN5rWH5rC0CiAgICAgICAgICovCiAgICAgICAgcHJpdmF0ZSBmdW4gY29vcGVyYXRlV2F0ZXIoY29vcElkOiBTdHJpbmcsIGNvdW50OiBJbnQsIG5hbWU6IFN0cmluZykgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGpvID0gSlNPTk9iamVjdChBbnRDb29wZXJhdGVScGNDYWxsLmNvb3BlcmF0ZVdhdGVyKFVzZXJNYXAuY3VycmVudFVpZCwgY29vcElkLCBjb3VudCkpCiAgICAgICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIGpvKSkgewogICAgICAgICAgICAgICAgICAgIExvZy5mb3Jlc3QoIuWQiOenjea1h+awtPCfmr9bIiArIG5hbWUgKyAiXSIgKyBqby5nZXRTdHJpbmcoImJhcnJhZ2VUZXh0IikpCiAgICAgICAgICAgICAgICAgICAgU3RhdHVzLmNvb3BlcmF0ZVdhdGVyVG9kYXkoVXNlck1hcC5jdXJyZW50VWlkLCBjb29wSWQpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLmtYfmsLTlpLHotKVbIiArIG5hbWUgKyAiXTogIiArIGpvLmdldFN0cmluZygicmVzdWx0RGVzYyIpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoICh0OiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAiY29vcGVyYXRlV2F0ZXIgZXJyOiIsIHQpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOiuoeeul+WQiOenjemcgOimgea1h+awtOeahOWFi+aVsAogICAgICAgICAqLwogICAgICAgIHByaXZhdGUgZnVuIGdldFRvdGFsV2F0ZXJpbmcoY29vcElkOiBTdHJpbmc/KTogSW50IHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBqbyA9IEpTT05PYmplY3QoQW50Q29vcGVyYXRlUnBjQ2FsbC5xdWVyeUNvb3BlcmF0ZVJhbmsoIkEiLCBjb29wSWQpKQogICAgICAgICAgICAgICAgaWYgKFJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBqbykpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgamFMaXN0ID0gam8uZ2V0SlNPTkFycmF5KCJjb29wZXJhdGVSYW5rSW5mb3MiKQogICAgICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwLi48amFMaXN0Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBqb0l0ZW0gPSBqYUxpc3QuZ2V0SlNPTk9iamVjdChpKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgdXNlcklkID0gam9JdGVtLmdldFN0cmluZygidXNlcklkIikKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHVzZXJJZCA9PSBVc2VyTWFwLmN1cnJlbnRVaWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOacquiOt+WPluWIsOe0r+iuoea1h+awtOmHjyDov5Tlm54gLTEg5LiN5omn6KGM5rWH5rC0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgZW5lcmd5U3VtbWF0aW9uID0gam9JdGVtLm9wdEludCgiZW5lcmd5U3VtbWF0aW9uIiwgLTEpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZW5lcmd5U3VtbWF0aW9uID49IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuW9k+WJjeeUqOaIt1skdXNlcklkXeeahOe0r+iuoea1h+awtOiDvemHjzogJGVuZXJneVN1bW1hdGlvbiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gZW5lcmd5U3VtbWF0aW9uCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICLorqHnrpflkIjnp43pnIDopoHmtYfmsLTnmoTlhYvmlbBlcnIiLCB0KQogICAgICAgICAgICB9CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLlkIjnp43ojrflj5bntK/orqHmtYfmsLTph4/lpLHotKUiKQogICAgICAgICAgICByZXR1cm4gLTEgLy8g5pyq6I635Y+W5Yiw57Sv6K6h5rWH5rC06YeP77yM5YGc5q2i5rWH5rC0CiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiDlj6zllKTpmJ/lj4vmtYfmsLTvvIjku4XpmJ/plb/vvIkKICAgICAgICAgKi8KICAgICAgICBwcml2YXRlIGZ1biBjb29wZXJhdGVTZW5kQ29vcGVyYXRlQmVja29uKGNvb3BlcmF0aW9uSWQ6IFN0cmluZywgbmFtZTogU3RyaW5nKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBpZiAoVGltZVV0aWwuaXNOb3dCZWZvcmVUaW1lU3RyKCIxODAwIikpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhciBqbyA9IEpTT05PYmplY3QoQW50Q29vcGVyYXRlUnBjQ2FsbC5xdWVyeUNvb3BlcmF0ZVJhbmsoIkQiLCBjb29wZXJhdGlvbklkKSkKICAgICAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgam8pKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGNvb3BlcmF0ZVJhbmtJbmZvcyA9IGpvLmdldEpTT05BcnJheSgiY29vcGVyYXRlUmFua0luZm9zIikKICAgICAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMC4uPGNvb3BlcmF0ZVJhbmtJbmZvcy5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmFua0luZm8gPSBjb29wZXJhdGVSYW5rSW5mb3MuZ2V0SlNPTk9iamVjdChpKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAocmFua0luZm8uZ2V0Qm9vbGVhbigiY2FuQmVja29uIikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGpvID0gSlNPTk9iamVjdChBbnRDb29wZXJhdGVScGNDYWxsLnNlbmRDb29wZXJhdGVCZWNrb24ocmFua0luZm8uZ2V0U3RyaW5nKCJ1c2VySWQiKSwgY29vcGVyYXRpb25JZCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIGpvKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5mb3Jlc3QoIuWQiOenjfCfmr9bIiArIG5hbWUgKyAiXSPlj6zllKTpmJ/lj4tbIiArIHJhbmtJbmZvLmdldFN0cmluZygiZGlzcGxheU5hbWUiKSArICJd5oiQ5YqfIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRpbWVVdGlsLnNsZWVwQ29tcGF0KDMwMCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIuWPrOWUpOmYn+WPi+WSjOenjemUmeivr++8miIsIHQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task.antCooperate
+
+import fansirsqi.xposed.sesame.data.Status
+import fansirsqi.xposed.sesame.data.StatusFlags
+import fansirsqi.xposed.sesame.entity.CooperateEntity.Companion.getList
+import fansirsqi.xposed.sesame.model.BaseModel
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.IntegerModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectAndCountModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.task.TaskCommon
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ResChecker
+import fansirsqi.xposed.sesame.util.TimeUtil
+import fansirsqi.xposed.sesame.util.maps.CooperateMap
+import fansirsqi.xposed.sesame.util.maps.UserMap
+import org.json.JSONObject
+
+class AntCooperate : ModelTask() {
+    /**
+     * 获取任务名称
+     *
+     * @return 合种任务名称
+     */
+    override fun getName(): String {
+        return "蚂蚁森林合种" //保留这个全称
+    }
+
+    /**
+     * 获取任务分组
+     *
+     * @return 森林分组
+     */
+    override fun getGroup(): ModelGroup {
+        return ModelGroup.FOREST
+    }
+
+    /**
+     * 获取任务图标
+     *
+     * @return 合种任务图标文件名
+     */
+    override fun getIcon(): String {
+        return "AntCooperate.png"
+    }
+
+    private val cooperateWater = BooleanModelField("cooperateWater", "合种浇水|开启", false)
+    private val cooperateWaterList = SelectAndCountModelField(
+        "cooperateWaterList",
+        "合种浇水列表",
+        LinkedHashMap<String?, Int?>(),
+        { getList() },
+        "打开上面的开关后执行一次后再重新回来应该能加载出来"
+    )
+    private val cooperateWaterTotalLimitList = SelectAndCountModelField(
+        "cooperateWaterTotalLimitList",
+        "浇水总量限制列表",
+        LinkedHashMap<String?, Int?>(),
+        { getList() },
+        "当浇满后理论不会再浇了"
+    )
+    private val cooperateSendCooperateBeckon = BooleanModelField("cooperateSendCooperateBeckon", "合种 | 召唤队友浇水| 仅队长 ", false)
+    private val loveCooperateWater = BooleanModelField("loveCooperateWater", "真爱合种 | 浇水", false)
+    private val loveCooperateWaterNum = IntegerModelField("loveCooperateWaterNum", "真爱合种 | 浇水克数(默认20g)", 20)
+    private val teamCooperateWaterNum = IntegerModelField("teamCooperateWaterNum", "组队合种 | 浇水克数(0为关闭，10-5000)", 0)
+    override fun getFields(): ModelFields {
+        val modelFields = ModelFields()
+        modelFields.addField(cooperateWater)
+        modelFields.addField(cooperateWaterList)
+        modelFields.addField(cooperateWaterTotalLimitList)
+        modelFields.addField(cooperateSendCooperateBeckon)
+        // 真爱合种配置
+        modelFields.addField(loveCooperateWater)
+        modelFields.addField(loveCooperateWaterNum)
+        // 组队合种配置
+        modelFields.addField(teamCooperateWaterNum)
+        return modelFields
+    }
+
+    /**
+     * 执行合种任务的主要逻辑
+     */
+    override suspend fun runSuspend() {
+        try {
+            Log.record(TAG, "执行开始-$name")
+
+            // 1. 真爱合种
+            if (loveCooperateWater.value) {
+                loveCooperateWater()
+            }
+
+            // 2. 组队合种
+            if (teamCooperateWaterNum.value > 0) {
+                teamCooperateWater()
+
+            }
+            // 3. 普通合种
+            if (cooperateWater.value) {
+                val queryUserCooperatePlantList = JSONObject(AntCooperateRpcCall.queryUserCooperatePlantList())
+                if (ResChecker.checkRes(TAG, queryUserCooperatePlantList)) {
+                    // 1. 获取当前能量，设为 var，因为浇水后本地需要扣减，否则下一个合种会误判能量充足
+                    var userCurrentEnergy = queryUserCooperatePlantList.getInt("userCurrentEnergy")
+                    val cooperatePlants = queryUserCooperatePlantList.getJSONArray("cooperatePlants")
+                    Log.record(TAG, "获取合种列表成功: ${cooperatePlants.length()} 颗合种")
+                    for (i in 0 until cooperatePlants.length()) {
+                        var plant = cooperatePlants.getJSONObject(i)
+                        val cooperationId = plant.getString("cooperationId")
+                        // 补全缺失的合种名称信息
+                        if (!plant.has("name")) {
+                            val detailResp = AntCooperateRpcCall.queryCooperatePlant(cooperationId)
+                            plant = JSONObject(detailResp).getJSONObject("cooperatePlant")
+                        }
+
+                        val name = plant.getString("name")
+                        val admin = plant.getString("admin")
+
+                        // 2. 合种打招呼逻辑 (独立判断，不影响浇水主流程)
+                        if (cooperateSendCooperateBeckon.value && UserMap.currentUid == admin) {
+                            cooperateSendCooperateBeckon(cooperationId, name)
+                        }
+
+                        // 3. 记录合种信息到本地 Map
+                        CooperateMap.getInstance(CooperateMap::class.java).add(cooperationId, name)
+
+                        // 4. 检查是否满足“今日是否可浇水”的本地状态缓存
+                        if (!Status.canCooperateWaterToday(UserMap.currentUid, cooperationId)) {
+                            // Log.runtime(TAG, "$name 今日已标记为不可浇水/已浇完")
+                            continue
+                        }
+
+                        // 获取服务端限制
+                        val waterDayLimit = plant.getInt("waterDayLimit") // 今日剩余可浇水量
+                        val waterLimit = plant.getJSONObject("cooperateTemplate").getInt("waterLimit") // 每日总上限
+                        // val watered = waterLimit - waterDayLimit
+                        Log.record(TAG, "获取合种[$name] 浇水信息: 剩余可浇 $waterDayLimit g / 总限制 $waterLimit g")
+
+                        // 5. 获取配置
+                        val configPerRound = cooperateWaterList.value[cooperationId] // 本轮配置浇水量
+                        val configTotalLimit = cooperateWaterTotalLimitList.value[cooperationId] // 配置的总浇水上限(累计)
+
+                        if (configPerRound == null) {
+                            Log.record(TAG, "浇水列表中没有为[$name]配置，跳过")
+                            continue
+                        }
+
+                        // 6. 计算本轮目标浇水量 (Target Water)
+                        var planToWater: Int
+
+                        if (configTotalLimit == null) {
+                            // 逻辑保持原意：如果没有配置总限制，则直接把今日剩余额度拉满
+                            Log.record(TAG, "未配置 $name 限制总浇水，目标为填满今日可浇水量（服务端或本地限制）")
+                            planToWater = waterDayLimit
+                        } else {
+                            Log.record(TAG, "载入配置 $name 限制总浇水[$configTotalLimit]g")
+                            val totalWatered = getTotalWatering(cooperationId) // 获取已累计浇水
+
+                            if (totalWatered < 0) {
+                                Log.record(TAG, "无法获取用户[${UserMap.currentUid}]的累计浇水数据，跳过 $name")
+                                continue
+                            }
+
+                            val remainingQuota = configTotalLimit - totalWatered
+                            if (remainingQuota <= 0) {
+                                Log.forest("$name 累计浇水已达标($totalWatered/$configTotalLimit)，跳过")
+                                continue
+                            }
+
+                            planToWater = remainingQuota
+                        }
+
+                        // 7. 最终数值修正 (核心优化：统一使用 min 逻辑)
+                        // 实际浇水量 = Min(计划量, 今日剩余可浇量, 当前背包能量)
+                        var actualWater = planToWater
+
+                        if (actualWater > waterDayLimit) actualWater = waterDayLimit
+                        if (actualWater > configPerRound) actualWater = configPerRound
+                        if (actualWater > userCurrentEnergy) actualWater = userCurrentEnergy
+
+                        Log.record(TAG, "[$name] 结算: 计划 $planToWater, 剩余限额 $waterDayLimit, 背包 $userCurrentEnergy -> 实际: $actualWater")
+
+                        // 8. 执行浇水
+                        if (actualWater > 0) {
+                            cooperateWater(cooperationId, actualWater, name)
+                            // !!! 关键修正：本地扣除能量，供下一次循环判断使用 !!!
+                            userCurrentEnergy -= actualWater
+                        } else {
+                            Log.record(TAG, "浇水列表中没有为[$name]配置")
+                        }
+                    }
+                }
+            }
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, t)
+        } finally {
+            CooperateMap.getInstance(CooperateMap::class.java).save(UserMap.currentUid)
+            Log.record(TAG, "执行结束-$name")
+        }
+    }
+
+    // 真爱合种逻辑
+    private fun loveCooperateWater() {
+        try {
+            // 1. 本地状态检查 (快速失败)
+            if (Status.hasFlagToday("love::teamWater")) {
+                Log.record(TAG, "真爱合种今日已浇过水")
+                return
+            }
+
+            // 2. 查询首页数据
+            val queryResult = AntCooperateRpcCall.queryLoveHome()
+            val queryLoveHome = try {
+                JSONObject(queryResult)
+            } catch (e: Exception) {
+                Log.printStackTrace(TAG, "真爱合种响应JSON解析失败", e)
+                return
+            }
+
+            if (!ResChecker.checkRes(TAG, queryLoveHome)) {
+                // ResChecker 内部通常已经打印了错误日志
+                return
+            }
+
+            // 3. 解析队伍信息
+            val teamInfo = queryLoveHome.optJSONObject("teamInfo")
+            if (teamInfo == null) {
+                Log.error(TAG, "未找到真爱合种队伍信息，可能是未开启或结构变更")
+                // 如果确认是未开启，可以考虑自动关闭开关
+                // loveCooperateWater.value = false
+                return
+            }
+
+            val teamId = teamInfo.optString("teamId")
+            val teamStatus = teamInfo.optString("teamStatus")
+
+            // 4. 检查服务端记录的今日浇水状态
+            // 结构通常是: waterInfo -> todayWaterMap -> {"uid": waterAmount}
+            val myWateredAmount = teamInfo.optJSONObject("waterInfo")
+                ?.optJSONObject("todayWaterMap")
+                ?.optInt(UserMap.currentUid, 0) ?: 0
+
+            if (myWateredAmount > 0) {
+                Log.forest("真爱合种今日已浇水(${myWateredAmount}g)")
+                // 既然服务端说浇过了，更新本地状态并退出
+                Status.setFlagToday("love::teamWater")
+                return
+            }
+
+            // 5. 校验队伍状态是否允许浇水
+            if (teamId.isEmpty() || "ACTIVATED" != teamStatus) {
+                Log.record(TAG, "真爱合种队伍不可用 (状态: $teamStatus, ID: $teamId)")
+                return
+            }
+
+            // 6. 执行浇水
+            val waterAmount = loveCooperateWaterNum.value ?: 0 // 防止空指针
+            if (waterAmount <= 0) {
+                Log.error(TAG, "配置的浇水数值无效: $waterAmount")
+                return
+            }
+
+            val waterResult = AntCooperateRpcCall.loveTeamWater(teamId, waterAmount)
+            val waterJo = JSONObject(waterResult)
+
+            if (ResChecker.checkRes(TAG, waterJo)) {
+                Log.forest("真爱合种💖[浇水成功]#${waterAmount}g")
+                Status.setFlagToday("love::teamWater")
+            } else {
+                Log.error(TAG, "真爱合种浇水失败: " + waterJo.optString("resultDesc"))
+            }
+
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, "loveCooperateWater 异常:", t)
+        }
+    }
+
+    // 组队合种浇水逻辑
+    private fun teamCooperateWater() {
+        try {
+            // --- 1. 基础配置与本地校验 ---
+            // 用户设置的“每日目标浇水量”
+            val userDailyTarget = (teamCooperateWaterNum.value ?: 10).coerceIn(10, 5000)
+
+            // 获取今日已浇水量
+            val todayUsed = Status.getIntFlagToday(StatusFlags.FLAG_TEAM_WATER_DAILY_COUNT) ?: 0
+
+            // 计算用户视角的今日剩余额度
+            val userRemainingQuota = userDailyTarget - todayUsed
+
+            // 如果剩余额度小于最小浇水单位(10g)，直接结束
+            if (userRemainingQuota < 10) {
+                Log.record(TAG, "组队合种今日已达标 (已浇${todayUsed}g / 目标${userDailyTarget}g)，跳过")
+                return
+            }
+
+            // --- 2. 获取服务端数据 (TeamID & 能量) ---
+            val homePageStr = AntCooperateRpcCall.queryHomePage()
+            val homeJo = JSONObject(homePageStr)
+            if (!ResChecker.checkRes(TAG, homeJo)) {
+                Log.record(TAG, "queryHomePage 返回异常")
+                return
+            }
+
+            val teamId = homeJo.optJSONObject("teamHomeResult")
+                ?.optJSONObject("teamBaseInfo")
+                ?.optString("teamId")
+                ?.takeIf { it.isNotBlank() }
+
+            if (teamId == null) {
+                Log.record(TAG, "未获取到组队合种 TeamID")
+                return
+            }
+
+            val currentEnergy = homeJo.optJSONObject("userBaseInfo")?.optInt("currentEnergy") ?: 0
+            if (currentEnergy < 10) {
+                Log.record(TAG, "当前能量不足10g (${currentEnergy}g)，无法浇水")
+                return
+            }
+
+            var needReturn = false //判断是否要返回个人
+            if (!isTeam(homeJo)) {
+
+                val updateUserConfigStr = AntCooperateRpcCall.updateUserConfig(true)
+                val userConfigJo = JSONObject(updateUserConfigStr)
+                if (!ResChecker.checkRes(TAG, userConfigJo)) {
+                    Log.record(TAG, "updateUserConfig 返回异常")
+                    return
+                }
+                needReturn = true
+                Log.record(TAG, "不在队伍模式,已为您切换至组队浇水")
+
+            }
+
+            // --- 3. 获取服务端限制 (剩余可浇水量) ---
+            val miscInfoStr = AntCooperateRpcCall.queryMiscInfo("teamCanWaterCount", teamId)
+            val miscJo = JSONObject(miscInfoStr)
+            if (!ResChecker.checkRes(TAG, miscJo)) {
+                Log.record(TAG, "queryMiscInfo 查询失败")
+                return
+            }
+
+            // serverRemaining: 服务端返回的今日剩余可浇水额度
+            val serverRemaining = miscJo.optJSONObject("combineHandlerVOMap")
+                ?.optJSONObject("teamCanWaterCount")
+                ?.optInt("waterCount", 0) ?: 0
+
+            Log.record(TAG, "组队状态检查: 目标剩余${userRemainingQuota}g | 官方剩余${serverRemaining}g | 背包能量${currentEnergy}g")
+
+            if (serverRemaining < 10) {
+                Log.record(TAG, "官方限制今日无可浇水额度，跳过")
+                return
+            }
+
+            // --- 4. 核心计算 (取交集/最小值) ---
+            // 最终浇水量 = Min(用户剩余配额, 官方剩余配额, 当前背包能量)
+            val finalWaterAmount = userRemainingQuota
+                .coerceAtMost(serverRemaining)
+                .coerceAtMost(currentEnergy)
+
+            // --- 5. 最终校验与执行 ---
+            if (finalWaterAmount < 10) {
+                Log.record(TAG, "计算后浇水量(${finalWaterAmount}g)低于最小限制10g，不执行")
+                return
+            }
+
+            Log.record(TAG, "执行浇水: ${finalWaterAmount}g")
+            val waterResStr = AntCooperateRpcCall.teamWater(teamId, finalWaterAmount)
+            val waterJo = JSONObject(waterResStr)
+
+            if (ResChecker.checkRes(TAG, waterJo)) {
+                Log.forest("组队合种🌲[浇水成功] #${finalWaterAmount}g")
+                // 更新本地统计
+                val newTotal = todayUsed + finalWaterAmount
+                Status.setIntFlagToday(StatusFlags.FLAG_TEAM_WATER_DAILY_COUNT, newTotal)
+                Log.record(TAG, "今日累计: ${newTotal}g / ${userDailyTarget}g")
+            }
+            //如果从个人来的就回到个人
+            if (needReturn) {
+
+                val updateUserConfigStr = AntCooperateRpcCall.updateUserConfig(false)
+                val userConfigJo = JSONObject(updateUserConfigStr)
+                if (!ResChecker.checkRes(TAG, userConfigJo)) {
+                    Log.record(TAG, "updateUserConfig 返回异常")
+                    return
+                }
+                Log.record(TAG, "已返回个人模式")
+
+            }
+
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, "teamCooperateWater 异常:", t)
+        }
+    }
+
+    companion object {
+        private val TAG: String = AntCooperate::class.java.getSimpleName()
+
+
+        /**
+         * 判断是否为团队
+         *
+         * @param homeObj 用户主页的JSON对象
+         * @return 是否为团队
+         */
+        private fun isTeam(homeObj: JSONObject): Boolean {
+            // 修复逻辑：
+            // 如果 nextAction 是 "Team"，说明当前在个人主页（显示去组队的入口），因此不是团队模式，应返回 false
+            // 如果 nextAction 是 "Cultivate"，说明当前在团队主页（显示去种树的入口），是团队模式，应返回 true
+            return "Team" != homeObj.optString("nextAction", "")
+        }
+
+        /**
+         * 合种浇水
+         */
+        private fun cooperateWater(coopId: String, count: Int, name: String) {
+            try {
+                val jo = JSONObject(AntCooperateRpcCall.cooperateWater(UserMap.currentUid, coopId, count))
+                if (ResChecker.checkRes(TAG, jo)) {
+                    Log.forest("合种浇水🚿[" + name + "]" + jo.getString("barrageText"))
+                    Status.cooperateWaterToday(UserMap.currentUid, coopId)
+                } else {
+                    Log.error(TAG, "浇水失败[" + name + "]: " + jo.getString("resultDesc"))
+                }
+            } catch (t: Throwable) {
+                Log.printStackTrace(TAG, "cooperateWater err:", t)
+            }
+        }
+
+        /**
+         * 计算合种需要浇水的克数
+         */
+        private fun getTotalWatering(coopId: String?): Int {
+            try {
+                val jo = JSONObject(AntCooperateRpcCall.queryCooperateRank("A", coopId))
+                if (ResChecker.checkRes(TAG, jo)) {
+                    val jaList = jo.getJSONArray("cooperateRankInfos")
+                    for (i in 0..<jaList.length()) {
+                        val joItem = jaList.getJSONObject(i)
+                        val userId = joItem.getString("userId")
+                        if (userId == UserMap.currentUid) {
+                            // 未获取到累计浇水量 返回 -1 不执行浇水
+                            val energySummation = joItem.optInt("energySummation", -1)
+                            if (energySummation >= 0) {
+                                Log.record(TAG, "当前用户[$userId]的累计浇水能量: $energySummation")
+                            }
+                            return energySummation
+                        }
+                    }
+                }
+            } catch (t: Throwable) {
+                Log.printStackTrace(TAG, "计算合种需要浇水的克数err", t)
+            }
+            Log.error(TAG, "合种获取累计浇水量失败")
+            return -1 // 未获取到累计浇水量，停止浇水
+        }
+
+        /**
+         * 召唤队友浇水（仅队长）
+         */
+        private fun cooperateSendCooperateBeckon(cooperationId: String, name: String) {
+            try {
+                if (TimeUtil.isNowBeforeTimeStr("1800")) {
+                    return
+                }
+                var jo = JSONObject(AntCooperateRpcCall.queryCooperateRank("D", cooperationId))
+                if (ResChecker.checkRes(TAG, jo)) {
+                    val cooperateRankInfos = jo.getJSONArray("cooperateRankInfos")
+                    for (i in 0..<cooperateRankInfos.length()) {
+                        val rankInfo = cooperateRankInfos.getJSONObject(i)
+                        if (rankInfo.getBoolean("canBeckon")) {
+                            jo = JSONObject(AntCooperateRpcCall.sendCooperateBeckon(rankInfo.getString("userId"), cooperationId))
+                            if (ResChecker.checkRes(TAG, jo)) {
+                                Log.forest("合种🚿[" + name + "]#召唤队友[" + rankInfo.getString("displayName") + "]成功")
+                            }
+                            TimeUtil.sleepCompat(300)
+                        }
+                    }
+                }
+            } catch (t: Throwable) {
+                Log.printStackTrace(TAG, "召唤队友和种错误：", t)
+            }
+        }
+    }
+}

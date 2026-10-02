@@ -1,1 +1,19 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZhcm07CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5SZXF1ZXN0TWFuYWdlcjsKCi8qKgogKiBAYXV0aG9yIENvbnN0YW5saW5lCiAqIEBzaW5jZSAyMDIzLzA4LzA0CiAqLwpwdWJsaWMgY2xhc3MgRGFkYURhaWx5UnBjQ2FsbCB7CiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBob21lKFN0cmluZyBhY3Rpdml0eUlkKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImNvbS5hbGlwYXkucmVhZGluZy5nYW1lLmRhZGFEYWlseS5ob21lIiwKICAgICAgICAgICAgICAgICJbe1wiYWN0aXZpdHlJZFwiOiIgKyBhY3Rpdml0eUlkICsgIixcImRhZGFWZXJzaW9uXCI6XCIxLjMuMFwiLFwidmVyc2lvblwiOjF9XSIpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHN1Ym1pdChTdHJpbmcgYWN0aXZpdHlJZCwgU3RyaW5nIGFuc3dlciwgTG9uZyBxdWVzdGlvbklkKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImNvbS5hbGlwYXkucmVhZGluZy5nYW1lLmRhZGFEYWlseS5zdWJtaXQiLAogICAgICAgICAgICAgICAgIlt7XCJhY3Rpdml0eUlkXCI6IiArIGFjdGl2aXR5SWQgKyAiLFwiYW5zd2VyXCI6XCIiICsgYW5zd2VyICsgIlwiLFwiZGFkYVZlcnNpb25cIjpcIjEuMy4wXCIsXCJxdWVzdGlvbklkXCI6IiArIHF1ZXN0aW9uSWQgKyAiLFwidmVyc2lvblwiOjF9XSIpOwogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.task.antFarm;
+
+import fansirsqi.xposed.sesame.hook.RequestManager;
+
+/**
+ * @author Constanline
+ * @since 2023/08/04
+ */
+public class DadaDailyRpcCall {
+    public static String home(String activityId) {
+        return RequestManager.requestString("com.alipay.reading.game.dadaDaily.home",
+                "[{\"activityId\":" + activityId + ",\"dadaVersion\":\"1.3.0\",\"version\":1}]");
+    }
+
+    public static String submit(String activityId, String answer, Long questionId) {
+        return RequestManager.requestString("com.alipay.reading.game.dadaDaily.submit",
+                "[{\"activityId\":" + activityId + ",\"answer\":\"" + answer + "\",\"dadaVersion\":\"1.3.0\",\"questionId\":" + questionId + ",\"version\":1}]");
+    }
+}

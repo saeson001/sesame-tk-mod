@@ -1,1 +1,248 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbAoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLkJ1aWxkQ29uZmlnCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LkJvb2xlYW5Nb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LkNob2ljZU1vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuSW50ZWdlck1vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuSW50ZWdlck1vZGVsRmllbGQuTXVsdGlwbHlJbnRlZ2VyTW9kZWxGaWVsZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5MaXN0TW9kZWxGaWVsZC5MaXN0Sm9pbkNvbW1hVG9TdHJpbmdNb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LlN0cmluZ01vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTGlzdFV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuQmVhY2hNYXAKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5JZE1hcE1hbmFnZXIKaW1wb3J0IGxvbWJvay5HZXR0ZXIKCi8qKgogKiDln7rnoYDphY3nva7mqKHlnZcKICovCmNsYXNzIEJhc2VNb2RlbCA6IE1vZGVsKCkgewogICAgb3ZlcnJpZGUgZnVuIGdldE5hbWUoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIuWfuuehgCIKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZ2V0R3JvdXAoKTogTW9kZWxHcm91cCB7CiAgICAgICAgcmV0dXJuIE1vZGVsR3JvdXAuQkFTRQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRJY29uKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICJCYXNlTW9kZWwucG5nIgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRFbmFibGVGaWVsZE5hbWUoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIuWQr+eUqOaooeWdlyIKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZ2V0RmllbGRzKCk6IE1vZGVsRmllbGRzIHsKICAgICAgICB2YWwgbW9kZWxGaWVsZHMgPSBNb2RlbEZpZWxkcygpCiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoc3RheUF3YWtlKSAvL+aYr+WQpuS/neaMgeWUpOmGkueKtuaAgQogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKG1hbnVhbFRyaWdnZXJBdXRvU2NoZWR1bGUpIC8v5omL5Yqo6Kem5Y+R5piv5ZCm6Ieq5Yqo5a6J5o6S5LiL5qyh5omn6KGMCiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoY2hlY2tJbnRlcnZhbCkgLy/miafooYzpl7TpmpTml7bpl7QKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZCh0YXNrRXhlY3V0aW9uUm91bmRzKSAvL+i9ruaVsAogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKG1vZGVsU2xlZXBUaW1lKSAvL+aooeWdl+S8keecoOaXtumXtOiMg+WbtAogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGV4ZWNBdFRpbWVMaXN0KSAvL+WumuaXtuaJp+ihjOeahOaXtumXtOeCueWIl+ihqAogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKHdha2VuQXRUaW1lTGlzdCkgLy/lrprml7bllKTphpLnmoTml7bpl7TngrnliJfooagKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChlbmVyZ3lUaW1lKSAvL+iDvemHj+aUtumbhueahOaXtumXtOiMg+WbtAogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKHRpbWVkVGFza01vZGVsKSAvL+WumuaXtuS7u+WKoeaooeW8j+mAieaLqQogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKHRpbWVvdXRSZXN0YXJ0KSAvL+i2heaXtuaYr+WQpumHjeWQrwogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKHdhaXRXaGVuRXhjZXB0aW9uKSAvL+W8guW4uOWPkeeUn+aXtueahOetieW+heaXtumXtAogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGVyck5vdGlmeSkgLy/lvILluLjpgJrnn6XlvIDlhbMKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChzZXRNYXhFcnJvckNvdW50KSAvL+W8guW4uOasoeaVsOmYiOWAvAogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKG5ld1JwYykgLy/mmK/lkKblkK/nlKjmlrDmjqXlj6MKCiAgICAgICAgaWYgKEJ1aWxkQ29uZmlnLkRFQlVHKSB7CiAgICAgICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGRlYnVnTW9kZSkgLy/mmK/lkKblvIDlkK/mipPljIXosIPor5XmqKHlvI8KICAgICAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoc2VuZEhvb2tEYXRhKSAvL+WQr+eUqEhvb2vmlbDmja7ovazlj5EKICAgICAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoc2VuZEhvb2tEYXRhVXJsKSAvL0hvb2vmlbDmja7ovazlj5HlnLDlnYAKICAgICAgICB9CgogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGJhdHRlcnlQZXJtKSAvL+aYr+WQpueUs+ivt+ebruagh+W6lOeUqOeahOWQjuWPsOi/kOihjOadg+mZkAogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKHJlY29yZExvZykgLy/mmK/lkKborrDlvZVyZWNvcmTml6Xlv5cKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChydW50aW1lTG9nKSAvL+aYr+WQpuiusOW9lXJ1bnRpbWXml6Xlv5cKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChzaG93VG9hc3QpIC8v5piv5ZCm5pi+56S65rCU5rOh5o+Q56S6CiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoZW5hYmxlT25Hb2luZykgLy/mmK/lkKblvIDlkK/nirbmgIHmoI/npoHliKAKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChsYW5ndWFnZVNpbXBsaWZpZWRDaGluZXNlKSAvL+aYr+WQpuWPquaYvuekuuS4reaWh+W5tuiuvue9ruaXtuWMugogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKHRvYXN0T2Zmc2V0WSkgLy/msJTms6Hmj5DnpLrnmoTnurXlkJHlgY/np7vph48KICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZCh0b2FzdFBlcmZpeCkvL+awlOazoeaPkOekuueahOWJjee8gAogICAgICAgIHJldHVybiBtb2RlbEZpZWxkcwogICAgfQoKICAgIGludGVyZmFjZSBUaW1lZFRhc2tNb2RlbCB7CiAgICAgICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgICAgIGNvbnN0IHZhbCBTWVNURU06IEludCA9IDAKICAgICAgICAgICAgY29uc3QgdmFsIFBST0dSQU06IEludCA9IDEKICAgICAgICAgICAgdmFsIG5pY2tOYW1lczogQXJyYXk8U3RyaW5nPz4gPSBhcnJheU9mPFN0cmluZz8+KCLwn6SW57O757uf6K6h5pe2IiwgIvCfk6bnqIvluo/orqHml7YiKQogICAgICAgIH0KICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiQmFzZU1vZGVsIgoKICAgICAgICAvKioKICAgICAgICAgKiDmmK/lkKbkv53mjIHllKTphpLnirbmgIEKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHN0YXlBd2FrZTogQm9vbGVhbk1vZGVsRmllbGQgPSBCb29sZWFuTW9kZWxGaWVsZCgic3RheUF3YWtlIiwgIuS/neaMgeWUpOmGkiIsIHRydWUpCgogICAgICAgIC8qKgogICAgICAgICAqIC8v5omL5Yqo6Kem5Y+R5piv5ZCm6Ieq5Yqo5a6J5o6S5LiL5qyh5omn6KGMCiAgICAgICAgICovCiAgICAgICAgQEdldHRlcgogICAgICAgIHZhbCBtYW51YWxUcmlnZ2VyQXV0b1NjaGVkdWxlOiBCb29sZWFuTW9kZWxGaWVsZCA9IEJvb2xlYW5Nb2RlbEZpZWxkKCJtYW51YWxUcmlnZ2VyQXV0b1NjaGVkdWxlIiwgIuaJi+WKqOinpuWPkeebruagh+W6lOeUqOi/kOihjCIsIGZhbHNlKSAvL+S4gOiIrOS6uuS4jeW8gOi/meS4qgoKICAgICAgICAvKioKICAgICAgICAgKiDmiafooYzpl7TpmpTml7bpl7TvvIjliIbpkp/vvIkKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIGNoZWNrSW50ZXJ2YWw6IE11bHRpcGx5SW50ZWdlck1vZGVsRmllbGQgPSBNdWx0aXBseUludGVnZXJNb2RlbEZpZWxkKCJjaGVja0ludGVydmFsIiwgIuaJp+ihjOmXtOmalCjliIbpkp8pIiwgNTAsIDEsIDEyICogNjAsIDYwMDAwKSAvL+atpOWkhOiwg+aVtOiHszMw5YiG6ZKf5omn6KGM5LiA5qyh77yM5Y+v6IO95Lya5q+U5bmz5bi46ICX55S15LiA54K544CC44CCCgogICAgICAgIC8qKgogICAgICAgICAqIOS7u+WKoeaJp+ihjOi9ruaVsOmFjee9rgogICAgICAgICAqLwogICAgICAgIEBHZXR0ZXIKICAgICAgICB2YWwgdGFza0V4ZWN1dGlvblJvdW5kczogSW50ZWdlck1vZGVsRmllbGQgPSBJbnRlZ2VyTW9kZWxGaWVsZCgidGFza0V4ZWN1dGlvblJvdW5kcyIsICLku7vliqHmiafooYzova7mlbAiLCAxLCAxLCA5OSkgLy8x6L2u5bCx5aW977yM5rKh5b+F6KaBMui9rgoKICAgICAgICAvKioKICAgICAgICAgKiDlrprml7bmiafooYznmoTml7bpl7TngrnliJfooagKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIGV4ZWNBdFRpbWVMaXN0OiBMaXN0Sm9pbkNvbW1hVG9TdHJpbmdNb2RlbEZpZWxkID0gTGlzdEpvaW5Db21tYVRvU3RyaW5nTW9kZWxGaWVsZCgKICAgICAgICAgICAgImV4ZWNBdFRpbWVMaXN0IiwgIuWumuaXtuaJp+ihjCjlhbPpl606LTEpIiwgTGlzdFV0aWwubmV3QXJyYXlMaXN0PFN0cmluZz8+KAogICAgICAgICAgICAgICAgIjAwMTAiLCAiMDAzMCIsICIwMTAwIiwgIjA3MDAiLCAiMDczMCIsICIxMjAwIiwgIjEyMzAiLCAiMTcwMCIsICIxNzMwIiwgIjIwMDAiLCAiMjAzMCIsICIyMzU5IgogICAgICAgICAgICApCiAgICAgICAgKQoKICAgICAgICAvKioKICAgICAgICAgKiDlrprml7bllKTphpLnmoTml7bpl7TngrnliJfooagKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHdha2VuQXRUaW1lTGlzdDogTGlzdEpvaW5Db21tYVRvU3RyaW5nTW9kZWxGaWVsZCA9IExpc3RKb2luQ29tbWFUb1N0cmluZ01vZGVsRmllbGQoCiAgICAgICAgICAgICJ3YWtlbkF0VGltZUxpc3QiLCAi5a6a5pe25ZSk6YaSKOWFs+mXrTotMSkiLCBMaXN0VXRpbC5uZXdBcnJheUxpc3Q8U3RyaW5nPz4oCiAgICAgICAgICAgICAgICAiMDAxMCIsICIwMDMwIiwgIjAxMDAiLCAiMDY1MCIsICIyMzUwIiAvLyDmt7vliqDlpJrkuKow54K55ZCO55qE5pe26Ze054K5CiAgICAgICAgICAgICkKICAgICAgICApCgogICAgICAgIC8qKgogICAgICAgICAqIOiDvemHj+aUtumbhueahOaXtumXtOiMg+WbtAogICAgICAgICAqLwogICAgICAgIEBHZXR0ZXIKICAgICAgICB2YWwgZW5lcmd5VGltZTogTGlzdEpvaW5Db21tYVRvU3RyaW5nTW9kZWxGaWVsZCA9IExpc3RKb2luQ29tbWFUb1N0cmluZ01vZGVsRmllbGQoImVuZXJneVRpbWUiLCAi5Y+q5pS26IO96YeP5pe26Ze0KOiMg+WbtHzlhbPpl606LTEpIiwgTGlzdFV0aWwubmV3QXJyYXlMaXN0PFN0cmluZz8+KCIwNzAwLTA3MzAiKSkKCiAgICAgICAgLyoqCiAgICAgICAgICog5qih5Z2X5LyR55yg5pe26Ze06IyD5Zu0CiAgICAgICAgICovCiAgICAgICAgQEdldHRlcgogICAgICAgIHZhbCBtb2RlbFNsZWVwVGltZTogTGlzdEpvaW5Db21tYVRvU3RyaW5nTW9kZWxGaWVsZCA9CiAgICAgICAgICAgIExpc3RKb2luQ29tbWFUb1N0cmluZ01vZGVsRmllbGQoIm1vZGVsU2xlZXBUaW1lIiwgIuaooeWdl+S8keecoOaXtumXtCjojIPlm7R85YWz6ZetOi0xKSIsIExpc3RVdGlsLm5ld0FycmF5TGlzdDxTdHJpbmc/PigiMDIwMC0wMjAxIikpCgogICAgICAgIC8qKgogICAgICAgICAqIOWumuaXtuS7u+WKoeaooeW8j+mAieaLqQogICAgICAgICAqLwogICAgICAgIEBHZXR0ZXIKICAgICAgICB2YWwgdGltZWRUYXNrTW9kZWw6IENob2ljZU1vZGVsRmllbGQgPSBDaG9pY2VNb2RlbEZpZWxkKCJ0aW1lZFRhc2tNb2RlbCIsICLlrprml7bku7vliqHmqKHlvI8iLCBUaW1lZFRhc2tNb2RlbC5Db21wYW5pb24uU1lTVEVNLCBUaW1lZFRhc2tNb2RlbC5Db21wYW5pb24ubmlja05hbWVzKQoKICAgICAgICAvKioKICAgICAgICAgKiDotoXml7bmmK/lkKbph43lkK8KICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHRpbWVvdXRSZXN0YXJ0OiBCb29sZWFuTW9kZWxGaWVsZCA9IEJvb2xlYW5Nb2RlbEZpZWxkKCJ0aW1lb3V0UmVzdGFydCIsICLotoXml7bph43lkK8iLCB0cnVlKQoKICAgICAgICAvKioKICAgICAgICAgKiDlvILluLjlj5HnlJ/ml7bnmoTnrYnlvoXml7bpl7TvvIjliIbpkp/vvIkKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHdhaXRXaGVuRXhjZXB0aW9uOiBNdWx0aXBseUludGVnZXJNb2RlbEZpZWxkID0gTXVsdGlwbHlJbnRlZ2VyTW9kZWxGaWVsZCgid2FpdFdoZW5FeGNlcHRpb24iLCAi5byC5bi4562J5b6F5pe26Ze0KOWIhumSnykiLCA2MCwgMCwgMjQgKiA2MCwgNjAwMDApCgogICAgICAgIC8qKgogICAgICAgICAqIOW8guW4uOmAmuefpeW8gOWFswogICAgICAgICAqLwogICAgICAgIEBHZXR0ZXIKICAgICAgICB2YWwgZXJyTm90aWZ5OiBCb29sZWFuTW9kZWxGaWVsZCA9IEJvb2xlYW5Nb2RlbEZpZWxkKCJlcnJOb3RpZnkiLCAi5byA5ZCv5byC5bi46YCa55+lIiwgZmFsc2UpCgogICAgICAgIEBHZXR0ZXIKICAgICAgICB2YWwgc2V0TWF4RXJyb3JDb3VudDogSW50ZWdlck1vZGVsRmllbGQgPSBJbnRlZ2VyTW9kZWxGaWVsZCgic2V0TWF4RXJyb3JDb3VudCIsICLlvILluLjmrKHmlbDpmIjlgLwiLCA4KQoKICAgICAgICAvKioKICAgICAgICAgKiDmmK/lkKblkK/nlKjmlrDmjqXlj6PvvIjmnIDkvY7mlK/mjIHniYjmnKwgdjEwLjMuOTYuODEwMO+8iQogICAgICAgICAqLwogICAgICAgIEBHZXR0ZXIKICAgICAgICB2YWwgbmV3UnBjOiBCb29sZWFuTW9kZWxGaWVsZCA9IEJvb2xlYW5Nb2RlbEZpZWxkKCJuZXdScGMiLCAi5L2/55So5paw5o6l5Y+jKOacgOS9juaUr+aMgXYxMC4zLjk2LjgxMDApIiwgdHJ1ZSkKCiAgICAgICAgLyoqCiAgICAgICAgICog5piv5ZCm5byA5ZCv5oqT5YyF6LCD6K+V5qih5byPCiAgICAgICAgICovCiAgICAgICAgQEdldHRlcgogICAgICAgIHZhbCBkZWJ1Z01vZGU6IEJvb2xlYW5Nb2RlbEZpZWxkID0gQm9vbGVhbk1vZGVsRmllbGQoImRlYnVnTW9kZSIsICLlvIDlkK/mipPljIUo5Z+65LqO5paw5o6l5Y+jKSIsIHRydWUpCgogICAgICAgIC8qKgogICAgICAgICAqIOaYr+WQpueUs+ivt+ebruagh+W6lOeUqOeahOWQjuWPsOi/kOihjOadg+mZkAogICAgICAgICAqLwogICAgICAgIEBHZXR0ZXIKICAgICAgICB2YWwgYmF0dGVyeVBlcm06IEJvb2xlYW5Nb2RlbEZpZWxkID0gQm9vbGVhbk1vZGVsRmllbGQoImJhdHRlcnlQZXJtIiwgIuS4uuebruagh+W6lOeUqOeUs+ivt+WQjuWPsOi/kOihjOadg+mZkCIsIHRydWUpCgoKICAgICAgICAvKioKICAgICAgICAgKiDmmK/lkKborrDlvZVyZWNvcmTml6Xlv5cKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHJlY29yZExvZzogQm9vbGVhbk1vZGVsRmllbGQgPSBCb29sZWFuTW9kZWxGaWVsZCgicmVjb3JkTG9nIiwgIuWFqOmDqCB8IOiusOW9lXJlY29yZOaXpeW/lyIsIHRydWUpCgogICAgICAgIC8qKgogICAgICAgICAqIOaYr+WQpuiusOW9lXJ1bnRpbWXml6Xlv5cKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHJ1bnRpbWVMb2c6IEJvb2xlYW5Nb2RlbEZpZWxkID0gQm9vbGVhbk1vZGVsRmllbGQoInJ1bnRpbWVMb2ciLCAi5YWo6YOoIHwg6K6w5b2VcnVudGltZeaXpeW/lyIsIGZhbHNlKQoKICAgICAgICAvKioKICAgICAgICAgKiDmmK/lkKbmmL7npLrmsJTms6Hmj5DnpLoKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHNob3dUb2FzdDogQm9vbGVhbk1vZGVsRmllbGQgPSBCb29sZWFuTW9kZWxGaWVsZCgic2hvd1RvYXN0IiwgIuawlOazoeaPkOekuiIsIHRydWUpCgogICAgICAgIEBHZXR0ZXIKICAgICAgICB2YWwgdG9hc3RQZXJmaXg6IFN0cmluZ01vZGVsRmllbGQgPSBTdHJpbmdNb2RlbEZpZWxkKCJ0b2FzdFBlcmZpeCIsICLmsJTms6HliY3nvIAiLCBudWxsKQoKICAgICAgICAvKioKICAgICAgICAgKiDmsJTms6Hmj5DnpLrnmoTnurXlkJHlgY/np7vph48KICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHRvYXN0T2Zmc2V0WTogSW50ZWdlck1vZGVsRmllbGQgPSBJbnRlZ2VyTW9kZWxGaWVsZCgidG9hc3RPZmZzZXRZIiwgIuawlOazoee6teWQkeWBj+enuyIsIDk5KQoKICAgICAgICAvKioKICAgICAgICAgKiDlj6rmmL7npLrkuK3mloflubborr7nva7ml7bljLoKICAgICAgICAgKi8KICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIGxhbmd1YWdlU2ltcGxpZmllZENoaW5lc2U6IEJvb2xlYW5Nb2RlbEZpZWxkID0gQm9vbGVhbk1vZGVsRmllbGQoImxhbmd1YWdlU2ltcGxpZmllZENoaW5lc2UiLCAi5Y+q5pi+56S65Lit5paH5bm26K6+572u5pe25Yy6IiwgdHJ1ZSkKCiAgICAgICAgLyoqCiAgICAgICAgICog5piv5ZCm5byA5ZCv54q25oCB5qCP56aB5YigCiAgICAgICAgICovCiAgICAgICAgQEdldHRlcgogICAgICAgIHZhbCBlbmFibGVPbkdvaW5nOiBCb29sZWFuTW9kZWxGaWVsZCA9IEJvb2xlYW5Nb2RlbEZpZWxkKCJlbmFibGVPbkdvaW5nIiwgIuW8gOWQr+eKtuaAgeagj+emgeWIoCIsIGZhbHNlKQoKICAgICAgICBAR2V0dGVyCiAgICAgICAgdmFsIHNlbmRIb29rRGF0YTogQm9vbGVhbk1vZGVsRmllbGQgPSBCb29sZWFuTW9kZWxGaWVsZCgic2VuZEhvb2tEYXRhIiwgIuWQr+eUqEhvb2vmlbDmja7ovazlj5EiLCBmYWxzZSkKCiAgICAgICAgQEdldHRlcgogICAgICAgIHZhbCBzZW5kSG9va0RhdGFVcmw6IFN0cmluZ01vZGVsRmllbGQgPSBTdHJpbmdNb2RlbEZpZWxkKCJzZW5kSG9va0RhdGFVcmwiLCAiSG9va+aVsOaNrui9rOWPkeWcsOWdgCIsICJodHRwOi8vMTI3LjAuMC4xOjk1MjcvaG9vayIpCgogICAgICAgIC8qKgogICAgICAgICAqIOa4heeQhuaVsOaNru+8jOWcqOaooeWdl+mUgOavgeaXtuiwg+eUqO+8jOa4heepuiBSZXNlcnZlIOWSjCBCZWFjaCDmlbDmja7jgIIKICAgICAgICAgKi8KICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGRlc3Ryb3lEYXRhKCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLwn6e55riF55CG5omA5pyJ5pWw5o2uIikKICAgICAgICAgICAgICAgIElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShCZWFjaE1hcDo6Y2xhc3MuamF2YSkuY2xlYXIoKQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoUmVzZXJ2ZWFNYXAuY2xhc3MpLmNsZWFyKCk7Ci8vICAgICAgICAgICAgSWRNYXBNYW5hZ2VyLmdldEluc3RhbmNlKENvb3BlcmF0ZU1hcC5jbGFzcykuY2xlYXIoKTsKLy8gICAgICAgICAgICBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoTWVtYmVyQmVuZWZpdHNNYXAuY2xhc3MpLmNsZWFyKCk7Ci8vICAgICAgICAgICAgSWRNYXBNYW5hZ2VyLmdldEluc3RhbmNlKFBhcmFkaXNlQ29pbkJlbmVmaXRJZE1hcC5jbGFzcykuY2xlYXIoKTsKLy8gICAgICAgICAgICBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoVml0YWxpdHlSZXdhcmRzTWFwLmNsYXNzKS5jbGVhcigpOwogICAgICAgICAgICAgICAgLy/lhbbku5bkuZ/lj6/ku6XmuIXnkIbmuIXnkIYKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.model
+
+import fansirsqi.xposed.sesame.BuildConfig
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.ChoiceModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.IntegerModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.IntegerModelField.MultiplyIntegerModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.ListModelField.ListJoinCommaToStringModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.StringModelField
+import fansirsqi.xposed.sesame.util.ListUtil
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.maps.BeachMap
+import fansirsqi.xposed.sesame.util.maps.IdMapManager
+import lombok.Getter
+
+/**
+ * 基础配置模块
+ */
+class BaseModel : Model() {
+    override fun getName(): String {
+        return "基础"
+    }
+
+    override fun getGroup(): ModelGroup {
+        return ModelGroup.BASE
+    }
+
+    override fun getIcon(): String {
+        return "BaseModel.png"
+    }
+
+    override fun getEnableFieldName(): String {
+        return "启用模块"
+    }
+
+    override fun getFields(): ModelFields {
+        val modelFields = ModelFields()
+        modelFields.addField(stayAwake) //是否保持唤醒状态
+        modelFields.addField(manualTriggerAutoSchedule) //手动触发是否自动安排下次执行
+        modelFields.addField(checkInterval) //执行间隔时间
+        modelFields.addField(taskExecutionRounds) //轮数
+        modelFields.addField(modelSleepTime) //模块休眠时间范围
+        modelFields.addField(execAtTimeList) //定时执行的时间点列表
+        modelFields.addField(wakenAtTimeList) //定时唤醒的时间点列表
+        modelFields.addField(energyTime) //能量收集的时间范围
+        modelFields.addField(timedTaskModel) //定时任务模式选择
+        modelFields.addField(timeoutRestart) //超时是否重启
+        modelFields.addField(waitWhenException) //异常发生时的等待时间
+        modelFields.addField(errNotify) //异常通知开关
+        modelFields.addField(setMaxErrorCount) //异常次数阈值
+        modelFields.addField(newRpc) //是否启用新接口
+
+        if (BuildConfig.DEBUG) {
+            modelFields.addField(debugMode) //是否开启抓包调试模式
+            modelFields.addField(sendHookData) //启用Hook数据转发
+            modelFields.addField(sendHookDataUrl) //Hook数据转发地址
+        }
+
+        modelFields.addField(batteryPerm) //是否申请目标应用的后台运行权限
+        modelFields.addField(recordLog) //是否记录record日志
+        modelFields.addField(runtimeLog) //是否记录runtime日志
+        modelFields.addField(showToast) //是否显示气泡提示
+        modelFields.addField(enableOnGoing) //是否开启状态栏禁删
+        modelFields.addField(languageSimplifiedChinese) //是否只显示中文并设置时区
+        modelFields.addField(toastOffsetY) //气泡提示的纵向偏移量
+        modelFields.addField(toastPerfix)//气泡提示的前缀
+        return modelFields
+    }
+
+    interface TimedTaskModel {
+        companion object {
+            const val SYSTEM: Int = 0
+            const val PROGRAM: Int = 1
+            val nickNames: Array<String?> = arrayOf<String?>("🤖系统计时", "📦程序计时")
+        }
+    }
+
+    companion object {
+        private const val TAG = "BaseModel"
+
+        /**
+         * 是否保持唤醒状态
+         */
+        @Getter
+        val stayAwake: BooleanModelField = BooleanModelField("stayAwake", "保持唤醒", true)
+
+        /**
+         * //手动触发是否自动安排下次执行
+         */
+        @Getter
+        val manualTriggerAutoSchedule: BooleanModelField = BooleanModelField("manualTriggerAutoSchedule", "手动触发目标应用运行", false) //一般人不开这个
+
+        /**
+         * 执行间隔时间（分钟）
+         */
+        @Getter
+        val checkInterval: MultiplyIntegerModelField = MultiplyIntegerModelField("checkInterval", "执行间隔(分钟)", 50, 1, 12 * 60, 60000) //此处调整至30分钟执行一次，可能会比平常耗电一点。。
+
+        /**
+         * 任务执行轮数配置
+         */
+        @Getter
+        val taskExecutionRounds: IntegerModelField = IntegerModelField("taskExecutionRounds", "任务执行轮数", 1, 1, 99) //1轮就好，没必要2轮
+
+        /**
+         * 定时执行的时间点列表
+         */
+        @Getter
+        val execAtTimeList: ListJoinCommaToStringModelField = ListJoinCommaToStringModelField(
+            "execAtTimeList", "定时执行(关闭:-1)", ListUtil.newArrayList<String?>(
+                "0010", "0030", "0100", "0700", "0730", "1200", "1230", "1700", "1730", "2000", "2030", "2359"
+            )
+        )
+
+        /**
+         * 定时唤醒的时间点列表
+         */
+        @Getter
+        val wakenAtTimeList: ListJoinCommaToStringModelField = ListJoinCommaToStringModelField(
+            "wakenAtTimeList", "定时唤醒(关闭:-1)", ListUtil.newArrayList<String?>(
+                "0010", "0030", "0100", "0650", "2350" // 添加多个0点后的时间点
+            )
+        )
+
+        /**
+         * 能量收集的时间范围
+         */
+        @Getter
+        val energyTime: ListJoinCommaToStringModelField = ListJoinCommaToStringModelField("energyTime", "只收能量时间(范围|关闭:-1)", ListUtil.newArrayList<String?>("0700-0730"))
+
+        /**
+         * 模块休眠时间范围
+         */
+        @Getter
+        val modelSleepTime: ListJoinCommaToStringModelField =
+            ListJoinCommaToStringModelField("modelSleepTime", "模块休眠时间(范围|关闭:-1)", ListUtil.newArrayList<String?>("0200-0201"))
+
+        /**
+         * 定时任务模式选择
+         */
+        @Getter
+        val timedTaskModel: ChoiceModelField = ChoiceModelField("timedTaskModel", "定时任务模式", TimedTaskModel.Companion.SYSTEM, TimedTaskModel.Companion.nickNames)
+
+        /**
+         * 超时是否重启
+         */
+        @Getter
+        val timeoutRestart: BooleanModelField = BooleanModelField("timeoutRestart", "超时重启", true)
+
+        /**
+         * 异常发生时的等待时间（分钟）
+         */
+        @Getter
+        val waitWhenException: MultiplyIntegerModelField = MultiplyIntegerModelField("waitWhenException", "异常等待时间(分钟)", 60, 0, 24 * 60, 60000)
+
+        /**
+         * 异常通知开关
+         */
+        @Getter
+        val errNotify: BooleanModelField = BooleanModelField("errNotify", "开启异常通知", false)
+
+        @Getter
+        val setMaxErrorCount: IntegerModelField = IntegerModelField("setMaxErrorCount", "异常次数阈值", 8)
+
+        /**
+         * 是否启用新接口（最低支持版本 v10.3.96.8100）
+         */
+        @Getter
+        val newRpc: BooleanModelField = BooleanModelField("newRpc", "使用新接口(最低支持v10.3.96.8100)", true)
+
+        /**
+         * 是否开启抓包调试模式
+         */
+        @Getter
+        val debugMode: BooleanModelField = BooleanModelField("debugMode", "开启抓包(基于新接口)", true)
+
+        /**
+         * 是否申请目标应用的后台运行权限
+         */
+        @Getter
+        val batteryPerm: BooleanModelField = BooleanModelField("batteryPerm", "为目标应用申请后台运行权限", true)
+
+
+        /**
+         * 是否记录record日志
+         */
+        @Getter
+        val recordLog: BooleanModelField = BooleanModelField("recordLog", "全部 | 记录record日志", true)
+
+        /**
+         * 是否记录runtime日志
+         */
+        @Getter
+        val runtimeLog: BooleanModelField = BooleanModelField("runtimeLog", "全部 | 记录runtime日志", false)
+
+        /**
+         * 是否显示气泡提示
+         */
+        @Getter
+        val showToast: BooleanModelField = BooleanModelField("showToast", "气泡提示", true)
+
+        @Getter
+        val toastPerfix: StringModelField = StringModelField("toastPerfix", "气泡前缀", null)
+
+        /**
+         * 气泡提示的纵向偏移量
+         */
+        @Getter
+        val toastOffsetY: IntegerModelField = IntegerModelField("toastOffsetY", "气泡纵向偏移", 99)
+
+        /**
+         * 只显示中文并设置时区
+         */
+        @Getter
+        val languageSimplifiedChinese: BooleanModelField = BooleanModelField("languageSimplifiedChinese", "只显示中文并设置时区", true)
+
+        /**
+         * 是否开启状态栏禁删
+         */
+        @Getter
+        val enableOnGoing: BooleanModelField = BooleanModelField("enableOnGoing", "开启状态栏禁删", false)
+
+        @Getter
+        val sendHookData: BooleanModelField = BooleanModelField("sendHookData", "启用Hook数据转发", false)
+
+        @Getter
+        val sendHookDataUrl: StringModelField = StringModelField("sendHookDataUrl", "Hook数据转发地址", "http://127.0.0.1:9527/hook")
+
+        /**
+         * 清理数据，在模块销毁时调用，清空 Reserve 和 Beach 数据。
+         */
+        @JvmStatic
+        fun destroyData() {
+            try {
+                Log.record(TAG, "🧹清理所有数据")
+                IdMapManager.getInstance(BeachMap::class.java).clear()
+                //            IdMapManager.getInstance(ReserveaMap.class).clear();
+//            IdMapManager.getInstance(CooperateMap.class).clear();
+//            IdMapManager.getInstance(MemberBenefitsMap.class).clear();
+//            IdMapManager.getInstance(ParadiseCoinBenefitIdMap.class).clear();
+//            IdMapManager.getInstance(VitalityRewardsMap.class).clear();
+                //其他也可以清理清理
+            } catch (e: Exception) {
+                Log.printStackTrace(e)
+            }
+        }
+    }
+}

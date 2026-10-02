@@ -1,1 +1,28 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCIKICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyIgogICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSI/YXR0ci9zZWxlY3RhYmxlSXRlbUJhY2tncm91bmQiCiAgICBhbmRyb2lkOm1pbldpZHRoPSIxNzJkcCIKICAgIGFuZHJvaWQ6cGFkZGluZ1ZlcnRpY2FsPSI4ZHAiCiAgICBhbmRyb2lkOnBhZGRpbmdIb3Jpem9udGFsPSIxNmRwIj4KCiAgICA8VGV4dFZpZXcKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3RhYl90ZXh0IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDp0ZXh0QXBwZWFyYW5jZT0iP2F0dHIvdGV4dEFwcGVhcmFuY2VMYWJlbExhcmdlIgogICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSI/YW5kcm9pZDphdHRyL3RleHRDb2xvclByaW1hcnkiCiAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgYW5kcm9pZDp0ZXh0QWxsQ2Fwcz0iZmFsc2UiIC8+CgogICAgPFZpZXcKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2luZGljYXRvcl9iYXIiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjNkcCIKICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Ub3A9IjZkcCIKICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Ib3Jpem9udGFsPSIxMmRwIgogICAgICAgIGFuZHJvaWQ6YmFja2dyb3VuZD0iQGFuZHJvaWQ6Y29sb3IvdHJhbnNwYXJlbnQiIC8+CjwvTGluZWFyTGF5b3V0Pg==
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?attr/selectableItemBackground"
+    android:minWidth="172dp"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="16dp">
+
+    <TextView
+        android:id="@+id/tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceLabelLarge"
+        android:textColor="?android:attr/textColorPrimary"
+        android:gravity="center"
+        android:textAllCaps="false" />
+
+    <View
+        android:id="@+id/indicator_bar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginHorizontal="12dp"
+        android:background="@android:color/transparent" />
+</LinearLayout>

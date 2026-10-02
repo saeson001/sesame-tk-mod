@@ -1,1 +1,22 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuQ29vcGVyYXRlTWFwCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuSWRNYXBNYW5hZ2VyCgovKioKICog6KGo56S65ZCI5L2c55So5oi355qE5a6e5L2T57G777yM5YyF5ZCrIElEIOWSjOWQjeensOOAggogKi8KY2xhc3MgQ29vcGVyYXRlRW50aXR5KGk6IFN0cmluZywgbjogU3RyaW5nKSA6IE1hcHBlckVudGl0eSgpIHsKICAgIGluaXQgewogICAgICAgIGlkID0gaQogICAgICAgIG5hbWUgPSBuCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIGdldExpc3QoKTogTGlzdDxDb29wZXJhdGVFbnRpdHk+IHsKICAgICAgICAgICAgcmV0dXJuIElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShDb29wZXJhdGVNYXA6OmNsYXNzLmphdmEpLm1hcAogICAgICAgICAgICAgICAgLm1hcCB7IChrZXksIHZhbHVlKSAtPiBDb29wZXJhdGVFbnRpdHkoa2V5LCB2YWx1ZSkgfQogICAgICAgIH0KICAgIH0KCn0K
+package fansirsqi.xposed.sesame.entity
+
+import fansirsqi.xposed.sesame.util.maps.CooperateMap
+import fansirsqi.xposed.sesame.util.maps.IdMapManager
+
+/**
+ * 表示合作用户的实体类，包含 ID 和名称。
+ */
+class CooperateEntity(i: String, n: String) : MapperEntity() {
+    init {
+        id = i
+        name = n
+    }
+
+    companion object {
+        fun getList(): List<CooperateEntity> {
+            return IdMapManager.getInstance(CooperateMap::class.java).map
+                .map { (key, value) -> CooperateEntity(key, value) }
+        }
+    }
+
+}

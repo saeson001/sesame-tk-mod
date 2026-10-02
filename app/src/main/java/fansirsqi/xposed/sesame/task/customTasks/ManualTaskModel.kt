@@ -1,1 +1,78 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmN1c3RvbVRhc2tzCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxGaWVsZHMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsR3JvdXAKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuQm9vbGVhbk1vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suTW9kZWxUYXNrCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkdsb2JhbFRocmVhZFBvb2xzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwoKLyoqCiAqIOaJi+WKqOS7u+WKoeaooeWeiwogKiDnlKjkuo7lnKggVUkg54K55Ye75pe26Kem5Y+R54m55a6a55qE5bqE5Zut5a2Q5Lu75Yqh5bqP5YiXCiAqLwpjbGFzcyBNYW51YWxUYXNrTW9kZWwgOiBNb2RlbFRhc2soKSB7CiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBmb3Jlc3RXaGFja01vbGU6IEJvb2xlYW5Nb2RlbEZpZWxkCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBmb3Jlc3RFbmVyZ3lSYWluOiBCb29sZWFuTW9kZWxGaWVsZAogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgZXhjaGFuZ2VFbmVyZ3lSYWluQ2FyZDogQm9vbGVhbk1vZGVsRmllbGQKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGZhcm1TZW5kQmFja0FuaW1hbDogQm9vbGVhbk1vZGVsRmllbGQKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGZhcm1HYW1lTG9naWM6IEJvb2xlYW5Nb2RlbEZpZWxkCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBmYXJtQ2hvdUNob3VMZTogQm9vbGVhbk1vZGVsRmllbGQKCgogICAgb3ZlcnJpZGUgZnVuIGdldE5hbWUoKTogU3RyaW5nID0gIuaJi+WKqOiwg+W6puS7u+WKoSIKCiAgICBvdmVycmlkZSBmdW4gZ2V0RmllbGRzKCk6IE1vZGVsRmllbGRzIHsKICAgICAgICB2YWwgZmllbGRzID0gTW9kZWxGaWVsZHMoKQogICAgICAgIGZpZWxkcy5hZGRGaWVsZChCb29sZWFuTW9kZWxGaWVsZCgiZm9yZXN0V2hhY2tNb2xlIiwgIuajruael+aJk+WcsOm8oCIsIGZhbHNlKS5hbHNvIHsgZm9yZXN0V2hhY2tNb2xlID0gaXQgfSkKICAgICAgICBmaWVsZHMuYWRkRmllbGQoQm9vbGVhbk1vZGVsRmllbGQoImZvcmVzdEVuZXJneVJhaW4iLCAi6IO96YeP6ZuoIiwgZmFsc2UpLmFsc28geyBmb3Jlc3RFbmVyZ3lSYWluID0gaXQgfSkKICAgICAgICBmaWVsZHMuYWRkRmllbGQoQm9vbGVhbk1vZGVsRmllbGQoImV4Y2hhbmdlRW5lcmd5UmFpbkNhcmQiLCAiIOKGqiDlhZHmjaLkvb/nlKjog73ph4/pm6jljaEiLCBmYWxzZSkuYWxzbyB7IGV4Y2hhbmdlRW5lcmd5UmFpbkNhcmQgPSBpdCB9KQogICAgICAgIGZpZWxkcy5hZGRGaWVsZChCb29sZWFuTW9kZWxGaWVsZCgiZmFybVNlbmRCYWNrQW5pbWFsIiwgIumBo+i/lOWwj+m4oSIsIGZhbHNlKS5hbHNvIHsgZmFybVNlbmRCYWNrQW5pbWFsID0gaXQgfSkKICAgICAgICBmaWVsZHMuYWRkRmllbGQoQm9vbGVhbk1vZGVsRmllbGQoImZhcm1HYW1lTG9naWMiLCAi5bqE5Zut5ri45oiP5pS55YiGIiwgZmFsc2UpLmFsc28geyBmYXJtR2FtZUxvZ2ljID0gaXQgfSkKICAgICAgICBmaWVsZHMuYWRkRmllbGQoQm9vbGVhbk1vZGVsRmllbGQoImZhcm1DaG91Q2hvdUxlIiwgIuW6hOWbreaKveaKveS5kCIsIGZhbHNlKS5hbHNvIHsgZmFybUNob3VDaG91TGUgPSBpdCB9KQogICAgICAgIHJldHVybiBmaWVsZHMKICAgIH0KCiAgICAvKioKICAgICAqIOWFs+mUruS/ruWkje+8mui/lOWbniBmYWxzZeOAggogICAgICog6L+Z56Gu5L+d5LqG6K+l5Lu75Yqh5rC46L+c5LiN5Lya6KKrIFRhc2tSdW5uZXIg55qE6Ieq5Yqo5omn6KGM5b6q546v6YCJ5Lit44CCCiAgICAgKiDlj6rmnInpgJrov4fpppbpobXmjInpkq7lj5HpgIHlub/mkq3vvIzmmL7lvI/osIPnlKggc3RhcnRUYXNrIOaXtuaJjeS8mui/kOihjOOAggogICAgICovCiAgICBvdmVycmlkZSBmdW4gY2hlY2soKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldEdyb3VwKCk6IE1vZGVsR3JvdXAgPSBNb2RlbEdyb3VwLk9USEVSCgogICAgb3ZlcnJpZGUgZnVuIGdldEljb24oKTogU3RyaW5nID0gIk1hbnVhbFRhc2sucG5nIgoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHJ1blN1c3BlbmQoKSB7CiAgICAgICAgTG9nLnJlY29yZCgiTWFudWFsVGFzayIsICLwn5SNIOato+WcqOajgOafpei/kOihjOeOr+Wigy4uLiIpCiAgICAgICAgCiAgICAgICAgLy8g5qOA5p+l5piv5ZCm5pyJ5YW25LuW6Ieq5Yqo5Lu75Yqh5q2j5Zyo6L+Q6KGMICjkuI3ljIXmi6zoh6rlt7EpCiAgICAgICAgdmFsIG90aGVyUnVubmluZ1Rhc2tzID0gbW9kZWxBcnJheS5maWx0ZXJJc0luc3RhbmNlPE1vZGVsVGFzaz4oKQogICAgICAgICAgICAuZmlsdGVyIHsgaXQgIT0gdGhpcyAmJiBpdC5pc1J1bm5pbmcgfQogICAgICAgICAgICAubWFwIHsgaXQuZ2V0TmFtZSgpID86ICLmnKrnn6Xku7vliqEiIH0KCiAgICAgICAgaWYgKG90aGVyUnVubmluZ1Rhc2tzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBMb2cucmVjb3JkKCJNYW51YWxUYXNrIiwgIuKaoO+4jyDml6Dms5XlkK/liqjvvJroh6rliqjku7vliqHpmJ/liJfmraPlnKjov5DooYzkuK0gKCR7b3RoZXJSdW5uaW5nVGFza3Muam9pblRvU3RyaW5nKCIsICIpfSkiKQogICAgICAgICAgICBMb2cucmVjb3JkKCJNYW51YWxUYXNrIiwgIuivt+WFiOWcqOS4u+eVjOmdoueCueWHu+KAnOWBnOatouaJgOacieS7u+WKoeKAneWQjuWGjei/kOihjOaJi+WKqOS7u+WKoea1geeoi+OAgiIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIHNlbGVjdGVkVGFza3MgPSBtdXRhYmxlTGlzdE9mPEN1c3RvbVRhc2s+KCkKICAgICAgICBpZiAoZm9yZXN0V2hhY2tNb2xlLnZhbHVlKSBzZWxlY3RlZFRhc2tzLmFkZChDdXN0b21UYXNrLkZPUkVTVF9XSEFDS19NT0xFKQogICAgICAgIGlmIChmb3Jlc3RFbmVyZ3lSYWluLnZhbHVlKSBzZWxlY3RlZFRhc2tzLmFkZChDdXN0b21UYXNrLkZPUkVTVF9FTkVSR1lfUkFJTikKICAgICAgICBpZiAoZmFybVNlbmRCYWNrQW5pbWFsLnZhbHVlKSBzZWxlY3RlZFRhc2tzLmFkZChDdXN0b21UYXNrLkZBUk1fU0VORF9CQUNLX0FOSU1BTCkKICAgICAgICBpZiAoZmFybUdhbWVMb2dpYy52YWx1ZSkgc2VsZWN0ZWRUYXNrcy5hZGQoQ3VzdG9tVGFzay5GQVJNX0dBTUVfTE9HSUMpCiAgICAgICAgaWYgKGZhcm1DaG91Q2hvdUxlLnZhbHVlKSBzZWxlY3RlZFRhc2tzLmFkZChDdXN0b21UYXNrLkZBUk1fQ0hPVUNIT1VMRSkKCiAgICAgICAgdmFsIGV4dHJhUGFyYW1zID0gSGFzaE1hcDxTdHJpbmcsIEFueT4oKQogICAgICAgIGV4dHJhUGFyYW1zWyJleGNoYW5nZUVuZXJneVJhaW5DYXJkIl0gPSBleGNoYW5nZUVuZXJneVJhaW5DYXJkLnZhbHVlCgogICAgICAgIC8vIOS9v+eUqOS4iua4uOaOqOiNkOeahCBHbG9iYWxUaHJlYWRQb29scyDmiafooYzmiYvliqjmtYEKICAgICAgICBHbG9iYWxUaHJlYWRQb29scy5leGVjdXRlIHsKICAgICAgICAgICAgTWFudWFsVGFzay5ydW4oc2VsZWN0ZWRUYXNrcywgZXh0cmFQYXJhbXMpCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.task.customTasks
+
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.util.GlobalThreadPools
+import fansirsqi.xposed.sesame.util.Log
+
+/**
+ * 手动任务模型
+ * 用于在 UI 点击时触发特定的庄园子任务序列
+ */
+class ManualTaskModel : ModelTask() {
+    private lateinit var forestWhackMole: BooleanModelField
+    private lateinit var forestEnergyRain: BooleanModelField
+    private lateinit var exchangeEnergyRainCard: BooleanModelField
+    private lateinit var farmSendBackAnimal: BooleanModelField
+    private lateinit var farmGameLogic: BooleanModelField
+    private lateinit var farmChouChouLe: BooleanModelField
+
+
+    override fun getName(): String = "手动调度任务"
+
+    override fun getFields(): ModelFields {
+        val fields = ModelFields()
+        fields.addField(BooleanModelField("forestWhackMole", "森林打地鼠", false).also { forestWhackMole = it })
+        fields.addField(BooleanModelField("forestEnergyRain", "能量雨", false).also { forestEnergyRain = it })
+        fields.addField(BooleanModelField("exchangeEnergyRainCard", " ↪ 兑换使用能量雨卡", false).also { exchangeEnergyRainCard = it })
+        fields.addField(BooleanModelField("farmSendBackAnimal", "遣返小鸡", false).also { farmSendBackAnimal = it })
+        fields.addField(BooleanModelField("farmGameLogic", "庄园游戏改分", false).also { farmGameLogic = it })
+        fields.addField(BooleanModelField("farmChouChouLe", "庄园抽抽乐", false).also { farmChouChouLe = it })
+        return fields
+    }
+
+    /**
+     * 关键修复：返回 false。
+     * 这确保了该任务永远不会被 TaskRunner 的自动执行循环选中。
+     * 只有通过首页按钮发送广播，显式调用 startTask 时才会运行。
+     */
+    override fun check(): Boolean {
+        return false
+    }
+
+    override fun getGroup(): ModelGroup = ModelGroup.OTHER
+
+    override fun getIcon(): String = "ManualTask.png"
+
+    override suspend fun runSuspend() {
+        Log.record("ManualTask", "🔍 正在检查运行环境...")
+        
+        // 检查是否有其他自动任务正在运行 (不包括自己)
+        val otherRunningTasks = modelArray.filterIsInstance<ModelTask>()
+            .filter { it != this && it.isRunning }
+            .map { it.getName() ?: "未知任务" }
+
+        if (otherRunningTasks.isNotEmpty()) {
+            Log.record("ManualTask", "⚠️ 无法启动：自动任务队列正在运行中 (${otherRunningTasks.joinToString(", ")})")
+            Log.record("ManualTask", "请先在主界面点击“停止所有任务”后再运行手动任务流程。")
+            return
+        }
+
+        val selectedTasks = mutableListOf<CustomTask>()
+        if (forestWhackMole.value) selectedTasks.add(CustomTask.FOREST_WHACK_MOLE)
+        if (forestEnergyRain.value) selectedTasks.add(CustomTask.FOREST_ENERGY_RAIN)
+        if (farmSendBackAnimal.value) selectedTasks.add(CustomTask.FARM_SEND_BACK_ANIMAL)
+        if (farmGameLogic.value) selectedTasks.add(CustomTask.FARM_GAME_LOGIC)
+        if (farmChouChouLe.value) selectedTasks.add(CustomTask.FARM_CHOUCHOULE)
+
+        val extraParams = HashMap<String, Any>()
+        extraParams["exchangeEnergyRainCard"] = exchangeEnergyRainCard.value
+
+        // 使用上游推荐的 GlobalThreadPools 执行手动流
+        GlobalThreadPools.execute {
+            ManualTask.run(selectedTasks, extraParams)
+        }
+    }
+}

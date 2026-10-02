@@ -1,1 +1,6 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5pbnRlcnZhbGxpbWl0CgppbnRlcmZhY2UgSW50ZXJ2YWxMaW1pdCB7CiAgICB2YWwgaW50ZXJ2YWw6IEludD8gLy8g5a+55bqUIEludGVnZXIgZ2V0SW50ZXJ2YWwoKQogICAgdmFyIHRpbWU6IExvbmcgICAgIC8vIOWvueW6lCBMb25nIGdldFRpbWUoKSDlkowgdm9pZCBzZXRUaW1lKExvbmcpCn0=
+package fansirsqi.xposed.sesame.hook.rpc.intervallimit
+
+interface IntervalLimit {
+    val interval: Int? // 对应 Integer getInterval()
+    var time: Long     // 对应 Long getTime() 和 void setTime(Long)
+}

@@ -1,1 +1,16 @@
-W3Byb2plY3RdCm5hbWUgPSAic2VydmUtZGVidWciCnZlcnNpb24gPSAiMC4xLjAiCmRlc2NyaXB0aW9uID0gIkFkZCB5b3VyIGRlc2NyaXB0aW9uIGhlcmUiCnJlYWRtZSA9ICJSRUFETUUubWQiCnJlcXVpcmVzLXB5dGhvbiA9ICI+PTMuMTIiCmRlcGVuZGVuY2llcyA9IFsKICAgICJmYXN0YXBpPj0wLjExNS4xMiIsCiAgICAiZnJpZGE+PTE3LjUuMSIsCiAgICAiZnJpZGEtdG9vbHM+PTE0LjUuMCIsCiAgICAibG9ndXJ1Pj0wLjcuMyIsCiAgICAicmVxdWVzdHM+PTIuMzIuNSIsCiAgICAicmljaD49MTQuMC4wIiwKICAgICJzcWxhbGNoZW15Pj0yLjAuNDEiLAogICAgInV2aWNvcm4+PTAuMzQuMiIsCl0K
+[project]
+name = "serve-debug"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "frida>=17.5.1",
+    "frida-tools>=14.5.0",
+    "loguru>=0.7.3",
+    "requests>=2.32.5",
+    "rich>=14.0.0",
+    "sqlalchemy>=2.0.41",
+    "uvicorn>=0.34.2",
+]

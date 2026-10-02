@@ -1,1 +1,171 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLkFuc3dlckFJOwoKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxGaWVsZHM7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEdyb3VwOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5DaG9pY2VNb2RlbEZpZWxkOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5TdHJpbmdNb2RlbEZpZWxkOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5UZXh0TW9kZWxGaWVsZDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nOwoKcHVibGljIGNsYXNzIEFuc3dlckFJIGV4dGVuZHMgTW9kZWwgewogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFRBRyA9IEFuc3dlckFJLmNsYXNzLmdldFNpbXBsZU5hbWUoKTsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBRVUVTVElPTl9MT0dfRk9STUFUID0gIumimOebrvCfk5IgWyVzXSB8IOmAiemhuTogJXMiOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIEFJX0FOU1dFUl9MT0dfRk9STUFUID0gIkFJ5Zue562U8J+noCBbJXNdIHwgQUnnsbvlnos6IFslc10gfCDmqKHlnovlkI3np7A6IFslc10iOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIE5PUk1BTF9BTlNXRVJfTE9HX0ZPUk1BVCA9ICLmma7pgJrlm57nrZTwn6SWIFslc10iOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIEVSUk9SX0FJX0FOU1dFUiA9ICJBSeWbnuetlOW8guW4uO+8muaXoOazleiOt+WPluacieaViOetlOahiO+8jOivt+ajgOafpUFJ5pyN5Yqh6YWN572u5piv5ZCm5q2j56GuIjsKCiAgICBwcml2YXRlIHN0YXRpYyBCb29sZWFuIGVuYWJsZSA9IGZhbHNlOwogICAgcHJpdmF0ZSBzdGF0aWMgQW5zd2VyQUlJbnRlcmZhY2UgYW5zd2VyQUlJbnRlcmZhY2UgPSBBbnN3ZXJBSUludGVyZmFjZS5nZXRJbnN0YW5jZSgpOwoKICAgIEBPdmVycmlkZQogICAgcHVibGljIFN0cmluZyBnZXROYW1lKCkgewogICAgICAgIHJldHVybiAiQUnnrZTpopgiOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIE1vZGVsR3JvdXAgZ2V0R3JvdXAoKSB7CiAgICAgICAgcmV0dXJuIE1vZGVsR3JvdXAuT1RIRVI7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgU3RyaW5nIGdldEljb24oKSB7CiAgICAgICAgcmV0dXJuICJBbnN3ZXJBSS5zdmciOwogICAgfQoKICAgIHB1YmxpYyBpbnRlcmZhY2UgQUlUeXBlIHsKICAgICAgICBpbnQgVE9OR1lJID0gMDsKICAgICAgICBpbnQgR0VNSU5JID0gMTsKICAgICAgICBpbnQgREVFUFNFRUsgPSAyOwogICAgICAgIGludCBDVVNUT00gPSAzOwoKICAgICAgICBTdHJpbmdbXSBuaWNrTmFtZXMgPSB7CiAgICAgICAgICAgICAgICAi6YCa5LmJ5Y2D6ZeuIiwKICAgICAgICAgICAgICAgICJHZW1pbmkiLAogICAgICAgICAgICAgICAgIkRlZXBTZWVrIiwKICAgICAgICAgICAgICAgICLoh6rlrprkuYkiCiAgICAgICAgfTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBDaG9pY2VNb2RlbEZpZWxkIGFpVHlwZSA9IG5ldyBDaG9pY2VNb2RlbEZpZWxkKCJ1c2VHZW1pbmlBSSIsICJBSeexu+WeiyIsIEFJVHlwZS5UT05HWUksIEFJVHlwZS5uaWNrTmFtZXMpOwogICAgcHJpdmF0ZSBmaW5hbCBUZXh0TW9kZWxGaWVsZC5VcmxUZXh0TW9kZWxGaWVsZCBnZXRUb25neWlBSVRva2VuID0gbmV3IFRleHRNb2RlbEZpZWxkLlVybFRleHRNb2RlbEZpZWxkKCJnZXRUb25neWlBSVRva2VuIiwgIumAmuS5ieWNg+mXriB8IOiOt+WPluS7pOeJjCIsICJodHRwczovL2hlbHAuYWxpeXVuLmNvbS96aC9kYXNoc2NvcGUvZGV2ZWxvcGVyLXJlZmVyZW5jZS9hY3F1aXNpdGlvbi1hbmQtY29uZmlndXJhdGlvbi1vZi1hcGkta2V5Iik7CiAgICBwcml2YXRlIGZpbmFsIFN0cmluZ01vZGVsRmllbGQgdG9uZ1lpVG9rZW4gPSBuZXcgU3RyaW5nTW9kZWxGaWVsZCgidG9uZ1lpVG9rZW4iLCAicXdlbi10dXJibyB8IOiuvue9ruS7pOeJjCIsICIiKTsKICAgIHByaXZhdGUgZmluYWwgVGV4dE1vZGVsRmllbGQuVXJsVGV4dE1vZGVsRmllbGQgZ2V0R2VtaW5pQUlUb2tlbiA9IG5ldyBUZXh0TW9kZWxGaWVsZC5VcmxUZXh0TW9kZWxGaWVsZCgiZ2V0R2VtaW5pQUlUb2tlbiIsICJHZW1pbmkgfCDojrflj5bku6TniYwiLCAiaHR0cHM6Ly9haXN0dWRpby5nb29nbGUuY29tL2FwcC9hcGlrZXkiKTsKICAgIHByaXZhdGUgZmluYWwgU3RyaW5nTW9kZWxGaWVsZCBHZW1pbmlUb2tlbiA9IG5ldyBTdHJpbmdNb2RlbEZpZWxkKCJHZW1pbmlBSVRva2VuIiwgImdlbWluaS0xLjUtZmxhc2ggfCDorr7nva7ku6TniYwiLCAiIik7CiAgICBwcml2YXRlIGZpbmFsIFRleHRNb2RlbEZpZWxkLlVybFRleHRNb2RlbEZpZWxkIGdldERlZXBTZWVrVG9rZW4gPSBuZXcgVGV4dE1vZGVsRmllbGQuVXJsVGV4dE1vZGVsRmllbGQoImdldERlZXBTZWVrVG9rZW4iLCAiRGVlcFNlZWsgfCDojrflj5bku6TniYwiLCAiaHR0cHM6Ly9wbGF0Zm9ybS5kZWVwc2Vlay5jb20vdXNhZ2UiKTsKICAgIHByaXZhdGUgZmluYWwgU3RyaW5nTW9kZWxGaWVsZCBEZWVwU2Vla1Rva2VuID0gbmV3IFN0cmluZ01vZGVsRmllbGQoIkRlZXBTZWVrVG9rZW4iLCAiRGVlcFNlZWstUjEgfCDorr7nva7ku6TniYwiLCAiIik7CiAgICBwcml2YXRlIGZpbmFsIFRleHRNb2RlbEZpZWxkLlJlYWRPbmx5VGV4dE1vZGVsRmllbGQgZ2V0Q3VzdG9tU2VydmljZVRva2VuID0gbmV3IFRleHRNb2RlbEZpZWxkLlJlYWRPbmx5VGV4dE1vZGVsRmllbGQoImdldEN1c3RvbVNlcnZpY2VUb2tlbiIsICLnsonkuJ3npo/liKnwn5iNIiwgIuaEn+iwoiBTdW1tZXIg5o+Q5L6b5YWs55uKIEFQSSIpOwoKICAgIHByaXZhdGUgZmluYWwgU3RyaW5nTW9kZWxGaWVsZCBDdXN0b21TZXJ2aWNlVG9rZW4gPSBuZXcgU3RyaW5nTW9kZWxGaWVsZCgiQ3VzdG9tU2VydmljZVRva2VuIiwgIuiHquWumuS5ieacjeWKoSB8IOiuvue9ruS7pOeJjCIsICJzay1ia2xmanBsdnJqdmx1Znl6a2RjaWFpeWp3anVsZWthd3Jsa21ybWhzeHhvc3N3bnUiKTsKICAgIHByaXZhdGUgZmluYWwgU3RyaW5nTW9kZWxGaWVsZCBDdXN0b21TZXJ2aWNlVXJsID0gbmV3IFN0cmluZ01vZGVsRmllbGQoIkN1c3RvbVNlcnZpY2VCYXNlVXJsIiwgIuiHquWumuS5ieacjeWKoSB8IOiuvue9rkJhc2VVcmwiLCAiaHR0cHM6Ly9hcGkuc2lsaWNvbmZsb3cuY24vdjEiKTsKICAgIHByaXZhdGUgZmluYWwgU3RyaW5nTW9kZWxGaWVsZCBDdXN0b21TZXJ2aWNlTW9kZWwgPSBuZXcgU3RyaW5nTW9kZWxGaWVsZCgiQ3VzdG9tU2VydmljZU1vZGVsIiwgIuiHquWumuS5ieacjeWKoSB8IOiuvue9ruaooeWeiyIsICJkZWVwc2Vlay1haS9EZWVwU2Vlay1WMyIpOwoKICAgIEBPdmVycmlkZQogICAgcHVibGljIE1vZGVsRmllbGRzIGdldEZpZWxkcygpIHsKICAgICAgICBNb2RlbEZpZWxkcyBtb2RlbEZpZWxkcyA9IG5ldyBNb2RlbEZpZWxkcygpOwogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGFpVHlwZSk7CiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoZ2V0VG9uZ3lpQUlUb2tlbik7CiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQodG9uZ1lpVG9rZW4pOwogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKGdldEdlbWluaUFJVG9rZW4pOwogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKEdlbWluaVRva2VuKTsKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChnZXREZWVwU2Vla1Rva2VuKTsKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChEZWVwU2Vla1Rva2VuKTsKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChnZXRDdXN0b21TZXJ2aWNlVG9rZW4pOwogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKEN1c3RvbVNlcnZpY2VUb2tlbik7CiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoQ3VzdG9tU2VydmljZVVybCk7CiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoQ3VzdG9tU2VydmljZU1vZGVsKTsKICAgICAgICByZXR1cm4gbW9kZWxGaWVsZHM7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBib290KENsYXNzTG9hZGVyIGNsYXNzTG9hZGVyKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZW5hYmxlID0gZ2V0RW5hYmxlRmllbGQoKS5nZXRWYWx1ZSgpOwogICAgICAgICAgICBpbnQgc2VsZWN0ZWRUeXBlID0gYWlUeXBlLmdldFZhbHVlKCk7CiAgICAgICAgICAgIExvZy5yZWNvcmQoU3RyaW5nLmZvcm1hdCgi5Yid5aeL5YyWQUnmnI3liqHvvJrlt7LpgInmi6lbJXNdIiwgQUlUeXBlLm5pY2tOYW1lc1tzZWxlY3RlZFR5cGVdKSk7CiAgICAgICAgICAgIGluaXRpYWxpemVBSVNlcnZpY2Uoc2VsZWN0ZWRUeXBlKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5Yid5aeL5YyWQUnmnI3liqHlpLHotKU6ICIgKyBlLmdldE1lc3NhZ2UoKSk7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCBlKTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIGluaXRpYWxpemVBSVNlcnZpY2UoaW50IHNlbGVjdGVkVHlwZSkgewogICAgICAgIC8vIOWFiOmHiuaUvuaXp+eahOacjeWKoei1hOa6kAogICAgICAgIGlmIChhbnN3ZXJBSUludGVyZmFjZSAhPSBudWxsKSB7CiAgICAgICAgICAgIGFuc3dlckFJSW50ZXJmYWNlLnJlbGVhc2UoKTsKICAgICAgICB9CgogICAgICAgIHN3aXRjaCAoc2VsZWN0ZWRUeXBlKSB7CiAgICAgICAgICAgIGNhc2UgQUlUeXBlLlRPTkdZSToKICAgICAgICAgICAgICAgIGFuc3dlckFJSW50ZXJmYWNlID0gbmV3IFRvbmd5aUFJKHRvbmdZaVRva2VuLmdldFZhbHVlKCkpOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIGNhc2UgQUlUeXBlLkdFTUlOSToKICAgICAgICAgICAgICAgIGFuc3dlckFJSW50ZXJmYWNlID0gbmV3IEdlbWluaUFJKEdlbWluaVRva2VuLmdldFZhbHVlKCkpOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIGNhc2UgQUlUeXBlLkRFRVBTRUVLOgogICAgICAgICAgICAgICAgYW5zd2VyQUlJbnRlcmZhY2UgPSBuZXcgRGVlcFNlZWsoRGVlcFNlZWtUb2tlbi5nZXRWYWx1ZSgpKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlIEFJVHlwZS5DVVNUT006CiAgICAgICAgICAgICAgICBhbnN3ZXJBSUludGVyZmFjZSA9IG5ldyBDdXN0b21TZXJ2aWNlKEN1c3RvbVNlcnZpY2VUb2tlbi5nZXRWYWx1ZSgpLCBDdXN0b21TZXJ2aWNlVXJsLmdldFZhbHVlKCkpOwogICAgICAgICAgICAgICAgYW5zd2VyQUlJbnRlcmZhY2Uuc2V0TW9kZWxOYW1lKEN1c3RvbVNlcnZpY2VNb2RlbC5nZXRWYWx1ZSgpKTsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoU3RyaW5nLmZvcm1hdCgi5bey6YWN572u6Ieq5a6a5LmJ5pyN5Yqh77yaVVJMPVslc10sIE1vZGVsPVslc10iLCBDdXN0b21TZXJ2aWNlVXJsLmdldFZhbHVlKCksIEN1c3RvbVNlcnZpY2VNb2RlbC5nZXRWYWx1ZSgpKSk7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgZGVmYXVsdDoKICAgICAgICAgICAgICAgIGFuc3dlckFJSW50ZXJmYWNlID0gQW5zd2VyQUlJbnRlcmZhY2UuZ2V0SW5zdGFuY2UoKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIHNlbGVjdGxvZ2VyKFN0cmluZyBmbGFnLCBTdHJpbmcgbXNnKSB7CiAgICAgICAgc3dpdGNoIChmbGFnKSB7CiAgICAgICAgICAgIGNhc2UgImZhcm0iOgogICAgICAgICAgICAgICAgTG9nLmZhcm0obXNnKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlICJmb3Jlc3QiOgogICAgICAgICAgICAgICAgTG9nLmZvcmVzdChtc2cpOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIGRlZmF1bHQ6CiAgICAgICAgICAgICAgICBMb2cub3RoZXIobXNnKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqICBBSSDojrflj5bnrZTmoYgKICAgICAqIEBwYXJhbSB0ZXh0IOmXrumimAogICAgICogQHBhcmFtIGFuc3dlckxpc3Qg562U5qGI5YiX6KGoCiAgICAgKiBAcGFyYW0gZmxhZyDml6Xlv5fnsbvlnosKICAgICAqIEByZXR1cm4g562U5qGICiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldEFuc3dlcihTdHJpbmcgdGV4dCwgTGlzdDxTdHJpbmc+IGFuc3dlckxpc3QsIFN0cmluZyBmbGFnKSB7CiAgICAgICAgaWYgKHRleHQgPT0gbnVsbCB8fCBhbnN3ZXJMaXN0ID09IG51bGwpIHsKICAgICAgICAgICAgc2VsZWN0bG9nZXIoZmxhZywgIumXrumimOaIluetlOahiOWIl+ihqOS4uuepuiIpOwogICAgICAgICAgICByZXR1cm4gIiI7CiAgICAgICAgfQogICAgICAgIFN0cmluZyBhbnN3ZXJTdHIgPSAiIjsKICAgICAgICB0cnkgewogICAgICAgICAgICBTdHJpbmcgbXNnID0gU3RyaW5nLmZvcm1hdChRVUVTVElPTl9MT0dfRk9STUFULCB0ZXh0LCBhbnN3ZXJMaXN0KTsKICAgICAgICAgICAgc2VsZWN0bG9nZXIoZmxhZywgbXNnKTsKICAgICAgICAgICAgaWYgKGVuYWJsZSAmJiBhbnN3ZXJBSUludGVyZmFjZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBJbnRlZ2VyIGFuc3dlciA9IGFuc3dlckFJSW50ZXJmYWNlLmdldEFuc3dlcih0ZXh0LCBhbnN3ZXJMaXN0KTsKICAgICAgICAgICAgICAgIGlmIChhbnN3ZXIgIT0gbnVsbCAmJiBhbnN3ZXIgPj0gMCAmJiBhbnN3ZXIgPCBhbnN3ZXJMaXN0LnNpemUoKSkgewogICAgICAgICAgICAgICAgICAgIGFuc3dlclN0ciA9IGFuc3dlckxpc3QuZ2V0KGFuc3dlcik7CiAgICAgICAgICAgICAgICAgICAgc2VsZWN0bG9nZXIoZmxhZywgU3RyaW5nLmZvcm1hdChBSV9BTlNXRVJfTE9HX0ZPUk1BVCwgYW5zd2VyU3RyLCBBSVR5cGUubmlja05hbWVzW2FpVHlwZS5nZXRWYWx1ZSgpXSwgYW5zd2VyQUlJbnRlcmZhY2UuZ2V0TW9kZWxOYW1lKCkpKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKEVSUk9SX0FJX0FOU1dFUik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSBpZiAoIWFuc3dlckxpc3QuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBhbnN3ZXJTdHIgPSBhbnN3ZXJMaXN0LmdldCgwKTsKICAgICAgICAgICAgICAgIHNlbGVjdGxvZ2VyKGZsYWcsIFN0cmluZy5mb3JtYXQoTk9STUFMX0FOU1dFUl9MT0dfRk9STUFULCBhbnN3ZXJTdHIpKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0KSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAiQUnojrflj5bnrZTmoYjlvILluLg6IiwgdCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBhbnN3ZXJTdHI7CiAgICB9CgoKfQ==
+package fansirsqi.xposed.sesame.task.AnswerAI;
+
+import java.util.List;
+
+import fansirsqi.xposed.sesame.model.Model;
+import fansirsqi.xposed.sesame.model.ModelFields;
+import fansirsqi.xposed.sesame.model.ModelGroup;
+import fansirsqi.xposed.sesame.model.modelFieldExt.ChoiceModelField;
+import fansirsqi.xposed.sesame.model.modelFieldExt.StringModelField;
+import fansirsqi.xposed.sesame.model.modelFieldExt.TextModelField;
+import fansirsqi.xposed.sesame.util.Log;
+
+public class AnswerAI extends Model {
+    private static final String TAG = AnswerAI.class.getSimpleName();
+    private static final String QUESTION_LOG_FORMAT = "题目📒 [%s] | 选项: %s";
+    private static final String AI_ANSWER_LOG_FORMAT = "AI回答🧠 [%s] | AI类型: [%s] | 模型名称: [%s]";
+    private static final String NORMAL_ANSWER_LOG_FORMAT = "普通回答🤖 [%s]";
+    private static final String ERROR_AI_ANSWER = "AI回答异常：无法获取有效答案，请检查AI服务配置是否正确";
+
+    private static Boolean enable = false;
+    private static AnswerAIInterface answerAIInterface = AnswerAIInterface.getInstance();
+
+    @Override
+    public String getName() {
+        return "AI答题";
+    }
+
+    @Override
+    public ModelGroup getGroup() {
+        return ModelGroup.OTHER;
+    }
+
+    @Override
+    public String getIcon() {
+        return "AnswerAI.svg";
+    }
+
+    public interface AIType {
+        int TONGYI = 0;
+        int GEMINI = 1;
+        int DEEPSEEK = 2;
+        int CUSTOM = 3;
+
+        String[] nickNames = {
+                "通义千问",
+                "Gemini",
+                "DeepSeek",
+                "自定义"
+        };
+    }
+
+    private static final ChoiceModelField aiType = new ChoiceModelField("useGeminiAI", "AI类型", AIType.TONGYI, AIType.nickNames);
+    private final TextModelField.UrlTextModelField getTongyiAIToken = new TextModelField.UrlTextModelField("getTongyiAIToken", "通义千问 | 获取令牌", "https://help.aliyun.com/zh/dashscope/developer-reference/acquisition-and-configuration-of-api-key");
+    private final StringModelField tongYiToken = new StringModelField("tongYiToken", "qwen-turbo | 设置令牌", "");
+    private final TextModelField.UrlTextModelField getGeminiAIToken = new TextModelField.UrlTextModelField("getGeminiAIToken", "Gemini | 获取令牌", "https://aistudio.google.com/app/apikey");
+    private final StringModelField GeminiToken = new StringModelField("GeminiAIToken", "gemini-1.5-flash | 设置令牌", "");
+    private final TextModelField.UrlTextModelField getDeepSeekToken = new TextModelField.UrlTextModelField("getDeepSeekToken", "DeepSeek | 获取令牌", "https://platform.deepseek.com/usage");
+    private final StringModelField DeepSeekToken = new StringModelField("DeepSeekToken", "DeepSeek-R1 | 设置令牌", "");
+    private final TextModelField.ReadOnlyTextModelField getCustomServiceToken = new TextModelField.ReadOnlyTextModelField("getCustomServiceToken", "粉丝福利😍", "感谢 Summer 提供公益 API");
+
+    private final StringModelField CustomServiceToken = new StringModelField("CustomServiceToken", "自定义服务 | 设置令牌", "sk-bklfjplvrjvlufyzkdciaiyjwjulekawrlkmrmhsxxosswnu");
+    private final StringModelField CustomServiceUrl = new StringModelField("CustomServiceBaseUrl", "自定义服务 | 设置BaseUrl", "https://api.siliconflow.cn/v1");
+    private final StringModelField CustomServiceModel = new StringModelField("CustomServiceModel", "自定义服务 | 设置模型", "deepseek-ai/DeepSeek-V3");
+
+    @Override
+    public ModelFields getFields() {
+        ModelFields modelFields = new ModelFields();
+        modelFields.addField(aiType);
+        modelFields.addField(getTongyiAIToken);
+        modelFields.addField(tongYiToken);
+        modelFields.addField(getGeminiAIToken);
+        modelFields.addField(GeminiToken);
+        modelFields.addField(getDeepSeekToken);
+        modelFields.addField(DeepSeekToken);
+        modelFields.addField(getCustomServiceToken);
+        modelFields.addField(CustomServiceToken);
+        modelFields.addField(CustomServiceUrl);
+        modelFields.addField(CustomServiceModel);
+        return modelFields;
+    }
+
+    @Override
+    public void boot(ClassLoader classLoader) {
+        try {
+            enable = getEnableField().getValue();
+            int selectedType = aiType.getValue();
+            Log.record(String.format("初始化AI服务：已选择[%s]", AIType.nickNames[selectedType]));
+            initializeAIService(selectedType);
+        } catch (Exception e) {
+            Log.error(TAG, "初始化AI服务失败: " + e.getMessage());
+            Log.printStackTrace(TAG, e);
+        }
+    }
+
+    private void initializeAIService(int selectedType) {
+        // 先释放旧的服务资源
+        if (answerAIInterface != null) {
+            answerAIInterface.release();
+        }
+
+        switch (selectedType) {
+            case AIType.TONGYI:
+                answerAIInterface = new TongyiAI(tongYiToken.getValue());
+                break;
+            case AIType.GEMINI:
+                answerAIInterface = new GeminiAI(GeminiToken.getValue());
+                break;
+            case AIType.DEEPSEEK:
+                answerAIInterface = new DeepSeek(DeepSeekToken.getValue());
+                break;
+            case AIType.CUSTOM:
+                answerAIInterface = new CustomService(CustomServiceToken.getValue(), CustomServiceUrl.getValue());
+                answerAIInterface.setModelName(CustomServiceModel.getValue());
+                Log.record(String.format("已配置自定义服务：URL=[%s], Model=[%s]", CustomServiceUrl.getValue(), CustomServiceModel.getValue()));
+                break;
+            default:
+                answerAIInterface = AnswerAIInterface.getInstance();
+                break;
+        }
+    }
+
+    private static void selectloger(String flag, String msg) {
+        switch (flag) {
+            case "farm":
+                Log.farm(msg);
+                break;
+            case "forest":
+                Log.forest(msg);
+                break;
+            default:
+                Log.other(msg);
+                break;
+        }
+    }
+
+    /**
+     *  AI 获取答案
+     * @param text 问题
+     * @param answerList 答案列表
+     * @param flag 日志类型
+     * @return 答案
+     */
+    public static String getAnswer(String text, List<String> answerList, String flag) {
+        if (text == null || answerList == null) {
+            selectloger(flag, "问题或答案列表为空");
+            return "";
+        }
+        String answerStr = "";
+        try {
+            String msg = String.format(QUESTION_LOG_FORMAT, text, answerList);
+            selectloger(flag, msg);
+            if (enable && answerAIInterface != null) {
+                Integer answer = answerAIInterface.getAnswer(text, answerList);
+                if (answer != null && answer >= 0 && answer < answerList.size()) {
+                    answerStr = answerList.get(answer);
+                    selectloger(flag, String.format(AI_ANSWER_LOG_FORMAT, answerStr, AIType.nickNames[aiType.getValue()], answerAIInterface.getModelName()));
+                } else {
+                    Log.error(ERROR_AI_ANSWER);
+                }
+            } else if (!answerList.isEmpty()) {
+                answerStr = answerList.get(0);
+                selectloger(flag, String.format(NORMAL_ANSWER_LOG_FORMAT, answerStr));
+            }
+        } catch (Throwable t) {
+            Log.printStackTrace(TAG, "AI获取答案异常:", t);
+        }
+        return answerStr;
+    }
+
+
+}

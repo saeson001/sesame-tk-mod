@@ -1,1 +1,72 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnNlcnZlci5oYW5kbGVycwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suc2VydmVyLlNlcnZlckNvbW1vbgppbXBvcnQgZmkuaWtpLmVsb25lbi5OYW5vSFRUUEQKaW1wb3J0IGZpLmlraS5lbG9uZW4uTmFub0hUVFBELklIVFRQU2Vzc2lvbgppbXBvcnQgZmkuaWtpLmVsb25lbi5OYW5vSFRUUEQuTWV0aG9kCmltcG9ydCBmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRC5SZXNwb25zZQoKYWJzdHJhY3QgY2xhc3MgQmFzZUhhbmRsZXIocHJpdmF0ZSB2YWwgc2VjcmV0VG9rZW46IFN0cmluZykgOiBIdHRwSGFuZGxlciB7CgogICAgLy8g55u05o6l5L2/55So5Y2V5L6LCiAgICBwcm90ZWN0ZWQgdmFsIG1hcHBlciA9IFNlcnZlckNvbW1vbi5qc29uTWFwcGVyCgogICAgLyoqCiAgICAgKiDmqKHmnb/mlrnms5XvvJrnu5/kuIDlpITnkIbpibTmnYPlkozlvILluLgKICAgICAqLwogICAgZmluYWwgb3ZlcnJpZGUgZnVuIGhhbmRsZShzZXNzaW9uOiBJSFRUUFNlc3Npb24sIGJvZHk6IFN0cmluZz8pOiBSZXNwb25zZSB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGlmICghdmVyaWZ5VG9rZW4oc2Vzc2lvbikpIHsKICAgICAgICAgICAgICAgIHJldHVybiB1bmF1dGhvcml6ZWQoKQogICAgICAgICAgICB9CgogICAgICAgICAgICB3aGVuIChzZXNzaW9uLm1ldGhvZCkgewogICAgICAgICAgICAgICAgTWV0aG9kLkdFVCAtPiBvbkdldChzZXNzaW9uKQogICAgICAgICAgICAgICAgTWV0aG9kLlBPU1QgLT4gb25Qb3N0KHNlc3Npb24sIGJvZHkpCiAgICAgICAgICAgICAgICBlbHNlIC0+IG1ldGhvZE5vdEFsbG93ZWQoKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCkgLy8g5omT5Y2w5aCG5qCI5YiwIExvZ2NhdAogICAgICAgICAgICBqc29uKFJlc3BvbnNlLlN0YXR1cy5JTlRFUk5BTF9FUlJPUiwgbWFwT2YoInN0YXR1cyIgdG8gImVycm9yIiwgIm1lc3NhZ2UiIHRvIChlLm1lc3NhZ2UgPzogIlVua25vd24gZXJyb3IiKSkpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHZlcmlmeVRva2VuKHNlc3Npb246IElIVFRQU2Vzc2lvbik6IEJvb2xlYW4gewogICAgICAgIC8vIOWmguaenOacquiuvue9riBUb2tlbu+8jOm7mOiupOmAmui/h++8iOaIluiAheaYr+emgeatou+8n+inhumcgOaxguiAjOWumu+8jOi/memHjOWBh+iuvuacquiuvue9ruWImeS4jemqjOivge+8iQogICAgICAgIGlmIChzZWNyZXRUb2tlbi5pc0JsYW5rKCkpIHJldHVybiB0cnVlCgogICAgICAgIHZhbCBhdXRoSGVhZGVyID0gc2Vzc2lvbi5oZWFkZXJzWyJhdXRob3JpemF0aW9uIl0gPzogcmV0dXJuIGZhbHNlCiAgICAgICAgLy8g5YWB6K64IEJlYXJlciDmiJbnm7TmjqUgVG9rZW4KICAgICAgICB2YWwgdG9rZW4gPSBpZiAoYXV0aEhlYWRlci5zdGFydHNXaXRoKCJCZWFyZXIgIiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgIGF1dGhIZWFkZXIuc3Vic3RyaW5nKDcpLnRyaW0oKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGF1dGhIZWFkZXIudHJpbSgpCiAgICAgICAgfQogICAgICAgIHJldHVybiB0b2tlbiA9PSBzZWNyZXRUb2tlbgogICAgfQoKICAgIC8vIOm7mOiupOWunueOsOaUueS4uiA0MDUgTWV0aG9kIE5vdCBBbGxvd2Vk77yM6ICM5LiN5pivIDQwNCBOb3QgRm91bmQKICAgIG9wZW4gZnVuIG9uR2V0KHNlc3Npb246IElIVFRQU2Vzc2lvbik6IFJlc3BvbnNlID0gbWV0aG9kTm90QWxsb3dlZCgpCiAgICBvcGVuIGZ1biBvblBvc3Qoc2Vzc2lvbjogSUhUVFBTZXNzaW9uLCBib2R5OiBTdHJpbmc/KTogUmVzcG9uc2UgPSBtZXRob2ROb3RBbGxvd2VkKCkKCiAgICAvLyAtLS0g5ZON5bqU6L6F5Yqp5pa55rOVIC0tLQoKICAgIHByb3RlY3RlZCBmdW4ganNvbihzdGF0dXM6IFJlc3BvbnNlLlN0YXR1cywgZGF0YTogQW55KTogUmVzcG9uc2UgewogICAgICAgIHZhbCBqc29uVGV4dCA9IGRhdGEgYXM/IFN0cmluZyA/OiBtYXBwZXIud3JpdGVWYWx1ZUFzU3RyaW5nKGRhdGEpCiAgICAgICAgcmV0dXJuIE5hbm9IVFRQRC5uZXdGaXhlZExlbmd0aFJlc3BvbnNlKHN0YXR1cywgU2VydmVyQ29tbW9uLk1JTUVfSlNPTiwganNvblRleHQpCiAgICB9CgogICAgcHJvdGVjdGVkIGZ1biBvayhkYXRhOiBBbnkpOiBSZXNwb25zZSA9IGpzb24oUmVzcG9uc2UuU3RhdHVzLk9LLCBkYXRhKQoKICAgIHByb3RlY3RlZCBmdW4gYmFkUmVxdWVzdChtZXNzYWdlOiBTdHJpbmcpOiBSZXNwb25zZSA9CiAgICAgICAganNvbihSZXNwb25zZS5TdGF0dXMuQkFEX1JFUVVFU1QsIG1hcE9mKCJzdGF0dXMiIHRvICJlcnJvciIsICJtZXNzYWdlIiB0byBtZXNzYWdlKSkKCiAgICBwcm90ZWN0ZWQgZnVuIHVuYXV0aG9yaXplZCgpOiBSZXNwb25zZSA9CiAgICAgICAganNvbihSZXNwb25zZS5TdGF0dXMuVU5BVVRIT1JJWkVELCBtYXBPZigic3RhdHVzIiB0byAidW5hdXRob3JpemVkIikpCgogICAgcHJvdGVjdGVkIGZ1biBtZXRob2ROb3RBbGxvd2VkKCk6IFJlc3BvbnNlID0KICAgICAgICBqc29uKFJlc3BvbnNlLlN0YXR1cy5NRVRIT0RfTk9UX0FMTE9XRUQsIG1hcE9mKCJzdGF0dXMiIHRvICJtZXRob2Rfbm90X2FsbG93ZWQiKSkKCiAgICBwcm90ZWN0ZWQgZnVuIG5vdEZvdW5kKCk6IFJlc3BvbnNlID0KICAgICAgICBqc29uKFJlc3BvbnNlLlN0YXR1cy5OT1RfRk9VTkQsIG1hcE9mKCJzdGF0dXMiIHRvICJub3RfZm91bmQiKSkKfQ==
+package fansirsqi.xposed.sesame.hook.server.handlers
+
+import fansirsqi.xposed.sesame.hook.server.ServerCommon
+import fi.iki.elonen.NanoHTTPD
+import fi.iki.elonen.NanoHTTPD.IHTTPSession
+import fi.iki.elonen.NanoHTTPD.Method
+import fi.iki.elonen.NanoHTTPD.Response
+
+abstract class BaseHandler(private val secretToken: String) : HttpHandler {
+
+    // 直接使用单例
+    protected val mapper = ServerCommon.jsonMapper
+
+    /**
+     * 模板方法：统一处理鉴权和异常
+     */
+    final override fun handle(session: IHTTPSession, body: String?): Response {
+        return try {
+            if (!verifyToken(session)) {
+                return unauthorized()
+            }
+
+            when (session.method) {
+                Method.GET -> onGet(session)
+                Method.POST -> onPost(session, body)
+                else -> methodNotAllowed()
+            }
+        } catch (e: Exception) {
+            e.printStackTrace() // 打印堆栈到 Logcat
+            json(Response.Status.INTERNAL_ERROR, mapOf("status" to "error", "message" to (e.message ?: "Unknown error")))
+        }
+    }
+
+    private fun verifyToken(session: IHTTPSession): Boolean {
+        // 如果未设置 Token，默认通过（或者是禁止？视需求而定，这里假设未设置则不验证）
+        if (secretToken.isBlank()) return true
+
+        val authHeader = session.headers["authorization"] ?: return false
+        // 允许 Bearer 或直接 Token
+        val token = if (authHeader.startsWith("Bearer ", ignoreCase = true)) {
+            authHeader.substring(7).trim()
+        } else {
+            authHeader.trim()
+        }
+        return token == secretToken
+    }
+
+    // 默认实现改为 405 Method Not Allowed，而不是 404 Not Found
+    open fun onGet(session: IHTTPSession): Response = methodNotAllowed()
+    open fun onPost(session: IHTTPSession, body: String?): Response = methodNotAllowed()
+
+    // --- 响应辅助方法 ---
+
+    protected fun json(status: Response.Status, data: Any): Response {
+        val jsonText = data as? String ?: mapper.writeValueAsString(data)
+        return NanoHTTPD.newFixedLengthResponse(status, ServerCommon.MIME_JSON, jsonText)
+    }
+
+    protected fun ok(data: Any): Response = json(Response.Status.OK, data)
+
+    protected fun badRequest(message: String): Response =
+        json(Response.Status.BAD_REQUEST, mapOf("status" to "error", "message" to message))
+
+    protected fun unauthorized(): Response =
+        json(Response.Status.UNAUTHORIZED, mapOf("status" to "unauthorized"))
+
+    protected fun methodNotAllowed(): Response =
+        json(Response.Status.METHOD_NOT_ALLOWED, mapOf("status" to "method_not_allowed"))
+
+    protected fun notFound(): Response =
+        json(Response.Status.NOT_FOUND, mapOf("status" to "not_found"))
+}

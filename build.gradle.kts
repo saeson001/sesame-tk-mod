@@ -1,1 +1,15 @@
-cGx1Z2lucyB7CiAgICBhbGlhcyhsaWJzLnBsdWdpbnMuYW5kcm9pZC5hcHBsaWNhdGlvbikgYXBwbHkgZmFsc2UKICAgIGFsaWFzKGxpYnMucGx1Z2lucy5hbmRyb2lkLmxpYnJhcnkpIGFwcGx5IGZhbHNlCiAgICBhbGlhcyhsaWJzLnBsdWdpbnMua290bGluLmFuZHJvaWQpIGFwcGx5IGZhbHNlCn0KCmFsbHByb2plY3RzIHsKICAgIHRhc2tzLndpdGhUeXBlPEphdmFDb21waWxlPigpLmNvbmZpZ3VyZUVhY2ggewogICAgICAgIG9wdGlvbnMuY29tcGlsZXJBcmdzLmFkZEFsbChsaXN0T2YoIi1YbGludDp1bmNoZWNrZWQiLCAiLVhsaW50OmRlcHJlY2F0aW9uIikpCiAgICB9Cn0KCnRhc2tzLnJlZ2lzdGVyPERlbGV0ZT4oImNsZWFuIikgewogICAgZGVsZXRlKHJvb3RQcm9qZWN0LmxheW91dC5idWlsZERpcmVjdG9yeSkKfQo=
+plugins {
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.kotlin.android) apply false
+}
+
+allprojects {
+    tasks.withType<JavaCompile>().configureEach {
+        options.compilerArgs.addAll(listOf("-Xlint:unchecked", "-Xlint:deprecation"))
+    }
+}
+
+tasks.register<Delete>("clean") {
+    delete(rootProject.layout.buildDirectory)
+}

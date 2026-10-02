@@ -1,1 +1,30 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLnJlc2VydmU7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlJlcXVlc3RNYW5hZ2VyOwpwdWJsaWMgY2xhc3MgUmVzZXJ2ZVJwY0NhbGwgewogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFZFUlNJT04gPSAiMjAyMzA1MDEiOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFZFUlNJT04yID0gIjIwMjMwNTIyIjsKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHF1ZXJ5VHJlZUl0ZW1zRm9yRXhjaGFuZ2UoKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRmb3Jlc3QuZm9yZXN0Lmg1LnF1ZXJ5VHJlZUl0ZW1zRm9yRXhjaGFuZ2UiLAogICAgICAgICAgICAgICAgIlt7XCJjaXR5Q29kZVwiOlwiMzcwMTAwXCIsXCJpdGVtVHlwZXNcIjpcIlwiLFwic291cmNlXCI6XCJjaEluZm9fY2hfYXBwY2VudGVyX19jaHN1Yl85cGF0Y2hcIixcInZlcnNpb25cIjpcIiIKICAgICAgICAgICAgICAgICAgICAgICAgKyBWRVJTSU9OMiArICJcIn1dIik7CiAgICB9CiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBxdWVyeVRyZWVGb3JFeGNoYW5nZShTdHJpbmcgcHJvamVjdElkKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRmb3Jlc3QuZm9yZXN0Lmg1LnF1ZXJ5VHJlZUZvckV4Y2hhbmdlIiwKICAgICAgICAgICAgICAgICJbe1wicHJvamVjdElkXCI6XCIiICsgcHJvamVjdElkICsgIlwiLFwidmVyc2lvblwiOlwiIiArIFZFUlNJT04KICAgICAgICAgICAgICAgICAgICAgICAgKyAiXCIsXCJzb3VyY2VcIjpcImNoSW5mb19jaF9hcHBjZW50ZXJfX2Noc3ViXzlwYXRjaFwifV0iKTsKICAgIH0KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGV4Y2hhbmdlVHJlZShTdHJpbmcgcHJvamVjdElkKSB7CiAgICAgICAgaW50IHByb2plY3RJZF9udW0gPSBJbnRlZ2VyLnBhcnNlSW50KHByb2plY3RJZCk7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRtZW1iZXIuZm9yZXN0Lmg1LmV4Y2hhbmdlVHJlZSIsCiAgICAgICAgICAgICAgICAiW3tcInByb2plY3RJZFwiOiIgKyBwcm9qZWN0SWRfbnVtICsgIixcInNUb2tlblwiOlwiIiArIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpICsgIlwiLFwidmVyc2lvblwiOlwiIgogICAgICAgICAgICAgICAgICAgICAgICArIFZFUlNJT04gKyAiXCIsXCJzb3VyY2VcIjpcImNoSW5mb19jaF9hcHBjZW50ZXJfX2Noc3ViXzlwYXRjaFwifV0iKTsKICAgIH0KICAgIC8qIOafpeivouWcsOWbvuagkeiLlyAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcXVlcnlBcmVhVHJlZXMoKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRtZW1iZXIuZm9yZXN0Lmg1LnF1ZXJ5QXJlYVRyZWVzIiwgIlt7fV0iKTsKICAgIH0KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHF1ZXJ5VHJlZUl0ZW1zRm9yRXhjaGFuZ2UoU3RyaW5nIGFwcGx5QWN0aW9ucywgU3RyaW5nIGl0ZW1UeXBlcykgewogICAgICAgIFN0cmluZyBhcmdzID0gIlt7XCJhcHBseUFjdGlvbnNcIjpcIiIgKyBhcHBseUFjdGlvbnMgKyAiXCIsXCJpdGVtVHlwZXNcIjpcIiIgKyBpdGVtVHlwZXMgKyAiXCJ9XSI7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRmb3Jlc3QuZm9yZXN0Lmg1LnF1ZXJ5VHJlZUl0ZW1zRm9yRXhjaGFuZ2UiLCBhcmdzKTsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.task.reserve;
+import fansirsqi.xposed.sesame.hook.RequestManager;
+public class ReserveRpcCall {
+    private static final String VERSION = "20230501";
+    private static final String VERSION2 = "20230522";
+    public static String queryTreeItemsForExchange() {
+        return RequestManager.requestString("alipay.antforest.forest.h5.queryTreeItemsForExchange",
+                "[{\"cityCode\":\"370100\",\"itemTypes\":\"\",\"source\":\"chInfo_ch_appcenter__chsub_9patch\",\"version\":\""
+                        + VERSION2 + "\"}]");
+    }
+    public static String queryTreeForExchange(String projectId) {
+        return RequestManager.requestString("alipay.antforest.forest.h5.queryTreeForExchange",
+                "[{\"projectId\":\"" + projectId + "\",\"version\":\"" + VERSION
+                        + "\",\"source\":\"chInfo_ch_appcenter__chsub_9patch\"}]");
+    }
+    public static String exchangeTree(String projectId) {
+        int projectId_num = Integer.parseInt(projectId);
+        return RequestManager.requestString("alipay.antmember.forest.h5.exchangeTree",
+                "[{\"projectId\":" + projectId_num + ",\"sToken\":\"" + System.currentTimeMillis() + "\",\"version\":\""
+                        + VERSION + "\",\"source\":\"chInfo_ch_appcenter__chsub_9patch\"}]");
+    }
+    /* 查询地图树苗 */
+    public static String queryAreaTrees() {
+        return RequestManager.requestString("alipay.antmember.forest.h5.queryAreaTrees", "[{}]");
+    }
+    public static String queryTreeItemsForExchange(String applyActions, String itemTypes) {
+        String args = "[{\"applyActions\":\"" + applyActions + "\",\"itemTypes\":\"" + itemTypes + "\"}]";
+        return RequestManager.requestString("alipay.antforest.forest.h5.queryTreeItemsForExchange", args);
+    }
+}

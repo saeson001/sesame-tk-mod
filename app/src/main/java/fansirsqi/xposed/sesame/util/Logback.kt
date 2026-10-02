@@ -1,1 +1,151 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2cKaW1wb3J0IGNoLnFvcy5sb2diYWNrLmNsYXNzaWMuTG9nZ2VyQ29udGV4dAppbXBvcnQgY2gucW9zLmxvZ2JhY2suY2xhc3NpYy5hbmRyb2lkLkxvZ2NhdEFwcGVuZGVyCmltcG9ydCBjaC5xb3MubG9nYmFjay5jbGFzc2ljLmVuY29kZXIuUGF0dGVybkxheW91dEVuY29kZXIKaW1wb3J0IGNoLnFvcy5sb2diYWNrLmNsYXNzaWMuc3BpLklMb2dnaW5nRXZlbnQKaW1wb3J0IGNoLnFvcy5sb2diYWNrLmNvcmUucm9sbGluZy5Sb2xsaW5nRmlsZUFwcGVuZGVyCmltcG9ydCBjaC5xb3MubG9nYmFjay5jb3JlLnJvbGxpbmcuU2l6ZUFuZFRpbWVCYXNlZFJvbGxpbmdQb2xpY3kKaW1wb3J0IGNoLnFvcy5sb2diYWNrLmNvcmUudXRpbC5GaWxlU2l6ZQppbXBvcnQgb3JnLnNsZjRqLkxvZ2dlckZhY3RvcnkKaW1wb3J0IGphdmEuaW8uRmlsZQoKb2JqZWN0IExvZ2JhY2sgewogICAgcHJpdmF0ZSB2YXIgaXNGaWxlSW5pdGlhbGl6ZWQgPSBmYWxzZQoKICAgIC8vIOWumuS5ieaJgOaciSBMb2dnZXIg55qE5ZCN56ewCiAgICB2YWwgTE9HX05BTUVTID0gbGlzdE9mKAogICAgICAgICJydW50aW1lIiwgInN5c3RlbSIsICJyZWNvcmQiLCAiZGVidWciLCAiZm9yZXN0IiwKICAgICAgICAiZmFybSIsICJvdGhlciIsICJlcnJvciIsICJjYXB0dXJlIiwgImNhcHRjaGEiCiAgICApCgogICAgLyoqCiAgICAgKiDpmLbmrrUx77ya5Yid5aeL5YyWIExvZ2NhdCAo5L+d6K+B5o6n5Yi25Y+w5LiA5a6a5pyJ5pel5b+XKQogICAgICog5ZyoIExvZyDnsbvnmoQgaW5pdCDlnZfkuK3oh6rliqjosIPnlKgKICAgICAqLwogICAgZnVuIGluaXRMb2djYXRPbmx5KCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBsYyA9IExvZ2dlckZhY3RvcnkuZ2V0SUxvZ2dlckZhY3RvcnkoKSBhcyBMb2dnZXJDb250ZXh0CiAgICAgICAgICAgIGxjLnJlc2V0KCkgLy8g5riF6Zmk5LmL5YmN55qE6YWN572uCgogICAgICAgICAgICAvLyDphY3nva4gTG9nY2F0IEFwcGVuZGVyCiAgICAgICAgICAgIHZhbCBlbmNvZGVyID0gUGF0dGVybkxheW91dEVuY29kZXIoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBjb250ZXh0ID0gbGMKICAgICAgICAgICAgICAgIHBhdHRlcm4gPSAiWyV0aHJlYWRdICVsb2dnZXJ7ODB9ICVtc2clbiIgLy8g5L+d5oyB5LiOIEphdmEg54mI5pys5LiA6Ie0CiAgICAgICAgICAgICAgICBzdGFydCgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBsb2djYXRBcHBlbmRlciA9IExvZ2NhdEFwcGVuZGVyKCkuYXBwbHkgewogICAgICAgICAgICAgICAgY29udGV4dCA9IGxjCiAgICAgICAgICAgICAgICB0aGlzLmVuY29kZXIgPSBlbmNvZGVyCiAgICAgICAgICAgICAgICBuYW1lID0gIkxPR0NBVCIKICAgICAgICAgICAgICAgIHN0YXJ0KCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5Li65qC5IExvZ2dlciDmt7vliqAgTG9nY2F0IOi+k+WHugogICAgICAgICAgICBsYy5nZXRMb2dnZXIoY2gucW9zLmxvZ2JhY2suY2xhc3NpYy5Mb2dnZXIuUk9PVF9MT0dHRVJfTkFNRSkuYXBwbHkgewogICAgICAgICAgICAgICAgLy8g6buY6K6k5YWI5LiN6K6+IExldmVs77yM6K6p5a6D57un5om/5oiW6buY6K6kIERFQlVHL0lORk/vvIzpgb/lhY3ov4fmu6Tmjonph43opoHkv6Hmga8KICAgICAgICAgICAgICAgIGFkZEFwcGVuZGVyKGxvZ2NhdEFwcGVuZGVyKQogICAgICAgICAgICB9CgogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZSgiU2VzYW1lTG9nIiwgIkxvZ2JhY2sgaW5pdExvZ2NhdE9ubHkgZmFpbGVkIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDpmLbmrrUy77ya5Yid5aeL5YyW5paH5Lu25pel5b+XICjmnInkuoYgQ29udGV4dCDkuYvlkI7osIPnlKgpCiAgICAgKiDov5nmmK/kuIDkuKrigJzov73liqDigJ3mk43kvZzvvIzkuI3kvJrmiZPmlq0gTG9nY2F0IOaXpeW/lwogICAgICovCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gaW5pdEZpbGVMb2dnaW5nKGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICBpZiAoaXNGaWxlSW5pdGlhbGl6ZWQpIHJldHVybgoKICAgICAgICAvLyDwn5SlIOS/ruWkjeeCue+8muaBouWkjeWOn+acieeahOi3r+W+hOWIpOaWremAu+i+kQogICAgICAgIHZhbCBsb2dEaXIgPSByZXNvbHZlTG9nRGlyKGNvbnRleHQpCgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBsYyA9IExvZ2dlckZhY3RvcnkuZ2V0SUxvZ2dlckZhY3RvcnkoKSBhcyBMb2dnZXJDb250ZXh0CgogICAgICAgICAgICAvLyDkuLrmr4/kuKrnibnlrprkuJrliqHnmoQgTG9nZ2VyIOa3u+WKoOaWh+S7tiBBcHBlbmRlcgogICAgICAgICAgICBMT0dfTkFNRVMuZm9yRWFjaCB7IGxvZ05hbWUgLT4KICAgICAgICAgICAgICAgIGFkZEZpbGVBcHBlbmRlcihsYywgbG9nTmFtZSwgbG9nRGlyKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpc0ZpbGVJbml0aWFsaXplZCA9IHRydWUKICAgICAgICAgICAgTG9nLmkoIlNlc2FtZUxvZyIsICJGaWxlIGxvZ2dpbmcgaW5pdGlhbGl6ZWQgYXQ6ICRsb2dEaXIiKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZSgiU2VzYW1lTG9nIiwgIkxvZ2JhY2sgaW5pdEZpbGVMb2dnaW5nIGZhaWxlZCIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5qC45b+D6Lev5b6E6YC76L6R77ya5a6M5YWo6L+Y5Y6fIEphdmEg54mI5pys55qE5Yik5patCiAgICAgKiDkvJjlhYggRmlsZXMuTE9HX0RJUiAtPiDlpLHotKXliJnlm57pgIDliLAgQ29udGV4dC5leHRlcm5hbCAtPiBDb250ZXh0LmZpbGVzCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHJlc29sdmVMb2dEaXIoY29udGV4dDogQ29udGV4dCk6IFN0cmluZyB7CiAgICAgICAgLy8gMS4g5bCd6K+V5L2/55SoIEZpbGVzIOexu+S4reWumuS5ieeahOi3r+W+hAogICAgICAgIHZhciB0YXJnZXREaXIgPSBGaWxlcy5MT0dfRElSCgogICAgICAgIC8vIOWwneivleWIm+W7uuebruW9le+8jOehruS/nSBleGlzdHMoKSDliKTmlq3lh4bnoa4KICAgICAgICBpZiAoIXRhcmdldERpci5leGlzdHMoKSkgewogICAgICAgICAgICB0YXJnZXREaXIubWtkaXJzKCkKICAgICAgICB9CgogICAgICAgIC8vIDIuIOajgOafpeaYr+WQpuacieadg+WGmeWFpQogICAgICAgIGlmICghdGFyZ2V0RGlyLmV4aXN0cygpIHx8ICF0YXJnZXREaXIuY2FuV3JpdGUoKSkgewogICAgICAgICAgICAvLyDlm57pgIDpgLvovpEKICAgICAgICAgICAgdmFsIGZhbGxiYWNrRGlyID0gY29udGV4dC5nZXRFeHRlcm5hbEZpbGVzRGlyKCJsb2dzIikKICAgICAgICAgICAgdGFyZ2V0RGlyID0gZmFsbGJhY2tEaXIgPzogRmlsZShjb250ZXh0LmZpbGVzRGlyLCAibG9ncyIpCiAgICAgICAgfQoKICAgICAgICAvLyAzLiDnoa7kv53nm67lvZXnu5PmnoTlrozmlbQgKOWIm+W7uiBiYWsg5a2Q55uu5b2VKQogICAgICAgIEZpbGUodGFyZ2V0RGlyLCAiYmFrIikubWtkaXJzKCkKCiAgICAgICAgcmV0dXJuIHRhcmdldERpci5hYnNvbHV0ZVBhdGggKyBGaWxlLnNlcGFyYXRvcgogICAgfQoKICAgIHByaXZhdGUgZnVuIGFkZEZpbGVBcHBlbmRlcihsYzogTG9nZ2VyQ29udGV4dCwgbG9nTmFtZTogU3RyaW5nLCBsb2dEaXI6IFN0cmluZykgewogICAgICAgIC8vIDEuIOWFiOWIm+W7uuWunuS+i++8jOS4jeimgeebtOaOpemTvuW8jyBhcHBsee+8jOS7peS+v+WQjumdouW8leeUqOWugwogICAgICAgIHZhbCBmaWxlQXBwZW5kZXIgPSBSb2xsaW5nRmlsZUFwcGVuZGVyPElMb2dnaW5nRXZlbnQ+KCkKCiAgICAgICAgZmlsZUFwcGVuZGVyLmFwcGx5IHsKICAgICAgICAgICAgY29udGV4dCA9IGxjCiAgICAgICAgICAgIG5hbWUgPSAiRklMRS0kbG9nTmFtZSIKICAgICAgICAgICAgZmlsZSA9ICIkbG9nRGlyJGxvZ05hbWUubG9nIgoKICAgICAgICAgICAgLy8gMi4g6YWN572uIFBvbGljeSAo5L+d5oyB5LiOIEphdmEg54mI5pys5Y+C5pWw5LiA6Ie0KQogICAgICAgICAgICB2YWwgcG9saWN5ID0gU2l6ZUFuZFRpbWVCYXNlZFJvbGxpbmdQb2xpY3k8SUxvZ2dpbmdFdmVudD4oKS5hcHBseSB7CiAgICAgICAgICAgICAgICBjb250ZXh0ID0gbGMKICAgICAgICAgICAgICAgIGZpbGVOYW1lUGF0dGVybiA9ICIke2xvZ0Rpcn1iYWsvJGxvZ05hbWUtJWR7eXl5eS1NTS1kZH0uJWkubG9nIgogICAgICAgICAgICAgICAgc2V0TWF4RmlsZVNpemUoRmlsZVNpemUudmFsdWVPZigiN01CIikpIC8vIOi/mOWOn+S4uiA1ME1CCiAgICAgICAgICAgICAgICBzZXRUb3RhbFNpemVDYXAoRmlsZVNpemUudmFsdWVPZigiMzJNQiIpKQogICAgICAgICAgICAgICAgbWF4SGlzdG9yeSA9IDMKICAgICAgICAgICAgICAgIGlzQ2xlYW5IaXN0b3J5T25TdGFydCA9IHRydWUgLy8g6L+Y5Y6fIEphdmEg5Lit55qEIHNldENsZWFuSGlzdG9yeU9uU3RhcnQodHJ1ZSkKICAgICAgICAgICAgICAgIC8vIOW/hemhu+iwg+eUqCBzZXRQYXJlbnQKICAgICAgICAgICAgICAgIHNldFBhcmVudChmaWxlQXBwZW5kZXIpCiAgICAgICAgICAgICAgICBzdGFydCgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcm9sbGluZ1BvbGljeSA9IHBvbGljeQoKICAgICAgICAgICAgLy8gMy4g6YWN572uIEVuY29kZXIKICAgICAgICAgICAgZW5jb2RlciA9IFBhdHRlcm5MYXlvdXRFbmNvZGVyKCkuYXBwbHkgewogICAgICAgICAgICAgICAgY29udGV4dCA9IGxjCiAgICAgICAgICAgICAgICBwYXR0ZXJuID0gIiVke2Rk5pelIEhIOm1tOnNzLlNTfSAlbXNnJW4iCiAgICAgICAgICAgICAgICBzdGFydCgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOWQr+WKqCBBcHBlbmRlcgogICAgICAgICAgICBzdGFydCgpCiAgICAgICAgfQoKICAgICAgICAvLyA0LiDojrflj5blr7nlupTnmoQgTG9nZ2VyIOW5tua3u+WKoCBBcHBlbmRlcgogICAgICAgIGxjLmdldExvZ2dlcihsb2dOYW1lKS5hcHBseSB7CiAgICAgICAgICAgIC8vIOi/memHjOWPr+S7peS4jeW8uuWItiBzZXRMZXZlbO+8jOayv+eUqOm7mOiupOmFjee9rgogICAgICAgICAgICBpc0FkZGl0aXZlID0gdHJ1ZQogICAgICAgICAgICBhZGRBcHBlbmRlcihmaWxlQXBwZW5kZXIpCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.util
+
+import android.content.Context
+import android.util.Log
+import ch.qos.logback.classic.LoggerContext
+import ch.qos.logback.classic.android.LogcatAppender
+import ch.qos.logback.classic.encoder.PatternLayoutEncoder
+import ch.qos.logback.classic.spi.ILoggingEvent
+import ch.qos.logback.core.rolling.RollingFileAppender
+import ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy
+import ch.qos.logback.core.util.FileSize
+import org.slf4j.LoggerFactory
+import java.io.File
+
+object Logback {
+    private var isFileInitialized = false
+
+    // 定义所有 Logger 的名称
+    val LOG_NAMES = listOf(
+        "runtime", "system", "record", "debug", "forest",
+        "farm", "other", "error", "capture", "captcha"
+    )
+
+    /**
+     * 阶段1：初始化 Logcat (保证控制台一定有日志)
+     * 在 Log 类的 init 块中自动调用
+     */
+    fun initLogcatOnly() {
+        try {
+            val lc = LoggerFactory.getILoggerFactory() as LoggerContext
+            lc.reset() // 清除之前的配置
+
+            // 配置 Logcat Appender
+            val encoder = PatternLayoutEncoder().apply {
+                context = lc
+                pattern = "[%thread] %logger{80} %msg%n" // 保持与 Java 版本一致
+                start()
+            }
+
+            val logcatAppender = LogcatAppender().apply {
+                context = lc
+                this.encoder = encoder
+                name = "LOGCAT"
+                start()
+            }
+
+            // 为根 Logger 添加 Logcat 输出
+            lc.getLogger(ch.qos.logback.classic.Logger.ROOT_LOGGER_NAME).apply {
+                // 默认先不设 Level，让它继承或默认 DEBUG/INFO，避免过滤掉重要信息
+                addAppender(logcatAppender)
+            }
+
+        } catch (e: Exception) {
+            Log.e("SesameLog", "Logback initLogcatOnly failed", e)
+        }
+    }
+
+    /**
+     * 阶段2：初始化文件日志 (有了 Context 之后调用)
+     * 这是一个“追加”操作，不会打断 Logcat 日志
+     */
+    @Synchronized
+    fun initFileLogging(context: Context) {
+        if (isFileInitialized) return
+
+        // 🔥 修复点：恢复原有的路径判断逻辑
+        val logDir = resolveLogDir(context)
+
+        try {
+            val lc = LoggerFactory.getILoggerFactory() as LoggerContext
+
+            // 为每个特定业务的 Logger 添加文件 Appender
+            LOG_NAMES.forEach { logName ->
+                addFileAppender(lc, logName, logDir)
+            }
+
+            isFileInitialized = true
+            Log.i("SesameLog", "File logging initialized at: $logDir")
+        } catch (e: Exception) {
+            Log.e("SesameLog", "Logback initFileLogging failed", e)
+        }
+    }
+
+    /**
+     * 核心路径逻辑：完全还原 Java 版本的判断
+     * 优先 Files.LOG_DIR -> 失败则回退到 Context.external -> Context.files
+     */
+    private fun resolveLogDir(context: Context): String {
+        // 1. 尝试使用 Files 类中定义的路径
+        var targetDir = Files.LOG_DIR
+
+        // 尝试创建目录，确保 exists() 判断准确
+        if (!targetDir.exists()) {
+            targetDir.mkdirs()
+        }
+
+        // 2. 检查是否有权写入
+        if (!targetDir.exists() || !targetDir.canWrite()) {
+            // 回退逻辑
+            val fallbackDir = context.getExternalFilesDir("logs")
+            targetDir = fallbackDir ?: File(context.filesDir, "logs")
+        }
+
+        // 3. 确保目录结构完整 (创建 bak 子目录)
+        File(targetDir, "bak").mkdirs()
+
+        return targetDir.absolutePath + File.separator
+    }
+
+    private fun addFileAppender(lc: LoggerContext, logName: String, logDir: String) {
+        // 1. 先创建实例，不要直接链式 apply，以便后面引用它
+        val fileAppender = RollingFileAppender<ILoggingEvent>()
+
+        fileAppender.apply {
+            context = lc
+            name = "FILE-$logName"
+            file = "$logDir$logName.log"
+
+            // 2. 配置 Policy (保持与 Java 版本参数一致)
+            val policy = SizeAndTimeBasedRollingPolicy<ILoggingEvent>().apply {
+                context = lc
+                fileNamePattern = "${logDir}bak/$logName-%d{yyyy-MM-dd}.%i.log"
+                setMaxFileSize(FileSize.valueOf("7MB")) // 还原为 50MB
+                setTotalSizeCap(FileSize.valueOf("32MB"))
+                maxHistory = 3
+                isCleanHistoryOnStart = true // 还原 Java 中的 setCleanHistoryOnStart(true)
+                // 必须调用 setParent
+                setParent(fileAppender)
+                start()
+            }
+            rollingPolicy = policy
+
+            // 3. 配置 Encoder
+            encoder = PatternLayoutEncoder().apply {
+                context = lc
+                pattern = "%d{dd日 HH:mm:ss.SS} %msg%n"
+                start()
+            }
+
+            // 启动 Appender
+            start()
+        }
+
+        // 4. 获取对应的 Logger 并添加 Appender
+        lc.getLogger(logName).apply {
+            // 这里可以不强制 setLevel，沿用默认配置
+            isAdditive = true
+            addAppender(fileAppender)
+        }
+    }
+}

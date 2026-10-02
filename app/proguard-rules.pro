@@ -1,1 +1,33 @@
-IyAtLS0tLS0tLS0tIOahhuaetiAtLS0tLS0tLS0tCi1rZWVwIGNsYXNzIGRlLnJvYnYuYW5kcm9pZC54cG9zZWQuKiogeyAqOyB9Ci1rZWVwIGNsYXNzIGlvLmdpdGh1Yi5saWJ4cG9zZWQuc2VydmljZS4qKiB7ICo7IH0KLWRvbnR3YXJuIGlvLmdpdGh1Yi5saWJ4cG9zZWQuc2VydmljZS4qKgoKIyAtLS0tLS0tLS0tIFNoaXp1a3UgLS0tLS0tLS0tLQota2VlcCBjbGFzcyBkZXYucmlra2Euc2hpenVrdS4qKiB7ICo7IH0KLWRvbnR3YXJuIGRldi5yaWtrYS5zaGl6dWt1LioqCgojIC0tLS0tLS0tLS0gY21kLWFuZHJvaWQgLS0tLS0tLS0tLQota2VlcCBjbGFzcyBjb20ubmlraS4qKiB7ICo7IH0KLWRvbnR3YXJuIGNvbS5uaWtpLioqCgoKIyAtLS0tLS0tLS0tIOaXpeW/lyAtLS0tLS0tLS0tCi1rZWVwIGNsYXNzIGNoLnFvcy5sb2diYWNrLioqIHsgKjsgfQota2VlcCBjbGFzcyBvcmcuc2xmNGouKiogeyAqOyB9Ci1kb250d2FybiBjaC5xb3MubG9nYmFjay4qKiwgb3JnLnNsZjRqLioqCgojIC0tLS0tLS0tLS0g5pys5bel56iLIC0tLS0tLS0tLS0KLWtlZXAgY2xhc3MgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuKiogeyAqOyB9CgojIC0tLS0tLS0tLS0gSmFja3Nvbu+8iOacgOWwj+W/heimge+8iSAtLS0tLS0tLS0tCi1rZWVwIGNsYXNzIGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi4qKiB7ICo7IH0KLWtlZXBhdHRyaWJ1dGVzIFNpZ25hdHVyZSwgKkFubm90YXRpb24qCi1rZWVwY2xhc3NtZW1iZXJzIGNsYXNzICogewogICAgQGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLioqICo7Cn0KCiMgLS0tLS0tLS0tLSDluo/liJfljJYgJiDnvLrlpLHnsbsgLS0tLS0tLS0tLQota2VlcG5hbWVzIGNsYXNzICogaW1wbGVtZW50cyBqYXZhLmlvLlNlcmlhbGl6YWJsZQota2VlcGNsYXNzbWVtYmVycyBjbGFzcyAqIGltcGxlbWVudHMgamF2YS5pby5TZXJpYWxpemFibGUgeyAqOyB9Ci1kb250d2FybiBqYXZhLmJlYW5zLkNvbnN0cnVjdG9yUHJvcGVydGllcywgamF2YS5iZWFucy5UcmFuc2llbnQ=
+# ---------- 框架 ----------
+-keep class de.robv.android.xposed.** { *; }
+-keep class io.github.libxposed.service.** { *; }
+-dontwarn io.github.libxposed.service.**
+
+# ---------- Shizuku ----------
+-keep class dev.rikka.shizuku.** { *; }
+-dontwarn dev.rikka.shizuku.**
+
+# ---------- cmd-android ----------
+-keep class com.niki.** { *; }
+-dontwarn com.niki.**
+
+
+# ---------- 日志 ----------
+-keep class ch.qos.logback.** { *; }
+-keep class org.slf4j.** { *; }
+-dontwarn ch.qos.logback.**, org.slf4j.**
+
+# ---------- 本工程 ----------
+-keep class fansirsqi.xposed.sesame.** { *; }
+
+# ---------- Jackson（最小必要） ----------
+-keep class com.fasterxml.jackson.** { *; }
+-keepattributes Signature, *Annotation*
+-keepclassmembers class * {
+    @com.fasterxml.jackson.annotation.** *;
+}
+
+# ---------- 序列化 & 缺失类 ----------
+-keepnames class * implements java.io.Serializable
+-keepclassmembers class * implements java.io.Serializable { *; }
+-dontwarn java.beans.ConstructorProperties, java.beans.Transient

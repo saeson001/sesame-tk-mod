@@ -1,1 +1,287 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudE9yY2hhcmQKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlJlcXVlc3RNYW5hZ2VyCmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IGphdmEubmV0LlVSTERlY29kZXIKCm9iamVjdCBYTGlnaHRScGNDYWxsIHsKCiAgICAvLyDlm7rlrpogU0RLIOS/oeaBrwogICAgcHJpdmF0ZSBjb25zdCB2YWwgQURfQ09NUE9ORU5UX1RZUEUgPSAiRkVFRFMiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBBRF9DT01QT05FTlRfVkVSU0lPTiA9ICI0LjI4LjY2IgogICAgcHJpdmF0ZSBjb25zdCB2YWwgRU5BQkxFX0ZVU0lPTiA9IHRydWUKICAgIHByaXZhdGUgY29uc3QgdmFsIE5FVFdPUktfVFlQRSA9ICJXSUZJIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgUEFHRV9OTyA9IDEKICAgIHByaXZhdGUgY29uc3QgdmFsIFVOSU9OX0FQUF9JRCA9ICIyMDYwMDkwMDAwMzA0OTIxIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgWExJR0hUX1JVTlRJTUVfU0RLX1ZFUlNJT04gPSAiNC4yOC42NiIKICAgIHByaXZhdGUgY29uc3QgdmFsIFhMSUdIVF9TREtfVFlQRSA9ICJoNSIKICAgIHByaXZhdGUgY29uc3QgdmFsIFhMSUdIVF9TREtfVkVSU0lPTiA9ICI0LjI4LjY2IgoKICAgIC8qKgogICAgICog6LCD55SoIHhsaWdodFBsdWdpbgogICAgICogQHBhcmFtIHJlZmVyVG9rZW4gcmVmZXJUb2tlbiDlrZfnrKbkuLIKICAgICAqIEBwYXJhbSBwYWdlVXJsIOW9k+WJjemhtemdoiB1cmwKICAgICAqIEBwYXJhbSBwYWdlRnJvbSDpobXpnaLmnaXmupAKICAgICAqLwogICAgZnVuIHhsaWdodFBsdWdpbigKICAgICAgICBwYWdlVXJsOiBTdHJpbmcsCiAgICAgICAgcGFnZUZyb206IFN0cmluZywKICAgICAgICBzZXNzaW9uOiBTdHJpbmcsCiAgICAgICAgc3BhY2VDb2RlOiBTdHJpbmcKICAgICk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRyeSB7CgogICAgICAgICAgICAvLyBwb3NpdGlvblJlcXVlc3QKICAgICAgICAgICAgdmFsIHBvc2l0aW9uUmVxdWVzdCA9IEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBwdXQoImV4dE1hcCIsIEpTT05PYmplY3QoKSkKICAgICAgICAgICAgICAgIHB1dCgicmVmZXJJbmZvIiwgSlNPTk9iamVjdCgpKSAgICAgLy8g56m65a+56LGh77yM5LiO5L2g55qE56S65L6L5LiA6Ie0CiAgICAgICAgICAgICAgICBwdXQoInNlYXJjaEluZm8iLCBKU09OT2JqZWN0KCkpCiAgICAgICAgICAgICAgICBwdXQoInNwYWNlQ29kZSIsIHNwYWNlQ29kZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gc2RrUGFnZUluZm8KICAgICAgICAgICAgdmFsIHNka1BhZ2VJbmZvID0gSlNPTk9iamVjdCgpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHB1dCgiYWRDb21wb25lbnRUeXBlIiwgQURfQ09NUE9ORU5UX1RZUEUpCiAgICAgICAgICAgICAgICBwdXQoImFkQ29tcG9uZW50VmVyc2lvbiIsIEFEX0NPTVBPTkVOVF9WRVJTSU9OKQogICAgICAgICAgICAgICAgcHV0KCJlbmFibGVGdXNpb24iLCBFTkFCTEVfRlVTSU9OKQogICAgICAgICAgICAgICAgcHV0KCJuZXR3b3JrVHlwZSIsIE5FVFdPUktfVFlQRSkKICAgICAgICAgICAgICAgIHB1dCgicGFnZUZyb20iLCBwYWdlRnJvbSkKICAgICAgICAgICAgICAgIHB1dCgicGFnZU5vIiwgUEFHRV9OTykKICAgICAgICAgICAgICAgIHB1dCgicGFnZVVybCIsIHBhZ2VVcmwpCiAgICAgICAgICAgICAgICBwdXQoInNlc3Npb24iLCBzZXNzaW9uKQogICAgICAgICAgICAgICAgcHV0KCJ1bmlvbkFwcElkIiwgVU5JT05fQVBQX0lEKQogICAgICAgICAgICAgICAgcHV0KCJ1c2VQbGF5TGluayIsICJ0cnVlIikKICAgICAgICAgICAgICAgIHB1dCgieGxpZ2h0UnVudGltZVNES3ZlcnNpb24iLCBYTElHSFRfUlVOVElNRV9TREtfVkVSU0lPTikKICAgICAgICAgICAgICAgIHB1dCgieGxpZ2h0U0RLVHlwZSIsIFhMSUdIVF9TREtfVFlQRSkKICAgICAgICAgICAgICAgIHB1dCgieGxpZ2h0U0RLVmVyc2lvbiIsIFhMSUdIVF9TREtfVkVSU0lPTikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5pWw57uE5YyF6KOFCiAgICAgICAgICAgIHZhbCBhcmdzID0gSlNPTkFycmF5KCkuYXBwbHkgewogICAgICAgICAgICAgICAgcHV0KEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgcHV0KCJwb3NpdGlvblJlcXVlc3QiLCBwb3NpdGlvblJlcXVlc3QpCiAgICAgICAgICAgICAgICAgICAgcHV0KCJzZGtQYWdlSW5mbyIsIHNka1BhZ2VJbmZvKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gUlBDIOiwg+eUqAogICAgICAgICAgICBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAgICAgImNvbS5hbGlwYXkuYWRleGNoYW5nZS5hZC5mYWNhZGUueGxpZ2h0UGx1Z2luIiwKICAgICAgICAgICAgICAgIGFyZ3MudG9TdHJpbmcoKQogICAgICAgICAgICApCgogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpCiAgICAgICAgICAgICIiCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5a6M5oiQ5bm/5ZGK5Lu75Yqh77yI5paw54mI77yM5pSv5oyBIGV4dGVuZEluZm/vvIkKICAgICAqIEBwYXJhbSBwbGF5Qml6SWQg5bm/5ZGK5Lu75Yqh5Lia5YqhIElECiAgICAgKiBAcGFyYW0gcGxheUV2ZW50SW5mbyDlrozmlbTnmoQgcGxheUV2ZW50SW5mbyBKU09OCiAgICAgKiBAcGFyYW0gaWVwVGFza1NjZW5lQ29kZSBleHRlbmRJbmZvLmllcFRhc2tTY2VuZUNvZGUKICAgICAqIEBwYXJhbSBpZXBUYXNrVHlwZSBleHRlbmRJbmZvLmllcFRhc2tUeXBlCiAgICAgKi8KICAgIGZ1biBmaW5pc2hUYXNrKAogICAgICAgIHBsYXlCaXpJZDogU3RyaW5nLAogICAgICAgIHBsYXlFdmVudEluZm86IEpTT05PYmplY3QsCiAgICAgICAgaWVwVGFza1NjZW5lQ29kZTogU3RyaW5nLAogICAgICAgIGllcFRhc2tUeXBlOiBTdHJpbmcKICAgICk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRyeSB7CgogICAgICAgICAgICAvLyBleHRlbmRJbmZvCiAgICAgICAgICAgIHZhbCBleHRlbmRJbmZvID0gSlNPTk9iamVjdCgpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHB1dCgiaWVwVGFza1NjZW5lQ29kZSIsIGllcFRhc2tTY2VuZUNvZGUpCiAgICAgICAgICAgICAgICBwdXQoImllcFRhc2tUeXBlIiwgaWVwVGFza1R5cGUpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOWNleadoeS7u+WKoeWvueixoQogICAgICAgICAgICB2YWwgYXJncyA9IEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBwdXQoImV4dGVuZEluZm8iLCBleHRlbmRJbmZvKQogICAgICAgICAgICAgICAgcHV0KCJwbGF5Qml6SWQiLCBwbGF5Qml6SWQpCiAgICAgICAgICAgICAgICBwdXQoInBsYXlFdmVudEluZm8iLCBwbGF5RXZlbnRJbmZvKQogICAgICAgICAgICAgICAgcHV0KCJzb3VyY2UiLCAiYWR4IikgICAvLyDlm7rlrpoKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5pyA5aSW5bGC5pWw57uECiAgICAgICAgICAgIHZhbCBhcmdzQXJyYXkgPSBKU09OQXJyYXkoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBwdXQoYXJncykKICAgICAgICAgICAgfQoKICAgICAgICAgICAgUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmFkdGFzay5iaXoubW9iaWxlZ3cuc2VydmljZS5pbnRlcmFjdGlvbi5maW5pc2giLAogICAgICAgICAgICAgICAgYXJnc0FycmF5LnRvU3RyaW5nKCkKICAgICAgICAgICAgKQoKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKQogICAgICAgICAgICAiIgogICAgICAgIH0KICAgIH0KCn0KCm9iamVjdCBVcmxVdGlsIHsKICAgIC8qKgogICAgICog5LuO5Y6f5aeLVVJM5Lit5o+Q5Y+W5oyH5a6a5Y+C5pWw55qE5a6M5pW05YC8KOaUr+aMgeWkmuWxguW1jOWllykKICAgICAqIEBwYXJhbSB1cmwg5Y6f5aeLVVJMCiAgICAgKiBAcGFyYW0ga2V5IOimgeaPkOWPlueahOWPguaVsOWQjQogICAgICogQHJldHVybiDlrozmlbTnmoTlj4LmlbDlgLwo5bey6Kej56CBKQogICAgICovCiAgICBmdW4gZ2V0UGFyYW1WYWx1ZSh1cmw6IFN0cmluZywga2V5OiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICBpZiAodXJsLmlzRW1wdHkoKSkgcmV0dXJuIG51bGwKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5YWI5aSa5qyh6Kej56CB5bGV5byACiAgICAgICAgICAgIHZhciBkZWNvZGVkID0gdXJsCiAgICAgICAgICAgIHJlcGVhdCg1KSB7CiAgICAgICAgICAgICAgICB2YWwgdGVtcCA9IGRlY29kZShkZWNvZGVkKQogICAgICAgICAgICAgICAgaWYgKHRlbXAgPT0gZGVjb2RlZCkgcmV0dXJuQHJlcGVhdAogICAgICAgICAgICAgICAgZGVjb2RlZCA9IHRlbXAKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5om+5Yiw5p+l6K+i5a2X56ym5Liy6YOo5YiGCiAgICAgICAgICAgIHZhbCBxdWVyeVN0YXJ0ID0gZGVjb2RlZC5pbmRleE9mKCI/IikKICAgICAgICAgICAgaWYgKHF1ZXJ5U3RhcnQgPT0gLTEpIHJldHVybiBudWxsCgogICAgICAgICAgICB2YWwgcXVlcnkgPSBkZWNvZGVkLnN1YnN0cmluZyhxdWVyeVN0YXJ0ICsgMSkKCiAgICAgICAgICAgIC8vIOS9v+eUqOato+WImeihqOi+vuW8j+eyvuehruWMuemFjeWPguaVsCzpgb/lhY3miKrmlq0KICAgICAgICAgICAgdmFsIHBhdHRlcm4gPSBSZWdleCgiKD86XnwmKSRrZXk9KFteJl0qKSIpCiAgICAgICAgICAgIHZhbCBtYXRjaCA9IHBhdHRlcm4uZmluZChxdWVyeSkKCiAgICAgICAgICAgIHJldHVybiBtYXRjaD8uZ3JvdXBWYWx1ZXM/LmdldCgxKT8ubGV0IHsgZGVjb2RlKGl0KSB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCkKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmj5Dlj5ZVUkzkuK3mjIflrprlj4LmlbDlkI7pnaLnmoTlrozmlbTltYzlpZdVUkwKICAgICAqIEBwYXJhbSB1cmwg5Y6f5aeLVVJMCiAgICAgKiBAcGFyYW0ga2V5IOinpuWPkeWPguaVsOWQjSjmr5TlpoIidXJsIikKICAgICAqIEByZXR1cm4g5a6M5pW055qE5bWM5aWXVVJMKOW3suino+eggSkKICAgICAqLwogICAgZnVuIGdldEZ1bGxOZXN0ZWRVcmwodXJsOiBTdHJpbmcsIGtleTogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgaWYgKHVybC5pc0VtcHR5KCkpIHJldHVybiBudWxsCgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIOWFiOino+eggeWOn+Wni1VSTAogICAgICAgICAgICB2YXIgZGVjb2RlZCA9IHVybAogICAgICAgICAgICByZXBlYXQoNSkgewogICAgICAgICAgICAgICAgdmFsIHRlbXAgPSBkZWNvZGUoZGVjb2RlZCkKICAgICAgICAgICAgICAgIGlmICh0ZW1wID09IGRlY29kZWQpIHJldHVybkByZXBlYXQKICAgICAgICAgICAgICAgIGRlY29kZWQgPSB0ZW1wCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOafpeaJvmtleT3nmoTkvY3nva4KICAgICAgICAgICAgdmFsIHNlYXJjaEtleSA9ICIka2V5PSIKICAgICAgICAgICAgdmFsIGtleUluZGV4ID0gZGVjb2RlZC5pbmRleE9mKHNlYXJjaEtleSkKICAgICAgICAgICAgaWYgKGtleUluZGV4ID09IC0xKSByZXR1cm4gbnVsbAoKICAgICAgICAgICAgLy8g5LuOa2V5PeS5i+WQjuW8gOWni+aPkOWPlgogICAgICAgICAgICB2YWwgc3RhcnRJbmRleCA9IGtleUluZGV4ICsgc2VhcmNoS2V5Lmxlbmd0aAogICAgICAgICAgICB2YWwgcmVtYWluaW5nID0gZGVjb2RlZC5zdWJzdHJpbmcoc3RhcnRJbmRleCkKCiAgICAgICAgICAgIC8vIOaJvuWIsOWPguaVsOWAvOeahOe7k+adn+S9jee9rgogICAgICAgICAgICB2YXIgZW5kSW5kZXggPSByZW1haW5pbmcubGVuZ3RoCgogICAgICAgICAgICAvLyDlpoLmnpzmmK9VUkznsbvlnoss6ZyA6KaB5om+5Yiw5a6M5pW0VVJM55qE6L6555WMCiAgICAgICAgICAgIGlmIChyZW1haW5pbmcuc3RhcnRzV2l0aCgiaHR0cDovLyIpIHx8IHJlbWFpbmluZy5zdGFydHNXaXRoKCJodHRwczovLyIpKSB7CiAgICAgICAgICAgICAgICAvLyDmn6Xmib7kuIvkuIDkuKrpobblsYIm56ym5Y+3KOWcqFVSTOWklumDqOeahCYpCiAgICAgICAgICAgICAgICAvLyDnrZbnlaU6IOajgOa1i+WIsCblkI4s5Yik5pat5YW25ZCO5piv5ZCm6Lef552A5bey55+l55qE6aG25bGC5Y+C5pWw5ZCNCiAgICAgICAgICAgICAgICB2YWwgdG9wTGV2ZWxQYXJhbXMgPSBsaXN0T2YoImNhblB1bGxEb3duPSIsICJzaG93T3B0aW9uTWVudT0iLCAiaWVwVGFza1R5cGU9IiwKICAgICAgICAgICAgICAgICAgICAiaWVwVGFza1NjZW5lQ29kZT0iLCAiY2FuRG9UYXNrPSIsICJhd2FyZENvdW50PSIsICJkb25lVGltZXM9IikKCiAgICAgICAgICAgICAgICBmb3IgKGkgaW4gcmVtYWluaW5nLmluZGljZXMpIHsKICAgICAgICAgICAgICAgICAgICBpZiAocmVtYWluaW5nW2ldID09ICcmJykgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDmo4Dmn6Um5ZCO6Z2i5piv5ZCm5piv6aG25bGC5Y+C5pWwCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhZnRlckFtcCA9IHJlbWFpbmluZy5zdWJzdHJpbmcoaSArIDEpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICh0b3BMZXZlbFBhcmFtcy5hbnkgeyBhZnRlckFtcC5zdGFydHNXaXRoKGl0KSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbmRJbmRleCA9IGkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyDpnZ5VUkznsbvlnoss5om+56ys5LiA5LiqJgogICAgICAgICAgICAgICAgdmFsIGFtcEluZGV4ID0gcmVtYWluaW5nLmluZGV4T2YoIiYiKQogICAgICAgICAgICAgICAgaWYgKGFtcEluZGV4ICE9IC0xKSB7CiAgICAgICAgICAgICAgICAgICAgZW5kSW5kZXggPSBhbXBJbmRleAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgdmFsdWUgPSByZW1haW5pbmcuc3Vic3RyaW5nKDAsIGVuZEluZGV4KQoKICAgICAgICAgICAgLy8g5YaN5qyh6Kej56CB56Gu5L+d5a6M5YWo5bGV5byACiAgICAgICAgICAgIHZhciByZXN1bHQgPSB2YWx1ZQogICAgICAgICAgICByZXBlYXQoNSkgewogICAgICAgICAgICAgICAgdmFsIHRlbXAgPSBkZWNvZGUocmVzdWx0KQogICAgICAgICAgICAgICAgaWYgKHRlbXAgPT0gcmVzdWx0KSByZXR1cm5AcmVwZWF0IC8vIOabv+S7o2JyZWFr77yM57uI5q2i5b2T5YmNcmVwZWF06L+t5LujCiAgICAgICAgICAgICAgICByZXN1bHQgPSB0ZW1wCiAgICAgICAgICAgIH0KCgogICAgICAgICAgICByZXR1cm4gcmVzdWx0CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCkKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDku47lrozmlbRVUkzkuK3mj5Dlj5bmjIflrprlj4LmlbAKICAgICAqIEBwYXJhbSBmdWxsVXJsIOWujOaVtOeahFVSTAogICAgICogQHBhcmFtIGtleSDlj4LmlbDlkI0KICAgICAqIEByZXR1cm4g5Y+C5pWw5YC8CiAgICAgKi8KICAgIGZ1biBleHRyYWN0UGFyYW1Gcm9tVXJsKGZ1bGxVcmw6IFN0cmluZywga2V5OiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICBpZiAoZnVsbFVybC5pc0VtcHR5KCkpIHJldHVybiBudWxsCgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBxdWVyeVN0YXJ0ID0gZnVsbFVybC5pbmRleE9mKCI/IikKICAgICAgICAgICAgaWYgKHF1ZXJ5U3RhcnQgPT0gLTEpIHJldHVybiBudWxsCgogICAgICAgICAgICB2YWwgcXVlcnkgPSBmdWxsVXJsLnN1YnN0cmluZyhxdWVyeVN0YXJ0ICsgMSkKCiAgICAgICAgICAgIC8vIOS9v+eUqOato+WImeeyvuehruWMuemFjQogICAgICAgICAgICB2YWwgcGF0dGVybiA9IFJlZ2V4KCIoPzpefCYpJGtleT0oW14mXSopIikKICAgICAgICAgICAgdmFsIG1hdGNoID0gcGF0dGVybi5maW5kKHF1ZXJ5KQoKICAgICAgICAgICAgcmV0dXJuIG1hdGNoPy5ncm91cFZhbHVlcz8uZ2V0KDEpPy5sZXQgeyBkZWNvZGUoaXQpIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKQogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWuieWFqOino+eggVVSTAogICAgICovCiAgICBmdW4gZGVjb2RlKHVybDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgVVJMRGVjb2Rlci5kZWNvZGUodXJsLCAiVVRGLTgiKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICB1cmwKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmibnph4/op6PnoIHnm7TliLDnqLPlrpoKICAgICAqLwogICAgZnVuIGRlY29kZVVudGlsU3RhYmxlKHVybDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YXIgY3VycmVudCA9IHVybAogICAgICAgIHZhciBsYXN0OiBTdHJpbmcKICAgICAgICB2YXIgY291bnQgPSAwCiAgICAgICAgZG8gewogICAgICAgICAgICBsYXN0ID0gY3VycmVudAogICAgICAgICAgICBjdXJyZW50ID0gZGVjb2RlKGN1cnJlbnQpCiAgICAgICAgICAgIGNvdW50KysKICAgICAgICB9IHdoaWxlIChjdXJyZW50ICE9IGxhc3QgJiYgY291bnQgPCAxMCkKICAgICAgICByZXR1cm4gY3VycmVudAogICAgfQp9
+package fansirsqi.xposed.sesame.task.antOrchard
+
+import fansirsqi.xposed.sesame.hook.RequestManager
+import org.json.JSONArray
+import org.json.JSONObject
+import java.net.URLDecoder
+
+object XLightRpcCall {
+
+    // 固定 SDK 信息
+    private const val AD_COMPONENT_TYPE = "FEEDS"
+    private const val AD_COMPONENT_VERSION = "4.28.66"
+    private const val ENABLE_FUSION = true
+    private const val NETWORK_TYPE = "WIFI"
+    private const val PAGE_NO = 1
+    private const val UNION_APP_ID = "2060090000304921"
+    private const val XLIGHT_RUNTIME_SDK_VERSION = "4.28.66"
+    private const val XLIGHT_SDK_TYPE = "h5"
+    private const val XLIGHT_SDK_VERSION = "4.28.66"
+
+    /**
+     * 调用 xlightPlugin
+     * @param referToken referToken 字符串
+     * @param pageUrl 当前页面 url
+     * @param pageFrom 页面来源
+     */
+    fun xlightPlugin(
+        pageUrl: String,
+        pageFrom: String,
+        session: String,
+        spaceCode: String
+    ): String {
+        return try {
+
+            // positionRequest
+            val positionRequest = JSONObject().apply {
+                put("extMap", JSONObject())
+                put("referInfo", JSONObject())     // 空对象，与你的示例一致
+                put("searchInfo", JSONObject())
+                put("spaceCode", spaceCode)
+            }
+
+            // sdkPageInfo
+            val sdkPageInfo = JSONObject().apply {
+                put("adComponentType", AD_COMPONENT_TYPE)
+                put("adComponentVersion", AD_COMPONENT_VERSION)
+                put("enableFusion", ENABLE_FUSION)
+                put("networkType", NETWORK_TYPE)
+                put("pageFrom", pageFrom)
+                put("pageNo", PAGE_NO)
+                put("pageUrl", pageUrl)
+                put("session", session)
+                put("unionAppId", UNION_APP_ID)
+                put("usePlayLink", "true")
+                put("xlightRuntimeSDKversion", XLIGHT_RUNTIME_SDK_VERSION)
+                put("xlightSDKType", XLIGHT_SDK_TYPE)
+                put("xlightSDKVersion", XLIGHT_SDK_VERSION)
+            }
+
+            // 数组包装
+            val args = JSONArray().apply {
+                put(JSONObject().apply {
+                    put("positionRequest", positionRequest)
+                    put("sdkPageInfo", sdkPageInfo)
+                })
+            }
+
+            // RPC 调用
+            RequestManager.requestString(
+                "com.alipay.adexchange.ad.facade.xlightPlugin",
+                args.toString()
+            )
+
+        } catch (e: Exception) {
+            e.printStackTrace()
+            ""
+        }
+    }
+
+    /**
+     * 完成广告任务（新版，支持 extendInfo）
+     * @param playBizId 广告任务业务 ID
+     * @param playEventInfo 完整的 playEventInfo JSON
+     * @param iepTaskSceneCode extendInfo.iepTaskSceneCode
+     * @param iepTaskType extendInfo.iepTaskType
+     */
+    fun finishTask(
+        playBizId: String,
+        playEventInfo: JSONObject,
+        iepTaskSceneCode: String,
+        iepTaskType: String
+    ): String {
+        return try {
+
+            // extendInfo
+            val extendInfo = JSONObject().apply {
+                put("iepTaskSceneCode", iepTaskSceneCode)
+                put("iepTaskType", iepTaskType)
+            }
+
+            // 单条任务对象
+            val args = JSONObject().apply {
+                put("extendInfo", extendInfo)
+                put("playBizId", playBizId)
+                put("playEventInfo", playEventInfo)
+                put("source", "adx")   // 固定
+            }
+
+            // 最外层数组
+            val argsArray = JSONArray().apply {
+                put(args)
+            }
+
+            RequestManager.requestString(
+                "com.alipay.adtask.biz.mobilegw.service.interaction.finish",
+                argsArray.toString()
+            )
+
+        } catch (e: Exception) {
+            e.printStackTrace()
+            ""
+        }
+    }
+
+}
+
+object UrlUtil {
+    /**
+     * 从原始URL中提取指定参数的完整值(支持多层嵌套)
+     * @param url 原始URL
+     * @param key 要提取的参数名
+     * @return 完整的参数值(已解码)
+     */
+    fun getParamValue(url: String, key: String): String? {
+        if (url.isEmpty()) return null
+
+        try {
+            // 先多次解码展开
+            var decoded = url
+            repeat(5) {
+                val temp = decode(decoded)
+                if (temp == decoded) return@repeat
+                decoded = temp
+            }
+
+            // 找到查询字符串部分
+            val queryStart = decoded.indexOf("?")
+            if (queryStart == -1) return null
+
+            val query = decoded.substring(queryStart + 1)
+
+            // 使用正则表达式精确匹配参数,避免截断
+            val pattern = Regex("(?:^|&)$key=([^&]*)")
+            val match = pattern.find(query)
+
+            return match?.groupValues?.get(1)?.let { decode(it) }
+        } catch (e: Exception) {
+            e.printStackTrace()
+            return null
+        }
+    }
+
+    /**
+     * 提取URL中指定参数后面的完整嵌套URL
+     * @param url 原始URL
+     * @param key 触发参数名(比如"url")
+     * @return 完整的嵌套URL(已解码)
+     */
+    fun getFullNestedUrl(url: String, key: String): String? {
+        if (url.isEmpty()) return null
+
+        try {
+            // 先解码原始URL
+            var decoded = url
+            repeat(5) {
+                val temp = decode(decoded)
+                if (temp == decoded) return@repeat
+                decoded = temp
+            }
+
+            // 查找key=的位置
+            val searchKey = "$key="
+            val keyIndex = decoded.indexOf(searchKey)
+            if (keyIndex == -1) return null
+
+            // 从key=之后开始提取
+            val startIndex = keyIndex + searchKey.length
+            val remaining = decoded.substring(startIndex)
+
+            // 找到参数值的结束位置
+            var endIndex = remaining.length
+
+            // 如果是URL类型,需要找到完整URL的边界
+            if (remaining.startsWith("http://") || remaining.startsWith("https://")) {
+                // 查找下一个顶层&符号(在URL外部的&)
+                // 策略: 检测到&后,判断其后是否跟着已知的顶层参数名
+                val topLevelParams = listOf("canPullDown=", "showOptionMenu=", "iepTaskType=",
+                    "iepTaskSceneCode=", "canDoTask=", "awardCount=", "doneTimes=")
+
+                for (i in remaining.indices) {
+                    if (remaining[i] == '&') {
+                        // 检查&后面是否是顶层参数
+                        val afterAmp = remaining.substring(i + 1)
+                        if (topLevelParams.any { afterAmp.startsWith(it) }) {
+                            endIndex = i
+                            break
+                        }
+                    }
+                }
+            } else {
+                // 非URL类型,找第一个&
+                val ampIndex = remaining.indexOf("&")
+                if (ampIndex != -1) {
+                    endIndex = ampIndex
+                }
+            }
+
+            val value = remaining.substring(0, endIndex)
+
+            // 再次解码确保完全展开
+            var result = value
+            repeat(5) {
+                val temp = decode(result)
+                if (temp == result) return@repeat // 替代break，终止当前repeat迭代
+                result = temp
+            }
+
+
+            return result
+        } catch (e: Exception) {
+            e.printStackTrace()
+            return null
+        }
+    }
+
+    /**
+     * 从完整URL中提取指定参数
+     * @param fullUrl 完整的URL
+     * @param key 参数名
+     * @return 参数值
+     */
+    fun extractParamFromUrl(fullUrl: String, key: String): String? {
+        if (fullUrl.isEmpty()) return null
+
+        try {
+            val queryStart = fullUrl.indexOf("?")
+            if (queryStart == -1) return null
+
+            val query = fullUrl.substring(queryStart + 1)
+
+            // 使用正则精确匹配
+            val pattern = Regex("(?:^|&)$key=([^&]*)")
+            val match = pattern.find(query)
+
+            return match?.groupValues?.get(1)?.let { decode(it) }
+        } catch (e: Exception) {
+            e.printStackTrace()
+            return null
+        }
+    }
+
+    /**
+     * 安全解码URL
+     */
+    fun decode(url: String): String {
+        return try {
+            URLDecoder.decode(url, "UTF-8")
+        } catch (e: Exception) {
+            url
+        }
+    }
+
+    /**
+     * 批量解码直到稳定
+     */
+    fun decodeUntilStable(url: String): String {
+        var current = url
+        var last: String
+        var count = 0
+        do {
+            last = current
+            current = decode(current)
+            count++
+        } while (current != last && count < 10)
+        return current
+    }
+}

@@ -1,1 +1,18 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICB4bWxuczphcHA9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMtYXV0byIKICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgIGFuZHJvaWQ6b3JpZW50YXRpb249InZlcnRpY2FsIgogICAgYW5kcm9pZDpwYWRkaW5nPSI2ZHAiPgoKICAgIDxjb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwuYnV0dG9uLk1hdGVyaWFsQnV0dG9uCiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9idXR0b25fZXh0ZW5kX2l0ZW0iCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvYWNjZXB0X2dpZnQiCiAgICAgICAgc3R5bGU9Ij9hdHRyL21hdGVyaWFsQnV0dG9uU3R5bGUiCiAgICAgICAgYXBwOmNvcm5lclJhZGl1cz0iMTJkcCIKICAgICAgICBhcHA6aWNvbkdyYXZpdHk9InRleHRTdGFydCIKICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5WZXJ0aWNhbD0iNGRwIi8+CjwvTGluZWFyTGF5b3V0Pg==
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_extend_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accept_gift"
+        style="?attr/materialButtonStyle"
+        app:cornerRadius="12dp"
+        app:iconGravity="textStart"
+        android:layout_marginVertical="4dp"/>
+</LinearLayout>

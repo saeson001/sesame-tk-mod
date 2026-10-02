@@ -1,1 +1,61 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5HbG9iYWxUaHJlYWRQb29scwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IG9raHR0cDMuTWVkaWFUeXBlCmltcG9ydCBva2h0dHAzLk1lZGlhVHlwZS5Db21wYW5pb24udG9NZWRpYVR5cGUKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKaW1wb3J0IG9raHR0cDMuUmVxdWVzdEJvZHkKaW1wb3J0IG9raHR0cDMuUmVxdWVzdEJvZHkuQ29tcGFuaW9uLnRvUmVxdWVzdEJvZHkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCi8qKgogKiDnlKjkuo7lj5HpgIFIb29r5pWw5o2u5YiwREVCVUfmnI3liqHlmagKICogQGF1dGhvciBCeXNldmVuCiAqIEBkYXRlIDIwMjUvMS8xNwogKiBAYXBpTm90ZSDkv67lpI0gUjgg57yW6K+R5Zmo5bSp5rqD6Zeu6aKY77yM5pS55Li65Y2P56iL5ZCM5q2l6LCD55SoCiAqLwpvYmplY3QgSG9va1NlbmRlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiSG9va1NlbmRlciIKCiAgICBAVm9sYXRpbGUKICAgIHZhciBzZW5kRmxhZzogQm9vbGVhbiA9IHRydWUKCiAgICBwcml2YXRlIHZhbCBjbGllbnQgPSBPa0h0dHBDbGllbnQoKQoKICAgIHByaXZhdGUgdmFsIEpTT05fTUVESUFfVFlQRTogTWVkaWFUeXBlPyA9ICJhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04Ii50b01lZGlhVHlwZSgpCgogICAgZnVuIHNlbmRIb29rRGF0YShqbzogSlNPTk9iamVjdCwgdXJsOiBTdHJpbmcpIHsKICAgICAgICAvLyDkvb/nlKjliJrliJrkv67lpI3nmoQgR2xvYmFsVGhyZWFkUG9vbHMg5ZCv5Yqo5Y2P56iLCiAgICAgICAgLy8g6L+Z5qC35bCx5LiN6ZyA6KaB5L2/55SoIG9iamVjdCA6IENhbGxiYWNrICjljL/lkI3lhoXpg6jnsbsp77yM5LuO6ICM57uV6L+HIFI4IOeahCBCdWcKICAgICAgICBHbG9iYWxUaHJlYWRQb29scy5leGVjdXRlIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBib2R5OiBSZXF1ZXN0Qm9keSA9IGpvLnRvU3RyaW5nKCkudG9SZXF1ZXN0Qm9keShKU09OX01FRElBX1RZUEUpCiAgICAgICAgICAgICAgICB2YWwgcmVxdWVzdCA9IFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAgICAgLnVybCh1cmwpCiAgICAgICAgICAgICAgICAgICAgLnBvc3QoYm9keSkKICAgICAgICAgICAgICAgICAgICAuYnVpbGQoKQoKICAgICAgICAgICAgICAgIC8vIOOAkOWFs+mUruS/ruaUueOAkeWwhiBlbnF1ZXVlIOaUueS4uiBleGVjdXRlICjlkIzmraXmiafooYwpCiAgICAgICAgICAgICAgICAvLyDljY/nqIvmnKzouqvlsLHlnKjlkI7lj7Dnur/nqIvvvIzmiYDku6Xov5nph4zlj6/ku6Xnm7TmjqXpmLvloZ4KICAgICAgICAgICAgICAgIGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwb25zZSAtPgogICAgICAgICAgICAgICAgICAgIC8vIHVzZSDlh73mlbDkvJroh6rliqjlhbPpl60gcmVzcG9uc2UgYm9kee+8jOmYsuatouWGheWtmOazhOa8jwogICAgICAgICAgICAgICAgICAgIGlmICghcmVzcG9uc2UuaXNTdWNjZXNzZnVsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJGYWlsZWQgdG8gcmVjZWl2ZSByZXNwb25zZSBjb2RlOiAke3Jlc3BvbnNlLmNvZGV9IikKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDlpoLmnpzpnIDopoHmiJDlip/ml6Xlv5fvvIzlj6/ku6XlnKjov5nph4zmiZPljbAKICAgICAgICAgICAgICAgICAgICAgICAgLy8gTG9nLnJ1bnRpbWUoVEFHLCAiU2VudCBzdWNjZXNzZnVsbHkiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAvLyDlr7nlupTljp/mnaXnmoQgb25GYWlsdXJlCiAgICAgICAgICAgICAgICBpZiAoc2VuZEZsYWcpIHsgLy8g6YG/5YWN6L+H5aSa5YaX5L2Z5aSx6LSl6K6w5b2VCiAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIkZhaWxlZCB0byBzZW5kIGhvb2sgZGF0YTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgICAgICAvLyDlpoLmnpznvZHnu5zkuI3pgJrvvIzlkI7nu63lj6/og73pg73kuI3pgJrvvIzmmoLlgZzmiqXplJkKICAgICAgICAgICAgICAgICAgICBzZW5kRmxhZyA9IGZhbHNlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.hook
+
+import fansirsqi.xposed.sesame.util.GlobalThreadPools
+import fansirsqi.xposed.sesame.util.Log
+import okhttp3.MediaType
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody
+import okhttp3.RequestBody.Companion.toRequestBody
+import org.json.JSONObject
+
+/**
+ * 用于发送Hook数据到DEBUG服务器
+ * @author Byseven
+ * @date 2025/1/17
+ * @apiNote 修复 R8 编译器崩溃问题，改为协程同步调用
+ */
+object HookSender {
+    private const val TAG = "HookSender"
+
+    @Volatile
+    var sendFlag: Boolean = true
+
+    private val client = OkHttpClient()
+
+    private val JSON_MEDIA_TYPE: MediaType? = "application/json; charset=utf-8".toMediaType()
+
+    fun sendHookData(jo: JSONObject, url: String) {
+        // 使用刚刚修复的 GlobalThreadPools 启动协程
+        // 这样就不需要使用 object : Callback (匿名内部类)，从而绕过 R8 的 Bug
+        GlobalThreadPools.execute {
+            try {
+                val body: RequestBody = jo.toString().toRequestBody(JSON_MEDIA_TYPE)
+                val request = Request.Builder()
+                    .url(url)
+                    .post(body)
+                    .build()
+
+                // 【关键修改】将 enqueue 改为 execute (同步执行)
+                // 协程本身就在后台线程，所以这里可以直接阻塞
+                client.newCall(request).execute().use { response ->
+                    // use 函数会自动关闭 response body，防止内存泄漏
+                    if (!response.isSuccessful) {
+                        Log.error(TAG, "Failed to receive response code: ${response.code}")
+                    } else {
+                        // 如果需要成功日志，可以在这里打印
+                        // Log.runtime(TAG, "Sent successfully")
+                    }
+                }
+            } catch (e: Exception) {
+                // 对应原来的 onFailure
+                if (sendFlag) { // 避免过多冗余失败记录
+                    Log.error(TAG, "Failed to send hook data: ${e.message}")
+                    // 如果网络不通，后续可能都不通，暂停报错
+                    sendFlag = false
+                }
+            }
+        }
+    }
+}

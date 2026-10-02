@@ -1,1 +1,80 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmludGVybmFsLlNlY3VyaXR5Qm9keUhlbHBlcgppbXBvcnQgbG9tYm9rLkdldHRlcgppbXBvcnQgb3JnLmpzb24uSlNPTkV4Y2VwdGlvbgppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQga290bGluLmNvbmN1cnJlbnQuVm9sYXRpbGUKCi8qKgogKiDooajnpLrkuIDkuKogUlBD77yI6L+c56iL6L+H56iL6LCD55So77yJ5a6e5L2T77yM55So5LqO5bCB6KOF6K+35rGC5ZKM5ZON5bqU5pWw5o2u44CCCiAqIOaPkOS+m+e6v+eoi+WuieWFqOeahOWTjeW6lOWSjOmUmeivr+agh+ivhuOAggogKi8KQEdldHRlcgpjbGFzcyBScGNFbnRpdHkgQEp2bU92ZXJsb2FkcyBjb25zdHJ1Y3RvcigKICAgIHZhbCByZXF1ZXN0TWV0aG9kOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCByZXF1ZXN0RGF0YTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgcmVxdWVzdFJlbGF0aW9uOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBhcHBOYW1lOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBtZXRob2ROYW1lOiBTdHJpbmc/ID0gInRhc2tGZWVkYmFjayIsCiAgICB2YWwgZmFjYWRlTmFtZTogU3RyaW5nPyA9IG51bGwKKSB7CiAgICBAVm9sYXRpbGUKICAgIHZhciBoYXNSZXN1bHQgPSBmYWxzZQogICAgQFZvbGF0aWxlCiAgICB2YXIgaGFzRXJyb3IgPSBmYWxzZQogICAgQFZvbGF0aWxlCiAgICB2YXIgcmVzcG9uc2VPYmplY3Q6IEFueT8gPSBudWxsCiAgICBAVm9sYXRpbGUKICAgIHZhciByZXNwb25zZVN0cmluZzogU3RyaW5nPyA9IG51bGwKICAgIC8qKgogICAgICog6K6+572u5ZON5bqU57uT5p6c5bm25qCH6K6w6K+35rGC5bey5a6M5oiQ44CCCiAgICAgKgogICAgICogQHBhcmFtIHJlc3VsdCAgICDlk43lupTnmoTlr7nosaEKICAgICAqIEBwYXJhbSByZXN1bHRTdHIg5ZON5bqU55qE5a2X56ym5Liy5b2i5byPCiAgICAgKi8KICAgIGZ1biBzZXRSZXNwb25zZU9iamVjdChyZXN1bHQ6IEFueT8sIHJlc3VsdFN0cjogU3RyaW5nPykgewogICAgICAgIHRoaXMuaGFzUmVzdWx0ID0gdHJ1ZSAvLyDmoIforrDor7fmsYLmnInnu5PmnpwKICAgICAgICB0aGlzLnJlc3BvbnNlT2JqZWN0ID0gcmVzdWx0CiAgICAgICAgLy8g56Gu5L+dIHJlc3BvbnNlU3RyaW5nIOS4jeS4uiBudWxs77yM6YG/5YWN5LiK5bGCIE5QRQogICAgICAgIHRoaXMucmVzcG9uc2VTdHJpbmcgPSByZXN1bHRTdHIgPzogIiIKICAgIH0KCiAgICAvKioKICAgICAqIOagh+iusOivt+axguS4uumUmeivr+eKtuaAgeOAggogICAgICovCiAgICBmdW4gc2V0RXJyb3IoKSB7CiAgICAgICAgdGhpcy5oYXNFcnJvciA9IHRydWUgLy8g5qCH6K6w6K+35rGC5Y+R55Sf6ZSZ6K+vCiAgICAgICAgLy8g56Gu5L+dIHJlc3BvbnNlU3RyaW5nIOS4jeS4uiBudWxs77yM6YG/5YWN5LiK5bGCIE5QRQogICAgICAgIGlmICh0aGlzLnJlc3BvbnNlU3RyaW5nID09IG51bGwpIHsKICAgICAgICAgICAgdGhpcy5yZXNwb25zZVN0cmluZyA9ICIiCiAgICAgICAgfQogICAgfQoKICAgIEBnZXQ6VGhyb3dzKEpTT05FeGNlcHRpb246OmNsYXNzKQogICAgdmFsIHJwY0Z1bGxSZXF1ZXN0RGF0YTogU3RyaW5nCiAgICAgICAgLyoqCiAgICAgICAgICog6I635Y+WUnBj6K+35rGC5a2X56ym5LiyCiAgICAgICAgICoKICAgICAgICAgKiBAcmV0dXJuIFJwY+ivt+axguWtl+espuS4sgogICAgICAgICAqIEB0aHJvd3MgSlNPTkV4Y2VwdGlvbiBqc29u6Kej5p6Q6ZSZ6K+v77yM6ZyA6KaB5aSE55CGCiAgICAgICAgICovCiAgICAgICAgZ2V0KCkgewogICAgICAgICAgICB2YWwgam8gPSBKU09OT2JqZWN0KCkKICAgICAgICAgICAgam8ucHV0KCJfX2FwaUNhbGxTdGFydFRpbWUiLCBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKICAgICAgICAgICAgLy8gW19fYXBpTmF0aXZlQ2FsbElkXeS4jeS8oOaYr+WQpuacieW9seWTje+8jOWPluWAvOWPiOWmguS9leiOt+WPlgogICAgICAgICAgICBqby5wdXQoImFwaUNhbGxMaW5rIiwgIlhSaXZlck5vdEZvdW5kIikKICAgICAgICAgICAgam8ucHV0KCJhcHBOYW1lIiwgdGhpcy5hcHBOYW1lKQogICAgICAgICAgICBqby5wdXQoImV4ZWNFbmdpbmUiLCAiWFJpdmVyIikKICAgICAgICAgICAgam8ucHV0KCJfX2FwaU5hdGl2ZUNhbGxJZCIsICJuYXRpdmVfIiArICgxMDAuLjIwMDApLnJhbmRvbSgpKQogICAgICAgICAgICBqby5wdXQoImZhY2FkZU5hbWUiLCB0aGlzLmZhY2FkZU5hbWUpCiAgICAgICAgICAgIGpvLnB1dCgibWV0aG9kTmFtZSIsIHRoaXMubWV0aG9kTmFtZSkKICAgICAgICAgICAgam8ucHV0KCJvcGVyYXRpb25UeXBlIiwgdGhpcy5yZXF1ZXN0TWV0aG9kKQogICAgICAgICAgICBqby5wdXQoInJlcXVlc3REYXRhIiwgdGhpcy5yZXF1ZXN0RGF0YSkKICAgICAgICAgICAgam8ucHV0KCJyZWxhdGlvbkxvY2FsIiwgdGhpcy5yZXF1ZXN0UmVsYXRpb24pCiAgICAgICAgICAgIGpvLnB1dCgid3VhIiwgU2VjdXJpdHlCb2R5SGVscGVyLmdldFNlY3VyaXR5Qm9keURhdGEoNCkudG9TdHJpbmcoKSkKICAgICAgICAgICAgam8ucHV0KCJ1c2VXdWEiLCB0cnVlKQogICAgICAgICAgICBqby5wdXQoImRpc2FibGVMaW1pdFZpZXciLCB0cnVlKQogICAgICAgICAgICByZXR1cm4gam8udG9TdHJpbmcoKQogICAgICAgIH0KfQo=
+package fansirsqi.xposed.sesame.entity
+
+import fansirsqi.xposed.sesame.hook.internal.SecurityBodyHelper
+import lombok.Getter
+import org.json.JSONException
+import org.json.JSONObject
+import kotlin.concurrent.Volatile
+
+/**
+ * 表示一个 RPC（远程过程调用）实体，用于封装请求和响应数据。
+ * 提供线程安全的响应和错误标识。
+ */
+@Getter
+class RpcEntity @JvmOverloads constructor(
+    val requestMethod: String? = null,
+    val requestData: String? = null,
+    val requestRelation: String? = null,
+    val appName: String? = null,
+    val methodName: String? = "taskFeedback",
+    val facadeName: String? = null
+) {
+    @Volatile
+    var hasResult = false
+    @Volatile
+    var hasError = false
+    @Volatile
+    var responseObject: Any? = null
+    @Volatile
+    var responseString: String? = null
+    /**
+     * 设置响应结果并标记请求已完成。
+     *
+     * @param result    响应的对象
+     * @param resultStr 响应的字符串形式
+     */
+    fun setResponseObject(result: Any?, resultStr: String?) {
+        this.hasResult = true // 标记请求有结果
+        this.responseObject = result
+        // 确保 responseString 不为 null，避免上层 NPE
+        this.responseString = resultStr ?: ""
+    }
+
+    /**
+     * 标记请求为错误状态。
+     */
+    fun setError() {
+        this.hasError = true // 标记请求发生错误
+        // 确保 responseString 不为 null，避免上层 NPE
+        if (this.responseString == null) {
+            this.responseString = ""
+        }
+    }
+
+    @get:Throws(JSONException::class)
+    val rpcFullRequestData: String
+        /**
+         * 获取Rpc请求字符串
+         *
+         * @return Rpc请求字符串
+         * @throws JSONException json解析错误，需要处理
+         */
+        get() {
+            val jo = JSONObject()
+            jo.put("__apiCallStartTime", System.currentTimeMillis())
+            // [__apiNativeCallId]不传是否有影响，取值又如何获取
+            jo.put("apiCallLink", "XRiverNotFound")
+            jo.put("appName", this.appName)
+            jo.put("execEngine", "XRiver")
+            jo.put("__apiNativeCallId", "native_" + (100..2000).random())
+            jo.put("facadeName", this.facadeName)
+            jo.put("methodName", this.methodName)
+            jo.put("operationType", this.requestMethod)
+            jo.put("requestData", this.requestData)
+            jo.put("relationLocal", this.requestRelation)
+            jo.put("wua", SecurityBodyHelper.getSecurityBodyData(4).toString())
+            jo.put("useWua", true)
+            jo.put("disableLimitView", true)
+            return jo.toString()
+        }
+}

@@ -1,1 +1,5 @@
-PHJlc291cmNlcz4KICAgIDxzdHJpbmctYXJyYXkgbmFtZT0ieHBvc2VkX3Njb3BlcyI+CiAgICAgICAgPGl0ZW0+Y29tLmVnLmFuZHJvaWQuQWxpcGF5R3Bob25lPC9pdGVtPgogICAgPC9zdHJpbmctYXJyYXk+CjwvcmVzb3VyY2VzPg==
+<resources>
+    <string-array name="xposed_scopes">
+        <item>com.eg.android.AlipayGphone</item>
+    </string-array>
+</resources>

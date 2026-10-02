@@ -1,1 +1,100 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuSGFuZGxlcgppbXBvcnQgYW5kcm9pZC5vcy5Mb29wZXIKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRvYXN0CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5CYXNlTW9kZWwuQ29tcGFuaW9uLnNob3dUb2FzdAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuQmFzZU1vZGVsLkNvbXBhbmlvbi50b2FzdE9mZnNldFkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLkJhc2VNb2RlbC5Db21wYW5pb24udG9hc3RQZXJmaXgKCm9iamVjdCBUb2FzdFV0aWwgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlRvYXN0VXRpbCIKICAgIHByaXZhdGUgdmFyIGFwcENvbnRleHQ6IENvbnRleHQ/ID0gbnVsbAoKICAgIGZ1biBpbml0KGNvbnRleHQ6IENvbnRleHQ/KSB7CiAgICAgICAgaWYgKGNvbnRleHQgIT0gbnVsbCkgewogICAgICAgICAgICBhcHBDb250ZXh0ID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dAogICAgICAgIGdldCgpIHsKICAgICAgICAgICAgY2hlY2tOb3ROdWxsKGFwcENvbnRleHQpIHsgIlRvYXN0VXRpbCBpcyBub3QgaW5pdGlhbGl6ZWQuIENhbGwgVG9hc3RVdGlsLmluaXQoY29udGV4dCkgaW4gQXBwbGljYXRpb24uIiB9CiAgICAgICAgICAgIHJldHVybiBhcHBDb250ZXh0ISEKICAgICAgICB9CgogICAgZnVuIHNob3dUb2FzdChtZXNzYWdlOiBTdHJpbmc/KSB7CiAgICAgICAgc2hvd1RvYXN0KGNvbnRleHQsIG1lc3NhZ2UpCiAgICB9CgogICAgZnVuIHNob3dUb2FzdChjb250ZXh0OiBDb250ZXh0PywgbWVzc2FnZTogU3RyaW5nPykgewogICAgICAgIC8vIDEuIOS/ruWkjemAu+i+kemUmeivr++8muWkhOeQhuWJjee8gOaLvOaOpQogICAgICAgIHZhciBmaW5hbE1lc3NhZ2UgPSBtZXNzYWdlCiAgICAgICAgdmFsIHNob3VsZFNob3cgPSBzaG93VG9hc3QudmFsdWUKICAgICAgICB2YWwgcHJlZml4ID0gdG9hc3RQZXJmaXgudmFsdWUKCiAgICAgIC8vICBMb2cucmVjb3JkKFRBRywgInByZWZpeDo6JHByZWZpeCIpCgogICAgICAgIC8vIOS/ruWkje+8muW/hemhu+WQjOaXtua7oei2syAi5LiN5Li656m6IiDkuJQgIuS4jeetieS6juWtl+espuS4sm51bGwiCiAgICAgICAgaWYgKCFwcmVmaXguaXNOdWxsT3JCbGFuaygpICYmIHByZWZpeCAhPSAibnVsbCIpIHsKICAgICAgICAgICAgZmluYWxNZXNzYWdlID0gIiRwcmVmaXg6JG1lc3NhZ2UiCiAgICAgICAgfQoKICAgICAgICBMb2cucmVjb3JkKFRBRywgInNob3dUb2FzdDo6JHNob3VsZFNob3c6OiRmaW5hbE1lc3NhZ2UiKQoKICAgICAgICBpZiAoc2hvdWxkU2hvdykgewogICAgICAgICAgICB2YWwgdG9hc3QgPSBUb2FzdC5tYWtlVGV4dChjb250ZXh0LCBmaW5hbE1lc3NhZ2UsIFRvYXN0LkxFTkdUSF9TSE9SVCkKICAgICAgICAgICAgLy8gMi4g5L+u5aSN57O757uf6ZSZ6K+v77yaQW5kcm9pZCAxMSAoQVBJIDMwKSDlj4rku6XkuIrnpoHmraLlr7nmlofmnKwgVG9hc3Qg6K6+572uIEdyYXZpdHkKICAgICAgICAgICAgc2V0VG9hc3RHcmF2aXR5KHRvYXN0KQogICAgICAgICAgICB0b2FzdC5zaG93KCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIG1ha2VUZXh0KGNvbnRleHQ6IENvbnRleHQ/LCBtZXNzYWdlOiBTdHJpbmc/LCBkdXJhdGlvbjogSW50KTogVG9hc3QgewogICAgICAgIHZhciBmaW5hbE1lc3NhZ2UgPSBtZXNzYWdlCiAgICAgICAgdmFsIHByZWZpeCA9IHRvYXN0UGVyZml4LnZhbHVlCgogICAgICAgLy8gTG9nLnJlY29yZChUQUcsICJwcmVmaXg6OiRwcmVmaXgiKQoKICAgICAgICAvLyDkv67lpI3pgLvovpEKICAgICAgICBpZiAoIXByZWZpeC5pc051bGxPckJsYW5rKCkgJiYgcHJlZml4ICE9ICJudWxsIikgewogICAgICAgICAgICBmaW5hbE1lc3NhZ2UgPSAiJHByZWZpeDokbWVzc2FnZSIKICAgICAgICB9CgogICAgICAgIHZhbCB0b2FzdCA9IFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsIGZpbmFsTWVzc2FnZSwgZHVyYXRpb24pCiAgICAgICAgLy8g5L+u5aSN57O757uf6ZSZ6K+vCiAgICAgICAgc2V0VG9hc3RHcmF2aXR5KHRvYXN0KQogICAgICAgIHJldHVybiB0b2FzdAogICAgfQoKICAgIGZ1biBtYWtlVGV4dChtZXNzYWdlOiBTdHJpbmc/LCBkdXJhdGlvbjogSW50KTogVG9hc3QgewogICAgICAgIHJldHVybiBtYWtlVGV4dChjb250ZXh0LCBtZXNzYWdlLCBkdXJhdGlvbikKICAgIH0KCiAgICBmdW4gc2hvd1RvYXN0V2l0aERlbGF5KGNvbnRleHQ6IENvbnRleHQ/LCBtZXNzYWdlOiBTdHJpbmc/LCBkZWxheU1pbGxpczogSW50KSB7CiAgICAgICAgSGFuZGxlcihMb29wZXIuZ2V0TWFpbkxvb3BlcigpKS5wb3N0RGVsYXllZCh7CiAgICAgICAgICAgIG1ha2VUZXh0KGNvbnRleHQsIG1lc3NhZ2UsIFRvYXN0LkxFTkdUSF9TSE9SVCkuc2hvdygpCiAgICAgICAgfSwgZGVsYXlNaWxsaXMudG9Mb25nKCkpCiAgICB9CgogICAgZnVuIHNob3dUb2FzdFdpdGhEZWxheShtZXNzYWdlOiBTdHJpbmc/LCBkZWxheU1pbGxpczogSW50KSB7CiAgICAgICAgSGFuZGxlcihMb29wZXIuZ2V0TWFpbkxvb3BlcigpKS5wb3N0RGVsYXllZCh7CiAgICAgICAgICAgIG1ha2VUZXh0KG1lc3NhZ2UsIFRvYXN0LkxFTkdUSF9TSE9SVCkuc2hvdygpCiAgICAgICAgfSwgZGVsYXlNaWxsaXMudG9Mb25nKCkpCiAgICB9CgogICAgLy8g5oq956a76K6+572uIEdyYXZpdHkg55qE6YC76L6RCiAgICBmdW4gc2V0VG9hc3RHcmF2aXR5KHRvYXN0OiBUb2FzdCkgewogICAgICAgIC8vIEFuZHJvaWQgMTEgKEFQSSAzMC9SKSDkuYvlkI7vvIxtYWtlVGV4dCDliJvlu7rnmoTmoIflh4bmlofmnKwgVG9hc3Qg56aB5q2i6Ieq5a6a5LmJ5L2N572uCiAgICAgICAgLy8g5bCd6K+V6K6+572u5Lya6KKr57O757uf5b+955Wl5bm25omT5Y2wIEVycm9yIOaXpeW/lwogICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPCBCdWlsZC5WRVJTSU9OX0NPREVTLlIpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHRvYXN0LnNldEdyYXZpdHkodG9hc3QuZ3Jhdml0eSwgdG9hc3QueE9mZnNldCwgdG9hc3RPZmZzZXRZLnZhbHVlKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.util
+
+import android.content.Context
+import android.os.Build
+import android.os.Handler
+import android.os.Looper
+import android.widget.Toast
+import fansirsqi.xposed.sesame.model.BaseModel.Companion.showToast
+import fansirsqi.xposed.sesame.model.BaseModel.Companion.toastOffsetY
+import fansirsqi.xposed.sesame.model.BaseModel.Companion.toastPerfix
+
+object ToastUtil {
+    private const val TAG = "ToastUtil"
+    private var appContext: Context? = null
+
+    fun init(context: Context?) {
+        if (context != null) {
+            appContext = context.applicationContext
+        }
+    }
+
+    private val context: Context
+        get() {
+            checkNotNull(appContext) { "ToastUtil is not initialized. Call ToastUtil.init(context) in Application." }
+            return appContext!!
+        }
+
+    fun showToast(message: String?) {
+        showToast(context, message)
+    }
+
+    fun showToast(context: Context?, message: String?) {
+        // 1. 修复逻辑错误：处理前缀拼接
+        var finalMessage = message
+        val shouldShow = showToast.value
+        val prefix = toastPerfix.value
+
+      //  Log.record(TAG, "prefix::$prefix")
+
+        // 修复：必须同时满足 "不为空" 且 "不等于字符串null"
+        if (!prefix.isNullOrBlank() && prefix != "null") {
+            finalMessage = "$prefix:$message"
+        }
+
+        Log.record(TAG, "showToast::$shouldShow::$finalMessage")
+
+        if (shouldShow) {
+            val toast = Toast.makeText(context, finalMessage, Toast.LENGTH_SHORT)
+            // 2. 修复系统错误：Android 11 (API 30) 及以上禁止对文本 Toast 设置 Gravity
+            setToastGravity(toast)
+            toast.show()
+        }
+    }
+
+    fun makeText(context: Context?, message: String?, duration: Int): Toast {
+        var finalMessage = message
+        val prefix = toastPerfix.value
+
+       // Log.record(TAG, "prefix::$prefix")
+
+        // 修复逻辑
+        if (!prefix.isNullOrBlank() && prefix != "null") {
+            finalMessage = "$prefix:$message"
+        }
+
+        val toast = Toast.makeText(context, finalMessage, duration)
+        // 修复系统错误
+        setToastGravity(toast)
+        return toast
+    }
+
+    fun makeText(message: String?, duration: Int): Toast {
+        return makeText(context, message, duration)
+    }
+
+    fun showToastWithDelay(context: Context?, message: String?, delayMillis: Int) {
+        Handler(Looper.getMainLooper()).postDelayed({
+            makeText(context, message, Toast.LENGTH_SHORT).show()
+        }, delayMillis.toLong())
+    }
+
+    fun showToastWithDelay(message: String?, delayMillis: Int) {
+        Handler(Looper.getMainLooper()).postDelayed({
+            makeText(message, Toast.LENGTH_SHORT).show()
+        }, delayMillis.toLong())
+    }
+
+    // 抽离设置 Gravity 的逻辑
+    fun setToastGravity(toast: Toast) {
+        // Android 11 (API 30/R) 之后，makeText 创建的标准文本 Toast 禁止自定义位置
+        // 尝试设置会被系统忽略并打印 Error 日志
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {
+            try {
+                toast.setGravity(toast.gravity, toast.xOffset, toastOffsetY.value)
+            } catch (e: Exception) {
+                Log.printStackTrace(TAG, e)
+            }
+        }
+    }
+}

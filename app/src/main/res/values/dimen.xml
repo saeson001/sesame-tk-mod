@@ -1,1 +1,5 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxkaW1lbiBuYW1lPSJzZXR0aW5nX2l0ZW1fcGFkZGluZyI+MTZkcDwvZGltZW4+CiAgICA8ZGltZW4gbmFtZT0ic3RhdHVzX2Jhcl9oZWlnaHQiPjI0ZHA8L2RpbWVuPgo8L3Jlc291cmNlcz4K
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setting_item_padding">16dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+</resources>

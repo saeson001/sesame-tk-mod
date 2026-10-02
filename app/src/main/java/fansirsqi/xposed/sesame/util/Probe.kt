@@ -1,1 +1,127 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRlbnRWYWx1ZXMKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLm9zLkVudmlyb25tZW50CmltcG9ydCBhbmRyb2lkLnByb3ZpZGVyLk1lZGlhU3RvcmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKLyoqCiAqIOWQr+WKqOaOoumSiO+8iFByb2Jl77yJCiAqCiAqIOeUqOmAlO+8muW9k+mXqumAgCoq5LiN5Lqn55SfIEphdmEg5pyq5o2V6I635byC5bi4Kirml7bvvIhuYXRpdmUgY3Jhc2ggLyBBTlIg5ZCO6L+b56iL6KKr5p2AIC8gQWN0aXZpdHkg6KKr57O757uf5Zue5pS277yJ77yMCiAqIENyYXNoTG9nZ2VyIOaYr+aLv+S4jeWIsOS7u+S9leS4nOilv+eahOOAglByb2JlIOmAgOS4gOatpe+8muWcqOWQr+WKqOmTvui3r+eahOWFs+mUruiKgueCueS4iuaMieW6j+WPt+eVmeeXle+8jAogKiDpgJrov4fjgIzmnIDlkI7kuIDkuKrlhpnlh7rmnaXnmoQgc3RhZ2Ug5paH5Lu244CN5Yik5pat6L+b56iL5q275Zyo5ZOq5LiA5q2l5LmL5ZCO44CCCiAqCiAqIOeVmeeXleS9jee9ru+8mgogKiBBLiDkuIvovb0vc2VzYW1lLVRLLWNyYXNoL3N0YWdlX1hYX+WQjeWtly50eHQgICDigJTigJQg5q+P5Liq6IqC54K55LiA5Liq5paH5Lu277yM55So5oi355So5paH5Lu2566h55CG5Zmo5Y2z5Y+v5oyJ5bqP5Y+355yLCiAqIEIuIGdldEV4dGVybmFsRmlsZXNEaXIoInN0YWdlIikvYm9vdC50eHQgICAgIOKAlOKAlCDov73liqDlhpnlhaXvvIzlhY3mnYPpmZDvvIzlhZzlupXnlKjvvIjmlofku7bnrqHnkIblmajlj6/og73nnIvkuI3liLDvvIkKICogQy4gbG9nY2F0IHRhZyA9IFNlc2FtZVByb2JlICAgICAgICAgICAgICAgICAg4oCU4oCUIOaciSBhZGIg5pe25pyA55u05o6lCiAqCiAqIOiuvuiuoeWOn+WIme+8muS7u+S9leaDheWGteS4i+mDveS4jeiDveWboOS4uuaOoumSiOiHqui6q+W8guW4uOiAjOW9seWTjeWuv+S4u+WQr+WKqOa1geeoi+OAggogKi8Kb2JqZWN0IFByb2JlIHsKCiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiU2VzYW1lUHJvYmUiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBET1dOTE9BRF9TVUJESVIgPSAic2VzYW1lLVRLLWNyYXNoIgogICAgcHJpdmF0ZSB2YWwgbG9jayA9IEFueSgpCgogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBhcHBDb250ZXh0OiBDb250ZXh0PyA9IG51bGwKCiAgICBmdW4gYXR0YWNoKGNvbnRleHQ6IENvbnRleHQ/KSB7CiAgICAgICAgaWYgKGNvbnRleHQgIT0gbnVsbCAmJiBhcHBDb250ZXh0ID09IG51bGwpIHsKICAgICAgICAgICAgYXBwQ29udGV4dCA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0ID86IGNvbnRleHQKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlnKjlkK/liqjpk77ot6/kuIrmiZPkuIDkuKrngrnjgIIKICAgICAqIEBwYXJhbSBvcmRlciDkuKTkvY3luo/lj7fvvIznlKjkuo7mlofku7bmjpLluo/vvIzkvovlpoIgMeOAgTLjgIExMOOAgTExCiAgICAgKiBAcGFyYW0gbmFtZSAg6IqC54K55ZCN77yM5L6L5aaCICJhcHAtY3JlYXRlLWVuZCIKICAgICAqIEBwYXJhbSBkZXRhaWwg6ZmE5Yqg5L+h5oGv77yI5Y+v6YCJ77yJCiAgICAgKi8KICAgIGZ1biBzdGVwKG9yZGVyOiBJbnQsIG5hbWU6IFN0cmluZywgZGV0YWlsOiBTdHJpbmcgPSAiIikgewogICAgICAgIHZhbCBsYWJlbCA9IFN0cmluZy5mb3JtYXQoTG9jYWxlLlVTLCAiJTAyZCIsIG9yZGVyKQogICAgICAgIHZhbCBmaWxlTmFtZSA9ICJzdGFnZV8ke2xhYmVsfV8ke25hbWV9LnR4dCIKICAgICAgICB2YWwgc3RhbXAgPSBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5LU1NLWRkIEhIOm1tOnNzLlNTUyIsIExvY2FsZS5nZXREZWZhdWx0KCkpLmZvcm1hdChEYXRlKCkpCiAgICAgICAgdmFsIGNvbnRlbnQgPSBidWlsZFN0cmluZyB7CiAgICAgICAgICAgIGFwcGVuZCgiPT09PT09PT0gU0VTQU1FLVRLIFBST0JFID09PT09PT09XG4iKQogICAgICAgICAgICBhcHBlbmQoInN0YWdlICAgOiAkbGFiZWwgJG5hbWVcbiIpCiAgICAgICAgICAgIGFwcGVuZCgidGltZSAgICA6ICRzdGFtcFxuIikKICAgICAgICAgICAgYXBwZW5kKCJwcm9jZXNzIDogJHtzYWZlUHJvY2Vzc05hbWUoKX1cbiIpCiAgICAgICAgICAgIGFwcGVuZCgidGhyZWFkICA6ICR7VGhyZWFkLmN1cnJlbnRUaHJlYWQoKS5uYW1lfVxuIikKICAgICAgICAgICAgaWYgKGRldGFpbC5pc05vdEVtcHR5KCkpIGFwcGVuZCgiZGV0YWlsICA6ICRkZXRhaWxcbiIpCiAgICAgICAgICAgIGFwcGVuZCgiZGV2aWNlICA6ICR7QnVpbGQuTUFOVUZBQ1RVUkVSfSAke0J1aWxkLk1PREVMfSAvICR7QnVpbGQuVkVSU0lPTi5SRUxFQVNFfSAoQVBJICR7QnVpbGQuVkVSU0lPTi5TREtfSU5UfSlcbiIpCiAgICAgICAgICAgIGFwcGVuZCgiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG5cbiIpCiAgICAgICAgfQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGFuZHJvaWQudXRpbC5Mb2cuaShUQUcsICJTVEVQICRsYWJlbCAkbmFtZSAke2lmIChkZXRhaWwuaXNFbXB0eSgpKSAiIiBlbHNlICJ8JGRldGFpbCJ9IikKICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHsKICAgICAgICB9CiAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyB3cml0ZVRvRG93bmxvYWRzKGZpbGVOYW1lLCBjb250ZW50KSB9CiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgYXBwZW5kVG9Qcml2YXRlKGNvbnRlbnQpIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqIEHvvJrkuIvovb3nm67lvZXvvIhNZWRpYVN0b3Jl77yM5peg6ZyA5Lu75L2V5p2D6ZmQ77yM5Lu75L2V5paH5Lu2566h55CG5Zmo5Y+v6KeB77yJICovCiAgICBwcml2YXRlIGZ1biB3cml0ZVRvRG93bmxvYWRzKGZpbGVOYW1lOiBTdHJpbmcsIGNvbnRlbnQ6IFN0cmluZykgewogICAgICAgIHZhbCBjdHggPSBhcHBDb250ZXh0ID86IHJldHVybgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5RKSB7CiAgICAgICAgICAgICAgICB2YWwgdmFsdWVzID0gQ29udGVudFZhbHVlcygpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICBwdXQoTWVkaWFTdG9yZS5NZWRpYUNvbHVtbnMuRElTUExBWV9OQU1FLCBmaWxlTmFtZSkKICAgICAgICAgICAgICAgICAgICBwdXQoTWVkaWFTdG9yZS5NZWRpYUNvbHVtbnMuTUlNRV9UWVBFLCAidGV4dC9wbGFpbiIpCiAgICAgICAgICAgICAgICAgICAgcHV0KAogICAgICAgICAgICAgICAgICAgICAgICBNZWRpYVN0b3JlLk1lZGlhQ29sdW1ucy5SRUxBVElWRV9QQVRILAogICAgICAgICAgICAgICAgICAgICAgICBFbnZpcm9ubWVudC5ESVJFQ1RPUllfRE9XTkxPQURTICsgRmlsZS5zZXBhcmF0b3IgKyBET1dOTE9BRF9TVUJESVIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgdXJpID0gY3R4LmNvbnRlbnRSZXNvbHZlci5pbnNlcnQoTWVkaWFTdG9yZS5Eb3dubG9hZHMuRVhURVJOQUxfQ09OVEVOVF9VUkksIHZhbHVlcykKICAgICAgICAgICAgICAgICAgICA/OiByZXR1cm4KICAgICAgICAgICAgICAgIGN0eC5jb250ZW50UmVzb2x2ZXIub3Blbk91dHB1dFN0cmVhbSh1cmkpPy51c2UgeyBpdC53cml0ZShjb250ZW50LnRvQnl0ZUFycmF5KCkpIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHZhbCBkaXIgPSBGaWxlKAogICAgICAgICAgICAgICAgICAgIEVudmlyb25tZW50LmdldEV4dGVybmFsU3RvcmFnZVB1YmxpY0RpcmVjdG9yeShFbnZpcm9ubWVudC5ESVJFQ1RPUllfRE9XTkxPQURTKSwKICAgICAgICAgICAgICAgICAgICBET1dOTE9BRF9TVUJESVIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGlmICghZGlyLmV4aXN0cygpKSBkaXIubWtkaXJzKCkKICAgICAgICAgICAgICAgIHZhbCBmID0gRmlsZShkaXIsIGZpbGVOYW1lKQogICAgICAgICAgICAgICAgRmlsZU91dHB1dFN0cmVhbShmLCB0cnVlKS51c2UgeyBpdC53cml0ZShjb250ZW50LnRvQnl0ZUFycmF5KCkpIH0KICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgZi5zZXRSZWFkYWJsZSh0cnVlLCBmYWxzZSkgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgfQogICAgfQoKICAgIC8qKiBC77ya6Ieq6Lqr5aSW6YOo56eB5pyJ55uu5b2V77yM5YWN5p2D6ZmQ5YWc5bqVICovCiAgICBwcml2YXRlIGZ1biBhcHBlbmRUb1ByaXZhdGUoY29udGVudDogU3RyaW5nKSB7CiAgICAgICAgdmFsIGN0eCA9IGFwcENvbnRleHQgPzogcmV0dXJuCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGRpciA9IGN0eC5nZXRFeHRlcm5hbEZpbGVzRGlyKCJzdGFnZSIpID86IHJldHVybgogICAgICAgICAgICBpZiAoIWRpci5leGlzdHMoKSkgZGlyLm1rZGlycygpCiAgICAgICAgICAgIHZhbCBmID0gRmlsZShkaXIsICJib290LnR4dCIpCiAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0oZiwgdHJ1ZSkudXNlIHsgaXQud3JpdGUoY29udGVudC50b0J5dGVBcnJheSgpKSB9CiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNhZmVQcm9jZXNzTmFtZSgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuUCkgewogICAgICAgICAgICAgICAgYW5kcm9pZC5hcHAuQXBwbGljYXRpb24uZ2V0UHJvY2Vzc05hbWUoKSA/OiAidW5rbm93biIKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICJ1bmtub3duIgogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgICJ1bmtub3duIgogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.util
+
+import android.content.ContentValues
+import android.content.Context
+import android.os.Build
+import android.os.Environment
+import android.provider.MediaStore
+import kotlinx.coroutines.delay
+import java.io.File
+import java.io.FileOutputStream
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+/**
+ * 启动探针（Probe）
+ *
+ * 用途：当闪退**不产生 Java 未捕获异常**时（native crash / ANR 后进程被杀 / Activity 被系统回收），
+ * CrashLogger 是拿不到任何东西的。Probe 退一步：在启动链路的关键节点上按序号留痕，
+ * 通过「最后一个写出来的 stage 文件」判断进程死在哪一步之后。
+ *
+ * 留痕位置：
+ * A. 下载/sesame-TK-crash/stage_XX_名字.txt   —— 每个节点一个文件，用户用文件管理器即可按序号看
+ * B. getExternalFilesDir("stage")/boot.txt     —— 追加写入，免权限，兜底用（文件管理器可能看不到）
+ * C. logcat tag = SesameProbe                  —— 有 adb 时最直接
+ *
+ * 设计原则：任何情况下都不能因为探针自身异常而影响宿主启动流程。
+ */
+object Probe {
+
+    private const val TAG = "SesameProbe"
+    private const val DOWNLOAD_SUBDIR = "sesame-TK-crash"
+    private val lock = Any()
+
+    @Volatile
+    private var appContext: Context? = null
+
+    fun attach(context: Context?) {
+        if (context != null && appContext == null) {
+            appContext = context.applicationContext ?: context
+        }
+    }
+
+    /**
+     * 在启动链路上打一个点。
+     * @param order 两位序号，用于文件排序，例如 1、2、10、11
+     * @param name  节点名，例如 "app-create-end"
+     * @param detail 附加信息（可选）
+     */
+    fun step(order: Int, name: String, detail: String = "") {
+        val label = String.format(Locale.US, "%02d", order)
+        val fileName = "stage_${label}_${name}.txt"
+        val stamp = SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.getDefault()).format(Date())
+        val content = buildString {
+            append("======== SESAME-TK PROBE ========\n")
+            append("stage   : $label $name\n")
+            append("time    : $stamp\n")
+            append("process : ${safeProcessName()}\n")
+            append("thread  : ${Thread.currentThread().name}\n")
+            if (detail.isNotEmpty()) append("detail  : $detail\n")
+            append("device  : ${Build.MANUFACTURER} ${Build.MODEL} / ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT})\n")
+            append("=================================\n\n")
+        }
+        try {
+            android.util.Log.i(TAG, "STEP $label $name ${if (detail.isEmpty()) "" else "|$detail"}")
+        } catch (_: Throwable) {
+        }
+        synchronized(lock) {
+            runCatching { writeToDownloads(fileName, content) }
+            runCatching { appendToPrivate(content) }
+        }
+    }
+
+    /** A：下载目录（MediaStore，无需任何权限，任何文件管理器可见） */
+    private fun writeToDownloads(fileName: String, content: String) {
+        val ctx = appContext ?: return
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                val values = ContentValues().apply {
+                    put(MediaStore.MediaColumns.DISPLAY_NAME, fileName)
+                    put(MediaStore.MediaColumns.MIME_TYPE, "text/plain")
+                    put(
+                        MediaStore.MediaColumns.RELATIVE_PATH,
+                        Environment.DIRECTORY_DOWNLOADS + File.separator + DOWNLOAD_SUBDIR
+                    )
+                }
+                val uri = ctx.contentResolver.insert(MediaStore.Downloads.EXTERNAL_CONTENT_URI, values)
+                    ?: return
+                ctx.contentResolver.openOutputStream(uri)?.use { it.write(content.toByteArray()) }
+            } else {
+                val dir = File(
+                    Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+                    DOWNLOAD_SUBDIR
+                )
+                if (!dir.exists()) dir.mkdirs()
+                val f = File(dir, fileName)
+                FileOutputStream(f, true).use { it.write(content.toByteArray()) }
+                runCatching { f.setReadable(true, false) }
+            }
+        } catch (_: Throwable) {
+        }
+    }
+
+    /** B：自身外部私有目录，免权限兜底 */
+    private fun appendToPrivate(content: String) {
+        val ctx = appContext ?: return
+        try {
+            val dir = ctx.getExternalFilesDir("stage") ?: return
+            if (!dir.exists()) dir.mkdirs()
+            val f = File(dir, "boot.txt")
+            FileOutputStream(f, true).use { it.write(content.toByteArray()) }
+        } catch (_: Throwable) {
+        }
+    }
+
+    private fun safeProcessName(): String {
+        return try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+                android.app.Application.getProcessName() ?: "unknown"
+            } else {
+                "unknown"
+            }
+        } catch (_: Throwable) {
+            "unknown"
+        }
+    }
+}

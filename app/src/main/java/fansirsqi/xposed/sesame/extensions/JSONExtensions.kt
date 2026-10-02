@@ -1,1 +1,75 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5leHRlbnNpb25zCgppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09ORXhjZXB0aW9uCgovLyDmiYDmnIlKU09O55u45YWz55qE5omp5bGV5Ye95pWw5pS+5Zyo6L+Z6YeMCgoKLyoqCiAqIEpTT04g55u45YWz5omp5bGV5Ye95pWw6ZuG5ZCICiAqLwpvYmplY3QgSlNPTkV4dGVuc2lvbnMgewoKICAgIC8qKgogICAgICog5a6J5YWo5Zyw5bCGIExpc3Q8U3RyaW5nPiDovazmjaLkuLogSlNPTkFycmF5CiAgICAgKiBAcmVjZWl2ZXIg5a2X56ym5Liy5YiX6KGo77yI5YWB6K645Li6bnVsbO+8jOi/lOWbnuepukpTT05BcnJhee+8iQogICAgICovCiAgICBmdW4gTGlzdDxTdHJpbmc+Py50b1NhZmVKU09OQXJyYXkoKTogSlNPTkFycmF5IHsKICAgICAgICByZXR1cm4gdGhpcz8ubGV0IHsgSlNPTkFycmF5KGl0KSB9ID86IEpTT05BcnJheSgpCiAgICB9CgogICAgLyoqCiAgICAgKiDlsIYgTXV0YWJsZUxpc3Q8U3RyaW5nPiDovazmjaLkuLogSlNPTkFycmF5CiAgICAgKiBAcmVjZWl2ZXIg5Y+v5Y+Y55qE5a2X56ym5Liy6ZuG5ZCICiAgICAgKiBAdGhyb3dzIEpTT05FeGNlcHRpb24g5aaC5p6c5YWD57Sg5YyF5ZCr5peg5pWI55qESlNPTuWAvAogICAgICovCiAgICBmdW4gTXV0YWJsZUxpc3Q8U3RyaW5nPi50b0pTT05BcnJheSgpOiBKU09OQXJyYXkgPSBKU09OQXJyYXkodGhpcykKCiAgICAvKioKICAgICAqIOWwhiBKU09OQXJyYXkg6L2s5o2i5Li6IE11dGFibGVMaXN0PFN0cmluZz4KICAgICAqIEByZWNlaXZlciBKU09O5pWw57uE5a+56LGhCiAgICAgKiBAdGhyb3dzIEpTT05FeGNlcHRpb24g5aaC5p6c5pWw57uE5YyF5ZCr6Z2e5a2X56ym5Liy5YWD57SgCiAgICAgKi8KICAgIGZ1biBKU09OQXJyYXkudG9NdXRhYmxlU3RyaW5nTGlzdCgpOiBNdXRhYmxlTGlzdDxTdHJpbmc+IHsKICAgICAgICByZXR1cm4gTXV0YWJsZUxpc3QobGVuZ3RoKCkpIHsgZ2V0U3RyaW5nKGl0KSB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlronlhajlnLDlsIYgSlNPTkFycmF5IOi9rOaNouS4uiBMaXN0PFN0cmluZz4KICAgICAqIEByZWNlaXZlciBKU09O5pWw57uE5a+56LGh77yI5YWB6K645Li6bnVsbO+8jOi/lOWbnuepuuWIl+ihqO+8iQogICAgICogQHBhcmFtIGRlZmF1bHQg6L2s5o2i5aSx6LSl5pe255qE6buY6K6k5YC8CiAgICAgKi8KICAgIGZ1biBKU09OQXJyYXk/LnRvU2FmZVN0cmluZ0xpc3QoZGVmYXVsdDogU3RyaW5nID0gIiIpOiBMaXN0PFN0cmluZz4gewogICAgICAgIGlmICh0aGlzID09IG51bGwpIHJldHVybiBlbXB0eUxpc3QoKQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBMaXN0KGxlbmd0aCgpKSB7IGdldFN0cmluZyhpdCkgPzogZGVmYXVsdCB9CiAgICAgICAgfSBjYXRjaCAoZTogSlNPTkV4Y2VwdGlvbikgewogICAgICAgICAgICBlbXB0eUxpc3QoKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWwhiBKU09OQXJyYXkg6L2s5o2i5Li65oyH5a6a57G75Z6L55qE5YiX6KGoCiAgICAgKiBAcGFyYW0gdHJhbnNmb3JtIOexu+Wei+i9rOaNouWHveaVsAogICAgICovCiAgICBpbmxpbmUgZnVuIDxyZWlmaWVkIFQ+IEpTT05BcnJheS50b0xpc3QodHJhbnNmb3JtOiAoQW55PykgLT4gVCk6IExpc3Q8VD4gewogICAgICAgIHJldHVybiBMaXN0KGxlbmd0aCgpKSB7IHRyYW5zZm9ybShnZXQoaXQpKSB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6UgSlNPTkFycmF5IOaYr+WQpuS4uuepugogICAgICovCiAgICBmdW4gSlNPTkFycmF5Py5pc051bGxPckVtcHR5KCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0aGlzID09IG51bGwgfHwgbGVuZ3RoKCkgPT0gMAogICAgfQoKICAgIC8qKgogICAgICog5aaC5p6cIEpTT05BcnJheSDkuLpudWxs5YiZ6L+U5Zue56m65pWw57uECiAgICAgKi8KICAgIGZ1biBKU09OQXJyYXk/Lm9yRW1wdHkoKTogSlNPTkFycmF5IHsKICAgICAgICByZXR1cm4gdGhpcyA/OiBKU09OQXJyYXkoKQogICAgfQp9CgoK
+package fansirsqi.xposed.sesame.extensions
+
+import org.json.JSONArray
+import org.json.JSONException
+
+// 所有JSON相关的扩展函数放在这里
+
+
+/**
+ * JSON 相关扩展函数集合
+ */
+object JSONExtensions {
+
+    /**
+     * 安全地将 List<String> 转换为 JSONArray
+     * @receiver 字符串列表（允许为null，返回空JSONArray）
+     */
+    fun List<String>?.toSafeJSONArray(): JSONArray {
+        return this?.let { JSONArray(it) } ?: JSONArray()
+    }
+
+    /**
+     * 将 MutableList<String> 转换为 JSONArray
+     * @receiver 可变的字符串集合
+     * @throws JSONException 如果元素包含无效的JSON值
+     */
+    fun MutableList<String>.toJSONArray(): JSONArray = JSONArray(this)
+
+    /**
+     * 将 JSONArray 转换为 MutableList<String>
+     * @receiver JSON数组对象
+     * @throws JSONException 如果数组包含非字符串元素
+     */
+    fun JSONArray.toMutableStringList(): MutableList<String> {
+        return MutableList(length()) { getString(it) }
+    }
+
+    /**
+     * 安全地将 JSONArray 转换为 List<String>
+     * @receiver JSON数组对象（允许为null，返回空列表）
+     * @param default 转换失败时的默认值
+     */
+    fun JSONArray?.toSafeStringList(default: String = ""): List<String> {
+        if (this == null) return emptyList()
+        return try {
+            List(length()) { getString(it) ?: default }
+        } catch (e: JSONException) {
+            emptyList()
+        }
+    }
+
+    /**
+     * 将 JSONArray 转换为指定类型的列表
+     * @param transform 类型转换函数
+     */
+    inline fun <reified T> JSONArray.toList(transform: (Any?) -> T): List<T> {
+        return List(length()) { transform(get(it)) }
+    }
+
+    /**
+     * 检查 JSONArray 是否为空
+     */
+    fun JSONArray?.isNullOrEmpty(): Boolean {
+        return this == null || length() == 0
+    }
+
+    /**
+     * 如果 JSONArray 为null则返回空数组
+     */
+    fun JSONArray?.orEmpty(): JSONArray {
+        return this ?: JSONArray()
+    }
+}
+
+

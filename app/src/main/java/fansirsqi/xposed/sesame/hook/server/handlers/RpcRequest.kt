@@ -1,1 +1,22 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnNlcnZlci5oYW5kbGVycwoKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLkpzb25JZ25vcmVQcm9wZXJ0aWVzCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uZGF0YWJpbmQuT2JqZWN0TWFwcGVyCgpASnNvbklnbm9yZVByb3BlcnRpZXMoaWdub3JlVW5rbm93biA9IHRydWUpCmRhdGEgY2xhc3MgUnBjUmVxdWVzdCgKICAgIHZhbCBtZXRob2ROYW1lOiBTdHJpbmcgPSAiIiwKICAgIC8vIOWFgeiuuOaOpeaUtiBTdHJpbmcg5oiWIEpTT04gT2JqZWN0CiAgICB2YWwgcmVxdWVzdERhdGE6IEFueT8gPSBudWxsCikgewogICAgLyoqCiAgICAgKiDlsIYgcmVxdWVzdERhdGEg5a6J5YWo6L2s5o2i5Li65a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBnZXRSZXF1ZXN0RGF0YVN0cmluZyhtYXBwZXI6IE9iamVjdE1hcHBlcik6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHdoZW4gKHJlcXVlc3REYXRhKSB7CiAgICAgICAgICAgIGlzIFN0cmluZyAtPiByZXF1ZXN0RGF0YSAvLyDlpoLmnpzkvKDnmoTmmK/lrZfnrKbkuLLvvIznm7TmjqXnlKgKICAgICAgICAgICAgbnVsbCAtPiAiIgogICAgICAgICAgICBlbHNlIC0+IG1hcHBlci53cml0ZVZhbHVlQXNTdHJpbmcocmVxdWVzdERhdGEpIC8vIOWmguaenOaYr+WvueixoS/mlbDnu4TvvIzovazlm54gSlNPTiDkuLIKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.hook.server.handlers
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+import com.fasterxml.jackson.databind.ObjectMapper
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+data class RpcRequest(
+    val methodName: String = "",
+    // 允许接收 String 或 JSON Object
+    val requestData: Any? = null
+) {
+    /**
+     * 将 requestData 安全转换为字符串
+     */
+    fun getRequestDataString(mapper: ObjectMapper): String {
+        return when (requestData) {
+            is String -> requestData // 如果传的是字符串，直接用
+            null -> ""
+            else -> mapper.writeValueAsString(requestData) // 如果是对象/数组，转回 JSON 串
+        }
+    }
+}

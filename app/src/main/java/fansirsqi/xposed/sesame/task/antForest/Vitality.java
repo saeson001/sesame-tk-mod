@@ -1,1 +1,229 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZvcmVzdDsKCmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXk7CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0OwoKaW1wb3J0IGphdmEudXRpbC5IYXNoTWFwOwppbXBvcnQgamF2YS51dGlsLk1hcDsKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuVml0YWxpdHlTdG9yZS5FeGNoYW5nZVN0YXR1czsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLklkTWFwTWFuYWdlcjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5Vc2VyTWFwOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLlZpdGFsaXR5UmV3YXJkc01hcDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuUmVzQ2hlY2tlcjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuU3RhdHVzOwoKLyoqCiAqIEBhdXRob3IgQnlzZXZlbgogKiBAYXBpTm90ZQogKiBAc2VlIDIwMjUvMS8yMAogKi8KcHVibGljIGNsYXNzIFZpdGFsaXR5IHsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBUQUcgPSBWaXRhbGl0eS5jbGFzcy5nZXRTaW1wbGVOYW1lKCk7CiAgICBzdGF0aWMgTWFwPFN0cmluZywgSlNPTk9iamVjdD4gc2t1SW5mbyA9IG5ldyBIYXNoTWFwPD4oKTsKCiAgICBwdWJsaWMgc3RhdGljIEpTT05BcnJheSBJdGVtTGlzdEJ5VHlwZShTdHJpbmcgbGFiZWxUeXBlKSB7CiAgICAgICAgSlNPTkFycmF5IGl0ZW1JbmZvVk9MaXN0ID0gbnVsbDsKICAgICAgICB0cnkgewogICAgICAgICAgICBKU09OT2JqZWN0IGpvID0gbmV3IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5pdGVtTGlzdChsYWJlbFR5cGUpKTsKICAgICAgICAgICAgaWYgKFJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHICsgIuafpeivouajruael+a0u+WKm+WAvOWVhuWTgeWIl+ihqOWksei0pToiLCBqbykpIHsKICAgICAgICAgICAgICAgIGl0ZW1JbmZvVk9MaXN0ID0gam8ub3B0SlNPTkFycmF5KCJpdGVtSW5mb1ZPTGlzdCIpOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoVGhyb3dhYmxlIHRoKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiSXRlbUxpc3RCeVR5cGUgZXJyIik7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCB0aCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBpdGVtSW5mb1ZPTGlzdDsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgSXRlbURldGFpbEJ5U3B1SWQoU3RyaW5nIHNwdUlkKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgSlNPTk9iamVjdCBqbyA9IG5ldyBKU09OT2JqZWN0KEFudEZvcmVzdFJwY0NhbGwuaXRlbURldGFpbChzcHVJZCkpOwogICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcgKyAi5p+l6K+i5qOu5p6X5rS75Yqb5YC85ZWG5ZOB6K+m5oOF5aSx6LSlOiIsIGpvKSkgewogICAgICAgICAgICAgICAgSlNPTk9iamVjdCBJdGVtRGV0YWlsID0gam8uZ2V0SlNPTk9iamVjdCgic3B1SXRlbUluZm9WTyIpOwogICAgICAgICAgICAgICAgaGFuZGxlSXRlbURldGFpbChJdGVtRGV0YWlsKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0aCkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIkl0ZW1EZXRhaWxCeVNwdUlkIGVyciIpOwogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdGgpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgaW5pdFZpdGFsaXR5KFN0cmluZyBsYWJlbFR5cGUpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBKU09OQXJyYXkgaXRlbUluZm9WT0xpc3QgPSBJdGVtTGlzdEJ5VHlwZShsYWJlbFR5cGUpOwogICAgICAgICAgICBpZiAoaXRlbUluZm9WT0xpc3QgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBpdGVtSW5mb1ZPTGlzdC5sZW5ndGgoKTsgaSsrKSB7CiAgICAgICAgICAgICAgICAgICAgSlNPTk9iamVjdCBpdGVtSW5mb1ZPID0gaXRlbUluZm9WT0xpc3QuZ2V0SlNPTk9iamVjdChpKTsKICAgICAgICAgICAgICAgICAgICBoYW5kbGVWaXRhbGl0eUl0ZW0oaXRlbUluZm9WTyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5rS75Yqb5YWR5o2i8J+Ng+WIneWni+WMluWksei0pe+8gSIpOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoVGhyb3dhYmxlIHRoKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiaW5pdFZpdGFsaXR5IGVyciIpOwogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdGgpOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIGhhbmRsZVZpdGFsaXR5SXRlbShKU09OT2JqZWN0IHZpdGFsaXR5SXRlbSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8v5rW35rSL6ZqP5py65ou85Zu+c2t1TW9kZWxMaXN06IqC54K55LiL5rKh5pyJc3B1SWQKICAgICAgICAgICAgU3RyaW5nIHNwdUlkID0gdml0YWxpdHlJdGVtLm9wdFN0cmluZygic3B1SWQiKTsKICAgICAgICAgICAgSlNPTkFycmF5IHNrdU1vZGVsTGlzdCA9IHZpdGFsaXR5SXRlbS5nZXRKU09OQXJyYXkoInNrdU1vZGVsTGlzdCIpOwogICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHNrdU1vZGVsTGlzdC5sZW5ndGgoKTsgaSsrKSB7CiAgICAgICAgICAgICAgICBKU09OT2JqZWN0IHNrdU1vZGVsID0gc2t1TW9kZWxMaXN0LmdldEpTT05PYmplY3QoaSk7CiAgICAgICAgICAgICAgICBTdHJpbmcgc2t1SWQgPSBza3VNb2RlbC5nZXRTdHJpbmcoInNrdUlkIik7CiAgICAgICAgICAgICAgICBTdHJpbmcgb2RlckluZm87CiAgICAgICAgICAgICAgICBTdHJpbmcgc2t1TmFtZSA9IHNrdU1vZGVsLmdldFN0cmluZygic2t1TmFtZSIpOwogICAgICAgICAgICAgICAgaW50IHByaWNlID0gc2t1TW9kZWwuZ2V0SlNPTk9iamVjdCgicHJpY2UiKS5nZXRJbnQoImFtb3VudCIpOwogICAgICAgICAgICAgICAgb2RlckluZm8gPSBza3VOYW1lICsgIlxu5Lu35qC8IiArIHByaWNlICsgIvCfjYPmtLvlipvlgLwiOwogICAgICAgICAgICAgICAgaWYgKHNrdU5hbWUuY29udGFpbnMoIuiDvemHj+mbqCIpIHx8IHNrdU5hbWUuY29udGFpbnMoIuaVpueFjCIpIHx8IHNrdU5hbWUuY29udGFpbnMoIuS/neaKpOe9qSIpIHx8IHNrdU5hbWUuY29udGFpbnMoIua1t+a0iyIpIHx8IHNrdU5hbWUuY29udGFpbnMoIueJqeenjSIpIHx8IHNrdU5hbWUuY29udGFpbnMoIuaUtuiDvemHjyIpIHx8IHNrdU5hbWUuY29udGFpbnMoIumakOi6qyIpKSB7CiAgICAgICAgICAgICAgICAgICAgb2RlckluZm8gPSBza3VOYW1lICsgIlxu5Lu35qC8IiArIHByaWNlICsgIvCfjYPmtLvlipvlgLwiICsgIlxu5q+P5pel6ZmQ5pe25YWRMeS4qiI7CiAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKHNrdU5hbWUuZXF1YWxzKCLpmZDml7YzMeWkqeWGheS9v+eUqDMx5aSp6ZW/5pWI5Y+M5Ye75Y2hIikpIHsKICAgICAgICAgICAgICAgICAgICBvZGVySW5mbyA9IHNrdU5hbWUgKyAiXG7ku7fmoLwiICsgcHJpY2UgKyAi8J+Ng+a0u+WKm+WAvCIgKyAiXG7mr4/mnIjpmZDml7blhZEx5Liq77yM6K6w5b6X5YWz77yM6Im5IjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICghc2t1TW9kZWwuaGFzKCJzcHVJZCIpKSB7CiAgICAgICAgICAgICAgICAgICAgc2t1TW9kZWwucHV0KCJzcHVJZCIsIHNwdUlkKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHNrdUluZm8ucHV0KHNrdUlkLCBza3VNb2RlbCk7CiAgICAgICAgICAgICAgICBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoVml0YWxpdHlSZXdhcmRzTWFwLmNsYXNzKS5hZGQoc2t1SWQsIG9kZXJJbmZvKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoVml0YWxpdHlSZXdhcmRzTWFwLmNsYXNzKS5zYXZlKFVzZXJNYXAuSU5TVEFOQ0UuZ2V0Q3VycmVudFVpZCgpKTsKICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdGgpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJoYW5kbGVWaXRhbGl0eUl0ZW0gZXJyIik7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCB0aCk7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIHZvaWQgaGFuZGxlSXRlbURldGFpbChKU09OT2JqZWN0IEl0ZW1EZXRhaWwpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBTdHJpbmcgc3B1SWQgPSBJdGVtRGV0YWlsLmdldFN0cmluZygic3B1SWQiKTsKICAgICAgICAgICAgSlNPTkFycmF5IHNrdU1vZGVsTGlzdCA9IEl0ZW1EZXRhaWwuZ2V0SlNPTkFycmF5KCJza3VNb2RlbExpc3QiKTsKICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBza3VNb2RlbExpc3QubGVuZ3RoKCk7IGkrKykgewogICAgICAgICAgICAgICAgSlNPTk9iamVjdCBza3VNb2RlbCA9IHNrdU1vZGVsTGlzdC5nZXRKU09OT2JqZWN0KGkpOwogICAgICAgICAgICAgICAgU3RyaW5nIHNrdUlkID0gc2t1TW9kZWwuZ2V0U3RyaW5nKCJza3VJZCIpOwogICAgICAgICAgICAgICAgU3RyaW5nIHNrdU5hbWUgPSBza3VNb2RlbC5nZXRTdHJpbmcoInNrdU5hbWUiKTsKICAgICAgICAgICAgICAgIGlmICghc2t1TW9kZWwuaGFzKCJzcHVJZCIpKSB7CiAgICAgICAgICAgICAgICAgICAgc2t1TW9kZWwucHV0KCJzcHVJZCIsIHNwdUlkKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHNrdUluZm8ucHV0KHNrdUlkLCBza3VNb2RlbCk7CiAgICAgICAgICAgICAgICBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoVml0YWxpdHlSZXdhcmRzTWFwLmNsYXNzKS5hZGQoc2t1SWQsIHNrdU5hbWUpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShWaXRhbGl0eVJld2FyZHNNYXAuY2xhc3MpLnNhdmUoVXNlck1hcC5JTlNUQU5DRS5nZXRDdXJyZW50VWlkKCkpOwogICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0aCkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgImhhbmRsZUl0ZW1EZXRhaWwgZXJyOiIpOwogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdGgpOwogICAgICAgIH0KICAgIH0KCiAgICAvKgogICAgICog5YWR5o2i5rS75Yqb5YC85ZWG5ZOBCiAgICAgKiBza3UKICAgICAqIHNwdUlkLCBza3VJZCwgc2t1TmFtZSwgZXhjaGFuZ2VkQ291bnQsIHByaWNlW2Ftb3VudF0KICAgICAqIGV4Y2hhbmdlZENvdW50ID09IDAuLi4uLi4KICAgICAqLwogICAgcHVibGljIHN0YXRpYyBCb29sZWFuIGhhbmRsZVZpdGFsaXR5RXhjaGFuZ2UoU3RyaW5nIHNrdUlkKSB7CiAgICAgICAgLy8g5qOA5p+l5piv5ZCm5bey57uP6L6+5Yiw5LuK5pel5YWR5o2i5LiK6ZmQCiAgICAgICAgaWYgKFN0YXR1cy5oYXNGbGFnVG9kYXkoImZvcmVzdDo6Vml0YWxpdHlFeGNoYW5nZUxpbWl0OjoiICsgc2t1SWQpKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5rS75Yqb5YWR5o2i8J+Ng1siICsgc2t1SWQgKyAiXeS7iuaXpeW3sui+vuS4iumZkO+8jOi3s+i/h+WFkeaNoiIpOwogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQoKICAgICAgICBpZiAoc2t1SW5mby5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgaW5pdFZpdGFsaXR5KCJTQ19BU1NFVFMiKTsKICAgICAgICB9CiAgICAgICAgSlNPTk9iamVjdCBza3UgPSBza3VJbmZvLmdldChza3VJZCk7CiAgICAgICAgaWYgKHNrdSA9PSBudWxsKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5rS75Yqb5YWR5o2i8J+Ng+aJvuS4jeWIsOimgeWFkeaNoueahOadg+ebiu+8gSIpOwogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIFN0cmluZyBza3VOYW1lID0gc2t1LmdldFN0cmluZygic2t1TmFtZSIpOwogICAgICAgICAgICBKU09OQXJyYXkgaXRlbVN0YXR1c0xpc3QgPSBza3UuZ2V0SlNPTkFycmF5KCJpdGVtU3RhdHVzTGlzdCIpOwogICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGl0ZW1TdGF0dXNMaXN0Lmxlbmd0aCgpOyBpKyspIHsKICAgICAgICAgICAgICAgIFN0cmluZyBpdGVtU3RhdHVzID0gaXRlbVN0YXR1c0xpc3QuZ2V0U3RyaW5nKGkpOwogICAgICAgICAgICAgICAgRXhjaGFuZ2VTdGF0dXMgU3RhdHVzID0gRXhjaGFuZ2VTdGF0dXMudmFsdWVPZihpdGVtU3RhdHVzKTsKICAgICAgICAgICAgICAgIGlmIChTdGF0dXMubmFtZSgpLmVxdWFscyhpdGVtU3RhdHVzKSB8fCBTdGF0dXMubmFtZSgpLmVxdWFscyhpdGVtU3RhdHVzKSB8fCBTdGF0dXMubmFtZSgpLmVxdWFscyhpdGVtU3RhdHVzKSkgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5rS75Yqb5YWR5o2i8J+Ng1siICsgc2t1TmFtZSArICJd5YGc5q2iOiIgKyBTdGF0dXMuZ2V0Tmlja05hbWUoKSk7CiAgICAgICAgICAgICAgICAgICAgaWYgKEV4Y2hhbmdlU3RhdHVzLlJFQUNIX0xJTUlULm5hbWUoKS5lcXVhbHMoaXRlbVN0YXR1cykpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZGF0YS5TdGF0dXMuc2V0RmxhZ1RvZGF5KCJmb3Jlc3Q6OlZpdGFsaXR5RXhjaGFuZ2VMaW1pdDo6IiArIHNrdUlkKTsKICAgICAgICAgICAgICAgICAgICAgICAgTG9nLmZvcmVzdCgi5rS75Yqb5YWR5o2i8J+Ng1siICsgc2t1TmFtZSArICJd5bey6L6+5LiK6ZmQLOWBnOatouWFkeaNou+8gSIpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3RyaW5nIHNwdUlkID0gc2t1LmdldFN0cmluZygic3B1SWQiKTsKICAgICAgICAgICAgaWYgKFZpdGFsaXR5RXhjaGFuZ2Uoc3B1SWQsIHNrdUlkLCBza3VOYW1lKSkgewogICAgICAgICAgICAgICAgaWYgKHNrdU5hbWUuY29udGFpbnMoIumZkOaXtiIpKSB7CiAgICAgICAgICAgICAgICAgICAgU3RhdHVzLnNldEZsYWdUb2RheSgiZm9yZXN0OjpWaXRhbGl0eUV4Y2hhbmdlTGltaXQ6OiIgKyBza3VJZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBJdGVtRGV0YWlsQnlTcHVJZChzcHVJZCk7CiAgICAgICAgfSBjYXRjaCAoVGhyb3dhYmxlIHRoKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiVml0YWxpdHlFeGNoYW5nZSBlcnIiKTsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsIHRoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgQm9vbGVhbiBWaXRhbGl0eUV4Y2hhbmdlKFN0cmluZyBzcHVJZCwgU3RyaW5nIHNrdUlkLCBTdHJpbmcgc2t1TmFtZSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChWaXRhbGl0eUV4Y2hhbmdlKHNwdUlkLCBza3VJZCkpIHsKICAgICAgICAgICAgICAgIFN0YXR1cy52aXRhbGl0eUV4Y2hhbmdlVG9kYXkoc2t1SWQpOwogICAgICAgICAgICAgICAgaW50IGV4Y2hhbmdlZENvdW50ID0gU3RhdHVzLmdldFZpdGFsaXR5Q291bnQoc2t1SWQpOwogICAgICAgICAgICAgICAgTG9nLmZvcmVzdCgi5rS75Yqb5YWR5o2i8J+Ng1siICsgc2t1TmFtZSArICJdI+esrCIgKyBleGNoYW5nZWRDb3VudCArICLmrKEiKTsKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoVGhyb3dhYmxlIHRoKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiVml0YWxpdHlFeGNoYW5nZSBlcnI6IiArIHNwdUlkICsgIiwiICsgc2t1SWQpOwogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdGgpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgQm9vbGVhbiBWaXRhbGl0eUV4Y2hhbmdlKFN0cmluZyBzcHVJZCwgU3RyaW5nIHNrdUlkKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgSlNPTk9iamVjdCBqbyA9IG5ldyBKU09OT2JqZWN0KEFudEZvcmVzdFJwY0NhbGwuZXhjaGFuZ2VCZW5lZml0KHNwdUlkLCBza3VJZCkpOwogICAgICAgICAgICBpZiAoIWpvLm9wdEJvb2xlYW4oInN1Y2Nlc3MiKSkgewogICAgICAgICAgICAgICAgU3RyaW5nIHJlc3VsdENvZGUgPSBqby5vcHRTdHJpbmcoInJlc3VsdENvZGUiLCAiIik7CiAgICAgICAgICAgICAgICBpZiAoIlFVT1RBX1VTRVJfTk9UX0VOT1VHSCIuZXF1YWxzKHJlc3VsdENvZGUpKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmZvcmVzdCgi5rS75Yqb5YWR5o2i8J+Ng1vlhZHmjaLmrKHmlbDlt7Lovr7kuIrpmZBdIyIgKyBqby5vcHRTdHJpbmcoInJlc3VsdERlc2MiLCAiIikpOwogICAgICAgICAgICAgICAgICAgIFN0YXR1cy5zZXRGbGFnVG9kYXkoImZvcmVzdDo6Vml0YWxpdHlFeGNoYW5nZUxpbWl0OjoiICsgc2t1SWQpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcgKyAi5qOu5p6X5rS75Yqb5YC85YWR5o2i5aSx6LSlOiIsIGpvKTsKICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdGgpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJWaXRhbGl0eUV4Y2hhbmdlIGVycjoiICsgc3B1SWQgKyAiLCIgKyBza3VJZCk7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCB0aCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICAvKioKICAgICAqIOafpeaJvuWVhuW6l+mBk+WFtwogICAgICoKICAgICAqIEBwYXJhbSBzcHVOYW1lIHh4eAogICAgICovCiAgICBwdWJsaWMgc3RhdGljIEpTT05PYmplY3QgZmluZFNrdUluZm9CeVNrdU5hbWUoU3RyaW5nIHNwdU5hbWUpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoc2t1SW5mby5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIGluaXRWaXRhbGl0eSgiU0NfQVNTRVRTIik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZm9yIChTdHJpbmcga2V5IDogc2t1SW5mby5rZXlTZXQoKSkgewogICAgICAgICAgICAgICAgSlNPTk9iamVjdCBza3UgPSBza3VJbmZvLmdldChrZXkpOwogICAgICAgICAgICAgICAgYXNzZXJ0IHNrdSAhPSBudWxsOwogICAgICAgICAgICAgICAgaWYgKHNrdS5nZXRTdHJpbmcoInNrdU5hbWUiKS5jb250YWlucyhzcHVOYW1lKSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBza3U7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgImZpbmRTa3VJbmZvQnlTa3VOYW1lIGVycjoiKTsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsIGUpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.task.antForest;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import fansirsqi.xposed.sesame.entity.VitalityStore.ExchangeStatus;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.maps.IdMapManager;
+import fansirsqi.xposed.sesame.util.maps.UserMap;
+import fansirsqi.xposed.sesame.util.maps.VitalityRewardsMap;
+import fansirsqi.xposed.sesame.util.ResChecker;
+import fansirsqi.xposed.sesame.data.Status;
+
+/**
+ * @author Byseven
+ * @apiNote
+ * @see 2025/1/20
+ */
+public class Vitality {
+    private static final String TAG = Vitality.class.getSimpleName();
+    static Map<String, JSONObject> skuInfo = new HashMap<>();
+
+    public static JSONArray ItemListByType(String labelType) {
+        JSONArray itemInfoVOList = null;
+        try {
+            JSONObject jo = new JSONObject(AntForestRpcCall.itemList(labelType));
+            if (ResChecker.checkRes(TAG + "查询森林活力值商品列表失败:", jo)) {
+                itemInfoVOList = jo.optJSONArray("itemInfoVOList");
+            }
+        } catch (Throwable th) {
+            Log.record(TAG, "ItemListByType err");
+            Log.printStackTrace(TAG, th);
+        }
+        return itemInfoVOList;
+    }
+
+    public static void ItemDetailBySpuId(String spuId) {
+        try {
+            JSONObject jo = new JSONObject(AntForestRpcCall.itemDetail(spuId));
+            if (ResChecker.checkRes(TAG + "查询森林活力值商品详情失败:", jo)) {
+                JSONObject ItemDetail = jo.getJSONObject("spuItemInfoVO");
+                handleItemDetail(ItemDetail);
+            }
+        } catch (Throwable th) {
+            Log.record(TAG, "ItemDetailBySpuId err");
+            Log.printStackTrace(TAG, th);
+        }
+    }
+
+    public static void initVitality(String labelType) {
+        try {
+            JSONArray itemInfoVOList = ItemListByType(labelType);
+            if (itemInfoVOList != null) {
+                for (int i = 0; i < itemInfoVOList.length(); i++) {
+                    JSONObject itemInfoVO = itemInfoVOList.getJSONObject(i);
+                    handleVitalityItem(itemInfoVO);
+                }
+            } else {
+                Log.error(TAG, "活力兑换🍃初始化失败！");
+            }
+        } catch (Throwable th) {
+            Log.record(TAG, "initVitality err");
+            Log.printStackTrace(TAG, th);
+        }
+    }
+
+    private static void handleVitalityItem(JSONObject vitalityItem) {
+        try {
+            //海洋随机拼图skuModelList节点下没有spuId
+            String spuId = vitalityItem.optString("spuId");
+            JSONArray skuModelList = vitalityItem.getJSONArray("skuModelList");
+            for (int i = 0; i < skuModelList.length(); i++) {
+                JSONObject skuModel = skuModelList.getJSONObject(i);
+                String skuId = skuModel.getString("skuId");
+                String oderInfo;
+                String skuName = skuModel.getString("skuName");
+                int price = skuModel.getJSONObject("price").getInt("amount");
+                oderInfo = skuName + "\n价格" + price + "🍃活力值";
+                if (skuName.contains("能量雨") || skuName.contains("敦煌") || skuName.contains("保护罩") || skuName.contains("海洋") || skuName.contains("物种") || skuName.contains("收能量") || skuName.contains("隐身")) {
+                    oderInfo = skuName + "\n价格" + price + "🍃活力值" + "\n每日限时兑1个";
+                } else if (skuName.equals("限时31天内使用31天长效双击卡")) {
+                    oderInfo = skuName + "\n价格" + price + "🍃活力值" + "\n每月限时兑1个，记得关，艹";
+                }
+                if (!skuModel.has("spuId")) {
+                    skuModel.put("spuId", spuId);
+                }
+                skuInfo.put(skuId, skuModel);
+                IdMapManager.getInstance(VitalityRewardsMap.class).add(skuId, oderInfo);
+            }
+            IdMapManager.getInstance(VitalityRewardsMap.class).save(UserMap.INSTANCE.getCurrentUid());
+        } catch (Throwable th) {
+            Log.record(TAG, "handleVitalityItem err");
+            Log.printStackTrace(TAG, th);
+        }
+    }
+
+    private static void handleItemDetail(JSONObject ItemDetail) {
+        try {
+            String spuId = ItemDetail.getString("spuId");
+            JSONArray skuModelList = ItemDetail.getJSONArray("skuModelList");
+            for (int i = 0; i < skuModelList.length(); i++) {
+                JSONObject skuModel = skuModelList.getJSONObject(i);
+                String skuId = skuModel.getString("skuId");
+                String skuName = skuModel.getString("skuName");
+                if (!skuModel.has("spuId")) {
+                    skuModel.put("spuId", spuId);
+                }
+                skuInfo.put(skuId, skuModel);
+                IdMapManager.getInstance(VitalityRewardsMap.class).add(skuId, skuName);
+            }
+            IdMapManager.getInstance(VitalityRewardsMap.class).save(UserMap.INSTANCE.getCurrentUid());
+        } catch (Throwable th) {
+            Log.record(TAG, "handleItemDetail err:");
+            Log.printStackTrace(TAG, th);
+        }
+    }
+
+    /*
+     * 兑换活力值商品
+     * sku
+     * spuId, skuId, skuName, exchangedCount, price[amount]
+     * exchangedCount == 0......
+     */
+    public static Boolean handleVitalityExchange(String skuId) {
+        // 检查是否已经达到今日兑换上限
+        if (Status.hasFlagToday("forest::VitalityExchangeLimit::" + skuId)) {
+            Log.record(TAG, "活力兑换🍃[" + skuId + "]今日已达上限，跳过兑换");
+            return false;
+        }
+
+        if (skuInfo.isEmpty()) {
+            initVitality("SC_ASSETS");
+        }
+        JSONObject sku = skuInfo.get(skuId);
+        if (sku == null) {
+            Log.record(TAG, "活力兑换🍃找不到要兑换的权益！");
+            return false;
+        }
+        try {
+            String skuName = sku.getString("skuName");
+            JSONArray itemStatusList = sku.getJSONArray("itemStatusList");
+            for (int i = 0; i < itemStatusList.length(); i++) {
+                String itemStatus = itemStatusList.getString(i);
+                ExchangeStatus Status = ExchangeStatus.valueOf(itemStatus);
+                if (Status.name().equals(itemStatus) || Status.name().equals(itemStatus) || Status.name().equals(itemStatus)) {
+                    Log.record(TAG, "活力兑换🍃[" + skuName + "]停止:" + Status.getNickName());
+                    if (ExchangeStatus.REACH_LIMIT.name().equals(itemStatus)) {
+                        fansirsqi.xposed.sesame.data.Status.setFlagToday("forest::VitalityExchangeLimit::" + skuId);
+                        Log.forest("活力兑换🍃[" + skuName + "]已达上限,停止兑换！");
+                    }
+                    return false;
+                }
+            }
+            String spuId = sku.getString("spuId");
+            if (VitalityExchange(spuId, skuId, skuName)) {
+                if (skuName.contains("限时")) {
+                    Status.setFlagToday("forest::VitalityExchangeLimit::" + skuId);
+                }
+                return true;
+            }
+            ItemDetailBySpuId(spuId);
+        } catch (Throwable th) {
+            Log.record(TAG, "VitalityExchange err");
+            Log.printStackTrace(TAG, th);
+        }
+        return false;
+    }
+
+    public static Boolean VitalityExchange(String spuId, String skuId, String skuName) {
+        try {
+            if (VitalityExchange(spuId, skuId)) {
+                Status.vitalityExchangeToday(skuId);
+                int exchangedCount = Status.getVitalityCount(skuId);
+                Log.forest("活力兑换🍃[" + skuName + "]#第" + exchangedCount + "次");
+                return true;
+            }
+        } catch (Throwable th) {
+            Log.record(TAG, "VitalityExchange err:" + spuId + "," + skuId);
+            Log.printStackTrace(TAG, th);
+        }
+        return false;
+    }
+
+    private static Boolean VitalityExchange(String spuId, String skuId) {
+        try {
+            JSONObject jo = new JSONObject(AntForestRpcCall.exchangeBenefit(spuId, skuId));
+            if (!jo.optBoolean("success")) {
+                String resultCode = jo.optString("resultCode", "");
+                if ("QUOTA_USER_NOT_ENOUGH".equals(resultCode)) {
+                    Log.forest("活力兑换🍃[兑换次数已达上限]#" + jo.optString("resultDesc", ""));
+                    Status.setFlagToday("forest::VitalityExchangeLimit::" + skuId);
+                    return false;
+                }
+            }
+            return ResChecker.checkRes(TAG + "森林活力值兑换失败:", jo);
+        } catch (Throwable th) {
+            Log.record(TAG, "VitalityExchange err:" + spuId + "," + skuId);
+            Log.printStackTrace(TAG, th);
+        }
+        return false;
+    }
+
+    /**
+     * 查找商店道具
+     *
+     * @param spuName xxx
+     */
+    public static JSONObject findSkuInfoBySkuName(String spuName) {
+        try {
+            if (skuInfo.isEmpty()) {
+                initVitality("SC_ASSETS");
+            }
+            for (String key : skuInfo.keySet()) {
+                JSONObject sku = skuInfo.get(key);
+                assert sku != null;
+                if (sku.getString("skuName").contains(spuName)) {
+                    return sku;
+                }
+            }
+        } catch (Exception e) {
+            Log.record(TAG, "findSkuInfoBySkuName err:");
+            Log.printStackTrace(TAG, e);
+        }
+        return null;
+    }
+}

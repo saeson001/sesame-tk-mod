@@ -1,1 +1,14 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmN1c3RvbVRhc2tzCgovKioKICog5bqE5Zut5a2Q5Lu75Yqh5p6a5Li+CiAqLwplbnVtIGNsYXNzIEN1c3RvbVRhc2sodmFsIGRpc3BsYXlOYW1lOiBTdHJpbmcpIHsKICAgIEZPUkVTVF9XSEFDS19NT0xFKCLmo67mnpfmiZPlnLDpvKAiKSwKICAgIEZPUkVTVF9FTkVSR1lfUkFJTigi6IO96YeP6ZuoIiksCiAgICBGQVJNX1NFTkRfQkFDS19BTklNQUwoIumBo+i/lOWwj+m4oSIpLAogICAgRkFSTV9HQU1FX0xPR0lDKCLluoTlm63muLjmiI/mlLnliIYiKSwKICAgIEZBUk1fQ0hPVUNIT1VMRSgi5bqE5Zut5oq95oq95LmQIiksCiAgICBGQVJNX1NQRUNJQUxfRk9PRCgi5bqE5Zut5L2/55So54m55q6K576O6aOfIiksCiAgICBGQVJNX1VTRV9UT09MKCLkvb/nlKjluoTlm63pgZPlhbciKQp9Cg==
+package fansirsqi.xposed.sesame.task.customTasks
+
+/**
+ * 庄园子任务枚举
+ */
+enum class CustomTask(val displayName: String) {
+    FOREST_WHACK_MOLE("森林打地鼠"),
+    FOREST_ENERGY_RAIN("能量雨"),
+    FARM_SEND_BACK_ANIMAL("遣返小鸡"),
+    FARM_GAME_LOGIC("庄园游戏改分"),
+    FARM_CHOUCHOULE("庄园抽抽乐"),
+    FARM_SPECIAL_FOOD("庄园使用特殊美食"),
+    FARM_USE_TOOL("使用庄园道具")
+}

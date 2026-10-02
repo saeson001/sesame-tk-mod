@@ -1,1 +1,73 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5pbnRlcnZhbGxpbWl0CgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGhyZWFkTG9jYWxSYW5kb20KCi8qKgogKiDlrp7njrDkuIDkuKrmlK/mjIHlm7rlrprpl7TpmpTkuI7ojIPlm7Tpl7TpmpTnmoTpmZDliLblmajjgIIKICog5qC85byP77yaCiAqIC0g56m65oiW5Y2V5Liq5pWw5a2X77ya5Zu65a6a6Ze06ZqUCiAqIC0g5b2i5aaCICIxMDAwLTMwMDAi77ya6IyD5Zu06Ze06ZqU77yI6Zet5Yy66Ze0IC0+IOW8gOWMuumXtO+8iQogKi8KY2xhc3MgRml4ZWRPclJhbmdlSW50ZXJ2YWxMaW1pdCgKICAgIGZpeGVkT3JSYW5nZVN0cjogU3RyaW5nPywKICAgIHByaXZhdGUgdmFsIG1pbjogSW50LAogICAgcHJpdmF0ZSB2YWwgbWF4OiBJbnQKKSA6IEludGVydmFsTGltaXQgewoKICAgIHByaXZhdGUgdmFsIGlzRml4ZWQ6IEJvb2xlYW4KICAgIHByaXZhdGUgdmFsIGZpeGVkSW50ZXJ2YWw6IEludAogICAgcHJpdmF0ZSB2YWwgcmFuZ2VNaW46IEludAogICAgcHJpdmF0ZSB2YWwgcmFuZ2VNYXg6IEludAoKICAgIG92ZXJyaWRlIHZhbCBpbnRlcnZhbDogSW50CiAgICAgICAgZ2V0KCkgPSBpZiAoaXNGaXhlZCkgewogICAgICAgICAgICBmaXhlZEludGVydmFsCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgVGhyZWFkTG9jYWxSYW5kb20uY3VycmVudCgpLm5leHRJbnQocmFuZ2VNaW4sIHJhbmdlTWF4KQogICAgICAgIH0KCiAgICBvdmVycmlkZSB2YXIgdGltZTogTG9uZyA9IDAKCiAgICBpbml0IHsKICAgICAgICByZXF1aXJlKG1pbiA8PSBtYXgpIHsgIm1pbiBtdXN0IGJlIDw9IG1heCIgfQoKICAgICAgICB2YWwgKGZpeGVkTW9kZSwgZkludCwgck1pbiwgck1heCkgPSBwYXJzZUludGVydmFsU3RyaW5nKGZpeGVkT3JSYW5nZVN0cikKICAgICAgICBpc0ZpeGVkID0gZml4ZWRNb2RlCiAgICAgICAgZml4ZWRJbnRlcnZhbCA9IGZJbnQKICAgICAgICByYW5nZU1pbiA9IHJNaW4KICAgICAgICByYW5nZU1heCA9IHJNYXgKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZUludGVydmFsU3RyaW5nKHN0cjogU3RyaW5nPyk6IFF1YWQgewogICAgICAgIGlmIChzdHIuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgIC8vIOm7mOiupOS9v+eUqOWbuuWumuaooeW8j++8jOWAvOS4uiBtYXgKICAgICAgICAgICAgdmFsIGZpeGVkID0gY2xhbXAobWF4KQogICAgICAgICAgICByZXR1cm4gUXVhZCh0cnVlLCBmaXhlZCwgLTEsIC0xKQogICAgICAgIH0KCiAgICAgICAgdmFsIHBhcnRzID0gc3RyLnNwbGl0KCItIikKICAgICAgICByZXR1cm4gaWYgKHBhcnRzLnNpemUgPT0gMikgewogICAgICAgICAgICAvLyDojIPlm7TmqKHlvI8KICAgICAgICAgICAgdmFsIG1pblZhbCA9IGNsYW1wKHBhcnRzWzBdLnRvSW50T3JOdWxsKCkgPzogbWluKQogICAgICAgICAgICB2YWwgbWF4VmFsID0gY2xhbXAocGFydHNbMV0udG9JbnRPck51bGwoKSA/OiBtYXgpCiAgICAgICAgICAgIHJlcXVpcmUobWluVmFsIDwgbWF4VmFsKSB7ICJyYW5nZU1pbiBtdXN0IGJlIGxlc3MgdGhhbiByYW5nZU1heCIgfQogICAgICAgICAgICBRdWFkKGZhbHNlLCAtMSwgbWluVmFsLCBtYXhWYWwgKyAxKSAvLyDlvIDljLrpl7QKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyDlm7rlrprmqKHlvI8KICAgICAgICAgICAgdmFsIGZpeGVkID0gY2xhbXAoc3RyLnRvSW50T3JOdWxsKCkgPzogbWF4KQogICAgICAgICAgICBRdWFkKHRydWUsIGZpeGVkLCAtMSwgLTEpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNsYW1wKHZhbHVlOiBJbnQpOiBJbnQgPSB2YWx1ZS5jb2VyY2VJbihtaW4sIG1heCkKCiAgICAvKioKICAgICAqIOacrOWcsOi+heWKqeexu+eUqOS6juino+aekOe7k+aenOi/lOWbngogICAgICovCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgUXVhZCgKICAgICAgICB2YWwgaXNGaXhlZDogQm9vbGVhbiwKICAgICAgICB2YWwgZml4ZWRJbnRlcnZhbDogSW50LAogICAgICAgIHZhbCByYW5nZU1pbjogSW50LAogICAgICAgIHZhbCByYW5nZU1heDogSW50CiAgICApCn0K
+package fansirsqi.xposed.sesame.hook.rpc.intervallimit
+
+import java.util.concurrent.ThreadLocalRandom
+
+/**
+ * 实现一个支持固定间隔与范围间隔的限制器。
+ * 格式：
+ * - 空或单个数字：固定间隔
+ * - 形如 "1000-3000"：范围间隔（闭区间 -> 开区间）
+ */
+class FixedOrRangeIntervalLimit(
+    fixedOrRangeStr: String?,
+    private val min: Int,
+    private val max: Int
+) : IntervalLimit {
+
+    private val isFixed: Boolean
+    private val fixedInterval: Int
+    private val rangeMin: Int
+    private val rangeMax: Int
+
+    override val interval: Int
+        get() = if (isFixed) {
+            fixedInterval
+        } else {
+            ThreadLocalRandom.current().nextInt(rangeMin, rangeMax)
+        }
+
+    override var time: Long = 0
+
+    init {
+        require(min <= max) { "min must be <= max" }
+
+        val (fixedMode, fInt, rMin, rMax) = parseIntervalString(fixedOrRangeStr)
+        isFixed = fixedMode
+        fixedInterval = fInt
+        rangeMin = rMin
+        rangeMax = rMax
+    }
+
+    private fun parseIntervalString(str: String?): Quad {
+        if (str.isNullOrBlank()) {
+            // 默认使用固定模式，值为 max
+            val fixed = clamp(max)
+            return Quad(true, fixed, -1, -1)
+        }
+
+        val parts = str.split("-")
+        return if (parts.size == 2) {
+            // 范围模式
+            val minVal = clamp(parts[0].toIntOrNull() ?: min)
+            val maxVal = clamp(parts[1].toIntOrNull() ?: max)
+            require(minVal < maxVal) { "rangeMin must be less than rangeMax" }
+            Quad(false, -1, minVal, maxVal + 1) // 开区间
+        } else {
+            // 固定模式
+            val fixed = clamp(str.toIntOrNull() ?: max)
+            Quad(true, fixed, -1, -1)
+        }
+    }
+
+    private fun clamp(value: Int): Int = value.coerceIn(min, max)
+
+    /**
+     * 本地辅助类用于解析结果返回
+     */
+    private data class Quad(
+        val isFixed: Boolean,
+        val fixedInterval: Int,
+        val rangeMin: Int,
+        val rangeMax: Int
+    )
+}

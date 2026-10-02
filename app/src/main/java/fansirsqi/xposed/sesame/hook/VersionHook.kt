@@ -1,1 +1,119 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rDQoNCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucG0uUGFja2FnZUluZm8NCmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQucG0uUGFja2FnZUluZm9Db21wYXQNCmltcG9ydCBkZS5yb2J2LmFuZHJvaWQueHBvc2VkLlhDX01ldGhvZEhvb2sNCmltcG9ydCBkZS5yb2J2LmFuZHJvaWQueHBvc2VkLlhwb3NlZEhlbHBlcnMNCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhLkdlbmVyYWwNCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuQWxpcGF5VmVyc2lvbg0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nLnByaW50U3RhY2tUcmFjZQ0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nLnJlY29yZA0KaW1wb3J0IGxvbWJvay5HZXR0ZXINCmltcG9ydCBrb3RsaW4uY29uY3VycmVudC5Wb2xhdGlsZQ0KDQovKioNCiAqIOeJiOacrOWPtyBIb29rIOW3peWFt+exuw0KICog55So5LqO5Zyo5bqU55So5ZCv5Yqo5pep5pyf5oum5oiq5bm26I635Y+W55uu5qCH5bqU55So54mI5pys5L+h5oGvDQogKi8NCm9iamVjdCBWZXJzaW9uSG9vayB7DQogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlZlcnNpb25Ib29rIg0KDQogICAgLyoqDQogICAgICogLS0gR0VUVEVSIC0tDQogICAgICog6I635Y+W5bey5o2V6I6355qE54mI5pys5L+h5oGvDQogICAgICoNCiAgICAgKi8NCiAgICAvLyDnvJPlrZjmjZXojrfnmoTniYjmnKzkv6Hmga8NCiAgICBAR2V0dGVyDQogICAgQFZvbGF0aWxlDQogICAgcHJpdmF0ZSB2YXIgY2FwdHVyZWRWZXJzaW9uOiBBbGlwYXlWZXJzaW9uPyA9IG51bGwNCg0KICAgIEBWb2xhdGlsZQ0KICAgIHByaXZhdGUgdmFyIGhvb2tJbnN0YWxsZWQgPSBmYWxzZQ0KDQogICAgLyoqDQogICAgICog5ZyoIGxvYWRQYWNrYWdlIOmYtuauteWwveaXqeWuieijhSBIb29rDQogICAgICoNCiAgICAgKiBAcGFyYW0gY2xhc3NMb2FkZXIg57G75Yqg6L295ZmoDQogICAgICovDQogICAgZnVuIGluc3RhbGxIb29rKGNsYXNzTG9hZGVyOiBDbGFzc0xvYWRlcj8pIHsNCiAgICAgICAgLy8g6Ziy5q2i6YeN5aSN5a6J6KOFDQogICAgICAgIGlmIChob29rSW5zdGFsbGVkKSB7DQogICAgICAgICAgICByZWNvcmQoVEFHLCAi4pqg77iPIEhvb2sg5bey5a6J6KOFLOi3s+i/hyIpDQogICAgICAgICAgICByZXR1cm4NCiAgICAgICAgfQ0KDQogICAgICAgIHRyeSB7DQogICAgICAgICAgICBYcG9zZWRIZWxwZXJzLmZpbmRBbmRIb29rTWV0aG9kKA0KICAgICAgICAgICAgICAgICJhbmRyb2lkLmFwcC5BcHBsaWNhdGlvblBhY2thZ2VNYW5hZ2VyIiwNCiAgICAgICAgICAgICAgICBjbGFzc0xvYWRlciwNCiAgICAgICAgICAgICAgICAiZ2V0UGFja2FnZUluZm8iLA0KICAgICAgICAgICAgICAgIFN0cmluZzo6Y2xhc3MuamF2YSwNCiAgICAgICAgICAgICAgICBJbnQ6OmNsYXNzLmphdmFQcmltaXRpdmVUeXBlLA0KICAgICAgICAgICAgICAgIG9iamVjdCA6IFhDX01ldGhvZEhvb2soKSB7DQogICAgICAgICAgICAgICAgICAgIEBUaHJvd3MoVGhyb3dhYmxlOjpjbGFzcykNCiAgICAgICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGFmdGVySG9va2VkTWV0aG9kKHBhcmFtOiBNZXRob2RIb29rUGFyYW0pIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHBhY2thZ2VJbmZvID0gcGFyYW0ucmVzdWx0IGFzIFBhY2thZ2VJbmZvPw0KDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5Y+q5aSE55CG55uu5qCH5bqU55So55qE5YyF5L+h5oGvDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHBhY2thZ2VJbmZvICE9IG51bGwgJiYNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR2VuZXJhbC5QQUNLQUdFX05BTUUgPT0gcGFja2FnZUluZm8ucGFja2FnZU5hbWUNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHZlcnNpb25OYW1lID0gcGFja2FnZUluZm8udmVyc2lvbk5hbWUNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGxvbmdWZXJzaW9uQ29kZSA9IFBhY2thZ2VJbmZvQ29tcGF0LmdldExvbmdWZXJzaW9uQ29kZShwYWNrYWdlSW5mbykNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHZlcnNpb25Db2RlID0gKGxvbmdWZXJzaW9uQ29kZSkudG9JbnQoKQ0KDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWPquWcqOesrOS4gOasoeaNleiOt+aXtuiusOW9leaXpeW/lw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoY2FwdHVyZWRWZXJzaW9uID09IG51bGwgJiYgdmVyc2lvbk5hbWUgIT0gbnVsbCkgew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FwdHVyZWRWZXJzaW9uID0gQWxpcGF5VmVyc2lvbih2ZXJzaW9uTmFtZSkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlY29yZCgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUQUcsICLinIUg5o2V6I6355uu5qCH5bqU55So54mI5pysOiAiICsgdmVyc2lvbk5hbWUgKw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIiAoY29kZTogIiArIHZlcnNpb25Db2RlICsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICIsIGxvbmdDb2RlOiAiICsgbG9uZ1ZlcnNpb25Db2RlICsgIikiDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoICh0OiBUaHJvd2FibGUpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDpnZnpu5jlpITnkIblvILluLgs6YG/5YWN5b2x5ZON5bqU55So5q2j5bi46L+Q6KGMDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRTdGFja1RyYWNlKFRBRywgdCkNCiAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICkNCg0KICAgICAgICAgICAgaG9va0luc3RhbGxlZCA9IHRydWUNCiAgICAgICAgICAgIHJlY29yZChUQUcsICLinIUg54mI5pys5Y+3IEhvb2sg5a6J6KOF5oiQ5YqfIikNCiAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7DQogICAgICAgICAgICByZWNvcmQoVEFHLCAi4p2MIOWuieijheeJiOacrOWPtyBIb29rIOWksei0pSIpDQogICAgICAgICAgICBwcmludFN0YWNrVHJhY2UoVEFHLCB0KQ0KICAgICAgICB9DQogICAgfQ0KDQogICAgLyoqDQogICAgICog5qOA5p+l5piv5ZCm5bey5oiQ5Yqf5o2V6I6354mI5pys5Y+3DQogICAgICoNCiAgICAgKiBAcmV0dXJuIHRydWU6IOW3suaNleiOtywgZmFsc2U6IOacquaNleiOtw0KICAgICAqLw0KICAgIGZ1biBoYXNWZXJzaW9uKCk6IEJvb2xlYW4gew0KICAgICAgICByZXR1cm4gY2FwdHVyZWRWZXJzaW9uICE9IG51bGwNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDojrflj5blt7LmjZXojrfnmoTniYjmnKzkv6Hmga8NCiAgICAgKg0KICAgICAqIEByZXR1cm4g5bey5o2V6I6355qE54mI5pys5L+h5oGv77yM5aaC5p6c5pyq5o2V6I635YiZ6L+U5ZueIG51bGwNCiAgICAgKi8NCiAgICBmdW4gZ2V0Q2FwdHVyZWRWZXJzaW9uKCk6IEFsaXBheVZlcnNpb24/IHsNCiAgICAgICAgcmV0dXJuIGNhcHR1cmVkVmVyc2lvbg0KICAgIH0NCg0KICAgIC8qKg0KICAgICAqIOmHjee9ruaNleiOt+eKtuaAgSAo55So5LqO5rWL6K+V5oiW6YeN5paw5Yid5aeL5YyWKQ0KICAgICAqLw0KICAgIGZ1biByZXNldCgpIHsNCiAgICAgICAgY2FwdHVyZWRWZXJzaW9uID0gbnVsbA0KICAgICAgICBob29rSW5zdGFsbGVkID0gZmFsc2UNCiAgICAgICAgcmVjb3JkKFRBRywgIvCflIQg54mI5pys5Y+3IEhvb2sg54q25oCB5bey6YeN572uIikNCiAgICB9DQp9
+package fansirsqi.xposed.sesame.hook
+
+import android.content.pm.PackageInfo
+import androidx.core.content.pm.PackageInfoCompat
+import de.robv.android.xposed.XC_MethodHook
+import de.robv.android.xposed.XposedHelpers
+import fansirsqi.xposed.sesame.data.General
+import fansirsqi.xposed.sesame.entity.AlipayVersion
+import fansirsqi.xposed.sesame.util.Log.printStackTrace
+import fansirsqi.xposed.sesame.util.Log.record
+import lombok.Getter
+import kotlin.concurrent.Volatile
+
+/**
+ * 版本号 Hook 工具类
+ * 用于在应用启动早期拦截并获取目标应用版本信息
+ */
+object VersionHook {
+    private const val TAG = "VersionHook"
+
+    /**
+     * -- GETTER --
+     * 获取已捕获的版本信息
+     *
+     */
+    // 缓存捕获的版本信息
+    @Getter
+    @Volatile
+    private var capturedVersion: AlipayVersion? = null
+
+    @Volatile
+    private var hookInstalled = false
+
+    /**
+     * 在 loadPackage 阶段尽早安装 Hook
+     *
+     * @param classLoader 类加载器
+     */
+    fun installHook(classLoader: ClassLoader?) {
+        // 防止重复安装
+        if (hookInstalled) {
+            record(TAG, "⚠️ Hook 已安装,跳过")
+            return
+        }
+
+        try {
+            XposedHelpers.findAndHookMethod(
+                "android.app.ApplicationPackageManager",
+                classLoader,
+                "getPackageInfo",
+                String::class.java,
+                Int::class.javaPrimitiveType,
+                object : XC_MethodHook() {
+                    @Throws(Throwable::class)
+                    override fun afterHookedMethod(param: MethodHookParam) {
+                        try {
+                            val packageInfo = param.result as PackageInfo?
+
+                            // 只处理目标应用的包信息
+                            if (packageInfo != null &&
+                                General.PACKAGE_NAME == packageInfo.packageName
+                            ) {
+                                val versionName = packageInfo.versionName
+                                val longVersionCode = PackageInfoCompat.getLongVersionCode(packageInfo)
+                                val versionCode = (longVersionCode).toInt()
+
+                                // 只在第一次捕获时记录日志
+                                if (capturedVersion == null && versionName != null) {
+                                    capturedVersion = AlipayVersion(versionName)
+                                    record(
+                                        TAG, "✅ 捕获目标应用版本: " + versionName +
+                                                " (code: " + versionCode +
+                                                ", longCode: " + longVersionCode + ")"
+                                    )
+                                }
+                            }
+                        } catch (t: Throwable) {
+                            // 静默处理异常,避免影响应用正常运行
+                            printStackTrace(TAG, t)
+                        }
+                    }
+                }
+            )
+
+            hookInstalled = true
+            record(TAG, "✅ 版本号 Hook 安装成功")
+        } catch (t: Throwable) {
+            record(TAG, "❌ 安装版本号 Hook 失败")
+            printStackTrace(TAG, t)
+        }
+    }
+
+    /**
+     * 检查是否已成功捕获版本号
+     *
+     * @return true: 已捕获, false: 未捕获
+     */
+    fun hasVersion(): Boolean {
+        return capturedVersion != null
+    }
+
+    /**
+     * 获取已捕获的版本信息
+     *
+     * @return 已捕获的版本信息，如果未捕获则返回 null
+     */
+    fun getCapturedVersion(): AlipayVersion? {
+        return capturedVersion
+    }
+
+    /**
+     * 重置捕获状态 (用于测试或重新初始化)
+     */
+    fun reset() {
+        capturedVersion = null
+        hookInstalled = false
+        record(TAG, "🔄 版本号 Hook 状态已重置")
+    }
+}

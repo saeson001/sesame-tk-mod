@@ -1,1 +1,48 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLkVjb1Byb3RlY3Rpb24KCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcKCm9iamVjdCBFY29Qcm90ZWN0aW9uUnBjQ2FsbCB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBWRVJTSU9OID0gIjIwMjMwNTIyIgogICAgZnVuIGhvbWVQYWdlKHNlbGVjdENpdHlDb2RlOiBTdHJpbmc/KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gcmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5ncmVlbm1hdHJpeC5ycGMuaDUuYW5jaWVudHRyZWUuaG9tZVBhZ2UiLAogICAgICAgICAgICAoIlt7XCJjaXR5Q29kZVwiOlwiMzMwMTAwXCIsXCJzZWxlY3RDaXR5Q29kZVwiOlwiIiArIHNlbGVjdENpdHlDb2RlCiAgICAgICAgICAgICAgICAgICAgKyAiXCIsXCJzb3VyY2VcIjpcImFudGZvcmVzdGhvbWVcIn1dIikKICAgICAgICApCiAgICB9CgogICAgZnVuIHF1ZXJ5VHJlZUl0ZW1zRm9yRXhjaGFuZ2UoY2l0eUNvZGU6IFN0cmluZz8pOiBTdHJpbmcgewogICAgICAgIHJldHVybiByZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiYWxpcGF5LmFudGZvcmVzdC5mb3Jlc3QuaDUucXVlcnlUcmVlSXRlbXNGb3JFeGNoYW5nZSIsCiAgICAgICAgICAgICgiW3tcImNpdHlDb2RlXCI6XCIiICsgY2l0eUNvZGUKICAgICAgICAgICAgICAgICAgICArICJcIixcIml0ZW1UeXBlc1wiOlwiXCIsXCJzb3VyY2VcIjpcImNoSW5mb19jaF9hcHBjZW50ZXJfX2Noc3ViXzlwYXRjaFwiLFwidmVyc2lvblwiOlwiIgogICAgICAgICAgICAgICAgICAgICsgVkVSU0lPTiArICJcIn1dIikKICAgICAgICApCiAgICB9CgogICAgZnVuIGRpc3RyaWN0RGV0YWlsKGRpc3RyaWN0Q29kZTogU3RyaW5nPyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJhbGlwYXkuZ3JlZW5tYXRyaXgucnBjLmg1LmFuY2llbnR0cmVlLmRpc3RyaWN0RGV0YWlsIiwKICAgICAgICAgICAgIlt7XCJkaXN0cmljdENvZGVcIjpcIiIgKyBkaXN0cmljdENvZGUgKyAiXCIsXCJzb3VyY2VcIjpcImFudGZvcmVzdGhvbWVcIn1dIgogICAgICAgICkKICAgIH0KCiAgICBmdW4gcHJvamVjdERldGFpbChhbmNpZW50VHJlZVByb2plY3RJZDogU3RyaW5nPywgY2l0eUNvZGU6IFN0cmluZz8pOiBTdHJpbmcgewogICAgICAgIHJldHVybiByZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiYWxpcGF5LmdyZWVubWF0cml4LnJwYy5oNS5hbmNpZW50dHJlZS5wcm9qZWN0RGV0YWlsIiwKICAgICAgICAgICAgKCJbe1wiYW5jaWVudFRyZWVQcm9qZWN0SWRcIjpcIiIgKyBhbmNpZW50VHJlZVByb2plY3RJZAogICAgICAgICAgICAgICAgICAgICsgIlwiLFwiY2hhbm5lbFwiOlwiT05MSU5FXCIsXCJjaXR5Q29kZVwiOlwiIiArIGNpdHlDb2RlCiAgICAgICAgICAgICAgICAgICAgKyAiXCIsXCJzb3VyY2VcIjpcImFuY2llbnRyZWV0aG9tZVwifV0iKQogICAgICAgICkKICAgIH0KCiAgICBmdW4gcHJvdGVjdChhY3Rpdml0eUlkOiBTdHJpbmc/LCBhbmNpZW50VHJlZVByb2plY3RJZDogU3RyaW5nPywgY2l0eUNvZGU6IFN0cmluZz8pOiBTdHJpbmcgewogICAgICAgIHJldHVybiByZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiYWxpcGF5LmdyZWVubWF0cml4LnJwYy5oNS5hbmNpZW50dHJlZS5wcm90ZWN0IiwKICAgICAgICAgICAgKCJbe1wiYW5jaWVudFRyZWVBY3Rpdml0eUlkXCI6XCIiICsgYWN0aXZpdHlJZCArICJcIixcImFuY2llbnRUcmVlUHJvamVjdElkXCI6XCIiCiAgICAgICAgICAgICAgICAgICAgKyBhbmNpZW50VHJlZVByb2plY3RJZCArICJcIixcImNpdHlDb2RlXCI6XCIiICsgY2l0eUNvZGUKICAgICAgICAgICAgICAgICAgICArICJcIixcInNvdXJjZVwiOlwiYW5jaWVudHJlZXRob21lXCJ9XSIpCiAgICAgICAgKQogICAgfQp9
+package fansirsqi.xposed.sesame.task.EcoProtection
+
+import fansirsqi.xposed.sesame.hook.RequestManager.requestString
+
+object EcoProtectionRpcCall {
+    private const val VERSION = "20230522"
+    fun homePage(selectCityCode: String?): String {
+        return requestString(
+            "alipay.greenmatrix.rpc.h5.ancienttree.homePage",
+            ("[{\"cityCode\":\"330100\",\"selectCityCode\":\"" + selectCityCode
+                    + "\",\"source\":\"antforesthome\"}]")
+        )
+    }
+
+    fun queryTreeItemsForExchange(cityCode: String?): String {
+        return requestString(
+            "alipay.antforest.forest.h5.queryTreeItemsForExchange",
+            ("[{\"cityCode\":\"" + cityCode
+                    + "\",\"itemTypes\":\"\",\"source\":\"chInfo_ch_appcenter__chsub_9patch\",\"version\":\""
+                    + VERSION + "\"}]")
+        )
+    }
+
+    fun districtDetail(districtCode: String?): String {
+        return requestString(
+            "alipay.greenmatrix.rpc.h5.ancienttree.districtDetail",
+            "[{\"districtCode\":\"" + districtCode + "\",\"source\":\"antforesthome\"}]"
+        )
+    }
+
+    fun projectDetail(ancientTreeProjectId: String?, cityCode: String?): String {
+        return requestString(
+            "alipay.greenmatrix.rpc.h5.ancienttree.projectDetail",
+            ("[{\"ancientTreeProjectId\":\"" + ancientTreeProjectId
+                    + "\",\"channel\":\"ONLINE\",\"cityCode\":\"" + cityCode
+                    + "\",\"source\":\"ancientreethome\"}]")
+        )
+    }
+
+    fun protect(activityId: String?, ancientTreeProjectId: String?, cityCode: String?): String {
+        return requestString(
+            "alipay.greenmatrix.rpc.h5.ancienttree.protect",
+            ("[{\"ancientTreeActivityId\":\"" + activityId + "\",\"ancientTreeProjectId\":\""
+                    + ancientTreeProjectId + "\",\"cityCode\":\"" + cityCode
+                    + "\",\"source\":\"ancientreethome\"}]")
+        )
+    }
+}

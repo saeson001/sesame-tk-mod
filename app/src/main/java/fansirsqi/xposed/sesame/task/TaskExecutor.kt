@@ -1,1 +1,144 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5BcHBsaWNhdGlvbkhvb2sKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suaW50ZXJuYWwuQWxpcGF5TWluaU1hcmtIZWxwZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suaW50ZXJuYWwuQXV0aENvZGVIZWxwZXIKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IGphdmEuaW8uT3V0cHV0U3RyZWFtV3JpdGVyCmltcG9ydCBqYXZhLm5ldC5IdHRwVVJMQ29ubmVjdGlvbgppbXBvcnQgamF2YS5uZXQuVVJMCmltcG9ydCBqYXZhLm5pby5jaGFyc2V0LlN0YW5kYXJkQ2hhcnNldHMKCmVudW0gY2xhc3MgR2FtZVRhc2soCiAgICB2YWwgdGl0bGU6IFN0cmluZywKICAgIHZhbCBhcHBJZDogU3RyaW5nLAogICAgdmFsIGdpZDogU3RyaW5nLAogICAgdmFsIGFjdGlvbjogU3RyaW5nLAogICAgdmFsIGNoYW5uZWw6IFN0cmluZywKICAgIHZhbCB2ZXJzaW9uOiBTdHJpbmcsCiAgICB2YWwgcmVxdWVzdHNQZXJFZ2c6IEludCAvL+WujOaIkDHkuKrwn6Wa6KaB5aSa5bCR5qyhIOS4uuS6humYsuatoue9kee7nOW0qea6gyDlpJrliqAx5qyhCikgewogICAgT3JjaGFyZF9uY3NjYygi5Yac5Zy65LiK6L2m6L2mIiwgIjIwNjAxNzAwMDAzNTY2MDEiLCAiemZiX25jc2NjIiwgIm5jc2NjX2dhbWVfa2FpY2hlX2V2ZXJ5XzEwIiwgIm5vbmdjaGFuZ2xleXVhbiIsICIxLjAuMiIsIDIpLAogICAgRmFybV9kZHBseSgi5a+55a+556Kw5LmQ5ZutIiwgIjIwMjEwMDQxNDk2NzkzMDMiLCAiemZiX2RkcGx5IiwgImRkcGx5X2dhbWVfeGlhb2NodV9ldmVyeV81IiwgInpodWFuZ3l1YW4iLCAiMS4wLjE0IiwgMiksCgogICAgRm9yZXN0X3NseGNjKCLmo67mnpflsI/ovabovaYiLCIyMDYwMTcwMDAwMzYzNjkxIiwiemZiX3NseGNjIiwic2x4Y2NfZ2FtZV9rYWljaGVfZXZlcnlfMTAiLCJsaWFueXVuX3Nlbmxpbl9sZXl1YW4iLCIxLjAuMSIsMyksCiAgICBGb3Jlc3Rfc2xqeWQoIuajruael+aVkeaPtOmYnyjog73ph4/pm6gpIiwgIjIwMjEwMDUxMTM2ODQwMjgiLCAiemZiX3NsanlkeCIsICJzbGp5ZF9nYW1lX3hpYW9jaHVfZXZlcnlfMTAiLCAibGlhbnl1bl9zZW5saW5fbGV5dWFuIiwgIjEuMC4xIiwgMyk7CgogICAgcHJpdmF0ZSB2YXIgY2FjaGVkVG9rZW46IFN0cmluZz8gPSBudWxsCgogICAgLyoqCiAgICAgKiDnrKzkuIDmraXvvJrnmbvlvZXojrflj5YgVG9rZW4g5bm257yT5a2YCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGxvZ2luKCk6IFN0cmluZz8gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgYXV0aENvZGUgPSBBdXRoQ29kZUhlbHBlci5nZXRBdXRoQ29kZShhcHBJZCkKICAgICAgICAgICAgdmFsIG1hcmsgPSBBbGlwYXlNaW5pTWFya0hlbHBlci5nZXRBbGlwYXlNaW5pTWFyayhhcHBJZCwgdmVyc2lvbikKICAgICAgICAgICAgdmFsIHJlcUlkID0gIiR7U3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCl9XyR7KDEuLjM1MCkucmFuZG9tKCl9IgoKICAgICAgICAgICAgdmFsIGJvZHkgPSBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICAgICAgcHV0KCJ2IiwgdmVyc2lvbik7IHB1dCgiY29kZSIsIGF1dGhDb2RlKTsgcHV0KCJwZiIsICJ6ZmIiKQogICAgICAgICAgICAgICAgcHV0KCJyZXFJZCIsIHJlcUlkKTsgcHV0KCJnaWQiLCBnaWQpOyBwdXQoInZlcnNpb24iLCB2ZXJzaW9uKQogICAgICAgICAgICB9LnRvU3RyaW5nKCkKCiAgICAgICAgICAgIHZhbCBjb25uID0gKFVSTCgiaHR0cHM6Ly9nYW1lc2FwaTIuYXNsazIwMTguY29tL3YyL2dhbWUvbG9naW4iKS5vcGVuQ29ubmVjdGlvbigpIGFzIEh0dHBVUkxDb25uZWN0aW9uKS5hcHBseSB7CiAgICAgICAgICAgICAgICByZXF1ZXN0TWV0aG9kID0gIlBPU1QiOyBkb091dHB1dCA9IHRydWUKICAgICAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgICAgICAgICAgc2V0UmVxdWVzdFByb3BlcnR5KCJhbGlwYXlNaW5pTWFyayIsIG1hcmspCiAgICAgICAgICAgICAgICBzZXRSZXF1ZXN0UHJvcGVydHkoIlVzZXItQWdlbnQiLCBnZXREeW5hbWljVUEoKSkKICAgICAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgieC1yZWxlYXNlLXR5cGUiLCAiT05MSU5FIikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgT3V0cHV0U3RyZWFtV3JpdGVyKGNvbm4ub3V0cHV0U3RyZWFtLCBTdGFuZGFyZENoYXJzZXRzLlVURl84KS51c2UgeyBpdC53cml0ZShib2R5KSB9CgogICAgICAgICAgICAvLyDwn5KhIOaUuei/m++8mueZu+W9leWksei0peS5n+imgeivu+mUmeivr+a1gQogICAgICAgICAgICB2YWwgcmVzcENvZGUgPSBjb25uLnJlc3BvbnNlQ29kZQogICAgICAgICAgICB2YWwgc3RyZWFtID0gaWYgKHJlc3BDb2RlIGluIDIwMC4uMjk5KSBjb25uLmlucHV0U3RyZWFtIGVsc2UgY29ubi5lcnJvclN0cmVhbQogICAgICAgICAgICB2YWwgcmVzcG9uc2VUZXh0ID0gc3RyZWFtPy5idWZmZXJlZFJlYWRlcigpPy51c2UgeyBpdC5yZWFkVGV4dCgpIH0gPzogIkVNUFRZIgoKICAgICAgICAgICAgdmFsIHJlc0pzb24gPSBKU09OT2JqZWN0KHJlc3BvbnNlVGV4dCkKICAgICAgICAgICAgaWYgKHJlc0pzb24ub3B0SW50KCJjb2RlIikgPT0gMSkgewogICAgICAgICAgICAgICAgdmFsIHRva2VuID0gcmVzSnNvbi5vcHRKU09OT2JqZWN0KCJkYXRhIik/Lm9wdFN0cmluZygidG9rZW4iKQogICAgICAgICAgICAgICAgLy9Mb2cucmVjb3JkKHRpdGxlLCAi4pyFIOeZu+W9leaIkOWKn++8jFRva2VuIOW3suiOt+WPliIpCiAgICAgICAgICAgICAgICB0b2tlbgogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAvLyBMb2cucmVjb3JkKHRpdGxlLCAi4p2MIOeZu+W9leaOpeWPo+aKpemUmSAoQ29kZSAkcmVzcENvZGUpOiAkcmVzcG9uc2VUZXh0IikKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAvL0xvZy5yZWNvcmQodGl0bGUsICLwn5qoIOeZu+W9lei/h+eoi+aKm+WHuuW8guW4uDogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWklumDqOiwg+eUqO+8muaJp+ihjOS4iuaKpeS7u+WKoQogICAgICovCiAgICBmdW4gcmVwb3J0KGVnZ0NvdW50OiBJbnQpIHsKICAgICAgICB2YWwgdG90YWxOZWVkZWQgPSBlZ2dDb3VudCAqIChyZXF1ZXN0c1BlckVnZysxKS8v5q2j5bi45LiN6ZyA6KaB5YqgMe+8jOWkmjHmrKHnoa7kv53nvZHnu5zor7fmsYLkuI3kvJrplJnor68KICAgICAgICBUaHJlYWQgewogICAgICAgICAgICBjYWNoZWRUb2tlbiA9IGxvZ2luKCkKICAgICAgICAgICAgaWYgKGNhY2hlZFRva2VuLmlzTnVsbE9yRW1wdHkoKSkgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZCh0aXRsZSwgIuKaoO+4jyDml6Dms5Xojrflj5bmnInmlYjnmoQgVG9rZW7vvIzmlL7lvIPkuIrmiqXku7vliqEiKQogICAgICAgICAgICAgICAgcmV0dXJuQFRocmVhZAogICAgICAgICAgICB9CgogICAgICAgICAgICAvL0xvZy5yZWNvcmQodGl0bGUsICLwn5qAIOW8gOWni+aJp+ihjOS7u+WKoe+8muebruaghyAkZWdnQ291bnQg5Liq6JuL77yM6ZyA6K+35rGCICR0b3RhbE5lZWRlZCDmrKEiKQogICAgICAgICAgICBmb3IgKGkgaW4gMS4udG90YWxOZWVkZWQpIHsKICAgICAgICAgICAgICAgIC8vIOaJp+ihjOWNleasoeS4iuaKpQogICAgICAgICAgICAgICAgaWYgKCFleGVjdXRlU2luZ2xlUmVwb3J0KGksIHRvdGFsTmVlZGVkKSkgewogICAgICAgICAgICAgICAgICAgIC8vIOWFt+S9k+eahOmUmeivr+WOn+WboOW3suWcqCBleGVjdXRlU2luZ2xlUmVwb3J0IOS4reivpue7hui+k+WHugogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoaSA8IHRvdGFsTmVlZGVkKSBUaHJlYWQuc2xlZXAoKDEwMDAuLjMwMDApLnJhbmRvbSgpLnRvTG9uZygpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vTG9nLnJlY29yZCh0aXRsZSwgIvCfj4Eg5Lu75Yqh5rWB56iL6L+Q6KGM57uT5p2fIikKICAgICAgICB9LnN0YXJ0KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBleGVjdXRlU2luZ2xlUmVwb3J0KGN1cnJlbnQ6IEludCwgdG90YWw6IEludCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgbWFyayA9IEFsaXBheU1pbmlNYXJrSGVscGVyLmdldEFsaXBheU1pbmlNYXJrKGFwcElkLCB2ZXJzaW9uKQogICAgICAgICAgICB2YWwgYm9keSA9IEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBwdXQoInYiLCB2ZXJzaW9uKTsgcHV0KCJ2ZXJzaW9uIiwgdmVyc2lvbikKICAgICAgICAgICAgICAgIHB1dCgicmVxSWQiLCAiJHtTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKX1fJHsoMTAuLjk5KS5yYW5kb20oKX0iKQogICAgICAgICAgICAgICAgcHV0KCJnaWQiLCBnaWQpOyBwdXQoImFjdGlvbl9jb2RlIiwgYWN0aW9uKTsgcHV0KCJhY3Rpb25fZmluaXNoX2NoYW5uZWwiLCBjaGFubmVsKQogICAgICAgICAgICB9LnRvU3RyaW5nKCkKCiAgICAgICAgICAgIHZhbCBjb25uID0gKFVSTCgiaHR0cHM6Ly9nYW1lc2FwaTIuYXNsazIwMTguY29tL3YyL3pmYi90YXNrUmVwb3J0Iikub3BlbkNvbm5lY3Rpb24oKSBhcyBIdHRwVVJMQ29ubmVjdGlvbikuYXBwbHkgewogICAgICAgICAgICAgICAgcmVxdWVzdE1ldGhvZCA9ICJQT1NUIjsgZG9PdXRwdXQgPSB0cnVlCiAgICAgICAgICAgICAgICBzZXRSZXF1ZXN0UHJvcGVydHkoImF1dGhvcml6YXRpb24iLCBjYWNoZWRUb2tlbikKICAgICAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgiYWxpcGF5TWluaU1hcmsiLCBtYXJrKQogICAgICAgICAgICAgICAgc2V0UmVxdWVzdFByb3BlcnR5KCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCiAgICAgICAgICAgICAgICBzZXRSZXF1ZXN0UHJvcGVydHkoIlVzZXItQWdlbnQiLCBnZXREeW5hbWljVUEoKSkKICAgICAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgieC1yZWxlYXNlLXR5cGUiLCAiT05MSU5FIikKICAgICAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgicmVmZXJlciIsICJodHRwczovLyRhcHBJZC5oeWJyaWQuYWxpcGF5LWVjby5jb20vJGFwcElkLyR2ZXJzaW9uL2luZGV4Lmh0bWwiKQogICAgICAgICAgICB9CgogICAgICAgICAgICBPdXRwdXRTdHJlYW1Xcml0ZXIoY29ubi5vdXRwdXRTdHJlYW0sIFN0YW5kYXJkQ2hhcnNldHMuVVRGXzgpLnVzZSB7IGl0LndyaXRlKGJvZHkpIH0KCiAgICAgICAgICAgIC8vIPCfkqEg6YeN54K55pS56L+b77ya6K+75Y+W5ZON5bqU56CB5bm25o2V6I636ZSZ6K+v5rWBCiAgICAgICAgICAgIHZhbCByZXNwQ29kZSA9IGNvbm4ucmVzcG9uc2VDb2RlCiAgICAgICAgICAgIHZhbCBzdHJlYW0gPSBpZiAocmVzcENvZGUgaW4gMjAwLi4yOTkpIGNvbm4uaW5wdXRTdHJlYW0gZWxzZSBjb25uLmVycm9yU3RyZWFtCiAgICAgICAgICAgIHZhbCByZXNwb25zZVRleHQgPSBzdHJlYW0/LmJ1ZmZlcmVkUmVhZGVyKCk/LnVzZSB7IGl0LnJlYWRUZXh0KCkgfSA/OiAiTlVMTF9SRVNQT05TRSIKCiAgICAgICAgICAgIHZhbCByZXNKc29uID0gSlNPTk9iamVjdChyZXNwb25zZVRleHQpCiAgICAgICAgICAgIGlmIChyZXNKc29uLm9wdEludCgiY29kZSIpID09IDEpIHsKICAgICAgICAgICAgICAgIGlmIChjdXJyZW50ICUgcmVxdWVzdHNQZXJFZ2cgPT0gMCkgTG9nLm90aGVyKHRpdGxlLCAi8J+TiCDov5vluqY6ICRjdXJyZW50LyR0b3RhbCAo5bey6L6+5oiQICR7Y3VycmVudC9yZXF1ZXN0c1BlckVnZ30g5Liq6JuLKSIpCiAgICAgICAgICAgICAgICB0cnVlCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyDwn5KhIOS/ruato++8mui/memHjOS8muebtOaOpeaJk+WNsOWHuuacjeWKoeWZqOi/lOWbnueahOWujOaVtOmUmeivryBKU09O77yM5q+U5aaCIHsiY29kZSI6MCwibXNnIjoidG9rZW4gaW52YWxpZCIuLi59CiAgICAgICAgICAgICAgICAvL0xvZy5lcnJvcih0aXRsZSwgIuKaoO+4jyDnrKwgJGN1cnJlbnQg5qyh5LiK5oql5Lia5Yqh5aSx6LSlIChIVFRQICRyZXNwQ29kZSk6ICRyZXNwb25zZVRleHQiKQogICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgIC8vIExvZy5lKHRpdGxlLCAi8J+aqCDnrKwgJGN1cnJlbnQg5qyh6K+35rGC5Y+R55Sf572R57uc5bSp5rqDOiIsZSkKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2V0RHluYW1pY1VBKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIHN5c3RlbVVhID0gU3lzdGVtLmdldFByb3BlcnR5KCJodHRwLmFnZW50IikgPzogIk1vemlsbGEvNS4wIChMaW51eDsgQW5kcm9pZCAxMSkiCiAgICAgICAgdmFsIGFsaXBheVZlciA9IEFwcGxpY2F0aW9uSG9vay5hbGlwYXlWZXJzaW9uCiAgICAgICAgcmV0dXJuICIkc3lzdGVtVWEgTmVidWxhU0RLLzEuOC4xMDAxMTIgTmVidWxhIEFsaUFwcChBUC8kYWxpcGF5VmVyKSBBbGlwYXlDbGllbnQvJGFsaXBheVZlciIKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.util
+
+import fansirsqi.xposed.sesame.hook.ApplicationHook
+import fansirsqi.xposed.sesame.hook.internal.AlipayMiniMarkHelper
+import fansirsqi.xposed.sesame.hook.internal.AuthCodeHelper
+import org.json.JSONObject
+import java.io.OutputStreamWriter
+import java.net.HttpURLConnection
+import java.net.URL
+import java.nio.charset.StandardCharsets
+
+enum class GameTask(
+    val title: String,
+    val appId: String,
+    val gid: String,
+    val action: String,
+    val channel: String,
+    val version: String,
+    val requestsPerEgg: Int //完成1个🥚要多少次 为了防止网络崩溃 多加1次
+) {
+    Orchard_ncscc("农场上车车", "2060170000356601", "zfb_ncscc", "ncscc_game_kaiche_every_10", "nongchangleyuan", "1.0.2", 2),
+    Farm_ddply("对对碰乐园", "2021004149679303", "zfb_ddply", "ddply_game_xiaochu_every_5", "zhuangyuan", "1.0.14", 2),
+
+    Forest_slxcc("森林小车车","2060170000363691","zfb_slxcc","slxcc_game_kaiche_every_10","lianyun_senlin_leyuan","1.0.1",3),
+    Forest_sljyd("森林救援队(能量雨)", "2021005113684028", "zfb_sljydx", "sljyd_game_xiaochu_every_10", "lianyun_senlin_leyuan", "1.0.1", 3);
+
+    private var cachedToken: String? = null
+
+    /**
+     * 第一步：登录获取 Token 并缓存
+     */
+    private fun login(): String? {
+        return try {
+            val authCode = AuthCodeHelper.getAuthCode(appId)
+            val mark = AlipayMiniMarkHelper.getAlipayMiniMark(appId, version)
+            val reqId = "${System.currentTimeMillis()}_${(1..350).random()}"
+
+            val body = JSONObject().apply {
+                put("v", version); put("code", authCode); put("pf", "zfb")
+                put("reqId", reqId); put("gid", gid); put("version", version)
+            }.toString()
+
+            val conn = (URL("https://gamesapi2.aslk2018.com/v2/game/login").openConnection() as HttpURLConnection).apply {
+                requestMethod = "POST"; doOutput = true
+                setRequestProperty("Content-Type", "application/json")
+                setRequestProperty("alipayMiniMark", mark)
+                setRequestProperty("User-Agent", getDynamicUA())
+                setRequestProperty("x-release-type", "ONLINE")
+            }
+
+            OutputStreamWriter(conn.outputStream, StandardCharsets.UTF_8).use { it.write(body) }
+
+            // 💡 改进：登录失败也要读错误流
+            val respCode = conn.responseCode
+            val stream = if (respCode in 200..299) conn.inputStream else conn.errorStream
+            val responseText = stream?.bufferedReader()?.use { it.readText() } ?: "EMPTY"
+
+            val resJson = JSONObject(responseText)
+            if (resJson.optInt("code") == 1) {
+                val token = resJson.optJSONObject("data")?.optString("token")
+                //Log.record(title, "✅ 登录成功，Token 已获取")
+                token
+            } else {
+               // Log.record(title, "❌ 登录接口报错 (Code $respCode): $responseText")
+                null
+            }
+        } catch (e: Exception) {
+            //Log.record(title, "🚨 登录过程抛出异常: ${e.message}")
+            null
+        }
+    }
+
+    /**
+     * 外部调用：执行上报任务
+     */
+    fun report(eggCount: Int) {
+        val totalNeeded = eggCount * (requestsPerEgg+1)//正常不需要加1，多1次确保网络请求不会错误
+        Thread {
+            cachedToken = login()
+            if (cachedToken.isNullOrEmpty()) {
+                Log.record(title, "⚠️ 无法获取有效的 Token，放弃上报任务")
+                return@Thread
+            }
+
+            //Log.record(title, "🚀 开始执行任务：目标 $eggCount 个蛋，需请求 $totalNeeded 次")
+            for (i in 1..totalNeeded) {
+                // 执行单次上报
+                if (!executeSingleReport(i, totalNeeded)) {
+                    // 具体的错误原因已在 executeSingleReport 中详细输出
+                    break
+                }
+                if (i < totalNeeded) Thread.sleep((1000..3000).random().toLong())
+            }
+            //Log.record(title, "🏁 任务流程运行结束")
+        }.start()
+    }
+
+    private fun executeSingleReport(current: Int, total: Int): Boolean {
+        return try {
+            val mark = AlipayMiniMarkHelper.getAlipayMiniMark(appId, version)
+            val body = JSONObject().apply {
+                put("v", version); put("version", version)
+                put("reqId", "${System.currentTimeMillis()}_${(10..99).random()}")
+                put("gid", gid); put("action_code", action); put("action_finish_channel", channel)
+            }.toString()
+
+            val conn = (URL("https://gamesapi2.aslk2018.com/v2/zfb/taskReport").openConnection() as HttpURLConnection).apply {
+                requestMethod = "POST"; doOutput = true
+                setRequestProperty("authorization", cachedToken)
+                setRequestProperty("alipayMiniMark", mark)
+                setRequestProperty("Content-Type", "application/json")
+                setRequestProperty("User-Agent", getDynamicUA())
+                setRequestProperty("x-release-type", "ONLINE")
+                setRequestProperty("referer", "https://$appId.hybrid.alipay-eco.com/$appId/$version/index.html")
+            }
+
+            OutputStreamWriter(conn.outputStream, StandardCharsets.UTF_8).use { it.write(body) }
+
+            // 💡 重点改进：读取响应码并捕获错误流
+            val respCode = conn.responseCode
+            val stream = if (respCode in 200..299) conn.inputStream else conn.errorStream
+            val responseText = stream?.bufferedReader()?.use { it.readText() } ?: "NULL_RESPONSE"
+
+            val resJson = JSONObject(responseText)
+            if (resJson.optInt("code") == 1) {
+                if (current % requestsPerEgg == 0) Log.other(title, "📈 进度: $current/$total (已达成 ${current/requestsPerEgg} 个蛋)")
+                true
+            } else {
+                // 💡 修正：这里会直接打印出服务器返回的完整错误 JSON，比如 {"code":0,"msg":"token invalid"...}
+                //Log.error(title, "⚠️ 第 $current 次上报业务失败 (HTTP $respCode): $responseText")
+                false
+            }
+        } catch (e: Exception) {
+           // Log.e(title, "🚨 第 $current 次请求发生网络崩溃:",e)
+            false
+        }
+    }
+
+    private fun getDynamicUA(): String {
+        val systemUa = System.getProperty("http.agent") ?: "Mozilla/5.0 (Linux; Android 11)"
+        val alipayVer = ApplicationHook.alipayVersion
+        return "$systemUa NebulaSDK/1.8.100112 Nebula AliApp(AP/$alipayVer) AlipayClient/$alipayVer"
+    }
+}

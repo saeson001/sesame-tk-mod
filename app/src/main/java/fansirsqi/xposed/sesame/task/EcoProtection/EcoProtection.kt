@@ -1,1 +1,171 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLkVjb1Byb3RlY3Rpb24KCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhLlN0YXR1cy5Db21wYW5pb24uYW5jaWVudFRyZWVUb2RheQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZGF0YS5TdGF0dXMuQ29tcGFuaW9uLmNhbkFuY2llbnRUcmVlVG9kYXkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5BcmVhQ29kZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxGaWVsZHMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsR3JvdXAKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuQm9vbGVhbk1vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuU2VsZWN0TW9kZWxGaWVsZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5Nb2RlbFRhc2sKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suVGFza0NvbW1vbgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5HbG9iYWxUaHJlYWRQb29scy5zbGVlcENvbXBhdAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuUmVzQ2hlY2tlcgppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC5EYXRlCmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlCgpjbGFzcyBFY29Qcm90ZWN0aW9uIDogTW9kZWxUYXNrKCkgewogICAgb3ZlcnJpZGUgZnVuIGdldE5hbWUoKTogU3RyaW5nPyB7CiAgICAgICAgcmV0dXJuICLnlJ/mgIHkv53miqQiCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldEdyb3VwKCk6IE1vZGVsR3JvdXAgewogICAgICAgIHJldHVybiBNb2RlbEdyb3VwLkZPUkVTVAogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRJY29uKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICJFY29Qcm90ZWN0aW9uLnBuZyIKICAgIH0KCiAgICBwcml2YXRlIHZhciBhbmNpZW50VHJlZU9ubHlXZWVrOiBCb29sZWFuTW9kZWxGaWVsZD8gPSBudWxsCiAgICBwcml2YXRlIHZhciBhbmNpZW50VHJlZUNpdHlDb2RlTGlzdDogU2VsZWN0TW9kZWxGaWVsZD8gPSBudWxsCiAgICBwdWJsaWMgb3ZlcnJpZGUgZnVuIGdldEZpZWxkcygpOiBNb2RlbEZpZWxkcyB7CiAgICAgICAgdmFsIG1vZGVsRmllbGRzID0gTW9kZWxGaWVsZHMoKQogICAgICAgIG1vZGVsRmllbGRzLmFkZEZpZWxkKEJvb2xlYW5Nb2RlbEZpZWxkKCJhbmNpZW50VHJlZU9ubHlXZWVrIiwgIuS7heaYn+acn+S4gOOAgeS4ieOAgeS6lOi/kOihjOS/neaKpOWPpOagkSIsIGZhbHNlKS5hbHNvIHsgYW5jaWVudFRyZWVPbmx5V2VlayA9IGl0IH0pCiAgICAgICAgbW9kZWxGaWVsZHMuYWRkRmllbGQoCiAgICAgICAgICAgIFNlbGVjdE1vZGVsRmllbGQoCiAgICAgICAgICAgICAgICAiYW5jaWVudFRyZWVDaXR5Q29kZUxpc3QiLAogICAgICAgICAgICAgICAgIuWPpOagkeWMuuWIkuS7o+eggeWIl+ihqCIsCiAgICAgICAgICAgICAgICBMaW5rZWRIYXNoU2V0PFN0cmluZz8+KCkKICAgICAgICAgICAgKSB7IEFyZWFDb2RlLmdldExpc3QoKSB9LmFsc28geyBhbmNpZW50VHJlZUNpdHlDb2RlTGlzdCA9IGl0IH0pCiAgICAgICAgcmV0dXJuIG1vZGVsRmllbGRzCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGNoZWNrKCk6IEJvb2xlYW4gewogICAgICAgIGlmICghc3VwZXIuY2hlY2soKSkgcmV0dXJuIGZhbHNlCgogICAgICAgIGlmICghVGFza0NvbW1vbi5JU19BRlRFUl84QU0pIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICBpZiAoYW5jaWVudFRyZWVPbmx5V2Vlaz8udmFsdWUgPT0gdHJ1ZSkgewogICAgICAgICAgICB2YWwgc2RmV2VlayA9IFNpbXBsZURhdGVGb3JtYXQoIkVFRUUiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQogICAgICAgICAgICB2YWwgd2VlayA9IHNkZldlZWsuZm9ybWF0KERhdGUoKSkKICAgICAgICAgICAgcmV0dXJuICLmmJ/mnJ/kuIAiID09IHdlZWsgfHwgIuaYn+acn+S4iSIgPT0gd2VlayB8fCAi5pif5pyf5LqUIiA9PSB3ZWVrCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcnVuU3VzcGVuZCgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuW8gOWni+aJp+ihjCRuYW1lIikKICAgICAgICAgICAgYW5jaWVudFRyZWUoYW5jaWVudFRyZWVDaXR5Q29kZUxpc3QhIS52YWx1ZSkKICAgICAgICB9IGNhdGNoICh0OiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJzdGFydC5ydW4gZXJyOiIsdCkKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIue7k+adn+aJp+ihjCRuYW1lIikKICAgICAgICB9CiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSB2YWwgVEFHOiBTdHJpbmcgPSBFY29Qcm90ZWN0aW9uOjpjbGFzcy5qYXZhLmdldFNpbXBsZU5hbWUoKQogICAgICAgIHByaXZhdGUgZnVuIGFuY2llbnRUcmVlKGFuY2llbnRUcmVlQ2l0eUNvZGVMaXN0OiBNdXRhYmxlQ29sbGVjdGlvbjxTdHJpbmc+KSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBmb3IgKGNpdHlDb2RlIGluIGFuY2llbnRUcmVlQ2l0eUNvZGVMaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFjYW5BbmNpZW50VHJlZVRvZGF5KGNpdHlDb2RlKSkgY29udGludWUKICAgICAgICAgICAgICAgICAgICBhbmNpZW50VHJlZVByb3RlY3QoY2l0eUNvZGUpCiAgICAgICAgICAgICAgICAgICAgc2xlZXBDb21wYXQoMTAwMEwpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKHRoOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAiYW5jaWVudFRyZWUgZXJyOiIsdGgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIGFuY2llbnRUcmVlUHJvdGVjdChjaXR5Q29kZTogU3RyaW5nKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgam8gPSBKU09OT2JqZWN0KEVjb1Byb3RlY3Rpb25ScGNDYWxsLmhvbWVQYWdlKGNpdHlDb2RlKSkKICAgICAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgam8pKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGRhdGEgPSBqby5nZXRKU09OT2JqZWN0KCJkYXRhIikKICAgICAgICAgICAgICAgICAgICBpZiAoIWRhdGEuaGFzKCJkaXN0cmljdEJyaWVmSW5mb0xpc3QiKSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdmFsIGRpc3RyaWN0QnJpZWZJbmZvTGlzdCA9IGRhdGEuZ2V0SlNPTkFycmF5KCJkaXN0cmljdEJyaWVmSW5mb0xpc3QiKQogICAgICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwLi48ZGlzdHJpY3RCcmllZkluZm9MaXN0Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBkaXN0cmljdEJyaWVmSW5mbyA9IGRpc3RyaWN0QnJpZWZJbmZvTGlzdC5nZXRKU09OT2JqZWN0KGkpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB1c2VyQ2FuUHJvdGVjdFRyZWVOdW0gPSBkaXN0cmljdEJyaWVmSW5mby5vcHRJbnQoInVzZXJDYW5Qcm90ZWN0VHJlZU51bSIsIDApCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICh1c2VyQ2FuUHJvdGVjdFRyZWVOdW0gPCAxKSBjb250aW51ZQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZGlzdHJpY3RJbmZvID0gZGlzdHJpY3RCcmllZkluZm8uZ2V0SlNPTk9iamVjdCgiZGlzdHJpY3RJbmZvIikKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGRpc3RyaWN0Q29kZSA9IGRpc3RyaWN0SW5mby5nZXRTdHJpbmcoImRpc3RyaWN0Q29kZSIpCiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3RyaWN0RGV0YWlsKGRpc3RyaWN0Q29kZSkKICAgICAgICAgICAgICAgICAgICAgICAgc2xlZXBDb21wYXQoMTAwMEwpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGFuY2llbnRUcmVlVG9kYXkoY2l0eUNvZGUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKHRoOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCJhbmNpZW50VHJlZVByb3RlY3QgZXJyOiIsIHRoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBkaXN0cmljdERldGFpbChkaXN0cmljdENvZGU6IFN0cmluZz8pIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhciBqbyA9IEpTT05PYmplY3QoRWNvUHJvdGVjdGlvblJwY0NhbGwuZGlzdHJpY3REZXRhaWwoZGlzdHJpY3RDb2RlKSkKICAgICAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgam8pKSB7CiAgICAgICAgICAgICAgICAgICAgdmFyIGRhdGEgPSBqby5nZXRKU09OT2JqZWN0KCJkYXRhIikKICAgICAgICAgICAgICAgICAgICBpZiAoIWRhdGEuaGFzKCJhbmNpZW50VHJlZUxpc3QiKSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdmFsIGRpc3RyaWN0SW5mbyA9IGRhdGEuZ2V0SlNPTk9iamVjdCgiZGlzdHJpY3RJbmZvIikKICAgICAgICAgICAgICAgICAgICB2YXIgY2l0eUNvZGUgPSBkaXN0cmljdEluZm8uZ2V0U3RyaW5nKCJjaXR5Q29kZSIpCiAgICAgICAgICAgICAgICAgICAgdmFsIGNpdHlOYW1lID0gZGlzdHJpY3RJbmZvLmdldFN0cmluZygiY2l0eU5hbWUiKQogICAgICAgICAgICAgICAgICAgIHZhbCBkaXN0cmljdE5hbWUgPSBkaXN0cmljdEluZm8uZ2V0U3RyaW5nKCJkaXN0cmljdE5hbWUiKQogICAgICAgICAgICAgICAgICAgIHZhbCBhbmNpZW50VHJlZUxpc3QgPSBkYXRhLmdldEpTT05BcnJheSgiYW5jaWVudFRyZWVMaXN0IikKICAgICAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMC4uPGFuY2llbnRUcmVlTGlzdC5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgYW5jaWVudFRyZWVJdGVtID0gYW5jaWVudFRyZWVMaXN0LmdldEpTT05PYmplY3QoaSkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGFuY2llbnRUcmVlSXRlbS5nZXRCb29sZWFuKCJoYXNQcm90ZWN0ZWQiKSkgY29udGludWUKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGFuY2llbnRUcmVlQ29udHJvbEluZm8gPSBhbmNpZW50VHJlZUl0ZW0uZ2V0SlNPTk9iamVjdCgiYW5jaWVudFRyZWVDb250cm9sSW5mbyIpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBxdW90YSA9IGFuY2llbnRUcmVlQ29udHJvbEluZm8ub3B0SW50KCJxdW90YSIsIDApCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB1c2VRdW90YSA9IGFuY2llbnRUcmVlQ29udHJvbEluZm8ub3B0SW50KCJ1c2VRdW90YSIsIDApCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChxdW90YSA8PSB1c2VRdW90YSkgY29udGludWUKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGl0ZW1JZCA9IGFuY2llbnRUcmVlSXRlbS5nZXRTdHJpbmcoInByb2plY3RJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhbmNpZW50VHJlZURldGFpbCA9IEpTT05PYmplY3QoRWNvUHJvdGVjdGlvblJwY0NhbGwucHJvamVjdERldGFpbChpdGVtSWQsIGNpdHlDb2RlKSkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKFJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBhbmNpZW50VHJlZURldGFpbCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEgPSBhbmNpZW50VHJlZURldGFpbC5nZXRKU09OT2JqZWN0KCJkYXRhIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChkYXRhLmdldEJvb2xlYW4oImNhblByb3RlY3QiKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjdXJyZW50RW5lcmd5ID0gZGF0YS5nZXRJbnQoImN1cnJlbnRFbmVyZ3kiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhbmNpZW50VHJlZSA9IGRhdGEuZ2V0SlNPTk9iamVjdCgiYW5jaWVudFRyZWUiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhY3Rpdml0eUlkID0gYW5jaWVudFRyZWUuZ2V0U3RyaW5nKCJhY3Rpdml0eUlkIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgcHJvamVjdElkID0gYW5jaWVudFRyZWUuZ2V0U3RyaW5nKCJwcm9qZWN0SWQiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhbmNpZW50VHJlZUluZm8gPSBhbmNpZW50VHJlZS5nZXRKU09OT2JqZWN0KCJhbmNpZW50VHJlZUluZm8iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBuYW1lID0gYW5jaWVudFRyZWVJbmZvLmdldFN0cmluZygibmFtZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGFnZSA9IGFuY2llbnRUcmVlSW5mby5nZXRJbnQoImFnZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHByb3RlY3RFeHBlbnNlID0gYW5jaWVudFRyZWVJbmZvLmdldEludCgicHJvdGVjdEV4cGVuc2UiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNpdHlDb2RlID0gYW5jaWVudFRyZWVJbmZvLmdldFN0cmluZygiY2l0eUNvZGUiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjdXJyZW50RW5lcmd5IDwgcHJvdGVjdEV4cGVuc2UpIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2xlZXBDb21wYXQoMjAwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGpvID0gSlNPTk9iamVjdChFY29Qcm90ZWN0aW9uUnBjQ2FsbC5wcm90ZWN0KGFjdGl2aXR5SWQsIHByb2plY3RJZCwgY2l0eUNvZGUpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgam8pKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5mb3Jlc3QoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoIuS/neaKpOWPpOagkfCfjpBbIiArIGNpdHlOYW1lICsgIi0iICsgZGlzdHJpY3ROYW1lCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICsgIl0jIiArIGFnZSArICLlubQiICsgbmFtZSArICIs5raI6ICX6IO96YePIiArIHByb3RlY3RFeHBlbnNlICsgImciKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChqby5nZXRTdHJpbmcoInJlc3VsdERlc2MiKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChqby50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoam8uZ2V0U3RyaW5nKCJyZXN1bHREZXNjIikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKGFuY2llbnRUcmVlRGV0YWlsLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgc2xlZXBDb21wYXQoNTAwTCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKHRoOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAiZGlzdHJpY3REZXRhaWwgZXJyOiIsdGgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.task.EcoProtection
+
+import fansirsqi.xposed.sesame.data.Status.Companion.ancientTreeToday
+import fansirsqi.xposed.sesame.data.Status.Companion.canAncientTreeToday
+import fansirsqi.xposed.sesame.entity.AreaCode
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.task.TaskCommon
+import fansirsqi.xposed.sesame.util.GlobalThreadPools.sleepCompat
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ResChecker
+import org.json.JSONObject
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+class EcoProtection : ModelTask() {
+    override fun getName(): String? {
+        return "生态保护"
+    }
+
+    override fun getGroup(): ModelGroup {
+        return ModelGroup.FOREST
+    }
+
+    override fun getIcon(): String {
+        return "EcoProtection.png"
+    }
+
+    private var ancientTreeOnlyWeek: BooleanModelField? = null
+    private var ancientTreeCityCodeList: SelectModelField? = null
+    public override fun getFields(): ModelFields {
+        val modelFields = ModelFields()
+        modelFields.addField(BooleanModelField("ancientTreeOnlyWeek", "仅星期一、三、五运行保护古树", false).also { ancientTreeOnlyWeek = it })
+        modelFields.addField(
+            SelectModelField(
+                "ancientTreeCityCodeList",
+                "古树区划代码列表",
+                LinkedHashSet<String?>()
+            ) { AreaCode.getList() }.also { ancientTreeCityCodeList = it })
+        return modelFields
+    }
+
+    override fun check(): Boolean {
+        if (!super.check()) return false
+
+        if (!TaskCommon.IS_AFTER_8AM) {
+            return false
+        }
+
+        if (ancientTreeOnlyWeek?.value == true) {
+            val sdfWeek = SimpleDateFormat("EEEE", Locale.getDefault())
+            val week = sdfWeek.format(Date())
+            return "星期一" == week || "星期三" == week || "星期五" == week
+        }
+        return true
+    }
+
+    override suspend fun runSuspend() {
+        try {
+            Log.record(TAG, "开始执行$name")
+            ancientTree(ancientTreeCityCodeList!!.value)
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, "start.run err:",t)
+        } finally {
+            Log.record(TAG, "结束执行$name")
+        }
+    }
+
+    companion object {
+        private val TAG: String = EcoProtection::class.java.getSimpleName()
+        private fun ancientTree(ancientTreeCityCodeList: MutableCollection<String>) {
+            try {
+                for (cityCode in ancientTreeCityCodeList) {
+                    if (!canAncientTreeToday(cityCode)) continue
+                    ancientTreeProtect(cityCode)
+                    sleepCompat(1000L)
+                }
+            } catch (th: Throwable) {
+                Log.printStackTrace(TAG, "ancientTree err:",th)
+            }
+        }
+
+        private fun ancientTreeProtect(cityCode: String) {
+            try {
+                val jo = JSONObject(EcoProtectionRpcCall.homePage(cityCode))
+                if (ResChecker.checkRes(TAG, jo)) {
+                    val data = jo.getJSONObject("data")
+                    if (!data.has("districtBriefInfoList")) {
+                        return
+                    }
+                    val districtBriefInfoList = data.getJSONArray("districtBriefInfoList")
+                    for (i in 0..<districtBriefInfoList.length()) {
+                        val districtBriefInfo = districtBriefInfoList.getJSONObject(i)
+                        val userCanProtectTreeNum = districtBriefInfo.optInt("userCanProtectTreeNum", 0)
+                        if (userCanProtectTreeNum < 1) continue
+                        val districtInfo = districtBriefInfo.getJSONObject("districtInfo")
+                        val districtCode = districtInfo.getString("districtCode")
+                        districtDetail(districtCode)
+                        sleepCompat(1000L)
+                    }
+                    ancientTreeToday(cityCode)
+                }
+            } catch (th: Throwable) {
+                Log.printStackTrace(TAG,"ancientTreeProtect err:", th)
+            }
+        }
+
+        private fun districtDetail(districtCode: String?) {
+            try {
+                var jo = JSONObject(EcoProtectionRpcCall.districtDetail(districtCode))
+                if (ResChecker.checkRes(TAG, jo)) {
+                    var data = jo.getJSONObject("data")
+                    if (!data.has("ancientTreeList")) {
+                        return
+                    }
+                    val districtInfo = data.getJSONObject("districtInfo")
+                    var cityCode = districtInfo.getString("cityCode")
+                    val cityName = districtInfo.getString("cityName")
+                    val districtName = districtInfo.getString("districtName")
+                    val ancientTreeList = data.getJSONArray("ancientTreeList")
+                    for (i in 0..<ancientTreeList.length()) {
+                        val ancientTreeItem = ancientTreeList.getJSONObject(i)
+                        if (ancientTreeItem.getBoolean("hasProtected")) continue
+                        val ancientTreeControlInfo = ancientTreeItem.getJSONObject("ancientTreeControlInfo")
+                        val quota = ancientTreeControlInfo.optInt("quota", 0)
+                        val useQuota = ancientTreeControlInfo.optInt("useQuota", 0)
+                        if (quota <= useQuota) continue
+                        val itemId = ancientTreeItem.getString("projectId")
+                        val ancientTreeDetail = JSONObject(EcoProtectionRpcCall.projectDetail(itemId, cityCode))
+                        if (ResChecker.checkRes(TAG, ancientTreeDetail)) {
+                            data = ancientTreeDetail.getJSONObject("data")
+                            if (data.getBoolean("canProtect")) {
+                                val currentEnergy = data.getInt("currentEnergy")
+                                val ancientTree = data.getJSONObject("ancientTree")
+                                val activityId = ancientTree.getString("activityId")
+                                val projectId = ancientTree.getString("projectId")
+                                val ancientTreeInfo = ancientTree.getJSONObject("ancientTreeInfo")
+                                val name = ancientTreeInfo.getString("name")
+                                val age = ancientTreeInfo.getInt("age")
+                                val protectExpense = ancientTreeInfo.getInt("protectExpense")
+                                cityCode = ancientTreeInfo.getString("cityCode")
+                                if (currentEnergy < protectExpense) break
+                                sleepCompat(200)
+                                jo = JSONObject(EcoProtectionRpcCall.protect(activityId, projectId, cityCode))
+                                if (ResChecker.checkRes(TAG, jo)) {
+                                    Log.forest(
+                                        ("保护古树🎐[" + cityName + "-" + districtName
+                                                + "]#" + age + "年" + name + ",消耗能量" + protectExpense + "g")
+                                    )
+                                } else {
+                                    Log.record(jo.getString("resultDesc"))
+                                    Log.record(jo.toString())
+                                }
+                            }
+                        } else {
+                            Log.record(jo.getString("resultDesc"))
+                            Log.record(ancientTreeDetail.toString())
+                        }
+                        sleepCompat(500L)
+                    }
+                }
+            } catch (th: Throwable) {
+                Log.printStackTrace(TAG, "districtDetail err:",th)
+            }
+        }
+    }
+}

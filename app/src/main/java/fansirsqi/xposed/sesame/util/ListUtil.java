@@ -1,1 +1,26 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwoKaW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuQ29sbGVjdGlvbnM7CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKLyoqIOWIl+ihqOW3peWFt+exu++8jOaPkOS+m+WvueWIl+ihqOeahOW4uOeUqOaTjeS9nOOAgiAqLwpwdWJsaWMgY2xhc3MgTGlzdFV0aWwgewogIC8qKgogICAqIOWIm+W7uuS4gOS4quaWsOeahEFycmF5TGlzdOWunuS+i++8jOW5tuS9v+eUqOaPkOS+m+eahOWFg+e0oOi/m+ihjOWIneWni+WMluOAggogICAqIOi/meaYr+S4gOS4quazm+Wei+aWueazle+8jOWPr+S7peeUqOS6juWIm+W7uuW5tuWIneWni+WMluS7u+S9leexu+Wei+eahOWIl+ihqOOAggogICAqCiAgICogQHBhcmFtIG9iamVjdHMg6KaB5re75Yqg5Yiw5YiX6KGo5Lit55qE5YWD57Sg44CCCiAgICogQHBhcmFtIDxUPiDliJfooajlhYPntKDnmoTnsbvlnovjgIIKICAgKiBAcmV0dXJuIOi/lOWbnuWMheWQq+aJgOacieaPkOS+m+WFg+e0oOeahOaWsEFycmF5TGlzdOOAggogICAqLwogIEBTYWZlVmFyYXJncwogIHB1YmxpYyBzdGF0aWMgPFQ+IExpc3Q8VD4gbmV3QXJyYXlMaXN0KFQuLi4gb2JqZWN0cykgewogICAgLy8g5Yib5bu65LiA5Liq5paw55qEQXJyYXlMaXN05a6e5L6LCiAgICBMaXN0PFQ+IGxpc3QgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIC8vIOWmguaenOaPkOS+m+S6huWFg+e0oO+8jOWImeWwhuWug+S7rOa3u+WKoOWIsOWIl+ihqOS4rQogICAgaWYgKG9iamVjdHMgIT0gbnVsbCkgewogICAgICBDb2xsZWN0aW9ucy5hZGRBbGwobGlzdCwgb2JqZWN0cyk7CiAgICB9CiAgICByZXR1cm4gbGlzdDsKICB9Cn0K
+package fansirsqi.xposed.sesame.util;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+/** 列表工具类，提供对列表的常用操作。 */
+public class ListUtil {
+  /**
+   * 创建一个新的ArrayList实例，并使用提供的元素进行初始化。
+   * 这是一个泛型方法，可以用于创建并初始化任何类型的列表。
+   *
+   * @param objects 要添加到列表中的元素。
+   * @param <T> 列表元素的类型。
+   * @return 返回包含所有提供元素的新ArrayList。
+   */
+  @SafeVarargs
+  public static <T> List<T> newArrayList(T... objects) {
+    // 创建一个新的ArrayList实例
+    List<T> list = new ArrayList<>();
+    // 如果提供了元素，则将它们添加到列表中
+    if (objects != null) {
+      Collections.addAll(list, objects);
+    }
+    return list;
+  }
+}

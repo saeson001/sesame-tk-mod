@@ -1,1 +1,157 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhOwppbXBvcnQgb3JnLmpzb24uSlNPTkV4Y2VwdGlvbjsKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3Q7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkZpbGVzOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2c7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuVXNlck1hcDsKaW1wb3J0IGphdmEudXRpbC5PYmplY3RzOwovKioKICogUnVudGltZUluZm8g55So5LqO5a2Y5YKo5ZKM566h55CG6L+Q6KGM5pe255qE6YWN572u5L+h5oGv44CCCiAqIOivpeexu+aPkOS+m+S6huiOt+WPluOAgeS/neWtmOOAgeabtOaWsOi/kOihjOaXtuS/oeaBr+eahOWKn+iDve+8jOW5tuWfuuS6jueUqOaItyBJRCDljLrliIbkuI3lkIznmoTphY3nva7jgIIKICovCnB1YmxpYyBjbGFzcyBSdW50aW1lSW5mbyB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gUnVudGltZUluZm8uY2xhc3MuZ2V0U2ltcGxlTmFtZSgpOwogICAgLy8g5b2T5YmN5Y2V5L6L5a6e5L6LCiAgICBwcml2YXRlIHN0YXRpYyBSdW50aW1lSW5mbyBpbnN0YW5jZTsKICAgIC8vIOW9k+WJjeeUqOaItyBJRAogICAgcHJpdmF0ZSBmaW5hbCBTdHJpbmcgdXNlcklkOwogICAgLy8g5a2Y5YKo5omA5pyJ6L+Q6KGM5pe25L+h5oGv55qEIEpTT04g5a+56LGhCiAgICBwcml2YXRlIEpTT05PYmplY3Qgam9BbGw7CiAgICAvLyDlrZjlgqjlvZPliY3nlKjmiLfov5DooYzml7bkv6Hmga/nmoQgSlNPTiDlr7nosaEKICAgIHByaXZhdGUgSlNPTk9iamVjdCBqb0N1cnJlbnQ7CiAgICAvKioKICAgICAqIOaemuS4vuexu+Wei++8jOWumuS5ieaJgOacieWPr+S7peWtmOWCqOWSjOiOt+WPlueahOi/kOihjOaXtuS/oeaBr+eahOmUrgogICAgICovCiAgICBwdWJsaWMgZW51bSBSdW50aW1lSW5mb0tleSB7CiAgICAgICAgRm9yZXN0UGF1c2VUaW1lIC8vIOekuuS+i+mUrgogICAgfQogICAgLyoqCiAgICAgKiDojrflj5YgUnVudGltZUluZm8g55qE5Y2V5L6L5a6e5L6L44CCCiAgICAgKiDlpoLmnpzlvZPliY3nlKjmiLfnmoQgSUQg5LiO5LmL5YmN5LiN5ZCM77yM5YiZ5Lya6YeN5paw5Yib5bu65a6e5L6L44CCCiAgICAgKgogICAgICogQHJldHVybiDov5Tlm54gUnVudGltZUluZm8g55qE5Y2V5L6L5a6e5L6LCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgUnVudGltZUluZm8gZ2V0SW5zdGFuY2UoKSB7CiAgICAgICAgaWYgKGluc3RhbmNlID09IG51bGwgfHwgIU9iamVjdHMuZXF1YWxzKGluc3RhbmNlLnVzZXJJZCwgVXNlck1hcC5JTlNUQU5DRS5nZXRDdXJyZW50VWlkKCkpKSB7CiAgICAgICAgICAgIGluc3RhbmNlID0gbmV3IFJ1bnRpbWVJbmZvKCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBpbnN0YW5jZTsKICAgIH0KICAgIC8qKgogICAgICog5p6E6YCg5Ye95pWw77yM5Yid5aeL5YyW5b2T5YmN55So5oi355qE6L+Q6KGM5pe25L+h5oGv44CCCiAgICAgKiDku47mlofku7bkuK3or7vlj5bov5DooYzml7bmlbDmja7vvIzlubbliJ3lp4vljJbnm7jlhbPnmoQgSlNPTiDlr7nosaHjgIIKICAgICAqLwogICAgcHJpdmF0ZSBSdW50aW1lSW5mbygpIHsKICAgICAgICB1c2VySWQgPSBVc2VyTWFwLklOU1RBTkNFLmdldEN1cnJlbnRVaWQoKTsKICAgICAgICBTdHJpbmcgY29udGVudCA9IEZpbGVzLnJlYWRGcm9tRmlsZShGaWxlcy5ydW50aW1lSW5mb0ZpbGUodXNlcklkKSk7CiAgICAgICAgLy8g5aaC5p6c5paH5Lu26K+75Y+W5oiQ5Yqf77yM5YiZ6Kej5p6QIEpTT04g5pWw5o2u77yM5ZCm5YiZ5Yid5aeL5YyW5Li656m655qEIEpTT04g5a+56LGhCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgam9BbGwgPSBuZXcgSlNPTk9iamVjdChjb250ZW50KTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gaWdub3JlZCkgewogICAgICAgICAgICBqb0FsbCA9IG5ldyBKU09OT2JqZWN0KCk7CiAgICAgICAgfQogICAgICAgIC8vIOehruS/nSAiam9BbGwiIOS4reWMheWQq+W9k+WJjeeUqOaIt+eahOadoeebrgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmICgham9BbGwuaGFzKHVzZXJJZCkpIHsKICAgICAgICAgICAgICAgIGpvQWxsLnB1dCh1c2VySWQsIG5ldyBKU09OT2JqZWN0KCkpOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGlnbm9yZWQpIHsKICAgICAgICB9CiAgICAgICAgLy8g6I635Y+W5b2T5YmN55So5oi355qE6L+Q6KGM5pe25L+h5oGvCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgam9DdXJyZW50ID0gam9BbGwuZ2V0SlNPTk9iamVjdCh1c2VySWQpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBpZ25vcmVkKSB7CiAgICAgICAgICAgIGpvQ3VycmVudCA9IG5ldyBKU09OT2JqZWN0KCk7CiAgICAgICAgfQogICAgfQogICAgLyoqCiAgICAgKiDlsIbov5DooYzml7bkv6Hmga/kv53lrZjliLDmlofku7bkuK3jgIIKICAgICAqLwogICAgcHVibGljIHN5bmNocm9uaXplZCB2b2lkIHNhdmUoKSB7CiAgICAgICAgRmlsZXMud3JpdGUyRmlsZShqb0FsbC50b1N0cmluZygpLCBGaWxlcy5ydW50aW1lSW5mb0ZpbGUodXNlcklkKSk7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPluaMh+WumumUrueahOWAvO+8iE9iamVjdCDnsbvlnovvvInjgILlpoLmnpzor6XplK7kuI3lrZjlnKjvvIzov5Tlm54gbnVsbOOAggogICAgICoKICAgICAqIEBwYXJhbSBrZXkg6ZSuCiAgICAgKiBAcmV0dXJuIOmUruWvueW6lOeahOWAvAogICAgICogQHRocm93cyBKU09ORXhjZXB0aW9uIOWPr+iDveaKm+WHuueahOW8guW4uAogICAgICovCiAgICBwdWJsaWMgT2JqZWN0IGdldChSdW50aW1lSW5mb0tleSBrZXkpIHRocm93cyBKU09ORXhjZXB0aW9uIHsKICAgICAgICByZXR1cm4gam9DdXJyZW50Lm9wdChrZXkubmFtZSgpKTsKICAgIH0KICAgIC8qKgogICAgICog5qC55o2u6ZSu6I635Y+W5a+55bqU55qE5a2X56ym5Liy5YC844CC5aaC5p6c6ZSu5LiN5a2Y5Zyo77yM6L+U5Zue56m65a2X56ym5Liy44CCCiAgICAgKgogICAgICogQHBhcmFtIGtleSDplK4KICAgICAqIEByZXR1cm4g5a+55bqU55qE5a2X56ym5Liy5YC8CiAgICAgKi8KICAgIHB1YmxpYyBTdHJpbmcgZ2V0U3RyaW5nKFN0cmluZyBrZXkpIHsKICAgICAgICByZXR1cm4gam9DdXJyZW50Lm9wdFN0cmluZyhrZXkpOwogICAgfQogICAgLyoqCiAgICAgKiDmoLnmja7plK7ojrflj5blr7nlupTnmoQgbG9uZyDlgLzjgILlpoLmnpzplK7kuI3lrZjlnKjvvIzov5Tlm57pu5jorqTlgLzjgIIKICAgICAqCiAgICAgKiBAcGFyYW0ga2V5ICDplK4KICAgICAqIEBwYXJhbSBkZWYg6buY6K6k5YC8CiAgICAgKiBAcmV0dXJuIOWvueW6lOeahCBsb25nIOWAvAogICAgICovCiAgICBwdWJsaWMgTG9uZyBnZXRMb25nKFN0cmluZyBrZXksIGxvbmcgZGVmKSB7CiAgICAgICAgcmV0dXJuIGpvQ3VycmVudC5vcHRMb25nKGtleSwgZGVmKTsKICAgIH0KICAgIC8qKgogICAgICog5qC55o2u6ZSu6I635Y+W5a+55bqU55qE5biD5bCU5YC844CC5aaC5p6c6ZSu5LiN5a2Y5Zyo77yM6L+U5Zue6buY6K6k5YC844CCCiAgICAgKgogICAgICogQHBhcmFtIGtleSAg6ZSuCiAgICAgKiBAcGFyYW0gZGVmIOm7mOiupOWAvAogICAgICogQHJldHVybiDlr7nlupTnmoTluIPlsJTlgLwKICAgICAqLwogICAgcHVibGljIGJvb2xlYW4gZ2V0Qm9vbChTdHJpbmcga2V5LCBib29sZWFuIGRlZikgewogICAgICAgIHJldHVybiBqb0N1cnJlbnQub3B0Qm9vbGVhbihrZXksIGRlZik7CiAgICB9CiAgICAvKioKICAgICAqIOagueaNruaemuS4vumUruiOt+WPluWvueW6lOeahOWtl+espuS4suWAvOOAggogICAgICoKICAgICAqIEBwYXJhbSBrZXkg6ZSu77yI5p6a5Li+5YC877yJCiAgICAgKiBAcmV0dXJuIOWvueW6lOeahOWtl+espuS4suWAvAogICAgICovCiAgICBwdWJsaWMgU3RyaW5nIGdldFN0cmluZyhSdW50aW1lSW5mb0tleSBrZXkpIHsKICAgICAgICByZXR1cm4gam9DdXJyZW50Lm9wdFN0cmluZyhrZXkubmFtZSgpKTsKICAgIH0KICAgIC8qKgogICAgICog5qC55o2u5p6a5Li+6ZSu6I635Y+W5a+55bqU55qEIGxvbmcg5YC844CC5aaC5p6c6ZSu5LiN5a2Y5Zyo77yM6L+U5Zue6buY6K6k5YC8IDBM44CCCiAgICAgKgogICAgICogQHBhcmFtIGtleSDplK7vvIjmnprkuL7lgLzvvIkKICAgICAqIEByZXR1cm4g5a+55bqU55qEIGxvbmcg5YC8CiAgICAgKi8KICAgIHB1YmxpYyBMb25nIGdldExvbmcoUnVudGltZUluZm9LZXkga2V5KSB7CiAgICAgICAgcmV0dXJuIGpvQ3VycmVudC5vcHRMb25nKGtleS5uYW1lKCksIDBMKTsKICAgIH0KICAgIC8qKgogICAgICog5L2/55So5p6a5Li+6ZSu5bCG5YC85a2Y5YKo5Yiw5b2T5YmN55So5oi355qE6L+Q6KGM5pe25L+h5oGv5Lit44CCCiAgICAgKgogICAgICogQHBhcmFtIGtleSAgIOmUru+8iOaemuS4vuWAvO+8iQogICAgICogQHBhcmFtIHZhbHVlIOWtmOWCqOeahOWAvAogICAgICovCiAgICBwdWJsaWMgdm9pZCBwdXQoUnVudGltZUluZm9LZXkga2V5LCBPYmplY3QgdmFsdWUpIHsKICAgICAgICBwdXQoa2V5Lm5hbWUoKSwgdmFsdWUpOwogICAgfQogICAgLyoqCiAgICAgKiDmoLnmja7plK7lsIblgLzlrZjlgqjliLDlvZPliY3nlKjmiLfnmoTov5DooYzml7bkv6Hmga/kuK3jgIIKICAgICAqCiAgICAgKiBAcGFyYW0ga2V5ICAg6ZSuCiAgICAgKiBAcGFyYW0gdmFsdWUg5a2Y5YKo55qE5YC8CiAgICAgKi8KICAgIHB1YmxpYyB2b2lkIHB1dChTdHJpbmcga2V5LCBPYmplY3QgdmFsdWUpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBqb0N1cnJlbnQucHV0KGtleSwgdmFsdWUpOwogICAgICAgICAgICBqb0FsbC5wdXQodXNlcklkLCBqb0N1cnJlbnQpOwogICAgICAgIH0gY2F0Y2ggKEpTT05FeGNlcHRpb24gZSkgewogICAgICAgICAgICAvLyDplJnor6/ml6Xlv5cKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJwdXQgZXJyOiIpOwogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgZSk7CiAgICAgICAgfQogICAgICAgIC8vIOS/neWtmOaVsOaNruWIsOaWh+S7tgogICAgICAgIHNhdmUoKTsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.data;
+import org.json.JSONException;
+import org.json.JSONObject;
+import fansirsqi.xposed.sesame.util.Files;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.maps.UserMap;
+import java.util.Objects;
+/**
+ * RuntimeInfo 用于存储和管理运行时的配置信息。
+ * 该类提供了获取、保存、更新运行时信息的功能，并基于用户 ID 区分不同的配置。
+ */
+public class RuntimeInfo {
+    private static final String TAG = RuntimeInfo.class.getSimpleName();
+    // 当前单例实例
+    private static RuntimeInfo instance;
+    // 当前用户 ID
+    private final String userId;
+    // 存储所有运行时信息的 JSON 对象
+    private JSONObject joAll;
+    // 存储当前用户运行时信息的 JSON 对象
+    private JSONObject joCurrent;
+    /**
+     * 枚举类型，定义所有可以存储和获取的运行时信息的键
+     */
+    public enum RuntimeInfoKey {
+        ForestPauseTime // 示例键
+    }
+    /**
+     * 获取 RuntimeInfo 的单例实例。
+     * 如果当前用户的 ID 与之前不同，则会重新创建实例。
+     *
+     * @return 返回 RuntimeInfo 的单例实例
+     */
+    public static RuntimeInfo getInstance() {
+        if (instance == null || !Objects.equals(instance.userId, UserMap.INSTANCE.getCurrentUid())) {
+            instance = new RuntimeInfo();
+        }
+        return instance;
+    }
+    /**
+     * 构造函数，初始化当前用户的运行时信息。
+     * 从文件中读取运行时数据，并初始化相关的 JSON 对象。
+     */
+    private RuntimeInfo() {
+        userId = UserMap.INSTANCE.getCurrentUid();
+        String content = Files.readFromFile(Files.runtimeInfoFile(userId));
+        // 如果文件读取成功，则解析 JSON 数据，否则初始化为空的 JSON 对象
+        try {
+            joAll = new JSONObject(content);
+        } catch (Exception ignored) {
+            joAll = new JSONObject();
+        }
+        // 确保 "joAll" 中包含当前用户的条目
+        try {
+            if (!joAll.has(userId)) {
+                joAll.put(userId, new JSONObject());
+            }
+        } catch (Exception ignored) {
+        }
+        // 获取当前用户的运行时信息
+        try {
+            joCurrent = joAll.getJSONObject(userId);
+        } catch (Exception ignored) {
+            joCurrent = new JSONObject();
+        }
+    }
+    /**
+     * 将运行时信息保存到文件中。
+     */
+    public synchronized void save() {
+        Files.write2File(joAll.toString(), Files.runtimeInfoFile(userId));
+    }
+    /**
+     * 获取指定键的值（Object 类型）。如果该键不存在，返回 null。
+     *
+     * @param key 键
+     * @return 键对应的值
+     * @throws JSONException 可能抛出的异常
+     */
+    public Object get(RuntimeInfoKey key) throws JSONException {
+        return joCurrent.opt(key.name());
+    }
+    /**
+     * 根据键获取对应的字符串值。如果键不存在，返回空字符串。
+     *
+     * @param key 键
+     * @return 对应的字符串值
+     */
+    public String getString(String key) {
+        return joCurrent.optString(key);
+    }
+    /**
+     * 根据键获取对应的 long 值。如果键不存在，返回默认值。
+     *
+     * @param key  键
+     * @param def 默认值
+     * @return 对应的 long 值
+     */
+    public Long getLong(String key, long def) {
+        return joCurrent.optLong(key, def);
+    }
+    /**
+     * 根据键获取对应的布尔值。如果键不存在，返回默认值。
+     *
+     * @param key  键
+     * @param def 默认值
+     * @return 对应的布尔值
+     */
+    public boolean getBool(String key, boolean def) {
+        return joCurrent.optBoolean(key, def);
+    }
+    /**
+     * 根据枚举键获取对应的字符串值。
+     *
+     * @param key 键（枚举值）
+     * @return 对应的字符串值
+     */
+    public String getString(RuntimeInfoKey key) {
+        return joCurrent.optString(key.name());
+    }
+    /**
+     * 根据枚举键获取对应的 long 值。如果键不存在，返回默认值 0L。
+     *
+     * @param key 键（枚举值）
+     * @return 对应的 long 值
+     */
+    public Long getLong(RuntimeInfoKey key) {
+        return joCurrent.optLong(key.name(), 0L);
+    }
+    /**
+     * 使用枚举键将值存储到当前用户的运行时信息中。
+     *
+     * @param key   键（枚举值）
+     * @param value 存储的值
+     */
+    public void put(RuntimeInfoKey key, Object value) {
+        put(key.name(), value);
+    }
+    /**
+     * 根据键将值存储到当前用户的运行时信息中。
+     *
+     * @param key   键
+     * @param value 存储的值
+     */
+    public void put(String key, Object value) {
+        try {
+            joCurrent.put(key, value);
+            joAll.put(userId, joCurrent);
+        } catch (JSONException e) {
+            // 错误日志
+            Log.record(TAG, "put err:");
+            Log.printStackTrace(TAG, e);
+        }
+        // 保存数据到文件
+        save();
+    }
+}

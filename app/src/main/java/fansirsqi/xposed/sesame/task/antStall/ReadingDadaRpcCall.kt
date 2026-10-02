@@ -1,1 +1,53 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudFN0YWxsCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5SZXF1ZXN0TWFuYWdlcgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5TdHJpbmdVdGlsCgovKioKICogQGZpbGUgUmVhZGluZ0RhZGFScGNDYWxsLmt0CiAqIEBicmllZiDpmIXor7vnrZTpopjnm7jlhbNSUEPosIPnlKgKICogQGF1dGhvcgogKiBAc2luY2UgMjAyMy8wOC8yMgogKi8Kb2JqZWN0IFJlYWRpbmdEYWRhUnBjQ2FsbCB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBWRVJTSU9OID0gIjEiCgogICAgLyoqCiAgICAgKiBAYnJpZWYg5o+Q5Lqk562U5qGICiAgICAgKiBAcGFyYW0gYWN0aXZpdHlJZCDmtLvliqhJRAogICAgICogQHBhcmFtIG91dEJpeklkIOWklumDqOS4muWKoUlECiAgICAgKiBAcGFyYW0gcXVlc3Rpb25JZCDpl67pophJRAogICAgICogQHBhcmFtIGFuc3dlciDnrZTmoYgKICAgICAqIEByZXR1cm4g6L+U5Zue57uT5p6c5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBzdWJtaXRBbnN3ZXIoCiAgICAgICAgYWN0aXZpdHlJZDogU3RyaW5nLAogICAgICAgIG91dEJpeklkOiBTdHJpbmcsCiAgICAgICAgcXVlc3Rpb25JZDogU3RyaW5nLAogICAgICAgIGFuc3dlcjogU3RyaW5nCiAgICApOiBTdHJpbmcgewogICAgICAgIHZhbCBvdXRCaXpJZFBhcmFtID0gaWYgKFN0cmluZ1V0aWwuaXNFbXB0eShvdXRCaXpJZCkpIHsKICAgICAgICAgICAgIiIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiXCJvdXRCaXpJZFwiOlwiJG91dEJpeklkXCIsIgogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LnJlYWRpbmcuZ2FtZS5kYWRhLm9wZW5EYWlseUFuc3dlci5zdWJtaXRBbnN3ZXIiLAogICAgICAgICAgICAiW3tcImFjdGl2aXR5SWRcIjpcIiRhY3Rpdml0eUlkXCIsXCJhbnN3ZXJcIjpcIiRhbnN3ZXJcIixcImRhZGFWZXJzaW9uXCI6XCIxLjMuMFwiLCIgKwogICAgICAgICAgICAgICAgICAgICIkb3V0Qml6SWRQYXJhbVwicXVlc3Rpb25JZFwiOlwiJHF1ZXN0aW9uSWRcIixcInZlcnNpb25cIjokVkVSU0lPTn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDojrflj5bpl67popgKICAgICAqIEBwYXJhbSBhY3Rpdml0eUlkIOa0u+WKqElECiAgICAgKiBAcmV0dXJuIOi/lOWbnue7k+aenOWtl+espuS4sgogICAgICovCiAgICBmdW4gZ2V0UXVlc3Rpb24oYWN0aXZpdHlJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkucmVhZGluZy5nYW1lLmRhZGEub3BlbkRhaWx5QW5zd2VyLmdldFF1ZXN0aW9uIiwKICAgICAgICAgICAgIlt7XCJhY3Rpdml0eUlkXCI6XCIkYWN0aXZpdHlJZFwiLFwiZGFkYVZlcnNpb25cIjpcIjEuMy4wXCIsXCJ2ZXJzaW9uXCI6JFZFUlNJT059XSIKICAgICAgICApCiAgICB9Cn0K
+package fansirsqi.xposed.sesame.task.antStall
+
+import fansirsqi.xposed.sesame.hook.RequestManager
+import fansirsqi.xposed.sesame.util.StringUtil
+
+/**
+ * @file ReadingDadaRpcCall.kt
+ * @brief 阅读答题相关RPC调用
+ * @author
+ * @since 2023/08/22
+ */
+object ReadingDadaRpcCall {
+    private const val VERSION = "1"
+
+    /**
+     * @brief 提交答案
+     * @param activityId 活动ID
+     * @param outBizId 外部业务ID
+     * @param questionId 问题ID
+     * @param answer 答案
+     * @return 返回结果字符串
+     */
+    fun submitAnswer(
+        activityId: String,
+        outBizId: String,
+        questionId: String,
+        answer: String
+    ): String {
+        val outBizIdParam = if (StringUtil.isEmpty(outBizId)) {
+            ""
+        } else {
+            "\"outBizId\":\"$outBizId\","
+        }
+
+        return RequestManager.requestString(
+            "com.alipay.reading.game.dada.openDailyAnswer.submitAnswer",
+            "[{\"activityId\":\"$activityId\",\"answer\":\"$answer\",\"dadaVersion\":\"1.3.0\"," +
+                    "$outBizIdParam\"questionId\":\"$questionId\",\"version\":$VERSION}]"
+        )
+    }
+
+    /**
+     * @brief 获取问题
+     * @param activityId 活动ID
+     * @return 返回结果字符串
+     */
+    fun getQuestion(activityId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.reading.game.dada.openDailyAnswer.getQuestion",
+            "[{\"activityId\":\"$activityId\",\"dadaVersion\":\"1.3.0\",\"version\":$VERSION}]"
+        )
+    }
+}

@@ -1,1 +1,179 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmtlZXBhbGl2ZQoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm9zLlBvd2VyTWFuYWdlcgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuVGltZVV0aWwKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5DYW5jZWxsYXRpb25FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuU3VwZXJ2aXNvckpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNhbmNlbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuaXNBY3RpdmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXAKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNJbnRlZ2VyCgovKioKICog5Y2P56iL6LCD5bqm5ZmoIC0g5Z+65LqOIENvcm91dGluZXMgKyBXYWtlTG9jawogKgogKiDmoLjlv4PmgJ3mg7PvvJoKICogMS4g5oqb5byDIEFsYXJtTWFuYWdlciDnmoTlub/mkq3lm57osIPlnLDni7HvvIzlm57lvZLnur/mgKfku6PnoIHjgIIKICogMi4g5L2/55SoIFdha2VMb2NrIOehruS/neWcqCBkZWxheSDmnJ/pl7QgQ1BVIOS/neaMgei/kOihjO+8iOino+WGsyBEb3plIOWvvOiHtOeahOaXtumXtOWBnOa7nu+8ieOAggogKiAzLiDkvb/nlKjljY/nqIvnu5PmnoTljJblubblj5HnrqHnkIbku7vliqHjgIIKICovCm9iamVjdCBTbWFydFNjaGVkdWxlck1hbmFnZXIgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlNtYXJ0U2NoZWR1bGVyIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgV0FLRUxPQ0tfVEFHID0gIlNlc2FtZTpTY2hlZHVsZXJMb2NrIgoKICAgIC8vIOeLrOeri+eahOWNj+eoi+S9nOeUqOWfn++8jOS9v+eUqCBTdXBlcnZpc29ySm9iIOehruS/neWNleS4quS7u+WKoeW0qea6g+S4jeW9seWTjeWFtuS7luS7u+WKoQogICAgLy8g5pS55Li65Y+v6YeN5paw5Yib5bu6CiAgICBwcml2YXRlIHZhciBfc2NvcGU6IENvcm91dGluZVNjb3BlPyA9IG51bGwKICAgIHByaXZhdGUgdmFsIHNjb3BlOiBDb3JvdXRpbmVTY29wZQogICAgICAgIGdldCgpIHsKICAgICAgICAgICAgdmFsIHMgPSBfc2NvcGUKICAgICAgICAgICAgaWYgKHMgIT0gbnVsbCAmJiBzLmlzQWN0aXZlKSByZXR1cm4gcwogICAgICAgICAgICByZXR1cm4gQ29yb3V0aW5lU2NvcGUoRGlzcGF0Y2hlcnMuRGVmYXVsdCArIFN1cGVydmlzb3JKb2IoKSkuYWxzbyB7IF9zY29wZSA9IGl0IH0KICAgICAgICB9CgogICAgLy8g566h55CG5omA5pyJ5q2j5Zyo6L+Q6KGM55qE5Lu75YqhIEpvYu+8jOeUqOS6juWPlua2iAogICAgcHJpdmF0ZSB2YWwgdGFza01hcCA9IENvbmN1cnJlbnRIYXNoTWFwPEludCwgSm9iPigpCiAgICAvLyDlkb3lkI3ku7vliqHmmKDlsITvvIznlKjkuo7oh6rliqjmm7/mjaLlkIzlkI3ku7vliqHvvIzpmLLmraLph43lpI3osIPluqbpgLvovpHloIbnp68KICAgIHByaXZhdGUgdmFsIG5hbWVkVGFza3MgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIEludD4oKQogICAgcHJpdmF0ZSB2YWwgdGFza0lkR2VuZXJhdG9yID0gQXRvbWljSW50ZWdlcigwKQoKICAgIEBTdXBwcmVzc0xpbnQoIlN0YXRpY0ZpZWxkTGVhayIpCiAgICBwcml2YXRlIHZhciBwb3dlck1hbmFnZXI6IFBvd2VyTWFuYWdlcj8gPSBudWxsCgogICAgLy8g5Yid5aeL5YyW5qOA5p+lCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIGlzSW5pdGlhbGl6ZWQgPSBmYWxzZQoKICAgIGZ1biBpbml0aWFsaXplKGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICAvLyDljbPkvb/lt7LliJ3lp4vljJbvvIzlpoLmnpwgc2NvcGUg6KKr5Y+W5raI5LqG5Lmf6KaB5YWB6K645oGi5aSNCiAgICAgICAgaWYgKGlzSW5pdGlhbGl6ZWQgJiYgX3Njb3BlPy5pc0FjdGl2ZSA9PSB0cnVlKSByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgYXBwQ29udGV4dCA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0ID86IGNvbnRleHQKICAgICAgICAgICAgcG93ZXJNYW5hZ2VyID0gYXBwQ29udGV4dC5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuUE9XRVJfU0VSVklDRSkgYXMgUG93ZXJNYW5hZ2VyCiAgICAgICAgICAgIGlzSW5pdGlhbGl6ZWQgPSB0cnVlCiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi4pyFIOiwg+W6puWZqOW3suWIneWni+WMliAoQ29yb3V0aW5lcyArIFdha2VMb2NrKSIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLliJ3lp4vljJblpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6LCD5bqm5Lu75YqhCiAgICAgKiBAcGFyYW0gZGVsYXlNaWxsaXMg5bu26L+f5q+r56eS5pWwCiAgICAgKiBAcGFyYW0gdGFza05hbWUg5Lu75Yqh5ZCN56ew77yI55So5LqO5pel5b+X5ZKM6KaG55uW5pen5Lu75Yqh77yJCiAgICAgKiBAcGFyYW0gYmxvY2sg6KaB5omn6KGM55qE5Luj56CB5Z2XCiAgICAgKiBAcmV0dXJuIOS7u+WKoUlE77yM5Y+v55So5LqO5Y+W5raICiAgICAgKi8KICAgIGZ1biBzY2hlZHVsZShkZWxheU1pbGxpczogTG9uZywgdGFza05hbWU6IFN0cmluZyA9ICLmnKrlkb3lkI3ku7vliqEiLCBibG9jazogKCkgLT4gVW5pdCk6IEludCB7CiAgICAgICAgaWYgKCFpc0luaXRpYWxpemVkKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLosIPluqblpLHotKXvvJrmnKrliJ3lp4vljJYiKQogICAgICAgICAgICByZXR1cm4gLTEKICAgICAgICB9CgogICAgICAgIC8vIOiHquWKqOabv+aNouWQjOWQjeS7u+WKoe+8jOmYsuatouernuS6ieWvvOiHtOeahOiwg+W6pua3t+S5sQogICAgICAgIG5hbWVkVGFza3NbdGFza05hbWVdPy5sZXQgeyBvbGRUYXNrSWQgLT4KICAgICAgICAgICAgY2FuY2VsVGFzayhvbGRUYXNrSWQpCiAgICAgICAgfQoKICAgICAgICB2YWwgdGFza0lkID0gdGFza0lkR2VuZXJhdG9yLmluY3JlbWVudEFuZEdldCgpCiAgICAgICAgbmFtZWRUYXNrc1t0YXNrTmFtZV0gPSB0YXNrSWQKCiAgICAgICAgdmFsIGZpbmFsRGVsYXkgPSBpZiAoZGVsYXlNaWxsaXMgPCAwKSAwTCBlbHNlIGRlbGF5TWlsbGlzCgogICAgICAgIC8vIOWQr+WKqOWNj+eoiwogICAgICAgIHZhbCBqb2IgPSBzY29wZS5sYXVuY2ggewogICAgICAgICAgICB2YWwgd2FrZUxvY2sgPSBhY3F1aXJlV2FrZUxvY2soZmluYWxEZWxheSArIDUwMDApCiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi4o+zIOS7u+WKoeiwg+W6pjogWyR0YXNrTmFtZV0gfCBJRDokdGFza0lkIHwg5bu26L+fOiAke1RpbWVVdGlsLmZvcm1hdER1cmF0aW9uKGZpbmFsRGVsYXkpfSIpCiAgICAgICAgICAgIExvZy5yZWNvcmQoICI+Ii5yZXBlYXQoNDApKQoKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOaguOW/g++8muWcqCBXYWtlTG9jayDkv53miqTkuIvov5vooYzmjILotbcKICAgICAgICAgICAgICAgIGRlbGF5KGZpbmFsRGVsYXkpCgogICAgICAgICAgICAgICAgaWYgKGlzQWN0aXZlKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLilrbvuI8g5byA5aeL5omn6KGMOiBbJHRhc2tOYW1lXSB8IElEOiR0YXNrSWQiKQogICAgICAgICAgICAgICAgICAgIC8vIOWIh+aNouWIsOS4u+e6v+eoi+aJp+ihjCBIb29rIOmAu+i+ke+8iOmAmuW4uCBIb29rIOmcgOimgeWcqOS4u+e6v+eoi++8iQogICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsKICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJsb2NrKCkKICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi4p2MIOS7u+WKoeaJp+ihjOW8guW4uCBbJHRhc2tOYW1lXTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIvCfmqsg5Lu75Yqh5bey5Y+W5raIOiBbJHRhc2tOYW1lXSB8IElEOiR0YXNrSWQiKQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgLy8g6YeK5pS+6ZSB5ZKM5riF55CGIE1hcAogICAgICAgICAgICAgICAgcmVsZWFzZVdha2VMb2NrKHdha2VMb2NrKQogICAgICAgICAgICAgICAgdGFza01hcC5yZW1vdmUodGFza0lkKQogICAgICAgICAgICAgICAgaWYgKG5hbWVkVGFza3NbdGFza05hbWVdID09IHRhc2tJZCkgewogICAgICAgICAgICAgICAgICAgIG5hbWVkVGFza3MucmVtb3ZlKHRhc2tOYW1lKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0YXNrTWFwW3Rhc2tJZF0gPSBqb2IKICAgICAgICByZXR1cm4gdGFza0lkCiAgICB9CgogICAgLyoqCiAgICAgKiDlj5bmtojnibnlrprku7vliqEKICAgICAqLwogICAgZnVuIGNhbmNlbFRhc2sodGFza0lkOiBJbnQpIHsKICAgICAgICB0YXNrTWFwW3Rhc2tJZF0/LmNhbmNlbCgpCiAgICAgICAgdGFza01hcC5yZW1vdmUodGFza0lkKQogICAgfQoKICAgIC8qKgogICAgICog5Y+W5raI5omA5pyJ5Lu75YqhCiAgICAgKi8KICAgIGZ1biBjYW5jZWxBbGwoKSB7CiAgICAgICAgTG9nLnJlY29yZChUQUcsICLmraPlnKjlj5bmtojmiYDmnInku7vliqEuLi4iKQogICAgICAgIHRhc2tNYXAudmFsdWVzLmZvckVhY2ggeyBpdC5jYW5jZWwoKSB9CiAgICAgICAgdGFza01hcC5jbGVhcigpCiAgICAgICAgbmFtZWRUYXNrcy5jbGVhcigpCiAgICB9CgogICAgLyoqCiAgICAgKiDnlLPor7fllKTphpLplIEKICAgICAqIFBBUlRJQUxfV0FLRV9MT0NLOiDkv53mjIEgQ1BVIOi/kOihjO+8jOWxj+W5leWPr+S7peWFs+mXre+8jOmUruebmOeBr+WPr+S7peWFs+mXreOAggogICAgICovCiAgICBwcml2YXRlIGZ1biBhY3F1aXJlV2FrZUxvY2sodGltZW91dDogTG9uZyk6IFBvd2VyTWFuYWdlci5XYWtlTG9jaz8gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgd2FrZUxvY2sgPSBwb3dlck1hbmFnZXI/Lm5ld1dha2VMb2NrKFBvd2VyTWFuYWdlci5QQVJUSUFMX1dBS0VfTE9DSywgV0FLRUxPQ0tfVEFHKQogICAgICAgICAgICB3YWtlTG9jaz8uc2V0UmVmZXJlbmNlQ291bnRlZChmYWxzZSkKICAgICAgICAgICAgLy8g6K6+572u6LaF5pe25pe26Ze077yM6Ziy5q2i6YC76L6RIGJ1ZyDlr7zoh7TmsLjkuYXmjIHplIHogJfnlLUKICAgICAgICAgICAgd2FrZUxvY2s/LmFjcXVpcmUodGltZW91dCkKICAgICAgICAgICAgd2FrZUxvY2sKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIueUs+ivtyBXYWtlTG9jayDlpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVsZWFzZVdha2VMb2NrKHdha2VMb2NrOiBQb3dlck1hbmFnZXIuV2FrZUxvY2s/KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKHdha2VMb2NrPy5pc0hlbGQgPT0gdHJ1ZSkgewogICAgICAgICAgICAgICAgd2FrZUxvY2sucmVsZWFzZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgLy8g5b+955Wl6YeK5pS+5byC5bi4CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBjbGVhbnVwKCkgewogICAgICAgIF9zY29wZT8uY2FuY2VsKCkKICAgICAgICBfc2NvcGUgPSBudWxsCiAgICAgICAgY2FuY2VsQWxsKCkKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.hook.keepalive
+
+import android.annotation.SuppressLint
+import android.content.Context
+import android.os.PowerManager
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.TimeUtil
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.atomic.AtomicInteger
+
+/**
+ * 协程调度器 - 基于 Coroutines + WakeLock
+ *
+ * 核心思想：
+ * 1. 抛弃 AlarmManager 的广播回调地狱，回归线性代码。
+ * 2. 使用 WakeLock 确保在 delay 期间 CPU 保持运行（解决 Doze 导致的时间停滞）。
+ * 3. 使用协程结构化并发管理任务。
+ */
+object SmartSchedulerManager {
+    private const val TAG = "SmartScheduler"
+    private const val WAKELOCK_TAG = "Sesame:SchedulerLock"
+
+    // 独立的协程作用域，使用 SupervisorJob 确保单个任务崩溃不影响其他任务
+    // 改为可重新创建
+    private var _scope: CoroutineScope? = null
+    private val scope: CoroutineScope
+        get() {
+            val s = _scope
+            if (s != null && s.isActive) return s
+            return CoroutineScope(Dispatchers.Default + SupervisorJob()).also { _scope = it }
+        }
+
+    // 管理所有正在运行的任务 Job，用于取消
+    private val taskMap = ConcurrentHashMap<Int, Job>()
+    // 命名任务映射，用于自动替换同名任务，防止重复调度逻辑堆积
+    private val namedTasks = ConcurrentHashMap<String, Int>()
+    private val taskIdGenerator = AtomicInteger(0)
+
+    @SuppressLint("StaticFieldLeak")
+    private var powerManager: PowerManager? = null
+
+    // 初始化检查
+    @Volatile
+    private var isInitialized = false
+
+    fun initialize(context: Context) {
+        // 即使已初始化，如果 scope 被取消了也要允许恢复
+        if (isInitialized && _scope?.isActive == true) return
+        try {
+            val appContext = context.applicationContext ?: context
+            powerManager = appContext.getSystemService(Context.POWER_SERVICE) as PowerManager
+            isInitialized = true
+            Log.record(TAG, "✅ 调度器已初始化 (Coroutines + WakeLock)")
+        } catch (e: Exception) {
+            Log.error(TAG, "初始化失败: ${e.message}")
+        }
+    }
+
+    /**
+     * 调度任务
+     * @param delayMillis 延迟毫秒数
+     * @param taskName 任务名称（用于日志和覆盖旧任务）
+     * @param block 要执行的代码块
+     * @return 任务ID，可用于取消
+     */
+    fun schedule(delayMillis: Long, taskName: String = "未命名任务", block: () -> Unit): Int {
+        if (!isInitialized) {
+            Log.error(TAG, "调度失败：未初始化")
+            return -1
+        }
+
+        // 自动替换同名任务，防止竞争导致的调度混乱
+        namedTasks[taskName]?.let { oldTaskId ->
+            cancelTask(oldTaskId)
+        }
+
+        val taskId = taskIdGenerator.incrementAndGet()
+        namedTasks[taskName] = taskId
+
+        val finalDelay = if (delayMillis < 0) 0L else delayMillis
+
+        // 启动协程
+        val job = scope.launch {
+            val wakeLock = acquireWakeLock(finalDelay + 5000)
+            Log.record(TAG, "⏳ 任务调度: [$taskName] | ID:$taskId | 延迟: ${TimeUtil.formatDuration(finalDelay)}")
+            Log.record( ">".repeat(40))
+
+            try {
+                // 核心：在 WakeLock 保护下进行挂起
+                delay(finalDelay)
+
+                if (isActive) {
+                    Log.record(TAG, "▶️ 开始执行: [$taskName] | ID:$taskId")
+                    // 切换到主线程执行 Hook 逻辑（通常 Hook 需要在主线程）
+                    withContext(Dispatchers.Main) {
+                        try {
+                            block()
+                        } catch (e: Exception) {
+                            Log.error(TAG, "❌ 任务执行异常 [$taskName]: ${e.message}")
+                        }
+                    }
+                }
+            } catch (e: CancellationException) {
+                Log.record(TAG, "🚫 任务已取消: [$taskName] | ID:$taskId")
+            } finally {
+                // 释放锁和清理 Map
+                releaseWakeLock(wakeLock)
+                taskMap.remove(taskId)
+                if (namedTasks[taskName] == taskId) {
+                    namedTasks.remove(taskName)
+                }
+            }
+        }
+
+        taskMap[taskId] = job
+        return taskId
+    }
+
+    /**
+     * 取消特定任务
+     */
+    fun cancelTask(taskId: Int) {
+        taskMap[taskId]?.cancel()
+        taskMap.remove(taskId)
+    }
+
+    /**
+     * 取消所有任务
+     */
+    fun cancelAll() {
+        Log.record(TAG, "正在取消所有任务...")
+        taskMap.values.forEach { it.cancel() }
+        taskMap.clear()
+        namedTasks.clear()
+    }
+
+    /**
+     * 申请唤醒锁
+     * PARTIAL_WAKE_LOCK: 保持 CPU 运行，屏幕可以关闭，键盘灯可以关闭。
+     */
+    private fun acquireWakeLock(timeout: Long): PowerManager.WakeLock? {
+        return try {
+            val wakeLock = powerManager?.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, WAKELOCK_TAG)
+            wakeLock?.setReferenceCounted(false)
+            // 设置超时时间，防止逻辑 bug 导致永久持锁耗电
+            wakeLock?.acquire(timeout)
+            wakeLock
+        } catch (e: Exception) {
+            Log.error(TAG, "申请 WakeLock 失败: ${e.message}")
+            null
+        }
+    }
+
+    private fun releaseWakeLock(wakeLock: PowerManager.WakeLock?) {
+        try {
+            if (wakeLock?.isHeld == true) {
+                wakeLock.release()
+            }
+        } catch (e: Exception) {
+            // 忽略释放异常
+        }
+    }
+
+    fun cleanup() {
+        _scope?.cancel()
+        _scope = null
+        cancelAll()
+    }
+}

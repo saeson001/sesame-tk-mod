@@ -1,1 +1,485 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwoKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLkpzb25JbmNsdWRlOwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmNvcmUuSnNvbkZhY3Rvcnk7CmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uY29yZS5Kc29uUGFyc2VyOwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmNvcmUudHlwZS5UeXBlUmVmZXJlbmNlOwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmRhdGFiaW5kLkRlc2VyaWFsaXphdGlvbkZlYXR1cmU7CmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uZGF0YWJpbmQuSmF2YVR5cGU7CmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uZGF0YWJpbmQuSnNvbk5vZGU7CmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uZGF0YWJpbmQuT2JqZWN0TWFwcGVyOwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmRhdGFiaW5kLlNlcmlhbGl6YXRpb25GZWF0dXJlOwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmRhdGFiaW5kLnR5cGUuVHlwZUZhY3Rvcnk7CgppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5OwppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdDsKCmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5UeXBlOwppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQ7CmltcG9ydCBqYXZhLnV0aWwuQXJyYXlMaXN0OwppbXBvcnQgamF2YS51dGlsLkxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlOwppbXBvcnQgamF2YS51dGlsLlRpbWVab25lOwoKcHVibGljIGNsYXNzIEpzb25VdGlsIHsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBUQUcgPSAiSnNvblV0aWwiOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgT2JqZWN0TWFwcGVyIE1BUFBFUiA9IG5ldyBPYmplY3RNYXBwZXIoKTsgLy8gSlNPTuWvueixoeaYoOWwhOWZqAogICAgcHVibGljIHN0YXRpYyBmaW5hbCBUeXBlRmFjdG9yeSBUWVBFX0ZBQ1RPUlkgPSBUeXBlRmFjdG9yeS5kZWZhdWx0SW5zdGFuY2UoKTsgLy8g57G75Z6L5bel5Y6CCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIEpzb25GYWN0b3J5IEpTT05fRkFDVE9SWSA9IG5ldyBKc29uRmFjdG9yeSgpOyAvLyBKU09O5bel5Y6CCgogICAgc3RhdGljIHsKICAgICAgICAvLyDphY3nva4gT2JqZWN0TWFwcGVyCiAgICAgICAgTUFQUEVSLmNvbmZpZ3VyZShEZXNlcmlhbGl6YXRpb25GZWF0dXJlLkZBSUxfT05fVU5LTk9XTl9QUk9QRVJUSUVTLCBmYWxzZSk7IC8vIOW/veeVpeacquefpeWxnuaApwogICAgICAgIE1BUFBFUi5jb25maWd1cmUoU2VyaWFsaXphdGlvbkZlYXR1cmUuRkFJTF9PTl9FTVBUWV9CRUFOUywgZmFsc2UpOyAvLyDlv73nlaXnqbrlr7nosaEKICAgICAgICBNQVBQRVIuc2V0RGVmYXVsdFByb3BlcnR5SW5jbHVzaW9uKEpzb25JbmNsdWRlLkluY2x1ZGUuTk9OX05VTEwpOyAvLyDlv73nlaXnqbrlsZ7mgKcKICAgICAgICBNQVBQRVIuc2V0VGltZVpvbmUoVGltZVpvbmUuZ2V0RGVmYXVsdCgpKTsgLy8g6K6+572u5pe25Yy6CiAgICAgICAgTUFQUEVSLnNldERhdGVGb3JtYXQobmV3IFNpbXBsZURhdGVGb3JtYXQoInl5eXktTU0tZGQgSEg6bW06c3MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKSk7IC8vIOiuvue9ruaXpeacn+agvOW8jwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgT2JqZWN0TWFwcGVyIGNvcHlNYXBwZXIoKSB7CiAgICAgICAgcmV0dXJuIE1BUFBFUi5jb3B5KCk7IC8vIOWkjeWItiBPYmplY3RNYXBwZXIKICAgIH0KCiAgICAvKioKICAgICAqIOWwhuWvueixoei9rOaNouS4uuagvOW8j+WMlueahCBKU09OIOWtl+espuS4sgogICAgICoKICAgICAqIEBwYXJhbSBvYmplY3Qg6KaB6L2s5o2i55qE5a+56LGhCiAgICAgKiBAcmV0dXJuIOagvOW8j+WMluWQjueahCBKU09OIOWtl+espuS4sgogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBmb3JtYXRKc29uKE9iamVjdCBvYmplY3QpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAob2JqZWN0IGluc3RhbmNlb2YgSlNPTk9iamVjdCkgewogICAgICAgICAgICAgICAgcmV0dXJuICgoSlNPTk9iamVjdCkgb2JqZWN0KS50b1N0cmluZyg0KTsgLy8g5L2/55SoIDQg5Liq56m65qC86L+b6KGM57yp6L+bCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGV4ZWN1dGUoKCkgLT4gTUFQUEVSLndyaXRlcldpdGhEZWZhdWx0UHJldHR5UHJpbnRlcigpLndyaXRlVmFsdWVBc1N0cmluZyhvYmplY3QpKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywiZm9ybWF0SnNvbiBlcnI6Iik7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7CiAgICAgICAgICAgIHJldHVybiBleGVjdXRlKCgpIC0+IE1BUFBFUi53cml0ZXJXaXRoRGVmYXVsdFByZXR0eVByaW50ZXIoKS53cml0ZVZhbHVlQXNTdHJpbmcob2JqZWN0KSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5bCG5a+56LGh6L2s5o2i5Li6IEpTT04g5a2X56ym5LiyCiAgICAgKgogICAgICogQHBhcmFtIG9iamVjdCDopoHovazmjaLnmoTlr7nosaEKICAgICAqIEBwYXJhbSBwcmV0dHkg5piv5ZCm5qC85byP5YyWIEpTT04g5a2X56ym5LiyCiAgICAgKiBAcmV0dXJuIEpTT04g5a2X56ym5LiyCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGZvcm1hdEpzb24oT2JqZWN0IG9iamVjdCwgYm9vbGVhbiBwcmV0dHkpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAob2JqZWN0IGluc3RhbmNlb2YgSlNPTk9iamVjdCkgewogICAgICAgICAgICAgICAgaWYgKHByZXR0eSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiAoKEpTT05PYmplY3QpIG9iamVjdCkudG9TdHJpbmcoNCk7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBvYmplY3QudG9TdHJpbmcoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAocHJldHR5KSB7CiAgICAgICAgICAgICAgICByZXR1cm4gZXhlY3V0ZSgoKSAtPiBNQVBQRVIud3JpdGVyV2l0aERlZmF1bHRQcmV0dHlQcmludGVyKCkud3JpdGVWYWx1ZUFzU3RyaW5nKG9iamVjdCkpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcmV0dXJuIGV4ZWN1dGUoKCkgLT4gTUFQUEVSLndyaXRlVmFsdWVBc1N0cmluZyhvYmplY3QpKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCJmb3JtYXRKc29uIGVycjoiKTsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKTsKICAgICAgICAgICAgcmV0dXJuIGV4ZWN1dGUoKCkgLT4gTUFQUEVSLndyaXRlcldpdGhEZWZhdWx0UHJldHR5UHJpbnRlcigpLndyaXRlVmFsdWVBc1N0cmluZyhvYmplY3QpKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDliJvlu7ogSlNPTiDop6PmnpDlmagKICAgICAqCiAgICAgKiBAcGFyYW0gYm9keSBKU09OIOWtl+espuS4sgogICAgICogQHJldHVybiBKc29uUGFyc2VyIOino+aekOWZqAogICAgICovCiAgICBwdWJsaWMgc3RhdGljIEpzb25QYXJzZXIgZ2V0SnNvblBhcnNlcihTdHJpbmcgYm9keSkgewogICAgICAgIHJldHVybiBleGVjdXRlKCgpIC0+IEpTT05fRkFDVE9SWS5jcmVhdGVQYXJzZXIoYm9keSkpOyAvLyDmiafooYzop6PmnpDlmajliJvlu7oKICAgIH0KCiAgICAvKioKICAgICAqIOino+aekCBKU09OIOWtl+espuS4suS4uuaMh+Wumuexu+Wei+eahOWvueixoQogICAgICoKICAgICAqIEBwYXJhbSBib2R5IEpTT04g5a2X56ym5LiyCiAgICAgKiBAcGFyYW0gdHlwZSDnm67moIfnsbvlnosKICAgICAqIEBwYXJhbSA8VD4gIOebruagh+exu+Wei+azm+WeiwogICAgICogQHJldHVybiDop6PmnpDlkI7nmoTlr7nosaEKICAgICAqLwogICAgcHVibGljIHN0YXRpYyA8VD4gVCBwYXJzZU9iamVjdChTdHJpbmcgYm9keSwgVHlwZSB0eXBlKSB7CiAgICAgICAgcmV0dXJuIHBhcnNlT2JqZWN0SW50ZXJuYWwoKCkgLT4gTUFQUEVSLnJlYWRWYWx1ZShib2R5LCBUWVBFX0ZBQ1RPUlkuY29uc3RydWN0VHlwZSh0eXBlKSkpOyAvLyDmiafooYzop6PmnpAKICAgIH0KCiAgICAvKioKICAgICAqIOino+aekCBKU09OIOWtl+espuS4suS4uuaMh+Wumuexu+Wei+eahOWvueixoQogICAgICoKICAgICAqIEBwYXJhbSBib2R5ICAgICBKU09OIOWtl+espuS4sgogICAgICogQHBhcmFtIGphdmFUeXBlIOebruaghyBKYXZhVHlwZQogICAgICogQHBhcmFtIDxUPiAgICAgIOebruagh+exu+Wei+azm+WeiwogICAgICogQHJldHVybiDop6PmnpDlkI7nmoTlr7nosaEKICAgICAqLwogICAgcHVibGljIHN0YXRpYyA8VD4gVCBwYXJzZU9iamVjdChTdHJpbmcgYm9keSwgSmF2YVR5cGUgamF2YVR5cGUpIHsKICAgICAgICByZXR1cm4gcGFyc2VPYmplY3RJbnRlcm5hbCgoKSAtPiBNQVBQRVIucmVhZFZhbHVlKGJvZHksIGphdmFUeXBlKSk7IC8vIOaJp+ihjOino+aekAogICAgfQoKICAgIC8qKgogICAgICog6Kej5p6QIEpTT04g5a2X56ym5Liy5Li65oyH5a6a57G75Z6L55qE5a+56LGhCiAgICAgKgogICAgICogQHBhcmFtIGJvZHkgICAgICAgICBKU09OIOWtl+espuS4sgogICAgICogQHBhcmFtIHZhbHVlVHlwZVJlZiDnm67moIfnsbvlnovlvJXnlKgKICAgICAqIEBwYXJhbSA8VD4gICAgICAgICAg55uu5qCH57G75Z6L5rOb5Z6LCiAgICAgKiBAcmV0dXJuIOino+aekOWQjueahOWvueixoQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIDxUPiBUIHBhcnNlT2JqZWN0KFN0cmluZyBib2R5LCBUeXBlUmVmZXJlbmNlPFQ+IHZhbHVlVHlwZVJlZikgewogICAgICAgIHJldHVybiBwYXJzZU9iamVjdEludGVybmFsKCgpIC0+IE1BUFBFUi5yZWFkVmFsdWUoYm9keSwgdmFsdWVUeXBlUmVmKSk7IC8vIOaJp+ihjOino+aekAogICAgfQoKICAgIC8qKgogICAgICog6Kej5p6QIEpTT04g5a2X56ym5Liy5Li65oyH5a6a57G75Z6L55qE5a+56LGhCiAgICAgKgogICAgICogQHBhcmFtIGJvZHkgIEpTT04g5a2X56ym5LiyCiAgICAgKiBAcGFyYW0gY2xhenog55uu5qCH57G7CiAgICAgKiBAcGFyYW0gPFQ+ICAg55uu5qCH57G75Z6L5rOb5Z6LCiAgICAgKiBAcmV0dXJuIOino+aekOWQjueahOWvueixoQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIDxUPiBUIHBhcnNlT2JqZWN0KFN0cmluZyBib2R5LCBDbGFzczxUPiBjbGF6eikgewogICAgICAgIHJldHVybiBwYXJzZU9iamVjdEludGVybmFsKCgpIC0+IE1BUFBFUi5yZWFkVmFsdWUoYm9keSwgY2xhenopKTsgLy8g5omn6KGM6Kej5p6QCiAgICB9CgogICAgLyoqCiAgICAgKiDku44gSnNvblBhcnNlciDop6PmnpDkuLrmjIflrprnsbvlnovnmoTlr7nosaEKICAgICAqCiAgICAgKiBAcGFyYW0ganNvblBhcnNlciBKc29uUGFyc2VyIOWunuS+iwogICAgICogQHBhcmFtIHR5cGUgICAgICAg55uu5qCH57G75Z6LCiAgICAgKiBAcGFyYW0gPFQ+ICAgICAgICDnm67moIfnsbvlnovms5vlnosKICAgICAqIEByZXR1cm4g6Kej5p6Q5ZCO55qE5a+56LGhCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgPFQ+IFQgcGFyc2VPYmplY3QoSnNvblBhcnNlciBqc29uUGFyc2VyLCBUeXBlIHR5cGUpIHsKICAgICAgICByZXR1cm4gcGFyc2VPYmplY3RJbnRlcm5hbCgoKSAtPiBNQVBQRVIucmVhZFZhbHVlKGpzb25QYXJzZXIsIFRZUEVfRkFDVE9SWS5jb25zdHJ1Y3RUeXBlKHR5cGUpKSk7IC8vIOaJp+ihjOino+aekAogICAgfQoKICAgIC8qKgogICAgICog5LuOIEpzb25QYXJzZXIg6Kej5p6Q5Li65oyH5a6a57G75Z6L55qE5a+56LGhCiAgICAgKgogICAgICogQHBhcmFtIGpzb25QYXJzZXIgSnNvblBhcnNlciDlrp7kvosKICAgICAqIEBwYXJhbSBqYXZhVHlwZSAgIOebruaghyBKYXZhVHlwZQogICAgICogQHBhcmFtIDxUPiAgICAgICAg55uu5qCH57G75Z6L5rOb5Z6LCiAgICAgKiBAcmV0dXJuIOino+aekOWQjueahOWvueixoQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIDxUPiBUIHBhcnNlT2JqZWN0KEpzb25QYXJzZXIganNvblBhcnNlciwgSmF2YVR5cGUgamF2YVR5cGUpIHsKICAgICAgICByZXR1cm4gcGFyc2VPYmplY3RJbnRlcm5hbCgoKSAtPiBNQVBQRVIucmVhZFZhbHVlKGpzb25QYXJzZXIsIGphdmFUeXBlKSk7IC8vIOaJp+ihjOino+aekAogICAgfQoKICAgIC8qKgogICAgICog5LuOIEpzb25QYXJzZXIg6Kej5p6Q5Li65oyH5a6a57G75Z6L55qE5a+56LGhCiAgICAgKgogICAgICogQHBhcmFtIGpzb25QYXJzZXIgICBKc29uUGFyc2VyIOWunuS+iwogICAgICogQHBhcmFtIHZhbHVlVHlwZVJlZiDnm67moIfnsbvlnovlvJXnlKgKICAgICAqIEBwYXJhbSA8VD4gICAgICAgICAg55uu5qCH57G75Z6L5rOb5Z6LCiAgICAgKiBAcmV0dXJuIOino+aekOWQjueahOWvueixoQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIDxUPiBUIHBhcnNlT2JqZWN0KEpzb25QYXJzZXIganNvblBhcnNlciwgVHlwZVJlZmVyZW5jZTxUPiB2YWx1ZVR5cGVSZWYpIHsKICAgICAgICByZXR1cm4gcGFyc2VPYmplY3RJbnRlcm5hbCgoKSAtPiBNQVBQRVIucmVhZFZhbHVlKGpzb25QYXJzZXIsIHZhbHVlVHlwZVJlZikpOyAvLyDmiafooYzop6PmnpAKICAgIH0KCiAgICAvKioKICAgICAqIOS7jiBKc29uUGFyc2VyIOino+aekOS4uuaMh+Wumuexu+Wei+eahOWvueixoQogICAgICoKICAgICAqIEBwYXJhbSBqc29uUGFyc2VyIEpzb25QYXJzZXIg5a6e5L6LCiAgICAgKiBAcGFyYW0gY2xhenogICAgICDnm67moIfnsbsKICAgICAqIEBwYXJhbSA8VD4gICAgICAgIOebruagh+exu+Wei+azm+WeiwogICAgICogQHJldHVybiDop6PmnpDlkI7nmoTlr7nosaEKICAgICAqLwogICAgcHVibGljIHN0YXRpYyA8VD4gVCBwYXJzZU9iamVjdChKc29uUGFyc2VyIGpzb25QYXJzZXIsIENsYXNzPFQ+IGNsYXp6KSB7CiAgICAgICAgcmV0dXJuIHBhcnNlT2JqZWN0SW50ZXJuYWwoKCkgLT4gTUFQUEVSLnJlYWRWYWx1ZShqc29uUGFyc2VyLCBjbGF6eikpOyAvLyDmiafooYzop6PmnpAKICAgIH0KCiAgICAvKioKICAgICAqIOWwhuWvueixoei9rOaNouS4uuaMh+Wumuexu+Wei+eahOWvueixoQogICAgICoKICAgICAqIEBwYXJhbSBiZWFuIOa6kOWvueixoQogICAgICogQHBhcmFtIHR5cGUg55uu5qCH57G75Z6LCiAgICAgKiBAcGFyYW0gPFQ+ICDnm67moIfnsbvlnovms5vlnosKICAgICAqIEByZXR1cm4g6L2s5o2i5ZCO55qE5a+56LGhCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgPFQ+IFQgcGFyc2VPYmplY3QoT2JqZWN0IGJlYW4sIFR5cGUgdHlwZSkgewogICAgICAgIHJldHVybiBwYXJzZU9iamVjdEludGVybmFsKCgpIC0+IE1BUFBFUi5jb252ZXJ0VmFsdWUoYmVhbiwgVFlQRV9GQUNUT1JZLmNvbnN0cnVjdFR5cGUodHlwZSkpKTsgLy8g5omn6KGM6L2s5o2iCiAgICB9CgogICAgLyoqCiAgICAgKiDlsIblr7nosaHovazmjaLkuLrmjIflrprnsbvlnovnmoTlr7nosaEKICAgICAqCiAgICAgKiBAcGFyYW0gYmVhbiAgICAg5rqQ5a+56LGhCiAgICAgKiBAcGFyYW0gamF2YVR5cGUg55uu5qCHIEphdmFUeXBlCiAgICAgKiBAcGFyYW0gPFQ+ICAgICAg55uu5qCH57G75Z6L5rOb5Z6LCiAgICAgKiBAcmV0dXJuIOi9rOaNouWQjueahOWvueixoQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIDxUPiBUIHBhcnNlT2JqZWN0KE9iamVjdCBiZWFuLCBKYXZhVHlwZSBqYXZhVHlwZSkgewogICAgICAgIHJldHVybiBwYXJzZU9iamVjdEludGVybmFsKCgpIC0+IE1BUFBFUi5jb252ZXJ0VmFsdWUoYmVhbiwgamF2YVR5cGUpKTsgLy8g5omn6KGM6L2s5o2iCiAgICB9CgogICAgLyoqCiAgICAgKiDlsIblr7nosaHovazmjaLkuLrmjIflrprnsbvlnovnmoTlr7nosaEKICAgICAqCiAgICAgKiBAcGFyYW0gYmVhbiAgICAgICAgIOa6kOWvueixoQogICAgICogQHBhcmFtIHZhbHVlVHlwZVJlZiDnm67moIfnsbvlnovlvJXnlKgKICAgICAqIEBwYXJhbSA8VD4gICAgICAgICAg55uu5qCH57G75Z6L5rOb5Z6LCiAgICAgKiBAcmV0dXJuIOi9rOaNouWQjueahOWvueixoQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIDxUPiBUIHBhcnNlT2JqZWN0KE9iamVjdCBiZWFuLCBUeXBlUmVmZXJlbmNlPFQ+IHZhbHVlVHlwZVJlZikgewogICAgICAgIHJldHVybiBwYXJzZU9iamVjdEludGVybmFsKCgpIC0+IE1BUFBFUi5jb252ZXJ0VmFsdWUoYmVhbiwgdmFsdWVUeXBlUmVmKSk7IC8vIOaJp+ihjOi9rOaNogogICAgfQoKICAgIC8qKgogICAgICog5bCG5a+56LGh6L2s5o2i5Li65oyH5a6a57G75Z6L55qE5a+56LGhCiAgICAgKgogICAgICogQHBhcmFtIGJlYW4gIOa6kOWvueixoQogICAgICogQHBhcmFtIGNsYXp6IOebruagh+exuwogICAgICogQHBhcmFtIDxUPiAgIOebruagh+exu+Wei+azm+WeiwogICAgICogQHJldHVybiDovazmjaLlkI7nmoTlr7nosaEKICAgICAqLwogICAgcHVibGljIHN0YXRpYyA8VD4gVCBwYXJzZU9iamVjdChPYmplY3QgYmVhbiwgQ2xhc3M8VD4gY2xhenopIHsKICAgICAgICByZXR1cm4gcGFyc2VPYmplY3RJbnRlcm5hbCgoKSAtPiBNQVBQRVIuY29udmVydFZhbHVlKGJlYW4sIGNsYXp6KSk7IC8vIOaJp+ihjOi9rOaNogogICAgfQoKICAgIC8qKgogICAgICog6Kej5p6QIEpTT04g5a2X56ym5Liy5Lit55qE5oyH5a6a5a2X5q615Li65a2X56ym5LiyCiAgICAgKgogICAgICogQHBhcmFtIGJvZHkgIEpTT04g5a2X56ym5LiyCiAgICAgKiBAcGFyYW0gZmllbGQg5oyH5a6a5a2X5q615ZCNCiAgICAgKiBAcmV0dXJuIOWtl+auteWAvAogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBwYXJzZVN0cmluZyhTdHJpbmcgYm9keSwgU3RyaW5nIGZpZWxkKSB7CiAgICAgICAgcmV0dXJuIGV4ZWN1dGUoKCkgLT4gewogICAgICAgICAgICBKc29uTm9kZSBub2RlID0gTUFQUEVSLnJlYWRUcmVlKGJvZHkpLmdldChmaWVsZCk7IC8vIOiOt+WPluWtl+auteiKgueCuQogICAgICAgICAgICByZXR1cm4gbm9kZSAhPSBudWxsID8gbm9kZS5hc1RleHQoKSA6IG51bGw7IC8vIOi/lOWbnuWtl+auteWAvAogICAgICAgIH0pOwogICAgfQoKICAgIC8qKgogICAgICog6Kej5p6QIEpTT04g5a2X56ym5Liy5Lit55qE5oyH5a6a5a2X5q615Li65pW05pWwCiAgICAgKgogICAgICogQHBhcmFtIGJvZHkgIEpTT04g5a2X56ym5LiyCiAgICAgKiBAcGFyYW0gZmllbGQg5oyH5a6a5a2X5q615ZCNCiAgICAgKiBAcmV0dXJuIOWtl+auteWAvAogICAgICovCiAgICBwdWJsaWMgc3RhdGljIEludGVnZXIgcGFyc2VJbnRlZ2VyKFN0cmluZyBib2R5LCBTdHJpbmcgZmllbGQpIHsKICAgICAgICByZXR1cm4gZXhlY3V0ZSgoKSAtPiB7CiAgICAgICAgICAgIEpzb25Ob2RlIG5vZGUgPSBNQVBQRVIucmVhZFRyZWUoYm9keSkuZ2V0KGZpZWxkKTsgLy8g6I635Y+W5a2X5q616IqC54K5CiAgICAgICAgICAgIHJldHVybiBub2RlICE9IG51bGwgPyBub2RlLmFzSW50KCkgOiBudWxsOyAvLyDov5Tlm57lrZfmrrXlgLwKICAgICAgICB9KTsKICAgIH0KCiAgICAvKioKICAgICAqIOino+aekCBKU09OIOWtl+espuS4suS4reeahOaMh+WumuWtl+auteS4uuaVtOaVsOWIl+ihqAogICAgICoKICAgICAqIEBwYXJhbSBib2R5ICBKU09OIOWtl+espuS4sgogICAgICogQHBhcmFtIGZpZWxkIOaMh+WumuWtl+auteWQjQogICAgICogQHJldHVybiDlrZfmrrXlgLzliJfooagKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBMaXN0PEludGVnZXI+IHBhcnNlSW50ZWdlckxpc3QoU3RyaW5nIGJvZHksIFN0cmluZyBmaWVsZCkgewogICAgICAgIHJldHVybiBleGVjdXRlKCgpIC0+IHsKICAgICAgICAgICAgSnNvbk5vZGUgbm9kZSA9IE1BUFBFUi5yZWFkVHJlZShib2R5KS5nZXQoZmllbGQpOyAvLyDojrflj5blrZfmrrXoioLngrkKICAgICAgICAgICAgcmV0dXJuIG5vZGUgIT0gbnVsbCA/IE1BUFBFUi5jb252ZXJ0VmFsdWUobm9kZSwgbmV3IFR5cGVSZWZlcmVuY2U8TGlzdDxJbnRlZ2VyPj4oKSB7CiAgICAgICAgICAgIH0pIDogbnVsbDsgLy8g6L+U5Zue5a2X5q615YC85YiX6KGoCiAgICAgICAgfSk7CiAgICB9CgogICAgLyoqCiAgICAgKiDop6PmnpAgSlNPTiDlrZfnrKbkuLLkuK3nmoTmjIflrprlrZfmrrXkuLrluIPlsJTlgLwKICAgICAqCiAgICAgKiBAcGFyYW0gYm9keSAgSlNPTiDlrZfnrKbkuLIKICAgICAqIEBwYXJhbSBmaWVsZCDmjIflrprlrZfmrrXlkI0KICAgICAqIEByZXR1cm4g5a2X5q615YC8CiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgQm9vbGVhbiBwYXJzZUJvb2xlYW4oU3RyaW5nIGJvZHksIFN0cmluZyBmaWVsZCkgewogICAgICAgIHJldHVybiBleGVjdXRlKCgpIC0+IHsKICAgICAgICAgICAgSnNvbk5vZGUgbm9kZSA9IE1BUFBFUi5yZWFkVHJlZShib2R5KS5nZXQoZmllbGQpOyAvLyDojrflj5blrZfmrrXoioLngrkKICAgICAgICAgICAgcmV0dXJuIG5vZGUgIT0gbnVsbCA/IG5vZGUuYXNCb29sZWFuKCkgOiBudWxsOyAvLyDov5Tlm57lrZfmrrXlgLwKICAgICAgICB9KTsKICAgIH0KCiAgICAvKioKICAgICAqIOino+aekCBKU09OIOWtl+espuS4suS4reeahOaMh+WumuWtl+auteS4uuefreaVtOWeiwogICAgICoKICAgICAqIEBwYXJhbSBib2R5ICBKU09OIOWtl+espuS4sgogICAgICogQHBhcmFtIGZpZWxkIOaMh+WumuWtl+auteWQjQogICAgICogQHJldHVybiDlrZfmrrXlgLwKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBTaG9ydCBwYXJzZVNob3J0KFN0cmluZyBib2R5LCBTdHJpbmcgZmllbGQpIHsKICAgICAgICByZXR1cm4gZXhlY3V0ZSgoKSAtPiB7CiAgICAgICAgICAgIEpzb25Ob2RlIG5vZGUgPSBNQVBQRVIucmVhZFRyZWUoYm9keSkuZ2V0KGZpZWxkKTsgLy8g6I635Y+W5a2X5q616IqC54K5CiAgICAgICAgICAgIHJldHVybiBub2RlICE9IG51bGwgPyAoc2hvcnQpIG5vZGUuYXNJbnQoKSA6IG51bGw7IC8vIOi/lOWbnuWtl+auteWAvAogICAgICAgIH0pOwogICAgfQoKICAgIC8qKgogICAgICog6Kej5p6QIEpTT04g5a2X56ym5Liy5Lit55qE5oyH5a6a5a2X5q615Li65a2X6IqC5Z6LCiAgICAgKgogICAgICogQHBhcmFtIGJvZHkgIEpTT04g5a2X56ym5LiyCiAgICAgKiBAcGFyYW0gZmllbGQg5oyH5a6a5a2X5q615ZCNCiAgICAgKiBAcmV0dXJuIOWtl+auteWAvAogICAgICovCiAgICBwdWJsaWMgc3RhdGljIEJ5dGUgcGFyc2VCeXRlKFN0cmluZyBib2R5LCBTdHJpbmcgZmllbGQpIHsKICAgICAgICByZXR1cm4gZXhlY3V0ZSgoKSAtPiB7CiAgICAgICAgICAgIEpzb25Ob2RlIG5vZGUgPSBNQVBQRVIucmVhZFRyZWUoYm9keSkuZ2V0KGZpZWxkKTsgLy8g6I635Y+W5a2X5q616IqC54K5CiAgICAgICAgICAgIHJldHVybiBub2RlICE9IG51bGwgPyAoYnl0ZSkgbm9kZS5hc0ludCgpIDogbnVsbDsgLy8g6L+U5Zue5a2X5q615YC8CiAgICAgICAgfSk7CiAgICB9CgogICAgLyoqCiAgICAgKiDop6PmnpAgSlNPTiDlrZfnrKbkuLLkuLrmjIflrprnsbvlnovnmoTlr7nosaHliJfooagKICAgICAqCiAgICAgKiBAcGFyYW0gYm9keSAgSlNPTiDlrZfnrKbkuLIKICAgICAqIEBwYXJhbSBjbGF6eiDnm67moIfnsbsKICAgICAqIEBwYXJhbSA8VD4gICDnm67moIfnsbvlnovms5vlnosKICAgICAqIEByZXR1cm4g6Kej5p6Q5ZCO55qE5a+56LGh5YiX6KGoCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgPFQ+IExpc3Q8VD4gcGFyc2VMaXN0KFN0cmluZyBib2R5LCBDbGFzczxUPiBjbGF6eikgewogICAgICAgIHJldHVybiBwYXJzZU9iamVjdEludGVybmFsKCgpIC0+IE1BUFBFUi5yZWFkVmFsdWUoYm9keSwgVFlQRV9GQUNUT1JZLmNvbnN0cnVjdENvbGxlY3Rpb25UeXBlKEFycmF5TGlzdC5jbGFzcywgY2xhenopKSk7IC8vIOaJp+ihjOino+aekAogICAgfQoKICAgIC8qKgogICAgICog5bCGIEpTT04g5a2X56ym5Liy6L2s5o2i5Li6IEpzb25Ob2RlCiAgICAgKgogICAgICogQHBhcmFtIGpzb24gSlNPTiDlrZfnrKbkuLIKICAgICAqIEByZXR1cm4gSnNvbk5vZGUg5a+56LGhCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgSnNvbk5vZGUgdG9Ob2RlKFN0cmluZyBqc29uKSB7CiAgICAgICAgcmV0dXJuIGpzb24gPT0gbnVsbCA/IG51bGwgOiBleGVjdXRlKCgpIC0+IE1BUFBFUi5yZWFkVHJlZShqc29uKSk7IC8vIOaJp+ihjOi9rOaNogogICAgfQoKICAgIC8qKgogICAgICog5qC55o2u6Lev5b6E6I635Y+WIEpTT04g5a+56LGh5Lit55qE5YC8CiAgICAgKgogICAgICogQHBhcmFtIGpzb25PYmplY3QgSlNPTiDlr7nosaEKICAgICAqIEBwYXJhbSBwYXRoICAgICAgIOWtl+autei3r+W+hO+8iOS7pSAiLiIg5YiG6ZqU77yJCiAgICAgKiBAcmV0dXJuIOWtl+auteWAvAogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBnZXRWYWx1ZUJ5UGF0aChKU09OT2JqZWN0IGpzb25PYmplY3QsIFN0cmluZyBwYXRoKSB7CiAgICAgICAgT2JqZWN0IHZhbHVlID0gZ2V0VmFsdWVCeVBhdGhPYmplY3QoanNvbk9iamVjdCwgcGF0aCk7IC8vIOiOt+WPluWtl+auteWAvAogICAgICAgIHJldHVybiB2YWx1ZSA9PSBudWxsID8gIiIgOiB2YWx1ZS50b1N0cmluZygpOyAvLyDov5Tlm57lrZfmrrXlgLznmoTlrZfnrKbkuLLlvaLlvI8KICAgIH0KCiAgICAvKioKICAgICAqIOagueaNrui3r+W+hOiOt+WPliBKU09OIOWvueixoeS4reeahOWAvAogICAgICoKICAgICAqIEBwYXJhbSBqc29uT2JqZWN0IEpTT04g5a+56LGhCiAgICAgKiBAcGFyYW0gcGF0aCAgICAgICDlrZfmrrXot6/lvoTvvIjku6UgIi4iIOWIhumalO+8iQogICAgICogQHJldHVybiDlrZfmrrXlgLwKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBPYmplY3QgZ2V0VmFsdWVCeVBhdGhPYmplY3QoSlNPTk9iamVjdCBqc29uT2JqZWN0LCBTdHJpbmcgcGF0aCkgewogICAgICAgIFN0cmluZ1tdIHBhcnRzID0gcGF0aC5zcGxpdCgiXFwuIik7IC8vIOWIhuWJsui3r+W+hAogICAgICAgIHRyeSB7CiAgICAgICAgICAgIE9iamVjdCBjdXJyZW50ID0ganNvbk9iamVjdDsgLy8g5b2T5YmN5a+56LGhCiAgICAgICAgICAgIGZvciAoU3RyaW5nIHBhcnQgOiBwYXJ0cykgewogICAgICAgICAgICAgICAgaWYgKGN1cnJlbnQgaW5zdGFuY2VvZiBKU09OT2JqZWN0KSB7CiAgICAgICAgICAgICAgICAgICAgY3VycmVudCA9ICgoSlNPTk9iamVjdCkgY3VycmVudCkuZ2V0KHBhcnQpOyAvLyDku44gSlNPTk9iamVjdCDojrflj5blgLwKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoY3VycmVudCBpbnN0YW5jZW9mIEpTT05BcnJheSkgewogICAgICAgICAgICAgICAgICAgIGludCBpbmRleCA9IEludGVnZXIucGFyc2VJbnQocGFydC5yZXBsYWNlQWxsKCJcXEQiLCAiIikpOyAvLyDojrflj5bmlbDnu4TntKLlvJUKICAgICAgICAgICAgICAgICAgICBjdXJyZW50ID0gKChKU09OQXJyYXkpIGN1cnJlbnQpLmdldChpbmRleCk7IC8vIOS7jiBKU09OQXJyYXkg6I635Y+W5YC8CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGN1cnJlbnQgPSBuZXcgSlNPTk9iamVjdChjdXJyZW50LnRvU3RyaW5nKCkpLmdldChwYXJ0KTsgLy8g5bCG5b2T5YmN5a+56LGh6L2s5Li6IEpTT05PYmplY3Qg5bm26I635Y+W5YC8CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGN1cnJlbnQ7IC8vIOi/lOWbnuacgOe7iOeahOWAvAogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsOyAvLyDlvILluLjml7bov5Tlm54gbnVsbAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWuieWFqOWcsOWIm+W7ukpTT05PYmplY3TvvIzlpITnkIbnqbrlrZfnrKbkuLLlkoxudWxs55qE5oOF5Ya1CiAgICAgKgogICAgICogQHBhcmFtIGpzb25TdHIgSlNPTuWtl+espuS4sgogICAgICogQHJldHVybiBKU09OT2JqZWN05a+56LGh77yM5aaC5p6c6L6T5YWl5Li656m65YiZ6L+U5Zue56m655qESlNPTk9iamVjdAogICAgICovCiAgICBwdWJsaWMgc3RhdGljIEpTT05PYmplY3QgcGFyc2VKU09OT2JqZWN0KFN0cmluZyBqc29uU3RyKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5qOA5p+l5a2X56ym5Liy5piv5ZCm5Li656m65oiWbnVsbAogICAgICAgICAgICBpZiAoanNvblN0ciA9PSBudWxsIHx8IGpzb25TdHIudHJpbSgpLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmlLbliLDnqbrlk43lupTvvIzlj6/og73mmK/nvZHnu5zlvILluLjmiJbmnI3liqHnq6/plJnor68iKTsKICAgICAgICAgICAgICAgIHJldHVybiBuZXcgSlNPTk9iamVjdCgpOyAvLyDov5Tlm57nqbrnmoRKU09OT2JqZWN0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIG5ldyBKU09OT2JqZWN0KGpzb25TdHIpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiSlNPTuino+aekOWksei0pTogIiArIGUuZ2V0TWVzc2FnZSgpKTsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLljp/lp4vlk43lupQ6ICIgKyAoanNvblN0ci5sZW5ndGgoKSA+IDIwMCA/IGpzb25TdHIuc3Vic3RyaW5nKDAsIDIwMCkgKyAiLi4uIiA6IGpzb25TdHIpKTsKICAgICAgICAgICAgcmV0dXJuIG5ldyBKU09OT2JqZWN0KCk7IC8vIOi/lOWbnuepuueahEpTT05PYmplY3QKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlronlhajlnLDliJvlu7pKU09OQXJyYXnvvIzlpITnkIbnqbrlrZfnrKbkuLLlkoxudWxs55qE5oOF5Ya1CiAgICAgKgogICAgICogQHBhcmFtIGpzb25TdHIgSlNPTuWtl+espuS4sgogICAgICogQHJldHVybiBKU09OQXJyYXnlr7nosaHvvIzlpoLmnpzovpPlhaXkuLrnqbrliJnov5Tlm57nqbrnmoRKU09OQXJyYXkKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBKU09OQXJyYXkgcGFyc2VKU09OQXJyYXkoU3RyaW5nIGpzb25TdHIpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyDmo4Dmn6XlrZfnrKbkuLLmmK/lkKbkuLrnqbrmiJZudWxsCiAgICAgICAgICAgIGlmIChqc29uU3RyID09IG51bGwgfHwganNvblN0ci50cmltKCkuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuaUtuWIsOepuuWTjeW6lO+8jOWPr+iDveaYr+e9kee7nOW8guW4uOaIluacjeWKoeerr+mUmeivryIpOwogICAgICAgICAgICAgICAgcmV0dXJuIG5ldyBKU09OQXJyYXkoKTsgLy8g6L+U5Zue56m655qESlNPTkFycmF5CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIG5ldyBKU09OQXJyYXkoanNvblN0cik7CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJKU09O5pWw57uE6Kej5p6Q5aSx6LSlOiAiICsgZS5nZXRNZXNzYWdlKCkpOwogICAgICAgICAgICByZXR1cm4gbmV3IEpTT05BcnJheSgpOyAvLyDov5Tlm57nqbrnmoRKU09OQXJyYXkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlsIYgSlNPTkFycmF5IOi9rOaNouS4uuWtl+espuS4suWIl+ihqAogICAgICoKICAgICAqIEBwYXJhbSBqc29uQXJyYXkg5rqQIEpTT05BcnJheQogICAgICogQHJldHVybiDlrZfnrKbkuLLliJfooagKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBMaXN0PFN0cmluZz4ganNvbkFycmF5VG9MaXN0KEpTT05BcnJheSBqc29uQXJyYXkpIHsKICAgICAgICBMaXN0PFN0cmluZz4gbGlzdCA9IG5ldyBBcnJheUxpc3Q8PigpOyAvLyDliJvlu7rliJfooagKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGpzb25BcnJheS5sZW5ndGgoKTsgaSsrKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBsaXN0LmFkZChqc29uQXJyYXkuZ2V0U3RyaW5nKGkpKTsgLy8g5re75Yqg5a2X56ym5Liy5Yiw5YiX6KGoCiAgICAgICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpOyAvLyDmiZPljbDlvILluLjmoIgKICAgICAgICAgICAgICAgIGxpc3QuYWRkKCIiKTsgLy8g5byC5bi45pe25re75Yqg56m65a2X56ym5LiyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGxpc3Q7IC8vIOi/lOWbnuWIl+ihqAogICAgfQoKICAgIC8qKgogICAgICog5YaF6YOo5pa55rOV77yM5omn6KGMIEpTT04g5pON5L2c5bm25aSE55CG5byC5bi4CiAgICAgKgogICAgICogQHBhcmFtIGFjdGlvbiBKU09OIOaTjeS9nAogICAgICogQHBhcmFtIDxUPiAgICDmk43kvZzov5Tlm57nsbvlnosKICAgICAqIEByZXR1cm4g5pON5L2c57uT5p6cCiAgICAgKi8KICAgIHByaXZhdGUgc3RhdGljIDxUPiBUIHBhcnNlT2JqZWN0SW50ZXJuYWwoSnNvbkFjdGlvbjxUPiBhY3Rpb24pIHsKICAgICAgICByZXR1cm4gZXhlY3V0ZShhY3Rpb24pOyAvLyDmiafooYzmk43kvZwKICAgIH0KCiAgICAvKioKICAgICAqIOaJp+ihjCBKU09OIOaTjeS9nOW5tuWkhOeQhuW8guW4uAogICAgICoKICAgICAqIEBwYXJhbSBhY3Rpb24gSlNPTiDmk43kvZwKICAgICAqIEBwYXJhbSA8VD4gICAg5pON5L2c6L+U5Zue57G75Z6LCiAgICAgKiBAcmV0dXJuIOaTjeS9nOe7k+aenAogICAgICovCiAgICBwcml2YXRlIHN0YXRpYyA8VD4gVCBleGVjdXRlKEpzb25BY3Rpb248VD4gYWN0aW9uKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcmV0dXJuIGFjdGlvbi5leGVjdXRlKCk7IC8vIOaJp+ihjOaTjeS9nAogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBSdW50aW1lRXhjZXB0aW9uKGUpOyAvLyDlvILluLjml7bmipvlh7rov5DooYzml7blvILluLgKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlh73mlbDlvI/mjqXlj6PvvIznlKjkuo7miafooYwgSlNPTiDmk43kvZwKICAgICAqCiAgICAgKiBAcGFyYW0gPFQ+IOaTjeS9nOi/lOWbnuexu+WeiwogICAgICovCiAgICBARnVuY3Rpb25hbEludGVyZmFjZQogICAgcHJpdmF0ZSBpbnRlcmZhY2UgSnNvbkFjdGlvbjxUPiB7CiAgICAgICAgVCBleGVjdXRlKCkgdGhyb3dzIEV4Y2VwdGlvbjsgLy8g5omn6KGM5pON5L2cCiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.JavaType;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.databind.type.TypeFactory;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.lang.reflect.Type;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.TimeZone;
+
+public class JsonUtil {
+    private static final String TAG = "JsonUtil";
+    private static final ObjectMapper MAPPER = new ObjectMapper(); // JSON对象映射器
+    public static final TypeFactory TYPE_FACTORY = TypeFactory.defaultInstance(); // 类型工厂
+    public static final JsonFactory JSON_FACTORY = new JsonFactory(); // JSON工厂
+
+    static {
+        // 配置 ObjectMapper
+        MAPPER.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false); // 忽略未知属性
+        MAPPER.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false); // 忽略空对象
+        MAPPER.setDefaultPropertyInclusion(JsonInclude.Include.NON_NULL); // 忽略空属性
+        MAPPER.setTimeZone(TimeZone.getDefault()); // 设置时区
+        MAPPER.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())); // 设置日期格式
+    }
+
+    public static ObjectMapper copyMapper() {
+        return MAPPER.copy(); // 复制 ObjectMapper
+    }
+
+    /**
+     * 将对象转换为格式化的 JSON 字符串
+     *
+     * @param object 要转换的对象
+     * @return 格式化后的 JSON 字符串
+     */
+    public static String formatJson(Object object) {
+        try {
+            if (object instanceof JSONObject) {
+                return ((JSONObject) object).toString(4); // 使用 4 个空格进行缩进
+            }
+            return execute(() -> MAPPER.writerWithDefaultPrettyPrinter().writeValueAsString(object));
+        } catch (Exception e) {
+            Log.record(TAG,"formatJson err:");
+            Log.printStackTrace(e);
+            return execute(() -> MAPPER.writerWithDefaultPrettyPrinter().writeValueAsString(object));
+        }
+    }
+
+    /**
+     * 将对象转换为 JSON 字符串
+     *
+     * @param object 要转换的对象
+     * @param pretty 是否格式化 JSON 字符串
+     * @return JSON 字符串
+     */
+    public static String formatJson(Object object, boolean pretty) {
+        try {
+            if (object instanceof JSONObject) {
+                if (pretty) {
+                    return ((JSONObject) object).toString(4);
+                } else {
+                    return object.toString();
+                }
+            }
+            if (pretty) {
+                return execute(() -> MAPPER.writerWithDefaultPrettyPrinter().writeValueAsString(object));
+            } else {
+                return execute(() -> MAPPER.writeValueAsString(object));
+            }
+        } catch (Exception e) {
+            Log.record(TAG,"formatJson err:");
+            Log.printStackTrace(e);
+            return execute(() -> MAPPER.writerWithDefaultPrettyPrinter().writeValueAsString(object));
+        }
+    }
+
+    /**
+     * 创建 JSON 解析器
+     *
+     * @param body JSON 字符串
+     * @return JsonParser 解析器
+     */
+    public static JsonParser getJsonParser(String body) {
+        return execute(() -> JSON_FACTORY.createParser(body)); // 执行解析器创建
+    }
+
+    /**
+     * 解析 JSON 字符串为指定类型的对象
+     *
+     * @param body JSON 字符串
+     * @param type 目标类型
+     * @param <T>  目标类型泛型
+     * @return 解析后的对象
+     */
+    public static <T> T parseObject(String body, Type type) {
+        return parseObjectInternal(() -> MAPPER.readValue(body, TYPE_FACTORY.constructType(type))); // 执行解析
+    }
+
+    /**
+     * 解析 JSON 字符串为指定类型的对象
+     *
+     * @param body     JSON 字符串
+     * @param javaType 目标 JavaType
+     * @param <T>      目标类型泛型
+     * @return 解析后的对象
+     */
+    public static <T> T parseObject(String body, JavaType javaType) {
+        return parseObjectInternal(() -> MAPPER.readValue(body, javaType)); // 执行解析
+    }
+
+    /**
+     * 解析 JSON 字符串为指定类型的对象
+     *
+     * @param body         JSON 字符串
+     * @param valueTypeRef 目标类型引用
+     * @param <T>          目标类型泛型
+     * @return 解析后的对象
+     */
+    public static <T> T parseObject(String body, TypeReference<T> valueTypeRef) {
+        return parseObjectInternal(() -> MAPPER.readValue(body, valueTypeRef)); // 执行解析
+    }
+
+    /**
+     * 解析 JSON 字符串为指定类型的对象
+     *
+     * @param body  JSON 字符串
+     * @param clazz 目标类
+     * @param <T>   目标类型泛型
+     * @return 解析后的对象
+     */
+    public static <T> T parseObject(String body, Class<T> clazz) {
+        return parseObjectInternal(() -> MAPPER.readValue(body, clazz)); // 执行解析
+    }
+
+    /**
+     * 从 JsonParser 解析为指定类型的对象
+     *
+     * @param jsonParser JsonParser 实例
+     * @param type       目标类型
+     * @param <T>        目标类型泛型
+     * @return 解析后的对象
+     */
+    public static <T> T parseObject(JsonParser jsonParser, Type type) {
+        return parseObjectInternal(() -> MAPPER.readValue(jsonParser, TYPE_FACTORY.constructType(type))); // 执行解析
+    }
+
+    /**
+     * 从 JsonParser 解析为指定类型的对象
+     *
+     * @param jsonParser JsonParser 实例
+     * @param javaType   目标 JavaType
+     * @param <T>        目标类型泛型
+     * @return 解析后的对象
+     */
+    public static <T> T parseObject(JsonParser jsonParser, JavaType javaType) {
+        return parseObjectInternal(() -> MAPPER.readValue(jsonParser, javaType)); // 执行解析
+    }
+
+    /**
+     * 从 JsonParser 解析为指定类型的对象
+     *
+     * @param jsonParser   JsonParser 实例
+     * @param valueTypeRef 目标类型引用
+     * @param <T>          目标类型泛型
+     * @return 解析后的对象
+     */
+    public static <T> T parseObject(JsonParser jsonParser, TypeReference<T> valueTypeRef) {
+        return parseObjectInternal(() -> MAPPER.readValue(jsonParser, valueTypeRef)); // 执行解析
+    }
+
+    /**
+     * 从 JsonParser 解析为指定类型的对象
+     *
+     * @param jsonParser JsonParser 实例
+     * @param clazz      目标类
+     * @param <T>        目标类型泛型
+     * @return 解析后的对象
+     */
+    public static <T> T parseObject(JsonParser jsonParser, Class<T> clazz) {
+        return parseObjectInternal(() -> MAPPER.readValue(jsonParser, clazz)); // 执行解析
+    }
+
+    /**
+     * 将对象转换为指定类型的对象
+     *
+     * @param bean 源对象
+     * @param type 目标类型
+     * @param <T>  目标类型泛型
+     * @return 转换后的对象
+     */
+    public static <T> T parseObject(Object bean, Type type) {
+        return parseObjectInternal(() -> MAPPER.convertValue(bean, TYPE_FACTORY.constructType(type))); // 执行转换
+    }
+
+    /**
+     * 将对象转换为指定类型的对象
+     *
+     * @param bean     源对象
+     * @param javaType 目标 JavaType
+     * @param <T>      目标类型泛型
+     * @return 转换后的对象
+     */
+    public static <T> T parseObject(Object bean, JavaType javaType) {
+        return parseObjectInternal(() -> MAPPER.convertValue(bean, javaType)); // 执行转换
+    }
+
+    /**
+     * 将对象转换为指定类型的对象
+     *
+     * @param bean         源对象
+     * @param valueTypeRef 目标类型引用
+     * @param <T>          目标类型泛型
+     * @return 转换后的对象
+     */
+    public static <T> T parseObject(Object bean, TypeReference<T> valueTypeRef) {
+        return parseObjectInternal(() -> MAPPER.convertValue(bean, valueTypeRef)); // 执行转换
+    }
+
+    /**
+     * 将对象转换为指定类型的对象
+     *
+     * @param bean  源对象
+     * @param clazz 目标类
+     * @param <T>   目标类型泛型
+     * @return 转换后的对象
+     */
+    public static <T> T parseObject(Object bean, Class<T> clazz) {
+        return parseObjectInternal(() -> MAPPER.convertValue(bean, clazz)); // 执行转换
+    }
+
+    /**
+     * 解析 JSON 字符串中的指定字段为字符串
+     *
+     * @param body  JSON 字符串
+     * @param field 指定字段名
+     * @return 字段值
+     */
+    public static String parseString(String body, String field) {
+        return execute(() -> {
+            JsonNode node = MAPPER.readTree(body).get(field); // 获取字段节点
+            return node != null ? node.asText() : null; // 返回字段值
+        });
+    }
+
+    /**
+     * 解析 JSON 字符串中的指定字段为整数
+     *
+     * @param body  JSON 字符串
+     * @param field 指定字段名
+     * @return 字段值
+     */
+    public static Integer parseInteger(String body, String field) {
+        return execute(() -> {
+            JsonNode node = MAPPER.readTree(body).get(field); // 获取字段节点
+            return node != null ? node.asInt() : null; // 返回字段值
+        });
+    }
+
+    /**
+     * 解析 JSON 字符串中的指定字段为整数列表
+     *
+     * @param body  JSON 字符串
+     * @param field 指定字段名
+     * @return 字段值列表
+     */
+    public static List<Integer> parseIntegerList(String body, String field) {
+        return execute(() -> {
+            JsonNode node = MAPPER.readTree(body).get(field); // 获取字段节点
+            return node != null ? MAPPER.convertValue(node, new TypeReference<List<Integer>>() {
+            }) : null; // 返回字段值列表
+        });
+    }
+
+    /**
+     * 解析 JSON 字符串中的指定字段为布尔值
+     *
+     * @param body  JSON 字符串
+     * @param field 指定字段名
+     * @return 字段值
+     */
+    public static Boolean parseBoolean(String body, String field) {
+        return execute(() -> {
+            JsonNode node = MAPPER.readTree(body).get(field); // 获取字段节点
+            return node != null ? node.asBoolean() : null; // 返回字段值
+        });
+    }
+
+    /**
+     * 解析 JSON 字符串中的指定字段为短整型
+     *
+     * @param body  JSON 字符串
+     * @param field 指定字段名
+     * @return 字段值
+     */
+    public static Short parseShort(String body, String field) {
+        return execute(() -> {
+            JsonNode node = MAPPER.readTree(body).get(field); // 获取字段节点
+            return node != null ? (short) node.asInt() : null; // 返回字段值
+        });
+    }
+
+    /**
+     * 解析 JSON 字符串中的指定字段为字节型
+     *
+     * @param body  JSON 字符串
+     * @param field 指定字段名
+     * @return 字段值
+     */
+    public static Byte parseByte(String body, String field) {
+        return execute(() -> {
+            JsonNode node = MAPPER.readTree(body).get(field); // 获取字段节点
+            return node != null ? (byte) node.asInt() : null; // 返回字段值
+        });
+    }
+
+    /**
+     * 解析 JSON 字符串为指定类型的对象列表
+     *
+     * @param body  JSON 字符串
+     * @param clazz 目标类
+     * @param <T>   目标类型泛型
+     * @return 解析后的对象列表
+     */
+    public static <T> List<T> parseList(String body, Class<T> clazz) {
+        return parseObjectInternal(() -> MAPPER.readValue(body, TYPE_FACTORY.constructCollectionType(ArrayList.class, clazz))); // 执行解析
+    }
+
+    /**
+     * 将 JSON 字符串转换为 JsonNode
+     *
+     * @param json JSON 字符串
+     * @return JsonNode 对象
+     */
+    public static JsonNode toNode(String json) {
+        return json == null ? null : execute(() -> MAPPER.readTree(json)); // 执行转换
+    }
+
+    /**
+     * 根据路径获取 JSON 对象中的值
+     *
+     * @param jsonObject JSON 对象
+     * @param path       字段路径（以 "." 分隔）
+     * @return 字段值
+     */
+    public static String getValueByPath(JSONObject jsonObject, String path) {
+        Object value = getValueByPathObject(jsonObject, path); // 获取字段值
+        return value == null ? "" : value.toString(); // 返回字段值的字符串形式
+    }
+
+    /**
+     * 根据路径获取 JSON 对象中的值
+     *
+     * @param jsonObject JSON 对象
+     * @param path       字段路径（以 "." 分隔）
+     * @return 字段值
+     */
+    public static Object getValueByPathObject(JSONObject jsonObject, String path) {
+        String[] parts = path.split("\\."); // 分割路径
+        try {
+            Object current = jsonObject; // 当前对象
+            for (String part : parts) {
+                if (current instanceof JSONObject) {
+                    current = ((JSONObject) current).get(part); // 从 JSONObject 获取值
+                } else if (current instanceof JSONArray) {
+                    int index = Integer.parseInt(part.replaceAll("\\D", "")); // 获取数组索引
+                    current = ((JSONArray) current).get(index); // 从 JSONArray 获取值
+                } else {
+                    current = new JSONObject(current.toString()).get(part); // 将当前对象转为 JSONObject 并获取值
+                }
+            }
+            return current; // 返回最终的值
+        } catch (Exception e) {
+            return null; // 异常时返回 null
+        }
+    }
+
+    /**
+     * 安全地创建JSONObject，处理空字符串和null的情况
+     *
+     * @param jsonStr JSON字符串
+     * @return JSONObject对象，如果输入为空则返回空的JSONObject
+     */
+    public static JSONObject parseJSONObject(String jsonStr) {
+        try {
+            // 检查字符串是否为空或null
+            if (jsonStr == null || jsonStr.trim().isEmpty()) {
+                Log.record(TAG, "收到空响应，可能是网络异常或服务端错误");
+                return new JSONObject(); // 返回空的JSONObject
+            }
+            return new JSONObject(jsonStr);
+        } catch (Exception e) {
+            Log.record(TAG, "JSON解析失败: " + e.getMessage());
+            Log.record(TAG, "原始响应: " + (jsonStr.length() > 200 ? jsonStr.substring(0, 200) + "..." : jsonStr));
+            return new JSONObject(); // 返回空的JSONObject
+        }
+    }
+
+    /**
+     * 安全地创建JSONArray，处理空字符串和null的情况
+     *
+     * @param jsonStr JSON字符串
+     * @return JSONArray对象，如果输入为空则返回空的JSONArray
+     */
+    public static JSONArray parseJSONArray(String jsonStr) {
+        try {
+            // 检查字符串是否为空或null
+            if (jsonStr == null || jsonStr.trim().isEmpty()) {
+                Log.record(TAG, "收到空响应，可能是网络异常或服务端错误");
+                return new JSONArray(); // 返回空的JSONArray
+            }
+            return new JSONArray(jsonStr);
+        } catch (Exception e) {
+            Log.record(TAG, "JSON数组解析失败: " + e.getMessage());
+            return new JSONArray(); // 返回空的JSONArray
+        }
+    }
+
+    /**
+     * 将 JSONArray 转换为字符串列表
+     *
+     * @param jsonArray 源 JSONArray
+     * @return 字符串列表
+     */
+    public static List<String> jsonArrayToList(JSONArray jsonArray) {
+        List<String> list = new ArrayList<>(); // 创建列表
+        for (int i = 0; i < jsonArray.length(); i++) {
+            try {
+                list.add(jsonArray.getString(i)); // 添加字符串到列表
+            } catch (Exception e) {
+                Log.printStackTrace(e); // 打印异常栈
+                list.add(""); // 异常时添加空字符串
+            }
+        }
+        return list; // 返回列表
+    }
+
+    /**
+     * 内部方法，执行 JSON 操作并处理异常
+     *
+     * @param action JSON 操作
+     * @param <T>    操作返回类型
+     * @return 操作结果
+     */
+    private static <T> T parseObjectInternal(JsonAction<T> action) {
+        return execute(action); // 执行操作
+    }
+
+    /**
+     * 执行 JSON 操作并处理异常
+     *
+     * @param action JSON 操作
+     * @param <T>    操作返回类型
+     * @return 操作结果
+     */
+    private static <T> T execute(JsonAction<T> action) {
+        try {
+            return action.execute(); // 执行操作
+        } catch (Exception e) {
+            throw new RuntimeException(e); // 异常时抛出运行时异常
+        }
+    }
+
+    /**
+     * 函数式接口，用于执行 JSON 操作
+     *
+     * @param <T> 操作返回类型
+     */
+    @FunctionalInterface
+    private interface JsonAction<T> {
+        T execute() throws Exception; // 执行操作
+    }
+}

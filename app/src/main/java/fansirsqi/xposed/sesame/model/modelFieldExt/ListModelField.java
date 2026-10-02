@@ -1,1 +1,118 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuZHJhd2FibGUuRHJhd2FibGU7CmltcG9ydCBhbmRyb2lkLnZpZXcuR3Jhdml0eTsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkJ1dHRvbjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkxpbmVhckxheW91dDsKCmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuQ29udGV4dENvbXBhdDsKCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uY29yZS50eXBlLlR5cGVSZWZlcmVuY2U7CgppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLlI7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEZpZWxkOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkud2lkZ2V0LlN0cmluZ0RpYWxvZzsKLyoqCiAqIOihqOekuuS4gOS4quWtmOWCqOWtl+espuS4suWIl+ihqOeahOWtl+auteaooeWei++8jOeUqOS6jueuoeeQhuWSjOWxleekuuWIl+ihqOaVsOaNruOAggogKiDmj5Dkvpvln7rmnKznmoTojrflj5bnsbvlnovjgIHphY3nva7lgLzku6Xlj4rop4blm77lsZXnpLrnmoTmlrnms5XjgIIKICovCnB1YmxpYyBjbGFzcyBMaXN0TW9kZWxGaWVsZCBleHRlbmRzIE1vZGVsRmllbGQ8TGlzdDxTdHJpbmc+PiB7CiAgICAvLyBKU09OIOexu+Wei+W8leeUqO+8jOeUqOS6juW6j+WIl+WMluWSjOWPjeW6j+WIl+WMliBMaXN0PFN0cmluZz4KICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFR5cGVSZWZlcmVuY2U8TGlzdDxTdHJpbmc+PiB0eXBlUmVmZXJlbmNlID0gbmV3IFR5cGVSZWZlcmVuY2U8TGlzdDxTdHJpbmc+PigpIHt9OwogICAgLyoqCiAgICAgKiDmnoTpgKDmlrnms5XvvIzliJ3lp4vljJblrZfmrrXmqKHlnovjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gY29kZSAg5a2X5q6155qE5ZSv5LiA5qCH6K+G56ymCiAgICAgKiBAcGFyYW0gbmFtZSAg5a2X5q6155qE5ZCN56ewCiAgICAgKiBAcGFyYW0gdmFsdWUg5a2X5q6155qE6buY6K6k5YC877yI5a2X56ym5Liy5YiX6KGo77yJCiAgICAgKi8KICAgIHB1YmxpYyBMaXN0TW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIExpc3Q8U3RyaW5nPiB2YWx1ZSkgewogICAgICAgIHN1cGVyKGNvZGUsIG5hbWUsIHZhbHVlKTsKICAgIH0KICAgIC8qKgogICAgICog6I635Y+W5a2X5q6155qE57G75Z6L44CCCiAgICAgKgogICAgICogQHJldHVybiDov5Tlm57lrZfmrrXnsbvlnosgIkxJU1QiCiAgICAgKi8KICAgIEBPdmVycmlkZQogICAgcHVibGljIFN0cmluZyBnZXRUeXBlKCkgewogICAgICAgIHJldHVybiAiTElTVCI7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPlueUqOS6juWxleekuuivpeWtl+auteeahOinhuWbvue7hOS7tuOAggogICAgICoKICAgICAqIEBwYXJhbSBjb250ZXh0IOS4iuS4i+aWh+eOr+WigwogICAgICogQHJldHVybiDov5Tlm57kuIDkuKrmjInpkq7op4blm77vvIznlKjkuo7op6blj5HnvJbovpHlip/og70KICAgICAqLwogICAgQFN1cHByZXNzTGludCgiVXNlQ29tcGF0TG9hZGluZ0ZvckRyYXdhYmxlcyIpCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBWaWV3IGdldFZpZXcoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgQnV0dG9uIGJ0biA9IG5ldyBCdXR0b24oY29udGV4dCk7CiAgICAgICAgYnRuLnNldFRleHQoZ2V0TmFtZSgpKTsKICAgICAgICBidG4uc2V0TGF5b3V0UGFyYW1zKG5ldyBMaW5lYXJMYXlvdXQuTGF5b3V0UGFyYW1zKFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5ULCBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLldSQVBfQ09OVEVOVCkpOwogICAgICAgIGJ0bi5zZXRUZXh0Q29sb3IoQ29udGV4dENvbXBhdC5nZXRDb2xvcihjb250ZXh0LCBSLmNvbG9yLnNlbGVjdGlvbl9jb2xvcikpOwogICAgICAgIC8vIOagueaNrkFQSeeJiOacrOmAieaLqeWQiOmAgueahOaWueazleiOt+WPlkRyYXdhYmxl6LWE5rqQCiAgICAgICAgRHJhd2FibGUgZHJhd2FibGU7CiAgICAgICAgZHJhd2FibGUgPSBjb250ZXh0LmdldFJlc291cmNlcygpLmdldERyYXdhYmxlKFIuZHJhd2FibGUuZGlhbG9nX2xpc3RfYnV0dG9uLCBjb250ZXh0LmdldFRoZW1lKCkpOwogICAgICAgIGJ0bi5zZXRCYWNrZ3JvdW5kKGRyYXdhYmxlKTsKICAgICAgICBidG4uc2V0R3Jhdml0eShHcmF2aXR5LlNUQVJUIHwgR3Jhdml0eS5DRU5URVJfVkVSVElDQUwpOwogICAgICAgIGJ0bi5zZXRNaW5IZWlnaHQoMTUwKTsKICAgICAgICBidG4uc2V0TWF4SGVpZ2h0KDE4MCk7CiAgICAgICAgYnRuLnNldFBhZGRpbmdSZWxhdGl2ZSg0MCwgMCwgNDAsIDApOwogICAgICAgIGJ0bi5zZXRBbGxDYXBzKGZhbHNlKTsKICAgICAgICAvLyDorr7nva7mjInpkq7ngrnlh7vkuovku7bvvIzmiZPlvIDnvJbovpHlr7nor53moYYKICAgICAgICBidG4uc2V0T25DbGlja0xpc3RlbmVyKHYgLT4gU3RyaW5nRGlhbG9nLnNob3dFZGl0RGlhbG9nKHYuZ2V0Q29udGV4dCgpLCAoKEJ1dHRvbikgdikuZ2V0VGV4dCgpLCB0aGlzKSk7CiAgICAgICAgcmV0dXJuIGJ0bjsKICAgIH0KICAgIC8qKgogICAgICog5LiA5Liq5a2Q57G777yM55So5LqO5bCG5a2X56ym5Liy5YiX6KGo6L2s5o2i5Li66YCX5Y+35YiG6ZqU55qE5a2X56ym5Liy77yM5bm25a6e546w55u45bqU55qE6K6+572u5ZKM6I635Y+W5Yqf6IO944CCCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgY2xhc3MgTGlzdEpvaW5Db21tYVRvU3RyaW5nTW9kZWxGaWVsZCBleHRlbmRzIExpc3RNb2RlbEZpZWxkIHsKICAgICAgICAvKioKICAgICAgICAgKiDmnoTpgKDmlrnms5XvvIzliJ3lp4vljJblrZfmrrXmqKHlnovjgIIKICAgICAgICAgKgogICAgICAgICAqIEBwYXJhbSBjb2RlICDlrZfmrrXnmoTllK/kuIDmoIfor4bnrKYKICAgICAgICAgKiBAcGFyYW0gbmFtZSAg5a2X5q6155qE5ZCN56ewCiAgICAgICAgICogQHBhcmFtIHZhbHVlIOWtl+auteeahOm7mOiupOWAvO+8iOWtl+espuS4suWIl+ihqO+8iQogICAgICAgICAqLwogICAgICAgIHB1YmxpYyBMaXN0Sm9pbkNvbW1hVG9TdHJpbmdNb2RlbEZpZWxkKFN0cmluZyBjb2RlLCBTdHJpbmcgbmFtZSwgTGlzdDxTdHJpbmc+IHZhbHVlKSB7CiAgICAgICAgICAgIHN1cGVyKGNvZGUsIG5hbWUsIHZhbHVlKTsKICAgICAgICB9CiAgICAgICAgLyoqCiAgICAgICAgICog6K6+572u6YWN572u5YC877yM5bCG6YCX5Y+35YiG6ZqU55qE5a2X56ym5Liy6L2s5o2i5Li65a2X56ym5Liy5YiX6KGo44CCCiAgICAgICAgICoKICAgICAgICAgKiBAcGFyYW0gY29uZmlnVmFsdWUg6YWN572u5YC877yM6YCX5Y+35YiG6ZqU55qE5a2X56ym5LiyCiAgICAgICAgICovCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIHZvaWQgc2V0Q29uZmlnVmFsdWUoU3RyaW5nIGNvbmZpZ1ZhbHVlKSB7CiAgICAgICAgICAgIGlmIChjb25maWdWYWx1ZSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICByZXNldCgpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOagueaNrumAl+WPt+WIhumalOespuino+aekOWtl+espuS4su+8jOW5tui/h+a7pOaOieepuuWtl+espuS4sgogICAgICAgICAgICBMaXN0PFN0cmluZz4gbGlzdCA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgICAgICBmb3IgKFN0cmluZyBzdHIgOiBjb25maWdWYWx1ZS5zcGxpdCgiLCIpKSB7CiAgICAgICAgICAgICAgICBpZiAoIXN0ci5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBsaXN0LmFkZChzdHIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbHVlID0gbGlzdDsKICAgICAgICB9CiAgICAgICAgLyoqCiAgICAgICAgICog6I635Y+W6YWN572u5YC877yM5bCG5a2X56ym5Liy5YiX6KGo5ou85o6l5Li66YCX5Y+35YiG6ZqU55qE5a2X56ym5Liy44CCCiAgICAgICAgICoKICAgICAgICAgKiBAcmV0dXJuIOmFjee9ruWAvO+8jOmAl+WPt+WIhumalOeahOWtl+espuS4sgogICAgICAgICAqLwogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyBTdHJpbmcgZ2V0Q29uZmlnVmFsdWUoKSB7CiAgICAgICAgICAgIHJldHVybiBTdHJpbmcuam9pbigiLCIsIHZhbHVlKTsKICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+
+import androidx.core.content.ContextCompat;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.ui.widget.StringDialog;
+/**
+ * 表示一个存储字符串列表的字段模型，用于管理和展示列表数据。
+ * 提供基本的获取类型、配置值以及视图展示的方法。
+ */
+public class ListModelField extends ModelField<List<String>> {
+    // JSON 类型引用，用于序列化和反序列化 List<String>
+    private static final TypeReference<List<String>> typeReference = new TypeReference<List<String>>() {};
+    /**
+     * 构造方法，初始化字段模型。
+     *
+     * @param code  字段的唯一标识符
+     * @param name  字段的名称
+     * @param value 字段的默认值（字符串列表）
+     */
+    public ListModelField(String code, String name, List<String> value) {
+        super(code, name, value);
+    }
+    /**
+     * 获取字段的类型。
+     *
+     * @return 返回字段类型 "LIST"
+     */
+    @Override
+    public String getType() {
+        return "LIST";
+    }
+    /**
+     * 获取用于展示该字段的视图组件。
+     *
+     * @param context 上下文环境
+     * @return 返回一个按钮视图，用于触发编辑功能
+     */
+    @SuppressLint("UseCompatLoadingForDrawables")
+    @Override
+    public View getView(Context context) {
+        Button btn = new Button(context);
+        btn.setText(getName());
+        btn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        btn.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+        // 根据API版本选择合适的方法获取Drawable资源
+        Drawable drawable;
+        drawable = context.getResources().getDrawable(R.drawable.dialog_list_button, context.getTheme());
+        btn.setBackground(drawable);
+        btn.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+        btn.setMinHeight(150);
+        btn.setMaxHeight(180);
+        btn.setPaddingRelative(40, 0, 40, 0);
+        btn.setAllCaps(false);
+        // 设置按钮点击事件，打开编辑对话框
+        btn.setOnClickListener(v -> StringDialog.showEditDialog(v.getContext(), ((Button) v).getText(), this));
+        return btn;
+    }
+    /**
+     * 一个子类，用于将字符串列表转换为逗号分隔的字符串，并实现相应的设置和获取功能。
+     */
+    public static class ListJoinCommaToStringModelField extends ListModelField {
+        /**
+         * 构造方法，初始化字段模型。
+         *
+         * @param code  字段的唯一标识符
+         * @param name  字段的名称
+         * @param value 字段的默认值（字符串列表）
+         */
+        public ListJoinCommaToStringModelField(String code, String name, List<String> value) {
+            super(code, name, value);
+        }
+        /**
+         * 设置配置值，将逗号分隔的字符串转换为字符串列表。
+         *
+         * @param configValue 配置值，逗号分隔的字符串
+         */
+        @Override
+        public void setConfigValue(String configValue) {
+            if (configValue == null) {
+                reset();
+                return;
+            }
+            // 根据逗号分隔符解析字符串，并过滤掉空字符串
+            List<String> list = new ArrayList<>();
+            for (String str : configValue.split(",")) {
+                if (!str.isEmpty()) {
+                    list.add(str);
+                }
+            }
+            value = list;
+        }
+        /**
+         * 获取配置值，将字符串列表拼接为逗号分隔的字符串。
+         *
+         * @return 配置值，逗号分隔的字符串
+         */
+        @Override
+        public String getConfigValue() {
+            return String.join(",", value);
+        }
+    }
+}

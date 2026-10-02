@@ -1,1 +1,156 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4KCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5QYWRkaW5nVmFsdWVzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhTaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Q29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5pdGVtcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQWxlcnREaWFsb2cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkNhcmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuT3V0bGluZWRUZXh0RmllbGQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlNjYWZmb2xkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0QnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5Ub3BBcHBCYXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdtb2RlbC5jb21wb3NlLnZpZXdNb2RlbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkudmlld21vZGVsLkV4dGVuZERpYWxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkudmlld21vZGVsLkV4dGVuZFZpZXdNb2RlbAoKQE9wdEluKEV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmZ1biBFeHRlbmRTY3JlZW4oCiAgICBvbkJhY2tDbGljazogKCkgLT4gVW5pdCwKICAgIHZpZXdNb2RlbDogRXh0ZW5kVmlld01vZGVsID0gdmlld01vZGVsKCkKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CgogICAgLy8g5Yid5aeL5YyW5pWw5o2uCiAgICBMYXVuY2hlZEVmZmVjdChVbml0KSB7CiAgICAgICAgdmlld01vZGVsLmxvYWREYXRhKGNvbnRleHQpCiAgICB9CgogICAgU2NhZmZvbGQoCiAgICAgICAgdG9wQmFyID0gewogICAgICAgICAgICBUb3BBcHBCYXIoCiAgICAgICAgICAgICAgICB0aXRsZSA9IHsgVGV4dCgi5omp5bGV5Yqf6IO9IikgfSwKICAgICAgICAgICAgICAgIG5hdmlnYXRpb25JY29uID0gewogICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOmcgOimgei/lOWbnuaMiemSrgogICAgICAgICAgICAgICAgICAgIC8qIEljb25CdXR0b24ob25DbGljayA9IG9uQmFja0NsaWNrKSB7IEljb24oSWNvbnMuRGVmYXVsdC5BcnJvd0JhY2ssIG51bGwpIH0gKi8KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKQogICAgICAgIH0KICAgICkgeyBwYWRkaW5nIC0+CiAgICAgICAgTGF6eUNvbHVtbigKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgIC5wYWRkaW5nKHBhZGRpbmcpLAogICAgICAgICAgICBjb250ZW50UGFkZGluZyA9IFBhZGRpbmdWYWx1ZXMoMTYuZHApLAogICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgaXRlbXModmlld01vZGVsLm1lbnVJdGVtcykgeyBpdGVtIC0+CiAgICAgICAgICAgICAgICBFeHRlbmRJdGVtQ2FyZCh0aXRsZSA9IGl0ZW0udGl0bGUsIG9uQ2xpY2sgPSBpdGVtLm9uQ2xpY2spCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIOWkhOeQhuW8ueeql+mAu+i+kQogICAgICAgIERpYWxvZ0hhbmRsZXIodmlld01vZGVsLCBjb250ZXh0KQogICAgfQp9CgpAQ29tcG9zYWJsZQpmdW4gRXh0ZW5kSXRlbUNhcmQodGl0bGU6IFN0cmluZywgb25DbGljazogKCkgLT4gVW5pdCkgewogICAgQ2FyZCgKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgIG9uQ2xpY2sgPSBvbkNsaWNrIC8vIE1hdGVyaWFsMyBDYXJkIOiHquW4piBvbkNsaWNrCiAgICApIHsKICAgICAgICBCb3goCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKQogICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgKSB7CiAgICAgICAgICAgIFRleHQodGV4dCA9IHRpdGxlLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TGFyZ2UpCiAgICAgICAgfQogICAgfQp9CgpAQ29tcG9zYWJsZQpmdW4gRGlhbG9nSGFuZGxlcih2aWV3TW9kZWw6IEV4dGVuZFZpZXdNb2RlbCwgY29udGV4dDogYW5kcm9pZC5jb250ZW50LkNvbnRleHQpIHsKICAgIHdoZW4gKHZhbCBkaWFsb2cgPSB2aWV3TW9kZWwuY3VycmVudERpYWxvZykgewogICAgICAgIGlzIEV4dGVuZERpYWxvZy5Ob25lIC0+IHt9CgogICAgICAgIGlzIEV4dGVuZERpYWxvZy5DbGVhclBob3RvQ29uZmlybSAtPiB7CiAgICAgICAgICAgIEFsZXJ0RGlhbG9nKAogICAgICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IHsgdmlld01vZGVsLmRpc21pc3NEaWFsb2coKSB9LAogICAgICAgICAgICAgICAgdGl0bGUgPSB7IFRleHQoIua4heepuuWbvueJhyIpIH0sCiAgICAgICAgICAgICAgICB0ZXh0ID0geyBUZXh0KCLnoa7orqTmuIXnqbogJHtkaWFsb2cuY291bnR9IOe7hOWFieebmOihjOWKqOWbvueJh++8nyIpIH0sCiAgICAgICAgICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IHsgdmlld01vZGVsLmNsZWFyUGhvdG9zKGNvbnRleHQpIH0pIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgi56Gu5a6aIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsKICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IHZpZXdNb2RlbC5kaXNtaXNzRGlhbG9nKCkgfSkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KCLlj5bmtogiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgaXMgRXh0ZW5kRGlhbG9nLldyaXRlUGhvdG9UZXN0IC0+IHsKICAgICAgICAgICAgQWxlcnREaWFsb2coCiAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0geyB2aWV3TW9kZWwuZGlzbWlzc0RpYWxvZygpIH0sCiAgICAgICAgICAgICAgICB0aXRsZSA9IHsgVGV4dCgiVGVzdCIpIH0sCiAgICAgICAgICAgICAgICB0ZXh0ID0geyBUZXh0KGRpYWxvZy5tZXNzYWdlKSB9LAogICAgICAgICAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IHZpZXdNb2RlbC53cml0ZVBob3RvVGVzdChjb250ZXh0KSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoIuehruWumiIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0geyB2aWV3TW9kZWwuZGlzbWlzc0RpYWxvZygpIH0pIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgi5Y+W5raIIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGlzIEV4dGVuZERpYWxvZy5JbnB1dERpYWxvZyAtPiB7CiAgICAgICAgICAgIHZhciB0ZXh0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZGlhbG9nLmluaXRpYWxWYWx1ZSkgfQogICAgICAgICAgICBBbGVydERpYWxvZygKICAgICAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSB7IHZpZXdNb2RlbC5kaXNtaXNzRGlhbG9nKCkgfSwKICAgICAgICAgICAgICAgIHRpdGxlID0geyBUZXh0KGRpYWxvZy50aXRsZSkgfSwKICAgICAgICAgICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gdGV4dCwKICAgICAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgdGV4dCA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IGRpYWxvZy5vbkNvbmZpcm0odGV4dCkgfSkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KCLnoa7lrpoiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBkaXNtaXNzQnV0dG9uID0gewogICAgICAgICAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IHsgdmlld01vZGVsLmRpc21pc3NEaWFsb2coKSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoIuWPlua2iCIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.ui.screen
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Card
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
+import fansirsqi.xposed.sesame.ui.viewmodel.ExtendDialog
+import fansirsqi.xposed.sesame.ui.viewmodel.ExtendViewModel
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ExtendScreen(
+    onBackClick: () -> Unit,
+    viewModel: ExtendViewModel = viewModel()
+) {
+    val context = LocalContext.current
+
+    // 初始化数据
+    LaunchedEffect(Unit) {
+        viewModel.loadData(context)
+    }
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text("扩展功能") },
+                navigationIcon = {
+                    // 如果需要返回按钮
+                    /* IconButton(onClick = onBackClick) { Icon(Icons.Default.ArrowBack, null) } */
+                }
+            )
+        }
+    ) { padding ->
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(padding),
+            contentPadding = PaddingValues(16.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            items(viewModel.menuItems) { item ->
+                ExtendItemCard(title = item.title, onClick = item.onClick)
+            }
+        }
+
+        // 处理弹窗逻辑
+        DialogHandler(viewModel, context)
+    }
+}
+
+@Composable
+fun ExtendItemCard(title: String, onClick: () -> Unit) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        onClick = onClick // Material3 Card 自带 onClick
+    ) {
+        Box(
+            modifier = Modifier
+                .padding(16.dp)
+                .fillMaxWidth()
+        ) {
+            Text(text = title, style = MaterialTheme.typography.bodyLarge)
+        }
+    }
+}
+
+@Composable
+fun DialogHandler(viewModel: ExtendViewModel, context: android.content.Context) {
+    when (val dialog = viewModel.currentDialog) {
+        is ExtendDialog.None -> {}
+
+        is ExtendDialog.ClearPhotoConfirm -> {
+            AlertDialog(
+                onDismissRequest = { viewModel.dismissDialog() },
+                title = { Text("清空图片") },
+                text = { Text("确认清空 ${dialog.count} 组光盘行动图片？") },
+                confirmButton = {
+                    TextButton(onClick = { viewModel.clearPhotos(context) }) {
+                        Text("确定")
+                    }
+                },
+                dismissButton = {
+                    TextButton(onClick = { viewModel.dismissDialog() }) {
+                        Text("取消")
+                    }
+                }
+            )
+        }
+
+        is ExtendDialog.WritePhotoTest -> {
+            AlertDialog(
+                onDismissRequest = { viewModel.dismissDialog() },
+                title = { Text("Test") },
+                text = { Text(dialog.message) },
+                confirmButton = {
+                    TextButton(onClick = { viewModel.writePhotoTest(context) }) {
+                        Text("确定")
+                    }
+                },
+                dismissButton = {
+                    TextButton(onClick = { viewModel.dismissDialog() }) {
+                        Text("取消")
+                    }
+                }
+            )
+        }
+
+        is ExtendDialog.InputDialog -> {
+            var text by remember { mutableStateOf(dialog.initialValue) }
+            AlertDialog(
+                onDismissRequest = { viewModel.dismissDialog() },
+                title = { Text(dialog.title) },
+                text = {
+                    OutlinedTextField(
+                        value = text,
+                        onValueChange = { text = it },
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                },
+                confirmButton = {
+                    TextButton(onClick = { dialog.onConfirm(text) }) {
+                        Text("确定")
+                    }
+                },
+                dismissButton = {
+                    TextButton(onClick = { viewModel.dismissDialog() }) {
+                        Text("取消")
+                    }
+                }
+            )
+        }
+    }
+}

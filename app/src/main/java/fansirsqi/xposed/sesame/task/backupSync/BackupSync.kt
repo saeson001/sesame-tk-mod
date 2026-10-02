@@ -1,1 +1,96 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmJhY2t1cFN5bmMKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEZpZWxkcwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxHcm91cAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5Cb29sZWFuTW9kZWxGaWVsZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5TdHJpbmdNb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLk1vZGVsVGFzawppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5GaWxlcwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQgamF2YS5pby5GaWxlCgovKioKICogV2ViREFWIOmFjee9ruWkh+S7veWQjOatpQogKiDlsIbmnKzmnLrphY3nva7nm67lvZXvvIhjb25maWcv77yJ5omT5YyF5LiK5Lyg5YiwIFdlYkRBVu+8m+WPr+aLieWPluaBouWkjQogKiDljY/orq7np7vmpI3oh6roip3purvns4pTVklQIDIuMC42LjYg55qEIGJhY2t1cFN5bmPvvIhXZWJEQVYg6YOo5YiG77yM5LiK5ri4IHNlc2FtZSDkuqbmnInlkIzmrL7vvIkKICovCmNsYXNzIEJhY2t1cFN5bmMgOiBNb2RlbFRhc2soKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkJhY2t1cFN5bmMiCiAgICAgICAgY29uc3QgdmFsIE1PRFVMRV9OQU1FID0gIumFjee9ruWkh+S7veWQjOatpSIKCiAgICAgICAgQFZvbGF0aWxlIHZhciBpbnN0YW5jZTogQmFja3VwU3luYz8gPSBudWxsCiAgICB9CgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgZW5hYmxlVXBsb2FkOiBCb29sZWFuTW9kZWxGaWVsZAogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgd2ViRGF2VXJsOiBTdHJpbmdNb2RlbEZpZWxkCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciB3ZWJEYXZVc2VyOiBTdHJpbmdNb2RlbEZpZWxkCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciB3ZWJEYXZQYXNzOiBTdHJpbmdNb2RlbEZpZWxkCgogICAgb3ZlcnJpZGUgZnVuIGdldE5hbWUoKSA9IE1PRFVMRV9OQU1FCiAgICBvdmVycmlkZSBmdW4gZ2V0R3JvdXAoKSA9IE1vZGVsR3JvdXAuT1RIRVIKICAgIG92ZXJyaWRlIGZ1biBnZXRJY29uKCkgPSAiRGVmYXVsdC5wbmciCgogICAgb3ZlcnJpZGUgZnVuIGdldEZpZWxkcygpID0gTW9kZWxGaWVsZHMoKS5hcHBseSB7CiAgICAgICAgYWRkRmllbGQoQm9vbGVhbk1vZGVsRmllbGQoImJhY2t1cFVwbG9hZCIsICLlpIfku70gfCDkuIrkvKDphY3nva7liLAgV2ViREFWIiwgZmFsc2UpLmFsc28geyBlbmFibGVVcGxvYWQgPSBpdCB9KQogICAgICAgIGFkZEZpZWxkKFN0cmluZ01vZGVsRmllbGQoImJhY2t1cFVybCIsICLlpIfku70gfCBXZWJEQVYg55uu5b2VVVJMIiwgIiIpLmFsc28geyB3ZWJEYXZVcmwgPSBpdCB9KQogICAgICAgIGFkZEZpZWxkKFN0cmluZ01vZGVsRmllbGQoImJhY2t1cFVzZXIiLCAi5aSH5Lu9IHwgV2ViREFWIOi0puWPtyIsICIiKS5hbHNvIHsgd2ViRGF2VXNlciA9IGl0IH0pCiAgICAgICAgYWRkRmllbGQoU3RyaW5nTW9kZWxGaWVsZCgiYmFja3VwUGFzcyIsICLlpIfku70gfCBXZWJEQVYg5a+G56CBIiwgIiIpLmFsc28geyB3ZWJEYXZQYXNzID0gaXQgfSkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gcHJlcGFyZSgpIHsgaW5zdGFuY2UgPSB0aGlzIH0KICAgIG92ZXJyaWRlIGZ1biBkZXN0cm95KCkgeyBpbnN0YW5jZSA9IG51bGw7IHN1cGVyLmRlc3Ryb3koKSB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcnVuU3VzcGVuZCgpIHsKICAgICAgICBpZiAoIWVuYWJsZVVwbG9hZC52YWx1ZSkgcmV0dXJuCiAgICAgICAgdmFsIGJhc2VVcmwgPSB3ZWJEYXZVcmwudmFsdWUudHJpbSgpCiAgICAgICAgaWYgKGJhc2VVcmwuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5pyq6YWN572uIFdlYkRBViDlnLDlnYDvvIzot7Pov4ciKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdmFsIGNvbmZpZ0RpciA9IEZpbGVzLkNPTkZJR19ESVIKICAgICAgICBpZiAoIWNvbmZpZ0Rpci5leGlzdHMoKSkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIumFjee9ruebruW9leS4jeWtmOWcqCIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFyIHN1Y2Nlc3MgPSAwCiAgICAgICAgdmFyIGZhaWwgPSAwCiAgICAgICAgdmFsIGZpbGVzID0gY29uZmlnRGlyLmxpc3RGaWxlcygpID86IGVtcHR5QXJyYXkoKQogICAgICAgIGZvciAoZmlsZSBpbiBmaWxlcykgewogICAgICAgICAgICBpZiAoIWZpbGUuaXNGaWxlKSBjb250aW51ZQogICAgICAgICAgICBkZWxheSg1MDApCiAgICAgICAgICAgIHZhbCB0YXJnZXQgPSBiYXNlVXJsLnRyaW1FbmQoJy8nKSArICIvIiArIGZpbGUubmFtZQogICAgICAgICAgICB2YWwgY29udGVudCA9IHJ1bkNhdGNoaW5nIHsgZmlsZS5yZWFkVGV4dCgpIH0uZ2V0T3JFbHNlIHsKICAgICAgICAgICAgICAgIGZhaWwrKzsgY29udGludWUKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgKG9rLCBtc2cpID0gQmFja3VwU3luY0NsaWVudC5wdXQodGFyZ2V0LCB3ZWJEYXZVc2VyLnZhbHVlLCB3ZWJEYXZQYXNzLnZhbHVlLCBjb250ZW50KQogICAgICAgICAgICBpZiAob2spIHN1Y2Nlc3MrKyBlbHNlIHsKICAgICAgICAgICAgICAgIGZhaWwrKwogICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIuS4iuS8oOWksei0pSAke2ZpbGUubmFtZX06ICRtc2ciKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5aSH5Lu95a6M5oiQOiDmiJDlip8gJHN1Y2Nlc3MsIOWksei0pSAkZmFpbCIpCiAgICB9CgogICAgLyoqIOS7jiBXZWJEQVYg5oGi5aSN5Y2V5Liq6YWN572u5paH5Lu277yI5L6bIFVJIOaJi+WKqOinpuWPke+8iSAqLwogICAgZnVuIHJlc3RvcmVGaWxlKGZpbGVOYW1lOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgYmFzZVVybCA9IHdlYkRhdlVybC52YWx1ZS50cmltKCkKICAgICAgICBpZiAoYmFzZVVybC5pc0JsYW5rKCkpIHJldHVybiBmYWxzZQogICAgICAgIHZhbCAob2ssIGNvbnRlbnQpID0gQmFja3VwU3luY0NsaWVudC5nZXQoCiAgICAgICAgICAgIGJhc2VVcmwudHJpbUVuZCgnLycpICsgIi8iICsgZmlsZU5hbWUsCiAgICAgICAgICAgIHdlYkRhdlVzZXIudmFsdWUsIHdlYkRhdlBhc3MudmFsdWUKICAgICAgICApCiAgICAgICAgaWYgKCFvaykgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5LiL6L295aSx6LSlICRmaWxlTmFtZTogJGNvbnRlbnQiKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgdmFsIHRhcmdldCA9IEZpbGUoRmlsZXMuQ09ORklHX0RJUiwgZmlsZU5hbWUpCiAgICAgICAgICAgIHRhcmdldC53cml0ZVRleHQoY29udGVudCkKICAgICAgICAgICAgdHJ1ZQogICAgICAgIH0uZ2V0T3JFbHNlIHsgZmFsc2UgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.task.backupSync
+
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.StringModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.Log
+import kotlinx.coroutines.delay
+import java.io.File
+
+/**
+ * WebDAV 配置备份同步
+ * 将本机配置目录（config/）打包上传到 WebDAV；可拉取恢复
+ * 协议移植自芝麻糊SVIP 2.0.6.6 的 backupSync（WebDAV 部分，上游 sesame 亦有同款）
+ */
+class BackupSync : ModelTask() {
+
+    companion object {
+        private const val TAG = "BackupSync"
+        const val MODULE_NAME = "配置备份同步"
+
+        @Volatile var instance: BackupSync? = null
+    }
+
+    private lateinit var enableUpload: BooleanModelField
+    private lateinit var webDavUrl: StringModelField
+    private lateinit var webDavUser: StringModelField
+    private lateinit var webDavPass: StringModelField
+
+    override fun getName() = MODULE_NAME
+    override fun getGroup() = ModelGroup.OTHER
+    override fun getIcon() = "Default.png"
+
+    override fun getFields() = ModelFields().apply {
+        addField(BooleanModelField("backupUpload", "备份 | 上传配置到 WebDAV", false).also { enableUpload = it })
+        addField(StringModelField("backupUrl", "备份 | WebDAV 目录URL", "").also { webDavUrl = it })
+        addField(StringModelField("backupUser", "备份 | WebDAV 账号", "").also { webDavUser = it })
+        addField(StringModelField("backupPass", "备份 | WebDAV 密码", "").also { webDavPass = it })
+    }
+
+    override fun prepare() { instance = this }
+    override fun destroy() { instance = null; super.destroy() }
+
+    override suspend fun runSuspend() {
+        if (!enableUpload.value) return
+        val baseUrl = webDavUrl.value.trim()
+        if (baseUrl.isBlank()) {
+            Log.record(TAG, "未配置 WebDAV 地址，跳过")
+            return
+        }
+        val configDir = Files.CONFIG_DIR
+        if (!configDir.exists()) {
+            Log.record(TAG, "配置目录不存在")
+            return
+        }
+
+        var success = 0
+        var fail = 0
+        val files = configDir.listFiles() ?: emptyArray()
+        for (file in files) {
+            if (!file.isFile) continue
+            delay(500)
+            val target = baseUrl.trimEnd('/') + "/" + file.name
+            val content = runCatching { file.readText() }.getOrElse {
+                fail++; continue
+            }
+            val (ok, msg) = BackupSyncClient.put(target, webDavUser.value, webDavPass.value, content)
+            if (ok) success++ else {
+                fail++
+                Log.error(TAG, "上传失败 ${file.name}: $msg")
+            }
+        }
+        Log.record(TAG, "备份完成: 成功 $success, 失败 $fail")
+    }
+
+    /** 从 WebDAV 恢复单个配置文件（供 UI 手动触发） */
+    fun restoreFile(fileName: String): Boolean {
+        val baseUrl = webDavUrl.value.trim()
+        if (baseUrl.isBlank()) return false
+        val (ok, content) = BackupSyncClient.get(
+            baseUrl.trimEnd('/') + "/" + fileName,
+            webDavUser.value, webDavPass.value
+        )
+        if (!ok) {
+            Log.error(TAG, "下载失败 $fileName: $content")
+            return false
+        }
+        return runCatching {
+            val target = File(Files.CONFIG_DIR, fileName)
+            target.writeText(content)
+            true
+        }.getOrElse { false }
+    }
+}

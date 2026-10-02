@@ -1,1 +1,11 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnNlcnZlcgoKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5kYXRhYmluZC5PYmplY3RNYXBwZXIKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5tb2R1bGUua290bGluLnJlZ2lzdGVyS290bGluTW9kdWxlCgpvYmplY3QgU2VydmVyQ29tbW9uIHsKICAgIC8vIPCfmoAg5oCn6IO95LyY5YyW77ya5YWo5bGA5Y2V5L6L77yM57q/56iL5a6J5YWo77yM6YG/5YWN5q+P5qyh6K+35rGC6YO95Yib5bu6CiAgICB2YWwganNvbk1hcHBlcjogT2JqZWN0TWFwcGVyID0gT2JqZWN0TWFwcGVyKCkucmVnaXN0ZXJLb3RsaW5Nb2R1bGUoKQogICAgY29uc3QgdmFsIE1JTUVfSlNPTiA9ICJhcHBsaWNhdGlvbi9qc29uIgogICAgY29uc3QgdmFsIE1JTUVfUExBSU5URVhUID0gInRleHQvcGxhaW4iIC8vIOihpeS4iui/meS4qgp9
+package fansirsqi.xposed.sesame.hook.server
+
+import com.fasterxml.jackson.databind.ObjectMapper
+import com.fasterxml.jackson.module.kotlin.registerKotlinModule
+
+object ServerCommon {
+    // 🚀 性能优化：全局单例，线程安全，避免每次请求都创建
+    val jsonMapper: ObjectMapper = ObjectMapper().registerKotlinModule()
+    const val MIME_JSON = "application/json"
+    const val MIME_PLAINTEXT = "text/plain" // 补上这个
+}

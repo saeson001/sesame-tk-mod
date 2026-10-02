@@ -1,1 +1,167 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmNvcmUudHlwZS5UeXBlUmVmZXJlbmNlCgovKioKICog6YCa55So5Lu75Yqh6buR5ZCN5Y2V566h55CG5ZmoCiAqIOS9v+eUqERhdGFTdG9yZeaMgeS5heWMluWtmOWCqOm7keWQjeWNleaVsOaNrgogKi8Kb2JqZWN0IFRhc2tCbGFja2xpc3QgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlRhc2tCbGFja2xpc3QiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBCTEFDS0xJU1RfS0VZID0gInRhc2tfYmxhY2tsaXN0IgoKICAgIC8qKgogICAgICog6I635Y+W6buR5ZCN5Y2V5YiX6KGoCiAgICAgKiBAcmV0dXJuIOm7keWQjeWNleS7u+WKoembhuWQiAogICAgICovCiAgICBmdW4gZ2V0QmxhY2tsaXN0KCk6IFNldDxTdHJpbmc+IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIHN0b3JlZEJsYWNrbGlzdCA9IERhdGFTdG9yZS5nZXRPckNyZWF0ZShCTEFDS0xJU1RfS0VZLCBvYmplY3QgOiBUeXBlUmVmZXJlbmNlPFNldDxTdHJpbmc+PigpIHt9KQogICAgICAgICAgICAvLyDlkIjlubblrZjlgqjnmoTpu5HlkI3ljZXlkozpu5jorqTpu5HlkI3ljZUKICAgICAgICAgICAgKHN0b3JlZEJsYWNrbGlzdCArIGRlZmF1bHRCbGFja2xpc3QpLnRvU2V0KCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICLojrflj5bpu5HlkI3ljZXlpLHotKXvvIzkvb/nlKjpu5jorqTpu5HlkI3ljZUiLCBlKQogICAgICAgICAgICBkZWZhdWx0QmxhY2tsaXN0CiAgICAgICAgfQogICAgfQogICAgCiAgICAKICAgIAogICAgLyoqCiAgICAgKiDkv53lrZjpu5HlkI3ljZXliJfooagKICAgICAqIEBwYXJhbSBibGFja2xpc3Qg6KaB5L+d5a2Y55qE6buR5ZCN5Y2V6ZuG5ZCICiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHNhdmVCbGFja2xpc3QoYmxhY2tsaXN0OiBTZXQ8U3RyaW5nPikgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIERhdGFTdG9yZS5wdXQoQkxBQ0tMSVNUX0tFWSwgYmxhY2tsaXN0KQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIuS/neWtmOm7keWQjeWNleWksei0pSIsIGUpCiAgICAgICAgfQogICAgfQogICAgCiAgICAKICAgIAogICAgLyoqCiAgICAgKiDmo4Dmn6Xku7vliqHmmK/lkKblnKjpu5HlkI3ljZXkuK3vvIjnsr7noa7ljLnphY3pgLvovpHvvIkKICAgICAqIEBwYXJhbSB0YXNrSW5mbyDku7vliqHkv6Hmga/vvIjlj6/ku6XmmK/ku7vliqFJROOAgeS7u+WKoeagh+mimOaIlue7hOWQiOS/oeaBr++8iQogICAgICogQHJldHVybiB0cnVl6KGo56S65Zyo6buR5ZCN5Y2V5Lit77yM5bqU6K+l6Lez6L+HCiAgICAgKi8KICAgIGZ1biBpc1Rhc2tJbkJsYWNrbGlzdCh0YXNrSW5mbzogU3RyaW5nPyk6IEJvb2xlYW4gewogICAgICAgIGlmICh0YXNrSW5mby5pc051bGxPckJsYW5rKCkpIHJldHVybiBmYWxzZQogICAgICAgIAogICAgICAgIHZhbCBibGFja2xpc3QgPSBnZXRCbGFja2xpc3QoKQogICAgICAgIHJldHVybiBibGFja2xpc3QuYW55IHsgaXRlbSAtPgogICAgICAgICAgICBpZiAoaXRlbS5pc0JsYW5rKCkpIHJldHVybkBhbnkgZmFsc2UKCiAgICAgICAgICAgIC8vIOWujOWFqOWMuemFje+8iOacgOeyvuehru+8iQogICAgICAgICAgICBpZiAodGFza0luZm8gPT0gaXRlbSkgcmV0dXJuQGFueSB0cnVlCgogICAgICAgICAgICAvLyDljLrliIblpITnkIbkuK3mloflhbPplK7or43lkoznuq/oi7HmlofnmoTljLnphY3mqKHlvI/jgIIKICAgICAgICAgICAgdmFsIGl0ZW1IYXNDaGluZXNlID0gaXRlbS5hbnkgeyBpdCBpbiAnXHU0ZTAwJy4uJ1x1OWZhNScgfQoKICAgICAgICAgICAgaWYgKGl0ZW1IYXNDaGluZXNlKSB7CiAgICAgICAgICAgICAgICAvLyDljIXlkKvkuK3mlofnmoTpobnnu7TmjIHlj4zlkJHmqKHns4rljLnphY3pgLvovpEKICAgICAgICAgICAgICAgIHRhc2tJbmZvLmNvbnRhaW5zKGl0ZW0pIHx8IGl0ZW0uY29udGFpbnModGFza0luZm8pCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvKiDnuq/oi7Hmlocv5pWw5a2XL+espuWPt+mhueS9v+eUqOWNleWQkeaooeeziuWMuemFjemAu+i+ke+8m+mYsuatoum7keWQjeWNleS4rSJUQU9CQU8i6L+Z57G75q+U6L6D566A55+t44CB6YCa55So55qE5a2X5q615Yy56YWN5Yiw5Lu75YqhCiAgICAgICAgICAgICAgICAgICAgIlRBT0JBT190YWIyZ3p5IiDvvIzlr7zoh7TkuI3mmK/lnKjpu5HlkI3ljZXkuK3nmoTku7vliqHooqvot7Pov4cKICAgICAgICAgICAgICAgICAqLwogICAgICAgICAgICAgICAgaXRlbS5jb250YWlucyh0YXNrSW5mbykKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmt7vliqDku7vliqHliLDpu5HlkI3ljZUKICAgICAqIEBwYXJhbSB0YXNrSWQg6KaB5re75Yqg55qE5Lu75YqhSUQKICAgICAqIEBwYXJhbSB0YXNrVGl0bGUg5Lu75Yqh5qCH6aKY77yI5Y+v6YCJ77yM55So5LqO5qih57OK5Yy56YWN77yJCiAgICAgKi8KICAgIGZ1biBhZGRUb0JsYWNrbGlzdCh0YXNrSWQ6IFN0cmluZywgdGFza1RpdGxlOiBTdHJpbmcgPSAiIikgewogICAgICAgIGlmICh0YXNrSWQuaXNCbGFuaygpKSByZXR1cm4KICAgICAgICAvLyDlpoLmnpzmj5Dkvpvkuobku7vliqHmoIfpopjvvIzliJnlsIZJROWSjOagh+mimOe7hOWQiOWQjua3u+WKoO+8jOaUr+aMgeaooeeziuWMuemFjQogICAgICAgIHZhbCBibGFja2xpc3RJdGVtID0gaWYgKHRhc2tUaXRsZS5pc05vdEJsYW5rKCkpICIkdGFza0lkJHRhc2tUaXRsZSIgZWxzZSB0YXNrSWQKICAgICAgICB2YWwgY3VycmVudEJsYWNrbGlzdCA9IGdldEJsYWNrbGlzdCgpLnRvTXV0YWJsZVNldCgpCiAgICAgICAgaWYgKGN1cnJlbnRCbGFja2xpc3QuYWRkKGJsYWNrbGlzdEl0ZW0pKSB7CiAgICAgICAgICAgIHNhdmVCbGFja2xpc3QoY3VycmVudEJsYWNrbGlzdCkKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5LuO6buR5ZCN5Y2V5Lit56e76Zmk5Lu75YqhCiAgICAgKiBAcGFyYW0gdGFza0lkIOimgeenu+mZpOeahOS7u+WKoUlECiAgICAgKiBAcGFyYW0gdGFza1RpdGxlIOS7u+WKoeagh+mimO+8iOWPr+mAie+8jOeUqOS6juaooeeziuWMuemFje+8iQogICAgICovCiAgICBmdW4gcmVtb3ZlRnJvbUJsYWNrbGlzdCh0YXNrSWQ6IFN0cmluZywgdGFza1RpdGxlOiBTdHJpbmcgPSAiIikgewogICAgICAgIGlmICh0YXNrSWQuaXNCbGFuaygpKSByZXR1cm4KICAgICAgICAKICAgICAgICAvLyDlpoLmnpzmj5Dkvpvkuobku7vliqHmoIfpopjvvIzliJnlsIZJROWSjOagh+mimOe7hOWQiOWQjuenu+mZpO+8jOaUr+aMgeaooeeziuWMuemFjQogICAgICAgIHZhbCBibGFja2xpc3RJdGVtID0gaWYgKHRhc2tUaXRsZS5pc05vdEJsYW5rKCkpICIkdGFza0lkJHRhc2tUaXRsZSIgZWxzZSB0YXNrSWQKICAgICAgICAKICAgICAgICB2YWwgY3VycmVudEJsYWNrbGlzdCA9IGdldEJsYWNrbGlzdCgpLnRvTXV0YWJsZVNldCgpCiAgICAgICAgaWYgKGN1cnJlbnRCbGFja2xpc3QucmVtb3ZlKGJsYWNrbGlzdEl0ZW0pKSB7CiAgICAgICAgICAgIHNhdmVCbGFja2xpc3QoY3VycmVudEJsYWNrbGlzdCkKICAgICAgICAgICAgdmFsIGRpc3BsYXlJbmZvID0gaWYgKHRhc2tUaXRsZS5pc05vdEJsYW5rKCkpICIkdGFza0lkIC0gJHRhc2tUaXRsZSIgZWxzZSB0YXNrSWQKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLku7vliqFbJGRpc3BsYXlJbmZvXeW3suS7jum7keWQjeWNleenu+mZpCIpCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOa4heepuum7keWQjeWNlQogICAgICovCiAgICBmdW4gY2xlYXJCbGFja2xpc3QoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgc2F2ZUJsYWNrbGlzdChlbXB0eVNldCgpKQogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIum7keWQjeWNleW3sua4heepuiIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi5riF56m66buR5ZCN5Y2V5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5qC55o2u6ZSZ6K+v56CB6Ieq5Yqo5re75Yqg5Lu75Yqh5Yiw6buR5ZCN5Y2VCiAgICAgKiDlvZPku7vliqHmiafooYzlpLHotKXml7bvvIzlpoLmnpzplJnor6/noIHlsZ7kuo7pooTlrprkuYnnmoTml6Dms5XmgaLlpI3nmoTplJnor6/nsbvlnovvvIwKICAgICAqIOezu+e7n+S8muiHquWKqOWwhuivpeS7u+WKoeWKoOWFpem7keWQjeWNle+8jOmBv+WFjemHjeWkjeaJp+ihjOWksei0peeahOS7u+WKoQogICAgICogCiAgICAgKiBAcGFyYW0gdGFza0lkIOS7u+WKoUlE77yM55So5LqO5qCH6K+G5YW35L2T5Lu75YqhCiAgICAgKiBAcGFyYW0gdGFza1RpdGxlIOS7u+WKoeagh+mimO+8iOWPr+mAie+8ie+8jOeUqOS6juaYvuekuuWSjOaooeeziuWMuemFjQogICAgICogQHBhcmFtIGVycm9yQ29kZSDplJnor6/noIHvvIznlKjkuo7liKTmlq3mmK/lkKbpnIDopoHoh6rliqjliqDlhaXpu5HlkI3ljZUKICAgICAqLwogICAgZnVuIGF1dG9BZGRUb0JsYWNrbGlzdCh0YXNrSWQ6IFN0cmluZywgdGFza1RpdGxlOiBTdHJpbmcgPSAiIiwgZXJyb3JDb2RlOiBTdHJpbmcpIHsKICAgICAgICAvLyDlj4LmlbDmoKHpqozvvJrlpoLmnpzku7vliqFJROS4uuepuu+8jOebtOaOpei/lOWbngogICAgICAgIGlmICh0YXNrSWQuaXNCbGFuaygpKSByZXR1cm4KICAgICAgICAvLyDnrKzkuIDmraXvvJrliKTmlq3lvZPliY3plJnor6/noIHmmK/lkKbpnIDopoHoh6rliqjliqDlhaXpu5HlkI3ljZUKICAgICAgICAvLyDlj6rmnInnibnlrprnmoTjgIHml6Dms5XpgJrov4fph43or5Xop6PlhrPnmoTplJnor6/miY3kvJroh6rliqjliqDlhaXpu5HlkI3ljZUKICAgICAgICB2YWwgc2hvdWxkQXV0b0FkZCA9IHdoZW4gKGVycm9yQ29kZSkgewogICAgICAgICAgICAvLyDlhpzlnLrku7vliqHnibnmnInnmoTplJnor6/vvJrlkI7nq6/kuI3mlK/mjIFSUEPosIPnlKgKICAgICAgICAgICAgIjQwMDAwMDA0MCIgLT4gdHJ1ZQogICAgICAgICAgICAiQ0FNUF9UUklHR0VSX0VSUk9SIiwgLy8g5Lul5LiL6ZSZ6K+v56CB6YO95Lya5a+86Ie05Lu75Yqh6Ieq5Yqo5Yqg5YWl6buR5ZCN5Y2V77yaCiAgICAgICAgICAgICIxMDQiLAogICAgICAgICAgICAiT1BfUkVQRUFUX0NIRUNLIiwgICAgICAgICAgICAgICAvLyDmk43kvZzpopHnjofov4fpq5jvvIzooqvns7vnu5/pmZDliLYKICAgICAgICAgICAgIklMTEVHQUxfQVJHVU1FTlQiLCAgICAgICAgICAgICAgLy8g5Y+C5pWw5LiN5ZCI5rOV5oiW5qC85byP6ZSZ6K+vCiAgICAgICAgICAgICJQUk9NSVNFX0hBU19QUk9DRVNTSU5HX1RFTVBMQVRFIiAtPiB0cnVlIC8vIOWtmOWcqOi/m+ihjOS4reeahOeUn+a0u+iusOW9lQogICAgICAgICAgICAiVEFTS19JRF9JTlZBTElEIiAtPiB0cnVlICAgICAgICAvLyDmtbfosZrku7vliqFJROmdnuazlQogICAgICAgICAgICBlbHNlIC0+IGZhbHNlICAgICAgICAgICAgICAgICAgICAvLyDlhbbku5bplJnor6/noIHkuI3oh6rliqjliqDlhaXpu5HlkI3ljZUKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g56ys5LqM5q2l77ya5aaC5p6c56Gu5a6a6ZyA6KaB6Ieq5Yqo5Yqg5YWl6buR5ZCN5Y2VCiAgICAgICAgaWYgKHNob3VsZEF1dG9BZGQpIHsKICAgICAgICAgICAgLy8g6LCD55So5re75Yqg5pa55rOV77yM5bCG5Lu75YqhSUTlkozmoIfpopjnu4TlkIjlkI7liqDlhaXpu5HlkI3ljZXvvIjmlK/mjIHmqKHns4rljLnphY3vvIkKICAgICAgICAgICAgYWRkVG9CbGFja2xpc3QodGFza0lkLCB0YXNrVGl0bGUpCiAgICAgICAgICAgIC8vIOesrOS4ieatpe+8muagueaNrumUmeivr+eggeeUn+aIkOeUqOaIt+WPi+WlveeahOmUmeivr+ivtOaYjgogICAgICAgICAgICB2YWwgcmVhc29uID0gd2hlbiAoZXJyb3JDb2RlKSB7CiAgICAgICAgICAgICAgICAiNDAwMDAwMDQwIiAtPiAi5LiN5pSv5oyBcnBj6LCD55SoIgogICAgICAgICAgICAgICAgIkNBTVBfVFJJR0dFUl9FUlJPUiIgLT4gIua1t+ixmua0u+WKqOinpuWPkemUmeivryIKICAgICAgICAgICAgICAgICJPUF9SRVBFQVRfQ0hFQ0siIC0+ICLmk43kvZzlpKrpopHnuYEiCiAgICAgICAgICAgICAgICAiSUxMRUdBTF9BUkdVTUVOVCIgLT4gIuWPguaVsOmUmeivryIKICAgICAgICAgICAgICAgICIxMDQiLCAiUFJPTUlTRV9IQVNfUFJPQ0VTU0lOR19URU1QTEFURSIgLT4gIuWtmOWcqOi/m+ihjOS4reeahOeUn+a0u+iusOW9lSIKICAgICAgICAgICAgICAgICJUQVNLX0lEX0lOVkFMSUQiIC0+IHRydWUgICAgICAgIC8vIOa1t+ixmuS7u+WKoUlE6Z2e5rOVCiAgICAgICAgICAgICAgICBlbHNlIC0+ICLmnKrnn6XplJnor68iICAvLyDnkIborrrkuIrkuI3kvJrmiafooYzliLDmraTlpIQKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g56ys5Zub5q2l77ya55Sf5oiQ5pel5b+X5L+h5oGv5bm26K6w5b2VCiAgICAgICAgICAgIC8vIOS8mOWFiOaYvuekuuWujOaVtOS/oeaBr++8iElELeagh+mimO+8ie+8jOWmguaenOagh+mimOS4uuepuuWImeWPquaYvuekuklECiAgICAgICAgICAgIHZhbCB0YXNrSW5mbyA9IGlmICh0YXNrVGl0bGUuaXNOb3RCbGFuaygpKSAiJHRhc2tJZCAtICR0YXNrVGl0bGUiIGVsc2UgdGFza0lkCiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5Lu75YqhWyR0YXNrSW5mb13lm6AkcmVhc29uIOiHquWKqOWKoOWFpem7keWQjeWNlSIpCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.util
+
+import com.fasterxml.jackson.core.type.TypeReference
+
+/**
+ * 通用任务黑名单管理器
+ * 使用DataStore持久化存储黑名单数据
+ */
+object TaskBlacklist {
+    private const val TAG = "TaskBlacklist"
+    private const val BLACKLIST_KEY = "task_blacklist"
+
+    /**
+     * 获取黑名单列表
+     * @return 黑名单任务集合
+     */
+    fun getBlacklist(): Set<String> {
+        return try {
+            val storedBlacklist = DataStore.getOrCreate(BLACKLIST_KEY, object : TypeReference<Set<String>>() {})
+            // 合并存储的黑名单和默认黑名单
+            (storedBlacklist + defaultBlacklist).toSet()
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "获取黑名单失败，使用默认黑名单", e)
+            defaultBlacklist
+        }
+    }
+    
+    
+    
+    /**
+     * 保存黑名单列表
+     * @param blacklist 要保存的黑名单集合
+     */
+    private fun saveBlacklist(blacklist: Set<String>) {
+        try {
+            DataStore.put(BLACKLIST_KEY, blacklist)
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "保存黑名单失败", e)
+        }
+    }
+    
+    
+    
+    /**
+     * 检查任务是否在黑名单中（精确匹配逻辑）
+     * @param taskInfo 任务信息（可以是任务ID、任务标题或组合信息）
+     * @return true表示在黑名单中，应该跳过
+     */
+    fun isTaskInBlacklist(taskInfo: String?): Boolean {
+        if (taskInfo.isNullOrBlank()) return false
+        
+        val blacklist = getBlacklist()
+        return blacklist.any { item ->
+            if (item.isBlank()) return@any false
+
+            // 完全匹配（最精确）
+            if (taskInfo == item) return@any true
+
+            // 区分处理中文关键词和纯英文的匹配模式。
+            val itemHasChinese = item.any { it in '\u4e00'..'\u9fa5' }
+
+            if (itemHasChinese) {
+                // 包含中文的项维持双向模糊匹配逻辑
+                taskInfo.contains(item) || item.contains(taskInfo)
+            } else {
+                /* 纯英文/数字/符号项使用单向模糊匹配逻辑；防止黑名单中"TAOBAO"这类比较简短、通用的字段匹配到任务
+                    "TAOBAO_tab2gzy" ，导致不是在黑名单中的任务被跳过
+                 */
+                item.contains(taskInfo)
+            }
+        }
+    }
+    
+    /**
+     * 添加任务到黑名单
+     * @param taskId 要添加的任务ID
+     * @param taskTitle 任务标题（可选，用于模糊匹配）
+     */
+    fun addToBlacklist(taskId: String, taskTitle: String = "") {
+        if (taskId.isBlank()) return
+        // 如果提供了任务标题，则将ID和标题组合后添加，支持模糊匹配
+        val blacklistItem = if (taskTitle.isNotBlank()) "$taskId$taskTitle" else taskId
+        val currentBlacklist = getBlacklist().toMutableSet()
+        if (currentBlacklist.add(blacklistItem)) {
+            saveBlacklist(currentBlacklist)
+        }
+    }
+    
+    /**
+     * 从黑名单中移除任务
+     * @param taskId 要移除的任务ID
+     * @param taskTitle 任务标题（可选，用于模糊匹配）
+     */
+    fun removeFromBlacklist(taskId: String, taskTitle: String = "") {
+        if (taskId.isBlank()) return
+        
+        // 如果提供了任务标题，则将ID和标题组合后移除，支持模糊匹配
+        val blacklistItem = if (taskTitle.isNotBlank()) "$taskId$taskTitle" else taskId
+        
+        val currentBlacklist = getBlacklist().toMutableSet()
+        if (currentBlacklist.remove(blacklistItem)) {
+            saveBlacklist(currentBlacklist)
+            val displayInfo = if (taskTitle.isNotBlank()) "$taskId - $taskTitle" else taskId
+            Log.record(TAG, "任务[$displayInfo]已从黑名单移除")
+        }
+    }
+    
+    /**
+     * 清空黑名单
+     */
+    fun clearBlacklist() {
+        try {
+            saveBlacklist(emptySet())
+            Log.record(TAG, "黑名单已清空")
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "清空黑名单失败", e)
+        }
+    }
+    
+    /**
+     * 根据错误码自动添加任务到黑名单
+     * 当任务执行失败时，如果错误码属于预定义的无法恢复的错误类型，
+     * 系统会自动将该任务加入黑名单，避免重复执行失败的任务
+     * 
+     * @param taskId 任务ID，用于标识具体任务
+     * @param taskTitle 任务标题（可选），用于显示和模糊匹配
+     * @param errorCode 错误码，用于判断是否需要自动加入黑名单
+     */
+    fun autoAddToBlacklist(taskId: String, taskTitle: String = "", errorCode: String) {
+        // 参数校验：如果任务ID为空，直接返回
+        if (taskId.isBlank()) return
+        // 第一步：判断当前错误码是否需要自动加入黑名单
+        // 只有特定的、无法通过重试解决的错误才会自动加入黑名单
+        val shouldAutoAdd = when (errorCode) {
+            // 农场任务特有的错误：后端不支持RPC调用
+            "400000040" -> true
+            "CAMP_TRIGGER_ERROR", // 以下错误码都会导致任务自动加入黑名单：
+            "104",
+            "OP_REPEAT_CHECK",               // 操作频率过高，被系统限制
+            "ILLEGAL_ARGUMENT",              // 参数不合法或格式错误
+            "PROMISE_HAS_PROCESSING_TEMPLATE" -> true // 存在进行中的生活记录
+            "TASK_ID_INVALID" -> true        // 海豚任务ID非法
+            else -> false                    // 其他错误码不自动加入黑名单
+        }
+        
+        // 第二步：如果确定需要自动加入黑名单
+        if (shouldAutoAdd) {
+            // 调用添加方法，将任务ID和标题组合后加入黑名单（支持模糊匹配）
+            addToBlacklist(taskId, taskTitle)
+            // 第三步：根据错误码生成用户友好的错误说明
+            val reason = when (errorCode) {
+                "400000040" -> "不支持rpc调用"
+                "CAMP_TRIGGER_ERROR" -> "海豚活动触发错误"
+                "OP_REPEAT_CHECK" -> "操作太频繁"
+                "ILLEGAL_ARGUMENT" -> "参数错误"
+                "104", "PROMISE_HAS_PROCESSING_TEMPLATE" -> "存在进行中的生活记录"
+                "TASK_ID_INVALID" -> true        // 海豚任务ID非法
+                else -> "未知错误"  // 理论上不会执行到此处
+            }
+            
+            // 第四步：生成日志信息并记录
+            // 优先显示完整信息（ID-标题），如果标题为空则只显示ID
+            val taskInfo = if (taskTitle.isNotBlank()) "$taskId - $taskTitle" else taskId
+            Log.record(TAG, "任务[$taskInfo]因$reason 自动加入黑名单")
+        }
+    }
+}

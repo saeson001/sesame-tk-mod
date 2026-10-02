@@ -1,1 +1,8 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHM7CgpwdWJsaWMgY2xhc3MgTWVtYmVyQmVuZWZpdHNNYXAgZXh0ZW5kcyBJZE1hcE1hbmFnZXIgewogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgU3RyaW5nIHRoaXNGaWxlTmFtZSgpewogICAgICAgIHJldHVybiAiTWVtYmVyQmVuZWZpdHNNYXAuanNvbiI7Ly/kvJrlkZjmnYPnm4rlhZHmjaLmmKDlsITooagKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.util.maps;
+
+public class MemberBenefitsMap extends IdMapManager {
+    @Override
+    public String thisFileName(){
+        return "MemberBenefitsMap.json";//会员权益兑换映射表
+    }
+}

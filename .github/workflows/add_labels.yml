@@ -1,1 +1,85 @@
-bmFtZTogQWRkIExhYmVscwoKb246CiAgaXNzdWVzOgogICAgdHlwZXM6IFtvcGVuZWRdCgpwZXJtaXNzaW9uczoKICBjb250ZW50czogcmVhZAogIGlzc3Vlczogd3JpdGUKCmpvYnM6CiAgYWRkLWxhYmVsczoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrIGlzc3VlIGF0dGFjaG1lbnRzIGFuZCByZXBseQogICAgICAgIHVzZXM6IGFjdGlvbnMvZ2l0aHViLXNjcmlwdEB2NwogICAgICAgIHdpdGg6CiAgICAgICAgICBzY3JpcHQ6IHwKICAgICAgICAgICAgY29uc3QgaXNzdWUgPSBjb250ZXh0LnBheWxvYWQuaXNzdWU7CiAgICAgICAgICAgIGNvbnN0IG93bmVyID0gY29udGV4dC5yZXBvLm93bmVyOwogICAgICAgICAgICBjb25zdCByZXBvID0gY29udGV4dC5yZXBvLnJlcG87CiAgICAgICAgICAgIGNvbnN0IGxhYmVsTmFtZSA9ICduZWVkIGluZm8nOwoKICAgICAgICAgICAgY29uc3QgbGFiZWxzID0gKGlzc3VlLmxhYmVscyB8fCBbXSkubWFwKChsYWJlbCkgPT4gbGFiZWwubmFtZS50b0xvd2VyQ2FzZSgpKTsKICAgICAgICAgICAgY29uc3QgdGl0bGUgPSBpc3N1ZS50aXRsZSB8fCAnJzsKICAgICAgICAgICAgY29uc3QgYm9keSA9IGlzc3VlLmJvZHkgfHwgJyc7CiAgICAgICAgICAgIGNvbnN0IGF1dGhvciA9IGlzc3VlLnVzZXI/LmxvZ2luIHx8ICd0aGVyZSc7CgogICAgICAgICAgICBjb25zdCBpc0J1ZyA9IGxhYmVscy5pbmNsdWRlcygnYnVnJykgfHwgL15ccypcW2J1Z1xdXHMqOi9pLnRlc3QodGl0bGUpOwogICAgICAgICAgICBjb25zdCBhdHRhY2htZW50UGF0dGVybnMgPSBbCiAgICAgICAgICAgICAgL2h0dHBzOlwvXC9naXRodWJcLmNvbVwvdXNlci1hdHRhY2htZW50c1wvKD86YXNzZXRzfGZpbGVzKVwvW15ccylcXV0rL2ksCiAgICAgICAgICAgICAgL2h0dHBzOlwvXC91c2VyLWltYWdlc1wuZ2l0aHVidXNlcmNvbnRlbnRcLmNvbVwvW15ccylcXV0rL2ksCiAgICAgICAgICAgICAgL2h0dHBzOlwvXC9naXRodWJcLmNvbVwvW14vXHMpXStcL1teL1xzKV0rXC9maWxlc1wvXGQrXC9bXlxzKVxdXSsvaSwKICAgICAgICAgICAgICAvXFtbXlxdXStcXVwoW14pXStcLig/OnR4dHxsb2d8emlwfGd6fGpzb258cG5nfGpwZT9nfHdlYnB8bXA0KSg/Olw/W14pXSopP1wpL2kKICAgICAgICAgICAgXTsKICAgICAgICAgICAgY29uc3QgaGFzQXR0YWNobWVudCA9IGF0dGFjaG1lbnRQYXR0ZXJucy5zb21lKChwYXR0ZXJuKSA9PiBwYXR0ZXJuLnRlc3QoYm9keSkpOwoKICAgICAgICAgICAgYXN5bmMgZnVuY3Rpb24gZW5zdXJlTmVlZEluZm9MYWJlbCgpIHsKICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgYXdhaXQgZ2l0aHViLnJlc3QuaXNzdWVzLmdldExhYmVsKHsgb3duZXIsIHJlcG8sIG5hbWU6IGxhYmVsTmFtZSB9KTsKICAgICAgICAgICAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgICAgICAgICAgaWYgKGVycm9yLnN0YXR1cyAhPT0gNDA0KSB7CiAgICAgICAgICAgICAgICAgIHRocm93IGVycm9yOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYXdhaXQgZ2l0aHViLnJlc3QuaXNzdWVzLmNyZWF0ZUxhYmVsKHsKICAgICAgICAgICAgICAgICAgb3duZXIsCiAgICAgICAgICAgICAgICAgIHJlcG8sCiAgICAgICAgICAgICAgICAgIG5hbWU6IGxhYmVsTmFtZSwKICAgICAgICAgICAgICAgICAgY29sb3I6ICdkNzNhNGEnLAogICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogJ05lZWRzIG1vcmUgaW5mb3JtYXRpb24gZnJvbSB0aGUgaXNzdWUgYXV0aG9yJwogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBhc3luYyBmdW5jdGlvbiBhZGROZWVkSW5mb0xhYmVsKCkgewogICAgICAgICAgICAgIGNvbnN0IGN1cnJlbnRMYWJlbHMgPSBuZXcgU2V0KChpc3N1ZS5sYWJlbHMgfHwgW10pLm1hcCgobGFiZWwpID0+IGxhYmVsLm5hbWUpKTsKICAgICAgICAgICAgICBpZiAoY3VycmVudExhYmVscy5oYXMobGFiZWxOYW1lKSkgewogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBhd2FpdCBnaXRodWIucmVzdC5pc3N1ZXMuYWRkTGFiZWxzKHsKICAgICAgICAgICAgICAgIG93bmVyLAogICAgICAgICAgICAgICAgcmVwbywKICAgICAgICAgICAgICAgIGlzc3VlX251bWJlcjogaXNzdWUubnVtYmVyLAogICAgICAgICAgICAgICAgbGFiZWxzOiBbbGFiZWxOYW1lXQogICAgICAgICAgICAgIH0pOwogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoaXNCdWcgJiYgIWhhc0F0dGFjaG1lbnQpIHsKICAgICAgICAgICAgICBhd2FpdCBlbnN1cmVOZWVkSW5mb0xhYmVsKCk7CiAgICAgICAgICAgICAgYXdhaXQgYWRkTmVlZEluZm9MYWJlbCgpOwogICAgICAgICAgICAgIGF3YWl0IGdpdGh1Yi5yZXN0Lmlzc3Vlcy5jcmVhdGVDb21tZW50KHsKICAgICAgICAgICAgICAgIG93bmVyLAogICAgICAgICAgICAgICAgcmVwbywKICAgICAgICAgICAgICAgIGlzc3VlX251bWJlcjogaXNzdWUubnVtYmVyLAogICAgICAgICAgICAgICAgYm9keTogYOaCqOWlvSBAJHthdXRob3J977yM5oSf6LCi5Y+N6aaI44CC6L+Z5LiqIEJ1ZyBJc3N1ZSDnm67liY3nvLrlsJHlv4XopoHnmoTml6Xlv5fmiJbpmYTku7bjgIJcblxu6K+35bCG6ISx5pWP5ZCO55qE6ZSZ6K+v5pel5b+X44CB5YWo6YOo5pel5b+X5ZKM5a+55bqU5qih5Z2X5pel5b+X5Lul6ZmE5Lu25b2i5byP5LiK5Lyg5YiwIElzc3VlIOato+aWh+aIluivhOiuuuS4re+8jOS4jeimgeebtOaOpeeymOi0tOaXpeW/l+ato+aWh++8m+WmguaenCAzIOWkqeWGheayoeacieihpeWFheS/oeaBr++8jElzc3VlIOWwhuiiq+iHquWKqOWFs+mXreOAgmAKICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGF3YWl0IGdpdGh1Yi5yZXN0Lmlzc3Vlcy5jcmVhdGVDb21tZW50KHsKICAgICAgICAgICAgICBvd25lciwKICAgICAgICAgICAgICByZXBvLAogICAgICAgICAgICAgIGlzc3VlX251bWJlcjogaXNzdWUubnVtYmVyLAogICAgICAgICAgICAgIGJvZHk6IGDmgqjlpb0gQCR7YXV0aG9yfe+8jOW3suaUtuWIsCBJc3N1Ze+8jOaEn+iwouWPjemmiOOAguWmguaenOaguOWunuWQjuehruWunuWtmOWcqOmXrumimOaIkeS7rOS8muWwveW/q+S/ruWkje+8jOivt+iAkOW/g+etieW+heOAgmAKICAgICAgICAgICAgfSk7Cg==
+name: Add Labels
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  add-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check issue attachments and reply
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const labelName = 'need info';
+
+            const labels = (issue.labels || []).map((label) => label.name.toLowerCase());
+            const title = issue.title || '';
+            const body = issue.body || '';
+            const author = issue.user?.login || 'there';
+
+            const isBug = labels.includes('bug') || /^\s*\[bug\]\s*:/i.test(title);
+            const attachmentPatterns = [
+              /https:\/\/github\.com\/user-attachments\/(?:assets|files)\/[^\s)\]]+/i,
+              /https:\/\/user-images\.githubusercontent\.com\/[^\s)\]]+/i,
+              /https:\/\/github\.com\/[^/\s)]+\/[^/\s)]+\/files\/\d+\/[^\s)\]]+/i,
+              /\[[^\]]+\]\([^)]+\.(?:txt|log|zip|gz|json|png|jpe?g|webp|mp4)(?:\?[^)]*)?\)/i
+            ];
+            const hasAttachment = attachmentPatterns.some((pattern) => pattern.test(body));
+
+            async function ensureNeedInfoLabel() {
+              try {
+                await github.rest.issues.getLabel({ owner, repo, name: labelName });
+              } catch (error) {
+                if (error.status !== 404) {
+                  throw error;
+                }
+                await github.rest.issues.createLabel({
+                  owner,
+                  repo,
+                  name: labelName,
+                  color: 'd73a4a',
+                  description: 'Needs more information from the issue author'
+                });
+              }
+            }
+
+            async function addNeedInfoLabel() {
+              const currentLabels = new Set((issue.labels || []).map((label) => label.name));
+              if (currentLabels.has(labelName)) {
+                return;
+              }
+              await github.rest.issues.addLabels({
+                owner,
+                repo,
+                issue_number: issue.number,
+                labels: [labelName]
+              });
+            }
+
+            if (isBug && !hasAttachment) {
+              await ensureNeedInfoLabel();
+              await addNeedInfoLabel();
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issue.number,
+                body: `您好 @${author}，感谢反馈。这个 Bug Issue 目前缺少必要的日志或附件。\n\n请将脱敏后的错误日志、全部日志和对应模块日志以附件形式上传到 Issue 正文或评论中，不要直接粘贴日志正文；如果 3 天内没有补充信息，Issue 将被自动关闭。`
+              });
+              return;
+            }
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: issue.number,
+              body: `您好 @${author}，已收到 Issue，感谢反馈。如果核实后确实存在问题我们会尽快修复，请耐心等待。`
+            });

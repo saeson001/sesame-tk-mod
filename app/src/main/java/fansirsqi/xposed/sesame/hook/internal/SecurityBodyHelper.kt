@@ -1,1 +1,91 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmludGVybmFsCgppbXBvcnQgZGUucm9idi5hbmRyb2lkLnhwb3NlZC5YcG9zZWRIZWxwZXJzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLkFwcGxpY2F0aW9uSG9vawppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKCi8qKgogKiDlronlhajnu4Tku7bmlbDmja7ojrflj5bliqnmiYvnsbsKICog55So5LqO6LCD55So55uu5qCH5bqU55So55qEIElTZWN1cml0eUJvZHlDb21wb25lbnQuZ2V0U2VjdXJpdHlCb2R5RGF0YUV4IOaWueazlQogKi8Kb2JqZWN0IFNlY3VyaXR5Qm9keUhlbHBlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlNlY3VyaXR5Qm9keUhlbHBlciIKICAgIHByaXZhdGUgdmFyIGNsYXNzTG9hZGVyOiBDbGFzc0xvYWRlcj8gPSBudWxsCgogICAgLyoqCiAgICAgKiDliJ3lp4vljJYgU2VjdXJpdHlCb2R5SGVscGVyCiAgICAgKiBAcGFyYW0gbG9hZGVyIOW6lOeUqOexu+WKoOi9veWZqAogICAgICovCiAgICBmdW4gaW5pdChsb2FkZXI6IENsYXNzTG9hZGVyKSB7CiAgICAgICAgY2xhc3NMb2FkZXIgPSBsb2FkZXIKICAgICAgICBMb2cucmVjb3JkKFRBRywgIlNlY3VyaXR5Qm9keUhlbHBlciDliJ3lp4vljJblrozmiJAiKQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W55uu5qCH5bqU55So5a6J5YWo57uE5Lu25pWw5o2uCiAgICAgKiDpgJrov4fosIPnlKggSVNlY3VyaXR5Qm9keUNvbXBvbmVudC5nZXRTZWN1cml0eUJvZHlEYXRhRXgg5pa55rOV6I635Y+W5a6J5YWo55u45YWz5pWw5o2uCiAgICAgKiDosIPnlKjmlrnlvI/kuI4gU2VjdXJpdHlCb2R5V3VhQnJpZGdlRXh0ZW5zaW9uIOS4reWujOWFqOS4gOiHtAogICAgICoKICAgICAqIEBwYXJhbSB0eXBlIOexu+Wei+WPguaVsO+8jOiHquWumuS5ieWAvO+8iOWmgjTmiJY477yJCiAgICAgKiBAcmV0dXJuIOWuieWFqOe7hOS7tuaVsOaNruWtl+espuS4su+8jOWksei0pei/lOWbnm51bGwKICAgICAqLwogICAgZnVuIGdldFNlY3VyaXR5Qm9keURhdGEodHlwZTogSW50KTogU3RyaW5nPyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5qOA5p+l5piv5ZCm5bey5Yid5aeL5YyWCiAgICAgICAgICAgIGlmIChjbGFzc0xvYWRlciA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiU2VjdXJpdHlCb2R5SGVscGVyIOacquWIneWni+WMlu+8jOivt+WFiOiwg+eUqCBpbml0IOaWueazlSIpCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDkvb/nlKggYXBwQ29udGV4dCDkvZzkuLrkuIrkuIvmlocKICAgICAgICAgICAgdmFsIGFwcENvbnRleHQgPSBBcHBsaWNhdGlvbkhvb2suYXBwQ29udGV4dAogICAgICAgICAgICBpZiAoYXBwQ29udGV4dCA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiYXBwQ29udGV4dCDkuLogbnVsbO+8jOWPr+iDveW6lOeUqOi/mOacquWujOWFqOWQr+WKqO+8jOivt+eojeWQjuWGjeivlSIpCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOiOt+WPliBTZWN1cml0eUd1YXJkTWFuYWdlciDlrp7kvosKICAgICAgICAgICAgdmFsIHNlY3VyaXR5R3VhcmRNYW5hZ2VyID0gWHBvc2VkSGVscGVycy5jYWxsU3RhdGljTWV0aG9kKAogICAgICAgICAgICAgICAgWHBvc2VkSGVscGVycy5maW5kQ2xhc3MoImNvbS5hbGliYWJhLndpcmVsZXNzLnNlY3VyaXR5Lm9wZW4uU2VjdXJpdHlHdWFyZE1hbmFnZXIiLCBjbGFzc0xvYWRlciksCiAgICAgICAgICAgICAgICAiZ2V0SW5zdGFuY2UiLAogICAgICAgICAgICAgICAgYXBwQ29udGV4dAogICAgICAgICAgICApID86IHJ1biB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5peg5rOV6I635Y+WIFNlY3VyaXR5R3VhcmRNYW5hZ2VyIOWunuS+iyIpCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDojrflj5YgSVNlY3VyaXR5Qm9keUNvbXBvbmVudCDlrp7kvosKICAgICAgICAgICAgdmFsIHNlY3VyaXR5Qm9keUNvbXBvbmVudCA9IFhwb3NlZEhlbHBlcnMuY2FsbE1ldGhvZCgKICAgICAgICAgICAgICAgIHNlY3VyaXR5R3VhcmRNYW5hZ2VyLAogICAgICAgICAgICAgICAgImdldFNlY3VyaXR5Qm9keUNvbXAiCiAgICAgICAgICAgICkgPzogcnVuIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLml6Dms5Xojrflj5YgSVNlY3VyaXR5Qm9keUNvbXBvbmVudCDlrp7kvosiKQogICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g6LCD55SoIGdldFNlY3VyaXR5Qm9keURhdGFFeCDmlrnms5XvvIzlj4LmlbDkuI4gU2VjdXJpdHlCb2R5V3VhQnJpZGdlRXh0ZW5zaW9uIOS4reWujOWFqOS4gOiHtAogICAgICAgICAgICAvLyBnZXRTZWN1cml0eUJvZHlEYXRhRXgoKFN0cmluZykgbnVsbCwgKFN0cmluZykgbnVsbCwgIiIsIChIYXNoTWFwKSBudWxsLCB0eXBlLCAwKQogICAgICAgICAgICB2YWwgcmVzdWx0ID0gWHBvc2VkSGVscGVycy5jYWxsTWV0aG9kKAogICAgICAgICAgICAgICAgc2VjdXJpdHlCb2R5Q29tcG9uZW50LAogICAgICAgICAgICAgICAgImdldFNlY3VyaXR5Qm9keURhdGFFeCIsCiAgICAgICAgICAgICAgICBudWxsIGFzIFN0cmluZz8sCiAgICAgICAgICAgICAgICBudWxsIGFzIFN0cmluZz8sCiAgICAgICAgICAgICAgICAiIiwKICAgICAgICAgICAgICAgIG51bGwgYXMgSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4/LAogICAgICAgICAgICAgICAgdHlwZSwKICAgICAgICAgICAgICAgIDAKICAgICAgICAgICAgKSBhcz8gU3RyaW5nCgogICAgICAgICAgICByZXR1cm4gaWYgKCFyZXN1bHQuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICByZXN1bHQKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLojrflj5bnmoTlronlhajnu4Tku7bmlbDmja7kuLrnqboiKQogICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi6I635Y+W5a6J5YWo57uE5Lu25pWw5o2u5aSx6LSlOiAke2UubWVzc2FnZX0iLGUpCiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgfQoKfQ==
+package fansirsqi.xposed.sesame.hook.internal
+
+import de.robv.android.xposed.XposedHelpers
+import fansirsqi.xposed.sesame.hook.ApplicationHook
+import fansirsqi.xposed.sesame.util.Log
+
+/**
+ * 安全组件数据获取助手类
+ * 用于调用目标应用的 ISecurityBodyComponent.getSecurityBodyDataEx 方法
+ */
+object SecurityBodyHelper {
+
+    private const val TAG = "SecurityBodyHelper"
+    private var classLoader: ClassLoader? = null
+
+    /**
+     * 初始化 SecurityBodyHelper
+     * @param loader 应用类加载器
+     */
+    fun init(loader: ClassLoader) {
+        classLoader = loader
+        Log.record(TAG, "SecurityBodyHelper 初始化完成")
+    }
+
+    /**
+     * 获取目标应用安全组件数据
+     * 通过调用 ISecurityBodyComponent.getSecurityBodyDataEx 方法获取安全相关数据
+     * 调用方式与 SecurityBodyWuaBridgeExtension 中完全一致
+     *
+     * @param type 类型参数，自定义值（如4或8）
+     * @return 安全组件数据字符串，失败返回null
+     */
+    fun getSecurityBodyData(type: Int): String? {
+        try {
+            // 检查是否已初始化
+            if (classLoader == null) {
+                Log.error(TAG, "SecurityBodyHelper 未初始化，请先调用 init 方法")
+                return null
+            }
+
+            // 使用 appContext 作为上下文
+            val appContext = ApplicationHook.appContext
+            if (appContext == null) {
+                Log.error(TAG, "appContext 为 null，可能应用还未完全启动，请稍后再试")
+                return null
+            }
+            // 获取 SecurityGuardManager 实例
+            val securityGuardManager = XposedHelpers.callStaticMethod(
+                XposedHelpers.findClass("com.alibaba.wireless.security.open.SecurityGuardManager", classLoader),
+                "getInstance",
+                appContext
+            ) ?: run {
+                Log.error(TAG, "无法获取 SecurityGuardManager 实例")
+                return null
+            }
+
+            // 获取 ISecurityBodyComponent 实例
+            val securityBodyComponent = XposedHelpers.callMethod(
+                securityGuardManager,
+                "getSecurityBodyComp"
+            ) ?: run {
+                Log.error(TAG, "无法获取 ISecurityBodyComponent 实例")
+                return null
+            }
+
+            // 调用 getSecurityBodyDataEx 方法，参数与 SecurityBodyWuaBridgeExtension 中完全一致
+            // getSecurityBodyDataEx((String) null, (String) null, "", (HashMap) null, type, 0)
+            val result = XposedHelpers.callMethod(
+                securityBodyComponent,
+                "getSecurityBodyDataEx",
+                null as String?,
+                null as String?,
+                "",
+                null as HashMap<String, String>?,
+                type,
+                0
+            ) as? String
+
+            return if (!result.isNullOrEmpty()) {
+                result
+            } else {
+                Log.error(TAG, "获取的安全组件数据为空")
+                null
+            }
+        } catch (e: Throwable) {
+            Log.printStackTrace(TAG, "获取安全组件数据失败: ${e.message}",e)
+            return null
+        }
+    }
+
+}

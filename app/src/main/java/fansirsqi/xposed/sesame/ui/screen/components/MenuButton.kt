@@ -1,1 +1,48 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uRGVmYXVsdHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkZpbGxlZFRvbmFsQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudmVjdG9yLkltYWdlVmVjdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKCgpAQ29tcG9zYWJsZQpmdW4gTWVudUJ1dHRvbigKICAgIHRleHQ6IFN0cmluZywKICAgIGljb246IEltYWdlVmVjdG9yLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICBvbkNsaWNrOiAoKSAtPiBVbml0CikgewogICAgRmlsbGVkVG9uYWxCdXR0b24oCiAgICAgICAgb25DbGljayA9IG9uQ2xpY2ssCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllci5oZWlnaHQoNzIuZHApLAogICAgICAgIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDE2LmRwKSwKICAgICAgICBjb2xvcnMgPSBCdXR0b25EZWZhdWx0cy5maWxsZWRUb25hbEJ1dHRvbkNvbG9ycygKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICBjb250ZW50Q29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICApLAogICAgICAgIGVsZXZhdGlvbiA9IEJ1dHRvbkRlZmF1bHRzLmZpbGxlZFRvbmFsQnV0dG9uRWxldmF0aW9uKGRlZmF1bHRFbGV2YXRpb24gPSAyLmRwKQogICAgKSB7CiAgICAgICAgQ29sdW1uKAogICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseSwKICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LkNlbnRlcgogICAgICAgICkgewogICAgICAgICAgICBJY29uKGltYWdlVmVjdG9yID0gaWNvbiwgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDI4LmRwKSkKICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDIuZHApKQogICAgICAgICAgICBUZXh0KHRleHQgPSB0ZXh0LCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbE1lZGl1bSwgbWF4TGluZXMgPSAxKQogICAgICAgIH0KICAgIH0KfQoK
+package fansirsqi.xposed.sesame.ui.screen.components
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.FilledTonalButton
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.unit.dp
+
+
+@Composable
+fun MenuButton(
+    text: String,
+    icon: ImageVector,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
+    FilledTonalButton(
+        onClick = onClick,
+        modifier = modifier.height(72.dp),
+        shape = RoundedCornerShape(16.dp),
+        colors = ButtonDefaults.filledTonalButtonColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant,
+            contentColor = MaterialTheme.colorScheme.primary
+        ),
+        elevation = ButtonDefaults.filledTonalButtonElevation(defaultElevation = 2.dp)
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+            Icon(imageVector = icon, contentDescription = null, modifier = Modifier.size(28.dp))
+            Spacer(modifier = Modifier.height(2.dp))
+            Text(text = text, style = MaterialTheme.typography.labelMedium, maxLines = 1)
+        }
+    }
+}
+

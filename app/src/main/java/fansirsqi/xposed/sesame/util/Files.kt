@@ -1,1 +1,475 @@
-QGZpbGU6SnZtTmFtZSgiRmlsZXMiKSAvLyDorqkgSmF2YSDosIPnlKjml7bnsbvlkI3kvp3nhLbmmK8gRmlsZXMKCnBhY2thZ2UgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbAoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQub3MuRW52aXJvbm1lbnQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuR2VuZXJhbAppbXBvcnQgamF2YS5pby5DbG9zZWFibGUKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlV3JpdGVyCmltcG9ydCBqYXZhLmlvLklPRXhjZXB0aW9uCmltcG9ydCBqYXZhLmlvLklucHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLk91dHB1dFN0cmVhbQppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC5EYXRlCgpvYmplY3QgRmlsZXMgewogICAgcHJpdmF0ZSB2YWwgVEFHID0gRmlsZXM6OmNsYXNzLmphdmEuc2ltcGxlTmFtZQoKICAgIGNvbnN0IHZhbCBDT05GSUdfRElSX05BTUUgPSAic2VzYW1lLVRLIgoKICAgIEBKdm1GaWVsZAogICAgdmFsIE1BSU5fRElSOiBGaWxlID0gZ2V0TWFpbkRpcigpCgogICAgQEp2bUZpZWxkCiAgICB2YWwgQ09ORklHX0RJUjogRmlsZSA9IGdldENvbmZpZ0RpcigpCgogICAgQEp2bUZpZWxkCiAgICB2YWwgTE9HX0RJUjogRmlsZSA9IGdldExvZ0RpcigpCgogICAgLyoqCiAgICAgKiDnoa7kv53mjIflrprnmoTnm67lvZXlrZjlnKjkuJTkuI3mmK/kuIDkuKrmlofku7bjgIIKICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIGVuc3VyZURpcihkaXJlY3Rvcnk6IEZpbGU/KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKGRpcmVjdG9yeSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBhbmRyb2lkLnV0aWwuTG9nLmUoVEFHLCAiRGlyZWN0b3J5IGNhbm5vdCBiZSBudWxsIikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICghZGlyZWN0b3J5LmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICBpZiAoIWRpcmVjdG9yeS5ta2RpcnMoKSkgewogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQudXRpbC5Mb2cuZShUQUcsICJGYWlsZWQgdG8gY3JlYXRlIGRpcmVjdG9yeTogJHtkaXJlY3RvcnkuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSBpZiAoZGlyZWN0b3J5LmlzRmlsZSkgewogICAgICAgICAgICAgICAgaWYgKCFkaXJlY3RvcnkuZGVsZXRlKCkgfHwgIWRpcmVjdG9yeS5ta2RpcnMoKSkgewogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQudXRpbC5Mb2cuZShUQUcsICJGYWlsZWQgdG8gcmVwbGFjZSBmaWxlIHdpdGggZGlyZWN0b3J5OiAke2RpcmVjdG9yeS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBhbmRyb2lkLnV0aWwuTG9nLmUoVEFHLCAiZW5zdXJlRGlyIGVycm9yIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2V0TWFpbkRpcigpOiBGaWxlIHsKICAgICAgICB2YWwgc3RvcmFnZURpclN0ciA9IEVudmlyb25tZW50LmdldEV4dGVybmFsU3RvcmFnZURpcmVjdG9yeSgpLnRvU3RyaW5nKCkgKwogICAgICAgICAgICAgICAgRmlsZS5zZXBhcmF0b3IgKyAiQW5kcm9pZCIgKyBGaWxlLnNlcGFyYXRvciArICJtZWRpYSIgKyBGaWxlLnNlcGFyYXRvciArIEdlbmVyYWwuUEFDS0FHRV9OQU1FCiAgICAgICAgdmFsIHN0b3JhZ2VEaXIgPSBGaWxlKHN0b3JhZ2VEaXJTdHIpCiAgICAgICAgdmFsIG1haW5EaXIgPSBGaWxlKHN0b3JhZ2VEaXIsIENPTkZJR19ESVJfTkFNRSkKICAgICAgICBlbnN1cmVEaXIobWFpbkRpcikKICAgICAgICByZXR1cm4gbWFpbkRpcgogICAgfQoKICAgIHByaXZhdGUgZnVuIGdldExvZ0RpcigpOiBGaWxlIHsKICAgICAgICB2YWwgbG9nRGlyID0gRmlsZShNQUlOX0RJUiwgImxvZyIpCiAgICAgICAgZW5zdXJlRGlyKGxvZ0RpcikKICAgICAgICByZXR1cm4gbG9nRGlyCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2V0Q29uZmlnRGlyKCk6IEZpbGUgewogICAgICAgIHZhbCBjb25maWdEaXIgPSBGaWxlKE1BSU5fRElSLCAiY29uZmlnIikKICAgICAgICBlbnN1cmVEaXIoY29uZmlnRGlyKQogICAgICAgIHJldHVybiBjb25maWdEaXIKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0VXNlckNvbmZpZ0Rpcih1c2VySWQ6IFN0cmluZyk6IEZpbGUgewogICAgICAgIHZhbCBjb25maWdEaXIgPSBGaWxlKENPTkZJR19ESVIsIHVzZXJJZCkKICAgICAgICBlbnN1cmVEaXIoY29uZmlnRGlyKQogICAgICAgIHJldHVybiBjb25maWdEaXIKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0RGVmYXVsdENvbmZpZ1YyRmlsZSgpOiBGaWxlIHsKICAgICAgICByZXR1cm4gRmlsZShDT05GSUdfRElSLCAiY29uZmlnX3YyLmpzb24iKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBzZXREZWZhdWx0Q29uZmlnVjJGaWxlKGpzb246IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB3cml0ZTJGaWxlKGpzb24sIEZpbGUoQ09ORklHX0RJUiwgImNvbmZpZ192Mi5qc29uIikpCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgQFN5bmNocm9uaXplZAogICAgZnVuIGdldENvbmZpZ1YyRmlsZSh1c2VySWQ6IFN0cmluZyk6IEZpbGUgewogICAgICAgIHZhciBjb25mVjJGaWxlID0gRmlsZShDT05GSUdfRElSLnRvU3RyaW5nKCkgKyBGaWxlLnNlcGFyYXRvciArIHVzZXJJZCwgImNvbmZpZ192Mi5qc29uIikKICAgICAgICAvLyDlpoLmnpzmlrDphY3nva7mlofku7bkuI3lrZjlnKjvvIzliJnlsJ3or5Xku47ml6fphY3nva7mlofku7bov4Hnp7sKICAgICAgICBpZiAoIWNvbmZWMkZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgdmFsIG9sZEZpbGUgPSBGaWxlKENPTkZJR19ESVIsICJjb25maWdfdjItJHVzZXJJZC5qc29uIikKICAgICAgICAgICAgaWYgKG9sZEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIHZhbCBjb250ZW50ID0gcmVhZEZyb21GaWxlKG9sZEZpbGUpCiAgICAgICAgICAgICAgICBpZiAod3JpdGUyRmlsZShjb250ZW50LCBjb25mVjJGaWxlKSkgewogICAgICAgICAgICAgICAgICAgIGlmICghb2xkRmlsZS5kZWxldGUoKSkgewogICAgICAgICAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiRmFpbGVkIHRvIGRlbGV0ZSBvbGQgY29uZmlnIGZpbGU6ICR7b2xkRmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGNvbmZWMkZpbGUgPSBvbGRGaWxlCiAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIkZhaWxlZCB0byBtaWdyYXRlIGNvbmZpZyBmaWxlIGZvciB1c2VyOiAkdXNlcklkIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gY29uZlYyRmlsZQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBzZXRDb25maWdWMkZpbGUodXNlcklkOiBTdHJpbmcsIGpzb246IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB3cml0ZTJGaWxlKGpzb24sIEZpbGUoQ09ORklHX0RJUi50b1N0cmluZygpICsgRmlsZS5zZXBhcmF0b3IgKyB1c2VySWQsICJjb25maWdfdjIuanNvbiIpKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRDdXN0b21TZXRGaWxlKHVzZXJJZDogU3RyaW5nKTogRmlsZT8gewogICAgICAgIHJldHVybiBnZXRUYXJnZXRGaWxlb2ZVc2VyKHVzZXJJZCwgImN1c3RvbXNldC5qc29uIikKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gZ2V0VGFyZ2V0RmlsZW9mVXNlcih1c2VySWQ6IFN0cmluZz8sIGZ1bGxUYXJnZXRGaWxlTmFtZTogU3RyaW5nKTogRmlsZT8gewogICAgICAgIGlmICh1c2VySWQuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJJbnZhbGlkIHVzZXJJZCBmb3IgdGFyZ2V0IGZpbGU6ICRmdWxsVGFyZ2V0RmlsZU5hbWUiKQogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICB2YWwgdXNlckRpciA9IEZpbGUoQ09ORklHX0RJUiwgdXNlcklkKQogICAgICAgIGVuc3VyZURpcih1c2VyRGlyKQogICAgICAgIHZhbCB0YXJnZXRGaWxlID0gRmlsZSh1c2VyRGlyLCBmdWxsVGFyZ2V0RmlsZU5hbWUpCiAgICAgICAgaWYgKCF0YXJnZXRGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB0YXJnZXRGaWxlLmNyZWF0ZU5ld0ZpbGUoKQogICAgICAgICAgICB9IGNhdGNoIChlOiBJT0V4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJGYWlsZWQgdG8gY3JlYXRlIGZpbGU6ICR7dGFyZ2V0RmlsZS5uYW1lfSIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB2YWwgY2FuV3JpdGUgPSB0YXJnZXRGaWxlLmNhbldyaXRlKCkKLy8gICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIiRmdWxsVGFyZ2V0RmlsZU5hbWUgcGVybWlzc2lvbnM6IHI9JGNhblJlYWQ7IHc9JGNhbldyaXRlIikKICAgICAgICAgICAgaWYgKCFjYW5Xcml0ZSkgewogICAgICAgICAgICAgICAgaWYgKHRhcmdldEZpbGUuc2V0V3JpdGFibGUodHJ1ZSkpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIiR7dGFyZ2V0RmlsZS5uYW1lfSB3cml0ZSBwZXJtaXNzaW9uIHNldCBzdWNjZXNzZnVsbHkiKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIiR7dGFyZ2V0RmlsZS5uYW1lfSB3cml0ZSBwZXJtaXNzaW9uIHNldCBmYWlsZWQiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiB0YXJnZXRGaWxlCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgQFN5bmNocm9uaXplZAogICAgZnVuIGdldFRhcmdldEZpbGVvZkRpcihkaXI6IEZpbGUsIGZ1bGxUYXJnZXRGaWxlTmFtZTogU3RyaW5nKTogRmlsZSB7CiAgICAgICAgZW5zdXJlRGlyKGRpcikKICAgICAgICB2YWwgdGFyZ2V0RmlsZSA9IEZpbGUoZGlyLCBmdWxsVGFyZ2V0RmlsZU5hbWUpCgogICAgICAgIGlmICghdGFyZ2V0RmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdGFyZ2V0RmlsZS5jcmVhdGVOZXdGaWxlKCkKICAgICAgICAgICAgfSBjYXRjaCAoZTogSU9FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAiRmFpbGVkIHRvIGNyZWF0ZSBmaWxlOiAke3RhcmdldEZpbGUuYWJzb2x1dGVQYXRofSIsZSkKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHZhbCBjYW5Xcml0ZSA9IHRhcmdldEZpbGUuY2FuV3JpdGUoKQovLyAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiRmlsZSBwZXJtaXNzaW9ucyBmb3IgJHt0YXJnZXRGaWxlLmFic29sdXRlUGF0aH06IHI9JGNhblJlYWQ7IHc9JGNhbldyaXRlIikKICAgICAgICAgICAgaWYgKCFjYW5Xcml0ZSkgewogICAgICAgICAgICAgICAgaWYgKHRhcmdldEZpbGUuc2V0V3JpdGFibGUodHJ1ZSkpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIldyaXRlIHBlcm1pc3Npb24gc2V0IHN1Y2Nlc3NmdWxseSBmb3IgZmlsZTogJHt0YXJnZXRGaWxlLmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIldyaXRlIHBlcm1pc3Npb24gc2V0IGZhaWxlZCBmb3IgZmlsZTogJHt0YXJnZXRGaWxlLmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiB0YXJnZXRGaWxlCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGdldFNlbGZJZEZpbGUodXNlcklkOiBTdHJpbmc/KTogRmlsZT8gewogICAgICAgIHJldHVybiBnZXRUYXJnZXRGaWxlb2ZVc2VyKHVzZXJJZCwgInNlbGYuanNvbiIpCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGdldEZyaWVuZElkTWFwRmlsZSh1c2VySWQ6IFN0cmluZz8pOiBGaWxlPyB7CiAgICAgICAgcmV0dXJuIGdldFRhcmdldEZpbGVvZlVzZXIodXNlcklkLCAiZnJpZW5kLmpzb24iKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBydW50aW1lSW5mb0ZpbGUodXNlcklkOiBTdHJpbmc/KTogRmlsZT8gewogICAgICAgIHJldHVybiBnZXRUYXJnZXRGaWxlb2ZVc2VyKHVzZXJJZCwgInJ1bnRpbWUuanNvbiIpCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGdldFN0YXR1c0ZpbGUodXNlcklkOiBTdHJpbmc/KTogRmlsZT8gewogICAgICAgIHJldHVybiBnZXRUYXJnZXRGaWxlb2ZVc2VyKHVzZXJJZCwgInN0YXR1cy5qc29uIikKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0RnJpZW5kV2F0Y2hGaWxlKHVzZXJJZDogU3RyaW5nKTogRmlsZT8gewogICAgICAgIHJldHVybiBnZXRUYXJnZXRGaWxlb2ZVc2VyKHVzZXJJZCwgImZyaWVuZFdhdGNoLmpzb24iKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBleHBvcnRGaWxlKGZpbGU6IEZpbGUsIGhhc1RpbWU6IEJvb2xlYW4pOiBGaWxlPyB7CiAgICAgICAgdmFsIGV4cG9ydERpciA9IEZpbGUoCiAgICAgICAgICAgIEVudmlyb25tZW50LmdldEV4dGVybmFsU3RvcmFnZVB1YmxpY0RpcmVjdG9yeShFbnZpcm9ubWVudC5ESVJFQ1RPUllfRE9XTkxPQURTKSwKICAgICAgICAgICAgQ09ORklHX0RJUl9OQU1FCiAgICAgICAgKQogICAgICAgIGlmICghZXhwb3J0RGlyLmV4aXN0cygpICYmICFleHBvcnREaXIubWtkaXJzKCkpIHsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIkZhaWxlZCB0byBjcmVhdGUgZXhwb3J0IGRpcmVjdG9yeTogJHtleHBvcnREaXIuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgZmlsZU5hbWUgPSBmaWxlLm5hbWUKICAgICAgICB2YWwgZG90SW5kZXggPSBmaWxlTmFtZS5sYXN0SW5kZXhPZignLicpCiAgICAgICAgdmFsIGZpbGVOYW1lV2l0aG91dEV4dGVuc2lvbiA9IGlmIChkb3RJbmRleCAhPSAtMSkgZmlsZU5hbWUudGFrZShkb3RJbmRleCkgZWxzZSBmaWxlTmFtZQogICAgICAgIHZhbCBmaWxlRXh0ZW5zaW9uID0gaWYgKGRvdEluZGV4ICE9IC0xKSBmaWxlTmFtZS5zdWJzdHJpbmcoZG90SW5kZXgpIGVsc2UgIiIKCiAgICAgICAgdmFsIG5ld0ZpbGVOYW1lID0gaWYgKGhhc1RpbWUpIHsKICAgICAgICAgICAgQFN1cHByZXNzTGludCgiU2ltcGxlRGF0ZUZvcm1hdCIpCiAgICAgICAgICAgIHZhbCBzaW1wbGVEYXRlRm9ybWF0ID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZF9ISC5tbS5zcyIpCiAgICAgICAgICAgIHZhbCBkYXRlVGltZVN0cmluZyA9IHNpbXBsZURhdGVGb3JtYXQuZm9ybWF0KERhdGUoKSkKICAgICAgICAgICAgIiR7ZmlsZU5hbWVXaXRob3V0RXh0ZW5zaW9ufV8kZGF0ZVRpbWVTdHJpbmckZmlsZUV4dGVuc2lvbiIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiJGZpbGVOYW1lV2l0aG91dEV4dGVuc2lvbiRmaWxlRXh0ZW5zaW9uIgogICAgICAgIH0KCiAgICAgICAgdmFsIGV4cG9ydEZpbGUgPSBGaWxlKGV4cG9ydERpciwgbmV3RmlsZU5hbWUpCiAgICAgICAgaWYgKGV4cG9ydEZpbGUuZXhpc3RzKCkgJiYgZXhwb3J0RmlsZS5pc0RpcmVjdG9yeSkgewogICAgICAgICAgICBpZiAoIWV4cG9ydEZpbGUuZGVsZXRlKCkpIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJGYWlsZWQgdG8gZGVsZXRlIGV4aXN0aW5nIGRpcmVjdG9yeTogJHtleHBvcnRGaWxlLmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpZiAoIWNvcHkoZmlsZSwgZXhwb3J0RmlsZSkpIHsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIkZhaWxlZCB0byBjb3B5IGZpbGU6ICR7ZmlsZS5hYnNvbHV0ZVBhdGh9IHRvICR7ZXhwb3J0RmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGV4cG9ydEZpbGUKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0Q2l0eUNvZGVGaWxlKCk6IEZpbGUgewogICAgICAgIHZhbCBjaXR5Q29kZUZpbGUgPSBGaWxlKE1BSU5fRElSLCAiY2l0eUNvZGUuanNvbiIpCiAgICAgICAgaWYgKGNpdHlDb2RlRmlsZS5leGlzdHMoKSAmJiBjaXR5Q29kZUZpbGUuaXNEaXJlY3RvcnkpIHsKICAgICAgICAgICAgaWYgKCFjaXR5Q29kZUZpbGUuZGVsZXRlKCkpIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJGYWlsZWQgdG8gZGVsZXRlIGRpcmVjdG9yeTogJHtjaXR5Q29kZUZpbGUuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNpdHlDb2RlRmlsZQogICAgfQoKICAgIHByaXZhdGUgZnVuIGVuc3VyZUxvZ0ZpbGUobG9nRmlsZU5hbWU6IFN0cmluZyk6IEZpbGUgewogICAgICAgIHZhbCBsb2dGaWxlID0gRmlsZShMT0dfRElSLCBsb2dGaWxlTmFtZSkKICAgICAgICBpZiAobG9nRmlsZS5leGlzdHMoKSAmJiBsb2dGaWxlLmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgIGlmIChsb2dGaWxlLmRlbGV0ZSgpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuaXpeW/lyR7bG9nRmlsZS5uYW1lfeebruW9leWtmOWcqO+8jOWIoOmZpOaIkOWKn++8gSIpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5pel5b+XJHtsb2dGaWxlLm5hbWV955uu5b2V5a2Y5Zyo77yM5Yig6Zmk5aSx6LSl77yBIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpZiAoIWxvZ0ZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGlmIChsb2dGaWxlLmNyZWF0ZU5ld0ZpbGUoKSkgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5pel5b+XJHtsb2dGaWxlLm5hbWV95paH5Lu25LiN5a2Y5Zyo77yM5Yib5bu65oiQ5Yqf77yBIikKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIuaXpeW/lyR7bG9nRmlsZS5uYW1lfeaWh+S7tuS4jeWtmOWcqO+8jOWIm+W7uuWksei0pe+8gSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKF86IElPRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGxvZ0ZpbGUKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0TG9nRmlsZShsb2dOYW1lOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiJGxvZ05hbWUubG9nIgogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRSZWNvcmRMb2dGaWxlKCk6IEZpbGUgPSBlbnN1cmVMb2dGaWxlKGdldExvZ0ZpbGUoInJlY29yZCIpKQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXREZWJ1Z0xvZ0ZpbGUoKTogRmlsZSA9IGVuc3VyZUxvZ0ZpbGUoZ2V0TG9nRmlsZSgiZGVidWciKSkKCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0Q2FwdHVyZUxvZ0ZpbGUoKTogRmlsZSA9IGVuc3VyZUxvZ0ZpbGUoZ2V0TG9nRmlsZSgiY2FwdHVyZSIpKQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRGb3Jlc3RMb2dGaWxlKCk6IEZpbGUgPSBlbnN1cmVMb2dGaWxlKGdldExvZ0ZpbGUoImZvcmVzdCIpKQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRGYXJtTG9nRmlsZSgpOiBGaWxlID0gZW5zdXJlTG9nRmlsZShnZXRMb2dGaWxlKCJmYXJtIikpCgogICAgQEp2bVN0YXRpYwogICAgZnVuIGdldE90aGVyTG9nRmlsZSgpOiBGaWxlID0gZW5zdXJlTG9nRmlsZShnZXRMb2dGaWxlKCJvdGhlciIpKQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRFcnJvckxvZ0ZpbGUoKTogRmlsZSA9IGVuc3VyZUxvZ0ZpbGUoZ2V0TG9nRmlsZSgiZXJyb3IiKSkKCiAgICBASnZtU3RhdGljCiAgICBmdW4gY2xvc2UoYzogQ2xvc2VhYmxlPykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGM/LmNsb3NlKCkKICAgICAgICB9IGNhdGNoIChlOiBJT0V4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgZSkKICAgICAgICB9CiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIHJlYWRGcm9tRmlsZShmOiBGaWxlKTogU3RyaW5nIHsKICAgICAgICBpZiAoIWYuZXhpc3RzKCkpIHJldHVybiAiIgogICAgICAgIGlmICghZi5jYW5SZWFkKCkpIHsKICAgICAgICAgICAgVG9hc3RVdGlsLnNob3dUb2FzdCgiJHtmLm5hbWV95rKh5pyJ6K+75Y+W5p2D6ZmQ77yBIikKICAgICAgICAgICAgcmV0dXJuICIiCiAgICAgICAgfQogICAgICAgIC8vIEtvdGxpbiDmianlsZXmlrnms5XvvJrkuIDooYzku6PnoIHor7vlj5bmiYDmnInmlofmnKwKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgZi5yZWFkVGV4dCgpCiAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCB0KQogICAgICAgICAgICAiIgogICAgICAgIH0KICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gYmVmb3JXcml0ZShmOiBGaWxlKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKGYuZXhpc3RzKCkpIHsKICAgICAgICAgICAgaWYgKCFmLmNhbldyaXRlKCkpIHsKICAgICAgICAgICAgICAgIFRvYXN0VXRpbC5zaG93VG9hc3QoIiR7Zi5hYnNvbHV0ZUZpbGV95rKh5pyJ5YaZ5YWl5p2D6ZmQ77yBIikKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGYuaXNEaXJlY3RvcnkpIHsKICAgICAgICAgICAgICAgIGlmICghZi5kZWxldGUoKSkgewogICAgICAgICAgICAgICAgICAgIFRvYXN0VXRpbC5zaG93VG9hc3QoIiR7Zi5hYnNvbHV0ZUZpbGV95peg5rOV5Yig6Zmk55uu5b2V77yBIikKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdmFsIHBhcmVudCA9IGYucGFyZW50RmlsZQogICAgICAgICAgICBpZiAocGFyZW50ICE9IG51bGwgJiYgIXBhcmVudC5ta2RpcnMoKSAmJiAhcGFyZW50LmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICBUb2FzdFV0aWwuc2hvd1RvYXN0KCIke2YuYWJzb2x1dGVGaWxlfeaXoOazleWIm+W7uuebruW9le+8gSIpCiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biB3cml0ZTJGaWxlKHM6IFN0cmluZywgZjogRmlsZSk6IEJvb2xlYW4gewogICAgICAgIGlmIChiZWZvcldyaXRlKGYpKSByZXR1cm4gZmFsc2UKICAgICAgICB2YXIgZnc6IEZpbGVXcml0ZXI/ID0gbnVsbAogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGZ3ID0gRmlsZVdyaXRlcihmLCBmYWxzZSkKICAgICAgICAgICAgZncud3JpdGUocykKICAgICAgICAgICAgZncuZmx1c2goKQogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0gY2F0Y2ggKGU6IElPRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCBlKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBpZiAoZncgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBmdy5jbG9zZSgpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBJT0V4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi5paH5Lu25YWz6Zet5byC5bi477yI5pWw5o2u5bey5YaZ5YWl77yJIiwgZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gY29weShzb3VyY2U6IEZpbGUsIGRlc3Q6IEZpbGUpOiBCb29sZWFuIHsKICAgICAgICAvLyBLb3RsaW4g5omp5bGV5pa55rOV77yM5YaF6YOo5L2/55So5LqGIEZpbGVDaGFubmVsIOaIliBGaWxlcy5jb3B5CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGNyZWF0ZUZpbGUoZGVzdCk/LmxldCB7IHRhcmdldCAtPgogICAgICAgICAgICAgICAgc291cmNlLmNvcHlUbyh0YXJnZXQsIG92ZXJ3cml0ZSA9IHRydWUpCiAgICAgICAgICAgICAgICB0cnVlCiAgICAgICAgICAgIH0gPzogZmFsc2UKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gc3RyZWFtVG8oc291cmNlOiBJbnB1dFN0cmVhbSwgZGVzdDogT3V0cHV0U3RyZWFtKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHNvdXJjZS51c2UgeyBpbnB1dCAtPgogICAgICAgICAgICAgICAgZGVzdC51c2UgeyBvdXRwdXQgLT4KICAgICAgICAgICAgICAgICAgICBpbnB1dC5jb3B5VG8ob3V0cHV0KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBJT0V4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBjcmVhdGVGaWxlKGZpbGU6IEZpbGUpOiBGaWxlPyB7CiAgICAgICAgaWYgKGZpbGUuZXhpc3RzKCkgJiYgZmlsZS5pc0RpcmVjdG9yeSkgewogICAgICAgICAgICBpZiAoIWZpbGUuZGVsZXRlKCkpIHJldHVybiBudWxsCiAgICAgICAgfQogICAgICAgIGlmICghZmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgZmlsZS5wYXJlbnRGaWxlPy5ta2RpcnMoKQogICAgICAgICAgICAgICAgaWYgKCFmaWxlLmNyZWF0ZU5ld0ZpbGUoKSkgcmV0dXJuIG51bGwKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBmaWxlCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGNsZWFyRmlsZShmaWxlOiBGaWxlKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFmaWxlLmV4aXN0cygpKSByZXR1cm4gZmFsc2UKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgLy8gS290bGluIOaJqeWxleaWueazlQogICAgICAgICAgICBmaWxlLndyaXRlVGV4dCgiIikKICAgICAgICAgICAgdHJ1ZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBkZWxGaWxlKGZpbGU6IEZpbGUpOiBCb29sZWFuIHsKICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgVG9hc3RVdGlsLnNob3dUb2FzdCgiJHtmaWxlLmFic29sdXRlRmlsZX3kuI3lrZjlnKjvvIHliKvli77miorliKDkuoYiKQogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgImRlbEZpbGU6ICR7ZmlsZS5hYnNvbHV0ZUZpbGV95LiN5a2Y5Zyo77yBLOaXoOmhu+WIoOmZpCIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgLy8gS290bGluIOaPkOS+m+S6hiBkZWxldGVSZWN1cnNpdmVseSgpIOaJqeWxle+8jOS9huWug+S4jeW4pumHjeivleacuuWItgogICAgICAgIC8vIOS4uuS6huS/neeVmeS9oOeahOmHjeivlemAu+i+ke+8jOaIkeS7rOS+neeEtuaJi+WKqOWunueOsAogICAgICAgIGlmIChmaWxlLmlzRmlsZSkgewogICAgICAgICAgICByZXR1cm4gZGVsZXRlRmlsZVdpdGhSZXRyeShmaWxlKQogICAgICAgIH0KCiAgICAgICAgdmFsIGZpbGVzID0gZmlsZS5saXN0RmlsZXMoKSA/OiByZXR1cm4gZGVsZXRlRmlsZVdpdGhSZXRyeShmaWxlKQoKICAgICAgICB2YXIgYWxsU3VjY2VzcyA9IHRydWUKICAgICAgICBmb3IgKGlubmVyRmlsZSBpbiBmaWxlcykgewogICAgICAgICAgICBpZiAoIWRlbEZpbGUoaW5uZXJGaWxlKSkgewogICAgICAgICAgICAgICAgYWxsU3VjY2VzcyA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGFsbFN1Y2Nlc3MgJiYgZGVsZXRlRmlsZVdpdGhSZXRyeShmaWxlKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGRlbGV0ZUZpbGVXaXRoUmV0cnkoZmlsZTogRmlsZSk6IEJvb2xlYW4gewogICAgICAgIHZhciByZXRyeUNvdW50ID0gMwogICAgICAgIHdoaWxlIChyZXRyeUNvdW50ID4gMCkgewogICAgICAgICAgICBpZiAoZmlsZS5kZWxldGUoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgfQogICAgICAgICAgICByZXRyeUNvdW50LS0KICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLliKDpmaTlpLHotKXvvIzph43or5XkuK06ICR7ZmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgQ29yb3V0aW5lVXRpbHMuc2xlZXBDb21wYXQoNTAwKQogICAgICAgIH0KICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5Yig6Zmk5aSx6LSlOiAke2ZpbGUuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICB9Cn0=
+@file:JvmName("Files") // 让 Java 调用时类名依然是 Files
+
+package fansirsqi.xposed.sesame.util
+
+import android.annotation.SuppressLint
+import android.os.Environment
+import fansirsqi.xposed.sesame.data.General
+import java.io.Closeable
+import java.io.File
+import java.io.FileWriter
+import java.io.IOException
+import java.io.InputStream
+import java.io.OutputStream
+import java.text.SimpleDateFormat
+import java.util.Date
+
+object Files {
+    private val TAG = Files::class.java.simpleName
+
+    const val CONFIG_DIR_NAME = "sesame-TK"
+
+    @JvmField
+    val MAIN_DIR: File = getMainDir()
+
+    @JvmField
+    val CONFIG_DIR: File = getConfigDir()
+
+    @JvmField
+    val LOG_DIR: File = getLogDir()
+
+    /**
+     * 确保指定的目录存在且不是一个文件。
+     */
+    @JvmStatic
+    fun ensureDir(directory: File?) {
+        try {
+            if (directory == null) {
+                android.util.Log.e(TAG, "Directory cannot be null")
+                return
+            }
+            if (!directory.exists()) {
+                if (!directory.mkdirs()) {
+                    android.util.Log.e(TAG, "Failed to create directory: ${directory.absolutePath}")
+                }
+            } else if (directory.isFile) {
+                if (!directory.delete() || !directory.mkdirs()) {
+                    android.util.Log.e(TAG, "Failed to replace file with directory: ${directory.absolutePath}")
+                }
+            }
+        } catch (e: Exception) {
+            android.util.Log.e(TAG, "ensureDir error", e)
+        }
+    }
+
+    private fun getMainDir(): File {
+        val storageDirStr = Environment.getExternalStorageDirectory().toString() +
+                File.separator + "Android" + File.separator + "media" + File.separator + General.PACKAGE_NAME
+        val storageDir = File(storageDirStr)
+        val mainDir = File(storageDir, CONFIG_DIR_NAME)
+        ensureDir(mainDir)
+        return mainDir
+    }
+
+    private fun getLogDir(): File {
+        val logDir = File(MAIN_DIR, "log")
+        ensureDir(logDir)
+        return logDir
+    }
+
+    private fun getConfigDir(): File {
+        val configDir = File(MAIN_DIR, "config")
+        ensureDir(configDir)
+        return configDir
+    }
+
+    @JvmStatic
+    fun getUserConfigDir(userId: String): File {
+        val configDir = File(CONFIG_DIR, userId)
+        ensureDir(configDir)
+        return configDir
+    }
+
+    @JvmStatic
+    fun getDefaultConfigV2File(): File {
+        return File(CONFIG_DIR, "config_v2.json")
+    }
+
+    @JvmStatic
+    @Synchronized
+    fun setDefaultConfigV2File(json: String): Boolean {
+        return write2File(json, File(CONFIG_DIR, "config_v2.json"))
+    }
+
+    @JvmStatic
+    @Synchronized
+    fun getConfigV2File(userId: String): File {
+        var confV2File = File(CONFIG_DIR.toString() + File.separator + userId, "config_v2.json")
+        // 如果新配置文件不存在，则尝试从旧配置文件迁移
+        if (!confV2File.exists()) {
+            val oldFile = File(CONFIG_DIR, "config_v2-$userId.json")
+            if (oldFile.exists()) {
+                val content = readFromFile(oldFile)
+                if (write2File(content, confV2File)) {
+                    if (!oldFile.delete()) {
+                        Log.error(TAG, "Failed to delete old config file: ${oldFile.absolutePath}")
+                    }
+                } else {
+                    confV2File = oldFile
+                    Log.error(TAG, "Failed to migrate config file for user: $userId")
+                }
+            }
+        }
+        return confV2File
+    }
+
+    @JvmStatic
+    @Synchronized
+    fun setConfigV2File(userId: String, json: String): Boolean {
+        return write2File(json, File(CONFIG_DIR.toString() + File.separator + userId, "config_v2.json"))
+    }
+
+    @JvmStatic
+    fun getCustomSetFile(userId: String): File? {
+        return getTargetFileofUser(userId, "customset.json")
+    }
+
+    @JvmStatic
+    @Synchronized
+    fun getTargetFileofUser(userId: String?, fullTargetFileName: String): File? {
+        if (userId.isNullOrEmpty()) {
+            Log.error(TAG, "Invalid userId for target file: $fullTargetFileName")
+            return null
+        }
+        val userDir = File(CONFIG_DIR, userId)
+        ensureDir(userDir)
+        val targetFile = File(userDir, fullTargetFileName)
+        if (!targetFile.exists()) {
+            try {
+                targetFile.createNewFile()
+            } catch (e: IOException) {
+                Log.printStackTrace(TAG, "Failed to create file: ${targetFile.name}", e)
+            }
+        } else {
+            val canWrite = targetFile.canWrite()
+//            Log.record(TAG, "$fullTargetFileName permissions: r=$canRead; w=$canWrite")
+            if (!canWrite) {
+                if (targetFile.setWritable(true)) {
+                    Log.record(TAG, "${targetFile.name} write permission set successfully")
+                } else {
+                    Log.record(TAG, "${targetFile.name} write permission set failed")
+                }
+            }
+        }
+        return targetFile
+    }
+
+    @JvmStatic
+    @Synchronized
+    fun getTargetFileofDir(dir: File, fullTargetFileName: String): File {
+        ensureDir(dir)
+        val targetFile = File(dir, fullTargetFileName)
+
+        if (!targetFile.exists()) {
+            try {
+                targetFile.createNewFile()
+            } catch (e: IOException) {
+                Log.printStackTrace(TAG, "Failed to create file: ${targetFile.absolutePath}",e)
+            }
+        } else {
+            val canWrite = targetFile.canWrite()
+//            Log.record(TAG, "File permissions for ${targetFile.absolutePath}: r=$canRead; w=$canWrite")
+            if (!canWrite) {
+                if (targetFile.setWritable(true)) {
+                    Log.record(TAG, "Write permission set successfully for file: ${targetFile.absolutePath}")
+                } else {
+                    Log.record(TAG, "Write permission set failed for file: ${targetFile.absolutePath}")
+                }
+            }
+        }
+        return targetFile
+    }
+
+    @JvmStatic
+    fun getSelfIdFile(userId: String?): File? {
+        return getTargetFileofUser(userId, "self.json")
+    }
+
+    @JvmStatic
+    fun getFriendIdMapFile(userId: String?): File? {
+        return getTargetFileofUser(userId, "friend.json")
+    }
+
+    @JvmStatic
+    fun runtimeInfoFile(userId: String?): File? {
+        return getTargetFileofUser(userId, "runtime.json")
+    }
+
+    @JvmStatic
+    fun getStatusFile(userId: String?): File? {
+        return getTargetFileofUser(userId, "status.json")
+    }
+
+    @JvmStatic
+    fun getFriendWatchFile(userId: String): File? {
+        return getTargetFileofUser(userId, "friendWatch.json")
+    }
+
+    @JvmStatic
+    fun exportFile(file: File, hasTime: Boolean): File? {
+        val exportDir = File(
+            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+            CONFIG_DIR_NAME
+        )
+        if (!exportDir.exists() && !exportDir.mkdirs()) {
+            Log.error(TAG, "Failed to create export directory: ${exportDir.absolutePath}")
+            return null
+        }
+
+        val fileName = file.name
+        val dotIndex = fileName.lastIndexOf('.')
+        val fileNameWithoutExtension = if (dotIndex != -1) fileName.take(dotIndex) else fileName
+        val fileExtension = if (dotIndex != -1) fileName.substring(dotIndex) else ""
+
+        val newFileName = if (hasTime) {
+            @SuppressLint("SimpleDateFormat")
+            val simpleDateFormat = SimpleDateFormat("yyyy-MM-dd_HH.mm.ss")
+            val dateTimeString = simpleDateFormat.format(Date())
+            "${fileNameWithoutExtension}_$dateTimeString$fileExtension"
+        } else {
+            "$fileNameWithoutExtension$fileExtension"
+        }
+
+        val exportFile = File(exportDir, newFileName)
+        if (exportFile.exists() && exportFile.isDirectory) {
+            if (!exportFile.delete()) {
+                Log.error(TAG, "Failed to delete existing directory: ${exportFile.absolutePath}")
+                return null
+            }
+        }
+        if (!copy(file, exportFile)) {
+            Log.error(TAG, "Failed to copy file: ${file.absolutePath} to ${exportFile.absolutePath}")
+            return null
+        }
+        return exportFile
+    }
+
+    @JvmStatic
+    fun getCityCodeFile(): File {
+        val cityCodeFile = File(MAIN_DIR, "cityCode.json")
+        if (cityCodeFile.exists() && cityCodeFile.isDirectory) {
+            if (!cityCodeFile.delete()) {
+                Log.error(TAG, "Failed to delete directory: ${cityCodeFile.absolutePath}")
+            }
+        }
+        return cityCodeFile
+    }
+
+    private fun ensureLogFile(logFileName: String): File {
+        val logFile = File(LOG_DIR, logFileName)
+        if (logFile.exists() && logFile.isDirectory) {
+            if (logFile.delete()) {
+                Log.record(TAG, "日志${logFile.name}目录存在，删除成功！")
+            } else {
+                Log.error(TAG, "日志${logFile.name}目录存在，删除失败！")
+            }
+        }
+        if (!logFile.exists()) {
+            try {
+                if (logFile.createNewFile()) {
+                    Log.record(TAG, "日志${logFile.name}文件不存在，创建成功！")
+                } else {
+                    Log.error(TAG, "日志${logFile.name}文件不存在，创建失败！")
+                }
+            } catch (_: IOException) {
+            }
+        }
+        return logFile
+    }
+
+    @JvmStatic
+    fun getLogFile(logName: String): String {
+        return "$logName.log"
+    }
+
+    @JvmStatic
+    fun getRecordLogFile(): File = ensureLogFile(getLogFile("record"))
+
+    @JvmStatic
+    fun getDebugLogFile(): File = ensureLogFile(getLogFile("debug"))
+
+    @JvmStatic
+    fun getCaptureLogFile(): File = ensureLogFile(getLogFile("capture"))
+
+    @JvmStatic
+    fun getForestLogFile(): File = ensureLogFile(getLogFile("forest"))
+
+    @JvmStatic
+    fun getFarmLogFile(): File = ensureLogFile(getLogFile("farm"))
+
+    @JvmStatic
+    fun getOtherLogFile(): File = ensureLogFile(getLogFile("other"))
+
+    @JvmStatic
+    fun getErrorLogFile(): File = ensureLogFile(getLogFile("error"))
+
+    @JvmStatic
+    fun close(c: Closeable?) {
+        try {
+            c?.close()
+        } catch (e: IOException) {
+            Log.printStackTrace(TAG, e)
+        }
+    }
+
+    @JvmStatic
+    fun readFromFile(f: File): String {
+        if (!f.exists()) return ""
+        if (!f.canRead()) {
+            ToastUtil.showToast("${f.name}没有读取权限！")
+            return ""
+        }
+        // Kotlin 扩展方法：一行代码读取所有文本
+        return try {
+            f.readText()
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, t)
+            ""
+        }
+    }
+
+    @JvmStatic
+    fun beforWrite(f: File): Boolean {
+        if (f.exists()) {
+            if (!f.canWrite()) {
+                ToastUtil.showToast("${f.absoluteFile}没有写入权限！")
+                return true
+            }
+            if (f.isDirectory) {
+                if (!f.delete()) {
+                    ToastUtil.showToast("${f.absoluteFile}无法删除目录！")
+                    return true
+                }
+            }
+        } else {
+            val parent = f.parentFile
+            if (parent != null && !parent.mkdirs() && !parent.exists()) {
+                ToastUtil.showToast("${f.absoluteFile}无法创建目录！")
+                return true
+            }
+        }
+        return false
+    }
+
+    @JvmStatic
+    @Synchronized
+    fun write2File(s: String, f: File): Boolean {
+        if (beforWrite(f)) return false
+        var fw: FileWriter? = null
+        try {
+            fw = FileWriter(f, false)
+            fw.write(s)
+            fw.flush()
+            return true
+        } catch (e: IOException) {
+            Log.printStackTrace(TAG, e)
+            return false
+        } finally {
+            if (fw != null) {
+                try {
+                    fw.close()
+                } catch (e: IOException) {
+                    Log.printStackTrace(TAG, "文件关闭异常（数据已写入）", e)
+                }
+            }
+        }
+    }
+
+    @JvmStatic
+    fun copy(source: File, dest: File): Boolean {
+        // Kotlin 扩展方法，内部使用了 FileChannel 或 Files.copy
+        return try {
+            createFile(dest)?.let { target ->
+                source.copyTo(target, overwrite = true)
+                true
+            } ?: false
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+            false
+        }
+    }
+
+    @JvmStatic
+    fun streamTo(source: InputStream, dest: OutputStream): Boolean {
+        return try {
+            source.use { input ->
+                dest.use { output ->
+                    input.copyTo(output)
+                }
+            }
+            true
+        } catch (e: IOException) {
+            Log.printStackTrace(e)
+            false
+        }
+    }
+
+    @JvmStatic
+    fun createFile(file: File): File? {
+        if (file.exists() && file.isDirectory) {
+            if (!file.delete()) return null
+        }
+        if (!file.exists()) {
+            try {
+                file.parentFile?.mkdirs()
+                if (!file.createNewFile()) return null
+            } catch (e: Exception) {
+                Log.printStackTrace(e)
+                return null
+            }
+        }
+        return file
+    }
+
+    @JvmStatic
+    fun clearFile(file: File): Boolean {
+        if (!file.exists()) return false
+        return try {
+            // Kotlin 扩展方法
+            file.writeText("")
+            true
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+            false
+        }
+    }
+
+    @JvmStatic
+    fun delFile(file: File): Boolean {
+        if (!file.exists()) {
+            ToastUtil.showToast("${file.absoluteFile}不存在！别勾把删了")
+            Log.record(TAG, "delFile: ${file.absoluteFile}不存在！,无须删除")
+            return false
+        }
+
+        // Kotlin 提供了 deleteRecursively() 扩展，但它不带重试机制
+        // 为了保留你的重试逻辑，我们依然手动实现
+        if (file.isFile) {
+            return deleteFileWithRetry(file)
+        }
+
+        val files = file.listFiles() ?: return deleteFileWithRetry(file)
+
+        var allSuccess = true
+        for (innerFile in files) {
+            if (!delFile(innerFile)) {
+                allSuccess = false
+            }
+        }
+        return allSuccess && deleteFileWithRetry(file)
+    }
+
+    private fun deleteFileWithRetry(file: File): Boolean {
+        var retryCount = 3
+        while (retryCount > 0) {
+            if (file.delete()) {
+                return true
+            }
+            retryCount--
+            Log.record(TAG, "删除失败，重试中: ${file.absolutePath}")
+            CoroutineUtils.sleepCompat(500)
+        }
+        Log.error(TAG, "删除失败: ${file.absolutePath}")
+        return false
+    }
+}

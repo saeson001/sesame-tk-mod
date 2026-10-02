@@ -1,1 +1,83 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwoKLyoqCiAqIOaXtumXtOagvOW8j+WMluW3peWFt+exuwogKiDmj5DkvpvlkITnp43ml7bpl7Tlt67lkozliankvZnml7bpl7TnmoTkurrmgKfljJbmoLzlvI/ljJblip/og70KICovCnB1YmxpYyBjbGFzcyBUaW1lRm9ybWF0dGVyIHsKICAgIAogICAgLyoqCiAgICAgKiDml7bpl7TluLjph48KICAgICAqLwogICAgcHVibGljIHN0YXRpYyBmaW5hbCBsb25nIE9ORV9TRUNPTkRfTVMgPSAxMDAwTDsKICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgbG9uZyBPTkVfTUlOVVRFX01TID0gNjAgKiBPTkVfU0VDT05EX01TOwogICAgcHVibGljIHN0YXRpYyBmaW5hbCBsb25nIE9ORV9IT1VSX01TID0gNjAgKiBPTkVfTUlOVVRFX01TOwogICAgcHVibGljIHN0YXRpYyBmaW5hbCBsb25nIE9ORV9EQVlfTVMgPSAyNCAqIE9ORV9IT1VSX01TOwogICAgCiAgICAvKioKICAgICAqIOagvOW8j+WMluaXtumXtOW3ruS4uuS6uuaAp+WMlueahOWtl+espuS4sgogICAgICogQHBhcmFtIG1pbGxpc2Vjb25kcyDml7blt67mr6vnp5IKICAgICAqIEBwYXJhbSBzaG93U2lnbiDmmK/lkKbmmL7npLrmraPotJ/lj7cKICAgICAqIEByZXR1cm4g5qC85byP5YyW5ZCO55qE5pe26Ze05a2X56ym5LiyCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGZvcm1hdFRpbWVEaWZmZXJlbmNlKGxvbmcgbWlsbGlzZWNvbmRzLCBib29sZWFuIHNob3dTaWduKSB7CiAgICAgICAgbG9uZyBhYnNNaWxsaXMgPSBNYXRoLmFicyhtaWxsaXNlY29uZHMpOwogICAgICAgIFN0cmluZyBzaWduID0gc2hvd1NpZ24gJiYgbWlsbGlzZWNvbmRzID49IDAgPyAiKyIgOiBzaG93U2lnbiA/ICItIiA6ICIiOwogICAgICAgIAogICAgICAgIGlmIChhYnNNaWxsaXMgPCBPTkVfTUlOVVRFX01TKSB7CiAgICAgICAgICAgIHJldHVybiBzaWduICsgKGFic01pbGxpcyAvIE9ORV9TRUNPTkRfTVMpICsgIuenkiI7CiAgICAgICAgfSBlbHNlIGlmIChhYnNNaWxsaXMgPCBPTkVfSE9VUl9NUykgewogICAgICAgICAgICByZXR1cm4gc2lnbiArIChhYnNNaWxsaXMgLyBPTkVfTUlOVVRFX01TKSArICLliIbpkp8iOwogICAgICAgIH0gZWxzZSBpZiAoYWJzTWlsbGlzIDwgT05FX0RBWV9NUykgewogICAgICAgICAgICByZXR1cm4gc2lnbiArIChhYnNNaWxsaXMgLyBPTkVfSE9VUl9NUykgKyAi5bCP5pe2IjsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXR1cm4gc2lnbiArIChhYnNNaWxsaXMgLyBPTkVfREFZX01TKSArICLlpKkiOwogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmoLzlvI/ljJbml7bpl7Tlt67kuLrkurrmgKfljJbnmoTlrZfnrKbkuLLvvIjluKbmraPotJ/lj7fvvIkKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZm9ybWF0VGltZURpZmZlcmVuY2UobG9uZyBtaWxsaXNlY29uZHMpIHsKICAgICAgICByZXR1cm4gZm9ybWF0VGltZURpZmZlcmVuY2UobWlsbGlzZWNvbmRzLCB0cnVlKTsKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmoLzlvI/ljJbliankvZnml7bpl7TvvIjkuI3luKbmraPotJ/lj7fvvIkKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZm9ybWF0UmVtYWluaW5nVGltZShsb25nIG1pbGxpc2Vjb25kcykgewogICAgICAgIHJldHVybiBmb3JtYXREZXRhaWxlZFJlbWFpbmluZ1RpbWUoTWF0aC5hYnMobWlsbGlzZWNvbmRzKSk7CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5qC85byP5YyW6K+m57uG55qE5Ymp5L2Z5pe26Ze077yI5pi+56S65aSp44CB5bCP5pe244CB5YiG6ZKf77yJCiAgICAgKiBAcGFyYW0gbWlsbGlzZWNvbmRzIOavq+enkuaVsAogICAgICogQHJldHVybiDor6bnu4bnmoTml7bpl7TlrZfnrKbkuLLvvIzlpoIgIjHlpKky5bCP5pe2M+WIhumSnyIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZm9ybWF0RGV0YWlsZWRSZW1haW5pbmdUaW1lKGxvbmcgbWlsbGlzZWNvbmRzKSB7CiAgICAgICAgaWYgKG1pbGxpc2Vjb25kcyA8IE9ORV9NSU5VVEVfTVMpIHsKICAgICAgICAgICAgcmV0dXJuIChtaWxsaXNlY29uZHMgLyBPTkVfU0VDT05EX01TKSArICLnp5IiOwogICAgICAgIH0gZWxzZSBpZiAobWlsbGlzZWNvbmRzIDwgT05FX0hPVVJfTVMpIHsKICAgICAgICAgICAgbG9uZyBtaW51dGVzID0gbWlsbGlzZWNvbmRzIC8gT05FX01JTlVURV9NUzsKICAgICAgICAgICAgbG9uZyBzZWNvbmRzID0gKG1pbGxpc2Vjb25kcyAlIE9ORV9NSU5VVEVfTVMpIC8gT05FX1NFQ09ORF9NUzsKICAgICAgICAgICAgcmV0dXJuIHNlY29uZHMgPiAwID8gbWludXRlcyArICLliIbpkp8iICsgc2Vjb25kcyArICLnp5IiIDogbWludXRlcyArICLliIbpkp8iOwogICAgICAgIH0gZWxzZSBpZiAobWlsbGlzZWNvbmRzIDwgT05FX0RBWV9NUykgewogICAgICAgICAgICBsb25nIGhvdXJzID0gbWlsbGlzZWNvbmRzIC8gT05FX0hPVVJfTVM7CiAgICAgICAgICAgIGxvbmcgbWludXRlcyA9IChtaWxsaXNlY29uZHMgJSBPTkVfSE9VUl9NUykgLyBPTkVfTUlOVVRFX01TOwogICAgICAgICAgICByZXR1cm4gbWludXRlcyA+IDAgPyBob3VycyArICLlsI/ml7YiICsgbWludXRlcyArICLliIbpkp8iIDogaG91cnMgKyAi5bCP5pe2IjsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBsb25nIGRheXMgPSBtaWxsaXNlY29uZHMgLyBPTkVfREFZX01TOwogICAgICAgICAgICBsb25nIGhvdXJzID0gKG1pbGxpc2Vjb25kcyAlIE9ORV9EQVlfTVMpIC8gT05FX0hPVVJfTVM7CiAgICAgICAgICAgIGxvbmcgbWludXRlcyA9ICgobWlsbGlzZWNvbmRzICUgT05FX0RBWV9NUykgJSBPTkVfSE9VUl9NUykgLyBPTkVfTUlOVVRFX01TOwogICAgICAgICAgICAKICAgICAgICAgICAgU3RyaW5nQnVpbGRlciByZXN1bHQgPSBuZXcgU3RyaW5nQnVpbGRlcigpLmFwcGVuZChkYXlzKS5hcHBlbmQoIuWkqSIpOwogICAgICAgICAgICBpZiAoaG91cnMgPiAwKSB7CiAgICAgICAgICAgICAgICByZXN1bHQuYXBwZW5kKGhvdXJzKS5hcHBlbmQoIuWwj+aXtiIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChtaW51dGVzID4gMCkgewogICAgICAgICAgICAgICAgcmVzdWx0LmFwcGVuZChtaW51dGVzKS5hcHBlbmQoIuWIhumSnyIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiByZXN1bHQudG9TdHJpbmcoKTsKICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util;
+
+/**
+ * 时间格式化工具类
+ * 提供各种时间差和剩余时间的人性化格式化功能
+ */
+public class TimeFormatter {
+    
+    /**
+     * 时间常量
+     */
+    public static final long ONE_SECOND_MS = 1000L;
+    public static final long ONE_MINUTE_MS = 60 * ONE_SECOND_MS;
+    public static final long ONE_HOUR_MS = 60 * ONE_MINUTE_MS;
+    public static final long ONE_DAY_MS = 24 * ONE_HOUR_MS;
+    
+    /**
+     * 格式化时间差为人性化的字符串
+     * @param milliseconds 时差毫秒
+     * @param showSign 是否显示正负号
+     * @return 格式化后的时间字符串
+     */
+    public static String formatTimeDifference(long milliseconds, boolean showSign) {
+        long absMillis = Math.abs(milliseconds);
+        String sign = showSign && milliseconds >= 0 ? "+" : showSign ? "-" : "";
+        
+        if (absMillis < ONE_MINUTE_MS) {
+            return sign + (absMillis / ONE_SECOND_MS) + "秒";
+        } else if (absMillis < ONE_HOUR_MS) {
+            return sign + (absMillis / ONE_MINUTE_MS) + "分钟";
+        } else if (absMillis < ONE_DAY_MS) {
+            return sign + (absMillis / ONE_HOUR_MS) + "小时";
+        } else {
+            return sign + (absMillis / ONE_DAY_MS) + "天";
+        }
+    }
+    
+    /**
+     * 格式化时间差为人性化的字符串（带正负号）
+     */
+    public static String formatTimeDifference(long milliseconds) {
+        return formatTimeDifference(milliseconds, true);
+    }
+    
+    /**
+     * 格式化剩余时间（不带正负号）
+     */
+    public static String formatRemainingTime(long milliseconds) {
+        return formatDetailedRemainingTime(Math.abs(milliseconds));
+    }
+    
+    /**
+     * 格式化详细的剩余时间（显示天、小时、分钟）
+     * @param milliseconds 毫秒数
+     * @return 详细的时间字符串，如 "1天2小时3分钟"
+     */
+    public static String formatDetailedRemainingTime(long milliseconds) {
+        if (milliseconds < ONE_MINUTE_MS) {
+            return (milliseconds / ONE_SECOND_MS) + "秒";
+        } else if (milliseconds < ONE_HOUR_MS) {
+            long minutes = milliseconds / ONE_MINUTE_MS;
+            long seconds = (milliseconds % ONE_MINUTE_MS) / ONE_SECOND_MS;
+            return seconds > 0 ? minutes + "分钟" + seconds + "秒" : minutes + "分钟";
+        } else if (milliseconds < ONE_DAY_MS) {
+            long hours = milliseconds / ONE_HOUR_MS;
+            long minutes = (milliseconds % ONE_HOUR_MS) / ONE_MINUTE_MS;
+            return minutes > 0 ? hours + "小时" + minutes + "分钟" : hours + "小时";
+        } else {
+            long days = milliseconds / ONE_DAY_MS;
+            long hours = (milliseconds % ONE_DAY_MS) / ONE_HOUR_MS;
+            long minutes = ((milliseconds % ONE_DAY_MS) % ONE_HOUR_MS) / ONE_MINUTE_MS;
+            
+            StringBuilder result = new StringBuilder().append(days).append("天");
+            if (hours > 0) {
+                result.append(hours).append("小时");
+            }
+            if (minutes > 0) {
+                result.append(minutes).append("分钟");
+            }
+            return result.toString();
+        }
+    }
+}

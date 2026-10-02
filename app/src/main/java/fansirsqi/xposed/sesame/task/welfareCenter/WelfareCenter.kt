@@ -1,1 +1,91 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLndlbGZhcmVDZW50ZXIKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEZpZWxkcwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxHcm91cAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5Cb29sZWFuTW9kZWxGaWVsZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5Nb2RlbFRhc2sKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlJlc0NoZWNrZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqCiAqIOemj+WIqeS4reW/gyDigJQg572R5ZWG6ZO26KGM56aP5Yip77yI562+5YiwL+S6kuWKqOeOqeazlS/np6/liIbmn6Xor6LvvIkKICog5Y2P6K6u56e75qSN6Ieq6Iqd6bq757OKU1ZJUCAyLjAuNi4277yI6YCG5ZCR6L+Y5Y6f77yJCiAqLwpjbGFzcyBXZWxmYXJlQ2VudGVyIDogTW9kZWxUYXNrKCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJXZWxmYXJlQ2VudGVyIgogICAgICAgIGNvbnN0IHZhbCBNT0RVTEVfTkFNRSA9ICLnpo/liKnkuK3lv4MiCgogICAgICAgIC8qKiDlpb3lrrbml6Dlv6fljaHokKXlnLAgSUTvvIjmnaXoh6rljp/niYjljY/orq7vvIkgKi8KICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDQU1QX0lEX0hKV1kgPSAiQ1AxNTIwNTY1NyIKCiAgICAgICAgQFZvbGF0aWxlIHZhciBpbnN0YW5jZTogV2VsZmFyZUNlbnRlcj8gPSBudWxsCiAgICB9CgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgZW5hYmxlU2lnbjogQm9vbGVhbk1vZGVsRmllbGQKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGVuYWJsZUNhbXBUcmlnZ2VyOiBCb29sZWFuTW9kZWxGaWVsZAogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgZW5hYmxlUXVlcnlQb2ludDogQm9vbGVhbk1vZGVsRmllbGQKCiAgICBvdmVycmlkZSBmdW4gZ2V0TmFtZSgpID0gTU9EVUxFX05BTUUKICAgIG92ZXJyaWRlIGZ1biBnZXRHcm91cCgpID0gTW9kZWxHcm91cC5PVEhFUgogICAgb3ZlcnJpZGUgZnVuIGdldEljb24oKSA9ICJEZWZhdWx0LnBuZyIKCiAgICBvdmVycmlkZSBmdW4gZ2V0RmllbGRzKCkgPSBNb2RlbEZpZWxkcygpLmFwcGx5IHsKICAgICAgICBhZGRGaWVsZChCb29sZWFuTW9kZWxGaWVsZCgid2VsZmFyZVNpZ24iLCAi56aP5Yip5Lit5b+DIHwg562+5YiwIiwgdHJ1ZSkuYWxzbyB7IGVuYWJsZVNpZ24gPSBpdCB9KQogICAgICAgIGFkZEZpZWxkKEJvb2xlYW5Nb2RlbEZpZWxkKCJ3ZWxmYXJlQ2FtcCIsICLnpo/liKnkuK3lv4MgfCDlpb3lrrbml6Dlv6fljaHop6blj5EiLCBmYWxzZSkuYWxzbyB7IGVuYWJsZUNhbXBUcmlnZ2VyID0gaXQgfSkKICAgICAgICBhZGRGaWVsZChCb29sZWFuTW9kZWxGaWVsZCgid2VsZmFyZVBvaW50IiwgIuemj+WIqeS4reW/gyB8IOafpeenr+WIhuS9meminSIsIHRydWUpLmFsc28geyBlbmFibGVRdWVyeVBvaW50ID0gaXQgfSkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gcHJlcGFyZSgpIHsgaW5zdGFuY2UgPSB0aGlzIH0KICAgIG92ZXJyaWRlIGZ1biBkZXN0cm95KCkgeyBpbnN0YW5jZSA9IG51bGw7IHN1cGVyLmRlc3Ryb3koKSB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcnVuU3VzcGVuZCgpIHsKICAgICAgICBpZiAoZW5hYmxlU2lnbi52YWx1ZSkgZG9TaWduKCkKICAgICAgICBpZiAoZW5hYmxlQ2FtcFRyaWdnZXIudmFsdWUpIGRvQ2FtcFRyaWdnZXIoKQogICAgICAgIGlmIChlbmFibGVRdWVyeVBvaW50LnZhbHVlKSBkb1F1ZXJ5UG9pbnQoKQogICAgfQoKICAgIC8qKiDnpo/liKnkuK3lv4Pnrb7liLAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZG9TaWduKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGRlbGF5KDE1MDApCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBXZWxmYXJlQ2VudGVyUnBjQ2FsbC5zaWduaW5QbGF5KCkKICAgICAgICAgICAgaWYgKFJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBKU09OT2JqZWN0KHJlc3VsdCkpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuemj+WIqeS4reW/g+etvuWIsOaIkOWKnyDinIUiKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLnrb7liLDlvILluLg6ICR7dC5tZXNzYWdlfSIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDlpb3lrrbml6Dlv6fljaHokKXlnLDop6blj5EgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZG9DYW1wVHJpZ2dlcigpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBkZWxheSgxNTAwKQogICAgICAgICAgICB2YWwgcmVzdWx0ID0gV2VsZmFyZUNlbnRlclJwY0NhbGwudHJpZ2dlcihDQU1QX0lEX0hKV1ksICLnvZHllYbpk7booYznpo/liKkiKQogICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIEpTT05PYmplY3QocmVzdWx0KSkpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5aW95a625peg5b+n5Y2h6Kem5Y+R5oiQ5YqfIOKchSIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoICh0OiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIuiQpeWcsOinpuWPkeW8guW4uDogJHt0Lm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgLyoqIOafpeivouemj+WIqeenr+WIhuS9meminSAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBkb1F1ZXJ5UG9pbnQoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZGVsYXkoMTUwMCkKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IFdlbGZhcmVDZW50ZXJScGNDYWxsLnBvaW50QmFubGFuY2UoIiIpCiAgICAgICAgICAgIHZhbCBqc29uID0gSlNPTk9iamVjdChyZXN1bHQpCiAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywganNvbikpIHsKICAgICAgICAgICAgICAgIHZhbCBwb2ludCA9IGpzb24ub3B0SlNPTk9iamVjdCgiZGF0YSIpPy5vcHRTdHJpbmcoInBvaW50QW1vdW50IiwgIiIpID86ICIiCiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuemj+WIqeenr+WIhuS9meminTogJHBvaW50IikKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi56ev5YiG5p+l6K+i5byC5bi4OiAke3QubWVzc2FnZX0iKQogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.task.welfareCenter
+
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ResChecker
+import kotlinx.coroutines.delay
+import org.json.JSONObject
+
+/**
+ * 福利中心 — 网商银行福利（签到/互动玩法/积分查询）
+ * 协议移植自芝麻糊SVIP 2.0.6.6（逆向还原）
+ */
+class WelfareCenter : ModelTask() {
+
+    companion object {
+        private const val TAG = "WelfareCenter"
+        const val MODULE_NAME = "福利中心"
+
+        /** 好家无忧卡营地 ID（来自原版协议） */
+        private const val CAMP_ID_HJWY = "CP15205657"
+
+        @Volatile var instance: WelfareCenter? = null
+    }
+
+    private lateinit var enableSign: BooleanModelField
+    private lateinit var enableCampTrigger: BooleanModelField
+    private lateinit var enableQueryPoint: BooleanModelField
+
+    override fun getName() = MODULE_NAME
+    override fun getGroup() = ModelGroup.OTHER
+    override fun getIcon() = "Default.png"
+
+    override fun getFields() = ModelFields().apply {
+        addField(BooleanModelField("welfareSign", "福利中心 | 签到", true).also { enableSign = it })
+        addField(BooleanModelField("welfareCamp", "福利中心 | 好家无忧卡触发", false).also { enableCampTrigger = it })
+        addField(BooleanModelField("welfarePoint", "福利中心 | 查积分余额", true).also { enableQueryPoint = it })
+    }
+
+    override fun prepare() { instance = this }
+    override fun destroy() { instance = null; super.destroy() }
+
+    override suspend fun runSuspend() {
+        if (enableSign.value) doSign()
+        if (enableCampTrigger.value) doCampTrigger()
+        if (enableQueryPoint.value) doQueryPoint()
+    }
+
+    /** 福利中心签到 */
+    private suspend fun doSign() {
+        try {
+            delay(1500)
+            val result = WelfareCenterRpcCall.signinPlay()
+            if (ResChecker.checkRes(TAG, JSONObject(result))) {
+                Log.record(TAG, "福利中心签到成功 ✅")
+            }
+        } catch (t: Throwable) {
+            Log.error(TAG, "签到异常: ${t.message}")
+        }
+    }
+
+    /** 好家无忧卡营地触发 */
+    private suspend fun doCampTrigger() {
+        try {
+            delay(1500)
+            val result = WelfareCenterRpcCall.trigger(CAMP_ID_HJWY, "网商银行福利")
+            if (ResChecker.checkRes(TAG, JSONObject(result))) {
+                Log.record(TAG, "好家无忧卡触发成功 ✅")
+            }
+        } catch (t: Throwable) {
+            Log.error(TAG, "营地触发异常: ${t.message}")
+        }
+    }
+
+    /** 查询福利积分余额 */
+    private suspend fun doQueryPoint() {
+        try {
+            delay(1500)
+            val result = WelfareCenterRpcCall.pointBanlance("")
+            val json = JSONObject(result)
+            if (ResChecker.checkRes(TAG, json)) {
+                val point = json.optJSONObject("data")?.optString("pointAmount", "") ?: ""
+                Log.record(TAG, "福利积分余额: $point")
+            }
+        } catch (t: Throwable) {
+            Log.error(TAG, "积分查询异常: ${t.message}")
+        }
+    }
+}

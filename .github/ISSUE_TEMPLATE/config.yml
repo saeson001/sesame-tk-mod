@@ -1,1 +1,17 @@
-YmxhbmtfaXNzdWVzX2VuYWJsZWQ6IGZhbHNlCmNvbnRhY3RfbGlua3M6CiAgLSBuYW1lOiDkuIDoiKzorqjorrogLyBEaXNjdXNzaW9ucwogICAgdXJsOiBodHRwczovL2dpdGh1Yi5jb20vYW9ndWFpL1Nlc2FtZS1BRy9kaXNjdXNzaW9ucwogICAgYWJvdXQ6IOS4gOiIrOiuqOiuuuOAgeS9v+eUqOS6pOa1geOAgeaPkOmXruOAgeaDs+azleeisOaSnuivt+S8mOWFiOWPkeWIsCBEaXNjdXNzaW9uc++8jOiAjOS4jeaYryBJc3N1ZeOAggogIC0gbmFtZTog5L2/55So6K+05piOIC8gUkVBRE1FCiAgICB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9hb2d1YWkvU2VzYW1lLUFHL2Jsb2IvZGV2L1JFQURNRS5tZAogICAgYWJvdXQ6IOaPkOS6pCBJc3N1ZSDliY3lhYjpmIXor7vpobnnm67lrprkvY3jgIHlhbzlrrnmgKfjgIHlronoo4XkuI7mnoTlu7ror7TmmI7jgIIKICAtIG5hbWU6IOazleW+i+S4jumjjumZqSAvIExFR0FMCiAgICB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9hb2d1YWkvU2VzYW1lLUFHL2Jsb2IvZGV2L0xFR0FMLm1kCiAgICBhYm91dDog5YWI56Gu6K6k5L2g6IO95o6l5Y+X6aG555uu55qE6K645Y+v6L6555WM44CB6Z2e5ZWG5Lia6ZmQ5Yi25LiO5YWN6LSj5aOw5piO44CCCiAgLSBuYW1lOiDotKHnjK7op4TojIMgLyBDT05UUklCVVRJTkcKICAgIHVybDogaHR0cHM6Ly9naXRodWIuY29tL2FvZ3VhaS9TZXNhbWUtQUcvYmxvYi9kZXYvQ09OVFJJQlVUSU5HLm1kCiAgICBhYm91dDog6K+35oyJ6L+Z6YeM55qE6KeE5YiZ5YeG5aSHIElzc3VlIC8gUHVsbCBSZXF1ZXN0IOaJgOmcgOeahOS/oeaBr+OAggogIC0gbmFtZTog6aG555uu5LuT5bqT5Li76aG1CiAgICB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9hb2d1YWkvU2VzYW1lLUFHCiAgICBhYm91dDog5rWP6KeI5rqQ56CB44CBUmVsZWFzZXMg5LiO5qih5Z2X5YWD5pWw5o2u44CCCg==
+blank_issues_enabled: false
+contact_links:
+  - name: 一般讨论 / Discussions
+    url: https://github.com/aoguai/Sesame-AG/discussions
+    about: 一般讨论、使用交流、提问、想法碰撞请优先发到 Discussions，而不是 Issue。
+  - name: 使用说明 / README
+    url: https://github.com/aoguai/Sesame-AG/blob/dev/README.md
+    about: 提交 Issue 前先阅读项目定位、兼容性、安装与构建说明。
+  - name: 法律与风险 / LEGAL
+    url: https://github.com/aoguai/Sesame-AG/blob/dev/LEGAL.md
+    about: 先确认你能接受项目的许可边界、非商业限制与免责声明。
+  - name: 贡献规范 / CONTRIBUTING
+    url: https://github.com/aoguai/Sesame-AG/blob/dev/CONTRIBUTING.md
+    about: 请按这里的规则准备 Issue / Pull Request 所需的信息。
+  - name: 项目仓库主页
+    url: https://github.com/aoguai/Sesame-AG
+    about: 浏览源码、Releases 与模块元数据。

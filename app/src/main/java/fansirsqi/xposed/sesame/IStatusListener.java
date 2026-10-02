@@ -1,1 +1,82 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZTsKCmltcG9ydCBhbmRyb2lkLm9zLkJpbmRlcjsKaW1wb3J0IGFuZHJvaWQub3MuSUJpbmRlcjsKaW1wb3J0IGFuZHJvaWQub3MuSUludGVyZmFjZTsKaW1wb3J0IGFuZHJvaWQub3MuUGFyY2VsOwppbXBvcnQgYW5kcm9pZC5vcy5SZW1vdGVFeGNlcHRpb247CgpwdWJsaWMgaW50ZXJmYWNlIElTdGF0dXNMaXN0ZW5lciBleHRlbmRzIElJbnRlcmZhY2UgewogICAgdm9pZCBvblN0YXR1c0NoYW5nZWQoU3RyaW5nIHR5cGUpIHRocm93cyBSZW1vdGVFeGNlcHRpb247CgogICAgYWJzdHJhY3QgY2xhc3MgU3R1YiBleHRlbmRzIEJpbmRlciBpbXBsZW1lbnRzIElTdGF0dXNMaXN0ZW5lciB7CiAgICAgICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIERFU0NSSVBUT1IgPSAiZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuSVN0YXR1c0xpc3RlbmVyIjsKICAgICAgICBzdGF0aWMgZmluYWwgaW50IFRSQU5TQUNUSU9OX29uU3RhdHVzQ2hhbmdlZCA9IDE7CgogICAgICAgIHB1YmxpYyBTdHViKCkgewogICAgICAgICAgICBhdHRhY2hJbnRlcmZhY2UodGhpcywgREVTQ1JJUFRPUik7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIElTdGF0dXNMaXN0ZW5lciBhc0ludGVyZmFjZShJQmluZGVyIG9iaikgewogICAgICAgICAgICBpZiAob2JqID09IG51bGwpIHJldHVybiBudWxsOwogICAgICAgICAgICBJSW50ZXJmYWNlIGlpbiA9IG9iai5xdWVyeUxvY2FsSW50ZXJmYWNlKERFU0NSSVBUT1IpOwogICAgICAgICAgICBpZiAoaWluIGluc3RhbmNlb2YgSVN0YXR1c0xpc3RlbmVyKSByZXR1cm4gKElTdGF0dXNMaXN0ZW5lcikgaWluOwogICAgICAgICAgICByZXR1cm4gbmV3IFByb3h5KG9iaik7CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgSUJpbmRlciBhc0JpbmRlcigpIHsKICAgICAgICAgICAgcmV0dXJuIHRoaXM7CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwcm90ZWN0ZWQgYm9vbGVhbiBvblRyYW5zYWN0KGludCBjb2RlLCBQYXJjZWwgZGF0YSwgUGFyY2VsIHJlcGx5LCBpbnQgZmxhZ3MpIHRocm93cyBSZW1vdGVFeGNlcHRpb24gewogICAgICAgICAgICBTdHJpbmcgZGVzY3JpcHRvciA9IERFU0NSSVBUT1I7CiAgICAgICAgICAgIHN3aXRjaCAoY29kZSkgewogICAgICAgICAgICAgICAgY2FzZSBJTlRFUkZBQ0VfVFJBTlNBQ1RJT046CiAgICAgICAgICAgICAgICAgICAgcmVwbHkud3JpdGVTdHJpbmcoZGVzY3JpcHRvcik7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgICAgICBjYXNlIFRSQU5TQUNUSU9OX29uU3RhdHVzQ2hhbmdlZDoKICAgICAgICAgICAgICAgICAgICBkYXRhLmVuZm9yY2VJbnRlcmZhY2UoZGVzY3JpcHRvcik7CiAgICAgICAgICAgICAgICAgICAgU3RyaW5nIHR5cGUgPSBkYXRhLnJlYWRTdHJpbmcoKTsKICAgICAgICAgICAgICAgICAgICBvblN0YXR1c0NoYW5nZWQodHlwZSk7CiAgICAgICAgICAgICAgICAgICAgcmVwbHkud3JpdGVOb0V4Y2VwdGlvbigpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICAgICAgZGVmYXVsdDoKICAgICAgICAgICAgICAgICAgICByZXR1cm4gc3VwZXIub25UcmFuc2FjdChjb2RlLCBkYXRhLCByZXBseSwgZmxhZ3MpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIHN0YXRpYyBjbGFzcyBQcm94eSBpbXBsZW1lbnRzIElTdGF0dXNMaXN0ZW5lciB7CiAgICAgICAgICAgIHByaXZhdGUgZmluYWwgSUJpbmRlciBtUmVtb3RlOwoKICAgICAgICAgICAgUHJveHkoSUJpbmRlciByZW1vdGUpIHsKICAgICAgICAgICAgICAgIG1SZW1vdGUgPSByZW1vdGU7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgSUJpbmRlciBhc0JpbmRlcigpIHsKICAgICAgICAgICAgICAgIHJldHVybiBtUmVtb3RlOwogICAgICAgICAgICB9CgogICAgICAgICAgICBwdWJsaWMgU3RyaW5nIGdldEludGVyZmFjZURlc2NyaXB0b3IoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gREVTQ1JJUFRPUjsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIG9uU3RhdHVzQ2hhbmdlZChTdHJpbmcgdHlwZSkgdGhyb3dzIFJlbW90ZUV4Y2VwdGlvbiB7CiAgICAgICAgICAgICAgICBQYXJjZWwgZGF0YSA9IFBhcmNlbC5vYnRhaW4oKTsKICAgICAgICAgICAgICAgIFBhcmNlbCByZXBseSA9IFBhcmNlbC5vYnRhaW4oKTsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgZGF0YS53cml0ZUludGVyZmFjZVRva2VuKERFU0NSSVBUT1IpOwogICAgICAgICAgICAgICAgICAgIGRhdGEud3JpdGVTdHJpbmcodHlwZSk7CiAgICAgICAgICAgICAgICAgICAgbVJlbW90ZS50cmFuc2FjdChUUkFOU0FDVElPTl9vblN0YXR1c0NoYW5nZWQsIGRhdGEsIHJlcGx5LCAwKTsKICAgICAgICAgICAgICAgICAgICByZXBseS5yZWFkRXhjZXB0aW9uKCk7CiAgICAgICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgICAgIHJlcGx5LnJlY3ljbGUoKTsKICAgICAgICAgICAgICAgICAgICBkYXRhLnJlY3ljbGUoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame;
+
+import android.os.Binder;
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Parcel;
+import android.os.RemoteException;
+
+public interface IStatusListener extends IInterface {
+    void onStatusChanged(String type) throws RemoteException;
+
+    abstract class Stub extends Binder implements IStatusListener {
+        private static final String DESCRIPTOR = "fansirsqi.xposed.sesame.IStatusListener";
+        static final int TRANSACTION_onStatusChanged = 1;
+
+        public Stub() {
+            attachInterface(this, DESCRIPTOR);
+        }
+
+        public static IStatusListener asInterface(IBinder obj) {
+            if (obj == null) return null;
+            IInterface iin = obj.queryLocalInterface(DESCRIPTOR);
+            if (iin instanceof IStatusListener) return (IStatusListener) iin;
+            return new Proxy(obj);
+        }
+
+        @Override
+        public IBinder asBinder() {
+            return this;
+        }
+
+        @Override
+        protected boolean onTransact(int code, Parcel data, Parcel reply, int flags) throws RemoteException {
+            String descriptor = DESCRIPTOR;
+            switch (code) {
+                case INTERFACE_TRANSACTION:
+                    reply.writeString(descriptor);
+                    return true;
+                case TRANSACTION_onStatusChanged:
+                    data.enforceInterface(descriptor);
+                    String type = data.readString();
+                    onStatusChanged(type);
+                    reply.writeNoException();
+                    return true;
+                default:
+                    return super.onTransact(code, data, reply, flags);
+            }
+        }
+
+        private static class Proxy implements IStatusListener {
+            private final IBinder mRemote;
+
+            Proxy(IBinder remote) {
+                mRemote = remote;
+            }
+
+            @Override
+            public IBinder asBinder() {
+                return mRemote;
+            }
+
+            public String getInterfaceDescriptor() {
+                return DESCRIPTOR;
+            }
+
+            @Override
+            public void onStatusChanged(String type) throws RemoteException {
+                Parcel data = Parcel.obtain();
+                Parcel reply = Parcel.obtain();
+                try {
+                    data.writeInterfaceToken(DESCRIPTOR);
+                    data.writeString(type);
+                    mRemote.transact(TRANSACTION_onStatusChanged, data, reply, 0);
+                    reply.readException();
+                } finally {
+                    reply.recycle();
+                    data.recycle();
+                }
+            }
+        }
+    }
+}

@@ -1,1 +1,40 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmludGVybmFsCgppbXBvcnQgZGUucm9idi5hbmRyb2lkLnhwb3NlZC5YcG9zZWRIZWxwZXJzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwoKLyoqCiAqIOaUr+S7mOWuneWwj+eoi+W6j+a4uOaIj+iOt+WPlmFsaXBheW1pbmltYXJrCiAqIOeUqOS6juiwg+eUqOebruagh+W6lOeUqOeahCBINUh0dHBVdGlscy5nZXRBbGlwYXlNaW5pTWFyayDmlrnms5UKICovCm9iamVjdCBBbGlwYXlNaW5pTWFya0hlbHBlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiQWxpcGF5TWluaU1hcmtIZWxwZXIiCiAgICBwcml2YXRlIHZhciBjbGFzc0xvYWRlcjogQ2xhc3NMb2FkZXI/ID0gbnVsbAogICAgLyoqCiAgICAgKiDliJ3lp4vljJYgQWxpcGF5TWluaU1hcmtIZWxwZXIKICAgICAqIEBwYXJhbSBsb2FkZXIg5bqU55So57G75Yqg6L295ZmoCiAgICAgKi8KICAgIGZ1biBpbml0KGxvYWRlcjogQ2xhc3NMb2FkZXIpIHsKICAgICAgICBjbGFzc0xvYWRlciA9IGxvYWRlcgogICAgICAgIExvZy5yZWNvcmQoVEFHLCAiQWxpcGF5TWluaU1hcmtIZWxwZXIg5Yid5aeL5YyW5a6M5oiQIikKICAgIH0KICAgIC8qKgogICAgICog6I635Y+W5pSv5LuY5a6d5bCP56iL5bqP5qCH6K6wCiAgICAgKiDpgJrov4fosIPnlKggSDVIdHRwVXRpbHMuZ2V0QWxpcGF5TWluaU1hcmsg5pa55rOV6I635Y+W5bCP56iL5bqP5qCH6K6wCiAgICAgKgogICAgICogQHBhcmFtIHN0ciDmuLjmiI9hcHBpZAogICAgICogQHBhcmFtIHN0cjIg5ri45oiP54mI5pys5Y+3CiAgICAgKiBAcmV0dXJuIOWwj+eoi+W6j+agh+iusOWtl+espuS4su+8jOWksei0pei/lOWbnuepuuWtl+espuS4sgogICAgICovCiAgICBmdW4gZ2V0QWxpcGF5TWluaU1hcmsoc3RyOiBTdHJpbmcsIHN0cjI6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGg1SHR0cFV0aWxzQ2xhc3MgPSBYcG9zZWRIZWxwZXJzLmZpbmRDbGFzcygiY29tLmFsaXBheS5tb2JpbGUubmVidWxhLnV0aWwuSDVIdHRwVXRpbHMiLCBjbGFzc0xvYWRlcikKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IFhwb3NlZEhlbHBlcnMuY2FsbFN0YXRpY01ldGhvZChoNUh0dHBVdGlsc0NsYXNzLCAiZ2V0QWxpcGF5TWluaU1hcmsiLCBzdHIsIHN0cjIpIGFzPyBTdHJpbmcKICAgICAgICAgICAgcmV0dXJuIHJlc3VsdCA/OiAiIgogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIuiOt+WPlmFsaXBheW1pbmltYXJr5aSx6LSlOiAke2UubWVzc2FnZX0iLCBlKQogICAgICAgICAgICByZXR1cm4gIiIKICAgICAgICB9CiAgICB9Cgp9
+package fansirsqi.xposed.sesame.hook.internal
+
+import de.robv.android.xposed.XposedHelpers
+import fansirsqi.xposed.sesame.util.Log
+
+/**
+ * 支付宝小程序游戏获取alipayminimark
+ * 用于调用目标应用的 H5HttpUtils.getAlipayMiniMark 方法
+ */
+object AlipayMiniMarkHelper {
+    private const val TAG = "AlipayMiniMarkHelper"
+    private var classLoader: ClassLoader? = null
+    /**
+     * 初始化 AlipayMiniMarkHelper
+     * @param loader 应用类加载器
+     */
+    fun init(loader: ClassLoader) {
+        classLoader = loader
+        Log.record(TAG, "AlipayMiniMarkHelper 初始化完成")
+    }
+    /**
+     * 获取支付宝小程序标记
+     * 通过调用 H5HttpUtils.getAlipayMiniMark 方法获取小程序标记
+     *
+     * @param str 游戏appid
+     * @param str2 游戏版本号
+     * @return 小程序标记字符串，失败返回空字符串
+     */
+    fun getAlipayMiniMark(str: String, str2: String): String {
+        try {
+            val h5HttpUtilsClass = XposedHelpers.findClass("com.alipay.mobile.nebula.util.H5HttpUtils", classLoader)
+            val result = XposedHelpers.callStaticMethod(h5HttpUtilsClass, "getAlipayMiniMark", str, str2) as? String
+            return result ?: ""
+        } catch (e: Throwable) {
+            Log.printStackTrace(TAG, "获取alipayminimark失败: ${e.message}", e)
+            return ""
+        }
+    }
+
+}

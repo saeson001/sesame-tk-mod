@@ -1,1 +1,7 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHM7CnB1YmxpYyBjbGFzcyBSZXNlcnZlYU1hcCBleHRlbmRzIElkTWFwTWFuYWdlciB7CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgdGhpc0ZpbGVOYW1lKCkgewogICAgICAgIHJldHVybiAiUmVzZXJ2ZWFNYXAuanNvbiI7Ly/kv53miqTlnLBJROaYoOWwhOihqAogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.util.maps;
+public class ReserveaMap extends IdMapManager {
+    @Override
+    public String thisFileName() {
+        return "ReserveaMap.json";//保护地ID映射表
+    }
+}

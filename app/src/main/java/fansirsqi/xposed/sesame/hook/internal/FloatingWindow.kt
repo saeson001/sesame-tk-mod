@@ -1,1 +1,233 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmludGVybmFsCgppbXBvcnQgYW5kcm9pZC5hcHAuQWN0aXZpdHkKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLioKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuZHJhd2FibGUuR3JhZGllbnREcmF3YWJsZQppbXBvcnQgYW5kcm9pZC5vcy5IYW5kbGVyCmltcG9ydCBhbmRyb2lkLm9zLkxvb3BlcgppbXBvcnQgYW5kcm9pZC52aWV3LioKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LioKaW1wb3J0IGRlLnJvYnYuYW5kcm9pZC54cG9zZWQuWENfTWV0aG9kSG9vawppbXBvcnQgZGUucm9idi5hbmRyb2lkLnhwb3NlZC5YcG9zZWRIZWxwZXJzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLkFwcGxpY2F0aW9uSG9vawppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5GaWxlcwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlV3JpdGVyCmltcG9ydCBqYXZhLnRleHQuU2ltcGxlRGF0ZUZvcm1hdAppbXBvcnQgamF2YS51dGlsLioKCi8qKgogKiDmgqzmta7nqpfosIPor5XliqnmiYsg4oCUIOeugOa0geWchueQgyArIOWxleW8gOmdouadvwogKi8Kb2JqZWN0IEZsb2F0aW5nV2luZG93IHsKCiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiRmxvYXRpbmdXaW5kb3ciCiAgICBwcml2YXRlIHZhciB3bTogV2luZG93TWFuYWdlcj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBiYWxsVmlldzogVmlldz8gPSBudWxsCiAgICBwcml2YXRlIHZhciBwYW5lbFZpZXc6IFZpZXc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgaXNQYW5lbFNob3duID0gZmFsc2UKICAgIHByaXZhdGUgdmFyIGlzU2hvd24gPSBmYWxzZQogICAgcHJpdmF0ZSB2YXIgY3VycmVudEFjdGl2aXR5ID0gIiIKICAgIHByaXZhdGUgdmFyIHdyaXRlcjogRmlsZVdyaXRlcj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBpc1JlY29yZGluZyA9IGZhbHNlCgogICAgcHJpdmF0ZSB2YWwgYmFsbFNpemUgPSA4OAogICAgcHJpdmF0ZSB2YWwgaGFuZGxlciA9IEhhbmRsZXIoTG9vcGVyLmdldE1haW5Mb29wZXIoKSkKCiAgICBwcml2YXRlIHZhbCBhY2NlbnRDb2xvciA9IENvbG9yLnBhcnNlQ29sb3IoIiMxNjc3RkYiKQogICAgcHJpdmF0ZSB2YWwgYmdDb2xvciA9IENvbG9yLnBhcnNlQ29sb3IoIiNFODFBMUExQSIpCgogICAgcHJpdmF0ZSB2YXIgcGFyYW1zOiBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcz8gPSBudWxsCgogICAgZnVuIHNob3coY29udGV4dDogQ29udGV4dCwgcHJvY2Vzc05hbWU6IFN0cmluZz8gPSBudWxsKSB7CiAgICAgICAgaWYgKGlzU2hvd24pIHJldHVybgogICAgICAgIGlmIChwcm9jZXNzTmFtZSAhPSBudWxsICYmIHByb2Nlc3NOYW1lICE9ICJjb20uZWcuYW5kcm9pZC5BbGlwYXlHcGhvbmUiKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi6Lez6L+HOiAkcHJvY2Vzc05hbWUiKTsgcmV0dXJuCiAgICAgICAgfQogICAgICAgIHZhbCBjdHggPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgICAgIHdtID0gY3R4LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5XSU5ET1dfU0VSVklDRSkgYXMgV2luZG93TWFuYWdlcgogICAgICAgIGluc3RhbGxBY3Rpdml0eUhvb2soKQoKICAgICAgICAvLyDmgqzmta7nkIMg4oCUIOWchuinkuefqeW9ogogICAgICAgIGJhbGxWaWV3ID0gVGV4dFZpZXcoY3R4KS5hcHBseSB7CiAgICAgICAgICAgIHRleHQgPSAiVEsiCiAgICAgICAgICAgIHNldFRleHRDb2xvcihDb2xvci5XSElURSkKICAgICAgICAgICAgdGV4dFNpemUgPSAxNGYKICAgICAgICAgICAgZ3Jhdml0eSA9IEdyYXZpdHkuQ0VOVEVSCiAgICAgICAgICAgIHR5cGVmYWNlID0gVHlwZWZhY2UuREVGQVVMVF9CT0xECiAgICAgICAgICAgIHNldEJhY2tncm91bmRDb2xvcihhY2NlbnRDb2xvcikKICAgICAgICAgICAgdmFsIGJnID0gR3JhZGllbnREcmF3YWJsZSgpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHNoYXBlID0gR3JhZGllbnREcmF3YWJsZS5SRUNUQU5HTEU7IGNvcm5lclJhZGl1cyA9IGJhbGxTaXplIC8gMmYKICAgICAgICAgICAgICAgIHNldENvbG9yKGFjY2VudENvbG9yKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGJhY2tncm91bmQgPSBiZwogICAgICAgICAgICBzZXRQYWRkaW5nKDAsIDAsIDAsIDApCiAgICAgICAgfQoKICAgICAgICBwYXJhbXMgPSBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcygKICAgICAgICAgICAgYmFsbFNpemUsIGJhbGxTaXplLAogICAgICAgICAgICBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcy5UWVBFX0FQUExJQ0FUSU9OX09WRVJMQVksCiAgICAgICAgICAgIFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLkZMQUdfTk9UX0ZPQ1VTQUJMRSBvciBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcy5GTEFHX0xBWU9VVF9JTl9TQ1JFRU4sCiAgICAgICAgICAgIFBpeGVsRm9ybWF0LlRSQU5TTFVDRU5UCiAgICAgICAgKS5hcHBseSB7CiAgICAgICAgICAgIGdyYXZpdHkgPSBHcmF2aXR5LlRPUCBvciBHcmF2aXR5LkVORAogICAgICAgICAgICB4ID0gMTA7IHkgPSAzMDAKICAgICAgICB9CgogICAgICAgIHZhciBpeCA9IDA7IHZhciBpeSA9IDA7IHZhciBpdHggPSAwZjsgdmFyIGl0eSA9IDBmOyB2YXIgbW92ZWQgPSBmYWxzZQogICAgICAgIGJhbGxWaWV3Py5zZXRPblRvdWNoTGlzdGVuZXIgeyBfLCBldmVudCAtPgogICAgICAgICAgICB3aGVuIChldmVudC5hY3Rpb24pIHsKICAgICAgICAgICAgICAgIE1vdGlvbkV2ZW50LkFDVElPTl9ET1dOIC0+IHsgaXggPSBwYXJhbXMhIS54OyBpeSA9IHBhcmFtcyEhLnk7IGl0eCA9IGV2ZW50LnJhd1g7IGl0eSA9IGV2ZW50LnJhd1k7IG1vdmVkID0gZmFsc2U7IHRydWUgfQogICAgICAgICAgICAgICAgTW90aW9uRXZlbnQuQUNUSU9OX01PVkUgLT4geyBwYXJhbXMhIS54ID0gaXggKyAoZXZlbnQucmF3WCAtIGl0eCkudG9JbnQoKTsgcGFyYW1zISEueSA9IGl5ICsgKGV2ZW50LnJhd1kgLSBpdHkpLnRvSW50KCk7IHdtPy51cGRhdGVWaWV3TGF5b3V0KGJhbGxWaWV3LCBwYXJhbXMpOyBtb3ZlZCA9IHRydWU7IHRydWUgfQogICAgICAgICAgICAgICAgTW90aW9uRXZlbnQuQUNUSU9OX1VQIC0+IHsgaWYgKCFtb3ZlZCkgdG9nZ2xlUGFuZWwoY3R4KTsgdHJ1ZSB9CiAgICAgICAgICAgICAgICBlbHNlIC0+IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHdtPy5hZGRWaWV3KGJhbGxWaWV3LCBwYXJhbXMpCiAgICAgICAgaXNTaG93biA9IHRydWUKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuaCrOa1rueQg+W3suaYvuekuiIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdG9nZ2xlUGFuZWwoY3R4OiBDb250ZXh0KSB7CiAgICAgICAgaWYgKGlzUGFuZWxTaG93bikgeyBoaWRlUGFuZWwoKTsgcmV0dXJuIH0KICAgICAgICBzaG93UGFuZWwoY3R4KQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNob3dQYW5lbChjdHg6IENvbnRleHQpIHsKICAgICAgICBoaWRlUGFuZWwoKQogICAgICAgIHZhbCBkcCA9IGN0eC5yZXNvdXJjZXMuZGlzcGxheU1ldHJpY3MuZGVuc2l0eQoKICAgICAgICB2YWwgcGFuZWwgPSBMaW5lYXJMYXlvdXQoY3R4KS5hcHBseSB7CiAgICAgICAgICAgIG9yaWVudGF0aW9uID0gTGluZWFyTGF5b3V0LlZFUlRJQ0FMCiAgICAgICAgICAgIHNldEJhY2tncm91bmRDb2xvcihiZ0NvbG9yKQogICAgICAgICAgICBzZXRQYWRkaW5nKGRwMnB4KDEyLCBkcCksIGRwMnB4KDEwLCBkcCksIGRwMnB4KDEyLCBkcCksIGRwMnB4KDEwLCBkcCkpCiAgICAgICAgICAgIHZhbCBiZyA9IEdyYWRpZW50RHJhd2FibGUoKS5hcHBseSB7IHNoYXBlID0gR3JhZGllbnREcmF3YWJsZS5SRUNUQU5HTEU7IGNvcm5lclJhZGl1cyA9IGRwMnB4KDEyLCBkcCkudG9GbG9hdCgpOyBzZXRDb2xvcihiZ0NvbG9yKSB9CiAgICAgICAgICAgIGJhY2tncm91bmQgPSBiZwogICAgICAgIH0KCiAgICAgICAgLy8g54q25oCB6KGMCiAgICAgICAgdmFsIHN0YXR1cyA9IFRleHRWaWV3KGN0eCkuYXBwbHkgewogICAgICAgICAgICB0ZXh0ID0gIvCfk40gJGN1cnJlbnRBY3Rpdml0eSIKICAgICAgICAgICAgc2V0VGV4dENvbG9yKENvbG9yLnBhcnNlQ29sb3IoIiNBQUFBQUEiKSk7IHRleHRTaXplID0gMTBmCiAgICAgICAgICAgIHNldFBhZGRpbmcoMCwgMCwgMCwgZHAycHgoNiwgZHApKQogICAgICAgIH0KICAgICAgICBwYW5lbC5hZGRWaWV3KHN0YXR1cykKCiAgICAgICAgLy8g5oyJ6ZKuCiAgICAgICAgZnVuIGFkZEJ0bihsYWJlbDogU3RyaW5nLCBjb2xvcjogSW50LCBhY3Rpb246ICgpIC0+IFVuaXQpOiBCdXR0b24gewogICAgICAgICAgICByZXR1cm4gQnV0dG9uKGN0eCkuYXBwbHkgewogICAgICAgICAgICAgICAgdGV4dCA9IGxhYmVsCiAgICAgICAgICAgICAgICBzZXRUZXh0Q29sb3IoQ29sb3IuV0hJVEUpOyB0ZXh0U2l6ZSA9IDExZgogICAgICAgICAgICAgICAgc2V0QmFja2dyb3VuZENvbG9yKGNvbG9yKQogICAgICAgICAgICAgICAgc2V0UGFkZGluZyhkcDJweCgxMCwgZHApLCBkcDJweCg2LCBkcCksIGRwMnB4KDEwLCBkcCksIGRwMnB4KDYsIGRwKSkKICAgICAgICAgICAgICAgIHZhbCBiZyA9IEdyYWRpZW50RHJhd2FibGUoKS5hcHBseSB7IHNoYXBlID0gR3JhZGllbnREcmF3YWJsZS5SRUNUQU5HTEU7IGNvcm5lclJhZGl1cyA9IGRwMnB4KDYsIGRwKS50b0Zsb2F0KCk7IHNldENvbG9yKGNvbG9yKSB9CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kID0gYmcKICAgICAgICAgICAgICAgIHNldE9uQ2xpY2tMaXN0ZW5lciB7IGFjdGlvbigpIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFsIHJvdzEgPSBMaW5lYXJMYXlvdXQoY3R4KS5hcHBseSB7IG9yaWVudGF0aW9uID0gTGluZWFyTGF5b3V0LkhPUklaT05UQUw7IGdyYXZpdHkgPSBHcmF2aXR5LkNFTlRFUiB9CiAgICAgICAgcm93MS5hZGRWaWV3KGFkZEJ0bigi8J+TiyDmipPpobXpnaIiLCBDb2xvci5wYXJzZUNvbG9yKCIjMTU2NUMwIikpIHsgY2FwdHVyZVBhZ2UoKSB9KQogICAgICAgIHJvdzEuYWRkVmlldyhTcGFjZShjdHgpLmFwcGx5IHsgbGF5b3V0UGFyYW1zID0gTGluZWFyTGF5b3V0LkxheW91dFBhcmFtcyhkcDJweCg4LCBkcCksIDApIH0pCiAgICAgICAgcm93MS5hZGRWaWV3KGFkZEJ0bihpZihpc1JlY29yZGluZyki4o+5IOWBnOatoiIgZWxzZSAi4o+6IOW9lVJQQyIsIENvbG9yLnBhcnNlQ29sb3IoIiNDNjI4MjgiKSkgeyB0b2dnbGVSZWNvcmQoKSB9KQogICAgICAgIHBhbmVsLmFkZFZpZXcocm93MSkKCiAgICAgICAgdmFsIHJvdzIgPSBMaW5lYXJMYXlvdXQoY3R4KS5hcHBseSB7IG9yaWVudGF0aW9uID0gTGluZWFyTGF5b3V0LkhPUklaT05UQUw7IGdyYXZpdHkgPSBHcmF2aXR5LkNFTlRFUjsgc2V0UGFkZGluZygwLCBkcDJweCg2LCBkcCksIDAsIDApIH0KICAgICAgICByb3cyLmFkZFZpZXcoYWRkQnRuKCLwn6enIOWIt+inhumikSIsIENvbG9yLnBhcnNlQ29sb3IoIiMyRTdEMzIiKSkgewogICAgICAgICAgICBBcHBsaWNhdGlvbkhvb2suZXhlY0hhbmRsZXIoKQogICAgICAgICAgICBUb2FzdC5tYWtlVGV4dChjdHgsICLlt7Lop6blj5Hku7vliqHmiafooYwiLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgICAgIH0pCiAgICAgICAgcm93Mi5hZGRWaWV3KFNwYWNlKGN0eCkuYXBwbHkgeyBsYXlvdXRQYXJhbXMgPSBMaW5lYXJMYXlvdXQuTGF5b3V0UGFyYW1zKGRwMnB4KDgsIGRwKSwgMCkgfSkKICAgICAgICByb3cyLmFkZFZpZXcoYWRkQnRuKCLinJUg5YWz6ZetIiwgQ29sb3IuR1JBWSkgeyBoaWRlUGFuZWwoKSB9KQogICAgICAgIHBhbmVsLmFkZFZpZXcocm93MikKCiAgICAgICAgcGFuZWxWaWV3ID0gcGFuZWwKCiAgICAgICAgdmFsIHAgPSBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcygtMiwgLTIsCiAgICAgICAgICAgIFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLlRZUEVfQVBQTElDQVRJT05fT1ZFUkxBWSwKICAgICAgICAgICAgV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuRkxBR19OT1RfRk9DVVNBQkxFIG9yIFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLkZMQUdfTEFZT1VUX0lOX1NDUkVFTiwKICAgICAgICAgICAgUGl4ZWxGb3JtYXQuVFJBTlNMVUNFTlQKICAgICAgICApLmFwcGx5IHsKICAgICAgICAgICAgZ3Jhdml0eSA9IEdyYXZpdHkuVE9QIG9yIEdyYXZpdHkuRU5ECiAgICAgICAgICAgIHggPSAxMDsgeSA9IDMwMCArIGJhbGxTaXplICsgZHAycHgoOCwgZHApCiAgICAgICAgfQoKICAgICAgICB3bT8uYWRkVmlldyhwYW5lbFZpZXcsIHApCiAgICAgICAgaXNQYW5lbFNob3duID0gdHJ1ZQogICAgfQoKICAgIHByaXZhdGUgZnVuIGhpZGVQYW5lbCgpIHsKICAgICAgICB0cnkgeyBpZiAocGFuZWxWaWV3ICE9IG51bGwpIHdtPy5yZW1vdmVWaWV3KHBhbmVsVmlldykgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7fQogICAgICAgIHBhbmVsVmlldyA9IG51bGw7IGlzUGFuZWxTaG93biA9IGZhbHNlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY2FwdHVyZVBhZ2UoKSB7CiAgICAgICAgdmFsIHNiID0gU3RyaW5nQnVpbGRlcigpCiAgICAgICAgdmFsIHRzID0gU2ltcGxlRGF0ZUZvcm1hdCgiTU0tZGQgSEg6bW06c3MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKS5mb3JtYXQoRGF0ZSgpKQogICAgICAgIHNiLmFwcGVuZExpbmUoIj09PSAkdHMgPT09IikKICAgICAgICBzYi5hcHBlbmRMaW5lKCJBY3Rpdml0eTogJGN1cnJlbnRBY3Rpdml0eSIpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGFwcCA9IENsYXNzLmZvck5hbWUoImNvbS5hbGlwYXkubW9iaWxlLmZyYW1ld29yay5BbGlwYXlBcHBsaWNhdGlvbiIpCiAgICAgICAgICAgIHZhbCBpbnN0ID0gYXBwLmdldE1ldGhvZCgiZ2V0SW5zdGFuY2UiKS5pbnZva2UobnVsbCkKICAgICAgICAgICAgdmFsIG1jID0gYXBwLmdldE1ldGhvZCgiZ2V0TWljcm9BcHBsaWNhdGlvbkNvbnRleHQiKS5pbnZva2UoaW5zdCkKICAgICAgICAgICAgdmFsIHRhID0gbWMuamF2YUNsYXNzLmdldE1ldGhvZCgiZ2V0VG9wQWN0aXZpdHkiKS5pbnZva2UobWMpIGFzPyBBY3Rpdml0eQogICAgICAgICAgICBpZiAodGEgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgdmFsIGZtID0gdGEuZnJhZ21lbnRNYW5hZ2VyCiAgICAgICAgICAgICAgICBzYi5hcHBlbmRMaW5lKCJGcmFnbWVudHM6ICR7Zm0uZnJhZ21lbnRzLnNpemV9IikKICAgICAgICAgICAgICAgIGZtLmZyYWdtZW50cy5mb3JFYWNoIHsgZiAtPiBzYi5hcHBlbmRMaW5lKCIgICR7Zi5qYXZhQ2xhc3MubmFtZX0iKSB9CiAgICAgICAgICAgICAgICAvLyBkdW1wIHZpZXcgdHJlZQogICAgICAgICAgICAgICAgaWYgKHRhLndpbmRvdz8uZGVjb3JWaWV3ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBkdW1wVmlldyh0YS53aW5kb3chIS5kZWNvclZpZXcsIHNiLCAiICAiLCAwKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7fQogICAgICAgIHZhbCBpbmZvID0gc2IudG9TdHJpbmcoKQogICAgICAgIC8vIFNhdmUKICAgICAgICB2YWwgZmlsZSA9IEZpbGUoRmlsZXMuQ09ORklHX0RJUi5wYXJlbnRGaWxlLCAicGFnZV9jYXB0dXJlLnR4dCIpCiAgICAgICAgdHJ5IHsgRmlsZVdyaXRlcihmaWxlLCB0cnVlKS51c2UgeyBpdC5hcHBlbmQoaW5mbyArICJcbiIpIH0gfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7fQogICAgICAgIExvZy5yZWNvcmQoVEFHLCAi6aG16Z2i5bey5o2V6I63IikKICAgICAgICBoaWRlUGFuZWwoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGR1bXBWaWV3KHY6IFZpZXcsIHNiOiBTdHJpbmdCdWlsZGVyLCBpbmRlbnQ6IFN0cmluZywgZGVwdGg6IEludCkgewogICAgICAgIGlmIChkZXB0aCA+IDE1IHx8IHNiLmxlbmd0aCA+IDMwMDApIHJldHVybgogICAgICAgIHZhbCBpZE5hbWUgPSB0cnkgeyB2LnJlc291cmNlcy5nZXRSZXNvdXJjZUVudHJ5TmFtZSh2LmlkKSB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHsgIjB4JHtJbnRlZ2VyLnRvSGV4U3RyaW5nKHYuaWQpfSIgfQogICAgICAgIHNiLmFwcGVuZExpbmUoIiRpbmRlbnQke3YuamF2YUNsYXNzLnNpbXBsZU5hbWV9IFskaWROYW1lXSAke3Yud2lkdGh9eCR7di5oZWlnaHR9IikKICAgICAgICBpZiAodiBpcyBWaWV3R3JvdXApIHsKICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgdi5jaGlsZENvdW50LmNvZXJjZUF0TW9zdCgxMCkpIHsKICAgICAgICAgICAgICAgIGR1bXBWaWV3KHYuZ2V0Q2hpbGRBdChpKSwgc2IsICIkaW5kZW50ICAiLCBkZXB0aCArIDEpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdG9nZ2xlUmVjb3JkKCkgewogICAgICAgIGlzUmVjb3JkaW5nID0gIWlzUmVjb3JkaW5nCiAgICAgICAgaWYgKGlzUmVjb3JkaW5nKSB7CiAgICAgICAgICAgIHZhbCBmbiA9ICJycGNfZndfJHtTaW1wbGVEYXRlRm9ybWF0KCJISG1tc3MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKS5mb3JtYXQoRGF0ZSgpKX0udHh0IgogICAgICAgICAgICB3cml0ZXIgPSBGaWxlV3JpdGVyKEZpbGUoRmlsZXMuQ09ORklHX0RJUi5wYXJlbnRGaWxlLCBmbiksIHRydWUpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdHJ5IHsgd3JpdGVyPy5jbG9zZSgpIH0gY2F0Y2ggKF86IFRocm93YWJsZSkge30KICAgICAgICAgICAgd3JpdGVyID0gbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBmdW4gd3JpdGVScGMoZW50cnk6IFN0cmluZykgewogICAgICAgIHRyeSB7IHdyaXRlcj8uYXBwZW5kKGVudHJ5KT8uYXBwZW5kKCJcbiIpPy5mbHVzaCgpIH0gY2F0Y2ggKF86IFRocm93YWJsZSkge30KICAgIH0KCiAgICBwcml2YXRlIGZ1biBpbnN0YWxsQWN0aXZpdHlIb29rKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIFhwb3NlZEhlbHBlcnMuZmluZEFuZEhvb2tNZXRob2QoQWN0aXZpdHk6OmNsYXNzLmphdmEsICJvblJlc3VtZSIsIG9iamVjdCA6IFhDX01ldGhvZEhvb2soKSB7CiAgICAgICAgICAgICAgICBvdmVycmlkZSBmdW4gYWZ0ZXJIb29rZWRNZXRob2QocGFyYW06IE1ldGhvZEhvb2tQYXJhbSkgewogICAgICAgICAgICAgICAgICAgIGN1cnJlbnRBY3Rpdml0eSA9IChwYXJhbS50aGlzT2JqZWN0IGFzIEFjdGl2aXR5KS5qYXZhQ2xhc3Muc2ltcGxlTmFtZQogICAgICAgICAgICAgICAgICAgIHRyeSB7IHdyaXRlcj8uYXBwZW5kKCJbJHtTaW1wbGVEYXRlRm9ybWF0KCJISDptbTpzcyIsIExvY2FsZS5nZXREZWZhdWx0KCkpLmZvcm1hdChEYXRlKCkpfV0gJGN1cnJlbnRBY3Rpdml0eVxuIik/LmZsdXNoKCkgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7fQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KQogICAgICAgIH0gY2F0Y2ggKF86IFRocm93YWJsZSkge30KICAgIH0KCiAgICBwcml2YXRlIGZ1biBkcDJweChkcDogSW50LCBkZW5zaXR5OiBGbG9hdCkgPSAoZHAgKiBkZW5zaXR5ICsgMC41ZikudG9JbnQoKQp9Cg==
+package fansirsqi.xposed.sesame.hook.internal
+
+import android.app.Activity
+import android.content.Context
+import android.graphics.*
+import android.graphics.drawable.GradientDrawable
+import android.os.Handler
+import android.os.Looper
+import android.view.*
+import android.widget.*
+import de.robv.android.xposed.XC_MethodHook
+import de.robv.android.xposed.XposedHelpers
+import fansirsqi.xposed.sesame.hook.ApplicationHook
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.Log
+import java.io.File
+import java.io.FileWriter
+import java.text.SimpleDateFormat
+import java.util.*
+
+/**
+ * 悬浮窗调试助手 — 简洁圆球 + 展开面板
+ */
+object FloatingWindow {
+
+    private const val TAG = "FloatingWindow"
+    private var wm: WindowManager? = null
+    private var ballView: View? = null
+    private var panelView: View? = null
+    private var isPanelShown = false
+    private var isShown = false
+    private var currentActivity = ""
+    private var writer: FileWriter? = null
+    private var isRecording = false
+
+    private val ballSize = 88
+    private val handler = Handler(Looper.getMainLooper())
+
+    private val accentColor = Color.parseColor("#1677FF")
+    private val bgColor = Color.parseColor("#E81A1A1A")
+
+    private var params: WindowManager.LayoutParams? = null
+
+    fun show(context: Context, processName: String? = null) {
+        if (isShown) return
+        if (processName != null && processName != "com.eg.android.AlipayGphone") {
+            Log.record(TAG, "跳过: $processName"); return
+        }
+        val ctx = context.applicationContext
+        wm = ctx.getSystemService(Context.WINDOW_SERVICE) as WindowManager
+        installActivityHook()
+
+        // 悬浮球 — 圆角矩形
+        ballView = TextView(ctx).apply {
+            text = "TK"
+            setTextColor(Color.WHITE)
+            textSize = 14f
+            gravity = Gravity.CENTER
+            typeface = Typeface.DEFAULT_BOLD
+            setBackgroundColor(accentColor)
+            val bg = GradientDrawable().apply {
+                shape = GradientDrawable.RECTANGLE; cornerRadius = ballSize / 2f
+                setColor(accentColor)
+            }
+            background = bg
+            setPadding(0, 0, 0, 0)
+        }
+
+        params = WindowManager.LayoutParams(
+            ballSize, ballSize,
+            WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+            WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
+            PixelFormat.TRANSLUCENT
+        ).apply {
+            gravity = Gravity.TOP or Gravity.END
+            x = 10; y = 300
+        }
+
+        var ix = 0; var iy = 0; var itx = 0f; var ity = 0f; var moved = false
+        ballView?.setOnTouchListener { _, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> { ix = params!!.x; iy = params!!.y; itx = event.rawX; ity = event.rawY; moved = false; true }
+                MotionEvent.ACTION_MOVE -> { params!!.x = ix + (event.rawX - itx).toInt(); params!!.y = iy + (event.rawY - ity).toInt(); wm?.updateViewLayout(ballView, params); moved = true; true }
+                MotionEvent.ACTION_UP -> { if (!moved) togglePanel(ctx); true }
+                else -> false
+            }
+        }
+
+        wm?.addView(ballView, params)
+        isShown = true
+        Log.record(TAG, "悬浮球已显示")
+    }
+
+    private fun togglePanel(ctx: Context) {
+        if (isPanelShown) { hidePanel(); return }
+        showPanel(ctx)
+    }
+
+    private fun showPanel(ctx: Context) {
+        hidePanel()
+        val dp = ctx.resources.displayMetrics.density
+
+        val panel = LinearLayout(ctx).apply {
+            orientation = LinearLayout.VERTICAL
+            setBackgroundColor(bgColor)
+            setPadding(dp2px(12, dp), dp2px(10, dp), dp2px(12, dp), dp2px(10, dp))
+            val bg = GradientDrawable().apply { shape = GradientDrawable.RECTANGLE; cornerRadius = dp2px(12, dp).toFloat(); setColor(bgColor) }
+            background = bg
+        }
+
+        // 状态行
+        val status = TextView(ctx).apply {
+            text = "📍 $currentActivity"
+            setTextColor(Color.parseColor("#AAAAAA")); textSize = 10f
+            setPadding(0, 0, 0, dp2px(6, dp))
+        }
+        panel.addView(status)
+
+        // 按钮
+        fun addBtn(label: String, color: Int, action: () -> Unit): Button {
+            return Button(ctx).apply {
+                text = label
+                setTextColor(Color.WHITE); textSize = 11f
+                setBackgroundColor(color)
+                setPadding(dp2px(10, dp), dp2px(6, dp), dp2px(10, dp), dp2px(6, dp))
+                val bg = GradientDrawable().apply { shape = GradientDrawable.RECTANGLE; cornerRadius = dp2px(6, dp).toFloat(); setColor(color) }
+                background = bg
+                setOnClickListener { action() }
+            }
+        }
+
+        val row1 = LinearLayout(ctx).apply { orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER }
+        row1.addView(addBtn("📋 抓页面", Color.parseColor("#1565C0")) { capturePage() })
+        row1.addView(Space(ctx).apply { layoutParams = LinearLayout.LayoutParams(dp2px(8, dp), 0) })
+        row1.addView(addBtn(if(isRecording)"⏹ 停止" else "⏺ 录RPC", Color.parseColor("#C62828")) { toggleRecord() })
+        panel.addView(row1)
+
+        val row2 = LinearLayout(ctx).apply { orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER; setPadding(0, dp2px(6, dp), 0, 0) }
+        row2.addView(addBtn("🧧 刷视频", Color.parseColor("#2E7D32")) {
+            ApplicationHook.execHandler()
+            Toast.makeText(ctx, "已触发任务执行", Toast.LENGTH_SHORT).show()
+        })
+        row2.addView(Space(ctx).apply { layoutParams = LinearLayout.LayoutParams(dp2px(8, dp), 0) })
+        row2.addView(addBtn("✕ 关闭", Color.GRAY) { hidePanel() })
+        panel.addView(row2)
+
+        panelView = panel
+
+        val p = WindowManager.LayoutParams(-2, -2,
+            WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+            WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
+            PixelFormat.TRANSLUCENT
+        ).apply {
+            gravity = Gravity.TOP or Gravity.END
+            x = 10; y = 300 + ballSize + dp2px(8, dp)
+        }
+
+        wm?.addView(panelView, p)
+        isPanelShown = true
+    }
+
+    private fun hidePanel() {
+        try { if (panelView != null) wm?.removeView(panelView) } catch (_: Throwable) {}
+        panelView = null; isPanelShown = false
+    }
+
+    private fun capturePage() {
+        val sb = StringBuilder()
+        val ts = SimpleDateFormat("MM-dd HH:mm:ss", Locale.getDefault()).format(Date())
+        sb.appendLine("=== $ts ===")
+        sb.appendLine("Activity: $currentActivity")
+        try {
+            val app = Class.forName("com.alipay.mobile.framework.AlipayApplication")
+            val inst = app.getMethod("getInstance").invoke(null)
+            val mc = app.getMethod("getMicroApplicationContext").invoke(inst)
+            val ta = mc.javaClass.getMethod("getTopActivity").invoke(mc) as? Activity
+            if (ta != null) {
+                val fm = ta.fragmentManager
+                sb.appendLine("Fragments: ${fm.fragments.size}")
+                fm.fragments.forEach { f -> sb.appendLine("  ${f.javaClass.name}") }
+                // dump view tree
+                if (ta.window?.decorView != null) {
+                    dumpView(ta.window!!.decorView, sb, "  ", 0)
+                }
+            }
+        } catch (_: Throwable) {}
+        val info = sb.toString()
+        // Save
+        val file = File(Files.CONFIG_DIR.parentFile, "page_capture.txt")
+        try { FileWriter(file, true).use { it.append(info + "\n") } } catch (_: Throwable) {}
+        Log.record(TAG, "页面已捕获")
+        hidePanel()
+    }
+
+    private fun dumpView(v: View, sb: StringBuilder, indent: String, depth: Int) {
+        if (depth > 15 || sb.length > 3000) return
+        val idName = try { v.resources.getResourceEntryName(v.id) } catch (_: Throwable) { "0x${Integer.toHexString(v.id)}" }
+        sb.appendLine("$indent${v.javaClass.simpleName} [$idName] ${v.width}x${v.height}")
+        if (v is ViewGroup) {
+            for (i in 0 until v.childCount.coerceAtMost(10)) {
+                dumpView(v.getChildAt(i), sb, "$indent  ", depth + 1)
+            }
+        }
+    }
+
+    private fun toggleRecord() {
+        isRecording = !isRecording
+        if (isRecording) {
+            val fn = "rpc_fw_${SimpleDateFormat("HHmmss", Locale.getDefault()).format(Date())}.txt"
+            writer = FileWriter(File(Files.CONFIG_DIR.parentFile, fn), true)
+        } else {
+            try { writer?.close() } catch (_: Throwable) {}
+            writer = null
+        }
+    }
+
+    fun writeRpc(entry: String) {
+        try { writer?.append(entry)?.append("\n")?.flush() } catch (_: Throwable) {}
+    }
+
+    private fun installActivityHook() {
+        try {
+            XposedHelpers.findAndHookMethod(Activity::class.java, "onResume", object : XC_MethodHook() {
+                override fun afterHookedMethod(param: MethodHookParam) {
+                    currentActivity = (param.thisObject as Activity).javaClass.simpleName
+                    try { writer?.append("[${SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(Date())}] $currentActivity\n")?.flush() } catch (_: Throwable) {}
+                }
+            })
+        } catch (_: Throwable) {}
+    }
+
+    private fun dp2px(dp: Int, density: Float) = (dp * density + 0.5f).toInt()
+}

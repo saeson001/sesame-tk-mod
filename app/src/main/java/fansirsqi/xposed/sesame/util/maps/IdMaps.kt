@@ -1,1 +1,122 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMKCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uY29yZS50eXBlLlR5cGVSZWZlcmVuY2UKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5kYXRhYmluZC5PYmplY3RNYXBwZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRmlsZXMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuSnNvblV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBqYXZhLnV0aWwuQ29sbGVjdGlvbnMKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCgovKioKICog5oq96LGh6YCa55So5pig5bCE5bel5YW357G777yM5pSv5oyB5Lu75oSP57G75Z6L55qES2V55ZKMVmFsdWXjgIIKICovCmFic3RyYWN0IGNsYXNzIElkTWFwcyBwcml2YXRlIGNvbnN0cnVjdG9yKCkgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIklkTWFwcyIKICAgICAgICBwcml2YXRlIHZhbCBpbnN0YW5jZXMgPSBDb25jdXJyZW50SGFzaE1hcDxDbGFzczxvdXQgSWRNYXBzPiwgSWRNYXBzPigpCgogICAgICAgIEBTeW5jaHJvbml6ZWQKICAgICAgICBmdW4gPFQgOiBJZE1hcHM+IGdldEluc3RhbmNlKGNsYXp6OiBDbGFzczxUPik6IFQgewogICAgICAgICAgICB2YXIgaW5zdGFuY2UgPSBjbGF6ei5jYXN0KGluc3RhbmNlc1tjbGF6el0pCiAgICAgICAgICAgIGlmIChpbnN0YW5jZSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGluc3RhbmNlID0gY2xhenouZ2V0RGVjbGFyZWRDb25zdHJ1Y3RvcigpLm5ld0luc3RhbmNlKCkKICAgICAgICAgICAgICAgICAgICAvLyDinIUg5bCGIGluc3RhbmNlIOWQkeS4iui9rOWei+S4uiBJZE1hcHPvvIzlho3lrZjlhaUgbWFwCiAgICAgICAgICAgICAgICAgICAgaW5zdGFuY2VzW2NsYXp6XSA9IGluc3RhbmNlIGFzIElkTWFwcwogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgdGhyb3cgUnVudGltZUV4Y2VwdGlvbigiRmFpbGVkIHRvIGNyZWF0ZSBpbnN0YW5jZSBmb3IgJHtjbGF6ei5uYW1lfSIsIGUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGluc3RhbmNlCiAgICAgICAgfQogICAgfQoKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBmdW4gdGhpc0ZpbGVOYW1lKCk6IFN0cmluZwoKICAgIHByaXZhdGUgdmFsIGlkTWFwID0gQ29uY3VycmVudEhhc2hNYXA8QW55LCBBbnk+KCkKICAgIHZhbCBtYXA6IE1hcDxBbnksIEFueT4gPSBDb2xsZWN0aW9ucy51bm1vZGlmaWFibGVNYXAoaWRNYXApCgogICAgQFN1cHByZXNzKCJVTkNIRUNLRURfQ0FTVCIpCiAgICBmdW4gPFQ+IGdldChrZXk6IEFueSk6IFQ/IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgaWRNYXBba2V5XSBhcz8gVAogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIkdldCB2YWx1ZSBlcnJvciBmb3Iga2V5OiAka2V5IiwgZSkKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gcHV0KGtleTogQW55LCB2YWx1ZTogQW55KSB7CiAgICAgICAgaWRNYXBba2V5XSA9IHZhbHVlCiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHJlbW92ZShrZXk6IEFueSkgewogICAgICAgIGlkTWFwLnJlbW92ZShrZXkpCiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIGNsZWFyKCkgewogICAgICAgIGlkTWFwLmNsZWFyKCkKICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gbG9hZCh1c2VySWQ6IFN0cmluZz8gPSBudWxsKSB7CiAgICAgICAgaWYgKHVzZXJJZC5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJTa2lwIGxvYWRpbmcgbWFwIGZvciBlbXB0eSB1c2VySWQiKQogICAgICAgICAgICBkb0xvYWRHbG9iYWwoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGlkTWFwLmNsZWFyKCkKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBmaWxlID0gRmlsZXMuZ2V0VGFyZ2V0RmlsZW9mVXNlcih1c2VySWQsIHRoaXNGaWxlTmFtZSgpKQogICAgICAgICAgICAgICAgdmFsIGJvZHkgPSBmaWxlPy5sZXQgeyBGaWxlcy5yZWFkRnJvbUZpbGUoaXQpIH0ub3JFbXB0eSgpCiAgICAgICAgICAgICAgICBpZiAoYm9keS5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgbmV3TWFwID0gT2JqZWN0TWFwcGVyKCkucmVhZFZhbHVlKGJvZHksIG9iamVjdCA6IFR5cGVSZWZlcmVuY2U8TWFwPEFueSwgQW55Pj4oKSB7fSkKICAgICAgICAgICAgICAgICAgICBpZE1hcC5wdXRBbGwobmV3TWFwKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBkb0xvYWRHbG9iYWwoKSB7CiAgICAgICAgaWRNYXAuY2xlYXIoKQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBmaWxlID0gRmlsZXMuZ2V0VGFyZ2V0RmlsZW9mRGlyKEZpbGVzLk1BSU5fRElSLCB0aGlzRmlsZU5hbWUoKSkKICAgICAgICAgICAgdmFsIGJvZHkgPSBmaWxlPy5sZXQgeyBGaWxlcy5yZWFkRnJvbUZpbGUoaXQpIH0ub3JFbXB0eSgpCiAgICAgICAgICAgIGlmIChib2R5LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgdmFsIG5ld01hcCA9IE9iamVjdE1hcHBlcigpLnJlYWRWYWx1ZShib2R5LCBvYmplY3QgOiBUeXBlUmVmZXJlbmNlPE1hcDxBbnksIEFueT4+KCkge30pCiAgICAgICAgICAgICAgICBpZE1hcC5wdXRBbGwobmV3TWFwKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSkKICAgICAgICB9CiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHNhdmUodXNlcklkOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGpzb24gPSBKc29uVXRpbC5mb3JtYXRKc29uKGlkTWFwKQogICAgICAgICAgICB2YWwgZmlsZSA9IEZpbGVzLmdldFRhcmdldEZpbGVvZlVzZXIodXNlcklkLCB0aGlzRmlsZU5hbWUoKSkKICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZShqc29uLCBmaWxlISEpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSkKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHNhdmUoKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBqc29uID0gSnNvblV0aWwuZm9ybWF0SnNvbihpZE1hcCkKICAgICAgICAgICAgdmFsIGZpbGUgPSBGaWxlcy5nZXRUYXJnZXRGaWxlb2ZEaXIoRmlsZXMuTUFJTl9ESVIsIHRoaXNGaWxlTmFtZSgpKQogICAgICAgICAgICBGaWxlcy53cml0ZTJGaWxlKGpzb24sIGZpbGUpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSkKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.util.maps
+
+import com.fasterxml.jackson.core.type.TypeReference
+import com.fasterxml.jackson.databind.ObjectMapper
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.JsonUtil
+import fansirsqi.xposed.sesame.util.Log
+import java.util.Collections
+import java.util.concurrent.ConcurrentHashMap
+
+/**
+ * 抽象通用映射工具类，支持任意类型的Key和Value。
+ */
+abstract class IdMaps private constructor() {
+    companion object {
+        private const val TAG = "IdMaps"
+        private val instances = ConcurrentHashMap<Class<out IdMaps>, IdMaps>()
+
+        @Synchronized
+        fun <T : IdMaps> getInstance(clazz: Class<T>): T {
+            var instance = clazz.cast(instances[clazz])
+            if (instance == null) {
+                try {
+                    instance = clazz.getDeclaredConstructor().newInstance()
+                    // ✅ 将 instance 向上转型为 IdMaps，再存入 map
+                    instances[clazz] = instance as IdMaps
+                } catch (e: Exception) {
+                    throw RuntimeException("Failed to create instance for ${clazz.name}", e)
+                }
+            }
+            return instance
+        }
+    }
+
+    protected abstract fun thisFileName(): String
+
+    private val idMap = ConcurrentHashMap<Any, Any>()
+    val map: Map<Any, Any> = Collections.unmodifiableMap(idMap)
+
+    @Suppress("UNCHECKED_CAST")
+    fun <T> get(key: Any): T? {
+        return try {
+            idMap[key] as? T
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "Get value error for key: $key", e)
+            null
+        }
+    }
+
+    @Synchronized
+    fun put(key: Any, value: Any) {
+        idMap[key] = value
+    }
+
+    @Synchronized
+    fun remove(key: Any) {
+        idMap.remove(key)
+    }
+
+    @Synchronized
+    fun clear() {
+        idMap.clear()
+    }
+
+    @Synchronized
+    fun load(userId: String? = null) {
+        if (userId.isNullOrEmpty()) {
+            Log.record(TAG, "Skip loading map for empty userId")
+            doLoadGlobal()
+        } else {
+            idMap.clear()
+            try {
+                val file = Files.getTargetFileofUser(userId, thisFileName())
+                val body = file?.let { Files.readFromFile(it) }.orEmpty()
+                if (body.isNotBlank()) {
+                    val newMap = ObjectMapper().readValue(body, object : TypeReference<Map<Any, Any>>() {})
+                    idMap.putAll(newMap)
+                }
+            } catch (e: Exception) {
+                Log.printStackTrace(e)
+            }
+        }
+    }
+
+    private fun doLoadGlobal() {
+        idMap.clear()
+        try {
+            val file = Files.getTargetFileofDir(Files.MAIN_DIR, thisFileName())
+            val body = file?.let { Files.readFromFile(it) }.orEmpty()
+            if (body.isNotBlank()) {
+                val newMap = ObjectMapper().readValue(body, object : TypeReference<Map<Any, Any>>() {})
+                idMap.putAll(newMap)
+            }
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    @Synchronized
+    fun save(userId: String): Boolean {
+        return try {
+            val json = JsonUtil.formatJson(idMap)
+            val file = Files.getTargetFileofUser(userId, thisFileName())
+            Files.write2File(json, file!!)
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+            false
+        }
+    }
+
+    @Synchronized
+    fun save(): Boolean {
+        return try {
+            val json = JsonUtil.formatJson(idMap)
+            val file = Files.getTargetFileofDir(Files.MAIN_DIR, thisFileName())
+            Files.write2File(json, file)
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+            false
+        }
+    }
+}

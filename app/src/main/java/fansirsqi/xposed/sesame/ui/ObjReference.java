@@ -1,1 +1,79 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aTsKaW1wb3J0IGxvbWJvay5EYXRhOwovKioKICog6Z2e57q/56iL5a6J5YWo55qE5byV55So5YyF6KOF5Zmo44CCCiAqIOaPkOS+m+S6huS4gOS4quazm+Wei+WvueixoeeahOmdnue6v+eoi+WuieWFqOiuv+mXruWSjOS/ruaUueOAggogKiBAcGFyYW0gPFQ+IOazm+Wei+exu+Wei+WPguaVsOOAggogKi8KQERhdGEKcHVibGljIGNsYXNzIE9ialJlZmVyZW5jZTxUPiB7CiAgICAvKioKICAgICAqIOiiq+WMheijheeahOWvueixoeOAggogICAgICovCiAgICBwcml2YXRlIFQgb2JqOwogICAgLyoqCiAgICAgKiDml6Dlj4LmnoTpgKDlh73mlbDjgIIKICAgICAqLwogICAgcHVibGljIE9ialJlZmVyZW5jZSgpIHsKICAgIH0KICAgIC8qKgogICAgICog5bim5a+56LGh55qE5p6E6YCg5Ye95pWw44CCCiAgICAgKiBAcGFyYW0gb2JqIOiiq+WMheijheeahOWvueixoeOAggogICAgICovCiAgICBwdWJsaWMgT2JqUmVmZXJlbmNlKFQgb2JqKSB7CiAgICAgICAgdGhpcy5vYmogPSBvYmo7CiAgICB9CiAgICAvKioKICAgICAqIOajgOafpeWvueixoeaYr+WQpuWtmOWcqOOAggogICAgICogQHJldHVybiDlpoLmnpzlr7nosaHkuI3kuLrnqbrvvIzov5Tlm550cnVl44CCCiAgICAgKi8KICAgIHB1YmxpYyBCb29sZWFuIGhhcygpIHsKICAgICAgICByZXR1cm4gdGhpcy5vYmogIT0gbnVsbDsKICAgIH0KICAgIC8qKgogICAgICog6I635Y+W6KKr5YyF6KOF55qE5a+56LGh44CCCiAgICAgKiBAcmV0dXJuIOiiq+WMheijheeahOWvueixoeOAggogICAgICovCiAgICBwdWJsaWMgVCBnZXQoKSB7CiAgICAgICAgcmV0dXJuIG9iajsKICAgIH0KICAgIC8qKgogICAgICog6K6+572u6KKr5YyF6KOF55qE5a+56LGh44CCCiAgICAgKiDlpoLmnpzlvZPliY3lr7nosaHkuI7kvKDlhaXlr7nosaHnm7jlkIzvvIzmiJblvZPliY3lr7nosaHkuLpudWxs5LiU5Lyg5YWl5a+56LGh5LiN5Li6bnVsbO+8jOWImeiuvue9ruWvueixoeW5tui/lOWbnnRydWXjgIIKICAgICAqIEBwYXJhbSBvYmog5paw55qE5a+56LGh44CCCiAgICAgKiBAcmV0dXJuIOWmguaenOiuvue9ruaIkOWKn++8jOi/lOWbnnRydWXjgIIKICAgICAqLwogICAgcHVibGljIEJvb2xlYW4gc2V0KFQgb2JqKSB7CiAgICAgICAgaWYgKHRoaXMub2JqID09IG9iaikgewogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9CiAgICAgICAgaWYgKHRoaXMub2JqICE9IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICB0aGlzLm9iaiA9IG9iajsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICAgIC8qKgogICAgICog5by65Yi26K6+572u6KKr5YyF6KOF55qE5a+56LGh44CCCiAgICAgKiDml6DorrrlvZPliY3lr7nosaHmmK/ku4DkuYjvvIzpg73kvJrorr7nva7kuLrkvKDlhaXnmoTlr7nosaHjgIIKICAgICAqIEBwYXJhbSBvYmog5paw55qE5a+56LGh44CCCiAgICAgKi8KICAgIHB1YmxpYyB2b2lkIHNldEZvcmNlKFQgb2JqKSB7CiAgICAgICAgdGhpcy5vYmogPSBvYmo7CiAgICB9CiAgICAvKioKICAgICAqIOWIoOmZpOiiq+WMheijheeahOWvueixoeOAggogICAgICovCiAgICBwdWJsaWMgdm9pZCBkZWwoKSB7CiAgICAgICAgdGhpcy5vYmogPSBudWxsOwogICAgfQogICAgLyoqCiAgICAgKiDlpoLmnpzooqvljIXoo4XnmoTlr7nosaHkuI7kvKDlhaXlr7nosaHnm7jlkIzvvIzliJnliKDpmaTjgIIKICAgICAqIEBwYXJhbSBvYmog6KaB5q+U6L6D55qE5a+56LGh44CCCiAgICAgKi8KICAgIHB1YmxpYyB2b2lkIGRlbElmRXF1YWxzKFQgb2JqKSB7CiAgICAgICAgaWYgKHRoaXMub2JqID09IG9iaikgewogICAgICAgICAgICB0aGlzLm9iaiA9IG51bGw7CiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.ui;
+import lombok.Data;
+/**
+ * 非线程安全的引用包装器。
+ * 提供了一个泛型对象的非线程安全访问和修改。
+ * @param <T> 泛型类型参数。
+ */
+@Data
+public class ObjReference<T> {
+    /**
+     * 被包装的对象。
+     */
+    private T obj;
+    /**
+     * 无参构造函数。
+     */
+    public ObjReference() {
+    }
+    /**
+     * 带对象的构造函数。
+     * @param obj 被包装的对象。
+     */
+    public ObjReference(T obj) {
+        this.obj = obj;
+    }
+    /**
+     * 检查对象是否存在。
+     * @return 如果对象不为空，返回true。
+     */
+    public Boolean has() {
+        return this.obj != null;
+    }
+    /**
+     * 获取被包装的对象。
+     * @return 被包装的对象。
+     */
+    public T get() {
+        return obj;
+    }
+    /**
+     * 设置被包装的对象。
+     * 如果当前对象与传入对象相同，或当前对象为null且传入对象不为null，则设置对象并返回true。
+     * @param obj 新的对象。
+     * @return 如果设置成功，返回true。
+     */
+    public Boolean set(T obj) {
+        if (this.obj == obj) {
+            return true;
+        }
+        if (this.obj != null) {
+            return false;
+        }
+        this.obj = obj;
+        return true;
+    }
+    /**
+     * 强制设置被包装的对象。
+     * 无论当前对象是什么，都会设置为传入的对象。
+     * @param obj 新的对象。
+     */
+    public void setForce(T obj) {
+        this.obj = obj;
+    }
+    /**
+     * 删除被包装的对象。
+     */
+    public void del() {
+        this.obj = null;
+    }
+    /**
+     * 如果被包装的对象与传入对象相同，则删除。
+     * @param obj 要比较的对象。
+     */
+    public void delIfEquals(T obj) {
+        if (this.obj == obj) {
+            this.obj = null;
+        }
+    }
+}

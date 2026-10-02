@@ -1,1 +1,11 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHM7Ci8qKgogKiDmspnmu6lJROaYoOWwhOW3peWFt+exu+OAggogKiDmj5DkvpvkuobkuIDkuKrnur/nqIvlronlhajnmoRJROaYoOWwhO+8jOaUr+aMgea3u+WKoOOAgeWIoOmZpOOAgeWKoOi9veWSjOS/neWtmElE5pig5bCE44CCCiAqLwpwdWJsaWMgY2xhc3MgQmVhY2hNYXAgZXh0ZW5kcyBJZE1hcE1hbmFnZXIgewogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgU3RyaW5nIHRoaXNGaWxlTmFtZSgpIHsKICAgICAgICByZXR1cm4gIkJlYWNoTWFwLmpzb24iOy8v5rW35rSLSUTmmKDlsITmlofku7YKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.util.maps;
+/**
+ * 沙滩ID映射工具类。
+ * 提供了一个线程安全的ID映射，支持添加、删除、加载和保存ID映射。
+ */
+public class BeachMap extends IdMapManager {
+    @Override
+    public String thisFileName() {
+        return "BeachMap.json";//海洋ID映射文件
+    }
+}

@@ -1,1 +1,98 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwoKaW1wb3J0IGphdmEudXRpbC5SYW5kb207CgovKioKICog6ZqP5py65pWw5bel5YW357G777yM5o+Q5L6b55Sf5oiQ6ZqP5py65pWw5ZKM6ZqP5py65a2X56ym5Liy55qE5pa55rOV44CCCiAqLwpwdWJsaWMgY2xhc3MgUmFuZG9tVXRpbCB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBSYW5kb20gcm5kID0gbmV3IFJhbmRvbSgpOwoKICAgIC8qKgogICAgICog55Sf5oiQ5LiA5Liq6ZqP5py65bu26L+f5pe26Ze077yIMTAw5YiwMzAw5q+r56eS5LmL6Ze077yJ44CCCiAgICAgKgogICAgICogQHJldHVybiDnlJ/miJDnmoTpmo/mnLrlu7bov5/ml7bpl7TvvIjmr6vnp5LvvInjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBpbnQgZGVsYXkoKSB7CiAgICAgICAgcmV0dXJuIG5leHRJbnQoMTAwLCAzMDApOwogICAgfQoKICAgIC8qKgogICAgICog55Sf5oiQ5LiA5Liq5oyH5a6a6IyD5Zu05YaF55qE6ZqP5py65pW05pWw44CCCiAgICAgKgogICAgICogQHBhcmFtIG1pbiDmnIDlsI/lgLzvvIjljIXlkKvvvInjgIIKICAgICAqIEBwYXJhbSBtYXgg5pyA5aSn5YC877yI5LiN5YyF5ZCr77yJ44CCCiAgICAgKiBAcmV0dXJuIOeUn+aIkOeahOmaj+acuuaVtOaVsOOAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIGludCBuZXh0SW50KGludCBtaW4sIGludCBtYXgpIHsKICAgICAgICBpZiAobWluID49IG1heCkgcmV0dXJuIG1pbjsKICAgICAgICByZXR1cm4gcm5kLm5leHRJbnQobWF4IC0gbWluKSArIG1pbjsKICAgIH0KCiAgICAvKioKICAgICAqIOeUn+aIkOS4gOS4qumaj+acuueahOmVv+aVtOaVsOOAggogICAgICoKICAgICAqIEByZXR1cm4g55Sf5oiQ55qE6ZqP5py66ZW/5pW05pWw44CCCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgbG9uZyBuZXh0TG9uZygpIHsKICAgICAgICByZXR1cm4gcm5kLm5leHRMb25nKCk7CiAgICB9CgogICAgLyoqCiAgICAgKiDnlJ/miJDkuIDkuKrmjIflrprojIPlm7TlhoXnmoTpmo/mnLrplb/mlbTmlbDjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gbWluIOacgOWwj+WAvO+8iOWMheWQq++8ieOAggogICAgICogQHBhcmFtIG1heCDmnIDlpKflgLzvvIjkuI3ljIXlkKvvvInjgIIKICAgICAqIEByZXR1cm4g55Sf5oiQ55qE6ZqP5py66ZW/5pW05pWw44CCCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgbG9uZyBuZXh0TG9uZyhsb25nIG1pbiwgbG9uZyBtYXgpIHsKICAgICAgICBpZiAobWluID49IG1heCkgcmV0dXJuIG1pbjsKICAgICAgICBsb25nIG8gPSBtYXggLSBtaW47CiAgICAgICAgcmV0dXJuIChybmQubmV4dExvbmcoKSAlIG8pICsgbWluOwogICAgfQoKICAgIC8qKgogICAgICog55Sf5oiQ5LiA5Liq6ZqP5py655qE5Y+M57K+5bqm5rWu54K55pWw44CCCiAgICAgKgogICAgICogQHJldHVybiDnlJ/miJDnmoTpmo/mnLrlj4znsr7luqbmta7ngrnmlbDjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBkb3VibGUgbmV4dERvdWJsZSgpIHsKICAgICAgICByZXR1cm4gcm5kLm5leHREb3VibGUoKTsKICAgIH0KCiAgICAvKioKICAgICAqIOeUn+aIkOS4gOS4quaMh+WumumVv+W6pueahOmaj+acuuaVsOWtl+Wtl+espuS4suOAggogICAgICoKICAgICAqIEBwYXJhbSBsZW4g6ZqP5py65a2X56ym5Liy55qE6ZW/5bqm44CCCiAgICAgKiBAcmV0dXJuIOeUn+aIkOeahOmaj+acuuaVsOWtl+Wtl+espuS4suOAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBnZXRSYW5kb21JbnQoaW50IGxlbikgewogICAgICAgIFN0cmluZ0J1aWxkZXIgcnMgPSBuZXcgU3RyaW5nQnVpbGRlcigpOwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgbGVuOyBpKyspIHsKICAgICAgICAgICAgcnMuYXBwZW5kKHJuZC5uZXh0SW50KDEwKSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBycy50b1N0cmluZygpOwogICAgfQoKICAgIC8qKgogICAgICog55Sf5oiQ5LiA5Liq5oyH5a6a6ZW/5bqm55qE6ZqP5py65a2X56ym5Liy77yM5YyF5ZCr5bCP5YaZ5a2X5q+N5ZKM5pWw5a2X44CCCiAgICAgKgogICAgICogQHBhcmFtIGxlbmd0aCDpmo/mnLrlrZfnrKbkuLLnmoTplb/luqbjgIIKICAgICAqIEByZXR1cm4g55Sf5oiQ55qE6ZqP5py65a2X56ym5Liy44CCCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldFJhbmRvbVN0cmluZyhpbnQgbGVuZ3RoKSB7CiAgICAgICAgU3RyaW5nIGNoYXJzID0gImFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6MDEyMzQ1Njc4OSI7CiAgICAgICAgU3RyaW5nQnVpbGRlciBzYiA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBsZW5ndGg7IGkrKykgewogICAgICAgICAgICBpbnQgbnVtYmVyID0gbmV4dEludCgwLCBjaGFycy5sZW5ndGgoKSk7CiAgICAgICAgICAgIHNiLmFwcGVuZChjaGFycy5jaGFyQXQobnVtYmVyKSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBzYi50b1N0cmluZygpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldFJhbmRvbVRhZygpIHsKICAgICAgICByZXR1cm4gIl8iICsgU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgKyAiXyIgKyBSYW5kb21VdGlsLmdldFJhbmRvbVN0cmluZyg4KTsKICAgIH0KCgp9
+package fansirsqi.xposed.sesame.util;
+
+import java.util.Random;
+
+/**
+ * 随机数工具类，提供生成随机数和随机字符串的方法。
+ */
+public class RandomUtil {
+    private static final Random rnd = new Random();
+
+    /**
+     * 生成一个随机延迟时间（100到300毫秒之间）。
+     *
+     * @return 生成的随机延迟时间（毫秒）。
+     */
+    public static int delay() {
+        return nextInt(100, 300);
+    }
+
+    /**
+     * 生成一个指定范围内的随机整数。
+     *
+     * @param min 最小值（包含）。
+     * @param max 最大值（不包含）。
+     * @return 生成的随机整数。
+     */
+    public static int nextInt(int min, int max) {
+        if (min >= max) return min;
+        return rnd.nextInt(max - min) + min;
+    }
+
+    /**
+     * 生成一个随机的长整数。
+     *
+     * @return 生成的随机长整数。
+     */
+    public static long nextLong() {
+        return rnd.nextLong();
+    }
+
+    /**
+     * 生成一个指定范围内的随机长整数。
+     *
+     * @param min 最小值（包含）。
+     * @param max 最大值（不包含）。
+     * @return 生成的随机长整数。
+     */
+    public static long nextLong(long min, long max) {
+        if (min >= max) return min;
+        long o = max - min;
+        return (rnd.nextLong() % o) + min;
+    }
+
+    /**
+     * 生成一个随机的双精度浮点数。
+     *
+     * @return 生成的随机双精度浮点数。
+     */
+    public static double nextDouble() {
+        return rnd.nextDouble();
+    }
+
+    /**
+     * 生成一个指定长度的随机数字字符串。
+     *
+     * @param len 随机字符串的长度。
+     * @return 生成的随机数字字符串。
+     */
+    public static String getRandomInt(int len) {
+        StringBuilder rs = new StringBuilder();
+        for (int i = 0; i < len; i++) {
+            rs.append(rnd.nextInt(10));
+        }
+        return rs.toString();
+    }
+
+    /**
+     * 生成一个指定长度的随机字符串，包含小写字母和数字。
+     *
+     * @param length 随机字符串的长度。
+     * @return 生成的随机字符串。
+     */
+    public static String getRandomString(int length) {
+        String chars = "abcdefghijklmnopqrstuvwxyz0123456789";
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < length; i++) {
+            int number = nextInt(0, chars.length());
+            sb.append(chars.charAt(number));
+        }
+        return sb.toString();
+    }
+
+    public static String getRandomTag() {
+        return "_" + System.currentTimeMillis() + "_" + RandomUtil.getRandomString(8);
+    }
+
+
+}

@@ -1,1 +1,25 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5icmlkZ2U7CmltcG9ydCBsb21ib2suR2V0dGVyOwppbXBvcnQgamF2YS51dGlsLkhhc2hNYXA7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwpAR2V0dGVyCnB1YmxpYyBlbnVtIFJwY1ZlcnNpb24gewogICAgT0xEKCJPTEQiKSwKICAgIE5FVygiTkVXIiksCiAgICA7CiAgICBmaW5hbCBTdHJpbmcgY29kZTsKICAgIFJwY1ZlcnNpb24oU3RyaW5nIGNvZGUpIHsKICAgICAgICB0aGlzLmNvZGUgPSBjb2RlOwogICAgfQogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgTWFwPFN0cmluZywgUnBjVmVyc2lvbj4gTUFQOwogICAgc3RhdGljIHsKICAgICAgICBNQVAgPSBuZXcgSGFzaE1hcDw+KCk7CiAgICAgICAgUnBjVmVyc2lvbltdIHZhbHVlcyA9IFJwY1ZlcnNpb24udmFsdWVzKCk7CiAgICAgICAgZm9yIChScGNWZXJzaW9uIHZhbHVlIDogdmFsdWVzKSB7CiAgICAgICAgICAgIE1BUC5wdXQodmFsdWUuY29kZSwgdmFsdWUpOwogICAgICAgIH0KICAgIH0KICAgIHB1YmxpYyBzdGF0aWMgUnBjVmVyc2lvbiBnZXRCeUNvZGUoU3RyaW5nIGNvZGUpIHsKICAgICAgICByZXR1cm4gTUFQLmdldChjb2RlKTsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.hook.rpc.bridge;
+import lombok.Getter;
+import java.util.HashMap;
+import java.util.Map;
+@Getter
+public enum RpcVersion {
+    OLD("OLD"),
+    NEW("NEW"),
+    ;
+    final String code;
+    RpcVersion(String code) {
+        this.code = code;
+    }
+    private static final Map<String, RpcVersion> MAP;
+    static {
+        MAP = new HashMap<>();
+        RpcVersion[] values = RpcVersion.values();
+        for (RpcVersion value : values) {
+            MAP.put(value.code, value);
+        }
+    }
+    public static RpcVersion getByCode(String code) {
+        return MAP.get(code);
+    }
+}

@@ -1,1 +1,11 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCi8qKgogKiDmianlsZXlip/og73pobnnmoTmlbDmja7nsbsKICogQHBhcmFtIG5hbWUg5Yqf6IO95ZCN56ewCiAqIEBwYXJhbSBhY3Rpb24g54K55Ye75pe25omn6KGM55qE5Yqo5L2cCiAqLwpkYXRhIGNsYXNzIEV4dGVuZEZ1bmN0aW9uSXRlbSgKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgYWN0aW9uOiAoKSAtPiBVbml0Cik=
+package fansirsqi.xposed.sesame.entity
+
+/**
+ * 扩展功能项的数据类
+ * @param name 功能名称
+ * @param action 点击时执行的动作
+ */
+data class ExtendFunctionItem(
+    val name: String,
+    val action: () -> Unit
+)

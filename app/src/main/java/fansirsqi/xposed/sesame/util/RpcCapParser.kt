@@ -1,1 +1,195 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRlbnRWYWx1ZXMKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuRW52aXJvbm1lbnQKaW1wb3J0IGFuZHJvaWQucHJvdmlkZXIuTWVkaWFTdG9yZQppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3QKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suaW50ZXJuYWwuUnBjQ2FwdHVyZUhlbHBlcgppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKLyoqCiAqIOS4gOadoeaKk+WMheiusOW9leOAggogKgogKiDmipPljIXmlofku7bvvIhycGNfY2FwLnR4dO+8ieeahOWGmeWFpeagvOW8j+eUsSBbZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5pbnRlcm5hbC5ScGNDYXB0dXJlSGVscGVyXSDkuqfnlJ/vvJoKICoKICogYGBgCiAqIFsxNzoyMDoxMS4wMDNdIE5FV19SRVEgY29tLmFsaXBheS54eHgueXl5CiAqICAgeyJzY2VuZUlkIjoiQSJ9CiAqIFsxNzoyMDoxMS4yMDhdIE5FV19SRVMgY29tLmFsaXBheS54eHgueXl5CiAqICAgeyJzdWNjZXNzIjp0cnVlLC4uLn0KICogYGBgCiAqCiAqIOi/memHjOeahOino+aekOinhOWImeW/hemhu+WSjOeUteiEkeS+p+W3peWFtyBgdG9vbHMvdGtfdG9vbHMucHlgIOmHjOeahCBgTElORWAg5q2j5YiZ5L+d5oyB5LiA6Ie077yMCiAqIOWQpuWImeOAjOaJi+acuuWvvOWHuiDihpIgV0Ig5YiG5p6Q44CN6L+Z5p2h6ZO+6Lev5Lya5a+55LiN5LiK44CCCiAqLwpkYXRhIGNsYXNzIFJwY0NhcEVudHJ5KAogICAgdmFsIHRpbWU6IFN0cmluZywKICAgIHZhbCBraW5kOiBTdHJpbmcsICAgICAgICAgIC8vIE5FV19SRVEgLyBORVdfUkVTIC8gT0xEX1JFUSAvIE9MRF9SRVMKICAgIHZhbCBtZXRob2Q6IFN0cmluZywKICAgIHZhbCBwYXlsb2FkOiBTdHJpbmcKKSB7CiAgICB2YWwgaXNSZXF1ZXN0OiBCb29sZWFuIGdldCgpID0ga2luZC5lbmRzV2l0aCgiX1JFUSIpCiAgICB2YWwgY2hhbm5lbDogU3RyaW5nIGdldCgpID0gaWYgKGtpbmQuc3RhcnRzV2l0aCgiTkVXIikpICLmlrDniYgiIGVsc2UgIuaXp+eJiCIKfQoKLyoqIOaMieaWueazleWQjeiBmuWQiOWQjueahOS4gOe7hOiusOW9lSAqLwpkYXRhIGNsYXNzIFJwY0NhcEdyb3VwKAogICAgdmFsIG1ldGhvZDogU3RyaW5nLAogICAgdmFsIGVudHJpZXM6IExpc3Q8UnBjQ2FwRW50cnk+CikgewogICAgdmFsIGNvdW50OiBJbnQgZ2V0KCkgPSBlbnRyaWVzLnNpemUKICAgIHZhbCBsYXRlc3Q6IFJwY0NhcEVudHJ5IGdldCgpID0gZW50cmllcy5sYXN0KCkKfQoKb2JqZWN0IFJwY0NhcFBhcnNlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlJwY0NhcFBhcnNlciIKCiAgICBwcml2YXRlIHZhbCBMSU5FID0gUmVnZXgoIiIiXlxbKFtcZDouXSspXVxzKyhORVdfUkVRfE5FV19SRVN8T0xEX1JFUXxPTERfUkVTKVxzKyhcUyspXHMqJCIiIikKCiAgICAvKiog5oqT5YyF5paH5Lu25Y+v6IO95a2Y5Zyo55qE5Yeg5Liq5L2N572u77yM5oyJ5LyY5YWI57qn5o6S5YiXICovCiAgICBmdW4gY2FuZGlkYXRlRmlsZXMoKTogTGlzdDxGaWxlPiB7CiAgICAgICAgdmFsIG91dCA9IExpbmtlZEhhc2hNYXA8U3RyaW5nLCBGaWxlPigpCiAgICAgICAgdmFsIHByaW1hcnkgPSBScGNDYXB0dXJlSGVscGVyLmNhcHR1cmVGaWxlKCkKICAgICAgICBvdXRbcHJpbWFyeS5hYnNvbHV0ZVBhdGhdID0gcHJpbWFyeQogICAgICAgIC8vIOWFnOW6le+8muS4h+S4gCBNQUlOX0RJUiDmjIflkJHnmoTkuI3mmK/mlK/ku5jlrp3nm67lvZXvvIzlho3mjInljIXlkI3mi7zkuIDmrKEKICAgICAgICB2YWwgYWxpcGF5ID0gRmlsZSgKICAgICAgICAgICAgRW52aXJvbm1lbnQuZ2V0RXh0ZXJuYWxTdG9yYWdlRGlyZWN0b3J5KCksCiAgICAgICAgICAgICJBbmRyb2lkL21lZGlhL2NvbS5lZy5hbmRyb2lkLkFsaXBheUdwaG9uZS9zZXNhbWUtVEsvbG9nL3JwY19jYXAudHh0IgogICAgICAgICkKICAgICAgICBvdXRbYWxpcGF5LmFic29sdXRlUGF0aF0gPSBhbGlwYXkKICAgICAgICByZXR1cm4gb3V0LnZhbHVlcy5maWx0ZXIgeyBpdC5leGlzdHMoKSAmJiBpdC5sZW5ndGgoKSA+IDAgfQogICAgfQoKICAgIC8qKiDlvZPliY3lrp7pmYXlnKjnlKjnmoTmipPljIXmlofku7bvvIjkuI3lrZjlnKjml7bov5Tlm57kuLvot6/lvoTvvIzmlrnkvr/mj5DnpLrnlKjmiLfvvIkgKi8KICAgIGZ1biBjdXJyZW50RmlsZSgpOiBGaWxlID0gY2FuZGlkYXRlRmlsZXMoKS5maXJzdE9yTnVsbCgpID86IFJwY0NhcHR1cmVIZWxwZXIuY2FwdHVyZUZpbGUoKQoKICAgIC8qKiDop6PmnpDmiJDorrDlvZXliJfooaggKi8KICAgIGZ1biBwYXJzZShmaWxlOiBGaWxlKTogTGlzdDxScGNDYXBFbnRyeT4gewogICAgICAgIHZhbCByb3dzID0gQXJyYXlMaXN0PFJwY0NhcEVudHJ5PigpCiAgICAgICAgdmFyIGN1cjogUnBjQ2FwRW50cnk/ID0gbnVsbAogICAgICAgIHZhbCBidWYgPSBBcnJheUxpc3Q8U3RyaW5nPigpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZmlsZS5idWZmZXJlZFJlYWRlcihjaGFyc2V0ID0gQ2hhcnNldHMuVVRGXzgpLnVzZUxpbmVzIHsgbGluZXMgLT4KICAgICAgICAgICAgICAgIGZvciAocmF3IGluIGxpbmVzKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIG0gPSBMSU5FLm1hdGNoRW50aXJlKHJhdy50cmltKCkpCiAgICAgICAgICAgICAgICAgICAgaWYgKG0gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBmbHVzaChyb3dzLCBjdXIsIGJ1ZikKICAgICAgICAgICAgICAgICAgICAgICAgY3VyID0gUnBjQ2FwRW50cnkobS5ncm91cFZhbHVlc1sxXSwgbS5ncm91cFZhbHVlc1syXSwgbS5ncm91cFZhbHVlc1szXSwgIiIpCiAgICAgICAgICAgICAgICAgICAgICAgIGJ1Zi5jbGVhcigpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgYnVmLmFkZChyYXcudHJpbSgpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdCkKICAgICAgICB9CiAgICAgICAgZmx1c2gocm93cywgY3VyLCBidWYpCiAgICAgICAgcmV0dXJuIHJvd3MKICAgIH0KCiAgICBwcml2YXRlIGZ1biBmbHVzaChyb3dzOiBNdXRhYmxlTGlzdDxScGNDYXBFbnRyeT4sIGN1cjogUnBjQ2FwRW50cnk/LCBidWY6IExpc3Q8U3RyaW5nPikgewogICAgICAgIGlmIChjdXIgPT0gbnVsbCkgcmV0dXJuCiAgICAgICAgdmFsIHBheWxvYWQgPSBidWYuam9pblRvU3RyaW5nKCJcbiIpLnRyaW0oKQogICAgICAgIHJvd3MuYWRkKGN1ci5jb3B5KHBheWxvYWQgPSBwYXlsb2FkKSkKICAgIH0KCiAgICAvKiog5oyJ5pa55rOV5ZCN6IGa5ZCI77yM5L+d5oyB6aaW5qyh5Ye6546w6aG65bqPICovCiAgICBmdW4gZ3JvdXAoZW50cmllczogTGlzdDxScGNDYXBFbnRyeT4pOiBMaXN0PFJwY0NhcEdyb3VwPiB7CiAgICAgICAgdmFsIG1hcCA9IExpbmtlZEhhc2hNYXA8U3RyaW5nLCBNdXRhYmxlTGlzdDxScGNDYXBFbnRyeT4+KCkKICAgICAgICBmb3IgKGUgaW4gZW50cmllcykgbWFwLmdldE9yUHV0KGUubWV0aG9kKSB7IEFycmF5TGlzdCgpIH0uYWRkKGUpCiAgICAgICAgcmV0dXJuIG1hcC5tYXAgeyAobWV0aG9kLCBsaXN0KSAtPiBScGNDYXBHcm91cChtZXRob2QsIGxpc3QpIH0KICAgIH0KCiAgICAvKioKICAgICAqIOaKiiBwYXlsb2FkIOWwvemHj+agvOW8j+WMluaIkOS6uuexu+WPr+ivu+eahCBKU09O44CCCiAgICAgKiDkuI3mmK/lkIjms5UgSlNPTiDml7bljp/moLfov5Tlm57vvIznu53kuI3mipvlvILluLjjgIIKICAgICAqLwogICAgZnVuIHByZXR0eShwYXlsb2FkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBzID0gcGF5bG9hZC50cmltKCkKICAgICAgICBpZiAocy5pc0VtcHR5KCkpIHJldHVybiAiKOepuikiCiAgICAgICAgdmFsIHRyaW1tZWQgPSBzLnRyaW1FbmQoJy4nLCAn4oCmJykKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICBzLnN0YXJ0c1dpdGgoInsiKSAtPiBKU09OT2JqZWN0KHMpLnRvU3RyaW5nKDQpCiAgICAgICAgICAgICAgICBzLnN0YXJ0c1dpdGgoIlsiKSAtPiBKU09OQXJyYXkocykudG9TdHJpbmcoNCkKICAgICAgICAgICAgICAgIGVsc2UgLT4gcwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIHRyaW1tZWQKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlr7zlh7roi6XlubLmnaHorrDlvZXliLDjgIzkuIvovb0vc2VzYW1lLVRLLXJwY+OAjeebruW9leOAggogICAgICoKICAgICAqIOi1sCBNZWRpYVN0b3JlIOWGmeWFpe+8jOS4jemcgOimgeS7u+S9leWtmOWCqOadg+mZkO+8jOS7u+S9leaWh+S7tueuoeeQhuWZqOmDveiDveeci+WIsO+8jAogICAgICog5Lmf5Y+v5Lul55u05o6l6YCa6L+H6L+U5Zue55qEIFVyaSDosIPotbfns7vnu5/liIbkuqvlj5Hnu5nnlLXohJHjgIIKICAgICAqCiAgICAgKiDlr7zlh7rmoLzlvI/kuI7ljp/lp4sgcnBjX2NhcC50eHQg5a6M5YWo5LiA6Ie077yM6L+Z5qC355S16ISR5L6nIHRrX3Rvb2xzLnB5IOaXoOmcgOaUueWKqOWNs+WPr+ino+aekOOAggogICAgICovCiAgICBmdW4gZXhwb3J0KGNvbnRleHQ6IENvbnRleHQsIGVudHJpZXM6IExpc3Q8UnBjQ2FwRW50cnk+LCB0YWc6IFN0cmluZyk6IFVyaT8gewogICAgICAgIGlmIChlbnRyaWVzLmlzRW1wdHkoKSkgewogICAgICAgICAgICBUb2FzdC5tYWtlVGV4dChjb250ZXh0LCAi5rKh5pyJ5Y+v5a+85Ye655qE6K6w5b2VIiwgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCkKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgdmFsIHN0YW1wID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eU1NZGQtSEhtbXNzIiwgTG9jYWxlLmdldERlZmF1bHQoKSkuZm9ybWF0KERhdGUoKSkKICAgICAgICB2YWwgZmlsZU5hbWUgPSAicnBjX2V4cG9ydF8ke3RhZ31fJHN0YW1wLnR4dCIKICAgICAgICB2YWwgYm9keSA9IGJ1aWxkU3RyaW5nIHsKICAgICAgICAgICAgYXBwZW5kKCIjIFNlc2FtZS1USyBSUEMg5oqT5YyF5a+85Ye6XG4iKQogICAgICAgICAgICBhcHBlbmQoIiMg5pe26Ze0OiAke1NpbXBsZURhdGVGb3JtYXQoInl5eXktTU0tZGQgSEg6bW06c3MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKS5mb3JtYXQoRGF0ZSgpKX1cbiIpCiAgICAgICAgICAgIGFwcGVuZCgiIyDmnaHmlbA6ICR7ZW50cmllcy5zaXplfVxuIikKICAgICAgICAgICAgYXBwZW5kKCIjIOeUqOazlTogcHl0aG9uIHRrX3Rvb2xzLnB5IGxpc3QgPOacrOaWh+S7tj5cblxuIikKICAgICAgICAgICAgZm9yIChlIGluIGVudHJpZXMpIHsKICAgICAgICAgICAgICAgIGFwcGVuZCgiWyR7ZS50aW1lfV0gJHtlLmtpbmR9ICR7ZS5tZXRob2R9XG4iKQogICAgICAgICAgICAgICAgaWYgKGUucGF5bG9hZC5pc05vdEVtcHR5KCkpIGFwcGVuZCgiICAke2UucGF5bG9hZC5yZXBsYWNlKCJcbiIsICJcbiAgIil9XG4iKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLlEpIHsKICAgICAgICAgICAgICAgIHZhbCB2YWx1ZXMgPSBDb250ZW50VmFsdWVzKCkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgIHB1dChNZWRpYVN0b3JlLkRvd25sb2Fkcy5ESVNQTEFZX05BTUUsIGZpbGVOYW1lKQogICAgICAgICAgICAgICAgICAgIHB1dChNZWRpYVN0b3JlLkRvd25sb2Fkcy5NSU1FX1RZUEUsICJ0ZXh0L3BsYWluIikKICAgICAgICAgICAgICAgICAgICBwdXQoTWVkaWFTdG9yZS5Eb3dubG9hZHMuUkVMQVRJVkVfUEFUSCwgRW52aXJvbm1lbnQuRElSRUNUT1JZX0RPV05MT0FEUyArICIvc2VzYW1lLVRLLXJwYyIpCiAgICAgICAgICAgICAgICAgICAgcHV0KE1lZGlhU3RvcmUuRG93bmxvYWRzLklTX1BFTkRJTkcsIDEpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgcmVzb2x2ZXIgPSBjb250ZXh0LmNvbnRlbnRSZXNvbHZlcgogICAgICAgICAgICAgICAgdmFsIHVyaSA9IHJlc29sdmVyLmluc2VydChNZWRpYVN0b3JlLkRvd25sb2Fkcy5FWFRFUk5BTF9DT05URU5UX1VSSSwgdmFsdWVzKQogICAgICAgICAgICAgICAgaWYgKHVyaSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoY29udGV4dCwgIuWvvOWHuuWksei0pe+8muaXoOazleWIm+W7uuaWh+S7tiIsIFRvYXN0LkxFTkdUSF9TSE9SVCkuc2hvdygpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJlc29sdmVyLm9wZW5PdXRwdXRTdHJlYW0odXJpKT8udXNlIHsgaXQud3JpdGUoYm9keS50b0J5dGVBcnJheShDaGFyc2V0cy5VVEZfOCkpIH0KICAgICAgICAgICAgICAgIHZhbHVlcy5jbGVhcigpCiAgICAgICAgICAgICAgICB2YWx1ZXMucHV0KE1lZGlhU3RvcmUuRG93bmxvYWRzLklTX1BFTkRJTkcsIDApCiAgICAgICAgICAgICAgICByZXNvbHZlci51cGRhdGUodXJpLCB2YWx1ZXMsIG51bGwsIG51bGwpCiAgICAgICAgICAgICAgICBUb2FzdC5tYWtlVGV4dChjb250ZXh0LCAi5bey5a+85Ye65YiwIOS4i+i9vS9zZXNhbWUtVEstcnBjLyRmaWxlTmFtZSIsIFRvYXN0LkxFTkdUSF9MT05HKS5zaG93KCkKICAgICAgICAgICAgICAgIHVyaQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdmFsIGRpciA9IEZpbGUoCiAgICAgICAgICAgICAgICAgICAgRW52aXJvbm1lbnQuZ2V0RXh0ZXJuYWxTdG9yYWdlUHVibGljRGlyZWN0b3J5KEVudmlyb25tZW50LkRJUkVDVE9SWV9ET1dOTE9BRFMpLAogICAgICAgICAgICAgICAgICAgICJzZXNhbWUtVEstcnBjIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgaWYgKCFkaXIuZXhpc3RzKCkpIGRpci5ta2RpcnMoKQogICAgICAgICAgICAgICAgdmFsIGYgPSBGaWxlKGRpciwgZmlsZU5hbWUpCiAgICAgICAgICAgICAgICBmLndyaXRlVGV4dChib2R5LCBDaGFyc2V0cy5VVEZfOCkKICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsICLlt7Llr7zlh7rliLAgJHtmLmFic29sdXRlUGF0aH0iLCBUb2FzdC5MRU5HVEhfTE9ORykuc2hvdygpCiAgICAgICAgICAgICAgICBVcmkuZnJvbUZpbGUoZikKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdCkKICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoY29udGV4dCwgIuWvvOWHuuWksei0pTogJHt0Lm1lc3NhZ2V9IiwgVG9hc3QuTEVOR1RIX0xPTkcpLnNob3coKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.util
+
+import android.content.ContentValues
+import android.content.Context
+import android.net.Uri
+import android.os.Build
+import android.os.Environment
+import android.provider.MediaStore
+import android.widget.Toast
+import fansirsqi.xposed.sesame.hook.internal.RpcCaptureHelper
+import org.json.JSONArray
+import org.json.JSONObject
+import java.io.File
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+/**
+ * 一条抓包记录。
+ *
+ * 抓包文件（rpc_cap.txt）的写入格式由 [fansirsqi.xposed.sesame.hook.internal.RpcCaptureHelper] 产生：
+ *
+ * ```
+ * [17:20:11.003] NEW_REQ com.alipay.xxx.yyy
+ *   {"sceneId":"A"}
+ * [17:20:11.208] NEW_RES com.alipay.xxx.yyy
+ *   {"success":true,...}
+ * ```
+ *
+ * 这里的解析规则必须和电脑侧工具 `tools/tk_tools.py` 里的 `LINE` 正则保持一致，
+ * 否则「手机导出 → WB 分析」这条链路会对不上。
+ */
+data class RpcCapEntry(
+    val time: String,
+    val kind: String,          // NEW_REQ / NEW_RES / OLD_REQ / OLD_RES
+    val method: String,
+    val payload: String
+) {
+    val isRequest: Boolean get() = kind.endsWith("_REQ")
+    val channel: String get() = if (kind.startsWith("NEW")) "新版" else "旧版"
+}
+
+/** 按方法名聚合后的一组记录 */
+data class RpcCapGroup(
+    val method: String,
+    val entries: List<RpcCapEntry>
+) {
+    val count: Int get() = entries.size
+    val latest: RpcCapEntry get() = entries.last()
+}
+
+object RpcCapParser {
+
+    private const val TAG = "RpcCapParser"
+
+    private val LINE = Regex("""^\[([\d:.]+)]\s+(NEW_REQ|NEW_RES|OLD_REQ|OLD_RES)\s+(\S+)\s*$""")
+
+    /** 抓包文件可能存在的几个位置，按优先级排列 */
+    fun candidateFiles(): List<File> {
+        val out = LinkedHashMap<String, File>()
+        val primary = RpcCaptureHelper.captureFile()
+        out[primary.absolutePath] = primary
+        // 兜底：万一 MAIN_DIR 指向的不是支付宝目录，再按包名拼一次
+        val alipay = File(
+            Environment.getExternalStorageDirectory(),
+            "Android/media/com.eg.android.AlipayGphone/sesame-TK/log/rpc_cap.txt"
+        )
+        out[alipay.absolutePath] = alipay
+        return out.values.filter { it.exists() && it.length() > 0 }
+    }
+
+    /** 当前实际在用的抓包文件（不存在时返回主路径，方便提示用户） */
+    fun currentFile(): File = candidateFiles().firstOrNull() ?: RpcCaptureHelper.captureFile()
+
+    /** 解析成记录列表 */
+    fun parse(file: File): List<RpcCapEntry> {
+        val rows = ArrayList<RpcCapEntry>()
+        var cur: RpcCapEntry? = null
+        val buf = ArrayList<String>()
+        try {
+            file.bufferedReader(charset = Charsets.UTF_8).useLines { lines ->
+                for (raw in lines) {
+                    val m = LINE.matchEntire(raw.trim())
+                    if (m != null) {
+                        flush(rows, cur, buf)
+                        cur = RpcCapEntry(m.groupValues[1], m.groupValues[2], m.groupValues[3], "")
+                        buf.clear()
+                    } else {
+                        buf.add(raw.trim())
+                    }
+                }
+            }
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, t)
+        }
+        flush(rows, cur, buf)
+        return rows
+    }
+
+    private fun flush(rows: MutableList<RpcCapEntry>, cur: RpcCapEntry?, buf: List<String>) {
+        if (cur == null) return
+        val payload = buf.joinToString("\n").trim()
+        rows.add(cur.copy(payload = payload))
+    }
+
+    /** 按方法名聚合，保持首次出现顺序 */
+    fun group(entries: List<RpcCapEntry>): List<RpcCapGroup> {
+        val map = LinkedHashMap<String, MutableList<RpcCapEntry>>()
+        for (e in entries) map.getOrPut(e.method) { ArrayList() }.add(e)
+        return map.map { (method, list) -> RpcCapGroup(method, list) }
+    }
+
+    /**
+     * 把 payload 尽量格式化成人类可读的 JSON。
+     * 不是合法 JSON 时原样返回，绝不抛异常。
+     */
+    fun pretty(payload: String): String {
+        val s = payload.trim()
+        if (s.isEmpty()) return "(空)"
+        val trimmed = s.trimEnd('.', '…')
+        return try {
+            when {
+                s.startsWith("{") -> JSONObject(s).toString(4)
+                s.startsWith("[") -> JSONArray(s).toString(4)
+                else -> s
+            }
+        } catch (_: Throwable) {
+            trimmed
+        }
+    }
+
+    /**
+     * 导出若干条记录到「下载/sesame-TK-rpc」目录。
+     *
+     * 走 MediaStore 写入，不需要任何存储权限，任何文件管理器都能看到，
+     * 也可以直接通过返回的 Uri 调起系统分享发给电脑。
+     *
+     * 导出格式与原始 rpc_cap.txt 完全一致，这样电脑侧 tk_tools.py 无需改动即可解析。
+     */
+    fun export(context: Context, entries: List<RpcCapEntry>, tag: String): Uri? {
+        if (entries.isEmpty()) {
+            Toast.makeText(context, "没有可导出的记录", Toast.LENGTH_SHORT).show()
+            return null
+        }
+        val stamp = SimpleDateFormat("yyyyMMdd-HHmmss", Locale.getDefault()).format(Date())
+        val fileName = "rpc_export_${tag}_$stamp.txt"
+        val body = buildString {
+            append("# Sesame-TK RPC 抓包导出\n")
+            append("# 时间: ${SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(Date())}\n")
+            append("# 条数: ${entries.size}\n")
+            append("# 用法: python tk_tools.py list <本文件>\n\n")
+            for (e in entries) {
+                append("[${e.time}] ${e.kind} ${e.method}\n")
+                if (e.payload.isNotEmpty()) append("  ${e.payload.replace("\n", "\n  ")}\n")
+            }
+        }
+
+        return try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                val values = ContentValues().apply {
+                    put(MediaStore.Downloads.DISPLAY_NAME, fileName)
+                    put(MediaStore.Downloads.MIME_TYPE, "text/plain")
+                    put(MediaStore.Downloads.RELATIVE_PATH, Environment.DIRECTORY_DOWNLOADS + "/sesame-TK-rpc")
+                    put(MediaStore.Downloads.IS_PENDING, 1)
+                }
+                val resolver = context.contentResolver
+                val uri = resolver.insert(MediaStore.Downloads.EXTERNAL_CONTENT_URI, values)
+                if (uri == null) {
+                    Toast.makeText(context, "导出失败：无法创建文件", Toast.LENGTH_SHORT).show()
+                    return null
+                }
+                resolver.openOutputStream(uri)?.use { it.write(body.toByteArray(Charsets.UTF_8)) }
+                values.clear()
+                values.put(MediaStore.Downloads.IS_PENDING, 0)
+                resolver.update(uri, values, null, null)
+                Toast.makeText(context, "已导出到 下载/sesame-TK-rpc/$fileName", Toast.LENGTH_LONG).show()
+                uri
+            } else {
+                val dir = File(
+                    Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+                    "sesame-TK-rpc"
+                )
+                if (!dir.exists()) dir.mkdirs()
+                val f = File(dir, fileName)
+                f.writeText(body, Charsets.UTF_8)
+                Toast.makeText(context, "已导出到 ${f.absolutePath}", Toast.LENGTH_LONG).show()
+                Uri.fromFile(f)
+            }
+        } catch (t: Throwable) {
+            Log.printStackTrace(TAG, t)
+            Toast.makeText(context, "导出失败: ${t.message}", Toast.LENGTH_LONG).show()
+            null
+        }
+    }
+}

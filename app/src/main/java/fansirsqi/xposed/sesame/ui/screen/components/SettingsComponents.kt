@@ -1,1 +1,58 @@
-aW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQud2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlN1cmZhY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlN3aXRjaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnZlY3Rvci5JbWFnZVZlY3RvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCgpAQ29tcG9zYWJsZQpmdW4gU2V0dGluZ3NTd2l0Y2hJdGVtKAogICAgdGl0bGU6IFN0cmluZywKICAgIHN1YnRpdGxlOiBTdHJpbmc/ID0gbnVsbCwKICAgIGljb246IEltYWdlVmVjdG9yLAogICAgY2hlY2tlZDogQm9vbGVhbiwKICAgIG9uQ2hlY2tlZENoYW5nZTogKEJvb2xlYW4pIC0+IFVuaXQKKSB7CiAgICBTdXJmYWNlKAogICAgICAgIC8vIOeCueWHu+aVtOS4quadoeebruS5n+iDveWIh+aNogogICAgICAgIG9uQ2xpY2sgPSB7IG9uQ2hlY2tlZENoYW5nZSghY2hlY2tlZCkgfSwKICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxMi5kcCksCiAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VDb250YWluZXJMb3cKICAgICkgewogICAgICAgIFJvdygKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLnBhZGRpbmcoMTYuZHApCiAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICApIHsKICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gaWNvbiwKICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICB0aW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICkKICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLndpZHRoKDE2LmRwKSkKICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSkgewogICAgICAgICAgICAgICAgVGV4dCh0ZXh0ID0gdGl0bGUsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtKQogICAgICAgICAgICAgICAgaWYgKHN1YnRpdGxlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSBzdWJ0aXRsZSwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLCBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub3V0bGluZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDwn5SlIOW8gOWFs+e7hOS7tgogICAgICAgICAgICBTd2l0Y2goCiAgICAgICAgICAgICAgICBjaGVja2VkID0gY2hlY2tlZCwKICAgICAgICAgICAgICAgIG9uQ2hlY2tlZENoYW5nZSA9IG9uQ2hlY2tlZENoYW5nZQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Switch
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.unit.dp
+
+@Composable
+fun SettingsSwitchItem(
+    title: String,
+    subtitle: String? = null,
+    icon: ImageVector,
+    checked: Boolean,
+    onCheckedChange: (Boolean) -> Unit
+) {
+    Surface(
+        // 点击整个条目也能切换
+        onClick = { onCheckedChange(!checked) },
+        shape = RoundedCornerShape(12.dp),
+        color = MaterialTheme.colorScheme.surfaceContainerLow
+    ) {
+        Row(
+            modifier = Modifier
+                .padding(16.dp)
+                .fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                imageVector = icon,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Spacer(Modifier.width(16.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text(text = title, style = MaterialTheme.typography.titleMedium)
+                if (subtitle != null) {
+                    Text(text = subtitle, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.outline)
+                }
+            }
+            // 🔥 开关组件
+            Switch(
+                checked = checked,
+                onCheckedChange = onCheckedChange
+            )
+        }
+    }
+}

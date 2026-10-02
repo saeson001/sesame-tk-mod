@@ -1,1 +1,164 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLkFuc3dlckFJOwoKaW1wb3J0IHN0YXRpYyBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkpzb25VdGlsLmdldFZhbHVlQnlQYXRoOwoKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3Q7CgppbXBvcnQgamF2YS5pby5JT0V4Y2VwdGlvbjsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQ7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2c7CmltcG9ydCBsb21ib2suR2V0dGVyOwppbXBvcnQgbG9tYm9rLlNldHRlcjsKaW1wb3J0IG9raHR0cDMuTWVkaWFUeXBlOwppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQ7CmltcG9ydCBva2h0dHAzLlJlcXVlc3Q7CmltcG9ydCBva2h0dHAzLlJlcXVlc3RCb2R5OwppbXBvcnQgb2todHRwMy5SZXNwb25zZTsKCi8qKgogKiBHZW1pbmlBSeW4ruWKqeexu++8jOeUqOS6juS4jkdlbWluaeaOpeWPo+S6pOS6kuS7peiOt+WPlkFJ5Zue562UCiAqIOaUr+aMgeWNleadoeaWh+acrOmXrumimOWPiuW4puacieWAmemAieetlOahiOWIl+ihqOeahOmXrumimOivt+axggogKi8KcHVibGljIGNsYXNzIEdlbWluaUFJIGltcGxlbWVudHMgQW5zd2VyQUlJbnRlcmZhY2UgewogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFRBRyA9IEdlbWluaUFJLmNsYXNzLmdldFNpbXBsZU5hbWUoKTsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBCQVNFX1VSTCA9ICJodHRwczovL2FwaS5nZW5haS5nZC5lZHUua2cvZ29vZ2xlIjsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBDT05URU5UX1RZUEUgPSAiYXBwbGljYXRpb24vanNvbiI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgSlNPTl9QQVRIID0gImNhbmRpZGF0ZXMuWzBdLmNvbnRlbnQucGFydHMuWzBdLnRleHQiOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFBSRUZJWCA9ICLlj6rlm57nrZTnrZTmoYggIjsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIEludGVnZXIgVElNRV9PVVRfU0VDT05EUyA9IDE4MDsKCiAgICBAU2V0dGVyCiAgICBAR2V0dGVyCiAgICBwcml2YXRlIFN0cmluZyBtb2RlbE5hbWUgPSAiZ2VtaW5pLTIuNS1mbGFzaCI7CiAgICBwcml2YXRlIGZpbmFsIFN0cmluZyB0b2tlbjsKCiAgICBwdWJsaWMgR2VtaW5pQUkoU3RyaW5nIHRva2VuKSB7CiAgICAgICAgdGhpcy50b2tlbiA9IHRva2VuICE9IG51bGwgJiYgIXRva2VuLmlzRW1wdHkoKSA/IHRva2VuIDogIiI7CiAgICB9CgogICAgLy8g56e76Zmk5o6n5Yi25a2X56ymCiAgICBwcml2YXRlIFN0cmluZyByZW1vdmVDb250cm9sQ2hhcmFjdGVycyhTdHJpbmcgdGV4dCkgewogICAgICAgIHJldHVybiB0ZXh0LnJlcGxhY2VBbGwoIlxccHtDbnRybH0mJlteXG4iICsgIlx0XSIsICIiKTsKICAgIH0KCiAgICAvKioKICAgICAqIOaehOW7uuivt+axguS9kwogICAgICoKICAgICAqIEBwYXJhbSB0ZXh0IOmXrumimOWGheWuuQogICAgICogQHJldHVybiDor7fmsYLkvZPnmoRKU09O5a2X56ym5LiyCiAgICAgKi8KICAgIHByaXZhdGUgU3RyaW5nIGJ1aWxkUmVxdWVzdEJvZHkoU3RyaW5nIHRleHQpIHsKICAgICAgICB0ZXh0ID0gcmVtb3ZlQ29udHJvbENoYXJhY3RlcnModGV4dCk7CiAgICAgICAgcmV0dXJuIFN0cmluZy5mb3JtYXQoInsiICsgIlwiY29udGVudHNcIjpbeyIgKyAiXCJwYXJ0c1wiOlt7IiArICJcInRleHRcIjpcIiVzXCIiICsgIn1dIiArICJ9XSIgKyAifSIsIFBSRUZJWCArIHRleHQpOwogICAgfQoKICAgIC8qKgogICAgICog5p6E5bu66K+35rGCVVJMCiAgICAgKgogICAgICogQHJldHVybiDlrozmlbTnmoTor7fmsYJVUkwKICAgICAqLwogICAgcHJpdmF0ZSBTdHJpbmcgYnVpbGRSZXF1ZXN0VXJsKCkgewogICAgICAgIHJldHVybiBTdHJpbmcuZm9ybWF0KCIlcy92MWJldGEvbW9kZWxzLyVzOmdlbmVyYXRlQ29udGVudD9rZXk9JXMiLAogICAgICAgICAgICAgICAgQkFTRV9VUkwsIHRoaXMubW9kZWxOYW1lLCB0b2tlbik7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgU3RyaW5nIGdldEFuc3dlclN0cihTdHJpbmcgdGV4dCwgU3RyaW5nIG1vZGVsKSB7CiAgICAgICAgc2V0TW9kZWxOYW1lKG1vZGVsKTsKICAgICAgICByZXR1cm4gZ2V0QW5zd2VyU3RyKHRleHQpOwogICAgfQoKICAgIC8qKgogICAgICog6I635Y+WQUnlm57nrZTnu5PmnpwKICAgICAqCiAgICAgKiBAcGFyYW0gdGV4dCDpl67popjlhoXlrrkKICAgICAqIEByZXR1cm4gQUnlm57nrZTnu5PmnpwKICAgICAqLwogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgU3RyaW5nIGdldEFuc3dlclN0cihTdHJpbmcgdGV4dCkgewogICAgICAgIFN0cmluZyByZXN1bHQgPSAiIjsKICAgICAgICB0cnkgewogICAgICAgICAgICBPa0h0dHBDbGllbnQgY2xpZW50ID0gbmV3IE9rSHR0cENsaWVudC5CdWlsZGVyKCkKICAgICAgICAgICAgICAgICAgICAuY29ubmVjdFRpbWVvdXQoVElNRV9PVVRfU0VDT05EUywgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgICAgICAgICAud3JpdGVUaW1lb3V0KFRJTUVfT1VUX1NFQ09ORFMsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgICAgICAgICAgLnJlYWRUaW1lb3V0KFRJTUVfT1VUX1NFQ09ORFMsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKCk7CgogICAgICAgICAgICBTdHJpbmcgY29udGVudCA9IGJ1aWxkUmVxdWVzdEJvZHkodGV4dCk7CiAgICAgICAgICAgIE1lZGlhVHlwZSBtZWRpYVR5cGUgPSBNZWRpYVR5cGUucGFyc2UoQ09OVEVOVF9UWVBFKTsKICAgICAgICAgICAgUmVxdWVzdEJvZHkgYm9keSA9IFJlcXVlc3RCb2R5LmNyZWF0ZShjb250ZW50LCBtZWRpYVR5cGUpOwogICAgICAgICAgICBTdHJpbmcgdXJsID0gYnVpbGRSZXF1ZXN0VXJsKCk7CiAgICAgICAgICAgIFJlcXVlc3QgcmVxdWVzdCA9IG5ldyBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAgICAgICAgIC51cmwodXJsKQogICAgICAgICAgICAgICAgICAgIC5tZXRob2QoIlBPU1QiLCBib2R5KQogICAgICAgICAgICAgICAgICAgIC5hZGRIZWFkZXIoIkNvbnRlbnQtVHlwZSIsIENPTlRFTlRfVFlQRSkKICAgICAgICAgICAgICAgICAgICAuYnVpbGQoKTsKCiAgICAgICAgICAgIHRyeSAoUmVzcG9uc2UgcmVzcG9uc2UgPSBjbGllbnQubmV3Q2FsbChyZXF1ZXN0KS5leGVjdXRlKCkpIHsKICAgICAgICAgICAgICAgIGlmIChyZXNwb25zZS5ib2R5KCkgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiByZXN1bHQ7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTdHJpbmcganNvbiA9IHJlc3BvbnNlLmJvZHkoKS5zdHJpbmcoKTsKICAgICAgICAgICAgICAgIGlmICghcmVzcG9uc2UuaXNTdWNjZXNzZnVsKCkpIHsKICAgICAgICAgICAgICAgICAgICBMb2cub3RoZXIoIkdlbWluaeivt+axguWksei0pSIpOwogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiR2VtaW5p5o6l5Y+j5byC5bi477yaIiArIGpzb24pOwogICAgICAgICAgICAgICAgICAgIHJldHVybiByZXN1bHQ7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBKU09OT2JqZWN0IGpzb25PYmplY3QgPSBuZXcgSlNPTk9iamVjdChqc29uKTsKICAgICAgICAgICAgICAgIHJlc3VsdCA9IGdldFZhbHVlQnlQYXRoKGpzb25PYmplY3QsIEpTT05fUEFUSCk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiB8IG9yZy5qc29uLkpTT05FeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgZSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5bnrZTmoYgKICAgICAqCiAgICAgKiBAcGFyYW0gdGl0bGUgICAgICDpl67popgKICAgICAqIEBwYXJhbSBhbnN3ZXJMaXN0IOetlOahiOmbhuWQiAogICAgICogQHJldHVybiDnqbrmsqHmnInojrflj5bliLAKICAgICAqLwogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgSW50ZWdlciBnZXRBbnN3ZXIoU3RyaW5nIHRpdGxlLCBMaXN0PFN0cmluZz4gYW5zd2VyTGlzdCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIFN0cmluZ0J1aWxkZXIgYW5zd2VyU3RyID0gbmV3IFN0cmluZ0J1aWxkZXIoKTsKICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBhbnN3ZXJMaXN0LnNpemUoKTsgaSsrKSB7CiAgICAgICAgICAgICAgICBhbnN3ZXJTdHIuYXBwZW5kKGkgKyAxKS5hcHBlbmQoIi5bIikKICAgICAgICAgICAgICAgICAgICAgICAgLmFwcGVuZChhbnN3ZXJMaXN0LmdldChpKSkuYXBwZW5kKCJdXG4iKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZmluYWwgU3RyaW5nIHF1ZXN0aW9uID0gIumXrumimO+8miIgKyB0aXRsZSArICJcblxuIiArCiAgICAgICAgICAgICAgICAgICAgIuetlOahiOWIl+ihqO+8mlxuXG4iICsgYW5zd2VyU3RyICsgIlxuXG4iICsKICAgICAgICAgICAgICAgICAgICAi6K+35Y+q6L+U5Zue562U5qGI5YiX6KGo5Lit55qE5bqP5Y+3IjsKCiAgICAgICAgICAgIC8vIOWQjOatpeiwg+eUqO+8jOS4u+e6v+eoi+etieW+hee7k+aenAogICAgICAgICAgICBTdHJpbmcgYW5zd2VyUmVzdWx0ID0gZ2V0QW5zd2VyU3RyKHF1ZXN0aW9uKTsKCiAgICAgICAgICAgIGlmIChhbnN3ZXJSZXN1bHQgIT0gbnVsbCAmJiAhYW5zd2VyUmVzdWx0LmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBpbnQgaW5kZXggPSBJbnRlZ2VyLnBhcnNlSW50KGFuc3dlclJlc3VsdC50cmltKCkpIC0gMTsKICAgICAgICAgICAgICAgICAgICBpZiAoaW5kZXggPj0gMCAmJiBpbmRleCA8IGFuc3dlckxpc3Quc2l6ZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBpbmRleDsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChOdW1iZXJGb3JtYXRFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOS4jeaYr+e6r+aVsOWtl++8jOWwneivleaooeeziuWMuemFjeetlOahiOWGheWuuQogICAgICAgICAgICAgICAgICAgIExvZy5vdGhlcigiQUnwn6eg5Zue562U77yM6Z2e5bqP5Y+35qC85byP77yaIiArIGFuc3dlclJlc3VsdCk7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8g5qih57OK5Yy56YWN562U5qGI5YaF5a65CiAgICAgICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGFuc3dlckxpc3Quc2l6ZSgpOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICBpZiAoYW5zd2VyUmVzdWx0LmNvbnRhaW5zKGFuc3dlckxpc3QuZ2V0KGkpKSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gaTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgZSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiAtMTsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.task.AnswerAI;
+
+import static fansirsqi.xposed.sesame.util.JsonUtil.getValueByPath;
+
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import fansirsqi.xposed.sesame.util.Log;
+import lombok.Getter;
+import lombok.Setter;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+
+/**
+ * GeminiAI帮助类，用于与Gemini接口交互以获取AI回答
+ * 支持单条文本问题及带有候选答案列表的问题请求
+ */
+public class GeminiAI implements AnswerAIInterface {
+    private static final String TAG = GeminiAI.class.getSimpleName();
+    private static final String BASE_URL = "https://api.genai.gd.edu.kg/google";
+    private static final String CONTENT_TYPE = "application/json";
+    private static final String JSON_PATH = "candidates.[0].content.parts.[0].text";
+    private static final String PREFIX = "只回答答案 ";
+    private static final Integer TIME_OUT_SECONDS = 180;
+
+    @Setter
+    @Getter
+    private String modelName = "gemini-2.5-flash";
+    private final String token;
+
+    public GeminiAI(String token) {
+        this.token = token != null && !token.isEmpty() ? token : "";
+    }
+
+    // 移除控制字符
+    private String removeControlCharacters(String text) {
+        return text.replaceAll("\\p{Cntrl}&&[^\n" + "\t]", "");
+    }
+
+    /**
+     * 构建请求体
+     *
+     * @param text 问题内容
+     * @return 请求体的JSON字符串
+     */
+    private String buildRequestBody(String text) {
+        text = removeControlCharacters(text);
+        return String.format("{" + "\"contents\":[{" + "\"parts\":[{" + "\"text\":\"%s\"" + "}]" + "}]" + "}", PREFIX + text);
+    }
+
+    /**
+     * 构建请求URL
+     *
+     * @return 完整的请求URL
+     */
+    private String buildRequestUrl() {
+        return String.format("%s/v1beta/models/%s:generateContent?key=%s",
+                BASE_URL, this.modelName, token);
+    }
+
+    @Override
+    public String getAnswerStr(String text, String model) {
+        setModelName(model);
+        return getAnswerStr(text);
+    }
+
+    /**
+     * 获取AI回答结果
+     *
+     * @param text 问题内容
+     * @return AI回答结果
+     */
+    @Override
+    public String getAnswerStr(String text) {
+        String result = "";
+        try {
+            OkHttpClient client = new OkHttpClient.Builder()
+                    .connectTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
+                    .writeTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
+                    .readTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
+                    .build();
+
+            String content = buildRequestBody(text);
+            MediaType mediaType = MediaType.parse(CONTENT_TYPE);
+            RequestBody body = RequestBody.create(content, mediaType);
+            String url = buildRequestUrl();
+            Request request = new Request.Builder()
+                    .url(url)
+                    .method("POST", body)
+                    .addHeader("Content-Type", CONTENT_TYPE)
+                    .build();
+
+            try (Response response = client.newCall(request).execute()) {
+                if (response.body() == null) {
+                    return result;
+                }
+                String json = response.body().string();
+                if (!response.isSuccessful()) {
+                    Log.other("Gemini请求失败");
+                    Log.record(TAG, "Gemini接口异常：" + json);
+                    return result;
+                }
+                JSONObject jsonObject = new JSONObject(json);
+                result = getValueByPath(jsonObject, JSON_PATH);
+            }
+        } catch (IOException | org.json.JSONException e) {
+            Log.printStackTrace(TAG, e);
+        }
+        return result;
+    }
+
+    /**
+     * 获取答案
+     *
+     * @param title      问题
+     * @param answerList 答案集合
+     * @return 空没有获取到
+     */
+    @Override
+    public Integer getAnswer(String title, List<String> answerList) {
+        try {
+            StringBuilder answerStr = new StringBuilder();
+            for (int i = 0; i < answerList.size(); i++) {
+                answerStr.append(i + 1).append(".[")
+                        .append(answerList.get(i)).append("]\n");
+            }
+
+            final String question = "问题：" + title + "\n\n" +
+                    "答案列表：\n\n" + answerStr + "\n\n" +
+                    "请只返回答案列表中的序号";
+
+            // 同步调用，主线程等待结果
+            String answerResult = getAnswerStr(question);
+
+            if (answerResult != null && !answerResult.isEmpty()) {
+                try {
+                    int index = Integer.parseInt(answerResult.trim()) - 1;
+                    if (index >= 0 && index < answerList.size()) {
+                        return index;
+                    }
+                } catch (NumberFormatException e) {
+                    // 如果不是纯数字，尝试模糊匹配答案内容
+                    Log.other("AI🧠回答，非序号格式：" + answerResult);
+                }
+
+                // 模糊匹配答案内容
+                for (int i = 0; i < answerList.size(); i++) {
+                    if (answerResult.contains(answerList.get(i))) {
+                        return i;
+                    }
+                }
+            }
+        } catch (Exception e) {
+            Log.printStackTrace(TAG, e);
+        }
+        return -1;
+    }
+}

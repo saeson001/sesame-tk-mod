@@ -1,1 +1,25 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aQoKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBhbmRyb2lkeC5hY3Rpdml0eS5Db21wb25lbnRBY3Rpdml0eQppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkuY29tcG9zZS5zZXRDb250ZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5jb21wb3NlLmNvbGxlY3RBc1N0YXRlV2l0aExpZmVjeWNsZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuc2NyZWVuLlJwY0NhcHR1cmVTY3JlZW4KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLnRoZW1lLkFwcFRoZW1lCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS50aGVtZS5UaGVtZU1hbmFnZXIKCi8qKgogKiDmipPljIXliIbmnpDvvJrlnKjmiYvmnLrkuIrmn6XnnIvmlK/ku5jlrp0gUlBDIOaKk+WMhee7k+aenOW5tuWvvOWHuuOAggogKi8KY2xhc3MgUnBjQ2FwdHVyZUFjdGl2aXR5IDogQ29tcG9uZW50QWN0aXZpdHkoKSB7CiAgICBvdmVycmlkZSBmdW4gb25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlOiBCdW5kbGU/KSB7CiAgICAgICAgc3VwZXIub25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlKQogICAgICAgIHNldENvbnRlbnQgewogICAgICAgICAgICB2YWwgaXNEeW5hbWljQ29sb3IgYnkgVGhlbWVNYW5hZ2VyLmlzRHluYW1pY0NvbG9yLmNvbGxlY3RBc1N0YXRlV2l0aExpZmVjeWNsZSgpCiAgICAgICAgICAgIEFwcFRoZW1lKGR5bmFtaWNDb2xvciA9IGlzRHluYW1pY0NvbG9yKSB7CiAgICAgICAgICAgICAgICBScGNDYXB0dXJlU2NyZWVuKG9uQmFjayA9IHsgZmluaXNoKCkgfSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.ui
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import fansirsqi.xposed.sesame.ui.screen.RpcCaptureScreen
+import fansirsqi.xposed.sesame.ui.theme.AppTheme
+import fansirsqi.xposed.sesame.ui.theme.ThemeManager
+
+/**
+ * 抓包分析：在手机上查看支付宝 RPC 抓包结果并导出。
+ */
+class RpcCaptureActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            val isDynamicColor by ThemeManager.isDynamicColor.collectAsStateWithLifecycle()
+            AppTheme(dynamicColor = isDynamicColor) {
+                RpcCaptureScreen(onBack = { finish() })
+            }
+        }
+    }
+}

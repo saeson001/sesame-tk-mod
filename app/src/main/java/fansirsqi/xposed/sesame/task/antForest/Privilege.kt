@@ -1,1 +1,187 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZvcmVzdAoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuU3RhdHVzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09ORXhjZXB0aW9uCmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBqYXZhLnV0aWwuQ2FsZW5kYXIKCm9iamVjdCBQcml2aWxlZ2UgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlByaXZpbGVnZSIKCiAgICAvLyDmoIforrAgJiDliY3nvIAKICAgIHByaXZhdGUgY29uc3QgdmFsIEZMQUdfUkVDRUlWRUQgPSAieW91dGhfcHJpdmlsZWdlX2ZvcmVzdF9yZWNlaXZlZCIKICAgIHByaXZhdGUgY29uc3QgdmFsIEZMQUdfU1RVREVOVF9UQVNLID0gInlvdXRoX3ByaXZpbGVnZV9zdHVkZW50X3Rhc2siCiAgICBwcml2YXRlIGNvbnN0IHZhbCBQUkVGSVhfUFJJVklMRUdFID0gIumdkuaYpeeJueadg/CfjLgiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBQUkVGSVhfU0lHTiA9ICLpnZLmmKXnibnmnYPwn6enIgoKICAgIC8vIOS7u+WKoeeKtuaAgQogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFTS19SRUNFSVZFRCA9ICJSRUNFSVZFRCIKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBU0tfRklOSVNIRUQgPSAiRklOSVNIRUQiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBSUENfU1VDQ0VTUyA9ICJTVUNDRVNTIgoKICAgIC8vIOaXtumXtOiMg+WbtAogICAgcHJpdmF0ZSBjb25zdCB2YWwgU0lHTl9TVEFSVF9IT1VSID0gNQogICAgcHJpdmF0ZSBjb25zdCB2YWwgU0lHTl9FTkRfSE9VUiA9IDEwCgogICAgLy8g6Z2S5pil54m55p2D5Lu75Yqh6YWN572uCiAgICBwcml2YXRlIHZhbCBZT1VUSF9UQVNLUyA9IGxpc3RPZigKICAgICAgICBZb3V0aFRhc2soIkROSFpfU0xfY29sbGVnZSIsICJEQVhVRVNIRU5HX1NKSyIsICLlj4zlh7vljaEiKSwKICAgICAgICBZb3V0aFRhc2soIkRYU19CSFoiLCAiTkVOR0xJQU5HWkhBT18yMDIzMDgwNyIsICLkv53miqTnvakiKSwKICAgICAgICBZb3V0aFRhc2soIkRYU19KU1EiLCAiSklBU1VRSV8yMDIzMDgwOCIsICLliqDpgJ/lmagiKQogICAgKQoKICAgIGZ1biB5b3V0aFByaXZpbGVnZSgpOiBCb29sZWFuIHsKICAgICAgICBpZiAoU3RhdHVzLmhhc0ZsYWdUb2RheShGTEFHX1JFQ0VJVkVEKSkgcmV0dXJuIGZhbHNlCgogICAgICAgIHZhbCByZXN1bHRzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKICAgICAgICBmb3IgKHRhc2sgaW4gWU9VVEhfVEFTS1MpIHsKICAgICAgICAgICAgcmVzdWx0cyArPSBwcm9jZXNzWW91dGhUYXNrKHRhc2spCiAgICAgICAgfQoKICAgICAgICB2YWwgYWxsU3VjY2VzcyA9IHJlc3VsdHMuYWxsIHsgaXQgPT0gIuWkhOeQhuaIkOWKnyIgfQogICAgICAgIGlmIChhbGxTdWNjZXNzKSBTdGF0dXMuc2V0RmxhZ1RvZGF5KEZMQUdfUkVDRUlWRUQpCiAgICAgICAgcmV0dXJuIGFsbFN1Y2Nlc3MKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwcm9jZXNzWW91dGhUYXNrKHRhc2s6IFlvdXRoVGFzayk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgdmFsIGZvcmVzdFRhc2tzTmV3ID0gZ2V0Rm9yZXN0VGFza3ModGFzay5xdWVyeVBhcmFtKQogICAgICAgIHJldHVybiBoYW5kbGVGb3Jlc3RUYXNrcyhmb3Jlc3RUYXNrc05ldywgdGFzay5yZWNlaXZlUGFyYW0sIHRhc2submFtZSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBnZXRGb3Jlc3RUYXNrcyhxdWVyeVBhcmFtOiBTdHJpbmcpOiBKU09OQXJyYXk/IHsKICAgICAgICB2YWwgcmVzcG9uc2UgPSBBbnRGb3Jlc3RScGNDYWxsLnF1ZXJ5VGFza0xpc3RWMihxdWVyeVBhcmFtKQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBKU09OT2JqZWN0KHJlc3BvbnNlKS5nZXRKU09OQXJyYXkoImZvcmVzdFRhc2tzTmV3IikKICAgICAgICB9IGNhdGNoIChlOiBKU09ORXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLojrflj5bku7vliqHliJfooajlpLHotKUkZSIpCiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaGFuZGxlRm9yZXN0VGFza3MoZm9yZXN0VGFza3M6IEpTT05BcnJheT8sIHRhc2tUeXBlOiBTdHJpbmcsIHRhc2tOYW1lOiBTdHJpbmcpOiBMaXN0PFN0cmluZz4gewogICAgICAgIHZhbCByZXN1bHRzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKGZvcmVzdFRhc2tzICE9IG51bGwgJiYgZm9yZXN0VGFza3MubGVuZ3RoKCkgPiAwKSB7CiAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBmb3Jlc3RUYXNrcy5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgIHZhbCB0YXNrR3JvdXAgPSBmb3Jlc3RUYXNrcy5vcHRKU09OT2JqZWN0KGkpID86IGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgdmFsIHRhc2tJbmZvTGlzdCA9IHRhc2tHcm91cC5nZXRKU09OQXJyYXkoInRhc2tJbmZvTGlzdCIpID86IGNvbnRpbnVlCgogICAgICAgICAgICAgICAgICAgIGZvciAoaiBpbiAwIHVudGlsIHRhc2tJbmZvTGlzdC5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgdGFzayA9IHRhc2tJbmZvTGlzdC5vcHRKU09OT2JqZWN0KGopID86IGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBiYXNlSW5mbyA9IHRhc2suZ2V0SlNPTk9iamVjdCgidGFza0Jhc2VJbmZvIikgPzogY29udGludWUKCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChiYXNlSW5mby5vcHRTdHJpbmcoInRhc2tUeXBlIikgIT0gdGFza1R5cGUpIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgICAgICAgICBwcm9jZXNzU2luZ2xlWW91dGhUYXNrKGJhc2VJbmZvLCB0YXNrVHlwZSwgdGFza05hbWUsIHJlc3VsdHMpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogSlNPTkV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5Lu75Yqh5YiX6KGo6Kej5p6Q5aSx6LSlJGUiKQogICAgICAgICAgICByZXN1bHRzLmFkZCgi5aSE55CG5byC5bi4IikKICAgICAgICB9CgogICAgICAgIHJldHVybiByZXN1bHRzCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcHJvY2Vzc1NpbmdsZVlvdXRoVGFzayhiYXNlSW5mbzogSlNPTk9iamVjdCwgdGFza1R5cGU6IFN0cmluZywgdGFza05hbWU6IFN0cmluZywgcmVzdWx0czogTXV0YWJsZUxpc3Q8U3RyaW5nPikgewogICAgICAgIHZhbCBzdGF0dXMgPSBiYXNlSW5mby5vcHRTdHJpbmcoInRhc2tTdGF0dXMiKQoKICAgICAgICB3aGVuIChzdGF0dXMpIHsKICAgICAgICAgICAgVEFTS19SRUNFSVZFRCAtPiBMb2cuZm9yZXN0KCIkUFJFRklYX1BSSVZJTEVHRVskdGFza05hbWVd5bey6aKG5Y+WIikKICAgICAgICAgICAgVEFTS19GSU5JU0hFRCAtPiBoYW5kbGVZb3V0aFRhc2tBd2FyZCh0YXNrVHlwZSwgdGFza05hbWUsIHJlc3VsdHMpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGhhbmRsZVlvdXRoVGFza0F3YXJkKHRhc2tUeXBlOiBTdHJpbmcsIHRhc2tOYW1lOiBTdHJpbmcsIHJlc3VsdHM6IE11dGFibGVMaXN0PFN0cmluZz4pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgcmVzcG9uc2UgPSBKU09OT2JqZWN0KEFudEZvcmVzdFJwY0NhbGwucmVjZWl2ZVRhc2tBd2FyZFYyKHRhc2tUeXBlKSkKICAgICAgICAgICAgdmFsIHJlc3VsdERlc2MgPSByZXNwb25zZS5vcHRTdHJpbmcoImRlc2MiKQogICAgICAgICAgICByZXN1bHRzLmFkZChyZXN1bHREZXNjKQoKICAgICAgICAgICAgdmFsIGxvZ01lc3NhZ2UgPSBpZiAocmVzdWx0RGVzYyA9PSAi5aSE55CG5oiQ5YqfIikgIumihuWPluaIkOWKnyIgZWxzZSAi6aKG5Y+W57uT5p6c77yaJHJlc3VsdERlc2MiCiAgICAgICAgICAgIExvZy5mb3Jlc3QoIiRQUkVGSVhfUFJJVklMRUdFWyR0YXNrTmFtZV0kbG9nTWVzc2FnZSIpCiAgICAgICAgfSBjYXRjaCAoZTogSlNPTkV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5aWW5Yqx6aKG5Y+W57uT5p6c6Kej5p6Q5aSx6LSlJGUiKQogICAgICAgICAgICByZXN1bHRzLmFkZCgi5aSE55CG5byC5bi4IikKICAgICAgICB9CiAgICB9CgogICAgZnVuIHN0dWRlbnRTaWduSW5SZWRFbnZlbG9wZSgpIHsKICAgICAgICBpZiAoIWlzU2lnbkluVGltZVZhbGlkKCkpIHsKICAgICAgICAgICAgTG9nLnJlY29yZCgiJFBSRUZJWF9TSUdOIDXngrnliY3kuI3miafooYznrb7liLAiKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIGlmIChTdGF0dXMuaGFzRmxhZ1RvZGF5KEZMQUdfU1RVREVOVF9UQVNLKSkgewogICAgICAgICAgICBMb2cucmVjb3JkKCIkUFJFRklYX1NJR04g5LuK5pel5bey5a6M5oiQ562+5YiwIikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB0cnkgewogICAgICAgICAgICBwcm9jZXNzU3R1ZGVudFNpZ25JbigpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLlrabnlJ/nrb7liLDlvILluLgkZSIpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzU2lnbkluVGltZVZhbGlkKCk6IEJvb2xlYW4gewogICAgICAgIHZhbCBob3VyID0gQ2FsZW5kYXIuZ2V0SW5zdGFuY2UoKS5nZXQoQ2FsZW5kYXIuSE9VUl9PRl9EQVkpCiAgICAgICAgcmV0dXJuIGhvdXIgPj0gU0lHTl9TVEFSVF9IT1VSCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcHJvY2Vzc1N0dWRlbnRTaWduSW4oKSB7CiAgICAgICAgdmFsIHJlc3BvbnNlID0gQW50Rm9yZXN0UnBjQ2FsbC5zdHVkZW50UXF1ZXJ5Q2hlY2tJbk1vZGVsKCkKICAgICAgICB2YWwgcmVzdWx0ID0gdHJ5IHsKICAgICAgICAgICAgSlNPTk9iamVjdChyZXNwb25zZSkKICAgICAgICB9IGNhdGNoIChlOiBKU09ORXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLlrabnlJ/nrb7liLDmqKHlnovop6PmnpDlpLHotKUkZSIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgaWYgKHJlc3VsdC5vcHRTdHJpbmcoInJlc3VsdENvZGUiKSAhPSBSUENfU1VDQ0VTUykgewogICAgICAgICAgICBMb2cucmVjb3JkKCIkUFJFRklYX1NJR04g5p+l6K+i5aSx6LSl77yaJHtyZXN1bHQub3B0U3RyaW5nKCJyZXN1bHREZXNjIil9IikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB2YWwgY2hlY2tJbkluZm8gPSByZXN1bHQub3B0SlNPTk9iamVjdCgic3R1ZGVudENoZWNrSW5JbmZvIikKICAgICAgICBpZiAoY2hlY2tJbkluZm8gPT0gbnVsbCB8fCBjaGVja0luSW5mby5vcHRTdHJpbmcoImFjdGlvbiIpID09ICJET19UQVNLIikgewogICAgICAgICAgICBTdGF0dXMuc2V0RmxhZ1RvZGF5KEZMQUdfU1RVREVOVF9UQVNLKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIGV4ZWN1dGVTdHVkZW50U2lnbkluKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBleGVjdXRlU3R1ZGVudFNpZ25JbigpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgdGFnID0gaWYgKENhbGVuZGFyLmdldEluc3RhbmNlKCkuZ2V0KENhbGVuZGFyLkhPVVJfT0ZfREFZKSA8IFNJR05fRU5EX0hPVVIpICJkb3VibGUiIGVsc2UgInNpbmdsZSIKICAgICAgICAgICAgdmFsIHJlc3BvbnNlID0gQW50Rm9yZXN0UnBjQ2FsbC5zdHVkZW50Q2hlY2tpbigpCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBKU09OT2JqZWN0KHJlc3BvbnNlKQogICAgICAgICAgICBoYW5kbGVTaWduSW5SZXN1bHQocmVzdWx0LCB0YWcpCiAgICAgICAgfSBjYXRjaCAoZTogSlNPTkV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5a2m55Sf562+5Yiw5aSx6LSl77yaJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaGFuZGxlU2lnbkluUmVzdWx0KHJlc3VsdDogSlNPTk9iamVjdCwgdGFnOiBTdHJpbmcpIHsKICAgICAgICB2YWwgY29kZSA9IHJlc3VsdC5vcHRTdHJpbmcoInJlc3VsdENvZGUiKQogICAgICAgIHZhbCBkZXNjID0gcmVzdWx0Lm9wdFN0cmluZygicmVzdWx0RGVzYyIpCgogICAgICAgIGlmIChjb2RlID09IFJQQ19TVUNDRVNTKSB7CiAgICAgICAgICAgIFN0YXR1cy5zZXRGbGFnVG9kYXkoRkxBR19TVFVERU5UX1RBU0spCiAgICAgICAgICAgIExvZy5mb3Jlc3QoIiRQUkVGSVhfU0lHTiR0YWckZGVzYyIpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdmFyIGVycm9yTXNnID0gZGVzYwogICAgICAgICAgICBpZiAoZGVzYy5jb250YWlucygi5LiN5Yy56YWNIikpIHsKICAgICAgICAgICAgICAgIGVycm9yTXNnICs9ICLlj6/og73otKbmiLfkuI3nrKblkIjmnaHku7YiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIiRQUkVGSVhfU0lHTiR0YWcg5aSx6LSl77yaJGVycm9yTXNnIikKICAgICAgICB9CiAgICB9CgogICAgZGF0YSBjbGFzcyBZb3V0aFRhc2sodmFsIHF1ZXJ5UGFyYW06IFN0cmluZywgdmFsIHJlY2VpdmVQYXJhbTogU3RyaW5nLCB2YWwgbmFtZTogU3RyaW5nKQp9
+package fansirsqi.xposed.sesame.task.antForest
+
+import fansirsqi.xposed.sesame.data.Status
+import fansirsqi.xposed.sesame.util.Log
+import org.json.JSONArray
+import org.json.JSONException
+import org.json.JSONObject
+import java.util.Calendar
+
+object Privilege {
+    private const val TAG = "Privilege"
+
+    // 标记 & 前缀
+    private const val FLAG_RECEIVED = "youth_privilege_forest_received"
+    private const val FLAG_STUDENT_TASK = "youth_privilege_student_task"
+    private const val PREFIX_PRIVILEGE = "青春特权🌸"
+    private const val PREFIX_SIGN = "青春特权🧧"
+
+    // 任务状态
+    private const val TASK_RECEIVED = "RECEIVED"
+    private const val TASK_FINISHED = "FINISHED"
+    private const val RPC_SUCCESS = "SUCCESS"
+
+    // 时间范围
+    private const val SIGN_START_HOUR = 5
+    private const val SIGN_END_HOUR = 10
+
+    // 青春特权任务配置
+    private val YOUTH_TASKS = listOf(
+        YouthTask("DNHZ_SL_college", "DAXUESHENG_SJK", "双击卡"),
+        YouthTask("DXS_BHZ", "NENGLIANGZHAO_20230807", "保护罩"),
+        YouthTask("DXS_JSQ", "JIASUQI_20230808", "加速器")
+    )
+
+    fun youthPrivilege(): Boolean {
+        if (Status.hasFlagToday(FLAG_RECEIVED)) return false
+
+        val results = mutableListOf<String>()
+        for (task in YOUTH_TASKS) {
+            results += processYouthTask(task)
+        }
+
+        val allSuccess = results.all { it == "处理成功" }
+        if (allSuccess) Status.setFlagToday(FLAG_RECEIVED)
+        return allSuccess
+    }
+
+    private fun processYouthTask(task: YouthTask): List<String> {
+        val forestTasksNew = getForestTasks(task.queryParam)
+        return handleForestTasks(forestTasksNew, task.receiveParam, task.name)
+    }
+
+    private fun getForestTasks(queryParam: String): JSONArray? {
+        val response = AntForestRpcCall.queryTaskListV2(queryParam)
+        return try {
+            JSONObject(response).getJSONArray("forestTasksNew")
+        } catch (e: JSONException) {
+            Log.error(TAG, "获取任务列表失败$e")
+            null
+        }
+    }
+
+    private fun handleForestTasks(forestTasks: JSONArray?, taskType: String, taskName: String): List<String> {
+        val results = mutableListOf<String>()
+
+        try {
+            if (forestTasks != null && forestTasks.length() > 0) {
+                for (i in 0 until forestTasks.length()) {
+                    val taskGroup = forestTasks.optJSONObject(i) ?: continue
+                    val taskInfoList = taskGroup.getJSONArray("taskInfoList") ?: continue
+
+                    for (j in 0 until taskInfoList.length()) {
+                        val task = taskInfoList.optJSONObject(j) ?: continue
+                        val baseInfo = task.getJSONObject("taskBaseInfo") ?: continue
+
+                        if (baseInfo.optString("taskType") != taskType) continue
+
+                        processSingleYouthTask(baseInfo, taskType, taskName, results)
+                    }
+                }
+            }
+        } catch (e: JSONException) {
+            Log.error(TAG, "任务列表解析失败$e")
+            results.add("处理异常")
+        }
+
+        return results
+    }
+
+    private fun processSingleYouthTask(baseInfo: JSONObject, taskType: String, taskName: String, results: MutableList<String>) {
+        val status = baseInfo.optString("taskStatus")
+
+        when (status) {
+            TASK_RECEIVED -> Log.forest("$PREFIX_PRIVILEGE[$taskName]已领取")
+            TASK_FINISHED -> handleYouthTaskAward(taskType, taskName, results)
+        }
+    }
+
+    private fun handleYouthTaskAward(taskType: String, taskName: String, results: MutableList<String>) {
+        try {
+            val response = JSONObject(AntForestRpcCall.receiveTaskAwardV2(taskType))
+            val resultDesc = response.optString("desc")
+            results.add(resultDesc)
+
+            val logMessage = if (resultDesc == "处理成功") "领取成功" else "领取结果：$resultDesc"
+            Log.forest("$PREFIX_PRIVILEGE[$taskName]$logMessage")
+        } catch (e: JSONException) {
+            Log.error(TAG, "奖励领取结果解析失败$e")
+            results.add("处理异常")
+        }
+    }
+
+    fun studentSignInRedEnvelope() {
+        if (!isSignInTimeValid()) {
+            Log.record("$PREFIX_SIGN 5点前不执行签到")
+            return
+        }
+
+        if (Status.hasFlagToday(FLAG_STUDENT_TASK)) {
+            Log.record("$PREFIX_SIGN 今日已完成签到")
+            return
+        }
+
+        try {
+            processStudentSignIn()
+        } catch (e: Exception) {
+            Log.error(TAG, "学生签到异常$e")
+        }
+    }
+
+    private fun isSignInTimeValid(): Boolean {
+        val hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
+        return hour >= SIGN_START_HOUR
+    }
+
+    private fun processStudentSignIn() {
+        val response = AntForestRpcCall.studentQqueryCheckInModel()
+        val result = try {
+            JSONObject(response)
+        } catch (e: JSONException) {
+            Log.error(TAG, "学生签到模型解析失败$e")
+            return
+        }
+
+        if (result.optString("resultCode") != RPC_SUCCESS) {
+            Log.record("$PREFIX_SIGN 查询失败：${result.optString("resultDesc")}")
+            return
+        }
+
+        val checkInInfo = result.optJSONObject("studentCheckInInfo")
+        if (checkInInfo == null || checkInInfo.optString("action") == "DO_TASK") {
+            Status.setFlagToday(FLAG_STUDENT_TASK)
+            return
+        }
+
+        executeStudentSignIn()
+    }
+
+    private fun executeStudentSignIn() {
+        try {
+            val tag = if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY) < SIGN_END_HOUR) "double" else "single"
+            val response = AntForestRpcCall.studentCheckin()
+            val result = JSONObject(response)
+            handleSignInResult(result, tag)
+        } catch (e: JSONException) {
+            Log.error(TAG, "学生签到失败：${e.message}")
+        }
+    }
+
+    private fun handleSignInResult(result: JSONObject, tag: String) {
+        val code = result.optString("resultCode")
+        val desc = result.optString("resultDesc")
+
+        if (code == RPC_SUCCESS) {
+            Status.setFlagToday(FLAG_STUDENT_TASK)
+            Log.forest("$PREFIX_SIGN$tag$desc")
+        } else {
+            var errorMsg = desc
+            if (desc.contains("不匹配")) {
+                errorMsg += "可能账户不符合条件"
+            }
+            Log.error(TAG, "$PREFIX_SIGN$tag 失败：$errorMsg")
+        }
+    }
+
+    data class YouthTask(val queryParam: String, val receiveParam: String, val name: String)
+}

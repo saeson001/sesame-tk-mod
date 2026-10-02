@@ -1,1 +1,9 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbDsKaW1wb3J0IGphdmEudXRpbC5MaW5rZWRIYXNoTWFwOwovL0BEYXRhCnB1YmxpYyBmaW5hbCBjbGFzcyBNb2RlbEZpZWxkcyBleHRlbmRzIExpbmtlZEhhc2hNYXA8U3RyaW5nLCBNb2RlbEZpZWxkPD8+PiB7CiAgICAvL3ByaXZhdGUgQm9vbGVhbk1vZGVsRmllbGQgZW5hYmxlID0gbmV3IEJvb2xlYW5Nb2RlbEZpZWxkKCJlbmFibGUiLCAi5byA5ZCvIiwgdHJ1ZSk7CiAgICBwdWJsaWMgdm9pZCBhZGRGaWVsZChNb2RlbEZpZWxkPD8+IG1vZGVsRmllbGQpIHsKICAgICAgICBwdXQobW9kZWxGaWVsZC5nZXRDb2RlKCksIG1vZGVsRmllbGQpOwogICAgfQp9
+package fansirsqi.xposed.sesame.model;
+import java.util.LinkedHashMap;
+//@Data
+public final class ModelFields extends LinkedHashMap<String, ModelField<?>> {
+    //private BooleanModelField enable = new BooleanModelField("enable", "开启", true);
+    public void addField(ModelField<?> modelField) {
+        put(modelField.getCode(), modelField);
+    }
+}

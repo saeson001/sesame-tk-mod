@@ -1,1 +1,289 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhOwoKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLkpzb25JZ25vcmU7CmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uYW5ub3RhdGlvbi5Kc29uSWdub3JlUHJvcGVydGllczsKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5kYXRhYmluZC5Kc29uTm9kZTsKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5kYXRhYmluZC5PYmplY3RNYXBwZXI7CmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uZGF0YWJpbmQubm9kZS5PYmplY3ROb2RlOwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmRhdGFiaW5kLmV4Yy5VbnJlY29nbml6ZWRQcm9wZXJ0eUV4Y2VwdGlvbjsKCmltcG9ydCBqYXZhLmlvLkZpbGU7CmltcG9ydCBqYXZhLmlvLklPRXhjZXB0aW9uOwppbXBvcnQgamF2YS51dGlsLkhhc2hNYXA7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXA7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZW50aXR5LlVzZXJFbnRpdHk7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbENvbmZpZzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEZpZWxkczsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suTW9kZWxUYXNrOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5UYXNrQ29tbW9uOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5GaWxlczsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuSnNvblV0aWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5Vc2VyTWFwOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5TdHJpbmdVdGlsOwppbXBvcnQgbG9tYm9rLkRhdGE7CgovKioKICog6YWN572u57G777yM6LSf6LSj5Yqg6L2944CB5L+d5a2Y44CB566h55CG5bqU55So55qE6YWN572u5pWw5o2u44CCCiAqLwpARGF0YQpASnNvbklnbm9yZVByb3BlcnRpZXMoaWdub3JlVW5rbm93biA9IHRydWUpCnB1YmxpYyBjbGFzcyBDb25maWcgewogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFRBRyA9IENvbmZpZy5jbGFzcy5nZXRTaW1wbGVOYW1lKCk7CiAgICAvLyDljZXkvovlrp7kvosKICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgQ29uZmlnIElOU1RBTkNFID0gbmV3IENvbmZpZygpOwogICAgLy8g5piv5ZCm5Yid5aeL5YyW5qCH5b+XCiAgICBASnNvbklnbm9yZQogICAgcHJpdmF0ZSB2b2xhdGlsZSBib29sZWFuIGluaXQgPSBmYWxzZTsKICAgIC8vIOWtmOWCqOaooeWei+Wtl+auteeahOaYoOWwhAogICAgcHJpdmF0ZSBmaW5hbCBNYXA8U3RyaW5nLCBNb2RlbEZpZWxkcz4gbW9kZWxGaWVsZHNNYXAgPSBuZXcgQ29uY3VycmVudEhhc2hNYXA8PigpOwoKICAgIC8qKgogICAgICog6K6+572u5paw55qE5qih5Z6L5a2X5q616YWN572uCiAgICAgKgogICAgICogQHBhcmFtIG5ld01vZGVscyDmlrDnmoTmqKHlnovlrZfmrrXmmKDlsIQKICAgICAqLwogICAgcHVibGljIHZvaWQgc2V0TW9kZWxGaWVsZHNNYXAoTWFwPFN0cmluZywgTW9kZWxGaWVsZHM+IG5ld01vZGVscykgewogICAgICAgIG1vZGVsRmllbGRzTWFwLmNsZWFyKCk7CiAgICAgICAgTWFwPFN0cmluZywgTW9kZWxDb25maWc+IG1vZGVsQ29uZmlnTWFwID0gTW9kZWxUYXNrLmdldE1vZGVsQ29uZmlnTWFwKCk7CiAgICAgICAgLy8g5aaC5p6c5Lyg5YWl55qEIG5ld01vZGVscyDkuLogbnVsbO+8jOWIneWni+WMluS4uuepugogICAgICAgIGlmIChuZXdNb2RlbHMgPT0gbnVsbCkgewogICAgICAgICAgICBuZXdNb2RlbHMgPSBuZXcgSGFzaE1hcDw+KCk7CiAgICAgICAgfQogICAgICAgIC8vIOmBjeWOhuaJgOacieaooeWei+mFjee9ru+8jOWQiOW5tuWtl+autemFjee9rgogICAgICAgIGZvciAoTW9kZWxDb25maWcgbW9kZWxDb25maWcgOiBtb2RlbENvbmZpZ01hcC52YWx1ZXMoKSkgewogICAgICAgICAgICBTdHJpbmcgbW9kZWxDb2RlID0gbW9kZWxDb25maWcuZ2V0Q29kZSgpOwogICAgICAgICAgICBNb2RlbEZpZWxkcyBuZXdNb2RlbEZpZWxkcyA9IG5ldyBNb2RlbEZpZWxkcygpOwogICAgICAgICAgICBNb2RlbEZpZWxkcyBjb25maWdNb2RlbEZpZWxkcyA9IG1vZGVsQ29uZmlnLmdldEZpZWxkcygpOwogICAgICAgICAgICBNb2RlbEZpZWxkcyBtb2RlbEZpZWxkcyA9IG5ld01vZGVscy5nZXQobW9kZWxDb2RlKTsKICAgICAgICAgICAgaWYgKG1vZGVsRmllbGRzICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIC8vIOWmguaenOW3suacieaooeWei+Wtl+aute+8jOWImeaMieWAvOimhueblumFjee9rgogICAgICAgICAgICAgICAgZm9yIChNb2RlbEZpZWxkPD8+IGNvbmZpZ01vZGVsRmllbGQgOiBjb25maWdNb2RlbEZpZWxkcy52YWx1ZXMoKSkgewogICAgICAgICAgICAgICAgICAgIE1vZGVsRmllbGQ8Pz4gbW9kZWxGaWVsZCA9IG1vZGVsRmllbGRzLmdldChjb25maWdNb2RlbEZpZWxkLmdldENvZGUoKSk7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKG1vZGVsRmllbGQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgT2JqZWN0IHZhbHVlID0gbW9kZWxGaWVsZC5nZXRWYWx1ZSgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHZhbHVlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25maWdNb2RlbEZpZWxkLnNldE9iamVjdFZhbHVlKHZhbHVlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIG5ld01vZGVsRmllbGRzLmFkZEZpZWxkKGNvbmZpZ01vZGVsRmllbGQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgLy8g5aaC5p6c5rKh5pyJ5om+5Yiw5a+55bqU55qE5qih5Z6L5a2X5q6177yM5YiZ55u05o6l5re75Yqg6YWN572u5a2X5q61CiAgICAgICAgICAgICAgICBmb3IgKE1vZGVsRmllbGQ8Pz4gY29uZmlnTW9kZWxGaWVsZCA6IGNvbmZpZ01vZGVsRmllbGRzLnZhbHVlcygpKSB7CiAgICAgICAgICAgICAgICAgICAgbmV3TW9kZWxGaWVsZHMuYWRkRmllbGQoY29uZmlnTW9kZWxGaWVsZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbW9kZWxGaWVsZHNNYXAucHV0KG1vZGVsQ29kZSwgbmV3TW9kZWxGaWVsZHMpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOajgOafpeaYr+WQpuWtmOWcqOaMh+WumueahOaooeWei+Wtl+autQogICAgICoKICAgICAqIEBwYXJhbSBtb2RlbENvZGUg5qih5Z6L5Luj56CBCiAgICAgKiBAcmV0dXJuIOaYr+WQpuWtmOWcqOivpeaooeWei+Wtl+autQogICAgICovCiAgICBwdWJsaWMgQm9vbGVhbiBoYXNNb2RlbEZpZWxkcyhTdHJpbmcgbW9kZWxDb2RlKSB7CiAgICAgICAgcmV0dXJuIG1vZGVsRmllbGRzTWFwLmNvbnRhaW5zS2V5KG1vZGVsQ29kZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6XmjIflrprmqKHlnovlrZfmrrXmmK/lkKblrZjlnKgKICAgICAqCiAgICAgKiBAcGFyYW0gbW9kZWxDb2RlIOaooeWei+S7o+eggQogICAgICogQHBhcmFtIGZpZWxkQ29kZSDlrZfmrrXku6PnoIEKICAgICAqIEByZXR1cm4g5piv5ZCm5a2Y5Zyo6K+l5a2X5q61CiAgICAgKi8KICAgIHB1YmxpYyBCb29sZWFuIGhhc01vZGVsRmllbGQoU3RyaW5nIG1vZGVsQ29kZSwgU3RyaW5nIGZpZWxkQ29kZSkgewogICAgICAgIE1vZGVsRmllbGRzIG1vZGVsRmllbGRzID0gbW9kZWxGaWVsZHNNYXAuZ2V0KG1vZGVsQ29kZSk7CiAgICAgICAgaWYgKG1vZGVsRmllbGRzID09IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICByZXR1cm4gbW9kZWxGaWVsZHMuY29udGFpbnNLZXkoZmllbGRDb2RlKTsKICAgIH0KCiAgICAvKioKICAgICAqIOWIpOaWremFjee9ruaWh+S7tuaYr+WQpuW3suS/ruaUuQogICAgICoKICAgICAqIEBwYXJhbSB1c2VySWQg55So5oi3IElECiAgICAgKiBAcmV0dXJuIOaYr+WQpuW3suS/ruaUuQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIEJvb2xlYW4gaXNNb2RpZnkoU3RyaW5nIHVzZXJJZCkgewogICAgICAgIFN0cmluZyBqc29uID0gbnVsbDsKICAgICAgICBGaWxlIGNvbmZpZ1YyRmlsZTsKICAgICAgICBpZiAoU3RyaW5nVXRpbC5pc0VtcHR5KHVzZXJJZCkpIHsKICAgICAgICAgICAgY29uZmlnVjJGaWxlID0gRmlsZXMuZ2V0RGVmYXVsdENvbmZpZ1YyRmlsZSgpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGNvbmZpZ1YyRmlsZSA9IEZpbGVzLmdldENvbmZpZ1YyRmlsZSh1c2VySWQpOwogICAgICAgIH0KICAgICAgICBpZiAoY29uZmlnVjJGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIGpzb24gPSBGaWxlcy5yZWFkRnJvbUZpbGUoY29uZmlnVjJGaWxlKTsKICAgICAgICB9CiAgICAgICAgaWYgKGpzb24gIT0gbnVsbCkgewogICAgICAgICAgICBTdHJpbmcgZm9ybWF0dGVkID0gSnNvblV0aWwuZm9ybWF0SnNvbihJTlNUQU5DRSk7CiAgICAgICAgICAgIHJldHVybiBmb3JtYXR0ZWQgPT0gbnVsbCB8fCAhZm9ybWF0dGVkLmVxdWFscyhqc29uKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgLyoqCiAgICAgKiDkv53lrZjphY3nva7mlofku7YKICAgICAqCiAgICAgKiBAcGFyYW0gdXNlcklkIOeUqOaItyBJRAogICAgICogQHBhcmFtIGZvcmNlICDmmK/lkKblvLrliLbkv53lrZgKICAgICAqIEByZXR1cm4g5L+d5a2Y5piv5ZCm5oiQ5YqfCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgc3luY2hyb25pemVkIEJvb2xlYW4gc2F2ZShTdHJpbmcgdXNlcklkLCBCb29sZWFuIGZvcmNlKSB7CiAgICAgICAgaWYgKCFmb3JjZSAmJiAhaXNNb2RpZnkodXNlcklkKSkgewogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9CiAgICAgICAgU3RyaW5nIGpzb247CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAganNvbiA9IEpzb25VdGlsLmZvcm1hdEpzb24oSU5TVEFOQ0UpOwogICAgICAgICAgICBpZiAoanNvbiA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCLphY3nva7moLzlvI/ljJblpLHotKXvvIzov5Tlm57nmoQgSlNPTiDkuLrnqboiKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCBlKTsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLkv53lrZjnlKjmiLfphY3nva7lpLHotKXvvIzmoLzlvI/ljJYgSlNPTiDml7blh7rplJkiKTsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICBib29sZWFuIHN1Y2Nlc3M7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKFN0cmluZ1V0aWwuaXNFbXB0eSh1c2VySWQpKSB7CiAgICAgICAgICAgICAgICB1c2VySWQgPSAi6buY6K6kIjsKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBGaWxlcy5zZXREZWZhdWx0Q29uZmlnVjJGaWxlKGpzb24pOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgc3VjY2VzcyA9IEZpbGVzLnNldENvbmZpZ1YyRmlsZSh1c2VySWQsIGpzb24pOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICghc3VjY2VzcykgewogICAgICAgICAgICAgICAgdGhyb3cgbmV3IElPRXhjZXB0aW9uKCLphY3nva7mlofku7bkv53lrZjlpLHotKUiKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBTdHJpbmcgdXNlck5hbWU7CiAgICAgICAgICAgIGlmIChTdHJpbmdVdGlsLmlzRW1wdHkodXNlcklkKSkgewogICAgICAgICAgICAgICAgdXNlck5hbWUgPSAi6buY6K6k55So5oi3IjsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIFVzZXJFbnRpdHkgdXNlckVudGl0eSA9IFVzZXJNYXAuZ2V0KHVzZXJJZCk7CiAgICAgICAgICAgICAgICB1c2VyTmFtZSA9IHVzZXJFbnRpdHkgIT0gbnVsbCA/IHVzZXJFbnRpdHkuZ2V0U2hvd05hbWUoKSA6ICLpu5jorqQiOwogICAgICAgICAgICB9CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5L+d5a2YIFsiICsgdXNlck5hbWUgKyAiXSDphY3nva4iKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgZSk7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5L+d5a2Y55So5oi36YWN572u5aSx6LSlIik7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzTG9hZGVkKCkgewogICAgICAgIHJldHVybiBJTlNUQU5DRS5pbml0OwogICAgfQoKICAgIC8qKgogICAgICog5Yqg6L296YWN572u5paH5Lu2CiAgICAgKgogICAgICogQHBhcmFtIHVzZXJJZCDnlKjmiLcgSUQKICAgICAqIEByZXR1cm4g6YWN572u5piv5ZCm5oiQ5Yqf5Yqg6L29CiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgc3luY2hyb25pemVkIENvbmZpZyBsb2FkKFN0cmluZyB1c2VySWQpIHsKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuW8gOWni+WKoOi9vemFjee9riIpOwogICAgICAgIFN0cmluZyB1c2VyTmFtZSA9ICIiOwogICAgICAgIEZpbGUgY29uZmlnVjJGaWxlID0gbnVsbDsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoU3RyaW5nVXRpbC5pc0VtcHR5KHVzZXJJZCkpIHsKICAgICAgICAgICAgICAgIGNvbmZpZ1YyRmlsZSA9IEZpbGVzLmdldERlZmF1bHRDb25maWdWMkZpbGUoKTsKICAgICAgICAgICAgICAgIHVzZXJOYW1lID0gIum7mOiupCI7CiAgICAgICAgICAgICAgICBpZiAoIWNvbmZpZ1YyRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi6buY6K6k6YWN572u5paH5Lu25LiN5a2Y5Zyo77yM5Yid5aeL5YyW5paw6YWN572uIik7CiAgICAgICAgICAgICAgICAgICAgdW5sb2FkKCk7CiAgICAgICAgICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZSh0b1NhdmVTdHIoKSwgY29uZmlnVjJGaWxlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbmZpZ1YyRmlsZSA9IEZpbGVzLmdldENvbmZpZ1YyRmlsZSh1c2VySWQpOwogICAgICAgICAgICAgICAgVXNlckVudGl0eSB1c2VyRW50aXR5ID0gVXNlck1hcC5nZXQodXNlcklkKTsKICAgICAgICAgICAgICAgIHVzZXJOYW1lID0gKHVzZXJFbnRpdHkgPT0gbnVsbCkgPyB1c2VySWQgOiB1c2VyRW50aXR5LmdldFNob3dOYW1lKCk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5Yqg6L296YWN572uOiAiICsgdXNlck5hbWUpOwogICAgICAgICAgICBib29sZWFuIGNvbmZpZ1YyRmlsZUV4aXN0cyA9IGNvbmZpZ1YyRmlsZS5leGlzdHMoKTsKICAgICAgICAgICAgYm9vbGVhbiBkZWZhdWx0Q29uZmlnVjJGaWxlRXhpc3RzID0gRmlsZXMuZ2V0RGVmYXVsdENvbmZpZ1YyRmlsZSgpLmV4aXN0cygpOwoKICAgICAgICAgICAgaWYgKGNvbmZpZ1YyRmlsZUV4aXN0cykgewogICAgICAgICAgICAgICAgU3RyaW5nIGpzb24gPSBGaWxlcy5yZWFkRnJvbUZpbGUoY29uZmlnVjJGaWxlKTsKLy8gICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLor7vlj5bphY3nva7mlofku7bmiJDlip86ICIgKyBjb25maWdWMkZpbGUuZ2V0UGF0aCgpKTsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgSnNvblV0aWwuY29weU1hcHBlcigpLnJlYWRlckZvclVwZGF0aW5nKElOU1RBTkNFKS5yZWFkVmFsdWUoanNvbik7CiAgICAgICAgICAgICAgICB9IGNhdGNoIChVbnJlY29nbml6ZWRQcm9wZXJ0eUV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIumFjee9ruaWh+S7tuS4reWtmOWcqOaXoOazleivhuWIq+eahOWtl+autTogJyIgKyBlLmdldFByb3BlcnR5TmFtZSgpICsgIifvvIzlsIblsJ3or5Xnp7vpmaTlubbph43mlrDliqDovb3jgIIiKTsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDnp7vpmaTml6Dms5Xor4bliKvnmoTlrZfmrrXlubbph43mlrDop6PmnpAKICAgICAgICAgICAgICAgICAgICAgICAgT2JqZWN0TWFwcGVyIG1hcHBlciA9IEpzb25VdGlsLmNvcHlNYXBwZXIoKTsKICAgICAgICAgICAgICAgICAgICAgICAgSnNvbk5vZGUgcm9vdE5vZGUgPSBtYXBwZXIucmVhZFRyZWUoanNvbik7CiAgICAgICAgICAgICAgICAgICAgICAgICgoT2JqZWN0Tm9kZSkgcm9vdE5vZGUpLnJlbW92ZShlLmdldFByb3BlcnR5TmFtZSgpKTsKICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGNsZWFuZWRKc29uID0gbWFwcGVyLndyaXRlVmFsdWVBc1N0cmluZyhyb290Tm9kZSk7CiAgICAgICAgICAgICAgICAgICAgICAgIG1hcHBlci5yZWFkZXJGb3JVcGRhdGluZyhJTlNUQU5DRSkucmVhZFZhbHVlKGNsZWFuZWRKc29uKTsKICAgICAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIuaIkOWKn+enu+mZpOmXrumimOWtl+auteW5tuWKoOi9vemFjee9ruOAgiIpOwogICAgICAgICAgICAgICAgICAgICAgICAvLyDkv53lrZjkv67lpI3lkI7nmoTphY3nva4KICAgICAgICAgICAgICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZSh0b1NhdmVTdHIoKSwgY29uZmlnVjJGaWxlKTsKICAgICAgICAgICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIuW3suS/neWtmOS/ruWkjeWQjueahOmFjee9ruaWh+S7tuOAgiIpOwogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBpbm5lckV4KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi56e76Zmk6Zeu6aKY5a2X5q615ZCO77yM5Yqg6L296YWN572u5LuN54S25aSx6LSl44CCIiwgaW5uZXJFeCk7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IGlubmVyRXg7IC8vIOaKm+WHuuWGhemDqOW8guW4uO+8jOinpuWPkemHjee9rumAu+i+kQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmoLzlvI/ljJbphY3nva7miJDlip86Iitjb25maWdWMkZpbGUpOwogICAgICAgICAgICAgICAgU3RyaW5nIGZvcm1hdHRlZCA9IHRvU2F2ZVN0cigpOwogICAgICAgICAgICAgICAgaWYgKGZvcm1hdHRlZCAhPSBudWxsICYmICFmb3JtYXR0ZWQuZXF1YWxzKGpzb24pKSB7CiAgICAgICAgICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZShmb3JtYXR0ZWQsIGNvbmZpZ1YyRmlsZSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSBpZiAoZGVmYXVsdENvbmZpZ1YyRmlsZUV4aXN0cykgewogICAgICAgICAgICAgICAgU3RyaW5nIGpzb24gPSBGaWxlcy5yZWFkRnJvbUZpbGUoRmlsZXMuZ2V0RGVmYXVsdENvbmZpZ1YyRmlsZSgpKTsKICAgICAgICAgICAgICAgIEpzb25VdGlsLmNvcHlNYXBwZXIoKS5yZWFkZXJGb3JVcGRhdGluZyhJTlNUQU5DRSkucmVhZFZhbHVlKGpzb24pOwogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLlpI3liLbmlrDphY3nva46ICIgKyB1c2VyTmFtZSk7CiAgICAgICAgICAgICAgICBGaWxlcy53cml0ZTJGaWxlKGpzb24sIGNvbmZpZ1YyRmlsZSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB1bmxvYWQoKTsKICAgICAgICAgICAgICAgIEZpbGVzLndyaXRlMkZpbGUodG9TYXZlU3RyKCksIGNvbmZpZ1YyRmlsZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdCkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIumHjee9rumFjee9ruWksei0pSIsIHQpOwogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdW5sb2FkKCk7CiAgICAgICAgICAgICAgICBpZiAoY29uZmlnVjJGaWxlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBGaWxlcy53cml0ZTJGaWxlKHRvU2F2ZVN0cigpLCBjb25maWdWMkZpbGUpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICLph43nva7phY3nva7lpLHotKUiLCBlKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBJTlNUQU5DRS5zZXRJbml0KHRydWUpOwogICAgICAgIFRhc2tDb21tb24udXBkYXRlKCk7CiAgICAgICAgcmV0dXJuIElOU1RBTkNFOwogICAgfQoKICAgIC8qKgogICAgICog5Y246L295b2T5YmN6YWN572uCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgc3luY2hyb25pemVkIHZvaWQgdW5sb2FkKCkgewogICAgICAgIGZvciAoTW9kZWxGaWVsZHMgbW9kZWxGaWVsZHMgOiBJTlNUQU5DRS5tb2RlbEZpZWxkc01hcC52YWx1ZXMoKSkgewogICAgICAgICAgICBmb3IgKE1vZGVsRmllbGQ8Pz4gbW9kZWxGaWVsZCA6IG1vZGVsRmllbGRzLnZhbHVlcygpKSB7CiAgICAgICAgICAgICAgICBpZiAobW9kZWxGaWVsZCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgbW9kZWxGaWVsZC5yZXNldCgpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHRvU2F2ZVN0cigpIHsKICAgICAgICByZXR1cm4gSnNvblV0aWwuZm9ybWF0SnNvbihJTlNUQU5DRSk7CiAgICB9Cgp9
+package fansirsqi.xposed.sesame.data;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+import fansirsqi.xposed.sesame.entity.UserEntity;
+import fansirsqi.xposed.sesame.model.ModelConfig;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.model.ModelFields;
+import fansirsqi.xposed.sesame.task.ModelTask;
+import fansirsqi.xposed.sesame.task.TaskCommon;
+import fansirsqi.xposed.sesame.util.Files;
+import fansirsqi.xposed.sesame.util.JsonUtil;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.maps.UserMap;
+import fansirsqi.xposed.sesame.util.StringUtil;
+import lombok.Data;
+
+/**
+ * 配置类，负责加载、保存、管理应用的配置数据。
+ */
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Config {
+    private static final String TAG = Config.class.getSimpleName();
+    // 单例实例
+    public static final Config INSTANCE = new Config();
+    // 是否初始化标志
+    @JsonIgnore
+    private volatile boolean init = false;
+    // 存储模型字段的映射
+    private final Map<String, ModelFields> modelFieldsMap = new ConcurrentHashMap<>();
+
+    /**
+     * 设置新的模型字段配置
+     *
+     * @param newModels 新的模型字段映射
+     */
+    public void setModelFieldsMap(Map<String, ModelFields> newModels) {
+        modelFieldsMap.clear();
+        Map<String, ModelConfig> modelConfigMap = ModelTask.getModelConfigMap();
+        // 如果传入的 newModels 为 null，初始化为空
+        if (newModels == null) {
+            newModels = new HashMap<>();
+        }
+        // 遍历所有模型配置，合并字段配置
+        for (ModelConfig modelConfig : modelConfigMap.values()) {
+            String modelCode = modelConfig.getCode();
+            ModelFields newModelFields = new ModelFields();
+            ModelFields configModelFields = modelConfig.getFields();
+            ModelFields modelFields = newModels.get(modelCode);
+            if (modelFields != null) {
+                // 如果已有模型字段，则按值覆盖配置
+                for (ModelField<?> configModelField : configModelFields.values()) {
+                    ModelField<?> modelField = modelFields.get(configModelField.getCode());
+                    try {
+                        if (modelField != null) {
+                            Object value = modelField.getValue();
+                            if (value != null) {
+                                configModelField.setObjectValue(value);
+                            }
+                        }
+                    } catch (Exception e) {
+                        Log.printStackTrace(e);
+                    }
+                    newModelFields.addField(configModelField);
+                }
+            } else {
+                // 如果没有找到对应的模型字段，则直接添加配置字段
+                for (ModelField<?> configModelField : configModelFields.values()) {
+                    newModelFields.addField(configModelField);
+                }
+            }
+            modelFieldsMap.put(modelCode, newModelFields);
+        }
+    }
+
+    /**
+     * 检查是否存在指定的模型字段
+     *
+     * @param modelCode 模型代码
+     * @return 是否存在该模型字段
+     */
+    public Boolean hasModelFields(String modelCode) {
+        return modelFieldsMap.containsKey(modelCode);
+    }
+
+    /**
+     * 检查指定模型字段是否存在
+     *
+     * @param modelCode 模型代码
+     * @param fieldCode 字段代码
+     * @return 是否存在该字段
+     */
+    public Boolean hasModelField(String modelCode, String fieldCode) {
+        ModelFields modelFields = modelFieldsMap.get(modelCode);
+        if (modelFields == null) {
+            return false;
+        }
+        return modelFields.containsKey(fieldCode);
+    }
+
+    /**
+     * 判断配置文件是否已修改
+     *
+     * @param userId 用户 ID
+     * @return 是否已修改
+     */
+    public static Boolean isModify(String userId) {
+        String json = null;
+        File configV2File;
+        if (StringUtil.isEmpty(userId)) {
+            configV2File = Files.getDefaultConfigV2File();
+        } else {
+            configV2File = Files.getConfigV2File(userId);
+        }
+        if (configV2File.exists()) {
+            json = Files.readFromFile(configV2File);
+        }
+        if (json != null) {
+            String formatted = JsonUtil.formatJson(INSTANCE);
+            return formatted == null || !formatted.equals(json);
+        }
+        return true;
+    }
+
+    /**
+     * 保存配置文件
+     *
+     * @param userId 用户 ID
+     * @param force  是否强制保存
+     * @return 保存是否成功
+     */
+    public static synchronized Boolean save(String userId, Boolean force) {
+        if (!force && !isModify(userId)) {
+            return true;
+        }
+        String json;
+        try {
+            json = JsonUtil.formatJson(INSTANCE);
+            if (json == null) {
+                throw new IllegalStateException("配置格式化失败，返回的 JSON 为空");
+            }
+        } catch (Exception e) {
+            Log.printStackTrace(TAG, e);
+            Log.record(TAG, "保存用户配置失败，格式化 JSON 时出错");
+            return false;
+        }
+        boolean success;
+        try {
+            if (StringUtil.isEmpty(userId)) {
+                userId = "默认";
+                success = Files.setDefaultConfigV2File(json);
+            } else {
+                success = Files.setConfigV2File(userId, json);
+            }
+            if (!success) {
+                throw new IOException("配置文件保存失败");
+            }
+            String userName;
+            if (StringUtil.isEmpty(userId)) {
+                userName = "默认用户";
+            } else {
+                UserEntity userEntity = UserMap.get(userId);
+                userName = userEntity != null ? userEntity.getShowName() : "默认";
+            }
+            Log.record(TAG, "保存 [" + userName + "] 配置");
+        } catch (Exception e) {
+            Log.printStackTrace(TAG, e);
+            Log.record(TAG, "保存用户配置失败");
+            return false;
+        }
+        return true;
+    }
+
+    public static boolean isLoaded() {
+        return INSTANCE.init;
+    }
+
+    /**
+     * 加载配置文件
+     *
+     * @param userId 用户 ID
+     * @return 配置是否成功加载
+     */
+    public static synchronized Config load(String userId) {
+        Log.record(TAG, "开始加载配置");
+        String userName = "";
+        File configV2File = null;
+        try {
+            if (StringUtil.isEmpty(userId)) {
+                configV2File = Files.getDefaultConfigV2File();
+                userName = "默认";
+                if (!configV2File.exists()) {
+                    Log.record(TAG, "默认配置文件不存在，初始化新配置");
+                    unload();
+                    Files.write2File(toSaveStr(), configV2File);
+                }
+            } else {
+                configV2File = Files.getConfigV2File(userId);
+                UserEntity userEntity = UserMap.get(userId);
+                userName = (userEntity == null) ? userId : userEntity.getShowName();
+            }
+
+            Log.record(TAG, "加载配置: " + userName);
+            boolean configV2FileExists = configV2File.exists();
+            boolean defaultConfigV2FileExists = Files.getDefaultConfigV2File().exists();
+
+            if (configV2FileExists) {
+                String json = Files.readFromFile(configV2File);
+//                Log.record(TAG, "读取配置文件成功: " + configV2File.getPath());
+                try {
+                    JsonUtil.copyMapper().readerForUpdating(INSTANCE).readValue(json);
+                } catch (UnrecognizedPropertyException e) {
+                    Log.error(TAG, "配置文件中存在无法识别的字段: '" + e.getPropertyName() + "'，将尝试移除并重新加载。");
+                    try {
+                        // 移除无法识别的字段并重新解析
+                        ObjectMapper mapper = JsonUtil.copyMapper();
+                        JsonNode rootNode = mapper.readTree(json);
+                        ((ObjectNode) rootNode).remove(e.getPropertyName());
+                        String cleanedJson = mapper.writeValueAsString(rootNode);
+                        mapper.readerForUpdating(INSTANCE).readValue(cleanedJson);
+                        Log.error(TAG, "成功移除问题字段并加载配置。");
+                        // 保存修复后的配置
+                        Files.write2File(toSaveStr(), configV2File);
+                        Log.error(TAG, "已保存修复后的配置文件。");
+                    } catch (Exception innerEx) {
+                        Log.printStackTrace(TAG, "移除问题字段后，加载配置仍然失败。", innerEx);
+                        throw innerEx; // 抛出内部异常，触发重置逻辑
+                    }
+                }
+//                Log.record(TAG, "格式化配置成功:"+configV2File);
+                String formatted = toSaveStr();
+                if (formatted != null && !formatted.equals(json)) {
+                    Files.write2File(formatted, configV2File);
+                }
+            } else if (defaultConfigV2FileExists) {
+                String json = Files.readFromFile(Files.getDefaultConfigV2File());
+                JsonUtil.copyMapper().readerForUpdating(INSTANCE).readValue(json);
+                Log.record(TAG, "复制新配置: " + userName);
+                Files.write2File(json, configV2File);
+            } else {
+                unload();
+                Files.write2File(toSaveStr(), configV2File);
+            }
+        } catch (Throwable t) {
+            Log.printStackTrace(TAG, "重置配置失败", t);
+            try {
+                unload();
+                if (configV2File != null) {
+                    Files.write2File(toSaveStr(), configV2File);
+                }
+            } catch (Exception e) {
+                Log.printStackTrace(TAG, "重置配置失败", e);
+            }
+        }
+        INSTANCE.setInit(true);
+        TaskCommon.update();
+        return INSTANCE;
+    }
+
+    /**
+     * 卸载当前配置
+     */
+    public static synchronized void unload() {
+        for (ModelFields modelFields : INSTANCE.modelFieldsMap.values()) {
+            for (ModelField<?> modelField : modelFields.values()) {
+                if (modelField != null) {
+                    modelField.reset();
+                }
+            }
+        }
+    }
+
+    public static String toSaveStr() {
+        return JsonUtil.formatJson(INSTANCE);
+    }
+
+}

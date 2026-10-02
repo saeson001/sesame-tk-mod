@@ -1,1 +1,76 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5hZGFwdGVyOwovKgogKiBARGVzY3JpcHRpb246IOWlveWPi+e7n+iuoe+8jOWIl+ihqOmVv+aMieiPnOWNlQogKiBAVXBkYXRlRGF0ZTogMjAyNC8xMC8yMwogKiBAVXBkYXRlVGltZTogMTY6MzkKICovCmltcG9ydCBhbmRyb2lkLmFubm90YXRpb24uU3VwcHJlc3NMaW50OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuTGF5b3V0SW5mbGF0ZXI7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3R3JvdXA7CmltcG9ydCBhbmRyb2lkLndpZGdldC5CYXNlQWRhcHRlcjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRleHRWaWV3OwppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKLyoqCiAqIOmAiemhuemAgumFjeWZqOOAggogKiDnlKjkuo7lnKjliJfooajop4blm77kuK3mmL7npLrpgInpobnjgIIKICovCnB1YmxpYyBjbGFzcyBPcHRpb25zQWRhcHRlciBleHRlbmRzIEJhc2VBZGFwdGVyIHsKICAgIEBTdXBwcmVzc0xpbnQoIlN0YXRpY0ZpZWxkTGVhayIpCiAgICBwcml2YXRlIHN0YXRpYyBPcHRpb25zQWRhcHRlciBhZGFwdGVyOwogICAgLyoqCiAgICAgKiDojrflj5bljZXkvovpgILphY3lmajlrp7kvovjgIIKICAgICAqIEBwYXJhbSBjIOS4iuS4i+aWh+WvueixoeOAggogICAgICogQHJldHVybiDpgILphY3lmajlrp7kvovjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBPcHRpb25zQWRhcHRlciBnZXQoQ29udGV4dCBjKSB7CiAgICAgICAgaWYgKGFkYXB0ZXIgPT0gbnVsbCkgewogICAgICAgICAgICBhZGFwdGVyID0gbmV3IE9wdGlvbnNBZGFwdGVyKGMpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gYWRhcHRlcjsKICAgIH0KICAgIHByaXZhdGUgZmluYWwgQ29udGV4dCBjb250ZXh0OwogICAgcHJpdmF0ZSBmaW5hbCBBcnJheUxpc3Q8U3RyaW5nPiBsaXN0OwogICAgLyoqCiAgICAgKiDnp4HmnInmnoTpgKDlh73mlbDvvIzpmLLmraLlpJbpg6jnm7TmjqXlrp7kvovljJbjgIIKICAgICAqIEBwYXJhbSBjIOS4iuS4i+aWh+WvueixoeOAggogICAgICovCiAgICBwcml2YXRlIE9wdGlvbnNBZGFwdGVyKENvbnRleHQgYykgewogICAgICAgIGNvbnRleHQgPSBjOwogICAgICAgIGxpc3QgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICAvLyDliJ3lp4vljJbliJfooajpobkKICAgICAgICBsaXN0LmFkZCgi5p+l55yL5qOu5p6XIik7CiAgICAgICAgbGlzdC5hZGQoIuafpeeci+W6hOWbrSIpOwogICAgICAgIGxpc3QuYWRkKCLmn6XnnIvotYTmlpkiKTsKICAgICAgICBsaXN0LmFkZCgi5Yig6ZmkIik7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBpbnQgZ2V0Q291bnQoKSB7CiAgICAgICAgLy8g6L+U5Zue5YiX6KGo6aG555qE5pWw6YePCiAgICAgICAgcmV0dXJuIGxpc3QgPT0gbnVsbCA/IDAgOiBsaXN0LnNpemUoKTsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIE9iamVjdCBnZXRJdGVtKGludCBwb3NpdGlvbikgewogICAgICAgIC8vIOi/lOWbnuaMh+WumuS9jee9rueahOWIl+ihqOmhuQogICAgICAgIHJldHVybiBsaXN0LmdldChwb3NpdGlvbik7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBsb25nIGdldEl0ZW1JZChpbnQgcG9zaXRpb24pIHsKICAgICAgICAvLyDov5Tlm57liJfooajpobnnmoTllK/kuIBJRO+8jOi/memHjOeugOWNleWcsOS9v+eUqOS9jee9ruS9nOS4uklECiAgICAgICAgcmV0dXJuIHBvc2l0aW9uOwogICAgfQogICAgQFN1cHByZXNzTGludCgiSW5mbGF0ZVBhcmFtcyIpCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBWaWV3IGdldFZpZXcoaW50IHBvc2l0aW9uLCBWaWV3IGNvbnZlcnRWaWV3LCBWaWV3R3JvdXAgcGFyZW50KSB7CiAgICAgICAgLy8g5aSN55SoY29udmVydFZpZXfku6Xmj5Dpq5jmgKfog70KICAgICAgICBpZiAoY29udmVydFZpZXcgPT0gbnVsbCkgewogICAgICAgICAgICAvLyBpbmZsYXRl5biD5bGACiAgICAgICAgICAgIGNvbnZlcnRWaWV3ID0gTGF5b3V0SW5mbGF0ZXIuZnJvbShjb250ZXh0KS5pbmZsYXRlKGFuZHJvaWQuUi5sYXlvdXQuc2ltcGxlX2xpc3RfaXRlbV8xLCBudWxsKTsKICAgICAgICB9CiAgICAgICAgLy8g6I635Y+WVGV4dFZpZXflubborr7nva7mlofmnKwKICAgICAgICBUZXh0VmlldyB0eHQgPSAoVGV4dFZpZXcpIGNvbnZlcnRWaWV3OwogICAgICAgIHR4dC5zZXRUZXh0KGdldEl0ZW0ocG9zaXRpb24pLnRvU3RyaW5nKCkpOwogICAgICAgIHJldHVybiBjb252ZXJ0VmlldzsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.ui.adapter;
+/*
+ * @Description: 好友统计，列表长按菜单
+ * @UpdateDate: 2024/10/23
+ * @UpdateTime: 16:39
+ */
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+import java.util.ArrayList;
+/**
+ * 选项适配器。
+ * 用于在列表视图中显示选项。
+ */
+public class OptionsAdapter extends BaseAdapter {
+    @SuppressLint("StaticFieldLeak")
+    private static OptionsAdapter adapter;
+    /**
+     * 获取单例适配器实例。
+     * @param c 上下文对象。
+     * @return 适配器实例。
+     */
+    public static OptionsAdapter get(Context c) {
+        if (adapter == null) {
+            adapter = new OptionsAdapter(c);
+        }
+        return adapter;
+    }
+    private final Context context;
+    private final ArrayList<String> list;
+    /**
+     * 私有构造函数，防止外部直接实例化。
+     * @param c 上下文对象。
+     */
+    private OptionsAdapter(Context c) {
+        context = c;
+        list = new ArrayList<>();
+        // 初始化列表项
+        list.add("查看森林");
+        list.add("查看庄园");
+        list.add("查看资料");
+        list.add("删除");
+    }
+    @Override
+    public int getCount() {
+        // 返回列表项的数量
+        return list == null ? 0 : list.size();
+    }
+    @Override
+    public Object getItem(int position) {
+        // 返回指定位置的列表项
+        return list.get(position);
+    }
+    @Override
+    public long getItemId(int position) {
+        // 返回列表项的唯一ID，这里简单地使用位置作为ID
+        return position;
+    }
+    @SuppressLint("InflateParams")
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        // 复用convertView以提高性能
+        if (convertView == null) {
+            // inflate布局
+            convertView = LayoutInflater.from(context).inflate(android.R.layout.simple_list_item_1, null);
+        }
+        // 获取TextView并设置文本
+        TextView txt = (TextView) convertView;
+        txt.setText(getItem(position).toString());
+        return convertView;
+    }
+}

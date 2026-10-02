@@ -1,1 +1,64 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnNlcnZlcgoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRAoKLyoqCiAqIEhUVFAg5pyN5Yqh566h55CG5ZmoICjljZXkvospCiAqIOi0n+i0o+aOp+WItiBTZXJ2ZXIg55qE5ZCv5Yqo5ZKM5YGc5q2iCiAqLwpvYmplY3QgTW9kdWxlSHR0cFNlcnZlck1hbmFnZXIgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIk1vZHVsZUh0dHBTZXJ2ZXJNYW5hZ2VyIgogICAgLy8g5oyB5pyJIFNlcnZlciDlrp7kvosKICAgIHByaXZhdGUgdmFyIHNlcnZlcjogTW9kdWxlSHR0cFNlcnZlcj8gPSBudWxsCgogICAgLyoqCiAgICAgKiDlkK/liqjmnI3liqEgKOWmguaenOWwmuacquWQr+WKqCkKICAgICAqLwogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHN0YXJ0SWZOZWVkZWQoCiAgICAgICAgcG9ydDogSW50LAogICAgICAgIHNlY3JldFRva2VuOiBTdHJpbmcsCiAgICAgICAgY3VycmVudFByb2Nlc3NOYW1lOiBTdHJpbmcsIC8vIOW9k+WJjei/m+eoi+WQjQogICAgICAgIG1haW5Qcm9jZXNzTmFtZTogU3RyaW5nICAgICAvLyDkuLvov5vnqIvljIXlkI0KICAgICkgewogICAgICAgIC8vIDEuIOWuieWFqOajgOafpe+8muS7heWFgeiuuOWcqOS4u+i/m+eoi+WQr+WKqO+8jOmBv+WFjeWkmuS4qui/m+eoi+aKouWNoOerr+WPowogICAgICAgIGlmIChjdXJyZW50UHJvY2Vzc05hbWUgIT0gbWFpblByb2Nlc3NOYW1lKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgLy8gMi4g5aaC5p6c5bey57uP6L+Q6KGM77yM6Lez6L+HCiAgICAgICAgaWYgKHNlcnZlciAhPSBudWxsICYmIHNlcnZlcj8uaXNBbGl2ZSA9PSB0cnVlKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgLy8gMy4g5ZCv5Yqo6YC76L6RCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgc3RvcCgpIC8vIOWFiOWwneivleWBnOatouaXp+eahO+8iOWmguaenOacie+8iQoKICAgICAgICAgICAgdmFsIG5ld1NlcnZlciA9IE1vZHVsZUh0dHBTZXJ2ZXIocG9ydCwgc2VjcmV0VG9rZW4pCiAgICAgICAgICAgIG5ld1NlcnZlci5zdGFydChOYW5vSFRUUEQuU09DS0VUX1JFQURfVElNRU9VVCwgZmFsc2UpIC8vIOWQr+WKqCBOYW5vSFRUUEQKCiAgICAgICAgICAgIHNlcnZlciA9IG5ld1NlcnZlcgovLyAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi8J+agCBIVFRQIOacjeWKoeW3suWQr+WKqDogaHR0cDovLzEyNy4wLjAuMTokcG9ydCIpCi8vICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLwn5SRIFRva2VuOiAkc2VjcmV0VG9rZW4iKQoKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJIVFRQIOacjeWKoeWQr+WKqOWksei0pSIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5YGc5q2i5pyN5YqhCiAgICAgKi8KICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBzdG9wKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHNlcnZlcj8uc3RvcCgpCiAgICAgICAgICAgIHNlcnZlciA9IG51bGwKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJIVFRQIOacjeWKoeW3suWBnOatoiIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi5YGc5q2i5pyN5Yqh5byC5bi4IiwgZSkKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.hook.server
+
+import fansirsqi.xposed.sesame.util.Log
+import fi.iki.elonen.NanoHTTPD
+
+/**
+ * HTTP 服务管理器 (单例)
+ * 负责控制 Server 的启动和停止
+ */
+object ModuleHttpServerManager {
+    private const val TAG = "ModuleHttpServerManager"
+    // 持有 Server 实例
+    private var server: ModuleHttpServer? = null
+
+    /**
+     * 启动服务 (如果尚未启动)
+     */
+    @Synchronized
+    fun startIfNeeded(
+        port: Int,
+        secretToken: String,
+        currentProcessName: String, // 当前进程名
+        mainProcessName: String     // 主进程包名
+    ) {
+        // 1. 安全检查：仅允许在主进程启动，避免多个进程抢占端口
+        if (currentProcessName != mainProcessName) {
+            return
+        }
+
+        // 2. 如果已经运行，跳过
+        if (server != null && server?.isAlive == true) {
+            return
+        }
+
+        // 3. 启动逻辑
+        try {
+            stop() // 先尝试停止旧的（如果有）
+
+            val newServer = ModuleHttpServer(port, secretToken)
+            newServer.start(NanoHTTPD.SOCKET_READ_TIMEOUT, false) // 启动 NanoHTTPD
+
+            server = newServer
+//            Log.record(TAG, "🚀 HTTP 服务已启动: http://127.0.0.1:$port")
+//            Log.record(TAG, "🔑 Token: $secretToken")
+
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "HTTP 服务启动失败", e)
+        }
+    }
+
+    /**
+     * 停止服务
+     */
+    @Synchronized
+    fun stop() {
+        try {
+            server?.stop()
+            server = null
+            Log.record(TAG, "HTTP 服务已停止")
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "停止服务异常", e)
+        }
+    }
+}

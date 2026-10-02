@@ -1,1 +1,85 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudFN0YWxsCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxHcm91cAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5BbnN3ZXJBSS5BbnN3ZXJBSQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Kc29uVXRpbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCi8qKgogKiBAZmlsZSBSZWFkaW5nRGFkYS5rdAogKiBAYnJpZWYg6ZiF6K+7562U6aKY5Yqf6IO95qih5Z2XCiAqIEBhdXRob3IKICogQHNpbmNlIDIwMjMvMDgvMjIKICovCm9iamVjdCBSZWFkaW5nRGFkYSB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiUmVhZGluZ0RhZGEiCgogICAgdmFsIGdyb3VwOiBNb2RlbEdyb3VwID0gTW9kZWxHcm91cC5TVEFMTAoKICAgIC8qKgogICAgICogQGJyaWVmIOWbnuetlOmXrumimAogICAgICogQHBhcmFtIGJpekluZm8g5Lia5Yqh5L+h5oGvSlNPTuWvueixoQogICAgICogQHJldHVybiDmmK/lkKblm57nrZTmiJDlip8KICAgICAqLwogICAgZnVuIGFuc3dlclF1ZXN0aW9uKGJpekluZm86IEpTT05PYmplY3QpOiBCb29sZWFuIHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyDojrflj5bku7vliqHot7PovaxVUkwKICAgICAgICAgICAgdmFsIHRhc2tKdW1wVXJsID0gYml6SW5mby5vcHRTdHJpbmcoInRhc2tKdW1wVXJsIikudGFrZUlmIHsgaXQuaXNOb3RFbXB0eSgpIH0KICAgICAgICAgICAgICAgID86IGJpekluZm8uZ2V0U3RyaW5nKCJ0YXJnZXRVcmwiKQoKICAgICAgICAgICAgLy8g6Kej5p6Q5rS75YqoSUQKICAgICAgICAgICAgdmFsIGFjdGl2aXR5SWQgPSB0YXNrSnVtcFVybC5zcGxpdCgiYWN0aXZpdHlJZCUzRCIpWzFdLnNwbGl0KCIlMjYiKVswXQoKICAgICAgICAgICAgLy8g6Kej5p6Q5aSW6YOo5Lia5YqhSUQKICAgICAgICAgICAgdmFsIG91dEJpeklkID0gaWYgKHRhc2tKdW1wVXJsLmNvbnRhaW5zKCJvdXRCaXpJZCUzRCIpKSB7CiAgICAgICAgICAgICAgICB0YXNrSnVtcFVybC5zcGxpdCgib3V0Qml6SWQlM0QiKVsxXS5zcGxpdCgiJTI2IilbMF0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICIiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOiOt+WPlumXrumimAogICAgICAgICAgICB2YWwgcXVlc3Rpb25SZXNwb25zZSA9IFJlYWRpbmdEYWRhUnBjQ2FsbC5nZXRRdWVzdGlvbihhY3Rpdml0eUlkKQogICAgICAgICAgICB2YWwgcXVlc3Rpb25Kc29uID0gSlNPTk9iamVjdChxdWVzdGlvblJlc3BvbnNlKQoKICAgICAgICAgICAgaWYgKHF1ZXN0aW9uSnNvbi5nZXRTdHJpbmcoInJlc3VsdENvZGUiKSA9PSAiMjAwIikgewogICAgICAgICAgICAgICAgdmFsIG9wdGlvbnMgPSBxdWVzdGlvbkpzb24uZ2V0SlNPTkFycmF5KCJvcHRpb25zIikKICAgICAgICAgICAgICAgIHZhbCBxdWVzdGlvbiA9IHF1ZXN0aW9uSnNvbi5nZXRTdHJpbmcoInRpdGxlIikKCiAgICAgICAgICAgICAgICAvLyDkvb/nlKhBSeiOt+WPluetlOahiAogICAgICAgICAgICAgICAgdmFyIGFuc3dlciA9IEFuc3dlckFJLmdldEFuc3dlcigKICAgICAgICAgICAgICAgICAgICBxdWVzdGlvbiwKICAgICAgICAgICAgICAgICAgICBKc29uVXRpbC5qc29uQXJyYXlUb0xpc3Qob3B0aW9ucyksCiAgICAgICAgICAgICAgICAgICAgIm90aGVyIgogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIC8vIOWmguaenEFJ5pyq6L+U5Zue562U5qGILOS9v+eUqOesrOS4gOS4qumAiemhuQogICAgICAgICAgICAgICAgaWYgKGFuc3dlci5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBhbnN3ZXIgPSBvcHRpb25zLmdldFN0cmluZygwKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOaPkOS6pOetlOahiAogICAgICAgICAgICAgICAgdmFsIHN1Ym1pdFJlc3BvbnNlID0gUmVhZGluZ0RhZGFScGNDYWxsLnN1Ym1pdEFuc3dlcigKICAgICAgICAgICAgICAgICAgICBhY3Rpdml0eUlkLAogICAgICAgICAgICAgICAgICAgIG91dEJpeklkLAogICAgICAgICAgICAgICAgICAgIHF1ZXN0aW9uSnNvbi5nZXRTdHJpbmcoInF1ZXN0aW9uSWQiKSwKICAgICAgICAgICAgICAgICAgICBhbnN3ZXIKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICB2YWwgc3VibWl0SnNvbiA9IEpTT05PYmplY3Qoc3VibWl0UmVzcG9uc2UpCiAgICAgICAgICAgICAgICByZXR1cm4gaWYgKHN1Ym1pdEpzb24uZ2V0U3RyaW5nKCJyZXN1bHRDb2RlIikgPT0gIjIwMCIpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuetlOmimOWujOaIkCIpCiAgICAgICAgICAgICAgICAgICAgdHJ1ZQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi562U6aKY5aSx6LSlIikKICAgICAgICAgICAgICAgICAgICBmYWxzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIuiOt+WPlumXrumimOWksei0pSIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJhbnN3ZXJRdWVzdGlvbiBlcnI6IiwgZSkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICB9Cn0K
+package fansirsqi.xposed.sesame.task.antStall
+
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.task.AnswerAI.AnswerAI
+import fansirsqi.xposed.sesame.util.JsonUtil
+import fansirsqi.xposed.sesame.util.Log
+import org.json.JSONObject
+
+/**
+ * @file ReadingDada.kt
+ * @brief 阅读答题功能模块
+ * @author
+ * @since 2023/08/22
+ */
+object ReadingDada {
+    private const val TAG = "ReadingDada"
+
+    val group: ModelGroup = ModelGroup.STALL
+
+    /**
+     * @brief 回答问题
+     * @param bizInfo 业务信息JSON对象
+     * @return 是否回答成功
+     */
+    fun answerQuestion(bizInfo: JSONObject): Boolean {
+        try {
+            // 获取任务跳转URL
+            val taskJumpUrl = bizInfo.optString("taskJumpUrl").takeIf { it.isNotEmpty() }
+                ?: bizInfo.getString("targetUrl")
+
+            // 解析活动ID
+            val activityId = taskJumpUrl.split("activityId%3D")[1].split("%26")[0]
+
+            // 解析外部业务ID
+            val outBizId = if (taskJumpUrl.contains("outBizId%3D")) {
+                taskJumpUrl.split("outBizId%3D")[1].split("%26")[0]
+            } else {
+                ""
+            }
+
+            // 获取问题
+            val questionResponse = ReadingDadaRpcCall.getQuestion(activityId)
+            val questionJson = JSONObject(questionResponse)
+
+            if (questionJson.getString("resultCode") == "200") {
+                val options = questionJson.getJSONArray("options")
+                val question = questionJson.getString("title")
+
+                // 使用AI获取答案
+                var answer = AnswerAI.getAnswer(
+                    question,
+                    JsonUtil.jsonArrayToList(options),
+                    "other"
+                )
+
+                // 如果AI未返回答案,使用第一个选项
+                if (answer.isNullOrEmpty()) {
+                    answer = options.getString(0)
+                }
+
+                // 提交答案
+                val submitResponse = ReadingDadaRpcCall.submitAnswer(
+                    activityId,
+                    outBizId,
+                    questionJson.getString("questionId"),
+                    answer
+                )
+
+                val submitJson = JSONObject(submitResponse)
+                return if (submitJson.getString("resultCode") == "200") {
+                    Log.record(TAG, "答题完成")
+                    true
+                } else {
+                    Log.error(TAG, "答题失败")
+                    false
+                }
+            } else {
+                Log.error(TAG, "获取问题失败")
+            }
+        } catch (e: Throwable) {
+            Log.printStackTrace(TAG, "answerQuestion err:", e)
+        }
+        return false
+    }
+}

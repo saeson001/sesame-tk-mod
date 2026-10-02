@@ -1,1 +1,93 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhOw0KDQovKioNCiAqIOeUqOS6jue7n+S4gOeuoeeQhuaJgOacieOAkOavj+aXpSAvIOeKtuaAgSBGbGFn44CR55qE5bi46YeP5a6a5LmJ44CCDQogKg0KICog6K6+6K6h55uu5qCH77yaDQogKiAxLiDpgb/lhY3pobnnm67kuK3mlaPokL3lrZfnrKbkuLLluLjph48NCiAqIDIuIOe7n+S4gOWRveWQjeinhOiMg++8jOS+v+S6juaQnOe0ouWSjOe7tOaKpA0KICogMy4g5piO56Gu5Lia5Yqh5qih5Z2X5b2S5bGeDQogKg0KICog5ZG95ZCN6KeE6IyD77yaDQogKiAtIOW4uOmHj+WQje+8muWFqOWkp+WGmSArIOS4i+WIkue6v++8iEZMQUdfWFhY77yJDQogKiAtIOW4uOmHj+WAvO+8muWunumZheWtmOWCqOS9v+eUqOeahCBLZXnvvIjkv53mjIHljoblj7LlhbzlrrnvvIkNCiAqLw0KcHVibGljIGZpbmFsIGNsYXNzIFN0YXR1c0ZsYWdzIHsNCg0KICAgIHByaXZhdGUgU3RhdHVzRmxhZ3MoKSB7DQogICAgICAgIC8vIOemgeatouWunuS+i+WMlg0KICAgIH0NCg0KICAgIC8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KICAgIC8vIE5ldmVybGFuZO+8iOWBpeW6t+Wym++8iQ0KICAgIC8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQogICAgLyoqIOS7iuaXpeatpeaVsOS7u+WKoeaYr+WQpuW3suWujOaIkCAqLw0KICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEZMQUdfTkVWRVJMQU5EX1NURVBfQ09VTlQgPQ0KICAgICAgICAgICAgIkZsYWdfTmV2ZXJsYW5kX1N0ZXBDb3VudCI7DQoNCg0KICAgIC8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KICAgIC8vIEFudE1lbWJlcu+8iOS8muWRmOmikemBkyAvIOenr+WIhu+8iQ0KICAgIC8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQogICAgLyoqIOaYr+WQpuW3suaJp+ihjOOAjOmihuWPluaJgOacieWPr+WBmuiKnem6u+S7u+WKoeOAjSAqLw0KICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEZMQUdfQU5UTUVNQkVSX0RPX0FMTF9TRVNBTUVfVEFTSyA9DQogICAgICAgICAgICAiQW50TWVtYmVyOjpkb0FsbEF2YWlsYWJsZVNlc2FtZVRhc2siOw0KDQogICAgLyoqIOS7iuaXpei0tOe6uOmihuWPluS7u+WKoSAqLw0KICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEZMQUdfQU5UTUVNQkVSX1NUSUNLRVIgPQ0KICAgICAgICAgICAgIkZsYWdfQW50TWVtYmVyX1N0aWNrZXIiOw0KDQoNCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiAgICAvLyDoip3purvkv6HnlKggLyDoip3purvnspINCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KICAgIC8qKiDoip3purvnspLngrzph5HvvJrmrKHml6XlpZblirHmmK/lkKblt7Lpooblj5YgKi8NCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBGTEFHX1pNWFlfQUxDSEVNWV9ORVhUX0RBWV9BV0FSRCA9DQogICAgICAgICAgICAiem14eTo6YWxjaGVteTo6bmV4dERheUF3YXJkIjsNCg0KICAgIC8qKiDkv6HnlKggMjEwMe+8muWbvumJtOeroOiKguS7u+WKoeaYr+WQpuWFqOmDqOWujOaIkCAqLw0KICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEZMQUdfQ1JFRElUMjEwMV9DSEFQVEVSX1RBU0tfRE9ORSA9DQogICAgICAgICAgICAiRkxBR19DcmVkaXQyMTAxX0NoYXB0ZXJUYXNrX0RvbmUiOw0KDQoNCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiAgICAvLyDov5Dliqjku7vliqHvvIhBbnRTcG9ydHPvvIkNCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KICAgIC8qKiDov5Dliqjku7vliqHlpKfljoXvvJrku4rml6XmmK/lkKblt7Llvqrnjq/lpITnkIYgKi8NCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBGTEFHX0FOVFNQT1JUU19UQVNLX0NFTlRFUl9ET05FID0NCiAgICAgICAgICAgICJGbGFnX0FudFNwb3J0c19UYXNrQ2VudGVyX0RvbmUiOw0KDQogICAgLyoqIOS7iuaXpeatpeaVsOWQjOatpeaYr+WQpuW3suWujOaIkCAqLw0KICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEZMQUdfQU5UU1BPUlRTX1NZTkNfU1RFUF9ET05FID0NCiAgICAgICAgICAgICJGTEFHX0FOVFNQT1JUU19zeW5jU3RlcF9Eb25lIjsNCg0KICAgIC8qKiDku4rml6Xov5Dliqjml6XluLjku7vliqHmmK/lkKblt7LlrozmiJAgKi8NCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBGTEFHX0FOVFNQT1JUU19EQUlMWV9UQVNLU19ET05FID0NCiAgICAgICAgICAgICJGTEFHX0FOVFNQT1JUU19kYWlseVRhc2tzX0RvbmUiOw0KDQoNCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiAgICAvLyDlhpzlnLogLyDmlrDmnZEgLyDlm6LpmJ8NCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KICAgIC8qKiDlm6LpmJ/mtYfmsLTvvJrku4rml6XmrKHmlbDnu5/orqEgKi8NCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBGTEFHX1RFQU1fV0FURVJfREFJTFlfQ09VTlQgPQ0KICAgICAgICAgICAgIkZsYWdfVGVhbV9XZWF0ZXJfRGFpbHlfQ291bnQiOw0KDQogICAgLyoqIOWGnOWcuue7hOS7tu+8muavj+aXpeWbnuiuv+WlluWKsSAqLw0KICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEZMQUdfQU5UT1JDSEFSRF9XSURHRVRfREFJTFlfQVdBUkQgPQ0KICAgICAgICAgICAgIkZsYWdfQW50b3JjaGFyZF9XaWRnZXRfRGFpbHlfQXdhcmQiOw0KDQogICAgLyoqIOWGnOWcuu+8muS7iuaXpeaWveiCpeasoeaVsCAqLw0KICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEZMQUdfQU5UT1JDSEFSRF9TUFJFQURfTUFOVVJFX0NPVU5UID0NCiAgICAgICAgICAgICJGTEFHX0FudG9yY2hhcmRfU3ByZWFkTWFudXJlX0NvdW50IjsNCg0KICAgIC8qKiDomoLomoHmlrDmnZHvvJrku4rml6XkuKLogqXmlpnmmK/lkKbovr7liLDkuIrpmZAgKi8NCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBGTEFHX0FOVFNUQUxMX1RIUk9XX01BTlVSRV9MSU1JVCA9DQogICAgICAgICAgICAiRmxhZ19BbnRTdGFsbF9UaHJvd19NYW51cmVfTGltaXQiOw0KDQp9DQo=
+package fansirsqi.xposed.sesame.data;
+
+/**
+ * 用于统一管理所有【每日 / 状态 Flag】的常量定义。
+ *
+ * 设计目标：
+ * 1. 避免项目中散落字符串常量
+ * 2. 统一命名规范，便于搜索和维护
+ * 3. 明确业务模块归属
+ *
+ * 命名规范：
+ * - 常量名：全大写 + 下划线（FLAG_XXX）
+ * - 常量值：实际存储使用的 Key（保持历史兼容）
+ */
+public final class StatusFlags {
+
+    private StatusFlags() {
+        // 禁止实例化
+    }
+
+    // ============================================================
+    // Neverland（健康岛）
+    // ============================================================
+
+    /** 今日步数任务是否已完成 */
+    public static final String FLAG_NEVERLAND_STEP_COUNT =
+            "Flag_Neverland_StepCount";
+
+
+    // ============================================================
+    // AntMember（会员频道 / 积分）
+    // ============================================================
+
+    /** 是否已执行「领取所有可做芝麻任务」 */
+    public static final String FLAG_ANTMEMBER_DO_ALL_SESAME_TASK =
+            "AntMember::doAllAvailableSesameTask";
+
+    /** 今日贴纸领取任务 */
+    public static final String FLAG_ANTMEMBER_STICKER =
+            "Flag_AntMember_Sticker";
+
+
+    // ============================================================
+    // 芝麻信用 / 芝麻粒
+    // ============================================================
+
+    /** 芝麻粒炼金：次日奖励是否已领取 */
+    public static final String FLAG_ZMXY_ALCHEMY_NEXT_DAY_AWARD =
+            "zmxy::alchemy::nextDayAward";
+
+    /** 信用 2101：图鉴章节任务是否全部完成 */
+    public static final String FLAG_CREDIT2101_CHAPTER_TASK_DONE =
+            "FLAG_Credit2101_ChapterTask_Done";
+
+
+    // ============================================================
+    // 运动任务（AntSports）
+    // ============================================================
+
+    /** 运动任务大厅：今日是否已循环处理 */
+    public static final String FLAG_ANTSPORTS_TASK_CENTER_DONE =
+            "Flag_AntSports_TaskCenter_Done";
+
+    /** 今日步数同步是否已完成 */
+    public static final String FLAG_ANTSPORTS_SYNC_STEP_DONE =
+            "FLAG_ANTSPORTS_syncStep_Done";
+
+    /** 今日运动日常任务是否已完成 */
+    public static final String FLAG_ANTSPORTS_DAILY_TASKS_DONE =
+            "FLAG_ANTSPORTS_dailyTasks_Done";
+
+
+    // ============================================================
+    // 农场 / 新村 / 团队
+    // ============================================================
+
+    /** 团队浇水：今日次数统计 */
+    public static final String FLAG_TEAM_WATER_DAILY_COUNT =
+            "Flag_Team_Weater_Daily_Count";
+
+    /** 农场组件：每日回访奖励 */
+    public static final String FLAG_ANTORCHARD_WIDGET_DAILY_AWARD =
+            "Flag_Antorchard_Widget_Daily_Award";
+
+    /** 农场：今日施肥次数 */
+    public static final String FLAG_ANTORCHARD_SPREAD_MANURE_COUNT =
+            "FLAG_Antorchard_SpreadManure_Count";
+
+    /** 蚂蚁新村：今日丢肥料是否达到上限 */
+    public static final String FLAG_ANTSTALL_THROW_MANURE_LIMIT =
+            "Flag_AntStall_Throw_Manure_Limit";
+
+}

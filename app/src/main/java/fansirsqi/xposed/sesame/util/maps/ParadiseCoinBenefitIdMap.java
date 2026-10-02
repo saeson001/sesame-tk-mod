@@ -1,1 +1,8 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHM7CgpwdWJsaWMgY2xhc3MgUGFyYWRpc2VDb2luQmVuZWZpdElkTWFwIGV4dGVuZHMgSWRNYXBNYW5hZ2VyIHsKICAgIEBPdmVycmlkZQogICAgcHVibGljIFN0cmluZyB0aGlzRmlsZU5hbWUoKXsKICAgICAgICByZXR1cm4gInBhcmFkaXNlQ29pbkJlbmVmaXRNYXAuanNvbiI7Ly/lsI/puKHkuZDlm63pgZPlhbflhZHmjaLmmKDlsITooagKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.util.maps;
+
+public class ParadiseCoinBenefitIdMap extends IdMapManager {
+    @Override
+    public String thisFileName(){
+        return "paradiseCoinBenefitMap.json";//小鸡乐园道具兑换映射表
+    }
+}

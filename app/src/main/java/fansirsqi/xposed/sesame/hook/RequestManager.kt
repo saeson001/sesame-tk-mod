@@ -1,1 +1,219 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rCgppbXBvcnQgYW5kcm9pZC5NYW5pZmVzdAppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5SZXF1aXJlc1Blcm1pc3Npb24KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5ScGNFbnRpdHkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2sucnBjLmJyaWRnZS5ScGNCcmlkZ2UKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLkJhc2VNb2RlbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Db3JvdXRpbmVVdGlscwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTmV0d29ya1V0aWxzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLk5vdGlmeQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5UaW1lVXRpbAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0ludGVnZXIKCi8qKgogKiBSUEMg6K+35rGC566h55CG5ZmoICjluKbnhpTmlq3kuI7lhZzlupXmnLrliLYpCiAqLwpvYmplY3QgUmVxdWVzdE1hbmFnZXIgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJSZXF1ZXN0TWFuYWdlciIKCiAgICAvLyDov57nu63lpLHotKXorqHmlbDlmagKICAgIHByaXZhdGUgdmFsIGVycm9yQ291bnQgPSBBdG9taWNJbnRlZ2VyKDApCgogICAgLyoqCiAgICAgKiDmoLjlv4PmiafooYzlh73mlbAgKOWGheiBlOS8mOWMlikKICAgICAqIOa1geeoi++8muemu+e6v+ajgOafpSAtPiDojrflj5YgQnJpZGdlIC0+IOaJp+ihjOivt+axgiAtPiDnu5PmnpzmoKHpqowgLT4g6ZSZ6K+v6K6h5pWwL+mHjee9rgogICAgICovCiAgICBwcml2YXRlIGlubGluZSBmdW4gZXhlY3V0ZVJwYyhtZXRob2RMb2c6IFN0cmluZz8sIGJsb2NrOiAoUnBjQnJpZGdlKSAtPiBTdHJpbmc/KTogU3RyaW5nIHsKICAgICAgICAvLyAxLiDjgJDliY3nva7mo4Dmn6XjgJHlpoLmnpzlt7Lnu4/nprvnur/vvIznm7TmjqXkuK3mlq3lubblsJ3or5XmgaLlpI0KICAgICAgICBpZiAoQXBwbGljYXRpb25Ib29rLm9mZmxpbmUpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLlvZPliY3lpITkuo7nprvnur/nirbmgIHvvIzmi6bmiKror7fmsYI6ICRtZXRob2RMb2ciKQogICAgICAgICAgICBoYW5kbGVPZmZsaW5lUmVjb3ZlcnkoKQogICAgICAgICAgICByZXR1cm4gIiIKICAgICAgICB9CgogICAgICAgIC8vIDIuIOiOt+WPliBCcmlkZ2UgKOWMheWQq+e9kee7nOajgOafpSkKICAgICAgICAvLyDlpoLmnpzov5nph4zojrflj5blpLHotKXvvIzkuZ/op4bkuLrkuIDmrKHplJnor68KICAgICAgICB2YWwgYnJpZGdlID0gZ2V0UnBjQnJpZGdlKCkKICAgICAgICBpZiAoYnJpZGdlID09IG51bGwpIHsKICAgICAgICAgICAgaGFuZGxlRmFpbHVyZSgiTmV0d29yay9CcmlkZ2UgVW5hdmFpbGFibGUiLCAi572R57uc5oiWQnJpZGdl5LiN5Y+v55SoIikKICAgICAgICAgICAgcmV0dXJuICIiCiAgICAgICAgfQoKICAgICAgICAvLyAzLiDmiafooYzor7fmsYIKICAgICAgICB2YWwgcmVzdWx0ID0gdHJ5IHsKICAgICAgICAgICAgYmxvY2soYnJpZGdlKQogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIlJQQyDmiafooYzlvILluLg6ICRtZXRob2RMb2ciLCBlKQogICAgICAgICAgICBudWxsIC8vIOW8guW4uOinhuS4uiBudWxs77yM6Kem5Y+R5aSx6LSl6YC76L6RCiAgICAgICAgfQoKICAgICAgICAvLyA0LiDnu5PmnpzmoKHpqozkuI7nirbmgIHnu7TmiqQKICAgICAgICBpZiAocmVzdWx0LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAvLyDlpLHotKXvvJrlop7liqDorqHmlbDvvIzmo4Dmn6XlhZzlupUKICAgICAgICAgICAgaGFuZGxlRmFpbHVyZShtZXRob2RMb2cgPzogIlVua25vd24iLCAi6L+U5Zue5pWw5o2u5Li656m6IikKICAgICAgICAgICAgcmV0dXJuICIiCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgLy8g5oiQ5Yqf77ya6YeN572u6K6h5pWw5ZmoCiAgICAgICAgICAgIGlmIChlcnJvckNvdW50LmdldCgpID4gMCkgewogICAgICAgICAgICAgICAgZXJyb3JDb3VudC5zZXQoMCkKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiUlBDIOaBouWkjeato+W4uO+8jOmUmeivr+iuoeaVsOmHjee9riIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWkhOeQhuWksei0pemAu+i+ke+8muiuoeaVsOOAgeaKpeitpuOAgeeGlOaWrQogICAgICovCiAgICBwcml2YXRlIGZ1biBoYW5kbGVGYWlsdXJlKG1ldGhvZDogU3RyaW5nLCByZWFzb246IFN0cmluZykgewogICAgICAgIHZhbCBjdXJyZW50Q291bnQgPSBlcnJvckNvdW50LmluY3JlbWVudEFuZEdldCgpCiAgICAgICAgLy8g5YGH6K6+IEJhc2VNb2RlbCDmnInkuKrmlrnms5Xojrflj5bov5nkuKrphY3nva7vvIzmiJbogIXnm7TmjqXnlKjluLjph48KICAgICAgICB2YWwgbWF4Q291bnQgPSBCYXNlTW9kZWwuc2V0TWF4RXJyb3JDb3VudC52YWx1ZQoKICAgICAgICBMb2cuZXJyb3IoVEFHLCAiUlBDIOWksei0pSAoJGN1cnJlbnRDb3VudC8kbWF4Q291bnQpIHwgTWV0aG9kOiAkbWV0aG9kIHwgUmVhc29uOiAkcmVhc29uIikKCiAgICAgICAgLy8g6Kem5Y+R5YWc5bqV6ZiI5YC8CiAgICAgICAgaWYgKGN1cnJlbnRDb3VudCA+PSBtYXhDb3VudCkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIvCflLQg6L+e57ut5aSx6LSl5qyh5pWw6L6+5Yiw6ZiI5YC877yM6Kem5Y+R54aU5pat5YWc5bqV5py65Yi277yBIikKICAgICAgICAgICAgLy8gMS4g6K6+572u56a757q/54q25oCB77yM5YGc5q2i5ZCO57ut5Lu75YqhCiAgICAgICAgICAgIEFwcGxpY2F0aW9uSG9vay5zZXRPZmZsaW5lKHRydWUpCiAgICAgICAgICAgIC8vIDIuIOWPkemAgemAmuefpSAo5qC55o2u55So5oi36YWN572uKQogICAgICAgICAgICBpZiAoQmFzZU1vZGVsLmVyck5vdGlmeS52YWx1ZSkgewogICAgICAgICAgICAgICAgdmFsIG1zZyA9ICIke1RpbWVVdGlsLmdldFRpbWVTdHIoKX0gfCDnvZHnu5zlvILluLjmrKHmlbDotoXov4fpmIjlgLxbJG1heENvdW50XSIKICAgICAgICAgICAgICAgIE5vdGlmeS5zZW5kTmV3Tm90aWZpY2F0aW9uKG1zZywgIlJQQyDov57nu63lpLHotKXvvIzohJrmnKzlt7LmmoLlgZwiKQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIDMuIOeri+WNs+WwneivleS4gOasoeaBouWkjQogICAgICAgICAgICBoYW5kbGVPZmZsaW5lUmVjb3ZlcnkoKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWkhOeQhuemu+e6v+aBouWkjemAu+i+kQogICAgICog5Y+v5Lul5piv5Y+R6YCB5bm/5pKt44CB5ouJ6LW3IEFwcCDnrYkKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gaGFuZGxlT2ZmbGluZVJlY292ZXJ5KCkgewogICAgICAgIC8vIOmYsuatouefreaXtumXtOWGhemikee5geinpuWPkeaBouWkjemAu+i+kSAo5Y+v6YCJKQogICAgICAgIC8vIOi/memHjOeugOWNleWunueOsO+8muWwneivleaLiei1t+aUr+S7mOWuneaIluWPkemAgemHjeeZu+W9leW5v+aSrQoKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuato+WcqOWwneivleaJp+ihjOemu+e6v+aBouWkjeetlueVpS4uLiIpCiAgICAgICAgLy8g562W55WlIEE6IOmHjeaWsOaLiei1tyBBcHAgKOaOqOiNkCkKICAgICAgICBBcHBsaWNhdGlvbkhvb2sucmVPcGVuQXBwKCkKICAgICAgICAvLyDnrZbnlaUgQjog5Y+R6YCB6YeN55m75b2V5bm/5pKtICjlpoLmnpzlrr/kuLvov5jog73lk43lupTlub/mkq0pCiAgICAgICAgLy8gQXBwbGljYXRpb25Ib29rLnJlTG9naW5CeUJyb2FkY2FzdCgpCiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5YgUnBjQnJpZGdlIOWunuS+iwogICAgICovCiAgICBAUmVxdWlyZXNQZXJtaXNzaW9uKE1hbmlmZXN0LnBlcm1pc3Npb24uQUNDRVNTX05FVFdPUktfU1RBVEUpCiAgICBwcml2YXRlIGZ1biBnZXRScGNCcmlkZ2UoKTogUnBjQnJpZGdlPyB7CiAgICAgICAgaWYgKCFOZXR3b3JrVXRpbHMuaXNOZXR3b3JrQXZhaWxhYmxlKCkpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLnvZHnu5zkuI3lj6/nlKjvvIzlsJ3or5XnrYnlvoUgNeenki4uLiIpCiAgICAgICAgICAgIENvcm91dGluZVV0aWxzLnNsZWVwQ29tcGF0KDUwMDApCiAgICAgICAgICAgIGlmICghTmV0d29ya1V0aWxzLmlzTmV0d29ya0F2YWlsYWJsZSgpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YXIgYnJpZGdlID0gQXBwbGljYXRpb25Ib29rLnJwY0JyaWRnZQogICAgICAgIGlmIChicmlkZ2UgPT0gbnVsbCkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIlJwY0JyaWRnZSDmnKrliJ3lp4vljJbvvIzlsJ3or5XnrYnlvoUgNeenki4uLiIpCiAgICAgICAgICAgIENvcm91dGluZVV0aWxzLnNsZWVwQ29tcGF0KDUwMDApCiAgICAgICAgICAgIGJyaWRnZSA9IEFwcGxpY2F0aW9uSG9vay5ycGNCcmlkZ2UKICAgICAgICB9CgogICAgICAgIHJldHVybiBicmlkZ2UKICAgIH0KCiAgICAvLyA9PT09PT09PT09PT09PT09PT0g5YWs5byAIEFQSSAo5L+d5oyB5LiN5Y+YKSA9PT09PT09PT09PT09PT09PT0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gcmVxdWVzdFN0cmluZyhycGNFbnRpdHk6IFJwY0VudGl0eSk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGV4ZWN1dGVScGMocnBjRW50aXR5Lm1ldGhvZE5hbWUpIHsgYnJpZGdlIC0+CiAgICAgICAgICAgIGJyaWRnZS5yZXF1ZXN0U3RyaW5nKHJwY0VudGl0eSwgMywgMTIwMCkKICAgICAgICB9CiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIHJlcXVlc3RTdHJpbmcocnBjRW50aXR5OiBScGNFbnRpdHksIHRyeUNvdW50OiBJbnQsIHJldHJ5SW50ZXJ2YWw6IEludCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGV4ZWN1dGVScGMocnBjRW50aXR5Lm1ldGhvZE5hbWUpIHsgYnJpZGdlIC0+CiAgICAgICAgICAgIGJyaWRnZS5yZXF1ZXN0U3RyaW5nKHJwY0VudGl0eSwgdHJ5Q291bnQsIHJldHJ5SW50ZXJ2YWwpCiAgICAgICAgfQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biByZXF1ZXN0U3RyaW5nKG1ldGhvZDogU3RyaW5nPywgZGF0YTogU3RyaW5nPyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGV4ZWN1dGVScGMobWV0aG9kKSB7IGJyaWRnZSAtPgogICAgICAgICAgICBicmlkZ2UucmVxdWVzdFN0cmluZyhtZXRob2QsIGRhdGEpCiAgICAgICAgfQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biByZXF1ZXN0U3RyaW5nKG1ldGhvZDogU3RyaW5nPywgZGF0YTogU3RyaW5nPywgcmVsYXRpb246IFN0cmluZz8pOiBTdHJpbmcgewogICAgICAgIHJldHVybiBleGVjdXRlUnBjKG1ldGhvZCkgeyBicmlkZ2UgLT4KICAgICAgICAgICAgYnJpZGdlLnJlcXVlc3RTdHJpbmcobWV0aG9kLCBkYXRhLCByZWxhdGlvbikKICAgICAgICB9CiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIHJlcXVlc3RTdHJpbmcoCiAgICAgICAgbWV0aG9kOiBTdHJpbmc/LAogICAgICAgIGRhdGE6IFN0cmluZz8sCiAgICAgICAgYXBwTmFtZTogU3RyaW5nPywKICAgICAgICBtZXRob2ROYW1lOiBTdHJpbmc/LAogICAgICAgIGZhY2FkZU5hbWU6IFN0cmluZz8KICAgICk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGV4ZWN1dGVScGMobWV0aG9kKSB7IGJyaWRnZSAtPgogICAgICAgICAgICBicmlkZ2UucmVxdWVzdFN0cmluZyhtZXRob2QsIGRhdGEsIGFwcE5hbWUsIG1ldGhvZE5hbWUsIGZhY2FkZU5hbWUpCiAgICAgICAgfQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biByZXF1ZXN0U3RyaW5nKG1ldGhvZDogU3RyaW5nPywgZGF0YTogU3RyaW5nPywgdHJ5Q291bnQ6IEludCwgcmV0cnlJbnRlcnZhbDogSW50KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gZXhlY3V0ZVJwYyhtZXRob2QpIHsgYnJpZGdlIC0+CiAgICAgICAgICAgIGJyaWRnZS5yZXF1ZXN0U3RyaW5nKG1ldGhvZCwgZGF0YSwgdHJ5Q291bnQsIHJldHJ5SW50ZXJ2YWwpCiAgICAgICAgfQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biByZXF1ZXN0U3RyaW5nKAogICAgICAgIG1ldGhvZDogU3RyaW5nPywKICAgICAgICBkYXRhOiBTdHJpbmc/LAogICAgICAgIHJlbGF0aW9uOiBTdHJpbmc/LAogICAgICAgIHRyeUNvdW50OiBJbnQsCiAgICAgICAgcmV0cnlJbnRlcnZhbDogSW50CiAgICApOiBTdHJpbmcgewogICAgICAgIHJldHVybiBleGVjdXRlUnBjKG1ldGhvZCkgeyBicmlkZ2UgLT4KICAgICAgICAgICAgYnJpZGdlLnJlcXVlc3RTdHJpbmcobWV0aG9kLCBkYXRhLCByZWxhdGlvbiwgdHJ5Q291bnQsIHJldHJ5SW50ZXJ2YWwpCiAgICAgICAgfQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biByZXF1ZXN0T2JqZWN0KHJwY0VudGl0eTogUnBjRW50aXR5PywgdHJ5Q291bnQ6IEludCwgcmV0cnlJbnRlcnZhbDogSW50KSB7CiAgICAgICAgaWYgKHJwY0VudGl0eSA9PSBudWxsKSByZXR1cm4KICAgICAgICAvLyByZXF1ZXN0T2JqZWN0IOS4jea2ieWPiui/lOWbnuWAvOWIpOaWre+8jOS9huWQjOagt+mcgOimgeemu+e6v+ajgOafpQogICAgICAgIGlmIChBcHBsaWNhdGlvbkhvb2sub2ZmbGluZSkgewogICAgICAgICAgICBoYW5kbGVPZmZsaW5lUmVjb3ZlcnkoKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBicmlkZ2UgPSBnZXRScGNCcmlkZ2UoKQogICAgICAgIGlmIChicmlkZ2UgPT0gbnVsbCkgewogICAgICAgICAgICBoYW5kbGVGYWlsdXJlKCJyZXF1ZXN0T2JqZWN0IiwgIkJyaWRnZSBVbmF2YWlsYWJsZSIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgYnJpZGdlLnJlcXVlc3RPYmplY3QocnBjRW50aXR5LCB0cnlDb3VudCwgcmV0cnlJbnRlcnZhbCkKICAgICAgICAgICAgLy8gcmVxdWVzdE9iamVjdCDmsqHmnInov5Tlm57lgLzvvIzlgYforr7lj6ropoHkuI3mipvlvILluLjlsLHnrpfmiJDlip/vvJ8KICAgICAgICAgICAgLy8g5oiW6ICF5L+d5a6I5LiA54K577yM5LiN6YeN572uIGVycm9yQ291bnTvvIzkuZ/kuI3lop7liqAgZXJyb3JDb3VudAogICAgICAgICAgICBlcnJvckNvdW50LnNldCgwKQogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgInJlcXVlc3RPYmplY3Qg5byC5bi4OiAke3JwY0VudGl0eS5tZXRob2ROYW1lfSIsIGUpCiAgICAgICAgICAgIGhhbmRsZUZhaWx1cmUocnBjRW50aXR5Lm1ldGhvZE5hbWUgPzogIlVua25vd24iLCAiRXhjZXB0aW9uIikKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.hook
+
+import android.Manifest
+import androidx.annotation.RequiresPermission
+import fansirsqi.xposed.sesame.entity.RpcEntity
+import fansirsqi.xposed.sesame.hook.rpc.bridge.RpcBridge
+import fansirsqi.xposed.sesame.model.BaseModel
+import fansirsqi.xposed.sesame.util.CoroutineUtils
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.NetworkUtils
+import fansirsqi.xposed.sesame.util.Notify
+import fansirsqi.xposed.sesame.util.TimeUtil
+import java.util.concurrent.atomic.AtomicInteger
+
+/**
+ * RPC 请求管理器 (带熔断与兜底机制)
+ */
+object RequestManager {
+
+    private const val TAG = "RequestManager"
+
+    // 连续失败计数器
+    private val errorCount = AtomicInteger(0)
+
+    /**
+     * 核心执行函数 (内联优化)
+     * 流程：离线检查 -> 获取 Bridge -> 执行请求 -> 结果校验 -> 错误计数/重置
+     */
+    private inline fun executeRpc(methodLog: String?, block: (RpcBridge) -> String?): String {
+        // 1. 【前置检查】如果已经离线，直接中断并尝试恢复
+        if (ApplicationHook.offline) {
+            Log.record(TAG, "当前处于离线状态，拦截请求: $methodLog")
+            handleOfflineRecovery()
+            return ""
+        }
+
+        // 2. 获取 Bridge (包含网络检查)
+        // 如果这里获取失败，也视为一次错误
+        val bridge = getRpcBridge()
+        if (bridge == null) {
+            handleFailure("Network/Bridge Unavailable", "网络或Bridge不可用")
+            return ""
+        }
+
+        // 3. 执行请求
+        val result = try {
+            block(bridge)
+        } catch (e: Throwable) {
+            Log.printStackTrace(TAG, "RPC 执行异常: $methodLog", e)
+            null // 异常视为 null，触发失败逻辑
+        }
+
+        // 4. 结果校验与状态维护
+        if (result.isNullOrBlank()) {
+            // 失败：增加计数，检查兜底
+            handleFailure(methodLog ?: "Unknown", "返回数据为空")
+            return ""
+        } else {
+            // 成功：重置计数器
+            if (errorCount.get() > 0) {
+                errorCount.set(0)
+                Log.record(TAG, "RPC 恢复正常，错误计数重置")
+            }
+            return result
+        }
+    }
+
+    /**
+     * 处理失败逻辑：计数、报警、熔断
+     */
+    private fun handleFailure(method: String, reason: String) {
+        val currentCount = errorCount.incrementAndGet()
+        // 假设 BaseModel 有个方法获取这个配置，或者直接用常量
+        val maxCount = BaseModel.setMaxErrorCount.value
+
+        Log.error(TAG, "RPC 失败 ($currentCount/$maxCount) | Method: $method | Reason: $reason")
+
+        // 触发兜底阈值
+        if (currentCount >= maxCount) {
+            Log.record(TAG, "🔴 连续失败次数达到阈值，触发熔断兜底机制！")
+            // 1. 设置离线状态，停止后续任务
+            ApplicationHook.setOffline(true)
+            // 2. 发送通知 (根据用户配置)
+            if (BaseModel.errNotify.value) {
+                val msg = "${TimeUtil.getTimeStr()} | 网络异常次数超过阈值[$maxCount]"
+                Notify.sendNewNotification(msg, "RPC 连续失败，脚本已暂停")
+            }
+            // 3. 立即尝试一次恢复
+            handleOfflineRecovery()
+        }
+    }
+
+    /**
+     * 处理离线恢复逻辑
+     * 可以是发送广播、拉起 App 等
+     */
+    private fun handleOfflineRecovery() {
+        // 防止短时间内频繁触发恢复逻辑 (可选)
+        // 这里简单实现：尝试拉起支付宝或发送重登录广播
+
+        Log.record(TAG, "正在尝试执行离线恢复策略...")
+        // 策略 A: 重新拉起 App (推荐)
+        ApplicationHook.reOpenApp()
+        // 策略 B: 发送重登录广播 (如果宿主还能响应广播)
+        // ApplicationHook.reLoginByBroadcast()
+    }
+
+    /**
+     * 获取 RpcBridge 实例
+     */
+    @RequiresPermission(Manifest.permission.ACCESS_NETWORK_STATE)
+    private fun getRpcBridge(): RpcBridge? {
+        if (!NetworkUtils.isNetworkAvailable()) {
+            Log.record(TAG, "网络不可用，尝试等待 5秒...")
+            CoroutineUtils.sleepCompat(5000)
+            if (!NetworkUtils.isNetworkAvailable()) {
+                return null
+            }
+        }
+
+        var bridge = ApplicationHook.rpcBridge
+        if (bridge == null) {
+            Log.record(TAG, "RpcBridge 未初始化，尝试等待 5秒...")
+            CoroutineUtils.sleepCompat(5000)
+            bridge = ApplicationHook.rpcBridge
+        }
+
+        return bridge
+    }
+
+    // ================== 公开 API (保持不变) ==================
+
+    @JvmStatic
+    fun requestString(rpcEntity: RpcEntity): String {
+        return executeRpc(rpcEntity.methodName) { bridge ->
+            bridge.requestString(rpcEntity, 3, 1200)
+        }
+    }
+
+    @JvmStatic
+    fun requestString(rpcEntity: RpcEntity, tryCount: Int, retryInterval: Int): String {
+        return executeRpc(rpcEntity.methodName) { bridge ->
+            bridge.requestString(rpcEntity, tryCount, retryInterval)
+        }
+    }
+
+    @JvmStatic
+    fun requestString(method: String?, data: String?): String {
+        return executeRpc(method) { bridge ->
+            bridge.requestString(method, data)
+        }
+    }
+
+    @JvmStatic
+    fun requestString(method: String?, data: String?, relation: String?): String {
+        return executeRpc(method) { bridge ->
+            bridge.requestString(method, data, relation)
+        }
+    }
+
+    @JvmStatic
+    fun requestString(
+        method: String?,
+        data: String?,
+        appName: String?,
+        methodName: String?,
+        facadeName: String?
+    ): String {
+        return executeRpc(method) { bridge ->
+            bridge.requestString(method, data, appName, methodName, facadeName)
+        }
+    }
+
+    @JvmStatic
+    fun requestString(method: String?, data: String?, tryCount: Int, retryInterval: Int): String {
+        return executeRpc(method) { bridge ->
+            bridge.requestString(method, data, tryCount, retryInterval)
+        }
+    }
+
+    @JvmStatic
+    fun requestString(
+        method: String?,
+        data: String?,
+        relation: String?,
+        tryCount: Int,
+        retryInterval: Int
+    ): String {
+        return executeRpc(method) { bridge ->
+            bridge.requestString(method, data, relation, tryCount, retryInterval)
+        }
+    }
+
+    @JvmStatic
+    fun requestObject(rpcEntity: RpcEntity?, tryCount: Int, retryInterval: Int) {
+        if (rpcEntity == null) return
+        // requestObject 不涉及返回值判断，但同样需要离线检查
+        if (ApplicationHook.offline) {
+            handleOfflineRecovery()
+            return
+        }
+
+        val bridge = getRpcBridge()
+        if (bridge == null) {
+            handleFailure("requestObject", "Bridge Unavailable")
+            return
+        }
+
+        try {
+            bridge.requestObject(rpcEntity, tryCount, retryInterval)
+            // requestObject 没有返回值，假设只要不抛异常就算成功？
+            // 或者保守一点，不重置 errorCount，也不增加 errorCount
+            errorCount.set(0)
+        } catch (e: Throwable) {
+            Log.printStackTrace(TAG, "requestObject 异常: ${rpcEntity.methodName}", e)
+            handleFailure(rpcEntity.methodName ?: "Unknown", "Exception")
+        }
+    }
+}

@@ -1,1 +1,260 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZvcmVzdAoKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5jb3JlLnR5cGUuVHlwZVJlZmVyZW5jZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZGF0YS5TdGF0dXMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suVG9hc3QKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRGF0YVN0b3JlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkRhdGFTdG9yZS5wdXQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuSnNvblV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlJhbmRvbVV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuUmVzQ2hlY2tlcgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5TdHJpbmdVdGlsCmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05FeGNlcHRpb24KaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IGphdmEudXRpbC5yZWdleC5QYXR0ZXJuCgpvYmplY3QgRWNvTGlmZSB7CiAgICB2YWwgVEFHOiBTdHJpbmcgPSBFY29MaWZlOjpjbGFzcy5qYXZhLmdldFNpbXBsZU5hbWUoKQoKICAgIC8qKgogICAgICog5omn6KGM57u/6Imy6KGM5Yqo5Lu75Yqh77yM5YyF5ous5p+l6K+i5Lu75Yqh5byA6YCa54q25oCB44CB5byA6YCa57u/6Imy5Lu75Yqh44CB5omn6KGM5omT5Y2h5Lu75Yqh562J5pON5L2c44CCCiAgICAgKiAxLiDosIPnlKjmjqXlj6Pmn6Xor6Lnu7/oibLooYzliqjnmoTpppbpobXmlbDmja7vvIzmo4Dmn6XmmK/lkKbmiJDlip/jgIIKICAgICAqIDIuIOWmguaenOe7v+iJsuS7u+WKoeWwmuacquW8gOmAmu+8jOS4lOeUqOaIt+acquW8gOmAmue7v+iJsuS7u+WKoe+8jOWImeiusOW9leaXpeW/l+W5tui/lOWbnuOAggogICAgICogMy4g5aaC5p6c57u/6Imy5Lu75Yqh5bCa5pyq5byA6YCa77yM5LiU55So5oi35bey5byA6YCa57u/6Imy5Lu75Yqh77yM5YiZ5bCd6K+V5byA6YCa57u/6Imy5Lu75Yqh44CCCiAgICAgKiA0LiDlvIDpgJrnu7/oibLku7vliqHmiJDlip/lkI7vvIzlho3mrKHmn6Xor6Lku7vliqHnirbmgIHvvIzlubbmm7TmlrDmlbDmja7jgIIKICAgICAqIDUuIOiOt+WPluS7u+WKoeeahOaXpeacn+agh+ivhuWSjOS7u+WKoeWIl+ihqO+8jOaJp+ihjOaJk+WNoeS7u+WKoeOAggogICAgICogNi4g5aaC5p6c57u/6Imy5omT5Y2h6K6+572u5Li65ZCv55So77yM5omn6KGMIGBlY29MaWZlVGlja2Ag5pa55rOV5o+Q5Lqk5omT5Y2h5Lu75Yqh44CCCiAgICAgKiA3LiDlpoLmnpzlhYnnm5jmiZPljaHorr7nva7kuLrlkK/nlKjvvIzmiafooYwgYHBob3RvR3VhbmdQYW5gIOaWueazleS4iuS8oOWFieebmOeFp+eJh+OAggogICAgICogOC4g5byC5bi45Y+R55Sf5pe277yM6K6w5b2V6ZSZ6K+v5L+h5oGv5bm25omT5Y2w5aCG5qCI44CCCiAgICAgKi8KICAgIGZ1biBlY29MaWZlKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIOafpeivoummlumhteS/oeaBrwogICAgICAgICAgICB2YXIganNvbk9iamVjdCA9IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5lY29saWZlUXVlcnlIb21lUGFnZSgpKQogICAgICAgICAgICBpZiAoIWpzb25PYmplY3Qub3B0Qm9vbGVhbigic3VjY2VzcyIpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKCIkVEFHLmVjb0xpZmUucXVlcnlIb21lUGFnZSIsIGpzb25PYmplY3Qub3B0U3RyaW5nKCJyZXN1bHREZXNjIikpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICB2YXIgZGF0YSA9IGpzb25PYmplY3QuZ2V0SlNPTk9iamVjdCgiZGF0YSIpCgoKICAgICAgICAgICAgLy8g6I635Y+W5b2T5aSp55qE56ev5YiG5ZKM5Lu75Yqh5YiX6KGoCiAgICAgICAgICAgIHZhciBkYXlQb2ludCA9IGRhdGEub3B0U3RyaW5nKCJkYXlQb2ludCIsICIwIikKICAgICAgICAgICAgaWYgKGRheVBvaW50ID09ICIwIikgewogICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIuS4jeefpemBk+S7gOS5iELljp/lm6Doh6rlt7Hljrvnu7/oibLooYzliqjmib4iKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChBbnRGb3Jlc3QuZWNvTGlmZU9wdGlvbiEhLnZhbHVlLmNvbnRhaW5zKCJwbGF0ZSIpKSB7CiAgICAgICAgICAgICAgICAvLyDlhYnnm5jooYzliqgKICAgICAgICAgICAgICAgIHBob3RvR3VhbmdQYW4oZGF5UG9pbnQpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBhY3Rpb25MaXN0Vk8gPSBkYXRhLmdldEpTT05BcnJheSgiYWN0aW9uTGlzdFZPIikKICAgICAgICAgICAgLy8g57u/6Imy5omT5Y2hCiAgICAgICAgICAgIGlmIChBbnRGb3Jlc3QuZWNvTGlmZU9wdGlvbiEhLnZhbHVlLmNvbnRhaW5zKCJ0aWNrIikpIHsKICAgICAgICAgICAgICAgIGlmICghZGF0YS5nZXRCb29sZWFuKCJvcGVuU3RhdHVzIikpIHsKICAgICAgICAgICAgICAgICAgICBpZiAoIW9wZW5FY29MaWZlKCkgfHwgIUFudEZvcmVzdC5lY29MaWZlT3BlbiEhLnZhbHVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBqc29uT2JqZWN0ID0gSlNPTk9iamVjdChBbnRGb3Jlc3RScGNDYWxsLmVjb2xpZmVRdWVyeUhvbWVQYWdlKCkpCiAgICAgICAgICAgICAgICAgICAgZGF0YSA9IGpzb25PYmplY3QuZ2V0SlNPTk9iamVjdCgiZGF0YSIpCiAgICAgICAgICAgICAgICAgICAgZGF5UG9pbnQgPSBkYXRhLmdldFN0cmluZygiZGF5UG9pbnQiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWNvTGlmZVRpY2soYWN0aW9uTGlzdFZPLCBkYXlQb2ludCkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHRoOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJlY29MaWZlIGVycjoiKQogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdGgpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5bCB6KOF57u/6Imy5Lu75Yqh5byA6YCa55qE6YC76L6RCiAgICAgKgogICAgICogQHJldHVybiDmmK/lkKbmiJDlip/lvIDpgJrnu7/oibLku7vliqEKICAgICAqLwogICAgQFRocm93cyhKU09ORXhjZXB0aW9uOjpjbGFzcykKICAgIGZ1biBvcGVuRWNvTGlmZSgpOiBCb29sZWFuIHsKICAgICAgICB2YWwganNvbk9iamVjdCA9IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5lY29saWZlT3BlbkVjb2xpZmUoKSkKICAgICAgICBpZiAoIWpzb25PYmplY3Qub3B0Qm9vbGVhbigic3VjY2VzcyIpKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoIiRUQUcuZWNvTGlmZS5vcGVuRWNvbGlmZSIsIGpzb25PYmplY3Qub3B0U3RyaW5nKCJyZXN1bHREZXNjIikpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICB2YWwgb3BSZXN1bHQgPSBKc29uVXRpbC5nZXRWYWx1ZUJ5UGF0aChqc29uT2JqZWN0LCAiZGF0YS5vcFJlc3VsdCIpCiAgICAgICAgaWYgKCJ0cnVlIiAhPSBvcFJlc3VsdCkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgTG9nLmZvcmVzdCgi57u/6Imy5Lu75Yqh8J+NgOaKpeWRiuWkp+S6uu+8jOW8gOmAmuaIkOWKnyjvvZ7vv6Pilr3vv6Mp772e5Y+v5Lul5oSJ5b+r55qE546p6ICN5LqGIikKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIC8qKgogICAgICog5omn6KGM57u/6Imy6KGM5Yqo5omT5Y2h5Lu75Yqh77yM6YGN5Y6G5Lu75Yqh5YiX6KGo77yM5L6d5qyh5o+Q5Lqk5q+P5Liq5pyq5a6M5oiQ55qE5Lu75Yqh44CCCiAgICAgKiAxLiDpgY3ljobnu5nlrprnmoTku7vliqHliJfooajvvIhgYWN0aW9uTGlzdFZPYO+8ie+8jOavj+S4quS7u+WKoemhueWMheWQq+WkmuS4quWtkOS7u+WKoeOAggogICAgICogMi4g5a+55LqO5q+P5Liq5a2Q5Lu75Yqh77yM5qOA5p+l5YW25piv5ZCm5bey5a6M5oiQ77yM5aaC5p6c5pyq5a6M5oiQ5YiZ5o+Q5Lqk5omT5Y2h6K+35rGC44CCCiAgICAgKiAzLiDnibnliKvlpITnkIbku7vliqEgSUQg5Li6ICJwaG90b2d1YW5ncGFuIiDnmoTku7vliqHvvIzot7Pov4for6Xku7vliqHnmoTmiZPljaHjgIIKICAgICAqIDQuIOWmguaenOS7u+WKoeaJk+WNoeaIkOWKn++8jOiusOW9leaIkOWKn+aXpeW/l++8m+WQpuWImeiusOW9leWksei0peWOn+WboOOAggogICAgICogNS4g5q+P5qyh5omT5Y2h6K+35rGC5ZCO77yM562J5b6FIDUwMCDmr6vnp5Lku6Xpgb/lhY3or7fmsYLov4fkuo7popHnuYHjgIIKICAgICAqIDYuIOW8guW4uOWPkeeUn+aXtu+8jOiusOW9leivpue7hueahOmUmeivr+S/oeaBr+OAggogICAgICoKICAgICAqIEBwYXJhbSBhY3Rpb25MaXN0Vk8g5Lu75Yqh5YiX6KGo77yM5q+P5Liq5Lu75Yqh5YyF5ZCr5aSa5Liq5a2Q5Lu75YqhCiAgICAgKiBAcGFyYW0gZGF5UG9pbnQgICAgIOS7u+WKoeeahOaXpeacn+agh+ivhu+8jOeUqOS6juagh+ivhuS7u+WKoeeahOaXpeacnwogICAgICovCiAgICBmdW4gZWNvTGlmZVRpY2soYWN0aW9uTGlzdFZPOiBKU09OQXJyYXksIGRheVBvaW50OiBTdHJpbmc/KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHNvdXJjZSA9ICJzb3VyY2UiCiAgICAgICAgICAgIGZvciAoaSBpbiAwLi48YWN0aW9uTGlzdFZPLmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICB2YWwgYWN0aW9uVk8gPSBhY3Rpb25MaXN0Vk8uZ2V0SlNPTk9iamVjdChpKQogICAgICAgICAgICAgICAgdmFsIGFjdGlvbkl0ZW1MaXN0ID0gYWN0aW9uVk8uZ2V0SlNPTkFycmF5KCJhY3Rpb25JdGVtTGlzdCIpCiAgICAgICAgICAgICAgICBmb3IgKGogaW4gMC4uPGFjdGlvbkl0ZW1MaXN0Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGFjdGlvbkl0ZW0gPSBhY3Rpb25JdGVtTGlzdC5nZXRKU09OT2JqZWN0KGopCiAgICAgICAgICAgICAgICAgICAgaWYgKCFhY3Rpb25JdGVtLmhhcygiYWN0aW9uSWQiKSkgY29udGludWUKICAgICAgICAgICAgICAgICAgICBpZiAoYWN0aW9uSXRlbS5nZXRCb29sZWFuKCJhY3Rpb25TdGF0dXMiKSkgY29udGludWUKICAgICAgICAgICAgICAgICAgICB2YWwgYWN0aW9uSWQgPSBhY3Rpb25JdGVtLmdldFN0cmluZygiYWN0aW9uSWQiKQogICAgICAgICAgICAgICAgICAgIHZhbCBhY3Rpb25OYW1lID0gYWN0aW9uSXRlbS5nZXRTdHJpbmcoImFjdGlvbk5hbWUiKQogICAgICAgICAgICAgICAgICAgIGlmICgicGhvdG9ndWFuZ3BhbiIgPT0gYWN0aW9uSWQpIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgdmFsIGpvID0gSlNPTk9iamVjdChBbnRGb3Jlc3RScGNDYWxsLmVjb2xpZmVUaWNrKGFjdGlvbklkLCBkYXlQb2ludCwgc291cmNlKSkKICAgICAgICAgICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIGpvKSkgewogICAgICAgICAgICAgICAgICAgICAgICBMb2cuZm9yZXN0KCLnu7/oibLmiZPljaHwn42AWyRhY3Rpb25OYW1lXSIpIC8vIOaIkOWKn+aJk+WNoeaXpeW/lwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOiusOW9leWksei0peWOn+WboAogICAgICAgICAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHICsgam8uZ2V0U3RyaW5nKCJyZXN1bHREZXNjIikpCiAgICAgICAgICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcgKyBqbykKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoICh0aDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiZWNvTGlmZVRpY2sgZXJyOiIpCiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCB0aCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmiafooYzlhYnnm5jooYzliqjku7vliqHvvIzkuIrkvKDppJDliY3ppJDlkI7nhafniYflubbmj5DkuqTku7vliqHjgIIKICAgICAqIDEuIOafpeivouW9k+WJjeS7u+WKoeeahOeKtuaAgeOAggogICAgICogMi4g5aaC5p6c5Lu75Yqh5pyq5a6M5oiQ77yM5qOA5p+l5piv5ZCm5bey5pyJ6aSQ5YmN6aSQ5ZCO54Wn54mH55qEVVJM77yM5aaC5p6c5rKh5pyJ5YiZ5LuO5o6l5Y+j6I635Y+W5bm25L+d5a2Y44CCCiAgICAgKiAzLiDkuIrkvKDppJDliY3ppJDlkI7nhafniYfvvIzkuIrkvKDmiJDlip/lkI7mj5DkuqTku7vliqHvvIzmoIforrDku7vliqHkuLrlrozmiJDjgIIKICAgICAqIDQuIOWmguaenOS7u+WKoeW3suWujOaIkO+8jOWImeS4jeWBmuS7u+S9leaTjeS9nOOAggogICAgICogNS4g5aaC5p6c6YGH5Yiw5Lu75L2V6ZSZ6K+v77yM6K6w5b2V6ZSZ6K+v5L+h5oGv5bm25YGc5q2i5omn6KGM44CCCiAgICAgKgogICAgICogQHBhcmFtIGRheVBvaW50IOS7u+WKoeeahOaXpeacn+agh+ivhu+8jOeUqOS6juagh+ivhuS7u+WKoeeahOaXpeacnwogICAgICovCiAgICBmdW4gcGhvdG9HdWFuZ1BhbihkYXlQb2ludDogU3RyaW5nPykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChTdGF0dXMuaGFzRmxhZ1RvZGF5KCJFY29MaWZlOjpwaG90b0d1YW5nUGFuIikpIHJldHVybgoKICAgICAgICAgICAgdmFsIHNvdXJjZSA9ICJyZW53dUdEIiAvLyDku7vliqHmnaXmupDmoIfor4YKCiAgICAgICAgICAgIHZhbCB0eXBlUmVmOiBUeXBlUmVmZXJlbmNlPE11dGFibGVMaXN0PE11dGFibGVNYXA8U3RyaW5nPywgU3RyaW5nPz4+PiA9CiAgICAgICAgICAgICAgICBvYmplY3QgOiBUeXBlUmVmZXJlbmNlPE11dGFibGVMaXN0PE11dGFibGVNYXA8U3RyaW5nPywgU3RyaW5nPz4+PigpIHsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGFsbFBob3RvczogTXV0YWJsZUxpc3Q8TXV0YWJsZU1hcDxTdHJpbmc/LCBTdHJpbmc/Pj4gPSBEYXRhU3RvcmUuZ2V0T3JDcmVhdGUoInBsYXRlIiwgdHlwZVJlZikKICAgICAgICAgICAgTG9nLnJlY29yZCgiJFRBRyBbREVCVUddIGd1YW5nUGFuUGhvdG8g5pWw5o2u5YaF5a65OiAkYWxsUGhvdG9zIikKICAgICAgICAgICAgLy8g5p+l6K+i5LuK5pel5Lu75Yqh54q25oCBCiAgICAgICAgICAgIHZhciBzdHIgPSBBbnRGb3Jlc3RScGNDYWxsLmVjb2xpZmVRdWVyeURpc2goc291cmNlLCBkYXlQb2ludCkKICAgICAgICAgICAgdmFyIGpvID0gSlNPTk9iamVjdChzdHIpCiAgICAgICAgICAgIC8vIOWmguaenOivt+axguWksei0pe+8jOWImeiusOW9lemUmeivr+S/oeaBr+W5tui/lOWbngogICAgICAgICAgICBpZiAoIVJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBqbykpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoIiRUQUcucGhvdG9HdWFuZ1Bhbi5lY29saWZlUXVlcnlEaXNoIiwgam8ub3B0U3RyaW5nKCJyZXN1bHREZXNjIikpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICB2YXIgcGhvdG86IE11dGFibGVNYXA8U3RyaW5nPywgU3RyaW5nPz4/ID0gSGFzaE1hcCgpCiAgICAgICAgICAgIHZhbCBkYXRhID0gam8ub3B0SlNPTk9iamVjdCgiZGF0YSIpCiAgICAgICAgICAgIGlmIChkYXRhICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHZhbCBiZWZvcmVNZWFsc0ltYWdlVXJsID0gZGF0YS5vcHRTdHJpbmcoImJlZm9yZU1lYWxzSW1hZ2VVcmwiKQogICAgICAgICAgICAgICAgdmFsIGFmdGVyTWVhbHNJbWFnZVVybCA9IGRhdGEub3B0U3RyaW5nKCJhZnRlck1lYWxzSW1hZ2VVcmwiKQogICAgICAgICAgICAgICAgLy8g5aaC5p6c6aSQ5YmN5ZKM6aSQ5ZCO54Wn54mHVVJM6YO95a2Y5Zyo77yM6L+b6KGM5o+Q5Y+WCiAgICAgICAgICAgICAgICBpZiAoIVN0cmluZ1V0aWwuaXNFbXB0eShiZWZvcmVNZWFsc0ltYWdlVXJsKSAmJiAhU3RyaW5nVXRpbC5pc0VtcHR5KAogICAgICAgICAgICAgICAgICAgICAgICBhZnRlck1lYWxzSW1hZ2VVcmwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAvLyDkvb/nlKjmraPliJnku45VUkzkuK3mj5Dlj5bnhafniYfnmoTot6/lvoTpg6jliIYKICAgICAgICAgICAgICAgICAgICB2YWwgcGF0dGVybiA9IFBhdHRlcm4uY29tcGlsZSgiaW1nLyguKikvb3JpZ2luYWwiKQogICAgICAgICAgICAgICAgICAgIHZhbCBiZWZvcmVNYXRjaGVyID0gcGF0dGVybi5tYXRjaGVyKGJlZm9yZU1lYWxzSW1hZ2VVcmwpCiAgICAgICAgICAgICAgICAgICAgaWYgKGJlZm9yZU1hdGNoZXIuZmluZCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBob3RvISFbImJlZm9yZSJdID0gYmVmb3JlTWF0Y2hlci5ncm91cCgxKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB2YWwgYWZ0ZXJNYXRjaGVyID0gcGF0dGVybi5tYXRjaGVyKGFmdGVyTWVhbHNJbWFnZVVybCkKICAgICAgICAgICAgICAgICAgICBpZiAoYWZ0ZXJNYXRjaGVyLmZpbmQoKSkgewogICAgICAgICAgICAgICAgICAgICAgICBwaG90byEhWyJhZnRlciJdID0gYWZ0ZXJNYXRjaGVyLmdyb3VwKDEpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIC8vIOmBv+WFjemHjeWkjea3u+WKoOebuOWQjOeahOeFp+eJh+S/oeaBrwogICAgICAgICAgICAgICAgICAgIHZhciBleGlzdHMgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgIGZvciAocCBpbiBhbGxQaG90b3MpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHBbImJlZm9yZSJdID09IHBob3RvISFbImJlZm9yZSJdICYmIHBbImFmdGVyIl0gPT0gcGhvdG9bImFmdGVyIl0KICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleGlzdHMgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmICghZXhpc3RzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGFsbFBob3Rvcy5hZGQocGhvdG8hISkKICAgICAgICAgICAgICAgICAgICAgICAgcHV0KCJwbGF0ZSIsIGFsbFBob3RvcykKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKCJTVUNDRVNTIiA9PSBKc29uVXRpbC5nZXRWYWx1ZUJ5UGF0aChqbywgImRhdGEuc3RhdHVzIikpIHsKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChhbGxQaG90b3MuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBpZiAoIVN0YXR1cy5oYXNGbGFnVG9kYXkoIkVjb0xpZmU6OnBsYXRlTm90aWZ5MCIpKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmZvcmVzdCgi5YWJ55uY6KGM5Yqo8J+Nm+e8k+WtmOS4reayoeacieeFp+eJh+aVsOaNriIpCiAgICAgICAgICAgICAgICAgICAgU3RhdHVzLnNldEZsYWdUb2RheSgiRWNvTGlmZTo6cGxhdGVOb3RpZnkwIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHBob3RvID0gbnVsbAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcGhvdG8gPSBhbGxQaG90b3NbUmFuZG9tVXRpbC5uZXh0SW50KDAsIGFsbFBob3Rvcy5zaXplKV0KICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAocGhvdG8gPT0gbnVsbCkgewogICAgICAgICAgICAgICAgaWYgKCFTdGF0dXMuaGFzRmxhZ1RvZGF5KCJFY29MaWZlOjpwbGF0ZU5vdGlmeTEiKSkgewogICAgICAgICAgICAgICAgICAgIExvZy5mb3Jlc3QoIuWFieebmOihjOWKqPCfjZvor7flhYjlrozmiJDkuIDmrKHlhYnnm5jmiZPljaEiKQogICAgICAgICAgICAgICAgICAgIFN0YXR1cy5zZXRGbGFnVG9kYXkoIkVjb0xpZmU6OnBsYXRlTm90aWZ5MSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICBzdHIgPSBBbnRGb3Jlc3RScGNDYWxsLmVjb2xpZmVVcGxvYWREaXNoSW1hZ2UoCiAgICAgICAgICAgICAgICAiQkVGT1JFX01FQUxTIiwKICAgICAgICAgICAgICAgIHBob3RvWyJiZWZvcmUiXSwKICAgICAgICAgICAgICAgIDAuMTY1NzE3MzYsCiAgICAgICAgICAgICAgICAwLjA3NDQ4Nzc2LAogICAgICAgICAgICAgICAgMC43NTk3OTQ5LAogICAgICAgICAgICAgICAgZGF5UG9pbnQKICAgICAgICAgICAgKQogICAgICAgICAgICBqbyA9IEpTT05PYmplY3Qoc3RyKQogICAgICAgICAgICBpZiAoIVJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBqbykpIHsKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIHN0ciA9IEFudEZvcmVzdFJwY0NhbGwuZWNvbGlmZVVwbG9hZERpc2hJbWFnZSgKICAgICAgICAgICAgICAgICJBRlRFUl9NRUFMUyIsCiAgICAgICAgICAgICAgICBwaG90b1siYWZ0ZXIiXSwKICAgICAgICAgICAgICAgIDAuMDAwNDAwMzAzNDYsCiAgICAgICAgICAgICAgICAwLjk5ODkxMzc2LAogICAgICAgICAgICAgICAgMC4wMDA2ODU4NDIxLAogICAgICAgICAgICAgICAgZGF5UG9pbnQKICAgICAgICAgICAgKQogICAgICAgICAgICBqbyA9IEpTT05PYmplY3Qoc3RyKQogICAgICAgICAgICBpZiAoIVJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBqbykpIHsKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOaPkOS6pOS7u+WKoQogICAgICAgICAgICBzdHIgPSBBbnRGb3Jlc3RScGNDYWxsLmVjb2xpZmVUaWNrKCJwaG90b2d1YW5ncGFuIiwgZGF5UG9pbnQsIHNvdXJjZSkKICAgICAgICAgICAgam8gPSBKU09OT2JqZWN0KHN0cikKICAgICAgICAgICAgLy8g5aaC5p6c5o+Q5Lqk5aSx6LSl77yM6K6w5b2V6ZSZ6K+v5L+h5oGv5bm26L+U5ZueCiAgICAgICAgICAgIGlmICghUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIGpvKSkgewogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g5Lu75Yqh5a6M5oiQ77yM6L6T5Ye65a6M5oiQ5pel5b+XCiAgICAgICAgICAgIHZhbCB0b2FzdE1zZyA9ICLlhYnnm5jooYzliqjwn42b5Lu75Yqh5a6M5oiQIyIgKyBqby5nZXRKU09OT2JqZWN0KCJkYXRhIikuZ2V0U3RyaW5nKCJ0b2FzdE1zZyIpCiAgICAgICAgICAgIFN0YXR1cy5zZXRGbGFnVG9kYXkoIkVjb0xpZmU6OnBob3RvR3VhbmdQYW4iKQogICAgICAgICAgICBMb2cuZm9yZXN0KHRvYXN0TXNnKQogICAgICAgICAgICBUb2FzdC5zaG93KHRvYXN0TXNnKQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICAvLyDmjZXojrflvILluLjvvIzorrDlvZXplJnor6/kv6Hmga/lkozloIbmoIjov73ouKoKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJwaG90b0d1YW5nUGFuIGVycjoiKQogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgdCkKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task.antForest
+
+import com.fasterxml.jackson.core.type.TypeReference
+import fansirsqi.xposed.sesame.data.Status
+import fansirsqi.xposed.sesame.hook.Toast
+import fansirsqi.xposed.sesame.util.DataStore
+import fansirsqi.xposed.sesame.util.DataStore.put
+import fansirsqi.xposed.sesame.util.JsonUtil
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.RandomUtil
+import fansirsqi.xposed.sesame.util.ResChecker
+import fansirsqi.xposed.sesame.util.StringUtil
+import org.json.JSONArray
+import org.json.JSONException
+import org.json.JSONObject
+import java.util.regex.Pattern
+
+object EcoLife {
+    val TAG: String = EcoLife::class.java.getSimpleName()
+
+    /**
+     * 执行绿色行动任务，包括查询任务开通状态、开通绿色任务、执行打卡任务等操作。
+     * 1. 调用接口查询绿色行动的首页数据，检查是否成功。
+     * 2. 如果绿色任务尚未开通，且用户未开通绿色任务，则记录日志并返回。
+     * 3. 如果绿色任务尚未开通，且用户已开通绿色任务，则尝试开通绿色任务。
+     * 4. 开通绿色任务成功后，再次查询任务状态，并更新数据。
+     * 5. 获取任务的日期标识和任务列表，执行打卡任务。
+     * 6. 如果绿色打卡设置为启用，执行 `ecoLifeTick` 方法提交打卡任务。
+     * 7. 如果光盘打卡设置为启用，执行 `photoGuangPan` 方法上传光盘照片。
+     * 8. 异常发生时，记录错误信息并打印堆栈。
+     */
+    fun ecoLife() {
+        try {
+            // 查询首页信息
+            var jsonObject = JSONObject(AntForestRpcCall.ecolifeQueryHomePage())
+            if (!jsonObject.optBoolean("success")) {
+                Log.record("$TAG.ecoLife.queryHomePage", jsonObject.optString("resultDesc"))
+                return
+            }
+            var data = jsonObject.getJSONObject("data")
+
+
+            // 获取当天的积分和任务列表
+            var dayPoint = data.optString("dayPoint", "0")
+            if (dayPoint == "0") {
+                Log.error(TAG, "不知道什么B原因自己去绿色行动找")
+                return
+            }
+
+            if (AntForest.ecoLifeOption!!.value.contains("plate")) {
+                // 光盘行动
+                photoGuangPan(dayPoint)
+            }
+
+            val actionListVO = data.getJSONArray("actionListVO")
+            // 绿色打卡
+            if (AntForest.ecoLifeOption!!.value.contains("tick")) {
+                if (!data.getBoolean("openStatus")) {
+                    if (!openEcoLife() || !AntForest.ecoLifeOpen!!.value) {
+                        return
+                    }
+                    jsonObject = JSONObject(AntForestRpcCall.ecolifeQueryHomePage())
+                    data = jsonObject.getJSONObject("data")
+                    dayPoint = data.getString("dayPoint")
+                }
+                ecoLifeTick(actionListVO, dayPoint)
+            }
+        } catch (th: Throwable) {
+            Log.record(TAG, "ecoLife err:")
+            Log.printStackTrace(TAG, th)
+        }
+    }
+
+    /**
+     * 封装绿色任务开通的逻辑
+     *
+     * @return 是否成功开通绿色任务
+     */
+    @Throws(JSONException::class)
+    fun openEcoLife(): Boolean {
+        val jsonObject = JSONObject(AntForestRpcCall.ecolifeOpenEcolife())
+        if (!jsonObject.optBoolean("success")) {
+            Log.record("$TAG.ecoLife.openEcolife", jsonObject.optString("resultDesc"))
+            return false
+        }
+        val opResult = JsonUtil.getValueByPath(jsonObject, "data.opResult")
+        if ("true" != opResult) {
+            return false
+        }
+        Log.forest("绿色任务🍀报告大人，开通成功(～￣▽￣)～可以愉快的玩耍了")
+        return true
+    }
+
+    /**
+     * 执行绿色行动打卡任务，遍历任务列表，依次提交每个未完成的任务。
+     * 1. 遍历给定的任务列表（`actionListVO`），每个任务项包含多个子任务。
+     * 2. 对于每个子任务，检查其是否已完成，如果未完成则提交打卡请求。
+     * 3. 特别处理任务 ID 为 "photoguangpan" 的任务，跳过该任务的打卡。
+     * 4. 如果任务打卡成功，记录成功日志；否则记录失败原因。
+     * 5. 每次打卡请求后，等待 500 毫秒以避免请求过于频繁。
+     * 6. 异常发生时，记录详细的错误信息。
+     *
+     * @param actionListVO 任务列表，每个任务包含多个子任务
+     * @param dayPoint     任务的日期标识，用于标识任务的日期
+     */
+    fun ecoLifeTick(actionListVO: JSONArray, dayPoint: String?) {
+        try {
+            val source = "source"
+            for (i in 0..<actionListVO.length()) {
+                val actionVO = actionListVO.getJSONObject(i)
+                val actionItemList = actionVO.getJSONArray("actionItemList")
+                for (j in 0..<actionItemList.length()) {
+                    val actionItem = actionItemList.getJSONObject(j)
+                    if (!actionItem.has("actionId")) continue
+                    if (actionItem.getBoolean("actionStatus")) continue
+                    val actionId = actionItem.getString("actionId")
+                    val actionName = actionItem.getString("actionName")
+                    if ("photoguangpan" == actionId) continue
+                    val jo = JSONObject(AntForestRpcCall.ecolifeTick(actionId, dayPoint, source))
+                    if (ResChecker.checkRes(TAG, jo)) {
+                        Log.forest("绿色打卡🍀[$actionName]") // 成功打卡日志
+                    } else {
+                        // 记录失败原因
+                        Log.error(TAG + jo.getString("resultDesc"))
+                        Log.error(TAG + jo)
+                    }
+                }
+            }
+        } catch (th: Throwable) {
+            Log.record(TAG, "ecoLifeTick err:")
+            Log.printStackTrace(TAG, th)
+        }
+    }
+
+    /**
+     * 执行光盘行动任务，上传餐前餐后照片并提交任务。
+     * 1. 查询当前任务的状态。
+     * 2. 如果任务未完成，检查是否已有餐前餐后照片的URL，如果没有则从接口获取并保存。
+     * 3. 上传餐前餐后照片，上传成功后提交任务，标记任务为完成。
+     * 4. 如果任务已完成，则不做任何操作。
+     * 5. 如果遇到任何错误，记录错误信息并停止执行。
+     *
+     * @param dayPoint 任务的日期标识，用于标识任务的日期
+     */
+    fun photoGuangPan(dayPoint: String?) {
+        try {
+            if (Status.hasFlagToday("EcoLife::photoGuangPan")) return
+
+            val source = "renwuGD" // 任务来源标识
+
+            val typeRef: TypeReference<MutableList<MutableMap<String?, String?>>> =
+                object : TypeReference<MutableList<MutableMap<String?, String?>>>() {
+                }
+            val allPhotos: MutableList<MutableMap<String?, String?>> = DataStore.getOrCreate("plate", typeRef)
+            Log.record("$TAG [DEBUG] guangPanPhoto 数据内容: $allPhotos")
+            // 查询今日任务状态
+            var str = AntForestRpcCall.ecolifeQueryDish(source, dayPoint)
+            var jo = JSONObject(str)
+            // 如果请求失败，则记录错误信息并返回
+            if (!ResChecker.checkRes(TAG, jo)) {
+                Log.record("$TAG.photoGuangPan.ecolifeQueryDish", jo.optString("resultDesc"))
+                return
+            }
+            var photo: MutableMap<String?, String?>? = HashMap()
+            val data = jo.optJSONObject("data")
+            if (data != null) {
+                val beforeMealsImageUrl = data.optString("beforeMealsImageUrl")
+                val afterMealsImageUrl = data.optString("afterMealsImageUrl")
+                // 如果餐前和餐后照片URL都存在，进行提取
+                if (!StringUtil.isEmpty(beforeMealsImageUrl) && !StringUtil.isEmpty(
+                        afterMealsImageUrl
+                    )
+                ) {
+                    // 使用正则从URL中提取照片的路径部分
+                    val pattern = Pattern.compile("img/(.*)/original")
+                    val beforeMatcher = pattern.matcher(beforeMealsImageUrl)
+                    if (beforeMatcher.find()) {
+                        photo!!["before"] = beforeMatcher.group(1)
+                    }
+                    val afterMatcher = pattern.matcher(afterMealsImageUrl)
+                    if (afterMatcher.find()) {
+                        photo!!["after"] = afterMatcher.group(1)
+                    }
+                    // 避免重复添加相同的照片信息
+                    var exists = false
+                    for (p in allPhotos) {
+                        if (p["before"] == photo!!["before"] && p["after"] == photo["after"]
+                        ) {
+                            exists = true
+                            break
+                        }
+                    }
+                    if (!exists) {
+                        allPhotos.add(photo!!)
+                        put("plate", allPhotos)
+                    }
+                }
+            }
+            if ("SUCCESS" == JsonUtil.getValueByPath(jo, "data.status")) {
+                return
+            }
+            if (allPhotos.isEmpty()) {
+                if (!Status.hasFlagToday("EcoLife::plateNotify0")) {
+                    Log.forest("光盘行动🍛缓存中没有照片数据")
+                    Status.setFlagToday("EcoLife::plateNotify0")
+                }
+                photo = null
+            } else {
+                photo = allPhotos[RandomUtil.nextInt(0, allPhotos.size)]
+            }
+            if (photo == null) {
+                if (!Status.hasFlagToday("EcoLife::plateNotify1")) {
+                    Log.forest("光盘行动🍛请先完成一次光盘打卡")
+                    Status.setFlagToday("EcoLife::plateNotify1")
+                }
+                return
+            }
+            str = AntForestRpcCall.ecolifeUploadDishImage(
+                "BEFORE_MEALS",
+                photo["before"],
+                0.16571736,
+                0.07448776,
+                0.7597949,
+                dayPoint
+            )
+            jo = JSONObject(str)
+            if (!ResChecker.checkRes(TAG, jo)) {
+                return
+            }
+            str = AntForestRpcCall.ecolifeUploadDishImage(
+                "AFTER_MEALS",
+                photo["after"],
+                0.00040030346,
+                0.99891376,
+                0.0006858421,
+                dayPoint
+            )
+            jo = JSONObject(str)
+            if (!ResChecker.checkRes(TAG, jo)) {
+                return
+            }
+            // 提交任务
+            str = AntForestRpcCall.ecolifeTick("photoguangpan", dayPoint, source)
+            jo = JSONObject(str)
+            // 如果提交失败，记录错误信息并返回
+            if (!ResChecker.checkRes(TAG, jo)) {
+                return
+            }
+            // 任务完成，输出完成日志
+            val toastMsg = "光盘行动🍛任务完成#" + jo.getJSONObject("data").getString("toastMsg")
+            Status.setFlagToday("EcoLife::photoGuangPan")
+            Log.forest(toastMsg)
+            Toast.show(toastMsg)
+        } catch (t: Throwable) {
+            // 捕获异常，记录错误信息和堆栈追踪
+            Log.record(TAG, "photoGuangPan err:")
+            Log.printStackTrace(TAG, t)
+        }
+    }
+}

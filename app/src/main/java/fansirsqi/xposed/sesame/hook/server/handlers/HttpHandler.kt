@@ -1,1 +1,8 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnNlcnZlci5oYW5kbGVycwoKaW1wb3J0IGZpLmlraS5lbG9uZW4uTmFub0hUVFBELklIVFRQU2Vzc2lvbgppbXBvcnQgZmkuaWtpLmVsb25lbi5OYW5vSFRUUEQuUmVzcG9uc2UKCmludGVyZmFjZSBIdHRwSGFuZGxlciB7CiAgICBmdW4gaGFuZGxlKHNlc3Npb246IElIVFRQU2Vzc2lvbiwgYm9keTogU3RyaW5nPyA9IG51bGwpOiBSZXNwb25zZQp9
+package fansirsqi.xposed.sesame.hook.server.handlers
+
+import fi.iki.elonen.NanoHTTPD.IHTTPSession
+import fi.iki.elonen.NanoHTTPD.Response
+
+interface HttpHandler {
+    fun handle(session: IHTTPSession, body: String? = null): Response
+}

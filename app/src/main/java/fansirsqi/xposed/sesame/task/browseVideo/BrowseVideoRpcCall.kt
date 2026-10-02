@@ -1,1 +1,127 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmJyb3dzZVZpZGVvCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5SZXF1ZXN0TWFuYWdlcgppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqCiAqIOmmlumhteinhumikee6ouWMhSBSUEMg6LCD55SoCiAqIOmAmui/hyBhbGlwYXkuY29udGVudC5pbnRlcmFjdC50YXNrLnF1ZXJ5IOiOt+WPluS7u+WKoQogKi8Kb2JqZWN0IEJyb3dzZVZpZGVvUnBjQ2FsbCB7CgogICAgLyoqIOafpeivouWGheWuueS6kuWKqOS7u+WKoe+8iOmmlumhteinhumikee6ouWMheWFpeWPo++8iSAqLwogICAgZnVuIHF1ZXJ5SW50ZXJhY3RUYXNrKHBhZ2VUeXBlOiBTdHJpbmcgPSAiaW5kZXgiLCB0YWJUeXBlOiBTdHJpbmcgPSAiZGlzY292ZXJ5LmZlYXR1cmVkIik6IFN0cmluZyB7CiAgICAgICAgdmFsIGV4dCA9IEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgIHB1dCgiZnJvbVRhYjNCb3R0b21CYXIiLCB0cnVlKQogICAgICAgICAgICBwdXQoIm9wZW5UYWIzIiwgdHJ1ZSkKICAgICAgICAgICAgcHV0KCJyZXRyeUNvdW50IiwgMCkKICAgICAgICAgICAgcHV0KCJ0YWJUeXBlIiwgdGFiVHlwZSkKICAgICAgICB9CiAgICAgICAgdmFsIGFyZ3MgPSBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICBwdXQoImFjdGlvbiIsICJsYXVuY2giKQogICAgICAgICAgICBwdXQoImNhcnJ5aW5nIiwgMCkKICAgICAgICAgICAgcHV0KCJwYWdlVHlwZSIsIHBhZ2VUeXBlKQogICAgICAgICAgICBwdXQoInRhYjNTcGVjaWFsVmVyIiwgIm5vcm1hbCIpCiAgICAgICAgICAgIHB1dCgidGFza0V4dCIsIGV4dC50b1N0cmluZygpKQogICAgICAgIH0KICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5jb250ZW50LmludGVyYWN0LnRhc2sucXVlcnkiLAogICAgICAgICAgICAiWyRhcmdzXSIKICAgICAgICApCiAgICB9CgogICAgLyoqIOWujOaIkOW5v+WRii/op4bpopHku7vliqEgKi8KICAgIGZ1biBmaW5pc2hBZFRhc2socGxheUJpeklkOiBTdHJpbmcsIHBsYXlFdmVudEluZm86IFN0cmluZywgdGFza1R5cGU6IFN0cmluZywgc2NlbmVDb2RlOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBleHRlbmRJbmZvID0gSlNPTk9iamVjdCgpLmFwcGx5IHsKICAgICAgICAgICAgcHV0KCJpZXBUYXNrU2NlbmVDb2RlIiwgc2NlbmVDb2RlKQogICAgICAgICAgICBwdXQoImllcFRhc2tUeXBlIiwgdGFza1R5cGUpCiAgICAgICAgICAgIHB1dCgicGxheUVuZGluZ1N0YXR1cyIsICJzdWNjZXNzIikKICAgICAgICB9CiAgICAgICAgdmFsIGFyZ3MgPSBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICBwdXQoImV4dGVuZEluZm8iLCBleHRlbmRJbmZvKQogICAgICAgICAgICBwdXQoInBsYXlCaXpJZCIsIHBsYXlCaXpJZCkKICAgICAgICAgICAgcHV0KCJwbGF5RXZlbnRJbmZvIiwgcGxheUV2ZW50SW5mbykKICAgICAgICAgICAgcHV0KCJzb3VyY2UiLCAiYWR4IikKICAgICAgICB9CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFkdGFzay5iaXoubW9iaWxlZ3cuc2VydmljZS50YXNrLmZpbmlzaCIsCiAgICAgICAgICAgICJbJGFyZ3NdIgogICAgICAgICkKICAgIH0KCiAgICAvKiog6Kem5Y+R6JCl6ZSA5rS75Yqo5a6M5oiQICovCiAgICBmdW4gdHJpZ2dlclByb21vUGxheShzY2VuZUNvZGU6IFN0cmluZywgdGFza1R5cGU6IFN0cmluZywgdGFza0FjdGl2aXR5SWQ6IFN0cmluZywgdW5pcVRhc2tJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgYXJncyA9IEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgIHB1dCgib3NjIiwgMCkKICAgICAgICAgICAgcHV0KCJvdCIsIHRhc2tUeXBlKQogICAgICAgICAgICBwdXQoInMiLCAyMCkKICAgICAgICAgICAgcHV0KCJzYyIsIHNjZW5lQ29kZSkKICAgICAgICAgICAgcHV0KCJ0IiwgMTU2MDAwMDEpCiAgICAgICAgICAgIHB1dCgidHNxIiwgMCkKICAgICAgICAgICAgcHV0KCJ0dCIsICJyYWRpY2FsUmVkIikKICAgICAgICAgICAgcHV0KCJ0cyIsIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC8gMTAwMCkKICAgICAgICAgICAgcHV0KCJ0cmYzIiwgZmFsc2UpCiAgICAgICAgICAgIHB1dCgiY3AiLCB0YXNrQWN0aXZpdHlJZCkKICAgICAgICAgICAgcHV0KCJsdGkiLCB1bmlxVGFza0lkKQogICAgICAgIH0KICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkucHJvbW9wcm9kLnBsYXkudHJpZ2dlciIsCiAgICAgICAgICAgICJbJGFyZ3NdIgogICAgICAgICkKICAgIH0KCiAgICAvKiog6aKG5Y+W5Lu75Yqh5aWW5YqxIC0g6YCa6L+HIElFUCDku7vliqHlrozmiJAgKi8KICAgIGZ1biBmaW5pc2hJZXBUYXNrKHRhc2tUeXBlOiBTdHJpbmcsIHNjZW5lQ29kZTogU3RyaW5nLCBvdXRCaXpObzogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgYXJncyA9IEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgIHB1dCgib3V0Qml6Tm8iLCBvdXRCaXpObykKICAgICAgICAgICAgcHV0KCJyZXF1ZXN0VHlwZSIsICJSUEMiKQogICAgICAgICAgICBwdXQoInNjZW5lQ29kZSIsIHNjZW5lQ29kZSkKICAgICAgICAgICAgcHV0KCJzb3VyY2UiLCAiQURCQVNJQ0xJQiIpCiAgICAgICAgICAgIHB1dCgidGFza1R5cGUiLCB0YXNrVHlwZSkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudGllcC5maW5pc2hUYXNrIiwKICAgICAgICAgICAgIlskYXJnc10iCiAgICAgICAgKQogICAgfQoKICAgIC8qKiBBbnRGYXJtIOS7u+WKoeWIl+ihqCAqLwogICAgZnVuIGxpc3RGYXJtVGFzayh2ZXJzaW9uOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRmYXJtLmxpc3RGYXJtVGFzayIsCiAgICAgICAgICAgICJbe1wicmVxdWVzdFR5cGVcIjpcIk5PUk1BTFwiLFwic2NlbmVDb2RlXCI6XCJBTlRGQVJNXCIsXCJzb3VyY2VcIjpcIkg1XCIsXCJ2ZXJzaW9uXCI6XCIkdmVyc2lvblwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKiBBbnRGYXJtIOaJp+ihjOS7u+WKoSAqLwogICAgZnVuIGRvRmFybVRhc2soYml6S2V5OiBTdHJpbmcsIHZlcnNpb246IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudGZhcm0uZG9GYXJtVGFzayIsCiAgICAgICAgICAgICJbe1wiYml6S2V5XCI6XCIkYml6S2V5XCIsXCJyZXF1ZXN0VHlwZVwiOlwiTk9STUFMXCIsXCJzY2VuZUNvZGVcIjpcIkFOVEZBUk1cIixcInNvdXJjZVwiOlwiSDVcIixcInZlcnNpb25cIjpcIiR2ZXJzaW9uXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqIOS4i+WPkeinhumikeWGheWuuSAqLwogICAgZnVuIHZpZGVvRGVsaXZlck1vZHVsZShiaXpJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImFsaXBheS5jb250ZW50LnJlYWRpbmcubGlmZS5kZWxpdmVyLm1vZHVsZSIsCiAgICAgICAgICAgICJbe1wiYml6SWRcIjpcIiRiaXpJZFwiLFwiYml6VHlwZVwiOlwiQ09OVEVOVFwiLFwiY2hJbmZvXCI6XCJjaF9hbnRGYXJtXCIsXCJyZWZlclwiOlwiYW50RmFybVwiLFwidGltZXN0YW1wXCI6XCIke1N5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpfVwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDop6blj5Hop4bpopHop4LnnIvlpZblirEgKi8KICAgIGZ1biB2aWRlb1RyaWdnZXIoYml6SWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJhbGlwYXkuY29udGVudC5yZWFkaW5nLmxpZmUucHJpemUudHJpZ2dlciIsCiAgICAgICAgICAgICJbe1wiYml6SWRcIjpcIiRiaXpJZFwiLFwiYml6VHlwZVwiOlwiQ09OVEVOVFwiLFwicHJpemVGbG93TnVtXCI6XCJWSURFT19UQVNLXCIsXCJwcml6ZVR5cGVcIjpcImZhcm1GZWVkXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqIOetvuWIsOmihuWPliAqLwogICAgZnVuIHNpZ25JbihzY2VuZUNvZGU6IFN0cmluZyA9ICJBTlRGQVJNIik6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5Lm1yY2hzZXJ2YmFzZS5tcmNocG9pbnQuc3F5ai5ob21lcGFnZS5zaWduaW4udjEiLAogICAgICAgICAgICAiW3tcInJlcXVlc3RUeXBlXCI6XCJOT1JNQUxcIixcInNjZW5lQ29kZVwiOlwiJHNjZW5lQ29kZVwiLFwic291cmNlXCI6XCJINVwifV0iCiAgICAgICAgKQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.task.browseVideo
+
+import fansirsqi.xposed.sesame.hook.RequestManager
+import org.json.JSONObject
+
+/**
+ * 首页视频红包 RPC 调用
+ * 通过 alipay.content.interact.task.query 获取任务
+ */
+object BrowseVideoRpcCall {
+
+    /** 查询内容互动任务（首页视频红包入口） */
+    fun queryInteractTask(pageType: String = "index", tabType: String = "discovery.featured"): String {
+        val ext = JSONObject().apply {
+            put("fromTab3BottomBar", true)
+            put("openTab3", true)
+            put("retryCount", 0)
+            put("tabType", tabType)
+        }
+        val args = JSONObject().apply {
+            put("action", "launch")
+            put("carrying", 0)
+            put("pageType", pageType)
+            put("tab3SpecialVer", "normal")
+            put("taskExt", ext.toString())
+        }
+        return RequestManager.requestString(
+            "alipay.content.interact.task.query",
+            "[$args]"
+        )
+    }
+
+    /** 完成广告/视频任务 */
+    fun finishAdTask(playBizId: String, playEventInfo: String, taskType: String, sceneCode: String): String {
+        val extendInfo = JSONObject().apply {
+            put("iepTaskSceneCode", sceneCode)
+            put("iepTaskType", taskType)
+            put("playEndingStatus", "success")
+        }
+        val args = JSONObject().apply {
+            put("extendInfo", extendInfo)
+            put("playBizId", playBizId)
+            put("playEventInfo", playEventInfo)
+            put("source", "adx")
+        }
+        return RequestManager.requestString(
+            "com.alipay.adtask.biz.mobilegw.service.task.finish",
+            "[$args]"
+        )
+    }
+
+    /** 触发营销活动完成 */
+    fun triggerPromoPlay(sceneCode: String, taskType: String, taskActivityId: String, uniqTaskId: String): String {
+        val args = JSONObject().apply {
+            put("osc", 0)
+            put("ot", taskType)
+            put("s", 20)
+            put("sc", sceneCode)
+            put("t", 15600001)
+            put("tsq", 0)
+            put("tt", "radicalRed")
+            put("ts", System.currentTimeMillis() / 1000)
+            put("trf3", false)
+            put("cp", taskActivityId)
+            put("lti", uniqTaskId)
+        }
+        return RequestManager.requestString(
+            "com.alipay.promoprod.play.trigger",
+            "[$args]"
+        )
+    }
+
+    /** 领取任务奖励 - 通过 IEP 任务完成 */
+    fun finishIepTask(taskType: String, sceneCode: String, outBizNo: String): String {
+        val args = JSONObject().apply {
+            put("outBizNo", outBizNo)
+            put("requestType", "RPC")
+            put("sceneCode", sceneCode)
+            put("source", "ADBASICLIB")
+            put("taskType", taskType)
+        }
+        return RequestManager.requestString(
+            "com.alipay.antiep.finishTask",
+            "[$args]"
+        )
+    }
+
+    /** AntFarm 任务列表 */
+    fun listFarmTask(version: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antfarm.listFarmTask",
+            "[{\"requestType\":\"NORMAL\",\"sceneCode\":\"ANTFARM\",\"source\":\"H5\",\"version\":\"$version\"}]"
+        )
+    }
+
+    /** AntFarm 执行任务 */
+    fun doFarmTask(bizKey: String, version: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antfarm.doFarmTask",
+            "[{\"bizKey\":\"$bizKey\",\"requestType\":\"NORMAL\",\"sceneCode\":\"ANTFARM\",\"source\":\"H5\",\"version\":\"$version\"}]"
+        )
+    }
+
+    /** 下发视频内容 */
+    fun videoDeliverModule(bizId: String): String {
+        return RequestManager.requestString(
+            "alipay.content.reading.life.deliver.module",
+            "[{\"bizId\":\"$bizId\",\"bizType\":\"CONTENT\",\"chInfo\":\"ch_antFarm\",\"refer\":\"antFarm\",\"timestamp\":\"${System.currentTimeMillis()}\"}]"
+        )
+    }
+
+    /** 触发视频观看奖励 */
+    fun videoTrigger(bizId: String): String {
+        return RequestManager.requestString(
+            "alipay.content.reading.life.prize.trigger",
+            "[{\"bizId\":\"$bizId\",\"bizType\":\"CONTENT\",\"prizeFlowNum\":\"VIDEO_TASK\",\"prizeType\":\"farmFeed\"}]"
+        )
+    }
+
+    /** 签到领取 */
+    fun signIn(sceneCode: String = "ANTFARM"): String {
+        return RequestManager.requestString(
+            "com.alipay.mrchservbase.mrchpoint.sqyj.homepage.signin.v1",
+            "[{\"requestType\":\"NORMAL\",\"sceneCode\":\"$sceneCode\",\"source\":\"H5\"}]"
+        )
+    }
+}

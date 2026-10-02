@@ -1,1 +1,92 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5zZXJ2aWNlCgoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBpby5naXRodWIubGlieHBvc2VkLnNlcnZpY2UuWHBvc2VkU2VydmljZQppbXBvcnQgaW8uZ2l0aHViLmxpYnhwb3NlZC5zZXJ2aWNlLlhwb3NlZFNlcnZpY2VIZWxwZXIKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvcHlPbldyaXRlQXJyYXlMaXN0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljQm9vbGVhbgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY1JlZmVyZW5jZQoKb2JqZWN0IExzcG9zZWRTZXJ2aWNlTWFuYWdlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkxzcG9zZWRTZXJ2aWNlTWFuYWdlciIKCiAgICAvKiog5b2T5YmN6L+e5o6l54q25oCB77yM57q/56iL5a6J5YWoICovCiAgICBwcml2YXRlIHZhbCBfY29ubmVjdGlvblN0YXRlID0gQXRvbWljUmVmZXJlbmNlPENvbm5lY3Rpb25TdGF0ZT4oQ29ubmVjdGlvblN0YXRlLkNvbm5lY3RpbmcpCgogICAgLyoqIOWklumDqOiOt+WPluW9k+WJjeeKtuaAgSAqLwogICAgdmFsIGNvbm5lY3Rpb25TdGF0ZTogQ29ubmVjdGlvblN0YXRlCiAgICAgICAgZ2V0KCkgPSBfY29ubmVjdGlvblN0YXRlLmdldCgpCgogICAgLyoqIOW3sui/nuaOpeeahOacjeWKoe+8iOWmguaenOacie+8iSAqLwogICAgdmFsIHNlcnZpY2U6IFhwb3NlZFNlcnZpY2U/CiAgICAgICAgZ2V0KCkgPSAoX2Nvbm5lY3Rpb25TdGF0ZS5nZXQoKSBhcz8gQ29ubmVjdGlvblN0YXRlLkNvbm5lY3RlZCk/LnNlcnZpY2UKCiAgICAvKiog5qih5Z2X5piv5ZCm5r+A5rS7ICovCiAgICB2YWwgaXNNb2R1bGVBY3RpdmF0ZWQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IF9jb25uZWN0aW9uU3RhdGUuZ2V0KCkgaXMgQ29ubmVjdGlvblN0YXRlLkNvbm5lY3RlZAoKICAgIC8qKiDnirbmgIHnm5HlkKzlmajliJfooaggKi8KICAgIHByaXZhdGUgdmFsIGxpc3RlbmVycyA9IENvcHlPbldyaXRlQXJyYXlMaXN0PChDb25uZWN0aW9uU3RhdGUpIC0+IFVuaXQ+KCkKCiAgICAvKiog4pyoIOS/ruWkje+8muS9v+eUqCBBdG9taWNCb29sZWFuIOS/neivgeWAvOavlOi+g+eahOato+ehruaApyAqLwogICAgcHJpdmF0ZSB2YWwgaXNJbml0aWFsaXplZCA9IEF0b21pY0Jvb2xlYW4oZmFsc2UpCgogICAgLyoqIOWIneWni+WMliBTZXJ2aWNlTWFuYWdlciDlubbms6jlhowgWHBvc2VkU2VydmljZSDnm5HlkKwgKi8KICAgIGZ1biBpbml0KCkgewogICAgICAgIGlmICghaXNJbml0aWFsaXplZC5jb21wYXJlQW5kU2V0KGZhbHNlLCB0cnVlKSkgcmV0dXJuCgogICAgICAgIHZhbCBsaXN0ZW5lciA9IG9iamVjdCA6IFhwb3NlZFNlcnZpY2VIZWxwZXIuT25TZXJ2aWNlTGlzdGVuZXIgewogICAgICAgICAgICBvdmVycmlkZSBmdW4gb25TZXJ2aWNlQmluZChib3VuZFNlcnZpY2U6IFhwb3NlZFNlcnZpY2UpIHsKICAgICAgICAgICAgICAgIGlmIChpc01vZHVsZUFjdGl2YXRlZCkgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiQW5vdGhlciBYcG9zZWQgc2VydmljZSB0cmllZCB0byBjb25uZWN0OiAke2JvdW5kU2VydmljZS5mcmFtZXdvcmtOYW1lfS4gSWdub3JpbmcuIikKICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiTFNQb3NlZCBzZXJ2aWNlIGNvbm5lY3RlZDogJHtib3VuZFNlcnZpY2UuZnJhbWV3b3JrTmFtZX0gdiR7Ym91bmRTZXJ2aWNlLmZyYW1ld29ya1ZlcnNpb259IikKICAgICAgICAgICAgICAgIHVwZGF0ZVN0YXRlKENvbm5lY3Rpb25TdGF0ZS5Db25uZWN0ZWQoYm91bmRTZXJ2aWNlKSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uU2VydmljZURpZWQoZGVhZFNlcnZpY2U6IFhwb3NlZFNlcnZpY2UpIHsKICAgICAgICAgICAgICAgIC8vIOajgOafpSBzZXJ2aWNlIOWxnuaAp+iAjOS4jeaYr+ebtOaOpeavlOi+g++8jOmBv+WFjeWcqOWkmue6v+eoi+eOr+Wig+S4i+eahOernuaAgeadoeS7tgogICAgICAgICAgICAgICAgaWYgKHNlcnZpY2UgPT0gZGVhZFNlcnZpY2UpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIkxTUG9zZWQgc2VydmljZSBkaWVkLiIpCiAgICAgICAgICAgICAgICAgICAgdXBkYXRlU3RhdGUoQ29ubmVjdGlvblN0YXRlLkRpc2Nvbm5lY3RlZCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgWHBvc2VkU2VydmljZUhlbHBlci5yZWdpc3Rlckxpc3RlbmVyKGxpc3RlbmVyKQogICAgICAgIExvZy5yZWNvcmQoVEFHLCAiU2VydmljZU1hbmFnZXIgaW5pdGlhbGl6ZWQgYW5kIGxpc3RlbmVyIHJlZ2lzdGVyZWQuIikKICAgIH0KCiAgICAvKiog5re75Yqg54q25oCB55uR5ZCs5Zmo77yM5re75Yqg5ZCO56uL5Y2z6Kem5Y+R5LiA5qyh5b2T5YmN54q25oCBICovCiAgICBmdW4gYWRkQ29ubmVjdGlvbkxpc3RlbmVyKGxpc3RlbmVyOiAoQ29ubmVjdGlvblN0YXRlKSAtPiBVbml0KSB7CiAgICAgICAgbGlzdGVuZXJzLmFkZChsaXN0ZW5lcikKICAgICAgICBsaXN0ZW5lcihjb25uZWN0aW9uU3RhdGUpCiAgICB9CgogICAgLyoqIOenu+mZpOeKtuaAgeebkeWQrOWZqCAqLwogICAgZnVuIHJlbW92ZUNvbm5lY3Rpb25MaXN0ZW5lcihsaXN0ZW5lcjogKENvbm5lY3Rpb25TdGF0ZSkgLT4gVW5pdCkgewogICAgICAgIGxpc3RlbmVycy5yZW1vdmUobGlzdGVuZXIpCiAgICB9CgogICAgLyoqIOabtOaWsOeKtuaAgeW5tumAmuefpeebkeWQrOWZqO+8jOe6v+eoi+WuieWFqCAqLwogICAgcHJpdmF0ZSBmdW4gdXBkYXRlU3RhdGUobmV3U3RhdGU6IENvbm5lY3Rpb25TdGF0ZSkgewogICAgICAgIF9jb25uZWN0aW9uU3RhdGUuc2V0KG5ld1N0YXRlKQogICAgICAgIG5vdGlmeUxpc3RlbmVycyhuZXdTdGF0ZSkKICAgIH0KCiAgICAvKiog6YCa55+l5omA5pyJ55uR5ZCs5Zmo54q25oCB5Y+Y5YyWICovCiAgICBwcml2YXRlIGZ1biBub3RpZnlMaXN0ZW5lcnMoc3RhdGU6IENvbm5lY3Rpb25TdGF0ZSkgewogICAgICAgIGZvciAobGlzdGVuZXIgaW4gbGlzdGVuZXJzKSB7CiAgICAgICAgICAgIGxpc3RlbmVyKHN0YXRlKQogICAgICAgIH0KICAgIH0KfQoKc2VhbGVkIGludGVyZmFjZSBDb25uZWN0aW9uU3RhdGUgewogICAgZGF0YSBvYmplY3QgQ29ubmVjdGluZyA6IENvbm5lY3Rpb25TdGF0ZQogICAgZGF0YSBjbGFzcyBDb25uZWN0ZWQodmFsIHNlcnZpY2U6IFhwb3NlZFNlcnZpY2UpIDogQ29ubmVjdGlvblN0YXRlCiAgICBkYXRhIG9iamVjdCBEaXNjb25uZWN0ZWQgOiBDb25uZWN0aW9uU3RhdGUKfQ==
+package fansirsqi.xposed.sesame.service
+
+
+import fansirsqi.xposed.sesame.util.Log
+import io.github.libxposed.service.XposedService
+import io.github.libxposed.service.XposedServiceHelper
+import java.util.concurrent.CopyOnWriteArrayList
+import java.util.concurrent.atomic.AtomicBoolean
+import java.util.concurrent.atomic.AtomicReference
+
+object LsposedServiceManager {
+
+    private const val TAG = "LsposedServiceManager"
+
+    /** 当前连接状态，线程安全 */
+    private val _connectionState = AtomicReference<ConnectionState>(ConnectionState.Connecting)
+
+    /** 外部获取当前状态 */
+    val connectionState: ConnectionState
+        get() = _connectionState.get()
+
+    /** 已连接的服务（如果有） */
+    val service: XposedService?
+        get() = (_connectionState.get() as? ConnectionState.Connected)?.service
+
+    /** 模块是否激活 */
+    val isModuleActivated: Boolean
+        get() = _connectionState.get() is ConnectionState.Connected
+
+    /** 状态监听器列表 */
+    private val listeners = CopyOnWriteArrayList<(ConnectionState) -> Unit>()
+
+    /** ✨ 修复：使用 AtomicBoolean 保证值比较的正确性 */
+    private val isInitialized = AtomicBoolean(false)
+
+    /** 初始化 ServiceManager 并注册 XposedService 监听 */
+    fun init() {
+        if (!isInitialized.compareAndSet(false, true)) return
+
+        val listener = object : XposedServiceHelper.OnServiceListener {
+            override fun onServiceBind(boundService: XposedService) {
+                if (isModuleActivated) {
+                    Log.record(TAG, "Another Xposed service tried to connect: ${boundService.frameworkName}. Ignoring.")
+                    return
+                }
+                Log.record(TAG, "LSPosed service connected: ${boundService.frameworkName} v${boundService.frameworkVersion}")
+                updateState(ConnectionState.Connected(boundService))
+            }
+
+            override fun onServiceDied(deadService: XposedService) {
+                // 检查 service 属性而不是直接比较，避免在多线程环境下的竞态条件
+                if (service == deadService) {
+                    Log.record(TAG, "LSPosed service died.")
+                    updateState(ConnectionState.Disconnected)
+                }
+            }
+        }
+
+        XposedServiceHelper.registerListener(listener)
+        Log.record(TAG, "ServiceManager initialized and listener registered.")
+    }
+
+    /** 添加状态监听器，添加后立即触发一次当前状态 */
+    fun addConnectionListener(listener: (ConnectionState) -> Unit) {
+        listeners.add(listener)
+        listener(connectionState)
+    }
+
+    /** 移除状态监听器 */
+    fun removeConnectionListener(listener: (ConnectionState) -> Unit) {
+        listeners.remove(listener)
+    }
+
+    /** 更新状态并通知监听器，线程安全 */
+    private fun updateState(newState: ConnectionState) {
+        _connectionState.set(newState)
+        notifyListeners(newState)
+    }
+
+    /** 通知所有监听器状态变化 */
+    private fun notifyListeners(state: ConnectionState) {
+        for (listener in listeners) {
+            listener(state)
+        }
+    }
+}
+
+sealed interface ConnectionState {
+    data object Connecting : ConnectionState
+    data class Connected(val service: XposedService) : ConnectionState
+    data object Disconnected : ConnectionState
+}

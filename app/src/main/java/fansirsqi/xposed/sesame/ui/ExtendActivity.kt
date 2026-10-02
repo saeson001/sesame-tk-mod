@@ -1,1 +1,25 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aQoKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBhbmRyb2lkeC5hY3Rpdml0eS5jb21wb3NlLnNldENvbnRlbnQKaW1wb3J0IGFuZHJvaWR4LmFwcGNvbXBhdC5hcHAuQXBwQ29tcGF0QWN0aXZpdHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLmNvbXBvc2UuY29sbGVjdEFzU3RhdGVXaXRoTGlmZWN5Y2xlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uRXh0ZW5kU2NyZWVuCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS50aGVtZS5BcHBUaGVtZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkudGhlbWUuVGhlbWVNYW5hZ2VyCgpjbGFzcyBFeHRlbmRBY3Rpdml0eSA6IEFwcENvbXBhdEFjdGl2aXR5KCkgewoKICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGU6IEJ1bmRsZT8pIHsKICAgICAgICBzdXBlci5vbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGUpCgogICAgICAgIHNldENvbnRlbnQgewogICAgICAgICAgICB2YWwgaXNEeW5hbWljQ29sb3IgYnkgVGhlbWVNYW5hZ2VyLmlzRHluYW1pY0NvbG9yLmNvbGxlY3RBc1N0YXRlV2l0aExpZmVjeWNsZSgpCiAgICAgICAgICAgIEFwcFRoZW1lKGR5bmFtaWNDb2xvciA9IGlzRHluYW1pY0NvbG9yKSB7CiAgICAgICAgICAgICAgICBFeHRlbmRTY3JlZW4ob25CYWNrQ2xpY2sgPSB7IGZpbmlzaCgpIH0pCiAgICAgICAgICAgIH0KCiAgICAgICAgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.ui
+
+import android.os.Bundle
+import androidx.activity.compose.setContent
+import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import fansirsqi.xposed.sesame.ui.screen.ExtendScreen
+import fansirsqi.xposed.sesame.ui.theme.AppTheme
+import fansirsqi.xposed.sesame.ui.theme.ThemeManager
+
+class ExtendActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContent {
+            val isDynamicColor by ThemeManager.isDynamicColor.collectAsStateWithLifecycle()
+            AppTheme(dynamicColor = isDynamicColor) {
+                ExtendScreen(onBackClick = { finish() })
+            }
+
+        }
+    }
+}

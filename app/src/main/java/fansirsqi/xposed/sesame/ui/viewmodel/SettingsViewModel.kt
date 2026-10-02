@@ -1,1 +1,14 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS52aWV3bW9kZWwKCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5tb2RlbC5VaU1vZGUKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLnJlcG9zaXRvcnkuQ29uZmlnUmVwb3NpdG9yeQoKY2xhc3MgU2V0dGluZ3NWaWV3TW9kZWwgOiBWaWV3TW9kZWwoKSB7CiAgICAvLyDnm7TmjqXmmrTpnLLku5PlupPnmoQgU3RhdGVGbG93CiAgICB2YWwgdWlNb2RlID0gQ29uZmlnUmVwb3NpdG9yeS51aU1vZGUKCiAgICBmdW4gc3dpdGNoTW9kZShuZXdNb2RlOiBVaU1vZGUpIHsKICAgICAgICBDb25maWdSZXBvc2l0b3J5LnNldFVpTW9kZShuZXdNb2RlKQogICAgfQp9
+package fansirsqi.xposed.sesame.ui.viewmodel
+
+import androidx.lifecycle.ViewModel
+import fansirsqi.xposed.sesame.ui.model.UiMode
+import fansirsqi.xposed.sesame.ui.repository.ConfigRepository
+
+class SettingsViewModel : ViewModel() {
+    // 直接暴露仓库的 StateFlow
+    val uiMode = ConfigRepository.uiMode
+
+    fun switchMode(newMode: UiMode) {
+        ConfigRepository.setUiMode(newMode)
+    }
+}

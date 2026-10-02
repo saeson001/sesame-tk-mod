@@ -1,1 +1,289 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgovL2ltcG9ydCBhbmRyb2lkLlIKaW1wb3J0IGFuZHJvaWQuTWFuaWZlc3QKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbkNoYW5uZWwKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbk1hbmFnZXIKaW1wb3J0IGFuZHJvaWQuYXBwLlBlbmRpbmdJbnRlbnQKaW1wb3J0IGFuZHJvaWQuYXBwLlNlcnZpY2UKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucG0uUGFja2FnZU1hbmFnZXIKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwRmFjdG9yeQppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZHguY29yZS5hcHAuTm90aWZpY2F0aW9uQ29tcGF0CmltcG9ydCBhbmRyb2lkeC5jb3JlLmFwcC5Ob3RpZmljYXRpb25NYW5hZ2VyQ29tcGF0CmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuQ29udGV4dENvbXBhdAppbXBvcnQgYW5kcm9pZHguY29yZS5uZXQudG9VcmkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuUnVudGltZUluZm8KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suVG9hc3QKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLkJhc2VNb2RlbAppbXBvcnQga290bGluLmNvbmN1cnJlbnQuVm9sYXRpbGUKCkBTdXBwcmVzc0xpbnQoIlN0YXRpY0ZpZWxkTGVhayIpCm9iamVjdCBOb3RpZnkgewogICAgcHJpdmF0ZSB2YWwgVEFHOiBTdHJpbmcgPSBOb3RpZnk6OmNsYXNzLmphdmEuZ2V0U2ltcGxlTmFtZSgpCgogICAgQFN1cHByZXNzTGludCgiU3RhdGljRmllbGRMZWFrIikKICAgIHZhciBjb250ZXh0OiBDb250ZXh0PyA9IG51bGwKICAgIHByaXZhdGUgY29uc3QgdmFsIE5PVElGSUNBVElPTl9JRCA9IDk5CiAgICBwcml2YXRlIGNvbnN0IHZhbCBFUlJPUl9OT1RJRklDQVRJT05fSUQgPSA5OAogICAgcHJpdmF0ZSBjb25zdCB2YWwgQ0hBTk5FTF9JRCA9ICJmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5BTlRGT1JFU1RfTk9USUZZX0NIQU5ORUwiCiAgICBwcml2YXRlIHZhciBtTm90aWZ5TWFuYWdlcjogTm90aWZpY2F0aW9uTWFuYWdlcj8gPSBudWxsCgogICAgQFN1cHByZXNzTGludCgiU3RhdGljRmllbGRMZWFrIikKICAgIHByaXZhdGUgdmFyIGJ1aWxkZXI6IE5vdGlmaWNhdGlvbkNvbXBhdC5CdWlsZGVyPyA9IG51bGwKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIGlzTm90aWZpY2F0aW9uU3RhcnRlZCA9IGZhbHNlCgogICAgcHJpdmF0ZSB2YXIgbGFzdFVwZGF0ZVRpbWU6IExvbmcgPSAwCiAgICBwcml2YXRlIHZhciBuZXh0RXhlY1RpbWVDYWNoZTogTG9uZyA9IDAKICAgIHByaXZhdGUgdmFyIHRpdGxlVGV4dDogU3RyaW5nPyA9ICIiCiAgICBwcml2YXRlIHZhciBjb250ZW50VGV4dCA9ICIiCgoKICAgIHByaXZhdGUgZnVuIGNoZWNrUGVybWlzc2lvbihjb250ZXh0OiBDb250ZXh0KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLlRJUkFNSVNVKSB7CiAgICAgICAgICAgIGlmIChDb250ZXh0Q29tcGF0LmNoZWNrU2VsZlBlcm1pc3Npb24oY29udGV4dCwgTWFuaWZlc3QucGVybWlzc2lvbi5QT1NUX05PVElGSUNBVElPTlMpICE9IFBhY2thZ2VNYW5hZ2VyLlBFUk1JU1NJT05fR1JBTlRFRCkgewogICAgICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIk1pc3NpbmcgUE9TVF9OT1RJRklDQVRJT05TIHBlcm1pc3Npb24gdG8gc2VuZCBuZXcgbm90aWZpY2F0aW9uJGNvbnRleHQiKQogICAgICAgICAgICAgICAgVG9hc3Quc2hvdygi6K+35Zyo6K6+572u5Lit5byA5ZCv55uu5qCH5bqU55So6YCa55+l5p2D6ZmQIikKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmICghTm90aWZpY2F0aW9uTWFuYWdlckNvbXBhdC5mcm9tKGNvbnRleHQpLmFyZU5vdGlmaWNhdGlvbnNFbmFibGVkKCkpIHsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIk5vdGlmaWNhdGlvbnMgYXJlIGRpc2FibGVkIGZvciB0aGlzIGFwcC4kY29udGV4dCIpCiAgICAgICAgICAgIFRvYXN0LnNob3coIuivt+WcqOiuvue9ruS4reW8gOWQr+ebruagh+W6lOeUqOmAmuefpeadg+mZkCIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBzdGFydChjb250ZXh0OiBDb250ZXh0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKGNoZWNrUGVybWlzc2lvbihjb250ZXh0KSkgewogICAgICAgICAgICAgICAgTm90aWZ5LmNvbnRleHQgPSBjb250ZXh0CiAgICAgICAgICAgICAgICBzdG9wKCkKICAgICAgICAgICAgICAgIHRpdGxlVGV4dCA9ICLwn5qAIOWQr+WKqOS4rSIKICAgICAgICAgICAgICAgIGNvbnRlbnRUZXh0ID0gIvCflJQg5pqC5peg5raI5oGvIgogICAgICAgICAgICAgICAgbGFzdFVwZGF0ZVRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICAgICAgbU5vdGlmeU1hbmFnZXIgPSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5OT1RJRklDQVRJT05fU0VSVklDRSkgYXMgTm90aWZpY2F0aW9uTWFuYWdlcj8KICAgICAgICAgICAgICAgIHZhbCBpdCA9IEludGVudChJbnRlbnQuQUNUSU9OX1ZJRVcpCiAgICAgICAgICAgICAgICBpdC5zZXREYXRhKCJhbGlwYXlzOi8vcGxhdGZvcm1hcGkvc3RhcnRhcHA/YXBwSWQ9Ii50b1VyaSgpKQogICAgICAgICAgICAgICAgdmFsIHBpID0gUGVuZGluZ0ludGVudC5nZXRBY3Rpdml0eShjb250ZXh0LCAwLCBpdCwgUGVuZGluZ0ludGVudC5GTEFHX0lNTVVUQUJMRSBvciBQZW5kaW5nSW50ZW50LkZMQUdfVVBEQVRFX0NVUlJFTlQpCiAgICAgICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICAgICAgICAgIHZhbCBub3RpZmljYXRpb25DaGFubmVsID0gTm90aWZpY2F0aW9uQ2hhbm5lbChDSEFOTkVMX0lELCAi8J+UlCDoip3purvnspLog73ph4/mj5DphpIiLCBOb3RpZmljYXRpb25NYW5hZ2VyLklNUE9SVEFOQ0VfTE9XKQogICAgICAgICAgICAgICAgICAgIG5vdGlmaWNhdGlvbkNoYW5uZWwuZW5hYmxlTGlnaHRzKGZhbHNlKQogICAgICAgICAgICAgICAgICAgIG5vdGlmaWNhdGlvbkNoYW5uZWwuZW5hYmxlVmlicmF0aW9uKGZhbHNlKQogICAgICAgICAgICAgICAgICAgIG5vdGlmaWNhdGlvbkNoYW5uZWwuc2V0U2hvd0JhZGdlKGZhbHNlKQogICAgICAgICAgICAgICAgICAgIG1Ob3RpZnlNYW5hZ2VyISEuY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbChub3RpZmljYXRpb25DaGFubmVsKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYnVpbGRlciA9IE5vdGlmaWNhdGlvbkNvbXBhdC5CdWlsZGVyKGNvbnRleHQsIENIQU5ORUxfSUQpCiAgICAgICAgICAgICAgICAgICAgLnNldENhdGVnb3J5KE5vdGlmaWNhdGlvbkNvbXBhdC5DQVRFR09SWV9OQVZJR0FUSU9OKQogICAgICAgICAgICAgICAgICAgIC5zZXRTbWFsbEljb24oYW5kcm9pZC5SLmRyYXdhYmxlLnN5bV9kZWZfYXBwX2ljb24pCiAgICAgICAgICAgICAgICAgICAgLnNldExhcmdlSWNvbihCaXRtYXBGYWN0b3J5LmRlY29kZVJlc291cmNlKGNvbnRleHQucmVzb3VyY2VzLCBhbmRyb2lkLlIuZHJhd2FibGUuc3ltX2RlZl9hcHBfaWNvbikpCiAgICAgICAgICAgICAgICAgICAgLnNldENvbnRlbnRUaXRsZSh0aXRsZVRleHQpCiAgICAgICAgICAgICAgICAgICAgLnNldENvbnRlbnRUZXh0KGNvbnRlbnRUZXh0KQogICAgICAgICAgICAgICAgICAgIC5zZXRTdWJUZXh0KCLoip3purvnspIiKQogICAgICAgICAgICAgICAgICAgIC5zZXRBdXRvQ2FuY2VsKGZhbHNlKQogICAgICAgICAgICAgICAgICAgIC5zZXRDb250ZW50SW50ZW50KHBpKQogICAgICAgICAgICAgICAgaWYgKEJhc2VNb2RlbC5lbmFibGVPbkdvaW5nLnZhbHVlKSB7CiAgICAgICAgICAgICAgICAgICAgYnVpbGRlciEhLnNldE9uZ29pbmcodHJ1ZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIE5vdGlmaWNhdGlvbk1hbmFnZXJDb21wYXQuZnJvbShjb250ZXh0KS5ub3RpZnkoTk9USUZJQ0FUSU9OX0lELCBidWlsZGVyISEuYnVpbGQoKSkKICAgICAgICAgICAgICAgIGlzTm90aWZpY2F0aW9uU3RhcnRlZCA9IHRydWUKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5YGc5q2i6YCa55+l44CCIOenu+mZpOmAmuefpeW5tuWBnOatouWJjeWPsOacjeWKoeOAggogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gc3RvcCgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoY29udGV4dCA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAvLyBMb2cuZXJyb3IoVEFHLCAiQ29udGV4dCBpcyBudWxsIGluIHN0b3AoKSwgY2Fubm90IHByb2NlZWQuIik7CiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoY29udGV4dCBpcyBTZXJ2aWNlKSB7CiAgICAgICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTikgewogICAgICAgICAgICAgICAgICAgIChjb250ZXh0IGFzIFNlcnZpY2UpLnN0b3BGb3JlZ3JvdW5kKFNlcnZpY2UuU1RPUF9GT1JFR1JPVU5EX1JFTU9WRSkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgKGNvbnRleHQgYXMgU2VydmljZSkuc3RvcFNlbGYoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIE5vdGlmaWNhdGlvbk1hbmFnZXJDb21wYXQuZnJvbShjb250ZXh0ISEpLmNhbmNlbChOT1RJRklDQVRJT05fSUQpCiAgICAgICAgICAgIG1Ob3RpZnlNYW5hZ2VyID0gbnVsbAogICAgICAgICAgICBpc05vdGlmaWNhdGlvblN0YXJ0ZWQgPSBmYWxzZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5pu05paw6YCa55+l5paH5pys44CCIOabtOaWsOmAmuefpeeahOagh+mimOWSjOWGheWuueaWh+acrO+8jOW5tuWPkemAgemAmuefpeOAggogICAgICoKICAgICAqIEBwYXJhbSBzdGF0dXMg6KaB5pu05paw55qE54q25oCB5paH5pys44CCCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biB1cGRhdGVTdGF0dXNUZXh0KHN0YXR1czogU3RyaW5nPykgewogICAgICAgIHZhciBzdGF0dXMgPSBzdGF0dXMKICAgICAgICBpZiAoIWlzTm90aWZpY2F0aW9uU3RhcnRlZCB8fCBjb250ZXh0ID09IG51bGwgfHwgYnVpbGRlciA9PSBudWxsIHx8IG1Ob3RpZnlNYW5hZ2VyID09IG51bGwpIHJldHVybgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBmb3Jlc3RQYXVzZVRpbWUgPSBSdW50aW1lSW5mby5nZXRJbnN0YW5jZSgpLmdldExvbmcoUnVudGltZUluZm8uUnVudGltZUluZm9LZXkuRm9yZXN0UGF1c2VUaW1lKQogICAgICAgICAgICBpZiAoZm9yZXN0UGF1c2VUaW1lID4gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpIHsKICAgICAgICAgICAgICAgIHN0YXR1cyA9ICLinYwg6Kem5Y+R5byC5bi477yM562J5b6F6IezIiArIFRpbWVVdGlsLmdldENvbW1vbkRhdGUoZm9yZXN0UGF1c2VUaW1lKSArICLmgaLlpI3ov5DooYwiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGl0bGVUZXh0ID0gc3RhdHVzCiAgICAgICAgICAgIHNlbmRUZXh0KHRydWUpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmm7TmlrDkuIvkuIDmrKHmiafooYzml7bpl7TnmoTmlofmnKzjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gbmV4dEV4ZWNUaW1lIOS4i+S4gOasoeaJp+ihjOeahOaXtumXtOOAggogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gdXBkYXRlTmV4dEV4ZWNUZXh0KG5leHRFeGVjVGltZTogTG9uZykgewogICAgICAgIGlmICghaXNOb3RpZmljYXRpb25TdGFydGVkIHx8IGNvbnRleHQgPT0gbnVsbCB8fCBidWlsZGVyID09IG51bGwgfHwgbU5vdGlmeU1hbmFnZXIgPT0gbnVsbCkgcmV0dXJuCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKG5leHRFeGVjVGltZSAhPSAtMUwpIHsKICAgICAgICAgICAgICAgIG5leHRFeGVjVGltZUNhY2hlID0gbmV4dEV4ZWNUaW1lCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGl0bGVUZXh0ID0gaWYgKG5leHRFeGVjVGltZUNhY2hlID4gMCkgIuKPsCDkuIvmrKHmiafooYwgIiArIFRpbWVVdGlsLmdldFRpbWVTdHIobmV4dEV4ZWNUaW1lQ2FjaGUpIGVsc2UgIiIKICAgICAgICAgICAgc2VuZFRleHQoZmFsc2UpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmm7TmlrDkuIrkuIDmrKHmiafooYznmoTmlofmnKzjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gY29udGVudCDkuIrkuIDmrKHmiafooYznmoTlhoXlrrnjgIIKICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIHVwZGF0ZUxhc3RFeGVjVGV4dChjb250ZW50OiBTdHJpbmc/KSB7CiAgICAgICAgaWYgKCFpc05vdGlmaWNhdGlvblN0YXJ0ZWQgfHwgY29udGV4dCA9PSBudWxsIHx8IGJ1aWxkZXIgPT0gbnVsbCB8fCBtTm90aWZ5TWFuYWdlciA9PSBudWxsKSByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICBjb250ZW50VGV4dCA9ICLwn5OMIOS4iuasoeaJp+ihjCAiICsgVGltZVV0aWwuZ2V0VGltZVN0cihTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkgKyAiXG7wn4y+ICIgKyBjb250ZW50CiAgICAgICAgICAgIHNlbmRUZXh0KGZhbHNlKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgfQogICAgfQoKCiAgICAvKioKICAgICAqIOiuvue9rueKtuaAgeaWh+acrOS4uuaJp+ihjOS4reOAggogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gc2V0U3RhdHVzVGV4dEV4ZWMoKSB7CiAgICAgICAgaWYgKCFpc05vdGlmaWNhdGlvblN0YXJ0ZWQgfHwgY29udGV4dCA9PSBudWxsIHx8IGJ1aWxkZXIgPT0gbnVsbCB8fCBtTm90aWZ5TWFuYWdlciA9PSBudWxsKSByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZm9yZXN0UGF1c2VUaW1lID0gUnVudGltZUluZm8uZ2V0SW5zdGFuY2UoKS5nZXRMb25nKFJ1bnRpbWVJbmZvLlJ1bnRpbWVJbmZvS2V5LkZvcmVzdFBhdXNlVGltZSkKCiAgICAgICAgICAgIGlmIChmb3Jlc3RQYXVzZVRpbWUgPiBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkgewogICAgICAgICAgICAgICAgdGl0bGVUZXh0ID0gIuKdjCDop6blj5HlvILluLjvvIznrYnlvoXoh7MiICsgVGltZVV0aWwuZ2V0Q29tbW9uRGF0ZShmb3Jlc3RQYXVzZVRpbWUpICsgIuaBouWkjei/kOihjCIKICAgICAgICAgICAgfQogICAgICAgICAgICB0aXRsZVRleHQgPSAi4pqZ77iPIOiKnem6u+eykuato+WcqOaWveW3peS4rS4uLiIKICAgICAgICAgICAgaWYgKGJ1aWxkZXIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgYnVpbGRlciEhLnNldENvbnRlbnRUaXRsZSh0aXRsZVRleHQpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2VuZFRleHQodHJ1ZSkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOiuvue9rueKtuaAgeaWh+acrOS4uuW3suemgeeUqAogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gc2V0U3RhdHVzVGV4dERpc2FibGVkKCkgewogICAgICAgIGlmICghaXNOb3RpZmljYXRpb25TdGFydGVkIHx8IGNvbnRleHQgPT0gbnVsbCB8fCBidWlsZGVyID09IG51bGwgfHwgbU5vdGlmeU1hbmFnZXIgPT0gbnVsbCkgcmV0dXJuCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgYnVpbGRlciEhLnNldENvbnRlbnRUaXRsZSgi8J+aqyDoip3purvnspLlt7LnpoHnlKgiKQogICAgICAgICAgICBpZiAoIVN0cmluZ1V0aWwuaXNFbXB0eShjb250ZW50VGV4dCkpIHsKICAgICAgICAgICAgICAgIGJ1aWxkZXIhIS5zZXRDb250ZW50VGV4dChjb250ZW50VGV4dCkKICAgICAgICAgICAgfQogICAgICAgICAgICBidWlsZGVyISEuc2V0UHJvZ3Jlc3MoMCwgMCwgZmFsc2UpCiAgICAgICAgICAgIHNlbmRUZXh0KHRydWUpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSkKICAgICAgICB9CiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIHNldFN0YXR1c1RleHRFeGVjKGNvbnRlbnQ6IFN0cmluZz8pIHsKICAgICAgICB1cGRhdGVTdGF0dXNUZXh0KCLwn5SlICRjb250ZW50IOi/kOihjOS4rS4uLiIpCiAgICB9CgogICAgLyoqCiAgICAgKiDlj5HpgIHmlofmnKzmm7TmlrDjgIIg5pu05paw6YCa55+l55qE5YaF5a655paH5pys77yM5bm26YeN5paw5Y+R6YCB6YCa55+l44CCCiAgICAgKgogICAgICogQHBhcmFtIGZvcmNlIOaYr+WQpuW8uuWItuWIt+aWsAogICAgICovCiAgICBwcml2YXRlIGZ1biBzZW5kVGV4dChmb3JjZTogQm9vbGVhbikgewogICAgICAgIGlmICghaXNOb3RpZmljYXRpb25TdGFydGVkIHx8IGNvbnRleHQgPT0gbnVsbCB8fCBidWlsZGVyID09IG51bGwgfHwgbU5vdGlmeU1hbmFnZXIgPT0gbnVsbCkgcmV0dXJuCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKCFmb3JjZSAmJiBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIGxhc3RVcGRhdGVUaW1lIDwgNTAwKSB7CiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICBsYXN0VXBkYXRlVGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgIGlmIChidWlsZGVyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGJ1aWxkZXIhIS5zZXRDb250ZW50VGl0bGUodGl0bGVUZXh0KQogICAgICAgICAgICAgICAgaWYgKCFTdHJpbmdVdGlsLmlzRW1wdHkoY29udGVudFRleHQpKSB7CiAgICAgICAgICAgICAgICAgICAgYnVpbGRlciEhLnNldENvbnRlbnRUZXh0KGNvbnRlbnRUZXh0KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbU5vdGlmeU1hbmFnZXIhIS5ub3RpZnkoTk9USUZJQ0FUSU9OX0lELCBidWlsZGVyISEuYnVpbGQoKSkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgfQogICAgfQoKICAgIEBTdXBwcmVzc0xpbnQoIlN0YXRpY0ZpZWxkTGVhayIpCiAgICBASnZtU3RhdGljCiAgICBmdW4gc2VuZE5ld05vdGlmaWNhdGlvbih0aXRsZTogU3RyaW5nPywgY29udGVudDogU3RyaW5nPykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChjb250ZXh0ID09IG51bGwpIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJDb250ZXh0IGlzIG51bGwgaW4gc2VuZEVycm9yTm90aWZpY2F0aW9uLCBjYW5ub3QgcHJvY2VlZC4iKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKCFjaGVja1Blcm1pc3Npb24oY29udGV4dCEhKSB8fCAhaXNOb3RpZmljYXRpb25TdGFydGVkKSByZXR1cm4KICAgICAgICAgICAgbU5vdGlmeU1hbmFnZXIgPSBjb250ZXh0ISEuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0Lk5PVElGSUNBVElPTl9TRVJWSUNFKSBhcyBOb3RpZmljYXRpb25NYW5hZ2VyPwogICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICAgICAgdmFsIG5vdGlmaWNhdGlvbkNoYW5uZWwgPSBOb3RpZmljYXRpb25DaGFubmVsKENIQU5ORUxfSUQsICLigLzvuI8g6Iqd6bq757KS5byC5bi46YCa55+lIiwgTm90aWZpY2F0aW9uTWFuYWdlci5JTVBPUlRBTkNFX0xPVykKICAgICAgICAgICAgICAgIG1Ob3RpZnlNYW5hZ2VyISEuY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbChub3RpZmljYXRpb25DaGFubmVsKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBlcnJvckJ1aWxkZXIgPSBOb3RpZmljYXRpb25Db21wYXQuQnVpbGRlcihjb250ZXh0ISEsIENIQU5ORUxfSUQpCiAgICAgICAgICAgICAgICAuc2V0Q2F0ZWdvcnkoTm90aWZpY2F0aW9uQ29tcGF0LkNBVEVHT1JZX0VSUk9SKQogICAgICAgICAgICAgICAgLnNldFNtYWxsSWNvbihhbmRyb2lkLlIuZHJhd2FibGUuc3ltX2RlZl9hcHBfaWNvbikKICAgICAgICAgICAgICAgIC5zZXRMYXJnZUljb24oQml0bWFwRmFjdG9yeS5kZWNvZGVSZXNvdXJjZShjb250ZXh0ISEucmVzb3VyY2VzLCBhbmRyb2lkLlIuZHJhd2FibGUuc3ltX2RlZl9hcHBfaWNvbikpCiAgICAgICAgICAgICAgICAuc2V0Q29udGVudFRpdGxlKHRpdGxlKQogICAgICAgICAgICAgICAgLnNldENvbnRlbnRUZXh0KGNvbnRlbnQpCiAgICAgICAgICAgICAgICAuc2V0U3ViVGV4dCgi6Iqd6bq757KSIikKICAgICAgICAgICAgICAgIC5zZXRBdXRvQ2FuY2VsKHRydWUpCiAgICAgICAgICAgIGlmIChjb250ZXh0IGlzIFNlcnZpY2UpIHsKICAgICAgICAgICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5VUFNJREVfRE9XTl9DQUtFKSB7CiAgICAgICAgICAgICAgICAgICAgTm90aWZpY2F0aW9uTWFuYWdlckNvbXBhdC5mcm9tKGNvbnRleHQhISkubm90aWZ5KEVSUk9SX05PVElGSUNBVElPTl9JRCwgZXJyb3JCdWlsZGVyLmJ1aWxkKCkpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIChjb250ZXh0IGFzIFNlcnZpY2UpLnN0YXJ0Rm9yZWdyb3VuZChFUlJPUl9OT1RJRklDQVRJT05fSUQsIGVycm9yQnVpbGRlci5idWlsZCgpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgTm90aWZpY2F0aW9uTWFuYWdlckNvbXBhdC5mcm9tKGNvbnRleHQhISkubm90aWZ5KEVSUk9SX05PVElGSUNBVElPTl9JRCwgZXJyb3JCdWlsZGVyLmJ1aWxkKCkpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKQogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.util
+
+//import android.R
+import android.Manifest
+import android.annotation.SuppressLint
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
+import android.app.Service
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.graphics.BitmapFactory
+import android.os.Build
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.ContextCompat
+import androidx.core.net.toUri
+import fansirsqi.xposed.sesame.data.RuntimeInfo
+import fansirsqi.xposed.sesame.hook.Toast
+import fansirsqi.xposed.sesame.model.BaseModel
+import kotlin.concurrent.Volatile
+
+@SuppressLint("StaticFieldLeak")
+object Notify {
+    private val TAG: String = Notify::class.java.getSimpleName()
+
+    @SuppressLint("StaticFieldLeak")
+    var context: Context? = null
+    private const val NOTIFICATION_ID = 99
+    private const val ERROR_NOTIFICATION_ID = 98
+    private const val CHANNEL_ID = "fansirsqi.xposed.sesame.ANTFOREST_NOTIFY_CHANNEL"
+    private var mNotifyManager: NotificationManager? = null
+
+    @SuppressLint("StaticFieldLeak")
+    private var builder: NotificationCompat.Builder? = null
+
+    @Volatile
+    private var isNotificationStarted = false
+
+    private var lastUpdateTime: Long = 0
+    private var nextExecTimeCache: Long = 0
+    private var titleText: String? = ""
+    private var contentText = ""
+
+
+    private fun checkPermission(context: Context): Boolean {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                Log.error(TAG, "Missing POST_NOTIFICATIONS permission to send new notification$context")
+                Toast.show("请在设置中开启目标应用通知权限")
+                return false
+            }
+        }
+        if (!NotificationManagerCompat.from(context).areNotificationsEnabled()) {
+            Log.error(TAG, "Notifications are disabled for this app.$context")
+            Toast.show("请在设置中开启目标应用通知权限")
+            return false
+        }
+        return true
+    }
+
+    @JvmStatic
+    fun start(context: Context) {
+        try {
+            if (checkPermission(context)) {
+                Notify.context = context
+                stop()
+                titleText = "🚀 启动中"
+                contentText = "🔔 暂无消息"
+                lastUpdateTime = System.currentTimeMillis()
+                mNotifyManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager?
+                val it = Intent(Intent.ACTION_VIEW)
+                it.setData("alipays://platformapi/startapp?appId=".toUri())
+                val pi = PendingIntent.getActivity(context, 0, it, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    val notificationChannel = NotificationChannel(CHANNEL_ID, "🔔 芝麻粒能量提醒", NotificationManager.IMPORTANCE_LOW)
+                    notificationChannel.enableLights(false)
+                    notificationChannel.enableVibration(false)
+                    notificationChannel.setShowBadge(false)
+                    mNotifyManager!!.createNotificationChannel(notificationChannel)
+                }
+                builder = NotificationCompat.Builder(context, CHANNEL_ID)
+                    .setCategory(NotificationCompat.CATEGORY_NAVIGATION)
+                    .setSmallIcon(android.R.drawable.sym_def_app_icon)
+                    .setLargeIcon(BitmapFactory.decodeResource(context.resources, android.R.drawable.sym_def_app_icon))
+                    .setContentTitle(titleText)
+                    .setContentText(contentText)
+                    .setSubText("芝麻粒")
+                    .setAutoCancel(false)
+                    .setContentIntent(pi)
+                if (BaseModel.enableOnGoing.value) {
+                    builder!!.setOngoing(true)
+                }
+                NotificationManagerCompat.from(context).notify(NOTIFICATION_ID, builder!!.build())
+                isNotificationStarted = true
+            }
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    /**
+     * 停止通知。 移除通知并停止前台服务。
+     */
+    @JvmStatic
+    fun stop() {
+        try {
+            if (context == null) {
+                // Log.error(TAG, "Context is null in stop(), cannot proceed.");
+                return
+            }
+            if (context is Service) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    (context as Service).stopForeground(Service.STOP_FOREGROUND_REMOVE)
+                } else {
+                    (context as Service).stopSelf()
+                }
+            }
+            NotificationManagerCompat.from(context!!).cancel(NOTIFICATION_ID)
+            mNotifyManager = null
+            isNotificationStarted = false
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    /**
+     * 更新通知文本。 更新通知的标题和内容文本，并发送通知。
+     *
+     * @param status 要更新的状态文本。
+     */
+    @JvmStatic
+    fun updateStatusText(status: String?) {
+        var status = status
+        if (!isNotificationStarted || context == null || builder == null || mNotifyManager == null) return
+        try {
+            val forestPauseTime = RuntimeInfo.getInstance().getLong(RuntimeInfo.RuntimeInfoKey.ForestPauseTime)
+            if (forestPauseTime > System.currentTimeMillis()) {
+                status = "❌ 触发异常，等待至" + TimeUtil.getCommonDate(forestPauseTime) + "恢复运行"
+            }
+            titleText = status
+            sendText(true)
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    /**
+     * 更新下一次执行时间的文本。
+     *
+     * @param nextExecTime 下一次执行的时间。
+     */
+    @JvmStatic
+    fun updateNextExecText(nextExecTime: Long) {
+        if (!isNotificationStarted || context == null || builder == null || mNotifyManager == null) return
+        try {
+            if (nextExecTime != -1L) {
+                nextExecTimeCache = nextExecTime
+            }
+            titleText = if (nextExecTimeCache > 0) "⏰ 下次执行 " + TimeUtil.getTimeStr(nextExecTimeCache) else ""
+            sendText(false)
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    /**
+     * 更新上一次执行的文本。
+     *
+     * @param content 上一次执行的内容。
+     */
+    @JvmStatic
+    fun updateLastExecText(content: String?) {
+        if (!isNotificationStarted || context == null || builder == null || mNotifyManager == null) return
+        try {
+            contentText = "📌 上次执行 " + TimeUtil.getTimeStr(System.currentTimeMillis()) + "\n🌾 " + content
+            sendText(false)
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+
+    /**
+     * 设置状态文本为执行中。
+     */
+    @JvmStatic
+    fun setStatusTextExec() {
+        if (!isNotificationStarted || context == null || builder == null || mNotifyManager == null) return
+        try {
+            val forestPauseTime = RuntimeInfo.getInstance().getLong(RuntimeInfo.RuntimeInfoKey.ForestPauseTime)
+
+            if (forestPauseTime > System.currentTimeMillis()) {
+                titleText = "❌ 触发异常，等待至" + TimeUtil.getCommonDate(forestPauseTime) + "恢复运行"
+            }
+            titleText = "⚙️ 芝麻粒正在施工中..."
+            if (builder != null) {
+                builder!!.setContentTitle(titleText)
+            }
+            sendText(true)
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    /**
+     * 设置状态文本为已禁用
+     */
+    @JvmStatic
+    fun setStatusTextDisabled() {
+        if (!isNotificationStarted || context == null || builder == null || mNotifyManager == null) return
+        try {
+            builder!!.setContentTitle("🚫 芝麻粒已禁用")
+            if (!StringUtil.isEmpty(contentText)) {
+                builder!!.setContentText(contentText)
+            }
+            builder!!.setProgress(0, 0, false)
+            sendText(true)
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    @JvmStatic
+    fun setStatusTextExec(content: String?) {
+        updateStatusText("🔥 $content 运行中...")
+    }
+
+    /**
+     * 发送文本更新。 更新通知的内容文本，并重新发送通知。
+     *
+     * @param force 是否强制刷新
+     */
+    private fun sendText(force: Boolean) {
+        if (!isNotificationStarted || context == null || builder == null || mNotifyManager == null) return
+        try {
+            if (!force && System.currentTimeMillis() - lastUpdateTime < 500) {
+                return
+            }
+            lastUpdateTime = System.currentTimeMillis()
+            if (builder != null) {
+                builder!!.setContentTitle(titleText)
+                if (!StringUtil.isEmpty(contentText)) {
+                    builder!!.setContentText(contentText)
+                }
+                mNotifyManager!!.notify(NOTIFICATION_ID, builder!!.build())
+            }
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    @SuppressLint("StaticFieldLeak")
+    @JvmStatic
+    fun sendNewNotification(title: String?, content: String?) {
+        try {
+            if (context == null) {
+                Log.error(TAG, "Context is null in sendErrorNotification, cannot proceed.")
+                return
+            }
+            if (!checkPermission(context!!) || !isNotificationStarted) return
+            mNotifyManager = context!!.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager?
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                val notificationChannel = NotificationChannel(CHANNEL_ID, "‼️ 芝麻粒异常通知", NotificationManager.IMPORTANCE_LOW)
+                mNotifyManager!!.createNotificationChannel(notificationChannel)
+            }
+            val errorBuilder = NotificationCompat.Builder(context!!, CHANNEL_ID)
+                .setCategory(NotificationCompat.CATEGORY_ERROR)
+                .setSmallIcon(android.R.drawable.sym_def_app_icon)
+                .setLargeIcon(BitmapFactory.decodeResource(context!!.resources, android.R.drawable.sym_def_app_icon))
+                .setContentTitle(title)
+                .setContentText(content)
+                .setSubText("芝麻粒")
+                .setAutoCancel(true)
+            if (context is Service) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                    NotificationManagerCompat.from(context!!).notify(ERROR_NOTIFICATION_ID, errorBuilder.build())
+                } else {
+                    (context as Service).startForeground(ERROR_NOTIFICATION_ID, errorBuilder.build())
+                }
+            } else {
+                NotificationManagerCompat.from(context!!).notify(ERROR_NOTIFICATION_ID, errorBuilder.build())
+            }
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+}

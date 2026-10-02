@@ -1,1 +1,11 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLkFwcGxpY2F0aW9uSW5mbwoKCm9iamVjdCBYcG9zZWRFbnYgewogICAgbGF0ZWluaXQgdmFyIGNsYXNzTG9hZGVyOiBDbGFzc0xvYWRlcgogICAgbGF0ZWluaXQgdmFyIGFwcEluZm86IEFwcGxpY2F0aW9uSW5mbwogICAgbGF0ZWluaXQgdmFyIHBhY2thZ2VOYW1lOiBTdHJpbmcKICAgIGxhdGVpbml0IHZhciBwcm9jZXNzTmFtZTogU3RyaW5nCn0K
+package fansirsqi.xposed.sesame.hook
+
+import android.content.pm.ApplicationInfo
+
+
+object XposedEnv {
+    lateinit var classLoader: ClassLoader
+    lateinit var appInfo: ApplicationInfo
+    lateinit var packageName: String
+    lateinit var processName: String
+}

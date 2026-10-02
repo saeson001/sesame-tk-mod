@@ -1,1 +1,59 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHk7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5Vc2VyTWFwOwppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKLyoqCiAqIOihqOekuuebruagh+W6lOeUqOeUqOaIt+eahOWunuS9k+exu++8jOWMheWQqyBJRCDlkozlkI3np7DjgIIKICovCnB1YmxpYyBjbGFzcyBBbGlwYXlVc2VyIGV4dGVuZHMgTWFwcGVyRW50aXR5IHsKICAgIC8qKgogICAgICog5p6E6YCg5pa55rOV77yM5qC55o2u57uZ5a6a55qEIElEIOWSjOWQjeensOWIneWni+WMlueUqOaIt+WvueixoeOAggogICAgICogQHBhcmFtIGkg55So5oi355qEIElECiAgICAgKiBAcGFyYW0gbiDnlKjmiLfnmoTlkI3np7AKICAgICAqLwogICAgcHVibGljIEFsaXBheVVzZXIoU3RyaW5nIGksIFN0cmluZyBuKSB7CiAgICAgICAgaWQgPSBpOwogICAgICAgIG5hbWUgPSBuOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5bmiYDmnInnlKjmiLfnmoTliJfooajvvIzkuI3kvb/nlKjku7vkvZXov4fmu6TlmajjgIIKICAgICAqIEByZXR1cm4g5YyF5ZCr5omA5pyJ56ym5ZCI5p2h5Lu255qEIEFsaXBheVVzZXIg5a+56LGh55qE5YiX6KGoCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgTGlzdDxBbGlwYXlVc2VyPiBnZXRMaXN0KCkgewogICAgICAgIHJldHVybiBnZXRMaXN0KHVzZXIgLT4gdHJ1ZSk7IC8vIOm7mOiupOS4jei/h+a7pAogICAgfQogICAgLyoqCiAgICAgKiDojrflj5bnrKblkIjov4fmu6TmnaHku7bnmoTnlKjmiLfliJfooajjgIIKICAgICAqIEBwYXJhbSBmaWx0ZXJGdW5jIOi/h+a7pOWHveaVsO+8jOeUqOS6juetm+mAieeUqOaItwogICAgICogQHJldHVybiDnrKblkIjmnaHku7bnmoQgQWxpcGF5VXNlciDlr7nosaHliJfooagKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBMaXN0PEFsaXBheVVzZXI+IGdldExpc3QoRmlsdGVyIGZpbHRlckZ1bmMpIHsKICAgICAgICBMaXN0PEFsaXBheVVzZXI+IGxpc3QgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICBNYXA8U3RyaW5nLCBVc2VyRW50aXR5PiB1c2VySWRNYXAgPSBVc2VyTWFwLmdldFVzZXJNYXAoKTsKICAgICAgICBmb3IgKE1hcC5FbnRyeTxTdHJpbmcsIFVzZXJFbnRpdHk+IGVudHJ5IDogdXNlcklkTWFwLmVudHJ5U2V0KCkpIHsKICAgICAgICAgICAgVXNlckVudGl0eSB1c2VyRW50aXR5ID0gZW50cnkuZ2V0VmFsdWUoKTsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOS9v+eUqOi/h+a7pOWZqOWIpOaWreaYr+WQpua3u+WKoOeUqOaItwogICAgICAgICAgICAgICAgaWYgKGZpbHRlckZ1bmMuYXBwbHkodXNlckVudGl0eSkpIHsKICAgICAgICAgICAgICAgICAgICBsaXN0LmFkZChuZXcgQWxpcGF5VXNlcihlbnRyeS5nZXRLZXkoKSwgdXNlckVudGl0eS5nZXRGdWxsTmFtZSgpKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0KSB7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKHQpOyAvLyDmjZXojrflubborrDlvZXlvILluLgKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gbGlzdDsKICAgIH0KICAgIC8qKgogICAgICog6L+H5ruk5o6l5Y+j77yM55So5LqO562b6YCJ56ym5ZCI5p2h5Lu255qE55So5oi344CCCiAgICAgKi8KICAgIHB1YmxpYyBpbnRlcmZhY2UgRmlsdGVyIHsKICAgICAgICAvKioKICAgICAgICAgKiDliKTmlq3nu5nlrprnlKjmiLfmmK/lkKbnrKblkIjmnaHku7bjgIIKICAgICAgICAgKiBAcGFyYW0gdXNlciDnlKjmiLflrp7kvZPlr7nosaEKICAgICAgICAgKiBAcmV0dXJuIOespuWQiOadoeS7tui/lOWbniB0cnVl77yM5ZCm5YiZ6L+U5ZueIGZhbHNlCiAgICAgICAgICovCiAgICAgICAgQm9vbGVhbiBhcHBseShVc2VyRW50aXR5IHVzZXIpOwogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.entity;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.maps.UserMap;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+/**
+ * 表示目标应用用户的实体类，包含 ID 和名称。
+ */
+public class AlipayUser extends MapperEntity {
+    /**
+     * 构造方法，根据给定的 ID 和名称初始化用户对象。
+     * @param i 用户的 ID
+     * @param n 用户的名称
+     */
+    public AlipayUser(String i, String n) {
+        id = i;
+        name = n;
+    }
+    /**
+     * 获取所有用户的列表，不使用任何过滤器。
+     * @return 包含所有符合条件的 AlipayUser 对象的列表
+     */
+    public static List<AlipayUser> getList() {
+        return getList(user -> true); // 默认不过滤
+    }
+    /**
+     * 获取符合过滤条件的用户列表。
+     * @param filterFunc 过滤函数，用于筛选用户
+     * @return 符合条件的 AlipayUser 对象列表
+     */
+    public static List<AlipayUser> getList(Filter filterFunc) {
+        List<AlipayUser> list = new ArrayList<>();
+        Map<String, UserEntity> userIdMap = UserMap.getUserMap();
+        for (Map.Entry<String, UserEntity> entry : userIdMap.entrySet()) {
+            UserEntity userEntity = entry.getValue();
+            try {
+                // 使用过滤器判断是否添加用户
+                if (filterFunc.apply(userEntity)) {
+                    list.add(new AlipayUser(entry.getKey(), userEntity.getFullName()));
+                }
+            } catch (Throwable t) {
+                Log.printStackTrace(t); // 捕获并记录异常
+            }
+        }
+        return list;
+    }
+    /**
+     * 过滤接口，用于筛选符合条件的用户。
+     */
+    public interface Filter {
+        /**
+         * 判断给定用户是否符合条件。
+         * @param user 用户实体对象
+         * @return 符合条件返回 true，否则返回 false
+         */
+        Boolean apply(UserEntity user);
+    }
+}

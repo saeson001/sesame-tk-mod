@@ -1,1 +1,73 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmdhbWVDZW50ZXI7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5SZXF1ZXN0TWFuYWdlcjsKCi8qKgogKiDmuLjmiI/kuK3lv4MgUlBDIOiwg+eUqO+8iOenr+WIhueQgy/nrb7liLAv5Lu75Yqh77yJCiAqIOWNj+iuruadpea6kO+8muiKnem6u+ezilNWSVAgMi4wLjYuNiDpgIblkJHov5jljp/vvIhHYW1lQ2VudGVyUnBjQ2FsbO+8iQogKi8KcHVibGljIGNsYXNzIEdhbWVDZW50ZXJScGNDYWxsIHsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBTT1VSQ0UgPSAiY2hfYXBwY2VudGVyX19jaHN1Yl85cGF0Y2giOwoKICAgIC8qKiDmibnph4/pooblj5bnp6/liIbnkIMgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGJhdGNoUmVjZWl2ZVBvaW50QmFsbCgpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmdhbWVjZW50ZXJ1cHJvZC5iaXoucnBjLnYzLmJhdGNoUmVjZWl2ZVBvaW50QmFsbCIsICJbe31dIik7CiAgICB9CgogICAgLyoqIOa4uOaIj+S4reW/g+etvuWIsCAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgY29udGludWVTaWduSW4oKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICAgICAiY29tLmFsaXBheS5nYW1lY2VudGVydXByb2QuYml6LnJwYy5jb250aW51ZVNpZ25JbiIsCiAgICAgICAgICAgICAgICAiW3tcInNjZW5lSWRcIjpcIkdBTUVfQ0VOVEVSXCIsXCJzaWduVHlwZVwiOlwiTk9STUFMX1NJR05cIixcInNvdXJjZVwiOlwiIiArIFNPVVJDRSArICJcIn1dIik7CiAgICB9CgogICAgLyoqIOafpeivouetvuWIsOeQg++8iOWPr+mihuWPlueKtuaAge+8iSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcXVlcnlTaWduSW5CYWxsKCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAgICAgImNvbS5hbGlwYXkuZ2FtZWNlbnRlcnVwcm9kLmJpei5ycGMudjMucXVlcnlTaWduSW5CYWxsIiwKICAgICAgICAgICAgICAgICJbe1wic291cmNlXCI6XCIiICsgU09VUkNFICsgIlwifV0iKTsKICAgIH0KCiAgICAvKiog5p+l6K+i5qih5Z2X5YyW5Lu75Yqh5YiX6KGoICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBxdWVyeU1vZHVsYXJUYXNrTGlzdCgpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmdhbWVjZW50ZXJ1cHJvZC5iaXoucnBjLnYzLnF1ZXJ5TW9kdWxhclRhc2tMaXN0IiwKICAgICAgICAgICAgICAgICJbe1wic291cmNlXCI6XCIiICsgU09VUkNFICsgIlwifV0iKTsKICAgIH0KCiAgICAvKiog5p+l6K+i56ev5YiG55CD5YiX6KGoICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBxdWVyeVBvaW50QmFsbExpc3QoKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICAgICAiY29tLmFsaXBheS5nYW1lY2VudGVydXByb2QuYml6LnJwYy52My5xdWVyeVBvaW50QmFsbExpc3QiLAogICAgICAgICAgICAgICAgIlt7XCJzb3VyY2VcIjpcIiIgKyBTT1VSQ0UgKyAiXCJ9XSIpOwogICAgfQoKICAgIC8qKiDmn6Xor6Lnp6/liIbogZrlkIjpobUgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHF1ZXJ5UG9pbnRCZW5lZml0QWdnUGFnZSgpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmdhbWVjZW50ZXJ1cHJvZC5iaXoucnBjLnYzLnF1ZXJ5UG9pbnRCZW5lZml0QWdnUGFnZSIsCiAgICAgICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwiIiArIFNPVVJDRSArICJcIn1dIik7CiAgICB9CgogICAgLyoqIOS7u+WKoeaKpeWQjSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZG9UYXNrU2lnbnVwKFN0cmluZyB0YXNrSWQpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmdhbWVjZW50ZXJ1cHJvZC5iaXoucnBjLnYzLmRvVGFza1NpZ251cCIsCiAgICAgICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwiIiArIFNPVVJDRSArICJcIixcInRhc2tJZFwiOlwiIiArIHRhc2tJZCArICJcIn1dIik7CiAgICB9CgogICAgLyoqIOWujOaIkOS7u+WKoeWPkemAgSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZG9UYXNrU2VuZChTdHJpbmcgdGFza0lkKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICAgICAiY29tLmFsaXBheS5nYW1lY2VudGVydXByb2QuYml6LnJwYy52My5kb1Rhc2tTZW5kIiwKICAgICAgICAgICAgICAgICJbe1widGFza0lkXCI6XCIiICsgdGFza0lkICsgIlwifV0iKTsKICAgIH0KCiAgICAvKiog54K55Ye75Y+R6YCB5bqU55So5p2D55uKICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBjbGlja1NlbmRBcHBCZW5lZml0KFN0cmluZyBhcHBJZCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAgICAgImFsaXBheS5tb2JpbGVhcHBjb25maWcuYml6LmFwcC5jbGlja1NlbmRBcHBCZW5lZml0IiwKICAgICAgICAgICAgICAgICJbe1wiYXBwSWRcIjpcIiIgKyBhcHBJZCArICJcIn1dIik7CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.task.gameCenter;
+
+import fansirsqi.xposed.sesame.hook.RequestManager;
+
+/**
+ * 游戏中心 RPC 调用（积分球/签到/任务）
+ * 协议来源：芝麻糊SVIP 2.0.6.6 逆向还原（GameCenterRpcCall）
+ */
+public class GameCenterRpcCall {
+    private static final String SOURCE = "ch_appcenter__chsub_9patch";
+
+    /** 批量领取积分球 */
+    public static String batchReceivePointBall() {
+        return RequestManager.requestString(
+                "com.alipay.gamecenteruprod.biz.rpc.v3.batchReceivePointBall", "[{}]");
+    }
+
+    /** 游戏中心签到 */
+    public static String continueSignIn() {
+        return RequestManager.requestString(
+                "com.alipay.gamecenteruprod.biz.rpc.continueSignIn",
+                "[{\"sceneId\":\"GAME_CENTER\",\"signType\":\"NORMAL_SIGN\",\"source\":\"" + SOURCE + "\"}]");
+    }
+
+    /** 查询签到球（可领取状态） */
+    public static String querySignInBall() {
+        return RequestManager.requestString(
+                "com.alipay.gamecenteruprod.biz.rpc.v3.querySignInBall",
+                "[{\"source\":\"" + SOURCE + "\"}]");
+    }
+
+    /** 查询模块化任务列表 */
+    public static String queryModularTaskList() {
+        return RequestManager.requestString(
+                "com.alipay.gamecenteruprod.biz.rpc.v3.queryModularTaskList",
+                "[{\"source\":\"" + SOURCE + "\"}]");
+    }
+
+    /** 查询积分球列表 */
+    public static String queryPointBallList() {
+        return RequestManager.requestString(
+                "com.alipay.gamecenteruprod.biz.rpc.v3.queryPointBallList",
+                "[{\"source\":\"" + SOURCE + "\"}]");
+    }
+
+    /** 查询积分聚合页 */
+    public static String queryPointBenefitAggPage() {
+        return RequestManager.requestString(
+                "com.alipay.gamecenteruprod.biz.rpc.v3.queryPointBenefitAggPage",
+                "[{\"source\":\"" + SOURCE + "\"}]");
+    }
+
+    /** 任务报名 */
+    public static String doTaskSignup(String taskId) {
+        return RequestManager.requestString(
+                "com.alipay.gamecenteruprod.biz.rpc.v3.doTaskSignup",
+                "[{\"source\":\"" + SOURCE + "\",\"taskId\":\"" + taskId + "\"}]");
+    }
+
+    /** 完成任务发送 */
+    public static String doTaskSend(String taskId) {
+        return RequestManager.requestString(
+                "com.alipay.gamecenteruprod.biz.rpc.v3.doTaskSend",
+                "[{\"taskId\":\"" + taskId + "\"}]");
+    }
+
+    /** 点击发送应用权益 */
+    public static String clickSendAppBenefit(String appId) {
+        return RequestManager.requestString(
+                "alipay.mobileappconfig.biz.app.clickSendAppBenefit",
+                "[{\"appId\":\"" + appId + "\"}]");
+    }
+}

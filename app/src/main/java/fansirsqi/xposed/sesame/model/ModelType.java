@@ -1,1 +1,52 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbDsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOwoKaW1wb3J0IGphdmEudXRpbC5IYXNoTWFwOwppbXBvcnQgamF2YS51dGlsLk1hcDsKCi8v5LiN55So6ICD6JmRR2V0dGVyIOS4jmtvdGxpbiDnmoTlhbzlrrnmgKcKcHVibGljIGVudW0gTW9kZWxUeXBlIHsKICAgIE5PUk1BTCgwLCAi5pmu6YCa5qih5Z2XIiksCiAgICBUQVNLKDEsICLku7vliqHmqKHlnZciKSwKICAgIDsKICAgIC8vIOS8mOWMljE6IOS9v+eUqCBpbnQg5pu/5LujIEludGVnZXLvvIzpgb/lhY3mi4boo4XnrrEKICAgIHByaXZhdGUgZmluYWwgaW50IGNvZGU7CiAgICBwcml2YXRlIGZpbmFsIFN0cmluZyBuYW1lOwoKICAgIE1vZGVsVHlwZShpbnQgY29kZSwgU3RyaW5nIG5hbWUpIHsKICAgICAgICB0aGlzLmNvZGUgPSBjb2RlOwogICAgICAgIHRoaXMubmFtZSA9IG5hbWU7CiAgICB9CgogICAgcHVibGljIGludCBnZXRDb2RlKCkgewogICAgICAgIHJldHVybiBjb2RlOwogICAgfQoKICAgIHB1YmxpYyBTdHJpbmcgZ2V0TmFtZSgpIHsKICAgICAgICByZXR1cm4gbmFtZTsKICAgIH0KCgogICAgLy8g5LyY5YyWMjog57yT5a2YIHZhbHVlcygp77yM6YG/5YWNIGdldEJ5Q29kZSDpgY3ljobml7blpoLmnpzmiYvliqggdmFsdWVzKCkg6YCg5oiQ55qE5pWw57uE5YWL6ZqGCiAgICAvLyDkvYbnlLHkuo7miJHku6zkvb/nlKjkuoYgTWFwIOafpeaJvu+8jOi/memHjOS4u+imgeaYr+S4uuS6huaehOW7uiBNYXAg5pe25pu06auY5pWICiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBNYXA8SW50ZWdlciwgTW9kZWxUeXBlPiBNQVAgPSBuZXcgSGFzaE1hcDw+KCk7CgoKICAgIHN0YXRpYyB7CiAgICAgICAgZm9yIChNb2RlbFR5cGUgdmFsdWUgOiBNb2RlbFR5cGUudmFsdWVzKCkpIHsKICAgICAgICAgICAgTUFQLnB1dCh2YWx1ZS5nZXRDb2RlKCksIHZhbHVlKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmoLnmja4gY29kZSDojrflj5bmnprkuL4KICAgICAqCiAgICAgKiBAcGFyYW0gY29kZSDmoIfor4bnoIEKICAgICAqIEByZXR1cm4g5a+55bqU55qE5p6a5Li+77yM5aaC5p6c5pyq5om+5Yiw5YiZ6L+U5ZueIG51bGwKICAgICAqLwogICAgQE51bGxhYmxlCiAgICBwdWJsaWMgc3RhdGljIE1vZGVsVHlwZSBnZXRCeUNvZGUoaW50IGNvZGUpIHsKICAgICAgICByZXR1cm4gTUFQLmdldChjb2RlKTsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.model;
+
+import androidx.annotation.Nullable;
+
+import java.util.HashMap;
+import java.util.Map;
+
+//不用考虑Getter 与kotlin 的兼容性
+public enum ModelType {
+    NORMAL(0, "普通模块"),
+    TASK(1, "任务模块"),
+    ;
+    // 优化1: 使用 int 替代 Integer，避免拆装箱
+    private final int code;
+    private final String name;
+
+    ModelType(int code, String name) {
+        this.code = code;
+        this.name = name;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
+    // 优化2: 缓存 values()，避免 getByCode 遍历时如果手动 values() 造成的数组克隆
+    // 但由于我们使用了 Map 查找，这里主要是为了构建 Map 时更高效
+    private static final Map<Integer, ModelType> MAP = new HashMap<>();
+
+
+    static {
+        for (ModelType value : ModelType.values()) {
+            MAP.put(value.getCode(), value);
+        }
+    }
+
+    /**
+     * 根据 code 获取枚举
+     *
+     * @param code 标识码
+     * @return 对应的枚举，如果未找到则返回 null
+     */
+    @Nullable
+    public static ModelType getByCode(int code) {
+        return MAP.get(code);
+    }
+}

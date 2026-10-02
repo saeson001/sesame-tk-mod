@@ -1,1 +1,40 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnNlcnZlci5oYW5kbGVycwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suUmVxdWVzdE1hbmFnZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suc2VydmVyLlNlcnZlckNvbW1vbi5NSU1FX0pTT04KaW1wb3J0IGZpLmlraS5lbG9uZW4uTmFub0hUVFBECmltcG9ydCBmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRC5JSFRUUFNlc3Npb24KaW1wb3J0IGZpLmlraS5lbG9uZW4uTmFub0hUVFBELlJlc3BvbnNlCgpjbGFzcyBEZWJ1Z0hhbmRsZXIoc2VjcmV0VG9rZW46IFN0cmluZykgOiBCYXNlSGFuZGxlcihzZWNyZXRUb2tlbikgewoKICAgIG92ZXJyaWRlIGZ1biBvblBvc3Qoc2Vzc2lvbjogSUhUVFBTZXNzaW9uLCBib2R5OiBTdHJpbmc/KTogUmVzcG9uc2UgewogICAgICAgIGlmIChib2R5LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gYmFkUmVxdWVzdCgiRW1wdHkgYm9keSIpCiAgICAgICAgfQoKICAgICAgICB2YWwgcmVxdWVzdDogUnBjUmVxdWVzdCA9IHRyeSB7CiAgICAgICAgICAgIG1hcHBlci5yZWFkVmFsdWUoYm9keSwgUnBjUmVxdWVzdDo6Y2xhc3MuamF2YSkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgcmV0dXJuIGJhZFJlcXVlc3QoIkludmFsaWQgSlNPTjogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CgogICAgICAgIHZhbCBkYXRhU3RyID0gcmVxdWVzdC5nZXRSZXF1ZXN0RGF0YVN0cmluZyhtYXBwZXIpCgogICAgICAgIGlmIChyZXF1ZXN0Lm1ldGhvZE5hbWUuaXNCbGFuaygpIHx8IGRhdGFTdHIuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBiYWRSZXF1ZXN0KCJGaWVsZHMgY2Fubm90IGJlIGVtcHR5IikKICAgICAgICB9CgogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcmVzdWx0ID0gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZyhyZXF1ZXN0Lm1ldGhvZE5hbWUsIGRhdGFTdHIpCgogICAgICAgICAgICBpZiAocmVzdWx0LmlzQmxhbmsoKSkgewogICAgICAgICAgICAgICAganNvbihSZXNwb25zZS5TdGF0dXMuT0ssIG1hcE9mKCJzdGF0dXMiIHRvICJlbXB0eSIpKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgTmFub0hUVFBELm5ld0ZpeGVkTGVuZ3RoUmVzcG9uc2UoUmVzcG9uc2UuU3RhdHVzLk9LLCBNSU1FX0pTT04sIHJlc3VsdCkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBiYWRSZXF1ZXN0KCJSUEMgRXJyb3I6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.hook.server.handlers
+
+import fansirsqi.xposed.sesame.hook.RequestManager
+import fansirsqi.xposed.sesame.hook.server.ServerCommon.MIME_JSON
+import fi.iki.elonen.NanoHTTPD
+import fi.iki.elonen.NanoHTTPD.IHTTPSession
+import fi.iki.elonen.NanoHTTPD.Response
+
+class DebugHandler(secretToken: String) : BaseHandler(secretToken) {
+
+    override fun onPost(session: IHTTPSession, body: String?): Response {
+        if (body.isNullOrBlank()) {
+            return badRequest("Empty body")
+        }
+
+        val request: RpcRequest = try {
+            mapper.readValue(body, RpcRequest::class.java)
+        } catch (e: Exception) {
+            return badRequest("Invalid JSON: ${e.message}")
+        }
+
+        val dataStr = request.getRequestDataString(mapper)
+
+        if (request.methodName.isBlank() || dataStr.isBlank()) {
+            return badRequest("Fields cannot be empty")
+        }
+
+        return try {
+            val result = RequestManager.requestString(request.methodName, dataStr)
+
+            if (result.isBlank()) {
+                json(Response.Status.OK, mapOf("status" to "empty"))
+            } else {
+                NanoHTTPD.newFixedLengthResponse(Response.Status.OK, MIME_JSON, result)
+            }
+        } catch (e: Exception) {
+            badRequest("RPC Error: ${e.message}")
+        }
+    }
+}

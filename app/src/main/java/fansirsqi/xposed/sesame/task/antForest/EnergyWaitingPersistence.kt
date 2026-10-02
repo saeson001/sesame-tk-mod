@@ -1,1 +1,268 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZvcmVzdAoKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLkpzb25JZ25vcmVQcm9wZXJ0aWVzCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uY29yZS50eXBlLlR5cGVSZWZlcmVuY2UKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRGF0YVN0b3JlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5UaW1lVXRpbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLlVzZXJNYXAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgovKioKICog6Lmy54K55Lu75Yqh5oyB5LmF5YyW5pWw5o2u57G7CiAqIOeUqOS6juW6j+WIl+WMluWSjOWPjeW6j+WIl+WMlu+8jOWtmOWCqOWIsCBEYXRhU3RvcmUKICovCkBKc29uSWdub3JlUHJvcGVydGllcyhpZ25vcmVVbmtub3duID0gdHJ1ZSkKZGF0YSBjbGFzcyBXYWl0aW5nVGFza1BlcnNpc3REYXRhKAogICAgdmFsIHVzZXJJZDogU3RyaW5nID0gIiIsCiAgICB2YWwgdXNlck5hbWU6IFN0cmluZyA9ICIiLAogICAgdmFsIGJ1YmJsZUlkOiBMb25nID0gMEwsCiAgICB2YWwgcHJvZHVjZVRpbWU6IExvbmcgPSAwTCwKICAgIHZhbCBmcm9tVGFnOiBTdHJpbmcgPSAiIiwKICAgIHZhbCByZXRyeUNvdW50OiBJbnQgPSAwLAogICAgdmFsIG1heFJldHJpZXM6IEludCA9IDMsCiAgICB2YWwgc2hpZWxkRW5kVGltZTogTG9uZyA9IDBMLAogICAgdmFsIGJvbWJFbmRUaW1lOiBMb25nID0gMEwsCiAgICB2YWwgc2F2ZWRUaW1lOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLy8g5L+d5a2Y5pe26Ze077yM55So5LqO5Yik5pat5piv5ZCm6L+H5pyfCikgewogICAgLyoqCiAgICAgKiDovazmjaLkuLrov5DooYzml7bku7vliqHlr7nosaEKICAgICAqLwogICAgZnVuIHRvV2FpdGluZ1Rhc2soKTogRW5lcmd5V2FpdGluZ01hbmFnZXIuV2FpdGluZ1Rhc2sgewogICAgICAgIHJldHVybiBFbmVyZ3lXYWl0aW5nTWFuYWdlci5XYWl0aW5nVGFzaygKICAgICAgICAgICAgdXNlcklkID0gdXNlcklkLAogICAgICAgICAgICB1c2VyTmFtZSA9IHVzZXJOYW1lLAogICAgICAgICAgICBidWJibGVJZCA9IGJ1YmJsZUlkLAogICAgICAgICAgICBwcm9kdWNlVGltZSA9IHByb2R1Y2VUaW1lLAogICAgICAgICAgICBmcm9tVGFnID0gZnJvbVRhZywKICAgICAgICAgICAgcmV0cnlDb3VudCA9IHJldHJ5Q291bnQsCiAgICAgICAgICAgIG1heFJldHJpZXMgPSBtYXhSZXRyaWVzLAogICAgICAgICAgICBzaGllbGRFbmRUaW1lID0gc2hpZWxkRW5kVGltZSwKICAgICAgICAgICAgYm9tYkVuZFRpbWUgPSBib21iRW5kVGltZQogICAgICAgICkKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAvKioKICAgICAgICAgKiDku47ov5DooYzml7bku7vliqHlr7nosaHliJvlu7rmjIHkuYXljJbmlbDmja4KICAgICAgICAgKi8KICAgICAgICBmdW4gZnJvbVdhaXRpbmdUYXNrKHRhc2s6IEVuZXJneVdhaXRpbmdNYW5hZ2VyLldhaXRpbmdUYXNrKTogV2FpdGluZ1Rhc2tQZXJzaXN0RGF0YSB7CiAgICAgICAgICAgIHJldHVybiBXYWl0aW5nVGFza1BlcnNpc3REYXRhKAogICAgICAgICAgICAgICAgdXNlcklkID0gdGFzay51c2VySWQsCiAgICAgICAgICAgICAgICB1c2VyTmFtZSA9IHRhc2sudXNlck5hbWUsCiAgICAgICAgICAgICAgICBidWJibGVJZCA9IHRhc2suYnViYmxlSWQsCiAgICAgICAgICAgICAgICBwcm9kdWNlVGltZSA9IHRhc2sucHJvZHVjZVRpbWUsCiAgICAgICAgICAgICAgICBmcm9tVGFnID0gdGFzay5mcm9tVGFnLAogICAgICAgICAgICAgICAgcmV0cnlDb3VudCA9IHRhc2sucmV0cnlDb3VudCwKICAgICAgICAgICAgICAgIG1heFJldHJpZXMgPSB0YXNrLm1heFJldHJpZXMsCiAgICAgICAgICAgICAgICBzaGllbGRFbmRUaW1lID0gdGFzay5zaGllbGRFbmRUaW1lLAogICAgICAgICAgICAgICAgYm9tYkVuZFRpbWUgPSB0YXNrLmJvbWJFbmRUaW1lCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCi8qKgogKiDoubLngrnku7vliqHmjIHkuYXljJbnrqHnkIblmagKICoKICog6IGM6LSj77yaCiAqIDEuIOS/neWtmOi5sueCueS7u+WKoeWIsCBEYXRhU3RvcmUKICogMi4g5LuOIERhdGFTdG9yZSDmgaLlpI3oubLngrnku7vliqEKICogMy4g6aqM6K+B5oGi5aSN55qE5Lu75Yqh5piv5ZCm5LuN54S25pyJ5pWICiAqIDQuIOi/h+a7pOi/h+acn+aIluaXoOaViOeahOS7u+WKoQogKi8Kb2JqZWN0IEVuZXJneVdhaXRpbmdQZXJzaXN0ZW5jZSB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiRW5lcmd5V2FpdGluZ1BlcnNpc3RlbmNlIgoKICAgIC8vIOS7u+WKoeacgOWkp+S/neWtmOaXtumXtO+8iDjlsI/ml7bvvIzotoXov4fmraTml7bpl7TnmoTku7vliqHop4bkuLrov4fmnJ/vvIkKICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9UQVNLX0FHRV9NUyA9IDggKiA2MCAqIDYwICogMTAwMEwKCiAgICAvLyDljY/nqIvkvZznlKjln58KICAgIHByaXZhdGUgdmFsIHBlcnNpc3RlbmNlU2NvcGUgPSBDb3JvdXRpbmVTY29wZShEaXNwYXRjaGVycy5JTykKCiAgICAvKioKICAgICAqIOiOt+WPluW9k+WJjei0puWPt+eahCBEYXRhU3RvcmUg5a2Y5YKo6ZSuCiAgICAgKiDmr4/kuKrotKblj7fkvb/nlKjni6znq4vnmoTplK7vvIzpgb/lhY3lpJrotKblj7fliIfmjaLml7bmlbDmja7mt7fmt4YKICAgICAqCiAgICAgKiBAcmV0dXJuIOWMheWQq+W9k+WJjeeUqOaItyB1aWQg55qE5a2Y5YKo6ZSu77yM5aaC5p6cIHVpZCDkuLrnqbrliJnkvb/nlKjpu5jorqTplK4KICAgICAqLwogICAgcHJpdmF0ZSBmdW4gZ2V0RGF0YVN0b3JlS2V5KCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGN1cnJlbnRVaWQgPSBVc2VyTWFwLmN1cnJlbnRVaWQKICAgICAgICByZXR1cm4gaWYgKGN1cnJlbnRVaWQuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgICJlbmVyZ3lfd2FpdGluZ190YXNrc19kZWZhdWx0IgogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICJlbmVyZ3lfd2FpdGluZ190YXNrc18kY3VycmVudFVpZCIKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDkv53lrZjoubLngrnku7vliqHliLAgRGF0YVN0b3Jl77yI5byC5q2l77yJCiAgICAgKgogICAgICogQHBhcmFtIHRhc2tzIOW9k+WJjea0u+i3g+eahOi5sueCueS7u+WKoQogICAgICovCiAgICBmdW4gc2F2ZVRhc2tzKHRhc2tzOiBNYXA8U3RyaW5nLCBFbmVyZ3lXYWl0aW5nTWFuYWdlci5XYWl0aW5nVGFzaz4pIHsKICAgICAgICBwZXJzaXN0ZW5jZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcGVyc2lzdERhdGFMaXN0ID0gdGFza3MudmFsdWVzLm1hcCB7IHRhc2sgLT4KICAgICAgICAgICAgICAgICAgICBXYWl0aW5nVGFza1BlcnNpc3REYXRhLmZyb21XYWl0aW5nVGFzayh0YXNrKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCBkYXRhU3RvcmVLZXkgPSBnZXREYXRhU3RvcmVLZXkoKQogICAgICAgICAgICAgICAgRGF0YVN0b3JlLnB1dChkYXRhU3RvcmVLZXksIHBlcnNpc3REYXRhTGlzdCkKCiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKchSDkv53lrZgke3BlcnNpc3REYXRhTGlzdC5zaXplfeS4qui5sueCueS7u+WKoeWIsOaMgeS5heWMluWtmOWCqCAoa2V5OiAkZGF0YVN0b3JlS2V5KSIpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICLkv53lrZjoubLngrnku7vliqHlpLHotKU6IiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOS7jiBEYXRhU3RvcmUg5Yqg6L296Lmy54K55Lu75YqhCiAgICAgKgogICAgICogQHJldHVybiDmgaLlpI3nmoTku7vliqHliJfooajvvIjlt7Lov4fmu6Tov4fmnJ/ku7vliqHvvIkKICAgICAqLwogICAgZnVuIGxvYWRUYXNrcygpOiBMaXN0PEVuZXJneVdhaXRpbmdNYW5hZ2VyLldhaXRpbmdUYXNrPiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBkYXRhU3RvcmVLZXkgPSBnZXREYXRhU3RvcmVLZXkoKQogICAgICAgICAgICB2YWwgdHlwZVJlZiA9IG9iamVjdCA6IFR5cGVSZWZlcmVuY2U8TGlzdDxXYWl0aW5nVGFza1BlcnNpc3REYXRhPj4oKSB7fQogICAgICAgICAgICB2YWwgcGVyc2lzdERhdGFMaXN0ID0gRGF0YVN0b3JlLmdldE9yQ3JlYXRlKGRhdGFTdG9yZUtleSwgdHlwZVJlZikKCiAgICAgICAgICAgIGlmIChwZXJzaXN0RGF0YUxpc3QuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuaMgeS5heWMluWtmOWCqOS4reaXoOi5sueCueS7u+WKoSAoa2V5OiAkZGF0YVN0b3JlS2V5KSIpCiAgICAgICAgICAgICAgICByZXR1cm4gZW1wdHlMaXN0KCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIGN1cnJlbnRUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgdmFsIHZhbGlkVGFza3MgPSBtdXRhYmxlTGlzdE9mPEVuZXJneVdhaXRpbmdNYW5hZ2VyLldhaXRpbmdUYXNrPigpCiAgICAgICAgICAgIHZhciBleHBpcmVkQ291bnQgPSAwCiAgICAgICAgICAgIHZhciB0b29PbGRDb3VudCA9IDAKCiAgICAgICAgICAgIHBlcnNpc3REYXRhTGlzdC5mb3JFYWNoIHsgcGVyc2lzdERhdGEgLT4KICAgICAgICAgICAgICAgIC8vIOajgOafpTHvvJrku7vliqHkv53lrZjml7bpl7TmmK/lkKbov4fkuYUKICAgICAgICAgICAgICAgIHZhbCB0YXNrQWdlID0gY3VycmVudFRpbWUgLSBwZXJzaXN0RGF0YS5zYXZlZFRpbWUKICAgICAgICAgICAgICAgIGlmICh0YXNrQWdlID4gTUFYX1RBU0tfQUdFX01TKSB7CiAgICAgICAgICAgICAgICAgICAgdG9vT2xkQ291bnQrKwogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiICDot7Pov4dbJHtwZXJzaXN0RGF0YS51c2VyTmFtZX1d77ya5L+d5a2Y5pe26Ze06LaF6L+HJHt0YXNrQWdlIC8gMTAwMCAvIDYwIC8gNjB95bCP5pe2IikKICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOajgOafpTLvvJrog73ph4/mmK/lkKblt7Lnu4/ov4fmnJ/otoXov4cx5bCP5pe2CiAgICAgICAgICAgICAgICBpZiAoY3VycmVudFRpbWUgPiBwZXJzaXN0RGF0YS5wcm9kdWNlVGltZSArIDYwICogNjAgKiAxMDAwTCkgewogICAgICAgICAgICAgICAgICAgIGV4cGlyZWRDb3VudCsrCiAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICIgIOi3s+i/h1ske3BlcnNpc3REYXRhLnVzZXJOYW1lfV3vvJrog73ph4/lt7Lov4fmnJ/otoXov4cx5bCP5pe2IikKICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOS7u+WKoeacieaViO+8jOa3u+WKoOWIsOWIl+ihqAogICAgICAgICAgICAgICAgdmFsaWRUYXNrcy5hZGQocGVyc2lzdERhdGEudG9XYWl0aW5nVGFzaygpKQogICAgICAgICAgICB9CgogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIvCfk6Ug5LuO5oyB5LmF5YyW5a2Y5YKo5oGi5aSNJHt2YWxpZFRhc2tzLnNpemV95Liq5pyJ5pWI5Lu75Yqh77yI6Lez6L+HJHtleHBpcmVkQ291bnR95Liq6L+H5pyf77yMJHt0b29PbGRDb3VudH3kuKrov4fml6fvvIkiKQoKICAgICAgICAgICAgdmFsaWRUYXNrcwogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIuWKoOi9vei5sueCueS7u+WKoeWksei0pToiLCBlKQogICAgICAgICAgICBlbXB0eUxpc3QoKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOa4heepuuaMgeS5heWMluWtmOWCqOS4reeahOaJgOacieS7u+WKoQogICAgICovCiAgICBmdW4gY2xlYXJUYXNrcygpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZGF0YVN0b3JlS2V5ID0gZ2V0RGF0YVN0b3JlS2V5KCkKICAgICAgICAgICAgRGF0YVN0b3JlLnB1dChkYXRhU3RvcmVLZXksIGVtcHR5TGlzdDxXYWl0aW5nVGFza1BlcnNpc3REYXRhPigpKQogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIua4heepuuaMgeS5heWMluWtmOWCqCAoa2V5OiAkZGF0YVN0b3JlS2V5KSIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLmuIXnqbrmjIHkuYXljJblrZjlgqjlpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6aqM6K+B5bm26YeN5paw5re75Yqg5oGi5aSN55qE5Lu75YqhCiAgICAgKgogICAgICogQHBhcmFtIHRhc2tzIOaBouWkjeeahOS7u+WKoeWIl+ihqAogICAgICogQHBhcmFtIGFkZFRhc2tDYWxsYmFjayDmt7vliqDku7vliqHnmoTlm57osIPlh73mlbAKICAgICAqIEByZXR1cm4g5a6e6ZmF6YeN5paw5re75Yqg55qE5Lu75Yqh5pWw6YePCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHZhbGlkYXRlQW5kUmVzdG9yZVRhc2tzKAogICAgICAgIHRhc2tzOiBMaXN0PEVuZXJneVdhaXRpbmdNYW5hZ2VyLldhaXRpbmdUYXNrPiwKICAgICAgICBhZGRUYXNrQ2FsbGJhY2s6IHN1c3BlbmQgKEVuZXJneVdhaXRpbmdNYW5hZ2VyLldhaXRpbmdUYXNrKSAtPiBCb29sZWFuCiAgICApOiBJbnQgewogICAgICAgIGlmICh0YXNrcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIDAKICAgICAgICB9CgogICAgICAgIExvZy5yZWNvcmQoVEFHLCAi8J+UhCDlvIDlp4vpqozor4Eke3Rhc2tzLnNpemV95Liq5oGi5aSN55qE6Lmy54K55Lu75YqhLi4uIikKCiAgICAgICAgdmFyIHJlc3RvcmVkQ291bnQgPSAwCiAgICAgICAgdmFyIHNraXBwZWRDb3VudCA9IDAKCiAgICAgICAgdGFza3MuZm9yRWFjaCB7IHRhc2sgLT4KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOmHjeaWsOafpeivoueUqOaIt+S4u+mhteS7peiOt+WPluacgOaWsOS/neaKpOe9qeeKtuaAgQogICAgICAgICAgICAgICAgdmFsIHVzZXJIb21lUmVzcG9uc2UgPSBBbnRGb3Jlc3RScGNDYWxsLnF1ZXJ5RnJpZW5kSG9tZVBhZ2UodGFzay51c2VySWQsIHRhc2suZnJvbVRhZykKCiAgICAgICAgICAgICAgICBpZiAodXNlckhvbWVSZXNwb25zZS5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIiAg6aqM6K+BWyR7dGFzay51c2VyTmFtZX1d77ya5peg5rOV6I635Y+W5Li76aG15L+h5oGv77yM6Lez6L+H5oGi5aSNIikKICAgICAgICAgICAgICAgICAgICBza2lwcGVkQ291bnQrKwogICAgICAgICAgICAgICAgICAgIHJldHVybkBmb3JFYWNoCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdmFsIHVzZXJIb21lT2JqID0gb3JnLmpzb24uSlNPTk9iamVjdCh1c2VySG9tZVJlc3BvbnNlKQoKICAgICAgICAgICAgICAgIC8vIOiHquW3seeahOi0puWPt++8muaXoOiuuuaYr+WQpuacieS/neaKpOe9qemDveimgeaBouWkje+8iOWIsOaXtumXtOWQjuebtOaOpeaUtuWPlu+8iQogICAgICAgICAgICAgICAgaWYgKHRhc2suaXNTZWxmKCkpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgc3VjY2VzcyA9IGFkZFRhc2tDYWxsYmFjayh0YXNrKQogICAgICAgICAgICAgICAgICAgIGlmIChzdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJlc3RvcmVkQ291bnQrKwogICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIiAg4q2Q77iPIOaBouWkjVske3Rhc2suZ2V0VXNlclR5cGVUYWcoKX0ke3Rhc2sudXNlck5hbWV9XeeQg1ske3Rhc2suYnViYmxlSWR9Xe+8muiDvemHjyR7VGltZVV0aWwuZ2V0Q29tbW9uRGF0ZSh0YXNrLnByb2R1Y2VUaW1lKX3miJDnhp/vvIzliLDml7bpl7Tnm7TmjqXmlLblj5YiCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBza2lwcGVkQ291bnQrKwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOWlveWPi+i0puWPt++8muWmguaenOS/neaKpOe9qeimhuebluiDvemHj+aIkOeGn+acn+WImei3s+i/hwogICAgICAgICAgICAgICAgaWYgKEZvcmVzdFV0aWwuc2hvdWxkU2tpcFdhaXRpbmdEdWVUb1Byb3RlY3Rpb24odXNlckhvbWVPYmosIHRhc2sucHJvZHVjZVRpbWUpKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHByb3RlY3Rpb25FbmRUaW1lID0gRm9yZXN0VXRpbC5nZXRQcm90ZWN0aW9uRW5kVGltZSh1c2VySG9tZU9iaikKICAgICAgICAgICAgICAgICAgICB2YWwgdGltZURpZmZlcmVuY2UgPSBwcm90ZWN0aW9uRW5kVGltZSAtIHRhc2sucHJvZHVjZVRpbWUKICAgICAgICAgICAgICAgICAgICB2YWwgaG91cnMgPSB0aW1lRGlmZmVyZW5jZSAvICgxMDAwICogNjAgKiA2MCkKICAgICAgICAgICAgICAgICAgICB2YWwgbWludXRlcyA9ICh0aW1lRGlmZmVyZW5jZSAlICgxMDAwICogNjAgKiA2MCkpIC8gKDEwMDAgKiA2MCkKCiAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZCgKICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAiICDinYwg6Lez6L+HWyR7dGFzay5nZXRVc2VyVHlwZVRhZygpfSR7dGFzay51c2VyTmFtZX1d55CDWyR7dGFzay5idWJibGVJZH1d77ya5L+d5oqk572p6KaG55uW6IO96YeP5oiQ54af5pyfKCR7aG91cnN95bCP5pe2JHttaW51dGVzfeWIhumSnykiCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHNraXBwZWRDb3VudCsrCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIC8vIOWlveWPi+S7u+WKoeacieaViO+8jOmHjeaWsOa3u+WKoAogICAgICAgICAgICAgICAgICAgIHZhbCBzdWNjZXNzID0gYWRkVGFza0NhbGxiYWNrKHRhc2spCiAgICAgICAgICAgICAgICAgICAgaWYgKHN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmVzdG9yZWRDb3VudCsrCiAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiICDinIUg5oGi5aSNWyR7dGFzay5nZXRVc2VyVHlwZVRhZygpfSR7dGFzay51c2VyTmFtZX1d55CDWyR7dGFzay5idWJibGVJZH1d77ya6IO96YePJHtUaW1lVXRpbC5nZXRDb21tb25EYXRlKHRhc2sucHJvZHVjZVRpbWUpfeaIkOeGnyIpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2tpcHBlZENvdW50KysKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8g5re75Yqg55+t5pqC5bu26L+f77yM6YG/5YWN6K+35rGC6L+H5b+rCiAgICAgICAgICAgICAgICBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkoMjAwKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiICDpqozor4Hku7vliqFbJHt0YXNrLnVzZXJOYW1lfV3ml7blh7rplJk6ICR7ZS5tZXNzYWdlfe+8jOi3s+i/hyIpCiAgICAgICAgICAgICAgICBza2lwcGVkQ291bnQrKwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKchSDmgaLlpI3lrozmiJDvvJrmiJDlip8ke3Jlc3RvcmVkQ291bnR95Liq77yM6Lez6L+HJHtza2lwcGVkQ291bnR95LiqIikKCiAgICAgICAgcmV0dXJuIHJlc3RvcmVkQ291bnQKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.task.antForest
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+import com.fasterxml.jackson.core.type.TypeReference
+import fansirsqi.xposed.sesame.util.DataStore
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.TimeUtil
+import fansirsqi.xposed.sesame.util.maps.UserMap
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+/**
+ * 蹲点任务持久化数据类
+ * 用于序列化和反序列化，存储到 DataStore
+ */
+@JsonIgnoreProperties(ignoreUnknown = true)
+data class WaitingTaskPersistData(
+    val userId: String = "",
+    val userName: String = "",
+    val bubbleId: Long = 0L,
+    val produceTime: Long = 0L,
+    val fromTag: String = "",
+    val retryCount: Int = 0,
+    val maxRetries: Int = 3,
+    val shieldEndTime: Long = 0L,
+    val bombEndTime: Long = 0L,
+    val savedTime: Long = System.currentTimeMillis() // 保存时间，用于判断是否过期
+) {
+    /**
+     * 转换为运行时任务对象
+     */
+    fun toWaitingTask(): EnergyWaitingManager.WaitingTask {
+        return EnergyWaitingManager.WaitingTask(
+            userId = userId,
+            userName = userName,
+            bubbleId = bubbleId,
+            produceTime = produceTime,
+            fromTag = fromTag,
+            retryCount = retryCount,
+            maxRetries = maxRetries,
+            shieldEndTime = shieldEndTime,
+            bombEndTime = bombEndTime
+        )
+    }
+
+    companion object {
+        /**
+         * 从运行时任务对象创建持久化数据
+         */
+        fun fromWaitingTask(task: EnergyWaitingManager.WaitingTask): WaitingTaskPersistData {
+            return WaitingTaskPersistData(
+                userId = task.userId,
+                userName = task.userName,
+                bubbleId = task.bubbleId,
+                produceTime = task.produceTime,
+                fromTag = task.fromTag,
+                retryCount = task.retryCount,
+                maxRetries = task.maxRetries,
+                shieldEndTime = task.shieldEndTime,
+                bombEndTime = task.bombEndTime
+            )
+        }
+    }
+}
+
+/**
+ * 蹲点任务持久化管理器
+ *
+ * 职责：
+ * 1. 保存蹲点任务到 DataStore
+ * 2. 从 DataStore 恢复蹲点任务
+ * 3. 验证恢复的任务是否仍然有效
+ * 4. 过滤过期或无效的任务
+ */
+object EnergyWaitingPersistence {
+    private const val TAG = "EnergyWaitingPersistence"
+
+    // 任务最大保存时间（8小时，超过此时间的任务视为过期）
+    private const val MAX_TASK_AGE_MS = 8 * 60 * 60 * 1000L
+
+    // 协程作用域
+    private val persistenceScope = CoroutineScope(Dispatchers.IO)
+
+    /**
+     * 获取当前账号的 DataStore 存储键
+     * 每个账号使用独立的键，避免多账号切换时数据混淆
+     *
+     * @return 包含当前用户 uid 的存储键，如果 uid 为空则使用默认键
+     */
+    private fun getDataStoreKey(): String {
+        val currentUid = UserMap.currentUid
+        return if (currentUid.isNullOrEmpty()) {
+            "energy_waiting_tasks_default"
+        } else {
+            "energy_waiting_tasks_$currentUid"
+        }
+    }
+
+    /**
+     * 保存蹲点任务到 DataStore（异步）
+     *
+     * @param tasks 当前活跃的蹲点任务
+     */
+    fun saveTasks(tasks: Map<String, EnergyWaitingManager.WaitingTask>) {
+        persistenceScope.launch {
+            try {
+                val persistDataList = tasks.values.map { task ->
+                    WaitingTaskPersistData.fromWaitingTask(task)
+                }
+
+                val dataStoreKey = getDataStoreKey()
+                DataStore.put(dataStoreKey, persistDataList)
+
+                Log.record(TAG, "✅ 保存${persistDataList.size}个蹲点任务到持久化存储 (key: $dataStoreKey)")
+            } catch (e: Exception) {
+                Log.printStackTrace(TAG, "保存蹲点任务失败:", e)
+            }
+        }
+    }
+
+    /**
+     * 从 DataStore 加载蹲点任务
+     *
+     * @return 恢复的任务列表（已过滤过期任务）
+     */
+    fun loadTasks(): List<EnergyWaitingManager.WaitingTask> {
+        return try {
+            val dataStoreKey = getDataStoreKey()
+            val typeRef = object : TypeReference<List<WaitingTaskPersistData>>() {}
+            val persistDataList = DataStore.getOrCreate(dataStoreKey, typeRef)
+
+            if (persistDataList.isEmpty()) {
+                Log.record(TAG, "持久化存储中无蹲点任务 (key: $dataStoreKey)")
+                return emptyList()
+            }
+
+            val currentTime = System.currentTimeMillis()
+            val validTasks = mutableListOf<EnergyWaitingManager.WaitingTask>()
+            var expiredCount = 0
+            var tooOldCount = 0
+
+            persistDataList.forEach { persistData ->
+                // 检查1：任务保存时间是否过久
+                val taskAge = currentTime - persistData.savedTime
+                if (taskAge > MAX_TASK_AGE_MS) {
+                    tooOldCount++
+                    Log.record(TAG, "  跳过[${persistData.userName}]：保存时间超过${taskAge / 1000 / 60 / 60}小时")
+                    return@forEach
+                }
+
+                // 检查2：能量是否已经过期超过1小时
+                if (currentTime > persistData.produceTime + 60 * 60 * 1000L) {
+                    expiredCount++
+                    Log.record(TAG, "  跳过[${persistData.userName}]：能量已过期超过1小时")
+                    return@forEach
+                }
+
+                // 任务有效，添加到列表
+                validTasks.add(persistData.toWaitingTask())
+            }
+
+            Log.record(TAG, "📥 从持久化存储恢复${validTasks.size}个有效任务（跳过${expiredCount}个过期，${tooOldCount}个过旧）")
+
+            validTasks
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "加载蹲点任务失败:", e)
+            emptyList()
+        }
+    }
+
+    /**
+     * 清空持久化存储中的所有任务
+     */
+    fun clearTasks() {
+        try {
+            val dataStoreKey = getDataStoreKey()
+            DataStore.put(dataStoreKey, emptyList<WaitingTaskPersistData>())
+            Log.record(TAG, "清空持久化存储 (key: $dataStoreKey)")
+        } catch (e: Exception) {
+            Log.error(TAG, "清空持久化存储失败: ${e.message}")
+        }
+    }
+
+    /**
+     * 验证并重新添加恢复的任务
+     *
+     * @param tasks 恢复的任务列表
+     * @param addTaskCallback 添加任务的回调函数
+     * @return 实际重新添加的任务数量
+     */
+    suspend fun validateAndRestoreTasks(
+        tasks: List<EnergyWaitingManager.WaitingTask>,
+        addTaskCallback: suspend (EnergyWaitingManager.WaitingTask) -> Boolean
+    ): Int {
+        if (tasks.isEmpty()) {
+            return 0
+        }
+
+        Log.record(TAG, "🔄 开始验证${tasks.size}个恢复的蹲点任务...")
+
+        var restoredCount = 0
+        var skippedCount = 0
+
+        tasks.forEach { task ->
+            try {
+                // 重新查询用户主页以获取最新保护罩状态
+                val userHomeResponse = AntForestRpcCall.queryFriendHomePage(task.userId, task.fromTag)
+
+                if (userHomeResponse.isNullOrEmpty()) {
+                    Log.record(TAG, "  验证[${task.userName}]：无法获取主页信息，跳过恢复")
+                    skippedCount++
+                    return@forEach
+                }
+
+                val userHomeObj = org.json.JSONObject(userHomeResponse)
+
+                // 自己的账号：无论是否有保护罩都要恢复（到时间后直接收取）
+                if (task.isSelf()) {
+                    val success = addTaskCallback(task)
+                    if (success) {
+                        restoredCount++
+                        Log.record(
+                            TAG,
+                            "  ⭐️ 恢复[${task.getUserTypeTag()}${task.userName}]球[${task.bubbleId}]：能量${TimeUtil.getCommonDate(task.produceTime)}成熟，到时间直接收取"
+                        )
+                    } else {
+                        skippedCount++
+                    }
+                    return@forEach
+                }
+
+                // 好友账号：如果保护罩覆盖能量成熟期则跳过
+                if (ForestUtil.shouldSkipWaitingDueToProtection(userHomeObj, task.produceTime)) {
+                    val protectionEndTime = ForestUtil.getProtectionEndTime(userHomeObj)
+                    val timeDifference = protectionEndTime - task.produceTime
+                    val hours = timeDifference / (1000 * 60 * 60)
+                    val minutes = (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
+
+                    Log.record(
+                        TAG,
+                        "  ❌ 跳过[${task.getUserTypeTag()}${task.userName}]球[${task.bubbleId}]：保护罩覆盖能量成熟期(${hours}小时${minutes}分钟)"
+                    )
+                    skippedCount++
+                } else {
+                    // 好友任务有效，重新添加
+                    val success = addTaskCallback(task)
+                    if (success) {
+                        restoredCount++
+                        Log.record(TAG, "  ✅ 恢复[${task.getUserTypeTag()}${task.userName}]球[${task.bubbleId}]：能量${TimeUtil.getCommonDate(task.produceTime)}成熟")
+                    } else {
+                        skippedCount++
+                    }
+                }
+
+                // 添加短暂延迟，避免请求过快
+                kotlinx.coroutines.delay(200)
+            } catch (e: Exception) {
+                Log.record(TAG, "  验证任务[${task.userName}]时出错: ${e.message}，跳过")
+                skippedCount++
+            }
+        }
+
+        Log.record(TAG, "✅ 恢复完成：成功${restoredCount}个，跳过${skippedCount}个")
+
+        return restoredCount
+    }
+}

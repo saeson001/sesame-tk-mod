@@ -1,1 +1,248 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbXBvbmVudE5hbWUKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2VydmljZUNvbm5lY3Rpb24KaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuSUJpbmRlcgppbXBvcnQgYW5kcm9pZC5vcy5SZW1vdGVFeGNlcHRpb24KaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2cKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLklDYWxsYmFjawppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuSUNvbW1hbmRTZXJ2aWNlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5JU3RhdHVzTGlzdGVuZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy4qCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMuTXV0ZXgKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLndpdGhMb2NrCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljQm9vbGVhbgoKLyoqCiAqIOWRveS7pOacjeWKoeWuouaIt+err+W3peWFt+exuwogKiDotJ/otKPkuI4gQ29tbWFuZFNlcnZpY2Ug5bu656uL6L+e5o6l5bm26YCa6L+HIEFJREwg5Y+R6YCB5oyH5LukCiAqIOaUr+aMgeS7juWuv+S4u+W6lOeUqO+8iOebruagh+W6lOeUqO+8iei/m+eoi+i3qOi/m+eoi+e7keWumuWIsOaooeWdl+eahCBTZXJ2aWNlCiAqLwpvYmplY3QgQ29tbWFuZFV0aWwgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJDb21tYW5kVXRpbCIKICAgIHByaXZhdGUgY29uc3QgdmFsIEFDVElPTl9CSU5EID0gImZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmFjdGlvbi5CSU5EX0NPTU1BTkRfU0VSVklDRSIKICAgIHByaXZhdGUgY29uc3QgdmFsIFBBQ0tBR0VfTkFNRSA9ICJmYW5zaXJzcWkueHBvc2VkLnNlc2FtZSIKCiAgICBwcml2YXRlIGNvbnN0IHZhbCBCSU5EX1RJTUVPVVRfTVMgPSA1MDAwTCAgICAgIC8vIOe7keWumui2heaXtuaXtumXtAogICAgcHJpdmF0ZSBjb25zdCB2YWwgRVhFQ19USU1FT1VUX01TID0gMTUwMDBMICAgICAvLyDlkb3ku6TmiafooYzotoXml7bml7bpl7QKCiAgICAvLyDlhajlsYDljY/nqIvkvZznlKjln58KICAgIHByaXZhdGUgdmFsIHNjb3BlID0gQ29yb3V0aW5lU2NvcGUoRGlzcGF0Y2hlcnMuSU8gKyBTdXBlcnZpc29ySm9iKCkpCgogICAgLy8gLS0tIOeKtuaAgeWumuS5iSAtLS0KICAgIHNlYWxlZCBjbGFzcyBTZXJ2aWNlU3RhdHVzIHsKICAgICAgICBkYXRhIG9iamVjdCBMb2FkaW5nIDogU2VydmljZVN0YXR1cygpCiAgICAgICAgZGF0YSBjbGFzcyBBY3RpdmUodmFsIHR5cGU6IFN0cmluZykgOiBTZXJ2aWNlU3RhdHVzKCkgLy8gdHlwZSA9ICJSb290IiBvciAiU2hpenVrdSIKICAgICAgICBkYXRhIG9iamVjdCBJbmFjdGl2ZSA6IFNlcnZpY2VTdGF0dXMoKQogICAgICAgIGRhdGEgY2xhc3MgRXJyb3IodmFsIG1zZzogU3RyaW5nKSA6IFNlcnZpY2VTdGF0dXMoKQogICAgfQoKICAgIC8vIOeKtuaAgea1gSAoVUkg55u05o6l6KeC5a+f6L+Z5LiqKQogICAgcHJpdmF0ZSB2YWwgX3NlcnZpY2VTdGF0dXMgPSBNdXRhYmxlU3RhdGVGbG93PFNlcnZpY2VTdGF0dXM+KFNlcnZpY2VTdGF0dXMuTG9hZGluZykKICAgIHZhbCBzZXJ2aWNlU3RhdHVzID0gX3NlcnZpY2VTdGF0dXMuYXNTdGF0ZUZsb3coKQoKICAgIC8vIEFJREwg5o6l5Y+j5a6e5L6LCiAgICBwcml2YXRlIHZhciBjb21tYW5kU2VydmljZTogSUNvbW1hbmRTZXJ2aWNlPyA9IG51bGwKCiAgICAvLyDov57mjqXnirbmgIHnrqHnkIYKICAgIHByaXZhdGUgdmFsIGJpbmRNdXRleCA9IE11dGV4KCkKICAgIHByaXZhdGUgdmFsIGlzQm91bmQgPSBBdG9taWNCb29sZWFuKGZhbHNlKQogICAgcHJpdmF0ZSB2YXIgY29ubmVjdGlvbkRlZmVycmVkOiBDb21wbGV0YWJsZURlZmVycmVkPEJvb2xlYW4+PyA9IG51bGwKCiAgICAvLyAtLS0g55uR5ZCs5Zmo5a6e546wIC0tLQogICAgcHJpdmF0ZSB2YWwgc3RhdHVzTGlzdGVuZXIgPSBvYmplY3QgOiBJU3RhdHVzTGlzdGVuZXIuU3R1YigpIHsKICAgICAgICBvdmVycmlkZSBmdW4gb25TdGF0dXNDaGFuZ2VkKHR5cGU6IFN0cmluZykgewogICAgICAgICAgICBMb2cuaShUQUcsICLmlLbliLDmnI3liqHnq6/nirbmgIHmjqjpgIE6ICR0eXBlIikKICAgICAgICAgICAgLy8g5pu05pawIEZsb3cgKFN0YXRlRmxvdyDmmK/nur/nqIvlronlhajnmoQpCiAgICAgICAgICAgIF9zZXJ2aWNlU3RhdHVzLnZhbHVlID0gbWFwVHlwZVRvU3RhdHVzKHR5cGUpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIHNlcnZpY2VDb25uZWN0aW9uID0gb2JqZWN0IDogU2VydmljZUNvbm5lY3Rpb24gewogICAgICAgIG92ZXJyaWRlIGZ1biBvblNlcnZpY2VDb25uZWN0ZWQobmFtZTogQ29tcG9uZW50TmFtZT8sIHNlcnZpY2U6IElCaW5kZXI/KSB7CiAgICAgICAgICAgIExvZy5kKFRBRywgIuKchSBDb21tYW5kU2VydmljZSDlt7Lov57mjqU6ICRuYW1lIikKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbW1hbmRTZXJ2aWNlID0gSUNvbW1hbmRTZXJ2aWNlLlN0dWIuYXNJbnRlcmZhY2Uoc2VydmljZSkKCiAgICAgICAgICAgICAgICAvLyAxLiDnm5HlkKzmnI3liqHnq6/mrbvkuqEKICAgICAgICAgICAgICAgIHNlcnZpY2U/LmxpbmtUb0RlYXRoKHsKICAgICAgICAgICAgICAgICAgICBMb2cudyhUQUcsICLwn5KAIENvbW1hbmRTZXJ2aWNlIOi/nOeoi+i/m+eoi+atu+S6oSIpCiAgICAgICAgICAgICAgICAgICAgaGFuZGxlU2VydmljZUxvc3QoKQogICAgICAgICAgICAgICAgfSwgMCkKCiAgICAgICAgICAgICAgICAvLyAyLiDwn5SlIOaguOW/g++8mui/nuaOpeaIkOWKn+WQju+8jOeri+WNs+azqOWGjOeKtuaAgeebkeWQrAogICAgICAgICAgICAgICAgLy8g5pyN5Yqh56uv5Lya5Zyo5rOo5YaM5pe256uL5Y2z5Zue6LCD5LiA5qyh5b2T5YmN54q25oCB77yM5omA5Lul5LiN6ZyA6KaB5omL5Yqo5p+l6K+iCiAgICAgICAgICAgICAgICBjb21tYW5kU2VydmljZT8ucmVnaXN0ZXJMaXN0ZW5lcihzdGF0dXNMaXN0ZW5lcikKCiAgICAgICAgICAgICAgICBpc0JvdW5kLnNldCh0cnVlKQogICAgICAgICAgICAgICAgY29ubmVjdGlvbkRlZmVycmVkPy5jb21wbGV0ZSh0cnVlKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5lKFRBRywgIuacjeWKoei/nuaOpeWIneWni+WMluWksei0pSIsIGUpCiAgICAgICAgICAgICAgICBjb25uZWN0aW9uRGVmZXJyZWQ/LmNvbXBsZXRlKGZhbHNlKQogICAgICAgICAgICAgICAgaGFuZGxlU2VydmljZUxvc3QoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBvdmVycmlkZSBmdW4gb25TZXJ2aWNlRGlzY29ubmVjdGVkKG5hbWU6IENvbXBvbmVudE5hbWU/KSB7CiAgICAgICAgICAgIExvZy53KFRBRywgIuKdjCBDb21tYW5kU2VydmljZSDlt7Lmlq3lvIDov57mjqU6ICRuYW1lIikKICAgICAgICAgICAgaGFuZGxlU2VydmljZUxvc3QoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBoYW5kbGVTZXJ2aWNlTG9zdCgpIHsKICAgICAgICBjb21tYW5kU2VydmljZSA9IG51bGwKICAgICAgICBpc0JvdW5kLnNldChmYWxzZSkKICAgICAgICBjb25uZWN0aW9uRGVmZXJyZWQgPSBudWxsCiAgICAgICAgX3NlcnZpY2VTdGF0dXMudmFsdWUgPSBTZXJ2aWNlU3RhdHVzLkluYWN0aXZlIC8vIOabtOaWsOeKtuaAgeS4uuaWreW8gAogICAgfQoKICAgIHByaXZhdGUgZnVuIG1hcFR5cGVUb1N0YXR1cyh0eXBlTmFtZTogU3RyaW5nKTogU2VydmljZVN0YXR1cyB7CiAgICAgICAgcmV0dXJuIHdoZW4gKHR5cGVOYW1lKSB7CiAgICAgICAgICAgICJTYWZlUm9vdFNoZWxsIiwgIlJvb3RTaGVsbCIgLT4gU2VydmljZVN0YXR1cy5BY3RpdmUoIlJvb3QiKQogICAgICAgICAgICAiU2hpenVrdVNoZWxsIiAtPiBTZXJ2aWNlU3RhdHVzLkFjdGl2ZSgiU2hpenVrdSIpCiAgICAgICAgICAgICJub19leGVjdXRvciIsICJVbmtub3duIiAtPiBTZXJ2aWNlU3RhdHVzLkluYWN0aXZlCiAgICAgICAgICAgIGVsc2UgLT4gU2VydmljZVN0YXR1cy5JbmFjdGl2ZQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOinpuWPkei/nuaOpSAo5L6bIFZpZXdNb2RlbCDliJ3lp4vljJbosIPnlKgpCiAgICAgKi8KICAgIGZ1biBjb25uZWN0KGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICBlbnN1cmVTZXJ2aWNlQm91bmQoY29udGV4dCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDnu5HlrprmnI3liqEgKOe6v+eoi+WuieWFqCkKICAgICAqLwogICAgQFN1cHByZXNzTGludCgiT2Jzb2xldGVTZGtJbnQiKQogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBlbnN1cmVTZXJ2aWNlQm91bmQoY29udGV4dDogQ29udGV4dCk6IEJvb2xlYW4gewogICAgICAgIGlmIChpc0JvdW5kLmdldCgpICYmIGNvbW1hbmRTZXJ2aWNlPy5hc0JpbmRlcigpPy5pc0JpbmRlckFsaXZlID09IHRydWUpIHsKICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICB9CgogICAgICAgIHJldHVybiBiaW5kTXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICBpZiAoaXNCb3VuZC5nZXQoKSAmJiBjb21tYW5kU2VydmljZT8uYXNCaW5kZXIoKT8uaXNCaW5kZXJBbGl2ZSA9PSB0cnVlKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aExvY2sgdHJ1ZQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDlvIDlp4vov57mjqXliY3vvIznirbmgIHnva7kuLogTG9hZGluZwogICAgICAgICAgICBfc2VydmljZVN0YXR1cy52YWx1ZSA9IFNlcnZpY2VTdGF0dXMuTG9hZGluZwoKICAgICAgICAgICAgaGFuZGxlU2VydmljZUxvc3QoKQogICAgICAgICAgICBjb25uZWN0aW9uRGVmZXJyZWQgPSBDb21wbGV0YWJsZURlZmVycmVkKCkKCiAgICAgICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBhY3Rpb24gPSBBQ1RJT05fQklORAogICAgICAgICAgICAgICAgc2V0UGFja2FnZShQQUNLQUdFX05BTUUpCiAgICAgICAgICAgICAgICBjb21wb25lbnQgPSBDb21wb25lbnROYW1lKFBBQ0tBR0VfTkFNRSwgImZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnNlcnZpY2UuQ29tbWFuZFNlcnZpY2UiKQogICAgICAgICAgICB9CgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgLy8g5bCd6K+V5ZCv5Yqo5pyN5YqhCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5PKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LnN0YXJ0Rm9yZWdyb3VuZFNlcnZpY2UoaW50ZW50KQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LnN0YXJ0U2VydmljZShpbnRlbnQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLncoVEFHLCAic3RhcnRTZXJ2aWNlIOWksei0pTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBkZWxheSg1MDApIC8vIOeojeW+rue8qeefreetieW+heaXtumXtAoKICAgICAgICAgICAgICAgIHZhbCBiaW5kUmVzdWx0ID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQuYmluZFNlcnZpY2UoCiAgICAgICAgICAgICAgICAgICAgaW50ZW50LAogICAgICAgICAgICAgICAgICAgIHNlcnZpY2VDb25uZWN0aW9uLAogICAgICAgICAgICAgICAgICAgIENvbnRleHQuQklORF9BVVRPX0NSRUFURSBvciBDb250ZXh0LkJJTkRfSU1QT1JUQU5UCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgaWYgKCFiaW5kUmVzdWx0KSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmUoVEFHLCAi4p2MIGJpbmRTZXJ2aWNlIOi/lOWbniBmYWxzZSIpCiAgICAgICAgICAgICAgICAgICAgX3NlcnZpY2VTdGF0dXMudmFsdWUgPSBTZXJ2aWNlU3RhdHVzLkVycm9yKCLmnI3liqHnu5HlrprlpLHotKUgKOaooeWdl+acqua/gOa0uz8pIikKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aExvY2sgZmFsc2UKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB2YWwgc3VjY2VzcyA9IHdpdGhUaW1lb3V0T3JOdWxsKEJJTkRfVElNRU9VVF9NUykgewogICAgICAgICAgICAgICAgICAgIGNvbm5lY3Rpb25EZWZlcnJlZD8uYXdhaXQoKQogICAgICAgICAgICAgICAgfSA/OiBmYWxzZQoKICAgICAgICAgICAgICAgIGlmICghc3VjY2VzcykgewogICAgICAgICAgICAgICAgICAgIExvZy5lKFRBRywgIuKdjCDnu5HlrprotoXml7YiKQogICAgICAgICAgICAgICAgICAgIC8vIOi2heaXtuino+e7kQogICAgICAgICAgICAgICAgICAgIHRyeSB7IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LnVuYmluZFNlcnZpY2Uoc2VydmljZUNvbm5lY3Rpb24pIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikge30KICAgICAgICAgICAgICAgICAgICBfc2VydmljZVN0YXR1cy52YWx1ZSA9IFNlcnZpY2VTdGF0dXMuRXJyb3IoIui/nuaOpei2heaXtiIpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhMb2NrIHN1Y2Nlc3MKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cuZShUQUcsICLnu5HlrprlvILluLgiLCBlKQogICAgICAgICAgICAgICAgX3NlcnZpY2VTdGF0dXMudmFsdWUgPSBTZXJ2aWNlU3RhdHVzLkVycm9yKGUubWVzc2FnZSA/OiAi5pyq55+l6ZSZ6K+vIikKICAgICAgICAgICAgICAgIHJldHVybkB3aXRoTG9jayBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5omn6KGM5ZG95LukCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGV4ZWN1dGVDb21tYW5kKGNvbnRleHQ6IENvbnRleHQsIGNvbW1hbmQ6IFN0cmluZyk6IFN0cmluZz8gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIGlmICghZW5zdXJlU2VydmljZUJvdW5kKGNvbnRleHQpKSB7CiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgc2VydmljZSA9IGNvbW1hbmRTZXJ2aWNlID86IHJldHVybkB3aXRoQ29udGV4dCBudWxsCiAgICAgICAgdmFsIHJlc3VsdERlZmVycmVkID0gQ29tcGxldGFibGVEZWZlcnJlZDxTdHJpbmc/PigpCgogICAgICAgIHZhbCBjYWxsYmFjayA9IG9iamVjdCA6IElDYWxsYmFjay5TdHViKCkgewogICAgICAgICAgICBvdmVycmlkZSBmdW4gb25TdWNjZXNzKG91dHB1dDogU3RyaW5nKSB7CiAgICAgICAgICAgICAgICByZXN1bHREZWZlcnJlZC5jb21wbGV0ZShvdXRwdXQpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkVycm9yKGVycm9yOiBTdHJpbmcpIHsKICAgICAgICAgICAgICAgIExvZy5lKFRBRywgIkNtZCBFcnJvcjogJGVycm9yIikKICAgICAgICAgICAgICAgIHJlc3VsdERlZmVycmVkLmNvbXBsZXRlKG51bGwpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHNlcnZpY2UuZXhlY3V0ZUNvbW1hbmQoY29tbWFuZCwgY2FsbGJhY2spCiAgICAgICAgICAgIHdpdGhUaW1lb3V0T3JOdWxsKEVYRUNfVElNRU9VVF9NUykgeyByZXN1bHREZWZlcnJlZC5hd2FpdCgpIH0KICAgICAgICB9IGNhdGNoIChlOiBSZW1vdGVFeGNlcHRpb24pIHsKICAgICAgICAgICAgaGFuZGxlU2VydmljZUxvc3QoKQogICAgICAgICAgICBudWxsCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lKFRBRywgIkNtZCBFeGNlcHRpb24iLCBlKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5omL5Yqo6Kej57uR5pyN5YqhCiAgICAgKi8KICAgIGZ1biB1bmJpbmQoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIGlmIChpc0JvdW5kLmNvbXBhcmVBbmRTZXQodHJ1ZSwgZmFsc2UpKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAvLyDlsJ3or5Xms6jplIDnm5HlkKzlmaggKOW/veeVpeW8guW4uO+8jOWboOS4uuacjeWKoeWPr+iDveW3suatuykKICAgICAgICAgICAgICAgIHRyeSB7IGNvbW1hbmRTZXJ2aWNlPy51bnJlZ2lzdGVyTGlzdGVuZXIoc3RhdHVzTGlzdGVuZXIpIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikge30KCiAgICAgICAgICAgICAgICBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dC51bmJpbmRTZXJ2aWNlKHNlcnZpY2VDb25uZWN0aW9uKQogICAgICAgICAgICAgICAgTG9nLmQoVEFHLCAi5bey6Kej57uR5pyN5YqhIikKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cudyhUQUcsICLop6Pnu5HlvILluLg6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBoYW5kbGVTZXJ2aWNlTG9zdCgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.util
+
+import android.annotation.SuppressLint
+import android.content.ComponentName
+import android.content.Context
+import android.content.Intent
+import android.content.ServiceConnection
+import android.os.Build
+import android.os.IBinder
+import android.os.RemoteException
+import android.util.Log
+import fansirsqi.xposed.sesame.ICallback
+import fansirsqi.xposed.sesame.ICommandService
+import fansirsqi.xposed.sesame.IStatusListener
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import java.util.concurrent.atomic.AtomicBoolean
+
+/**
+ * 命令服务客户端工具类
+ * 负责与 CommandService 建立连接并通过 AIDL 发送指令
+ * 支持从宿主应用（目标应用）进程跨进程绑定到模块的 Service
+ */
+object CommandUtil {
+
+    private const val TAG = "CommandUtil"
+    private const val ACTION_BIND = "fansirsqi.xposed.sesame.action.BIND_COMMAND_SERVICE"
+    private const val PACKAGE_NAME = "fansirsqi.xposed.sesame"
+
+    private const val BIND_TIMEOUT_MS = 5000L      // 绑定超时时间
+    private const val EXEC_TIMEOUT_MS = 15000L     // 命令执行超时时间
+
+    // 全局协程作用域
+    private val scope = CoroutineScope(Dispatchers.IO + SupervisorJob())
+
+    // --- 状态定义 ---
+    sealed class ServiceStatus {
+        data object Loading : ServiceStatus()
+        data class Active(val type: String) : ServiceStatus() // type = "Root" or "Shizuku"
+        data object Inactive : ServiceStatus()
+        data class Error(val msg: String) : ServiceStatus()
+    }
+
+    // 状态流 (UI 直接观察这个)
+    private val _serviceStatus = MutableStateFlow<ServiceStatus>(ServiceStatus.Loading)
+    val serviceStatus = _serviceStatus.asStateFlow()
+
+    // AIDL 接口实例
+    private var commandService: ICommandService? = null
+
+    // 连接状态管理
+    private val bindMutex = Mutex()
+    private val isBound = AtomicBoolean(false)
+    private var connectionDeferred: CompletableDeferred<Boolean>? = null
+
+    // --- 监听器实现 ---
+    private val statusListener = object : IStatusListener.Stub() {
+        override fun onStatusChanged(type: String) {
+            Log.i(TAG, "收到服务端状态推送: $type")
+            // 更新 Flow (StateFlow 是线程安全的)
+            _serviceStatus.value = mapTypeToStatus(type)
+        }
+    }
+
+    private val serviceConnection = object : ServiceConnection {
+        override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
+            Log.d(TAG, "✅ CommandService 已连接: $name")
+            try {
+                commandService = ICommandService.Stub.asInterface(service)
+
+                // 1. 监听服务端死亡
+                service?.linkToDeath({
+                    Log.w(TAG, "💀 CommandService 远程进程死亡")
+                    handleServiceLost()
+                }, 0)
+
+                // 2. 🔥 核心：连接成功后，立即注册状态监听
+                // 服务端会在注册时立即回调一次当前状态，所以不需要手动查询
+                commandService?.registerListener(statusListener)
+
+                isBound.set(true)
+                connectionDeferred?.complete(true)
+            } catch (e: Exception) {
+                Log.e(TAG, "服务连接初始化失败", e)
+                connectionDeferred?.complete(false)
+                handleServiceLost()
+            }
+        }
+
+        override fun onServiceDisconnected(name: ComponentName?) {
+            Log.w(TAG, "❌ CommandService 已断开连接: $name")
+            handleServiceLost()
+        }
+    }
+
+    private fun handleServiceLost() {
+        commandService = null
+        isBound.set(false)
+        connectionDeferred = null
+        _serviceStatus.value = ServiceStatus.Inactive // 更新状态为断开
+    }
+
+    private fun mapTypeToStatus(typeName: String): ServiceStatus {
+        return when (typeName) {
+            "SafeRootShell", "RootShell" -> ServiceStatus.Active("Root")
+            "ShizukuShell" -> ServiceStatus.Active("Shizuku")
+            "no_executor", "Unknown" -> ServiceStatus.Inactive
+            else -> ServiceStatus.Inactive
+        }
+    }
+
+    /**
+     * 触发连接 (供 ViewModel 初始化调用)
+     */
+    fun connect(context: Context) {
+        scope.launch {
+            ensureServiceBound(context)
+        }
+    }
+
+    /**
+     * 绑定服务 (线程安全)
+     */
+    @SuppressLint("ObsoleteSdkInt")
+    private suspend fun ensureServiceBound(context: Context): Boolean {
+        if (isBound.get() && commandService?.asBinder()?.isBinderAlive == true) {
+            return true
+        }
+
+        return bindMutex.withLock {
+            if (isBound.get() && commandService?.asBinder()?.isBinderAlive == true) {
+                return@withLock true
+            }
+
+            // 开始连接前，状态置为 Loading
+            _serviceStatus.value = ServiceStatus.Loading
+
+            handleServiceLost()
+            connectionDeferred = CompletableDeferred()
+
+            val intent = Intent().apply {
+                action = ACTION_BIND
+                setPackage(PACKAGE_NAME)
+                component = ComponentName(PACKAGE_NAME, "fansirsqi.xposed.sesame.service.CommandService")
+            }
+
+            try {
+                // 尝试启动服务
+                try {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                        context.applicationContext.startForegroundService(intent)
+                    } else {
+                        context.applicationContext.startService(intent)
+                    }
+                } catch (e: Exception) {
+                    Log.w(TAG, "startService 失败: ${e.message}")
+                }
+
+                delay(500) // 稍微缩短等待时间
+
+                val bindResult = context.applicationContext.bindService(
+                    intent,
+                    serviceConnection,
+                    Context.BIND_AUTO_CREATE or Context.BIND_IMPORTANT
+                )
+
+                if (!bindResult) {
+                    Log.e(TAG, "❌ bindService 返回 false")
+                    _serviceStatus.value = ServiceStatus.Error("服务绑定失败 (模块未激活?)")
+                    return@withLock false
+                }
+
+                val success = withTimeoutOrNull(BIND_TIMEOUT_MS) {
+                    connectionDeferred?.await()
+                } ?: false
+
+                if (!success) {
+                    Log.e(TAG, "❌ 绑定超时")
+                    // 超时解绑
+                    try { context.applicationContext.unbindService(serviceConnection) } catch (_: Exception) {}
+                    _serviceStatus.value = ServiceStatus.Error("连接超时")
+                }
+
+                return@withLock success
+            } catch (e: Exception) {
+                Log.e(TAG, "绑定异常", e)
+                _serviceStatus.value = ServiceStatus.Error(e.message ?: "未知错误")
+                return@withLock false
+            }
+        }
+    }
+
+    /**
+     * 执行命令
+     */
+    suspend fun executeCommand(context: Context, command: String): String? = withContext(Dispatchers.IO) {
+        if (!ensureServiceBound(context)) {
+            return@withContext null
+        }
+
+        val service = commandService ?: return@withContext null
+        val resultDeferred = CompletableDeferred<String?>()
+
+        val callback = object : ICallback.Stub() {
+            override fun onSuccess(output: String) {
+                resultDeferred.complete(output)
+            }
+
+            override fun onError(error: String) {
+                Log.e(TAG, "Cmd Error: $error")
+                resultDeferred.complete(null)
+            }
+        }
+
+        try {
+            service.executeCommand(command, callback)
+            withTimeoutOrNull(EXEC_TIMEOUT_MS) { resultDeferred.await() }
+        } catch (e: RemoteException) {
+            handleServiceLost()
+            null
+        } catch (e: Exception) {
+            Log.e(TAG, "Cmd Exception", e)
+            null
+        }
+    }
+
+    /**
+     * 手动解绑服务
+     */
+    fun unbind(context: Context) {
+        if (isBound.compareAndSet(true, false)) {
+            try {
+                // 尝试注销监听器 (忽略异常，因为服务可能已死)
+                try { commandService?.unregisterListener(statusListener) } catch (_: Exception) {}
+
+                context.applicationContext.unbindService(serviceConnection)
+                Log.d(TAG, "已解绑服务")
+            } catch (e: Exception) {
+                Log.w(TAG, "解绑异常: ${e.message}")
+            } finally {
+                handleServiceLost()
+            }
+        }
+    }
+}

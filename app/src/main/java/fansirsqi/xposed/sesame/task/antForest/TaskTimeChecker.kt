@@ -1,1 +1,162 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZvcmVzdAoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBqYXZhLnV0aWwuQ2FsZW5kYXIKCi8qKgogKiDku7vliqHml7bpl7Tmo4Dmn6XlmagKICog55So5LqO5qOA5p+l5Lu75Yqh5piv5ZCm5Yiw6L6+5oyH5a6a55qE5omn6KGM5pe26Ze0CiAqLwpvYmplY3QgVGFza1RpbWVDaGVja2VyIHsKICAgIHByaXZhdGUgdmFsIFRBRyA9IFRhc2tUaW1lQ2hlY2tlcjo6Y2xhc3MuamF2YS5zaW1wbGVOYW1lCgogICAgLyoqCiAgICAgKiDmo4Dmn6XmmK/lkKbliLDovr7mjIflrprnmoTmiafooYzml7bpl7QKICAgICAqIAogICAgICogQHBhcmFtIHRpbWVTdHIg5pe26Ze05a2X56ym5Liy77yM5pSv5oyB5qC85byP77yaMDgwMOOAgTA4OjAwIOetiQogICAgICogQHBhcmFtIGRlZmF1bHRUaW1lIOm7mOiupOaXtumXtO+8jOW9kyB0aW1lU3RyIOS4uuepuuaIluagvOW8j+mUmeivr+aXtuS9v+eUqAogICAgICogQHJldHVybiB0cnVlIOWmguaenOW9k+WJjeaXtumXtOWcqOiuvuWumuaXtumXtOS5i+WQjuaIluetieS6juiuvuWumuaXtumXtAogICAgICovCiAgICBmdW4gY2hlY2tUaW1lKHRpbWVTdHI6IFN0cmluZz8sIGRlZmF1bHRUaW1lOiBTdHJpbmcgPSAiMDgwMCIpOiBCb29sZWFuIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgdGltZSA9IHRpbWVTdHI/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9ID86IGRlZmF1bHRUaW1lCiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgY2FsZW5kYXIgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpCiAgICAgICAgICAgIHZhbCBjdXJyZW50SG91ciA9IGNhbGVuZGFyLmdldChDYWxlbmRhci5IT1VSX09GX0RBWSkKICAgICAgICAgICAgdmFsIGN1cnJlbnRNaW51dGUgPSBjYWxlbmRhci5nZXQoQ2FsZW5kYXIuTUlOVVRFKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5riF55CG5ZKM6aqM6K+B5pe26Ze05a2X56ym5LiyCiAgICAgICAgICAgIHZhbCBjbGVhblRpbWUgPSBjbGVhbkFuZFZhbGlkYXRlVGltZSh0aW1lLCBkZWZhdWx0VGltZSkgPzogcnVuIHsKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlIC8vIOmqjOivgeWksei0pe+8jOS9v+eUqOm7mOiupOihjOS4uu+8iOaJp+ihjO+8iQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgc2V0SG91ciA9IGNsZWFuVGltZS50YWtlKDIpLnRvSW50KCkKICAgICAgICAgICAgdmFsIHNldE1pbnV0ZSA9IGlmIChjbGVhblRpbWUubGVuZ3RoID49IDQpIHsKICAgICAgICAgICAgICAgIGNsZWFuVGltZS5zdWJzdHJpbmcoMiwgNCkudG9JbnQoKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgMAogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDliKTmlq3lvZPliY3ml7bpl7TmmK/lkKblnKjorr7lrprml7bpl7TkuYvlkI4KICAgICAgICAgICAgcmV0dXJuIGlmIChjdXJyZW50SG91ciA+IHNldEhvdXIpIHsKICAgICAgICAgICAgICAgIHRydWUKICAgICAgICAgICAgfSBlbHNlIGlmIChjdXJyZW50SG91ciA9PSBzZXRIb3VyKSB7CiAgICAgICAgICAgICAgICBjdXJyZW50TWludXRlID49IHNldE1pbnV0ZQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgZSkKICAgICAgICAgICAgcmV0dXJuIHRydWUgLy8g5Ye66ZSZ5pe26buY6K6k5omn6KGMCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOa4heeQhuWSjOmqjOivgeaXtumXtOWtl+espuS4sgogICAgICogCiAgICAgKiBAcGFyYW0gdGltZVN0ciDljp/lp4vml7bpl7TlrZfnrKbkuLIKICAgICAqIEBwYXJhbSBkZWZhdWx0VGltZSDpu5jorqTml7bpl7QKICAgICAqIEByZXR1cm4g5riF55CG5ZCO55qE5pe26Ze05a2X56ym5Liy77yM5aaC5p6c6aqM6K+B5aSx6LSl6L+U5ZueIG51bGwKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gY2xlYW5BbmRWYWxpZGF0ZVRpbWUodGltZVN0cjogU3RyaW5nLCBkZWZhdWx0VGltZTogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g56e76Zmk5omA5pyJ56m65qC844CB5YaS5Y+35ZKM6YCX5Y+3CiAgICAgICAgICAgIHZhciBjbGVhbmVkID0gdGltZVN0ci5yZXBsYWNlKCI6IiwgIiIpLnJlcGxhY2UoIiAiLCAiIikucmVwbGFjZSgiLCIsICIiKS50cmltKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOajgOafpeaYr+WQpuWMheWQq+WkmuS4quaXtumXtO+8iOavlOWmgiAiMDgxMCAwODMwIiDmiJYgIjA4MTAsMDgyMCLvvIkKICAgICAgICAgICAgaWYgKGNsZWFuZWQuY29udGFpbnMoUmVnZXgoIlxcZHs0fS4qXFxkezR9IikpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKaoO+4jyDmo4DmtYvliLDlpJrkuKrml7bpl7TlgLzvvIzlj6rkvb/nlKjnrKzkuIDkuKrml7bpl7QiKQogICAgICAgICAgICAgICAgLy8g5o+Q5Y+W56ys5LiA5LiqNOS9jeaVsOWtlwogICAgICAgICAgICAgICAgdmFsIG1hdGNoID0gUmVnZXgoIlxcZHs0fSIpLmZpbmQoY2xlYW5lZCkKICAgICAgICAgICAgICAgIGNsZWFuZWQgPSBtYXRjaD8udmFsdWUgPzogZGVmYXVsdFRpbWUKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5Y+q5L+d55WZ5pWw5a2XCiAgICAgICAgICAgIGNsZWFuZWQgPSBjbGVhbmVkLmZpbHRlciB7IGl0LmlzRGlnaXQoKSB9CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDpqozor4Hplb/luqYKICAgICAgICAgICAgaWYgKGNsZWFuZWQubGVuZ3RoICFpbiAyLi40KSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKaoO+4jyDml7bpl7TmoLzlvI/plJnor6/vvIjplb/luqYke2NsZWFuZWQubGVuZ3Rofe+8ie+8jOS9v+eUqOm7mOiupOaXtumXtDogJGRlZmF1bHRUaW1lIikKICAgICAgICAgICAgICAgIHJldHVybiBkZWZhdWx0VGltZS5maWx0ZXIgeyBpdC5pc0RpZ2l0KCkgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDooaXpvZDliLA05L2NCiAgICAgICAgICAgIGlmIChjbGVhbmVkLmxlbmd0aCA9PSAyKSB7CiAgICAgICAgICAgICAgICBjbGVhbmVkICs9ICIwMCIKICAgICAgICAgICAgfSBlbHNlIGlmIChjbGVhbmVkLmxlbmd0aCA9PSAzKSB7CiAgICAgICAgICAgICAgICBjbGVhbmVkID0gIjAkY2xlYW5lZCIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g6aqM6K+B5bCP5pe25ZKM5YiG6ZKf55qE5pyJ5pWI5oCnCiAgICAgICAgICAgIHZhbCBob3VyID0gY2xlYW5lZC5zdWJzdHJpbmcoMCwgMikudG9JbnRPck51bGwoKSA/OiBydW4gewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLimqDvuI8g5bCP5pe26Kej5p6Q5aSx6LSl77yM5L2/55So6buY6K6k5pe26Ze0IikKICAgICAgICAgICAgICAgIHJldHVybiBkZWZhdWx0VGltZS5maWx0ZXIgeyBpdC5pc0RpZ2l0KCkgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgbWludXRlID0gY2xlYW5lZC5zdWJzdHJpbmcoMiwgNCkudG9JbnRPck51bGwoKSA/OiAwCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDpqozor4HojIPlm7QKICAgICAgICAgICAgaWYgKGhvdXIgIWluIDAuLjIzKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKaoO+4jyDlsI/ml7ZbJGhvdXJd6LaF5Ye66IyD5Zu0KDAtMjMp77yM5L2/55So6buY6K6k5pe26Ze0OiAkZGVmYXVsdFRpbWUiKQogICAgICAgICAgICAgICAgcmV0dXJuIGRlZmF1bHRUaW1lLmZpbHRlciB7IGl0LmlzRGlnaXQoKSB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChtaW51dGUgIWluIDAuLjU5KSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKaoO+4jyDliIbpkp9bJG1pbnV0ZV3otoXlh7rojIPlm7QoMC01OSnvvIzkvb/nlKjpu5jorqTml7bpl7Q6ICRkZWZhdWx0VGltZSIpCiAgICAgICAgICAgICAgICByZXR1cm4gZGVmYXVsdFRpbWUuZmlsdGVyIHsgaXQuaXNEaWdpdCgpIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgcmV0dXJuIGNsZWFuZWQKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLimqDvuI8g5pe26Ze06aqM6K+B5byC5bi4OiAke2UubWVzc2FnZX3vvIzkvb/nlKjpu5jorqTml7bpl7QiKQogICAgICAgICAgICByZXR1cm4gZGVmYXVsdFRpbWUuZmlsdGVyIHsgaXQuaXNEaWdpdCgpIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6Xku7vliqHmmK/lkKbliLDovr7miafooYzml7bpl7TvvIjpgJrnlKjmlrnms5XvvIkKICAgICAqIAogICAgICogQHBhcmFtIHRpbWVTdHIg5pe26Ze05a2X56ym5LiyCiAgICAgKiBAcGFyYW0gZGVmYXVsdFRpbWUg6buY6K6k5pe26Ze0CiAgICAgKiBAcmV0dXJuIHRydWUg5aaC5p6c5b2T5YmN5pe26Ze05Zyo6K6+5a6a5pe26Ze05LmL5ZCOCiAgICAgKi8KICAgIGZ1biBpc1RpbWVSZWFjaGVkKHRpbWVTdHI6IFN0cmluZz8sIGRlZmF1bHRUaW1lOiBTdHJpbmcgPSAiMDgwMCIpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gY2hlY2tUaW1lKHRpbWVTdHIsIGRlZmF1bHRUaW1lKQogICAgfQoKICAgIC8qKgogICAgICog5qC85byP5YyW5pe26Ze05a2X56ym5Liy5Li65qCH5YeG5qC85byPCiAgICAgKiAKICAgICAqIEBwYXJhbSB0aW1lU3RyIOWOn+Wni+aXtumXtOWtl+espuS4sgogICAgICogQHJldHVybiDmoLzlvI/ljJblkI7nmoTml7bpl7TlrZfnrKbkuLLvvIhISDptbe+8iQogICAgICovCiAgICBmdW4gZm9ybWF0VGltZSh0aW1lU3RyOiBTdHJpbmc/KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGNsZWFuVGltZSA9IHRpbWVTdHI/LnJlcGxhY2UoIjoiLCAiIik/LnRyaW0oKSA/OiAiMDgwMCIKICAgICAgICAgICAgaWYgKGNsZWFuVGltZS5sZW5ndGggPj0gNCkgewogICAgICAgICAgICAgICAgIiR7Y2xlYW5UaW1lLnRha2UoMil9OiR7Y2xlYW5UaW1lLnN1YnN0cmluZygyLCA0KX0iCiAgICAgICAgICAgIH0gZWxzZSBpZiAoY2xlYW5UaW1lLmxlbmd0aCA+PSAyKSB7CiAgICAgICAgICAgICAgICAiJHtjbGVhblRpbWUudGFrZSgyKX06MDAiCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAiMDg6MDAiCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgIjA4OjAwIgogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluW9k+WJjeaXtumXtOWtl+espuS4sgogICAgICogCiAgICAgKiBAcmV0dXJuIOW9k+WJjeaXtumXtO+8iOagvOW8j++8mkhIbW3vvIkKICAgICAqLwogICAgQFN1cHByZXNzTGludCgiRGVmYXVsdExvY2FsZSIpCiAgICBmdW4gZ2V0Q3VycmVudFRpbWUoKTogU3RyaW5nIHsKICAgICAgICB2YWwgY2FsZW5kYXIgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpCiAgICAgICAgdmFsIGhvdXIgPSBjYWxlbmRhci5nZXQoQ2FsZW5kYXIuSE9VUl9PRl9EQVkpCiAgICAgICAgdmFsIG1pbnV0ZSA9IGNhbGVuZGFyLmdldChDYWxlbmRhci5NSU5VVEUpCiAgICAgICAgcmV0dXJuIFN0cmluZy5mb3JtYXQoIiUwMmQlMDJkIiwgaG91ciwgbWludXRlKQogICAgfQp9Cgo=
+package fansirsqi.xposed.sesame.task.antForest
+
+import android.annotation.SuppressLint
+import fansirsqi.xposed.sesame.util.Log
+import java.util.Calendar
+
+/**
+ * 任务时间检查器
+ * 用于检查任务是否到达指定的执行时间
+ */
+object TaskTimeChecker {
+    private val TAG = TaskTimeChecker::class.java.simpleName
+
+    /**
+     * 检查是否到达指定的执行时间
+     * 
+     * @param timeStr 时间字符串，支持格式：0800、08:00 等
+     * @param defaultTime 默认时间，当 timeStr 为空或格式错误时使用
+     * @return true 如果当前时间在设定时间之后或等于设定时间
+     */
+    fun checkTime(timeStr: String?, defaultTime: String = "0800"): Boolean {
+        try {
+            val time = timeStr?.takeIf { it.isNotBlank() } ?: defaultTime
+            
+            val calendar = Calendar.getInstance()
+            val currentHour = calendar.get(Calendar.HOUR_OF_DAY)
+            val currentMinute = calendar.get(Calendar.MINUTE)
+            
+            // 清理和验证时间字符串
+            val cleanTime = cleanAndValidateTime(time, defaultTime) ?: run {
+                return true // 验证失败，使用默认行为（执行）
+            }
+            
+            val setHour = cleanTime.take(2).toInt()
+            val setMinute = if (cleanTime.length >= 4) {
+                cleanTime.substring(2, 4).toInt()
+            } else {
+                0
+            }
+            
+            // 判断当前时间是否在设定时间之后
+            return if (currentHour > setHour) {
+                true
+            } else if (currentHour == setHour) {
+                currentMinute >= setMinute
+            } else {
+                false
+            }
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, e)
+            return true // 出错时默认执行
+        }
+    }
+    
+    /**
+     * 清理和验证时间字符串
+     * 
+     * @param timeStr 原始时间字符串
+     * @param defaultTime 默认时间
+     * @return 清理后的时间字符串，如果验证失败返回 null
+     */
+    private fun cleanAndValidateTime(timeStr: String, defaultTime: String): String? {
+        try {
+            // 移除所有空格、冒号和逗号
+            var cleaned = timeStr.replace(":", "").replace(" ", "").replace(",", "").trim()
+            
+            // 检查是否包含多个时间（比如 "0810 0830" 或 "0810,0820"）
+            if (cleaned.contains(Regex("\\d{4}.*\\d{4}"))) {
+                Log.record(TAG, "⚠️ 检测到多个时间值，只使用第一个时间")
+                // 提取第一个4位数字
+                val match = Regex("\\d{4}").find(cleaned)
+                cleaned = match?.value ?: defaultTime
+            }
+            
+            // 只保留数字
+            cleaned = cleaned.filter { it.isDigit() }
+            
+            // 验证长度
+            if (cleaned.length !in 2..4) {
+                Log.record(TAG, "⚠️ 时间格式错误（长度${cleaned.length}），使用默认时间: $defaultTime")
+                return defaultTime.filter { it.isDigit() }
+            }
+            
+            // 补齐到4位
+            if (cleaned.length == 2) {
+                cleaned += "00"
+            } else if (cleaned.length == 3) {
+                cleaned = "0$cleaned"
+            }
+            
+            // 验证小时和分钟的有效性
+            val hour = cleaned.substring(0, 2).toIntOrNull() ?: run {
+                Log.record(TAG, "⚠️ 小时解析失败，使用默认时间")
+                return defaultTime.filter { it.isDigit() }
+            }
+            
+            val minute = cleaned.substring(2, 4).toIntOrNull() ?: 0
+            
+            // 验证范围
+            if (hour !in 0..23) {
+                Log.record(TAG, "⚠️ 小时[$hour]超出范围(0-23)，使用默认时间: $defaultTime")
+                return defaultTime.filter { it.isDigit() }
+            }
+            
+            if (minute !in 0..59) {
+                Log.record(TAG, "⚠️ 分钟[$minute]超出范围(0-59)，使用默认时间: $defaultTime")
+                return defaultTime.filter { it.isDigit() }
+            }
+            
+            return cleaned
+        } catch (e: Exception) {
+            Log.record(TAG, "⚠️ 时间验证异常: ${e.message}，使用默认时间")
+            return defaultTime.filter { it.isDigit() }
+        }
+    }
+
+    /**
+     * 检查任务是否到达执行时间（通用方法）
+     * 
+     * @param timeStr 时间字符串
+     * @param defaultTime 默认时间
+     * @return true 如果当前时间在设定时间之后
+     */
+    fun isTimeReached(timeStr: String?, defaultTime: String = "0800"): Boolean {
+        return checkTime(timeStr, defaultTime)
+    }
+
+    /**
+     * 格式化时间字符串为标准格式
+     * 
+     * @param timeStr 原始时间字符串
+     * @return 格式化后的时间字符串（HH:mm）
+     */
+    fun formatTime(timeStr: String?): String {
+        return try {
+            val cleanTime = timeStr?.replace(":", "")?.trim() ?: "0800"
+            if (cleanTime.length >= 4) {
+                "${cleanTime.take(2)}:${cleanTime.substring(2, 4)}"
+            } else if (cleanTime.length >= 2) {
+                "${cleanTime.take(2)}:00"
+            } else {
+                "08:00"
+            }
+        } catch (e: Exception) {
+            "08:00"
+        }
+    }
+
+    /**
+     * 获取当前时间字符串
+     * 
+     * @return 当前时间（格式：HHmm）
+     */
+    @SuppressLint("DefaultLocale")
+    fun getCurrentTime(): String {
+        val calendar = Calendar.getInstance()
+        val hour = calendar.get(Calendar.HOUR_OF_DAY)
+        val minute = calendar.get(Calendar.MINUTE)
+        return String.format("%02d%02d", hour, minute)
+    }
+}
+

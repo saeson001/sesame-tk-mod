@@ -1,1 +1,125 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4KCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhTaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmF1dG9taXJyb3JlZC5maWxsZWQuQXJyb3dCYWNrCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5FeHBlcmltZW50YWxNYXRlcmlhbDNBcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkhvcml6b250YWxEaXZpZGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TY2FmZm9sZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVG9wQXBwQmFyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZUludFN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suYW50Rm9yZXN0LkFudEZvcmVzdAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5jdXN0b21UYXNrcy5DdXN0b21UYXNrCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmN1c3RvbVRhc2tzLk1hbnVhbFRhc2tNb2RlbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuc2NyZWVuLmNvbXBvbmVudHMuTWFudWFsVGFza0l0ZW0KCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gTWFudWFsVGFza1NjcmVlbigKICAgIG9uQmFja0NsaWNrOiAoKSAtPiBVbml0LAogICAgb25UYXNrQ2xpY2s6IChDdXN0b21UYXNrLCBNYXA8U3RyaW5nLCBBbnk+KSAtPiBVbml0CikgewogICAgdmFsIHRhc2tzID0gQ3VzdG9tVGFzay5lbnRyaWVzLnRvVHlwZWRBcnJheSgpCiAgICAvLyDku47mqKHlnovns7vnu5/kuK3or7vlj5blrp7kvovvvIjmraTml7YgZ2V0RmllbGRzKCkg6L+U5Zue55qE5a2X5q615bey6KKrIENvbmZpZy5sb2FkIOaMgui9veS6huato+ehrueahOWAvO+8iQogICAgdmFsIGFudEZvcmVzdE1vZGVsID0gcmVtZW1iZXIgeyBNb2RlbC5nZXRNb2RlbChBbnRGb3Jlc3Q6OmNsYXNzLmphdmEpIH0KICAgIHZhbCBtYW51YWxUYXNrTW9kZWwgPSByZW1lbWJlciB7IE1vZGVsLmdldE1vZGVsKE1hbnVhbFRhc2tNb2RlbDo6Y2xhc3MuamF2YSkgfQogICAgdmFsIHRpdGxlID0gbWFudWFsVGFza01vZGVsPy5nZXROYW1lKCkgPzogIuaJi+WKqOiwg+W6puS7u+WKoSIKCiAgICAvLyDliJ3lp4vljJbmiZPlnLDpvKDlj4LmlbAKICAgIHZhbCBpbml0aWFsTW9kZSA9IHJlbWVtYmVyKGFudEZvcmVzdE1vZGVsKSB7CiAgICAgICAgdmFsIG1vZGUgPSBhbnRGb3Jlc3RNb2RlbD8ud2hhY2tNb2xlTW9kZT8udmFsdWUgPzogMQogICAgICAgIGlmIChtb2RlID09IDApIDEgZWxzZSBtb2RlCiAgICB9CiAgICB2YWwgaW5pdGlhbEdhbWVzID0gcmVtZW1iZXIoYW50Rm9yZXN0TW9kZWwpIHsKICAgICAgICAoYW50Rm9yZXN0TW9kZWw/LndoYWNrTW9sZUdhbWVzPy52YWx1ZSA/OiA1KS50b1N0cmluZygpCiAgICB9CiAgICAvLyDlrZDku7vliqHnirbmgIEKICAgIHZhciB3aGFja01vbGVNb2RlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZUludFN0YXRlT2YoaW5pdGlhbE1vZGUpIH0KICAgIHZhciB3aGFja01vbGVHYW1lcyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGluaXRpYWxHYW1lcykgfQogICAgdmFyIHNwZWNpYWxGb29kQ291bnQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiMSIpIH0KCiAgICAvLyDpgZPlhbfkvb/nlKjnirbmgIEKICAgIHZhciBzZWxlY3RlZFRvb2wgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiQklHX0VBVEVSX1RPT0wiKSB9CiAgICB2YXIgdG9vbENvdW50IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIjEiKSB9CgogICAgLy8g6IO96YeP6Zuo54q25oCBCiAgICB2YXIgZXhjaGFuZ2VFbmVyZ3lSYWluQ2FyZCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CgogICAgU2NhZmZvbGQoCiAgICAgICAgdG9wQmFyID0gewogICAgICAgICAgICBUb3BBcHBCYXIoCiAgICAgICAgICAgICAgICB0aXRsZSA9IHsgVGV4dCh0aXRsZSkgfSwKICAgICAgICAgICAgICAgIG5hdmlnYXRpb25JY29uID0gewogICAgICAgICAgICAgICAgICAgIEljb25CdXR0b24ob25DbGljayA9IG9uQmFja0NsaWNrKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEljb24oSWNvbnMuQXV0b01pcnJvcmVkLkZpbGxlZC5BcnJvd0JhY2ssIGNvbnRlbnREZXNjcmlwdGlvbiA9ICJCYWNrIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICApIHsgcGFkZGluZ1ZhbHVlcyAtPgogICAgICAgIExhenlDb2x1bW4oCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgICAgICAucGFkZGluZyhwYWRkaW5nVmFsdWVzKQogICAgICAgICkgewogICAgICAgICAgICBpdGVtcyh0YXNrcykgeyB0YXNrIC0+CiAgICAgICAgICAgICAgICB2YWwgcGFyYW1zID0gd2hlbiAodGFzaykgewogICAgICAgICAgICAgICAgICAgIEN1c3RvbVRhc2suRk9SRVNUX1dIQUNLX01PTEUgLT4gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgICAgICJ3aGFja01vbGVNb2RlIiB0byB3aGFja01vbGVNb2RlLAogICAgICAgICAgICAgICAgICAgICAgICAid2hhY2tNb2xlR2FtZXMiIHRvICh3aGFja01vbGVHYW1lcy50b0ludE9yTnVsbCgpID86IDUpCiAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgICAgICBDdXN0b21UYXNrLkZPUkVTVF9FTkVSR1lfUkFJTiAtPiBtYXBPZigKICAgICAgICAgICAgICAgICAgICAgICAgImV4Y2hhbmdlRW5lcmd5UmFpbkNhcmQiIHRvIGV4Y2hhbmdlRW5lcmd5UmFpbkNhcmQKICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgICAgIEN1c3RvbVRhc2suRkFSTV9TUEVDSUFMX0ZPT0QgLT4gewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgY291bnQgPSBzcGVjaWFsRm9vZENvdW50LnRvSW50T3JOdWxsKCkgPzogMAogICAgICAgICAgICAgICAgICAgICAgICBtYXBPZigic3BlY2lhbEZvb2RDb3VudCIgdG8gY291bnQpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBDdXN0b21UYXNrLkZBUk1fVVNFX1RPT0wgLT4gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgICAgICJ0b29sVHlwZSIgdG8gc2VsZWN0ZWRUb29sLAogICAgICAgICAgICAgICAgICAgICAgICAidG9vbENvdW50IiB0byAodG9vbENvdW50LnRvSW50T3JOdWxsKCkgPzogMSkKICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gZW1wdHlNYXAoKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIE1hbnVhbFRhc2tJdGVtKAogICAgICAgICAgICAgICAgICAgIHRhc2sgPSB0YXNrLAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IG9uVGFza0NsaWNrKHRhc2ssIHBhcmFtcykgfSwKICAgICAgICAgICAgICAgICAgICBoYXNTZXR0aW5ncyA9IHRhc2sgPT0gQ3VzdG9tVGFzay5GT1JFU1RfV0hBQ0tfTU9MRSB8fCB0YXNrID09IEN1c3RvbVRhc2suRk9SRVNUX0VORVJHWV9SQUlOIHx8IHRhc2sgPT0gQ3VzdG9tVGFzay5GQVJNX1NQRUNJQUxfRk9PRCB8fCB0YXNrID09IEN1c3RvbVRhc2suRkFSTV9VU0VfVE9PTCwKICAgICAgICAgICAgICAgICAgICB3aGFja01vbGVNb2RlID0gd2hhY2tNb2xlTW9kZSwKICAgICAgICAgICAgICAgICAgICBvbk1vZGVDaGFuZ2UgPSB7IHdoYWNrTW9sZU1vZGUgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgIHdoYWNrTW9sZUdhbWVzID0gd2hhY2tNb2xlR2FtZXMsCiAgICAgICAgICAgICAgICAgICAgb25HYW1lc0NoYW5nZSA9IHsgd2hhY2tNb2xlR2FtZXMgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgIHNwZWNpYWxGb29kQ291bnQgPSBzcGVjaWFsRm9vZENvdW50LAogICAgICAgICAgICAgICAgICAgIG9uU3BlY2lhbEZvb2RDb3VudENoYW5nZSA9IHsgc3BlY2lhbEZvb2RDb3VudCA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRUb29sID0gc2VsZWN0ZWRUb29sLAogICAgICAgICAgICAgICAgICAgIG9uVG9vbENoYW5nZSA9IHsgc2VsZWN0ZWRUb29sID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICB0b29sQ291bnQgPSB0b29sQ291bnQsCiAgICAgICAgICAgICAgICAgICAgb25Ub29sQ291bnRDaGFuZ2UgPSB7IHRvb2xDb3VudCA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgZXhjaGFuZ2VFbmVyZ3lSYWluQ2FyZCA9IGV4Y2hhbmdlRW5lcmd5UmFpbkNhcmQsCiAgICAgICAgICAgICAgICAgICAgb25FeGNoYW5nZUVuZXJneVJhaW5DYXJkQ2hhbmdlID0geyBleGNoYW5nZUVuZXJneVJhaW5DYXJkID0gaXQgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgSG9yaXpvbnRhbERpdmlkZXIobW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKGhvcml6b250YWwgPSAxNi5kcCksIHRoaWNrbmVzcyA9IDAuNS5kcCwgY29sb3IgPSBDb2xvci5MaWdodEdyYXkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.ui.screen
+
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
+import fansirsqi.xposed.sesame.model.Model
+import fansirsqi.xposed.sesame.task.antForest.AntForest
+import fansirsqi.xposed.sesame.task.customTasks.CustomTask
+import fansirsqi.xposed.sesame.task.customTasks.ManualTaskModel
+import fansirsqi.xposed.sesame.ui.screen.components.ManualTaskItem
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ManualTaskScreen(
+    onBackClick: () -> Unit,
+    onTaskClick: (CustomTask, Map<String, Any>) -> Unit
+) {
+    val tasks = CustomTask.entries.toTypedArray()
+    // 从模型系统中读取实例（此时 getFields() 返回的字段已被 Config.load 挂载了正确的值）
+    val antForestModel = remember { Model.getModel(AntForest::class.java) }
+    val manualTaskModel = remember { Model.getModel(ManualTaskModel::class.java) }
+    val title = manualTaskModel?.getName() ?: "手动调度任务"
+
+    // 初始化打地鼠参数
+    val initialMode = remember(antForestModel) {
+        val mode = antForestModel?.whackMoleMode?.value ?: 1
+        if (mode == 0) 1 else mode
+    }
+    val initialGames = remember(antForestModel) {
+        (antForestModel?.whackMoleGames?.value ?: 5).toString()
+    }
+    // 子任务状态
+    var whackMoleMode by remember { mutableIntStateOf(initialMode) }
+    var whackMoleGames by remember { mutableStateOf(initialGames) }
+    var specialFoodCount by remember { mutableStateOf("1") }
+
+    // 道具使用状态
+    var selectedTool by remember { mutableStateOf("BIG_EATER_TOOL") }
+    var toolCount by remember { mutableStateOf("1") }
+
+    // 能量雨状态
+    var exchangeEnergyRainCard by remember { mutableStateOf(false) }
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text(title) },
+                navigationIcon = {
+                    IconButton(onClick = onBackClick) {
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    }
+                }
+            )
+        }
+    ) { paddingValues ->
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+        ) {
+            items(tasks) { task ->
+                val params = when (task) {
+                    CustomTask.FOREST_WHACK_MOLE -> mapOf(
+                        "whackMoleMode" to whackMoleMode,
+                        "whackMoleGames" to (whackMoleGames.toIntOrNull() ?: 5)
+                    )
+
+                    CustomTask.FOREST_ENERGY_RAIN -> mapOf(
+                        "exchangeEnergyRainCard" to exchangeEnergyRainCard
+                    )
+
+                    CustomTask.FARM_SPECIAL_FOOD -> {
+                        val count = specialFoodCount.toIntOrNull() ?: 0
+                        mapOf("specialFoodCount" to count)
+                    }
+
+                    CustomTask.FARM_USE_TOOL -> mapOf(
+                        "toolType" to selectedTool,
+                        "toolCount" to (toolCount.toIntOrNull() ?: 1)
+                    )
+
+                    else -> emptyMap()
+                }
+
+                ManualTaskItem(
+                    task = task,
+                    onClick = { onTaskClick(task, params) },
+                    hasSettings = task == CustomTask.FOREST_WHACK_MOLE || task == CustomTask.FOREST_ENERGY_RAIN || task == CustomTask.FARM_SPECIAL_FOOD || task == CustomTask.FARM_USE_TOOL,
+                    whackMoleMode = whackMoleMode,
+                    onModeChange = { whackMoleMode = it },
+                    whackMoleGames = whackMoleGames,
+                    onGamesChange = { whackMoleGames = it },
+                    specialFoodCount = specialFoodCount,
+                    onSpecialFoodCountChange = { specialFoodCount = it },
+                    selectedTool = selectedTool,
+                    onToolChange = { selectedTool = it },
+                    toolCount = toolCount,
+                    onToolCountChange = { toolCount = it },
+                    exchangeEnergyRainCard = exchangeEnergyRainCard,
+                    onExchangeEnergyRainCardChange = { exchangeEnergyRainCard = it }
+                )
+                HorizontalDivider(modifier = Modifier.padding(horizontal = 16.dp), thickness = 0.5.dp, color = Color.LightGray)
+            }
+        }
+    }
+}

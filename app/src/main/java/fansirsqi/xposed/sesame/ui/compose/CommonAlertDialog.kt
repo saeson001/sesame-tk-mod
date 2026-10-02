@@ -1,1 +1,66 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5jb21wb3NlCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQWxlcnREaWFsb2cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkJ1dHRvbkRlZmF1bHRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0QnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy52ZWN0b3IuSW1hZ2VWZWN0b3IKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLmV4dGVuc2lvbi5wYXJzZUh0bWwKCkBDb21wb3NhYmxlCmZ1biBDb21tb25BbGVydERpYWxvZygKICAgIHNob3dEaWFsb2c6IEJvb2xlYW4sCiAgICBvbkRpc21pc3NSZXF1ZXN0OiAoKSAtPiBVbml0LAogICAgb25Db25maXJtOiAoKSAtPiBVbml0LAogICAgdGl0bGU6IFN0cmluZywKICAgIHRleHQ6IFN0cmluZywgLy8gQysrIOS8oOadpeeahOWOn+WniyBIVE1MIOWtl+espuS4sgogICAgaWNvbjogSW1hZ2VWZWN0b3I/ID0gbnVsbCwKICAgIGljb25UaW50OiBDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgIGNvbmZpcm1UZXh0OiBTdHJpbmcgPSAi56Gu6K6kIiwKICAgIGRpc21pc3NUZXh0OiBTdHJpbmcgPSAi5Y+W5raIIiwKICAgIGNvbmZpcm1CdXR0b25Db2xvcjogQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnksCiAgICBzaG93Q2FuY2VsQnV0dG9uOiBCb29sZWFuID0gdHJ1ZQopIHsKICAgIGlmIChzaG93RGlhbG9nKSB7CiAgICAgICAgQWxlcnREaWFsb2coCiAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3NSZXF1ZXN0LAogICAgICAgICAgICBpY29uID0gaWNvbj8ubGV0IHsgeyBJY29uKGl0LCBudWxsLCB0aW50ID0gaWNvblRpbnQpIH0gfSwKICAgICAgICAgICAgdGl0bGUgPSB7CiAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSB0aXRsZSwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVMYXJnZSkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgICAgIC8vIPCflKUg5YWz6ZSu5L+u5pS577ya5Zyo6L+Z6YeM6LCD55SoIC5wYXJzZUh0bWwoKQogICAgICAgICAgICAgICAgLy8g6L+Z5Lya5bCGIEhUTUwg6YeM55qEIDxmb250IGNvbG9yPSJyZWQiPiDlj5jmiJAgQ29tcG9zZSDnmoTnuqLoibLmoLflvI8KICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHRleHQucGFyc2VIdG1sKCksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9LAogICAgICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICBvbkNvbmZpcm0oKQogICAgICAgICAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0KCkKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIGNvbG9ycyA9IEJ1dHRvbkRlZmF1bHRzLnRleHRCdXR0b25Db2xvcnMoY29udGVudENvbG9yID0gY29uZmlybUJ1dHRvbkNvbG9yKQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dChjb25maXJtVGV4dCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgLy8g8J+UpSDlhbPplK7kv67mlLnvvJrlj6rmnInlvZMgc2hvd0NhbmNlbEJ1dHRvbiDkuLogdHJ1ZSDml7bmiY3mmL7npLoKICAgICAgICAgICAgZGlzbWlzc0J1dHRvbiA9IGlmIChzaG93Q2FuY2VsQnV0dG9uKSB7CiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0gb25EaXNtaXNzUmVxdWVzdCkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KGRpc21pc3NUZXh0KQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIG51bGwsIC8vIOS8oCBudWxsIOWwseS4jeS8muaYvuekuuWPlua2iOaMiemSrgogICAgICAgICAgICBjb250YWluZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZUNvbnRhaW5lckhpZ2gsCiAgICAgICAgICAgIHRleHRDb250ZW50Q29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICkKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.ui.compose
+
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import fansirsqi.xposed.sesame.ui.extension.parseHtml
+
+@Composable
+fun CommonAlertDialog(
+    showDialog: Boolean,
+    onDismissRequest: () -> Unit,
+    onConfirm: () -> Unit,
+    title: String,
+    text: String, // C++ 传来的原始 HTML 字符串
+    icon: ImageVector? = null,
+    iconTint: Color = MaterialTheme.colorScheme.primary,
+    confirmText: String = "确认",
+    dismissText: String = "取消",
+    confirmButtonColor: Color = MaterialTheme.colorScheme.primary,
+    showCancelButton: Boolean = true
+) {
+    if (showDialog) {
+        AlertDialog(
+            onDismissRequest = onDismissRequest,
+            icon = icon?.let { { Icon(it, null, tint = iconTint) } },
+            title = {
+                Text(text = title, style = MaterialTheme.typography.titleLarge)
+            },
+            text = {
+                // 🔥 关键修改：在这里调用 .parseHtml()
+                // 这会将 HTML 里的 <font color="red"> 变成 Compose 的红色样式
+                Text(
+                    text = text.parseHtml(),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+            },
+            confirmButton = {
+                TextButton(
+                    onClick = {
+                        onConfirm()
+                        onDismissRequest()
+                    },
+                    colors = ButtonDefaults.textButtonColors(contentColor = confirmButtonColor)
+                ) {
+                    Text(confirmText)
+                }
+            },
+            // 🔥 关键修改：只有当 showCancelButton 为 true 时才显示
+            dismissButton = if (showCancelButton) {
+                {
+                    TextButton(onClick = onDismissRequest) {
+                        Text(dismissText)
+                    }
+                }
+            } else null, // 传 null 就不会显示取消按钮
+            containerColor = MaterialTheme.colorScheme.surfaceContainerHigh,
+            textContentColor = MaterialTheme.colorScheme.onSurface
+        )
+    }
+}

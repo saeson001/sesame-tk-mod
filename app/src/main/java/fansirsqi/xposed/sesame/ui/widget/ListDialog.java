@@ -1,1 +1,243 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS53aWRnZXQ7CgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludDsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkRpYWxvZ0ludGVyZmFjZTsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQ7CmltcG9ydCBhbmRyb2lkLm5ldC5Vcmk7CmltcG9ydCBhbmRyb2lkLnZpZXcuTGF5b3V0SW5mbGF0ZXI7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkJ1dHRvbjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkVkaXRUZXh0OwppbXBvcnQgYW5kcm9pZC53aWRnZXQuTGlzdFZpZXc7CmltcG9ydCBhbmRyb2lkLndpZGdldC5SZWxhdGl2ZUxheW91dDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRvYXN0OwoKaW1wb3J0IGFuZHJvaWR4LmNvcmUuY29udGVudC5Db250ZXh0Q29tcGF0OwoKaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5kaWFsb2cuTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXI7CgppbXBvcnQgb3JnLmpzb24uSlNPTkV4Y2VwdGlvbjsKCmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5SOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZW50aXR5LkFyZWFDb2RlOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZW50aXR5LkNvb3BlcmF0ZUVudGl0eTsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5NYXBwZXJFbnRpdHk7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5TZWxlY3RNb2RlbEZpZWxkRnVuYzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuU2VsZWN0QW5kQ291bnRNb2RlbEZpZWxkOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5TZWxlY3RBbmRDb3VudE9uZU1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LlNlbGVjdE1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LlNlbGVjdE9uZU1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5hZGFwdGVyLkxpc3RBZGFwdGVyOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuYWRhcHRlci5PcHRpb25zQWRhcHRlcjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5Db29wZXJhdGVNYXA7CgpwdWJsaWMgY2xhc3MgTGlzdERpYWxvZyB7CiAgICBzdGF0aWMgYW5kcm9pZHguYXBwY29tcGF0LmFwcC5BbGVydERpYWxvZyBsaXN0RGlhbG9nOwogICAgQFN1cHByZXNzTGludCgiU3RhdGljRmllbGRMZWFrIikKICAgIHN0YXRpYyBCdXR0b24gYnRuX2ZpbmRfbGFzdCwgYnRuX2ZpbmRfbmV4dCwgYnRuX3NlbGVjdF9hbGwsIGJ0bl9zZWxlY3RfaW52ZXJ0OwogICAgQFN1cHByZXNzTGludCgiU3RhdGljRmllbGRMZWFrIikKICAgIHN0YXRpYyBFZGl0VGV4dCBzZWFyY2hUZXh0OwogICAgQFN1cHByZXNzTGludCgiU3RhdGljRmllbGRMZWFrIikKICAgIHN0YXRpYyBMaXN0VmlldyBsdl9saXN0OwogICAgcHJpdmF0ZSBzdGF0aWMgU2VsZWN0TW9kZWxGaWVsZEZ1bmMgc2VsZWN0TW9kZWxGaWVsZEZ1bmM7CiAgICBzdGF0aWMgQm9vbGVhbiBoYXNDb3VudDsKICAgIHN0YXRpYyBMaXN0VHlwZSBsaXN0VHlwZTsKICAgIEBTdXBwcmVzc0xpbnQoIlN0YXRpY0ZpZWxkTGVhayIpCiAgICBzdGF0aWMgUmVsYXRpdmVMYXlvdXQgbGF5b3V0X2JhdGNoX3Byb2Nlc3M7CgogICAgcHVibGljIGVudW0gTGlzdFR5cGUgewogICAgICAgIFJBRElPLCBDSEVDSywgU0hPVwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBzaG93KENvbnRleHQgYywgQ2hhclNlcXVlbmNlIHRpdGxlLCBTZWxlY3RPbmVNb2RlbEZpZWxkIHNlbGVjdE1vZGVsRmllbGQsIExpc3RUeXBlIGxpc3RUeXBlKSB7CiAgICAgICAgc2hvdyhjLCB0aXRsZSwgc2VsZWN0TW9kZWxGaWVsZC5nZXRFeHBhbmRWYWx1ZSgpLCBzZWxlY3RNb2RlbEZpZWxkLCBmYWxzZSwgbGlzdFR5cGUpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBzaG93KENvbnRleHQgYywgQ2hhclNlcXVlbmNlIHRpdGxlLCBTZWxlY3RBbmRDb3VudE9uZU1vZGVsRmllbGQgc2VsZWN0TW9kZWxGaWVsZCwgTGlzdFR5cGUgbGlzdFR5cGUpIHsKICAgICAgICBzaG93KGMsIHRpdGxlLCBzZWxlY3RNb2RlbEZpZWxkLmdldEV4cGFuZFZhbHVlKCksIHNlbGVjdE1vZGVsRmllbGQsIGZhbHNlLCBsaXN0VHlwZSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNob3coQ29udGV4dCBjLCBDaGFyU2VxdWVuY2UgdGl0bGUsIFNlbGVjdE1vZGVsRmllbGQgc2VsZWN0TW9kZWxGaWVsZCkgdGhyb3dzIEpTT05FeGNlcHRpb24gewogICAgICAgIHNob3coYywgdGl0bGUsIHNlbGVjdE1vZGVsRmllbGQsIExpc3RUeXBlLkNIRUNLKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc2hvdyhDb250ZXh0IGMsIENoYXJTZXF1ZW5jZSB0aXRsZSwgU2VsZWN0QW5kQ291bnRNb2RlbEZpZWxkIHNlbGVjdE1vZGVsRmllbGQpIHsKICAgICAgICBzaG93KGMsIHRpdGxlLCBzZWxlY3RNb2RlbEZpZWxkLCBMaXN0VHlwZS5DSEVDSyk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNob3coQ29udGV4dCBjLCBDaGFyU2VxdWVuY2UgdGl0bGUsIFNlbGVjdE1vZGVsRmllbGQgc2VsZWN0TW9kZWxGaWVsZCwgTGlzdFR5cGUgbGlzdFR5cGUpIHRocm93cyBKU09ORXhjZXB0aW9uIHsKICAgICAgICBzaG93KGMsIHRpdGxlLCBzZWxlY3RNb2RlbEZpZWxkLmdldEV4cGFuZFZhbHVlKCksIHNlbGVjdE1vZGVsRmllbGQsIGZhbHNlLCBsaXN0VHlwZSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNob3coQ29udGV4dCBjLCBDaGFyU2VxdWVuY2UgdGl0bGUsIFNlbGVjdEFuZENvdW50TW9kZWxGaWVsZCBzZWxlY3RNb2RlbEZpZWxkLCBMaXN0VHlwZSBsaXN0VHlwZSkgewogICAgICAgIHNob3coYywgdGl0bGUsIHNlbGVjdE1vZGVsRmllbGQuZ2V0RXhwYW5kVmFsdWUoKSwgc2VsZWN0TW9kZWxGaWVsZCwgdHJ1ZSwgbGlzdFR5cGUpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBzaG93KENvbnRleHQgYywgQ2hhclNlcXVlbmNlIHRpdGxlLCBMaXN0PD8gZXh0ZW5kcyBNYXBwZXJFbnRpdHk+IGJsLCBTZWxlY3RNb2RlbEZpZWxkRnVuYyBzZWxlY3RNb2RlbEZpZWxkRnVuYywgQm9vbGVhbiBoYXNDb3VudCkgewogICAgICAgIHNob3coYywgdGl0bGUsIGJsLCBzZWxlY3RNb2RlbEZpZWxkRnVuYywgaGFzQ291bnQsIExpc3RUeXBlLkNIRUNLKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc2hvdyhDb250ZXh0IGMsIENoYXJTZXF1ZW5jZSB0aXRsZSwgTGlzdDw/IGV4dGVuZHMgTWFwcGVyRW50aXR5PiBibCwgU2VsZWN0TW9kZWxGaWVsZEZ1bmMgc2VsZWN0TW9kZWxGaWVsZEZ1bmMsIEJvb2xlYW4gaGFzQ291bnQsIExpc3RUeXBlIGxpc3RUeXBlKSB7CiAgICAgICAgTGlzdERpYWxvZy5zZWxlY3RNb2RlbEZpZWxkRnVuYyA9IHNlbGVjdE1vZGVsRmllbGRGdW5jOwogICAgICAgIExpc3REaWFsb2cuaGFzQ291bnQgPSBoYXNDb3VudDsKICAgICAgICBMaXN0QWRhcHRlciBsYSA9IExpc3RBZGFwdGVyLmdldENsZWFyKGMsIGxpc3RUeXBlKTsKICAgICAgICBsYS5zZXRCYXNlTGlzdChibCk7CiAgICAgICAgbGEuc2V0U2VsZWN0ZWRMaXN0KHNlbGVjdE1vZGVsRmllbGRGdW5jKTsKICAgICAgICBzaG93TGlzdERpYWxvZyhjLCB0aXRsZSk7CiAgICAgICAgTGlzdERpYWxvZy5saXN0VHlwZSA9IGxpc3RUeXBlOwogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIHZvaWQgc2hvd0xpc3REaWFsb2coQ29udGV4dCBjLCBDaGFyU2VxdWVuY2UgdGl0bGUpIHsKICAgICAgICBpZiAobGlzdERpYWxvZyA9PSBudWxsIHx8IGxpc3REaWFsb2cuZ2V0Q29udGV4dCgpICE9IGMpCiAgICAgICAgICAgIGxpc3REaWFsb2cgPSBuZXcgTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXIoYykKICAgICAgICAgICAgICAgICAgICAuc2V0VGl0bGUodGl0bGUpCiAgICAgICAgICAgICAgICAgICAgLnNldFZpZXcoZ2V0TGlzdFZpZXcoYykpCiAgICAgICAgICAgICAgICAgICAgLnNldFBvc2l0aXZlQnV0dG9uKGMuZ2V0U3RyaW5nKFIuc3RyaW5nLmNsb3NlKSwgbnVsbCkKICAgICAgICAgICAgICAgICAgICAuY3JlYXRlKCk7CiAgICAgICAgbGlzdERpYWxvZy5zZXRPblNob3dMaXN0ZW5lcihwMSAtPiB7CiAgICAgICAgICAgIGFuZHJvaWR4LmFwcGNvbXBhdC5hcHAuQWxlcnREaWFsb2cgZCA9IChhbmRyb2lkeC5hcHBjb21wYXQuYXBwLkFsZXJ0RGlhbG9nKSBwMTsKICAgICAgICAgICAgbGF5b3V0X2JhdGNoX3Byb2Nlc3MgPSBkLmZpbmRWaWV3QnlJZChSLmlkLmxheW91dF9iYXRjaF9wcm9jZXNzKTsKICAgICAgICAgICAgYXNzZXJ0IGxheW91dF9iYXRjaF9wcm9jZXNzICE9IG51bGw7CiAgICAgICAgICAgIGxheW91dF9iYXRjaF9wcm9jZXNzLnNldFZpc2liaWxpdHkobGlzdFR5cGUgPT0gTGlzdFR5cGUuQ0hFQ0sgJiYgIWhhc0NvdW50ID8gVmlldy5WSVNJQkxFIDogVmlldy5HT05FKTsKICAgICAgICAgICAgTGlzdEFkYXB0ZXIuZ2V0KGMpLm5vdGlmeURhdGFTZXRDaGFuZ2VkKCk7CiAgICAgICAgfSk7CiAgICAgICAgbGlzdERpYWxvZy5zaG93KCk7CiAgICAgICAgQnV0dG9uIHBvc2l0aXZlQnV0dG9uID0gbGlzdERpYWxvZy5nZXRCdXR0b24oRGlhbG9nSW50ZXJmYWNlLkJVVFRPTl9QT1NJVElWRSk7CiAgICAgICAgaWYgKHBvc2l0aXZlQnV0dG9uICE9IG51bGwpIHsKICAgICAgICAgICAgcG9zaXRpdmVCdXR0b24uc2V0VGV4dENvbG9yKENvbnRleHRDb21wYXQuZ2V0Q29sb3IoYywgUi5jb2xvci5zZWxlY3Rpb25fY29sb3IpKTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgVmlldyBnZXRMaXN0VmlldyhDb250ZXh0IGMpIHsKICAgICAgICBAU3VwcHJlc3NMaW50KCJJbmZsYXRlUGFyYW1zIikgVmlldyB2ID0gTGF5b3V0SW5mbGF0ZXIuZnJvbShjKS5pbmZsYXRlKFIubGF5b3V0LmRpYWxvZ19saXN0LCBudWxsKTsKICAgICAgICBidG5fZmluZF9sYXN0ID0gdi5maW5kVmlld0J5SWQoUi5pZC5idG5fZmluZF9sYXN0KTsKICAgICAgICBidG5fZmluZF9uZXh0ID0gdi5maW5kVmlld0J5SWQoUi5pZC5idG5fZmluZF9uZXh0KTsKICAgICAgICBidG5fc2VsZWN0X2FsbCA9IHYuZmluZFZpZXdCeUlkKFIuaWQuYnRuX3NlbGVjdF9hbGwpOwogICAgICAgIGJ0bl9zZWxlY3RfaW52ZXJ0ID0gdi5maW5kVmlld0J5SWQoUi5pZC5idG5fc2VsZWN0X2ludmVydCk7CiAgICAgICAgVmlldy5PbkNsaWNrTGlzdGVuZXIgb25CdG5DbGlja0xpc3RlbmVyID0gdjEgLT4gewogICAgICAgICAgICBpZiAoc2VhcmNoVGV4dC5sZW5ndGgoKSA8PSAwKSByZXR1cm47CiAgICAgICAgICAgIExpc3RBZGFwdGVyIGxhID0gTGlzdEFkYXB0ZXIuZ2V0KHYxLmdldENvbnRleHQoKSk7CiAgICAgICAgICAgIGludCBpbmRleCA9IC0xOwogICAgICAgICAgICBpZiAodjEuZ2V0SWQoKSA9PSBSLmlkLmJ0bl9maW5kX2xhc3QpIGluZGV4ID0gbGEuZmluZExhc3Qoc2VhcmNoVGV4dC5nZXRUZXh0KCkudG9TdHJpbmcoKSk7CiAgICAgICAgICAgIGVsc2UgaWYgKHYxLmdldElkKCkgPT0gUi5pZC5idG5fZmluZF9uZXh0KSBpbmRleCA9IGxhLmZpbmROZXh0KHNlYXJjaFRleHQuZ2V0VGV4dCgpLnRvU3RyaW5nKCkpOwogICAgICAgICAgICBpZiAoaW5kZXggPCAwKSBUb2FzdC5tYWtlVGV4dCh2MS5nZXRDb250ZXh0KCksICLmnKrmkJzliLAiLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKTsKICAgICAgICAgICAgZWxzZSBsdl9saXN0LnNldFNlbGVjdGlvbihpbmRleCk7CiAgICAgICAgfTsKICAgICAgICBidG5fZmluZF9sYXN0LnNldE9uQ2xpY2tMaXN0ZW5lcihvbkJ0bkNsaWNrTGlzdGVuZXIpOwogICAgICAgIGJ0bl9maW5kX25leHQuc2V0T25DbGlja0xpc3RlbmVyKG9uQnRuQ2xpY2tMaXN0ZW5lcik7CgogICAgICAgIFZpZXcuT25DbGlja0xpc3RlbmVyIGJhdGNoQnRuT25DbGlja0xpc3RlbmVyID0gdjEgLT4gewogICAgICAgICAgICBMaXN0QWRhcHRlciBsYSA9IExpc3RBZGFwdGVyLmdldCh2MS5nZXRDb250ZXh0KCkpOwogICAgICAgICAgICBpZiAodjEuZ2V0SWQoKSA9PSBSLmlkLmJ0bl9zZWxlY3RfYWxsKSBsYS5zZWxlY3RBbGwoKTsKICAgICAgICAgICAgZWxzZSBpZiAodjEuZ2V0SWQoKSA9PSBSLmlkLmJ0bl9zZWxlY3RfaW52ZXJ0KSBsYS5TZWxlY3RJbnZlcnQoKTsKICAgICAgICB9OwogICAgICAgIGJ0bl9zZWxlY3RfYWxsLnNldE9uQ2xpY2tMaXN0ZW5lcihiYXRjaEJ0bk9uQ2xpY2tMaXN0ZW5lcik7CiAgICAgICAgYnRuX3NlbGVjdF9pbnZlcnQuc2V0T25DbGlja0xpc3RlbmVyKGJhdGNoQnRuT25DbGlja0xpc3RlbmVyKTsKCiAgICAgICAgc2VhcmNoVGV4dCA9IHYuZmluZFZpZXdCeUlkKFIuaWQuZWR0X2ZpbmQpOwogICAgICAgIGx2X2xpc3QgPSB2LmZpbmRWaWV3QnlJZChSLmlkLmx2X2xpc3QpOwogICAgICAgIGx2X2xpc3Quc2V0QWRhcHRlcihMaXN0QWRhcHRlci5nZXRDbGVhcihjKSk7CgogICAgICAgIGx2X2xpc3Quc2V0T25JdGVtQ2xpY2tMaXN0ZW5lcigocDEsIHAyLCBwMywgcDQpIC0+IHsKICAgICAgICAgICAgaWYgKGxpc3RUeXBlID09IExpc3RUeXBlLlNIT1cpIHJldHVybjsKICAgICAgICAgICAgTWFwcGVyRW50aXR5IGN1ciA9IChNYXBwZXJFbnRpdHkpIHAxLmdldEFkYXB0ZXIoKS5nZXRJdGVtKHAzKTsKICAgICAgICAgICAgTGlzdEFkYXB0ZXIuVmlld0hvbGRlciBob2xkZXIgPSAoTGlzdEFkYXB0ZXIuVmlld0hvbGRlcikgcDIuZ2V0VGFnKCk7CiAgICAgICAgICAgIGlmICghaGFzQ291bnQpIHsKICAgICAgICAgICAgICAgIGlmIChsaXN0VHlwZSA9PSBMaXN0VHlwZS5SQURJTykgewogICAgICAgICAgICAgICAgICAgIHNlbGVjdE1vZGVsRmllbGRGdW5jLmNsZWFyKCk7CiAgICAgICAgICAgICAgICAgICAgaWYgKGhvbGRlci5jYi5pc0NoZWNrZWQoKSkgaG9sZGVyLmNiLnNldENoZWNrZWQoZmFsc2UpOwogICAgICAgICAgICAgICAgICAgIGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBmb3IgKExpc3RBZGFwdGVyLlZpZXdIb2xkZXIgdmggOiBMaXN0QWRhcHRlci52aWV3SG9sZGVyTGlzdCkgdmguY2Iuc2V0Q2hlY2tlZChmYWxzZSk7CiAgICAgICAgICAgICAgICAgICAgICAgIGhvbGRlci5jYi5zZXRDaGVja2VkKHRydWUpOwogICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RNb2RlbEZpZWxkRnVuYy5hZGQoY3VyLmlkLCAwKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGlmIChob2xkZXIuY2IuaXNDaGVja2VkKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0TW9kZWxGaWVsZEZ1bmMucmVtb3ZlKGN1ci5pZCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGhvbGRlci5jYi5zZXRDaGVja2VkKGZhbHNlKTsKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoQm9vbGVhbi5GQUxTRS5lcXVhbHMoc2VsZWN0TW9kZWxGaWVsZEZ1bmMuY29udGFpbnMoY3VyLmlkKSkpIHNlbGVjdE1vZGVsRmllbGRGdW5jLmFkZChjdXIuaWQsIDApOwogICAgICAgICAgICAgICAgICAgICAgICBob2xkZXIuY2Iuc2V0Q2hlY2tlZCh0cnVlKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBFZGl0VGV4dCBlZHQgPSBuZXcgRWRpdFRleHQoYyk7CiAgICAgICAgICAgICAgICBhbmRyb2lkeC5hcHBjb21wYXQuYXBwLkFsZXJ0RGlhbG9nIGVkdERpYWxvZyA9IG5ldyBNYXRlcmlhbEFsZXJ0RGlhbG9nQnVpbGRlcihjKQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0VGl0bGUoY3VyLm5hbWUpCiAgICAgICAgICAgICAgICAgICAgICAgIC5zZXRWaWV3KGVkdCkKICAgICAgICAgICAgICAgICAgICAgICAgLnNldFBvc2l0aXZlQnV0dG9uKGMuZ2V0U3RyaW5nKFIuc3RyaW5nLm9rKSwgKGRpYWxvZywgd2hpY2gpIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlZHQubGVuZ3RoKCkgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW50IGNvdW50ID0gSW50ZWdlci5wYXJzZUludChlZHQuZ2V0VGV4dCgpLnRvU3RyaW5nKCkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoY291bnQgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RNb2RlbEZpZWxkRnVuYy5hZGQoY3VyLmlkLCBjb3VudCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBob2xkZXIuY2Iuc2V0Q2hlY2tlZCh0cnVlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdE1vZGVsRmllbGRGdW5jLnJlbW92ZShjdXIuaWQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaG9sZGVyLmNiLnNldENoZWNrZWQoZmFsc2UpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGlnbm9yZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBMaXN0QWRhcHRlci5nZXQoYykubm90aWZ5RGF0YVNldENoYW5nZWQoKTsKICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAgICAgLnNldE5lZ2F0aXZlQnV0dG9uKGMuZ2V0U3RyaW5nKFIuc3RyaW5nLmNhbmNlbCksIG51bGwpCiAgICAgICAgICAgICAgICAgICAgICAgIC5jcmVhdGUoKTsKICAgICAgICAgICAgICAgIGVkdC5zZXRIaW50KChjdXIgaW5zdGFuY2VvZiBDb29wZXJhdGVFbnRpdHkpID8gIua1h+awtOWFi+aVsCIgOiAi5qyh5pWwIik7CiAgICAgICAgICAgICAgICBJbnRlZ2VyIHZhbHVlID0gc2VsZWN0TW9kZWxGaWVsZEZ1bmMuZ2V0KGN1ci5pZCk7CiAgICAgICAgICAgICAgICBpZiAodmFsdWUgIT0gbnVsbCAmJiB2YWx1ZSA+PSAwKSBlZHQuc2V0VGV4dChTdHJpbmcudmFsdWVPZih2YWx1ZSkpOwogICAgICAgICAgICAgICAgZWR0RGlhbG9nLnNob3coKTsKICAgICAgICAgICAgfQogICAgICAgIH0pOwoKICAgICAgICBsdl9saXN0LnNldE9uSXRlbUxvbmdDbGlja0xpc3RlbmVyKChwMSwgcDIsIHAzLCBwNCkgLT4gewogICAgICAgICAgICBNYXBwZXJFbnRpdHkgY3VyID0gKE1hcHBlckVudGl0eSkgcDEuZ2V0QWRhcHRlcigpLmdldEl0ZW0ocDMpOwogICAgICAgICAgICBpZiAoY3VyIGluc3RhbmNlb2YgQ29vcGVyYXRlRW50aXR5KSB7CiAgICAgICAgICAgICAgICBuZXcgTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXIoYykKICAgICAgICAgICAgICAgICAgICAgICAgLnNldFRpdGxlKCLliKDpmaQgIiArIGN1ci5uYW1lKQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0UG9zaXRpdmVCdXR0b24oYy5nZXRTdHJpbmcoUi5zdHJpbmcub2spLCAoZGlhbG9nLCB3aGljaCkgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQ29vcGVyYXRlTWFwLmdldEluc3RhbmNlKENvb3BlcmF0ZU1hcC5jbGFzcykucmVtb3ZlKGN1ci5pZCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RNb2RlbEZpZWxkRnVuYy5yZW1vdmUoY3VyLmlkKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIExpc3RBZGFwdGVyLmdldChjKS5leGl0RmluZCgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgTGlzdEFkYXB0ZXIuZ2V0KGMpLm5vdGlmeURhdGFTZXRDaGFuZ2VkKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgICAgICAgIC5zZXROZWdhdGl2ZUJ1dHRvbihjLmdldFN0cmluZyhSLnN0cmluZy5jYW5jZWwpLCBudWxsKQogICAgICAgICAgICAgICAgICAgICAgICAuc2hvdygpOwogICAgICAgICAgICB9IGVsc2UgaWYgKCEoY3VyIGluc3RhbmNlb2YgQXJlYUNvZGUpKSB7CiAgICAgICAgICAgICAgICBuZXcgTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXIoYykKICAgICAgICAgICAgICAgICAgICAgICAgLnNldFRpdGxlKCLpgInpobkiKQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0QWRhcHRlcihPcHRpb25zQWRhcHRlci5nZXQoYyksIChkaWFsb2csIHdoaWNoKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgdXJsID0gbnVsbDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN3aXRjaCAod2hpY2gpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXNlIDA6IHVybCA9ICJhbGlwYXlzOi8vcGxhdGZvcm1hcGkvc3RhcnRhcHA/c2FJZD0xMDAwMDAwNyZxcmNvZGU9aHR0cHMlM0ElMkYlMkY2MDAwMDAwMi5oNWFwcC5hbGlwYXkuY29tJTJGd3d3JTJGaG9tZS5odG1sJTNGdXNlcklkJTNEIjsgYnJlYWs7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FzZSAxOiB1cmwgPSAiYWxpcGF5czovL3BsYXRmb3JtYXBpL3N0YXJ0YXBwP3NhSWQ9MTAwMDAwMDcmcXJjb2RlPWh0dHBzJTNBJTJGJTJGNjY2NjY2NzQuaDVhcHAuYWxpcGF5LmNvbSUyRnd3dyUyRmluZGV4Lmh0bSUzRnVpZCUzRCI7IGJyZWFrOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhc2UgMjogdXJsID0gImFsaXBheXM6Ly9wbGF0Zm9ybWFwaS9zdGFydGFwcD9hcHBJZD0yMDAwMDE2NiZhY3Rpb25UeXBlPXByb2ZpbGUmdXNlcklkPSI7IGJyZWFrOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhc2UgMzoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV3IE1hdGVyaWFsQWxlcnREaWFsb2dCdWlsZGVyKGMpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnNldFRpdGxlKCLliKDpmaQgIiArIGN1ci5uYW1lKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zZXRQb3NpdGl2ZUJ1dHRvbihjLmdldFN0cmluZyhSLnN0cmluZy5vayksIChkMiwgdzIpIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0TW9kZWxGaWVsZEZ1bmMucmVtb3ZlKGN1ci5pZCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExpc3RBZGFwdGVyLmdldChjKS5leGl0RmluZCgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMaXN0QWRhcHRlci5nZXQoYykubm90aWZ5RGF0YVNldENoYW5nZWQoKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zZXROZWdhdGl2ZUJ1dHRvbihjLmdldFN0cmluZyhSLnN0cmluZy5jYW5jZWwpLCBudWxsKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zaG93KCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHVybCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSW50ZW50IGl0ID0gbmV3IEludGVudChJbnRlbnQuQUNUSU9OX1ZJRVcsIFVyaS5wYXJzZSh1cmwgKyBjdXIuaWQpKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjLnN0YXJ0QWN0aXZpdHkoaXQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0TmVnYXRpdmVCdXR0b24oYy5nZXRTdHJpbmcoUi5zdHJpbmcuY2FuY2VsKSwgbnVsbCkKICAgICAgICAgICAgICAgICAgICAgICAgLnNob3coKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9KTsKCiAgICAgICAgcmV0dXJuIHY7CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.ui.widget;
+
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.Toast;
+
+import androidx.core.content.ContextCompat;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
+import org.json.JSONException;
+
+import java.util.List;
+
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.entity.AreaCode;
+import fansirsqi.xposed.sesame.entity.CooperateEntity;
+import fansirsqi.xposed.sesame.entity.MapperEntity;
+import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectAndCountModelField;
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectAndCountOneModelField;
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectModelField;
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectOneModelField;
+import fansirsqi.xposed.sesame.ui.adapter.ListAdapter;
+import fansirsqi.xposed.sesame.ui.adapter.OptionsAdapter;
+import fansirsqi.xposed.sesame.util.maps.CooperateMap;
+
+public class ListDialog {
+    static androidx.appcompat.app.AlertDialog listDialog;
+    @SuppressLint("StaticFieldLeak")
+    static Button btn_find_last, btn_find_next, btn_select_all, btn_select_invert;
+    @SuppressLint("StaticFieldLeak")
+    static EditText searchText;
+    @SuppressLint("StaticFieldLeak")
+    static ListView lv_list;
+    private static SelectModelFieldFunc selectModelFieldFunc;
+    static Boolean hasCount;
+    static ListType listType;
+    @SuppressLint("StaticFieldLeak")
+    static RelativeLayout layout_batch_process;
+
+    public enum ListType {
+        RADIO, CHECK, SHOW
+    }
+
+    public static void show(Context c, CharSequence title, SelectOneModelField selectModelField, ListType listType) {
+        show(c, title, selectModelField.getExpandValue(), selectModelField, false, listType);
+    }
+
+    public static void show(Context c, CharSequence title, SelectAndCountOneModelField selectModelField, ListType listType) {
+        show(c, title, selectModelField.getExpandValue(), selectModelField, false, listType);
+    }
+
+    public static void show(Context c, CharSequence title, SelectModelField selectModelField) throws JSONException {
+        show(c, title, selectModelField, ListType.CHECK);
+    }
+
+    public static void show(Context c, CharSequence title, SelectAndCountModelField selectModelField) {
+        show(c, title, selectModelField, ListType.CHECK);
+    }
+
+    public static void show(Context c, CharSequence title, SelectModelField selectModelField, ListType listType) throws JSONException {
+        show(c, title, selectModelField.getExpandValue(), selectModelField, false, listType);
+    }
+
+    public static void show(Context c, CharSequence title, SelectAndCountModelField selectModelField, ListType listType) {
+        show(c, title, selectModelField.getExpandValue(), selectModelField, true, listType);
+    }
+
+    public static void show(Context c, CharSequence title, List<? extends MapperEntity> bl, SelectModelFieldFunc selectModelFieldFunc, Boolean hasCount) {
+        show(c, title, bl, selectModelFieldFunc, hasCount, ListType.CHECK);
+    }
+
+    public static void show(Context c, CharSequence title, List<? extends MapperEntity> bl, SelectModelFieldFunc selectModelFieldFunc, Boolean hasCount, ListType listType) {
+        ListDialog.selectModelFieldFunc = selectModelFieldFunc;
+        ListDialog.hasCount = hasCount;
+        ListAdapter la = ListAdapter.getClear(c, listType);
+        la.setBaseList(bl);
+        la.setSelectedList(selectModelFieldFunc);
+        showListDialog(c, title);
+        ListDialog.listType = listType;
+    }
+
+    private static void showListDialog(Context c, CharSequence title) {
+        if (listDialog == null || listDialog.getContext() != c)
+            listDialog = new MaterialAlertDialogBuilder(c)
+                    .setTitle(title)
+                    .setView(getListView(c))
+                    .setPositiveButton(c.getString(R.string.close), null)
+                    .create();
+        listDialog.setOnShowListener(p1 -> {
+            androidx.appcompat.app.AlertDialog d = (androidx.appcompat.app.AlertDialog) p1;
+            layout_batch_process = d.findViewById(R.id.layout_batch_process);
+            assert layout_batch_process != null;
+            layout_batch_process.setVisibility(listType == ListType.CHECK && !hasCount ? View.VISIBLE : View.GONE);
+            ListAdapter.get(c).notifyDataSetChanged();
+        });
+        listDialog.show();
+        Button positiveButton = listDialog.getButton(DialogInterface.BUTTON_POSITIVE);
+        if (positiveButton != null) {
+            positiveButton.setTextColor(ContextCompat.getColor(c, R.color.selection_color));
+        }
+    }
+
+    private static View getListView(Context c) {
+        @SuppressLint("InflateParams") View v = LayoutInflater.from(c).inflate(R.layout.dialog_list, null);
+        btn_find_last = v.findViewById(R.id.btn_find_last);
+        btn_find_next = v.findViewById(R.id.btn_find_next);
+        btn_select_all = v.findViewById(R.id.btn_select_all);
+        btn_select_invert = v.findViewById(R.id.btn_select_invert);
+        View.OnClickListener onBtnClickListener = v1 -> {
+            if (searchText.length() <= 0) return;
+            ListAdapter la = ListAdapter.get(v1.getContext());
+            int index = -1;
+            if (v1.getId() == R.id.btn_find_last) index = la.findLast(searchText.getText().toString());
+            else if (v1.getId() == R.id.btn_find_next) index = la.findNext(searchText.getText().toString());
+            if (index < 0) Toast.makeText(v1.getContext(), "未搜到", Toast.LENGTH_SHORT).show();
+            else lv_list.setSelection(index);
+        };
+        btn_find_last.setOnClickListener(onBtnClickListener);
+        btn_find_next.setOnClickListener(onBtnClickListener);
+
+        View.OnClickListener batchBtnOnClickListener = v1 -> {
+            ListAdapter la = ListAdapter.get(v1.getContext());
+            if (v1.getId() == R.id.btn_select_all) la.selectAll();
+            else if (v1.getId() == R.id.btn_select_invert) la.SelectInvert();
+        };
+        btn_select_all.setOnClickListener(batchBtnOnClickListener);
+        btn_select_invert.setOnClickListener(batchBtnOnClickListener);
+
+        searchText = v.findViewById(R.id.edt_find);
+        lv_list = v.findViewById(R.id.lv_list);
+        lv_list.setAdapter(ListAdapter.getClear(c));
+
+        lv_list.setOnItemClickListener((p1, p2, p3, p4) -> {
+            if (listType == ListType.SHOW) return;
+            MapperEntity cur = (MapperEntity) p1.getAdapter().getItem(p3);
+            ListAdapter.ViewHolder holder = (ListAdapter.ViewHolder) p2.getTag();
+            if (!hasCount) {
+                if (listType == ListType.RADIO) {
+                    selectModelFieldFunc.clear();
+                    if (holder.cb.isChecked()) holder.cb.setChecked(false);
+                    else {
+                        for (ListAdapter.ViewHolder vh : ListAdapter.viewHolderList) vh.cb.setChecked(false);
+                        holder.cb.setChecked(true);
+                        selectModelFieldFunc.add(cur.id, 0);
+                    }
+                } else {
+                    if (holder.cb.isChecked()) {
+                        selectModelFieldFunc.remove(cur.id);
+                        holder.cb.setChecked(false);
+                    } else {
+                        if (Boolean.FALSE.equals(selectModelFieldFunc.contains(cur.id))) selectModelFieldFunc.add(cur.id, 0);
+                        holder.cb.setChecked(true);
+                    }
+                }
+            } else {
+                EditText edt = new EditText(c);
+                androidx.appcompat.app.AlertDialog edtDialog = new MaterialAlertDialogBuilder(c)
+                        .setTitle(cur.name)
+                        .setView(edt)
+                        .setPositiveButton(c.getString(R.string.ok), (dialog, which) -> {
+                            if (edt.length() > 0) {
+                                try {
+                                    int count = Integer.parseInt(edt.getText().toString());
+                                    if (count > 0) {
+                                        selectModelFieldFunc.add(cur.id, count);
+                                        holder.cb.setChecked(true);
+                                    } else {
+                                        selectModelFieldFunc.remove(cur.id);
+                                        holder.cb.setChecked(false);
+                                    }
+                                } catch (Exception ignored) {
+                                }
+                            }
+                            ListAdapter.get(c).notifyDataSetChanged();
+                        })
+                        .setNegativeButton(c.getString(R.string.cancel), null)
+                        .create();
+                edt.setHint((cur instanceof CooperateEntity) ? "浇水克数" : "次数");
+                Integer value = selectModelFieldFunc.get(cur.id);
+                if (value != null && value >= 0) edt.setText(String.valueOf(value));
+                edtDialog.show();
+            }
+        });
+
+        lv_list.setOnItemLongClickListener((p1, p2, p3, p4) -> {
+            MapperEntity cur = (MapperEntity) p1.getAdapter().getItem(p3);
+            if (cur instanceof CooperateEntity) {
+                new MaterialAlertDialogBuilder(c)
+                        .setTitle("删除 " + cur.name)
+                        .setPositiveButton(c.getString(R.string.ok), (dialog, which) -> {
+                            CooperateMap.getInstance(CooperateMap.class).remove(cur.id);
+                            selectModelFieldFunc.remove(cur.id);
+                            ListAdapter.get(c).exitFind();
+                            ListAdapter.get(c).notifyDataSetChanged();
+                        })
+                        .setNegativeButton(c.getString(R.string.cancel), null)
+                        .show();
+            } else if (!(cur instanceof AreaCode)) {
+                new MaterialAlertDialogBuilder(c)
+                        .setTitle("选项")
+                        .setAdapter(OptionsAdapter.get(c), (dialog, which) -> {
+                            String url = null;
+                            switch (which) {
+                                case 0: url = "alipays://platformapi/startapp?saId=10000007&qrcode=https%3A%2F%2F60000002.h5app.alipay.com%2Fwww%2Fhome.html%3FuserId%3D"; break;
+                                case 1: url = "alipays://platformapi/startapp?saId=10000007&qrcode=https%3A%2F%2F66666674.h5app.alipay.com%2Fwww%2Findex.htm%3Fuid%3D"; break;
+                                case 2: url = "alipays://platformapi/startapp?appId=20000166&actionType=profile&userId="; break;
+                                case 3:
+                                    new MaterialAlertDialogBuilder(c)
+                                            .setTitle("删除 " + cur.name)
+                                            .setPositiveButton(c.getString(R.string.ok), (d2, w2) -> {
+                                                selectModelFieldFunc.remove(cur.id);
+                                                ListAdapter.get(c).exitFind();
+                                                ListAdapter.get(c).notifyDataSetChanged();
+                                            })
+                                            .setNegativeButton(c.getString(R.string.cancel), null)
+                                            .show();
+                                    break;
+                            }
+                            if (url != null) {
+                                Intent it = new Intent(Intent.ACTION_VIEW, Uri.parse(url + cur.id));
+                                c.startActivity(it);
+                            }
+                        })
+                        .setNegativeButton(c.getString(R.string.cancel), null)
+                        .show();
+            }
+            return true;
+        });
+
+        return v;
+    }
+}

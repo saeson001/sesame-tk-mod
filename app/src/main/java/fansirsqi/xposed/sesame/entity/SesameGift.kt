@@ -1,1 +1,17 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuSWRNYXBNYW5hZ2VyCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuU2VzYW1lR2lmdE1hcAoKY2xhc3MgU2VzYW1lR2lmdChpOiBTdHJpbmcsIG46IFN0cmluZykgOiBNYXBwZXJFbnRpdHkoKSB7CiAgICBpbml0IHsKICAgICAgICBpZCA9IGk7IG5hbWUgPSBuCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIGdldExpc3QoKTogTGlzdDxTZXNhbWVHaWZ0PiB7CiAgICAgICAgICAgIHJldHVybiBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoU2VzYW1lR2lmdE1hcDo6Y2xhc3MuamF2YSkubWFwCiAgICAgICAgICAgICAgICAubWFwIHsgKGtleSwgdmFsdWUpIC0+IFNlc2FtZUdpZnQoa2V5LCB2YWx1ZSkgfQogICAgICAgIH0KICAgIH0KfQ==
+package fansirsqi.xposed.sesame.entity
+
+import fansirsqi.xposed.sesame.util.maps.IdMapManager
+import fansirsqi.xposed.sesame.util.maps.SesameGiftMap
+
+class SesameGift(i: String, n: String) : MapperEntity() {
+    init {
+        id = i; name = n
+    }
+
+    companion object {
+        fun getList(): List<SesameGift> {
+            return IdMapManager.getInstance(SesameGiftMap::class.java).map
+                .map { (key, value) -> SesameGift(key, value) }
+        }
+    }
+}

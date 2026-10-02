@@ -1,1 +1,41 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5kdG87CmltcG9ydCBsb21ib2suRGF0YTsKaW1wb3J0IGphdmEuaW8uU2VyaWFsaXphYmxlOwovKioKICog5qih5Z6L57uE5pWw5o2u5Lyg6L6T5a+56LGh44CCCiAqIOeUqOS6juWwgeijheaooeWei+e7hOeahOebuOWFs+S/oeaBr++8jOWMheaLrOe7hOS7o+eggeOAgeWQjeensOWSjOWbvuagh+OAggogKi8KQERhdGEKcHVibGljIGNsYXNzIE1vZGVsR3JvdXBEdG8gaW1wbGVtZW50cyBTZXJpYWxpemFibGUgewogICAgLyoqCiAgICAgKiDmqKHlnovnu4Tku6PnoIHjgIIKICAgICAqLwogICAgcHJpdmF0ZSBTdHJpbmcgY29kZTsKICAgIC8qKgogICAgICog5qih5Z6L57uE5ZCN56ew44CCCiAgICAgKi8KICAgIHByaXZhdGUgU3RyaW5nIG5hbWU7CiAgICAvKioKICAgICAqIOaooeWei+e7hOWbvuagh+OAggogICAgICovCiAgICBwcml2YXRlIFN0cmluZyBpY29uOwogICAgLyoqCiAgICAgKiDml6Dlj4LmnoTpgKDlh73mlbDjgIIKICAgICAqIOeUqOS6juWPjeW6j+WIl+WMluetieWcuuaZr+OAggogICAgICovCiAgICBwdWJsaWMgTW9kZWxHcm91cER0bygpIHsKICAgIH0KICAgIC8qKgogICAgICog5YWo5Y+C5p6E6YCg5Ye95pWw44CCCiAgICAgKiDnlKjkuo7liJvlu7rljIXlkKvlrozmlbTkv6Hmga/nmoTmqKHlnovnu4Tlr7nosaHjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gY29kZSDmqKHlnovnu4Tku6PnoIEKICAgICAqIEBwYXJhbSBuYW1lIOaooeWei+e7hOWQjeensAogICAgICogQHBhcmFtIGljb24g5qih5Z6L57uE5Zu+5qCHCiAgICAgKi8KICAgIHB1YmxpYyBNb2RlbEdyb3VwRHRvKFN0cmluZyBjb2RlLCBTdHJpbmcgbmFtZSwgU3RyaW5nIGljb24pIHsKICAgICAgICB0aGlzLmNvZGUgPSBjb2RlOwogICAgICAgIHRoaXMubmFtZSA9IG5hbWU7CiAgICAgICAgdGhpcy5pY29uID0gaWNvbjsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.ui.dto;
+import lombok.Data;
+import java.io.Serializable;
+/**
+ * 模型组数据传输对象。
+ * 用于封装模型组的相关信息，包括组代码、名称和图标。
+ */
+@Data
+public class ModelGroupDto implements Serializable {
+    /**
+     * 模型组代码。
+     */
+    private String code;
+    /**
+     * 模型组名称。
+     */
+    private String name;
+    /**
+     * 模型组图标。
+     */
+    private String icon;
+    /**
+     * 无参构造函数。
+     * 用于反序列化等场景。
+     */
+    public ModelGroupDto() {
+    }
+    /**
+     * 全参构造函数。
+     * 用于创建包含完整信息的模型组对象。
+     *
+     * @param code 模型组代码
+     * @param name 模型组名称
+     * @param icon 模型组图标
+     */
+    public ModelGroupDto(String code, String name, String icon) {
+        this.code = code;
+        this.name = name;
+        this.icon = icon;
+    }
+}

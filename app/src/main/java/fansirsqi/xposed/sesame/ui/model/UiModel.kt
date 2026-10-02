@@ -1,1 +1,11 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5tb2RlbAoKZW51bSBjbGFzcyBVaU1vZGUodmFsIHZhbHVlOiBTdHJpbmcpIHsKICAgIFdlYigid2ViIiksCiAgICBOZXcoIm5ldyIpOwoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIC8vIOWuieWFqOino+aekO+8jOm7mOiupOS4uiBXZWIKICAgICAgICBmdW4gZnJvbVZhbHVlKHZhbHVlOiBTdHJpbmc/KTogVWlNb2RlID0gZW50cmllcy5maW5kIHsgaXQudmFsdWUgPT0gdmFsdWUgfSA/OiBXZWIKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.ui.model
+
+enum class UiMode(val value: String) {
+    Web("web"),
+    New("new");
+
+    companion object {
+        // 安全解析，默认为 Web
+        fun fromValue(value: String?): UiMode = entries.find { it.value == value } ?: Web
+    }
+}

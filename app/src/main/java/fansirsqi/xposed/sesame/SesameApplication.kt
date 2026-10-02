@@ -1,1 +1,84 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZQoKaW1wb3J0IGFuZHJvaWQuYXBwLkFwcGxpY2F0aW9uCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkucmVwb3NpdG9yeS5Db25maWdSZXBvc2l0b3J5CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5zZXJ2aWNlLkNvbW1hbmRTZXJ2aWNlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS50aGVtZS5UaGVtZU1hbmFnZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuQ3Jhc2hMb2dnZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlByb2JlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlRvYXN0VXRpbAoKLyoqCiAqIOiKnem6u+eykuW6lOeUqOS4u+exuwogKgogKiDotJ/otKPlupTnlKjliJ3lp4vljJYKICovCmNsYXNzIFNlc2FtZUFwcGxpY2F0aW9uIDogQXBwbGljYXRpb24oKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlNlc2FtZUFwcGxpY2F0aW9uIgogICAgICAgIHB1YmxpYyBjb25zdCB2YWwgUFJFRkVSRU5DRVNfS0VZID0gInNlc2FtZS10ayIKICAgICAgICB2YXIgaGFzUGVybWlzc2lvbnM6IEJvb2xlYW4gPSBmYWxzZQoKICAgIH0KCiAgICAvKioKICAgICAqIOW6lOeUqOi/m+eoi+S4reacgOaXqeiDveaJp+ihjOS7o+eggeeahOS9jee9ru+8muaXqeS6jiBDb250ZW50UHJvdmlkZXIg5a6J6KOF44CB5pep5LqOIG9uQ3JlYXRl44CCCiAgICAgKiDltKnmuoPmjZXojrflv4XpobvmlL7lnKjov5nph4zvvIzlkKbliJkgU2hpenVrdVByb3ZpZGVyIOS5i+exu+WcqCBvbkNyZWF0ZSDkuYvliY3ltKnnmoTor53moLnmnKzorrDlvZXkuI3liLDjgIIKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIGF0dGFjaEJhc2VDb250ZXh0KGJhc2U6IENvbnRleHQ/KSB7CiAgICAgICAgc3VwZXIuYXR0YWNoQmFzZUNvbnRleHQoYmFzZSkKICAgICAgICB0cnkgewogICAgICAgICAgICBQcm9iZS5hdHRhY2goYmFzZSkKICAgICAgICAgICAgUHJvYmUuc3RlcCgxLCAiYXBwLWF0dGFjaC1iYXNlIiwgImF0dGFjaEJhc2VDb250ZXh0IOW3sui/m+WFpSIpCiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgfQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIENyYXNoTG9nZ2VyLmluc3RhbGwoIm1vZHVsZSIsIGJhc2UpCiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZSgpIHsKICAgICAgICBzdXBlci5vbkNyZWF0ZSgpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgUHJvYmUuYXR0YWNoKHRoaXMpCiAgICAgICAgICAgIFByb2JlLnN0ZXAoMiwgImFwcC1jcmVhdGUtc3RhcnQiKQogICAgICAgIH0gY2F0Y2ggKF86IFRocm93YWJsZSkgewogICAgICAgIH0KICAgICAgICAvLyDkv53pmanotbfop4Hlho3oo4XkuIDmrKHvvIjluYLnrYnvvInvvIzpobrkvr/ooaXkuIogQ29udGV4dAogICAgICAgIHRyeSB7IENyYXNoTG9nZ2VyLmluc3RhbGwoIm1vZHVsZSIsIHRoaXMpIH0gY2F0Y2ggKF86IFRocm93YWJsZSkge30KICAgICAgICB0cnkgewogICAgICAgICAgICBUb2FzdFV0aWwuaW5pdCh0aGlzKSAvLyDliJ3lp4vljJblhajlsYAgQ29udGV4dAogICAgICAgICAgICBQcm9iZS5zdGVwKDMsICJ0b2FzdC1pbml0LW9rIikKICAgICAgICAgICAgTG9nLmluaXQodGhpcykKICAgICAgICAgICAgUHJvYmUuc3RlcCg0LCAibG9nLWluaXQtb2siKQogICAgICAgICAgICBUaGVtZU1hbmFnZXIuaW5pdCh0aGlzKQogICAgICAgICAgICBQcm9iZS5zdGVwKDUsICJ0aGVtZS1pbml0LW9rIikKICAgICAgICAgICAgQ29uZmlnUmVwb3NpdG9yeS5pbml0KHRoaXMsIFBSRUZFUkVOQ0VTX0tFWSkKICAgICAgICAgICAgUHJvYmUuc3RlcCg2LCAiY29uZmlnLXJlcG8taW5pdC1vayIpCiAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIFByb2JlLnN0ZXAoNywgImFwcC1jcmVhdGUtRkFJTEVEIiwgdC5qYXZhQ2xhc3MubmFtZSArICI6ICIgKyB0Lm1lc3NhZ2UpCiAgICAgICAgICAgIENyYXNoTG9nZ2VyLmxvZygibW9kdWxlIiwgIkFwcGxpY2F0aW9uLm9uQ3JlYXRlIOWksei0pSIsIHQpCiAgICAgICAgfQogICAgICAgIHJ1bkNhdGNoaW5nIHsgc3RhcnRDb21tYW5kU2VydmljZSgpIH0KICAgICAgICBQcm9iZS5zdGVwKDgsICJhcHAtY3JlYXRlLWVuZCIpCiAgICB9CgogICAgLyoqCiAgICAgKiDlkK/liqggQ29tbWFuZFNlcnZpY2UKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gc3RhcnRDb21tYW5kU2VydmljZSgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KHRoaXMsIENvbW1hbmRTZXJ2aWNlOjpjbGFzcy5qYXZhKQogICAgICAgICAgICBzdGFydFNlcnZpY2UoaW50ZW50KQogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKchSBDb21tYW5kU2VydmljZSDlt7LlkK/liqgiKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIuKdjCBDb21tYW5kU2VydmljZSDlkK/liqjlpLHotKU6IiwgZSkKICAgICAgICB9CiAgICB9Cgp9
+package fansirsqi.xposed.sesame
+
+import android.app.Application
+import android.content.Context
+import android.content.Intent
+import fansirsqi.xposed.sesame.ui.repository.ConfigRepository
+import fansirsqi.xposed.sesame.service.CommandService
+import fansirsqi.xposed.sesame.ui.theme.ThemeManager
+import fansirsqi.xposed.sesame.util.CrashLogger
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.Probe
+import fansirsqi.xposed.sesame.util.ToastUtil
+
+/**
+ * 芝麻粒应用主类
+ *
+ * 负责应用初始化
+ */
+class SesameApplication : Application() {
+
+    companion object {
+        private const val TAG = "SesameApplication"
+        public const val PREFERENCES_KEY = "sesame-tk"
+        var hasPermissions: Boolean = false
+
+    }
+
+    /**
+     * 应用进程中最早能执行代码的位置：早于 ContentProvider 安装、早于 onCreate。
+     * 崩溃捕获必须放在这里，否则 ShizukuProvider 之类在 onCreate 之前崩的话根本记录不到。
+     */
+    override fun attachBaseContext(base: Context?) {
+        super.attachBaseContext(base)
+        try {
+            Probe.attach(base)
+            Probe.step(1, "app-attach-base", "attachBaseContext 已进入")
+        } catch (_: Throwable) {
+        }
+        try {
+            CrashLogger.install("module", base)
+        } catch (_: Throwable) {
+        }
+    }
+
+    override fun onCreate() {
+        super.onCreate()
+        try {
+            Probe.attach(this)
+            Probe.step(2, "app-create-start")
+        } catch (_: Throwable) {
+        }
+        // 保险起见再装一次（幂等），顺便补上 Context
+        try { CrashLogger.install("module", this) } catch (_: Throwable) {}
+        try {
+            ToastUtil.init(this) // 初始化全局 Context
+            Probe.step(3, "toast-init-ok")
+            Log.init(this)
+            Probe.step(4, "log-init-ok")
+            ThemeManager.init(this)
+            Probe.step(5, "theme-init-ok")
+            ConfigRepository.init(this, PREFERENCES_KEY)
+            Probe.step(6, "config-repo-init-ok")
+        } catch (t: Throwable) {
+            Probe.step(7, "app-create-FAILED", t.javaClass.name + ": " + t.message)
+            CrashLogger.log("module", "Application.onCreate 失败", t)
+        }
+        runCatching { startCommandService() }
+        Probe.step(8, "app-create-end")
+    }
+
+    /**
+     * 启动 CommandService
+     */
+    private fun startCommandService() {
+        try {
+            val intent = Intent(this, CommandService::class.java)
+            startService(intent)
+            Log.record(TAG, "✅ CommandService 已启动")
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "❌ CommandService 启动失败:", e)
+        }
+    }
+
+}

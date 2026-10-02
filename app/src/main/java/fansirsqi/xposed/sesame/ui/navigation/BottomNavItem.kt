@@ -1,1 +1,17 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5uYXZpZ2F0aW9uCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5hdXRvbWlycm9yZWQucm91bmRlZC5BcnRpY2xlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLnJvdW5kZWQuSG9tZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5yb3VuZGVkLlNldHRpbmdzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnZlY3Rvci5JbWFnZVZlY3RvcgoKc2VhbGVkIGNsYXNzIEJvdHRvbU5hdkl0ZW0oCiAgICB2YWwgcm91dGU6IFN0cmluZywKICAgIHZhbCBsYWJlbDogU3RyaW5nLAogICAgdmFsIGljb246IEltYWdlVmVjdG9yCikgewogICAgZGF0YSBvYmplY3QgTG9ncyA6IEJvdHRvbU5hdkl0ZW0oImxvZ3MiLCAi5pel5b+XIiwgSWNvbnMuQXV0b01pcnJvcmVkLlJvdW5kZWQuQXJ0aWNsZSkKICAgIGRhdGEgb2JqZWN0IEhvbWUgOiBCb3R0b21OYXZJdGVtKCJob21lIiwgIuS4u+mhtSIsIEljb25zLlJvdW5kZWQuSG9tZSkKICAgIGRhdGEgb2JqZWN0IFNldHRpbmdzIDogQm90dG9tTmF2SXRlbSgic2V0dGluZ3MiLCAi6K6+572uIiwgSWNvbnMuUm91bmRlZC5TZXR0aW5ncykKfQ==
+package fansirsqi.xposed.sesame.ui.navigation
+
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.rounded.Article
+import androidx.compose.material.icons.rounded.Home
+import androidx.compose.material.icons.rounded.Settings
+import androidx.compose.ui.graphics.vector.ImageVector
+
+sealed class BottomNavItem(
+    val route: String,
+    val label: String,
+    val icon: ImageVector
+) {
+    data object Logs : BottomNavItem("logs", "日志", Icons.AutoMirrored.Rounded.Article)
+    data object Home : BottomNavItem("home", "主页", Icons.Rounded.Home)
+    data object Settings : BottomNavItem("settings", "设置", Icons.Rounded.Settings)
+}

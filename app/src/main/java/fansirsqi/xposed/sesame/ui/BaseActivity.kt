@@ -1,1 +1,64 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aQoKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBhbmRyb2lkeC5hcHBjb21wYXQuYXBwLkFwcENvbXBhdEFjdGl2aXR5CmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwuYXBwYmFyLk1hdGVyaWFsVG9vbGJhcgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUgoKb3BlbiBjbGFzcyBCYXNlQWN0aXZpdHkgOiBBcHBDb21wYXRBY3Rpdml0eSgpIHsKCiAgICAvLyDwn5SlIOS/ruWkjeeCuSAxOiDmlLnkuLrlj6/nqbrnsbvlnovvvIzkuI3opoHkvb/nlKggbGF0ZWluaXQg5oiW55u05o6lIGxhenkg6Z2e56m6CiAgICAvLyBDb21wb3NlIOaooeW8j+S4i++8jOi/meS4qiBUb29sYmFyIOWPr+iDveagueacrOS4jeWtmOWcqAogICAgcHJvdGVjdGVkIHZhbCB0b29sYmFyOiBNYXRlcmlhbFRvb2xiYXI/IGJ5IGxhenkgewogICAgICAgIGZpbmRWaWV3QnlJZChSLmlkLnhfdG9vbGJhcikKICAgIH0KICAgIC8vIOaaguWtmOagh+mimAogICAgcHJpdmF0ZSB2YXIgcGVuZGluZ1RpdGxlOiBDaGFyU2VxdWVuY2U/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgcGVuZGluZ1N1YnRpdGxlOiBDaGFyU2VxdWVuY2U/ID0gbnVsbAoKICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGU6IEJ1bmRsZT8pIHsKICAgICAgICBzdXBlci5vbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGUpCiAgICB9CgoKICAgIG92ZXJyaWRlIGZ1biBvbkNvbnRlbnRDaGFuZ2VkKCkgewogICAgICAgIHN1cGVyLm9uQ29udGVudENoYW5nZWQoKQoKICAgICAgICAvLyDwn5SlIOS/ruWkjeeCuSAyOiDlronlhajorr/pl64gdG9vbGJhcgogICAgICAgIC8vIOWmguaenOaYryBDb21wb3NlIOaooeW8j++8jGZpbmRWaWV3QnlJZCDkvJrov5Tlm54gbnVsbO+8jOaIkeS7rOebtOaOpeW/veeVpeWNs+WPrwogICAgICAgIHRvb2xiYXI/LmxldCB7IHRiIC0+CiAgICAgICAgICAgIHNldFN1cHBvcnRBY3Rpb25CYXIodGIpCiAgICAgICAgICAgIHRiLnNldENvbnRlbnRJbnNldHNBYnNvbHV0ZSgwLCAwKQogICAgICAgICAgICB1cGRhdGVUb29sYmFyVGV4dCgpCiAgICAgICAgfQogICAgfQoKICAgIC8vIOWfuuehgOagh+mimAogICAgb3BlbiB2YXIgYmFzZVRpdGxlOiBTdHJpbmc/CiAgICAgICAgZ2V0KCkgPSBwZW5kaW5nVGl0bGU/LnRvU3RyaW5nKCkKICAgICAgICBzZXQodmFsdWUpIHsKICAgICAgICAgICAgcGVuZGluZ1RpdGxlID0gdmFsdWUKICAgICAgICAgICAgdXBkYXRlVG9vbGJhclRleHQoKQogICAgICAgIH0KCiAgICAvLyDln7rnoYDlia/moIfpopgKICAgIG9wZW4gdmFyIGJhc2VTdWJ0aXRsZTogU3RyaW5nPwogICAgICAgIGdldCgpID0gcGVuZGluZ1N1YnRpdGxlPy50b1N0cmluZygpCiAgICAgICAgc2V0KHZhbHVlKSB7CiAgICAgICAgICAgIHBlbmRpbmdTdWJ0aXRsZSA9IHZhbHVlCiAgICAgICAgICAgIHVwZGF0ZVRvb2xiYXJUZXh0KCkKICAgICAgICB9CgogICAgcHJpdmF0ZSBmdW4gdXBkYXRlVG9vbGJhclRleHQoKSB7CiAgICAgICAgLy8g8J+UpSDkv67lpI3ngrkgMzog5Y+q5pyJ5b2TIHRvb2xiYXIg5a2Y5Zyo5pe25omN5pu05pawCiAgICAgICAgdG9vbGJhcj8ubGV0IHsKICAgICAgICAgICAgaXQudGl0bGUgPSBwZW5kaW5nVGl0bGUKICAgICAgICAgICAgaXQuc3VidGl0bGUgPSBwZW5kaW5nU3VidGl0bGUKICAgICAgICB9CiAgICB9CgoKLy8KCgp9
+package fansirsqi.xposed.sesame.ui
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.appbar.MaterialToolbar
+import fansirsqi.xposed.sesame.R
+
+open class BaseActivity : AppCompatActivity() {
+
+    // 🔥 修复点 1: 改为可空类型，不要使用 lateinit 或直接 lazy 非空
+    // Compose 模式下，这个 Toolbar 可能根本不存在
+    protected val toolbar: MaterialToolbar? by lazy {
+        findViewById(R.id.x_toolbar)
+    }
+    // 暂存标题
+    private var pendingTitle: CharSequence? = null
+    private var pendingSubtitle: CharSequence? = null
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
+
+
+    override fun onContentChanged() {
+        super.onContentChanged()
+
+        // 🔥 修复点 2: 安全访问 toolbar
+        // 如果是 Compose 模式，findViewById 会返回 null，我们直接忽略即可
+        toolbar?.let { tb ->
+            setSupportActionBar(tb)
+            tb.setContentInsetsAbsolute(0, 0)
+            updateToolbarText()
+        }
+    }
+
+    // 基础标题
+    open var baseTitle: String?
+        get() = pendingTitle?.toString()
+        set(value) {
+            pendingTitle = value
+            updateToolbarText()
+        }
+
+    // 基础副标题
+    open var baseSubtitle: String?
+        get() = pendingSubtitle?.toString()
+        set(value) {
+            pendingSubtitle = value
+            updateToolbarText()
+        }
+
+    private fun updateToolbarText() {
+        // 🔥 修复点 3: 只有当 toolbar 存在时才更新
+        toolbar?.let {
+            it.title = pendingTitle
+            it.subtitle = pendingSubtitle
+        }
+    }
+
+
+//
+
+
+}

@@ -1,1 +1,517 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudFN0YWxsCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5SZXF1ZXN0TWFuYWdlcgppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBqYXZhLnV0aWwuVVVJRAoKLyoqCiAqIEBjbGFzcyBBbnRTdGFsbFJwY0NhbGwKICogQGJyaWVmIOiaguiageWwj+mTuiAoQW50IFN0YWxsKSBSUEMg6LCD55So57G7CiAqIEBkZXRhaWxzIOWkhOeQhuiaguiageWwj+mTuuebuOWFs+eahOe9kee7nOivt+axgu+8jOWMheaLrOW6l+mTuueuoeeQhuOAgeS7u+WKoeOAgeWlveWPi+S6kuWKqOetiQogKiBAYXV0aG9yCiAqIEBzaW5jZSAyMDIzLzA4LzIyCiAqLwpvYmplY3QgQW50U3RhbGxScGNDYWxsIHsKCiAgICAvKiog5o6l5Y+j54mI5pys5Y+3ICovCiAgICBwcml2YXRlIGNvbnN0IHZhbCBWRVJTSU9OID0gIjAuMS4yNjAxMTYxNDQ0LjQ3IgoKICAgIC8qKgogICAgICogQGJyaWVmIOiOt+WPluS4quS6uuS4u+mhteaVsOaNrgogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIGhvbWUoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwuc2VsZi5ob21lIiwKICAgICAgICAgICAgIlt7XCJhcm91c2VBcHBQYXJhbXNcIjp7fSxcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOe7k+eul+aUtuebigogICAgICogQHBhcmFtIGFzc2V0SWQg6LWE5LqnSUQKICAgICAqIEBwYXJhbSBzZXR0bGVDb2luIOe7k+eul+mHkeW4geaVsOmHjwogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHNldHRsZShhc3NldElkOiBTdHJpbmcsIHNldHRsZUNvaW46IEludCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudHN0YWxsLnNlbGYuc2V0dGxlIiwKICAgICAgICAgICAgIlt7XCJhc3NldElkXCI6XCIkYXNzZXRJZFwiLFwiY29pblR5cGVcIjpcIk1BU1RFUlwiLFwic2V0dGxlQ29pblwiOiRzZXR0bGVDb2luLFwic291cmNlXCI6XCJzZWFyY2hcIixcInN5c3RlbVR5cGVcIjpcImFuZHJvaWRcIixcInZlcnNpb25cIjpcIiRWRVJTSU9OXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiBAYnJpZWYg6I635Y+W5ZWG5bqX5YiX6KGoCiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBmdW4gc2hvcExpc3QoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwuc2hvcC5saXN0IiwKICAgICAgICAgICAgIlt7XCJmcmVlVG9wXCI6ZmFsc2UsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDkuIDplK7mlLbmkYrliY3nmoTpooTmo4Dmn6UKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBwcmVPbmVLZXlDbG9zZSgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC51c2VyLnNob3AuY2xvc2UucHJlT25lS2V5IiwKICAgICAgICAgICAgIlt7XCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDkuIDplK7mlLbmkYoKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBvbmVLZXlDbG9zZSgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC51c2VyLnNob3Aub25lS2V5Q2xvc2UiLAogICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOaUtuaRiuWJjeeahOmihOajgOafpQogICAgICogQHBhcmFtIHNob3BJZCDllYblupdJRAogICAgICogQHBhcmFtIGJpbGxObyDotKbljZXnvJblj7cKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBwcmVTaG9wQ2xvc2Uoc2hvcElkOiBTdHJpbmcsIGJpbGxObzogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwudXNlci5zaG9wLmNsb3NlLnByZSIsCiAgICAgICAgICAgICJbe1wiYmlsbE5vXCI6XCIkYmlsbE5vXCIsXCJzaG9wSWRcIjpcIiRzaG9wSWRcIixcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOaUtuaRigogICAgICogQHBhcmFtIHNob3BJZCDllYblupdJRAogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHNob3BDbG9zZShzaG9wSWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudHN0YWxsLnVzZXIuc2hvcC5jbG9zZSIsCiAgICAgICAgICAgICJbe1wic2hvcElkXCI6XCIkc2hvcElkXCIsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDkuIDplK7lvIDlupcKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBvbmVLZXlPcGVuKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudHN0YWxsLnVzZXIuc2hvcC5vbmVLZXlPcGVuIiwKICAgICAgICAgICAgIlt7XCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDlnKjlpb3lj4vkvY3lvIDlupcKICAgICAqIEBwYXJhbSBmcmllbmRTZWF0SWQg5aW95Y+L5L2N572uSUQKICAgICAqIEBwYXJhbSBmcmllbmRVc2VySWQg5aW95Y+L55So5oi3SUQKICAgICAqIEBwYXJhbSBzaG9wSWQg5ZWG5bqXSUQKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBzaG9wT3BlbihmcmllbmRTZWF0SWQ6IFN0cmluZywgZnJpZW5kVXNlcklkOiBTdHJpbmcsIHNob3BJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwudXNlci5zaG9wLm9wZW4iLAogICAgICAgICAgICAiW3tcImZyaWVuZFNlYXRJZFwiOlwiJGZyaWVuZFNlYXRJZFwiLFwiZnJpZW5kVXNlcklkXCI6XCIkZnJpZW5kVXNlcklkXCIsXCJzaG9wSWRcIjpcIiRzaG9wSWRcIixcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOaNkOi1oOaOkuWQjemHkeW4gQogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHJhbmtDb2luRG9uYXRlKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudHN0YWxsLnJhbmsuY29pbi5kb25hdGUiLAogICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwiQU5URkFSTVwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDov5vlhaXlpb3lj4vnmoTlsI/pk7rpppbpobUKICAgICAqIEBwYXJhbSB1c2VySWQg5aW95Y+L55So5oi3SUQKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBmcmllbmRIb21lKHVzZXJJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwuZnJpZW5kLmhvbWUiLAogICAgICAgICAgICAiW3tcImFyb3VzZUFwcFBhcmFtc1wiOnt9LFwiZnJpZW5kVXNlcklkXCI6XCIkdXNlcklkXCIsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDojrflj5bku7vliqHliJfooagKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biB0YXNrTGlzdCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC50YXNrLmxpc3QiLAogICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOS7iuaXpeetvuWIsAogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHNpZ25Ub2RheSgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC5zaWduLnRvZGF5IiwKICAgICAgICAgICAgIlt7XCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDlrozmiJDpgJrnlKjku7vliqEKICAgICAqIEBwYXJhbSBvdXRCaXpObyDlpJbpg6jkuJrliqHnvJblj7cKICAgICAqIEBwYXJhbSB0YXNrVHlwZSDku7vliqHnsbvlnosKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBmaW5pc2hUYXNrKG91dEJpek5vOiBTdHJpbmcsIHRhc2tUeXBlOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRpZXAuZmluaXNoVGFzayIsCiAgICAgICAgICAgICJbe1wib3V0Qml6Tm9cIjpcIiRvdXRCaXpOb1wiLFwicmVxdWVzdFR5cGVcIjpcIlJQQ1wiLFwic2NlbmVDb2RlXCI6XCJBTlRTVEFMTF9UQVNLXCIsXCJzb3VyY2VcIjpcIkFTVFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidGFza1R5cGVcIjpcIiR0YXNrVHlwZVwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDosIPnlKjlub/lkYov5o+S5Lu25o6l5Y+jCiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBmdW4geGxpZ2h0UGx1Z2luKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFkZXhjaGFuZ2UuYWQuZmFjYWRlLnhsaWdodFBsdWdpbiIsCiAgICAgICAgICAgICJbe1wicG9zaXRpb25SZXF1ZXN0XCI6e1wiZXh0TWFwXCI6e1wieGxpZ2h0UGxheUluc3RhbmNlSWRcIjpcIjMwMDAwNFwifSxcInJlZmVySW5mb1wiOnt9LFwic3BhY2VDb2RlXCI6XCJBTlRfRkFSTV9ORVdfVklMTEFHRVwifSxcInNka1BhZ2VJbmZvXCI6e1wiYWRDb21wb25lbnRUeXBlXCI6XCJGRUVEU1wiLFwiYWRDb21wb25lbnRWZXJzaW9uXCI6XCI0LjExLjEzXCIsXCJlbmFibGVGdXNpb25cIjp0cnVlLFwibmV0d29ya1R5cGVcIjpcIldJRklcIixcInBhZ2VGcm9tXCI6XCJjaF91cmwtaHR0cHM6Ly82ODY4NzgwOS5oNWFwcC5hbGlwYXkuY29tL3d3dy9nYW1lLmh0bWxcIixcInBhZ2VOb1wiOjEsXCJwYWdlVXJsXCI6XCJodHRwczovL3JlbmRlci5hbGlwYXkuY29tL3AveXV5YW4vMTgwMDIwMDEwMDAxMjU2OTE4L211bHRpLXN0YWdlLXRhc2suaHRtbD9jYXByTW9kZT1zeW5jJnNwYWNlQ29kZUZlZWRzPUFOVF9GQVJNX05FV19WSUxMQUdFJnVzZVBsYXlMaW5rPXRydWUmeGxpZ2h0UGxheUluc3RhbmNlSWQ9MzAwMDA0XCIsXCJzZXNzaW9uXCI6XCJ1XzU0YjcyMWQ5ZmZmZDZfMTkwNGI4ZWJhOGZcIixcInVuaW9uQXBwSWRcIjpcIjIwNjAwOTAwMDAzMDQ5MjFcIixcInVzZVBsYXlMaW5rXCI6XCJ0cnVlXCIsXCJ4bGlnaHRTREtUeXBlXCI6XCJoNVwiLFwieGxpZ2h0U0RLVmVyc2lvblwiOlwiNC4xMS4xM1wifX1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDnu5PmnZ/nibnlrprkuJrliqEKICAgICAqIEBwYXJhbSBwbGF5Qml6SWQg5pKt5pS+5Lia5YqhSUQKICAgICAqIEBwYXJhbSBqc29uT2JqZWN0IOS6i+S7tuS/oeaBrwogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIGZpbmlzaChwbGF5Qml6SWQ6IFN0cmluZywganNvbk9iamVjdDogSlNPTk9iamVjdCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFkdGFzay5iaXoubW9iaWxlZ3cuc2VydmljZS5pbnRlcmFjdGlvbi5maW5pc2giLAogICAgICAgICAgICAiW3tcImV4dGVuZEluZm9cIjp7XCJpZXBUYXNrU2NlbmVDb2RlXCI6XCJBTlRTVEFMTF9UQVNLXCIsXCJpZXBUYXNrVHlwZVwiOlwiQU5UU1RBTExfWExJR0hUX1ZBUklBQkxFX0FXQVJEXCJ9LFwicGxheUJpeklkXCI6XCIkcGxheUJpeklkXCIsXCJwbGF5RXZlbnRJbmZvXCI6JGpzb25PYmplY3QsXCJzb3VyY2VcIjpcImFkeFwiIH1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDmn6Xor6LlupTnlKjot7PovawgU2NoZW1hCiAgICAgKiBAcGFyYW0gc2NlbmVDb2RlIOWcuuaZr+S7o+eggQogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHF1ZXJ5Q2FsbEFwcFNjaGVtYShzY2VuZUNvZGU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJhbGlwYXkuYW50bWVtYmVyLmNhbGxBcHAucXVlcnlDYWxsQXBwU2NoZW1hIiwKICAgICAgICAgICAgIlt7XCJzY2VuZUNvZGVcIjpcIiRzY2VuZUNvZGVcIiB9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiBAYnJpZWYg6aKG5Y+W5Lu75Yqh5aWW5YqxIChJRVAg5o6l5Y+jKQogICAgICogQHBhcmFtIHRhc2tUeXBlIOS7u+WKoeexu+WeiwogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHJlY2VpdmVUYXNrQXdhcmQodGFza1R5cGU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudGllcC5yZWNlaXZlVGFza0F3YXJkIiwKICAgICAgICAgICAgIlt7XCJpZ25vcmVMaW1pdFwiOnRydWUsXCJyZXF1ZXN0VHlwZVwiOlwiUlBDXCIsXCJzY2VuZUNvZGVcIjpcIkFOVFNUQUxMX1RBU0tcIixcInNvdXJjZVwiOlwiQVNUXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ0YXNrVHlwZVwiOlwiJHRhc2tUeXBlXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOWujOaIkOWwj+mTuuS7u+WKoQogICAgICogQHBhcmFtIHRhc2tUeXBlIOS7u+WKoeexu+WeiwogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHRhc2tGaW5pc2godGFza1R5cGU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudHN0YWxsLnRhc2suZmluaXNoIiwKICAgICAgICAgICAgIlt7XCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidGFza1R5cGVcIjpcIiR0YXNrVHlwZVwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDpooblj5blsI/pk7rku7vliqHlpZblirEKICAgICAqIEBwYXJhbSBhbW91bnQg5aWW5Yqx5pWw6YePCiAgICAgKiBAcGFyYW0gcHJpemVJZCDlpZblk4FJRAogICAgICogQHBhcmFtIHRhc2tUeXBlIOS7u+WKoeexu+WeiwogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHRhc2tBd2FyZChhbW91bnQ6IFN0cmluZywgcHJpemVJZDogU3RyaW5nLCB0YXNrVHlwZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwudGFzay5hd2FyZCIsCiAgICAgICAgICAgICJbe1wiYW1vdW50XCI6JGFtb3VudCxcInByaXplSWRcIjpcIiRwcml6ZUlkXCIsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidGFza1R5cGVcIjpcIiR0YXNrVHlwZVwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDojrflj5bku7vliqHmnYPnm4oKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biB0YXNrQmVuZWZpdCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC50YXNrLmJlbmVmaXQiLAogICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOaUtumbhuiCpeaWmQogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIGNvbGxlY3RNYW51cmUoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwubWFudXJlLmNvbGxlY3RNYW51cmUiLAogICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOafpeivouiCpeaWmeS/oeaBrwogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHF1ZXJ5TWFudXJlSW5mbygpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC5tYW51cmUucXVlcnlNYW51cmVJbmZvIiwKICAgICAgICAgICAgIlt7XCJxdWVyeU1hbnVyZVR5cGVcIjpcIkFOVFNUQUxMXCIsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDojrflj5bpobnnm67liJfooagKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBwcm9qZWN0TGlzdCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC5wcm9qZWN0Lmxpc3QiLAogICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOiOt+WPlumhueebruivpuaDhQogICAgICogQHBhcmFtIHByb2plY3RJZCDpobnnm65JRAogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHByb2plY3REZXRhaWwocHJvamVjdElkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC5wcm9qZWN0LmRldGFpbCIsCiAgICAgICAgICAgICJbe1wicHJvamVjdElkXCI6XCIkcHJvamVjdElkXCIsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDmjZDotaDpobnnm64KICAgICAqIEBwYXJhbSBwcm9qZWN0SWQg6aG555uuSUQKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBwcm9qZWN0RG9uYXRlKHByb2plY3RJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwucHJvamVjdC5kb25hdGUiLAogICAgICAgICAgICAiW3tcImJpek5vXCI6XCIke1VVSUQucmFuZG9tVVVJRCgpfVwiLFwicHJvamVjdElkXCI6XCIkcHJvamVjdElkXCIsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDojrflj5bot6/nur/lm74KICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biByb2FkbWFwKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudHN0YWxsLnZpbGxhZ2Uucm9hZG1hcCIsCiAgICAgICAgICAgICJbe1wic291cmNlXCI6XCJzZWFyY2hcIixcInN5c3RlbVR5cGVcIjpcImFuZHJvaWRcIixcInZlcnNpb25cIjpcIiRWRVJTSU9OXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiBAYnJpZWYg6L+b5YWl5LiL5LiA5Liq5p2R5bqECiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBmdW4gbmV4dFZpbGxhZ2UoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwudXNlci5hc3QubmV4dC52aWxsYWdlIiwKICAgICAgICAgICAgIlt7XCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDms6jlhozmjpLooYzmppzpgoDor7cKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biByYW5rSW52aXRlUmVnaXN0ZXIoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwucmFuay5pbnZpdGUucmVnaXN0ZXIiLAogICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOazqOWGjOWlveWPi+mCgOivtwogICAgICogQHBhcmFtIGZyaWVuZFVzZXJJZCDlpb3lj4vnlKjmiLdJRAogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIGZyaWVuZEludml0ZVJlZ2lzdGVyKGZyaWVuZFVzZXJJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwuZnJpZW5kLmludml0ZS5yZWdpc3RlciIsCiAgICAgICAgICAgICJbe1wiZnJpZW5kVXNlcklkXCI6XCIkZnJpZW5kVXNlcklkXCIsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDliIbkuqvliqnlipsgKFAyUCkKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBzaGFyZVAyUCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRpZXAuc2hhcmVQMlAiLAogICAgICAgICAgICAiW3tcInJlcXVlc3RUeXBlXCI6XCJSUENcIixcInNjZW5lQ29kZVwiOlwiQU5UU1RBTExfUDJQX1NIQVJFUlwiLFwic291cmNlXCI6XCJBTlRTVEFMTFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDpooblj5booqvliIbkuqvnmoTliqnlipvlpZblirEKICAgICAqIEBwYXJhbSBzaGFyZUlkIOWIhuS6q0lECiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBmdW4gYWNoaWV2ZUJlU2hhcmVQMlAoc2hhcmVJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50aWVwLmFjaGlldmVCZVNoYXJlUDJQIiwKICAgICAgICAgICAgIlt7XCJyZXF1ZXN0VHlwZVwiOlwiUlBDXCIsXCJzY2VuZUNvZGVcIjpcIkFOVFNUQUxMX1AyUF9TSEFSRVJcIixcInNoYXJlSWRcIjpcIiRzaGFyZUlkXCIsXCJzb3VyY2VcIjpcIkFOVFNUQUxMXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOmBo+i/lOWlveWPi+W6l+mTuuWJjeeahOmihOajgOafpQogICAgICogQHBhcmFtIGJpbGxObyDotKbljZXlj7cKICAgICAqIEBwYXJhbSBzZWF0SWQg5L2N572uSUQKICAgICAqIEBwYXJhbSBzaG9wSWQg5ZWG5bqXSUQKICAgICAqIEBwYXJhbSBzaG9wVXNlcklkIOW6l+S4u+eUqOaIt0lECiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBmdW4gc2hvcFNlbmRCYWNrUHJlKAogICAgICAgIGJpbGxObzogU3RyaW5nLAogICAgICAgIHNlYXRJZDogU3RyaW5nLAogICAgICAgIHNob3BJZDogU3RyaW5nLAogICAgICAgIHNob3BVc2VySWQ6IFN0cmluZwogICAgKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwuZnJpZW5kLnNob3Auc2VuZGJhY2sucHJlIiwKICAgICAgICAgICAgIlt7XCJiaWxsTm9cIjpcIiRiaWxsTm9cIixcInNlYXRJZFwiOlwiJHNlYXRJZFwiLFwic2hvcElkXCI6XCIkc2hvcElkXCIsXCJzaG9wVXNlcklkXCI6XCIkc2hvcFVzZXJJZFwiLFwic291cmNlXCI6XCJzZWFyY2hcIixcInN5c3RlbVR5cGVcIjpcImFuZHJvaWRcIixcInZlcnNpb25cIjpcIiRWRVJTSU9OXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiBAYnJpZWYg6YGj6L+U5aW95Y+L5bqX6ZO6CiAgICAgKiBAcGFyYW0gc2VhdElkIOS9jee9rklECiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBmdW4gc2hvcFNlbmRCYWNrKHNlYXRJZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwuZnJpZW5kLnNob3Auc2VuZGJhY2siLAogICAgICAgICAgICAiW3tcInNlYXRJZFwiOlwiJHNlYXRJZFwiLFwic291cmNlXCI6XCJzZWFyY2hcIixcInN5c3RlbVR5cGVcIjpcImFuZHJvaWRcIixcInZlcnNpb25cIjpcIiRWRVJTSU9OXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiBAYnJpZWYg5omT5byA5o6S6KGM5qac6YKA6K+3CiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBmdW4gcmFua0ludml0ZU9wZW4oKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwucmFuay5pbnZpdGUub3BlbiIsCiAgICAgICAgICAgICJbe1wic291cmNlXCI6XCJzZWFyY2hcIixcInN5c3RlbVR5cGVcIjpcImFuZHJvaWRcIixcInZlcnNpb25cIjpcIiRWRVJTSU9OXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiBAYnJpZWYg5LiA6ZSu6YKA6K+35aW95Y+L5byA5bqXCiAgICAgKiBAcGFyYW0gZnJpZW5kVXNlcklkIOWlveWPi+eUqOaIt0lECiAgICAgKiBAcGFyYW0gbXlTZWF0SWQg5oiR55qE5L2N572uSUQKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBvbmVLZXlJbnZpdGVPcGVuU2hvcChmcmllbmRVc2VySWQ6IFN0cmluZywgbXlTZWF0SWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudHN0YWxsLnVzZXIuc2hvcC5vbmVLZXlJbnZpdGVPcGVuU2hvcCIsCiAgICAgICAgICAgICJbe1wiZnJpZW5kVXNlcklkXCI6XCIkZnJpZW5kVXNlcklkXCIsXCJteVNlYXRJZFwiOlwiJG15U2VhdElkXCIsXCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDojrflj5bliqjmgIHmjZ/lpLHvvIjlpoLooqvotLTnvZrljZXorrDlvZXvvIkKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBkeW5hbWljTG9zcygpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC5keW5hbWljLmxvc3MiLAogICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwic2VhcmNoXCIsXCJzeXN0ZW1UeXBlXCI6XCJhbmRyb2lkXCIsXCJ2ZXJzaW9uXCI6XCIkVkVSU0lPTlwifV0iCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICogQGJyaWVmIOaJlOiCpeaWme+8iOWkjeS7h+etie+8iQogICAgICogQHBhcmFtIGR5bmFtaWNMaXN0IOWKqOaAgeWIl+ihqEpTT05BcnJheQogICAgICogQHJldHVybiDlk43lupTlrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHRocm93TWFudXJlKGR5bmFtaWNMaXN0OiBKU09OQXJyYXkpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC5tYW51cmUudGhyb3dNYW51cmUiLAogICAgICAgICAgICAiW3tcImR5bmFtaWNMaXN0XCI6JGR5bmFtaWNMaXN0LFwic2VuZE1zZ1wiOmZhbHNlLFwic291cmNlXCI6XCJzZWFyY2hcIixcInN5c3RlbVR5cGVcIjpcImFuZHJvaWRcIixcInZlcnNpb25cIjpcIiRWRVJTSU9OXCJ9XSIKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiBAYnJpZWYg57uT566X5b6F5pS25pS255uKCiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4sgogICAgICovCiAgICBmdW4gc2V0dGxlUmVjZWl2YWJsZSgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAiY29tLmFsaXBheS5hbnRzdGFsbC5zZWxmLnNldHRsZS5yZWNlaXZhYmxlIiwKICAgICAgICAgICAgIlt7XCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDmn6Xmib7kuIvkuIDkuKrlj6/ku6XotLTnvZrljZXnmoTlpb3lj4sKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBuZXh0VGlja2V0RnJpZW5kKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFudHN0YWxsLmZyaWVuZC5uZXh0VGlja2V0RnJpZW5kIiwKICAgICAgICAgICAgIlt7XCJzb3VyY2VcIjpcInNlYXJjaFwiLFwic3lzdGVtVHlwZVwiOlwiYW5kcm9pZFwiLFwidmVyc2lvblwiOlwiJFZFUlNJT05cIn1dIgogICAgICAgICkKICAgIH0KCiAgICAvKioKICAgICAqIEBicmllZiDnu5nlpb3lj4votLTnvZrljZUKICAgICAqIEBwYXJhbSBiaWxsTm8g6LSm5Y2V57yW5Y+3CiAgICAgKiBAcGFyYW0gc2VhdElkIOS9jee9rklECiAgICAgKiBAcGFyYW0gc2hvcElkIOWVhuW6l0lECiAgICAgKiBAcGFyYW0gc2hvcFVzZXJJZCDllYblupfmiYDlsZ7nlKjmiLdJRAogICAgICogQHBhcmFtIHNlYXRVc2VySWQg5L2N572u5omA5bGe55So5oi3SUQKICAgICAqIEByZXR1cm4g5ZON5bqU5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biB0aWNrZXQoCiAgICAgICAgYmlsbE5vOiBTdHJpbmcsCiAgICAgICAgc2VhdElkOiBTdHJpbmcsCiAgICAgICAgc2hvcElkOiBTdHJpbmcsCiAgICAgICAgc2hvcFVzZXJJZDogU3RyaW5nLAogICAgICAgIHNlYXRVc2VySWQ6IFN0cmluZwogICAgKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgImNvbS5hbGlwYXkuYW50c3RhbGwuZnJpZW5kLnBhc3RlLnRpY2tldCIsCiAgICAgICAgICAgICJbe1wiYmlsbE5vXCI6XCIkYmlsbE5vXCIsXCJzZWF0SWRcIjpcIiRzZWF0SWRcIixcInNob3BJZFwiOlwiJHNob3BJZFwiLFwic2hvcFVzZXJJZFwiOlwiJHNob3BVc2VySWRcIixcInNlYXRVc2VySWRcIjogXCIkc2VhdFVzZXJJZFwiLFwic291cmNlXCI6XCJzZWFyY2hcIixcInN5c3RlbVR5cGVcIjpcImFuZHJvaWRcIixcInZlcnNpb25cIjpcIiRWRVJTSU9OXCJ9XSIKICAgICAgICApCiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task.antStall
+
+import fansirsqi.xposed.sesame.hook.RequestManager
+import org.json.JSONArray
+import org.json.JSONObject
+import java.util.UUID
+
+/**
+ * @class AntStallRpcCall
+ * @brief 蚂蚁小铺 (Ant Stall) RPC 调用类
+ * @details 处理蚂蚁小铺相关的网络请求，包括店铺管理、任务、好友互动等
+ * @author
+ * @since 2023/08/22
+ */
+object AntStallRpcCall {
+
+    /** 接口版本号 */
+    private const val VERSION = "0.1.2601161444.47"
+
+    /**
+     * @brief 获取个人主页数据
+     * @return 响应字符串
+     */
+    fun home(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.self.home",
+            "[{\"arouseAppParams\":{},\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 结算收益
+     * @param assetId 资产ID
+     * @param settleCoin 结算金币数量
+     * @return 响应字符串
+     */
+    fun settle(assetId: String, settleCoin: Int): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.self.settle",
+            "[{\"assetId\":\"$assetId\",\"coinType\":\"MASTER\",\"settleCoin\":$settleCoin,\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 获取商店列表
+     * @return 响应字符串
+     */
+    fun shopList(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.shop.list",
+            "[{\"freeTop\":false,\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 一键收摊前的预检查
+     * @return 响应字符串
+     */
+    fun preOneKeyClose(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.user.shop.close.preOneKey",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 一键收摊
+     * @return 响应字符串
+     */
+    fun oneKeyClose(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.user.shop.oneKeyClose",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 收摊前的预检查
+     * @param shopId 商店ID
+     * @param billNo 账单编号
+     * @return 响应字符串
+     */
+    fun preShopClose(shopId: String, billNo: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.user.shop.close.pre",
+            "[{\"billNo\":\"$billNo\",\"shopId\":\"$shopId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 收摊
+     * @param shopId 商店ID
+     * @return 响应字符串
+     */
+    fun shopClose(shopId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.user.shop.close",
+            "[{\"shopId\":\"$shopId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 一键开店
+     * @return 响应字符串
+     */
+    fun oneKeyOpen(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.user.shop.oneKeyOpen",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 在好友位开店
+     * @param friendSeatId 好友位置ID
+     * @param friendUserId 好友用户ID
+     * @param shopId 商店ID
+     * @return 响应字符串
+     */
+    fun shopOpen(friendSeatId: String, friendUserId: String, shopId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.user.shop.open",
+            "[{\"friendSeatId\":\"$friendSeatId\",\"friendUserId\":\"$friendUserId\",\"shopId\":\"$shopId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 捐赠排名金币
+     * @return 响应字符串
+     */
+    fun rankCoinDonate(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.rank.coin.donate",
+            "[{\"source\":\"ANTFARM\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 进入好友的小铺首页
+     * @param userId 好友用户ID
+     * @return 响应字符串
+     */
+    fun friendHome(userId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.friend.home",
+            "[{\"arouseAppParams\":{},\"friendUserId\":\"$userId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 获取任务列表
+     * @return 响应字符串
+     */
+    fun taskList(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.task.list",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 今日签到
+     * @return 响应字符串
+     */
+    fun signToday(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.sign.today",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 完成通用任务
+     * @param outBizNo 外部业务编号
+     * @param taskType 任务类型
+     * @return 响应字符串
+     */
+    fun finishTask(outBizNo: String, taskType: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antiep.finishTask",
+            "[{\"outBizNo\":\"$outBizNo\",\"requestType\":\"RPC\",\"sceneCode\":\"ANTSTALL_TASK\",\"source\":\"AST\",\"systemType\":\"android\",\"taskType\":\"$taskType\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 调用广告/插件接口
+     * @return 响应字符串
+     */
+    fun xlightPlugin(): String {
+        return RequestManager.requestString(
+            "com.alipay.adexchange.ad.facade.xlightPlugin",
+            "[{\"positionRequest\":{\"extMap\":{\"xlightPlayInstanceId\":\"300004\"},\"referInfo\":{},\"spaceCode\":\"ANT_FARM_NEW_VILLAGE\"},\"sdkPageInfo\":{\"adComponentType\":\"FEEDS\",\"adComponentVersion\":\"4.11.13\",\"enableFusion\":true,\"networkType\":\"WIFI\",\"pageFrom\":\"ch_url-https://68687809.h5app.alipay.com/www/game.html\",\"pageNo\":1,\"pageUrl\":\"https://render.alipay.com/p/yuyan/180020010001256918/multi-stage-task.html?caprMode=sync&spaceCodeFeeds=ANT_FARM_NEW_VILLAGE&usePlayLink=true&xlightPlayInstanceId=300004\",\"session\":\"u_54b721d9fffd6_1904b8eba8f\",\"unionAppId\":\"2060090000304921\",\"usePlayLink\":\"true\",\"xlightSDKType\":\"h5\",\"xlightSDKVersion\":\"4.11.13\"}}]"
+        )
+    }
+
+    /**
+     * @brief 结束特定业务
+     * @param playBizId 播放业务ID
+     * @param jsonObject 事件信息
+     * @return 响应字符串
+     */
+    fun finish(playBizId: String, jsonObject: JSONObject): String {
+        return RequestManager.requestString(
+            "com.alipay.adtask.biz.mobilegw.service.interaction.finish",
+            "[{\"extendInfo\":{\"iepTaskSceneCode\":\"ANTSTALL_TASK\",\"iepTaskType\":\"ANTSTALL_XLIGHT_VARIABLE_AWARD\"},\"playBizId\":\"$playBizId\",\"playEventInfo\":$jsonObject,\"source\":\"adx\" }]"
+        )
+    }
+
+    /**
+     * @brief 查询应用跳转 Schema
+     * @param sceneCode 场景代码
+     * @return 响应字符串
+     */
+    fun queryCallAppSchema(sceneCode: String): String {
+        return RequestManager.requestString(
+            "alipay.antmember.callApp.queryCallAppSchema",
+            "[{\"sceneCode\":\"$sceneCode\" }]"
+        )
+    }
+
+    /**
+     * @brief 领取任务奖励 (IEP 接口)
+     * @param taskType 任务类型
+     * @return 响应字符串
+     */
+    fun receiveTaskAward(taskType: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antiep.receiveTaskAward",
+            "[{\"ignoreLimit\":true,\"requestType\":\"RPC\",\"sceneCode\":\"ANTSTALL_TASK\",\"source\":\"AST\",\"systemType\":\"android\",\"taskType\":\"$taskType\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 完成小铺任务
+     * @param taskType 任务类型
+     * @return 响应字符串
+     */
+    fun taskFinish(taskType: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.task.finish",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"taskType\":\"$taskType\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 领取小铺任务奖励
+     * @param amount 奖励数量
+     * @param prizeId 奖品ID
+     * @param taskType 任务类型
+     * @return 响应字符串
+     */
+    fun taskAward(amount: String, prizeId: String, taskType: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.task.award",
+            "[{\"amount\":$amount,\"prizeId\":\"$prizeId\",\"source\":\"search\",\"systemType\":\"android\",\"taskType\":\"$taskType\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 获取任务权益
+     * @return 响应字符串
+     */
+    fun taskBenefit(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.task.benefit",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 收集肥料
+     * @return 响应字符串
+     */
+    fun collectManure(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.manure.collectManure",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 查询肥料信息
+     * @return 响应字符串
+     */
+    fun queryManureInfo(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.manure.queryManureInfo",
+            "[{\"queryManureType\":\"ANTSTALL\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 获取项目列表
+     * @return 响应字符串
+     */
+    fun projectList(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.project.list",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 获取项目详情
+     * @param projectId 项目ID
+     * @return 响应字符串
+     */
+    fun projectDetail(projectId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.project.detail",
+            "[{\"projectId\":\"$projectId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 捐赠项目
+     * @param projectId 项目ID
+     * @return 响应字符串
+     */
+    fun projectDonate(projectId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.project.donate",
+            "[{\"bizNo\":\"${UUID.randomUUID()}\",\"projectId\":\"$projectId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 获取路线图
+     * @return 响应字符串
+     */
+    fun roadmap(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.village.roadmap",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 进入下一个村庄
+     * @return 响应字符串
+     */
+    fun nextVillage(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.user.ast.next.village",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 注册排行榜邀请
+     * @return 响应字符串
+     */
+    fun rankInviteRegister(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.rank.invite.register",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 注册好友邀请
+     * @param friendUserId 好友用户ID
+     * @return 响应字符串
+     */
+    fun friendInviteRegister(friendUserId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.friend.invite.register",
+            "[{\"friendUserId\":\"$friendUserId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 分享助力 (P2P)
+     * @return 响应字符串
+     */
+    fun shareP2P(): String {
+        return RequestManager.requestString(
+            "com.alipay.antiep.shareP2P",
+            "[{\"requestType\":\"RPC\",\"sceneCode\":\"ANTSTALL_P2P_SHARER\",\"source\":\"ANTSTALL\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 领取被分享的助力奖励
+     * @param shareId 分享ID
+     * @return 响应字符串
+     */
+    fun achieveBeShareP2P(shareId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antiep.achieveBeShareP2P",
+            "[{\"requestType\":\"RPC\",\"sceneCode\":\"ANTSTALL_P2P_SHARER\",\"shareId\":\"$shareId\",\"source\":\"ANTSTALL\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 遣返好友店铺前的预检查
+     * @param billNo 账单号
+     * @param seatId 位置ID
+     * @param shopId 商店ID
+     * @param shopUserId 店主用户ID
+     * @return 响应字符串
+     */
+    fun shopSendBackPre(
+        billNo: String,
+        seatId: String,
+        shopId: String,
+        shopUserId: String
+    ): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.friend.shop.sendback.pre",
+            "[{\"billNo\":\"$billNo\",\"seatId\":\"$seatId\",\"shopId\":\"$shopId\",\"shopUserId\":\"$shopUserId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 遣返好友店铺
+     * @param seatId 位置ID
+     * @return 响应字符串
+     */
+    fun shopSendBack(seatId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.friend.shop.sendback",
+            "[{\"seatId\":\"$seatId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 打开排行榜邀请
+     * @return 响应字符串
+     */
+    fun rankInviteOpen(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.rank.invite.open",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 一键邀请好友开店
+     * @param friendUserId 好友用户ID
+     * @param mySeatId 我的位置ID
+     * @return 响应字符串
+     */
+    fun oneKeyInviteOpenShop(friendUserId: String, mySeatId: String): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.user.shop.oneKeyInviteOpenShop",
+            "[{\"friendUserId\":\"$friendUserId\",\"mySeatId\":\"$mySeatId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 获取动态损失（如被贴罚单记录）
+     * @return 响应字符串
+     */
+    fun dynamicLoss(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.dynamic.loss",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 扔肥料（复仇等）
+     * @param dynamicList 动态列表JSONArray
+     * @return 响应字符串
+     */
+    fun throwManure(dynamicList: JSONArray): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.manure.throwManure",
+            "[{\"dynamicList\":$dynamicList,\"sendMsg\":false,\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 结算待收收益
+     * @return 响应字符串
+     */
+    fun settleReceivable(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.self.settle.receivable",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 查找下一个可以贴罚单的好友
+     * @return 响应字符串
+     */
+    fun nextTicketFriend(): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.friend.nextTicketFriend",
+            "[{\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+
+    /**
+     * @brief 给好友贴罚单
+     * @param billNo 账单编号
+     * @param seatId 位置ID
+     * @param shopId 商店ID
+     * @param shopUserId 商店所属用户ID
+     * @param seatUserId 位置所属用户ID
+     * @return 响应字符串
+     */
+    fun ticket(
+        billNo: String,
+        seatId: String,
+        shopId: String,
+        shopUserId: String,
+        seatUserId: String
+    ): String {
+        return RequestManager.requestString(
+            "com.alipay.antstall.friend.paste.ticket",
+            "[{\"billNo\":\"$billNo\",\"seatId\":\"$seatId\",\"shopId\":\"$shopId\",\"shopUserId\":\"$shopUserId\",\"seatUserId\": \"$seatUserId\",\"source\":\"search\",\"systemType\":\"android\",\"version\":\"$VERSION\"}]"
+        )
+    }
+}

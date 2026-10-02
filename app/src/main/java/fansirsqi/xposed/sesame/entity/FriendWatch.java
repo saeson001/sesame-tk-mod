@@ -1,1 +1,197 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHk7CgppbXBvcnQgb3JnLmpzb24uSlNPTkV4Y2VwdGlvbjsKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3Q7CgppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5DYWxlbmRhcjsKaW1wb3J0IGphdmEudXRpbC5JdGVyYXRvcjsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRmlsZXM7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkpzb25VdGlsOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2c7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuVXNlck1hcDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuU3RyaW5nVXRpbDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuVGltZVV0aWw7CmltcG9ydCBsb21ib2suR2V0dGVyOwppbXBvcnQgbG9tYm9rLlNldHRlcjsKCkBTZXR0ZXIKcHVibGljIGNsYXNzIEZyaWVuZFdhdGNoIGV4dGVuZHMgTWFwcGVyRW50aXR5IHsKCiAgICBAR2V0dGVyCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gRnJpZW5kV2F0Y2guY2xhc3MuZ2V0U2ltcGxlTmFtZSgpOwoKICAgIEBHZXR0ZXIKICAgIHByaXZhdGUgc3RhdGljIEpTT05PYmplY3Qgam9GcmllbmRXYXRjaCA9IG5ldyBKU09OT2JqZWN0KCk7CgogICAgQEdldHRlcgogICAgcHJpdmF0ZSBTdHJpbmcgc3RhcnRUaW1lOwoKICAgIEBHZXR0ZXIKICAgIHByaXZhdGUgaW50IGFsbEdldDsKCiAgICBAR2V0dGVyCiAgICBwcml2YXRlIGludCB3ZWVrR2V0OwoKICAgIHB1YmxpYyBGcmllbmRXYXRjaChTdHJpbmcgaWQsIFN0cmluZyBuYW1lKSB7CiAgICAgICAgdGhpcy5pZCA9IGlkOwogICAgICAgIHRoaXMubmFtZSA9IG5hbWU7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldEpvRnJpZW5kV2F0Y2goSlNPTk9iamVjdCBqb0ZyaWVuZFdhdGNoKSB7CiAgICAgICAgRnJpZW5kV2F0Y2guam9GcmllbmRXYXRjaCA9IGpvRnJpZW5kV2F0Y2g7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgaW50IGNvbXBhcmVUbyhNYXBwZXJFbnRpdHkgbykgewogICAgICAgIEZyaWVuZFdhdGNoIGFub3RoZXIgPSAoRnJpZW5kV2F0Y2gpIG87CiAgICAgICAgaWYgKHRoaXMuZ2V0V2Vla0dldCgpID4gYW5vdGhlci5nZXRXZWVrR2V0KCkpIHsKICAgICAgICAgICAgcmV0dXJuIC0xOwogICAgICAgIH0gZWxzZSBpZiAodGhpcy5nZXRXZWVrR2V0KCkgPCBhbm90aGVyLmdldFdlZWtHZXQoKSkgewogICAgICAgICAgICByZXR1cm4gMTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHN1cGVyLmNvbXBhcmVUbyhvKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgZnJpZW5kV2F0Y2goU3RyaW5nIGlkLCBpbnQgY29sbGVjdGVkRW5lcmd5KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKGdldEpvRnJpZW5kV2F0Y2goKSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBzZXRKb0ZyaWVuZFdhdGNoKG5ldyBKU09OT2JqZWN0KCkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEpTT05PYmplY3Qgam9TaW5nbGUgPSBnZXRKb0ZyaWVuZFdhdGNoKCkub3B0SlNPTk9iamVjdChpZCk7CiAgICAgICAgICAgIGlmIChqb1NpbmdsZSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBqb1NpbmdsZSA9IG5ldyBKU09OT2JqZWN0KCk7CiAgICAgICAgICAgICAgICBqb1NpbmdsZS5wdXQoIm5hbWUiLCBVc2VyTWFwLmdldE1hc2tOYW1lKGlkKSk7CiAgICAgICAgICAgICAgICBqb1NpbmdsZS5wdXQoImFsbEdldCIsIDApOwogICAgICAgICAgICAgICAgam9TaW5nbGUucHV0KCJzdGFydFRpbWUiLCBUaW1lVXRpbC5nZXREYXRlU3RyKCkpOwogICAgICAgICAgICAgICAgZ2V0Sm9GcmllbmRXYXRjaCgpLnB1dChpZCwgam9TaW5nbGUpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGpvU2luZ2xlLnB1dCgid2Vla0dldCIsIGpvU2luZ2xlLm9wdEludCgid2Vla0dldCIsIDApICsgY29sbGVjdGVkRW5lcmd5KTsKICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdGgpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChnZXRUQUcoKSwgImZyaWVuZFdhdGNoIGVycjoiKTsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShnZXRUQUcoKSwgdGgpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHN5bmNocm9uaXplZCB2b2lkIHNhdmUoU3RyaW5nIHVzZXJJZCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChnZXRKb0ZyaWVuZFdhdGNoKCkgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgc2V0Sm9GcmllbmRXYXRjaChuZXcgSlNPTk9iamVjdCgpKTsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoZ2V0VEFHKCksICLliJ3lp4vljJZqb0ZyaWVuZFdhdGNo5a+56LGhIik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3RyaW5nIG5vdGZvcm1hdCA9IGdldEpvRnJpZW5kV2F0Y2goKS50b1N0cmluZygpOwogICAgICAgICAgICBTdHJpbmcgZm9ybWF0dGVkSnNvbiA9IEpzb25VdGlsLmZvcm1hdEpzb24oZ2V0Sm9GcmllbmRXYXRjaCgpKTsKICAgICAgICAgICAgaWYgKGZvcm1hdHRlZEpzb24gIT0gbnVsbCAmJiAhZm9ybWF0dGVkSnNvbi50cmltKCkuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBGaWxlcy53cml0ZTJGaWxlKGZvcm1hdHRlZEpzb24sIEZpbGVzLmdldEZyaWVuZFdhdGNoRmlsZSh1c2VySWQpKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEZpbGVzLndyaXRlMkZpbGUobm90Zm9ybWF0LCBGaWxlcy5nZXRGcmllbmRXYXRjaEZpbGUodXNlcklkKSk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cucmVjb3JkKGdldFRBRygpLCAiZnJpZW5kV2F0Y2ggc2F2ZSBlcnI6Iik7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZ2V0VEFHKCksIGUpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgdXBkYXRlRGF5KFN0cmluZyB1c2VySWQpIHsKICAgICAgICBpZiAoIW5lZWRVcGRhdGVBbGwoRmlsZXMuZ2V0RnJpZW5kV2F0Y2hGaWxlKHVzZXJJZCkubGFzdE1vZGlmaWVkKCkpKSB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgSlNPTk9iamVjdCBqb1NpbmdsZTsKICAgICAgICB0cnkgewogICAgICAgICAgICBTdHJpbmcgZGF0ZVN0ciA9IFRpbWVVdGlsLmdldERhdGVTdHIoKTsKICAgICAgICAgICAgSXRlcmF0b3I8U3RyaW5nPiBpZHMgPSBnZXRKb0ZyaWVuZFdhdGNoKCkua2V5cygpOwogICAgICAgICAgICB3aGlsZSAoaWRzLmhhc05leHQoKSkgewogICAgICAgICAgICAgICAgU3RyaW5nIGlkID0gaWRzLm5leHQoKTsKICAgICAgICAgICAgICAgIGpvU2luZ2xlID0gZ2V0Sm9GcmllbmRXYXRjaCgpLmdldEpTT05PYmplY3QoaWQpOwogICAgICAgICAgICAgICAgam9TaW5nbGUucHV0KCJuYW1lIiwgam9TaW5nbGUub3B0U3RyaW5nKCJuYW1lIikpOwogICAgICAgICAgICAgICAgam9TaW5nbGUucHV0KCJhbGxHZXQiLCBqb1NpbmdsZS5vcHRJbnQoImFsbEdldCIsIDApICsgam9TaW5nbGUub3B0SW50KCJ3ZWVrR2V0IiwgMCkpOwogICAgICAgICAgICAgICAgam9TaW5nbGUucHV0KCJ3ZWVrR2V0IiwgMCk7CiAgICAgICAgICAgICAgICBpZiAoIWpvU2luZ2xlLmhhcygic3RhcnRUaW1lIikpIHsKICAgICAgICAgICAgICAgICAgICBqb1NpbmdsZS5wdXQoInN0YXJ0VGltZSIsIGRhdGVTdHIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZ2V0Sm9GcmllbmRXYXRjaCgpLnB1dChpZCwgam9TaW5nbGUpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEZpbGVzLndyaXRlMkZpbGUoZ2V0Sm9GcmllbmRXYXRjaCgpLnRvU3RyaW5nKCksIEZpbGVzLmdldEZyaWVuZFdhdGNoRmlsZSh1c2VySWQpKTsKICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdGgpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChnZXRUQUcoKSwgImZyaWVuZFdhdGNoTmV3V2VlayBlcnI6Iik7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZ2V0VEFHKCksIHRoKTsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBzeW5jaHJvbml6ZWQgQm9vbGVhbiBsb2FkKFN0cmluZyB1c2VySWQpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAodXNlcklkID09IG51bGwpIHsKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgU3RyaW5nIHN0ckZyaWVuZFdhdGNoID0gRmlsZXMucmVhZEZyb21GaWxlKEZpbGVzLmdldEZyaWVuZFdhdGNoRmlsZSh1c2VySWQpKTsKICAgICAgICAgICAgaWYgKCFzdHJGcmllbmRXYXRjaC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHNldEpvRnJpZW5kV2F0Y2gobmV3IEpTT05PYmplY3Qoc3RyRnJpZW5kV2F0Y2gpKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHNldEpvRnJpZW5kV2F0Y2gobmV3IEpTT05PYmplY3QoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgfSBjYXRjaCAoSlNPTkV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7CiAgICAgICAgICAgIHNldEpvRnJpZW5kV2F0Y2gobmV3IEpTT05PYmplY3QoKSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHN5bmNocm9uaXplZCB2b2lkIHVubG9hZCgpIHsKICAgICAgICBzZXRKb0ZyaWVuZFdhdGNoKG5ldyBKU09OT2JqZWN0KCkpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBuZWVkVXBkYXRlQWxsKGxvbmcgbGFzdCkgewogICAgICAgIGlmIChsYXN0ID09IDBMKSB7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0KICAgICAgICBDYWxlbmRhciBjTGFzdCA9IENhbGVuZGFyLmdldEluc3RhbmNlKCk7CiAgICAgICAgY0xhc3Quc2V0VGltZUluTWlsbGlzKGxhc3QpOwogICAgICAgIENhbGVuZGFyIGNOb3cgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpOwogICAgICAgIGlmIChjTGFzdC5nZXQoQ2FsZW5kYXIuREFZX09GX1lFQVIpID09IGNOb3cuZ2V0KENhbGVuZGFyLkRBWV9PRl9ZRUFSKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQogICAgICAgIHJldHVybiBjTm93LmdldChDYWxlbmRhci5EQVlfT0ZfV0VFSykgPT0gQ2FsZW5kYXIuTU9OREFZOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgTGlzdDxGcmllbmRXYXRjaD4gZ2V0TGlzdChTdHJpbmcgdXNlcklkKSB7CiAgICAgICAgQXJyYXlMaXN0PEZyaWVuZFdhdGNoPiBsaXN0ID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgU3RyaW5nIHN0ckZyaWVuZFdhdGNoID0gRmlsZXMucmVhZEZyb21GaWxlKEZpbGVzLmdldEZyaWVuZFdhdGNoRmlsZSh1c2VySWQpKTsKICAgICAgICB0cnkgewogICAgICAgICAgICBKU09OT2JqZWN0IGpvRnJpZW5kV2F0Y2g7CiAgICAgICAgICAgIGlmIChTdHJpbmdVdGlsLmlzRW1wdHkoc3RyRnJpZW5kV2F0Y2gpKSB7CiAgICAgICAgICAgICAgICBqb0ZyaWVuZFdhdGNoID0gbmV3IEpTT05PYmplY3QoKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGpvRnJpZW5kV2F0Y2ggPSBuZXcgSlNPTk9iamVjdChzdHJGcmllbmRXYXRjaCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgSXRlcmF0b3I8U3RyaW5nPiBpZHMgPSBqb0ZyaWVuZFdhdGNoLmtleXMoKTsKICAgICAgICAgICAgd2hpbGUgKGlkcy5oYXNOZXh0KCkpIHsKICAgICAgICAgICAgICAgIFN0cmluZyBpZCA9IGlkcy5uZXh0KCk7CiAgICAgICAgICAgICAgICBKU09OT2JqZWN0IGZyaWVuZCA9IGpvRnJpZW5kV2F0Y2gub3B0SlNPTk9iamVjdChpZCk7CiAgICAgICAgICAgICAgICBpZiAoZnJpZW5kID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBmcmllbmQgPSBuZXcgSlNPTk9iamVjdCgpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgU3RyaW5nIG5hbWUgPSBmcmllbmQub3B0U3RyaW5nKCJuYW1lIik7CiAgICAgICAgICAgICAgICBGcmllbmRXYXRjaCBmcmllbmRXYXRjaCA9IG5ldyBGcmllbmRXYXRjaChpZCwgbmFtZSk7CiAgICAgICAgICAgICAgICBmcmllbmRXYXRjaC5zZXRTdGFydFRpbWUoZnJpZW5kLm9wdFN0cmluZygic3RhcnRUaW1lIiwgIuaXoCIpKTsKICAgICAgICAgICAgICAgIGZyaWVuZFdhdGNoLnNldFdlZWtHZXQoZnJpZW5kLm9wdEludCgid2Vla0dldCIsIDApKTsKICAgICAgICAgICAgICAgIGZyaWVuZFdhdGNoLnNldEFsbEdldChmcmllbmQub3B0SW50KCJhbGxHZXQiLCAwKSArIGZyaWVuZFdhdGNoLmdldFdlZWtHZXQoKSk7CiAgICAgICAgICAgICAgICBmcmllbmRXYXRjaC5uYW1lID0gbmFtZSArICIo5byA5aeL57uf6K6h5pe26Ze0OiIgKyBmcmllbmRXYXRjaC5nZXRTdGFydFRpbWUoKSArICIpXG5cbiIgKyAi5ZGo5pS2OiIgKyBmcmllbmRXYXRjaC5nZXRXZWVrR2V0KCkgKyAiIOaAu+aUtjoiICsgZnJpZW5kV2F0Y2guZ2V0QWxsR2V0KCk7CiAgICAgICAgICAgICAgICBsaXN0LmFkZChmcmllbmRXYXRjaCk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdCkgewogICAgICAgICAgICBMb2cucmVjb3JkKGdldFRBRygpLCAiRnJpZW5kV2F0Y2ggZ2V0TGlzdDogIik7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZ2V0VEFHKCksIHQpOwogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZShuZXcgSlNPTk9iamVjdCgpLnRvU3RyaW5nKCksIEZpbGVzLmdldEZyaWVuZFdhdGNoRmlsZSh1c2VySWQpKTsKICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGxpc3Q7CiAgICB9Cgp9Cg==
+package fansirsqi.xposed.sesame.entity;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Iterator;
+import java.util.List;
+
+import fansirsqi.xposed.sesame.util.Files;
+import fansirsqi.xposed.sesame.util.JsonUtil;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.maps.UserMap;
+import fansirsqi.xposed.sesame.util.StringUtil;
+import fansirsqi.xposed.sesame.util.TimeUtil;
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+public class FriendWatch extends MapperEntity {
+
+    @Getter
+    private static final String TAG = FriendWatch.class.getSimpleName();
+
+    @Getter
+    private static JSONObject joFriendWatch = new JSONObject();
+
+    @Getter
+    private String startTime;
+
+    @Getter
+    private int allGet;
+
+    @Getter
+    private int weekGet;
+
+    public FriendWatch(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public static void setJoFriendWatch(JSONObject joFriendWatch) {
+        FriendWatch.joFriendWatch = joFriendWatch;
+    }
+
+    @Override
+    public int compareTo(MapperEntity o) {
+        FriendWatch another = (FriendWatch) o;
+        if (this.getWeekGet() > another.getWeekGet()) {
+            return -1;
+        } else if (this.getWeekGet() < another.getWeekGet()) {
+            return 1;
+        }
+        return super.compareTo(o);
+    }
+
+    public static void friendWatch(String id, int collectedEnergy) {
+        try {
+            if (getJoFriendWatch() == null) {
+                setJoFriendWatch(new JSONObject());
+            }
+            JSONObject joSingle = getJoFriendWatch().optJSONObject(id);
+            if (joSingle == null) {
+                joSingle = new JSONObject();
+                joSingle.put("name", UserMap.getMaskName(id));
+                joSingle.put("allGet", 0);
+                joSingle.put("startTime", TimeUtil.getDateStr());
+                getJoFriendWatch().put(id, joSingle);
+            }
+            joSingle.put("weekGet", joSingle.optInt("weekGet", 0) + collectedEnergy);
+        } catch (Throwable th) {
+            Log.record(getTAG(), "friendWatch err:");
+            Log.printStackTrace(getTAG(), th);
+        }
+    }
+
+    public static synchronized void save(String userId) {
+        try {
+            if (getJoFriendWatch() == null) {
+                setJoFriendWatch(new JSONObject());
+                Log.record(getTAG(), "初始化joFriendWatch对象");
+            }
+            String notformat = getJoFriendWatch().toString();
+            String formattedJson = JsonUtil.formatJson(getJoFriendWatch());
+            if (formattedJson != null && !formattedJson.trim().isEmpty()) {
+                Files.write2File(formattedJson, Files.getFriendWatchFile(userId));
+            } else {
+                Files.write2File(notformat, Files.getFriendWatchFile(userId));
+            }
+        } catch (Exception e) {
+            Log.record(getTAG(), "friendWatch save err:");
+            Log.printStackTrace(getTAG(), e);
+        }
+    }
+
+    public static void updateDay(String userId) {
+        if (!needUpdateAll(Files.getFriendWatchFile(userId).lastModified())) {
+            return;
+        }
+        JSONObject joSingle;
+        try {
+            String dateStr = TimeUtil.getDateStr();
+            Iterator<String> ids = getJoFriendWatch().keys();
+            while (ids.hasNext()) {
+                String id = ids.next();
+                joSingle = getJoFriendWatch().getJSONObject(id);
+                joSingle.put("name", joSingle.optString("name"));
+                joSingle.put("allGet", joSingle.optInt("allGet", 0) + joSingle.optInt("weekGet", 0));
+                joSingle.put("weekGet", 0);
+                if (!joSingle.has("startTime")) {
+                    joSingle.put("startTime", dateStr);
+                }
+                getJoFriendWatch().put(id, joSingle);
+            }
+            Files.write2File(getJoFriendWatch().toString(), Files.getFriendWatchFile(userId));
+        } catch (Throwable th) {
+            Log.record(getTAG(), "friendWatchNewWeek err:");
+            Log.printStackTrace(getTAG(), th);
+        }
+    }
+
+    public static synchronized Boolean load(String userId) {
+        try {
+            if (userId == null) {
+                return false;
+            }
+
+            String strFriendWatch = Files.readFromFile(Files.getFriendWatchFile(userId));
+            if (!strFriendWatch.isEmpty()) {
+                setJoFriendWatch(new JSONObject(strFriendWatch));
+            } else {
+                setJoFriendWatch(new JSONObject());
+            }
+            return true;
+        } catch (JSONException e) {
+            Log.printStackTrace(e);
+            setJoFriendWatch(new JSONObject());
+        }
+        return false;
+    }
+
+    public static synchronized void unload() {
+        setJoFriendWatch(new JSONObject());
+    }
+
+    public static boolean needUpdateAll(long last) {
+        if (last == 0L) {
+            return true;
+        }
+        Calendar cLast = Calendar.getInstance();
+        cLast.setTimeInMillis(last);
+        Calendar cNow = Calendar.getInstance();
+        if (cLast.get(Calendar.DAY_OF_YEAR) == cNow.get(Calendar.DAY_OF_YEAR)) {
+            return false;
+        }
+        return cNow.get(Calendar.DAY_OF_WEEK) == Calendar.MONDAY;
+    }
+
+    public static List<FriendWatch> getList(String userId) {
+        ArrayList<FriendWatch> list = new ArrayList<>();
+        String strFriendWatch = Files.readFromFile(Files.getFriendWatchFile(userId));
+        try {
+            JSONObject joFriendWatch;
+            if (StringUtil.isEmpty(strFriendWatch)) {
+                joFriendWatch = new JSONObject();
+            } else {
+                joFriendWatch = new JSONObject(strFriendWatch);
+            }
+            Iterator<String> ids = joFriendWatch.keys();
+            while (ids.hasNext()) {
+                String id = ids.next();
+                JSONObject friend = joFriendWatch.optJSONObject(id);
+                if (friend == null) {
+                    friend = new JSONObject();
+                }
+                String name = friend.optString("name");
+                FriendWatch friendWatch = new FriendWatch(id, name);
+                friendWatch.setStartTime(friend.optString("startTime", "无"));
+                friendWatch.setWeekGet(friend.optInt("weekGet", 0));
+                friendWatch.setAllGet(friend.optInt("allGet", 0) + friendWatch.getWeekGet());
+                friendWatch.name = name + "(开始统计时间:" + friendWatch.getStartTime() + ")\n\n" + "周收:" + friendWatch.getWeekGet() + " 总收:" + friendWatch.getAllGet();
+                list.add(friendWatch);
+            }
+        } catch (Throwable t) {
+            Log.record(getTAG(), "FriendWatch getList: ");
+            Log.printStackTrace(getTAG(), t);
+            try {
+                Files.write2File(new JSONObject().toString(), Files.getFriendWatchFile(userId));
+            } catch (Exception e) {
+                Log.printStackTrace(e);
+            }
+        }
+        return list;
+    }
+
+}

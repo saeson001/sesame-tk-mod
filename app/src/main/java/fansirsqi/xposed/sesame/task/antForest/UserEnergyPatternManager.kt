@@ -1,1 +1,93 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZvcmVzdAoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAoKLyoqCiAqIOeUqOaIt+iDvemHj+aUtuWPluaooeW8j+aVsOaNruexuwogKiDnlKjkuo7liIbmnpDnlKjmiLfnmoTog73ph4/mlLblj5bkuaDmg6/vvIzkvYbkuI3lvbHlk43oubLngrnml7bmnLoKICovCmRhdGEgY2xhc3MgVXNlckVuZXJneVBhdHRlcm4oCiAgICB2YWwgdXNlcklkOiBTdHJpbmcsCiAgICB2YWwgY29sbGVjdFN1Y2Nlc3NSYXRlOiBEb3VibGUgPSAwLjgsIC8vIOaUtuWPluaIkOWKn+eOhwogICAgdmFsIGF2Z1Jlc3BvbnNlVGltZTogTG9uZyA9IDEwMDBMLCAgICAvLyDlubPlnYflk43lupTml7bpl7QKICAgIHZhbCBsYXN0Q29sbGVjdFRpbWU6IExvbmcgPSAwTCwgICAgICAgLy8g5LiK5qyh5pS25Y+W5pe26Ze0CiAgICB2YWwgaXNBY3RpdmVVc2VyOiBCb29sZWFuID0gdHJ1ZSAgICAgIC8vIOaYr+WQpua0u+i3g+eUqOaItwopCgovKioKICog55So5oi36IO96YeP5qih5byP566h55CG5ZmoCiAqIOWNleS4gOiBjOi0o++8mueuoeeQhueUqOaIt+eahOiDvemHj+aUtuWPluaooeW8j+WSjOe7n+iuoeaVsOaNrgogKi8Kb2JqZWN0IFVzZXJFbmVyZ3lQYXR0ZXJuTWFuYWdlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiVXNlckVuZXJneVBhdHRlcm5NYW5hZ2VyIgoKICAgIC8vIOeUqOaIt+aooeW8j+WtmOWCqAogICAgcHJpdmF0ZSB2YWwgdXNlclBhdHRlcm5zID0gQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBVc2VyRW5lcmd5UGF0dGVybj4oKQoKICAgIC8qKgogICAgICog6I635Y+W55So5oi35qih5byPCiAgICAgKi8KICAgIGZ1biBnZXRVc2VyUGF0dGVybih1c2VySWQ6IFN0cmluZyk6IFVzZXJFbmVyZ3lQYXR0ZXJuIHsKICAgICAgICByZXR1cm4gdXNlclBhdHRlcm5zW3VzZXJJZF0gPzogVXNlckVuZXJneVBhdHRlcm4odXNlcklkKQogICAgfQoKICAgIC8qKgogICAgICog5pu05paw55So5oi35qih5byP77yI5Z+65LqO5pS25Y+W57uT5p6c77yJCiAgICAgKi8KICAgIEBTdXBwcmVzc0xpbnQoIkRlZmF1bHRMb2NhbGUiKQogICAgZnVuIHVwZGF0ZVVzZXJQYXR0ZXJuKHVzZXJJZDogU3RyaW5nLCByZXN1bHQ6IENvbGxlY3RSZXN1bHQsIHJlc3BvbnNlVGltZTogTG9uZykgewogICAgICAgIHZhbCBjdXJyZW50UGF0dGVybiA9IGdldFVzZXJQYXR0ZXJuKHVzZXJJZCkKICAgICAgICB2YWwgY3VycmVudFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQoKICAgICAgICAvLyDkvb/nlKjmjIfmlbDnp7vliqjlubPlnYfmm7TmlrDmiJDlip/njocKICAgICAgICB2YWwgYWxwaGEgPSAwLjEKICAgICAgICB2YWwgbmV3U3VjY2Vzc1JhdGUgPSBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICAgICAgY3VycmVudFBhdHRlcm4uY29sbGVjdFN1Y2Nlc3NSYXRlICogKDEgLSBhbHBoYSkgKyBhbHBoYQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGN1cnJlbnRQYXR0ZXJuLmNvbGxlY3RTdWNjZXNzUmF0ZSAqICgxIC0gYWxwaGEpCiAgICAgICAgfQoKICAgICAgICAvLyDmm7TmlrDlubPlnYflk43lupTml7bpl7QKICAgICAgICB2YWwgbmV3QXZnUmVzcG9uc2VUaW1lID0gaWYgKHJlc3BvbnNlVGltZSA+IDApIHsKICAgICAgICAgICAgKGN1cnJlbnRQYXR0ZXJuLmF2Z1Jlc3BvbnNlVGltZSAqIDAuOCArIHJlc3BvbnNlVGltZSAqIDAuMikudG9Mb25nKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBjdXJyZW50UGF0dGVybi5hdmdSZXNwb25zZVRpbWUKICAgICAgICB9CgogICAgICAgIC8vIOWIpOaWreeUqOaIt+a0u+i3g+W6pu+8iDI05bCP5pe25YaF5pyJ5rS75Yqo77yJCiAgICAgICAgdmFsIHRpbWVTaW5jZUxhc3RDb2xsZWN0ID0gY3VycmVudFRpbWUgLSBjdXJyZW50UGF0dGVybi5sYXN0Q29sbGVjdFRpbWUKICAgICAgICB2YWwgaXNBY3RpdmUgPSB0aW1lU2luY2VMYXN0Q29sbGVjdCA8IDI0ICogNjAgKiA2MCAqIDEwMDBMCgogICAgICAgIHZhbCB1cGRhdGVkUGF0dGVybiA9IGN1cnJlbnRQYXR0ZXJuLmNvcHkoCiAgICAgICAgICAgIGNvbGxlY3RTdWNjZXNzUmF0ZSA9IG5ld1N1Y2Nlc3NSYXRlLAogICAgICAgICAgICBhdmdSZXNwb25zZVRpbWUgPSBuZXdBdmdSZXNwb25zZVRpbWUsCiAgICAgICAgICAgIGxhc3RDb2xsZWN0VGltZSA9IGlmIChyZXN1bHQuc3VjY2VzcykgY3VycmVudFRpbWUgZWxzZSBjdXJyZW50UGF0dGVybi5sYXN0Q29sbGVjdFRpbWUsCiAgICAgICAgICAgIGlzQWN0aXZlVXNlciA9IGlzQWN0aXZlCiAgICAgICAgKQoKICAgICAgICB1c2VyUGF0dGVybnNbdXNlcklkXSA9IHVwZGF0ZWRQYXR0ZXJuCiAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5pu05paw55So5oi3WyR7dXNlcklkfV3mqKHlvI/vvJrmiJDlip/njodbJHtTdHJpbmcuZm9ybWF0KCIlLjJmIiwgbmV3U3VjY2Vzc1JhdGUpfV0g5ZON5bqU5pe26Ze0WyR7bmV3QXZnUmVzcG9uc2VUaW1lfW1zXSDmtLvot4NbJHtpc0FjdGl2ZX1dIikKICAgIH0KCiAgICAvKioKICAgICAqIOa4heeQhui/h+acn+eahOeUqOaIt+aooeW8j+aVsOaNrgogICAgICovCiAgICBmdW4gY2xlYW51cEV4cGlyZWRQYXR0ZXJucygpIHsKICAgICAgICB2YWwgY3VycmVudFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHZhbCBleHBpcmVUaW1lID0gMzAgKiAyNCAqIDYwICogNjAgKiAxMDAwTCAvLyAzMOWkqQoKICAgICAgICB2YWwgZXhwaXJlZFVzZXJzID0gdXNlclBhdHRlcm5zLmZpbHRlciB7IChfLCBwYXR0ZXJuKSAtPgogICAgICAgICAgICBjdXJyZW50VGltZSAtIHBhdHRlcm4ubGFzdENvbGxlY3RUaW1lID4gZXhwaXJlVGltZQogICAgICAgIH0ua2V5cwoKICAgICAgICBleHBpcmVkVXNlcnMuZm9yRWFjaCB7IHVzZXJJZCAtPgogICAgICAgICAgICB1c2VyUGF0dGVybnMucmVtb3ZlKHVzZXJJZCkKICAgICAgICB9CgogICAgICAgIGlmIChleHBpcmVkVXNlcnMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIua4heeQhui/h+acn+eUqOaIt+aooeW8j+aVsOaNru+8miR7ZXhwaXJlZFVzZXJzLnNpemV95Liq55So5oi3IikKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task.antForest
+
+import android.annotation.SuppressLint
+import fansirsqi.xposed.sesame.util.Log
+import java.util.concurrent.ConcurrentHashMap
+
+/**
+ * 用户能量收取模式数据类
+ * 用于分析用户的能量收取习惯，但不影响蹲点时机
+ */
+data class UserEnergyPattern(
+    val userId: String,
+    val collectSuccessRate: Double = 0.8, // 收取成功率
+    val avgResponseTime: Long = 1000L,    // 平均响应时间
+    val lastCollectTime: Long = 0L,       // 上次收取时间
+    val isActiveUser: Boolean = true      // 是否活跃用户
+)
+
+/**
+ * 用户能量模式管理器
+ * 单一职责：管理用户的能量收取模式和统计数据
+ */
+object UserEnergyPatternManager {
+    private const val TAG = "UserEnergyPatternManager"
+
+    // 用户模式存储
+    private val userPatterns = ConcurrentHashMap<String, UserEnergyPattern>()
+
+    /**
+     * 获取用户模式
+     */
+    fun getUserPattern(userId: String): UserEnergyPattern {
+        return userPatterns[userId] ?: UserEnergyPattern(userId)
+    }
+
+    /**
+     * 更新用户模式（基于收取结果）
+     */
+    @SuppressLint("DefaultLocale")
+    fun updateUserPattern(userId: String, result: CollectResult, responseTime: Long) {
+        val currentPattern = getUserPattern(userId)
+        val currentTime = System.currentTimeMillis()
+
+        // 使用指数移动平均更新成功率
+        val alpha = 0.1
+        val newSuccessRate = if (result.success) {
+            currentPattern.collectSuccessRate * (1 - alpha) + alpha
+        } else {
+            currentPattern.collectSuccessRate * (1 - alpha)
+        }
+
+        // 更新平均响应时间
+        val newAvgResponseTime = if (responseTime > 0) {
+            (currentPattern.avgResponseTime * 0.8 + responseTime * 0.2).toLong()
+        } else {
+            currentPattern.avgResponseTime
+        }
+
+        // 判断用户活跃度（24小时内有活动）
+        val timeSinceLastCollect = currentTime - currentPattern.lastCollectTime
+        val isActive = timeSinceLastCollect < 24 * 60 * 60 * 1000L
+
+        val updatedPattern = currentPattern.copy(
+            collectSuccessRate = newSuccessRate,
+            avgResponseTime = newAvgResponseTime,
+            lastCollectTime = if (result.success) currentTime else currentPattern.lastCollectTime,
+            isActiveUser = isActive
+        )
+
+        userPatterns[userId] = updatedPattern
+         Log.record(TAG, "更新用户[${userId}]模式：成功率[${String.format("%.2f", newSuccessRate)}] 响应时间[${newAvgResponseTime}ms] 活跃[${isActive}]")
+    }
+
+    /**
+     * 清理过期的用户模式数据
+     */
+    fun cleanupExpiredPatterns() {
+        val currentTime = System.currentTimeMillis()
+        val expireTime = 30 * 24 * 60 * 60 * 1000L // 30天
+
+        val expiredUsers = userPatterns.filter { (_, pattern) ->
+            currentTime - pattern.lastCollectTime > expireTime
+        }.keys
+
+        expiredUsers.forEach { userId ->
+            userPatterns.remove(userId)
+        }
+
+        if (expiredUsers.isNotEmpty()) {
+             Log.record(TAG, "清理过期用户模式数据：${expiredUsers.size}个用户")
+        }
+    }
+}

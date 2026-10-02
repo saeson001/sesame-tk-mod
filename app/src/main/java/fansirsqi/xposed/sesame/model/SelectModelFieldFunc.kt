@@ -1,1 +1,37 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbAoKaW50ZXJmYWNlIFNlbGVjdE1vZGVsRmllbGRGdW5jIHsKICAgIGZ1biBjbGVhcigpCiAgICBmdW4gZ2V0KGlkOiBTdHJpbmc/KTogSW50PwogICAgZnVuIGFkZChpZDogU3RyaW5nPywgY291bnQ6IEludD8pCiAgICBmdW4gcmVtb3ZlKGlkOiBTdHJpbmc/KQogICAgZnVuIGNvbnRhaW5zKGlkOiBTdHJpbmc/KTogQm9vbGVhbj8KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIG5ld01hcEluc3RhbmNlKCk6IFNlbGVjdE1vZGVsRmllbGRGdW5jIHsKICAgICAgICAgICAgcmV0dXJuIG9iamVjdCA6IFNlbGVjdE1vZGVsRmllbGRGdW5jIHsKICAgICAgICAgICAgICAgIHByaXZhdGUgdmFsIG1hcDogTXV0YWJsZU1hcDxTdHJpbmc/LCBJbnQ/PiA9IExpbmtlZEhhc2hNYXA8U3RyaW5nPywgSW50Pz4oKQogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGNsZWFyKCkgewogICAgICAgICAgICAgICAgICAgIG1hcC5jbGVhcigpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGdldChpZDogU3RyaW5nPyk6IEludD8gewogICAgICAgICAgICAgICAgICAgIHJldHVybiBtYXAuZ2V0KGlkKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBhZGQoaWQ6IFN0cmluZz8sIGNvdW50OiBJbnQ/KSB7CiAgICAgICAgICAgICAgICAgICAgbWFwLnB1dChpZCwgY291bnQpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIHJlbW92ZShpZDogU3RyaW5nPykgewogICAgICAgICAgICAgICAgICAgIG1hcC5yZW1vdmUoaWQpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGNvbnRhaW5zKGlkOiBTdHJpbmc/KTogQm9vbGVhbiB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG1hcC5jb250YWluc0tleShpZCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==
+package fansirsqi.xposed.sesame.model
+
+interface SelectModelFieldFunc {
+    fun clear()
+    fun get(id: String?): Int?
+    fun add(id: String?, count: Int?)
+    fun remove(id: String?)
+    fun contains(id: String?): Boolean?
+
+    companion object {
+        @JvmStatic
+        fun newMapInstance(): SelectModelFieldFunc {
+            return object : SelectModelFieldFunc {
+                private val map: MutableMap<String?, Int?> = LinkedHashMap<String?, Int?>()
+                override fun clear() {
+                    map.clear()
+                }
+
+                override fun get(id: String?): Int? {
+                    return map.get(id)
+                }
+
+                override fun add(id: String?, count: Int?) {
+                    map.put(id, count)
+                }
+
+                override fun remove(id: String?) {
+                    map.remove(id)
+                }
+
+                override fun contains(id: String?): Boolean {
+                    return map.containsKey(id)
+                }
+            }
+        }
+    }
+}

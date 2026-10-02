@@ -1,1 +1,89 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5pbnRlcnZhbGxpbWl0CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5HbG9iYWxUaHJlYWRQb29scwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCgpvYmplY3QgUnBjSW50ZXJ2YWxMaW1pdCB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiUnBjSW50ZXJ2YWxMaW1pdCIKICAgIHByaXZhdGUgY29uc3QgdmFsIERFRkFVTFRfSU5URVJWQUwgPSA1MDAKICAgIHByaXZhdGUgdmFsIERFRkFVTFRfSU5URVJWQUxfTElNSVQgPSBEZWZhdWx0SW50ZXJ2YWxMaW1pdChERUZBVUxUX0lOVEVSVkFMKQogICAgcHJpdmF0ZSB2YWwgaW50ZXJ2YWxMaW1pdE1hcCA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgSW50ZXJ2YWxMaW1pdD4oKQoKICAgIC8qKgogICAgICog5Li65oyH5a6a5pa55rOV5re75Yqg6Ze06ZqU6ZmQ5Yi244CCCiAgICAgKgogICAgICogQHBhcmFtIG1ldGhvZCDmlrnms5XlkI3np7AKICAgICAqIEBwYXJhbSBpbnRlcnZhbCDpl7TpmpTml7bpl7TvvIjmr6vnp5LvvIkKICAgICAqLwogICAgZnVuIGFkZEludGVydmFsTGltaXQobWV0aG9kOiBTdHJpbmcsIGludGVydmFsOiBJbnQpIHsKICAgICAgICBhZGRJbnRlcnZhbExpbWl0KG1ldGhvZCwgRGVmYXVsdEludGVydmFsTGltaXQoaW50ZXJ2YWwpKQogICAgfQoKICAgIC8qKgogICAgICog5Li65oyH5a6a5pa55rOV5re75Yqg6Ieq5a6a5LmJ6Ze06ZqU6ZmQ5Yi25a+56LGh44CCCiAgICAgKgogICAgICogQHBhcmFtIG1ldGhvZCDmlrnms5XlkI3np7AKICAgICAqIEBwYXJhbSBpbnRlcnZhbExpbWl0IOiHquWumuS5ieeahOmXtOmalOmZkOWItuWvueixoQogICAgICovCiAgICBmdW4gYWRkSW50ZXJ2YWxMaW1pdChtZXRob2Q6IFN0cmluZywgaW50ZXJ2YWxMaW1pdDogSW50ZXJ2YWxMaW1pdCkgewogICAgICAgIHN5bmNocm9uaXplZChpbnRlcnZhbExpbWl0TWFwKSB7CiAgICAgICAgICAgIGlmIChpbnRlcnZhbExpbWl0TWFwLmNvbnRhaW5zS2V5KG1ldGhvZCkpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5pa55rOV77yaJG1ldGhvZCDpl7TpmpTpmZDliLblt7LlrZjlnKgiKQogICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCLmlrnms5XvvJokbWV0aG9kIOmXtOmalOmZkOWItuW3suWtmOWcqCIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaW50ZXJ2YWxMaW1pdE1hcFttZXRob2RdID0gaW50ZXJ2YWxMaW1pdAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOabtOaWsOaMh+WumuaWueazleeahOmXtOmalOmZkOWItuOAggogICAgICoKICAgICAqIEBwYXJhbSBtZXRob2Qg5pa55rOV5ZCN56ewCiAgICAgKiBAcGFyYW0gaW50ZXJ2YWwg5paw55qE6Ze06ZqU5pe26Ze077yI5q+r56eS77yJCiAgICAgKi8KICAgIGZ1biB1cGRhdGVJbnRlcnZhbExpbWl0KG1ldGhvZDogU3RyaW5nLCBpbnRlcnZhbDogSW50KSB7CiAgICAgICAgdXBkYXRlSW50ZXJ2YWxMaW1pdChtZXRob2QsIERlZmF1bHRJbnRlcnZhbExpbWl0KGludGVydmFsKSkKICAgIH0KCiAgICAvKioKICAgICAqIOabtOaWsOaMh+WumuaWueazleeahOmXtOmalOmZkOWItuWvueixoeOAggogICAgICoKICAgICAqIEBwYXJhbSBtZXRob2Qg5pa55rOV5ZCN56ewCiAgICAgKiBAcGFyYW0gaW50ZXJ2YWxMaW1pdCDmlrDnmoToh6rlrprkuYnpl7TpmpTpmZDliLblr7nosaEKICAgICAqLwogICAgZnVuIHVwZGF0ZUludGVydmFsTGltaXQobWV0aG9kOiBTdHJpbmcsIGludGVydmFsTGltaXQ6IEludGVydmFsTGltaXQpIHsKICAgICAgICBpbnRlcnZhbExpbWl0TWFwW21ldGhvZF0gPSBpbnRlcnZhbExpbWl0CiAgICB9CgogICAgLyoqCiAgICAgKiDov5vlhaXmjIflrprmlrnms5XnmoTpl7TpmpTpmZDliLbvvIznoa7kv53osIPnlKjpl7TpmpTml7bpl7TkuI3lsI/kuo7orr7lrprlgLzjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gbWV0aG9kIOaWueazleWQjeensAogICAgICovCiAgICBmdW4gZW50ZXJJbnRlcnZhbExpbWl0KG1ldGhvZDogU3RyaW5nKSB7CiAgICAgICAgdmFsIGludGVydmFsTGltaXQgPSBpbnRlcnZhbExpbWl0TWFwLmdldE9yRGVmYXVsdChtZXRob2QsIERFRkFVTFRfSU5URVJWQUxfTElNSVQpCiAgICAgICAgdmFsIGxvY2sgPSByZXF1aXJlTm90TnVsbChpbnRlcnZhbExpbWl0KSB7ICLpl7TpmpTpmZDliLblr7nosaHkuI3og73kuLrnqboiIH0KCiAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgLy8g6Kej5YazIEludD8g55qE6Zeu6aKY77yM5L2/55So6buY6K6k5YC85YWc5bqVCiAgICAgICAgICAgIHZhbCBpbnRlcnZhbCA9IGludGVydmFsTGltaXQuaW50ZXJ2YWwgPzogREVGQVVMVF9JTlRFUlZBTAogICAgICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgdmFsIGxhc3RUaW1lID0gaW50ZXJ2YWxMaW1pdC50aW1lCiAgICAgICAgICAgIHZhbCBzbGVlcCA9IGludGVydmFsIC0gKG5vdyAtIGxhc3RUaW1lKQoKICAgICAgICAgICAgaWYgKHNsZWVwID4gMCkgewogICAgICAgICAgICAgICAgR2xvYmFsVGhyZWFkUG9vbHMuc2xlZXBDb21wYXQoc2xlZXApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGludGVydmFsTGltaXQudGltZSA9IG5vdwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOa4hemZpOaJgOacieaWueazleeahOmXtOmalOmZkOWItuOAggogICAgICovCiAgICBmdW4gY2xlYXJJbnRlcnZhbExpbWl0KCkgewogICAgICAgIGludGVydmFsTGltaXRNYXAuY2xlYXIoKQogICAgfQp9
+package fansirsqi.xposed.sesame.hook.rpc.intervallimit
+
+import fansirsqi.xposed.sesame.util.GlobalThreadPools
+import fansirsqi.xposed.sesame.util.Log
+import java.util.concurrent.ConcurrentHashMap
+
+object RpcIntervalLimit {
+    private const val TAG = "RpcIntervalLimit"
+    private const val DEFAULT_INTERVAL = 500
+    private val DEFAULT_INTERVAL_LIMIT = DefaultIntervalLimit(DEFAULT_INTERVAL)
+    private val intervalLimitMap = ConcurrentHashMap<String, IntervalLimit>()
+
+    /**
+     * 为指定方法添加间隔限制。
+     *
+     * @param method 方法名称
+     * @param interval 间隔时间（毫秒）
+     */
+    fun addIntervalLimit(method: String, interval: Int) {
+        addIntervalLimit(method, DefaultIntervalLimit(interval))
+    }
+
+    /**
+     * 为指定方法添加自定义间隔限制对象。
+     *
+     * @param method 方法名称
+     * @param intervalLimit 自定义的间隔限制对象
+     */
+    fun addIntervalLimit(method: String, intervalLimit: IntervalLimit) {
+        synchronized(intervalLimitMap) {
+            if (intervalLimitMap.containsKey(method)) {
+                Log.record(TAG, "方法：$method 间隔限制已存在")
+                throw IllegalArgumentException("方法：$method 间隔限制已存在")
+            }
+            intervalLimitMap[method] = intervalLimit
+        }
+    }
+
+    /**
+     * 更新指定方法的间隔限制。
+     *
+     * @param method 方法名称
+     * @param interval 新的间隔时间（毫秒）
+     */
+    fun updateIntervalLimit(method: String, interval: Int) {
+        updateIntervalLimit(method, DefaultIntervalLimit(interval))
+    }
+
+    /**
+     * 更新指定方法的间隔限制对象。
+     *
+     * @param method 方法名称
+     * @param intervalLimit 新的自定义间隔限制对象
+     */
+    fun updateIntervalLimit(method: String, intervalLimit: IntervalLimit) {
+        intervalLimitMap[method] = intervalLimit
+    }
+
+    /**
+     * 进入指定方法的间隔限制，确保调用间隔时间不小于设定值。
+     *
+     * @param method 方法名称
+     */
+    fun enterIntervalLimit(method: String) {
+        val intervalLimit = intervalLimitMap.getOrDefault(method, DEFAULT_INTERVAL_LIMIT)
+        val lock = requireNotNull(intervalLimit) { "间隔限制对象不能为空" }
+
+        synchronized(lock) {
+            // 解决 Int? 的问题，使用默认值兜底
+            val interval = intervalLimit.interval ?: DEFAULT_INTERVAL
+            val now = System.currentTimeMillis()
+            val lastTime = intervalLimit.time
+            val sleep = interval - (now - lastTime)
+
+            if (sleep > 0) {
+                GlobalThreadPools.sleepCompat(sleep)
+            }
+
+            intervalLimit.time = now
+        }
+    }
+
+    /**
+     * 清除所有方法的间隔限制。
+     */
+    fun clearIntervalLimit() {
+        intervalLimitMap.clear()
+    }
+}

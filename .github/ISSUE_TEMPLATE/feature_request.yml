@@ -1,1 +1,133 @@
-bmFtZTog5Yqf6IO95bu66K6uIC8gRmVhdHVyZSByZXF1ZXN0CmRlc2NyaXB0aW9uOiDmj5Dlh7rmlrDnmoTog73lipvjgIHkvJjljJbpobnjgIHlt6XnqIvmlLnov5vmiJbmlofmoaPmlLnov5vlu7rorq4KdGl0bGU6ICJbRmVhdHVyZV06ICIKbGFiZWxzOgogIC0gZW5oYW5jZW1lbnQKYm9keToKICAtIHR5cGU6IG1hcmtkb3duCiAgICBhdHRyaWJ1dGVzOgogICAgICB2YWx1ZTogfAogICAgICAgIOaEn+iwouS9oOaEv+aEj+aPkOWHuuW7uuiuruOAggoKICAgICAgICDlpoLmnpzkvaDopoHlj5HnmoTmmK/kuIDoiKzorqjorrrjgIHkvb/nlKjkuqTmtYHjgIHmj5Dpl67vvIzmiJblj6rmmK/ov5jkuI3lpJ/mmI7noa7nmoTmg7Pms5XvvIzor7fkvJjlhYjliY3lvoAgW0Rpc2N1c3Npb25zXShodHRwczovL2dpdGh1Yi5jb20vYW9ndWFpL1Nlc2FtZS1BRy9kaXNjdXNzaW9ucynjgIIKCiAgICAgICAg5o+Q5Lqk5YmN6K+35YWI6ZiF6K+777yaCiAgICAgICAgLSBbUkVBRE1FXShodHRwczovL2dpdGh1Yi5jb20vYW9ndWFpL1Nlc2FtZS1BRy9ibG9iL2Rldi9SRUFETUUubWQpCiAgICAgICAgLSBbTEVHQUxdKGh0dHBzOi8vZ2l0aHViLmNvbS9hb2d1YWkvU2VzYW1lLUFHL2Jsb2IvZGV2L0xFR0FMLm1kKQogICAgICAgIC0gW0NPTlRSSUJVVElOR10oaHR0cHM6Ly9naXRodWIuY29tL2FvZ3VhaS9TZXNhbWUtQUcvYmxvYi9kZXYvQ09OVFJJQlVUSU5HLm1kKQoKICAgICAgICDlvZPliY3ku5PlupPkvJjlhYjmjqXlj5fkuI7lrabkuaDnoJTnqbbjgIHku6PnoIHnu7TmiqTjgIHosIPor5XovoXliqnlkozlhazlvIDljY/kvZzkuIDoh7TnmoTlu7rorq7jgILkuI3nrKblkIjpobnnm67ovrnnlYzor4nmsYLnmoTor7fmsYLvvIzpgJrluLjkuI3kvJrooqvlj5fnkIbjgIIKCiAgLSB0eXBlOiBjaGVja2JveGVzCiAgICBpZDogcHJlZmxpZ2h0CiAgICBhdHRyaWJ1dGVzOgogICAgICBsYWJlbDog5o+Q5Lqk5YmN5qOA5p+lCiAgICAgIGRlc2NyaXB0aW9uOiDmiYDmnInpgInpobnlnYflv4Xpobvli77pgInlkI7miY3og73mj5DkuqTjgIIKICAgICAgb3B0aW9uczoKICAgICAgICAtIGxhYmVsOiDmiJHlt7Lnu4/noa7orqTov5nkuI3mmK/kuI7lvZPliY3pobnnm67lrprkvY3lhrLnqoHnmoTovrnnlYzpnIDmsYIKICAgICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgLSBsYWJlbDog5oiR5bey57uP5pCc57Si6L+H546w5pyJIElzc3VlcyAvIFB1bGwgUmVxdWVzdHPvvIzmsqHmnInmib7liLDnm7jlkIzmiJbpq5jluqbnm7jkvLznmoTlu7rorq4KICAgICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgLSBsYWJlbDog5oiR5bey57uP56Gu6K6k6L+Z5LiN5piv5LiA6Iis6K6o6K66IC8g5o+Q6ZeuIC8g5L2/55So5Lqk5rWB77yb6L+Z57G75YaF5a655bqU5Y+R5YiwIERpc2N1c3Npb25zCiAgICAgICAgICByZXF1aXJlZDogdHJ1ZQogICAgICAgIC0gbGFiZWw6IOaIkeW3sue7j+mYheivuyBSRUFETUUgLyBMRUdBTCAvIENPTlRSSUJVVElOR++8jOW5tueQhuino+W9k+WJjeS7k+W6k+eahOWNj+S9nOi+ueeVjAogICAgICAgICAgcmVxdWlyZWQ6IHRydWUKICAgICAgICAtIGxhYmVsOiDlpoLlu7rorq7mtonlj4rml6Xlv5fmiJbosIPor5Xkv6Hmga/vvIzmiJHkvJrku4Xku6XpmYTku7blvaLlvI/kuIrkvKDohLHmlY/ml6Xlv5fvvIzkuI3nm7TmjqXnspjotLTml6Xlv5fmraPmlocKICAgICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgLSBsYWJlbDog5oiR55CG6Kej5L+h5oGv6L+H5LqO5qih57OK44CB57y65bCR5L2/55So5Zy65pmv5oiW5LiN5Y+v5YWs5byA6K6o6K6655qE5bu66K6u5Y+v6IO95Lya6KKr55u05o6l5YWz6ZetCiAgICAgICAgICByZXF1aXJlZDogdHJ1ZQoKICAtIHR5cGU6IGRyb3Bkb3duCiAgICBpZDogZW5oYW5jZW1lbnRfdHlwZQogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IOWinuW8uuexu+WeiwogICAgICBvcHRpb25zOgogICAgICAgIC0g5Yqf6IO95Z6L5aKe5by6CiAgICAgICAgLSDkvJjljJblnovlop7lvLoKICAgICAgICAtIOW3peeoiyAvIOW3peWFt+mTvuaUuei/mwogICAgICAgIC0g5paH5qGj5pS56L+bCiAgICAgICAgLSDlvLrov6vnl4flop7lvLoKICAgIHZhbGlkYXRpb25zOgogICAgICByZXF1aXJlZDogdHJ1ZQoKICAtIHR5cGU6IGRyb3Bkb3duCiAgICBpZDogYWZmZWN0ZWRfYXJlYQogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IOS4u+imgeW9seWTjeiMg+WbtAogICAgICBvcHRpb25zOgogICAgICAgIC0g5Lu75Yqh6YC76L6RCiAgICAgICAgLSBIb29rIC8gUlBDCiAgICAgICAgLSBVSSAvIOiuvue9rumhtQogICAgICAgIC0g6LCD6K+V5bel5YW3IC8g5pel5b+XCiAgICAgICAgLSDmnoTlu7ogLyDlj5HluIMgLyDlhYPmlbDmja4KICAgICAgICAtIOaWh+ahoyAvIOWNj+S9nOa1geeoiwogICAgICAgIC0g5YW25LuWCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUKCiAgLSB0eXBlOiB0ZXh0YXJlYQogICAgaWQ6IHN1bW1hcnkKICAgIGF0dHJpYnV0ZXM6CiAgICAgIGxhYmVsOiDlu7rorq7mkZjopoEKICAgICAgZGVzY3JpcHRpb246IOeUqOS4gOWPpeivneamguaLrOS9oOW4jOacm+WinuWKoOaIluaUuei/m+S7gOS5iAogICAgICBwbGFjZWhvbGRlcjog5Li66LCD6K+V5pel5b+X5aKe5Yqg5oyJ5Lu75Yqh5qih5Z2X562b6YCJ55qE5a+85Ye66IO95Yqb44CCCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUKCiAgLSB0eXBlOiB0ZXh0YXJlYQogICAgaWQ6IHByb2JsZW0KICAgIGF0dHJpYnV0ZXM6CiAgICAgIGxhYmVsOiDkvaDopoHop6PlhrPnmoTpl67popgKICAgICAgZGVzY3JpcHRpb246IOivtOaYjuW9k+WJjeeXm+eCueOAgeS4uuS7gOS5iOeOsOeKtuS4jeWkn+eUqOOAgeS9v+eUqOWcuuaZr+aYr+S7gOS5iAogICAgICBwbGFjZWhvbGRlcjogfAogICAgICAgIOW9k+WJjeWvvOWHuueahOaXpeW/l+eykuW6pui/h+Wkp++8jOaOkuafpeWNleS4quS7u+WKoemXrumimOaXtumcgOimgeaJi+W3peetm+mAie+8jOaIkOacrOi+g+mrmOOAggogICAgdmFsaWRhdGlvbnM6CiAgICAgIHJlcXVpcmVkOiB0cnVlCgogIC0gdHlwZTogdGV4dGFyZWEKICAgIGlkOiBwcm9wb3NlZF9zb2x1dGlvbgogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IOacn+acm+eahOino+WGs+aWueahiAogICAgICBkZXNjcmlwdGlvbjog5bC96YeP5YW35L2T5Zyw5o+P6L+w5L2g5oOz55yL5Yiw55qE6KGM5Li644CB55WM6Z2i44CB6YWN572u6aG55oiW5o6l5Y+jCiAgICAgIHBsYWNlaG9sZGVyOiB8CiAgICAgICAg5Zyo5pel5b+X6aG15aKe5Yqg4oCc5oyJ5Lu75Yqh5qih5Z2X5a+85Ye64oCd6YCJ6aG577yM5pSv5oyB6YCJ5oupIGFudEZvcmVzdCAvIGFudEZhcm0g562J5qih5Z2X5bm25a+85Ye65a+55bqU5pel5b+X44CCCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUKCiAgLSB0eXBlOiB0ZXh0YXJlYQogICAgaWQ6IGFsdGVybmF0aXZlcwogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IOS9oOiAg+iZkei/h+eahOabv+S7o+aWueahiAogICAgICBkZXNjcmlwdGlvbjog5aaC5p6c5bey5pyJ5Li05pe25YGa5rOV5oiW5YW25LuW5oCd6Lev77yM6K+35LiA6LW35YaZ5piOCiAgICAgIHBsYWNlaG9sZGVyOiB8CiAgICAgICAg5b2T5YmN5Y+q6IO95YWI5a+85Ye65YWo6YOo5pel5b+X77yM5YaN5Zyo5pys5Zyw5omL5bel6L+H5ruk77yb5Y+v6KGM5L2G5pWI546H6L6D5L2O44CCCgogIC0gdHlwZTogdGV4dGFyZWEKICAgIGlkOiBpbXBhY3QKICAgIGF0dHJpYnV0ZXM6CiAgICAgIGxhYmVsOiDlvbHlk43kuI7ku7flgLwKICAgICAgZGVzY3JpcHRpb246IOivtOaYjuiwgeS8muWPl+W9seWTjeOAgemikeeOh+WmguS9leOAgeS4uuS7gOS5iOWAvOW+l+WBmgogICAgICBwbGFjZWhvbGRlcjogfAogICAgICAgIC0g5Y+X5b2x5ZON5a+56LGh77ya5o6S5p+l5Lu75Yqh5byC5bi455qE57u05oqk6ICF5ZKM6LSh54yu6ICFCiAgICAgICAgLSDpopHnjofvvJrkuK3pq5jpopEKICAgICAgICAtIOS7t+WAvO+8mue8qeefreWumuS9jemXrumimOeahOaXtumXtO+8jOaPkOmrmOWPjemmiOi0qOmHjwogICAgdmFsaWRhdGlvbnM6CiAgICAgIHJlcXVpcmVkOiB0cnVlCgogIC0gdHlwZTogdGV4dGFyZWEKICAgIGlkOiBldmlkZW5jZQogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6IOivgeaNruOAgeekuuS+i+aIluWPguiAgwogICAgICBkZXNjcmlwdGlvbjog5Y+v5Lul6ZmE57G75Ly85a6e546w44CB5oiq5Zu+44CB5Y6f5Z6L5oiW5YW25LuW5Y+C6ICD5L+h5oGv77yb5aaC5raJ5Y+K5pel5b+X77yM5Y+q6IO95bCG6ISx5pWP5ZCO55qE5pel5b+X5paH5Lu25L2c5Li66ZmE5Lu25LiK5Lyg77yM5LiN6KaB57KY6LS05pel5b+X5q2j5paHCiAgICAgIHBsYWNlaG9sZGVyOiB8CiAgICAgICAg5Y+v6ZmE5LiK546w5pyJ55WM6Z2i5oiq5Zu+44CB5LiK5ri45Y+C6ICD5a6e546w5oiW5L2g6Ieq5bex55qE5Y6f5Z6L5o+P6L+w44CCCgogICAgICAgIOWmgua2ieWPiuaXpeW/l++8jOivt+WwhiAudHh0IC8gLmxvZyAvIC56aXAg562J5paH5Lu25ouW5ou95Yiw5q2k5aSE55Sf5oiQ6ZmE5Lu26ZO+5o6l44CCCgogIC0gdHlwZTogdGV4dGFyZWEKICAgIGlkOiBhZGRpdGlvbmFsX2luZm9ybWF0aW9uCiAgICBhdHRyaWJ1dGVzOgogICAgICBsYWJlbDog6KGl5YWF5L+h5oGvCiAgICAgIGRlc2NyaXB0aW9uOiDov5nph4zlj6/ku6XlhpnlhbzlrrnmgKfopoHmsYLjgIHojIPlm7TovrnnlYzmiJbkvaDkuI3luIzmnJvlvbHlk43nmoTnjrDmnInooYzkuLoKICAgICAgcGxhY2Vob2xkZXI6IHwKICAgICAgICDluIzmnJvkv53mjIHlvZPliY3pu5jorqTooYzkuLrkuI3lj5jvvIzku4XlnKjlr7zlh7rml7bmlrDlop7nrZvpgInog73lipvjgIIK
+name: 功能建议 / Feature request
+description: 提出新的能力、优化项、工程改进或文档改进建议
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你愿意提出建议。
+
+        如果你要发的是一般讨论、使用交流、提问，或只是还不够明确的想法，请优先前往 [Discussions](https://github.com/aoguai/Sesame-AG/discussions)。
+
+        提交前请先阅读：
+        - [README](https://github.com/aoguai/Sesame-AG/blob/dev/README.md)
+        - [LEGAL](https://github.com/aoguai/Sesame-AG/blob/dev/LEGAL.md)
+        - [CONTRIBUTING](https://github.com/aoguai/Sesame-AG/blob/dev/CONTRIBUTING.md)
+
+        当前仓库优先接受与学习研究、代码维护、调试辅助和公开协作一致的建议。不符合项目边界诉求的请求，通常不会被受理。
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: 提交前检查
+      description: 所有选项均必须勾选后才能提交。
+      options:
+        - label: 我已经确认这不是与当前项目定位冲突的边界需求
+          required: true
+        - label: 我已经搜索过现有 Issues / Pull Requests，没有找到相同或高度相似的建议
+          required: true
+        - label: 我已经确认这不是一般讨论 / 提问 / 使用交流；这类内容应发到 Discussions
+          required: true
+        - label: 我已经阅读 README / LEGAL / CONTRIBUTING，并理解当前仓库的协作边界
+          required: true
+        - label: 如建议涉及日志或调试信息，我会仅以附件形式上传脱敏日志，不直接粘贴日志正文
+          required: true
+        - label: 我理解信息过于模糊、缺少使用场景或不可公开讨论的建议可能会被直接关闭
+          required: true
+
+  - type: dropdown
+    id: enhancement_type
+    attributes:
+      label: 增强类型
+      options:
+        - 功能型增强
+        - 优化型增强
+        - 工程 / 工具链改进
+        - 文档改进
+        - 强迫症增强
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affected_area
+    attributes:
+      label: 主要影响范围
+      options:
+        - 任务逻辑
+        - Hook / RPC
+        - UI / 设置页
+        - 调试工具 / 日志
+        - 构建 / 发布 / 元数据
+        - 文档 / 协作流程
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 建议摘要
+      description: 用一句话概括你希望增加或改进什么
+      placeholder: 为调试日志增加按任务模块筛选的导出能力。
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你要解决的问题
+      description: 说明当前痛点、为什么现状不够用、使用场景是什么
+      placeholder: |
+        当前导出的日志粒度过大，排查单个任务问题时需要手工筛选，成本较高。
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: 期望的解决方案
+      description: 尽量具体地描述你想看到的行为、界面、配置项或接口
+      placeholder: |
+        在日志页增加“按任务模块导出”选项，支持选择 antForest / antFarm 等模块并导出对应日志。
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 你考虑过的替代方案
+      description: 如果已有临时做法或其他思路，请一起写明
+      placeholder: |
+        当前只能先导出全部日志，再在本地手工过滤；可行但效率较低。
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: 影响与价值
+      description: 说明谁会受影响、频率如何、为什么值得做
+      placeholder: |
+        - 受影响对象：排查任务异常的维护者和贡献者
+        - 频率：中高频
+        - 价值：缩短定位问题的时间，提高反馈质量
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据、示例或参考
+      description: 可以附类似实现、截图、原型或其他参考信息；如涉及日志，只能将脱敏后的日志文件作为附件上传，不要粘贴日志正文
+      placeholder: |
+        可附上现有界面截图、上游参考实现或你自己的原型描述。
+
+        如涉及日志，请将 .txt / .log / .zip 等文件拖拽到此处生成附件链接。
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: 补充信息
+      description: 这里可以写兼容性要求、范围边界或你不希望影响的现有行为
+      placeholder: |
+        希望保持当前默认行为不变，仅在导出时新增筛选能力。

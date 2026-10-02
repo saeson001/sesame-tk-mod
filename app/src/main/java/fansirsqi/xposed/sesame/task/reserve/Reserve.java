@@ -1,1 +1,223 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLnJlc2VydmU7CgppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5OwppbXBvcnQgb3JnLmpzb24uSlNPTkV4Y2VwdGlvbjsKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3Q7CgppbXBvcnQgamF2YS51dGlsLkxpbmtlZEhhc2hNYXA7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwppbXBvcnQgamF2YS51dGlsLk9iamVjdHM7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZW50aXR5LlJlc2VydmVFbnRpdHk7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5CYXNlTW9kZWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEZpZWxkczsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsR3JvdXA7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LlNlbGVjdEFuZENvdW50TW9kZWxGaWVsZDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suTW9kZWxUYXNrOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5UYXNrQ29tbW9uOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5HbG9iYWxUaHJlYWRQb29sczsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLklkTWFwTWFuYWdlcjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwubWFwcy5SZXNlcnZlYU1hcDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuUmFuZG9tVXRpbDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuUmVzQ2hlY2tlcjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuU3RhdHVzOwoKcHVibGljIGNsYXNzIFJlc2VydmUgZXh0ZW5kcyBNb2RlbFRhc2sgewogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFRBRyA9IFJlc2VydmUuY2xhc3MuZ2V0U2ltcGxlTmFtZSgpOwoKICAgIEBPdmVycmlkZQogICAgcHVibGljIFN0cmluZyBnZXROYW1lKCkgewogICAgICAgIHJldHVybiAi5L+d5oqk5ZywIjsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBNb2RlbEdyb3VwIGdldEdyb3VwKCkgewogICAgICAgIHJldHVybiBNb2RlbEdyb3VwLkZPUkVTVDsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0SWNvbigpIHsKICAgICAgICByZXR1cm4gIlJlc2VydmUucG5nIjsKICAgIH0KCiAgICBwcml2YXRlIFNlbGVjdEFuZENvdW50TW9kZWxGaWVsZCByZXNlcnZlTGlzdDsKCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBNb2RlbEZpZWxkcyBnZXRGaWVsZHMoKSB7CiAgICAgICAgTW9kZWxGaWVsZHMgbW9kZWxGaWVsZHMgPSBuZXcgTW9kZWxGaWVsZHMoKTsKICAgICAgICBtb2RlbEZpZWxkcy5hZGRGaWVsZChyZXNlcnZlTGlzdCA9IG5ldyBTZWxlY3RBbmRDb3VudE1vZGVsRmllbGQoInJlc2VydmVMaXN0IiwgIuS/neaKpOWcsOWIl+ihqCIsIG5ldyBMaW5rZWRIYXNoTWFwPD4oKSwgUmVzZXJ2ZUVudGl0eTo6Z2V0TGlzdCwgIumhvuWQjeaAneS5iSIpKTsKICAgICAgICByZXR1cm4gbW9kZWxGaWVsZHM7CiAgICB9CgogICAgcHJvdGVjdGVkIHZvaWQgcnVuSmF2YSgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuW8gOWni+S/neaKpOWcsOS7u+WKoSIpOwogICAgICAgICAgICBpbml0UmVzZXJ2ZSgpOwogICAgICAgICAgICBhbmltYWxSZXNlcnZlKCk7CiAgICAgICAgfSBjYXRjaCAoVGhyb3dhYmxlIHQpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJzdGFydC5ydW4gZXJyOiIsdCk7CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLkv53miqTlnLDku7vliqEiKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDliJ3lp4vljJbkv53miqTlnLDku7vliqHjgILpgJrov4cgUmVzZXJ2ZVJwYyDmjqXlj6Pmn6Xor6Llj6/lhZHmjaLnmoTmoJHpobnnm67vvIzlsIbnrKblkIjmnaHku7bnmoTkv53miqTlnLDku7vliqHlrZjlhaUgUmVzZXJ2ZUlkTWFwVXRpbOOAgiDmnaHku7bvvJrpobnnm67nsbvlnovkuLogIlJFU0VSVkUiIOS4lOeKtuaAgeS4uiAiQVZBSUxBQkxFIuOAguiLpeiwg+eUqOWksei0peWImeWKoOi9veWkh+S7veeahCBSZXNlcnZlSWRNYXBVdGls44CCCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBpbml0UmVzZXJ2ZSgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBTdHJpbmcgcmVzcG9uc2UgPSBSZXNlcnZlUnBjQ2FsbC5xdWVyeVRyZWVJdGVtc0ZvckV4Y2hhbmdlKCk7CiAgICAgICAgICAgIEpTT05PYmplY3QganNvblJlc3BvbnNlID0gbmV3IEpTT05PYmplY3QocmVzcG9uc2UpOwogICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIGpzb25SZXNwb25zZSkpIHsKICAgICAgICAgICAgICAgIEpTT05BcnJheSB0cmVlSXRlbXMgPSBqc29uUmVzcG9uc2Uub3B0SlNPTkFycmF5KCJ0cmVlSXRlbXMiKTsKICAgICAgICAgICAgICAgIGlmICh0cmVlSXRlbXMgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgdHJlZUl0ZW1zLmxlbmd0aCgpOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgSlNPTk9iamVjdCBpdGVtID0gdHJlZUl0ZW1zLmdldEpTT05PYmplY3QoaSk7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOi3s+i/h+acquWumuS5iSBwcm9qZWN0VHlwZSDlrZfmrrXnmoTpobnnm64KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCFpdGVtLmhhcygicHJvamVjdFR5cGUiKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgLy8g6L+H5ruk5Ye6IHByb2plY3RUeXBlIOS4uiAiUkVTRVJWRSIg5LiUIGFwcGx5QWN0aW9uIOS4uiAiQVZBSUxBQkxFIiDnmoTpobnnm64KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCJSRVNFUlZFIi5lcXVhbHMoaXRlbS5nZXRTdHJpbmcoInByb2plY3RUeXBlIikpICYmICJBVkFJTEFCTEUiLmVxdWFscyhpdGVtLmdldFN0cmluZygiYXBwbHlBY3Rpb24iKSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWwhuespuWQiOadoeS7tueahOmhueebrua3u+WKoOWIsCBSZXNlcnZlSWRNYXBVdGlsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgaXRlbUlkID0gaXRlbS5nZXRTdHJpbmcoIml0ZW1JZCIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGl0ZW1OYW1lID0gaXRlbS5nZXRTdHJpbmcoIml0ZW1OYW1lIik7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnQgZW5lcmd5ID0gaXRlbS5nZXRJbnQoImVuZXJneSIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgSWRNYXBNYW5hZ2VyLmdldEluc3RhbmNlKFJlc2VydmVhTWFwLmNsYXNzKS5hZGQoaXRlbUlkLCBpdGVtTmFtZSArICIoIiArIGVuZXJneSArICJnKSIpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5Yid5aeL5YyW5L+d5oqk5Zyw5Lu75Yqh5oiQ5Yqf44CCIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyDlsIbnrZvpgInnu5Pmnpzkv53lrZjliLAgUmVzZXJ2ZUlkTWFwVXRpbAogICAgICAgICAgICAgICAgSWRNYXBNYW5hZ2VyLmdldEluc3RhbmNlKFJlc2VydmVhTWFwLmNsYXNzKS5zYXZlKCk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyDoi6UgcmVzdWx0Q29kZSDkuI3kuLogU1VDQ0VTU++8jOiusOW9lemUmeivr+aPj+i/sAogICAgICAgICAgICAgICAgTG9nLmVycm9yKGpzb25SZXNwb25zZS5vcHRTdHJpbmcoInJlc3VsdERlc2MiLCAi5pyq55+l6ZSZ6K+vIikpOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoSlNPTkV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIC8vIOaNleiOtyBKU09OIOino+aekOmUmeivr+W5tuiusOW9leaXpeW/lwogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgIkpTT04g6Kej5p6Q6ZSZ6K+v77yaIiArIGUuZ2V0TWVzc2FnZSgpLGUpOwogICAgICAgICAgICBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoUmVzZXJ2ZWFNYXAuY2xhc3MpLmxvYWQoKTsgLy8g6Iul5Ye6546w5byC5bi45YiZ5Yqg6L295L+d5a2Y55qEIFJlc2VydmVJZE1hcFV0aWwg5aSH5Lu9CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgLy8g5o2V6I635omA5pyJ5YW25LuW5byC5bi45bm26K6w5b2VCiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi5Yid5aeL5YyW5L+d5oqk5Zyw5Lu75Yqh5pe25Ye66ZSZ77yaIiArIGUuZ2V0TWVzc2FnZSgpLGUpOwogICAgICAgICAgICBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoUmVzZXJ2ZWFNYXAuY2xhc3MpLmxvYWQoKTsgLy8g5Yqg6L295aSH5Lu955qEIFJlc2VydmVJZE1hcFV0aWwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIGFuaW1hbFJlc2VydmUoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLlvIDlp4vmiafooYwtIiArIGdldE5hbWUoKSk7CiAgICAgICAgICAgIFN0cmluZyBzID0gUmVzZXJ2ZVJwY0NhbGwucXVlcnlUcmVlSXRlbXNGb3JFeGNoYW5nZSgpOwogICAgICAgICAgICBpZiAocyA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBHbG9iYWxUaHJlYWRQb29scy5zbGVlcENvbXBhdChSYW5kb21VdGlsLmRlbGF5KCkpOwogICAgICAgICAgICAgICAgcyA9IFJlc2VydmVScGNDYWxsLnF1ZXJ5VHJlZUl0ZW1zRm9yRXhjaGFuZ2UoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBKU09OT2JqZWN0IGpvID0gbmV3IEpTT05PYmplY3Qocyk7CiAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgam8pKSB7CiAgICAgICAgICAgICAgICBKU09OQXJyYXkgamEgPSBqby5nZXRKU09OQXJyYXkoInRyZWVJdGVtcyIpOwogICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBqYS5sZW5ndGgoKTsgaSsrKSB7CiAgICAgICAgICAgICAgICAgICAgam8gPSBqYS5nZXRKU09OT2JqZWN0KGkpOwogICAgICAgICAgICAgICAgICAgIGlmICgham8uaGFzKCJwcm9qZWN0VHlwZSIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBpZiAoISJSRVNFUlZFIi5lcXVhbHMoam8uZ2V0U3RyaW5nKCJwcm9qZWN0VHlwZSIpKSkgewogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgKCEiQVZBSUxBQkxFIi5lcXVhbHMoam8uZ2V0U3RyaW5nKCJhcHBseUFjdGlvbiIpKSkgewogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU3RyaW5nIHByb2plY3RJZCA9IGpvLmdldFN0cmluZygiaXRlbUlkIik7CiAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGl0ZW1OYW1lID0gam8uZ2V0U3RyaW5nKCJpdGVtTmFtZSIpOwogICAgICAgICAgICAgICAgICAgIE1hcDxTdHJpbmcsIEludGVnZXI+IG1hcCA9IHJlc2VydmVMaXN0LmdldFZhbHVlKCk7CiAgICAgICAgICAgICAgICAgICAgZm9yIChNYXAuRW50cnk8U3RyaW5nLCBJbnRlZ2VyPiBlbnRyeSA6IG1hcC5lbnRyeVNldCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChPYmplY3RzLmVxdWFscyhlbnRyeS5nZXRLZXkoKSwgcHJvamVjdElkKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgSW50ZWdlciBjb3VudCA9IGVudHJ5LmdldFZhbHVlKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoY291bnQgIT0gbnVsbCAmJiBjb3VudCA+IDAgJiYgU3RhdHVzLmNhblJlc2VydmVUb2RheShwcm9qZWN0SWQsIGNvdW50KSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2hhbmdlVHJlZShwcm9qZWN0SWQsIGl0ZW1OYW1lLCBjb3VudCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCBqby5nZXRTdHJpbmcoInJlc3VsdERlc2MiKSk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdCkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgImFuaW1hbFJlc2VydmUgZXJyOiIsdCk7CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLnu5PmnZ/miafooYwtIiArIGdldE5hbWUoKSk7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgYm9vbGVhbiBxdWVyeVRyZWVGb3JFeGNoYW5nZShTdHJpbmcgcHJvamVjdElkKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgU3RyaW5nIHMgPSBSZXNlcnZlUnBjQ2FsbC5xdWVyeVRyZWVGb3JFeGNoYW5nZShwcm9qZWN0SWQpOwogICAgICAgICAgICBKU09OT2JqZWN0IGpvID0gbmV3IEpTT05PYmplY3Qocyk7CiAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgam8pKSB7CiAgICAgICAgICAgICAgICBTdHJpbmcgYXBwbHlBY3Rpb24gPSBqby5nZXRTdHJpbmcoImFwcGx5QWN0aW9uIik7CiAgICAgICAgICAgICAgICBpbnQgY3VycmVudEVuZXJneSA9IGpvLmdldEludCgiY3VycmVudEVuZXJneSIpOwogICAgICAgICAgICAgICAgam8gPSBqby5nZXRKU09OT2JqZWN0KCJleGNoYW5nZWFibGVUcmVlIik7CiAgICAgICAgICAgICAgICBpZiAoIkFWQUlMQUJMRSIuZXF1YWxzKGFwcGx5QWN0aW9uKSkgewogICAgICAgICAgICAgICAgICAgIGlmIChjdXJyZW50RW5lcmd5ID49IGpvLmdldEludCgiZW5lcmd5IikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgTG9nLmZvcmVzdCgi6aKG5L+d5oqk5Zyw8J+Ple+4j1siICsgam8uZ2V0U3RyaW5nKCJwcm9qZWN0TmFtZSIpICsgIl0j6IO96YeP5LiN6Laz5YGc5q2i55Sz6K+3Iik7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIExvZy5mb3Jlc3QoIumihuS/neaKpOWcsPCfj5XvuI9bIiArIGpvLmdldFN0cmluZygicHJvamVjdE5hbWUiKSArICJdI+S8vOS5juayoeacieS6hiIpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoam8uZ2V0U3RyaW5nKCJyZXN1bHREZXNjIikpOwogICAgICAgICAgICAgICAgTG9nLnJlY29yZChzKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0KSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAicXVlcnlUcmVlRm9yRXhjaGFuZ2UgZXJyOiIsdCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgZXhjaGFuZ2VUcmVlKFN0cmluZyBwcm9qZWN0SWQsIFN0cmluZyBpdGVtTmFtZSwgaW50IGNvdW50KSB7CiAgICAgICAgaW50IGFwcGxpZWRUaW1lcyA9IDA7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgU3RyaW5nIHM7CiAgICAgICAgICAgIEpTT05PYmplY3Qgam87CiAgICAgICAgICAgIGJvb2xlYW4gY2FuQXBwbHkgPSBxdWVyeVRyZWVGb3JFeGNoYW5nZShwcm9qZWN0SWQpOwogICAgICAgICAgICBpZiAoIWNhbkFwcGx5KQogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICBmb3IgKGludCBhcHBseUNvdW50ID0gMTsgYXBwbHlDb3VudCA8PSBjb3VudDsgYXBwbHlDb3VudCsrKSB7CiAgICAgICAgICAgICAgICBzID0gUmVzZXJ2ZVJwY0NhbGwuZXhjaGFuZ2VUcmVlKHByb2plY3RJZCk7CiAgICAgICAgICAgICAgICBqbyA9IG5ldyBKU09OT2JqZWN0KHMpOwogICAgICAgICAgICAgICAgaWYgKFJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBqbykpIHsKICAgICAgICAgICAgICAgICAgICBpbnQgdml0YWxpdHlBbW91bnQgPSBqby5vcHRJbnQoInZpdGFsaXR5QW1vdW50IiwgMCk7CiAgICAgICAgICAgICAgICAgICAgYXBwbGllZFRpbWVzID0gU3RhdHVzLmdldFJlc2VydmVUaW1lcyhwcm9qZWN0SWQpICsgMTsKICAgICAgICAgICAgICAgICAgICBTdHJpbmcgc3RyID0gIumihuS/neaKpOWcsPCfj5XvuI9bIiArIGl0ZW1OYW1lICsgIl0j56ysIiArIGFwcGxpZWRUaW1lcyArICLmrKEiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICArICh2aXRhbGl0eUFtb3VudCA+IDAgPyAiLea0u+WKm+WAvCsiICsgdml0YWxpdHlBbW91bnQgOiAiIik7CiAgICAgICAgICAgICAgICAgICAgTG9nLmZvcmVzdChzdHIpOwogICAgICAgICAgICAgICAgICAgIFN0YXR1cy5yZXNlcnZlVG9kYXkocHJvamVjdElkLCAxKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgLy9Mb2cucmVjb3JkKGpvLmdldFN0cmluZygicmVzdWx0RGVzYyIpKTsKICAgICAgICAgICAgICAgICAgICAvL0xvZy5ydW50aW1lKGpvLnRvU3RyaW5nKCkpOwogICAgICAgICAgICAgICAgICAgIExvZy5lcnJvcigi6aKG5L+d5oqk5Zyw8J+Ple+4j1siICsgaXRlbU5hbWUgKyAiXSPlj5HnlJ/mnKrnn6XplJnor6/vvIzlgZzmraLnlLPor7ciKTsKICAgICAgICAgICAgICAgICAgICAvLyBTdGF0aXN0aWNzLnJlc2VydmVUb2RheShwcm9qZWN0SWQsIGNvdW50KTsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIEdsb2JhbFRocmVhZFBvb2xzLnNsZWVwQ29tcGF0KDMwMCk7CiAgICAgICAgICAgICAgICBjYW5BcHBseSA9IHF1ZXJ5VHJlZUZvckV4Y2hhbmdlKHByb2plY3RJZCk7CiAgICAgICAgICAgICAgICBpZiAoIWNhbkFwcGx5KSB7CiAgICAgICAgICAgICAgICAgICAgLy8gU3RhdGlzdGljcy5yZXNlcnZlVG9kYXkocHJvamVjdElkLCBjb3VudCk7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEdsb2JhbFRocmVhZFBvb2xzLnNsZWVwQ29tcGF0KDMwMCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoIVN0YXR1cy5jYW5SZXNlcnZlVG9kYXkocHJvamVjdElkLCBjb3VudCkpCiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdCkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgImV4Y2hhbmdlVHJlZSBlcnI6Iix0KTsKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task.reserve;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Objects;
+
+import fansirsqi.xposed.sesame.entity.ReserveEntity;
+import fansirsqi.xposed.sesame.model.BaseModel;
+import fansirsqi.xposed.sesame.model.ModelFields;
+import fansirsqi.xposed.sesame.model.ModelGroup;
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectAndCountModelField;
+import fansirsqi.xposed.sesame.task.ModelTask;
+import fansirsqi.xposed.sesame.task.TaskCommon;
+import fansirsqi.xposed.sesame.util.GlobalThreadPools;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.maps.IdMapManager;
+import fansirsqi.xposed.sesame.util.maps.ReserveaMap;
+import fansirsqi.xposed.sesame.util.RandomUtil;
+import fansirsqi.xposed.sesame.util.ResChecker;
+import fansirsqi.xposed.sesame.data.Status;
+
+public class Reserve extends ModelTask {
+    private static final String TAG = Reserve.class.getSimpleName();
+
+    @Override
+    public String getName() {
+        return "保护地";
+    }
+
+    @Override
+    public ModelGroup getGroup() {
+        return ModelGroup.FOREST;
+    }
+
+    @Override
+    public String getIcon() {
+        return "Reserve.png";
+    }
+
+    private SelectAndCountModelField reserveList;
+
+    @Override
+    public ModelFields getFields() {
+        ModelFields modelFields = new ModelFields();
+        modelFields.addField(reserveList = new SelectAndCountModelField("reserveList", "保护地列表", new LinkedHashMap<>(), ReserveEntity::getList, "顾名思义"));
+        return modelFields;
+    }
+
+    protected void runJava() {
+        try {
+            Log.record(TAG, "开始保护地任务");
+            initReserve();
+            animalReserve();
+        } catch (Throwable t) {
+            Log.printStackTrace(TAG, "start.run err:",t);
+        } finally {
+            Log.record(TAG, "保护地任务");
+        }
+    }
+
+    /**
+     * 初始化保护地任务。通过 ReserveRpc 接口查询可兑换的树项目，将符合条件的保护地任务存入 ReserveIdMapUtil。 条件：项目类型为 "RESERVE" 且状态为 "AVAILABLE"。若调用失败则加载备份的 ReserveIdMapUtil。
+     */
+    public static void initReserve() {
+        try {
+            String response = ReserveRpcCall.queryTreeItemsForExchange();
+            JSONObject jsonResponse = new JSONObject(response);
+            if (ResChecker.checkRes(TAG, jsonResponse)) {
+                JSONArray treeItems = jsonResponse.optJSONArray("treeItems");
+                if (treeItems != null) {
+                    for (int i = 0; i < treeItems.length(); i++) {
+                        JSONObject item = treeItems.getJSONObject(i);
+                        // 跳过未定义 projectType 字段的项目
+                        if (!item.has("projectType")) {
+                            continue;
+                        }
+                        // 过滤出 projectType 为 "RESERVE" 且 applyAction 为 "AVAILABLE" 的项目
+                        if ("RESERVE".equals(item.getString("projectType")) && "AVAILABLE".equals(item.getString("applyAction"))) {
+                            // 将符合条件的项目添加到 ReserveIdMapUtil
+                            String itemId = item.getString("itemId");
+                            String itemName = item.getString("itemName");
+                            int energy = item.getInt("energy");
+                            IdMapManager.getInstance(ReserveaMap.class).add(itemId, itemName + "(" + energy + "g)");
+                        }
+                    }
+                    Log.record(TAG, "初始化保护地任务成功。");
+                }
+                // 将筛选结果保存到 ReserveIdMapUtil
+                IdMapManager.getInstance(ReserveaMap.class).save();
+            } else {
+                // 若 resultCode 不为 SUCCESS，记录错误描述
+                Log.error(jsonResponse.optString("resultDesc", "未知错误"));
+            }
+        } catch (JSONException e) {
+            // 捕获 JSON 解析错误并记录日志
+            Log.printStackTrace(TAG, "JSON 解析错误：" + e.getMessage(),e);
+            IdMapManager.getInstance(ReserveaMap.class).load(); // 若出现异常则加载保存的 ReserveIdMapUtil 备份
+        } catch (Exception e) {
+            // 捕获所有其他异常并记录
+            Log.printStackTrace(TAG, "初始化保护地任务时出错：" + e.getMessage(),e);
+            IdMapManager.getInstance(ReserveaMap.class).load(); // 加载备份的 ReserveIdMapUtil
+        }
+    }
+
+    private void animalReserve() {
+        try {
+            Log.record(TAG, "开始执行-" + getName());
+            String s = ReserveRpcCall.queryTreeItemsForExchange();
+            if (s == null) {
+                GlobalThreadPools.sleepCompat(RandomUtil.delay());
+                s = ReserveRpcCall.queryTreeItemsForExchange();
+            }
+            JSONObject jo = new JSONObject(s);
+            if (ResChecker.checkRes(TAG, jo)) {
+                JSONArray ja = jo.getJSONArray("treeItems");
+                for (int i = 0; i < ja.length(); i++) {
+                    jo = ja.getJSONObject(i);
+                    if (!jo.has("projectType")) {
+                        continue;
+                    }
+                    if (!"RESERVE".equals(jo.getString("projectType"))) {
+                        continue;
+                    }
+                    if (!"AVAILABLE".equals(jo.getString("applyAction"))) {
+                        continue;
+                    }
+                    String projectId = jo.getString("itemId");
+                    String itemName = jo.getString("itemName");
+                    Map<String, Integer> map = reserveList.getValue();
+                    for (Map.Entry<String, Integer> entry : map.entrySet()) {
+                        if (Objects.equals(entry.getKey(), projectId)) {
+                            Integer count = entry.getValue();
+                            if (count != null && count > 0 && Status.canReserveToday(projectId, count)) {
+                                exchangeTree(projectId, itemName, count);
+                            }
+                            break;
+                        }
+                    }
+                }
+            } else {
+                Log.record(TAG, jo.getString("resultDesc"));
+            }
+        } catch (Throwable t) {
+            Log.printStackTrace(TAG, "animalReserve err:",t);
+        } finally {
+            Log.record(TAG, "结束执行-" + getName());
+        }
+    }
+
+    private boolean queryTreeForExchange(String projectId) {
+        try {
+            String s = ReserveRpcCall.queryTreeForExchange(projectId);
+            JSONObject jo = new JSONObject(s);
+            if (ResChecker.checkRes(TAG, jo)) {
+                String applyAction = jo.getString("applyAction");
+                int currentEnergy = jo.getInt("currentEnergy");
+                jo = jo.getJSONObject("exchangeableTree");
+                if ("AVAILABLE".equals(applyAction)) {
+                    if (currentEnergy >= jo.getInt("energy")) {
+                        return true;
+                    } else {
+                        Log.forest("领保护地🏕️[" + jo.getString("projectName") + "]#能量不足停止申请");
+                        return false;
+                    }
+                } else {
+                    Log.forest("领保护地🏕️[" + jo.getString("projectName") + "]#似乎没有了");
+                    return false;
+                }
+            } else {
+                Log.record(jo.getString("resultDesc"));
+                Log.record(s);
+            }
+        } catch (Throwable t) {
+            Log.printStackTrace(TAG, "queryTreeForExchange err:",t);
+        }
+        return false;
+    }
+
+    private void exchangeTree(String projectId, String itemName, int count) {
+        int appliedTimes = 0;
+        try {
+            String s;
+            JSONObject jo;
+            boolean canApply = queryTreeForExchange(projectId);
+            if (!canApply)
+                return;
+            for (int applyCount = 1; applyCount <= count; applyCount++) {
+                s = ReserveRpcCall.exchangeTree(projectId);
+                jo = new JSONObject(s);
+                if (ResChecker.checkRes(TAG, jo)) {
+                    int vitalityAmount = jo.optInt("vitalityAmount", 0);
+                    appliedTimes = Status.getReserveTimes(projectId) + 1;
+                    String str = "领保护地🏕️[" + itemName + "]#第" + appliedTimes + "次"
+                            + (vitalityAmount > 0 ? "-活力值+" + vitalityAmount : "");
+                    Log.forest(str);
+                    Status.reserveToday(projectId, 1);
+                } else {
+                    //Log.record(jo.getString("resultDesc"));
+                    //Log.runtime(jo.toString());
+                    Log.error("领保护地🏕️[" + itemName + "]#发生未知错误，停止申请");
+                    // Statistics.reserveToday(projectId, count);
+                    break;
+                }
+                GlobalThreadPools.sleepCompat(300);
+                canApply = queryTreeForExchange(projectId);
+                if (!canApply) {
+                    // Statistics.reserveToday(projectId, count);
+                    break;
+                } else {
+                    GlobalThreadPools.sleepCompat(300);
+                }
+                if (!Status.canReserveToday(projectId, count))
+                    break;
+            }
+        } catch (Throwable t) {
+            Log.printStackTrace(TAG, "exchangeTree err:",t);
+        }
+    }
+}

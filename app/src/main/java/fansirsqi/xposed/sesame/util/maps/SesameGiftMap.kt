@@ -1,1 +1,7 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMKCmNsYXNzIFNlc2FtZUdpZnRNYXAgOiBJZE1hcE1hbmFnZXIoKSB7CiAgICBvdmVycmlkZSBmdW4gdGhpc0ZpbGVOYW1lKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICJzZXNhbWVHaWZ0Lmpzb24iCiAgICB9Cn0=
+package fansirsqi.xposed.sesame.util.maps
+
+class SesameGiftMap : IdMapManager() {
+    override fun thisFileName(): String {
+        return "sesameGift.json"
+    }
+}

@@ -1,1 +1,58 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5icmlkZ2U7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuUnBjRW50aXR5OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5SYW5kb21VdGlsOwoKcHVibGljIGludGVyZmFjZSBScGNCcmlkZ2UgewogICAgUnBjVmVyc2lvbiBnZXRWZXJzaW9uKCk7CiAgICB2b2lkIGxvYWQoKSB0aHJvd3MgRXhjZXB0aW9uOwogICAgdm9pZCB1bmxvYWQoKTsKCiAgICBTdHJpbmcgcmVxdWVzdFN0cmluZyhScGNFbnRpdHkgcnBjRW50aXR5LCBpbnQgdHJ5Q291bnQsIGludCByZXRyeUludGVydmFsKTsKICAgIFJwY0VudGl0eSByZXF1ZXN0T2JqZWN0KFJwY0VudGl0eSBycGNFbnRpdHksIGludCB0cnlDb3VudCwgaW50IHJldHJ5SW50ZXJ2YWwpOwoKICAgIGRlZmF1bHQgU3RyaW5nIHJlcXVlc3RTdHJpbmcoUnBjRW50aXR5IHJwY0VudGl0eSkgewogICAgICAgIHJldHVybiByZXF1ZXN0U3RyaW5nKHJwY0VudGl0eSwgMywgLTEpOwogICAgfQogICAgLyoqCiAgICAgKiDlj5HpgIFSUEPor7fmsYLlubbojrflj5blk43lupTlrZfnrKbkuLLvvIjkvb/nlKjpu5jorqTph43or5Xlj4LmlbDvvIkKICAgICAqCiAgICAgKiBAcGFyYW0gbWV0aG9kIFJQQ+aWueazleWQjQogICAgICogQHBhcmFtIGRhdGEg6K+35rGC5pWw5o2uCiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4su+8jOWmguaenOivt+axguWksei0peWImei/lOWbnm51bGwKICAgICAqLwogICAgZGVmYXVsdCBTdHJpbmcgcmVxdWVzdFN0cmluZyhTdHJpbmcgbWV0aG9kLCBTdHJpbmcgZGF0YSkgewogICAgICAgIHJldHVybiByZXF1ZXN0U3RyaW5nKG1ldGhvZCwgZGF0YSwgMywgMTUwMCk7CiAgICB9CgogICAgLyoqCiAgICAgKiDlj5HpgIHluKblhbPogZTmlbDmja7nmoRSUEPor7fmsYLlubbojrflj5blk43lupTlrZfnrKbkuLLvvIjkvb/nlKjpu5jorqTph43or5Xlj4LmlbDvvIkKICAgICAqCiAgICAgKiBAcGFyYW0gbWV0aG9kIFJQQ+aWueazleWQjQogICAgICogQHBhcmFtIGRhdGEg6K+35rGC5pWw5o2uCiAgICAgKiBAcGFyYW0gcmVsYXRpb24g5YWz6IGU5pWw5o2uCiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4su+8jOWmguaenOivt+axguWksei0peWImei/lOWbnm51bGwKICAgICAqLwogICAgZGVmYXVsdCBTdHJpbmcgcmVxdWVzdFN0cmluZyhTdHJpbmcgbWV0aG9kLCBTdHJpbmcgZGF0YSwgU3RyaW5nIHJlbGF0aW9uKSB7CiAgICAgICAgcmV0dXJuIHJlcXVlc3RTdHJpbmcobWV0aG9kLCBkYXRhLCByZWxhdGlvbiwgMywgMTUwMCk7CiAgICB9CiAgICBkZWZhdWx0IFN0cmluZyByZXF1ZXN0U3RyaW5nKFN0cmluZyBtZXRob2QsIFN0cmluZyBkYXRhLCBTdHJpbmcgYXBwTmFtZSwgU3RyaW5nIG1ldGhvZE5hbWUsIFN0cmluZyBmYWNhZGVOYW1lKSB7CiAgICAgICAgcmV0dXJuIHJlcXVlc3RTdHJpbmcobmV3IFJwY0VudGl0eShtZXRob2QsIGRhdGEsIGFwcE5hbWUsIG1ldGhvZE5hbWUsIGZhY2FkZU5hbWUpLCAzLCAtMSk7CiAgICB9CiAgICBkZWZhdWx0IFN0cmluZyByZXF1ZXN0U3RyaW5nKFN0cmluZyBtZXRob2QsIFN0cmluZyBkYXRhLCBpbnQgdHJ5Q291bnQsIGludCByZXRyeUludGVydmFsKSB7CiAgICAgICAgcmV0dXJuIHJlcXVlc3RTdHJpbmcobmV3IFJwY0VudGl0eShtZXRob2QsIGRhdGEpLCB0cnlDb3VudCwgcmV0cnlJbnRlcnZhbCk7CiAgICB9CiAgICBkZWZhdWx0IFN0cmluZyByZXF1ZXN0U3RyaW5nKFN0cmluZyBtZXRob2QsIFN0cmluZyBkYXRhLCBTdHJpbmcgcmVsYXRpb24sIGludCB0cnlDb3VudCwgaW50IHJldHJ5SW50ZXJ2YWwpIHsKICAgICAgICByZXR1cm4gcmVxdWVzdFN0cmluZyhuZXcgUnBjRW50aXR5KG1ldGhvZCwgZGF0YSwgcmVsYXRpb24pLCB0cnlDb3VudCwgcmV0cnlJbnRlcnZhbCk7CiAgICB9CgoKICAgIGRlZmF1bHQgUnBjRW50aXR5IHJlcXVlc3RPYmplY3QoU3RyaW5nIG1ldGhvZCwgU3RyaW5nIGRhdGEsIFN0cmluZyByZWxhdGlvbikgewogICAgICAgIHJldHVybiByZXF1ZXN0T2JqZWN0KG1ldGhvZCwgZGF0YSwgcmVsYXRpb24sIDMsIC0xKTsKICAgIH0KICAgIGRlZmF1bHQgUnBjRW50aXR5IHJlcXVlc3RPYmplY3QoU3RyaW5nIG1ldGhvZCwgU3RyaW5nIGRhdGEsIGludCB0cnlDb3VudCwgaW50IHJldHJ5SW50ZXJ2YWwpIHsKICAgICAgICByZXR1cm4gcmVxdWVzdE9iamVjdChuZXcgUnBjRW50aXR5KG1ldGhvZCwgZGF0YSksIHRyeUNvdW50LCByZXRyeUludGVydmFsKTsKICAgIH0KICAgIGRlZmF1bHQgUnBjRW50aXR5IHJlcXVlc3RPYmplY3QoU3RyaW5nIG1ldGhvZCwgU3RyaW5nIGRhdGEsIFN0cmluZyByZWxhdGlvbiwgaW50IHRyeUNvdW50LCBpbnQgcmV0cnlJbnRlcnZhbCkgewogICAgICAgIHJldHVybiByZXF1ZXN0T2JqZWN0KG5ldyBScGNFbnRpdHkobWV0aG9kLCBkYXRhLCByZWxhdGlvbiksIHRyeUNvdW50LCByZXRyeUludGVydmFsKTsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.hook.rpc.bridge;
+import fansirsqi.xposed.sesame.entity.RpcEntity;
+import fansirsqi.xposed.sesame.util.RandomUtil;
+
+public interface RpcBridge {
+    RpcVersion getVersion();
+    void load() throws Exception;
+    void unload();
+
+    String requestString(RpcEntity rpcEntity, int tryCount, int retryInterval);
+    RpcEntity requestObject(RpcEntity rpcEntity, int tryCount, int retryInterval);
+
+    default String requestString(RpcEntity rpcEntity) {
+        return requestString(rpcEntity, 3, -1);
+    }
+    /**
+     * 发送RPC请求并获取响应字符串（使用默认重试参数）
+     *
+     * @param method RPC方法名
+     * @param data 请求数据
+     * @return 响应字符串，如果请求失败则返回null
+     */
+    default String requestString(String method, String data) {
+        return requestString(method, data, 3, 1500);
+    }
+
+    /**
+     * 发送带关联数据的RPC请求并获取响应字符串（使用默认重试参数）
+     *
+     * @param method RPC方法名
+     * @param data 请求数据
+     * @param relation 关联数据
+     * @return 响应字符串，如果请求失败则返回null
+     */
+    default String requestString(String method, String data, String relation) {
+        return requestString(method, data, relation, 3, 1500);
+    }
+    default String requestString(String method, String data, String appName, String methodName, String facadeName) {
+        return requestString(new RpcEntity(method, data, appName, methodName, facadeName), 3, -1);
+    }
+    default String requestString(String method, String data, int tryCount, int retryInterval) {
+        return requestString(new RpcEntity(method, data), tryCount, retryInterval);
+    }
+    default String requestString(String method, String data, String relation, int tryCount, int retryInterval) {
+        return requestString(new RpcEntity(method, data, relation), tryCount, retryInterval);
+    }
+
+
+    default RpcEntity requestObject(String method, String data, String relation) {
+        return requestObject(method, data, relation, 3, -1);
+    }
+    default RpcEntity requestObject(String method, String data, int tryCount, int retryInterval) {
+        return requestObject(new RpcEntity(method, data), tryCount, retryInterval);
+    }
+    default RpcEntity requestObject(String method, String data, String relation, int tryCount, int retryInterval) {
+        return requestObject(new RpcEntity(method, data, relation), tryCount, retryInterval);
+    }
+}

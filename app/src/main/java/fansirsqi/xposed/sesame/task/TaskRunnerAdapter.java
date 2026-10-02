@@ -1,1 +1,106 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrOwoKaW1wb3J0IGphdmEudXRpbC5BcnJheXM7CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5CYXNlTW9kZWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbDsKaW1wb3J0IGtvdGxpbi5Vbml0OwppbXBvcnQga290bGluLmNvcm91dGluZXMuQ29udGludWF0aW9uOwppbXBvcnQga290bGluLmNvcm91dGluZXMuQ29yb3V0aW5lQ29udGV4dDsKaW1wb3J0IGtvdGxpbi5jb3JvdXRpbmVzLkVtcHR5Q29yb3V0aW5lQ29udGV4dDsKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5CdWlsZGVyc0t0OwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlOwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVN0YXJ0OwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzOwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkdsb2JhbFNjb3BlOwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYjsKCi8qKgogKiBUYXNrUnVubmVy6YCC6YWN5Zmo57G7CiAqIDxwPgogKiDkuLpKYXZh5Luj56CB5o+Q5L6b5pu05Y+L5aW955qEQ29yb3V0aW5lVGFza1J1bm5lcuiwg+eUqOaWueW8jwogKiDpgILphY3kuobmlrDnmoQgc3VzcGVuZCBydW4g5pa55rOV5ZKMIEpvYiDnrqHnkIbmnLrliLYKICovCnB1YmxpYyBjbGFzcyBUYXNrUnVubmVyQWRhcHRlciB7CgogICAgcHJpdmF0ZSBmaW5hbCBDb3JvdXRpbmVUYXNrUnVubmVyIGNvcm91dGluZVRhc2tSdW5uZXI7CgogICAgLy8g55So5LqO6L+96Liq5b2T5YmN6L+Q6KGM55qE5Lu75YqhIEpvYu+8jOS7peS+v+aJp+ihjCBzdG9wKCkKICAgIHByaXZhdGUgSm9iIGN1cnJlbnRKb2IgPSBudWxsOwoKICAgIC8qKgogICAgICog5p6E6YCg5Ye95pWwIC0g5L2/55So5omA5pyJ5bey5rOo5YaM55qE5qih5Z6LCiAgICAgKi8KICAgIHB1YmxpYyBUYXNrUnVubmVyQWRhcHRlcigpIHsKICAgICAgICBMaXN0PE1vZGVsPiBtb2RlbExpc3QgPSBBcnJheXMuYXNMaXN0KE1vZGVsLmdldE1vZGVsQXJyYXkoKSk7CiAgICAgICAgdGhpcy5jb3JvdXRpbmVUYXNrUnVubmVyID0gbmV3IENvcm91dGluZVRhc2tSdW5uZXIobW9kZWxMaXN0KTsKICAgIH0KCiAgICAvKioKICAgICAqIOaehOmAoOWHveaVsCAtIOS9v+eUqOaMh+WumueahOaooeWei+WIl+ihqAogICAgICovCiAgICBwdWJsaWMgVGFza1J1bm5lckFkYXB0ZXIoTGlzdDxNb2RlbD4gbW9kZWxzKSB7CiAgICAgICAgdGhpcy5jb3JvdXRpbmVUYXNrUnVubmVyID0gbmV3IENvcm91dGluZVRhc2tSdW5uZXIobW9kZWxzKTsKICAgIH0KCiAgICAvKioKICAgICAqIOaJp+ihjOS7u+WKoSAtIOeugOWMlueJiOacrAogICAgICovCiAgICBwdWJsaWMgdm9pZCBydW4oKSB7CiAgICAgICAgLy8gTW9kZeWPguaVsOeOsOWcqOW3suW6n+W8g++8jOaWsOeJiFJ1bm5lcuWGhemDqOiHquWKqOWkhOeQhuW5tuWPkQogICAgICAgIHJ1bih0cnVlLCBudWxsKTsKICAgIH0KCiAgICAvKioKICAgICAqIOaJp+ihjOS7u+WKoSAtIOWFvOWuueaXp+aOpeWPowogICAgICogQHBhcmFtIG1vZGUg6K+l5Y+C5pWw5bey6KKr5b+955Wl77yM5paw54mIUnVubmVy5L2/55So5YaF6YOo5bm25Y+R5o6n5Yi2CiAgICAgKi8KICAgIHB1YmxpYyB2b2lkIHJ1bihib29sZWFuIGlzRmlyc3QsIE1vZGVsVGFzay5UYXNrRXhlY3V0aW9uTW9kZSBtb2RlKSB7CiAgICAgICAgcnVuKGlzRmlyc3QsIG1vZGUsIEJhc2VNb2RlbC5Db21wYW5pb24uZ2V0VGFza0V4ZWN1dGlvblJvdW5kcygpLmdldFZhbHVlKCkpOwogICAgfQoKICAgIC8qKgogICAgICog5omn6KGM5Lu75YqhIC0g5YyF5ZCr6L2u5pWw5Y+C5pWw77yI5Li75pa55rOV77yJCiAgICAgKi8KICAgIHB1YmxpYyB2b2lkIHJ1bihib29sZWFuIGlzRmlyc3QsIE1vZGVsVGFzay5UYXNrRXhlY3V0aW9uTW9kZSBtb2RlLCBpbnQgcm91bmRzKSB7CiAgICAgICAgLy8g5aaC5p6c5pyJ5pen5Lu75Yqh5Zyo6L+Q6KGM77yM5YWI5Y+W5raICiAgICAgICAgc3RvcCgpOwoKICAgICAgICAvLyDkvb/nlKggS290bGluIOeahCBCdWlsZGVyc0t0IOWcqCBKYXZhIOS4reWQr+WKqOWNj+eoiwogICAgICAgIC8vIOebuOW9k+S6jiBLb3RsaW4g55qEOiBjdXJyZW50Sm9iID0gR2xvYmFsU2NvcGUubGF1bmNoKERpc3BhdGNoZXJzLkRlZmF1bHQpIHsgcnVubmVyLnJ1biguLi4pIH0KICAgICAgICB0aGlzLmN1cnJlbnRKb2IgPSBCdWlsZGVyc0t0LmxhdW5jaCgKICAgICAgICAgICAgICAgIEdsb2JhbFNjb3BlLklOU1RBTkNFLCAvLyDkvb/nlKjlhajlsYDkvZznlKjln5/vvIzmiJbogIXkvaDlj6/ku6XkvKDlhaXkuIDkuKroh6rlrprkuYkgU2NvcGUKICAgICAgICAgICAgICAgIERpc3BhdGNoZXJzLmdldERlZmF1bHQoKSwgLy8g5Zyo5ZCO5Y+w57q/56iL5omn6KGMCiAgICAgICAgICAgICAgICBDb3JvdXRpbmVTdGFydC5ERUZBVUxULAogICAgICAgICAgICAgICAgKHNjb3BlLCBjb250aW51YXRpb24pIC0+IHsKICAgICAgICAgICAgICAgICAgICAvLyDosIPnlKggS290bGluIOeahCBzdXNwZW5kIOWHveaVsAogICAgICAgICAgICAgICAgICAgIHJldHVybiBjb3JvdXRpbmVUYXNrUnVubmVyLnJ1bihpc0ZpcnN0LCByb3VuZHMsIGNvbnRpbnVhdGlvbik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgKTsKICAgIH0KCiAgICAvKioKICAgICAqIOWBnOatouS7u+WKoeaJp+ihjOWZqAogICAgICovCiAgICBwdWJsaWMgdm9pZCBzdG9wKCkgewogICAgICAgIGlmIChjdXJyZW50Sm9iICE9IG51bGwgJiYgY3VycmVudEpvYi5pc0FjdGl2ZSgpKSB7CiAgICAgICAgICAgIGN1cnJlbnRKb2IuY2FuY2VsKG51bGwpOyAvLyDlj5bmtojljY/nqIsKICAgICAgICAgICAgY3VycmVudEpvYiA9IG51bGw7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6Z2Z5oCB5pa55rOV77ya5b+r6YCf5omn6KGM5omA5pyJ5Lu75YqhCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBydW5BbGxUYXNrcygpIHsKICAgICAgICBydW5BbGxUYXNrcyhudWxsKTsKICAgIH0KCiAgICAvKioKICAgICAqIOmdmeaAgeaWueazle+8muS9v+eUqOaMh+WumuaooeW8j+aJp+ihjOaJgOacieS7u+WKoQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgcnVuQWxsVGFza3MoTW9kZWxUYXNrLlRhc2tFeGVjdXRpb25Nb2RlIG1vZGUpIHsKICAgICAgICBuZXcgVGFza1J1bm5lckFkYXB0ZXIoKS5ydW4odHJ1ZSwgbW9kZSk7CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task;
+
+import java.util.Arrays;
+import java.util.List;
+
+import fansirsqi.xposed.sesame.model.BaseModel;
+import fansirsqi.xposed.sesame.model.Model;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.CoroutineContext;
+import kotlin.coroutines.EmptyCoroutineContext;
+import kotlinx.coroutines.BuildersKt;
+import kotlinx.coroutines.CoroutineScope;
+import kotlinx.coroutines.CoroutineStart;
+import kotlinx.coroutines.Dispatchers;
+import kotlinx.coroutines.GlobalScope;
+import kotlinx.coroutines.Job;
+
+/**
+ * TaskRunner适配器类
+ * <p>
+ * 为Java代码提供更友好的CoroutineTaskRunner调用方式
+ * 适配了新的 suspend run 方法和 Job 管理机制
+ */
+public class TaskRunnerAdapter {
+
+    private final CoroutineTaskRunner coroutineTaskRunner;
+
+    // 用于追踪当前运行的任务 Job，以便执行 stop()
+    private Job currentJob = null;
+
+    /**
+     * 构造函数 - 使用所有已注册的模型
+     */
+    public TaskRunnerAdapter() {
+        List<Model> modelList = Arrays.asList(Model.getModelArray());
+        this.coroutineTaskRunner = new CoroutineTaskRunner(modelList);
+    }
+
+    /**
+     * 构造函数 - 使用指定的模型列表
+     */
+    public TaskRunnerAdapter(List<Model> models) {
+        this.coroutineTaskRunner = new CoroutineTaskRunner(models);
+    }
+
+    /**
+     * 执行任务 - 简化版本
+     */
+    public void run() {
+        // Mode参数现在已废弃，新版Runner内部自动处理并发
+        run(true, null);
+    }
+
+    /**
+     * 执行任务 - 兼容旧接口
+     * @param mode 该参数已被忽略，新版Runner使用内部并发控制
+     */
+    public void run(boolean isFirst, ModelTask.TaskExecutionMode mode) {
+        run(isFirst, mode, BaseModel.Companion.getTaskExecutionRounds().getValue());
+    }
+
+    /**
+     * 执行任务 - 包含轮数参数（主方法）
+     */
+    public void run(boolean isFirst, ModelTask.TaskExecutionMode mode, int rounds) {
+        // 如果有旧任务在运行，先取消
+        stop();
+
+        // 使用 Kotlin 的 BuildersKt 在 Java 中启动协程
+        // 相当于 Kotlin 的: currentJob = GlobalScope.launch(Dispatchers.Default) { runner.run(...) }
+        this.currentJob = BuildersKt.launch(
+                GlobalScope.INSTANCE, // 使用全局作用域，或者你可以传入一个自定义 Scope
+                Dispatchers.getDefault(), // 在后台线程执行
+                CoroutineStart.DEFAULT,
+                (scope, continuation) -> {
+                    // 调用 Kotlin 的 suspend 函数
+                    return coroutineTaskRunner.run(isFirst, rounds, continuation);
+                }
+        );
+    }
+
+    /**
+     * 停止任务执行器
+     */
+    public void stop() {
+        if (currentJob != null && currentJob.isActive()) {
+            currentJob.cancel(null); // 取消协程
+            currentJob = null;
+        }
+    }
+
+    /**
+     * 静态方法：快速执行所有任务
+     */
+    public static void runAllTasks() {
+        runAllTasks(null);
+    }
+
+    /**
+     * 静态方法：使用指定模式执行所有任务
+     */
+    public static void runAllTasks(ModelTask.TaskExecutionMode mode) {
+        new TaskRunnerAdapter().run(true, mode);
+    }
+}

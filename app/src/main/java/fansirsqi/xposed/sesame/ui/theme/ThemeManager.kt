@@ -1,1 +1,26 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS50aGVtZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2hhcmVkUHJlZmVyZW5jZXMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLlNlc2FtZUFwcGxpY2F0aW9uLkNvbXBhbmlvbi5QUkVGRVJFTkNFU19LRVkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CgpvYmplY3QgVGhlbWVNYW5hZ2VyIHsKICAgIC8vIOm7mOiupOW8gOWQrwogICAgcHJpdmF0ZSB2YWwgX2lzRHluYW1pY0NvbG9yID0gTXV0YWJsZVN0YXRlRmxvdyh0cnVlKQogICAgdmFsIGlzRHluYW1pY0NvbG9yID0gX2lzRHluYW1pY0NvbG9yLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBwcmVmczogU2hhcmVkUHJlZmVyZW5jZXMKCiAgICBmdW4gaW5pdChjb250ZXh0OiBDb250ZXh0KSB7CiAgICAgICAgcHJlZnMgPSBjb250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKFBSRUZFUkVOQ0VTX0tFWSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCiAgICAgICAgLy8g5Yid5aeL5YyW5pe26K+75Y+W6YWN572uCiAgICAgICAgX2lzRHluYW1pY0NvbG9yLnZhbHVlID0gcHJlZnMuZ2V0Qm9vbGVhbigiZHluYW1pY19jb2xvciIsIHRydWUpCiAgICB9CgogICAgZnVuIHNldER5bmFtaWNDb2xvcihlbmFibGVkOiBCb29sZWFuKSB7CiAgICAgICAgX2lzRHluYW1pY0NvbG9yLnZhbHVlID0gZW5hYmxlZAogICAgICAgIHByZWZzLmVkaXQoKS5wdXRCb29sZWFuKCJkeW5hbWljX2NvbG9yIiwgZW5hYmxlZCkuYXBwbHkoKQogICAgfQp9
+package fansirsqi.xposed.sesame.ui.theme
+
+import android.content.Context
+import android.content.SharedPreferences
+import fansirsqi.xposed.sesame.SesameApplication.Companion.PREFERENCES_KEY
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+object ThemeManager {
+    // 默认开启
+    private val _isDynamicColor = MutableStateFlow(true)
+    val isDynamicColor = _isDynamicColor.asStateFlow()
+
+    private lateinit var prefs: SharedPreferences
+
+    fun init(context: Context) {
+        prefs = context.getSharedPreferences(PREFERENCES_KEY, Context.MODE_PRIVATE)
+        // 初始化时读取配置
+        _isDynamicColor.value = prefs.getBoolean("dynamic_color", true)
+    }
+
+    fun setDynamicColor(enabled: Boolean) {
+        _isDynamicColor.value = enabled
+        prefs.edit().putBoolean("dynamic_color", enabled).apply()
+    }
+}

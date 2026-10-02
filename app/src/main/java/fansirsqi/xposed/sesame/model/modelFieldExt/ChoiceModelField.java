@@ -1,1 +1,56 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0OwppbXBvcnQgYW5kcm9pZC52aWV3LkdyYXZpdHk7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3R3JvdXA7CmltcG9ydCBhbmRyb2lkLndpZGdldC5CdXR0b247CmltcG9ydCBhbmRyb2lkLndpZGdldC5MaW5lYXJMYXlvdXQ7CgppbXBvcnQgYW5kcm9pZHguY29yZS5jb250ZW50LkNvbnRleHRDb21wYXQ7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS53aWRnZXQuQ2hvaWNlRGlhbG9nOwpwdWJsaWMgY2xhc3MgQ2hvaWNlTW9kZWxGaWVsZCBleHRlbmRzIE1vZGVsRmllbGQ8SW50ZWdlcj4gewogICAgcHJpdmF0ZSBTdHJpbmdbXSBjaG9pY2VBcnJheTsKCiAgICBwdWJsaWMgQ2hvaWNlTW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIEludGVnZXIgdmFsdWUpIHsKICAgICAgICBzdXBlcihjb2RlLCBuYW1lLCB2YWx1ZSk7CiAgICB9CiAgICBwdWJsaWMgQ2hvaWNlTW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIEludGVnZXIgdmFsdWUsIFN0cmluZ1tdIGNob2ljZUFycmF5KSB7CiAgICAgICAgc3VwZXIoY29kZSwgbmFtZSwgdmFsdWUpOwogICAgICAgIHRoaXMuY2hvaWNlQXJyYXkgPSBjaG9pY2VBcnJheTsKICAgIH0KCiAgICBwdWJsaWMgQ2hvaWNlTW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIEludGVnZXIgdmFsdWUsU3RyaW5nIGRlc2MpIHsKICAgICAgICBzdXBlcihjb2RlLCBuYW1lLCB2YWx1ZSwgZGVzYyk7CiAgICB9CiAgICBwdWJsaWMgQ2hvaWNlTW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIEludGVnZXIgdmFsdWUsIFN0cmluZ1tdIGNob2ljZUFycmF5LFN0cmluZyBkZXNjKSB7CiAgICAgICAgc3VwZXIoY29kZSwgbmFtZSwgdmFsdWUsIGRlc2MpOwogICAgICAgIHRoaXMuY2hvaWNlQXJyYXkgPSBjaG9pY2VBcnJheTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0VHlwZSgpIHsKICAgICAgICByZXR1cm4gIkNIT0lDRSI7CiAgICB9CiAgICBwdWJsaWMgU3RyaW5nW10gZ2V0RXhwYW5kS2V5KCkgewogICAgICAgIHJldHVybiBjaG9pY2VBcnJheTsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIFZpZXcgZ2V0VmlldyhDb250ZXh0IGNvbnRleHQpIHsKICAgICAgICBCdXR0b24gYnRuID0gbmV3IEJ1dHRvbihjb250ZXh0KTsKICAgICAgICBidG4uc2V0VGV4dChnZXROYW1lKCkpOwogICAgICAgIGJ0bi5zZXRMYXlvdXRQYXJhbXMobmV3IExpbmVhckxheW91dC5MYXlvdXRQYXJhbXMoVmlld0dyb3VwLkxheW91dFBhcmFtcy5NQVRDSF9QQVJFTlQsIFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuV1JBUF9DT05URU5UKSk7CiAgICAgICAgYnRuLnNldFRleHRDb2xvcihDb250ZXh0Q29tcGF0LmdldENvbG9yKGNvbnRleHQsIFIuY29sb3Iuc2VsZWN0aW9uX2NvbG9yKSk7CiAgICAgICAgYnRuLnNldEJhY2tncm91bmQoQ29udGV4dENvbXBhdC5nZXREcmF3YWJsZShjb250ZXh0LCBSLmRyYXdhYmxlLmRpYWxvZ19saXN0X2J1dHRvbikpOwogICAgICAgIGJ0bi5zZXRHcmF2aXR5KEdyYXZpdHkuU1RBUlQgfCBHcmF2aXR5LkNFTlRFUl9WRVJUSUNBTCk7CiAgICAgICAgYnRuLnNldE1pbkhlaWdodCgxNTApOwogICAgICAgIGJ0bi5zZXRNYXhIZWlnaHQoMTgwKTsKICAgICAgICBidG4uc2V0UGFkZGluZ1JlbGF0aXZlKDQwLCAwLCA0MCwgMCk7CiAgICAgICAgYnRuLnNldEFsbENhcHMoZmFsc2UpOwogICAgICAgIGJ0bi5zZXRPbkNsaWNrTGlzdGVuZXIodiAtPiBDaG9pY2VEaWFsb2cuc2hvdyh2LmdldENvbnRleHQoKSwgKChCdXR0b24pIHYpLmdldFRleHQoKSwgdGhpcykpOwogICAgICAgIHJldHVybiBidG47CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+
+import android.content.Context;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+
+import androidx.core.content.ContextCompat;
+
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.ui.widget.ChoiceDialog;
+public class ChoiceModelField extends ModelField<Integer> {
+    private String[] choiceArray;
+
+    public ChoiceModelField(String code, String name, Integer value) {
+        super(code, name, value);
+    }
+    public ChoiceModelField(String code, String name, Integer value, String[] choiceArray) {
+        super(code, name, value);
+        this.choiceArray = choiceArray;
+    }
+
+    public ChoiceModelField(String code, String name, Integer value,String desc) {
+        super(code, name, value, desc);
+    }
+    public ChoiceModelField(String code, String name, Integer value, String[] choiceArray,String desc) {
+        super(code, name, value, desc);
+        this.choiceArray = choiceArray;
+    }
+
+    @Override
+    public String getType() {
+        return "CHOICE";
+    }
+    public String[] getExpandKey() {
+        return choiceArray;
+    }
+    @Override
+    public View getView(Context context) {
+        Button btn = new Button(context);
+        btn.setText(getName());
+        btn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        btn.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+        btn.setBackground(ContextCompat.getDrawable(context, R.drawable.dialog_list_button));
+        btn.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+        btn.setMinHeight(150);
+        btn.setMaxHeight(180);
+        btn.setPaddingRelative(40, 0, 40, 0);
+        btn.setAllCaps(false);
+        btn.setOnClickListener(v -> ChoiceDialog.show(v.getContext(), ((Button) v).getText(), this));
+        return btn;
+    }
+}

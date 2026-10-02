@@ -1,1 +1,142 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPG1hbmlmZXN0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIHhtbG5zOnRvb2xzPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS90b29scyI+CgogICAgPHVzZXMtcGVybWlzc2lvbiBhbmRyb2lkOm5hbWU9Im54cC5wZXJtaXNzaW9uLkFDQ0VTU19XQUxMRVRfU0VSVklDRSIgLz4KICAgIDx1c2VzLXBlcm1pc3Npb24gYW5kcm9pZDpuYW1lPSJhbmRyb2lkLnBlcm1pc3Npb24uQUNDRVNTX05FVFdPUktfU1RBVEUiIC8+CiAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLklOVEVSTkVUIiAvPgogICAgPHVzZXMtcGVybWlzc2lvbiBhbmRyb2lkOm5hbWU9ImFuZHJvaWQucGVybWlzc2lvbi5QT1NUX05PVElGSUNBVElPTlMiIC8+CiAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLlJFQURfRVhURVJOQUxfU1RPUkFHRSIgLz4KICAgIDx1c2VzLXBlcm1pc3Npb24gYW5kcm9pZDpuYW1lPSJhbmRyb2lkLnBlcm1pc3Npb24uV1JJVEVfRVhURVJOQUxfU1RPUkFHRSIgLz4KICAgIDwhLS0gYXBwbGlzdCAtLT4KICAgIDx1c2VzLXBlcm1pc3Npb24gYW5kcm9pZDpuYW1lPSJhbmRyb2lkLnBlcm1pc3Npb24uUVVFUllfQUxMX1BBQ0tBR0VTIgogICAgICAgIHRvb2xzOmlnbm9yZT0iUGFja2FnZVZpc2liaWxpdHlQb2xpY3ksUXVlcnlBbGxQYWNrYWdlc1Blcm1pc3Npb24iIC8+CiAgICA8dXNlcy1wZXJtaXNzaW9uCiAgICAgICAgYW5kcm9pZDpuYW1lPSJhbmRyb2lkLnBlcm1pc3Npb24uTUFOQUdFX0VYVEVSTkFMX1NUT1JBR0UiCiAgICAgICAgdG9vbHM6aWdub3JlPSJBbGxGaWxlc0FjY2Vzc1BvbGljeSxTY29wZWRTdG9yYWdlIiAvPgogICAgPCEtLSDmt7vliqDnsr7noa7pl7npkp/mnYPpmZAgLS0+CiAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLlNDSEVEVUxFX0VYQUNUX0FMQVJNIiAvPgogICAgPCEtLSDmt7vliqDllKTphpLplIHmnYPpmZDvvIjnlKjkuo7lrprmnJ/llKTphpLorr7lpIfvvIkgLS0+CiAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLldBS0VfTE9DSyIgLz4KICAgIDwhLS0g5re75Yqg5YmN5Y+w5pyN5Yqh5p2D6ZmQIC0tPgogICAgPHVzZXMtcGVybWlzc2lvbgogICAgICAgIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLkZPUkVHUk9VTkRfU0VSVklDRSIKICAgICAgICB0b29sczppZ25vcmU9IkZvcmVncm91bmRTZXJ2aWNlc1BvbGljeSIgLz4KICAgIDwhLS0g5re75Yqg54m55q6K55So6YCU5YmN5Y+w5pyN5Yqh5p2D6ZmQIC0tPgogICAgPHVzZXMtcGVybWlzc2lvbiBhbmRyb2lkOm5hbWU9ImFuZHJvaWQucGVybWlzc2lvbi5GT1JFR1JPVU5EX1NFUlZJQ0VfU1BFQ0lBTF9VU0UiIC8+CgogICAgPGFwcGxpY2F0aW9uCiAgICAgICAgYW5kcm9pZDpuYW1lPSIuU2VzYW1lQXBwbGljYXRpb24iCiAgICAgICAgYW5kcm9pZDpkZXNjcmlwdGlvbj0iQHN0cmluZy94cG9zZWRfZGVzY3JpcHRpb24iCiAgICAgICAgYW5kcm9pZDppY29uPSJAbWlwbWFwL2ljX2xhdW5jaGVyIgogICAgICAgIGFuZHJvaWQ6bGFiZWw9IkBzdHJpbmcvYXBwX25hbWUiCiAgICAgICAgYW5kcm9pZDpzdXBwb3J0c1J0bD0idHJ1ZSIKICAgICAgICBhbmRyb2lkOnRoZW1lPSJAc3R5bGUvQXBwVGhlbWUiPgoKICAgICAgICA8IS0tIOWOn+acieeahOWFg+aVsOaNruS/neaMgeS4jeWPmCAtLT4KICAgICAgICA8bWV0YS1kYXRhCiAgICAgICAgICAgIGFuZHJvaWQ6bmFtZT0ieHBvc2VkbW9kdWxlIgogICAgICAgICAgICBhbmRyb2lkOnZhbHVlPSJ0cnVlIiAvPgogICAgICAgIDxtZXRhLWRhdGEKICAgICAgICAgICAgYW5kcm9pZDpuYW1lPSJ4cG9zZWRkZXNjcmlwdGlvbiIKICAgICAgICAgICAgYW5kcm9pZDp2YWx1ZT0iQHN0cmluZy94cG9zZWRfZGVzY3JpcHRpb24iIC8+CiAgICAgICAgPG1ldGEtZGF0YQogICAgICAgICAgICBhbmRyb2lkOm5hbWU9Inhwb3NlZG1pbnZlcnNpb24iCiAgICAgICAgICAgIGFuZHJvaWQ6dmFsdWU9IjU0IiAvPgogICAgICAgIDxtZXRhLWRhdGEKICAgICAgICAgICAgYW5kcm9pZDpuYW1lPSJ4cG9zZWRzY29wZSIKICAgICAgICAgICAgYW5kcm9pZDpyZXNvdXJjZT0iQGFycmF5L3hwb3NlZF9zY29wZXMiIC8+CgogICAgICAgIDwhLS0g5Li7IEFjdGl2aXR5ICjpmpDol4/nmoTvvIzkuI3otJ/otKPmmL7npLrlm77moIcpIC0tPgogICAgICAgIDxhY3Rpdml0eQogICAgICAgICAgICBhbmRyb2lkOm5hbWU9ImZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLk1haW5BY3Rpdml0eSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0idHJ1ZSI+CiAgICAgICAgICAgIDxpbnRlbnQtZmlsdGVyPgogICAgICAgICAgICAgICAgPGFjdGlvbiBhbmRyb2lkOm5hbWU9ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5NQUlOIiAvPgogICAgICAgICAgICAgICAgPGNhdGVnb3J5IGFuZHJvaWQ6bmFtZT0iZGUucm9idi5hbmRyb2lkLnhwb3NlZC5jYXRlZ29yeS5NT0RVTEVfU0VUVElOR1MiIC8+CiAgICAgICAgICAgIDwvaW50ZW50LWZpbHRlcj4KICAgICAgICA8L2FjdGl2aXR5PgoKICAgICAgICA8IS0tIOWFtuS7liBBY3Rpdml0eSDkv53mjIHkuI3lj5ggLS0+CiAgICAgICAgPGFjdGl2aXR5CiAgICAgICAgICAgIGFuZHJvaWQ6bmFtZT0iLnVpLkV4dGVuZEFjdGl2aXR5IgogICAgICAgICAgICBhbmRyb2lkOmV4cG9ydGVkPSJmYWxzZSIgLz4KICAgICAgICA8YWN0aXZpdHkKICAgICAgICAgICAgYW5kcm9pZDpuYW1lPSIudWkuV2ViU2V0dGluZ3NBY3Rpdml0eSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0iZmFsc2UiIC8+CiAgICAgICAgPGFjdGl2aXR5CiAgICAgICAgICAgIGFuZHJvaWQ6bmFtZT0iLnVpLlNldHRpbmdBY3Rpdml0eSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0iZmFsc2UiIC8+CiAgICAgICAgPCEtLSBSUEMg6LCD6K+VIEFjdGl2aXR5IC0tPgogICAgICAgIDxhY3Rpdml0eQogICAgICAgICAgICBhbmRyb2lkOm5hbWU9Ii51aS5ScGNEZWJ1Z0FjdGl2aXR5IgogICAgICAgICAgICBhbmRyb2lkOmV4cG9ydGVkPSJmYWxzZSIgLz4KICAgICAgICA8IS0tIOmrmOaAp+iDveaXpeW/l+afpeeci+WZqCAoQ29tcG9zZSkgLS0+CiAgICAgICAgPCEtLSB0aGVtZSDlv4Xpobvorr7nva7kuLogTm9BY3Rpb25CYXLvvIzlm6DkuLogQ29tcG9zZSDoh6rluKbkuoYgVG9wQXBwQmFyIC0tPgogICAgICAgIDxhY3Rpdml0eQogICAgICAgICAgICBhbmRyb2lkOm5hbWU9Ii51aS5Mb2dWaWV3ZXJBY3Rpdml0eSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0iZmFsc2UiIC8+CgogICAgICAgIDxhY3Rpdml0eQogICAgICAgICAgICBhbmRyb2lkOm5hbWU9Ii51aS5NYW51YWxUYXNrQWN0aXZpdHkiCiAgICAgICAgICAgIGFuZHJvaWQ6ZXhwb3J0ZWQ9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmxhYmVsPSLmiYvliqjku7vliqEiIC8+CgogICAgICAgIDwhLS0g5oqT5YyF5YiG5p6Q77ya5p+l55yL5bm25a+85Ye65pSv5LuY5a6dIFJQQyDmipPljIXnu5PmnpwgLS0+CiAgICAgICAgPGFjdGl2aXR5CiAgICAgICAgICAgIGFuZHJvaWQ6bmFtZT0iLnVpLlJwY0NhcHR1cmVBY3Rpdml0eSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6bGFiZWw9IuaKk+WMheWIhuaekCIgLz4KCgogICAgICAgIDwhLS0gZm9yLWhpZGUtaWNvbiAtLT4KICAgICAgICA8YWN0aXZpdHktYWxpYXMKICAgICAgICAgICAgYW5kcm9pZDpuYW1lPSIudWkuTWFpbkFjdGl2aXR5QWxpYXMiCiAgICAgICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDp0YXJnZXRBY3Rpdml0eT0iZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuTWFpbkFjdGl2aXR5Ij4KICAgICAgICAgICAgPGludGVudC1maWx0ZXI+CiAgICAgICAgICAgICAgICA8YWN0aW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLk1BSU4iIC8+CiAgICAgICAgICAgICAgICA8Y2F0ZWdvcnkgYW5kcm9pZDpuYW1lPSJhbmRyb2lkLmludGVudC5jYXRlZ29yeS5MQVVOQ0hFUiIgLz4KICAgICAgICAgICAgPC9pbnRlbnQtZmlsdGVyPgogICAgICAgIDwvYWN0aXZpdHktYWxpYXM+CgogICAgICAgIDwhLS0g5Zyj6K+e5Zu+5qCHIC0tPgogICAgICAgIDxhY3Rpdml0eS1hbGlhcwogICAgICAgICAgICBhbmRyb2lkOm5hbWU9Ii51aS5NYWluQWN0aXZpdHlBbGlhc0NocmlzdG1hcyIKICAgICAgICAgICAgYW5kcm9pZDplbmFibGVkPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDppY29uPSJAZHJhd2FibGUvaWNfbGF1bmNoZXJfY2hyaXN0bWFzIgogICAgICAgICAgICBhbmRyb2lkOmxhYmVsPSJAc3RyaW5nL2FwcF9uYW1lIgogICAgICAgICAgICBhbmRyb2lkOnRhcmdldEFjdGl2aXR5PSJmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5NYWluQWN0aXZpdHkiPgogICAgICAgICAgICA8aW50ZW50LWZpbHRlcj4KICAgICAgICAgICAgICAgIDxhY3Rpb24gYW5kcm9pZDpuYW1lPSJhbmRyb2lkLmludGVudC5hY3Rpb24uTUFJTiIgLz4KICAgICAgICAgICAgICAgIDxjYXRlZ29yeSBhbmRyb2lkOm5hbWU9ImFuZHJvaWQuaW50ZW50LmNhdGVnb3J5LkxBVU5DSEVSIiAvPgogICAgICAgICAgICA8L2ludGVudC1maWx0ZXI+CiAgICAgICAgPC9hY3Rpdml0eS1hbGlhcz4KCiAgICAgICAgPCEtLSBDb21tYW5kU2VydmljZSDnlKjkuo7miafooYwgcm9vdC9TaGl6dWt1IOWRveS7pCAtLT4KICAgICAgICA8IS0tIGV4cG9ydGVkPXRydWUg5YWB6K646Leo6L+b56iL57uR5a6aIC0tPgogICAgICAgIDwhLS0gcHJvY2Vzcz0iOmNvbW1hbmQiIOi/kOihjOWcqOeLrOeri+i/m+eoi+S4rSAtLT4KICAgICAgICA8c2VydmljZQogICAgICAgICAgICBhbmRyb2lkOm5hbWU9ImZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnNlcnZpY2UuQ29tbWFuZFNlcnZpY2UiCiAgICAgICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDpmb3JlZ3JvdW5kU2VydmljZVR5cGU9InNwZWNpYWxVc2UiPgogICAgICAgICAgICA8aW50ZW50LWZpbHRlcj4KICAgICAgICAgICAgICAgIDxhY3Rpb24gYW5kcm9pZDpuYW1lPSJmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5hY3Rpb24uQklORF9DT01NQU5EX1NFUlZJQ0UiIC8+CiAgICAgICAgICAgIDwvaW50ZW50LWZpbHRlcj4KICAgICAgICA8L3NlcnZpY2U+CgogICAgICAgIDwhLS0g5omL5Yqo5aOw5piOIFNoaXp1a3UgUHJvdmlkZXLvvIzop6PlhrMgcHJvdmlkZXIgaXMgbnVsbCDmiqXplJkgLS0+CiAgICAgICAgPHByb3ZpZGVyCiAgICAgICAgICAgIGFuZHJvaWQ6bmFtZT0icmlra2Euc2hpenVrdS5TaGl6dWt1UHJvdmlkZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6YXV0aG9yaXRpZXM9IiR7YXBwbGljYXRpb25JZH0uc2hpenVrdSIKICAgICAgICAgICAgYW5kcm9pZDplbmFibGVkPSJ0cnVlIgogICAgICAgICAgICBhbmRyb2lkOmV4cG9ydGVkPSJ0cnVlIgogICAgICAgICAgICBhbmRyb2lkOm11bHRpcHJvY2Vzcz0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6cGVybWlzc2lvbj0iYW5kcm9pZC5wZXJtaXNzaW9uLklOVEVSQUNUX0FDUk9TU19VU0VSU19GVUxMIiAvPgoKCiAgICA8L2FwcGxpY2F0aW9uPgo8L21hbmlmZXN0Pgo=
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="nxp.permission.ACCESS_WALLET_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- applist -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="PackageVisibilityPolicy,QueryAllPackagesPermission" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="AllFilesAccessPolicy,ScopedStorage" />
+    <!-- 添加精确闹钟权限 -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <!-- 添加唤醒锁权限（用于定期唤醒设备） -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 添加前台服务权限 -->
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE"
+        tools:ignore="ForegroundServicesPolicy" />
+    <!-- 添加特殊用途前台服务权限 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <application
+        android:name=".SesameApplication"
+        android:description="@string/xposed_description"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 原有的元数据保持不变 -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="@string/xposed_description" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" />
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposed_scopes" />
+
+        <!-- 主 Activity (隐藏的，不负责显示图标) -->
+        <activity
+            android:name="fansirsqi.xposed.sesame.ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
+            </intent-filter>
+        </activity>
+
+        <!-- 其他 Activity 保持不变 -->
+        <activity
+            android:name=".ui.ExtendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.WebSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SettingActivity"
+            android:exported="false" />
+        <!-- RPC 调试 Activity -->
+        <activity
+            android:name=".ui.RpcDebugActivity"
+            android:exported="false" />
+        <!-- 高性能日志查看器 (Compose) -->
+        <!-- theme 必须设置为 NoActionBar，因为 Compose 自带了 TopAppBar -->
+        <activity
+            android:name=".ui.LogViewerActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.ManualTaskActivity"
+            android:exported="false"
+            android:label="手动任务" />
+
+        <!-- 抓包分析：查看并导出支付宝 RPC 抓包结果 -->
+        <activity
+            android:name=".ui.RpcCaptureActivity"
+            android:exported="false"
+            android:label="抓包分析" />
+
+
+        <!-- for-hide-icon -->
+        <activity-alias
+            android:name=".ui.MainActivityAlias"
+            android:enabled="true"
+            android:exported="true"
+            android:targetActivity="fansirsqi.xposed.sesame.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- 圣诞图标 -->
+        <activity-alias
+            android:name=".ui.MainActivityAliasChristmas"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_christmas"
+            android:label="@string/app_name"
+            android:targetActivity="fansirsqi.xposed.sesame.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- CommandService 用于执行 root/Shizuku 命令 -->
+        <!-- exported=true 允许跨进程绑定 -->
+        <!-- process=":command" 运行在独立进程中 -->
+        <service
+            android:name="fansirsqi.xposed.sesame.service.CommandService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="specialUse">
+            <intent-filter>
+                <action android:name="fansirsqi.xposed.sesame.action.BIND_COMMAND_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <!-- 手动声明 Shizuku Provider，解决 provider is null 报错 -->
+        <provider
+            android:name="rikka.shizuku.ShizukuProvider"
+            android:authorities="${applicationId}.shizuku"
+            android:enabled="true"
+            android:exported="true"
+            android:multiprocess="false"
+            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+
+    </application>
+</manifest>

@@ -1,1 +1,134 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLnNlc2FtZUNyZWRpdAoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGRzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEdyb3VwCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LkJvb2xlYW5Nb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LlN0cmluZ01vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suTW9kZWxUYXNrCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5SZXNDaGVja2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqCiAqIOiKnem6u+S/oeeUqCDigJQg5L+h55So56ev57Sv6aKG5Y+W44CB5a6J5b+D6LGG562+5YiwL+S7u+WKoQogKiDljY/orq7np7vmpI3oh6roip3purvns4pTVklQIDIuMC42LjbvvIjpgIblkJHov5jljp/vvIkKICovCmNsYXNzIFNlc2FtZUNyZWRpdCA6IE1vZGVsVGFzaygpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiU2VzYW1lQ3JlZGl0IgogICAgICAgIGNvbnN0IHZhbCBNT0RVTEVfTkFNRSA9ICLoip3purvkv6HnlKgiCgogICAgICAgIEBWb2xhdGlsZSB2YXIgaW5zdGFuY2U6IFNlc2FtZUNyZWRpdD8gPSBudWxsCiAgICB9CgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgZW5hYmxlQ29sbGVjdDogQm9vbGVhbk1vZGVsRmllbGQKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGVuYWJsZUFueGluZG91U2lnbjogQm9vbGVhbk1vZGVsRmllbGQKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGVuYWJsZUFueGluZG91VGFzazogQm9vbGVhbk1vZGVsRmllbGQKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGFueGluZG91QXBwbGV0SWQ6IFN0cmluZ01vZGVsRmllbGQKCiAgICBvdmVycmlkZSBmdW4gZ2V0TmFtZSgpID0gTU9EVUxFX05BTUUKICAgIG92ZXJyaWRlIGZ1biBnZXRHcm91cCgpID0gTW9kZWxHcm91cC5PVEhFUgogICAgb3ZlcnJpZGUgZnVuIGdldEljb24oKSA9ICJEZWZhdWx0LnBuZyIKCiAgICBvdmVycmlkZSBmdW4gZ2V0RmllbGRzKCkgPSBNb2RlbEZpZWxkcygpLmFwcGx5IHsKICAgICAgICBhZGRGaWVsZChCb29sZWFuTW9kZWxGaWVsZCgiY3JlZGl0Q29sbGVjdCIsICLoip3purvkv6HnlKggfCDpooblj5bkv6HnlKjnp6/ntK8iLCB0cnVlKS5hbHNvIHsgZW5hYmxlQ29sbGVjdCA9IGl0IH0pCiAgICAgICAgYWRkRmllbGQoQm9vbGVhbk1vZGVsRmllbGQoImNyZWRpdEFueGluU2lnbiIsICLoip3purvkv6HnlKggfCDlronlv4PosYbnrb7liLAiLCB0cnVlKS5hbHNvIHsgZW5hYmxlQW54aW5kb3VTaWduID0gaXQgfSkKICAgICAgICBhZGRGaWVsZChCb29sZWFuTW9kZWxGaWVsZCgiY3JlZGl0QW54aW5UYXNrIiwgIuiKnem6u+S/oeeUqCB8IOWuieW/g+ixhuS7u+WKoSIsIGZhbHNlKS5hbHNvIHsgZW5hYmxlQW54aW5kb3VUYXNrID0gaXQgfSkKICAgICAgICBhZGRGaWVsZCgKICAgICAgICAgICAgU3RyaW5nTW9kZWxGaWVsZCgKICAgICAgICAgICAgICAgICJjcmVkaXRBbnhpbkFwcGxldElkIiwKICAgICAgICAgICAgICAgICLoip3purvkv6HnlKggfCDlronlv4PosYYgYXBwbGV0SWQo5oqT5YyF6I635Y+WKSIsCiAgICAgICAgICAgICAgICAiIgogICAgICAgICAgICApLmFsc28geyBhbnhpbmRvdUFwcGxldElkID0gaXQgfQogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gcHJlcGFyZSgpIHsgaW5zdGFuY2UgPSB0aGlzIH0KICAgIG92ZXJyaWRlIGZ1biBkZXN0cm95KCkgeyBpbnN0YW5jZSA9IG51bGw7IHN1cGVyLmRlc3Ryb3koKSB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcnVuU3VzcGVuZCgpIHsKICAgICAgICBpZiAoZW5hYmxlQ29sbGVjdC52YWx1ZSkgZG9Db2xsZWN0Q3JlZGl0KCkKICAgICAgICBpZiAoZW5hYmxlQW54aW5kb3VTaWduLnZhbHVlKSBkb0FueGluZG91U2lnbigpCiAgICAgICAgaWYgKGVuYWJsZUFueGluZG91VGFzay52YWx1ZSkgZG9BbnhpbmRvdVRhc2soKQogICAgfQoKICAgIC8qKiDpooblj5blvoXpooblj5bnmoTkv6HnlKjnp6/ntK8gKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZG9Db2xsZWN0Q3JlZGl0KCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGRlbGF5KDE1MDApCiAgICAgICAgICAgIHZhbCBxdWVyeVJlc3VsdCA9IFNlc2FtZUNyZWRpdFJwY0NhbGwucXVlcnlDcmVkaXRGZWVkYmFjaygpCiAgICAgICAgICAgIHZhbCBxdWVyeUpzb24gPSBKU09OT2JqZWN0KHF1ZXJ5UmVzdWx0KQogICAgICAgICAgICBpZiAoIVJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBxdWVyeUpzb24pKSByZXR1cm4KCiAgICAgICAgICAgIHZhbCBmZWVkYmFja0xpc3QgPSBxdWVyeUpzb24ub3B0SlNPTkFycmF5KCJmZWVkYmFja0xpc3QiKQogICAgICAgICAgICAgICAgPzogcXVlcnlKc29uLm9wdEpTT05PYmplY3QoImRhdGEiKT8ub3B0SlNPTkFycmF5KCJmZWVkYmFja0xpc3QiKQogICAgICAgICAgICBpZiAoZmVlZGJhY2tMaXN0ID09IG51bGwgfHwgZmVlZGJhY2tMaXN0Lmxlbmd0aCgpID09IDApIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5peg5b6F6aKG5Y+W55qE5L+h55So56ev57SvIikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhciBjb2xsZWN0ZWQgPSAwCiAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIGZlZWRiYWNrTGlzdC5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgdmFsIGl0ZW0gPSBmZWVkYmFja0xpc3Qub3B0SlNPTk9iamVjdChpKSA/OiBjb250aW51ZQogICAgICAgICAgICAgICAgdmFsIGlkID0gaXRlbS5vcHRTdHJpbmcoImNyZWRpdEZlZWRiYWNrSWQiLCAiIikKICAgICAgICAgICAgICAgIHZhbCB0aXRsZSA9IGl0ZW0ub3B0U3RyaW5nKCJ0aXRsZSIsIGlkKQogICAgICAgICAgICAgICAgaWYgKGlkLmlzQmxhbmsoKSkgY29udGludWUKICAgICAgICAgICAgICAgIGRlbGF5KDI1MDApCiAgICAgICAgICAgICAgICB2YWwgY29sbGVjdFJlc3VsdCA9IFNlc2FtZUNyZWRpdFJwY0NhbGwuY29sbGVjdENyZWRpdEZlZWRiYWNrKGlkKQogICAgICAgICAgICAgICAgaWYgKFJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBKU09OT2JqZWN0KGNvbGxlY3RSZXN1bHQpKSkgewogICAgICAgICAgICAgICAgICAgIGNvbGxlY3RlZCsrCiAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLkv6HnlKjnp6/ntK/pooblj5Y6ICR0aXRsZSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLlhbHpooblj5YgJGNvbGxlY3RlZCDpobnkv6HnlKjnp6/ntK8iKQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5L+h55So56ev57Sv5byC5bi4OiAke3QubWVzc2FnZX0iKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5a6J5b+D6LGG562+5YiwICovCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGRvQW54aW5kb3VTaWduKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGRlbGF5KDE1MDApCiAgICAgICAgICAgIHZhbCBhcHBsZXRJZCA9IGFueGluZG91QXBwbGV0SWQudmFsdWUudHJpbSgpCiAgICAgICAgICAgIGlmIChhcHBsZXRJZC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5pyq6YWN572u5a6J5b+D6LGGIGFwcGxldElk77yM6Lez6L+H562+5Yiw77yI6K+35Zyo6K6+572u5Lit5aGr5YaZ5oqT5YyF5b6X5Yiw55qEIGFwcGxldElk77yJIikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBTZXNhbWVDcmVkaXRScGNDYWxsLnNpZ25JblRyaWdnZXIoYXBwbGV0SWQpCiAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgSlNPTk9iamVjdChyZXN1bHQpKSkgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLlronlv4PosYbnrb7liLDmiJDlip8g4pyFIikKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5a6J5b+D6LGG562+5Yiw5byC5bi4OiAke3QubWVzc2FnZX0iKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5a6J5b+D6LGG5Lu75Yqh5Lit5b+D77ya5p+l6K+i5bm26YCQ5Liq6Kem5Y+RICovCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGRvQW54aW5kb3VUYXNrKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGRlbGF5KDE1MDApCiAgICAgICAgICAgIHZhbCBjb25zdWx0UmVzdWx0ID0gU2VzYW1lQ3JlZGl0UnBjQ2FsbC50YXNrQ2VudGVyQ29uc3VsdCgiQU5YSU5ET1VfVEFTS19DRU5URVIiKQogICAgICAgICAgICB2YWwgY29uc3VsdEpzb24gPSBKU09OT2JqZWN0KGNvbnN1bHRSZXN1bHQpCiAgICAgICAgICAgIGlmICghUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIGNvbnN1bHRKc29uKSkgcmV0dXJuCgogICAgICAgICAgICB2YWwgdGFza0xpc3QgPSBjb25zdWx0SnNvbi5vcHRKU09OT2JqZWN0KCJkYXRhIik/Lm9wdEpTT05BcnJheSgidGFza0xpc3QiKQogICAgICAgICAgICAgICAgPzogcmV0dXJuCiAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIHRhc2tMaXN0Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICB2YWwgdGFzayA9IHRhc2tMaXN0Lm9wdEpTT05PYmplY3QoaSkgPzogY29udGludWUKICAgICAgICAgICAgICAgIHZhbCBzY2VuZUNvZGUgPSB0YXNrLm9wdFN0cmluZygic2NlbmVDb2RlIiwgIiIpCiAgICAgICAgICAgICAgICB2YWwgdGl0bGUgPSB0YXNrLm9wdFN0cmluZygidGl0bGUiLCBzY2VuZUNvZGUpCiAgICAgICAgICAgICAgICBpZiAoc2NlbmVDb2RlLmlzQmxhbmsoKSB8fCB0YXNrLm9wdFN0cmluZygidGFza1N0YXR1cyIpID09ICJGSU5JU0hFRCIpIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBkZWxheSgyNTAwKQogICAgICAgICAgICAgICAgdmFsIHRyaWdnZXJSZXN1bHQgPSBTZXNhbWVDcmVkaXRScGNDYWxsLnRhc2tUcmlnZ2VyKHNjZW5lQ29kZSkKICAgICAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgSlNPTk9iamVjdCh0cmlnZ2VyUmVzdWx0KSkpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuWuieW/g+ixhuS7u+WKoTogJHRpdGxlIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5a6J5b+D6LGG5Lu75Yqh5byC5bi4OiAke3QubWVzc2FnZX0iKQogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.task.sesameCredit
+
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.StringModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ResChecker
+import kotlinx.coroutines.delay
+import org.json.JSONArray
+import org.json.JSONObject
+
+/**
+ * 芝麻信用 — 信用积累领取、安心豆签到/任务
+ * 协议移植自芝麻糊SVIP 2.0.6.6（逆向还原）
+ */
+class SesameCredit : ModelTask() {
+
+    companion object {
+        private const val TAG = "SesameCredit"
+        const val MODULE_NAME = "芝麻信用"
+
+        @Volatile var instance: SesameCredit? = null
+    }
+
+    private lateinit var enableCollect: BooleanModelField
+    private lateinit var enableAnxindouSign: BooleanModelField
+    private lateinit var enableAnxindouTask: BooleanModelField
+    private lateinit var anxindouAppletId: StringModelField
+
+    override fun getName() = MODULE_NAME
+    override fun getGroup() = ModelGroup.OTHER
+    override fun getIcon() = "Default.png"
+
+    override fun getFields() = ModelFields().apply {
+        addField(BooleanModelField("creditCollect", "芝麻信用 | 领取信用积累", true).also { enableCollect = it })
+        addField(BooleanModelField("creditAnxinSign", "芝麻信用 | 安心豆签到", true).also { enableAnxindouSign = it })
+        addField(BooleanModelField("creditAnxinTask", "芝麻信用 | 安心豆任务", false).also { enableAnxindouTask = it })
+        addField(
+            StringModelField(
+                "creditAnxinAppletId",
+                "芝麻信用 | 安心豆 appletId(抓包获取)",
+                ""
+            ).also { anxindouAppletId = it }
+        )
+    }
+
+    override fun prepare() { instance = this }
+    override fun destroy() { instance = null; super.destroy() }
+
+    override suspend fun runSuspend() {
+        if (enableCollect.value) doCollectCredit()
+        if (enableAnxindouSign.value) doAnxindouSign()
+        if (enableAnxindouTask.value) doAnxindouTask()
+    }
+
+    /** 领取待领取的信用积累 */
+    private suspend fun doCollectCredit() {
+        try {
+            delay(1500)
+            val queryResult = SesameCreditRpcCall.queryCreditFeedback()
+            val queryJson = JSONObject(queryResult)
+            if (!ResChecker.checkRes(TAG, queryJson)) return
+
+            val feedbackList = queryJson.optJSONArray("feedbackList")
+                ?: queryJson.optJSONObject("data")?.optJSONArray("feedbackList")
+            if (feedbackList == null || feedbackList.length() == 0) {
+                Log.record(TAG, "无待领取的信用积累")
+                return
+            }
+            var collected = 0
+            for (i in 0 until feedbackList.length()) {
+                val item = feedbackList.optJSONObject(i) ?: continue
+                val id = item.optString("creditFeedbackId", "")
+                val title = item.optString("title", id)
+                if (id.isBlank()) continue
+                delay(2500)
+                val collectResult = SesameCreditRpcCall.collectCreditFeedback(id)
+                if (ResChecker.checkRes(TAG, JSONObject(collectResult))) {
+                    collected++
+                    Log.record(TAG, "信用积累领取: $title")
+                }
+            }
+            Log.record(TAG, "共领取 $collected 项信用积累")
+        } catch (t: Throwable) {
+            Log.error(TAG, "信用积累异常: ${t.message}")
+        }
+    }
+
+    /** 安心豆签到 */
+    private suspend fun doAnxindouSign() {
+        try {
+            delay(1500)
+            val appletId = anxindouAppletId.value.trim()
+            if (appletId.isBlank()) {
+                Log.record(TAG, "未配置安心豆 appletId，跳过签到（请在设置中填写抓包得到的 appletId）")
+                return
+            }
+            val result = SesameCreditRpcCall.signInTrigger(appletId)
+            if (ResChecker.checkRes(TAG, JSONObject(result))) {
+                Log.record(TAG, "安心豆签到成功 ✅")
+            }
+        } catch (t: Throwable) {
+            Log.error(TAG, "安心豆签到异常: ${t.message}")
+        }
+    }
+
+    /** 安心豆任务中心：查询并逐个触发 */
+    private suspend fun doAnxindouTask() {
+        try {
+            delay(1500)
+            val consultResult = SesameCreditRpcCall.taskCenterConsult("ANXINDOU_TASK_CENTER")
+            val consultJson = JSONObject(consultResult)
+            if (!ResChecker.checkRes(TAG, consultJson)) return
+
+            val taskList = consultJson.optJSONObject("data")?.optJSONArray("taskList")
+                ?: return
+            for (i in 0 until taskList.length()) {
+                val task = taskList.optJSONObject(i) ?: continue
+                val sceneCode = task.optString("sceneCode", "")
+                val title = task.optString("title", sceneCode)
+                if (sceneCode.isBlank() || task.optString("taskStatus") == "FINISHED") continue
+                delay(2500)
+                val triggerResult = SesameCreditRpcCall.taskTrigger(sceneCode)
+                if (ResChecker.checkRes(TAG, JSONObject(triggerResult))) {
+                    Log.record(TAG, "安心豆任务: $title")
+                }
+            }
+        } catch (t: Throwable) {
+            Log.error(TAG, "安心豆任务异常: ${t.message}")
+        }
+    }
+}

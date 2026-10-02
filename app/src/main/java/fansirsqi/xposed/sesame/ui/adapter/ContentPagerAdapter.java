@@ -1,1 +1,163 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5hZGFwdGVyOwppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludDsKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlOwppbXBvcnQgYW5kcm9pZC51dGlsLkxvZzsKaW1wb3J0IGFuZHJvaWQudmlldy5MYXlvdXRJbmZsYXRlcjsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKaW1wb3J0IGFuZHJvaWR4LnJlY3ljbGVydmlldy53aWRnZXQuRGlmZlV0aWw7CmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5mcmFnbWVudC5hcHAuRnJhZ21lbnQ7CmltcG9ydCBhbmRyb2lkeC5mcmFnbWVudC5hcHAuRnJhZ21lbnRNYW5hZ2VyOwppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLkxpZmVjeWNsZTsKaW1wb3J0IGFuZHJvaWR4LnJlY3ljbGVydmlldy53aWRnZXQuTGluZWFyTGF5b3V0TWFuYWdlcjsKaW1wb3J0IGFuZHJvaWR4LnJlY3ljbGVydmlldy53aWRnZXQuUmVjeWNsZXJWaWV3OwppbXBvcnQgYW5kcm9pZHgudmlld3BhZ2VyMi5hZGFwdGVyLkZyYWdtZW50U3RhdGVBZGFwdGVyOwppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLlI7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbENvbmZpZzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEZpZWxkczsKCnB1YmxpYyBjbGFzcyBDb250ZW50UGFnZXJBZGFwdGVyIGV4dGVuZHMgRnJhZ21lbnRTdGF0ZUFkYXB0ZXIgewogICAgcHJpdmF0ZSBmaW5hbCBMaXN0PE1vZGVsQ29uZmlnPiBjb25maWdzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gIkNvbnRlbnRQYWdlckFkYXB0ZXIiOwoKICAgIHB1YmxpYyBDb250ZW50UGFnZXJBZGFwdGVyKEBOb25OdWxsIEZyYWdtZW50TWFuYWdlciBmcmFnbWVudE1hbmFnZXIsIEBOb25OdWxsIExpZmVjeWNsZSBsaWZlY3ljbGUsIE1hcDxTdHJpbmcsIE1vZGVsQ29uZmlnPiBjb25maWdNYXApIHsKICAgICAgICBzdXBlcihmcmFnbWVudE1hbmFnZXIsIGxpZmVjeWNsZSk7CiAgICAgICAgaWYgKGNvbmZpZ01hcCA9PSBudWxsKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkNvbmZpZ01hcCBjYW5ub3QgYmUgbnVsbCIpOwogICAgICAgIH0KICAgICAgICB0aGlzLmNvbmZpZ3MuYWRkQWxsKGNvbmZpZ01hcC52YWx1ZXMoKSk7CiAgICB9CgogICAgQFN1cHByZXNzTGludCgiTm90aWZ5RGF0YVNldENoYW5nZWQiKQogICAgcHVibGljIHZvaWQgdXBkYXRlRGF0YShNYXA8U3RyaW5nLCBNb2RlbENvbmZpZz4gY29uZmlnTWFwKSB7CiAgICAgICAgaWYgKGNvbmZpZ01hcCA9PSBudWxsKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkNvbmZpZ01hcCBjYW5ub3QgYmUgbnVsbCIpOwogICAgICAgIH0KCiAgICAgICAgTGlzdDxNb2RlbENvbmZpZz4gbmV3Q29uZmlncyA9IG5ldyBBcnJheUxpc3Q8Pihjb25maWdNYXAudmFsdWVzKCkpOwogICAgICAgIERpZmZVdGlsLkRpZmZSZXN1bHQgZGlmZlJlc3VsdCA9IERpZmZVdGlsLmNhbGN1bGF0ZURpZmYobmV3IERpZmZVdGlsLkNhbGxiYWNrKCkgewogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIGludCBnZXRPbGRMaXN0U2l6ZSgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBjb25maWdzLnNpemUoKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyBpbnQgZ2V0TmV3TGlzdFNpemUoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gbmV3Q29uZmlncy5zaXplKCk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgYm9vbGVhbiBhcmVJdGVtc1RoZVNhbWUoaW50IG9sZEl0ZW1Qb3NpdGlvbiwgaW50IG5ld0l0ZW1Qb3NpdGlvbikgewogICAgICAgICAgICAgICAgcmV0dXJuIGNvbmZpZ3MuZ2V0KG9sZEl0ZW1Qb3NpdGlvbikuZXF1YWxzKG5ld0NvbmZpZ3MuZ2V0KG5ld0l0ZW1Qb3NpdGlvbikpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIGJvb2xlYW4gYXJlQ29udGVudHNUaGVTYW1lKGludCBvbGRJdGVtUG9zaXRpb24sIGludCBuZXdJdGVtUG9zaXRpb24pIHsKICAgICAgICAgICAgICAgIHJldHVybiBjb25maWdzLmdldChvbGRJdGVtUG9zaXRpb24pLmVxdWFscyhuZXdDb25maWdzLmdldChuZXdJdGVtUG9zaXRpb24pKTsKICAgICAgICAgICAgfQogICAgICAgIH0pOwoKICAgICAgICBjb25maWdzLmNsZWFyKCk7CiAgICAgICAgY29uZmlncy5hZGRBbGwobmV3Q29uZmlncyk7CiAgICAgICAgZGlmZlJlc3VsdC5kaXNwYXRjaFVwZGF0ZXNUbyh0aGlzKTsKICAgIH0KCiAgICBATm9uTnVsbAogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgRnJhZ21lbnQgY3JlYXRlRnJhZ21lbnQoaW50IHBvc2l0aW9uKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKHBvc2l0aW9uIDwgMCB8fCBwb3NpdGlvbiA+PSBjb25maWdzLnNpemUoKSkgewogICAgICAgICAgICAgICAgdGhyb3cgbmV3IEluZGV4T3V0T2ZCb3VuZHNFeGNlcHRpb24oIkludmFsaWQgcG9zaXRpb246ICIgKyBwb3NpdGlvbik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgTW9kZWxDb25maWcgY29uZmlnID0gY29uZmlncy5nZXQocG9zaXRpb24pOwogICAgICAgICAgICBNb2RlbEZpZWxkcyBmaWVsZHMgPSBjb25maWcuZ2V0RmllbGRzKCk7CiAgICAgICAgICAgIGlmIChmaWVsZHMgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRmllbGRzIGNhbm5vdCBiZSBudWxsIGZvciBjb25maWcgYXQgcG9zaXRpb246ICIgKyBwb3NpdGlvbik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIG5ldyBDb250ZW50RnJhZ21lbnQobmV3IEFycmF5TGlzdDw+KGZpZWxkcy52YWx1ZXMoKSkpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5lKFRBRywgIkVycm9yIGNyZWF0aW5nIGZyYWdtZW50IGF0IHBvc2l0aW9uOiAiICsgcG9zaXRpb24sIGUpOwogICAgICAgICAgICB0aHJvdyBlOwogICAgICAgIH0KICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBpbnQgZ2V0SXRlbUNvdW50KCkgewogICAgICAgIHJldHVybiBjb25maWdzLnNpemUoKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIGNsYXNzIENvbnRlbnRGcmFnbWVudCBleHRlbmRzIEZyYWdtZW50IHsKICAgICAgICBwcml2YXRlIGZpbmFsIEFycmF5TGlzdDxNb2RlbEZpZWxkPD8+PiBtb2RlbEZpZWxkczsKICAgICAgICBwcml2YXRlIFJlY3ljbGVyVmlldyByZWN5Y2xlclZpZXc7CgogICAgICAgIHB1YmxpYyBDb250ZW50RnJhZ21lbnQoQXJyYXlMaXN0PE1vZGVsRmllbGQ8Pz4+IG1vZGVsRmllbGRzKSB7CiAgICAgICAgICAgIHRoaXMubW9kZWxGaWVsZHMgPSBtb2RlbEZpZWxkczsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyBWaWV3IG9uQ3JlYXRlVmlldyhATm9uTnVsbCBMYXlvdXRJbmZsYXRlciBpbmZsYXRlciwgVmlld0dyb3VwIGNvbnRhaW5lciwgQnVuZGxlIHNhdmVkSW5zdGFuY2VTdGF0ZSkgewogICAgICAgICAgICByZXR1cm4gaW5mbGF0ZXIuaW5mbGF0ZShSLmxheW91dC5mcmFnbWVudF9zZXR0aW5nc19saXN0LCBjb250YWluZXIsIGZhbHNlKTsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyB2b2lkIG9uVmlld0NyZWF0ZWQoQE5vbk51bGwgVmlldyB2aWV3LCBCdW5kbGUgc2F2ZWRJbnN0YW5jZVN0YXRlKSB7CiAgICAgICAgICAgIHN1cGVyLm9uVmlld0NyZWF0ZWQodmlldywgc2F2ZWRJbnN0YW5jZVN0YXRlKTsKICAgICAgICAgICAgcmVjeWNsZXJWaWV3ID0gdmlldy5maW5kVmlld0J5SWQoUi5pZC5ydl9pdGVtcyk7CiAgICAgICAgICAgIHJlY3ljbGVyVmlldy5zZXRMYXlvdXRNYW5hZ2VyKG5ldyBMaW5lYXJMYXlvdXRNYW5hZ2VyKHJlcXVpcmVDb250ZXh0KCkpKTsKICAgICAgICAgICAgcmVjeWNsZXJWaWV3LnNldEFkYXB0ZXIobmV3IENvbnRlbnRBZGFwdGVyKG1vZGVsRmllbGRzKSk7CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgdm9pZCBvbkRlc3Ryb3lWaWV3KCkgewogICAgICAgICAgICBzdXBlci5vbkRlc3Ryb3lWaWV3KCk7CiAgICAgICAgICAgIHJlY3ljbGVyVmlldyA9IG51bGw7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgdm9pZCBzY3JvbGxUb1RvcCgpIHsKICAgICAgICAgICAgaWYgKHJlY3ljbGVyVmlldyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICByZWN5Y2xlclZpZXcuc21vb3RoU2Nyb2xsVG9Qb3NpdGlvbigwKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBjbGFzcyBDb250ZW50QWRhcHRlciBleHRlbmRzIFJlY3ljbGVyVmlldy5BZGFwdGVyPENvbnRlbnRBZGFwdGVyLlZpZXdIb2xkZXI+IHsKICAgICAgICBwcml2YXRlIGZpbmFsIEFycmF5TGlzdDxNb2RlbEZpZWxkPD8+PiBtb2RlbEZpZWxkczsKCiAgICAgICAgcHVibGljIENvbnRlbnRBZGFwdGVyKEFycmF5TGlzdDxNb2RlbEZpZWxkPD8+PiBtb2RlbEZpZWxkcykgewogICAgICAgICAgICB0aGlzLm1vZGVsRmllbGRzID0gbW9kZWxGaWVsZHM7CiAgICAgICAgfQoKICAgICAgICBATm9uTnVsbAogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyBWaWV3SG9sZGVyIG9uQ3JlYXRlVmlld0hvbGRlcihATm9uTnVsbCBWaWV3R3JvdXAgcGFyZW50LCBpbnQgdmlld1R5cGUpIHsKICAgICAgICAgICAgVmlldyB2aWV3ID0gTGF5b3V0SW5mbGF0ZXIuZnJvbShwYXJlbnQuZ2V0Q29udGV4dCgpKS5pbmZsYXRlKFIubGF5b3V0LmxheW91dF9zZXR0aW5nc19pdGVtLCBwYXJlbnQsIGZhbHNlKTsKICAgICAgICAgICAgcmV0dXJuIG5ldyBWaWV3SG9sZGVyKHZpZXcpOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIHZvaWQgb25CaW5kVmlld0hvbGRlcihATm9uTnVsbCBWaWV3SG9sZGVyIGhvbGRlciwgaW50IHBvc2l0aW9uKSB7CiAgICAgICAgICAgIFZpZXdHcm91cCBjb250YWluZXIgPSAoVmlld0dyb3VwKSBob2xkZXIuaXRlbVZpZXc7CiAgICAgICAgICAgIGNvbnRhaW5lci5yZW1vdmVBbGxWaWV3cygpOwogICAgICAgICAgICBWaWV3IGZpZWxkVmlldyA9IG1vZGVsRmllbGRzLmdldChwb3NpdGlvbikuZ2V0Vmlldyhjb250YWluZXIuZ2V0Q29udGV4dCgpKTsKICAgICAgICAgICAgaWYgKGZpZWxkVmlldyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBjb250YWluZXIuYWRkVmlldyhmaWVsZFZpZXcpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgaW50IGdldEl0ZW1Db3VudCgpIHsKICAgICAgICAgICAgcmV0dXJuIG1vZGVsRmllbGRzLnNpemUoKTsKICAgICAgICB9CgogICAgICAgIHN0YXRpYyBjbGFzcyBWaWV3SG9sZGVyIGV4dGVuZHMgUmVjeWNsZXJWaWV3LlZpZXdIb2xkZXIgewogICAgICAgICAgICBwdWJsaWMgVmlld0hvbGRlcihATm9uTnVsbCBWaWV3IGl0ZW1WaWV3KSB7CiAgICAgICAgICAgICAgICBzdXBlcihpdGVtVmlldyk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.ui.adapter;
+import android.annotation.SuppressLint;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import androidx.recyclerview.widget.DiffUtil;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.lifecycle.Lifecycle;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager2.adapter.FragmentStateAdapter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelConfig;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.model.ModelFields;
+
+public class ContentPagerAdapter extends FragmentStateAdapter {
+    private final List<ModelConfig> configs = new ArrayList<>();
+    private static final String TAG = "ContentPagerAdapter";
+
+    public ContentPagerAdapter(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle, Map<String, ModelConfig> configMap) {
+        super(fragmentManager, lifecycle);
+        if (configMap == null) {
+            throw new IllegalArgumentException("ConfigMap cannot be null");
+        }
+        this.configs.addAll(configMap.values());
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    public void updateData(Map<String, ModelConfig> configMap) {
+        if (configMap == null) {
+            throw new IllegalArgumentException("ConfigMap cannot be null");
+        }
+
+        List<ModelConfig> newConfigs = new ArrayList<>(configMap.values());
+        DiffUtil.DiffResult diffResult = DiffUtil.calculateDiff(new DiffUtil.Callback() {
+            @Override
+            public int getOldListSize() {
+                return configs.size();
+            }
+
+            @Override
+            public int getNewListSize() {
+                return newConfigs.size();
+            }
+
+            @Override
+            public boolean areItemsTheSame(int oldItemPosition, int newItemPosition) {
+                return configs.get(oldItemPosition).equals(newConfigs.get(newItemPosition));
+            }
+
+            @Override
+            public boolean areContentsTheSame(int oldItemPosition, int newItemPosition) {
+                return configs.get(oldItemPosition).equals(newConfigs.get(newItemPosition));
+            }
+        });
+
+        configs.clear();
+        configs.addAll(newConfigs);
+        diffResult.dispatchUpdatesTo(this);
+    }
+
+    @NonNull
+    @Override
+    public Fragment createFragment(int position) {
+        try {
+            if (position < 0 || position >= configs.size()) {
+                throw new IndexOutOfBoundsException("Invalid position: " + position);
+            }
+            ModelConfig config = configs.get(position);
+            ModelFields fields = config.getFields();
+            if (fields == null) {
+                throw new IllegalStateException("Fields cannot be null for config at position: " + position);
+            }
+            return new ContentFragment(new ArrayList<>(fields.values()));
+        } catch (Exception e) {
+            Log.e(TAG, "Error creating fragment at position: " + position, e);
+            throw e;
+        }
+    }
+
+    @Override
+    public int getItemCount() {
+        return configs.size();
+    }
+
+    public static class ContentFragment extends Fragment {
+        private final ArrayList<ModelField<?>> modelFields;
+        private RecyclerView recyclerView;
+
+        public ContentFragment(ArrayList<ModelField<?>> modelFields) {
+            this.modelFields = modelFields;
+        }
+
+        @Override
+        public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            return inflater.inflate(R.layout.fragment_settings_list, container, false);
+        }
+
+        @Override
+        public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+            super.onViewCreated(view, savedInstanceState);
+            recyclerView = view.findViewById(R.id.rv_items);
+            recyclerView.setLayoutManager(new LinearLayoutManager(requireContext()));
+            recyclerView.setAdapter(new ContentAdapter(modelFields));
+        }
+
+        @Override
+        public void onDestroyView() {
+            super.onDestroyView();
+            recyclerView = null;
+        }
+
+        public void scrollToTop() {
+            if (recyclerView != null) {
+                recyclerView.smoothScrollToPosition(0);
+            }
+        }
+    }
+
+    private static class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ViewHolder> {
+        private final ArrayList<ModelField<?>> modelFields;
+
+        public ContentAdapter(ArrayList<ModelField<?>> modelFields) {
+            this.modelFields = modelFields;
+        }
+
+        @NonNull
+        @Override
+        public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_settings_item, parent, false);
+            return new ViewHolder(view);
+        }
+
+        @Override
+        public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+            ViewGroup container = (ViewGroup) holder.itemView;
+            container.removeAllViews();
+            View fieldView = modelFields.get(position).getView(container.getContext());
+            if (fieldView != null) {
+                container.addView(fieldView);
+            }
+        }
+
+        @Override
+        public int getItemCount() {
+            return modelFields.size();
+        }
+
+        static class ViewHolder extends RecyclerView.ViewHolder {
+            public ViewHolder(@NonNull View itemView) {
+                super(itemView);
+            }
+        }
+    }
+}

@@ -1,1 +1,92 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLm90aGVyCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZW50aXR5Lk90aGVyRW50aXR5UHJvdmlkZXIubGlzdENyZWRpdE9wdGlvbnMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGRzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEdyb3VwCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LkJvb2xlYW5Nb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LlNlbGVjdEFuZENvdW50TW9kZWxGaWVsZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5TZWxlY3RNb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLk1vZGVsVGFzawppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5vdGhlci5jcmVkaXQyMTAxLkNyZWRpdDIxMDEKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCgpjbGFzcyBPdGhlclRhc2sgOiBNb2RlbFRhc2soKSB7CiAgICBvdmVycmlkZSBmdW4gZ2V0TmFtZSgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAi5YW25LuW5Lu75YqhIgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRHcm91cCgpOiBNb2RlbEdyb3VwIHsKICAgICAgICByZXR1cm4gTW9kZWxHcm91cC5PVEhFUgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRJY29uKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICIiCiAgICB9CgogICAgLyoqIEBicmllZiDkv6HnlKgyMTAxIOa4uOaIj+W8gOWFsyAqLwogICAgcHJpdmF0ZSB2YXIgY3JlZGl0MjEwMTogQm9vbGVhbk1vZGVsRmllbGQ/ID0gbnVsbAoKICAgIC8qKiBAYnJpZWYg5L+h55SoMjEwMSDkuovku7bliJfooaggKi8KICAgIHByaXZhdGUgdmFyIGNyZWRpdE9wdGlvbnM6IFNlbGVjdEFuZENvdW50TW9kZWxGaWVsZD8gPSBudWxsCgoKICAgIC8qKiBAYnJpZWYg5L+h55SoMjEwMSDoh6rliqjlvIDlrp3nrrEgKi8KICAgIHByaXZhdGUgdmFyIGF1dG9PcGVuQ2hlc3Q6IEJvb2xlYW5Nb2RlbEZpZWxkPyA9IG51bGwKCiAgICAvKiogQGJyaWVmIOS/oeeUqDIxMDEg5LuF5a6M5oiQMeasoeeahOS6i+S7tuWIl+ihqCAqLwogICAgcHJpdmF0ZSB2YXIgY3JlZGl0T25jZU9wdGlvbnM6IFNlbGVjdE1vZGVsRmllbGQ/ID0gbnVsbAoKCiAgICBvdmVycmlkZSBmdW4gZ2V0RmllbGRzKCk6IE1vZGVsRmllbGRzIHsKICAgICAgICB2YWwgZmllbGRzID0gTW9kZWxGaWVsZHMoKQogICAgICAgIGZpZWxkcy5hZGRGaWVsZCgKICAgICAgICAgICAgQm9vbGVhbk1vZGVsRmllbGQoCiAgICAgICAgICAgICAgICAiY3JlZGl0MjEwMSIsICLkv6HnlKgyMTAxIiwgZmFsc2UKICAgICAgICAgICAgKS5hcHBseSB7IGNyZWRpdDIxMDEgPSB0aGlzIH0pCgogICAgICAgIGZpZWxkcy5hZGRGaWVsZCgKICAgICAgICAgICAgQm9vbGVhbk1vZGVsRmllbGQoCiAgICAgICAgICAgICAgICAiQXV0b09wZW5DaGVzdCIsICLkv6HnlKgyMTAxIHwg6Ieq5Yqo5byA5a6d566xIiwgZmFsc2UKICAgICAgICAgICAgKS5hcHBseSB7IGF1dG9PcGVuQ2hlc3QgPSB0aGlzIH0pCgoKICAgICAgICBmaWVsZHMuYWRkRmllbGQoCiAgICAgICAgICAgIFNlbGVjdEFuZENvdW50TW9kZWxGaWVsZCgKICAgICAgICAgICAgICAgICJDcmVkaXRPcHRpb25zIiwKICAgICAgICAgICAgICAgICLkv6HnlKgyMTAxIHwg5LqL5Lu257G75Z6LIiwKICAgICAgICAgICAgICAgIExpbmtlZEhhc2hNYXA8U3RyaW5nPywgSW50Pz4oKSwKICAgICAgICAgICAgICAgIGxpc3RDcmVkaXRPcHRpb25zKCksCiAgICAgICAgICAgICAgICAi6K6+572u6L+Q6KGM5qyh5pWwKC0x5Li65LiN6ZmQ5Yi2KSIKICAgICAgICAgICAgKS5hbHNvIHsKICAgICAgICAgICAgICAgIGNyZWRpdE9wdGlvbnMgPSBpdAogICAgICAgICAgICB9KQoKCgoKCgoKCgogICAgICAgIHJldHVybiBmaWVsZHMKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBydW5TdXNwZW5kKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChjcmVkaXQyMTAxISEudmFsdWUpIHsKICAgICAgICAgICAgICAgIENyZWRpdDIxMDEuZG9DcmVkaXQyMTAxKGF1dG9PcGVuQ2hlc3QhIS52YWx1ZT09dHJ1ZSxjcmVkaXRPcHRpb25zISEpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsIGUpCiAgICAgICAgfQogICAgfQoKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgVEFHID0gIk90aGVyVGFzayIKICAgICAgICBmdW4gcnVuKCkgewogICAgICAgICAgICAvLyBUT0RPOiDmt7vliqDlhbbku5bku7vliqEKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task.other
+
+import fansirsqi.xposed.sesame.entity.OtherEntityProvider.listCreditOptions
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectAndCountModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.task.other.credit2101.Credit2101
+import fansirsqi.xposed.sesame.util.Log
+
+class OtherTask : ModelTask() {
+    override fun getName(): String {
+        return "其他任务"
+    }
+
+    override fun getGroup(): ModelGroup {
+        return ModelGroup.OTHER
+    }
+
+    override fun getIcon(): String {
+        return ""
+    }
+
+    /** @brief 信用2101 游戏开关 */
+    private var credit2101: BooleanModelField? = null
+
+    /** @brief 信用2101 事件列表 */
+    private var creditOptions: SelectAndCountModelField? = null
+
+
+    /** @brief 信用2101 自动开宝箱 */
+    private var autoOpenChest: BooleanModelField? = null
+
+    /** @brief 信用2101 仅完成1次的事件列表 */
+    private var creditOnceOptions: SelectModelField? = null
+
+
+    override fun getFields(): ModelFields {
+        val fields = ModelFields()
+        fields.addField(
+            BooleanModelField(
+                "credit2101", "信用2101", false
+            ).apply { credit2101 = this })
+
+        fields.addField(
+            BooleanModelField(
+                "AutoOpenChest", "信用2101 | 自动开宝箱", false
+            ).apply { autoOpenChest = this })
+
+
+        fields.addField(
+            SelectAndCountModelField(
+                "CreditOptions",
+                "信用2101 | 事件类型",
+                LinkedHashMap<String?, Int?>(),
+                listCreditOptions(),
+                "设置运行次数(-1为不限制)"
+            ).also {
+                creditOptions = it
+            })
+
+
+
+
+
+
+
+
+
+        return fields
+    }
+
+    override suspend fun runSuspend() {
+        try {
+            if (credit2101!!.value) {
+                Credit2101.doCredit2101(autoOpenChest!!.value==true,creditOptions!!)
+            }
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, e)
+        }
+    }
+
+
+    companion object {
+        const val TAG = "OtherTask"
+        fun run() {
+            // TODO: 添加其他任务
+        }
+    }
+}

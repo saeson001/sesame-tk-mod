@@ -1,1 +1,251 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwppbXBvcnQgamF2YS5sYW5nLnJlZmxlY3QuVHlwZVZhcmlhYmxlOwppbXBvcnQgamF2YS5sYW5nLnJlZmxlY3QuV2lsZGNhcmRUeXBlOwppbXBvcnQgamF2YS5sYW5nLnJlZmxlY3QuRmllbGQ7CmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5NZXRob2Q7CmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5QYXJhbWV0ZXJpemVkVHlwZTsKaW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LlR5cGU7CmltcG9ydCBqYXZhLnV0aWwuQXJyYXlMaXN0OwppbXBvcnQgamF2YS51dGlsLkxpc3Q7Ci8qKgogKiDnsbvlnovlt6XlhbfnsbvjgIIKICog5o+Q5L6b5LqG5LiA57O75YiX5pa55rOV5p2l5aSE55CGSmF2YeWPjeWwhOS4reeahOexu+Wei+ebuOWFs+eahOaTjeS9nOOAggogKi8KcHVibGljIGNsYXNzIFR5cGVVdGlsIHsKICAgIC8qKgogICAgICog56eB5pyJ5p6E6YCg5Ye95pWw77yM6Ziy5q2i5a6e5L6L5YyW44CCCiAgICAgKi8KICAgIHByaXZhdGUgVHlwZVV0aWwoKSB7CiAgICB9CiAgICAvKioKICAgICAqIOS7jue7meWumueahOexu+Wei+S4reaPkOWPlkNsYXNz5a+56LGh44CCCiAgICAgKiDlpoLmnpznsbvlnovmmK9DbGFzc+OAgVBhcmFtZXRlcml6ZWRUeXBl5oiW5pyJ55WM55qEVHlwZVZhcmlhYmxlL1dpbGRjYXJkVHlwZe+8jOWImei/lOWbnuWFtuWvueW6lOeahENsYXNz5a+56LGh44CCCiAgICAgKgogICAgICogQHBhcmFtIHR5cGUg57uZ5a6a55qE57G75Z6L44CCCiAgICAgKiBAcmV0dXJuIOaPkOWPlueahENsYXNz5a+56LGh77yM5aaC5p6c5peg5rOV5o+Q5Y+W5YiZ6L+U5ZuebnVsbOOAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIENsYXNzPD8+IGdldENsYXNzKFR5cGUgdHlwZSkgewogICAgICAgIGlmICh0eXBlICE9IG51bGwpIHsKICAgICAgICAgICAgaWYgKHR5cGUgaW5zdGFuY2VvZiBDbGFzczw/PikgewogICAgICAgICAgICAgICAgcmV0dXJuIChDbGFzczw/PikgdHlwZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAodHlwZSBpbnN0YW5jZW9mIFBhcmFtZXRlcml6ZWRUeXBlKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gKENsYXNzPD8+KSAoKFBhcmFtZXRlcml6ZWRUeXBlKSB0eXBlKS5nZXRSYXdUeXBlKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgVHlwZVtdIHVwcGVyQm91bmRzOwogICAgICAgICAgICBpZiAodHlwZSBpbnN0YW5jZW9mIFR5cGVWYXJpYWJsZTw/PikgewogICAgICAgICAgICAgICAgdXBwZXJCb3VuZHMgPSAoKFR5cGVWYXJpYWJsZTw/PikgdHlwZSkuZ2V0Qm91bmRzKCk7CiAgICAgICAgICAgICAgICBpZiAodXBwZXJCb3VuZHMubGVuZ3RoID09IDEpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZ2V0Q2xhc3ModXBwZXJCb3VuZHNbMF0pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgaWYgKHR5cGUgaW5zdGFuY2VvZiBXaWxkY2FyZFR5cGUpIHsKICAgICAgICAgICAgICAgIHVwcGVyQm91bmRzID0gKChXaWxkY2FyZFR5cGUpIHR5cGUpLmdldFVwcGVyQm91bmRzKCk7CiAgICAgICAgICAgICAgICBpZiAodXBwZXJCb3VuZHMubGVuZ3RoID09IDEpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZ2V0Q2xhc3ModXBwZXJCb3VuZHNbMF0pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBudWxsOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5ZGaWVsZOeahOazm+Wei+exu+Wei+OAggogICAgICoKICAgICAqIEBwYXJhbSBmaWVsZCBGaWVsZOWvueixoeOAggogICAgICogQHJldHVybiBGaWVsZOeahOazm+Wei+exu+Wei+OAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFR5cGUgZ2V0VHlwZShGaWVsZCBmaWVsZCkgewogICAgICAgIHJldHVybiBmaWVsZCAhPSBudWxsID8gZmllbGQuZ2V0R2VuZXJpY1R5cGUoKSA6IG51bGw7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPlkZpZWxk55qEQ2xhc3PnsbvlnovjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gZmllbGQgRmllbGTlr7nosaHjgIIKICAgICAqIEByZXR1cm4gRmllbGTnmoRDbGFzc+exu+Wei+OAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIENsYXNzPD8+IGdldENsYXNzKEZpZWxkIGZpZWxkKSB7CiAgICAgICAgcmV0dXJuIGZpZWxkICE9IG51bGwgPyBmaWVsZC5nZXRUeXBlKCkgOiBudWxsOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5ZNZXRob2TnmoTnrKzkuIDkuKrlj4LmlbDnmoTms5vlnovnsbvlnovjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gbWV0aG9kIE1ldGhvZOWvueixoeOAggogICAgICogQHJldHVybiDnrKzkuIDkuKrlj4LmlbDnmoTms5vlnovnsbvlnovjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBUeXBlIGdldEZpcnN0UGFyYW1UeXBlKE1ldGhvZCBtZXRob2QpIHsKICAgICAgICByZXR1cm4gZ2V0UGFyYW1UeXBlKG1ldGhvZCwgMCk7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPlk1ldGhvZOeahOesrOS4gOS4quWPguaVsOeahENsYXNz57G75Z6L44CCCiAgICAgKgogICAgICogQHBhcmFtIG1ldGhvZCBNZXRob2Tlr7nosaHjgIIKICAgICAqIEByZXR1cm4g56ys5LiA5Liq5Y+C5pWw55qEQ2xhc3PnsbvlnovjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBDbGFzczw/PiBnZXRGaXJzdFBhcmFtQ2xhc3MoTWV0aG9kIG1ldGhvZCkgewogICAgICAgIHJldHVybiBnZXRQYXJhbUNsYXNzKG1ldGhvZCwgMCk7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPlk1ldGhvZOaMh+Wumue0ouW8leS9jee9ruWPguaVsOeahOazm+Wei+exu+Wei+OAggogICAgICoKICAgICAqIEBwYXJhbSBtZXRob2QgTWV0aG9k5a+56LGh44CCCiAgICAgKiBAcGFyYW0gaW5kZXggIOWPguaVsOe0ouW8leOAggogICAgICogQHJldHVybiDmjIflrprntKLlvJXkvY3nva7lj4LmlbDnmoTms5vlnovnsbvlnovjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBUeXBlIGdldFBhcmFtVHlwZShNZXRob2QgbWV0aG9kLCBpbnQgaW5kZXgpIHsKICAgICAgICBUeXBlW10gdHlwZXMgPSBnZXRQYXJhbVR5cGVzKG1ldGhvZCk7CiAgICAgICAgcmV0dXJuIHR5cGVzICE9IG51bGwgJiYgdHlwZXMubGVuZ3RoID4gaW5kZXggPyB0eXBlc1tpbmRleF0gOiBudWxsOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5ZNZXRob2TmjIflrprntKLlvJXkvY3nva7lj4LmlbDnmoRDbGFzc+exu+Wei+OAggogICAgICoKICAgICAqIEBwYXJhbSBtZXRob2QgTWV0aG9k5a+56LGh44CCCiAgICAgKiBAcGFyYW0gaW5kZXggIOWPguaVsOe0ouW8leOAggogICAgICogQHJldHVybiDmjIflrprntKLlvJXkvY3nva7lj4LmlbDnmoRDbGFzc+exu+Wei+OAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIENsYXNzPD8+IGdldFBhcmFtQ2xhc3MoTWV0aG9kIG1ldGhvZCwgaW50IGluZGV4KSB7CiAgICAgICAgQ2xhc3M8Pz5bXSBjbGFzc2VzID0gZ2V0UGFyYW1DbGFzc2VzKG1ldGhvZCk7CiAgICAgICAgcmV0dXJuIGNsYXNzZXMgIT0gbnVsbCAmJiBjbGFzc2VzLmxlbmd0aCA+IGluZGV4ID8gY2xhc3Nlc1tpbmRleF0gOiBudWxsOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5ZNZXRob2TnmoTmiYDmnInlj4LmlbDnmoTms5vlnovnsbvlnovjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gbWV0aG9kIE1ldGhvZOWvueixoeOAggogICAgICogQHJldHVybiBNZXRob2TnmoTmiYDmnInlj4LmlbDnmoTms5vlnovnsbvlnovjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBUeXBlW10gZ2V0UGFyYW1UeXBlcyhNZXRob2QgbWV0aG9kKSB7CiAgICAgICAgcmV0dXJuIG1ldGhvZCAhPSBudWxsID8gbWV0aG9kLmdldEdlbmVyaWNQYXJhbWV0ZXJUeXBlcygpIDogbnVsbDsKICAgIH0KICAgIC8qKgogICAgICog6I635Y+WTWV0aG9k55qE5omA5pyJ5Y+C5pWw55qEQ2xhc3PnsbvlnovjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gbWV0aG9kIE1ldGhvZOWvueixoeOAggogICAgICogQHJldHVybiBNZXRob2TnmoTmiYDmnInlj4LmlbDnmoRDbGFzc+exu+Wei+OAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIENsYXNzPD8+W10gZ2V0UGFyYW1DbGFzc2VzKE1ldGhvZCBtZXRob2QpIHsKICAgICAgICByZXR1cm4gbWV0aG9kICE9IG51bGwgPyBtZXRob2QuZ2V0UGFyYW1ldGVyVHlwZXMoKSA6IG51bGw7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPlk1ldGhvZOeahOi/lOWbnuWAvOeahOazm+Wei+exu+Wei+OAggogICAgICoKICAgICAqIEBwYXJhbSBtZXRob2QgTWV0aG9k5a+56LGh44CCCiAgICAgKiBAcmV0dXJuIE1ldGhvZOeahOi/lOWbnuWAvOeahOazm+Wei+exu+Wei+OAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFR5cGUgZ2V0UmV0dXJuVHlwZShNZXRob2QgbWV0aG9kKSB7CiAgICAgICAgcmV0dXJuIG1ldGhvZCAhPSBudWxsID8gbWV0aG9kLmdldEdlbmVyaWNSZXR1cm5UeXBlKCkgOiBudWxsOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5ZNZXRob2TnmoTov5Tlm57lgLznmoRDbGFzc+exu+Wei+OAggogICAgICoKICAgICAqIEBwYXJhbSBtZXRob2QgTWV0aG9k5a+56LGh44CCCiAgICAgKiBAcmV0dXJuIE1ldGhvZOeahOi/lOWbnuWAvOeahENsYXNz57G75Z6L44CCCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgQ2xhc3M8Pz4gZ2V0UmV0dXJuQ2xhc3MoTWV0aG9kIG1ldGhvZCkgewogICAgICAgIHJldHVybiBtZXRob2QgIT0gbnVsbCA/IG1ldGhvZC5nZXRSZXR1cm5UeXBlKCkgOiBudWxsOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5bms5vlnovnsbvlnovnmoTlj4LmlbDnsbvlnovjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gdHlwZSDms5vlnovnsbvlnovjgIIKICAgICAqIEByZXR1cm4g5Y+C5pWw57G75Z6L44CCCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgVHlwZSBnZXRUeXBlQXJndW1lbnQoVHlwZSB0eXBlKSB7CiAgICAgICAgcmV0dXJuIGdldFR5cGVBcmd1bWVudCh0eXBlLCAwKTsKICAgIH0KICAgIC8qKgogICAgICog6I635Y+W5rOb5Z6L57G75Z6L55qE5oyH5a6a57Si5byV5L2N572u55qE5Y+C5pWw57G75Z6L44CCCiAgICAgKgogICAgICogQHBhcmFtIHR5cGUgIOazm+Wei+exu+Wei+OAggogICAgICogQHBhcmFtIGluZGV4IOWPguaVsOe0ouW8leOAggogICAgICogQHJldHVybiDmjIflrprntKLlvJXkvY3nva7nmoTlj4LmlbDnsbvlnovjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBUeXBlIGdldFR5cGVBcmd1bWVudChUeXBlIHR5cGUsIGludCBpbmRleCkgewogICAgICAgIFR5cGVbXSB0eXBlQXJndW1lbnRzID0gZ2V0VHlwZUFyZ3VtZW50cyh0eXBlKTsKICAgICAgICByZXR1cm4gdHlwZUFyZ3VtZW50cyAhPSBudWxsICYmIHR5cGVBcmd1bWVudHMubGVuZ3RoID4gaW5kZXggPyB0eXBlQXJndW1lbnRzW2luZGV4XSA6IG51bGw7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPluazm+Wei+exu+Wei+eahOaJgOacieWPguaVsOexu+Wei+OAggogICAgICoKICAgICAqIEBwYXJhbSB0eXBlIOazm+Wei+exu+Wei+OAggogICAgICogQHJldHVybiDms5vlnovnsbvlnovnmoTmiYDmnInlj4LmlbDnsbvlnovjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBUeXBlW10gZ2V0VHlwZUFyZ3VtZW50cyhUeXBlIHR5cGUpIHsKICAgICAgICBpZiAodHlwZSA9PSBudWxsKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgIH0KICAgICAgICBQYXJhbWV0ZXJpemVkVHlwZSBwYXJhbWV0ZXJpemVkVHlwZSA9IHRvUGFyYW1ldGVyaXplZFR5cGUodHlwZSk7CiAgICAgICAgcmV0dXJuIHBhcmFtZXRlcml6ZWRUeXBlICE9IG51bGwgPyBwYXJhbWV0ZXJpemVkVHlwZS5nZXRBY3R1YWxUeXBlQXJndW1lbnRzKCkgOiBudWxsOwogICAgfQogICAgLyoqCiAgICAgKiDlsIbnsbvlnovovazmjaLkuLpQYXJhbWV0ZXJpemVkVHlwZeOAggogICAgICoKICAgICAqIEBwYXJhbSB0eXBlIOazm+Wei+exu+Wei+OAggogICAgICogQHJldHVybiBQYXJhbWV0ZXJpemVkVHlwZeWvueixoeOAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFBhcmFtZXRlcml6ZWRUeXBlIHRvUGFyYW1ldGVyaXplZFR5cGUoVHlwZSB0eXBlKSB7CiAgICAgICAgcmV0dXJuIHRvUGFyYW1ldGVyaXplZFR5cGUodHlwZSwgMCk7CiAgICB9CiAgICAvKioKICAgICAqIOWwhuexu+Wei+i9rOaNouS4ulBhcmFtZXRlcml6ZWRUeXBl77yM5bm25oyH5a6a5o6l5Y+j57Si5byV44CCCiAgICAgKgogICAgICogQHBhcmFtIHR5cGUgICAgICAgICAgIOazm+Wei+exu+Wei+OAggogICAgICogQHBhcmFtIGludGVyZmFjZUluZGV4IOaOpeWPo+e0ouW8leOAggogICAgICogQHJldHVybiBQYXJhbWV0ZXJpemVkVHlwZeWvueixoeOAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFBhcmFtZXRlcml6ZWRUeXBlIHRvUGFyYW1ldGVyaXplZFR5cGUoVHlwZSB0eXBlLCBpbnQgaW50ZXJmYWNlSW5kZXgpIHsKICAgICAgICBpZiAodHlwZSBpbnN0YW5jZW9mIFBhcmFtZXRlcml6ZWRUeXBlKSB7CiAgICAgICAgICAgIHJldHVybiAoUGFyYW1ldGVyaXplZFR5cGUpIHR5cGU7CiAgICAgICAgfSBlbHNlIGlmICh0eXBlIGluc3RhbmNlb2YgQ2xhc3M8Pz4pIHsKICAgICAgICAgICAgUGFyYW1ldGVyaXplZFR5cGVbXSBnZW5lcmljcyA9IGdldEdlbmVyaWNzKChDbGFzczw/PikgdHlwZSk7CiAgICAgICAgICAgIGlmIChnZW5lcmljcy5sZW5ndGggPiBpbnRlcmZhY2VJbmRleCkgewogICAgICAgICAgICAgICAgcmV0dXJuIGdlbmVyaWNzW2ludGVyZmFjZUluZGV4XTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIC8qKgogICAgICog6I635Y+W57G755qE5rOb5Z6L57G75Z6L44CCCiAgICAgKgogICAgICogQHBhcmFtIGNsYXp6IENsYXNz5a+56LGh44CCCiAgICAgKiBAcmV0dXJuIOazm+Wei+exu+Wei+aVsOe7hOOAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFBhcmFtZXRlcml6ZWRUeXBlW10gZ2V0R2VuZXJpY3MoQ2xhc3M8Pz4gY2xhenopIHsKICAgICAgICBMaXN0PFBhcmFtZXRlcml6ZWRUeXBlPiByZXN1bHQgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICBUeXBlIGdlbmVyaWNTdXBlciA9IGNsYXp6LmdldEdlbmVyaWNTdXBlcmNsYXNzKCk7CiAgICAgICAgaWYgKGdlbmVyaWNTdXBlciAhPSBudWxsICYmICFPYmplY3QuY2xhc3MuZXF1YWxzKGdlbmVyaWNTdXBlcikpIHsKICAgICAgICAgICAgUGFyYW1ldGVyaXplZFR5cGUgcGFyYW1ldGVyaXplZFR5cGUgPSB0b1BhcmFtZXRlcml6ZWRUeXBlKGdlbmVyaWNTdXBlcik7CiAgICAgICAgICAgIGlmIChwYXJhbWV0ZXJpemVkVHlwZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICByZXN1bHQuYWRkKHBhcmFtZXRlcml6ZWRUeXBlKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBUeXBlW10gZ2VuZXJpY0ludGVyZmFjZXMgPSBjbGF6ei5nZXRHZW5lcmljSW50ZXJmYWNlcygpOwogICAgICAgIGZvciAoVHlwZSBnZW5lcmljSW50ZXJmYWNlIDogZ2VuZXJpY0ludGVyZmFjZXMpIHsKICAgICAgICAgICAgUGFyYW1ldGVyaXplZFR5cGUgcGFyYW1ldGVyaXplZFR5cGUgPSB0b1BhcmFtZXRlcml6ZWRUeXBlKGdlbmVyaWNJbnRlcmZhY2UpOwogICAgICAgICAgICBpZiAocGFyYW1ldGVyaXplZFR5cGUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgcmVzdWx0LmFkZChwYXJhbWV0ZXJpemVkVHlwZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJlc3VsdC50b0FycmF5KG5ldyBQYXJhbWV0ZXJpemVkVHlwZVswXSk7CiAgICB9CiAgICAvKioKICAgICAqIOajgOafpeexu+Wei+aYr+WQpuacquefpeOAggogICAgICoKICAgICAqIEBwYXJhbSB0eXBlIOe7meWumueahOexu+Wei+OAggogICAgICogQHJldHVybiDlpoLmnpznsbvlnovmnKrnn6XmiJbkuLpUeXBlVmFyaWFibGXvvIzliJnov5Tlm550cnVl44CCCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBpc1Vua25vd24oVHlwZSB0eXBlKSB7CiAgICAgICAgcmV0dXJuIHR5cGUgPT0gbnVsbCB8fCB0eXBlIGluc3RhbmNlb2YgVHlwZVZhcmlhYmxlOwogICAgfQogICAgLyoqCiAgICAgKiDmo4Dmn6Xnu5nlrprnmoTnsbvlnovmlbDnu4TkuK3mmK/lkKbljIXlkKtUeXBlVmFyaWFibGXjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gdHlwZXMg57G75Z6L5pWw57uE44CCCiAgICAgKiBAcmV0dXJuIOWmguaenOWMheWQq1R5cGVWYXJpYWJsZe+8jOWImei/lOWbnnRydWXjgIIKICAgICAqLwogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGhhc1R5cGVWYXJpYWJsZShUeXBlLi4uIHR5cGVzKSB7CiAgICAgICAgZm9yIChUeXBlIHR5cGUgOiB0eXBlcykgewogICAgICAgICAgICBpZiAodHlwZSBpbnN0YW5jZW9mIFR5cGVWYXJpYWJsZSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQp9
+package fansirsqi.xposed.sesame.util;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
+/**
+ * 类型工具类。
+ * 提供了一系列方法来处理Java反射中的类型相关的操作。
+ */
+public class TypeUtil {
+    /**
+     * 私有构造函数，防止实例化。
+     */
+    private TypeUtil() {
+    }
+    /**
+     * 从给定的类型中提取Class对象。
+     * 如果类型是Class、ParameterizedType或有界的TypeVariable/WildcardType，则返回其对应的Class对象。
+     *
+     * @param type 给定的类型。
+     * @return 提取的Class对象，如果无法提取则返回null。
+     */
+    public static Class<?> getClass(Type type) {
+        if (type != null) {
+            if (type instanceof Class<?>) {
+                return (Class<?>) type;
+            }
+            if (type instanceof ParameterizedType) {
+                return (Class<?>) ((ParameterizedType) type).getRawType();
+            }
+            Type[] upperBounds;
+            if (type instanceof TypeVariable<?>) {
+                upperBounds = ((TypeVariable<?>) type).getBounds();
+                if (upperBounds.length == 1) {
+                    return getClass(upperBounds[0]);
+                }
+            } else if (type instanceof WildcardType) {
+                upperBounds = ((WildcardType) type).getUpperBounds();
+                if (upperBounds.length == 1) {
+                    return getClass(upperBounds[0]);
+                }
+            }
+        }
+        return null;
+    }
+    /**
+     * 获取Field的泛型类型。
+     *
+     * @param field Field对象。
+     * @return Field的泛型类型。
+     */
+    public static Type getType(Field field) {
+        return field != null ? field.getGenericType() : null;
+    }
+    /**
+     * 获取Field的Class类型。
+     *
+     * @param field Field对象。
+     * @return Field的Class类型。
+     */
+    public static Class<?> getClass(Field field) {
+        return field != null ? field.getType() : null;
+    }
+    /**
+     * 获取Method的第一个参数的泛型类型。
+     *
+     * @param method Method对象。
+     * @return 第一个参数的泛型类型。
+     */
+    public static Type getFirstParamType(Method method) {
+        return getParamType(method, 0);
+    }
+    /**
+     * 获取Method的第一个参数的Class类型。
+     *
+     * @param method Method对象。
+     * @return 第一个参数的Class类型。
+     */
+    public static Class<?> getFirstParamClass(Method method) {
+        return getParamClass(method, 0);
+    }
+    /**
+     * 获取Method指定索引位置参数的泛型类型。
+     *
+     * @param method Method对象。
+     * @param index  参数索引。
+     * @return 指定索引位置参数的泛型类型。
+     */
+    public static Type getParamType(Method method, int index) {
+        Type[] types = getParamTypes(method);
+        return types != null && types.length > index ? types[index] : null;
+    }
+    /**
+     * 获取Method指定索引位置参数的Class类型。
+     *
+     * @param method Method对象。
+     * @param index  参数索引。
+     * @return 指定索引位置参数的Class类型。
+     */
+    public static Class<?> getParamClass(Method method, int index) {
+        Class<?>[] classes = getParamClasses(method);
+        return classes != null && classes.length > index ? classes[index] : null;
+    }
+    /**
+     * 获取Method的所有参数的泛型类型。
+     *
+     * @param method Method对象。
+     * @return Method的所有参数的泛型类型。
+     */
+    public static Type[] getParamTypes(Method method) {
+        return method != null ? method.getGenericParameterTypes() : null;
+    }
+    /**
+     * 获取Method的所有参数的Class类型。
+     *
+     * @param method Method对象。
+     * @return Method的所有参数的Class类型。
+     */
+    public static Class<?>[] getParamClasses(Method method) {
+        return method != null ? method.getParameterTypes() : null;
+    }
+    /**
+     * 获取Method的返回值的泛型类型。
+     *
+     * @param method Method对象。
+     * @return Method的返回值的泛型类型。
+     */
+    public static Type getReturnType(Method method) {
+        return method != null ? method.getGenericReturnType() : null;
+    }
+    /**
+     * 获取Method的返回值的Class类型。
+     *
+     * @param method Method对象。
+     * @return Method的返回值的Class类型。
+     */
+    public static Class<?> getReturnClass(Method method) {
+        return method != null ? method.getReturnType() : null;
+    }
+    /**
+     * 获取泛型类型的参数类型。
+     *
+     * @param type 泛型类型。
+     * @return 参数类型。
+     */
+    public static Type getTypeArgument(Type type) {
+        return getTypeArgument(type, 0);
+    }
+    /**
+     * 获取泛型类型的指定索引位置的参数类型。
+     *
+     * @param type  泛型类型。
+     * @param index 参数索引。
+     * @return 指定索引位置的参数类型。
+     */
+    public static Type getTypeArgument(Type type, int index) {
+        Type[] typeArguments = getTypeArguments(type);
+        return typeArguments != null && typeArguments.length > index ? typeArguments[index] : null;
+    }
+    /**
+     * 获取泛型类型的所有参数类型。
+     *
+     * @param type 泛型类型。
+     * @return 泛型类型的所有参数类型。
+     */
+    public static Type[] getTypeArguments(Type type) {
+        if (type == null) {
+            return null;
+        }
+        ParameterizedType parameterizedType = toParameterizedType(type);
+        return parameterizedType != null ? parameterizedType.getActualTypeArguments() : null;
+    }
+    /**
+     * 将类型转换为ParameterizedType。
+     *
+     * @param type 泛型类型。
+     * @return ParameterizedType对象。
+     */
+    public static ParameterizedType toParameterizedType(Type type) {
+        return toParameterizedType(type, 0);
+    }
+    /**
+     * 将类型转换为ParameterizedType，并指定接口索引。
+     *
+     * @param type           泛型类型。
+     * @param interfaceIndex 接口索引。
+     * @return ParameterizedType对象。
+     */
+    public static ParameterizedType toParameterizedType(Type type, int interfaceIndex) {
+        if (type instanceof ParameterizedType) {
+            return (ParameterizedType) type;
+        } else if (type instanceof Class<?>) {
+            ParameterizedType[] generics = getGenerics((Class<?>) type);
+            if (generics.length > interfaceIndex) {
+                return generics[interfaceIndex];
+            }
+        }
+        return null;
+    }
+    /**
+     * 获取类的泛型类型。
+     *
+     * @param clazz Class对象。
+     * @return 泛型类型数组。
+     */
+    public static ParameterizedType[] getGenerics(Class<?> clazz) {
+        List<ParameterizedType> result = new ArrayList<>();
+        Type genericSuper = clazz.getGenericSuperclass();
+        if (genericSuper != null && !Object.class.equals(genericSuper)) {
+            ParameterizedType parameterizedType = toParameterizedType(genericSuper);
+            if (parameterizedType != null) {
+                result.add(parameterizedType);
+            }
+        }
+        Type[] genericInterfaces = clazz.getGenericInterfaces();
+        for (Type genericInterface : genericInterfaces) {
+            ParameterizedType parameterizedType = toParameterizedType(genericInterface);
+            if (parameterizedType != null) {
+                result.add(parameterizedType);
+            }
+        }
+        return result.toArray(new ParameterizedType[0]);
+    }
+    /**
+     * 检查类型是否未知。
+     *
+     * @param type 给定的类型。
+     * @return 如果类型未知或为TypeVariable，则返回true。
+     */
+    public static boolean isUnknown(Type type) {
+        return type == null || type instanceof TypeVariable;
+    }
+    /**
+     * 检查给定的类型数组中是否包含TypeVariable。
+     *
+     * @param types 类型数组。
+     * @return 如果包含TypeVariable，则返回true。
+     */
+    public static boolean hasTypeVariable(Type... types) {
+        for (Type type : types) {
+            if (type instanceof TypeVariable) {
+                return true;
+            }
+        }
+        return false;
+    }
+}

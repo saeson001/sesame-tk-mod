@@ -1,1 +1,75 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLndlbGZhcmVDZW50ZXI7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5SZXF1ZXN0TWFuYWdlcjsKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheTsKCi8qKgogKiDnpo/liKnkuK3lv4PvvIjnvZHllYbpk7booYwv5oiR55qE56aP5Yip77yJUlBDIOiwg+eUqAogKiDljY/orq7mnaXmupDvvJroip3purvns4pTVklQIDIuMC42LjYg6YCG5ZCR6L+Y5Y6f77yIV2VsZmFyZUNlbnRlclJwY0NhbGzvvIkKICovCnB1YmxpYyBjbGFzcyBXZWxmYXJlQ2VudGVyUnBjQ2FsbCB7CgogICAgLyoqIOemj+WIqeS4reW/g+etvuWIsO+8iOeUn+a0u+WPtyBQTEFZMTAwMTc3NTQ177yJICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBzaWduaW5QbGF5KCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAgICAgImNvbS5hbGlwYXkubG9hbnByb21vd2ViLm1lbWJlci5wbGF5LnNpZ25pblBsYXkiLAogICAgICAgICAgICAgICAgIlt7XCJjaGFubmVsXCI6IFwibWluaUFwcFwiLFwibmVlZE11bHRpcGxlXCI6IGZhbHNlLFwib3BlcmF0aW9uXCI6IFwic2lnbkFwcGx5XCIsXCJwbGF5SWRcIjogXCJQTEFZMTAwMTc3NTQ1XCJ9XSIpOwogICAgfQoKICAgIC8qKiDokKXplIDmtLvliqjop6blj5HvvIjlpb3lrrbml6Dlv6fljaHnrYnvvIkgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHRyaWdnZXIoU3RyaW5nIGNhbXBJZCwgU3RyaW5nIG1lbW8pIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmxvYW5wcm9tb3dlYi5wcm9tby5jYW1wLnRyaWdnZXIiLAogICAgICAgICAgICAgICAgIlt7XCJjYW1wSWRcIjogXCIiICsgY2FtcElkICsgIlwiLFwiZXh0UGFyYW1zXCI6IHtcImJrUG9pbnRVc2VNZW1vXCI6IFwiIiArIG1lbW8KICAgICAgICAgICAgICAgICAgICAgICAgKyAiXCIsXCJwY2JmY0NlcnRNZW1vXCI6IFwiRlVMSUNlbnRlclVTRVwifX1dIik7CiAgICB9CgogICAgLyoqIOS6kuWKqOeOqeazleinpuWPkSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcGxheVRyaWdnZXIoU3RyaW5nIHBsYXlJZCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKAogICAgICAgICAgICAgICAgImNvbS5hbGlwYXkubG9hbnByb21vd2ViLnByb21vLnBsYXljZW50ZXIucGxheVRyaWdnZXIudHJpZ2dlciIsCiAgICAgICAgICAgICAgICAiW3tcImV4dEluZm9cIjp7fSxcIm9wZXJhdGlvblwiOlwiTVlCS19EQUNVX0lOVEVSQUNUSVZFX1pIQlwiLFwicGxheUlkXCI6XCIiICsgcGxheUlkICsgIlwifV0iKTsKICAgIH0KCiAgICAvKiog5p+l6K+i56aP5Yip56ev5YiG5L2Z6aKdICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBwb2ludEJhbmxhbmNlKFN0cmluZyBxdWVyeUV4cGlyZUVuZERhdGUpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmxvYW5wcm9tb3dlYi5wcm9tby5ncm91cC5wb2ludC5wb2ludEJhbmxhbmNlIiwKICAgICAgICAgICAgICAgICJbe1wicXVlcnlFeHBpcmVFbmREYXRlXCI6IFwiIiArIHF1ZXJ5RXhwaXJlRW5kRGF0ZSArICJcIn1dIik7CiAgICB9CgogICAgLyoqIOafpeivouivgeS7ti/mnYPnm4rmqKHmnb8gKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHF1ZXJ5Q2VydChTdHJpbmdbXSBjZXJ0VGVtcGxhdGVJZHMpIHsKICAgICAgICBKU09OQXJyYXkgYXJyID0gbmV3IEpTT05BcnJheSgpOwogICAgICAgIGZvciAoU3RyaW5nIGlkIDogY2VydFRlbXBsYXRlSWRzKSB7CiAgICAgICAgICAgIGFyci5wdXQoaWQpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmxvYW5wcm9tb3dlYi5wcm9tby5jZXJ0LnF1ZXJ5IiwKICAgICAgICAgICAgICAgICJbe1wiY2VydFRlbXBsYXRlSWRTZXRcIjoiICsgYXJyICsgIn1dIik7CiAgICB9CgogICAgLyoqIOafpeivouWPr+eUqOiZmuaLn+adg+ebiu+8iOemj+WIqeenr+WIhuWcuuaZr+WIl+ihqO+8iSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcXVlcnlFbmFibGVWaXJ0dWFsUHJvZml0VjIoU3RyaW5nIHNpZ25JblNjZW5lSWQpIHsKICAgICAgICBTdHJpbmcgc2NlbmVDb2RlcyA9ICJbXCJGVUxJQ2VudGVyX0pLSk1MXCIsXCJGVUxJQ2VudGVyX0paTlwiLFwiQkMzX0JDM1YxXCIsXCJCQzNfQkMzVjJcIixcIkJDM19CQzNWM1wiLCIKICAgICAgICAgICAgICAgICsgIlwiU1FCX1NRQlYwXCIsXCJTUUJfU1FCVjFcIixcIlNRQl9TUUJWMlwiLFwiU1FCX1NRQlYzXCIsXCJTUUJfU1FCVjRcIixcIlNRQl9TUUJWNVwiLCIKICAgICAgICAgICAgICAgICsgIlwiU1FCX1NRQlY2XCIsXCJTUUJfU1FCVjdcIixcIlNRQl9TUUJWOFwiLFwiU1FCX1NRQlY5XCIsXCJTUUJfU1FCVjEwXCIsXCJTUUJfU1FCVjExXCIsIgogICAgICAgICAgICAgICAgKyAiXCJTUUJfU1FCU0lHTlwiLFwiRlVMSUNlbnRlcl9KS0pRV1wiLFwiRlVMSUNlbnRlcl9XU1dGXCIsXCJGVUxJQ2VudGVyX0ZMS1pTXCIsIgogICAgICAgICAgICAgICAgKyAiXCJGVUxJQ2VudGVyX0tHSlhCQkZcIixcIkZVTElDZW50ZXJfQVhIWlhCXCIsXCJGVUxJQ2VudGVyX0JCRlwiLFwiRlVMSUNlbnRlcl9WMVwiLCIKICAgICAgICAgICAgICAgICsgIlwiRlVMSUNlbnRlcl9WMlwiLFwiRlVMSUNlbnRlcl9WM1wiLFwiRlVMSUNlbnRlcl9WNFwiLFwiRlVMSUNlbnRlcl9WNVwiLFwiRlVMSUNlbnRlcl9WNlwiLCIKICAgICAgICAgICAgICAgICsgIlwiRlVMSUNlbnRlcl9WN1wiLFwiRlVMSUNlbnRlcl9ZdWxpYmFvQVVNXCIsXCJGVUxJQ2VudGVyX1BheUJ5TXliYW5rXCIsIgogICAgICAgICAgICAgICAgKyAiXCJGVUxJQ2VudGVyX0RlcG9zaXRBVU1cIixcIkZVTElDZW50ZXJfWVlZWUhcIixcIkZVTElDZW50ZXJfUVlaXCIsXCJGVUxJQ2VudGVyX1Y3UExVU1wiLCIKICAgICAgICAgICAgICAgICsgIlwiRlVMSUNlbnRlcl9WNlBMVVNcIixcIkZVTElDZW50ZXJfVjVQTFVTXCIsXCJGVUxJQ2VudGVyX1Y4XCIsXCJGVUxJQ2VudGVyX1Y5XCIsXCJGVUxJQ2VudGVyX1YxMFwiXSI7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoCiAgICAgICAgICAgICAgICAiY29tLmFsaXBheS5sb2FucHJvbW93ZWIucHJvbW8udmlydHVhbFByb2ZpdC5xdWVyeUVuYWJsZVZpcnR1YWxQcm9maXRWMiIsCiAgICAgICAgICAgICAgICAiW3tcImZpcnN0U2NlbmVDb2RlXCI6W10sXCJwcm9maXRUeXBlXCI6XCJBTlRCQU5LX1dFTEZBUkVfUE9JTlRcIixcInNjZW5lQ29kZVwiOiIgKyBzY2VuZUNvZGVzCiAgICAgICAgICAgICAgICAgICAgICAgICsgIixcInNpZ25JblNjZW5lSWRcIjpcIiIgKyBzaWduSW5TY2VuZUlkICsgIlwifV0iKTsKICAgIH0KCiAgICAvKiog5om56YeP5L2/55So6Jma5ouf5p2D55uK77yI56ev5YiG5YWR5o2i77yJICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBiYXRjaFVzZVZpcnR1YWxQcm9maXQoU3RyaW5nIHZpcnR1YWxQcm9maXRJZHNKc29uQXJyYXkpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygKICAgICAgICAgICAgICAgICJjb20uYWxpcGF5LmxvYW5wcm9tb3dlYi5wcm9tby52aXJ0dWFsUHJvZml0LmJhdGNoVXNlVmlydHVhbFByb2ZpdFMiLAogICAgICAgICAgICAgICAgIlt7XCJ2aXJ0dWFsUHJvZml0SWRMaXN0XCI6IiArIHZpcnR1YWxQcm9maXRJZHNKc29uQXJyYXkgKyAifV0iKTsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.task.welfareCenter;
+
+import fansirsqi.xposed.sesame.hook.RequestManager;
+import org.json.JSONArray;
+
+/**
+ * 福利中心（网商银行/我的福利）RPC 调用
+ * 协议来源：芝麻糊SVIP 2.0.6.6 逆向还原（WelfareCenterRpcCall）
+ */
+public class WelfareCenterRpcCall {
+
+    /** 福利中心签到（生活号 PLAY100177545） */
+    public static String signinPlay() {
+        return RequestManager.requestString(
+                "com.alipay.loanpromoweb.member.play.signinPlay",
+                "[{\"channel\": \"miniApp\",\"needMultiple\": false,\"operation\": \"signApply\",\"playId\": \"PLAY100177545\"}]");
+    }
+
+    /** 营销活动触发（好家无忧卡等） */
+    public static String trigger(String campId, String memo) {
+        return RequestManager.requestString(
+                "com.alipay.loanpromoweb.promo.camp.trigger",
+                "[{\"campId\": \"" + campId + "\",\"extParams\": {\"bkPointUseMemo\": \"" + memo
+                        + "\",\"pcbfcCertMemo\": \"FULICenterUSE\"}}]");
+    }
+
+    /** 互动玩法触发 */
+    public static String playTrigger(String playId) {
+        return RequestManager.requestString(
+                "com.alipay.loanpromoweb.promo.playcenter.playTrigger.trigger",
+                "[{\"extInfo\":{},\"operation\":\"MYBK_DACU_INTERACTIVE_ZHB\",\"playId\":\"" + playId + "\"}]");
+    }
+
+    /** 查询福利积分余额 */
+    public static String pointBanlance(String queryExpireEndDate) {
+        return RequestManager.requestString(
+                "com.alipay.loanpromoweb.promo.group.point.pointBanlance",
+                "[{\"queryExpireEndDate\": \"" + queryExpireEndDate + "\"}]");
+    }
+
+    /** 查询证件/权益模板 */
+    public static String queryCert(String[] certTemplateIds) {
+        JSONArray arr = new JSONArray();
+        for (String id : certTemplateIds) {
+            arr.put(id);
+        }
+        return RequestManager.requestString(
+                "com.alipay.loanpromoweb.promo.cert.query",
+                "[{\"certTemplateIdSet\":" + arr + "}]");
+    }
+
+    /** 查询可用虚拟权益（福利积分场景列表） */
+    public static String queryEnableVirtualProfitV2(String signInSceneId) {
+        String sceneCodes = "[\"FULICenter_JKJML\",\"FULICenter_JZN\",\"BC3_BC3V1\",\"BC3_BC3V2\",\"BC3_BC3V3\","
+                + "\"SQB_SQBV0\",\"SQB_SQBV1\",\"SQB_SQBV2\",\"SQB_SQBV3\",\"SQB_SQBV4\",\"SQB_SQBV5\","
+                + "\"SQB_SQBV6\",\"SQB_SQBV7\",\"SQB_SQBV8\",\"SQB_SQBV9\",\"SQB_SQBV10\",\"SQB_SQBV11\","
+                + "\"SQB_SQBSIGN\",\"FULICenter_JKJQW\",\"FULICenter_WSWF\",\"FULICenter_FLKZS\","
+                + "\"FULICenter_KGJXBBF\",\"FULICenter_AXHZXB\",\"FULICenter_BBF\",\"FULICenter_V1\","
+                + "\"FULICenter_V2\",\"FULICenter_V3\",\"FULICenter_V4\",\"FULICenter_V5\",\"FULICenter_V6\","
+                + "\"FULICenter_V7\",\"FULICenter_YulibaoAUM\",\"FULICenter_PayByMybank\","
+                + "\"FULICenter_DepositAUM\",\"FULICenter_YYYYH\",\"FULICenter_QYZ\",\"FULICenter_V7PLUS\","
+                + "\"FULICenter_V6PLUS\",\"FULICenter_V5PLUS\",\"FULICenter_V8\",\"FULICenter_V9\",\"FULICenter_V10\"]";
+        return RequestManager.requestString(
+                "com.alipay.loanpromoweb.promo.virtualProfit.queryEnableVirtualProfitV2",
+                "[{\"firstSceneCode\":[],\"profitType\":\"ANTBANK_WELFARE_POINT\",\"sceneCode\":" + sceneCodes
+                        + ",\"signInSceneId\":\"" + signInSceneId + "\"}]");
+    }
+
+    /** 批量使用虚拟权益（积分兑换） */
+    public static String batchUseVirtualProfit(String virtualProfitIdsJsonArray) {
+        return RequestManager.requestString(
+                "com.alipay.loanpromoweb.promo.virtualProfit.batchUseVirtualProfitS",
+                "[{\"virtualProfitIdList\":" + virtualProfitIdsJsonArray + "}]");
+    }
+}

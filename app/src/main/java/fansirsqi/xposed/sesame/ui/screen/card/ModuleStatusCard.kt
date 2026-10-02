@@ -1,1 +1,106 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uY2FyZAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLkFuaW1hdGVkVmlzaWJpbGl0eQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS50d2VlbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uZXhwYW5kVmVydGljYWxseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uc2hyaW5rVmVydGljYWxseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5vdXRsaW5lZC5DaGVja0NpcmNsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5vdXRsaW5lZC5XYXJuaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DYXJkRGVmYXVsdHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkNpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkVsZXZhdGVkQ2FyZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRXhwZXJpbWVudGFsTWF0ZXJpYWwzQXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuQnVpbGRDb25maWcKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLnNjcmVlbi5jb21wb25lbnRzLkh0bWxUZXh0CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS52aWV3bW9kZWwuTWFpblZpZXdNb2RlbAoKQE9wdEluKEV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmZ1biBNb2R1bGVTdGF0dXNDYXJkKAogICAgc3RhdHVzOiBNYWluVmlld01vZGVsLk1vZHVsZVN0YXR1cywKICAgIGV4cGFuZGVkOiBCb29sZWFuLAogICAgb25DbGljazogKCkgLT4gVW5pdAopIHsKICAgIEVsZXZhdGVkQ2FyZCgKICAgICAgICBvbkNsaWNrID0gb25DbGljaywKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAucGFkZGluZyg4LmRwKSwKICAgICAgICBjb2xvcnMgPSBDYXJkRGVmYXVsdHMuZWxldmF0ZWRDYXJkQ29sb3JzKAogICAgICAgICAgICBjb250YWluZXJDb2xvciA9CiAgICAgICAgICAgICAgICB3aGVuIChzdGF0dXMpIHsKICAgICAgICAgICAgICAgICAgICBpcyBNYWluVmlld01vZGVsLk1vZHVsZVN0YXR1cy5BY3RpdmF0ZWQgLT4gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgaXMgTWFpblZpZXdNb2RlbC5Nb2R1bGVTdGF0dXMuTm90QWN0aXZhdGVkIC0+IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3JDb250YWluZXIKICAgICAgICAgICAgICAgICAgICBpcyBNYWluVmlld01vZGVsLk1vZHVsZVN0YXR1cy5Mb2FkaW5nIC0+IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgIH0KICAgICAgICApLAogICAgKSB7CiAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygxNi5kcCkpIHsKICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICB3aGVuIChzdGF0dXMpIHsKICAgICAgICAgICAgICAgICAgICBpcyBNYWluVmlld01vZGVsLk1vZHVsZVN0YXR1cy5BY3RpdmF0ZWQgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLk91dGxpbmVkLkNoZWNrQ2lyY2xlLCAi5bey5r+A5rS7IikKICAgICAgICAgICAgICAgICAgICAgICAgQ29sdW1uKE1vZGlmaWVyLnBhZGRpbmcoc3RhcnQgPSAyMC5kcCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICJBY3RpdmF0ZWQiLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICJWZXJzaW9uOiAke0J1aWxkQ29uZmlnLlZFUlNJT05fTkFNRX0gJHtCdWlsZENvbmZpZy5WRVJTSU9OX0NPREV9Iiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoNC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSAiYnkgJHtzdGF0dXMuZnJhbWV3b3JrTmFtZX0gJHtzdGF0dXMuZnJhbWV3b3JrVmVyc2lvbn0gQVBJICR7c3RhdHVzLmFwaVZlcnNpb259Iiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBpcyBNYWluVmlld01vZGVsLk1vZHVsZVN0YXR1cy5Ob3RBY3RpdmF0ZWQgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLk91dGxpbmVkLldhcm5pbmcsICLmnKrmv4DmtLsiKQogICAgICAgICAgICAgICAgICAgICAgICBDb2x1bW4oTW9kaWZpZXIucGFkZGluZyhzdGFydCA9IDIwLmRwKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCh0ZXh0ID0gIuaooeWdl+acqua/gOa0uyIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg0LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICLor7flsJ3or5XlnKhMcy9YcG9zZWTkuK3mv4DmtLsiLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCh0ZXh0ID0gIueCueWHu+WxleW8gOW4ruWKqSIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaXMgTWFpblZpZXdNb2RlbC5Nb2R1bGVTdGF0dXMuTG9hZGluZyAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IobW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDI0LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgQ29sdW1uKE1vZGlmaWVyLnBhZGRpbmcoc3RhcnQgPSAyMC5kcCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICLmraPlnKjmo4Dmn6XmqKHlnZfnirbmgIEuLi4iLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgQW5pbWF0ZWRWaXNpYmlsaXR5KAogICAgICAgICAgICAgICAgdmlzaWJsZSA9IGV4cGFuZGVkLAogICAgICAgICAgICAgICAgZW50ZXIgPSBleHBhbmRWZXJ0aWNhbGx5KGFuaW1hdGlvblNwZWMgPSB0d2VlbigzMDApKSwKICAgICAgICAgICAgICAgIGV4aXQgPSBzaHJpbmtWZXJ0aWNhbGx5KGFuaW1hdGlvblNwZWMgPSB0d2VlbigzMDApKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIENvbHVtbihtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcodG9wID0gMTYuZHApKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCh0ZXh0ID0gIuaVhemanOaOkuafpeaMh+WNlyIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlU21hbGwsIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQpCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgICAgICAgICAgICAgIEh0bWxUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICBodG1sID0gIuafpeeci+W4ruWKqSA8YSBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL0ZhbnNpcnNxaS9TZXNhbWUtVEsvd2lraS8lRTYlOTclQTBSb290XCI+5YWNUm9vdOmjn+eUqOaMh+WNlzwvYT4iCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICJMc3BhdGNoL05wYXRjaC9GUEEvT3BhdGNoIOivt+W/veeVpeatpOeKtuaAgSIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlU21hbGwpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCg==
+package fansirsqi.xposed.sesame.ui.screen.card
+
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.CheckCircle
+import androidx.compose.material.icons.outlined.Warning
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ElevatedCard
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import fansirsqi.xposed.sesame.BuildConfig
+import fansirsqi.xposed.sesame.ui.screen.components.HtmlText
+import fansirsqi.xposed.sesame.ui.viewmodel.MainViewModel
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ModuleStatusCard(
+    status: MainViewModel.ModuleStatus,
+    expanded: Boolean,
+    onClick: () -> Unit
+) {
+    ElevatedCard(
+        onClick = onClick,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(8.dp),
+        colors = CardDefaults.elevatedCardColors(
+            containerColor =
+                when (status) {
+                    is MainViewModel.ModuleStatus.Activated -> MaterialTheme.colorScheme.primary
+                    is MainViewModel.ModuleStatus.NotActivated -> MaterialTheme.colorScheme.errorContainer
+                    is MainViewModel.ModuleStatus.Loading -> MaterialTheme.colorScheme.surfaceVariant
+                }
+        ),
+    ) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                when (status) {
+                    is MainViewModel.ModuleStatus.Activated -> {
+                        Icon(Icons.Outlined.CheckCircle, "已激活")
+                        Column(Modifier.padding(start = 20.dp)) {
+                            Text(text = "Activated", style = MaterialTheme.typography.titleMedium)
+                            Text(text = "Version: ${BuildConfig.VERSION_NAME} ${BuildConfig.VERSION_CODE}", style = MaterialTheme.typography.bodyMedium)
+                            Spacer(Modifier.height(4.dp))
+                            Text(text = "by ${status.frameworkName} ${status.frameworkVersion} API ${status.apiVersion}", style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+
+                    is MainViewModel.ModuleStatus.NotActivated -> {
+                        Icon(Icons.Outlined.Warning, "未激活")
+                        Column(Modifier.padding(start = 20.dp)) {
+                            Text(text = "模块未激活", style = MaterialTheme.typography.titleMedium)
+                            Spacer(Modifier.height(4.dp))
+                            Text(text = "请尝试在Ls/Xposed中激活", style = MaterialTheme.typography.bodyMedium)
+                            Text(text = "点击展开帮助", style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+
+                    is MainViewModel.ModuleStatus.Loading -> {
+                        CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                        Column(Modifier.padding(start = 20.dp)) {
+                            Text(text = "正在检查模块状态...", style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+                }
+            }
+
+            AnimatedVisibility(
+                visible = expanded,
+                enter = expandVertically(animationSpec = tween(300)),
+                exit = shrinkVertically(animationSpec = tween(300))
+            ) {
+                Column(modifier = Modifier.padding(top = 16.dp)) {
+                    Text(text = "故障排查指南", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+                    Spacer(modifier = Modifier.height(8.dp))
+                    HtmlText(
+                        html = "查看帮助 <a href=\"https://github.com/Fansirsqi/Sesame-TK/wiki/%E6%97%A0Root\">免Root食用指南</a>"
+                    )
+                    Text(text = "Lspatch/Npatch/FPA/Opatch 请忽略此状态", style = MaterialTheme.typography.titleSmall)
+                }
+            }
+        }
+    }
+}
+

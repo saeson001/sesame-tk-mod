@@ -1,1 +1,326 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludAppbXBvcnQgYW5kcm9pZC51dGlsLkxvZwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmNvcmUudHlwZS5UeXBlUmVmZXJlbmNlCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uY29yZS51dGlsLkRlZmF1bHRJbmRlbnRlcgppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmNvcmUudXRpbC5EZWZhdWx0UHJldHR5UHJpbnRlcgppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmRhdGFiaW5kLkRlc2VyaWFsaXphdGlvbkZlYXR1cmUKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5kYXRhYmluZC5leGMuTWlzbWF0Y2hlZElucHV0RXhjZXB0aW9uCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24ubW9kdWxlLmtvdGxpbi5qYWNrc29uT2JqZWN0TWFwcGVyCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24ubW9kdWxlLmtvdGxpbi5yZWFkVmFsdWUKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5uaW8uZmlsZS5QYXRoCmltcG9ydCBqYXZhLm5pby5maWxlLlN0YW5kYXJkV2F0Y2hFdmVudEtpbmRzCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0xvbmcKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmxvY2tzLlJlZW50cmFudFJlYWRXcml0ZUxvY2sKaW1wb3J0IGtvdGxpbi5jb25jdXJyZW50LnJlYWQKaW1wb3J0IGtvdGxpbi5jb25jdXJyZW50LnRocmVhZAppbXBvcnQga290bGluLmNvbmN1cnJlbnQud3JpdGUKaW1wb3J0IGtvdGxpbi5tYXRoLmFicwoKb2JqZWN0IERhdGFTdG9yZSB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiRGF0YVN0b3JlIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgRklMRV9OQU1FID0gIkRhdGFTdG9yZS5qc29uIgoKICAgIC8vIOmFjee9riBKYWNrc29u77ya5b+955Wl5pyq55+l55qE5bGe5oCn77yM6Ziy5q2i54mI5pys5Y2H57qn5a+86Ie05bSp5rqDCiAgICBwcml2YXRlIHZhbCBtYXBwZXIgPSBqYWNrc29uT2JqZWN0TWFwcGVyKCkuYXBwbHkgewogICAgICAgIGNvbmZpZ3VyZShEZXNlcmlhbGl6YXRpb25GZWF0dXJlLkZBSUxfT05fVU5LTk9XTl9QUk9QRVJUSUVTLCBmYWxzZSkKICAgIH0KCiAgICBwcml2YXRlIHZhbCBkYXRhID0gQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBBbnk+KCkKICAgIHByaXZhdGUgdmFsIGxvY2sgPSBSZWVudHJhbnRSZWFkV3JpdGVMb2NrKCkKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHN0b3JhZ2VGaWxlOiBGaWxlCgogICAgLy8g55So5LqO6Ziy5oqW77ya6K6w5b2V5pyA5ZCO5LiA5qyh5Yqg6L2955qE5paH5Lu25L+u5pS55pe26Ze0CiAgICBwcml2YXRlIHZhbCBsYXN0TG9hZGVkVGltZSA9IEF0b21pY0xvbmcoMCkKICAgIC8vIOeUqOS6jumYsuaKlu+8muiusOW9leacgOWQjuS4gOasoeWGmeWFpeeahOaXtumXtO+8jOmBv+WFjeiHquW3seWGmeaWh+S7tuinpuWPkeiHquW3seeahOebkeWQrAogICAgcHJpdmF0ZSB2YWwgbGFzdFdyaXRlVGltZSA9IEF0b21pY0xvbmcoMCkKCiAgICBwcml2YXRlIHZhciBvbkNoYW5nZUxpc3RlbmVyOiAoKCkgLT4gVW5pdCk/ID0gbnVsbAoKICAgIGZ1biBzZXRPbkNoYW5nZUxpc3RlbmVyKGxpc3RlbmVyOiAoKSAtPiBVbml0KSB7CiAgICAgICAgb25DaGFuZ2VMaXN0ZW5lciA9IGxpc3RlbmVyCiAgICB9CgogICAgLyoqCiAgICAgKiDliJ3lp4vljJYgRGF0YVN0b3JlCiAgICAgKiBAcGFyYW0gZGlyIOWtmOWCqOebruW9lQogICAgICovCiAgICBmdW4gaW5pdChkaXI6IEZpbGUpIHsKICAgICAgICAvLyAxLiDnoa7kv53nm67lvZXlrZjlnKggKOS/ruWkjeW0qea6g+eahOaguOW/gykKICAgICAgICBpZiAoIWRpci5leGlzdHMoKSkgewogICAgICAgICAgICBpZiAoIWRpci5ta2RpcnMoKSkgewogICAgICAgICAgICAgICAgTG9nLmUoVEFHLCAiRmFpbGVkIHRvIGNyZWF0ZSBkaXJlY3Rvcnk6ICR7ZGlyLmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICAgICAgLy8g5aaC5p6c5pivIFhwb3NlZCDnjq/looPvvIzov5nph4zlj6/og73lm6DkuLrmnYPpmZDkuI3otrPlpLHotKXvvIzkvYbmiJHku6zlsJ3or5Xnu6fnu60KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gMi4g6K6+572u55uu5b2V5p2D6ZmQ5Li6IDc3NyAo5a+5IFhwb3NlZCDmqKHlnZfoh7PlhbPph43opoHvvIzlkKbliJnlrr/kuLvor7vkuI3liLApCiAgICAgICAgc2V0V29ybGRSZWFkYWJsZVdyaXRhYmxlKGRpcikKCiAgICAgICAgc3RvcmFnZUZpbGUgPSBGaWxlKGRpciwgRklMRV9OQU1FKQoKICAgICAgICAvLyAzLiDnoa7kv53mlofku7blrZjlnKgKICAgICAgICBpZiAoIXN0b3JhZ2VGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBzdG9yYWdlRmlsZS5jcmVhdGVOZXdGaWxlKCkKICAgICAgICAgICAgICAgIC8vIOiuvue9ruaWh+S7tuadg+mZkCA2NjYKICAgICAgICAgICAgICAgIHNldFdvcmxkUmVhZGFibGVXcml0YWJsZShzdG9yYWdlRmlsZSkKICAgICAgICAgICAgICAgIC8vIOWGmeWFpeepuiBKU09OIOWvueixoe+8jOmBv+WFjeepuuaWh+S7tuWvvOiHtOino+aekOmUmeivrwogICAgICAgICAgICAgICAgc3RvcmFnZUZpbGUud3JpdGVUZXh0KCJ7fSIpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLmUoVEFHLCAiRmFpbGVkIHRvIGNyZWF0ZSBzdG9yYWdlIGZpbGUiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBsb2FkRnJvbURpc2soKQogICAgICAgIHN0YXJ0V2F0Y2hlck5pbygpCiAgICB9CgogICAgLyoqCiAgICAgKiDorr7nva7mlofku7Yv55uu5b2V5Li65YWo5bGA5Y+v6K+75YaZIChMaW51eCDmnYPpmZAgNzc3LzY2NikKICAgICAqIOi/meWcqCBYcG9zZWQg6Leo6L+b56iL6YCa5L+h5Lit6YCa5bi45piv5b+F6aG755qECiAgICAgKi8KICAgIEBTdXBwcmVzc0xpbnQoIlNldFdvcmxkUmVhZGFibGUiLCAiU2V0V29ybGRXcml0YWJsZSIpCiAgICBwcml2YXRlIGZ1biBzZXRXb3JsZFJlYWRhYmxlV3JpdGFibGUoZmlsZTogRmlsZSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGZpbGUuc2V0UmVhZGFibGUodHJ1ZSwgZmFsc2UpCiAgICAgICAgICAgIGZpbGUuc2V0V3JpdGFibGUodHJ1ZSwgZmFsc2UpCiAgICAgICAgICAgIGZpbGUuc2V0RXhlY3V0YWJsZSh0cnVlLCBmYWxzZSkgLy8g5a+555uu5b2V6ZyA6KaB5omn6KGM5p2D6ZmQCiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIOW/veeVpeafkOS6m+ezu+e7n+mZkOWItuWvvOiHtOeahOWksei0pQogICAgICAgIH0KICAgIH0KCiAgICBpbmxpbmUgZnVuIDxyZWlmaWVkIFQgOiBBbnk+IGdldE9yQ3JlYXRlKGtleTogU3RyaW5nKTogVCB7CiAgICAgICAgcmV0dXJuIGdldE9yQ3JlYXRlKGtleSwgb2JqZWN0IDogVHlwZVJlZmVyZW5jZTxUPigpIHt9KQogICAgfQoKICAgIGZ1biA8VD4gZ2V0KGtleTogU3RyaW5nLCBjbGF6ejogQ2xhc3M8VD4pOiBUPyA9IGxvY2sucmVhZCB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZGF0YVtrZXldPy5sZXQgeyBtYXBwZXIuY29udmVydFZhbHVlKGl0LCBjbGF6eikgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZShUQUcsICJFcnJvciBjb252ZXJ0aW5nIHZhbHVlIGZvciBrZXk6ICRrZXkiLCBlKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovCiAgICAvKiAg57G75Z6L5a6J5YWo6K+75Y+WICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKi8KICAgIC8qIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovCiAgICBmdW4gPFQgOiBBbnk+IGdldE9yQ3JlYXRlKGtleTogU3RyaW5nLCB0eXBlUmVmOiBUeXBlUmVmZXJlbmNlPFQ+KTogVCA9IGxvY2sud3JpdGUgewogICAgICAgIC8vIOWcqOWGmeWFpeWJje+8jOW8uuWItuS7juejgeebmOmHjeaWsOWKoOi9ve+8jOS7peiOt+WPluWFtuS7lui/m+eoi+eahOS/ruaUuQogICAgICAgIGZvcmNlTG9hZEZyb21EaXNrKCkKICAgICAgICAvLyAxLiDlsJ3or5Xku47lhoXlrZjojrflj5YKICAgICAgICBkYXRhW2tleV0/LmxldCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICByZXR1cm4gbWFwcGVyLmNvbnZlcnRWYWx1ZShpdCwgdHlwZVJlZikKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cudyhUQUcsICJEYXRhIG1pc21hdGNoIGZvciBrZXkgJGtleSwgb3ZlcndyaXRpbmcgd2l0aCBkZWZhdWx0LiIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIDIuIOWGheWtmOayoeacie+8jOWIm+W7uum7mOiupOWAvAogICAgICAgIHZhbCBkZWZhdWx0OiBUID0gY3JlYXRlRGVmYXVsdCh0eXBlUmVmKQogICAgICAgIGRhdGFba2V5XSA9IGRlZmF1bHQKCiAgICAgICAgLy8gMy4g5Y+q5pyJ5b2T56Gu5a6e5piv5paw5pWw5o2u5pe25omN5L+d5a2Y77yM6YG/5YWN6aKR57mBIElPCiAgICAgICAgc2F2ZVRvRGlzaygpCiAgICAgICAgZGVmYXVsdAogICAgfQoKICAgIEBTdXBwcmVzcygiVU5DSEVDS0VEX0NBU1QiKQogICAgcHJpdmF0ZSBmdW4gPFQ+IGNyZWF0ZURlZmF1bHQodHlwZVJlZjogVHlwZVJlZmVyZW5jZTxUPik6IFQgewogICAgICAgIHZhbCBqYXZhVHlwZSA9IG1hcHBlci50eXBlRmFjdG9yeS5jb25zdHJ1Y3RUeXBlKHR5cGVSZWYpCiAgICAgICAgcmV0dXJuIHdoZW4gKHZhbCByYXdDbGFzcyA9IGphdmFUeXBlLnJhd0NsYXNzKSB7CiAgICAgICAgICAgIExpc3Q6OmNsYXNzLmphdmEsIGphdmEudXRpbC5MaXN0OjpjbGFzcy5qYXZhIC0+IEFycmF5TGlzdDxBbnk+KCkgYXMgVAogICAgICAgICAgICBTZXQ6OmNsYXNzLmphdmEsIGphdmEudXRpbC5TZXQ6OmNsYXNzLmphdmEgLT4gTGlua2VkSGFzaFNldDxBbnk+KCkgYXMgVAogICAgICAgICAgICBNYXA6OmNsYXNzLmphdmEsIGphdmEudXRpbC5NYXA6OmNsYXNzLmphdmEgLT4gTGlua2VkSGFzaE1hcDxTdHJpbmcsIEFueT4oKSBhcyBUCiAgICAgICAgICAgIFN0cmluZzo6Y2xhc3MuamF2YSAtPiAiIiBhcyBUCiAgICAgICAgICAgIEJvb2xlYW46OmNsYXNzLmphdmEsIGphdmEubGFuZy5Cb29sZWFuOjpjbGFzcy5qYXZhIC0+IGZhbHNlIGFzIFQKICAgICAgICAgICAgSW50OjpjbGFzcy5qYXZhLCBJbnRlZ2VyOjpjbGFzcy5qYXZhIC0+IDAgYXMgVAogICAgICAgICAgICBMb25nOjpjbGFzcy5qYXZhLCBqYXZhLmxhbmcuTG9uZzo6Y2xhc3MuamF2YSAtPiAwTCBhcyBUCiAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAvLyDlsJ3or5Xml6Dlj4LmnoTpgKAKICAgICAgICAgICAgICAgICAgICByYXdDbGFzcy5nZXREZWNsYXJlZENvbnN0cnVjdG9yKCkubmV3SW5zdGFuY2UoKSBhcyBUCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBMb2cuZShUQUcsICJDYW5ub3QgY3JlYXRlIGRlZmF1bHQgaW5zdGFuY2UgZm9yICR7cmF3Q2xhc3Muc2ltcGxlTmFtZX0sIHJlbHlpbmcgb24gSmFja3NvbiBudWxsIGhhbmRsaW5nIG9yIGNyYXNoLiIpCiAgICAgICAgICAgICAgICAgICAgdGhyb3cgUnVudGltZUV4Y2VwdGlvbigiQ291bGQgbm90IGNyZWF0ZSBkZWZhdWx0IHZhbHVlIGZvciAke3Jhd0NsYXNzLm5hbWV9IiwgZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOW8uuWItuS7juejgeebmOWKoOi9veacgOaWsOaVsOaNruWIsOWGheWtmOOAggogICAgICog5Zyo5q+P5qyh5YaZ5YWl5pON5L2c77yIcHV0LCByZW1vdmUsIGdldE9yQ3JlYXRl77yJ5LmL5YmN6LCD55So77yM5Lul6Ziy5q2i5aSa6L+b56iL5Yay56qB44CCCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGZvcmNlTG9hZEZyb21EaXNrKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmICghOjpzdG9yYWdlRmlsZS5pc0luaXRpYWxpemVkIHx8ICFzdG9yYWdlRmlsZS5leGlzdHMoKSB8fCBzdG9yYWdlRmlsZS5sZW5ndGgoKSA9PSAwTCkgewogICAgICAgICAgICAgICAgLy8g5aaC5p6c5paH5Lu25LiN5a2Y5Zyo5oiW5Li656m677yM5oiR5Lus5YGH6K6+5YaF5a2Y5piv56m655qE44CCCiAgICAgICAgICAgICAgICBkYXRhLmNsZWFyKCkKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOS4jei/m+ihjOS7u+S9leaXtumXtOajgOafpe+8jOebtOaOpeivu+WPluaWh+S7tgogICAgICAgICAgICB2YWwgbG9hZGVkOiBNYXA8U3RyaW5nLCBBbnk+ID0gbWFwcGVyLnJlYWRWYWx1ZShzdG9yYWdlRmlsZSkKICAgICAgICAgICAgZGF0YS5jbGVhcigpCiAgICAgICAgICAgIGRhdGEucHV0QWxsKGxvYWRlZCkKICAgICAgICAgICAgLy8g5pu05paw5Yqg6L295pe26Ze05oiz77yM6L+Z5qC35paH5Lu255uR5o6n55qEIGxvYWRGcm9tRGlzayDlsLHkuI3kvJrlm6DmiJHku6zoh6rlt7HnmoTlhpnlhaXogIzph43lpI3liqDovb0KICAgICAgICAgICAgbGFzdExvYWRlZFRpbWUuc2V0KHN0b3JhZ2VGaWxlLmxhc3RNb2RpZmllZCgpKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAvLyDlpoLmnpzmlofku7bmraPlnKjooqvlj6bkuIDkuKrov5vnqIvlhpnlhaXvvIzlj6/og73kvJrlr7zoh7Top6PmnpDlvILluLjvvIzov5nph4zmiJHku6zpgInmi6nlv73nlaXvvIwKICAgICAgICAgICAgLy8g5Zyo5LiL5LiA5Liq5YaZ5YWl5ZGo5pyf77yM5pWw5o2u5Lya6KKr5ZCM5q2l44CCCiAgICAgICAgICAgIGlmIChlICFpcyBNaXNtYXRjaGVkSW5wdXRFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy53KFRBRywgIkZvcmNlIGxvYWQgZnJvbSBkaXNrIGZhaWxlZDogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBsb2FkRnJvbURpc2soKSB7CiAgICAgICAgaWYgKCE6OnN0b3JhZ2VGaWxlLmlzSW5pdGlhbGl6ZWQgfHwgIXN0b3JhZ2VGaWxlLmV4aXN0cygpKSByZXR1cm4KCiAgICAgICAgLy8g5qOA5p+l5paH5Lu25L+u5pS55pe26Ze077yM6Ziy5q2i6YeN5aSN5Yqg6L29CiAgICAgICAgdmFsIGN1cnJlbnRNb2RUaW1lID0gc3RvcmFnZUZpbGUubGFzdE1vZGlmaWVkKCkKICAgICAgICBpZiAoY3VycmVudE1vZFRpbWUgPD0gbGFzdExvYWRlZFRpbWUuZ2V0KCkpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICAvLyDlpoLmnpzmlofku7bkv67mlLnml7bpl7TpnZ7luLjmjqXov5HmiJHku6zmnIDlkI7kuIDmrKHlhpnlhaXnmoTml7bpl7TvvIg8IDUwMG1z77yJ77yM6K+05piO5piv5oiR5Lus6Ieq5bex5YaZ55qE77yM5b+955WlCiAgICAgICAgaWYgKGFicyhjdXJyZW50TW9kVGltZSAtIGxhc3RXcml0ZVRpbWUuZ2V0KCkpIDwgNTAwKSB7CiAgICAgICAgICAgIGxhc3RMb2FkZWRUaW1lLnNldChjdXJyZW50TW9kVGltZSkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBsb2NrLndyaXRlIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOWPjOmHjeajgOafpe+8jOmYsuatouWcqOetieW+hemUgeeahOi/h+eoi+S4reaWh+S7tuWPiOiiq+aUueS6hgogICAgICAgICAgICAgICAgaWYgKHN0b3JhZ2VGaWxlLmxlbmd0aCgpID09IDBMKSByZXR1cm5Ad3JpdGUKCiAgICAgICAgICAgICAgICB2YWwgbG9hZGVkOiBNYXA8U3RyaW5nLCBBbnk+ID0gbWFwcGVyLnJlYWRWYWx1ZShzdG9yYWdlRmlsZSkKICAgICAgICAgICAgICAgIGRhdGEuY2xlYXIoKQogICAgICAgICAgICAgICAgZGF0YS5wdXRBbGwobG9hZGVkKQoKICAgICAgICAgICAgICAgIGxhc3RMb2FkZWRUaW1lLnNldChjdXJyZW50TW9kVGltZSkKCiAgICAgICAgICAgICAgICAvLyDpgJrnn6Xnm5HlkKzlmagKICAgICAgICAgICAgICAgIG9uQ2hhbmdlTGlzdGVuZXI/Lmludm9rZSgpCgogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIC8vIOS7heiusOW9leS4pemHjemUmeivr++8jOW/veeVpeaWh+S7tuiiq+WNoOeUqOWvvOiHtOeahOS4tOaXtumUmeivrwogICAgICAgICAgICAgICAgaWYgKGUgIWlzIE1pc21hdGNoZWRJbnB1dEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIExvZy53KFRBRywgIkZhaWxlZCB0byBsb2FkIGNvbmZpZzogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZhbCBwcmV0dHlQcmludGVyID0gRGVmYXVsdFByZXR0eVByaW50ZXIoKS5hcHBseSB7CiAgICAgICAgaW5kZW50QXJyYXlzV2l0aChEZWZhdWx0SW5kZW50ZXIuU1lTVEVNX0xJTkVGRUVEX0lOU1RBTkNFKQogICAgICAgIGluZGVudE9iamVjdHNXaXRoKERlZmF1bHRJbmRlbnRlcigiICAgICIsIERlZmF1bHRJbmRlbnRlci5TWVNfTEYpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNhdmVUb0Rpc2soKSB7CiAgICAgICAgaWYgKCE6OnN0b3JhZ2VGaWxlLmlzSW5pdGlhbGl6ZWQpIHJldHVybgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCB0ZW1wRmlsZSA9IEZpbGUoc3RvcmFnZUZpbGUucGFyZW50RmlsZSwgc3RvcmFnZUZpbGUubmFtZSArICIudG1wIikKICAgICAgICAgICAgLy8gMS4g5YaZ5YWl5Li05pe25paH5Lu2CiAgICAgICAgICAgIG1hcHBlci53cml0ZXIocHJldHR5UHJpbnRlcikud3JpdGVWYWx1ZSh0ZW1wRmlsZSwgZGF0YSkKICAgICAgICAgICAgLy8gMi4g6K6+572u5Li05pe25paH5Lu25p2D6ZmQICjlhbPplK7vvJrnoa7kv50gLnRtcCDkuZ/mmK8gNjY2KQogICAgICAgICAgICBzZXRXb3JsZFJlYWRhYmxlV3JpdGFibGUodGVtcEZpbGUpCiAgICAgICAgICAgIC8vIDMuIOiusOW9leWGmeWFpeaXtumXtAogICAgICAgICAgICBsYXN0V3JpdGVUaW1lLnNldChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKICAgICAgICAgICAgLy8gNC4g5bCd6K+V5Y6f5a2Q6YeN5ZG95ZCNIChBdG9taWMgUmVuYW1lKQogICAgICAgICAgICB2YXIgcmVuYW1lU3VjY2VzcyA9IHRlbXBGaWxlLnJlbmFtZVRvKHN0b3JhZ2VGaWxlKQogICAgICAgICAgICAvLyA1LiDlpoLmnpzph43lkb3lkI3lpLHotKUgKOW4uOingeS6juebruagh+aWh+S7tuW3suWtmOWcqOaIluS4jeWQjOaMgui9veeCuSkKICAgICAgICAgICAgaWYgKCFyZW5hbWVTdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAvLyDlsJ3or5XlhYjliKDpmaTml6fmlofku7YKICAgICAgICAgICAgICAgIGlmIChzdG9yYWdlRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgICAgIHN0b3JhZ2VGaWxlLmRlbGV0ZSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyDlho3mrKHlsJ3or5Xph43lkb3lkI0KICAgICAgICAgICAgICAgIHJlbmFtZVN1Y2Nlc3MgPSB0ZW1wRmlsZS5yZW5hbWVUbyhzdG9yYWdlRmlsZSkKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyA2LiDlpoLmnpzkvp3nhLblpLHotKXvvIzkvb/nlKjmtYHlpI3liLYgKENvcHkgU3RyZWFtKSDkvZzkuLrmnIDnu4jmiYvmrrUKICAgICAgICAgICAgaWYgKCFyZW5hbWVTdWNjZXNzKSB7CiAgICAgICAgICAgICAgICBMb2cudyhUQUcsICJyZW5hbWVUbyBmYWlsZWQsIGZhbGxpbmcgYmFjayB0byBjb3B5IHN0cmVhbS4iKQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAvLyDlvLrliLblpI3liLblhoXlrrkKICAgICAgICAgICAgICAgICAgICB0ZW1wRmlsZS5jb3B5VG8oc3RvcmFnZUZpbGUsIG92ZXJ3cml0ZSA9IHRydWUpCiAgICAgICAgICAgICAgICAgICAgLy8g5aSN5Yi25oiQ5Yqf5ZCO5Yig6Zmk5Li05pe25paH5Lu2CiAgICAgICAgICAgICAgICAgICAgdGVtcEZpbGUuZGVsZXRlKCkKICAgICAgICAgICAgICAgICAgICByZW5hbWVTdWNjZXNzID0gdHJ1ZQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmUoVEFHLCAiRmFpbGVkIHRvIGNvcHkgdGVtcCBmaWxlIHRvIHN0b3JhZ2UgZmlsZSIsIGUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHJlbmFtZVN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgIC8vIDcuIOWGjeasoeehruS/neacgOe7iOaWh+S7tueahOadg+mZkCAo6Ziy5q2iIGNvcHkg5ZCO5p2D6ZmQ5Lii5aSxKQogICAgICAgICAgICAgICAgc2V0V29ybGRSZWFkYWJsZVdyaXRhYmxlKHN0b3JhZ2VGaWxlKQoKICAgICAgICAgICAgICAgIC8vIOabtOaWsOWKoOi9veaXtumXtO+8jOmBv+WFjSBXYXRjaGVyIOWGjeasoeinpuWPkeWKoOi9vQogICAgICAgICAgICAgICAgbGFzdExvYWRlZFRpbWUuc2V0KHN0b3JhZ2VGaWxlLmxhc3RNb2RpZmllZCgpKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lKFRBRywgIkZhaWxlZCB0byBzYXZlIGNvbmZpZyIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzdGFydFdhdGNoZXJOaW8oKSA9IHRocmVhZChuYW1lID0gIlNlc2FtZUNvbmZpZ1dhdGNoZXIiLCBpc0RhZW1vbiA9IHRydWUpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoITo6c3RvcmFnZUZpbGUuaXNJbml0aWFsaXplZCkgcmV0dXJuQHRocmVhZAoKICAgICAgICAgICAgdmFsIHBhdGggPSBzdG9yYWdlRmlsZS50b1BhdGgoKS5wYXJlbnQgPzogcmV0dXJuQHRocmVhZAogICAgICAgICAgICB2YWwgd2F0Y2hTZXJ2aWNlID0gcGF0aC5maWxlU3lzdGVtLm5ld1dhdGNoU2VydmljZSgpCiAgICAgICAgICAgIHBhdGgucmVnaXN0ZXIod2F0Y2hTZXJ2aWNlLCBTdGFuZGFyZFdhdGNoRXZlbnRLaW5kcy5FTlRSWV9NT0RJRlkpCgogICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgdmFsIGtleSA9IHRyeSB7CiAgICAgICAgICAgICAgICAgICAgd2F0Y2hTZXJ2aWNlLnRha2UoKQogICAgICAgICAgICAgICAgfSBjYXRjaCAoXzogSW50ZXJydXB0ZWRFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhciBzaG91bGRSZWxvYWQgPSBmYWxzZQogICAgICAgICAgICAgICAga2V5LnBvbGxFdmVudHMoKS5mb3JFYWNoIHsgZXZlbnQgLT4KICAgICAgICAgICAgICAgICAgICAvLyDlronlhajovazmjaIgY29udGV4dAogICAgICAgICAgICAgICAgICAgIHZhbCBjaGFuZ2VkUGF0aCA9IGV2ZW50LmNvbnRleHQoKSBhcz8gUGF0aAogICAgICAgICAgICAgICAgICAgIHZhbCBmaWxlTmFtZSA9IGNoYW5nZWRQYXRoPy50b1N0cmluZygpCgogICAgICAgICAgICAgICAgICAgIGlmIChmaWxlTmFtZSA9PSBzdG9yYWdlRmlsZS5uYW1lKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNob3VsZFJlbG9hZCA9IHRydWUKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKHNob3VsZFJlbG9hZCkgewogICAgICAgICAgICAgICAgICAgIC8vIOeojeW+ruW7tui/n+S4gOS4i++8jOetieW+heaWh+S7tuWGmeWFpeWujOaIkAogICAgICAgICAgICAgICAgICAgIFRocmVhZC5zbGVlcCgxMDApCiAgICAgICAgICAgICAgICAgICAgbG9hZEZyb21EaXNrKCkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiAoIWtleS5yZXNldCgpKSB7CiAgICAgICAgICAgICAgICAgICAgYnJlYWsgLy8g55uu5b2V5LiN5Y+v6K6/6Zeu77yM6YCA5Ye65b6q546vCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLmUoVEFHLCAiRmlsZSB3YXRjaGVyIGRpZWQiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcHV0KGtleTogU3RyaW5nLCB2YWx1ZTogQW55KSA9IGxvY2sud3JpdGUgewogICAgICAgIC8vIOWcqOWGmeWFpeWJje+8jOW8uuWItuS7juejgeebmOmHjeaWsOWKoOi9ve+8jOS7peiOt+WPluWFtuS7lui/m+eoi+eahOS/ruaUuQogICAgICAgIGZvcmNlTG9hZEZyb21EaXNrKCkKICAgICAgICBkYXRhW2tleV0gPSB2YWx1ZQogICAgICAgIHNhdmVUb0Rpc2soKQogICAgfQoKICAgIGZ1biByZW1vdmUoa2V5OiBTdHJpbmcpID0gbG9jay53cml0ZSB7CiAgICAgICAgLy8g5Zyo5YaZ5YWl5YmN77yM5by65Yi25LuO56OB55uY6YeN5paw5Yqg6L2977yM5Lul6I635Y+W5YW25LuW6L+b56iL55qE5L+u5pS5CiAgICAgICAgZm9yY2VMb2FkRnJvbURpc2soKQogICAgICAgIGRhdGEucmVtb3ZlKGtleSkKICAgICAgICBzYXZlVG9EaXNrKCkKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.util
+
+import android.annotation.SuppressLint
+import android.util.Log
+import com.fasterxml.jackson.core.type.TypeReference
+import com.fasterxml.jackson.core.util.DefaultIndenter
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter
+import com.fasterxml.jackson.databind.DeserializationFeature
+import com.fasterxml.jackson.databind.exc.MismatchedInputException
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import com.fasterxml.jackson.module.kotlin.readValue
+import java.io.File
+import java.nio.file.Path
+import java.nio.file.StandardWatchEventKinds
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.atomic.AtomicLong
+import java.util.concurrent.locks.ReentrantReadWriteLock
+import kotlin.concurrent.read
+import kotlin.concurrent.thread
+import kotlin.concurrent.write
+import kotlin.math.abs
+
+object DataStore {
+    private const val TAG = "DataStore"
+    private const val FILE_NAME = "DataStore.json"
+
+    // 配置 Jackson：忽略未知的属性，防止版本升级导致崩溃
+    private val mapper = jacksonObjectMapper().apply {
+        configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+    }
+
+    private val data = ConcurrentHashMap<String, Any>()
+    private val lock = ReentrantReadWriteLock()
+    private lateinit var storageFile: File
+
+    // 用于防抖：记录最后一次加载的文件修改时间
+    private val lastLoadedTime = AtomicLong(0)
+    // 用于防抖：记录最后一次写入的时间，避免自己写文件触发自己的监听
+    private val lastWriteTime = AtomicLong(0)
+
+    private var onChangeListener: (() -> Unit)? = null
+
+    fun setOnChangeListener(listener: () -> Unit) {
+        onChangeListener = listener
+    }
+
+    /**
+     * 初始化 DataStore
+     * @param dir 存储目录
+     */
+    fun init(dir: File) {
+        // 1. 确保目录存在 (修复崩溃的核心)
+        if (!dir.exists()) {
+            if (!dir.mkdirs()) {
+                Log.e(TAG, "Failed to create directory: ${dir.absolutePath}")
+                // 如果是 Xposed 环境，这里可能因为权限不足失败，但我们尝试继续
+            }
+        }
+
+        // 2. 设置目录权限为 777 (对 Xposed 模块至关重要，否则宿主读不到)
+        setWorldReadableWritable(dir)
+
+        storageFile = File(dir, FILE_NAME)
+
+        // 3. 确保文件存在
+        if (!storageFile.exists()) {
+            try {
+                storageFile.createNewFile()
+                // 设置文件权限 666
+                setWorldReadableWritable(storageFile)
+                // 写入空 JSON 对象，避免空文件导致解析错误
+                storageFile.writeText("{}")
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to create storage file", e)
+            }
+        }
+
+        loadFromDisk()
+        startWatcherNio()
+    }
+
+    /**
+     * 设置文件/目录为全局可读写 (Linux 权限 777/666)
+     * 这在 Xposed 跨进程通信中通常是必须的
+     */
+    @SuppressLint("SetWorldReadable", "SetWorldWritable")
+    private fun setWorldReadableWritable(file: File) {
+        try {
+            file.setReadable(true, false)
+            file.setWritable(true, false)
+            file.setExecutable(true, false) // 对目录需要执行权限
+        } catch (_: Exception) {
+            // 忽略某些系统限制导致的失败
+        }
+    }
+
+    inline fun <reified T : Any> getOrCreate(key: String): T {
+        return getOrCreate(key, object : TypeReference<T>() {})
+    }
+
+    fun <T> get(key: String, clazz: Class<T>): T? = lock.read {
+        try {
+            data[key]?.let { mapper.convertValue(it, clazz) }
+        } catch (e: Exception) {
+            Log.e(TAG, "Error converting value for key: $key", e)
+            null
+        }
+    }
+
+    /* -------------------------------------------------- */
+    /*  类型安全读取                                       */
+    /* -------------------------------------------------- */
+    fun <T : Any> getOrCreate(key: String, typeRef: TypeReference<T>): T = lock.write {
+        // 在写入前，强制从磁盘重新加载，以获取其他进程的修改
+        forceLoadFromDisk()
+        // 1. 尝试从内存获取
+        data[key]?.let {
+            try {
+                return mapper.convertValue(it, typeRef)
+            } catch (e: Exception) {
+                Log.w(TAG, "Data mismatch for key $key, overwriting with default.", e)
+            }
+        }
+
+        // 2. 内存没有，创建默认值
+        val default: T = createDefault(typeRef)
+        data[key] = default
+
+        // 3. 只有当确实是新数据时才保存，避免频繁 IO
+        saveToDisk()
+        default
+    }
+
+    @Suppress("UNCHECKED_CAST")
+    private fun <T> createDefault(typeRef: TypeReference<T>): T {
+        val javaType = mapper.typeFactory.constructType(typeRef)
+        return when (val rawClass = javaType.rawClass) {
+            List::class.java, java.util.List::class.java -> ArrayList<Any>() as T
+            Set::class.java, java.util.Set::class.java -> LinkedHashSet<Any>() as T
+            Map::class.java, java.util.Map::class.java -> LinkedHashMap<String, Any>() as T
+            String::class.java -> "" as T
+            Boolean::class.java, java.lang.Boolean::class.java -> false as T
+            Int::class.java, Integer::class.java -> 0 as T
+            Long::class.java, java.lang.Long::class.java -> 0L as T
+            else -> {
+                try {
+                    // 尝试无参构造
+                    rawClass.getDeclaredConstructor().newInstance() as T
+                } catch (e: Exception) {
+                    Log.e(TAG, "Cannot create default instance for ${rawClass.simpleName}, relying on Jackson null handling or crash.")
+                    throw RuntimeException("Could not create default value for ${rawClass.name}", e)
+                }
+            }
+        }
+    }
+
+    /**
+     * 强制从磁盘加载最新数据到内存。
+     * 在每次写入操作（put, remove, getOrCreate）之前调用，以防止多进程冲突。
+     */
+    private fun forceLoadFromDisk() {
+        try {
+            if (!::storageFile.isInitialized || !storageFile.exists() || storageFile.length() == 0L) {
+                // 如果文件不存在或为空，我们假设内存是空的。
+                data.clear()
+                return
+            }
+            // 不进行任何时间检查，直接读取文件
+            val loaded: Map<String, Any> = mapper.readValue(storageFile)
+            data.clear()
+            data.putAll(loaded)
+            // 更新加载时间戳，这样文件监控的 loadFromDisk 就不会因我们自己的写入而重复加载
+            lastLoadedTime.set(storageFile.lastModified())
+        } catch (e: Exception) {
+            // 如果文件正在被另一个进程写入，可能会导致解析异常，这里我们选择忽略，
+            // 在下一个写入周期，数据会被同步。
+            if (e !is MismatchedInputException) {
+                Log.w(TAG, "Force load from disk failed: ${e.message}")
+            }
+        }
+    }
+
+    private fun loadFromDisk() {
+        if (!::storageFile.isInitialized || !storageFile.exists()) return
+
+        // 检查文件修改时间，防止重复加载
+        val currentModTime = storageFile.lastModified()
+        if (currentModTime <= lastLoadedTime.get()) {
+            return
+        }
+
+        // 如果文件修改时间非常接近我们最后一次写入的时间（< 500ms），说明是我们自己写的，忽略
+        if (abs(currentModTime - lastWriteTime.get()) < 500) {
+            lastLoadedTime.set(currentModTime)
+            return
+        }
+
+        lock.write {
+            try {
+                // 双重检查，防止在等待锁的过程中文件又被改了
+                if (storageFile.length() == 0L) return@write
+
+                val loaded: Map<String, Any> = mapper.readValue(storageFile)
+                data.clear()
+                data.putAll(loaded)
+
+                lastLoadedTime.set(currentModTime)
+
+                // 通知监听器
+                onChangeListener?.invoke()
+
+            } catch (e: Exception) {
+                // 仅记录严重错误，忽略文件被占用导致的临时错误
+                if (e !is MismatchedInputException) {
+                    Log.w(TAG, "Failed to load config: ${e.message}")
+                }
+            }
+        }
+    }
+
+    private val prettyPrinter = DefaultPrettyPrinter().apply {
+        indentArraysWith(DefaultIndenter.SYSTEM_LINEFEED_INSTANCE)
+        indentObjectsWith(DefaultIndenter("    ", DefaultIndenter.SYS_LF))
+    }
+
+    private fun saveToDisk() {
+        if (!::storageFile.isInitialized) return
+        try {
+            val tempFile = File(storageFile.parentFile, storageFile.name + ".tmp")
+            // 1. 写入临时文件
+            mapper.writer(prettyPrinter).writeValue(tempFile, data)
+            // 2. 设置临时文件权限 (关键：确保 .tmp 也是 666)
+            setWorldReadableWritable(tempFile)
+            // 3. 记录写入时间
+            lastWriteTime.set(System.currentTimeMillis())
+            // 4. 尝试原子重命名 (Atomic Rename)
+            var renameSuccess = tempFile.renameTo(storageFile)
+            // 5. 如果重命名失败 (常见于目标文件已存在或不同挂载点)
+            if (!renameSuccess) {
+                // 尝试先删除旧文件
+                if (storageFile.exists()) {
+                    storageFile.delete()
+                }
+                // 再次尝试重命名
+                renameSuccess = tempFile.renameTo(storageFile)
+            }
+            // 6. 如果依然失败，使用流复制 (Copy Stream) 作为最终手段
+            if (!renameSuccess) {
+                Log.w(TAG, "renameTo failed, falling back to copy stream.")
+                try {
+                    // 强制复制内容
+                    tempFile.copyTo(storageFile, overwrite = true)
+                    // 复制成功后删除临时文件
+                    tempFile.delete()
+                    renameSuccess = true
+                } catch (e: Exception) {
+                    Log.e(TAG, "Failed to copy temp file to storage file", e)
+                }
+            }
+            if (renameSuccess) {
+                // 7. 再次确保最终文件的权限 (防止 copy 后权限丢失)
+                setWorldReadableWritable(storageFile)
+
+                // 更新加载时间，避免 Watcher 再次触发加载
+                lastLoadedTime.set(storageFile.lastModified())
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to save config", e)
+        }
+    }
+
+    fun startWatcherNio() = thread(name = "SesameConfigWatcher", isDaemon = true) {
+        try {
+            if (!::storageFile.isInitialized) return@thread
+
+            val path = storageFile.toPath().parent ?: return@thread
+            val watchService = path.fileSystem.newWatchService()
+            path.register(watchService, StandardWatchEventKinds.ENTRY_MODIFY)
+
+            while (true) {
+                val key = try {
+                    watchService.take()
+                } catch (_: InterruptedException) {
+                    break
+                }
+
+                var shouldReload = false
+                key.pollEvents().forEach { event ->
+                    // 安全转换 context
+                    val changedPath = event.context() as? Path
+                    val fileName = changedPath?.toString()
+
+                    if (fileName == storageFile.name) {
+                        shouldReload = true
+                    }
+                }
+
+                if (shouldReload) {
+                    // 稍微延迟一下，等待文件写入完成
+                    Thread.sleep(100)
+                    loadFromDisk()
+                }
+
+                if (!key.reset()) {
+                    break // 目录不可访问，退出循环
+                }
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "File watcher died", e)
+        }
+    }
+
+    fun put(key: String, value: Any) = lock.write {
+        // 在写入前，强制从磁盘重新加载，以获取其他进程的修改
+        forceLoadFromDisk()
+        data[key] = value
+        saveToDisk()
+    }
+
+    fun remove(key: String) = lock.write {
+        // 在写入前，强制从磁盘重新加载，以获取其他进程的修改
+        forceLoadFromDisk()
+        data.remove(key)
+        saveToDisk()
+    }
+}

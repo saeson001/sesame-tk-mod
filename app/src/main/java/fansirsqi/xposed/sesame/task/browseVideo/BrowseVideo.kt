@@ -1,1 +1,143 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmJyb3dzZVZpZGVvCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxGaWVsZHMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsR3JvdXAKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuQm9vbGVhbk1vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLm1vZGVsRmllbGRFeHQuSW50ZWdlck1vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suTW9kZWxUYXNrCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5SYW5kb21VdGlsCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlJlc0NoZWNrZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqCiAqIOmmlumhteinhumikee6ouWMhSDigJQg55yL6KeG6aKR6aKG546w6YeRCiAqIOS8mOWFiOS9v+eUqCBBbnRGYXJtIOW3sumqjOivgea1geeoi++8jGZhbGxiYWNrIOWwneivleWFtuS7lgogKi8KY2xhc3MgQnJvd3NlVmlkZW8gOiBNb2RlbFRhc2soKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkJyb3dzZVZpZGVvIgogICAgICAgIGNvbnN0IHZhbCBNT0RVTEVfTkFNRSA9ICLop4bpopHnuqLljIUiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVkVSU0lPTiA9ICIwLjEuMjYwMTE2MTQ0NC40NyIKCiAgICAgICAgQFZvbGF0aWxlIHZhciBpbnN0YW5jZTogQnJvd3NlVmlkZW8/ID0gbnVsbAogICAgfQoKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHZpZGVvQXV0b0Jyb3dzZTogQm9vbGVhbk1vZGVsRmllbGQKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHZpZGVvTWF4Q291bnQ6IEludGVnZXJNb2RlbEZpZWxkCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciB2aWRlb0Jyb3dzZUR1cmF0aW9uOiBJbnRlZ2VyTW9kZWxGaWVsZAogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgdmlkZW9BdXRvU2lnbkluOiBCb29sZWFuTW9kZWxGaWVsZAoKICAgIG92ZXJyaWRlIGZ1biBnZXROYW1lKCkgPSBNT0RVTEVfTkFNRQogICAgb3ZlcnJpZGUgZnVuIGdldEdyb3VwKCkgPSBNb2RlbEdyb3VwLk9USEVSCiAgICBvdmVycmlkZSBmdW4gZ2V0SWNvbigpID0gIkRlZmF1bHQucG5nIgoKICAgIG92ZXJyaWRlIGZ1biBnZXRGaWVsZHMoKSA9IE1vZGVsRmllbGRzKCkuYXBwbHkgewogICAgICAgIGFkZEZpZWxkKEJvb2xlYW5Nb2RlbEZpZWxkKCJ2aWRlb0F1dG9Ccm93c2UiLCAi6KeG6aKR57qi5YyFIHwg6Ieq5Yqo5rWP6KeIIiwgdHJ1ZSkuYWxzbyB7IHZpZGVvQXV0b0Jyb3dzZSA9IGl0IH0pCiAgICAgICAgYWRkRmllbGQoSW50ZWdlck1vZGVsRmllbGQoInZpZGVvTWF4Q291bnQiLCAi6KeG6aKR57qi5YyFIHwg5q+P5pel5pyA5aSn5qyh5pWwIiwgMTAsIDEsIDUwKS5hbHNvIHsgdmlkZW9NYXhDb3VudCA9IGl0IH0pCiAgICAgICAgYWRkRmllbGQoSW50ZWdlck1vZGVsRmllbGQoInZpZGVvQnJvd3NlRHVyYXRpb24iLCAi6KeG6aKR57qi5YyFIHwg5qih5ouf5rWP6KeI5pe26ZW/KOenkikiLCAxNSwgMTAsIDYwKS5hbHNvIHsgdmlkZW9Ccm93c2VEdXJhdGlvbiA9IGl0IH0pCiAgICAgICAgYWRkRmllbGQoQm9vbGVhbk1vZGVsRmllbGQoInZpZGVvQXV0b1NpZ25JbiIsICLop4bpopHnuqLljIUgfCDpobrkvr/nrb7liLAiLCB0cnVlKS5hbHNvIHsgdmlkZW9BdXRvU2lnbkluID0gaXQgfSkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gcHJlcGFyZSgpIHsgaW5zdGFuY2UgPSB0aGlzIH0KICAgIG92ZXJyaWRlIGZ1biBib290KGNsYXp6OiBDbGFzc0xvYWRlcj8pIHsgc3VwZXIuYm9vdChjbGF6eikgfQogICAgb3ZlcnJpZGUgZnVuIGRlc3Ryb3koKSB7IGluc3RhbmNlID0gbnVsbDsgc3VwZXIuZGVzdHJveSgpIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBydW5TdXNwZW5kKCkgewogICAgICAgIGlmICghdmlkZW9BdXRvQnJvd3NlLnZhbHVlKSByZXR1cm4KCiAgICAgICAgdmFsIG1heENvdW50ID0gdmlkZW9NYXhDb3VudC52YWx1ZQogICAgICAgIHZhbCBkdXJhdGlvbiA9IHZpZGVvQnJvd3NlRHVyYXRpb24udmFsdWUKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuW8gOWni+inhumikee6ouWMheS7u+WKoe+8jOebruaghyAkbWF4Q291bnQg5qyh77yM5pe26ZW/ICR7ZHVyYXRpb25956eSIikKCiAgICAgICAgdmFyIHN1Y2Nlc3MgPSAwOyB2YXIgZmFpbCA9IDAKCiAgICAgICAgLy8g5pa55qGIQTog6YCa6L+HIEFudEZhcm0gbGlzdEZhcm1UYXNrICsgZG9GYXJtVGFzayDmtYHnqIvvvIjlt7Lpqozor4Hlj6/ooYzvvIkKICAgICAgICB2YWwgZmFybVJlc3VsdCA9IEJyb3dzZVZpZGVvUnBjQ2FsbC5saXN0RmFybVRhc2soVkVSU0lPTikKICAgICAgICB2YWwgZmFybVRhc2tzID0gdHJ5IHsgSlNPTk9iamVjdChmYXJtUmVzdWx0KS5vcHRKU09OQXJyYXkoInRhc2tJbmZvTGlzdCIpIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgeyBudWxsIH0KCiAgICAgICAgaWYgKGZhcm1UYXNrcyAhPSBudWxsICYmIGZhcm1UYXNrcy5sZW5ndGgoKSA+IDApIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLmlrnmoYhBOiBBbnRGYXJtIOS7u+WKoSAke2Zhcm1UYXNrcy5sZW5ndGgoKX0g5LiqIikKICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgZmFybVRhc2tzLmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICBpZiAoc3VjY2VzcyA+PSBtYXhDb3VudCkgYnJlYWsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHQgPSBmYXJtVGFza3MuZ2V0SlNPTk9iamVjdChpKQogICAgICAgICAgICAgICAgICAgIHZhbCBiaXpLZXkgPSB0Lm9wdFN0cmluZygiYml6S2V5IiwgIiIpCiAgICAgICAgICAgICAgICAgICAgdmFsIHRpdGxlID0gdC5vcHRTdHJpbmcoInRpdGxlIiwgYml6S2V5KQogICAgICAgICAgICAgICAgICAgIC8vIOWPquWkhOeQhuinhumikeexuwogICAgICAgICAgICAgICAgICAgIGlmICghYml6S2V5LmNvbnRhaW5zKCJWSURFTyIsIHRydWUpICYmICF0aXRsZS5jb250YWlucygi6KeG6aKRIikpIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgZGVsYXkoUmFuZG9tVXRpbC5uZXh0TG9uZygyMDAwLCA1MDAwKSkKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIlske3N1Y2Nlc3MgKyAxfV0gJHRpdGxlIikKCiAgICAgICAgICAgICAgICAgICAgdmFsIGRvUmVzdWx0ID0gQnJvd3NlVmlkZW9ScGNDYWxsLmRvRmFybVRhc2soYml6S2V5LCBWRVJTSU9OKQogICAgICAgICAgICAgICAgICAgIHZhbCBkb0pzb24gPSB0cnkgeyBKU09OT2JqZWN0KGRvUmVzdWx0KSB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsgbnVsbCB9CiAgICAgICAgICAgICAgICAgICAgdmFsIHZpZGVvVXJsID0gZG9Kc29uPy5vcHRTdHJpbmcoInZpZGVvVXJsIiwgIiIpID86ICIiCiAgICAgICAgICAgICAgICAgICAgaWYgKHZpZGVvVXJsLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29udGVudElkID0gZXh0cmFjdENvbnRlbnRJZCh2aWRlb1VybCkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNvbnRlbnRJZC5pc05vdEVtcHR5KCkgJiYgUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIEpTT05PYmplY3QoQnJvd3NlVmlkZW9ScGNDYWxsLnZpZGVvRGVsaXZlck1vZHVsZShjb250ZW50SWQpKSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlbGF5KGR1cmF0aW9uICogMTAwMEwpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIEpTT05PYmplY3QoQnJvd3NlVmlkZW9ScGNDYWxsLnZpZGVvVHJpZ2dlcihjb250ZW50SWQpKSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzKys7IExvZy5vdGhlcihUQUcsICLop4bpopHlrozmiJDwn6enWyR0aXRsZV0iKTsgY29udGludWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBmYWlsKys7IExvZy5yZWNvcmQoVEFHLCAi5pa55qGIQeWksei0pVskdGl0bGVdIikKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGNlOiBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7IHRocm93IGNlCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsgZmFpbCsrOyBMb2cucmVjb3JkKFRBRywgIuW8guW4uDogJHtlLm1lc3NhZ2V9IikgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyDmlrnmoYhCOiDlsJ3or5UgY29udGVudC5pbnRlcmFjdCDop4bpopHnuqLljIXvvIjnrb7liLAr5YiG5Lqr5Y+v55u05o6l5a6M5oiQ77yJCiAgICAgICAgaWYgKHN1Y2Nlc3MgPCBtYXhDb3VudCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGludGVyYWN0UmVzdWx0ID0gQnJvd3NlVmlkZW9ScGNDYWxsLnF1ZXJ5SW50ZXJhY3RUYXNrKCkKICAgICAgICAgICAgICAgIHZhbCBqc29uID0gdHJ5IHsgSlNPTk9iamVjdChpbnRlcmFjdFJlc3VsdCkgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7IG51bGwgfQogICAgICAgICAgICAgICAgaWYgKGpzb24/Lm9wdEJvb2xlYW4oInN1Y2Nlc3MiKSA9PSB0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgLy8g562+5YiwCiAgICAgICAgICAgICAgICAgICAgaWYgKHZpZGVvQXV0b1NpZ25Jbi52YWx1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgc2lnblJlc3VsdCA9IEJyb3dzZVZpZGVvUnBjQ2FsbC5zaWduSW4oKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoSlNPTk9iamVjdChzaWduUmVzdWx0KS5vcHRCb29sZWFuKCJzdWNjZXNzIikpIExvZy5vdGhlcihUQUcsICLnrb7liLDinIUiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB2YWwgdGFza3MgPSBqc29uLm9wdEpTT05BcnJheSgidGFza0xpc3QiKQogICAgICAgICAgICAgICAgICAgIGlmICh0YXNrcyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5pa55qGIQjog5YaF5a655LqS5Yqo5Lu75YqhICR7dGFza3MubGVuZ3RoKCl9IOS4qiIpCiAgICAgICAgICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIHRhc2tzLmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoc3VjY2VzcyA+PSBtYXhDb3VudCkgYnJlYWsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB0ID0gdGFza3MuZ2V0SlNPTk9iamVjdChpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHRhc2tUeXBlID0gdC5vcHRTdHJpbmcoInRhc2tUeXBlIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29tcGxldGVkID0gdC5vcHRCb29sZWFuKCJjb21wbGV0ZWQiLCBmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb21wbGV0ZWQpIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlj6rlpITnkIYgc2lnbkluIOWSjCB3ZkRheVNoYXJl77yI5YW25LuW6ZyA6KaB55So5oi35Lqk5LqS77yJCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAodGFza1R5cGUgPT0gInNpZ25JbiIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgc2lnblIgPSBCcm93c2VWaWRlb1JwY0NhbGwuc2lnbkluKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoSlNPTk9iamVjdChzaWduUikub3B0Qm9vbGVhbigic3VjY2VzcyIpKSB7IHN1Y2Nlc3MrKzsgTG9nLm90aGVyKFRBRywgIuetvuWIsOWujOaIkOKchSIpIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAodGFza1R5cGUgPT0gIndmRGF5U2hhcmUiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5YiG5Lqr5Lu75YqhIC0g5bCd6K+V5a6M5oiQIElFUAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB0YXNrQWN0aXZpdHlJZCA9IHQub3B0U3RyaW5nKCJ0YXNrQWN0aXZpdHlJZCIsICIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICh0YXNrQWN0aXZpdHlJZC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHIgPSBCcm93c2VWaWRlb1JwY0NhbGwuZmluaXNoSWVwVGFzayh0YXNrVHlwZSwgIkFOVEZBUk0iLCB0YXNrQWN0aXZpdHlJZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKEpTT05PYmplY3Qocikub3B0Qm9vbGVhbigic3VjY2VzcyIpKSB7IHN1Y2Nlc3MrKzsgTG9nLm90aGVyKFRBRywgIuWIhuS6q+S7u+WKoeKchSIpIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBmYWlsKysKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWxheShSYW5kb21VdGlsLm5leHRMb25nKDEwMDAsIDMwMDApKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHt9CiAgICAgICAgfQoKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuinhumikee6ouWMheWujOaIkO+8geaIkOWKnzogJHN1Y2Nlc3MsIOWksei0pTogJGZhaWwiKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RDb250ZW50SWQodXJsOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgaWR4ID0gdXJsLmluZGV4T2YoIiZjb250ZW50SWQ9IikKICAgICAgICAgICAgaWYgKGlkeCA8IDApIHJldHVybiAiIgogICAgICAgICAgICB2YWwgc3RhcnQgPSBpZHggKyAxMTsgdmFsIGVuZCA9IHVybC5pbmRleE9mKCImIiwgc3RhcnQpCiAgICAgICAgICAgIGlmIChlbmQgPiBzdGFydCkgdXJsLnN1YnN0cmluZyhzdGFydCwgZW5kKSBlbHNlIHVybC5zdWJzdHJpbmcoc3RhcnQpCiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7ICIiIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.task.browseVideo
+
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.IntegerModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.RandomUtil
+import fansirsqi.xposed.sesame.util.ResChecker
+import kotlinx.coroutines.delay
+import org.json.JSONObject
+
+/**
+ * 首页视频红包 — 看视频领现金
+ * 优先使用 AntFarm 已验证流程，fallback 尝试其他
+ */
+class BrowseVideo : ModelTask() {
+
+    companion object {
+        private const val TAG = "BrowseVideo"
+        const val MODULE_NAME = "视频红包"
+        private const val VERSION = "0.1.2601161444.47"
+
+        @Volatile var instance: BrowseVideo? = null
+    }
+
+    private lateinit var videoAutoBrowse: BooleanModelField
+    private lateinit var videoMaxCount: IntegerModelField
+    private lateinit var videoBrowseDuration: IntegerModelField
+    private lateinit var videoAutoSignIn: BooleanModelField
+
+    override fun getName() = MODULE_NAME
+    override fun getGroup() = ModelGroup.OTHER
+    override fun getIcon() = "Default.png"
+
+    override fun getFields() = ModelFields().apply {
+        addField(BooleanModelField("videoAutoBrowse", "视频红包 | 自动浏览", true).also { videoAutoBrowse = it })
+        addField(IntegerModelField("videoMaxCount", "视频红包 | 每日最大次数", 10, 1, 50).also { videoMaxCount = it })
+        addField(IntegerModelField("videoBrowseDuration", "视频红包 | 模拟浏览时长(秒)", 15, 10, 60).also { videoBrowseDuration = it })
+        addField(BooleanModelField("videoAutoSignIn", "视频红包 | 顺便签到", true).also { videoAutoSignIn = it })
+    }
+
+    override fun prepare() { instance = this }
+    override fun boot(clazz: ClassLoader?) { super.boot(clazz) }
+    override fun destroy() { instance = null; super.destroy() }
+
+    override suspend fun runSuspend() {
+        if (!videoAutoBrowse.value) return
+
+        val maxCount = videoMaxCount.value
+        val duration = videoBrowseDuration.value
+        Log.record(TAG, "开始视频红包任务，目标 $maxCount 次，时长 ${duration}秒")
+
+        var success = 0; var fail = 0
+
+        // 方案A: 通过 AntFarm listFarmTask + doFarmTask 流程（已验证可行）
+        val farmResult = BrowseVideoRpcCall.listFarmTask(VERSION)
+        val farmTasks = try { JSONObject(farmResult).optJSONArray("taskInfoList") } catch (_: Exception) { null }
+
+        if (farmTasks != null && farmTasks.length() > 0) {
+            Log.record(TAG, "方案A: AntFarm 任务 ${farmTasks.length()} 个")
+            for (i in 0 until farmTasks.length()) {
+                if (success >= maxCount) break
+                try {
+                    val t = farmTasks.getJSONObject(i)
+                    val bizKey = t.optString("bizKey", "")
+                    val title = t.optString("title", bizKey)
+                    // 只处理视频类
+                    if (!bizKey.contains("VIDEO", true) && !title.contains("视频")) continue
+                    delay(RandomUtil.nextLong(2000, 5000))
+                    Log.record(TAG, "[${success + 1}] $title")
+
+                    val doResult = BrowseVideoRpcCall.doFarmTask(bizKey, VERSION)
+                    val doJson = try { JSONObject(doResult) } catch (_: Exception) { null }
+                    val videoUrl = doJson?.optString("videoUrl", "") ?: ""
+                    if (videoUrl.isNotEmpty()) {
+                        val contentId = extractContentId(videoUrl)
+                        if (contentId.isNotEmpty() && ResChecker.checkRes(TAG, JSONObject(BrowseVideoRpcCall.videoDeliverModule(contentId)))) {
+                            delay(duration * 1000L)
+                            if (ResChecker.checkRes(TAG, JSONObject(BrowseVideoRpcCall.videoTrigger(contentId)))) {
+                                success++; Log.other(TAG, "视频完成🧧[$title]"); continue
+                            }
+                        }
+                    }
+                    fail++; Log.record(TAG, "方案A失败[$title]")
+                } catch (ce: kotlinx.coroutines.CancellationException) { throw ce
+                } catch (e: Exception) { fail++; Log.record(TAG, "异常: ${e.message}") }
+            }
+        }
+
+        // 方案B: 尝试 content.interact 视频红包（签到+分享可直接完成）
+        if (success < maxCount) {
+            try {
+                val interactResult = BrowseVideoRpcCall.queryInteractTask()
+                val json = try { JSONObject(interactResult) } catch (_: Exception) { null }
+                if (json?.optBoolean("success") == true) {
+                    // 签到
+                    if (videoAutoSignIn.value) {
+                        val signResult = BrowseVideoRpcCall.signIn()
+                        if (JSONObject(signResult).optBoolean("success")) Log.other(TAG, "签到✅")
+                    }
+                    val tasks = json.optJSONArray("taskList")
+                    if (tasks != null) {
+                        Log.record(TAG, "方案B: 内容互动任务 ${tasks.length()} 个")
+                        for (i in 0 until tasks.length()) {
+                            if (success >= maxCount) break
+                            val t = tasks.getJSONObject(i)
+                            val taskType = t.optString("taskType", "")
+                            val completed = t.optBoolean("completed", false)
+                            if (completed) continue
+                            // 只处理 signIn 和 wfDayShare（其他需要用户交互）
+                            if (taskType == "signIn") {
+                                val signR = BrowseVideoRpcCall.signIn()
+                                if (JSONObject(signR).optBoolean("success")) { success++; Log.other(TAG, "签到完成✅") }
+                            } else if (taskType == "wfDayShare") {
+                                // 分享任务 - 尝试完成 IEP
+                                val taskActivityId = t.optString("taskActivityId", "")
+                                if (taskActivityId.isNotEmpty()) {
+                                    val r = BrowseVideoRpcCall.finishIepTask(taskType, "ANTFARM", taskActivityId)
+                                    if (JSONObject(r).optBoolean("success")) { success++; Log.other(TAG, "分享任务✅") }
+                                    else fail++
+                                }
+                            }
+                            delay(RandomUtil.nextLong(1000, 3000))
+                        }
+                    }
+                }
+            } catch (_: Exception) {}
+        }
+
+        Log.record(TAG, "视频红包完成！成功: $success, 失败: $fail")
+    }
+
+    private fun extractContentId(url: String): String {
+        return try {
+            val idx = url.indexOf("&contentId=")
+            if (idx < 0) return ""
+            val start = idx + 11; val end = url.indexOf("&", start)
+            if (end > start) url.substring(start, end) else url.substring(start)
+        } catch (_: Exception) { "" }
+    }
+}

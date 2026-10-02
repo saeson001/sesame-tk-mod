@@ -1,1 +1,116 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uY2FyZAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLkFuaW1hdGVkVmlzaWJpbGl0eQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS50d2VlbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uZXhwYW5kVmVydGljYWxseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uc2hyaW5rVmVydGljYWxseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5vdXRsaW5lZC5DaGVja0NpcmNsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5vdXRsaW5lZC5XYXJuaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DYXJkRGVmYXVsdHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkNpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkVsZXZhdGVkQ2FyZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRXhwZXJpbWVudGFsTWF0ZXJpYWwzQXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkNvbW1hbmRVdGlsLlNlcnZpY2VTdGF0dXMKCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gU2VydmljZXNTdGF0dXNDYXJkKAogICAgc3RhdHVzOiBTZXJ2aWNlU3RhdHVzLCAvLyDkvb/nlKjmlrDlrprkuYnnmoTnirbmgIEKICAgIGV4cGFuZGVkOiBCb29sZWFuLAogICAgb25DbGljazogKCkgLT4gVW5pdAopIHsKICAgIEVsZXZhdGVkQ2FyZCgKICAgICAgICBvbkNsaWNrID0gb25DbGljaywKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gOC5kcCwgdmVydGljYWwgPSA0LmRwKSwgLy8g56iN5b6u6LCD5pW06Ze06LedCiAgICAgICAgY29sb3JzID0gQ2FyZERlZmF1bHRzLmVsZXZhdGVkQ2FyZENvbG9ycygKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSB3aGVuIChzdGF0dXMpIHsKICAgICAgICAgICAgICAgIGlzIFNlcnZpY2VTdGF0dXMuQWN0aXZlIC0+IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgaXMgU2VydmljZVN0YXR1cy5JbmFjdGl2ZSAtPiBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yQ29udGFpbmVyCiAgICAgICAgICAgICAgICBpcyBTZXJ2aWNlU3RhdHVzLkxvYWRpbmcgLT4gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgKSwKICAgICkgewogICAgICAgIENvbHVtbihtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoMTYuZHApKSB7CiAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgd2hlbiAoc3RhdHVzKSB7CiAgICAgICAgICAgICAgICAgICAgaXMgU2VydmljZVN0YXR1cy5BY3RpdmUgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLk91dGxpbmVkLkNoZWNrQ2lyY2xlLCAi5bey5o6I5p2DIikKICAgICAgICAgICAgICAgICAgICAgICAgQ29sdW1uKE1vZGlmaWVyLnBhZGRpbmcoc3RhcnQgPSAyMC5kcCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICJTaGVsbCDmnI3liqHmraPluLgiLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICLmjojmnYPmlrnlvI86ICR7c3RhdHVzLnR5cGV9Iiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoNC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSAi6YOo5YiG6L6F5Yqp5Yqf6IO96ZyA6KaB5q2k5p2D6ZmQIiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBpcyBTZXJ2aWNlU3RhdHVzLkluYWN0aXZlIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgSWNvbihJY29ucy5PdXRsaW5lZC5XYXJuaW5nLCAi5pyq5o6I5p2DIikKICAgICAgICAgICAgICAgICAgICAgICAgQ29sdW1uKE1vZGlmaWVyLnBhZGRpbmcoc3RhcnQgPSAyMC5kcCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICJTaGVsbCDmnI3liqHkuI3lj6/nlKgiLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9ICLngrnlh7vmn6XnnIvop6PlhrPmlrnmoYgiLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBpcyBTZXJ2aWNlU3RhdHVzLkxvYWRpbmcgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBDaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yKG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyNC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgIENvbHVtbihNb2RpZmllci5wYWRkaW5nKHN0YXJ0ID0gMjAuZHApKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSAi5q2j5Zyo5qOA5p+l5pyN5Yqh5p2D6ZmQLi4uIiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVNZWRpdW0pCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBDaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yKG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyNC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgIENvbHVtbihNb2RpZmllci5wYWRkaW5nKHN0YXJ0ID0gMjAuZHApKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSAi5q2j5Zyo5qOA5p+l5pyN5Yqh5p2D6ZmQLi4uIiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVNZWRpdW0pCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOWxleW8gOWGheWuue+8muaVhemanOaOkuafpQogICAgICAgICAgICBBbmltYXRlZFZpc2liaWxpdHkoCiAgICAgICAgICAgICAgICB2aXNpYmxlID0gZXhwYW5kZWQsCiAgICAgICAgICAgICAgICBlbnRlciA9IGV4cGFuZFZlcnRpY2FsbHkoYW5pbWF0aW9uU3BlYyA9IHR3ZWVuKDMwMCkpLAogICAgICAgICAgICAgICAgZXhpdCA9IHNocmlua1ZlcnRpY2FsbHkoYW5pbWF0aW9uU3BlYyA9IHR3ZWVuKDMwMCkpCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyh0b3AgPSAxNi5kcCkpIHsKICAgICAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSAi5o6I5p2D5oyH5Y2XIiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVTbWFsbCwgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuQm9sZCkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9ICLmnKzmqKHlnZfpnIDopoHlkI7lj7DmiafooYwgU2hlbGwg5ZG95Luk5p2l5o+Q5L6b6YOo5YiG6L6F5Yqp6IO95Yqb44CCXG5cbiIgKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICLlj6/pgInmlrnmoYjvvJpcbiIgKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICIxLiBTaGl6dWt1ICjmjqjojZAp77ya5YWNIFJvb3TvvIzpnIDlronoo4UgU2hpenVrdSBBUFAg5bm25r+A5rS744CCXG4iICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiMi4gUm9vdO+8muWmguaenOS9oOW3siBSb29077yM6K+35o6I5LqI5pys5bqU55SoIFJvb3Qg5p2D6ZmQ44CCIiwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICAgICAgbGluZUhlaWdodCA9IDIwLnNwCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.ui.screen.card
+
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.CheckCircle
+import androidx.compose.material.icons.outlined.Warning
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ElevatedCard
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import fansirsqi.xposed.sesame.util.CommandUtil.ServiceStatus
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ServicesStatusCard(
+    status: ServiceStatus, // 使用新定义的状态
+    expanded: Boolean,
+    onClick: () -> Unit
+) {
+    ElevatedCard(
+        onClick = onClick,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 8.dp, vertical = 4.dp), // 稍微调整间距
+        colors = CardDefaults.elevatedCardColors(
+            containerColor = when (status) {
+                is ServiceStatus.Active -> MaterialTheme.colorScheme.primary
+                is ServiceStatus.Inactive -> MaterialTheme.colorScheme.errorContainer
+                is ServiceStatus.Loading -> MaterialTheme.colorScheme.surfaceVariant
+                else -> {
+                    MaterialTheme.colorScheme.surfaceVariant
+                }
+            }
+        ),
+    ) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                when (status) {
+                    is ServiceStatus.Active -> {
+                        Icon(Icons.Outlined.CheckCircle, "已授权")
+                        Column(Modifier.padding(start = 20.dp)) {
+                            Text(text = "Shell 服务正常", style = MaterialTheme.typography.titleMedium)
+                            Text(text = "授权方式: ${status.type}", style = MaterialTheme.typography.bodyMedium)
+                            Spacer(Modifier.height(4.dp))
+                            Text(text = "部分辅助功能需要此权限", style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+
+                    is ServiceStatus.Inactive -> {
+                        Icon(Icons.Outlined.Warning, "未授权")
+                        Column(Modifier.padding(start = 20.dp)) {
+                            Text(text = "Shell 服务不可用", style = MaterialTheme.typography.titleMedium)
+                            Text(text = "点击查看解决方案", style = MaterialTheme.typography.bodyMedium)
+                        }
+                    }
+
+                    is ServiceStatus.Loading -> {
+                        CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                        Column(Modifier.padding(start = 20.dp)) {
+                            Text(text = "正在检查服务权限...", style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+
+                    else -> {
+                        CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                        Column(Modifier.padding(start = 20.dp)) {
+                            Text(text = "正在检查服务权限...", style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+                }
+            }
+
+            // 展开内容：故障排查
+            AnimatedVisibility(
+                visible = expanded,
+                enter = expandVertically(animationSpec = tween(300)),
+                exit = shrinkVertically(animationSpec = tween(300))
+            ) {
+                Column(modifier = Modifier.padding(top = 16.dp)) {
+                    Text(text = "授权指南", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = "本模块需要后台执行 Shell 命令来提供部分辅助能力。\n\n" +
+                                "可选方案：\n" +
+                                "1. Shizuku (推荐)：免 Root，需安装 Shizuku APP 并激活。\n" +
+                                "2. Root：如果你已 Root，请授予本应用 Root 权限。",
+                        style = MaterialTheme.typography.bodyMedium,
+                        lineHeight = 20.sp
+                    )
+                }
+            }
+        }
+    }
+}

@@ -1,1 +1,25 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHk7CgppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuSWRNYXBNYW5hZ2VyOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLlBhcmFkaXNlQ29pbkJlbmVmaXRJZE1hcDsKCnB1YmxpYyBjbGFzcyBQYXJhZGlzZUNvaW5CZW5lZml0IGV4dGVuZHMgTWFwcGVyRW50aXR5IHsKCiAgICBwdWJsaWMgUGFyYWRpc2VDb2luQmVuZWZpdChTdHJpbmcgaSwgU3RyaW5nIG4pIHsKICAgICAgICBpZCA9IGk7CiAgICAgICAgbmFtZSA9IG47CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBMaXN0PFBhcmFkaXNlQ29pbkJlbmVmaXQ+IGdldExpc3QoKSB7CiAgICAgICAgTGlzdDxQYXJhZGlzZUNvaW5CZW5lZml0PiBsaXN0ID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgTWFwPFN0cmluZywgU3RyaW5nPiBpZFNldCA9IElkTWFwTWFuYWdlci5nZXRJbnN0YW5jZShQYXJhZGlzZUNvaW5CZW5lZml0SWRNYXAuY2xhc3MpLmdldE1hcCgpOwogICAgICAgIGZvciAoTWFwLkVudHJ5PFN0cmluZywgU3RyaW5nPiBlbnRyeTogaWRTZXQuZW50cnlTZXQoKSkgewogICAgICAgICAgICBsaXN0LmFkZChuZXcgUGFyYWRpc2VDb2luQmVuZWZpdChlbnRyeS5nZXRLZXkoKSwgZW50cnkuZ2V0VmFsdWUoKSkpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gbGlzdDsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.entity;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import fansirsqi.xposed.sesame.util.maps.IdMapManager;
+import fansirsqi.xposed.sesame.util.maps.ParadiseCoinBenefitIdMap;
+
+public class ParadiseCoinBenefit extends MapperEntity {
+
+    public ParadiseCoinBenefit(String i, String n) {
+        id = i;
+        name = n;
+    }
+
+    public static List<ParadiseCoinBenefit> getList() {
+        List<ParadiseCoinBenefit> list = new ArrayList<>();
+        Map<String, String> idSet = IdMapManager.getInstance(ParadiseCoinBenefitIdMap.class).getMap();
+        for (Map.Entry<String, String> entry: idSet.entrySet()) {
+            list.add(new ParadiseCoinBenefit(entry.getKey(), entry.getValue()));
+        }
+        return list;
+    }
+}

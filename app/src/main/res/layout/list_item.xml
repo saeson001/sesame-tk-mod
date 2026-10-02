@@ -1,1 +1,27 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJob3Jpem9udGFsIgogICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci90ZXh0Q29sb3JQcmltYXJ5IgogICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICBhbmRyb2lkOnBhZGRpbmc9IjEyZHAiCiAgICBhbmRyb2lkOm1pbkhlaWdodD0iNTBkcCI+CgogICAgPFRleHRWaWV3CiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IjBkcCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvbm9ybWFsX3RleHQiCiAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci90ZXh0Q29sb3JQcmltYXJ5IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSIKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3R2X2lkbiIgLz4KCiAgICA8Q2hlY2tCb3gKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6Y2xpY2thYmxlPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOmJ1dHRvblRpbnQ9IkBjb2xvci9vcmFuZ2UiCiAgICAgICAgYW5kcm9pZDpmb2N1c2FibGU9ImZhbHNlIgogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvY2JfbGlzdCIgLz4KCjwvTGluZWFyTGF5b3V0Pg==
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:textColor="@color/textColorPrimary"
+    android:gravity="center"
+    android:padding="12dp"
+    android:minHeight="50dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_text"
+        android:textColor="@color/textColorPrimary"
+        android:layout_weight="1"
+        android:id="@+id/tv_idn" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:buttonTint="@color/orange"
+        android:focusable="false"
+        android:id="@+id/cb_list" />
+
+</LinearLayout>

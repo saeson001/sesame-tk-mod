@@ -1,1 +1,61 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmJhY2t1cFN5bmMKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlJlcXVlc3RNYW5hZ2VyCmltcG9ydCBva2h0dHAzLk1lZGlhVHlwZS5Db21wYW5pb24udG9NZWRpYVR5cGUKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKaW1wb3J0IG9raHR0cDMuUmVxdWVzdEJvZHkuQ29tcGFuaW9uLnRvUmVxdWVzdEJvZHkKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CgovKioKICogV2ViREFWIOWkh+S7veWQjOatpe+8iFBVVC9HRVQg6YWN572u5Yiw5Z2a5p6c5LqR562JIFdlYkRBViDmnI3liqHvvIkKICog6YWN572u5aSH5Lu95LiN57uP6L+H5pSv5LuY5a6dIFJQQ++8jOebtOaOpei1sCBPa0h0dHAKICovCm9iamVjdCBCYWNrdXBTeW5jQ2xpZW50IHsKCiAgICBwcml2YXRlIHZhbCBjbGllbnQ6IE9rSHR0cENsaWVudCBieSBsYXp5IHsKICAgICAgICBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgICAgIC5jb25uZWN0VGltZW91dCgxNSwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgLnJlYWRUaW1lb3V0KDMwLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAud3JpdGVUaW1lb3V0KDMwLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAuYnVpbGQoKQogICAgfQoKICAgIC8qKiDkuIrkvKDmlofmnKzliLAgV2ViREFWICovCiAgICBmdW4gcHV0KHVybDogU3RyaW5nLCB1c2VybmFtZTogU3RyaW5nLCBwYXNzd29yZDogU3RyaW5nLCBjb250ZW50OiBTdHJpbmcpOiBQYWlyPEJvb2xlYW4sIFN0cmluZz4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgYm9keSA9IGNvbnRlbnQudG9SZXF1ZXN0Qm9keSgidGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCIudG9NZWRpYVR5cGUoKSkKICAgICAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLnVybCh1cmwpCiAgICAgICAgICAgICAgICAucHV0KGJvZHkpCiAgICAgICAgICAgICAgICAuaGVhZGVyKCJBdXRob3JpemF0aW9uIiwgb2todHRwMy5DcmVkZW50aWFscy5iYXNpYyh1c2VybmFtZSwgcGFzc3dvcmQpKQogICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICAgICAgY2xpZW50Lm5ld0NhbGwocmVxdWVzdCkuZXhlY3V0ZSgpLnVzZSB7IHJlc3AgLT4KICAgICAgICAgICAgICAgIGlmIChyZXNwLmlzU3VjY2Vzc2Z1bCkgUGFpcih0cnVlLCAiSFRUUCAke3Jlc3AuY29kZX0iKQogICAgICAgICAgICAgICAgZWxzZSBQYWlyKGZhbHNlLCAiSFRUUCAke3Jlc3AuY29kZX0gJHtyZXNwLm1lc3NhZ2V9IikKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBQYWlyKGZhbHNlLCB0Lm1lc3NhZ2UgPzogInVua25vd24gZXJyb3IiKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5LuOIFdlYkRBViDkuIvovb3mlofmnKwgKi8KICAgIGZ1biBnZXQodXJsOiBTdHJpbmcsIHVzZXJuYW1lOiBTdHJpbmcsIHBhc3N3b3JkOiBTdHJpbmcpOiBQYWlyPEJvb2xlYW4sIFN0cmluZz4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcmVxdWVzdCA9IFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAudXJsKHVybCkKICAgICAgICAgICAgICAgIC5nZXQoKQogICAgICAgICAgICAgICAgLmhlYWRlcigiQXV0aG9yaXphdGlvbiIsIG9raHR0cDMuQ3JlZGVudGlhbHMuYmFzaWModXNlcm5hbWUsIHBhc3N3b3JkKSkKICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgICAgIGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwIC0+CiAgICAgICAgICAgICAgICBpZiAocmVzcC5pc1N1Y2Nlc3NmdWwpIHsKICAgICAgICAgICAgICAgICAgICBQYWlyKHRydWUsIHJlc3AuYm9keT8uc3RyaW5nKCkgPzogIiIpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIFBhaXIoZmFsc2UsICJIVFRQICR7cmVzcC5jb2RlfSAke3Jlc3AubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIFBhaXIoZmFsc2UsIHQubWVzc2FnZSA/OiAidW5rbm93biBlcnJvciIpCiAgICAgICAgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.task.backupSync
+
+import fansirsqi.xposed.sesame.hook.RequestManager
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+import java.util.concurrent.TimeUnit
+
+/**
+ * WebDAV 备份同步（PUT/GET 配置到坚果云等 WebDAV 服务）
+ * 配置备份不经过支付宝 RPC，直接走 OkHttp
+ */
+object BackupSyncClient {
+
+    private val client: OkHttpClient by lazy {
+        OkHttpClient.Builder()
+            .connectTimeout(15, TimeUnit.SECONDS)
+            .readTimeout(30, TimeUnit.SECONDS)
+            .writeTimeout(30, TimeUnit.SECONDS)
+            .build()
+    }
+
+    /** 上传文本到 WebDAV */
+    fun put(url: String, username: String, password: String, content: String): Pair<Boolean, String> {
+        return try {
+            val body = content.toRequestBody("text/plain; charset=utf-8".toMediaType())
+            val request = Request.Builder()
+                .url(url)
+                .put(body)
+                .header("Authorization", okhttp3.Credentials.basic(username, password))
+                .build()
+            client.newCall(request).execute().use { resp ->
+                if (resp.isSuccessful) Pair(true, "HTTP ${resp.code}")
+                else Pair(false, "HTTP ${resp.code} ${resp.message}")
+            }
+        } catch (t: Throwable) {
+            Pair(false, t.message ?: "unknown error")
+        }
+    }
+
+    /** 从 WebDAV 下载文本 */
+    fun get(url: String, username: String, password: String): Pair<Boolean, String> {
+        return try {
+            val request = Request.Builder()
+                .url(url)
+                .get()
+                .header("Authorization", okhttp3.Credentials.basic(username, password))
+                .build()
+            client.newCall(request).execute().use { resp ->
+                if (resp.isSuccessful) {
+                    Pair(true, resp.body?.string() ?: "")
+                } else {
+                    Pair(false, "HTTP ${resp.code} ${resp.message}")
+                }
+            }
+        } catch (t: Throwable) {
+            Pair(false, t.message ?: "unknown error")
+        }
+    }
+}

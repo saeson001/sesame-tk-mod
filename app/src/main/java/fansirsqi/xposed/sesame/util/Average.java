@@ -1,1 +1,70 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwovKirlubPlnYflgLzorqHnrpflt6XlhbfnsbsqLwpwdWJsaWMgY2xhc3MgQXZlcmFnZSB7CiAgICAvKiog5L2/55So5LiA5Liq5b6q546v6Zif5YiX5p2l5a2Y5YKo5Zu65a6a5pWw6YeP55qE5pWw5YC8Ki8KICAgIHByaXZhdGUgZmluYWwgQ2lyY3VsYXJGaWZvUXVldWU8SW50ZWdlcj4gcXVldWU7CiAgICAvKiog5pWw5YC855qE5oC75ZKM77yM55So5LqO6K6h566X5bmz5Z2H5YC8Ki8KICAgIHByaXZhdGUgZG91YmxlIHN1bTsKICAgIC8qKiDlvZPliY3nmoTlubPlnYflgLwqLwogICAgcHJpdmF0ZSBkb3VibGUgYXZlcmFnZTsKICAgIC8qKiDmnoTpgKDlh73mlbDvvIzliJ3lp4vljJbpmJ/liJflpKflsI/vvIzliJ3lp4vmgLvlkozlkozlubPlnYflgLwqLwogICAgcHVibGljIEF2ZXJhZ2UoaW50IHNpemUpIHsKICAgICAgICB0aGlzLnF1ZXVlID0gbmV3IENpcmN1bGFyRmlmb1F1ZXVlPD4oc2l6ZSk7IC8vIOWIm+W7uuS4gOS4quWbuuWumuWkp+Wwj+eahOW+queOr+mYn+WIlwogICAgICAgIHRoaXMuc3VtID0gMC4wOyAvLyDliJ3lp4vljJbmgLvlkozkuLogMAogICAgICAgIHRoaXMuYXZlcmFnZSA9IDAuMDsgLy8g5Yid5aeL5YyW5bmz5Z2H5YC85Li6IDAKICAgIH0KICAgIC8qKgogICAgICog6K6h566X5LiL5LiA5Liq5pWw5YC85Yqg5YWl5ZCO55qE5paw5bmz5Z2H5YC8CiAgICAgKgogICAgICogQHBhcmFtIHZhbHVlIOaWsOWKoOWFpeeahOaVsOWAvAogICAgICogQHJldHVybiDlvZPliY3nmoTlubPlnYflgLwKICAgICAqLwogICAgcHVibGljIGRvdWJsZSBuZXh0RG91YmxlKGludCB2YWx1ZSkgewogICAgICAgIC8vIOWwhuaWsOWAvOa3u+WKoOWIsOmYn+WIl+S4re+8jOW5tuenu+mZpOmYn+WIl+S4reeahOaXp+WAvO+8iOWmguaenOacieeahOivne+8iQogICAgICAgIEludGVnZXIgbGFzdCA9IHF1ZXVlLnB1c2godmFsdWUpOwogICAgICAgIC8vIOWmguaenOmYn+WIl+S4reacieaXp+WAvO+8jOWImeS7juaAu+WSjOS4reWHj+WOu+WugwogICAgICAgIGlmIChsYXN0ICE9IG51bGwpIHsKICAgICAgICAgICAgc3VtIC09IGxhc3Q7CiAgICAgICAgfQogICAgICAgIC8vIOWwhuaWsOWAvOWKoOWFpeWIsOaAu+WSjOS4rQogICAgICAgIHN1bSArPSB2YWx1ZTsKICAgICAgICAvLyDorqHnrpflubbov5Tlm57mlrDnmoTlubPlnYflgLwKICAgICAgICByZXR1cm4gYXZlcmFnZSA9IHN1bSAvIHF1ZXVlLnNpemUoKTsKICAgIH0KICAgIC8qKgogICAgICog6K6h566X5LiL5LiA5Liq5pWw5YC85Yqg5YWl5ZCO55qE5paw5bmz5Z2H5YC877yI6L+U5Zue5pW05pWw77yJCiAgICAgKgogICAgICogQHBhcmFtIHZhbHVlIOaWsOWKoOWFpeeahOaVsOWAvAogICAgICogQHJldHVybiDlvZPliY3nmoTlubPlnYflgLzvvIjmlbTmlbDvvIkKICAgICAqLwogICAgcHVibGljIGludCBuZXh0SW50ZWdlcihpbnQgdmFsdWUpIHsKICAgICAgICAvLyDkvb/nlKggbmV4dERvdWJsZSDmlrnms5XorqHnrpflubPlnYflgLzvvIznhLblkI7lvLrliLbovazmjaLkuLrmlbTmlbAKICAgICAgICByZXR1cm4gKGludCkgbmV4dERvdWJsZSh2YWx1ZSk7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPluW9k+WJjeeahOW5s+Wdh+WAvO+8iOa1ruWKqOWei++8iQogICAgICoKICAgICAqIEByZXR1cm4g5b2T5YmN55qE5bmz5Z2H5YC8CiAgICAgKi8KICAgIHB1YmxpYyBkb3VibGUgYXZlcmFnZURvdWJsZSgpIHsKICAgICAgICByZXR1cm4gYXZlcmFnZTsKICAgIH0KICAgIC8qKgogICAgICog6I635Y+W5b2T5YmN55qE5bmz5Z2H5YC877yI5pW05pWw5Z6L77yJCiAgICAgKgogICAgICogQHJldHVybiDlvZPliY3nmoTlubPlnYflgLzvvIjmlbTmlbDvvIkKICAgICAqLwogICAgcHVibGljIGludCBnZXRBdmVyYWdlSW50ZWdlcigpIHsKICAgICAgICByZXR1cm4gKGludCkgYXZlcmFnZTsKICAgIH0KICAgIC8qKgogICAgICog5riF6Zmk6Zif5YiX5ZKM6YeN572u5omA5pyJ57uf6K6h5pWw5o2uCiAgICAgKi8KICAgIHB1YmxpYyB2b2lkIGNsZWFyKCkgewogICAgICAgIC8vIOa4heepuumYn+WIlwogICAgICAgIHF1ZXVlLmNsZWFyKCk7CiAgICAgICAgLy8g6YeN572u5oC75ZKM5ZKM5bmz5Z2H5YC8CiAgICAgICAgc3VtID0gMC4wOwogICAgICAgIGF2ZXJhZ2UgPSAwLjA7CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util;
+/**平均值计算工具类*/
+public class Average {
+    /** 使用一个循环队列来存储固定数量的数值*/
+    private final CircularFifoQueue<Integer> queue;
+    /** 数值的总和，用于计算平均值*/
+    private double sum;
+    /** 当前的平均值*/
+    private double average;
+    /** 构造函数，初始化队列大小，初始总和和平均值*/
+    public Average(int size) {
+        this.queue = new CircularFifoQueue<>(size); // 创建一个固定大小的循环队列
+        this.sum = 0.0; // 初始化总和为 0
+        this.average = 0.0; // 初始化平均值为 0
+    }
+    /**
+     * 计算下一个数值加入后的新平均值
+     *
+     * @param value 新加入的数值
+     * @return 当前的平均值
+     */
+    public double nextDouble(int value) {
+        // 将新值添加到队列中，并移除队列中的旧值（如果有的话）
+        Integer last = queue.push(value);
+        // 如果队列中有旧值，则从总和中减去它
+        if (last != null) {
+            sum -= last;
+        }
+        // 将新值加入到总和中
+        sum += value;
+        // 计算并返回新的平均值
+        return average = sum / queue.size();
+    }
+    /**
+     * 计算下一个数值加入后的新平均值（返回整数）
+     *
+     * @param value 新加入的数值
+     * @return 当前的平均值（整数）
+     */
+    public int nextInteger(int value) {
+        // 使用 nextDouble 方法计算平均值，然后强制转换为整数
+        return (int) nextDouble(value);
+    }
+    /**
+     * 获取当前的平均值（浮动型）
+     *
+     * @return 当前的平均值
+     */
+    public double averageDouble() {
+        return average;
+    }
+    /**
+     * 获取当前的平均值（整数型）
+     *
+     * @return 当前的平均值（整数）
+     */
+    public int getAverageInteger() {
+        return (int) average;
+    }
+    /**
+     * 清除队列和重置所有统计数据
+     */
+    public void clear() {
+        // 清空队列
+        queue.clear();
+        // 重置总和和平均值
+        sum = 0.0;
+        average = 0.0;
+    }
+}

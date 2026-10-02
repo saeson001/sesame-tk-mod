@@ -1,1 +1,57 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudERvZG8uQW50RG9kbwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5vdGhlci5jcmVkaXQyMTAxLkNyZWRpdDIxMDEKCmNsYXNzIE90aGVyRW50aXR5KGlkOiBTdHJpbmcsIG5hbWU6IFN0cmluZykgOiBNYXBwZXJFbnRpdHkoKSB7CiAgICBpbml0IHsKICAgICAgICB0aGlzLmlkID0gaWQKICAgICAgICB0aGlzLm5hbWUgPSBuYW1lCiAgICB9Cn0KCm9iamVjdCBPdGhlckVudGl0eVByb3ZpZGVyIHsKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBsaXN0RWNvTGlmZU9wdGlvbnMoKTogTGlzdDxPdGhlckVudGl0eT4gPSBsaXN0T2YoCiAgICAgICAgT3RoZXJFbnRpdHkoInRpY2siLCAi57u/6Imy6KGM5Yqo8J+NgyIpLAogICAgICAgIE90aGVyRW50aXR5KCJwbGF0ZSIsICLlhYnnm5jooYzliqjwn5K9IikKICAgICkKCiAgICBASnZtU3RhdGljCiAgICBmdW4gbGlzdEhlYWx0aGNhcmVPcHRpb25zKCk6IExpc3Q8T3RoZXJFbnRpdHk+ID0gbGlzdE9mKAogICAgICAgIE90aGVyRW50aXR5KCJGRUVEUyIsICLnu7/oibLljLvnlpfwn5KJIiksCiAgICAgICAgT3RoZXJFbnRpdHkoIkJJTEwiLCAi55S15a2Q5bCP56Wo8J+OqyIpCiAgICApCgogICAgQEp2bVN0YXRpYwogICAgZnVuIGZhcm1GYW1pbHlPcHRpb24oKTpMaXN0PE90aGVyRW50aXR5PiA9IGxpc3RPZigKICAgICAgICBPdGhlckVudGl0eSgiZmFtaWx5U2lnbiIsICLmr4/ml6Xnrb7liLDwn5OFIiksCiAgICAgICAgT3RoZXJFbnRpdHkoImFzc2lnblJpZ2h0cyIsICLkvb/nlKjpobbmooHmn7HnibnmnYPwn5G34oCN4pmC77iPIiksCiAgICAgICAgT3RoZXJFbnRpdHkoImZhbWlseUNsYWltUmV3YXJkIiwgIumihuWPluWlluWKsfCfj4bvuI8iKSwKICAgICAgICBPdGhlckVudGl0eSgiZmVlZEZhbWlseUFuaW1hbCIsICLluK7lloLlsI/puKHwn5CUIiksCiAgICAgICAgT3RoZXJFbnRpdHkoImVhdFRvZ2V0aGVyQ29uZmlnIiwgIuivt+WQg+e+jumjn/CfjbIiKSwKICAgICAgICBPdGhlckVudGl0eSgiZGVsaXZlck1zZ1NlbmQiLCAi6YGT5pep5a6J8J+MniIpLAogICAgICAgIE90aGVyRW50aXR5KCJFeGNoYW5nZUZhbWlseURlY29yYXRpb24iLCAi5YWR5o2i6KOF6aWw54mp5ZOB8J+nsSIpLAogICAgICAgIE90aGVyRW50aXR5KCJzaGFyZVRvRnJpZW5kcyIsICLlpb3lj4vliIbkuqvwn5mG4oCN4pmC77iPfOS4i+aWuemFjee9ruaOkumZpOWIl+ihqCIpLAogICAgKQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBsaXN0UHJvcEdyb3VwT3B0aW9ucygpOiBMaXN0PE90aGVyRW50aXR5PiA9IGxpc3RPZigKICAgICAgICBPdGhlckVudGl0eShBbnREb2RvLlByb3BHcm91cFR5cGUuQ09MTEVDVF9BTklNQUwsICLlvZPliY3lm77pibTmir3ljaHliLgg8J+OtCIpLAogICAgICAgIE90aGVyRW50aXR5KEFudERvZG8uUHJvcEdyb3VwVHlwZS5BRERfQ09MTEVDVF9UT19GUklFTkRfTElNSVQsICLlpb3lj4vljaHmir3ljaHliLgg8J+RpSIpLAogICAgICAgIE90aGVyRW50aXR5KEFudERvZG8uUHJvcEdyb3VwVHlwZS5VTklWRVJTQUxfQ0FSRCwgIuS4h+iDveWNoSDwn4OPIikKICAgICkKCgogICAgLy/kv6HnlKgyMTAx5Lu75Yqh5YiX6KGoCiAgICBASnZtU3RhdGljCiAgICBmdW4gbGlzdENyZWRpdE9wdGlvbnMoKTogTGlzdDxPdGhlckVudGl0eT4gPSBsaXN0T2YoCiAgICAgICAgT3RoZXJFbnRpdHkoQ3JlZGl0MjEwMS5FdmVudFR5cGUuTUlOSV9HQU1FX0VMSU1JTkFURSwgIua2iOmZpOWwj+a4uOaIjyDwn46uIiksCiAgICAgICAgT3RoZXJFbnRpdHkoQ3JlZGl0MjEwMS5FdmVudFR5cGUuTUlOSV9HQU1FX0NPTExFQ1RZSiwgIuaUtumbhuWwj+a4uOaIjyDwn4+6IiksCiAgICAgICAgT3RoZXJFbnRpdHkoQ3JlZGl0MjEwMS5FdmVudFR5cGUuTUlOSV9HQU1FX01BVENIMywgIuWHu+adgOWwj+a4uOaIjyDwn6epIiksCiAgICAgICAgT3RoZXJFbnRpdHkoQ3JlZGl0MjEwMS5FdmVudFR5cGUuR09MRF9NQVJLLCAi6YeR6Imy5Y2w6K6wIPCfn6EiKSwKICAgICAgICBPdGhlckVudGl0eShDcmVkaXQyMTAxLkV2ZW50VHlwZS5CTEFDS19NQVJLLCAi6buR6Imy5Y2w6K6wIOKaqyIpLAogICAgICAgIE90aGVyRW50aXR5KENyZWRpdDIxMDEuRXZlbnRUeXBlLlNQQUNFX1RJTUVfR0FURSwgIuaXtuepuuS5i+mXqCDwn4yAIikKICAgICkKCn0=
+package fansirsqi.xposed.sesame.entity
+
+import fansirsqi.xposed.sesame.task.antDodo.AntDodo
+import fansirsqi.xposed.sesame.task.other.credit2101.Credit2101
+
+class OtherEntity(id: String, name: String) : MapperEntity() {
+    init {
+        this.id = id
+        this.name = name
+    }
+}
+
+object OtherEntityProvider {
+    @JvmStatic
+    fun listEcoLifeOptions(): List<OtherEntity> = listOf(
+        OtherEntity("tick", "绿色行动🍃"),
+        OtherEntity("plate", "光盘行动💽")
+    )
+
+    @JvmStatic
+    fun listHealthcareOptions(): List<OtherEntity> = listOf(
+        OtherEntity("FEEDS", "绿色医疗💉"),
+        OtherEntity("BILL", "电子小票🎫")
+    )
+
+    @JvmStatic
+    fun farmFamilyOption():List<OtherEntity> = listOf(
+        OtherEntity("familySign", "每日签到📅"),
+        OtherEntity("assignRights", "使用顶梁柱特权👷‍♂️"),
+        OtherEntity("familyClaimReward", "领取奖励🏆️"),
+        OtherEntity("feedFamilyAnimal", "帮喂小鸡🐔"),
+        OtherEntity("eatTogetherConfig", "请吃美食🍲"),
+        OtherEntity("deliverMsgSend", "道早安🌞"),
+        OtherEntity("ExchangeFamilyDecoration", "兑换装饰物品🧱"),
+        OtherEntity("shareToFriends", "好友分享🙆‍♂️|下方配置排除列表"),
+    )
+
+    @JvmStatic
+    fun listPropGroupOptions(): List<OtherEntity> = listOf(
+        OtherEntity(AntDodo.PropGroupType.COLLECT_ANIMAL, "当前图鉴抽卡券 🎴"),
+        OtherEntity(AntDodo.PropGroupType.ADD_COLLECT_TO_FRIEND_LIMIT, "好友卡抽卡券 👥"),
+        OtherEntity(AntDodo.PropGroupType.UNIVERSAL_CARD, "万能卡 🃏")
+    )
+
+
+    //信用2101任务列表
+    @JvmStatic
+    fun listCreditOptions(): List<OtherEntity> = listOf(
+        OtherEntity(Credit2101.EventType.MINI_GAME_ELIMINATE, "消除小游戏 🎮"),
+        OtherEntity(Credit2101.EventType.MINI_GAME_COLLECTYJ, "收集小游戏 🏺"),
+        OtherEntity(Credit2101.EventType.MINI_GAME_MATCH3, "击杀小游戏 🧩"),
+        OtherEntity(Credit2101.EventType.GOLD_MARK, "金色印记 🟡"),
+        OtherEntity(Credit2101.EventType.BLACK_MARK, "黑色印记 ⚫"),
+        OtherEntity(Credit2101.EventType.SPACE_TIME_GATE, "时空之门 🌀")
+    )
+
+}

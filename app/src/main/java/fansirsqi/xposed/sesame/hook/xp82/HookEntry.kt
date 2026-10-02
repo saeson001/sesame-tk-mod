@@ -1,1 +1,43 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnhwODIKCmltcG9ydCBkZS5yb2J2LmFuZHJvaWQueHBvc2VkLklYcG9zZWRIb29rTG9hZFBhY2thZ2UKaW1wb3J0IGRlLnJvYnYuYW5kcm9pZC54cG9zZWQuWHBvc2VkQnJpZGdlCmltcG9ydCBkZS5yb2J2LmFuZHJvaWQueHBvc2VkLmNhbGxiYWNrcy5YQ19Mb2FkUGFja2FnZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZGF0YS5HZW5lcmFsCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLkFwcGxpY2F0aW9uSG9vawppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5YcG9zZWRFbnYKCi8qKgogKiDml6fniYggWHBvc2VkIOahhuaetu+8iOWmgiBFZFhwb3NlZOOAgUxTUG9zZWQgPCAxLjnvvInlhaXlj6MKICog5a+55bqU5paw5qGG5p62IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2subHNwMTAwLkhvb2tFbnRyeQogKi8KY2xhc3MgSG9va0VudHJ5IDogSVhwb3NlZEhvb2tMb2FkUGFja2FnZSB7CgogICAgcHJpdmF0ZSB2YWwgdGFnID0gIlhwODJFbnRyeSIKICAgIHByaXZhdGUgdmFyIGN1c3RvbUhvb2tlcjogQXBwbGljYXRpb25Ib29rPyA9IG51bGwKCiAgICBvdmVycmlkZSBmdW4gaGFuZGxlTG9hZFBhY2thZ2UobHBwYXJhbTogWENfTG9hZFBhY2thZ2UuTG9hZFBhY2thZ2VQYXJhbSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIOWPquWcqOebruagh+W6lOeUqOaJp+ihjAogICAgICAgICAgICBpZiAobHBwYXJhbS5wYWNrYWdlTmFtZSAhPSBHZW5lcmFsLlBBQ0tBR0VfTkFNRSkgewogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g5Y+q5Zyo5Li76L+b56iL5omn6KGM77yI6Ziy5q2i5a2Q6L+b56iL6YeN5aSN5Yid5aeL5YyW77yJCiAgICAgICAgICAgIFhwb3NlZEVudi5jbGFzc0xvYWRlciA9IGxwcGFyYW0uY2xhc3NMb2FkZXIKICAgICAgICAgICAgWHBvc2VkRW52LmFwcEluZm8gPSBscHBhcmFtLmFwcEluZm8KICAgICAgICAgICAgWHBvc2VkRW52LnBhY2thZ2VOYW1lID0gbHBwYXJhbS5wYWNrYWdlTmFtZQogICAgICAgICAgICBYcG9zZWRFbnYucHJvY2Vzc05hbWUgPSBscHBhcmFtLnByb2Nlc3NOYW1lCgogICAgICAgICAgICBjdXN0b21Ib29rZXIgPSBBcHBsaWNhdGlvbkhvb2soKQoKICAgICAgICAgICAgWHBvc2VkQnJpZGdlLmxvZygiJHRhZzogSG9va2luZyAke2xwcGFyYW0ucGFja2FnZU5hbWV9IGluIHByb2Nlc3MgJHtscHBhcmFtLnByb2Nlc3NOYW1lfSIpCiAgICAgICAgICAgIC8vIOiwg+eUqOS9oOiHquW3seeahCBIb29rIOmAu+i+kQogICAgICAgICAgICBjdXN0b21Ib29rZXI/LmxvYWRQYWNrYWdlQ29tcGF0KGxwcGFyYW0pCgogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBYcG9zZWRCcmlkZ2UubG9nKCIkdGFnOiBIb29rIGZhaWxlZCAtICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIFhwb3NlZEJyaWRnZS5sb2coZSkKICAgICAgICB9CiAgICB9Cgp9Cg==
+package fansirsqi.xposed.sesame.hook.xp82
+
+import de.robv.android.xposed.IXposedHookLoadPackage
+import de.robv.android.xposed.XposedBridge
+import de.robv.android.xposed.callbacks.XC_LoadPackage
+import fansirsqi.xposed.sesame.data.General
+import fansirsqi.xposed.sesame.hook.ApplicationHook
+import fansirsqi.xposed.sesame.hook.XposedEnv
+
+/**
+ * 旧版 Xposed 框架（如 EdXposed、LSPosed < 1.9）入口
+ * 对应新框架 fansirsqi.xposed.sesame.hook.lsp100.HookEntry
+ */
+class HookEntry : IXposedHookLoadPackage {
+
+    private val tag = "Xp82Entry"
+    private var customHooker: ApplicationHook? = null
+
+    override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam) {
+        try {
+            // 只在目标应用执行
+            if (lpparam.packageName != General.PACKAGE_NAME) {
+                return
+            }
+            // 只在主进程执行（防止子进程重复初始化）
+            XposedEnv.classLoader = lpparam.classLoader
+            XposedEnv.appInfo = lpparam.appInfo
+            XposedEnv.packageName = lpparam.packageName
+            XposedEnv.processName = lpparam.processName
+
+            customHooker = ApplicationHook()
+
+            XposedBridge.log("$tag: Hooking ${lpparam.packageName} in process ${lpparam.processName}")
+            // 调用你自己的 Hook 逻辑
+            customHooker?.loadPackageCompat(lpparam)
+
+        } catch (e: Throwable) {
+            XposedBridge.log("$tag: Hook failed - ${e.message}")
+            XposedBridge.log(e)
+        }
+    }
+
+}

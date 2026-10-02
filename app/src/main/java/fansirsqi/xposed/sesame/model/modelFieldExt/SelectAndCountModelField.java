@@ -1,1 +1,90 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0OwppbXBvcnQgYW5kcm9pZC52aWV3LkdyYXZpdHk7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3R3JvdXA7CmltcG9ydCBhbmRyb2lkLndpZGdldC5CdXR0b247CmltcG9ydCBhbmRyb2lkLndpZGdldC5MaW5lYXJMYXlvdXQ7CgppbXBvcnQgYW5kcm9pZHguY29yZS5jb250ZW50LkNvbnRleHRDb21wYXQ7CgppbXBvcnQgamF2YS51dGlsLkxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLlI7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuTWFwcGVyRW50aXR5OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxGaWVsZDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLlNlbGVjdE1vZGVsRmllbGRGdW5jOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkud2lkZ2V0Lkxpc3REaWFsb2c7Ci8qKgogKiDmlbDmja7nu5PmnoTor7TmmI4KICogTWFwPFN0cmluZywgSW50ZWdlcj4g6KGo56S65bey6YCJ5oup55qE5pWw5o2u5LiO5bey57uP6K6+572u55qE5pWw6YeP5pig5bCE5YWz57O7CiAqIExpc3Q8PyBleHRlbmRzIElkQW5kTmFtZT4g6ZyA6KaB6YCJ5oup55qE5pWw5o2uCiAqLwpwdWJsaWMgY2xhc3MgU2VsZWN0QW5kQ291bnRNb2RlbEZpZWxkIGV4dGVuZHMgTW9kZWxGaWVsZDxNYXA8U3RyaW5nLCBJbnRlZ2VyPj4gaW1wbGVtZW50cyBTZWxlY3RNb2RlbEZpZWxkRnVuYyB7CiAgICBwcml2YXRlIFNlbGVjdExpc3RGdW5jIHNlbGVjdExpc3RGdW5jOwogICAgcHJpdmF0ZSBMaXN0PD8gZXh0ZW5kcyBNYXBwZXJFbnRpdHk+IGV4cGFuZFZhbHVlOwogICAgcHVibGljIFNlbGVjdEFuZENvdW50TW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIE1hcDxTdHJpbmcsIEludGVnZXI+IHZhbHVlLCBMaXN0PD8gZXh0ZW5kcyBNYXBwZXJFbnRpdHk+IGV4cGFuZFZhbHVlKSB7CiAgICAgICAgc3VwZXIoY29kZSwgbmFtZSwgdmFsdWUpOwogICAgICAgIHRoaXMuZXhwYW5kVmFsdWUgPSBleHBhbmRWYWx1ZTsKICAgIH0KICAgIHB1YmxpYyBTZWxlY3RBbmRDb3VudE1vZGVsRmllbGQoU3RyaW5nIGNvZGUsIFN0cmluZyBuYW1lLCBNYXA8U3RyaW5nLCBJbnRlZ2VyPiB2YWx1ZSwgU2VsZWN0TGlzdEZ1bmMgc2VsZWN0TGlzdEZ1bmMpIHsKICAgICAgICBzdXBlcihjb2RlLCBuYW1lLCB2YWx1ZSk7CiAgICAgICAgdGhpcy5zZWxlY3RMaXN0RnVuYyA9IHNlbGVjdExpc3RGdW5jOwogICAgfQogICAgcHVibGljIFNlbGVjdEFuZENvdW50TW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIE1hcDxTdHJpbmcsIEludGVnZXI+IHZhbHVlLCBMaXN0PD8gZXh0ZW5kcyBNYXBwZXJFbnRpdHk+IGV4cGFuZFZhbHVlLCBTdHJpbmcgZGVzYykgewogICAgICAgIHN1cGVyKGNvZGUsIG5hbWUsIHZhbHVlLCBkZXNjKTsKICAgICAgICB0aGlzLmV4cGFuZFZhbHVlID0gZXhwYW5kVmFsdWU7CiAgICB9CiAgICBwdWJsaWMgU2VsZWN0QW5kQ291bnRNb2RlbEZpZWxkKFN0cmluZyBjb2RlLCBTdHJpbmcgbmFtZSwgTWFwPFN0cmluZywgSW50ZWdlcj4gdmFsdWUsIFNlbGVjdExpc3RGdW5jIHNlbGVjdExpc3RGdW5jLCBTdHJpbmcgZGVzYykgewogICAgICAgIHN1cGVyKGNvZGUsIG5hbWUsIHZhbHVlLCBkZXNjKTsKICAgICAgICB0aGlzLnNlbGVjdExpc3RGdW5jID0gc2VsZWN0TGlzdEZ1bmM7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0VHlwZSgpIHsKICAgICAgICByZXR1cm4gIlNFTEVDVF9BTkRfQ09VTlQiOwogICAgfQogICAgcHVibGljIExpc3Q8PyBleHRlbmRzIE1hcHBlckVudGl0eT4gZ2V0RXhwYW5kVmFsdWUoKSB7CiAgICAgICAgcmV0dXJuIHNlbGVjdExpc3RGdW5jID09IG51bGwgPyBleHBhbmRWYWx1ZSA6IHNlbGVjdExpc3RGdW5jLmdldExpc3QoKTsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIFZpZXcgZ2V0VmlldyhDb250ZXh0IGNvbnRleHQpIHsKICAgICAgICBCdXR0b24gYnRuID0gbmV3IEJ1dHRvbihjb250ZXh0KTsKICAgICAgICBidG4uc2V0VGV4dChnZXROYW1lKCkpOwogICAgICAgIGJ0bi5zZXRMYXlvdXRQYXJhbXMobmV3IExpbmVhckxheW91dC5MYXlvdXRQYXJhbXMoVmlld0dyb3VwLkxheW91dFBhcmFtcy5NQVRDSF9QQVJFTlQsIFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuV1JBUF9DT05URU5UKSk7CiAgICAgICAgYnRuLnNldFRleHRDb2xvcihDb250ZXh0Q29tcGF0LmdldENvbG9yKGNvbnRleHQsIFIuY29sb3Iuc2VsZWN0aW9uX2NvbG9yKSk7CiAgICAgICAgYnRuLnNldEJhY2tncm91bmQoQ29udGV4dENvbXBhdC5nZXREcmF3YWJsZShjb250ZXh0LCBSLmRyYXdhYmxlLmRpYWxvZ19saXN0X2J1dHRvbikpOwogICAgICAgIGJ0bi5zZXRHcmF2aXR5KEdyYXZpdHkuU1RBUlQgfCBHcmF2aXR5LkNFTlRFUl9WRVJUSUNBTCk7CiAgICAgICAgYnRuLnNldE1pbkhlaWdodCgxNTApOwogICAgICAgIGJ0bi5zZXRNYXhIZWlnaHQoMTgwKTsKICAgICAgICBidG4uc2V0UGFkZGluZ1JlbGF0aXZlKDQwLCAwLCA0MCwgMCk7CiAgICAgICAgYnRuLnNldEFsbENhcHMoZmFsc2UpOwogICAgICAgIGJ0bi5zZXRPbkNsaWNrTGlzdGVuZXIodiAtPiBMaXN0RGlhbG9nLnNob3codi5nZXRDb250ZXh0KCksICgoQnV0dG9uKSB2KS5nZXRUZXh0KCksIHRoaXMpKTsKICAgICAgICByZXR1cm4gYnRuOwogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBjbGVhcigpIHsKICAgICAgICBnZXRWYWx1ZSgpLmNsZWFyKCk7CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBJbnRlZ2VyIGdldChTdHJpbmcgaWQpIHsKICAgICAgICByZXR1cm4gZ2V0VmFsdWUoKS5nZXQoaWQpOwogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBhZGQoU3RyaW5nIGlkLCBJbnRlZ2VyIGNvdW50KSB7CiAgICAgICAgZ2V0VmFsdWUoKS5wdXQoaWQsIGNvdW50KTsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgcmVtb3ZlKFN0cmluZyBpZCkgewogICAgICAgIGdldFZhbHVlKCkucmVtb3ZlKGlkKTsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIEJvb2xlYW4gY29udGFpbnMoU3RyaW5nIGlkKSB7CiAgICAgICAgcmV0dXJuIGdldFZhbHVlKCkuY29udGFpbnNLZXkoaWQpOwogICAgfQoKICAgIHB1YmxpYyBpbnRlcmZhY2UgU2VsZWN0TGlzdEZ1bmMgewogICAgICAgIExpc3Q8PyBleHRlbmRzIE1hcHBlckVudGl0eT4gZ2V0TGlzdCgpOwogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+
+import android.content.Context;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+
+import androidx.core.content.ContextCompat;
+
+import java.util.List;
+import java.util.Map;
+
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.entity.MapperEntity;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
+import fansirsqi.xposed.sesame.ui.widget.ListDialog;
+/**
+ * 数据结构说明
+ * Map<String, Integer> 表示已选择的数据与已经设置的数量映射关系
+ * List<? extends IdAndName> 需要选择的数据
+ */
+public class SelectAndCountModelField extends ModelField<Map<String, Integer>> implements SelectModelFieldFunc {
+    private SelectListFunc selectListFunc;
+    private List<? extends MapperEntity> expandValue;
+    public SelectAndCountModelField(String code, String name, Map<String, Integer> value, List<? extends MapperEntity> expandValue) {
+        super(code, name, value);
+        this.expandValue = expandValue;
+    }
+    public SelectAndCountModelField(String code, String name, Map<String, Integer> value, SelectListFunc selectListFunc) {
+        super(code, name, value);
+        this.selectListFunc = selectListFunc;
+    }
+    public SelectAndCountModelField(String code, String name, Map<String, Integer> value, List<? extends MapperEntity> expandValue, String desc) {
+        super(code, name, value, desc);
+        this.expandValue = expandValue;
+    }
+    public SelectAndCountModelField(String code, String name, Map<String, Integer> value, SelectListFunc selectListFunc, String desc) {
+        super(code, name, value, desc);
+        this.selectListFunc = selectListFunc;
+    }
+    @Override
+    public String getType() {
+        return "SELECT_AND_COUNT";
+    }
+    public List<? extends MapperEntity> getExpandValue() {
+        return selectListFunc == null ? expandValue : selectListFunc.getList();
+    }
+    @Override
+    public View getView(Context context) {
+        Button btn = new Button(context);
+        btn.setText(getName());
+        btn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        btn.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+        btn.setBackground(ContextCompat.getDrawable(context, R.drawable.dialog_list_button));
+        btn.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+        btn.setMinHeight(150);
+        btn.setMaxHeight(180);
+        btn.setPaddingRelative(40, 0, 40, 0);
+        btn.setAllCaps(false);
+        btn.setOnClickListener(v -> ListDialog.show(v.getContext(), ((Button) v).getText(), this));
+        return btn;
+    }
+    @Override
+    public void clear() {
+        getValue().clear();
+    }
+    @Override
+    public Integer get(String id) {
+        return getValue().get(id);
+    }
+    @Override
+    public void add(String id, Integer count) {
+        getValue().put(id, count);
+    }
+    @Override
+    public void remove(String id) {
+        getValue().remove(id);
+    }
+    @Override
+    public Boolean contains(String id) {
+        return getValue().containsKey(id);
+    }
+
+    public interface SelectListFunc {
+        List<? extends MapperEntity> getList();
+    }
+}

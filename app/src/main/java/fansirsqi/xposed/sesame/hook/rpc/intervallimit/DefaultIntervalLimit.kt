@@ -1,1 +1,5 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5pbnRlcnZhbGxpbWl0CgpjbGFzcyBEZWZhdWx0SW50ZXJ2YWxMaW1pdChvdmVycmlkZSB2YWwgaW50ZXJ2YWw6IEludD8pIDogSW50ZXJ2YWxMaW1pdCB7CiAgICBvdmVycmlkZSB2YXIgdGltZTogTG9uZyA9IDAKfQ==
+package fansirsqi.xposed.sesame.hook.rpc.intervallimit
+
+class DefaultIntervalLimit(override val interval: Int?) : IntervalLimit {
+    override var time: Long = 0
+}

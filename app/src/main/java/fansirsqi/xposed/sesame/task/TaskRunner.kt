@@ -1,1 +1,245 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrCgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZGF0YS5TdGF0dXMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suQXBwbGljYXRpb25Ib29rCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5CYXNlTW9kZWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLkN1c3RvbVNldHRpbmdzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5jdXN0b21UYXNrcy5NYW51YWxUYXNrCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5UaW1lVXRpbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNhbmNlbGxhdGlvbkV4Y2VwdGlvbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlRpbWVvdXRDYW5jZWxsYXRpb25FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5hc3luYwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmF3YWl0QWxsCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLlNlbWFwaG9yZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aFBlcm1pdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhUaW1lb3V0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0ludGVnZXIKCi8qKgogKiDljY/nqIvku7vliqHmiafooYzlmaggKOS8mOWMlueJiCkKICoKICog5qC45b+D5pS56L+bOgogKiAxLiAqKuW5tuWPkeaJp+ihjCoqOiDmlK/mjIHku7vliqHlubblj5Hov5DooYzvvIznvKnnn63mgLvogJfml7bjgIIKICogMi4gKirnlJ/lkb3lkajmnJ8qKjog57uR5a6a5Yiw6LCD55So6ICF55qE55Sf5ZG95ZGo5pyf77yM6Ziy5q2i5rOE5ryP44CCCiAqIDMuICoq6YC76L6R566A5YyWKio6IOenu+mZpOWkjeadgueahOWuvemZkOacn+W1jOWll++8jOS9v+eUqOagh+WHhueahOWNj+eoi+i2heaXtuacuuWItuOAggogKi8KY2xhc3MgQ29yb3V0aW5lVGFza1J1bm5lcihhbGxNb2RlbHM6IExpc3Q8TW9kZWw+KSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkNvcm91dGluZVRhc2tSdW5uZXIiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgREVGQVVMVF9UQVNLX1RJTUVPVVQgPSAxMCAqIDYwICogMTAwMEwgLy8gMTDliIbpkp8KCiAgICAgICAgLy8g5pyA5aSn5bm25Y+R5pWw77yM6Ziy5q2i6K+35rGC6L+H5LqO6aKR57mB6Kem5Y+R6aOO5o6nCiAgICAgICAgLy8g5Y+v5Lul5YGa5oiQ6YWN572u6aG577yM55uu5YmN56Gs57yW56CB5Li6IDMKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVhfQ09OQ1VSUkVOQ1kgPSAzCgogICAgICAgIHByaXZhdGUgdmFsIFRJTUVPVVRfV0hJVEVMSVNUID0gc2V0T2YoIuajruaelyIsICLluoTlm60iLCAi6L+Q5YqoIikKICAgIH0KCiAgICBwcml2YXRlIHZhbCB0YXNrTGlzdDogTGlzdDxNb2RlbFRhc2s+ID0gYWxsTW9kZWxzLmZpbHRlcklzSW5zdGFuY2U8TW9kZWxUYXNrPigpCgogICAgLy8g57uf6K6h5pWw5o2uCiAgICBwcml2YXRlIHZhbCBzdWNjZXNzQ291bnQgPSBBdG9taWNJbnRlZ2VyKDApCiAgICBwcml2YXRlIHZhbCBmYWlsdXJlQ291bnQgPSBBdG9taWNJbnRlZ2VyKDApCiAgICBwcml2YXRlIHZhbCBza2lwcGVkQ291bnQgPSBBdG9taWNJbnRlZ2VyKDApCiAgICBwcml2YXRlIHZhbCB0YXNrRXhlY3V0aW9uVGltZXMgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIExvbmc+KCkKCiAgICAvKioKICAgICAqIOWQr+WKqOS7u+WKoeaJp+ihjOa1geeoiwogICAgICog5rOo5oSP77ya546w5Zyo6L+Z5piv5LiA5LiqIHN1c3BlbmQg5Ye95pWw77yM6ZyA6KaB5Zyo5LiA5Liq5Y2P56iL5L2c55So5Z+f5YaF6LCD55SoCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHJ1bigKICAgICAgICBpc0ZpcnN0OiBCb29sZWFuID0gdHJ1ZSwKICAgICAgICByb3VuZHM6IEludCA9IEJhc2VNb2RlbC50YXNrRXhlY3V0aW9uUm91bmRzLnZhbHVlCiAgICApID0gY29yb3V0aW5lU2NvcGUgeyAvLyDkvb/nlKggY29yb3V0aW5lU2NvcGUg5Yib5bu65a2Q5L2c55So5Z+fCiAgICAgICAgdmFsIHN0YXJ0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCgogICAgICAgIC8vIOOAkOS6kuaWpeajgOafpeOAkeWmguaenOaJi+WKqOS7u+WKoea1geato+WcqOi/kOihjO+8jOWImei3s+i/h+acrOasoeiHquWKqOaJp+ihjAogICAgICAgIGlmIChNYW51YWxUYXNrLmlzTWFudWFsUnVubmluZykgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKPuCDmo4DmtYvliLDigJzmiYvliqjluoTlm63ku7vliqHmtYHigJ3mraPlnKjov5DooYzkuK3vvIzot7Pov4fmnKzmrKHoh6rliqjku7vliqHosIPluqYiKQogICAgICAgICAgICByZXR1cm5AY29yb3V0aW5lU2NvcGUKICAgICAgICB9CgogICAgICAgIGlmIChpc0ZpcnN0KSB7CiAgICAgICAgICAgIEFwcGxpY2F0aW9uSG9vay51cGRhdGVEYXkoKQogICAgICAgICAgICByZXNldENvdW50ZXJzKCkKICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi8J+agCDlvIDlp4vmiafooYzku7vliqHmtYHnqIsgKOW5tuWPkeaVsDogJE1BWF9DT05DVVJSRU5DWSkiKQoKICAgICAgICAgICAgQ3VzdG9tU2V0dGluZ3MubG9hZEZvclRhc2tSdW5uZXIoKQogICAgICAgICAgICB2YWwgc3RhdHVzID0gQ3VzdG9tU2V0dGluZ3MuZ2V0T25jZURhaWx5U3RhdHVzKGVuYWJsZUxvZyA9IHRydWUpCgogICAgICAgICAgICAvLyDmiafooYzlpJrova7ku7vliqEKICAgICAgICAgICAgcmVwZWF0KHJvdW5kcykgeyByb3VuZEluZGV4IC0+CiAgICAgICAgICAgICAgICB2YWwgcm91bmQgPSByb3VuZEluZGV4ICsgMQogICAgICAgICAgICAgICAgZXhlY3V0ZVJvdW5kKHJvdW5kLCByb3VuZHMsIHN0YXR1cykKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKEN1c3RvbVNldHRpbmdzLm9ubHlPbmNlRGFpbHkudmFsdWUpIHsKICAgICAgICAgICAgICAgIC8vIOehruS/neaXtumXtOeKtuaAgeaYr+acgOaWsOeahAogICAgICAgICAgICAgICAgVGFza0NvbW1vbi51cGRhdGUoKQogICAgICAgICAgICAgICAgaWYgKFRhc2tDb21tb24uSVNfTU9EVUxFX1NMRUVQX1RJTUUpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIvCfkqQg5b2T5YmN5aSE5LqO5qih5Z2X5LyR55yg5pe26Ze077yM5LiN6K6+572uIE9uY2VEYWlseTo6RmluaXNoZWQg5qCH6K6wIikKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgU3RhdHVzLnNldEZsYWdUb2RheSgiT25jZURhaWx5OjpGaW5pc2hlZCIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgfSBjYXRjaCAoZTogQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi8J+aqyDku7vliqHmtYHnqIvooqvlj5bmtogiKQogICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi5Lu75Yqh5rWB56iL5byC5bi4IiwgZSkKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBwcmludEV4ZWN1dGlvblN1bW1hcnkoc3RhcnRUaW1lLCBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKICAgICAgICAgICAgc2NoZWR1bGVOZXh0KCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmiafooYzkuIDova7ku7vliqEgKOW5tuWPkeaooeW8jykKICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBleGVjdXRlUm91bmQocm91bmQ6IEludCwgdG90YWxSb3VuZHM6IEludCwgc3RhdHVzOiBDdXN0b21TZXR0aW5ncy5PbmNlRGFpbHlTdGF0dXMpID0gY29yb3V0aW5lU2NvcGUgewogICAgICAgIHZhbCByb3VuZFN0YXJ0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCgogICAgICAgIC8vIDEuIOetm+mAieS7u+WKoQogICAgICAgIHZhbCB0YXNrc1RvUnVuID0gdGFza0xpc3QuZmlsdGVyIHsgdGFzayAtPgogICAgICAgICAgICB0YXNrLmlzRW5hYmxlICYmICFDdXN0b21TZXR0aW5ncy5pc09uY2VEYWlseUJsYWNrTGlzdGVkKHRhc2suZ2V0TmFtZSgpLCBzdGF0dXMpCiAgICAgICAgfQoKICAgICAgICB2YWwgZXhjbHVkZWRDb3VudCA9IHRhc2tMaXN0LmNvdW50IHsgaXQuaXNFbmFibGUgfSAtIHRhc2tzVG9SdW4uc2l6ZQogICAgICAgIGlmIChleGNsdWRlZENvdW50ID4gMCkgc2tpcHBlZENvdW50LmFkZEFuZEdldChleGNsdWRlZENvdW50KQoKICAgICAgICBMb2cucmVjb3JkKFRBRywgIvCflIQgW+esrCAkcm91bmQvJHRvdGFsUm91bmRzIOi9rl0g5byA5aeL77yM5YWxICR7dGFza3NUb1J1bi5zaXplfSDkuKrku7vliqEiKQoKICAgICAgICAvLyAyLiDlubblj5HmiafooYwKICAgICAgICAvLyDkvb/nlKggU2VtYXBob3JlIOmZkOWItuW5tuWPkeaVsOmHjwogICAgICAgIHZhbCBzZW1hcGhvcmUgPSBTZW1hcGhvcmUoTUFYX0NPTkNVUlJFTkNZKQoKICAgICAgICAvLyDliJvlu7rmiYDmnInku7vliqHnmoQgRGVmZXJyZWQg5a+56LGhCiAgICAgICAgdmFsIGRlZmVycmVkcyA9IHRhc2tzVG9SdW4ubWFwIHsgdGFzayAtPgogICAgICAgICAgICBhc3luYyB7CiAgICAgICAgICAgICAgICAvLyDjgJDkupLmlqXmo4Dmn6XjgJHlho3mrKHmo4Dmn6XmiYvliqjku7vliqHvvIzpmLLmraLlubblj5HlkK/liqgKICAgICAgICAgICAgICAgIGlmIChNYW51YWxUYXNrLmlzTWFudWFsUnVubmluZykgewogICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKPuCDku7vliqEgJHt0YXNrLmdldE5hbWUoKX0g5Zug5omL5Yqo5qih5byP5ZCv5Yqo6ICM5Lit5q2iIikKICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQGFzeW5jCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzZW1hcGhvcmUud2l0aFBlcm1pdCB7CiAgICAgICAgICAgICAgICAgICAgZXhlY3V0ZVNpbmdsZVRhc2sodGFzaywgcm91bmQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIDMuIOetieW+heacrOi9ruaJgOacieS7u+WKoeWujOaIkAogICAgICAgIGRlZmVycmVkcy5hd2FpdEFsbCgpCgogICAgICAgIHZhbCByb3VuZFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHJvdW5kU3RhcnRUaW1lCiAgICAgICAgTG9nLnJlY29yZChUQUcsICLinIUgW+esrCAkcm91bmQvJHRvdGFsUm91bmRzIOi9rl0g57uT5p2f77yM6ICX5pe2OiAke3JvdW5kVGltZX1tcyIpCiAgICB9CgogICAgLyoqCiAgICAgKiDmiafooYzljZXkuKrku7vliqEKICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBleGVjdXRlU2luZ2xlVGFzayh0YXNrOiBNb2RlbFRhc2ssIHJvdW5kOiBJbnQpIHsKICAgICAgICB2YWwgdGFza05hbWUgPSB0YXNrLmdldE5hbWUoKSA/OiAi5pyq55+l5Lu75YqhIgogICAgICAgIHZhbCB0YXNrSWQgPSAiJHRhc2tOYW1lLVIkcm91bmQiCiAgICAgICAgdmFsIHN0YXJ0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCgogICAgICAgIHZhbCBpc1doaXRlbGlzdCA9IFRJTUVPVVRfV0hJVEVMSVNULmNvbnRhaW5zKHRhc2tOYW1lKQoKICAgICAgICAvLyDlpoLmnpzmmK/nmb3lkI3ljZXku7vliqHvvIjlpoLmo67mnpfvvInvvIzlroPku6zlvoDlvoDmmK/igJzlkK/liqjlkI7ljbPop4bkuLrlrozmiJDigJ3vvIzmiJbogIXmmK/plb/ov5DooYzku7vliqEKICAgICAgICAvLyDmiJHku6zlj6/ku6Xnu5nkuIDkuKrovoPnn63nmoTigJzlkK/liqjotoXml7bml7bpl7TigJ3vvIzogIzkuI3mmK/nrYnlvoXmlbTkuKrku7vliqHnu5PmnZ8KICAgICAgICB2YWwgdGltZW91dCA9IGlmIChpc1doaXRlbGlzdCkgMzBfMDAwTCBlbHNlIERFRkFVTFRfVEFTS19USU1FT1VUCgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi4pa277iPIOWQr+WKqDogJHRhc2tJZCIpCiAgICAgICAgICAgIHRhc2suYWRkUnVuQ2VudHMoKQoKICAgICAgICAgICAgd2l0aFRpbWVvdXQodGltZW91dCkgewogICAgICAgICAgICAgICAgLy8gc3RhcnRUYXNrIOaYr+S4gOS4qiBzdXNwZW5kIOWHveaVsO+8jOaIluiAhei/lOWbnuS4gOS4qiBKb2IKICAgICAgICAgICAgICAgIC8vIOWBh+iuviB0YXNrLnN0YXJ0VGFzayDnjrDlnKjmmK8gc3VzcGVuZCDnmoTvvIzmiJbogIXmiJHku6wgd3JhcCDkuIDkuIsKICAgICAgICAgICAgICAgIHZhbCBqb2IgPSB0YXNrLnN0YXJ0VGFzayhmb3JjZSA9IGZhbHNlLCByb3VuZHMgPSAxKQoKICAgICAgICAgICAgICAgIC8vIOWmguaenOaYr+eZveWQjeWNleS7u+WKoe+8jOaIkeS7rOWPquetieW+heWug+WQr+WKqOaIkOWKn++8iGpvYiBhY3RpdmXvvInvvIzkuI0gam9pbgogICAgICAgICAgICAgICAgaWYgKGlzV2hpdGVsaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGpvYi5pc0FjdGl2ZSkgewogICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKcqCAkdGFza0lkIOWQr+WKqOaIkOWKnyAo5ZCO5Y+w6L+Q6KGM5LitKSIpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoVGltZW91dAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyDmma7pgJrku7vliqHnrYnlvoXlrozmiJAKICAgICAgICAgICAgICAgIGpvYi5qb2luKCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5oiQ5YqfCiAgICAgICAgICAgIHZhbCB0aW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSBzdGFydFRpbWUKICAgICAgICAgICAgc3VjY2Vzc0NvdW50LmluY3JlbWVudEFuZEdldCgpCiAgICAgICAgICAgIHRhc2tFeGVjdXRpb25UaW1lc1t0YXNrSWRdID0gdGltZQogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKchSDlrozmiJA6ICR0YXNrSWQgKOiAl+aXtjogJHt0aW1lfW1zKSIpCgogICAgICAgIH0gY2F0Y2ggKGU6IFRpbWVvdXRDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgdmFsIHRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0VGltZQoKICAgICAgICAgICAgaWYgKGlzV2hpdGVsaXN0KSB7CiAgICAgICAgICAgICAgICAvLyDnmb3lkI3ljZXku7vliqHotoXml7bpgJrluLjmhI/lkbPnnYDlroPov5jlnKjlkI7lj7Dot5HvvIzop4bkvZzmiJDlip8KICAgICAgICAgICAgICAgIHN1Y2Nlc3NDb3VudC5pbmNyZW1lbnRBbmRHZXQoKQogICAgICAgICAgICAgICAgdGFza0V4ZWN1dGlvblRpbWVzW3Rhc2tJZF0gPSB0aW1lCiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKchSAkdGFza0lkIOW3sui/kOihjCAke3RpbWV9bXMgKOWQjuWPsOe7p+e7rSkiKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgLy8g5pmu6YCa5Lu75Yqh6LaF5pe2IC0+IOWksei0pQogICAgICAgICAgICAgICAgZmFpbHVyZUNvdW50LmluY3JlbWVudEFuZEdldCgpCiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi4o+wIOi2heaXtjogJHRhc2tJZCAoJHt0aW1lfW1zID4gJHt0aW1lb3V0fW1zKSIpCiAgICAgICAgICAgICAgICAvLyDlsJ3or5XlgZzmraLku7vliqEKICAgICAgICAgICAgICAgIHRhc2suc3RvcFRhc2soKQogICAgICAgICAgICB9CgogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICB2YWwgdGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnRUaW1lCiAgICAgICAgICAgIGZhaWx1cmVDb3VudC5pbmNyZW1lbnRBbmRHZXQoKQogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi4p2MIOWksei0pTogJHRhc2tJZCAoJHtlLm1lc3NhZ2V9KSIpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNjaGVkdWxlTmV4dCgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBBcHBsaWNhdGlvbkhvb2suc2NoZWR1bGVOZXh0RXhlY3V0aW9uSW50ZXJuYWwoQXBwbGljYXRpb25Ib29rLmxhc3RFeGVjVGltZSkKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLwn5OFIOW3suiwg+W6puS4i+asoeaJp+ihjCIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi6LCD5bqm5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzZXRDb3VudGVycygpIHsKICAgICAgICBzdWNjZXNzQ291bnQuc2V0KDApCiAgICAgICAgZmFpbHVyZUNvdW50LnNldCgwKQogICAgICAgIHNraXBwZWRDb3VudC5zZXQoMCkKICAgICAgICB0YXNrRXhlY3V0aW9uVGltZXMuY2xlYXIoKQogICAgfQoKICAgIEBTdXBwcmVzc0xpbnQoIkRlZmF1bHRMb2NhbGUiKQogICAgcHJpdmF0ZSBmdW4gcHJpbnRFeGVjdXRpb25TdW1tYXJ5KHN0YXJ0VGltZTogTG9uZywgZW5kVGltZTogTG9uZykgewogICAgICAgIHZhbCB0b3RhbFRpbWUgPSBlbmRUaW1lIC0gc3RhcnRUaW1lCiAgICAgICAgdmFsIGF2Z1RpbWUgPSBpZiAodGFza0V4ZWN1dGlvblRpbWVzLmlzTm90RW1wdHkoKSkgdGFza0V4ZWN1dGlvblRpbWVzLnZhbHVlcy5hdmVyYWdlKCkgZWxzZSAwLjAKCiAgICAgICAgTG9nLnJlY29yZChUQUcsICLwn5OIID09PSDmiafooYznu5/orqEgKOW5tuWPkeaooeW8jykgPT09IikKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKPse+4jyDmgLvogJfml7Y6ICR7dG90YWxUaW1lfW1zIikKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuKchSDmiJDlip86ICR7c3VjY2Vzc0NvdW50LmdldCgpfSB8IOKdjCDlpLHotKU6ICR7ZmFpbHVyZUNvdW50LmdldCgpfSB8IOKPre+4jyDot7Pov4c6ICR7c2tpcHBlZENvdW50LmdldCgpfSIpCiAgICAgICAgaWYgKHRhc2tFeGVjdXRpb25UaW1lcy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLimqEg5bmz5Z2H6ICX5pe2OiAlLjBmbXMiLmZvcm1hdChhdmdUaW1lKSkKICAgICAgICB9CgogICAgICAgIHZhbCBuZXh0VGltZSA9IEFwcGxpY2F0aW9uSG9vay5uZXh0RXhlY3V0aW9uVGltZQogICAgICAgIGlmIChuZXh0VGltZSA+IDApIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLwn5OFIOS4i+asoTogJHtUaW1lVXRpbC5nZXRDb21tb25EYXRlKG5leHRUaW1lKX0iKQogICAgICAgIH0KICAgICAgICBMb2cucmVjb3JkKFRBRywgIj09PT09PT09PT09PT09PT09PT09PT09PT09PT0iKQogICAgfQp9
+package fansirsqi.xposed.sesame.task
+
+import android.annotation.SuppressLint
+import fansirsqi.xposed.sesame.data.Status
+import fansirsqi.xposed.sesame.hook.ApplicationHook
+import fansirsqi.xposed.sesame.model.BaseModel
+import fansirsqi.xposed.sesame.model.CustomSettings
+import fansirsqi.xposed.sesame.model.Model
+import fansirsqi.xposed.sesame.task.customTasks.ManualTask
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.TimeUtil
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.TimeoutCancellationException
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.sync.Semaphore
+import kotlinx.coroutines.sync.withPermit
+import kotlinx.coroutines.withTimeout
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.atomic.AtomicInteger
+
+/**
+ * 协程任务执行器 (优化版)
+ *
+ * 核心改进:
+ * 1. **并发执行**: 支持任务并发运行，缩短总耗时。
+ * 2. **生命周期**: 绑定到调用者的生命周期，防止泄漏。
+ * 3. **逻辑简化**: 移除复杂的宽限期嵌套，使用标准的协程超时机制。
+ */
+class CoroutineTaskRunner(allModels: List<Model>) {
+
+    companion object {
+        private const val TAG = "CoroutineTaskRunner"
+        private const val DEFAULT_TASK_TIMEOUT = 10 * 60 * 1000L // 10分钟
+
+        // 最大并发数，防止请求过于频繁触发风控
+        // 可以做成配置项，目前硬编码为 3
+        private const val MAX_CONCURRENCY = 3
+
+        private val TIMEOUT_WHITELIST = setOf("森林", "庄园", "运动")
+    }
+
+    private val taskList: List<ModelTask> = allModels.filterIsInstance<ModelTask>()
+
+    // 统计数据
+    private val successCount = AtomicInteger(0)
+    private val failureCount = AtomicInteger(0)
+    private val skippedCount = AtomicInteger(0)
+    private val taskExecutionTimes = ConcurrentHashMap<String, Long>()
+
+    /**
+     * 启动任务执行流程
+     * 注意：现在这是一个 suspend 函数，需要在一个协程作用域内调用
+     */
+    suspend fun run(
+        isFirst: Boolean = true,
+        rounds: Int = BaseModel.taskExecutionRounds.value
+    ) = coroutineScope { // 使用 coroutineScope 创建子作用域
+        val startTime = System.currentTimeMillis()
+
+        // 【互斥检查】如果手动任务流正在运行，则跳过本次自动执行
+        if (ManualTask.isManualRunning) {
+            Log.record(TAG, "⏸ 检测到“手动庄园任务流”正在运行中，跳过本次自动任务调度")
+            return@coroutineScope
+        }
+
+        if (isFirst) {
+            ApplicationHook.updateDay()
+            resetCounters()
+        }
+
+        try {
+            Log.record(TAG, "🚀 开始执行任务流程 (并发数: $MAX_CONCURRENCY)")
+
+            CustomSettings.loadForTaskRunner()
+            val status = CustomSettings.getOnceDailyStatus(enableLog = true)
+
+            // 执行多轮任务
+            repeat(rounds) { roundIndex ->
+                val round = roundIndex + 1
+                executeRound(round, rounds, status)
+            }
+
+            if (CustomSettings.onlyOnceDaily.value) {
+                // 确保时间状态是最新的
+                TaskCommon.update()
+                if (TaskCommon.IS_MODULE_SLEEP_TIME) {
+                    Log.record(TAG, "💤 当前处于模块休眠时间，不设置 OnceDaily::Finished 标记")
+                } else {
+                    Status.setFlagToday("OnceDaily::Finished")
+                }
+            }
+
+        } catch (e: CancellationException) {
+            Log.record(TAG, "🚫 任务流程被取消")
+            throw e
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "任务流程异常", e)
+        } finally {
+            printExecutionSummary(startTime, System.currentTimeMillis())
+            scheduleNext()
+        }
+    }
+
+    /**
+     * 执行一轮任务 (并发模式)
+     */
+    private suspend fun executeRound(round: Int, totalRounds: Int, status: CustomSettings.OnceDailyStatus) = coroutineScope {
+        val roundStartTime = System.currentTimeMillis()
+
+        // 1. 筛选任务
+        val tasksToRun = taskList.filter { task ->
+            task.isEnable && !CustomSettings.isOnceDailyBlackListed(task.getName(), status)
+        }
+
+        val excludedCount = taskList.count { it.isEnable } - tasksToRun.size
+        if (excludedCount > 0) skippedCount.addAndGet(excludedCount)
+
+        Log.record(TAG, "🔄 [第 $round/$totalRounds 轮] 开始，共 ${tasksToRun.size} 个任务")
+
+        // 2. 并发执行
+        // 使用 Semaphore 限制并发数量
+        val semaphore = Semaphore(MAX_CONCURRENCY)
+
+        // 创建所有任务的 Deferred 对象
+        val deferreds = tasksToRun.map { task ->
+            async {
+                // 【互斥检查】再次检查手动任务，防止并发启动
+                if (ManualTask.isManualRunning) {
+                     Log.record(TAG, "⏸ 任务 ${task.getName()} 因手动模式启动而中止")
+                     return@async
+                }
+                semaphore.withPermit {
+                    executeSingleTask(task, round)
+                }
+            }
+        }
+
+        // 3. 等待本轮所有任务完成
+        deferreds.awaitAll()
+
+        val roundTime = System.currentTimeMillis() - roundStartTime
+        Log.record(TAG, "✅ [第 $round/$totalRounds 轮] 结束，耗时: ${roundTime}ms")
+    }
+
+    /**
+     * 执行单个任务
+     */
+    private suspend fun executeSingleTask(task: ModelTask, round: Int) {
+        val taskName = task.getName() ?: "未知任务"
+        val taskId = "$taskName-R$round"
+        val startTime = System.currentTimeMillis()
+
+        val isWhitelist = TIMEOUT_WHITELIST.contains(taskName)
+
+        // 如果是白名单任务（如森林），它们往往是“启动后即视为完成”，或者是长运行任务
+        // 我们可以给一个较短的“启动超时时间”，而不是等待整个任务结束
+        val timeout = if (isWhitelist) 30_000L else DEFAULT_TASK_TIMEOUT
+
+        try {
+            Log.record(TAG, "▶️ 启动: $taskId")
+            task.addRunCents()
+
+            withTimeout(timeout) {
+                // startTask 是一个 suspend 函数，或者返回一个 Job
+                // 假设 task.startTask 现在是 suspend 的，或者我们 wrap 一下
+                val job = task.startTask(force = false, rounds = 1)
+
+                // 如果是白名单任务，我们只等待它启动成功（job active），不 join
+                if (isWhitelist) {
+                    if (job.isActive) {
+                        Log.record(TAG, "✨ $taskId 启动成功 (后台运行中)")
+                        return@withTimeout
+                    }
+                }
+
+                // 普通任务等待完成
+                job.join()
+            }
+
+            // 成功
+            val time = System.currentTimeMillis() - startTime
+            successCount.incrementAndGet()
+            taskExecutionTimes[taskId] = time
+            Log.record(TAG, "✅ 完成: $taskId (耗时: ${time}ms)")
+
+        } catch (e: TimeoutCancellationException) {
+            val time = System.currentTimeMillis() - startTime
+
+            if (isWhitelist) {
+                // 白名单任务超时通常意味着它还在后台跑，视作成功
+                successCount.incrementAndGet()
+                taskExecutionTimes[taskId] = time
+                Log.record(TAG, "✅ $taskId 已运行 ${time}ms (后台继续)")
+            } else {
+                // 普通任务超时 -> 失败
+                failureCount.incrementAndGet()
+                Log.error(TAG, "⏰ 超时: $taskId (${time}ms > ${timeout}ms)")
+                // 尝试停止任务
+                task.stopTask()
+            }
+
+        } catch (e: Exception) {
+            val time = System.currentTimeMillis() - startTime
+            failureCount.incrementAndGet()
+            Log.error(TAG, "❌ 失败: $taskId (${e.message})")
+        }
+    }
+
+    private fun scheduleNext() {
+        try {
+            ApplicationHook.scheduleNextExecutionInternal(ApplicationHook.lastExecTime)
+            Log.record(TAG, "📅 已调度下次执行")
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "调度失败", e)
+        }
+    }
+
+    private fun resetCounters() {
+        successCount.set(0)
+        failureCount.set(0)
+        skippedCount.set(0)
+        taskExecutionTimes.clear()
+    }
+
+    @SuppressLint("DefaultLocale")
+    private fun printExecutionSummary(startTime: Long, endTime: Long) {
+        val totalTime = endTime - startTime
+        val avgTime = if (taskExecutionTimes.isNotEmpty()) taskExecutionTimes.values.average() else 0.0
+
+        Log.record(TAG, "📈 === 执行统计 (并发模式) ===")
+        Log.record(TAG, "⏱️ 总耗时: ${totalTime}ms")
+        Log.record(TAG, "✅ 成功: ${successCount.get()} | ❌ 失败: ${failureCount.get()} | ⏭️ 跳过: ${skippedCount.get()}")
+        if (taskExecutionTimes.isNotEmpty()) {
+            Log.record(TAG, "⚡ 平均耗时: %.0fms".format(avgTime))
+        }
+
+        val nextTime = ApplicationHook.nextExecutionTime
+        if (nextTime > 0) {
+            Log.record(TAG, "📅 下次: ${TimeUtil.getCommonDate(nextTime)}")
+        }
+        Log.record(TAG, "============================")
+    }
+}

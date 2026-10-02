@@ -1,1 +1,236 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uY29udGVudAoKaW1wb3J0IFNldHRpbmdzU3dpdGNoSXRlbQppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5BcnJhbmdlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUGFkZGluZ1ZhbHVlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Q29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5pdGVtcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5hdXRvbWlycm9yZWQucm91bmRlZC5MaWJyYXJ5Qm9va3MKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuYXV0b21pcnJvcmVkLnJvdW5kZWQuT3BlbkluTmV3CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmF1dG9taXJyb3JlZC5yb3VuZGVkLlNlbmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMub3V0bGluZWQuV2FybmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5yb3VuZGVkLkJ1Z1JlcG9ydAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5yb3VuZGVkLkRlbGV0ZUZvcmV2ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMucm91bmRlZC5FeHRlbnNpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMucm91bmRlZC5BbmFseXRpY3MKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMucm91bmRlZC5Hcm91cHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMucm91bmRlZC5QYWxldHRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLnJvdW5kZWQuU2F0ZWxsaXRlQWx0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbFVyaUhhbmRsZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuQnVpbGRDb25maWcKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5Vc2VyRW50aXR5CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5NYWluQWN0aXZpdHkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLk1hbnVhbFRhc2tBY3Rpdml0eQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuUnBjQ2FwdHVyZUFjdGl2aXR5CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5ScGNEZWJ1Z0FjdGl2aXR5CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5jb21wb3NlLkNvbW1vbkFsZXJ0RGlhbG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5leHRlbnNpb24uam9pblFRR3JvdXAKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLnNjcmVlbi5jb21wb25lbnRzLlNldHRpbmdzSXRlbQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudWkuc2NyZWVuLmNvbXBvbmVudHMuVXNlckl0ZW1DYXJkCgoKQENvbXBvc2FibGUKZnVuIFNldHRpbmdzQ29udGVudCgKICAgIHVzZXJMaXN0OiBMaXN0PFVzZXJFbnRpdHk+LAogICAgaXNEeW5hbWljQ29sb3I6IEJvb2xlYW4sICAgICAgICAgIC8vIOaWsOWinuWPguaVsAogICAgb25Ub2dnbGVEeW5hbWljQ29sb3I6IChCb29sZWFuKSAtPiBVbml0LCAvLyDmlrDlop7lj4LmlbAKICAgIG9uTmF2aWdhdGVUb1NldHRpbmdzOiAoVXNlckVudGl0eSkgLT4gVW5pdCwKICAgIG9uRXZlbnQ6IChNYWluQWN0aXZpdHkuTWFpblVpRXZlbnQpIC0+IFVuaXQKKSB7CiAgICAvLyDnirbmgIHlrprkuYnlnKjmnIDlpJblsYIKICAgIHZhciBzaG93Q2xlYXJDb25maWdEaWFsb2cgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgdmFsIHVyaUhhbmRsZXIgPSBMb2NhbFVyaUhhbmRsZXIuY3VycmVudAoKICAgIC8vIOS9v+eUqCBCb3gg5oiWIENvbHVtbiDljIXoo7nvvIzmiJbogIXnm7TmjqXlubPpk7oKICAgIEJveChtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkpIHsKCiAgICAgICAgLy8gMS4g5YiX6KGo5YaF5a65CiAgICAgICAgTGF6eUNvbHVtbigKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4U2l6ZSgpLAogICAgICAgICAgICBjb250ZW50UGFkZGluZyA9IFBhZGRpbmdWYWx1ZXMoMTYuZHApLC8v5Zyo5YiX6KGo5YaF5a6555qE5Zub5ZGo77yI5LiK44CB5LiL44CB5bem44CB5Y+z77yJ5ZCE5re75YqgIDE2ZHAg55qE5YaF6L656LedCiAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKS8v5Zyo5q+P5Liq5YiX6KGo6aG55LmL6Ze05re75YqgIOWbuuWumumXtOi3nQogICAgICAgICkgewogICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9ICLotKblj7fphY3nva4iLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsTGFyZ2UsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKHVzZXJMaXN0LmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgaXRlbSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9ICLmmoLml6Dlt7Lovb3lhaXnmoTnlKjmiLfphY3nva7jgIIiLAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub3V0bGluZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGl0ZW1zKHVzZXJMaXN0KSB7IHVzZXIgLT4KICAgICAgICAgICAgICAgICAgICBVc2VySXRlbUNhcmQodXNlciA9IHVzZXIsIG9uQ2xpY2sgPSB7IG9uTmF2aWdhdGVUb1NldHRpbmdzKHVzZXIpIH0pCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOmAmueUqOWKn+iDvemDqOWIhgogICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSAi5omp5bGVJuWkluingiIsCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxMYXJnZSwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgIFNldHRpbmdzSXRlbSgKICAgICAgICAgICAgICAgICAgICB0aXRsZSA9ICLmianlsZXlip/og70iLAogICAgICAgICAgICAgICAgICAgIGljb24gPSBJY29ucy5Sb3VuZGVkLkV4dGVuc2lvbiwKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBvbkV2ZW50KE1haW5BY3Rpdml0eS5NYWluVWlFdmVudC5PcGVuRXh0ZW5kKSB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCgoKICAgICAgICAgICAgaWYgKEJ1aWxkQ29uZmlnLkRFQlVHKSB7CiAgICAgICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgICAgICBTZXR0aW5nc0l0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gIlJQQyDosIPor5Xlt6XlhbciLAogICAgICAgICAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuUm91bmRlZC5CdWdSZXBvcnQsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDnm7TmjqXot7PovawgQWN0aXZpdHkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShJbnRlbnQoY29udGV4dCwgUnBjRGVidWdBY3Rpdml0eTo6Y2xhc3MuamF2YSkpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaXRlbSB7CiAgICAgICAgICAgICAgICAgICAgU2V0dGluZ3NJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICB0aXRsZSA9ICLmiYvliqjosIPluqbku7vliqEiLAogICAgICAgICAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuUm91bmRlZC5TYXRlbGxpdGVBbHQsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LnN0YXJ0QWN0aXZpdHkoSW50ZW50KGNvbnRleHQsIE1hbnVhbFRhc2tBY3Rpdml0eTo6Y2xhc3MuamF2YSkpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaXRlbSB7CiAgICAgICAgICAgICAgICAgICAgU2V0dGluZ3NJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICB0aXRsZSA9ICLmn6XnnItSUEPmipPljIXmlbDmja4iLAogICAgICAgICAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuQXV0b01pcnJvcmVkLlJvdW5kZWQuTGlicmFyeUJvb2tzLAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBvbkV2ZW50KE1haW5BY3Rpdml0eS5NYWluVWlFdmVudC5PcGVuQ2FwdHVyZUxvZykgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgICAgICBTZXR0aW5nc0l0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gIuaKk+WMheWIhuaekCjmjJHmjqXlj6PihpLlr7zlh7opIiwKICAgICAgICAgICAgICAgICAgICAgICAgc3VidGl0bGUgPSAi5Zyo5omL5py65LiK562b6YCJIFJQQyDlubblr7zlh7rnu5nnlLXohJHnlJ/miJDku7vliqEiLAogICAgICAgICAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuUm91bmRlZC5BbmFseXRpY3MsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LnN0YXJ0QWN0aXZpdHkoSW50ZW50KGNvbnRleHQsIFJwY0NhcHR1cmVBY3Rpdml0eTo6Y2xhc3MuamF2YSkpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5TKSB7CiAgICAgICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgICAgICBTZXR0aW5nc1N3aXRjaEl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gIuWKqOaAgeWPluiJsiIsCiAgICAgICAgICAgICAgICAgICAgICAgIHN1YnRpdGxlID0gIui3n+maj+Wjgee6uOminOiJsiAoTWF0ZXJpYWwgWW91KSIsCiAgICAgICAgICAgICAgICAgICAgICAgIGljb24gPSBJY29ucy5Sb3VuZGVkLlBhbGV0dGUsCiAgICAgICAgICAgICAgICAgICAgICAgIGNoZWNrZWQgPSBpc0R5bmFtaWNDb2xvciwKICAgICAgICAgICAgICAgICAgICAgICAgb25DaGVja2VkQ2hhbmdlID0gb25Ub2dnbGVEeW5hbWljQ29sb3IKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGl0ZW0gewogICAgICAgICAgICAgICAgU2V0dGluZ3NJdGVtKAogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gIua4hemZpOaJgOaciemFjee9riIsCiAgICAgICAgICAgICAgICAgICAgc3VidGl0bGUgPSAi6YeN572u5omA5pyJ5qih5Z2X5pWw5o2uIiwKICAgICAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuUm91bmRlZC5EZWxldGVGb3JldmVyLAogICAgICAgICAgICAgICAgICAgIGlzRGFuZ2VyID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBzaG93Q2xlYXJDb25maWdEaWFsb2cgPSB0cnVlIH0gLy8g54K55Ye75Y+q5pS55Y+Y54q25oCBCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGl0ZW0gewogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9ICLmlK/mjIEiLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsTGFyZ2UsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaXRlbSB7CiAgICAgICAgICAgICAgICBTZXR0aW5nc0l0ZW0oCiAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSAiR2l0aHViIiwKICAgICAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuQXV0b01pcnJvcmVkLlJvdW5kZWQuT3BlbkluTmV3LAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHVyaUhhbmRsZXIub3BlblVyaSgiaHR0cHM6Ly9naXRodWIuY29tL0ZhbnNpcnNxaS9TZXNhbWUtVEsiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgIFNldHRpbmdzSXRlbSgKICAgICAgICAgICAgICAgICAgICB0aXRsZSA9ICJUZWxlZ3JhbSIsCiAgICAgICAgICAgICAgICAgICAgaWNvbiA9IEljb25zLkF1dG9NaXJyb3JlZC5Sb3VuZGVkLlNlbmQsCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgdXJpSGFuZGxlci5vcGVuVXJpKCJodHRwczovL3QubWUvU2VzYW1lX1RLX0NoYW5uZWwiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaXRlbSB7CiAgICAgICAgICAgICAgICBTZXR0aW5nc0l0ZW0oCiAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSAiUVHnvqQiLAogICAgICAgICAgICAgICAgICAgIGljb24gPSBJY29ucy5Sb3VuZGVkLkdyb3VwcywKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICBqb2luUVFHcm91cChjb250ZXh0KQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5bqV6YOo55WZ55m977yM6Ziy5q2i6KKr5a+86Iiq5qCP6YGu5oyh77yI5aaC5p6c5pyJ55qE6K+d77yJCiAgICAgICAgICAgIGl0ZW0geyBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDMyLmRwKSkgfQogICAgICAgIH0KCiAgICAgICAgLy8gMi4g5by556qX5pS+5ZyoIExhenlDb2x1bW4g5aSW6Z2iICjlkIznuqcpCiAgICAgICAgaWYgKHNob3dDbGVhckNvbmZpZ0RpYWxvZykgewogICAgICAgICAgICBDb21tb25BbGVydERpYWxvZygKICAgICAgICAgICAgICAgIHNob3dEaWFsb2cgPSB0cnVlLAogICAgICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IHsgc2hvd0NsZWFyQ29uZmlnRGlhbG9nID0gZmFsc2UgfSwKICAgICAgICAgICAgICAgIG9uQ29uZmlybSA9IHsKICAgICAgICAgICAgICAgICAgICBvbkV2ZW50KE1haW5BY3Rpdml0eS5NYWluVWlFdmVudC5DbGVhckNvbmZpZykKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB0aXRsZSA9ICLimqDvuI8g6K2m5ZGKIiwKICAgICAgICAgICAgICAgIHRleHQgPSAi8J+klOKdlyDnoa7orqTmuIXpmaTmiYDmnInmqKHlnZfphY3nva7vvJ9cbuatpOaTjeS9nOaXoOazleaSpOmUgOKdl+Kdl+KdlyIsCiAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuT3V0bGluZWQuV2FybmluZywKICAgICAgICAgICAgICAgIGljb25UaW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvciwKICAgICAgICAgICAgICAgIGNvbmZpcm1UZXh0ID0gIuehruiupOa4hemZpCIsCiAgICAgICAgICAgICAgICBjb25maXJtQnV0dG9uQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.ui.screen.content
+
+import SettingsSwitchItem
+import android.content.Intent
+import android.os.Build
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.rounded.LibraryBooks
+import androidx.compose.material.icons.automirrored.rounded.OpenInNew
+import androidx.compose.material.icons.automirrored.rounded.Send
+import androidx.compose.material.icons.outlined.Warning
+import androidx.compose.material.icons.rounded.BugReport
+import androidx.compose.material.icons.rounded.DeleteForever
+import androidx.compose.material.icons.rounded.Extension
+import androidx.compose.material.icons.rounded.Analytics
+import androidx.compose.material.icons.rounded.Groups
+import androidx.compose.material.icons.rounded.Palette
+import androidx.compose.material.icons.rounded.SatelliteAlt
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.unit.dp
+import fansirsqi.xposed.sesame.BuildConfig
+import fansirsqi.xposed.sesame.entity.UserEntity
+import fansirsqi.xposed.sesame.ui.MainActivity
+import fansirsqi.xposed.sesame.ui.ManualTaskActivity
+import fansirsqi.xposed.sesame.ui.RpcCaptureActivity
+import fansirsqi.xposed.sesame.ui.RpcDebugActivity
+import fansirsqi.xposed.sesame.ui.compose.CommonAlertDialog
+import fansirsqi.xposed.sesame.ui.extension.joinQQGroup
+import fansirsqi.xposed.sesame.ui.screen.components.SettingsItem
+import fansirsqi.xposed.sesame.ui.screen.components.UserItemCard
+
+
+@Composable
+fun SettingsContent(
+    userList: List<UserEntity>,
+    isDynamicColor: Boolean,          // 新增参数
+    onToggleDynamicColor: (Boolean) -> Unit, // 新增参数
+    onNavigateToSettings: (UserEntity) -> Unit,
+    onEvent: (MainActivity.MainUiEvent) -> Unit
+) {
+    // 状态定义在最外层
+    var showClearConfigDialog by remember { mutableStateOf(false) }
+    val context = LocalContext.current
+    val uriHandler = LocalUriHandler.current
+
+    // 使用 Box 或 Column 包裹，或者直接平铺
+    Box(modifier = Modifier.fillMaxSize()) {
+
+        // 1. 列表内容
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(16.dp),//在列表内容的四周（上、下、左、右）各添加 16dp 的内边距
+            verticalArrangement = Arrangement.spacedBy(8.dp)//在每个列表项之间添加 固定间距
+        ) {
+            item {
+                Text(
+                    text = "账号配置",
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.primary
+                )
+            }
+
+            if (userList.isEmpty()) {
+                item {
+                    Text(
+                        text = "暂无已载入的用户配置。",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.outline
+                    )
+                }
+            } else {
+                items(userList) { user ->
+                    UserItemCard(user = user, onClick = { onNavigateToSettings(user) })
+                }
+            }
+
+            // 通用功能部分
+            item {
+                Spacer(Modifier.height(8.dp))
+                Text(
+                    text = "扩展&外观",
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.primary
+                )
+            }
+
+            item {
+                SettingsItem(
+                    title = "扩展功能",
+                    icon = Icons.Rounded.Extension,
+                    onClick = { onEvent(MainActivity.MainUiEvent.OpenExtend) }
+                )
+            }
+
+
+
+            if (BuildConfig.DEBUG) {
+                item {
+                    SettingsItem(
+                        title = "RPC 调试工具",
+                        icon = Icons.Rounded.BugReport,
+                        onClick = {
+                            // 直接跳转 Activity
+                            context.startActivity(Intent(context, RpcDebugActivity::class.java))
+                        }
+                    )
+                }
+
+                item {
+                    SettingsItem(
+                        title = "手动调度任务",
+                        icon = Icons.Rounded.SatelliteAlt,
+                        onClick = {
+                            context.startActivity(Intent(context, ManualTaskActivity::class.java))
+                        }
+                    )
+                }
+
+                item {
+                    SettingsItem(
+                        title = "查看RPC抓包数据",
+                        icon = Icons.AutoMirrored.Rounded.LibraryBooks,
+                        onClick = { onEvent(MainActivity.MainUiEvent.OpenCaptureLog) }
+                    )
+                }
+
+                item {
+                    SettingsItem(
+                        title = "抓包分析(挑接口→导出)",
+                        subtitle = "在手机上筛选 RPC 并导出给电脑生成任务",
+                        icon = Icons.Rounded.Analytics,
+                        onClick = {
+                            context.startActivity(Intent(context, RpcCaptureActivity::class.java))
+                        }
+                    )
+                }
+            }
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                item {
+                    SettingsSwitchItem(
+                        title = "动态取色",
+                        subtitle = "跟随壁纸颜色 (Material You)",
+                        icon = Icons.Rounded.Palette,
+                        checked = isDynamicColor,
+                        onCheckedChange = onToggleDynamicColor
+                    )
+                }
+            }
+
+            item {
+                SettingsItem(
+                    title = "清除所有配置",
+                    subtitle = "重置所有模块数据",
+                    icon = Icons.Rounded.DeleteForever,
+                    isDanger = true,
+                    onClick = { showClearConfigDialog = true } // 点击只改变状态
+                )
+            }
+
+            item {
+                Spacer(Modifier.height(8.dp))
+                Text(
+                    text = "支持",
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.primary
+                )
+            }
+
+            item {
+                SettingsItem(
+                    title = "Github",
+                    icon = Icons.AutoMirrored.Rounded.OpenInNew,
+                    onClick = {
+                        uriHandler.openUri("https://github.com/Fansirsqi/Sesame-TK")
+                    }
+                )
+            }
+            item {
+                SettingsItem(
+                    title = "Telegram",
+                    icon = Icons.AutoMirrored.Rounded.Send,
+                    onClick = {
+                        uriHandler.openUri("https://t.me/Sesame_TK_Channel")
+                    }
+                )
+            }
+
+            item {
+                SettingsItem(
+                    title = "QQ群",
+                    icon = Icons.Rounded.Groups,
+                    onClick = {
+                        joinQQGroup(context)
+                    }
+                )
+            }
+
+            // 底部留白，防止被导航栏遮挡（如果有的话）
+            item { Spacer(Modifier.height(32.dp)) }
+        }
+
+        // 2. 弹窗放在 LazyColumn 外面 (同级)
+        if (showClearConfigDialog) {
+            CommonAlertDialog(
+                showDialog = true,
+                onDismissRequest = { showClearConfigDialog = false },
+                onConfirm = {
+                    onEvent(MainActivity.MainUiEvent.ClearConfig)
+                },
+                title = "⚠️ 警告",
+                text = "🤔❗ 确认清除所有模块配置？\n此操作无法撤销❗❗❗",
+                icon = Icons.Outlined.Warning,
+                iconTint = MaterialTheme.colorScheme.error,
+                confirmText = "确认清除",
+                confirmButtonColor = MaterialTheme.colorScheme.error
+            )
+        }
+    }
+}

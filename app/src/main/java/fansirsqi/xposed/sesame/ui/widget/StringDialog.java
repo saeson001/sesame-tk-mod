@@ -1,1 +1,140 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS53aWRnZXQ7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuRGlhbG9nSW50ZXJmYWNlOwppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5Db2xvcjsKaW1wb3J0IGFuZHJvaWQudGV4dC5FZGl0YWJsZTsKaW1wb3J0IGFuZHJvaWQudGV4dC5JbnB1dFR5cGU7CmltcG9ydCBhbmRyb2lkLndpZGdldC5CdXR0b247CmltcG9ydCBhbmRyb2lkLndpZGdldC5FZGl0VGV4dDsKCmltcG9ydCBhbmRyb2lkeC5hcHBjb21wYXQuYXBwLkFsZXJ0RGlhbG9nOwppbXBvcnQgYW5kcm9pZHguY29yZS5jb250ZW50LkNvbnRleHRDb21wYXQ7CmltcG9ydCBhbmRyb2lkeC5jb3JlLnRleHQuSHRtbENvbXBhdDsKCmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwuZGlhbG9nLk1hdGVyaWFsQWxlcnREaWFsb2dCdWlsZGVyOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKCi8qKgogKiDlrZfnrKbkuLLlr7nor53moYblt6XlhbfnsbvjgIIKICog5o+Q5L6b5LqG5pi+56S657yW6L6R5a+56K+d5qGG5ZKM6K+75Y+W5a+56K+d5qGG55qE6Z2Z5oCB5pa55rOV44CCCiAqLwpwdWJsaWMgY2xhc3MgU3RyaW5nRGlhbG9nIHsKICAgIHByaXZhdGUgc3RhdGljIE1vZGVsRmllbGQ8Pz4gbW9kZWxGaWVsZDsKCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc2hvd0VkaXREaWFsb2coQ29udGV4dCBjLCBDaGFyU2VxdWVuY2UgdGl0bGUsIE1vZGVsRmllbGQ8Pz4gbW9kZWxGaWVsZCkgewogICAgICAgIFN0cmluZ0RpYWxvZy5tb2RlbEZpZWxkID0gbW9kZWxGaWVsZDsKICAgICAgICBBbGVydERpYWxvZyBlZGl0RGlhbG9nID0gZ2V0RWRpdERpYWxvZyhjKTsKICAgICAgICBlZGl0RGlhbG9nLnNldFRpdGxlKHRpdGxlKTsKICAgICAgICBlZGl0RGlhbG9nLnNob3coKTsKICAgIH0KCgogICAgcHJpdmF0ZSBzdGF0aWMgQWxlcnREaWFsb2cgZ2V0RWRpdERpYWxvZyhDb250ZXh0IGMpIHsKICAgICAgICBFZGl0VGV4dCBlZHQgPSBuZXcgRWRpdFRleHQoYyk7CiAgICAgICAgQWxlcnREaWFsb2cgZWRpdERpYWxvZyA9IG5ldyBNYXRlcmlhbEFsZXJ0RGlhbG9nQnVpbGRlcihjKQogICAgICAgICAgICAgICAgLnNldFRpdGxlKCJ0aXRsZSIpCiAgICAgICAgICAgICAgICAuc2V0VmlldyhlZHQpCiAgICAgICAgICAgICAgICAuc2V0UG9zaXRpdmVCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgIGMuZ2V0U3RyaW5nKFIuc3RyaW5nLm9rKSwKICAgICAgICAgICAgICAgICAgICAgICAgbmV3IERpYWxvZ0ludGVyZmFjZS5PbkNsaWNrTGlzdGVuZXIoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBDb250ZXh0IGNvbnRleHQ7CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHVibGljIERpYWxvZ0ludGVyZmFjZS5PbkNsaWNrTGlzdGVuZXIgc2V0RGF0YShDb250ZXh0IGMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0ID0gYzsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdGhpczsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwdWJsaWMgdm9pZCBvbkNsaWNrKERpYWxvZ0ludGVyZmFjZSBwMSwgaW50IHAyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRWRpdGFibGUgdGV4dCA9IGVkdC5nZXRUZXh0KCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICh0ZXh0ID09IG51bGwgfHwgdGV4dC50b1N0cmluZygpLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kZWxGaWVsZC5zZXRDb25maWdWYWx1ZShudWxsKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGVsRmllbGQuc2V0Q29uZmlnVmFsdWUodGV4dC50b1N0cmluZygpKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9LnNldERhdGEoYykpCiAgICAgICAgICAgICAgICAuc2V0TmVnYXRpdmVCdXR0b24oYy5nZXRTdHJpbmcoUi5zdHJpbmcuY2FuY2VsKSwgKGRpYWxvZywgd2hpY2gpIC0+IGRpYWxvZy5kaXNtaXNzKCkpCiAgICAgICAgICAgICAgICAuY3JlYXRlKCk7CgogICAgICAgIGVkaXREaWFsb2cuc2V0T25TaG93TGlzdGVuZXIoZGlhbG9nIC0+IHsKICAgICAgICAgICAgQnV0dG9uIHBvc2l0aXZlQnV0dG9uID0gZWRpdERpYWxvZy5nZXRCdXR0b24oRGlhbG9nSW50ZXJmYWNlLkJVVFRPTl9QT1NJVElWRSk7CiAgICAgICAgICAgIGlmIChwb3NpdGl2ZUJ1dHRvbiAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBwb3NpdGl2ZUJ1dHRvbi5zZXRUZXh0Q29sb3IoQ29udGV4dENvbXBhdC5nZXRDb2xvcihjLCBSLmNvbG9yLnNlbGVjdGlvbl9jb2xvcikpOwogICAgICAgICAgICB9CiAgICAgICAgfSk7CgogICAgICAgIGVkdC5zZXRUZXh0KFN0cmluZy52YWx1ZU9mKG1vZGVsRmllbGQuZ2V0Q29uZmlnVmFsdWUoKSkpOwogICAgICAgIHJldHVybiBlZGl0RGlhbG9nOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBzaG93UmVhZERpYWxvZyhDb250ZXh0IGMsIENoYXJTZXF1ZW5jZSB0aXRsZSwgTW9kZWxGaWVsZDw/PiBtb2RlbEZpZWxkKSB7CiAgICAgICAgc2hvd1JlYWREaWFsb2coYywgdGl0bGUsIG1vZGVsRmllbGQsIG51bGwpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBzaG93UmVhZERpYWxvZyhDb250ZXh0IGMsIENoYXJTZXF1ZW5jZSB0aXRsZSwgTW9kZWxGaWVsZDw/PiBtb2RlbEZpZWxkLCBTdHJpbmcgbXNnKSB7CiAgICAgICAgU3RyaW5nRGlhbG9nLm1vZGVsRmllbGQgPSBtb2RlbEZpZWxkOwogICAgICAgIEFsZXJ0RGlhbG9nIHJlYWREaWFsb2cgPSBnZXRSZWFkRGlhbG9nKGMpOwogICAgICAgIGlmIChtc2cgIT0gbnVsbCkgewogICAgICAgICAgICByZWFkRGlhbG9nLnNldE1lc3NhZ2UobXNnKTsKICAgICAgICB9CiAgICAgICAgcmVhZERpYWxvZy5zZXRUaXRsZSh0aXRsZSk7CiAgICAgICAgcmVhZERpYWxvZy5zaG93KCk7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgQWxlcnREaWFsb2cgZ2V0UmVhZERpYWxvZyhDb250ZXh0IGMpIHsKICAgICAgICBFZGl0VGV4dCBlZHQgPSBuZXcgRWRpdFRleHQoYyk7CiAgICAgICAgZWR0LnNldElucHV0VHlwZShJbnB1dFR5cGUuVFlQRV9OVUxMKTsKICAgICAgICBlZHQuc2V0VGV4dENvbG9yKENvbG9yLkdSQVkpOwogICAgICAgIGVkdC5zZXRUZXh0KFN0cmluZy52YWx1ZU9mKG1vZGVsRmllbGQuZ2V0Q29uZmlnVmFsdWUoKSkpOwogICAgICAgIHJldHVybiBuZXcgTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXIoYykKICAgICAgICAgICAgICAgIC5zZXRUaXRsZSgi6K+75Y+WIikKICAgICAgICAgICAgICAgIC5zZXRWaWV3KGVkdCkKICAgICAgICAgICAgICAgIC5zZXRQb3NpdGl2ZUJ1dHRvbihjLmdldFN0cmluZyhSLnN0cmluZy5vayksIChkaWFsb2csIHdoaWNoKSAtPiBkaWFsb2cuZGlzbWlzcygpKQogICAgICAgICAgICAgICAgLmNyZWF0ZSgpOwogICAgfQoKCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc2hvd0FsZXJ0RGlhbG9nKENvbnRleHQgYywgU3RyaW5nIHRpdGxlLCBTdHJpbmcgbXNnLCBTdHJpbmcgcG9zaXRpdmVCdXR0b24pIHsKICAgICAgICBDaGFyU2VxdWVuY2UgcGFyc2VkTXNnID0gSHRtbENvbXBhdC5mcm9tSHRtbChtc2csIEh0bWxDb21wYXQuRlJPTV9IVE1MX01PREVfTEVHQUNZKTsKCiAgICAgICAgQWxlcnREaWFsb2cgYWxlcnREaWFsb2cgPSBuZXcgTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXIoYykKICAgICAgICAgICAgICAgIC5zZXRUaXRsZSh0aXRsZSkKICAgICAgICAgICAgICAgIC5zZXRNZXNzYWdlKHBhcnNlZE1zZykKICAgICAgICAgICAgICAgIC5zZXRQb3NpdGl2ZUJ1dHRvbihwb3NpdGl2ZUJ1dHRvbiwgKGRpYWxvZywgd2hpY2gpIC0+IGRpYWxvZy5kaXNtaXNzKCkpCiAgICAgICAgICAgICAgICAuY3JlYXRlKCk7CgogICAgICAgIGFsZXJ0RGlhbG9nLnNob3coKTsKCiAgICAgICAgQnV0dG9uIGJ1dHRvbiA9IGFsZXJ0RGlhbG9nLmdldEJ1dHRvbihEaWFsb2dJbnRlcmZhY2UuQlVUVE9OX1BPU0lUSVZFKTsKICAgICAgICBpZiAoYnV0dG9uICE9IG51bGwpIHsKICAgICAgICAgICAgYnV0dG9uLnNldFRleHRDb2xvcihDb250ZXh0Q29tcGF0LmdldENvbG9yKGMsIFIuY29sb3IudGV4dENvbG9yUHJpbWFyeSkpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIEFsZXJ0RGlhbG9nIHNob3dTZWxlY3Rpb25EaWFsb2coQ29udGV4dCBjLCBTdHJpbmcgdGl0bGUsIENoYXJTZXF1ZW5jZVtdIGl0ZW1zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIERpYWxvZ0ludGVyZmFjZS5PbkNsaWNrTGlzdGVuZXIgb25JdGVtQ2xpY2ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIHBvc2l0aXZlQnV0dG9uLCBEaWFsb2dJbnRlcmZhY2UuT25EaXNtaXNzTGlzdGVuZXIgb25EaXNtaXNzKSB7CiAgICAgICAgQWxlcnREaWFsb2cgYWxlcnREaWFsb2cgPSBuZXcgTWF0ZXJpYWxBbGVydERpYWxvZ0J1aWxkZXIoYykKICAgICAgICAgICAgICAgIC5zZXRUaXRsZSh0aXRsZSkKICAgICAgICAgICAgICAgIC5zZXRJdGVtcyhpdGVtcywgb25JdGVtQ2xpY2spCiAgICAgICAgICAgICAgICAuc2V0T25EaXNtaXNzTGlzdGVuZXIob25EaXNtaXNzKQogICAgICAgICAgICAgICAgLnNldFBvc2l0aXZlQnV0dG9uKHBvc2l0aXZlQnV0dG9uLCAoZGlhbG9nLCB3aGljaCkgLT4gZGlhbG9nLmRpc21pc3MoKSkKICAgICAgICAgICAgICAgIC5jcmVhdGUoKTsKCiAgICAgICAgYWxlcnREaWFsb2cuc2hvdygpOwoKICAgICAgICBCdXR0b24gYnV0dG9uID0gYWxlcnREaWFsb2cuZ2V0QnV0dG9uKERpYWxvZ0ludGVyZmFjZS5CVVRUT05fUE9TSVRJVkUpOwogICAgICAgIGlmIChidXR0b24gIT0gbnVsbCkgewogICAgICAgICAgICBidXR0b24uc2V0VGV4dENvbG9yKENvbnRleHRDb21wYXQuZ2V0Q29sb3IoYywgUi5jb2xvci5zZWxlY3Rpb25fY29sb3IpKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiBhbGVydERpYWxvZzsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.ui.widget;
+
+import android.content.Context;
+import android.content.DialogInterface;
+import android.graphics.Color;
+import android.text.Editable;
+import android.text.InputType;
+import android.widget.Button;
+import android.widget.EditText;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.core.content.ContextCompat;
+import androidx.core.text.HtmlCompat;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.util.Log;
+
+/**
+ * 字符串对话框工具类。
+ * 提供了显示编辑对话框和读取对话框的静态方法。
+ */
+public class StringDialog {
+    private static ModelField<?> modelField;
+
+    public static void showEditDialog(Context c, CharSequence title, ModelField<?> modelField) {
+        StringDialog.modelField = modelField;
+        AlertDialog editDialog = getEditDialog(c);
+        editDialog.setTitle(title);
+        editDialog.show();
+    }
+
+
+    private static AlertDialog getEditDialog(Context c) {
+        EditText edt = new EditText(c);
+        AlertDialog editDialog = new MaterialAlertDialogBuilder(c)
+                .setTitle("title")
+                .setView(edt)
+                .setPositiveButton(
+                        c.getString(R.string.ok),
+                        new DialogInterface.OnClickListener() {
+                            Context context;
+
+                            public DialogInterface.OnClickListener setData(Context c) {
+                                context = c;
+                                return this;
+                            }
+
+                            public void onClick(DialogInterface p1, int p2) {
+                                try {
+                                    Editable text = edt.getText();
+                                    if (text == null || text.toString().isEmpty()) {
+                                        modelField.setConfigValue(null);
+                                    } else {
+                                        modelField.setConfigValue(text.toString());
+                                    }
+                                } catch (Throwable e) {
+                                    Log.printStackTrace(e);
+                                }
+                            }
+                        }.setData(c))
+                .setNegativeButton(c.getString(R.string.cancel), (dialog, which) -> dialog.dismiss())
+                .create();
+
+        editDialog.setOnShowListener(dialog -> {
+            Button positiveButton = editDialog.getButton(DialogInterface.BUTTON_POSITIVE);
+            if (positiveButton != null) {
+                positiveButton.setTextColor(ContextCompat.getColor(c, R.color.selection_color));
+            }
+        });
+
+        edt.setText(String.valueOf(modelField.getConfigValue()));
+        return editDialog;
+    }
+
+    public static void showReadDialog(Context c, CharSequence title, ModelField<?> modelField) {
+        showReadDialog(c, title, modelField, null);
+    }
+
+    public static void showReadDialog(Context c, CharSequence title, ModelField<?> modelField, String msg) {
+        StringDialog.modelField = modelField;
+        AlertDialog readDialog = getReadDialog(c);
+        if (msg != null) {
+            readDialog.setMessage(msg);
+        }
+        readDialog.setTitle(title);
+        readDialog.show();
+    }
+
+    private static AlertDialog getReadDialog(Context c) {
+        EditText edt = new EditText(c);
+        edt.setInputType(InputType.TYPE_NULL);
+        edt.setTextColor(Color.GRAY);
+        edt.setText(String.valueOf(modelField.getConfigValue()));
+        return new MaterialAlertDialogBuilder(c)
+                .setTitle("读取")
+                .setView(edt)
+                .setPositiveButton(c.getString(R.string.ok), (dialog, which) -> dialog.dismiss())
+                .create();
+    }
+
+
+    public static void showAlertDialog(Context c, String title, String msg, String positiveButton) {
+        CharSequence parsedMsg = HtmlCompat.fromHtml(msg, HtmlCompat.FROM_HTML_MODE_LEGACY);
+
+        AlertDialog alertDialog = new MaterialAlertDialogBuilder(c)
+                .setTitle(title)
+                .setMessage(parsedMsg)
+                .setPositiveButton(positiveButton, (dialog, which) -> dialog.dismiss())
+                .create();
+
+        alertDialog.show();
+
+        Button button = alertDialog.getButton(DialogInterface.BUTTON_POSITIVE);
+        if (button != null) {
+            button.setTextColor(ContextCompat.getColor(c, R.color.textColorPrimary));
+        }
+    }
+
+    public static AlertDialog showSelectionDialog(Context c, String title, CharSequence[] items,
+                                                  DialogInterface.OnClickListener onItemClick,
+                                                  String positiveButton, DialogInterface.OnDismissListener onDismiss) {
+        AlertDialog alertDialog = new MaterialAlertDialogBuilder(c)
+                .setTitle(title)
+                .setItems(items, onItemClick)
+                .setOnDismissListener(onDismiss)
+                .setPositiveButton(positiveButton, (dialog, which) -> dialog.dismiss())
+                .create();
+
+        alertDialog.show();
+
+        Button button = alertDialog.getButton(DialogInterface.BUTTON_POSITIVE);
+        if (button != null) {
+            button.setTextColor(ContextCompat.getColor(c, R.color.selection_color));
+        }
+
+        return alertDialog;
+    }
+}

@@ -1,1 +1,140 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLkFuc3dlckFJOwoKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheTsKaW1wb3J0IG9yZy5qc29uLkpTT05FeGNlcHRpb247CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0OwoKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb247CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0OwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuSnNvblV0aWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKaW1wb3J0IGxvbWJvay5HZXR0ZXI7CmltcG9ydCBsb21ib2suU2V0dGVyOwppbXBvcnQgb2todHRwMy5NZWRpYVR5cGU7CmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudDsKaW1wb3J0IG9raHR0cDMuUmVxdWVzdDsKaW1wb3J0IG9raHR0cDMuUmVxdWVzdEJvZHk7CmltcG9ydCBva2h0dHAzLlJlc3BvbnNlOwoKLyoqCiAqIEBhdXRob3IgQnlzZXZlbgogKiBAZGF0ZSAyMDI1LzEvMzAKICogQGFwaU5vdGUKICovCnB1YmxpYyBjbGFzcyBUb25neWlBSSBpbXBsZW1lbnRzIEFuc3dlckFJSW50ZXJmYWNlIHsKCiAgICBwcml2YXRlIGZpbmFsIFN0cmluZyBUQUcgPSBUb25neWlBSS5jbGFzcy5nZXRTaW1wbGVOYW1lKCk7CgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFVSTCA9ICJodHRwczovL2Rhc2hzY29wZS5hbGl5dW5jcy5jb20vY29tcGF0aWJsZS1tb2RlL3YxL2NoYXQvY29tcGxldGlvbnMiOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIENPTlRFTlRfVFlQRSA9ICJhcHBsaWNhdGlvbi9qc29uIjsKICAgIEBHZXR0ZXIKICAgIEBTZXR0ZXIKICAgIHByaXZhdGUgU3RyaW5nIG1vZGVsTmFtZSA9ICJxd2VuLXR1cmJvIjsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBKU09OX1BBVEggPSAiY2hvaWNlcy5bMF0ubWVzc2FnZS5jb250ZW50IjsKICAgIHByaXZhdGUgZmluYWwgU3RyaW5nIHRva2VuOwoKICAgIHB1YmxpYyBUb25neWlBSShTdHJpbmcgdG9rZW4pIHsKICAgICAgICBpZiAodG9rZW4gIT0gbnVsbCAmJiAhdG9rZW4uaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHRoaXMudG9rZW4gPSB0b2tlbjsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0aGlzLnRva2VuID0gIiI7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+WQUnlm57nrZTnu5PmnpwKICAgICAqCiAgICAgKiBAcGFyYW0gdGV4dCDpl67popjlhoXlrrkKICAgICAqIEByZXR1cm4gQUnlm57nrZTnu5PmnpwKICAgICAqLwogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgU3RyaW5nIGdldEFuc3dlclN0cihTdHJpbmcgdGV4dCkgewogICAgICAgIFN0cmluZyByZXN1bHQgPSAiIjsKICAgICAgICBSZXNwb25zZSByZXNwb25zZSA9IG51bGw7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgT2tIdHRwQ2xpZW50IGNsaWVudCA9IG5ldyBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAgICAgLmNvbm5lY3RUaW1lb3V0KDMwLCBUaW1lVW5pdC5TRUNPTkRTKSAvLyDorr7nva7ov57mjqXotoXml7bml7bpl7TkuLogMzAg56eSCiAgICAgICAgICAgICAgICAgICAgLndyaXRlVGltZW91dCgzMCwgVGltZVVuaXQuU0VDT05EUykgICAvLyDorr7nva7lhpnotoXml7bml7bpl7TkuLogMzAg56eSCiAgICAgICAgICAgICAgICAgICAgLnJlYWRUaW1lb3V0KDMwLCBUaW1lVW5pdC5TRUNPTkRTKSAgICAvLyDorr7nva7or7votoXml7bml7bpl7TkuLogMzAg56eSCiAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKCk7CiAgICAgICAgICAgIEpTT05PYmplY3QgY29udGVudE9iamVjdCA9IG5ldyBKU09OT2JqZWN0KCk7CiAgICAgICAgICAgIGNvbnRlbnRPYmplY3QucHV0KCJyb2xlIiwgInVzZXIiKTsKICAgICAgICAgICAgY29udGVudE9iamVjdC5wdXQoImNvbnRlbnQiLCB0ZXh0KTsKICAgICAgICAgICAgSlNPTkFycmF5IG1lc3NhZ2VBcnJheSA9IG5ldyBKU09OQXJyYXkoKTsKICAgICAgICAgICAgbWVzc2FnZUFycmF5LnB1dChjb250ZW50T2JqZWN0KTsKICAgICAgICAgICAgSlNPTk9iamVjdCBib2R5T2JqZWN0ID0gbmV3IEpTT05PYmplY3QoKTsKICAgICAgICAgICAgYm9keU9iamVjdC5wdXQoIm1vZGVsIiwgdGhpcy5tb2RlbE5hbWUpOwogICAgICAgICAgICBib2R5T2JqZWN0LnB1dCgibWVzc2FnZXMiLCBtZXNzYWdlQXJyYXkpOwogICAgICAgICAgICBSZXF1ZXN0Qm9keSBib2R5ID0gUmVxdWVzdEJvZHkuY3JlYXRlKGJvZHlPYmplY3QudG9TdHJpbmcoKSwgTWVkaWFUeXBlLnBhcnNlKENPTlRFTlRfVFlQRSkpOwogICAgICAgICAgICBSZXF1ZXN0IHJlcXVlc3QgPSBuZXcgUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgICAgICAgICAudXJsKFVSTCkKICAgICAgICAgICAgICAgICAgICAubWV0aG9kKCJQT1NUIiwgYm9keSkKICAgICAgICAgICAgICAgICAgICAuYWRkSGVhZGVyKCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiICsgdG9rZW4pCiAgICAgICAgICAgICAgICAgICAgLmFkZEhlYWRlcigiQ29udGVudC1UeXBlIiwgQ09OVEVOVF9UWVBFKQogICAgICAgICAgICAgICAgICAgIC5idWlsZCgpOwogICAgICAgICAgICByZXNwb25zZSA9IGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKTsKICAgICAgICAgICAgaWYgKHJlc3BvbnNlLmJvZHkoKSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVzdWx0OwogICAgICAgICAgICB9CiAgICAgICAgICAgIFN0cmluZyBqc29uID0gcmVzcG9uc2UuYm9keSgpLnN0cmluZygpOwogICAgICAgICAgICBpZiAoIXJlc3BvbnNlLmlzU3VjY2Vzc2Z1bCgpKSB7CiAgICAgICAgICAgICAgICBMb2cub3RoZXIoIlRvbmd5aeivt+axguWksei0pSIpOwogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsIlRvbmd5aeaOpeWPo+W8guW4uO+8miIgKyBqc29uKTsKICAgICAgICAgICAgICAgIHJldHVybiByZXN1bHQ7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgSlNPTk9iamVjdCBqc29uT2JqZWN0ID0gbmV3IEpTT05PYmplY3QoanNvbik7CiAgICAgICAgICAgIHJlc3VsdCA9IEpzb25VdGlsLmdldFZhbHVlQnlQYXRoKGpzb25PYmplY3QsIEpTT05fUEFUSCk7CiAgICAgICAgfSBjYXRjaCAoSlNPTkV4Y2VwdGlvbiB8IElPRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsIGUpOwogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIGlmIChyZXNwb25zZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICByZXNwb25zZS5jbG9zZSgpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9CgoKICAgIEBPdmVycmlkZQogICAgcHVibGljIFN0cmluZyBnZXRBbnN3ZXJTdHIoU3RyaW5nIHRleHQsIFN0cmluZyBtb2RlbCkgewogICAgICAgIHNldE1vZGVsTmFtZShtb2RlbCk7CiAgICAgICAgcmV0dXJuIGdldEFuc3dlclN0cih0ZXh0KTsKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluetlOahiAogICAgICoKICAgICAqIEBwYXJhbSB0aXRsZSAgICAg6Zeu6aKYCiAgICAgKiBAcGFyYW0gYW5zd2VyTGlzdCDnrZTmoYjpm4blkIgKICAgICAqIEByZXR1cm4g56m65rKh5pyJ6I635Y+W5YiwCiAgICAgKi8KICAgIEBPdmVycmlkZQogICAgcHVibGljIEludGVnZXIgZ2V0QW5zd2VyKFN0cmluZyB0aXRsZSwgTGlzdDxTdHJpbmc+IGFuc3dlckxpc3QpIHsKICAgICAgICBpbnQgc2l6ZSA9IGFuc3dlckxpc3Quc2l6ZSgpOwogICAgICAgIFN0cmluZ0J1aWxkZXIgYW5zd2VyU3RyID0gbmV3IFN0cmluZ0J1aWxkZXIoKTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHNpemU7IGkrKykgewogICAgICAgICAgICBhbnN3ZXJTdHIuYXBwZW5kKGkgKyAxKS5hcHBlbmQoIi5bIikuYXBwZW5kKGFuc3dlckxpc3QuZ2V0KGkpKS5hcHBlbmQoIl1cbiIpOwogICAgICAgIH0KICAgICAgICBTdHJpbmcgYW5zd2VyUmVzdWx0ID0gZ2V0QW5zd2VyU3RyKCLpl67popjvvJoiICsgdGl0bGUgKyAiXG5cbiIgKyAi562U5qGI5YiX6KGo77yaXG5cbiIgKyBhbnN3ZXJTdHIgKyAiXG5cbiIgKyAi6K+35Y+q6L+U5Zue562U5qGI5YiX6KGo5Lit55qE5bqP5Y+3Iik7CiAgICAgICAgaWYgKGFuc3dlclJlc3VsdCAhPSBudWxsICYmICFhbnN3ZXJSZXN1bHQuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBpbnQgaW5kZXggPSBJbnRlZ2VyLnBhcnNlSW50KGFuc3dlclJlc3VsdCkgLSAxOwogICAgICAgICAgICAgICAgaWYgKGluZGV4ID49IDAgJiYgaW5kZXggPCBzaXplKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGluZGV4OwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsIkFJ8J+noOWbnuetlO+8jOi/lOWbnuaVsOaNru+8miIgKyBhbnN3ZXJSZXN1bHQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgc2l6ZTsgaSsrKSB7CiAgICAgICAgICAgICAgICBpZiAoYW5zd2VyUmVzdWx0LmNvbnRhaW5zKGFuc3dlckxpc3QuZ2V0KGkpKSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiAtMTsKICAgIH0KCn0KCg==
+package fansirsqi.xposed.sesame.task.AnswerAI;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import fansirsqi.xposed.sesame.util.JsonUtil;
+import fansirsqi.xposed.sesame.util.Log;
+import lombok.Getter;
+import lombok.Setter;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+
+/**
+ * @author Byseven
+ * @date 2025/1/30
+ * @apiNote
+ */
+public class TongyiAI implements AnswerAIInterface {
+
+    private final String TAG = TongyiAI.class.getSimpleName();
+
+    private static final String URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
+    private static final String CONTENT_TYPE = "application/json";
+    @Getter
+    @Setter
+    private String modelName = "qwen-turbo";
+    private static final String JSON_PATH = "choices.[0].message.content";
+    private final String token;
+
+    public TongyiAI(String token) {
+        if (token != null && !token.isEmpty()) {
+            this.token = token;
+        } else {
+            this.token = "";
+        }
+    }
+
+    /**
+     * 获取AI回答结果
+     *
+     * @param text 问题内容
+     * @return AI回答结果
+     */
+    @Override
+    public String getAnswerStr(String text) {
+        String result = "";
+        Response response = null;
+        try {
+            OkHttpClient client = new OkHttpClient.Builder()
+                    .connectTimeout(30, TimeUnit.SECONDS) // 设置连接超时时间为 30 秒
+                    .writeTimeout(30, TimeUnit.SECONDS)   // 设置写超时时间为 30 秒
+                    .readTimeout(30, TimeUnit.SECONDS)    // 设置读超时时间为 30 秒
+                    .build();
+            JSONObject contentObject = new JSONObject();
+            contentObject.put("role", "user");
+            contentObject.put("content", text);
+            JSONArray messageArray = new JSONArray();
+            messageArray.put(contentObject);
+            JSONObject bodyObject = new JSONObject();
+            bodyObject.put("model", this.modelName);
+            bodyObject.put("messages", messageArray);
+            RequestBody body = RequestBody.create(bodyObject.toString(), MediaType.parse(CONTENT_TYPE));
+            Request request = new Request.Builder()
+                    .url(URL)
+                    .method("POST", body)
+                    .addHeader("Authorization", "Bearer " + token)
+                    .addHeader("Content-Type", CONTENT_TYPE)
+                    .build();
+            response = client.newCall(request).execute();
+            if (response.body() == null) {
+                return result;
+            }
+            String json = response.body().string();
+            if (!response.isSuccessful()) {
+                Log.other("Tongyi请求失败");
+                Log.record(TAG,"Tongyi接口异常：" + json);
+                return result;
+            }
+            JSONObject jsonObject = new JSONObject(json);
+            result = JsonUtil.getValueByPath(jsonObject, JSON_PATH);
+        } catch (JSONException | IOException e) {
+            Log.printStackTrace(TAG, e);
+        } finally {
+            if (response != null) {
+                response.close();
+            }
+        }
+        return result;
+    }
+
+
+    @Override
+    public String getAnswerStr(String text, String model) {
+        setModelName(model);
+        return getAnswerStr(text);
+    }
+
+    /**
+     * 获取答案
+     *
+     * @param title     问题
+     * @param answerList 答案集合
+     * @return 空没有获取到
+     */
+    @Override
+    public Integer getAnswer(String title, List<String> answerList) {
+        int size = answerList.size();
+        StringBuilder answerStr = new StringBuilder();
+        for (int i = 0; i < size; i++) {
+            answerStr.append(i + 1).append(".[").append(answerList.get(i)).append("]\n");
+        }
+        String answerResult = getAnswerStr("问题：" + title + "\n\n" + "答案列表：\n\n" + answerStr + "\n\n" + "请只返回答案列表中的序号");
+        if (answerResult != null && !answerResult.isEmpty()) {
+            try {
+                int index = Integer.parseInt(answerResult) - 1;
+                if (index >= 0 && index < size) {
+                    return index;
+                }
+            } catch (Exception e) {
+                Log.record(TAG,"AI🧠回答，返回数据：" + answerResult);
+            }
+            for (int i = 0; i < size; i++) {
+                if (answerResult.contains(answerList.get(i))) {
+                    return i;
+                }
+            }
+        }
+        return -1;
+    }
+
+}
+

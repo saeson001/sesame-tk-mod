@@ -1,1 +1,134 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsOwoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uTm9uTnVsbDsKCmltcG9ydCBvcmcuanNvbi5KU09ORXhjZXB0aW9uOwppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdDsKCmltcG9ydCBqYXZhLnV0aWwucmVnZXguUGF0dGVybjsKCnB1YmxpYyBjbGFzcyBSZXNDaGVja2VyIHsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBUQUcgPSBSZXNDaGVja2VyLmNsYXNzLmdldFNpbXBsZU5hbWUoKTsKCiAgICBwcml2YXRlIHN0YXRpYyBib29sZWFuIGNvcmUoU3RyaW5nIFRBRywgSlNPTk9iamVjdCBqbykgewogICAgICAgIHRyeSB7Ci8vICAgICAgICAgICAgTG9nLnJ1bnRpbWUoVEFHLCAiQ2hlY2tpbmcgSlNPTiBzdWNjZXNzOiAiICsgam8pOwogICAgICAgICAgICAvLyDmo4Dmn6Ugc3VjY2VzcyDmiJYgaXNTdWNjZXNzIOWtl+auteS4uiB0cnVlCiAgICAgICAgICAgIGlmIChqby5vcHRCb29sZWFuKCJzdWNjZXNzIikgfHwgam8ub3B0Qm9vbGVhbigiaXNTdWNjZXNzIikpIHsKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOajgOafpSByZXN1bHRDb2RlCiAgICAgICAgICAgIE9iamVjdCByZXNDb2RlID0gam8ub3B0KCJyZXN1bHRDb2RlIik7CiAgICAgICAgICAgIGlmIChyZXNDb2RlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGlmIChyZXNDb2RlIGluc3RhbmNlb2YgSW50ZWdlciAmJiAoSW50ZWdlcikgcmVzQ29kZSA9PSAyMDApIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAocmVzQ29kZSBpbnN0YW5jZW9mIFN0cmluZyAmJgogICAgICAgICAgICAgICAgICAgICAgICBQYXR0ZXJuLm1hdGNoZXMoIig/aSlTVUNDRVNTfDEwMCIsIChTdHJpbmcpIHJlc0NvZGUpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g5qOA5p+lIG1lbW8g5a2X5q61CiAgICAgICAgICAgIGlmICgiU1VDQ0VTUyIuZXF1YWxzSWdub3JlQ2FzZShqby5vcHRTdHJpbmcoIm1lbW8iLCAiIikpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g54m55q6K5oOF5Ya177ya5aaC5p6c5pivIuS6uuaVsOi/h+WkmiLmiJYi5bCP6bih552h6KeJIuetieezu+e7n+eKtuaAge+8jOaIkeS7rOiupOS4uui/meS4jeaYr+S4gOS4qumcgOimgeiusOW9leeahCLlpLHotKUiCiAgICAgICAgICAgIFN0cmluZyByZXN1bHREZXNjID0gam8ub3B0U3RyaW5nKCJyZXN1bHREZXNjIiwgIiIpOwogICAgICAgICAgICBTdHJpbmcgbWVtbyA9IGpvLm9wdFN0cmluZygibWVtbyIsICIiKTsKICAgICAgICAgICAgU3RyaW5nIGRlc2MgPSBqby5vcHRTdHJpbmcoImRlc2MiLCAiIik7CiAgICAgICAgICAgIFN0cmluZyByZXN1bHRDb2RlID0gam8ub3B0U3RyaW5nKCJyZXN1bHRDb2RlIiwgIiIpOwogICAgICAgICAgICAKICAgICAgICAgICAgLy8g6ZyA6KaB5b+955Wl55qE5YWz6ZSu6K+N5YiX6KGo77yI5ZCM5pe25qOA5p+lIHJlc3VsdERlc2Mg5ZKMIG1lbW/vvIkKICAgICAgICAgICAgU3RyaW5nW10gaWdub3JlS2V5d29yZHMgPSB7CiAgICAgICAgICAgICAgICAi5b2T5YmN5Y+C5LiO5Lq65pWw6L+H5aSaIiwgIuivt+eojeWQjuWGjeivlSIsICLmiYvpgJ/lpKrlv6siLCAi6aKR57mBIiwgIuaTjeS9nOi/h+S6jumikee5gSIsCiAgICAgICAgICAgICAgICAi5oiR55qE5bCP6bih5Zyo552h6KeJ5LitIiwgIuWwj+m4oeWcqOedoeiniSIsICLml6Dms5Xmk43kvZwiLCAi5pyJ5Lq65oqi5Zyo5L2gIiwKICAgICAgICAgICAgICAgICLppbLmlpnmp73lt7Lmu6EiLCAi5b2T5pel6L6+5Yiw5LiK6ZmQIiwgIumAguWPr+iAjOatoiIsICLkuI3mlK/mjIFycGPlrozmiJDnmoTku7vliqEiLCLkuI3mlK/mjIFycGPosIPnlKgiLCLku7vliqHlhajlsYDphY3nva7kuI3lrZjlnKgiLAogICAgICAgICAgICAgICAgIuW6hOWbreeahOWwj+m4oeWkquWkmuS6hiIsIuWQjOS4gOWlveWPi+aWsOadke+8jOWPquiDveaRhuS4gOS4quWwj+aRiuWTpiIsIuS7iuaXpeWKqeWKm+asoeaVsOW3sueUqOWujCIsIuaUtuaRiuaIkOWKnyIsCiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGZvciAoU3RyaW5nIGtleXdvcmQgOiBpZ25vcmVLZXl3b3JkcykgewogICAgICAgICAgICAgICAgaWYgKHJlc3VsdERlc2MuY29udGFpbnMoa2V5d29yZCkgfHwgbWVtby5jb250YWlucyhrZXl3b3JkKSB8fCBkZXNjLmNvbnRhaW5zKGtleXdvcmQpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlOyAvLyDov5Tlm55mYWxzZe+8jOS9huS4jeaJk+WNsOmUmeivr+aXpeW/lwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOeJueauiueahCByZXN1bHRDb2RlIOajgOafpQogICAgICAgICAgICBpZiAoIkkwNyIuZXF1YWxzKHJlc3VsdENvZGUpIHx8ICJJTExFR0FMX0FSR1VNRU5UIi5lcXVhbHMocmVzdWx0Q29kZSkgfHwgIkkwOSIuZXF1YWxzKHJlc3VsdENvZGUpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7IC8vIOi/lOWbnmZhbHNl77yM5L2G5LiN5omT5Y2w6ZSZ6K+v5pel5b+XCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g6I635Y+W6LCD55So5qCI5L+h5oGv5Lul56Gu5a6a6ZSZ6K+v5p2l5rqQCiAgICAgICAgICAgIFN0YWNrVHJhY2VFbGVtZW50W10gc3RhY2tUcmFjZSA9IFRocmVhZC5jdXJyZW50VGhyZWFkKCkuZ2V0U3RhY2tUcmFjZSgpOwogICAgICAgICAgICBTdHJpbmcgY2FsbGVySW5mbyA9IGdldFN0cmluZyhzdGFja1RyYWNlKTsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIkNoZWNrIGZhaWxlZDogW+adpea6kDogIiArIGNhbGxlckluZm8gKyAiXSAiICsgam8pOwogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfSBjYXRjaCAoVGhyb3dhYmxlIHQpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJFcnJvciBjaGVja2luZyBKU09OIHN1Y2Nlc3M6IiwgdCk7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICB9CgogICAgQE5vbk51bGwKICAgIHByaXZhdGUgc3RhdGljIFN0cmluZyBnZXRTdHJpbmcoU3RhY2tUcmFjZUVsZW1lbnRbXSBzdGFja1RyYWNlKSB7CiAgICAgICAgU3RyaW5nQnVpbGRlciBjYWxsZXJJbmZvID0gbmV3IFN0cmluZ0J1aWxkZXIoKTsKICAgICAgICBpbnQgZm91bmRDb3VudCA9IDA7CiAgICAgICAgLy8g5pyA5aSa5pi+56S6NOWxguiwg+eUqOagiAogICAgICAgIGZpbmFsIGludCBNQVhfU1RBQ0tfREVQVEggPSA0OwogICAgICAgIGZpbmFsIFN0cmluZyBQUk9KRUNUX1BBQ0tBR0UgPSAiZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUiOwogICAgICAgIAogICAgICAgIC8vIOWvu+aJvumhueebruWMheWQjeS4i+eahOiwg+eUqOiAhQogICAgICAgIGZvciAoU3RhY2tUcmFjZUVsZW1lbnQgZWxlbWVudCA6IHN0YWNrVHJhY2UpIHsKICAgICAgICAgICAgU3RyaW5nIGNsYXNzTmFtZSA9IGVsZW1lbnQuZ2V0Q2xhc3NOYW1lKCk7CiAgICAgICAgICAgIC8vIOWPquaYvuekuumhueebruWMheWQjeS4i+eahOexu++8jOi3s+i/h1Jlc0NoZWNrZXIKICAgICAgICAgICAgaWYgKGNsYXNzTmFtZS5zdGFydHNXaXRoKFBST0pFQ1RfUEFDS0FHRSkgJiYgIWNsYXNzTmFtZS5jb250YWlucygiUmVzQ2hlY2tlciIpKSB7CiAgICAgICAgICAgICAgICAvLyDojrflj5bnsbvlkI3vvIjkv53nlZnpobnnm67ljIXlkI3lkI7nmoTpg6jliIbvvIkKICAgICAgICAgICAgICAgIFN0cmluZyByZWxhdGl2ZUNsYXNzTmFtZSA9IGNsYXNzTmFtZS5zdWJzdHJpbmcoUFJPSkVDVF9QQUNLQUdFLmxlbmd0aCgpICsgMSk7CiAgICAgICAgICAgICAgICBpZiAoZm91bmRDb3VudCA+IDApIHsKICAgICAgICAgICAgICAgICAgICBjYWxsZXJJbmZvLmFwcGVuZCgiIDwtICIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2FsbGVySW5mby5hcHBlbmQocmVsYXRpdmVDbGFzc05hbWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAuYXBwZW5kKCIuIikKICAgICAgICAgICAgICAgICAgICAgICAgIC5hcHBlbmQoZWxlbWVudC5nZXRNZXRob2ROYW1lKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAuYXBwZW5kKCI6IikKICAgICAgICAgICAgICAgICAgICAgICAgIC5hcHBlbmQoZWxlbWVudC5nZXRMaW5lTnVtYmVyKCkpOwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmb3VuZENvdW50Kys7CiAgICAgICAgICAgICAgICBpZiAoZm91bmRDb3VudCA+PSBNQVhfU1RBQ0tfREVQVEgpIHsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGNhbGxlckluZm8udG9TdHJpbmcoKTsKICAgIH0KCiAgICAvKioKICAgICAqIOajgOafpUpTT07lr7nosaHmmK/lkKbooajnpLrmiJDlip8KICAgICAqIDxwPgogICAgICog5oiQ5Yqf5p2h5Lu25YyF5ous77yaPGJyLz4KICAgICAqIC0gc3VjY2VzcyA9PSB0cnVlPGJyLz4KICAgICAqIC0gaXNTdWNjZXNzID09IHRydWU8YnIvPgogICAgICogLSByZXN1bHRDb2RlID09IDIwMCDmiJYgIlNVQ0NFU1MiIOaIliAiMTAwIjxici8+CiAgICAgKiAtIG1lbW8gPT0gIlNVQ0NFU1MiPGJyLz4KICAgICAqCiAgICAgKiBAcGFyYW0gam8gSlNPTuWvueixoQogICAgICogQHJldHVybiB0cnVlIOWmguaenOaIkOWKnwogICAgICovCiAgICBwdWJsaWMgc3RhdGljIGJvb2xlYW4gY2hlY2tSZXMoU3RyaW5nIFRBRywgSlNPTk9iamVjdCBqbykgewogICAgICAgIHJldHVybiBjb3JlKFRBRywgam8pOwogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+lSlNPTuWvueixoeaYr+WQpuihqOekuuaIkOWKnwogICAgICogPHA+CiAgICAgKiDmiJDlip/mnaHku7bljIXmi6zvvJo8YnIvPgogICAgICogLSBzdWNjZXNzID09IHRydWU8YnIvPgogICAgICogLSBpc1N1Y2Nlc3MgPT0gdHJ1ZTxici8+CiAgICAgKiAtIHJlc3VsdENvZGUgPT0gMjAwIOaIliAiU1VDQ0VTUyIg5oiWICIxMDAiPGJyLz4KICAgICAqIC0gbWVtbyA9PSAiU1VDQ0VTUyI8YnIvPgogICAgICoKICAgICAqIEBwYXJhbSBqc29uU3RyIEpTT07lr7nosaHnmoTlrZfnrKbkuLLooajnpLoKICAgICAqIEByZXR1cm4gdHJ1ZSDlpoLmnpzmiJDlip8KICAgICAqLwogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGNoZWNrUmVzKFN0cmluZyBUQUcsIFN0cmluZyBqc29uU3RyKSB0aHJvd3MgSlNPTkV4Y2VwdGlvbiB7CiAgICAgICAgSlNPTk9iamVjdCBqbyA9IG5ldyBKU09OT2JqZWN0KGpzb25TdHIpOwogICAgICAgIHJldHVybiBjaGVja1JlcyhUQUcsIGpvKTsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.util;
+
+import androidx.annotation.NonNull;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.regex.Pattern;
+
+public class ResChecker {
+    private static final String TAG = ResChecker.class.getSimpleName();
+
+    private static boolean core(String TAG, JSONObject jo) {
+        try {
+//            Log.runtime(TAG, "Checking JSON success: " + jo);
+            // 检查 success 或 isSuccess 字段为 true
+            if (jo.optBoolean("success") || jo.optBoolean("isSuccess")) {
+                return true;
+            }
+            // 检查 resultCode
+            Object resCode = jo.opt("resultCode");
+            if (resCode != null) {
+                if (resCode instanceof Integer && (Integer) resCode == 200) {
+                    return true;
+                } else if (resCode instanceof String &&
+                        Pattern.matches("(?i)SUCCESS|100", (String) resCode)) {
+                    return true;
+                }
+            }
+            // 检查 memo 字段
+            if ("SUCCESS".equalsIgnoreCase(jo.optString("memo", ""))) {
+                return true;
+            }
+
+            // 特殊情况：如果是"人数过多"或"小鸡睡觉"等系统状态，我们认为这不是一个需要记录的"失败"
+            String resultDesc = jo.optString("resultDesc", "");
+            String memo = jo.optString("memo", "");
+            String desc = jo.optString("desc", "");
+            String resultCode = jo.optString("resultCode", "");
+            
+            // 需要忽略的关键词列表（同时检查 resultDesc 和 memo）
+            String[] ignoreKeywords = {
+                "当前参与人数过多", "请稍后再试", "手速太快", "频繁", "操作过于频繁",
+                "我的小鸡在睡觉中", "小鸡在睡觉", "无法操作", "有人抢在你",
+                "饲料槽已满", "当日达到上限", "适可而止", "不支持rpc完成的任务","不支持rpc调用","任务全局配置不存在",
+                "庄园的小鸡太多了","同一好友新村，只能摆一个小摊哦","今日助力次数已用完","收摊成功",
+            };
+            for (String keyword : ignoreKeywords) {
+                if (resultDesc.contains(keyword) || memo.contains(keyword) || desc.contains(keyword)) {
+                    return false; // 返回false，但不打印错误日志
+                }
+            }
+            // 特殊的 resultCode 检查
+            if ("I07".equals(resultCode) || "ILLEGAL_ARGUMENT".equals(resultCode) || "I09".equals(resultCode)) {
+                return false; // 返回false，但不打印错误日志
+            }
+            // 获取调用栈信息以确定错误来源
+            StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+            String callerInfo = getString(stackTrace);
+            Log.error(TAG, "Check failed: [来源: " + callerInfo + "] " + jo);
+            return false;
+        } catch (Throwable t) {
+            Log.printStackTrace(TAG, "Error checking JSON success:", t);
+            return false;
+        }
+    }
+
+    @NonNull
+    private static String getString(StackTraceElement[] stackTrace) {
+        StringBuilder callerInfo = new StringBuilder();
+        int foundCount = 0;
+        // 最多显示4层调用栈
+        final int MAX_STACK_DEPTH = 4;
+        final String PROJECT_PACKAGE = "fansirsqi.xposed.sesame";
+        
+        // 寻找项目包名下的调用者
+        for (StackTraceElement element : stackTrace) {
+            String className = element.getClassName();
+            // 只显示项目包名下的类，跳过ResChecker
+            if (className.startsWith(PROJECT_PACKAGE) && !className.contains("ResChecker")) {
+                // 获取类名（保留项目包名后的部分）
+                String relativeClassName = className.substring(PROJECT_PACKAGE.length() + 1);
+                if (foundCount > 0) {
+                    callerInfo.append(" <- ");
+                }
+                callerInfo.append(relativeClassName)
+                         .append(".")
+                         .append(element.getMethodName())
+                         .append(":")
+                         .append(element.getLineNumber());
+                
+                foundCount++;
+                if (foundCount >= MAX_STACK_DEPTH) {
+                    break;
+                }
+            }
+        }
+
+        return callerInfo.toString();
+    }
+
+    /**
+     * 检查JSON对象是否表示成功
+     * <p>
+     * 成功条件包括：<br/>
+     * - success == true<br/>
+     * - isSuccess == true<br/>
+     * - resultCode == 200 或 "SUCCESS" 或 "100"<br/>
+     * - memo == "SUCCESS"<br/>
+     *
+     * @param jo JSON对象
+     * @return true 如果成功
+     */
+    public static boolean checkRes(String TAG, JSONObject jo) {
+        return core(TAG, jo);
+    }
+
+    /**
+     * 检查JSON对象是否表示成功
+     * <p>
+     * 成功条件包括：<br/>
+     * - success == true<br/>
+     * - isSuccess == true<br/>
+     * - resultCode == 200 或 "SUCCESS" 或 "100"<br/>
+     * - memo == "SUCCESS"<br/>
+     *
+     * @param jsonStr JSON对象的字符串表示
+     * @return true 如果成功
+     */
+    public static boolean checkRes(String TAG, String jsonStr) throws JSONException {
+        JSONObject jo = new JSONObject(jsonStr);
+        return checkRes(TAG, jo);
+    }
+}

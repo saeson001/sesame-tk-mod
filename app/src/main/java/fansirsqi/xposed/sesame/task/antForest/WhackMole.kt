@@ -1,1 +1,216 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZvcmVzdAoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuU3RhdHVzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlRvYXN0CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5SZXNDaGVja2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljTG9uZwppbXBvcnQga290bGluLm1hdGgubWF4CgovKioKICogNuenkuaLvOaJi+mAn+aJk+WcsOm8oAogKiDmlbTlkIjniYjmnKzvvJrpgILphY3mnIDmlrAgUlBDIOWumuS5iQogKi8Kb2JqZWN0IFdoYWNrTW9sZSB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiV2hhY2tNb2xlIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgU09VUkNFID0gInNlbmxpbmd1YW5nY2hhbmdkYWRpc2h1IgogICAgcHJpdmF0ZSBjb25zdCB2YWwgRVhFQ19GTEFHID0gImZvcmVzdDo6d2hhY2tNb2xlOjpleGVjdXRlZCIKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIHRvdGFsR2FtZXMgPSA1CiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIG1vbGVDb3VudCA9IDE1IC8vIOWFvOWuueaooeW8j+m7mOiupOWHu+aJk+aVsAogICAgcHJpdmF0ZSBjb25zdCB2YWwgR0FNRV9EVVJBVElPTl9NUyA9IDEyMDAwTAogICAgcHJpdmF0ZSB2YWwgZ2xvYmFsU2NvcGUgPSBDb3JvdXRpbmVTY29wZShTdXBlcnZpc29ySm9iKCkgKyBEaXNwYXRjaGVycy5JTykKICAgIHByaXZhdGUgdmFsIHN0YXJ0VGltZSA9IEF0b21pY0xvbmcoMCkKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIGlzUnVubmluZyA9IGZhbHNlCgogICAgZW51bSBjbGFzcyBNb2RlIHsKICAgICAgICBDT01QQVRJQkxFLCAvLyDlhbzlrrnmqKHlvI8gKOWvueW6lCBvbGTns7vliJcgUlBDKQogICAgICAgIEFHR1JFU1NJVkUgIC8vIOa/gOi/m+aooeW8jyAo5a+55bqUIOagh+WHhuezu+WIlyBSUEMpCiAgICB9CgogICAgZGF0YSBjbGFzcyBHYW1lU2Vzc2lvbigKICAgICAgICB2YWwgdG9rZW46IFN0cmluZywKICAgICAgICB2YWwgcm91bmROdW1iZXI6IEludAogICAgKQoKICAgIGZ1biBzZXRUb3RhbEdhbWVzKGdhbWVzOiBJbnQpIHsKICAgICAgICB0b3RhbEdhbWVzID0gZ2FtZXMKICAgIH0KCiAgICBmdW4gc2V0TW9sZUNvdW50KGNvdW50OiBJbnQpIHsKICAgICAgICBtb2xlQ291bnQgPSBjb3VudAogICAgfQoKICAgIHByaXZhdGUgdmFsIGludGVydmFsQ2FsY3VsYXRvciA9IEdhbWVJbnRlcnZhbENhbGN1bGF0b3IKCiAgICAvKioKICAgICAqIOaMgui1t+aWueW8j+WQr+WKqOa4uOaIj++8jOS+myBNYW51YWxUYXNrIOiwg+eUqOS7peetieW+heWujOaIkAogICAgICovCiAgICBzdXNwZW5kIGZ1biBzdGFydFN1c3BlbmQobW9kZTogTW9kZSkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIGlmIChpc1J1bm5pbmcpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLij63vuI8g5omT5Zyw6byg5ri45oiP5q2j5Zyo6L+Q6KGM5Lit77yM6Lez6L+H6YeN5aSN5ZCv5YqoIikKICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0CiAgICAgICAgfQogICAgICAgIGlzUnVubmluZyA9IHRydWUKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgd2hlbiAobW9kZSkgewogICAgICAgICAgICAgICAgTW9kZS5DT01QQVRJQkxFIC0+IHJ1bkNvbXBhdGlibGVNb2RlKCkKICAgICAgICAgICAgICAgIE1vZGUuQUdHUkVTU0lWRSAtPiBydW5BZ2dyZXNzaXZlTW9kZSgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3RhdHVzLnNldEZsYWdUb2RheShFWEVDX0ZMQUcpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi5omT5Zyw6byg5byC5bi4OiAiLCBlKQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIGlzUnVubmluZyA9IGZhbHNlCiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi8J+OriDmiZPlnLDpvKDov5DooYznirbmgIHlt7Lph43nva4iKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc3RhcnQobW9kZTogTW9kZSkgewogICAgICAgIGdsb2JhbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHN0YXJ0U3VzcGVuZChtb2RlKQogICAgICAgIH0KICAgIH0KCiAgICAvLyA9PT09PT09PT09PT09PT09PSBbIOWFvOWuueaooeW8j++8muWvueW6lCBvbGQg57O75YiXIFJQQyBdID09PT09PT09PT09PT09PT09CiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHJ1bkNvbXBhdGlibGVNb2RlKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBzdGFydFRzID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKCiAgICAgICAgICAgIC8vIDEuIOW8gOWni+a4uOaIjyAo5L2/55SoIG9sZHN0YXJ0V2hhY2tNb2xlKQogICAgICAgICAgICB2YWwgcmVzcG9uc2UgPSBKU09OT2JqZWN0KEFudEZvcmVzdFJwY0NhbGwub2xkc3RhcnRXaGFja01vbGUoU09VUkNFKSkKICAgICAgICAgICAgaWYgKCFyZXNwb25zZS5vcHRCb29sZWFuKCJzdWNjZXNzIikpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCByZXNwb25zZS5vcHRTdHJpbmcoInJlc3VsdERlc2MiLCAi5byA5aeL5aSx6LSlIikpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIG1vbGVJbmZvQXJyYXkgPSByZXNwb25zZS5vcHRKU09OQXJyYXkoIm1vbGVJbmZvIikKICAgICAgICAgICAgdmFsIHRva2VuID0gcmVzcG9uc2Uub3B0U3RyaW5nKCJ0b2tlbiIpCiAgICAgICAgICAgIGlmIChtb2xlSW5mb0FycmF5ID09IG51bGwgfHwgdG9rZW4uaXNFbXB0eSgpKSByZXR1cm4KCiAgICAgICAgICAgIHZhbCBhbGxNb2xlSWRzID0gbXV0YWJsZUxpc3RPZjxMb25nPigpCiAgICAgICAgICAgIHZhbCBidWJibGVNb2xlSWRzID0gbXV0YWJsZUxpc3RPZjxMb25nPigpCgogICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBtb2xlSW5mb0FycmF5Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICB2YWwgbW9sZSA9IG1vbGVJbmZvQXJyYXkuZ2V0SlNPTk9iamVjdChpKQogICAgICAgICAgICAgICAgdmFsIG1vbGVJZCA9IG1vbGUuZ2V0TG9uZygiaWQiKQogICAgICAgICAgICAgICAgYWxsTW9sZUlkcy5hZGQobW9sZUlkKQogICAgICAgICAgICAgICAgaWYgKG1vbGUuaGFzKCJidWJibGVJZCIpKSBidWJibGVNb2xlSWRzLmFkZChtb2xlSWQpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIDIuIOaJk+acieiDvemHj+eQg+eahOWcsOm8oCAo5L2/55SoIG9sZHdoYWNrTW9sZSkKICAgICAgICAgICAgdmFyIGhpdENvdW50ID0gMAogICAgICAgICAgICBidWJibGVNb2xlSWRzLmZvckVhY2ggeyBtb2xlSWQgLT4KICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHdoYWNrUmVzcCA9IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5vbGR3aGFja01vbGUobW9sZUlkLCB0b2tlbiwgU09VUkNFKSkKICAgICAgICAgICAgICAgICAgICBpZiAod2hhY2tSZXNwLm9wdEJvb2xlYW4oInN1Y2Nlc3MiKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZW5lcmd5ID0gd2hhY2tSZXNwLm9wdEludCgiZW5lcmd5QW1vdW50IiwgMCkKICAgICAgICAgICAgICAgICAgICAgICAgaGl0Q291bnQrKwogICAgICAgICAgICAgICAgICAgICAgICBMb2cuZm9yZXN0KCLmo67mnpfog73ph4/imqHvuI9b5YW85a655omT5Zyw6bygOiRtb2xlSWQgKyR7ZW5lcmd5fWddIikKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGhpdENvdW50IDwgYnViYmxlTW9sZUlkcy5zaXplKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWxheSgxMDAgKyAoMC4uMjAwKS5yYW5kb20oKS50b0xvbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyAzLiDorqHnrpfliankvZkgSUQg5bm257uT566XICjkvb/nlKggb2xkc2V0dGxlbWVudFdoYWNrTW9sZSkKICAgICAgICAgICAgdmFsIHJlbWFpbmluZ0lkcyA9IGFsbE1vbGVJZHMuZmlsdGVyIHsgIWJ1YmJsZU1vbGVJZHMuY29udGFpbnMoaXQpIH0KICAgICAgICAgICAgICAgIC50YWtlKG1vbGVDb3VudCkgLy8g6ZmQ5Yi25Ye75omT5pWw6YePCiAgICAgICAgICAgICAgICAubWFwIHsgaXQudG9TdHJpbmcoKSB9CgogICAgICAgICAgICB2YWwgZWxhcHNlZFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0VHMKICAgICAgICAgICAgZGVsYXkobWF4KDBMLCA2MDAwTCAtIGVsYXBzZWRUaW1lIC0gMjAwTCkpCgogICAgICAgICAgICB2YWwgc2V0dGxlUmVzcCA9IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5vbGRzZXR0bGVtZW50V2hhY2tNb2xlKHRva2VuLCByZW1haW5pbmdJZHMsIFNPVVJDRSkpCiAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgc2V0dGxlUmVzcCkpIHsKICAgICAgICAgICAgICAgIHZhbCB0b3RhbCA9IHNldHRsZVJlc3Aub3B0SW50KCJ0b3RhbEVuZXJneSIsIDApCiAgICAgICAgICAgICAgICBMb2cuZm9yZXN0KCLmo67mnpfog73ph4/imqHvuI9b5YW85a655qih5byP5a6M5oiQKOaJkyR7cmVtYWluaW5nSWRzLnNpemUgKyBoaXRDb3VudH3kuKopIOaAu+iDvemHjyske3RvdGFsfWddIikKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuWFvOWuueaooeW8j+WHuumUmTogJHt0Lm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgLy8gPT09PT09PT09PT09PT09PT0gWyDmv4Dov5vmqKHlvI/vvJrlr7nlupQg5qCH5YeG57O75YiXIFJQQyBdID09PT09PT09PT09PT09PT09CgogICAgQFN1cHByZXNzTGludCgiRGVmYXVsdExvY2FsZSIpCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHJ1bkFnZ3Jlc3NpdmVNb2RlKCkgewogICAgICAgIHN0YXJ0VGltZS5zZXQoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpCiAgICAgICAgdmFsIGR5bmFtaWNJbnRlcnZhbCA9IGludGVydmFsQ2FsY3VsYXRvci5jYWxjdWxhdGVEeW5hbWljSW50ZXJ2YWwoR0FNRV9EVVJBVElPTl9NUywgdG90YWxHYW1lcykKCiAgICAgICAgdmFsIHNlc3Npb25zID0gbXV0YWJsZUxpc3RPZjxHYW1lU2Vzc2lvbj4oKQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGZvciAocm91bmROdW0gaW4gMS4udG90YWxHYW1lcykgewogICAgICAgICAgICAgICAgLy8gMS4g5ZCv5Yqo5Y2V5bGAICjkvb/nlKjmoIflh4Ygc3RhcnRXaGFja01vbGUpCiAgICAgICAgICAgICAgICB2YWwgc2Vzc2lvbiA9IHN0YXJ0U2luZ2xlUm91bmQocm91bmROdW0pCiAgICAgICAgICAgICAgICBpZiAoc2Vzc2lvbiAhPSBudWxsKSBzZXNzaW9ucy5hZGQoc2Vzc2lvbikKCiAgICAgICAgICAgICAgICBpZiAocm91bmROdW0gPCB0b3RhbEdhbWVzKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHJlbWFpbmluZyA9IEdBTUVfRFVSQVRJT05fTVMgLSAoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSBzdGFydFRpbWUuZ2V0KCkpCiAgICAgICAgICAgICAgICAgICAgZGVsYXkoaW50ZXJ2YWxDYWxjdWxhdG9yLmNhbGN1bGF0ZU5leHREZWxheShkeW5hbWljSW50ZXJ2YWwsIHJvdW5kTnVtLCB0b3RhbEdhbWVzLCByZW1haW5pbmcpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgLy8g562J5b6F57uT566X56qX5Y+jCiAgICAgICAgdmFsIHdhaXRUaW1lID0gbWF4KDBMLCBHQU1FX0RVUkFUSU9OX01TIC0gKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnRUaW1lLmdldCgpKSkKICAgICAgICBkZWxheSh3YWl0VGltZSkKCiAgICAgICAgLy8gMi4g5om56YeP57uT566XICjkvb/nlKjmoIflh4Ygc2V0dGxlbWVudFdoYWNrTW9sZSkKICAgICAgICB2YXIgdG90YWxFbmVyZ3kgPSAwCiAgICAgICAgc2Vzc2lvbnMuZm9yRWFjaCB7IHNlc3Npb24gLT4KICAgICAgICAgICAgZGVsYXkoMjAwKQogICAgICAgICAgICB0b3RhbEVuZXJneSArPSBzZXR0bGVTdGFuZGFyZFJvdW5kKHNlc3Npb24pCiAgICAgICAgfQogICAgICAgIExvZy5mb3Jlc3QoIuajruael+iDvemHj+Kaoe+4j1vmv4Dov5vmqKHlvI8ke3Nlc3Npb25zLnNpemV95bGAIOaAu+iuoSR7dG90YWxFbmVyZ3l9Z10iKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gc3RhcnRTaW5nbGVSb3VuZChyb3VuZDogSW50KTogR2FtZVNlc3Npb24/IHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyDmoIflh4bmjqXlj6PosIPnlKgKICAgICAgICAgICAgdmFsIHN0YXJ0UmVzcCA9IEpTT05PYmplY3QoQW50Rm9yZXN0UnBjQ2FsbC5zdGFydFdoYWNrTW9sZSgpKQogICAgICAgICAgICBpZiAoIVJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBzdGFydFJlc3ApKSByZXR1cm4gbnVsbAoKICAgICAgICAgICAgaWYgKCFzdGFydFJlc3Aub3B0Qm9vbGVhbigiY2FuUGxheVRvZGF5IiwgdHJ1ZSkpIHsKICAgICAgICAgICAgICAgIFN0YXR1cy5zZXRGbGFnVG9kYXkoRVhFQ19GTEFHKQogICAgICAgICAgICAgICAgdGhyb3cgQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKCJUb2RheSBsaW1pdCByZWFjaGVkIikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHRva2VuID0gc3RhcnRSZXNwLm9wdFN0cmluZygidG9rZW4iKQogICAgICAgICAgICBUb2FzdC5zaG93KCLmiZPlnLDpvKAg56ysJHtyb3VuZH3lsYDlkK/liqhcblRva2VuOiAkdG9rZW4iKQogICAgICAgICAgICByZXR1cm4gR2FtZVNlc3Npb24odG9rZW4sIHJvdW5kKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHNldHRsZVN0YW5kYXJkUm91bmQoc2Vzc2lvbjogR2FtZVNlc3Npb24pOiBJbnQgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIOagh+WHhue7k+eul+iwg+eUqCAoUlBDIOWGhemDqOS8muiHquWKqOWkhOeQhiBtb2xlSWRMaXN0IDEtMTUpCiAgICAgICAgICAgIHZhbCByZXNwID0gSlNPTk9iamVjdChBbnRGb3Jlc3RScGNDYWxsLnNldHRsZW1lbnRXaGFja01vbGUoc2Vzc2lvbi50b2tlbikpCiAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgcmVzcCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiByZXNwLm9wdEludCgidG90YWxFbmVyZ3kiLCAwKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgfQogICAgICAgIHJldHVybiAwCiAgICB9Cn0=
+package fansirsqi.xposed.sesame.task.antForest
+
+import android.annotation.SuppressLint
+import fansirsqi.xposed.sesame.data.Status
+import fansirsqi.xposed.sesame.hook.Toast
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ResChecker
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+import java.util.concurrent.atomic.AtomicLong
+import kotlin.math.max
+
+/**
+ * 6秒拼手速打地鼠
+ * 整合版本：适配最新 RPC 定义
+ */
+object WhackMole {
+    private const val TAG = "WhackMole"
+    private const val SOURCE = "senlinguangchangdadishu"
+    private const val EXEC_FLAG = "forest::whackMole::executed"
+
+    @Volatile
+    private var totalGames = 5
+    @Volatile
+    private var moleCount = 15 // 兼容模式默认击打数
+    private const val GAME_DURATION_MS = 12000L
+    private val globalScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val startTime = AtomicLong(0)
+
+    @Volatile
+    private var isRunning = false
+
+    enum class Mode {
+        COMPATIBLE, // 兼容模式 (对应 old系列 RPC)
+        AGGRESSIVE  // 激进模式 (对应 标准系列 RPC)
+    }
+
+    data class GameSession(
+        val token: String,
+        val roundNumber: Int
+    )
+
+    fun setTotalGames(games: Int) {
+        totalGames = games
+    }
+
+    fun setMoleCount(count: Int) {
+        moleCount = count
+    }
+
+    private val intervalCalculator = GameIntervalCalculator
+
+    /**
+     * 挂起方式启动游戏，供 ManualTask 调用以等待完成
+     */
+    suspend fun startSuspend(mode: Mode) = withContext(Dispatchers.IO) {
+        if (isRunning) {
+            Log.record(TAG, "⏭️ 打地鼠游戏正在运行中，跳过重复启动")
+            return@withContext
+        }
+        isRunning = true
+
+        try {
+            when (mode) {
+                Mode.COMPATIBLE -> runCompatibleMode()
+                Mode.AGGRESSIVE -> runAggressiveMode()
+            }
+            Status.setFlagToday(EXEC_FLAG)
+        } catch (e: Exception) {
+            Log.printStackTrace(TAG, "打地鼠异常: ", e)
+        } finally {
+            isRunning = false
+            Log.record(TAG, "🎮 打地鼠运行状态已重置")
+        }
+    }
+
+    fun start(mode: Mode) {
+        globalScope.launch {
+            startSuspend(mode)
+        }
+    }
+
+    // ================= [ 兼容模式：对应 old 系列 RPC ] =================
+    private suspend fun runCompatibleMode() {
+        try {
+            val startTs = System.currentTimeMillis()
+
+            // 1. 开始游戏 (使用 oldstartWhackMole)
+            val response = JSONObject(AntForestRpcCall.oldstartWhackMole(SOURCE))
+            if (!response.optBoolean("success")) {
+                Log.record(TAG, response.optString("resultDesc", "开始失败"))
+                return
+            }
+
+            val moleInfoArray = response.optJSONArray("moleInfo")
+            val token = response.optString("token")
+            if (moleInfoArray == null || token.isEmpty()) return
+
+            val allMoleIds = mutableListOf<Long>()
+            val bubbleMoleIds = mutableListOf<Long>()
+
+            for (i in 0 until moleInfoArray.length()) {
+                val mole = moleInfoArray.getJSONObject(i)
+                val moleId = mole.getLong("id")
+                allMoleIds.add(moleId)
+                if (mole.has("bubbleId")) bubbleMoleIds.add(moleId)
+            }
+
+            // 2. 打有能量球的地鼠 (使用 oldwhackMole)
+            var hitCount = 0
+            bubbleMoleIds.forEach { moleId ->
+                try {
+                    val whackResp = JSONObject(AntForestRpcCall.oldwhackMole(moleId, token, SOURCE))
+                    if (whackResp.optBoolean("success")) {
+                        val energy = whackResp.optInt("energyAmount", 0)
+                        hitCount++
+                        Log.forest("森林能量⚡️[兼容打地鼠:$moleId +${energy}g]")
+                        if (hitCount < bubbleMoleIds.size) {
+                            delay(100 + (0..200).random().toLong())
+                        }
+                    }
+                } catch (t: Throwable) {
+                }
+            }
+
+            // 3. 计算剩余 ID 并结算 (使用 oldsettlementWhackMole)
+            val remainingIds = allMoleIds.filter { !bubbleMoleIds.contains(it) }
+                .take(moleCount) // 限制击打数量
+                .map { it.toString() }
+
+            val elapsedTime = System.currentTimeMillis() - startTs
+            delay(max(0L, 6000L - elapsedTime - 200L))
+
+            val settleResp = JSONObject(AntForestRpcCall.oldsettlementWhackMole(token, remainingIds, SOURCE))
+            if (ResChecker.checkRes(TAG, settleResp)) {
+                val total = settleResp.optInt("totalEnergy", 0)
+                Log.forest("森林能量⚡️[兼容模式完成(打${remainingIds.size + hitCount}个) 总能量+${total}g]")
+            }
+        } catch (t: Throwable) {
+            Log.record(TAG, "兼容模式出错: ${t.message}")
+        }
+    }
+
+    // ================= [ 激进模式：对应 标准系列 RPC ] =================
+
+    @SuppressLint("DefaultLocale")
+    private suspend fun runAggressiveMode() {
+        startTime.set(System.currentTimeMillis())
+        val dynamicInterval = intervalCalculator.calculateDynamicInterval(GAME_DURATION_MS, totalGames)
+
+        val sessions = mutableListOf<GameSession>()
+        try {
+            for (roundNum in 1..totalGames) {
+                // 1. 启动单局 (使用标准 startWhackMole)
+                val session = startSingleRound(roundNum)
+                if (session != null) sessions.add(session)
+
+                if (roundNum < totalGames) {
+                    val remaining = GAME_DURATION_MS - (System.currentTimeMillis() - startTime.get())
+                    delay(intervalCalculator.calculateNextDelay(dynamicInterval, roundNum, totalGames, remaining))
+                }
+            }
+        } catch (e: CancellationException) {
+            return
+        }
+
+        // 等待结算窗口
+        val waitTime = max(0L, GAME_DURATION_MS - (System.currentTimeMillis() - startTime.get()))
+        delay(waitTime)
+
+        // 2. 批量结算 (使用标准 settlementWhackMole)
+        var totalEnergy = 0
+        sessions.forEach { session ->
+            delay(200)
+            totalEnergy += settleStandardRound(session)
+        }
+        Log.forest("森林能量⚡️[激进模式${sessions.size}局 总计${totalEnergy}g]")
+    }
+
+    private suspend fun startSingleRound(round: Int): GameSession? {
+        try {
+            // 标准接口调用
+            val startResp = JSONObject(AntForestRpcCall.startWhackMole())
+            if (!ResChecker.checkRes(TAG, startResp)) return null
+
+            if (!startResp.optBoolean("canPlayToday", true)) {
+                Status.setFlagToday(EXEC_FLAG)
+                throw CancellationException("Today limit reached")
+            }
+
+            val token = startResp.optString("token")
+            Toast.show("打地鼠 第${round}局启动\nToken: $token")
+            return GameSession(token, round)
+        } catch (e: Exception) {
+            return null
+        }
+    }
+
+    private suspend fun settleStandardRound(session: GameSession): Int {
+        try {
+            // 标准结算调用 (RPC 内部会自动处理 moleIdList 1-15)
+            val resp = JSONObject(AntForestRpcCall.settlementWhackMole(session.token))
+            if (ResChecker.checkRes(TAG, resp)) {
+                return resp.optInt("totalEnergy", 0)
+            }
+        } catch (e: Exception) {
+        }
+        return 0
+    }
+}

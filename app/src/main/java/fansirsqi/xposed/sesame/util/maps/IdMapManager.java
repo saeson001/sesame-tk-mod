@@ -1,1 +1,211 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHM7CgppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmNvcmUudHlwZS5UeXBlUmVmZXJlbmNlOwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmRhdGFiaW5kLk9iamVjdE1hcHBlcjsKCmltcG9ydCBqYXZhLmlvLkZpbGU7CmltcG9ydCBqYXZhLnV0aWwuQ29sbGVjdGlvbnM7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXA7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5GaWxlczsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuSnNvblV0aWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKCi8qKgogKiDmir3osaFJROaYoOWwhOW3peWFt+exu+OAggogKiDmj5DkvpvpgJrnlKjnmoTnur/nqIvlronlhajnmoRJROaYoOWwhOWKn+iDve+8jOW5tuaUr+aMgeWNleS+i+euoeeQhuOAggogKi8KcHVibGljIGFic3RyYWN0IGNsYXNzIElkTWFwTWFuYWdlciB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gSWRNYXBNYW5hZ2VyLmNsYXNzLmdldFNpbXBsZU5hbWUoKTsKCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBGaWxlIE9MRF9DT05GSUdfRElSID0gRmlsZXMuTUFJTl9ESVI7IC8vIOaXp+mFjee9ruebruW9lQogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgRmlsZSBDT05GSUdfRElSID0gRmlsZXMuQ09ORklHX0RJUjsgLy8g6YWN572u55uu5b2VCiAgICAvKioKICAgICAqIOWtmOWCqElE5pig5bCE55qE5bm25Y+RSGFzaE1hcOOAggogICAgICovCiAgICBwcml2YXRlIGZpbmFsIE1hcDxTdHJpbmcsIFN0cmluZz4gaWRNYXAgPSBuZXcgQ29uY3VycmVudEhhc2hNYXA8PigpOwogICAgLyoqCiAgICAgKiDlj6ror7vnmoRJROaYoOWwhOOAggogICAgICovCiAgICBwcml2YXRlIGZpbmFsIE1hcDxTdHJpbmcsIFN0cmluZz4gcmVhZE9ubHlJZE1hcCA9IENvbGxlY3Rpb25zLnVubW9kaWZpYWJsZU1hcChpZE1hcCk7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBNYXA8Q2xhc3M8PyBleHRlbmRzIElkTWFwTWFuYWdlcj4sIElkTWFwTWFuYWdlcj4gaW5zdGFuY2VzID0gbmV3IENvbmN1cnJlbnRIYXNoTWFwPD4oKTsKCiAgICBwdWJsaWMgc3RhdGljIDxUIGV4dGVuZHMgSWRNYXBNYW5hZ2VyPiBUIGdldEluc3RhbmNlKENsYXNzPFQ+IGNsYXp6KSB7CiAgICAgICAgVCBpbnN0YW5jZSA9IGNsYXp6LmNhc3QoaW5zdGFuY2VzLmdldChjbGF6eikpOyAvLyDlsJ3or5Xku47nvJPlrZjkuK3ojrflj5blrp7kvosKICAgICAgICBpZiAoaW5zdGFuY2UgPT0gbnVsbCkgeyAvLyDlpoLmnpznvJPlrZjkuK3msqHmnIkKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGluc3RhbmNlID0gY2xhenouZ2V0RGVjbGFyZWRDb25zdHJ1Y3RvcigpLm5ld0luc3RhbmNlKCk7IC8vIOWIm+W7uuaWsOWunuS+iwogICAgICAgICAgICAgICAgaW5zdGFuY2VzLnB1dChjbGF6eiwgaW5zdGFuY2UpOyAvLyDlsIblrp7kvovmlL7lhaXnvJPlrZgKICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBSdW50aW1lRXhjZXB0aW9uKCJGYWlsZWQgdG8gY3JlYXRlIGluc3RhbmNlIGZvciAiICsgY2xhenouZ2V0TmFtZSgpLCBlKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gaW5zdGFuY2U7IC8vIOi/lOWbnuWunuS+iwogICAgfQoKICAgIC8qKgogICAgICog5by65Yi25a2Q57G75o+Q5L6b5paH5Lu25ZCN44CCCiAgICAgKgogICAgICogQHJldHVybiDmlofku7blkI3jgIIKICAgICAqLwogICAgcHJvdGVjdGVkIGFic3RyYWN0IFN0cmluZyB0aGlzRmlsZU5hbWUoKTsKCiAgICAvKioKICAgICAqIOiOt+WPluWPquivu+eahElE5pig5bCE44CCCiAgICAgKgogICAgICogQHJldHVybiDlj6ror7vnmoRJROaYoOWwhOOAggogICAgICovCiAgICBwdWJsaWMgTWFwPFN0cmluZywgU3RyaW5nPiBnZXRNYXAoKSB7CiAgICAgICAgcmV0dXJuIHJlYWRPbmx5SWRNYXA7CiAgICB9CgogICAgLyoqCiAgICAgKiDmoLnmja7plK7ojrflj5blgLzjgIIKICAgICAqCiAgICAgKiBAcGFyYW0ga2V5IOmUruOAggogICAgICogQHJldHVybiDplK7lr7nlupTnmoTlgLzvvIzlpoLmnpzkuI3lrZjlnKjliJnov5Tlm55udWxs44CCCiAgICAgKi8KICAgIHB1YmxpYyBTdHJpbmcgZ2V0KFN0cmluZyBrZXkpIHsKICAgICAgICByZXR1cm4gaWRNYXAuZ2V0KGtleSk7CiAgICB9CgogICAgLyoqCiAgICAgKiDmt7vliqDmiJbmm7TmlrBJROaYoOWwhOOAggogICAgICoKICAgICAqIEBwYXJhbSBrZXkgICDplK7jgIIKICAgICAqIEBwYXJhbSB2YWx1ZSDlgLzjgIIKICAgICAqLwogICAgcHVibGljIHN5bmNocm9uaXplZCB2b2lkIGFkZChTdHJpbmcga2V5LCBTdHJpbmcgdmFsdWUpIHsKICAgICAgICBpZE1hcC5wdXQoa2V5LCB2YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiDku45JROaYoOWwhOS4reWIoOmZpOmUruWAvOWvueOAggogICAgICoKICAgICAqIEBwYXJhbSBrZXkg6ZSu44CCCiAgICAgKi8KICAgIHB1YmxpYyBzeW5jaHJvbml6ZWQgdm9pZCByZW1vdmUoU3RyaW5nIGtleSkgewogICAgICAgIGlkTWFwLnJlbW92ZShrZXkpOwogICAgfQoKICAgIC8qKgogICAgICog5LuO5paH5Lu25Yqg6L29SUTmmKDlsITjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gdXNlcklkIOeUqOaIt0lE44CCCiAgICAgKi8KICAgIHB1YmxpYyBzeW5jaHJvbml6ZWQgdm9pZCBsb2FkKFN0cmluZyB1c2VySWQpIHsKICAgICAgICBpZiAodXNlcklkID09IG51bGwgfHwgdXNlcklkLmlzRW1wdHkoKSkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIlNraXAgbG9hZGluZyBtYXAgZm9yIGVtcHR5IHVzZXJJZCIpOwogICAgICAgICAgICBsb2FkKCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgaWRNYXAuY2xlYXIoKTsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIEZpbGUgZmlsZSA9IEZpbGVzLmdldFRhcmdldEZpbGVvZlVzZXIodXNlcklkLCB0aGlzRmlsZU5hbWUoKSk7CiAgICAgICAgICAgICAgICBhc3NlcnQgZmlsZSAhPSBudWxsOwogICAgICAgICAgICAgICAgU3RyaW5nIGJvZHkgPSBGaWxlcy5yZWFkRnJvbUZpbGUoZmlsZSk7CiAgICAgICAgICAgICAgICBpZiAoIWJvZHkuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgT2JqZWN0TWFwcGVyIG9iamVjdE1hcHBlciA9IG5ldyBPYmplY3RNYXBwZXIoKTsKICAgICAgICAgICAgICAgICAgICBNYXA8U3RyaW5nLCBTdHJpbmc+IG5ld01hcCA9IG9iamVjdE1hcHBlci5yZWFkVmFsdWUoYm9keSwgbmV3IFR5cGVSZWZlcmVuY2U8PigpIHsKICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICBpZE1hcC5wdXRBbGwobmV3TWFwKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN5bmNocm9uaXplZCB2b2lkIGxvYWQoKSB7CiAgICAgICAgaWRNYXAuY2xlYXIoKTsKICAgICAgICB0cnkgewogICAgICAgICAgICBGaWxlIG5ld0ZpbGUgPSBGaWxlcy5nZXRUYXJnZXRGaWxlb2ZEaXIoQ09ORklHX0RJUiwgdGhpc0ZpbGVOYW1lKCkpOwogICAgICAgICAgICBGaWxlIG9sZEZpbGUgPSBGaWxlcy5nZXRUYXJnZXRGaWxlb2ZEaXIoT0xEX0NPTkZJR19ESVIsIHRoaXNGaWxlTmFtZSgpKTsKICAgICAgICAgICAgLy8gMS4g5paw5paH5Lu25a2Y5Zyo77yM55u05o6l5Yqg6L29CiAgICAgICAgICAgIGlmIChuZXdGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICBTdHJpbmcgYm9keSA9IEZpbGVzLnJlYWRGcm9tRmlsZShuZXdGaWxlKTsKICAgICAgICAgICAgICAgIGlmICghYm9keS5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBPYmplY3RNYXBwZXIgb2JqZWN0TWFwcGVyID0gbmV3IE9iamVjdE1hcHBlcigpOwogICAgICAgICAgICAgICAgICAgIE1hcDxTdHJpbmcsIFN0cmluZz4gbmV3TWFwID0gb2JqZWN0TWFwcGVyLnJlYWRWYWx1ZShib2R5LCBuZXcgVHlwZVJlZmVyZW5jZTw+KCkgewogICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgICAgIGlkTWFwLnB1dEFsbChuZXdNYXApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYob2xkRmlsZS5leGlzdHMoKSl7CiAgICAgICAgICAgICAgICAgICAgb2xkRmlsZS5kZWxldGUoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyAyLiDmlrDmlofku7bkuI3lrZjlnKjvvIzmo4Dmn6Xml6fmlofku7bmmK/lkKblrZjlnKgKICAgICAgICAgICAgaWYgKG9sZEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiT2xkIGNvbmZpZ3VyYXRpb24gZmlsZSBmb3VuZCwgbWlncmF0aW5nIHRvIG5ldyBwYXRoLi4uIik7CgogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBTdHJpbmcgYm9keSA9IEZpbGVzLnJlYWRGcm9tRmlsZShvbGRGaWxlKTsKICAgICAgICAgICAgICAgICAgICBpZiAoIWJvZHkuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE9iamVjdE1hcHBlciBvYmplY3RNYXBwZXIgPSBuZXcgT2JqZWN0TWFwcGVyKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIE1hcDxTdHJpbmcsIFN0cmluZz4gbmV3TWFwID0gb2JqZWN0TWFwcGVyLnJlYWRWYWx1ZShib2R5LCBuZXcgVHlwZVJlZmVyZW5jZTw+KCkgewogICAgICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGpzb24gPSBKc29uVXRpbC5mb3JtYXRKc29uKG5ld01hcCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChqc29uICE9IG51bGwgJiYgIWpzb24uaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBGaWxlcy53cml0ZTJGaWxlKGpzb24sIG5ld0ZpbGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgb2xkRmlsZS5kZWxldGUoKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlkTWFwLnB1dEFsbChuZXdNYXApOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiTWlncmF0aW9uIG9mIG9sZCBjb25maWd1cmF0aW9uIGZpbGVzIGZhaWxlZO+8miIgKyBlLmdldE1lc3NhZ2UoKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIDMuIOaWsOaXp+aWh+S7tumDveS4jeWtmOWcqO+8jOWIneWni+WMlum7mOiupOmFjee9rgogICAgICAgICAgICBpZiAoIW5ld0ZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiQ29uZmlndXJhdGlvbiBmaWxlIG5vdCBmb3VuZCwgaW5pdGlhbGl6aW5nIGFuIGVtcHR5IGNvbmZpZ3VyYXRpb24gZmlsZS4uLiIpOwogICAgICAgICAgICAgICAgU3RyaW5nIGpzb24gPSBKc29uVXRpbC5mb3JtYXRKc29uKGlkTWFwKTsKICAgICAgICAgICAgICAgIGlmIChqc29uICE9IG51bGwgJiYgIWpzb24uaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZShqc29uLCBuZXdGaWxlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAiSUTmmKDlsITnrqHnkIblmajliJ3lp4vljJblpLHotKXvvJoiLCBlKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlsIZJROaYoOWwhOS/neWtmOWIsOaWh+S7tuOAggogICAgICoKICAgICAqIEBwYXJhbSB1c2VySWQg55So5oi3SUTjgIIKICAgICAqIEByZXR1cm4g5aaC5p6c5L+d5a2Y5oiQ5Yqf6L+U5ZuedHJ1Ze+8jOWQpuWImei/lOWbnmZhbHNl44CCCiAgICAgKi8KICAgIHB1YmxpYyBzeW5jaHJvbml6ZWQgYm9vbGVhbiBzYXZlKFN0cmluZyB1c2VySWQpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBPYmplY3RNYXBwZXIgb2JqZWN0TWFwcGVyID0gbmV3IE9iamVjdE1hcHBlcigpOwogICAgICAgICAgICBTdHJpbmcganNvbiA9IEpzb25VdGlsLmZvcm1hdEpzb24oaWRNYXApOwovLyAgICAgICAgICAgICBqc29uID0gb2JqZWN0TWFwcGVyLndyaXRlVmFsdWVBc1N0cmluZyhpZE1hcCk7CiAgICAgICAgICAgIEZpbGUgZmlsZSA9IEZpbGVzLmdldFRhcmdldEZpbGVvZlVzZXIodXNlcklkLCB0aGlzRmlsZU5hbWUoKSk7CiAgICAgICAgICAgIHJldHVybiBGaWxlcy53cml0ZTJGaWxlKGpzb24sIGZpbGUpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN5bmNocm9uaXplZCBib29sZWFuIHNhdmUoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgT2JqZWN0TWFwcGVyIG9iamVjdE1hcHBlciA9IG5ldyBPYmplY3RNYXBwZXIoKTsKICAgICAgICAgICAgU3RyaW5nIGpzb24gPSBKc29uVXRpbC5mb3JtYXRKc29uKGlkTWFwKTsKLy8gICAgICAgICAgICBTdHJpbmcganNvbiA9IG9iamVjdE1hcHBlci53cml0ZVZhbHVlQXNTdHJpbmcoaWRNYXApOwogICAgICAgICAgICBGaWxlIGZpbGUgPSBGaWxlcy5nZXRUYXJnZXRGaWxlb2ZEaXIoQ09ORklHX0RJUiwgdGhpc0ZpbGVOYW1lKCkpOwogICAgICAgICAgICByZXR1cm4gRmlsZXMud3JpdGUyRmlsZShqc29uLCBmaWxlKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpOwogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5riF6ZmkSUTmmKDlsITjgIIKICAgICAqLwogICAgcHVibGljIHN5bmNocm9uaXplZCB2b2lkIGNsZWFyKCkgewogICAgICAgIGlkTWFwLmNsZWFyKCk7CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util.maps;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.File;
+import java.util.Collections;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+import fansirsqi.xposed.sesame.util.Files;
+import fansirsqi.xposed.sesame.util.JsonUtil;
+import fansirsqi.xposed.sesame.util.Log;
+
+/**
+ * 抽象ID映射工具类。
+ * 提供通用的线程安全的ID映射功能，并支持单例管理。
+ */
+public abstract class IdMapManager {
+    private static final String TAG = IdMapManager.class.getSimpleName();
+
+    private static final File OLD_CONFIG_DIR = Files.MAIN_DIR; // 旧配置目录
+    private static final File CONFIG_DIR = Files.CONFIG_DIR; // 配置目录
+    /**
+     * 存储ID映射的并发HashMap。
+     */
+    private final Map<String, String> idMap = new ConcurrentHashMap<>();
+    /**
+     * 只读的ID映射。
+     */
+    private final Map<String, String> readOnlyIdMap = Collections.unmodifiableMap(idMap);
+    private static final Map<Class<? extends IdMapManager>, IdMapManager> instances = new ConcurrentHashMap<>();
+
+    public static <T extends IdMapManager> T getInstance(Class<T> clazz) {
+        T instance = clazz.cast(instances.get(clazz)); // 尝试从缓存中获取实例
+        if (instance == null) { // 如果缓存中没有
+            try {
+                instance = clazz.getDeclaredConstructor().newInstance(); // 创建新实例
+                instances.put(clazz, instance); // 将实例放入缓存
+            } catch (Exception e) {
+                throw new RuntimeException("Failed to create instance for " + clazz.getName(), e);
+            }
+        }
+        return instance; // 返回实例
+    }
+
+    /**
+     * 强制子类提供文件名。
+     *
+     * @return 文件名。
+     */
+    protected abstract String thisFileName();
+
+    /**
+     * 获取只读的ID映射。
+     *
+     * @return 只读的ID映射。
+     */
+    public Map<String, String> getMap() {
+        return readOnlyIdMap;
+    }
+
+    /**
+     * 根据键获取值。
+     *
+     * @param key 键。
+     * @return 键对应的值，如果不存在则返回null。
+     */
+    public String get(String key) {
+        return idMap.get(key);
+    }
+
+    /**
+     * 添加或更新ID映射。
+     *
+     * @param key   键。
+     * @param value 值。
+     */
+    public synchronized void add(String key, String value) {
+        idMap.put(key, value);
+    }
+
+    /**
+     * 从ID映射中删除键值对。
+     *
+     * @param key 键。
+     */
+    public synchronized void remove(String key) {
+        idMap.remove(key);
+    }
+
+    /**
+     * 从文件加载ID映射。
+     *
+     * @param userId 用户ID。
+     */
+    public synchronized void load(String userId) {
+        if (userId == null || userId.isEmpty()) {
+            Log.record(TAG, "Skip loading map for empty userId");
+            load();
+        } else {
+            idMap.clear();
+            try {
+                File file = Files.getTargetFileofUser(userId, thisFileName());
+                assert file != null;
+                String body = Files.readFromFile(file);
+                if (!body.isEmpty()) {
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    Map<String, String> newMap = objectMapper.readValue(body, new TypeReference<>() {
+                    });
+                    idMap.putAll(newMap);
+                }
+            } catch (Exception e) {
+                Log.printStackTrace(e);
+            }
+        }
+    }
+
+    public synchronized void load() {
+        idMap.clear();
+        try {
+            File newFile = Files.getTargetFileofDir(CONFIG_DIR, thisFileName());
+            File oldFile = Files.getTargetFileofDir(OLD_CONFIG_DIR, thisFileName());
+            // 1. 新文件存在，直接加载
+            if (newFile.exists()) {
+                String body = Files.readFromFile(newFile);
+                if (!body.isEmpty()) {
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    Map<String, String> newMap = objectMapper.readValue(body, new TypeReference<>() {
+                    });
+                    idMap.putAll(newMap);
+                }
+                if(oldFile.exists()){
+                    oldFile.delete();
+                }
+                return;
+            }
+            // 2. 新文件不存在，检查旧文件是否存在
+            if (oldFile.exists()) {
+                Log.record(TAG, "Old configuration file found, migrating to new path...");
+
+                try {
+                    String body = Files.readFromFile(oldFile);
+                    if (!body.isEmpty()) {
+                        ObjectMapper objectMapper = new ObjectMapper();
+                        Map<String, String> newMap = objectMapper.readValue(body, new TypeReference<>() {
+                        });
+                        String json = JsonUtil.formatJson(newMap);
+                        if (json != null && !json.isEmpty()) {
+                            Files.write2File(json, newFile);
+                            oldFile.delete();
+                            idMap.putAll(newMap);
+                        }
+                    }
+                } catch (Exception e) {
+                    Log.error(TAG, "Migration of old configuration files failed：" + e.getMessage());
+                }
+            }
+
+            // 3. 新旧文件都不存在，初始化默认配置
+            if (!newFile.exists()) {
+                Log.record(TAG, "Configuration file not found, initializing an empty configuration file...");
+                String json = JsonUtil.formatJson(idMap);
+                if (json != null && !json.isEmpty()) {
+                    Files.write2File(json, newFile);
+                }
+            }
+        } catch (Exception e) {
+            Log.printStackTrace(TAG, "ID映射管理器初始化失败：", e);
+        }
+    }
+
+    /**
+     * 将ID映射保存到文件。
+     *
+     * @param userId 用户ID。
+     * @return 如果保存成功返回true，否则返回false。
+     */
+    public synchronized boolean save(String userId) {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            String json = JsonUtil.formatJson(idMap);
+//             json = objectMapper.writeValueAsString(idMap);
+            File file = Files.getTargetFileofUser(userId, thisFileName());
+            return Files.write2File(json, file);
+        } catch (Exception e) {
+            Log.printStackTrace(e);
+            return false;
+        }
+    }
+
+    public synchronized boolean save() {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            String json = JsonUtil.formatJson(idMap);
+//            String json = objectMapper.writeValueAsString(idMap);
+            File file = Files.getTargetFileofDir(CONFIG_DIR, thisFileName());
+            return Files.write2File(json, file);
+        } catch (Exception e) {
+            Log.printStackTrace(e);
+            return false;
+        }
+    }
+
+    /**
+     * 清除ID映射。
+     */
+    public synchronized void clear() {
+        idMap.clear();
+    }
+}

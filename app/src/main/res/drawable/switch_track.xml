@@ -1,1 +1,18 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHNlbGVjdG9yIHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCI+CiAgICA8IS0tc3dpdGNo5oyJ6ZKu6L2o6YGTdHJhY2vmoLflvI8tLT4KICAgIDxpdGVtIGFuZHJvaWQ6c3RhdGVfY2hlY2tlZD0idHJ1ZSI+CiAgICAgICAgPHNoYXBlPgogICAgICAgICAgICA8c2l6ZSBhbmRyb2lkOndpZHRoPSIzOGRwIiBhbmRyb2lkOmhlaWdodD0iMThkcCIgLz4KICAgICAgICAgICAgPGNvcm5lcnMgYW5kcm9pZDpyYWRpdXM9IjEwZHAiIC8+CiAgICAgICAgICAgIDxzb2xpZCBhbmRyb2lkOmNvbG9yPSJAY29sb3Ivb3JhbmdlIiAvPgogICAgICAgIDwvc2hhcGU+CiAgICA8L2l0ZW0+CiAgICA8aXRlbT4KICAgICAgICA8c2hhcGU+CiAgICAgICAgICAgIDxzaXplIGFuZHJvaWQ6d2lkdGg9IjM4ZHAiIGFuZHJvaWQ6aGVpZ2h0PSIxOGRwIiAvPgogICAgICAgICAgICA8Y29ybmVycyBhbmRyb2lkOnJhZGl1cz0iMTBkcCIgLz4KICAgICAgICAgICAgPHNvbGlkIGFuZHJvaWQ6Y29sb3I9IkBjb2xvci9zd2l0Y2hfb2ZmIiAvPgogICAgICAgIDwvc2hhcGU+CiAgICA8L2l0ZW0+Cjwvc2VsZWN0b3I+
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--switch按钮轨道track样式-->
+    <item android:state_checked="true">
+        <shape>
+            <size android:width="38dp" android:height="18dp" />
+            <corners android:radius="10dp" />
+            <solid android:color="@color/orange" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <size android:width="38dp" android:height="18dp" />
+            <corners android:radius="10dp" />
+            <solid android:color="@color/switch_off" />
+        </shape>
+    </item>
+</selector>

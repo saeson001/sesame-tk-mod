@@ -1,1 +1,369 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5icmlkZ2U7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5Ub2FzdDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuKjsKCmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5NZXRob2Q7CmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5Qcm94eTsKaW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuQXJyYXlzOwppbXBvcnQgamF2YS51dGlsLkxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwppbXBvcnQgamF2YS51dGlsLk9iamVjdHM7CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljSW50ZWdlcjsKCmltcG9ydCBkZS5yb2J2LmFuZHJvaWQueHBvc2VkLlhwb3NlZEhlbHBlcnM7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhLkdlbmVyYWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuUnBjRW50aXR5OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5BcHBsaWNhdGlvbkhvb2s7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5pbnRlcnZhbGxpbWl0LlJwY0ludGVydmFsTGltaXQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5CYXNlTW9kZWw7CgovKioKICog5paw54mIcnBj5o6l5Y+j77yM5pSv5oyB5pyA5L2O55uu5qCH5bqU55So54mI5pysdjEwLjMuOTYuODEwMCDorrDlvZVycGPmipPljIXvvIzmlK/mjIHmnIDkvY7nm67moIflupTnlKjniYjmnKx2MTAuMy45Ni44MTAwCiAqLwpwdWJsaWMgY2xhc3MgTmV3UnBjQnJpZGdlIGltcGxlbWVudHMgUnBjQnJpZGdlIHsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBUQUcgPSBOZXdScGNCcmlkZ2UuY2xhc3MuZ2V0U2ltcGxlTmFtZSgpOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgbG9uZyBBTElQQVlfU1RBUlRfREVCT1VOQ0VfVElNRSA9IDgwMDBMOyAvLyDnm67moIflupTnlKjlkK/liqjpmLLmipbml7bpl7TvvJo456eSCiAgICBwcml2YXRlIHN0YXRpYyB2b2xhdGlsZSBsb25nIGxhc3RBbGlwYXlTdGFydFRpbWUgPSAwTDsgLy8g5LiK5qyh5ZCv5Yqo55uu5qCH5bqU55So55qE5pe26Ze05oizCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBPYmplY3QgYWxpcGF5U3RhcnRMb2NrID0gbmV3IE9iamVjdCgpOyAvLyDnm67moIflupTnlKjlkK/liqjplIEKICAgIHByaXZhdGUgQ2xhc3NMb2FkZXIgbG9hZGVyOwogICAgcHJpdmF0ZSBPYmplY3QgbmV3UnBjSW5zdGFuY2U7CiAgICBwcml2YXRlIE1ldGhvZCBwYXJzZU9iamVjdE1ldGhvZDsKICAgIHByaXZhdGUgQ2xhc3M8Pz5bXSBicmlkZ2VDYWxsYmFja0NsYXp6QXJyYXk7CiAgICBwcml2YXRlIE1ldGhvZCBuZXdScGNDYWxsTWV0aG9kOwogICAgcHJpdmF0ZSBmaW5hbCBBdG9taWNJbnRlZ2VyIG1heEVycm9yQ291bnQgPSBuZXcgQXRvbWljSW50ZWdlcigwKTsKICAgIHByaXZhdGUgZmluYWwgSW50ZWdlciBzZXRNYXhFcnJvckNvdW50ID0gQmFzZU1vZGVsLkNvbXBhbmlvbi5nZXRTZXRNYXhFcnJvckNvdW50KCkuZ2V0VmFsdWUoKTsKCiAgICBBcnJheUxpc3Q8U3RyaW5nPiBlcnJvck1hcmsgPSBuZXcgQXJyYXlMaXN0PD4oQXJyYXlzLmFzTGlzdCgKICAgICAgICAgICAgIjEwMDQiLCAiMTAwOSIsICIyMDAwIiwgIjQ2IiwgIjQ4IgogICAgKSk7CiAgICBBcnJheUxpc3Q8U3RyaW5nPiBlcnJvclN0cmluZ01hcmsgPSBuZXcgQXJyYXlMaXN0PD4oQXJyYXlzLmFzTGlzdCgKICAgICAgICAgICAgIue5geW/mSIsICLmi5Lnu50iLCAi572R57uc5LiN5Y+v55SoIiwgIumHjeivlSIKICAgICkpOwoKICAgIC8vIOmcgOimgeWxj+iUvemUmeivr+aXpeW/l+eahFJQQ+aWueazleWIl+ihqAogICAgQXJyYXlMaXN0PFN0cmluZz4gc2lsZW50RXJyb3JNZXRob2RzID0gbmV3IEFycmF5TGlzdDw+KExpc3Qub2YoCiAgICAgICAgICAgICJjb20uYWxpcGF5LmFkZXhjaGFuZ2UuYWQuZmFjYWRlLnhsaWdodFBsdWdpbiIsICAvL+acqOWFsOmbhuW4giDnrKzkuIDmrKEKICAgICAgICAgICAgImFsaXBheS5hbnRmb3Jlc3QuZm9yZXN0Lmg1LnRha2VMb29rIiAgLy/mib7og73ph48KICAgICkpOwoKICAgIC8qKgogICAgICog5qOA5p+l5oyH5a6a55qEUlBD5pa55rOV5piv5ZCm5bqU6K+l5pi+56S66ZSZ6K+v5pel5b+XCiAgICAgKgogICAgICogQHBhcmFtIG1ldGhvZE5hbWUgUlBD5pa55rOV5ZCN56ewCiAgICAgKiBAcmV0dXJuIOWmguaenOW6lOivpeaYvuekuumUmeivr+aXpeW/l+i/lOWbnnRydWXvvIzlkKbliJnov5Tlm55mYWxzZQogICAgICovCiAgICBwcml2YXRlIGJvb2xlYW4gc2hvdWxkU2hvd0Vycm9yTG9nKFN0cmluZyBtZXRob2ROYW1lKSB7CiAgICAgICAgcmV0dXJuIG1ldGhvZE5hbWUgIT0gbnVsbCAmJiAhc2lsZW50RXJyb3JNZXRob2RzLmNvbnRhaW5zKG1ldGhvZE5hbWUpOwogICAgfQoKICAgIC8qKgogICAgICog6K6w5b2VUlBD6K+35rGC6L+U5ZuebnVsbOeahOWOn+WboAogICAgICoKICAgICAqIEBwYXJhbSBycGNFbnRpdHkgUlBD6K+35rGC5a6e5L2TCiAgICAgKiBAcGFyYW0gcmVhc29uICAgIOi/lOWbnm51bGznmoTljp/lm6AKICAgICAqIEBwYXJhbSBjb3VudCAgICAg5b2T5YmN6YeN6K+V5qyh5pWwCiAgICAgKi8KICAgIHByaXZhdGUgdm9pZCBsb2dOdWxsUmVzcG9uc2UoUnBjRW50aXR5IHJwY0VudGl0eSwgU3RyaW5nIHJlYXNvbiwgaW50IGNvdW50KSB7CiAgICAgICAgU3RyaW5nIG1ldGhvZE5hbWUgPSBycGNFbnRpdHkgIT0gbnVsbCA/IHJwY0VudGl0eS5nZXRSZXF1ZXN0TWV0aG9kKCkgOiAidW5rbm93biI7CiAgICAgICAgaWYgKHNob3VsZFNob3dFcnJvckxvZyhtZXRob2ROYW1lKSkgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiUlBD6L+U5ZuebnVsbCB8IOaWueazlTogIiArIG1ldGhvZE5hbWUgKyAiIHwg5Y6f5ZugOiAiICsgcmVhc29uICsgIiB8IOmHjeivlTogIiArIGNvdW50KTsKICAgICAgICB9CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgUnBjVmVyc2lvbiBnZXRWZXJzaW9uKCkgewogICAgICAgIHJldHVybiBScGNWZXJzaW9uLk5FVzsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIGxvYWQoKSB0aHJvd3MgRXhjZXB0aW9uIHsKICAgICAgICBsb2FkZXIgPSBBcHBsaWNhdGlvbkhvb2suY2xhc3NMb2FkZXI7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgT2JqZWN0IHNlcnZpY2UgPSBYcG9zZWRIZWxwZXJzLmNhbGxTdGF0aWNNZXRob2QoWHBvc2VkSGVscGVycy5maW5kQ2xhc3MoImNvbS5hbGlwYXkubW9iaWxlLm5lYnVsYWNvcmUuTmVidWxhIiwgbG9hZGVyKSwgImdldFNlcnZpY2UiKTsKICAgICAgICAgICAgT2JqZWN0IGV4dGVuc2lvbk1hbmFnZXIgPSBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2Qoc2VydmljZSwgImdldEV4dGVuc2lvbk1hbmFnZXIiKTsKICAgICAgICAgICAgTWV0aG9kIGdldEV4dGVuc2lvbkJ5TmFtZSA9IGV4dGVuc2lvbk1hbmFnZXIuZ2V0Q2xhc3MoKS5nZXREZWNsYXJlZE1ldGhvZCgiY3JlYXRlRXh0ZW5zaW9uSW5zdGFuY2UiLCBDbGFzcy5jbGFzcyk7CiAgICAgICAgICAgIGdldEV4dGVuc2lvbkJ5TmFtZS5zZXRBY2Nlc3NpYmxlKHRydWUpOwogICAgICAgICAgICBuZXdScGNJbnN0YW5jZSA9IGdldEV4dGVuc2lvbkJ5TmFtZS5pbnZva2UobnVsbCwgbG9hZGVyLmxvYWRDbGFzcygiY29tLmFsaWJhYmEuYXJpdmVyLmNvbW1vbmFiaWxpdHkubmV0d29yay5ycGMuUnBjQnJpZGdlRXh0ZW5zaW9uIikpOwogICAgICAgICAgICBpZiAobmV3UnBjSW5zdGFuY2UgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgT2JqZWN0IG5vZGVFeHRlbnNpb25NYXAgPSBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2QoZXh0ZW5zaW9uTWFuYWdlciwgImdldE5vZGVFeHRlbnNpb25NYXAiKTsKICAgICAgICAgICAgICAgIGlmIChub2RlRXh0ZW5zaW9uTWFwICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBAU3VwcHJlc3NXYXJuaW5ncygidW5jaGVja2VkIikKICAgICAgICAgICAgICAgICAgICBNYXA8T2JqZWN0LCBNYXA8U3RyaW5nLCBPYmplY3Q+PiBtYXAgPSAoTWFwPE9iamVjdCwgTWFwPFN0cmluZywgT2JqZWN0Pj4pIG5vZGVFeHRlbnNpb25NYXA7CiAgICAgICAgICAgICAgICAgICAgZm9yIChNYXAuRW50cnk8T2JqZWN0LCBNYXA8U3RyaW5nLCBPYmplY3Q+PiBlbnRyeSA6IG1hcC5lbnRyeVNldCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE1hcDxTdHJpbmcsIE9iamVjdD4gbWFwMSA9IGVudHJ5LmdldFZhbHVlKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvciAoTWFwLkVudHJ5PFN0cmluZywgT2JqZWN0PiBlbnRyeTEgOiBtYXAxLmVudHJ5U2V0KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICgiY29tLmFsaWJhYmEuYXJpdmVyLmNvbW1vbmFiaWxpdHkubmV0d29yay5ycGMuUnBjQnJpZGdlRXh0ZW5zaW9uIi5lcXVhbHMoZW50cnkxLmdldEtleSgpKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5ld1JwY0luc3RhbmNlID0gZW50cnkxLmdldFZhbHVlKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAobmV3UnBjSW5zdGFuY2UgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiZ2V0IG5ld1JwY0luc3RhbmNlIG51bGwiKTsKICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbigiZ2V0IG5ld1JwY0luc3RhbmNlIGlzIG51bGwiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBwYXJzZU9iamVjdE1ldGhvZCA9IGxvYWRlci5sb2FkQ2xhc3MoImNvbS5hbGliYWJhLmZhc3Rqc29uLkpTT04iKS5nZXRNZXRob2QoInBhcnNlT2JqZWN0IiwgU3RyaW5nLmNsYXNzKTsKICAgICAgICAgICAgQ2xhc3M8Pz4gYnJpZGdlQ2FsbGJhY2tDbGF6eiA9IGxvYWRlci5sb2FkQ2xhc3MoImNvbS5hbGliYWJhLmFyaXZlci5lbmdpbmUuYXBpLmJyaWRnZS5leHRlbnNpb24uQnJpZGdlQ2FsbGJhY2siKTsKICAgICAgICAgICAgYnJpZGdlQ2FsbGJhY2tDbGF6ekFycmF5ID0gbmV3IENsYXNzW117YnJpZGdlQ2FsbGJhY2tDbGF6en07CiAgICAgICAgICAgIG5ld1JwY0NhbGxNZXRob2QgPSBuZXdScGNJbnN0YW5jZS5nZXRDbGFzcygpLmdldE1ldGhvZCgicnBjIgogICAgICAgICAgICAgICAgICAgICwgU3RyaW5nLmNsYXNzCiAgICAgICAgICAgICAgICAgICAgLCBib29sZWFuLmNsYXNzCiAgICAgICAgICAgICAgICAgICAgLCBib29sZWFuLmNsYXNzCiAgICAgICAgICAgICAgICAgICAgLCBTdHJpbmcuY2xhc3MKICAgICAgICAgICAgICAgICAgICAsIGxvYWRlci5sb2FkQ2xhc3MoR2VuZXJhbC5KU09OX09CSkVDVF9OQU1FKQogICAgICAgICAgICAgICAgICAgICwgU3RyaW5nLmNsYXNzCiAgICAgICAgICAgICAgICAgICAgLCBsb2FkZXIubG9hZENsYXNzKEdlbmVyYWwuSlNPTl9PQkpFQ1RfTkFNRSkKICAgICAgICAgICAgICAgICAgICAsIGJvb2xlYW4uY2xhc3MKICAgICAgICAgICAgICAgICAgICAsIGJvb2xlYW4uY2xhc3MKICAgICAgICAgICAgICAgICAgICAsIGludC5jbGFzcwogICAgICAgICAgICAgICAgICAgICwgYm9vbGVhbi5jbGFzcwogICAgICAgICAgICAgICAgICAgICwgU3RyaW5nLmNsYXNzCiAgICAgICAgICAgICAgICAgICAgLCBsb2FkZXIubG9hZENsYXNzKCJjb20uYWxpYmFiYS5hcml2ZXIuYXBwLmFwaS5BcHAiKQogICAgICAgICAgICAgICAgICAgICwgbG9hZGVyLmxvYWRDbGFzcygiY29tLmFsaWJhYmEuYXJpdmVyLmFwcC5hcGkuUGFnZSIpCiAgICAgICAgICAgICAgICAgICAgLCBsb2FkZXIubG9hZENsYXNzKCJjb20uYWxpYmFiYS5hcml2ZXIuZW5naW5lLmFwaS5icmlkZ2UubW9kZWwuQXBpQ29udGV4dCIpCiAgICAgICAgICAgICAgICAgICAgLCBicmlkZ2VDYWxsYmFja0NsYXp6CiAgICAgICAgICAgICk7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiZ2V0IG5ld1JwY0NhbGxNZXRob2Qgc3VjY2Vzc2Z1bGx5Iik7CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJnZXQgbmV3UnBjQ2FsbE1ldGhvZCBlcnI6Iik7CiAgICAgICAgICAgIHRocm93IGU7CiAgICAgICAgfQogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgdW5sb2FkKCkgewogICAgICAgIG5ld1JwY0NhbGxNZXRob2QgPSBudWxsOwogICAgICAgIGJyaWRnZUNhbGxiYWNrQ2xhenpBcnJheSA9IG51bGw7CiAgICAgICAgcGFyc2VPYmplY3RNZXRob2QgPSBudWxsOwogICAgICAgIG5ld1JwY0luc3RhbmNlID0gbnVsbDsKICAgICAgICBsb2FkZXIgPSBudWxsOwogICAgfQoKICAgIC8qKgogICAgICog5Y+R6YCBUlBD6K+35rGC5bm26I635Y+W5ZON5bqU5a2X56ym5LiyCiAgICAgKiA8cD4KICAgICAqIOivpeaWueazleaYr3JlcXVlc3RPYmplY3TnmoTljIXoo4XvvIzlsIZSUEPlk43lupTlr7nosaHovazmjaLkuLrlrZfnrKbkuLLov5Tlm57vvJoKICAgICAqIDEuIOiwg+eUqHJlcXVlc3RPYmplY3TmiafooYzlrp7pmYXnmoRSUEPor7fmsYIKICAgICAqIDIuIOS7jui/lOWbnueahFJQQ+WunuS9k+S4reaPkOWPluWTjeW6lOWtl+espuS4sgogICAgICogPC9wPgogICAgICoKICAgICAqIEBwYXJhbSBycGNFbnRpdHkgUlBD6K+35rGC5a6e5L2T77yM5YyF5ZCr6K+35rGC5pa55rOV44CB5Y+C5pWw562J5L+h5oGvCiAgICAgKiBAcGFyYW0gdHJ5Q291bnQg5pyA5aSn5bCd6K+V5qyh5pWw77yM6K6+572u5Li6MeihqOekuuWPquWwneivleS4gOasoeS4jemHjeivle+8jOiuvue9ruS4ujDooajnpLrkuI3lsJ3or5XvvIzlpKfkuo4x6KGo56S65pyJ6YeN6K+VCiAgICAgKiBAcGFyYW0gcmV0cnlJbnRlcnZhbCDph43or5Xpl7TpmpTvvIjmr6vnp5LvvInvvIzotJ/lgLzooajnpLrkvb/nlKjpu5jorqTlu7bov5/vvIww6KGo56S656uL5Y2z6YeN6K+VCiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4su+8jOWmguaenOivt+axguWksei0peWImei/lOWbnm51bGwKICAgICAqLwogICAgcHVibGljIFN0cmluZyByZXF1ZXN0U3RyaW5nKFJwY0VudGl0eSBycGNFbnRpdHksIGludCB0cnlDb3VudCwgaW50IHJldHJ5SW50ZXJ2YWwpIHsKICAgICAgICBScGNFbnRpdHkgcmVzUnBjRW50aXR5ID0gcmVxdWVzdE9iamVjdChycGNFbnRpdHksIHRyeUNvdW50LCByZXRyeUludGVydmFsKTsKICAgICAgICBpZiAocmVzUnBjRW50aXR5ICE9IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIHJlc1JwY0VudGl0eS5nZXRSZXNwb25zZVN0cmluZygpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KCiAgICAvKioKICAgICAqIOWPkemAgVJQQ+ivt+axguW5tuiOt+WPluWTjeW6lOWvueixoQogICAgICogPHA+CiAgICAgKiDor6Xmlrnms5XotJ/otKPmiafooYzlrp7pmYXnmoRSUEPosIPnlKjvvIzmlK/mjIHph43or5XmnLrliLblkozplJnor6/lpITnkIbvvJoKICAgICAqIDEuIOagueaNrnRyeUNvdW505Y+C5pWw5o6n5Yi26YeN6K+V5qyh5pWwCiAgICAgKiAyLiDmoLnmja5yZXRyeUludGVydmFs5Y+C5pWw5o6n5Yi26YeN6K+V6Ze06ZqUCiAgICAgKiAgICAtIHJldHJ5SW50ZXJ2YWwgPCAwOiDkvb/nlKg2MDBtcyvpmo/mnLrlu7bov58KICAgICAqICAgIC0gcmV0cnlJbnRlcnZhbCA9IDA6IOS4jeetieW+heeri+WNs+mHjeivlQogICAgICogICAgLSByZXRyeUludGVydmFsID4gMDog5L2/55So5oyH5a6a55qE5q+r56eS5pWw562J5b6FCiAgICAgKiAzLiDmo4DmtYvnvZHnu5zplJnor6/lubbmoLnmja7phY3nva7ov5vlhaXnprvnur/mqKHlvI/miJblsJ3or5Xph43mlrDnmbvlvZUKICAgICAqIDwvcD4KICAgICAqCiAgICAgKiBAcGFyYW0gcnBjRW50aXR5IFJQQ+ivt+axguWunuS9k++8jOWMheWQq+ivt+axguaWueazleOAgeWPguaVsOetieS/oeaBrwogICAgICogQHBhcmFtIHRyeUNvdW50IOacgOWkp+WwneivleasoeaVsO+8jOiuvue9ruS4ujHooajnpLrlj6rlsJ3or5XkuIDmrKHkuI3ph43or5XvvIzorr7nva7kuLow6KGo56S65LiN5bCd6K+V77yM5aSn5LqOMeihqOekuuaciemHjeivlQogICAgICogQHBhcmFtIHJldHJ5SW50ZXJ2YWwg6YeN6K+V6Ze06ZqU77yI5q+r56eS77yJ77yM6LSf5YC86KGo56S65L2/55So6buY6K6k5bu26L+f77yMMOihqOekuueri+WNs+mHjeivlQogICAgICogQHJldHVybiDljIXlkKvlk43lupTmlbDmja7nmoRSUEPlrp7kvZPvvIzlpoLmnpzor7fmsYLlpLHotKXliJnov5Tlm55udWxsCiAgICAgKi8KICAgIEBPdmVycmlkZQogICAgcHVibGljIFJwY0VudGl0eSByZXF1ZXN0T2JqZWN0KFJwY0VudGl0eSBycGNFbnRpdHksIGludCB0cnlDb3VudCwgaW50IHJldHJ5SW50ZXJ2YWwpIHsKICAgICAgICAvLyDmlrnms5XlvIDlp4vml7bvvIzlsIbmiJDlkZjlj5jph4/otYvlgLznu5nlsYDpg6jlj5jph4/vvIzku6Xpgb/lhY3lnKjmlrnms5XmiafooYzmnJ/pl7Tlm6Dlhbbku5bnur/nqIvnmoR1bmxvYWQoKeiwg+eUqOiAjOWvvOiHtOaIkOWRmOWPmOmHj+WPmOS4um51bGwKICAgICAgICBNZXRob2QgbG9jYWxOZXdScGNDYWxsTWV0aG9kID0gbmV3UnBjQ2FsbE1ldGhvZDsKICAgICAgICBNZXRob2QgbG9jYWxQYXJzZU9iamVjdE1ldGhvZCA9IHBhcnNlT2JqZWN0TWV0aG9kOwogICAgICAgIE9iamVjdCBsb2NhbE5ld1JwY0luc3RhbmNlID0gbmV3UnBjSW5zdGFuY2U7CiAgICAgICAgQ2xhc3NMb2FkZXIgbG9jYWxMb2FkZXIgPSBsb2FkZXI7CiAgICAgICAgQ2xhc3M8Pz5bXSBsb2NhbEJyaWRnZUNhbGxiYWNrQ2xhenpBcnJheSA9IGJyaWRnZUNhbGxiYWNrQ2xhenpBcnJheTsKCiAgICAgICAgaWYgKEFwcGxpY2F0aW9uSG9vay5vZmZsaW5lKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgIH0KCiAgICAgICAgLy8g5aaC5p6cUlBD57uE5Lu25pyq5YeG5aSH5aW977yM5bCd6K+V6YeN5paw5Yid5aeL5YyW5LiA5qyhCiAgICAgICAgaWYgKGxvY2FsTmV3UnBjQ2FsbE1ldGhvZCA9PSBudWxsKSB7CiAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIlJQQ+aWueazleS4um51bGzvvIzlsJ3or5Xph43mlrDliJ3lp4vljJYuLi4iKTsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGxvYWQoKTsKICAgICAgICAgICAgICAgIC8vIOmHjeaWsOWKoOi9veWIneWni+WMluWQjueahOWPmOmHjwogICAgICAgICAgICAgICAgbG9jYWxOZXdScGNDYWxsTWV0aG9kID0gbmV3UnBjQ2FsbE1ldGhvZDsKICAgICAgICAgICAgICAgIGxvY2FsUGFyc2VPYmplY3RNZXRob2QgPSBwYXJzZU9iamVjdE1ldGhvZDsKICAgICAgICAgICAgICAgIGxvY2FsTmV3UnBjSW5zdGFuY2UgPSBuZXdScGNJbnN0YW5jZTsKICAgICAgICAgICAgICAgIGxvY2FsTG9hZGVyID0gbG9hZGVyOwogICAgICAgICAgICAgICAgbG9jYWxCcmlkZ2VDYWxsYmFja0NsYXp6QXJyYXkgPSBicmlkZ2VDYWxsYmFja0NsYXp6QXJyYXk7CiAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJSUEPph43mlrDliJ3lp4vljJbmiJDlip8iKTsKICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJSUEPph43mlrDliJ3lp4vljJblpLHotKU6Iik7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpOwogICAgICAgICAgICAgICAgbG9nTnVsbFJlc3BvbnNlKHJwY0VudGl0eSwgIlJQQ+e7hOS7tuWIneWni+WMluWksei0pSIsIDApOwogICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGlmIChsb2NhbE5ld1JwY0NhbGxNZXRob2QgPT0gbnVsbCB8fCBsb2NhbFBhcnNlT2JqZWN0TWV0aG9kID09IG51bGwKICAgICAgICAgICAgICAgIHx8IGxvY2FsTmV3UnBjSW5zdGFuY2UgPT0gbnVsbCB8fCBsb2NhbExvYWRlciA9PSBudWxsIHx8IGxvY2FsQnJpZGdlQ2FsbGJhY2tDbGF6ekFycmF5ID09IG51bGwpIHsKICAgICAgICAgICAgbG9nTnVsbFJlc3BvbnNlKHJwY0VudGl0eSwgIlJQQ+e7hOS7tuS4jeWujOaVtCIsIDApOwogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaW50IGNvdW50ID0gMDsKICAgICAgICAgICAgZG8gewogICAgICAgICAgICAgICAgY291bnQrKzsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgUnBjSW50ZXJ2YWxMaW1pdC5JTlNUQU5DRS5lbnRlckludGVydmFsTGltaXQoT2JqZWN0cy5yZXF1aXJlTm9uTnVsbChycGNFbnRpdHkuZ2V0UmVxdWVzdE1ldGhvZCgpKSk7CiAgICAgICAgICAgICAgICAgICAgQ2xhc3M8Pz5bXSBmaW5hbExvY2FsQnJpZGdlQ2FsbGJhY2tDbGF6ekFycmF5ID0gbG9jYWxCcmlkZ2VDYWxsYmFja0NsYXp6QXJyYXk7CiAgICAgICAgICAgICAgICAgICAgbG9jYWxOZXdScGNDYWxsTWV0aG9kLmludm9rZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsTmV3UnBjSW5zdGFuY2UsIHJwY0VudGl0eS5nZXRSZXF1ZXN0TWV0aG9kKCksIGZhbHNlLCBmYWxzZSwgImpzb24iLCBsb2NhbFBhcnNlT2JqZWN0TWV0aG9kLmludm9rZShudWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBycGNFbnRpdHkuZ2V0UnBjRnVsbFJlcXVlc3REYXRhKCkpLCAiIiwgbnVsbCwgdHJ1ZSwgZmFsc2UsIDAsIGZhbHNlLCAiIiwgbnVsbCwgbnVsbCwgbnVsbCwgUHJveHkubmV3UHJveHlJbnN0YW5jZShsb2NhbExvYWRlciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9jYWxCcmlkZ2VDYWxsYmFja0NsYXp6QXJyYXksIChwcm94eSwgaW5uZXJNZXRob2QsIGFyZ3MpIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICgiZXF1YWxzIi5lcXVhbHMoaW5uZXJNZXRob2QuZ2V0TmFtZSgpKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBwcm94eSA9PSBhcmdzWzBdOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCJoYXNoQ29kZSIuZXF1YWxzKGlubmVyTWV0aG9kLmdldE5hbWUoKSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gU3lzdGVtLmlkZW50aXR5SGFzaENvZGUocHJveHkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCJ0b1N0cmluZyIuZXF1YWxzKGlubmVyTWV0aG9kLmdldE5hbWUoKSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gIlByb3h5IGZvciAiICsgZmluYWxMb2NhbEJyaWRnZUNhbGxiYWNrQ2xhenpBcnJheVswXS5nZXROYW1lKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoYXJncyAhPSBudWxsICYmIGFyZ3MubGVuZ3RoID49IDEgJiYgInNlbmRKU09OUmVzcG9uc2UiLmVxdWFscyhpbm5lck1ldGhvZC5nZXROYW1lKCkpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgT2JqZWN0IG9iaiA9IGFyZ3NbMF07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOiOt+WPliBKU09OIOWtl+espuS4su+8jOWksei0peaXtumHjeivleS4gOasoQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcganNvblN0cmluZyA9IG51bGw7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBqc29uU3RyaW5nID0gKFN0cmluZykgWHBvc2VkSGVscGVycy5jYWxsTWV0aG9kKG9iaiwgInRvSlNPTlN0cmluZyIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g56ys5LiA5qyh5aSx6LSl77yM5bCd6K+V6YeN6K+VCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEdsb2JhbFRocmVhZFBvb2xzLnNsZWVwQ29tcGF0KDEwMEwpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGpzb25TdHJpbmcgPSAoU3RyaW5nKSBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2Qob2JqLCAidG9KU09OU3RyaW5nIik7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gcmV0cnlFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDph43or5XlkI7ku43lpLHotKXvvIzorrDlvZXml6Xlv5flubbmoIforrDplJnor6/vvIzop6blj5HlpJblsYJSUEPph43or5UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgInRvSlNPTlN0cmluZyDph43or5XlkI7ku43nhLblpLHotKXvvIzlsIbop6blj5HmlbTkuKogUlBDIOivt+axgumHjeivlTogIiArIHJldHJ5RXhjZXB0aW9uLmdldE1lc3NhZ2UoKSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcnBjRW50aXR5LnNldFJlc3BvbnNlT2JqZWN0KG9iaiwgbnVsbCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcnBjRW50aXR5LnNldEVycm9yKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJwY0VudGl0eS5zZXRSZXNwb25zZU9iamVjdChvYmosIGpzb25TdHJpbmcpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoIShCb29sZWFuKSBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2Qob2JqLCAiY29udGFpbnNLZXkiLCAic3VjY2VzcyIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJiYgIShCb29sZWFuKSBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2Qob2JqLCAiY29udGFpbnNLZXkiLCAiaXNTdWNjZXNzIikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJwY0VudGl0eS5zZXRFcnJvcigpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHNob3VsZFNob3dFcnJvckxvZyhycGNFbnRpdHkuZ2V0UmVxdWVzdE1ldGhvZCgpKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJuZXcgcnBjIHJlc3BvbnNlMSB8IGlkOiAiICsgcnBjRW50aXR5Lmhhc2hDb2RlKCkgKyAiIHwgbWV0aG9kOiAiICsgcnBjRW50aXR5LmdldFJlcXVlc3RNZXRob2QoKSArICJcbiAiICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJhcmdzOiAiICsgcnBjRW50aXR5LmdldFJlcXVlc3REYXRhKCkgKyAiIHxcbiBkYXRhOiAiICsgcnBjRW50aXR5LmdldFJlc3BvbnNlU3RyaW5nKCkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcnBjRW50aXR5LnNldEVycm9yKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCJuZXcgcnBjIHJlc3BvbnNlMiB8IGlkOiAiICsgcnBjRW50aXR5Lmhhc2hDb2RlKCkgKyAiIHwgbWV0aG9kOiAiICsgcnBjRW50aXR5LmdldFJlcXVlc3RNZXRob2QoKSArCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIiBlcnI6IixlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgIGlmICghcnBjRW50aXR5LmdldEhhc1Jlc3VsdCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxvZ051bGxSZXNwb25zZShycGNFbnRpdHksICLml6Dlk43lupTnu5PmnpwiLCBjb3VudCk7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBpZiAoIXJwY0VudGl0eS5nZXRIYXNFcnJvcigpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBycGNFbnRpdHk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFN0cmluZyBlcnJvckNvZGUgPSAoU3RyaW5nKSBYcG9zZWRIZWxwZXJzLmNhbGxNZXRob2QocnBjRW50aXR5LmdldFJlc3BvbnNlT2JqZWN0KCksICJnZXRTdHJpbmciLCAiZXJyb3IiKTsKICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGVycm9yTWVzc2FnZSA9IChTdHJpbmcpIFhwb3NlZEhlbHBlcnMuY2FsbE1ldGhvZChycGNFbnRpdHkuZ2V0UmVzcG9uc2VPYmplY3QoKSwgImdldFN0cmluZyIsICJlcnJvck1lc3NhZ2UiKTsKICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIHJlc3BvbnNlID0gcnBjRW50aXR5LmdldFJlc3BvbnNlU3RyaW5nKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIFN0cmluZyBtZXRob2ROYW1lID0gcnBjRW50aXR5LmdldFJlcXVlc3RNZXRob2QoKTsKCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOajgOa1i+WuieWFqOmqjOivgemUmeivr++8jOaPkOekuuaJi+WKqOWkhOeQhu+8iOW4pumYsuaKlu+8iQoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGVycm9yTWVzc2FnZSAhPSBudWxsICYmIGVycm9yTWVzc2FnZS5jb250YWlucygi5Li65LqG5L+d6Zqc5oKo55qE5pON5L2c5a6J5YWo77yM6K+36L+b6KGM6aqM6K+B5ZCO57un57utIikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvbmcgY3VycmVudFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvbmcgdGltZVNpbmNlTGFzdFN0YXJ0ID0gY3VycmVudFRpbWUgLSBsYXN0QWxpcGF5U3RhcnRUaW1lOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHRpbWVTaW5jZUxhc3RTdGFydCA8IEFMSVBBWV9TVEFSVF9ERUJPVU5DRV9USU1FKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi6Led56a75LiK5qyh5o+Q6YaS5LuFICIgKyB0aW1lU2luY2VMYXN0U3RhcnQgKyAibXPvvIzot7Pov4fmnKzmrKHmj5DphpIiKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3luY2hyb25pemVkIChhbGlwYXlTdGFydExvY2spIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5Y+M6YeN5qOA5p+l77yM6Ziy5q2i5aSa57q/56iL56ue5LqJCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnRUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpbWVTaW5jZUxhc3RTdGFydCA9IGN1cnJlbnRUaW1lIC0gbGFzdEFsaXBheVN0YXJ0VGltZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHRpbWVTaW5jZUxhc3RTdGFydCA8IEFMSVBBWV9TVEFSVF9ERUJPVU5DRV9USU1FKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLot53nprvkuIrmrKHmj5DphpLku4UgIiArIHRpbWVTaW5jZUxhc3RTdGFydCArICJtc++8jOi3s+i/h+acrOasoeaPkOmGku+8iOWPjOmHjeajgOafpe+8iSIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFzdEFsaXBheVN0YXJ0VGltZSA9IGN1cnJlbnRUaW1lOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5qOA5rWL5Yiw5a6J5YWo6aqM6K+B6ZSZ6K+v77yM6K+35omL5Yqo5omT5byA55uu5qCH5bqU55So5a6M5oiQ6aqM6K+B5ZCO57un57utIik7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb2FzdC5JTlNUQU5DRS5zaG93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAi5Li65LqG5L+d6Zqc5oKo55qE5pON5L2c5a6J5YWo77yM6K+35omT5byA5pSv5LuY5a6d5a6M5oiQ6aqM6K+B5ZCO57un57utIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBpZiAoZXJyb3JNYXJrLmNvbnRhaW5zKGVycm9yQ29kZSkgfHwgZXJyb3JTdHJpbmdNYXJrLmNvbnRhaW5zKGVycm9yTWVzc2FnZSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGludCBjdXJyZW50RXJyb3JDb3VudCA9IG1heEVycm9yQ291bnQuaW5jcmVtZW50QW5kR2V0KCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoIUFwcGxpY2F0aW9uSG9vay5vZmZsaW5lKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRFcnJvckNvdW50ID4gc2V0TWF4RXJyb3JDb3VudCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBsaWNhdGlvbkhvb2suc2V0T2ZmbGluZSh0cnVlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTm90aWZ5LnVwZGF0ZVN0YXR1c1RleHQoIue9kee7nOi/nuaOpeW8guW4uO+8jOW3sui/m+WFpeemu+e6v+aooeW8jyIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoQmFzZU1vZGVsLkNvbXBhbmlvbi5nZXRFcnJOb3RpZnkoKS5nZXRWYWx1ZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBOb3RpZnkuc2VuZE5ld05vdGlmaWNhdGlvbihUaW1lVXRpbC5nZXRUaW1lU3RyKCkgKyAiIHwg572R57uc5byC5bi45qyh5pWw6LaF6L+H6ZiI5YC8WyIgKyBzZXRNYXhFcnJvckNvdW50ICsgIl0iLCByZXNwb25zZSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoQmFzZU1vZGVsLkNvbXBhbmlvbi5nZXRFcnJOb3RpZnkoKS5nZXRWYWx1ZSgpKSB7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTm90aWZ5LnNlbmROZXdOb3RpZmljYXRpb24oVGltZVV0aWwuZ2V0VGltZVN0cigpICsgIiB8IOe9kee7nOW8guW4uDogIiArIG1ldGhvZE5hbWUsIHJlc3BvbnNlKTsKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0vL+WBmuW+l+WkmumUmeeahOWkmu+8jOS4jeWBmuWwseS4jeS8mumUmQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChCYXNlTW9kZWwuQ29tcGFuaW9uLmdldFRpbWVvdXRSZXN0YXJ0KCkuZ2V0VmFsdWUoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuWwneivlemHjeaWsOeZu+W9lSIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBsaWNhdGlvbkhvb2sucmVMb2dpbkJ5QnJvYWRjYXN0KCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9nTnVsbFJlc3BvbnNlKHJwY0VudGl0eSwgIue9kee7nOmUmeivrzogIiArIGVycm9yQ29kZSArICIvIiArIGVycm9yTWVzc2FnZSwgY291bnQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHJwY0VudGl0eTsKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAibmV3IHJwYyByZXNwb25zZSB8IGlkOiAiICsgcnBjRW50aXR5Lmhhc2hDb2RlKCkgKyAiIHwgbWV0aG9kOiAiICsgcnBjRW50aXR5LmdldFJlcXVlc3RNZXRob2QoKSArICIgZ2V0IGVycjoiKTsKICAgICAgICAgICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgKHJldHJ5SW50ZXJ2YWwgPCAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIENvcm91dGluZVV0aWxzLnNsZWVwQ29tcGF0KDYwMCArIFJhbmRvbVV0aWwuZGVsYXkoKSk7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmIChyZXRyeUludGVydmFsID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICBDb3JvdXRpbmVVdGlscy5zbGVlcENvbXBhdChyZXRyeUludGVydmFsKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdCkgewogICAgICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJuZXcgcnBjIHJlcXVlc3QgfCBpZDogIiArIHJwY0VudGl0eS5oYXNoQ29kZSgpICsgIiB8IG1ldGhvZDogIiArIHJwY0VudGl0eS5nZXRSZXF1ZXN0TWV0aG9kKCkgKyAiIGVycjoiKTsKICAgICAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKHQpOwogICAgICAgICAgICAgICAgICAgIGlmIChyZXRyeUludGVydmFsIDwgMCkgewogICAgICAgICAgICAgICAgICAgICAgICBDb3JvdXRpbmVVdGlscy5zbGVlcENvbXBhdCg2MDAgKyBSYW5kb21VdGlsLmRlbGF5KCkpOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAocmV0cnlJbnRlcnZhbCA+IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgQ29yb3V0aW5lVXRpbHMuc2xlZXBDb21wYXQocmV0cnlJbnRlcnZhbCk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IHdoaWxlIChjb3VudCA8IHRyeUNvdW50KTsKICAgICAgICAgICAgbG9nTnVsbFJlc3BvbnNlKHJwY0VudGl0eSwgIumHjeivleasoeaVsOiAl+WwvSIsIHRyeUNvdW50KTsKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgLy8gICBMb2cucmVjb3JkKFRBRywgIk5ldyBSUENcbuaWueazlTogIiArIHJwY0VudGl0eS5nZXRSZXF1ZXN0TWV0aG9kKCkgKyAiXG7lj4LmlbA6ICIgKyBycGNFbnRpdHkuZ2V0UmVxdWVzdERhdGEoKSArICJcbuaVsOaNrjogIiArIHJwY0VudGl0eS5nZXRSZXNwb25zZVN0cmluZygpICsgIlxuIiArICJcbiIgKyAi5aCG5qCIOiIgKyBuZXcgRXhjZXB0aW9uKCkuZ2V0U3RhY2tUcmFjZSgpWzFdLnRvU3RyaW5nKCkpOwogICAgICAgICAvLyAgIExvZy5wcmludFN0YWNrKFRBRyk7CgogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.hook.rpc.bridge;
+
+import fansirsqi.xposed.sesame.hook.Toast;
+import fansirsqi.xposed.sesame.util.*;
+
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.concurrent.atomic.AtomicInteger;
+
+import de.robv.android.xposed.XposedHelpers;
+import fansirsqi.xposed.sesame.data.General;
+import fansirsqi.xposed.sesame.entity.RpcEntity;
+import fansirsqi.xposed.sesame.hook.ApplicationHook;
+import fansirsqi.xposed.sesame.hook.rpc.intervallimit.RpcIntervalLimit;
+import fansirsqi.xposed.sesame.model.BaseModel;
+
+/**
+ * 新版rpc接口，支持最低目标应用版本v10.3.96.8100 记录rpc抓包，支持最低目标应用版本v10.3.96.8100
+ */
+public class NewRpcBridge implements RpcBridge {
+    private static final String TAG = NewRpcBridge.class.getSimpleName();
+    private static final long ALIPAY_START_DEBOUNCE_TIME = 8000L; // 目标应用启动防抖时间：8秒
+    private static volatile long lastAlipayStartTime = 0L; // 上次启动目标应用的时间戳
+    private static final Object alipayStartLock = new Object(); // 目标应用启动锁
+    private ClassLoader loader;
+    private Object newRpcInstance;
+    private Method parseObjectMethod;
+    private Class<?>[] bridgeCallbackClazzArray;
+    private Method newRpcCallMethod;
+    private final AtomicInteger maxErrorCount = new AtomicInteger(0);
+    private final Integer setMaxErrorCount = BaseModel.Companion.getSetMaxErrorCount().getValue();
+
+    ArrayList<String> errorMark = new ArrayList<>(Arrays.asList(
+            "1004", "1009", "2000", "46", "48"
+    ));
+    ArrayList<String> errorStringMark = new ArrayList<>(Arrays.asList(
+            "繁忙", "拒绝", "网络不可用", "重试"
+    ));
+
+    // 需要屏蔽错误日志的RPC方法列表
+    ArrayList<String> silentErrorMethods = new ArrayList<>(List.of(
+            "com.alipay.adexchange.ad.facade.xlightPlugin",  //木兰集市 第一次
+            "alipay.antforest.forest.h5.takeLook"  //找能量
+    ));
+
+    /**
+     * 检查指定的RPC方法是否应该显示错误日志
+     *
+     * @param methodName RPC方法名称
+     * @return 如果应该显示错误日志返回true，否则返回false
+     */
+    private boolean shouldShowErrorLog(String methodName) {
+        return methodName != null && !silentErrorMethods.contains(methodName);
+    }
+
+    /**
+     * 记录RPC请求返回null的原因
+     *
+     * @param rpcEntity RPC请求实体
+     * @param reason    返回null的原因
+     * @param count     当前重试次数
+     */
+    private void logNullResponse(RpcEntity rpcEntity, String reason, int count) {
+        String methodName = rpcEntity != null ? rpcEntity.getRequestMethod() : "unknown";
+        if (shouldShowErrorLog(methodName)) {
+            Log.error(TAG, "RPC返回null | 方法: " + methodName + " | 原因: " + reason + " | 重试: " + count);
+        }
+    }
+
+    @Override
+    public RpcVersion getVersion() {
+        return RpcVersion.NEW;
+    }
+
+    @Override
+    public void load() throws Exception {
+        loader = ApplicationHook.classLoader;
+        try {
+            Object service = XposedHelpers.callStaticMethod(XposedHelpers.findClass("com.alipay.mobile.nebulacore.Nebula", loader), "getService");
+            Object extensionManager = XposedHelpers.callMethod(service, "getExtensionManager");
+            Method getExtensionByName = extensionManager.getClass().getDeclaredMethod("createExtensionInstance", Class.class);
+            getExtensionByName.setAccessible(true);
+            newRpcInstance = getExtensionByName.invoke(null, loader.loadClass("com.alibaba.ariver.commonability.network.rpc.RpcBridgeExtension"));
+            if (newRpcInstance == null) {
+                Object nodeExtensionMap = XposedHelpers.callMethod(extensionManager, "getNodeExtensionMap");
+                if (nodeExtensionMap != null) {
+                    @SuppressWarnings("unchecked")
+                    Map<Object, Map<String, Object>> map = (Map<Object, Map<String, Object>>) nodeExtensionMap;
+                    for (Map.Entry<Object, Map<String, Object>> entry : map.entrySet()) {
+                        Map<String, Object> map1 = entry.getValue();
+                        for (Map.Entry<String, Object> entry1 : map1.entrySet()) {
+                            if ("com.alibaba.ariver.commonability.network.rpc.RpcBridgeExtension".equals(entry1.getKey())) {
+                                newRpcInstance = entry1.getValue();
+                                break;
+                            }
+                        }
+                    }
+                }
+                if (newRpcInstance == null) {
+                    Log.record(TAG, "get newRpcInstance null");
+                    throw new RuntimeException("get newRpcInstance is null");
+                }
+            }
+            parseObjectMethod = loader.loadClass("com.alibaba.fastjson.JSON").getMethod("parseObject", String.class);
+            Class<?> bridgeCallbackClazz = loader.loadClass("com.alibaba.ariver.engine.api.bridge.extension.BridgeCallback");
+            bridgeCallbackClazzArray = new Class[]{bridgeCallbackClazz};
+            newRpcCallMethod = newRpcInstance.getClass().getMethod("rpc"
+                    , String.class
+                    , boolean.class
+                    , boolean.class
+                    , String.class
+                    , loader.loadClass(General.JSON_OBJECT_NAME)
+                    , String.class
+                    , loader.loadClass(General.JSON_OBJECT_NAME)
+                    , boolean.class
+                    , boolean.class
+                    , int.class
+                    , boolean.class
+                    , String.class
+                    , loader.loadClass("com.alibaba.ariver.app.api.App")
+                    , loader.loadClass("com.alibaba.ariver.app.api.Page")
+                    , loader.loadClass("com.alibaba.ariver.engine.api.bridge.model.ApiContext")
+                    , bridgeCallbackClazz
+            );
+            Log.record(TAG, "get newRpcCallMethod successfully");
+        } catch (Exception e) {
+            Log.record(TAG, "get newRpcCallMethod err:");
+            throw e;
+        }
+    }
+
+    @Override
+    public void unload() {
+        newRpcCallMethod = null;
+        bridgeCallbackClazzArray = null;
+        parseObjectMethod = null;
+        newRpcInstance = null;
+        loader = null;
+    }
+
+    /**
+     * 发送RPC请求并获取响应字符串
+     * <p>
+     * 该方法是requestObject的包装，将RPC响应对象转换为字符串返回：
+     * 1. 调用requestObject执行实际的RPC请求
+     * 2. 从返回的RPC实体中提取响应字符串
+     * </p>
+     *
+     * @param rpcEntity RPC请求实体，包含请求方法、参数等信息
+     * @param tryCount 最大尝试次数，设置为1表示只尝试一次不重试，设置为0表示不尝试，大于1表示有重试
+     * @param retryInterval 重试间隔（毫秒），负值表示使用默认延迟，0表示立即重试
+     * @return 响应字符串，如果请求失败则返回null
+     */
+    public String requestString(RpcEntity rpcEntity, int tryCount, int retryInterval) {
+        RpcEntity resRpcEntity = requestObject(rpcEntity, tryCount, retryInterval);
+        if (resRpcEntity != null) {
+            return resRpcEntity.getResponseString();
+        }
+        return null;
+    }
+
+    /**
+     * 发送RPC请求并获取响应对象
+     * <p>
+     * 该方法负责执行实际的RPC调用，支持重试机制和错误处理：
+     * 1. 根据tryCount参数控制重试次数
+     * 2. 根据retryInterval参数控制重试间隔
+     *    - retryInterval < 0: 使用600ms+随机延迟
+     *    - retryInterval = 0: 不等待立即重试
+     *    - retryInterval > 0: 使用指定的毫秒数等待
+     * 3. 检测网络错误并根据配置进入离线模式或尝试重新登录
+     * </p>
+     *
+     * @param rpcEntity RPC请求实体，包含请求方法、参数等信息
+     * @param tryCount 最大尝试次数，设置为1表示只尝试一次不重试，设置为0表示不尝试，大于1表示有重试
+     * @param retryInterval 重试间隔（毫秒），负值表示使用默认延迟，0表示立即重试
+     * @return 包含响应数据的RPC实体，如果请求失败则返回null
+     */
+    @Override
+    public RpcEntity requestObject(RpcEntity rpcEntity, int tryCount, int retryInterval) {
+        // 方法开始时，将成员变量赋值给局部变量，以避免在方法执行期间因其他线程的unload()调用而导致成员变量变为null
+        Method localNewRpcCallMethod = newRpcCallMethod;
+        Method localParseObjectMethod = parseObjectMethod;
+        Object localNewRpcInstance = newRpcInstance;
+        ClassLoader localLoader = loader;
+        Class<?>[] localBridgeCallbackClazzArray = bridgeCallbackClazzArray;
+
+        if (ApplicationHook.offline) {
+            return null;
+        }
+
+        // 如果RPC组件未准备好，尝试重新初始化一次
+        if (localNewRpcCallMethod == null) {
+             Log.record(TAG, "RPC方法为null，尝试重新初始化...");
+            try {
+                load();
+                // 重新加载初始化后的变量
+                localNewRpcCallMethod = newRpcCallMethod;
+                localParseObjectMethod = parseObjectMethod;
+                localNewRpcInstance = newRpcInstance;
+                localLoader = loader;
+                localBridgeCallbackClazzArray = bridgeCallbackClazzArray;
+                 Log.record(TAG, "RPC重新初始化成功");
+            } catch (Exception e) {
+                Log.error(TAG, "RPC重新初始化失败:");
+                Log.printStackTrace(e);
+                logNullResponse(rpcEntity, "RPC组件初始化失败", 0);
+                return null;
+            }
+        }
+
+        if (localNewRpcCallMethod == null || localParseObjectMethod == null
+                || localNewRpcInstance == null || localLoader == null || localBridgeCallbackClazzArray == null) {
+            logNullResponse(rpcEntity, "RPC组件不完整", 0);
+            return null;
+        }
+        try {
+            int count = 0;
+            do {
+                count++;
+                try {
+                    RpcIntervalLimit.INSTANCE.enterIntervalLimit(Objects.requireNonNull(rpcEntity.getRequestMethod()));
+                    Class<?>[] finalLocalBridgeCallbackClazzArray = localBridgeCallbackClazzArray;
+                    localNewRpcCallMethod.invoke(
+                            localNewRpcInstance, rpcEntity.getRequestMethod(), false, false, "json", localParseObjectMethod.invoke(null,
+                                    rpcEntity.getRpcFullRequestData()), "", null, true, false, 0, false, "", null, null, null, Proxy.newProxyInstance(localLoader,
+                                    localBridgeCallbackClazzArray, (proxy, innerMethod, args) -> {
+                                        if ("equals".equals(innerMethod.getName())) {
+                                            return proxy == args[0];
+                                        }
+                                        if ("hashCode".equals(innerMethod.getName())) {
+                                            return System.identityHashCode(proxy);
+                                        }
+                                        if ("toString".equals(innerMethod.getName())) {
+                                            return "Proxy for " + finalLocalBridgeCallbackClazzArray[0].getName();
+                                        }
+                                        if (args != null && args.length >= 1 && "sendJSONResponse".equals(innerMethod.getName())) {
+                                            try {
+                                                Object obj = args[0];
+                                                // 获取 JSON 字符串，失败时重试一次
+                                                String jsonString = null;
+                                                try {
+                                                    jsonString = (String) XposedHelpers.callMethod(obj, "toJSONString");
+                                                } catch (Exception e) {
+                                                    // 第一次失败，尝试重试
+                                                    try {
+                                                        GlobalThreadPools.sleepCompat(100L);
+                                                        jsonString = (String) XposedHelpers.callMethod(obj, "toJSONString");
+                                                    } catch (Exception retryException) {
+                                                        // 重试后仍失败，记录日志并标记错误，触发外层RPC重试
+                                                        Log.record(TAG, "toJSONString 重试后仍然失败，将触发整个 RPC 请求重试: " + retryException.getMessage());
+                                                        rpcEntity.setResponseObject(obj, null);
+                                                        rpcEntity.setError();
+                                                        return null;
+                                                    }
+                                                }
+
+                                                rpcEntity.setResponseObject(obj, jsonString);
+                                                if (!(Boolean) XposedHelpers.callMethod(obj, "containsKey", "success")
+                                                        && !(Boolean) XposedHelpers.callMethod(obj, "containsKey", "isSuccess")) {
+                                                    rpcEntity.setError();
+                                                    if (shouldShowErrorLog(rpcEntity.getRequestMethod())) {
+                                                        Log.error(TAG, "new rpc response1 | id: " + rpcEntity.hashCode() + " | method: " + rpcEntity.getRequestMethod() + "\n " +
+                                                                "args: " + rpcEntity.getRequestData() + " |\n data: " + rpcEntity.getResponseString());
+                                                    }
+                                                }
+                                            } catch (Exception e) {
+                                                rpcEntity.setError();
+                                                Log.printStackTrace(TAG,"new rpc response2 | id: " + rpcEntity.hashCode() + " | method: " + rpcEntity.getRequestMethod() +
+                                                        " err:",e);
+                                            }
+                                        }
+                                        return null;
+                                    })
+                    );
+                    if (!rpcEntity.getHasResult()) {
+                        logNullResponse(rpcEntity, "无响应结果", count);
+                        return null;
+                    }
+                    if (!rpcEntity.getHasError()) {
+                        return rpcEntity;
+                    }
+                    try {
+                        String errorCode = (String) XposedHelpers.callMethod(rpcEntity.getResponseObject(), "getString", "error");
+                        String errorMessage = (String) XposedHelpers.callMethod(rpcEntity.getResponseObject(), "getString", "errorMessage");
+                        String response = rpcEntity.getResponseString();
+                        String methodName = rpcEntity.getRequestMethod();
+
+                        // 检测安全验证错误，提示手动处理（带防抖）
+
+                        if (errorMessage != null && errorMessage.contains("为了保障您的操作安全，请进行验证后继续")) {
+                            long currentTime = System.currentTimeMillis();
+                            long timeSinceLastStart = currentTime - lastAlipayStartTime;
+                            if (timeSinceLastStart < ALIPAY_START_DEBOUNCE_TIME) {
+                                 Log.record(TAG, "距离上次提醒仅 " + timeSinceLastStart + "ms，跳过本次提醒");
+                            } else {
+                                synchronized (alipayStartLock) {
+                                    // 双重检查，防止多线程竞争
+                                    currentTime = System.currentTimeMillis();
+                                    timeSinceLastStart = currentTime - lastAlipayStartTime;
+                                    if (timeSinceLastStart < ALIPAY_START_DEBOUNCE_TIME) {
+                                         Log.record(TAG, "距离上次提醒仅 " + timeSinceLastStart + "ms，跳过本次提醒（双重检查）");
+                                    } else {
+                                        lastAlipayStartTime = currentTime;
+                                         Log.record(TAG, "检测到安全验证错误，请手动打开目标应用完成验证后继续");
+                                        Toast.INSTANCE.show(
+                                                "为了保障您的操作安全，请打开支付宝完成验证后继续"
+                                        );
+                                    }
+                                }
+                            }
+                            return null;
+                        }
+
+                        if (errorMark.contains(errorCode) || errorStringMark.contains(errorMessage)) {
+                            int currentErrorCount = maxErrorCount.incrementAndGet();
+                            if (!ApplicationHook.offline) {
+                                if (currentErrorCount > setMaxErrorCount) {
+                                    ApplicationHook.setOffline(true);
+                                    Notify.updateStatusText("网络连接异常，已进入离线模式");
+                                    if (BaseModel.Companion.getErrNotify().getValue()) {
+                                        Notify.sendNewNotification(TimeUtil.getTimeStr() + " | 网络异常次数超过阈值[" + setMaxErrorCount + "]", response);
+                                    }
+                                }
+//                                if (BaseModel.Companion.getErrNotify().getValue()) {
+//                                    Notify.sendNewNotification(TimeUtil.getTimeStr() + " | 网络异常: " + methodName, response);
+//                                }//做得多错的多，不做就不会错
+                                if (BaseModel.Companion.getTimeoutRestart().getValue()) {
+                                    Log.record(TAG, "尝试重新登录");
+                                    ApplicationHook.reLoginByBroadcast();
+                                }
+                            }
+                            logNullResponse(rpcEntity, "网络错误: " + errorCode + "/" + errorMessage, count);
+                            return null;
+                        }
+                        return rpcEntity;
+                    } catch (Exception e) {
+                        Log.error(TAG, "new rpc response | id: " + rpcEntity.hashCode() + " | method: " + rpcEntity.getRequestMethod() + " get err:");
+                        Log.printStackTrace(e);
+                    }
+                    if (retryInterval < 0) {
+                        CoroutineUtils.sleepCompat(600 + RandomUtil.delay());
+                    } else if (retryInterval > 0) {
+                        CoroutineUtils.sleepCompat(retryInterval);
+                    }
+                } catch (Throwable t) {
+                    Log.error(TAG, "new rpc request | id: " + rpcEntity.hashCode() + " | method: " + rpcEntity.getRequestMethod() + " err:");
+                    Log.printStackTrace(t);
+                    if (retryInterval < 0) {
+                        CoroutineUtils.sleepCompat(600 + RandomUtil.delay());
+                    } else if (retryInterval > 0) {
+                        CoroutineUtils.sleepCompat(retryInterval);
+                    }
+                }
+            } while (count < tryCount);
+            logNullResponse(rpcEntity, "重试次数耗尽", tryCount);
+            return null;
+        } finally {
+         //   Log.record(TAG, "New RPC\n方法: " + rpcEntity.getRequestMethod() + "\n参数: " + rpcEntity.getRequestData() + "\n数据: " + rpcEntity.getResponseString() + "\n" + "\n" + "堆栈:" + new Exception().getStackTrace()[1].toString());
+         //   Log.printStack(TAG);
+
+        }
+    }
+}

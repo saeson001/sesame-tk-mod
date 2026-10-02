@@ -1,1 +1,142 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbDsKCmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5JbnZvY2F0aW9uVGFyZ2V0RXhjZXB0aW9uOwppbXBvcnQgamF2YS51dGlsLkNvbGxlY3Rpb25zOwppbXBvcnQgamF2YS51dGlsLkxpbmtlZEhhc2hNYXA7CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKaW1wb3J0IGphdmEudXRpbC5NYXA7CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcDsKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LkJvb2xlYW5Nb2RlbEZpZWxkOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5Nb2RlbFRhc2s7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKaW1wb3J0IGxvbWJvay5HZXR0ZXI7CgpwdWJsaWMgYWJzdHJhY3QgY2xhc3MgTW9kZWwgewogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFRBRyA9ICJNb2RlbCI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBNYXA8U3RyaW5nLCBNb2RlbENvbmZpZz4gbW9kZWxDb25maWdNYXAgPSBuZXcgTGlua2VkSGFzaE1hcDw+KCk7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBNYXA8U3RyaW5nLCBNb2RlbENvbmZpZz4gcmVhZE9ubHlNb2RlbENvbmZpZ01hcCA9IENvbGxlY3Rpb25zLnVubW9kaWZpYWJsZU1hcChtb2RlbENvbmZpZ01hcCk7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBNYXA8TW9kZWxHcm91cCwgTWFwPFN0cmluZywgTW9kZWxDb25maWc+PiBncm91cE1vZGVsQ29uZmlnTWFwID0gbmV3IExpbmtlZEhhc2hNYXA8PigpOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgTWFwPENsYXNzPD8gZXh0ZW5kcyBNb2RlbD4sIE1vZGVsPiBtb2RlbE1hcCA9IG5ldyBDb25jdXJyZW50SGFzaE1hcDw+KCk7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBMaXN0PENsYXNzPD8gZXh0ZW5kcyBNb2RlbD4+IG1vZGVsQ2xhenpMaXN0ID0gTW9kZWxPcmRlci5JTlNUQU5DRS5nZXRBbGxDb25maWcoKTsKICAgIEBHZXR0ZXIKICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgTW9kZWxbXSBtb2RlbEFycmF5ID0gbmV3IE1vZGVsW21vZGVsQ2xhenpMaXN0LnNpemUoKV07CiAgICBwcml2YXRlIGZpbmFsIEJvb2xlYW5Nb2RlbEZpZWxkIGVuYWJsZUZpZWxkOwoKICAgIHB1YmxpYyBmaW5hbCBCb29sZWFuTW9kZWxGaWVsZCBnZXRFbmFibGVGaWVsZCgpIHsKICAgICAgICByZXR1cm4gZW5hYmxlRmllbGQ7CiAgICB9CgogICAgcHVibGljIE1vZGVsKCkgewogICAgICAgIC8vIOWfuuehgOaooeWdl+m7mOiupOWQr+eUqO+8jOWFtuS7luaooeWdl+m7mOiupOemgeeUqAogICAgICAgIGJvb2xlYW4gZGVmYXVsdFZhbHVlID0gIuWfuuehgCIuZXF1YWxzKGdldE5hbWUoKSk7CiAgICAgICAgdGhpcy5lbmFibGVGaWVsZCA9IG5ldyBCb29sZWFuTW9kZWxGaWVsZCgiZW5hYmxlIiwgZ2V0RW5hYmxlRmllbGROYW1lKCksIGRlZmF1bHRWYWx1ZSk7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRFbmFibGVGaWVsZE5hbWUoKSB7CiAgICAgICAgcmV0dXJuICLlvIDlkK8iICsgZ2V0TmFtZSgpOwogICAgfQoKICAgIHB1YmxpYyBmaW5hbCBCb29sZWFuIGlzRW5hYmxlKCkgewogICAgICAgIHJldHVybiBlbmFibGVGaWVsZC5nZXRWYWx1ZSgpOwogICAgfQoKICAgIHB1YmxpYyBNb2RlbFR5cGUgZ2V0VHlwZSgpIHsKICAgICAgICByZXR1cm4gTW9kZWxUeXBlLk5PUk1BTDsKICAgIH0KCiAgICBwdWJsaWMgYWJzdHJhY3QgU3RyaW5nIGdldE5hbWUoKTsKCiAgICBwdWJsaWMgYWJzdHJhY3QgTW9kZWxHcm91cCBnZXRHcm91cCgpOwoKICAgIHB1YmxpYyBhYnN0cmFjdCBTdHJpbmcgZ2V0SWNvbigpOwoKICAgIHB1YmxpYyBhYnN0cmFjdCBNb2RlbEZpZWxkcyBnZXRGaWVsZHMoKTsKCiAgICBwdWJsaWMgdm9pZCBwcmVwYXJlKCkgewogICAgfQoKICAgIHB1YmxpYyB2b2lkIGJvb3QoQ2xhc3NMb2FkZXIgY2xhc3NMb2FkZXIpIHsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBkZXN0cm95KCkgewogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgTWFwPFN0cmluZywgTW9kZWxDb25maWc+IGdldE1vZGVsQ29uZmlnTWFwKCkgewogICAgICAgIHJldHVybiByZWFkT25seU1vZGVsQ29uZmlnTWFwOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgTWFwPFN0cmluZywgTW9kZWxDb25maWc+IGdldEdyb3VwTW9kZWxDb25maWcoTW9kZWxHcm91cCBtb2RlbEdyb3VwKSB7CiAgICAgICAgTWFwPFN0cmluZywgTW9kZWxDb25maWc+IG1hcCA9IGdyb3VwTW9kZWxDb25maWdNYXAuZ2V0KG1vZGVsR3JvdXApOwogICAgICAgIGlmIChtYXAgPT0gbnVsbCkgewogICAgICAgICAgICByZXR1cm4gQ29sbGVjdGlvbnMuZW1wdHlNYXAoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIENvbGxlY3Rpb25zLnVubW9kaWZpYWJsZU1hcChtYXApOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgPFQgZXh0ZW5kcyBNb2RlbD4gVCBnZXRNb2RlbChDbGFzczxUPiBtb2RlbENsYXp6KSB7CiAgICAgICAgTW9kZWwgbW9kZWwgPSBtb2RlbE1hcC5nZXQobW9kZWxDbGF6eik7CiAgICAgICAgaWYgKG1vZGVsQ2xhenouaXNJbnN0YW5jZShtb2RlbCkpIHsKICAgICAgICAgICAgcmV0dXJuIG1vZGVsQ2xhenouY2FzdChtb2RlbCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIk1vZGVsICIgKyBtb2RlbENsYXp6LmdldFNpbXBsZU5hbWUoKSArICIgbm90IGZvdW5kLiIpOwogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBzeW5jaHJvbml6ZWQgdm9pZCBpbml0QWxsTW9kZWwoKSB7CiAgICAgICAgZGVzdHJveUFsbE1vZGVsKCk7CiAgICAgICAgZm9yIChpbnQgaSA9IDAsIGxlbiA9IG1vZGVsQ2xhenpMaXN0LnNpemUoKTsgaSA8IGxlbjsgaSsrKSB7CiAgICAgICAgICAgIENsYXNzPD8gZXh0ZW5kcyBNb2RlbD4gbW9kZWxDbGF6eiA9IG1vZGVsQ2xhenpMaXN0LmdldChpKTsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIE1vZGVsIG1vZGVsID0gbW9kZWxDbGF6ei5nZXREZWNsYXJlZENvbnN0cnVjdG9yKCkubmV3SW5zdGFuY2UoKTsKICAgICAgICAgICAgICAgIE1vZGVsQ29uZmlnIG1vZGVsQ29uZmlnID0gbmV3IE1vZGVsQ29uZmlnKG1vZGVsKTsKICAgICAgICAgICAgICAgIG1vZGVsQXJyYXlbaV0gPSBtb2RlbDsKICAgICAgICAgICAgICAgIG1vZGVsTWFwLnB1dChtb2RlbENsYXp6LCBtb2RlbCk7CiAgICAgICAgICAgICAgICBTdHJpbmcgbW9kZWxDb2RlID0gbW9kZWxDb25maWcuZ2V0Q29kZSgpOwogICAgICAgICAgICAgICAgbW9kZWxDb25maWdNYXAucHV0KG1vZGVsQ29kZSwgbW9kZWxDb25maWcpOwogICAgICAgICAgICAgICAgTW9kZWxHcm91cCBncm91cCA9IG1vZGVsQ29uZmlnLmdldEdyb3VwKCk7CiAgICAgICAgICAgICAgICBNYXA8U3RyaW5nLCBNb2RlbENvbmZpZz4gbW9kZWxDb25maWdNYXAgPSBncm91cE1vZGVsQ29uZmlnTWFwLmNvbXB1dGVJZkFic2VudChncm91cCwgayAtPiBuZXcgTGlua2VkSGFzaE1hcDw+KCkpOwogICAgICAgICAgICAgICAgbW9kZWxDb25maWdNYXAucHV0KG1vZGVsQ29kZSwgbW9kZWxDb25maWcpOwogICAgICAgICAgICB9IGNhdGNoIChJbGxlZ2FsQWNjZXNzRXhjZXB0aW9uIHwgSW5zdGFudGlhdGlvbkV4Y2VwdGlvbiB8IE5vU3VjaE1ldGhvZEV4Y2VwdGlvbiB8IEludm9jYXRpb25UYXJnZXRFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHN5bmNocm9uaXplZCB2b2lkIGJvb3RBbGxNb2RlbChDbGFzc0xvYWRlciBjbGFzc0xvYWRlcikgewogICAgICAgIGZvciAoTW9kZWwgbW9kZWwgOiBtb2RlbEFycmF5KSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBtb2RlbC5wcmVwYXJlKCk7CiAgICAgICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBpZiAobW9kZWwuZ2V0RW5hYmxlRmllbGQoKS5nZXRWYWx1ZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgbW9kZWwuYm9vdChjbGFzc0xvYWRlcik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgc3luY2hyb25pemVkIHZvaWQgZGVzdHJveUFsbE1vZGVsKCkgewogICAgICAgIGZvciAoaW50IGkgPSAwLCBsZW4gPSBtb2RlbEFycmF5Lmxlbmd0aDsgaSA8IGxlbjsgaSsrKSB7CiAgICAgICAgICAgIE1vZGVsIG1vZGVsID0gbW9kZWxBcnJheVtpXTsKICAgICAgICAgICAgaWYgKG1vZGVsICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKE1vZGVsVHlwZS5UQVNLID09IG1vZGVsLmdldFR5cGUoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAoKE1vZGVsVGFzaykgbW9kZWwpLnN0b3BUYXNrKCk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIG1vZGVsLmRlc3Ryb3koKTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIG1vZGVsQXJyYXlbaV0gPSBudWxsOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIG1vZGVsTWFwLmNsZWFyKCk7CiAgICAgICAgbW9kZWxDb25maWdNYXAuY2xlYXIoKTsKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.model;
+
+import java.lang.reflect.InvocationTargetException;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import fansirsqi.xposed.sesame.task.ModelTask;
+import fansirsqi.xposed.sesame.util.Log;
+import lombok.Getter;
+
+public abstract class Model {
+    private static final String TAG = "Model";
+    private static final Map<String, ModelConfig> modelConfigMap = new LinkedHashMap<>();
+    private static final Map<String, ModelConfig> readOnlyModelConfigMap = Collections.unmodifiableMap(modelConfigMap);
+    private static final Map<ModelGroup, Map<String, ModelConfig>> groupModelConfigMap = new LinkedHashMap<>();
+    private static final Map<Class<? extends Model>, Model> modelMap = new ConcurrentHashMap<>();
+    private static final List<Class<? extends Model>> modelClazzList = ModelOrder.INSTANCE.getAllConfig();
+    @Getter
+    public static final Model[] modelArray = new Model[modelClazzList.size()];
+    private final BooleanModelField enableField;
+
+    public final BooleanModelField getEnableField() {
+        return enableField;
+    }
+
+    public Model() {
+        // 基础模块默认启用，其他模块默认禁用
+        boolean defaultValue = "基础".equals(getName());
+        this.enableField = new BooleanModelField("enable", getEnableFieldName(), defaultValue);
+    }
+
+    public String getEnableFieldName() {
+        return "开启" + getName();
+    }
+
+    public final Boolean isEnable() {
+        return enableField.getValue();
+    }
+
+    public ModelType getType() {
+        return ModelType.NORMAL;
+    }
+
+    public abstract String getName();
+
+    public abstract ModelGroup getGroup();
+
+    public abstract String getIcon();
+
+    public abstract ModelFields getFields();
+
+    public void prepare() {
+    }
+
+    public void boot(ClassLoader classLoader) {
+    }
+
+    public void destroy() {
+    }
+
+    public static Map<String, ModelConfig> getModelConfigMap() {
+        return readOnlyModelConfigMap;
+    }
+
+    public static Map<String, ModelConfig> getGroupModelConfig(ModelGroup modelGroup) {
+        Map<String, ModelConfig> map = groupModelConfigMap.get(modelGroup);
+        if (map == null) {
+            return Collections.emptyMap();
+        }
+        return Collections.unmodifiableMap(map);
+    }
+
+    public static <T extends Model> T getModel(Class<T> modelClazz) {
+        Model model = modelMap.get(modelClazz);
+        if (modelClazz.isInstance(model)) {
+            return modelClazz.cast(model);
+        } else {
+            Log.error(TAG, "Model " + modelClazz.getSimpleName() + " not found.");
+            return null;
+        }
+    }
+
+    public static synchronized void initAllModel() {
+        destroyAllModel();
+        for (int i = 0, len = modelClazzList.size(); i < len; i++) {
+            Class<? extends Model> modelClazz = modelClazzList.get(i);
+            try {
+                Model model = modelClazz.getDeclaredConstructor().newInstance();
+                ModelConfig modelConfig = new ModelConfig(model);
+                modelArray[i] = model;
+                modelMap.put(modelClazz, model);
+                String modelCode = modelConfig.getCode();
+                modelConfigMap.put(modelCode, modelConfig);
+                ModelGroup group = modelConfig.getGroup();
+                Map<String, ModelConfig> modelConfigMap = groupModelConfigMap.computeIfAbsent(group, k -> new LinkedHashMap<>());
+                modelConfigMap.put(modelCode, modelConfig);
+            } catch (IllegalAccessException | InstantiationException | NoSuchMethodException | InvocationTargetException e) {
+                Log.printStackTrace(e);
+            }
+        }
+    }
+
+    public static synchronized void bootAllModel(ClassLoader classLoader) {
+        for (Model model : modelArray) {
+            try {
+                model.prepare();
+            } catch (Exception e) {
+                Log.printStackTrace(e);
+            }
+            try {
+                if (model.getEnableField().getValue()) {
+                    model.boot(classLoader);
+                }
+            } catch (Exception e) {
+                Log.printStackTrace(e);
+            }
+        }
+    }
+
+    public static synchronized void destroyAllModel() {
+        for (int i = 0, len = modelArray.length; i < len; i++) {
+            Model model = modelArray[i];
+            if (model != null) {
+                try {
+                    if (ModelType.TASK == model.getType()) {
+                        ((ModelTask) model).stopTask();
+                    }
+                    model.destroy();
+                } catch (Exception e) {
+                    Log.printStackTrace(e);
+                }
+                modelArray[i] = null;
+            }
+        }
+        modelMap.clear();
+        modelConfigMap.clear();
+    }
+}

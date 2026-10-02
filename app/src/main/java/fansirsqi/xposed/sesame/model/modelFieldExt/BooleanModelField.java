@@ -1,1 +1,52 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludDsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlld0dyb3VwOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuTGluZWFyTGF5b3V0OwppbXBvcnQgYW5kcm9pZC53aWRnZXQuU3dpdGNoOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CnB1YmxpYyBjbGFzcyBCb29sZWFuTW9kZWxGaWVsZCBleHRlbmRzIE1vZGVsRmllbGQ8Qm9vbGVhbj4gewogIC8qKgogICAqIOaehOmAoOWHveaVsO+8jOWIneWni+WMliBCb29sZWFuTW9kZWxGaWVsZCDlr7nosaEKICAgKgogICAqIEBwYXJhbSBjb2RlIOWtl+auteS7o+eggQogICAqIEBwYXJhbSBuYW1lIOWtl+auteWQjeensAogICAqIEBwYXJhbSB2YWx1ZSDlrZfmrrXliJ3lp4vlgLwKICAgKi8KICBwdWJsaWMgQm9vbGVhbk1vZGVsRmllbGQoU3RyaW5nIGNvZGUsIFN0cmluZyBuYW1lLCBCb29sZWFuIHZhbHVlKSB7CiAgICBzdXBlcihjb2RlLCBuYW1lLCB2YWx1ZSk7IC8vIOiwg+eUqOeItuexu+aehOmAoOWHveaVsAogIH0KICAvKioKICAgKiDojrflj5blrZfmrrXnsbvlnosKICAgKgogICAqIEByZXR1cm4g5a2X5q6157G75Z6L5a2X56ym5LiyCiAgICovCiAgQE92ZXJyaWRlCiAgcHVibGljIFN0cmluZyBnZXRUeXBlKCkgewogICAgcmV0dXJuICJCT09MRUFOIjsgLy8g6L+U5Zue5a2X5q6157G75Z6LCiAgfQogIC8qKgogICAqIOWIm+W7uuW5tui/lOWbniBTd2l0Y2gg6KeG5Zu+CiAgICoKICAgKiBAcGFyYW0gY29udGV4dCDkuIrkuIvmloflr7nosaEKICAgKiBAcmV0dXJuIOeUn+aIkOeahCBTd2l0Y2gg6KeG5Zu+CiAgICovCiAgQE92ZXJyaWRlCiAgcHVibGljIFZpZXcgZ2V0VmlldyhDb250ZXh0IGNvbnRleHQpIHsKICAgIEBTdXBwcmVzc0xpbnQoIlVzZVN3aXRjaENvbXBhdE9yTWF0ZXJpYWxDb2RlIikgU3dpdGNoIHN3ID0gbmV3IFN3aXRjaChjb250ZXh0KTsgLy8g5Yib5bu6IFN3aXRjaCDmjqfku7YKICAgIHN3LnNldFRleHQoZ2V0TmFtZSgpKTsgLy8g6K6+572uIFN3aXRjaCDnmoTmlofmnKzkuLrlrZfmrrXlkI3np7AKICAgIHN3LnNldExheW91dFBhcmFtcyhuZXcgTGluZWFyTGF5b3V0LkxheW91dFBhcmFtcyhWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwgVmlld0dyb3VwLkxheW91dFBhcmFtcy5XUkFQX0NPTlRFTlQpKTsgLy8g6K6+572u5biD5bGA5Y+C5pWwCiAgICBzdy5zZXRNaW5IZWlnaHQoMTUwKTsgLy8g6K6+572u5pyA5bCP6auY5bqmCiAgICBzdy5zZXRNYXhIZWlnaHQoMTgwKTsgLy8g6K6+572u5pyA5aSn6auY5bqmCiAgICBzdy5zZXRQYWRkaW5nUmVsYXRpdmUoNDAsIDAsIDQwLCAwKTsgLy8g6K6+572u5bem5Y+z5YaF6L656LedCiAgICBzdy5zZXRDaGVja2VkKGdldFZhbHVlKCkpOyAvLyDmoLnmja7lrZfmrrXlgLzorr7nva4gU3dpdGNoIOeahOmAieS4reeKtuaAgQogICAgLy8g6K6+572u5oyJ6ZKu5ZKM6L2o6YGT5qC35byPCi8vICAgIHN3LnNldFRodW1iUmVzb3VyY2UoUi5kcmF3YWJsZS5zd2l0Y2hfdGh1bWIpOwogICAgc3cuc2V0VHJhY2tSZXNvdXJjZShSLmRyYXdhYmxlLnN3aXRjaF90cmFjayk7CiAgICAvLyDorr7nva7ngrnlh7vnm5HlkKzlmajvvIzmm7TmlrDlrZfmrrXlgLwKICAgIHN3LnNldE9uQ2xpY2tMaXN0ZW5lcih2IC0+IHNldE9iamVjdFZhbHVlKCgoU3dpdGNoKSB2KS5pc0NoZWNrZWQoKSkpOwogICAgcmV0dXJuIHN3OyAvLyDov5Tlm57liJvlu7rnmoQgU3dpdGNoIOinhuWbvgogIH0KfQo=
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.Switch;
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelField;
+public class BooleanModelField extends ModelField<Boolean> {
+  /**
+   * 构造函数，初始化 BooleanModelField 对象
+   *
+   * @param code 字段代码
+   * @param name 字段名称
+   * @param value 字段初始值
+   */
+  public BooleanModelField(String code, String name, Boolean value) {
+    super(code, name, value); // 调用父类构造函数
+  }
+  /**
+   * 获取字段类型
+   *
+   * @return 字段类型字符串
+   */
+  @Override
+  public String getType() {
+    return "BOOLEAN"; // 返回字段类型
+  }
+  /**
+   * 创建并返回 Switch 视图
+   *
+   * @param context 上下文对象
+   * @return 生成的 Switch 视图
+   */
+  @Override
+  public View getView(Context context) {
+    @SuppressLint("UseSwitchCompatOrMaterialCode") Switch sw = new Switch(context); // 创建 Switch 控件
+    sw.setText(getName()); // 设置 Switch 的文本为字段名称
+    sw.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)); // 设置布局参数
+    sw.setMinHeight(150); // 设置最小高度
+    sw.setMaxHeight(180); // 设置最大高度
+    sw.setPaddingRelative(40, 0, 40, 0); // 设置左右内边距
+    sw.setChecked(getValue()); // 根据字段值设置 Switch 的选中状态
+    // 设置按钮和轨道样式
+//    sw.setThumbResource(R.drawable.switch_thumb);
+    sw.setTrackResource(R.drawable.switch_track);
+    // 设置点击监听器，更新字段值
+    sw.setOnClickListener(v -> setObjectValue(((Switch) v).isChecked()));
+    return sw; // 返回创建的 Switch 视图
+  }
+}

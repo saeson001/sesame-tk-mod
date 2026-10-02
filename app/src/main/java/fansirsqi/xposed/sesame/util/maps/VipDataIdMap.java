@@ -1,1 +1,18 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHM7DQoNCi8qKg0KICog55So5LqO5L+d5a2YIFZJUCDmipPljIXlvpfliLDnmoTnp4HmnInmlbDmja7vvIjmjInnlKjmiLfpmpTnprvvvInjgIINCiAqIDxwPg0KICog5q+P5Liq55So5oi35LiA5LiqIHZpcGRhdGEuanNvbu+8jOWGheWuueS4uueugOWNleeahCBrZXktdmFsdWUg5pig5bCE77yM5L6L5aaC77yaDQogKiB7DQogKiAiYW50ZmlzaHBvbmRfcmlza1Rva2VuIjogInh4eHgiDQogKiB9DQogKi8NCnB1YmxpYyBjbGFzcyBWaXBEYXRhSWRNYXAgZXh0ZW5kcyBJZE1hcE1hbmFnZXIgew0KDQogICAgQE92ZXJyaWRlDQogICAgcHJvdGVjdGVkIFN0cmluZyB0aGlzRmlsZU5hbWUoKSB7DQogICAgICAgIC8vIOS7heWtmOaUvumAmui/h+aKk+WMheiOt+WPlueahCBWSVAg55u45YWz5pWw5o2uDQogICAgICAgIHJldHVybiAidmlwZGF0YS5qc29uIjsNCiAgICB9DQp9
+package fansirsqi.xposed.sesame.util.maps;
+
+/**
+ * 用于保存 VIP 抓包得到的私有数据（按用户隔离）。
+ * <p>
+ * 每个用户一个 vipdata.json，内容为简单的 key-value 映射，例如：
+ * {
+ * "antfishpond_riskToken": "xxxx"
+ * }
+ */
+public class VipDataIdMap extends IdMapManager {
+
+    @Override
+    protected String thisFileName() {
+        // 仅存放通过抓包获取的 VIP 相关数据
+        return "vipdata.json";
+    }
+}

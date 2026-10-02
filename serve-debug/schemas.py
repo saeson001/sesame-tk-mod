@@ -1,1 +1,54 @@
-ZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKaW1wb3J0IGpzb24gIyBJbXBvcnQganNvbiBmb3IgcGFyc2luZwpmcm9tIHB5ZGFudGljIGltcG9ydCBCYXNlTW9kZWwsIGZpZWxkX3ZhbGlkYXRvciwgVmFsaWRhdGlvbkVycm9yICMgSW1wb3J0IGZpZWxkX3ZhbGlkYXRvcgpmcm9tIHR5cGluZyBpbXBvcnQgT3B0aW9uYWwsIEFueSAjIOWvvOWFpSBPcHRpb25hbCDlkowgQW55IOeUqOS6juWPr+mAieWtl+auteWSjOS7u+aEj+exu+WeiwoKZnJvbSBtb2RlbHMgaW1wb3J0IEhvb2tEYXRhICMg5L+d55WZ77yM5Y+v6IO95pyq5p2l6ZyA6KaBCmZyb20gY29uZmlnIGltcG9ydCBsb2dnZXIKCiMg5a6a5LmJIFB5ZGFudGljIOaooeWei+eUqOS6juivt+axguS9k+WSjOWTjeW6lOS9kwpjbGFzcyBIb29rRGF0YUJhc2UoQmFzZU1vZGVsKToKICAgICMg5pu05paw5a2X5q6157G75Z6L5Lul5Yy56YWN5a6e6ZmF5Lyg5YWl55qE5pWw5o2uCiAgICBUaW1lU3RhbXA6IE9wdGlvbmFsW2ludF0gPSBOb25lICMg5pe26Ze05oiz6YCa5bi45piv5pW05pWwCiAgICBNZXRob2Q6IHN0cgogICAgUGFyYW1zOiBPcHRpb25hbFtBbnldID0gTm9uZSAjIFBhcmFtcyDlj6/ku6XmmK/ku7vmhI8gSlNPTiDlr7nosaEv5a2X5YW4CiAgICBEYXRhOiBPcHRpb25hbFtBbnldID0gTm9uZSAgICMgRGF0YSDlj6/ku6XmmK/ku7vmhI8gSlNPTiDlr7nosaEv5a2X5YW4CgpjbGFzcyBIb29rRGF0YUNyZWF0ZShIb29rRGF0YUJhc2UpOgogICAgcGFzcyAjIOWIm+W7uuaXtuS4jemcgOimgSBpZCwgY3JlYXRlZF9hdCwgdXBkYXRlZF9hdAoKY2xhc3MgSG9va0RhdGFTY2hlbWEoSG9va0RhdGFCYXNlKToKICAgIGlkOiBpbnQKICAgIGNyZWF0ZWRfYXQ6IGRhdGV0aW1lCiAgICB1cGRhdGVkX2F0OiBkYXRldGltZQoKICAgICMgT3ZlcnJpZGUgdHlwZXMgZnJvbSBIb29rRGF0YUJhc2UgZm9yIHJlc3BvbnNlIHNlcmlhbGl6YXRpb24KICAgIFRpbWVTdGFtcDogT3B0aW9uYWxbaW50XSA9IE5vbmUKICAgIFBhcmFtczogT3B0aW9uYWxbQW55XSA9IE5vbmUKICAgIERhdGE6IE9wdGlvbmFsW0FueV0gPSBOb25lCgogICAgQGZpZWxkX3ZhbGlkYXRvcignVGltZVN0YW1wJywgbW9kZT0nYmVmb3JlJykKICAgIEBjbGFzc21ldGhvZAogICAgZGVmIHBhcnNlX3RpbWVzdGFtcChjbHMsIHZhbHVlKToKICAgICAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCBzdHIpOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICByZXR1cm4gaW50KHZhbHVlKQogICAgICAgICAgICBleGNlcHQgKFZhbHVlRXJyb3IsIFR5cGVFcnJvcik6CiAgICAgICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIkNvdWxkIG5vdCBwYXJzZSB0aW1lc3RhbXAgc3RyaW5nOiB7dmFsdWV9IikKICAgICAgICAgICAgICAgIHJldHVybiBOb25lICMgT3IgaGFuZGxlIGVycm9yIGFzIG5lZWRlZAogICAgICAgIHJldHVybiB2YWx1ZSAjIEtlZXAgb3JpZ2luYWwgaWYgYWxyZWFkeSBpbnQgb3IgTm9uZQoKICAgIEBmaWVsZF92YWxpZGF0b3IoJ1BhcmFtcycsICdEYXRhJywgbW9kZT0nYmVmb3JlJykKICAgIEBjbGFzc21ldGhvZAogICAgZGVmIHBhcnNlX2pzb25fc3RyaW5nKGNscywgdmFsdWUpOgogICAgICAgIGlmIGlzaW5zdGFuY2UodmFsdWUsIHN0cik6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJldHVybiBqc29uLmxvYWRzKHZhbHVlKQogICAgICAgICAgICBleGNlcHQganNvbi5KU09ORGVjb2RlRXJyb3I6CiAgICAgICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIkNvdWxkIG5vdCBwYXJzZSBKU09OIHN0cmluZzoge3ZhbHVlfSIpCiAgICAgICAgICAgICAgICAjIERlY2lkZSBob3cgdG8gaGFuZGxlIGludmFsaWQgSlNPTjogcmV0dXJuIG9yaWdpbmFsIHN0cmluZywgTm9uZSwgb3IgcmFpc2UgZXJyb3IKICAgICAgICAgICAgICAgIHJldHVybiB2YWx1ZSAjIFJldHVybiBvcmlnaW5hbCBzdHJpbmcgaWYgcGFyc2luZyBmYWlscwogICAgICAgIHJldHVybiB2YWx1ZSAjIEtlZXAgb3JpZ2luYWwgaWYgYWxyZWFkeSBkaWN0IG9yIE5vbmUKCiAgICBjbGFzcyBDb25maWc6CiAgICAgICAgZnJvbV9hdHRyaWJ1dGVzID0gVHJ1ZSAjIOWFgeiuuOS7jiBPUk0g5a+56LGh5Yib5bu6IFB5ZGFudGljIOaooeWeiyAoUHlkYW50aWMgVjIpCg==
+from datetime import datetime
+import json # Import json for parsing
+from pydantic import BaseModel, field_validator, ValidationError # Import field_validator
+from typing import Optional, Any # 导入 Optional 和 Any 用于可选字段和任意类型
+
+from models import HookData # 保留，可能未来需要
+from config import logger
+
+# 定义 Pydantic 模型用于请求体和响应体
+class HookDataBase(BaseModel):
+    # 更新字段类型以匹配实际传入的数据
+    TimeStamp: Optional[int] = None # 时间戳通常是整数
+    Method: str
+    Params: Optional[Any] = None # Params 可以是任意 JSON 对象/字典
+    Data: Optional[Any] = None   # Data 可以是任意 JSON 对象/字典
+
+class HookDataCreate(HookDataBase):
+    pass # 创建时不需要 id, created_at, updated_at
+
+class HookDataSchema(HookDataBase):
+    id: int
+    created_at: datetime
+    updated_at: datetime
+
+    # Override types from HookDataBase for response serialization
+    TimeStamp: Optional[int] = None
+    Params: Optional[Any] = None
+    Data: Optional[Any] = None
+
+    @field_validator('TimeStamp', mode='before')
+    @classmethod
+    def parse_timestamp(cls, value):
+        if isinstance(value, str):
+            try:
+                return int(value)
+            except (ValueError, TypeError):
+                logger.warning(f"Could not parse timestamp string: {value}")
+                return None # Or handle error as needed
+        return value # Keep original if already int or None
+
+    @field_validator('Params', 'Data', mode='before')
+    @classmethod
+    def parse_json_string(cls, value):
+        if isinstance(value, str):
+            try:
+                return json.loads(value)
+            except json.JSONDecodeError:
+                logger.warning(f"Could not parse JSON string: {value}")
+                # Decide how to handle invalid JSON: return original string, None, or raise error
+                return value # Return original string if parsing fails
+        return value # Keep original if already dict or None
+
+    class Config:
+        from_attributes = True # 允许从 ORM 对象创建 Pydantic 模型 (Pydantic V2)

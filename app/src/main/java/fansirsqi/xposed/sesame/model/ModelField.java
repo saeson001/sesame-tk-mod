@@ -1,1 +1,214 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbDsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkxpbmVhckxheW91dDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRvYXN0OwoKaW1wb3J0IGFuZHJvaWR4LmNvcmUuY29udGVudC5Db250ZXh0Q29tcGF0OwoKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLkpzb25JZ25vcmU7CmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwuYnV0dG9uLk1hdGVyaWFsQnV0dG9uOwoKaW1wb3J0IG9yZy5qc29uLkpTT05FeGNlcHRpb247CgppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5UeXBlOwppbXBvcnQgamF2YS51dGlsLk9iamVjdHM7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuSnNvblV0aWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlR5cGVVdGlsOwppbXBvcnQgbG9tYm9rLkRhdGE7CmltcG9ydCBsb21ib2suR2V0dGVyOwppbXBvcnQgbG9tYm9rLlNldHRlcjsKCkBEYXRhCnB1YmxpYyBjbGFzcyBNb2RlbEZpZWxkPFQ+IGltcGxlbWVudHMgU2VyaWFsaXphYmxlIHsKICAgIEBKc29uSWdub3JlCiAgICBwdWJsaWMgZmluYWwgVHlwZSB2YWx1ZVR5cGU7IC8vIOWtmOWCqOWtl+auteWAvOeahOexu+WeiwogICAgQEpzb25JZ25vcmUKICAgIHB1YmxpYyBTdHJpbmcgY29kZTsgLy8g5a2X5q615Luj56CBCiAgICBASnNvbklnbm9yZQogICAgcHVibGljIFN0cmluZyBuYW1lOyAvLyDlrZfmrrXlkI3np7AKICAgIEBKc29uSWdub3JlCiAgICBwdWJsaWMgVCBkZWZhdWx0VmFsdWU7IC8vIOm7mOiupOWAvAogICAgQEpzb25JZ25vcmUKICAgIHB1YmxpYyBTdHJpbmcgZGVzYzsKICAgIEBTZXR0ZXIKICAgIEBHZXR0ZXIKICAgIHB1YmxpYyB2b2xhdGlsZSBUIHZhbHVlOyAvLyDlvZPliY3lgLwKCiAgICAvKioKICAgICAqIOm7mOiupOaehOmAoOWHveaVsO+8jOWIneWni+WMluWtl+auteWAvOexu+WeiwogICAgICovCiAgICBwdWJsaWMgTW9kZWxGaWVsZCgpIHsKICAgICAgICB2YWx1ZVR5cGUgPSBUeXBlVXRpbC5nZXRUeXBlQXJndW1lbnQodGhpcy5nZXRDbGFzcygpLmdldEdlbmVyaWNTdXBlcmNsYXNzKCksIDApOwogICAgfQoKICAgIC8qKgogICAgICog5p6E6YCg5Ye95pWw77yM5o6l5Y+X5Yid5aeL5YC8CiAgICAgKgogICAgICogQHBhcmFtIHZhbHVlIOWIneWni+WAvAogICAgICovCiAgICBwdWJsaWMgTW9kZWxGaWVsZChUIHZhbHVlKSB7CiAgICAgICAgdGhpcyhudWxsLCBudWxsLCB2YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiDmnoTpgKDlh73mlbDvvIzmjqXlj5flrZfmrrXku6PnoIHjgIHlkI3np7DlkozliJ3lp4vlgLwKICAgICAqCiAgICAgKiBAcGFyYW0gY29kZSAg5a2X5q615Luj56CBCiAgICAgKiBAcGFyYW0gbmFtZSAg5a2X5q615ZCN56ewCiAgICAgKiBAcGFyYW0gdmFsdWUg5a2X5q615Yid5aeL5YC8CiAgICAgKi8KICAgIHB1YmxpYyBNb2RlbEZpZWxkKFN0cmluZyBjb2RlLCBTdHJpbmcgbmFtZSwgVCB2YWx1ZSkgewogICAgICAgIHRoaXMoKTsgLy8g6LCD55So6buY6K6k5p6E6YCg5Ye95pWwCiAgICAgICAgdGhpcy5jb2RlID0gY29kZTsKICAgICAgICB0aGlzLm5hbWUgPSBuYW1lOwogICAgICAgIHRoaXMuZGVmYXVsdFZhbHVlID0gdmFsdWU7IC8vIOiuvue9rum7mOiupOWAvAogICAgICAgIHRoaXMuZGVzYyA9IG51bGw7CiAgICAgICAgc2V0T2JqZWN0VmFsdWUodmFsdWUpOyAvLyDorr7nva7lvZPliY3lgLwKICAgIH0KCiAgICBwdWJsaWMgTW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIFQgdmFsdWUsIFN0cmluZyBkZXNjKSB7CiAgICAgICAgdGhpcygpOwogICAgICAgIHRoaXMuY29kZSA9IGNvZGU7CiAgICAgICAgdGhpcy5uYW1lID0gbmFtZTsKICAgICAgICB0aGlzLmRlZmF1bHRWYWx1ZSA9IHZhbHVlOwogICAgICAgIHRoaXMuZGVzYyA9IGRlc2M7CiAgICAgICAgc2V0T2JqZWN0VmFsdWUodmFsdWUpOwogICAgfQoKICAgIC8qKgogICAgICog6K6+572u5b2T5YmN5YC8CiAgICAgKgogICAgICogQHBhcmFtIG9iamVjdFZhbHVlIOimgeiuvue9rueahOWAvAogICAgICovCiAgICBwdWJsaWMgdm9pZCBzZXRPYmplY3RWYWx1ZShPYmplY3Qgb2JqZWN0VmFsdWUpIHsKICAgICAgICBpZiAob2JqZWN0VmFsdWUgPT0gbnVsbCkgewogICAgICAgICAgICByZXNldCgpOyAvLyDlpoLmnpzkvKDlhaXlgLzkuLogbnVsbO+8jOWImemHjee9ruS4uum7mOiupOWAvAogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIGlmICh2YWx1ZVR5cGUgPT0gSW50ZWdlci5jbGFzcyAmJiBvYmplY3RWYWx1ZSBpbnN0YW5jZW9mIEJvb2xlYW4pIHsKICAgICAgICAgICAgb2JqZWN0VmFsdWUgPSAoQm9vbGVhbikgb2JqZWN0VmFsdWUgPyAxIDogMDsKICAgICAgICB9CiAgICAgICAgdmFsdWUgPSBKc29uVXRpbC5wYXJzZU9iamVjdChvYmplY3RWYWx1ZSwgdmFsdWVUeXBlKTsgLy8g6Kej5p6Q5bm26K6+572u5b2T5YmN5YC8CiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5blrZfmrrXnsbvlnosKICAgICAqCiAgICAgKiBAcmV0dXJuIOWtl+auteexu+Wei+Wtl+espuS4sgogICAgICovCiAgICBASnNvbklnbm9yZQogICAgcHVibGljIFN0cmluZyBnZXRUeXBlKCkgewogICAgICAgIHJldHVybiAiREVGQVVMVCI7IC8vIOm7mOiupOi/lOWbnuexu+WeiwogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5omp5bGV6ZSuCiAgICAgKgogICAgICogQHJldHVybiDmianlsZXplK4KICAgICAqLwogICAgQEpzb25JZ25vcmUKICAgIHB1YmxpYyBPYmplY3QgZ2V0RXhwYW5kS2V5KCkgewogICAgICAgIHJldHVybiBudWxsOyAvLyDpu5jorqTov5Tlm54gbnVsbAogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5omp5bGV5YC8CiAgICAgKgogICAgICogQHJldHVybiDmianlsZXlgLwKICAgICAqLwogICAgQEpzb25JZ25vcmUKICAgIHB1YmxpYyBPYmplY3QgZ2V0RXhwYW5kVmFsdWUoKSB0aHJvd3MgSlNPTkV4Y2VwdGlvbiB7CiAgICAgICAgcmV0dXJuIG51bGw7IC8vIOm7mOiupOi/lOWbniBudWxsCiAgICB9CgogICAgLyoqCiAgICAgKiDlsIblvZPliY3lgLzovazmjaLkuLrphY3nva7lgLwKICAgICAqCiAgICAgKiBAcGFyYW0gdmFsdWUg5b2T5YmN5YC8CiAgICAgKiBAcmV0dXJuIOmFjee9ruWAvAogICAgICovCiAgICBwdWJsaWMgT2JqZWN0IHRvQ29uZmlnVmFsdWUoVCB2YWx1ZSkgewogICAgICAgIHJldHVybiB2YWx1ZTsgLy8g6buY6K6k6L+U5Zue5b2T5YmN5YC8CiAgICB9CgogICAgLyoqCiAgICAgKiDku47phY3nva7lgLzovazmjaLkuLrlr7nosaHlgLwKICAgICAqCiAgICAgKiBAcGFyYW0gdmFsdWUg6YWN572u5YC8CiAgICAgKiBAcmV0dXJuIOWvueixoeWAvAogICAgICovCiAgICBwdWJsaWMgT2JqZWN0IGZyb21Db25maWdWYWx1ZShTdHJpbmcgdmFsdWUpIHsKICAgICAgICByZXR1cm4gdmFsdWU7IC8vIOm7mOiupOi/lOWbnumFjee9ruWAvAogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5b2T5YmN5YC855qE6YWN572u5a2X56ym5Liy6KGo56S6CiAgICAgKgogICAgICogQHJldHVybiDphY3nva7lrZfnrKbkuLIKICAgICAqLwogICAgQEpzb25JZ25vcmUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0Q29uZmlnVmFsdWUoKSB7CiAgICAgICAgcmV0dXJuIEpzb25VdGlsLmZvcm1hdEpzb24odG9Db25maWdWYWx1ZSh2YWx1ZSkpOyAvLyDovazmjaLkuLogSlNPTiDlrZfnrKbkuLIKICAgIH0KCiAgICAvKioKICAgICAqIOiuvue9rumFjee9ruWAvAogICAgICoKICAgICAqIEBwYXJhbSBjb25maWdWYWx1ZSDphY3nva7lgLzlrZfnrKbkuLIKICAgICAqLwogICAgQEpzb25JZ25vcmUKICAgIHB1YmxpYyB2b2lkIHNldENvbmZpZ1ZhbHVlKFN0cmluZyBjb25maWdWYWx1ZSkgewogICAgICAgIGlmIChjb25maWdWYWx1ZSA9PSBudWxsKSB7CiAgICAgICAgICAgIHJlc2V0KCk7IC8vIOWmguaenOmFjee9ruWAvOS4uiBudWxs77yM5YiZ6YeN572u5Li66buY6K6k5YC8CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgT2JqZWN0IG9iamVjdFZhbHVlID0gZnJvbUNvbmZpZ1ZhbHVlKGNvbmZpZ1ZhbHVlKTsgLy8g5LuO6YWN572u5YC86L2s5o2i5Li65a+56LGh5YC8CiAgICAgICAgLy8g5aaC5p6c5a+56LGh5YC85LiO6YWN572u5YC855u4562J77yM5YiZ55u05o6l6Kej5p6Q6YWN572u5YC8CiAgICAgICAgaWYgKE9iamVjdHMuZXF1YWxzKG9iamVjdFZhbHVlLCBjb25maWdWYWx1ZSkpIHsKICAgICAgICAgICAgdmFsdWUgPSBKc29uVXRpbC5wYXJzZU9iamVjdChjb25maWdWYWx1ZSwgdmFsdWVUeXBlKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB2YWx1ZSA9IEpzb25VdGlsLnBhcnNlT2JqZWN0KG9iamVjdFZhbHVlLCB2YWx1ZVR5cGUpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOmHjee9ruW9k+WJjeWAvOS4uum7mOiupOWAvAogICAgICovCiAgICBwdWJsaWMgdm9pZCByZXNldCgpIHsKICAgICAgICB2YWx1ZSA9IGRlZmF1bHRWYWx1ZTsgLy8g6K6+572u5b2T5YmN5YC85Li66buY6K6k5YC8CiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5blrZfmrrXnmoTop4blm74KICAgICAqCiAgICAgKiBAcGFyYW0gY29udGV4dCDkuIrkuIvmloflr7nosaEKICAgICAqIEByZXR1cm4g55Sf5oiQ55qE6KeG5Zu+CiAgICAgKi8KICAgIEBKc29uSWdub3JlCiAgICBwdWJsaWMgVmlldyBnZXRWaWV3KENvbnRleHQgY29udGV4dCkgewogICAgICAgIE1hdGVyaWFsQnV0dG9uIGJ1dHRvbiA9IG5ldyBNYXRlcmlhbEJ1dHRvbihjb250ZXh0LCBudWxsLCBjb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwuUi5hdHRyLm1hdGVyaWFsQnV0dG9uT3V0bGluZWRTdHlsZSk7CiAgICAgICAgYnV0dG9uLnNldFRleHQoZ2V0TmFtZSgpKTsKICAgICAgICBidXR0b24uc2V0TGF5b3V0UGFyYW1zKG5ldyBMaW5lYXJMYXlvdXQuTGF5b3V0UGFyYW1zKAogICAgICAgICAgICAgICAgVmlld0dyb3VwLkxheW91dFBhcmFtcy5NQVRDSF9QQVJFTlQsCiAgICAgICAgICAgICAgICBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLldSQVBfQ09OVEVOVAogICAgICAgICkpOwogICAgICAgIGJ1dHRvbi5zZXRDb3JuZXJSYWRpdXMoMjgpOyAvLyBNMyDmjqjojZDlnIbop5IKICAgICAgICBidXR0b24uc2V0SW5zZXRUb3AoMjQpOyAvLyDkuIrkuIsgcGFkZGluZwogICAgICAgIGJ1dHRvbi5zZXRJbnNldEJvdHRvbSgyNCk7CiAgICAgICAgYnV0dG9uLnNldFBhZGRpbmdSZWxhdGl2ZSg0MCwgMCwgNDAsIDApOyAvLyDlt6blj7MgcGFkZGluZwogICAgICAgIGJ1dHRvbi5zZXRJY29uUGFkZGluZygxNik7CiAgICAgICAgYnV0dG9uLnNldEljb25HcmF2aXR5KE1hdGVyaWFsQnV0dG9uLklDT05fR1JBVklUWV9URVhUX1NUQVJUKTsKICAgICAgICBidXR0b24uc2V0UmlwcGxlQ29sb3JSZXNvdXJjZShSLmNvbG9yLnNlbGVjdGlvbl9jb2xvcik7IC8vIOWPr+iHquWumuS5iSByaXBwbGUKICAgICAgICBidXR0b24uc2V0VGV4dENvbG9yKENvbnRleHRDb21wYXQuZ2V0Q29sb3IoY29udGV4dCwgUi5jb2xvci5zZWxlY3Rpb25fY29sb3IpKTsgLy8g5L2/55SoIE0zIOiJsuW9qQogICAgICAgIGJ1dHRvbi5zZXRUZXh0QWxpZ25tZW50KFZpZXcuVEVYVF9BTElHTk1FTlRfVEVYVF9TVEFSVCk7CiAgICAgICAgLy8g54K55Ye75o+Q56S6CiAgICAgICAgYnV0dG9uLnNldE9uQ2xpY2tMaXN0ZW5lcih2IC0+IFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsICLml6DphY3nva7pobkiLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKSk7CiAgICAgICAgcmV0dXJuIGJ1dHRvbjsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.model;
+
+import android.content.Context;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import androidx.core.content.ContextCompat;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.google.android.material.button.MaterialButton;
+
+import org.json.JSONException;
+
+import java.io.Serializable;
+import java.lang.reflect.Type;
+import java.util.Objects;
+
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.util.JsonUtil;
+import fansirsqi.xposed.sesame.util.TypeUtil;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+@Data
+public class ModelField<T> implements Serializable {
+    @JsonIgnore
+    public final Type valueType; // 存储字段值的类型
+    @JsonIgnore
+    public String code; // 字段代码
+    @JsonIgnore
+    public String name; // 字段名称
+    @JsonIgnore
+    public T defaultValue; // 默认值
+    @JsonIgnore
+    public String desc;
+    @Setter
+    @Getter
+    public volatile T value; // 当前值
+
+    /**
+     * 默认构造函数，初始化字段值类型
+     */
+    public ModelField() {
+        valueType = TypeUtil.getTypeArgument(this.getClass().getGenericSuperclass(), 0);
+    }
+
+    /**
+     * 构造函数，接受初始值
+     *
+     * @param value 初始值
+     */
+    public ModelField(T value) {
+        this(null, null, value);
+    }
+
+    /**
+     * 构造函数，接受字段代码、名称和初始值
+     *
+     * @param code  字段代码
+     * @param name  字段名称
+     * @param value 字段初始值
+     */
+    public ModelField(String code, String name, T value) {
+        this(); // 调用默认构造函数
+        this.code = code;
+        this.name = name;
+        this.defaultValue = value; // 设置默认值
+        this.desc = null;
+        setObjectValue(value); // 设置当前值
+    }
+
+    public ModelField(String code, String name, T value, String desc) {
+        this();
+        this.code = code;
+        this.name = name;
+        this.defaultValue = value;
+        this.desc = desc;
+        setObjectValue(value);
+    }
+
+    /**
+     * 设置当前值
+     *
+     * @param objectValue 要设置的值
+     */
+    public void setObjectValue(Object objectValue) {
+        if (objectValue == null) {
+            reset(); // 如果传入值为 null，则重置为默认值
+            return;
+        }
+        if (valueType == Integer.class && objectValue instanceof Boolean) {
+            objectValue = (Boolean) objectValue ? 1 : 0;
+        }
+        value = JsonUtil.parseObject(objectValue, valueType); // 解析并设置当前值
+    }
+
+    /**
+     * 获取字段类型
+     *
+     * @return 字段类型字符串
+     */
+    @JsonIgnore
+    public String getType() {
+        return "DEFAULT"; // 默认返回类型
+    }
+
+    /**
+     * 获取扩展键
+     *
+     * @return 扩展键
+     */
+    @JsonIgnore
+    public Object getExpandKey() {
+        return null; // 默认返回 null
+    }
+
+    /**
+     * 获取扩展值
+     *
+     * @return 扩展值
+     */
+    @JsonIgnore
+    public Object getExpandValue() throws JSONException {
+        return null; // 默认返回 null
+    }
+
+    /**
+     * 将当前值转换为配置值
+     *
+     * @param value 当前值
+     * @return 配置值
+     */
+    public Object toConfigValue(T value) {
+        return value; // 默认返回当前值
+    }
+
+    /**
+     * 从配置值转换为对象值
+     *
+     * @param value 配置值
+     * @return 对象值
+     */
+    public Object fromConfigValue(String value) {
+        return value; // 默认返回配置值
+    }
+
+    /**
+     * 获取当前值的配置字符串表示
+     *
+     * @return 配置字符串
+     */
+    @JsonIgnore
+    public String getConfigValue() {
+        return JsonUtil.formatJson(toConfigValue(value)); // 转换为 JSON 字符串
+    }
+
+    /**
+     * 设置配置值
+     *
+     * @param configValue 配置值字符串
+     */
+    @JsonIgnore
+    public void setConfigValue(String configValue) {
+        if (configValue == null) {
+            reset(); // 如果配置值为 null，则重置为默认值
+            return;
+        }
+        Object objectValue = fromConfigValue(configValue); // 从配置值转换为对象值
+        // 如果对象值与配置值相等，则直接解析配置值
+        if (Objects.equals(objectValue, configValue)) {
+            value = JsonUtil.parseObject(configValue, valueType);
+        } else {
+            value = JsonUtil.parseObject(objectValue, valueType);
+        }
+    }
+
+    /**
+     * 重置当前值为默认值
+     */
+    public void reset() {
+        value = defaultValue; // 设置当前值为默认值
+    }
+
+    /**
+     * 获取字段的视图
+     *
+     * @param context 上下文对象
+     * @return 生成的视图
+     */
+    @JsonIgnore
+    public View getView(Context context) {
+        MaterialButton button = new MaterialButton(context, null, com.google.android.material.R.attr.materialButtonOutlinedStyle);
+        button.setText(getName());
+        button.setLayoutParams(new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+        ));
+        button.setCornerRadius(28); // M3 推荐圆角
+        button.setInsetTop(24); // 上下 padding
+        button.setInsetBottom(24);
+        button.setPaddingRelative(40, 0, 40, 0); // 左右 padding
+        button.setIconPadding(16);
+        button.setIconGravity(MaterialButton.ICON_GRAVITY_TEXT_START);
+        button.setRippleColorResource(R.color.selection_color); // 可自定义 ripple
+        button.setTextColor(ContextCompat.getColor(context, R.color.selection_color)); // 使用 M3 色彩
+        button.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+        // 点击提示
+        button.setOnClickListener(v -> Toast.makeText(context, "无配置项", Toast.LENGTH_SHORT).show());
+        return button;
+    }
+}

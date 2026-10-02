@@ -1,1 +1,105 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZTsKCmltcG9ydCBhbmRyb2lkLm9zLkJpbmRlcjsKaW1wb3J0IGFuZHJvaWQub3MuSUJpbmRlcjsKaW1wb3J0IGFuZHJvaWQub3MuSUludGVyZmFjZTsKaW1wb3J0IGFuZHJvaWQub3MuUGFyY2VsOwppbXBvcnQgYW5kcm9pZC5vcy5SZW1vdGVFeGNlcHRpb247CgpwdWJsaWMgaW50ZXJmYWNlIElDYWxsYmFjayBleHRlbmRzIElJbnRlcmZhY2UgewogICAgdm9pZCBvblN1Y2Nlc3MoU3RyaW5nIG91dHB1dCkgdGhyb3dzIFJlbW90ZUV4Y2VwdGlvbjsKICAgIHZvaWQgb25FcnJvcihTdHJpbmcgZXJyb3IpIHRocm93cyBSZW1vdGVFeGNlcHRpb247CgogICAgYWJzdHJhY3QgY2xhc3MgU3R1YiBleHRlbmRzIEJpbmRlciBpbXBsZW1lbnRzIElDYWxsYmFjayB7CiAgICAgICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIERFU0NSSVBUT1IgPSAiZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuSUNhbGxiYWNrIjsKICAgICAgICBzdGF0aWMgZmluYWwgaW50IFRSQU5TQUNUSU9OX29uU3VjY2VzcyA9IDE7CiAgICAgICAgc3RhdGljIGZpbmFsIGludCBUUkFOU0FDVElPTl9vbkVycm9yID0gMjsKCiAgICAgICAgcHVibGljIFN0dWIoKSB7CiAgICAgICAgICAgIGF0dGFjaEludGVyZmFjZSh0aGlzLCBERVNDUklQVE9SKTsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBzdGF0aWMgSUNhbGxiYWNrIGFzSW50ZXJmYWNlKElCaW5kZXIgb2JqKSB7CiAgICAgICAgICAgIGlmIChvYmogPT0gbnVsbCkgcmV0dXJuIG51bGw7CiAgICAgICAgICAgIElJbnRlcmZhY2UgaWluID0gb2JqLnF1ZXJ5TG9jYWxJbnRlcmZhY2UoREVTQ1JJUFRPUik7CiAgICAgICAgICAgIGlmIChpaW4gaW5zdGFuY2VvZiBJQ2FsbGJhY2spIHJldHVybiAoSUNhbGxiYWNrKSBpaW47CiAgICAgICAgICAgIHJldHVybiBuZXcgUHJveHkob2JqKTsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyBJQmluZGVyIGFzQmluZGVyKCkgewogICAgICAgICAgICByZXR1cm4gdGhpczsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHByb3RlY3RlZCBib29sZWFuIG9uVHJhbnNhY3QoaW50IGNvZGUsIFBhcmNlbCBkYXRhLCBQYXJjZWwgcmVwbHksIGludCBmbGFncykgdGhyb3dzIFJlbW90ZUV4Y2VwdGlvbiB7CiAgICAgICAgICAgIFN0cmluZyBkZXNjcmlwdG9yID0gREVTQ1JJUFRPUjsKICAgICAgICAgICAgc3dpdGNoIChjb2RlKSB7CiAgICAgICAgICAgICAgICBjYXNlIElOVEVSRkFDRV9UUkFOU0FDVElPTjoKICAgICAgICAgICAgICAgICAgICByZXBseS53cml0ZVN0cmluZyhkZXNjcmlwdG9yKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgIGNhc2UgVFJBTlNBQ1RJT05fb25TdWNjZXNzOgogICAgICAgICAgICAgICAgICAgIGRhdGEuZW5mb3JjZUludGVyZmFjZShkZXNjcmlwdG9yKTsKICAgICAgICAgICAgICAgICAgICBTdHJpbmcgb3V0cHV0ID0gZGF0YS5yZWFkU3RyaW5nKCk7CiAgICAgICAgICAgICAgICAgICAgb25TdWNjZXNzKG91dHB1dCk7CiAgICAgICAgICAgICAgICAgICAgcmVwbHkud3JpdGVOb0V4Y2VwdGlvbigpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICAgICAgY2FzZSBUUkFOU0FDVElPTl9vbkVycm9yOgogICAgICAgICAgICAgICAgICAgIGRhdGEuZW5mb3JjZUludGVyZmFjZShkZXNjcmlwdG9yKTsKICAgICAgICAgICAgICAgICAgICBTdHJpbmcgZXJyb3IgPSBkYXRhLnJlYWRTdHJpbmcoKTsKICAgICAgICAgICAgICAgICAgICBvbkVycm9yKGVycm9yKTsKICAgICAgICAgICAgICAgICAgICByZXBseS53cml0ZU5vRXhjZXB0aW9uKCk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgICAgICBkZWZhdWx0OgogICAgICAgICAgICAgICAgICAgIHJldHVybiBzdXBlci5vblRyYW5zYWN0KGNvZGUsIGRhdGEsIHJlcGx5LCBmbGFncyk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgc3RhdGljIGNsYXNzIFByb3h5IGltcGxlbWVudHMgSUNhbGxiYWNrIHsKICAgICAgICAgICAgcHJpdmF0ZSBmaW5hbCBJQmluZGVyIG1SZW1vdGU7CgogICAgICAgICAgICBQcm94eShJQmluZGVyIHJlbW90ZSkgewogICAgICAgICAgICAgICAgbVJlbW90ZSA9IHJlbW90ZTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyBJQmluZGVyIGFzQmluZGVyKCkgewogICAgICAgICAgICAgICAgcmV0dXJuIG1SZW1vdGU7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHB1YmxpYyBTdHJpbmcgZ2V0SW50ZXJmYWNlRGVzY3JpcHRvcigpIHsKICAgICAgICAgICAgICAgIHJldHVybiBERVNDUklQVE9SOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25TdWNjZXNzKFN0cmluZyBvdXRwdXQpIHRocm93cyBSZW1vdGVFeGNlcHRpb24gewogICAgICAgICAgICAgICAgUGFyY2VsIGRhdGEgPSBQYXJjZWwub2J0YWluKCk7CiAgICAgICAgICAgICAgICBQYXJjZWwgcmVwbHkgPSBQYXJjZWwub2J0YWluKCk7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGRhdGEud3JpdGVJbnRlcmZhY2VUb2tlbihERVNDUklQVE9SKTsKICAgICAgICAgICAgICAgICAgICBkYXRhLndyaXRlU3RyaW5nKG91dHB1dCk7CiAgICAgICAgICAgICAgICAgICAgbVJlbW90ZS50cmFuc2FjdChUUkFOU0FDVElPTl9vblN1Y2Nlc3MsIGRhdGEsIHJlcGx5LCAwKTsKICAgICAgICAgICAgICAgICAgICByZXBseS5yZWFkRXhjZXB0aW9uKCk7CiAgICAgICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgICAgIHJlcGx5LnJlY3ljbGUoKTsKICAgICAgICAgICAgICAgICAgICBkYXRhLnJlY3ljbGUoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIG9uRXJyb3IoU3RyaW5nIGVycm9yKSB0aHJvd3MgUmVtb3RlRXhjZXB0aW9uIHsKICAgICAgICAgICAgICAgIFBhcmNlbCBkYXRhID0gUGFyY2VsLm9idGFpbigpOwogICAgICAgICAgICAgICAgUGFyY2VsIHJlcGx5ID0gUGFyY2VsLm9idGFpbigpOwogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBkYXRhLndyaXRlSW50ZXJmYWNlVG9rZW4oREVTQ1JJUFRPUik7CiAgICAgICAgICAgICAgICAgICAgZGF0YS53cml0ZVN0cmluZyhlcnJvcik7CiAgICAgICAgICAgICAgICAgICAgbVJlbW90ZS50cmFuc2FjdChUUkFOU0FDVElPTl9vbkVycm9yLCBkYXRhLCByZXBseSwgMCk7CiAgICAgICAgICAgICAgICAgICAgcmVwbHkucmVhZEV4Y2VwdGlvbigpOwogICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICByZXBseS5yZWN5Y2xlKCk7CiAgICAgICAgICAgICAgICAgICAgZGF0YS5yZWN5Y2xlKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame;
+
+import android.os.Binder;
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Parcel;
+import android.os.RemoteException;
+
+public interface ICallback extends IInterface {
+    void onSuccess(String output) throws RemoteException;
+    void onError(String error) throws RemoteException;
+
+    abstract class Stub extends Binder implements ICallback {
+        private static final String DESCRIPTOR = "fansirsqi.xposed.sesame.ICallback";
+        static final int TRANSACTION_onSuccess = 1;
+        static final int TRANSACTION_onError = 2;
+
+        public Stub() {
+            attachInterface(this, DESCRIPTOR);
+        }
+
+        public static ICallback asInterface(IBinder obj) {
+            if (obj == null) return null;
+            IInterface iin = obj.queryLocalInterface(DESCRIPTOR);
+            if (iin instanceof ICallback) return (ICallback) iin;
+            return new Proxy(obj);
+        }
+
+        @Override
+        public IBinder asBinder() {
+            return this;
+        }
+
+        @Override
+        protected boolean onTransact(int code, Parcel data, Parcel reply, int flags) throws RemoteException {
+            String descriptor = DESCRIPTOR;
+            switch (code) {
+                case INTERFACE_TRANSACTION:
+                    reply.writeString(descriptor);
+                    return true;
+                case TRANSACTION_onSuccess:
+                    data.enforceInterface(descriptor);
+                    String output = data.readString();
+                    onSuccess(output);
+                    reply.writeNoException();
+                    return true;
+                case TRANSACTION_onError:
+                    data.enforceInterface(descriptor);
+                    String error = data.readString();
+                    onError(error);
+                    reply.writeNoException();
+                    return true;
+                default:
+                    return super.onTransact(code, data, reply, flags);
+            }
+        }
+
+        private static class Proxy implements ICallback {
+            private final IBinder mRemote;
+
+            Proxy(IBinder remote) {
+                mRemote = remote;
+            }
+
+            @Override
+            public IBinder asBinder() {
+                return mRemote;
+            }
+
+            public String getInterfaceDescriptor() {
+                return DESCRIPTOR;
+            }
+
+            @Override
+            public void onSuccess(String output) throws RemoteException {
+                Parcel data = Parcel.obtain();
+                Parcel reply = Parcel.obtain();
+                try {
+                    data.writeInterfaceToken(DESCRIPTOR);
+                    data.writeString(output);
+                    mRemote.transact(TRANSACTION_onSuccess, data, reply, 0);
+                    reply.readException();
+                } finally {
+                    reply.recycle();
+                    data.recycle();
+                }
+            }
+
+            @Override
+            public void onError(String error) throws RemoteException {
+                Parcel data = Parcel.obtain();
+                Parcel reply = Parcel.obtain();
+                try {
+                    data.writeInterfaceToken(DESCRIPTOR);
+                    data.writeString(error);
+                    mRemote.transact(TRANSACTION_onError, data, reply, 0);
+                    reply.readException();
+                } finally {
+                    reply.recycle();
+                    data.recycle();
+                }
+            }
+        }
+    }
+}

@@ -1,1 +1,212 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMKCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uY29yZS50eXBlLlR5cGVSZWZlcmVuY2UKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5Vc2VyRW50aXR5CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkRhdGFTdG9yZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5GaWxlcwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Kc29uVXRpbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9ucwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXAKCi8qKgogKiDnlKjkuo7nrqHnkIblkozmk43kvZznlKjmiLfmlbDmja7nmoTmmKDlsITlhbPns7vjgIIKICog6L2s5o2i5Li6IEtvdGxpbiBvYmplY3Qg5Y2V5L6L5qih5byP44CCCiAqLwpvYmplY3QgVXNlck1hcCB7CiAgICBwcml2YXRlIHZhbCBUQUcgPSBVc2VyTWFwOjpjbGFzcy5qYXZhLnNpbXBsZU5hbWUKCiAgICAvLyDlrZjlgqjnlKjmiLfkv6Hmga/nmoTnur/nqIvlronlhajmmKDlsIQKICAgIC8vIENvbmN1cnJlbnRIYXNoTWFwIOS4jeWFgeiuuCBrZXkg5oiWIHZhbHVlIOS4uiBudWxsCiAgICBwcml2YXRlIHZhbCB1c2VyTWFwID0gQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBVc2VyRW50aXR5PigpCgogICAgLyoqCiAgICAgKiDlvZPliY3nlKjmiLdJRAogICAgICog5L2/55SoIEBKdm1TdGF0aWMg5ZKMIEBKdm1GaWVsZCDkv53mjIEgSmF2YSDkupLmk43kvZzmgKcKICAgICAqLwogICAgdmFyIGN1cnJlbnRVaWQ6IFN0cmluZz8gPSBudWxsCiAgICAgICAgcHJpdmF0ZSBzZXQgLy8g5aSW6YOo5Y+q6IO96YCa6L+HIHNldEN1cnJlbnRVc2VySWQg5L+u5pS5CgogICAgLyoqCiAgICAgKiDojrflj5blj6ror7vnmoTnlKjmiLfkv6Hmga/mmKDlsIQKICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIGdldFVzZXJNYXAoKTogTWFwPFN0cmluZywgVXNlckVudGl0eT4gewogICAgICAgIHJldHVybiBDb2xsZWN0aW9ucy51bm1vZGlmaWFibGVNYXAodXNlck1hcCkKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluaJgOacieeUqOaIt0lE55qE6ZuG5ZCICiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRVc2VySWRTZXQoKTogU2V0PFN0cmluZz4gewogICAgICAgIHJldHVybiB1c2VyTWFwLmtleXMKICAgIH0KCiAgICAvKioKICAgICAqIOiuvue9ruW9k+WJjeeUqOaIt0lECiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBzZXRDdXJyZW50VXNlcklkKHVzZXJJZDogU3RyaW5nPykgewogICAgICAgIGN1cnJlbnRVaWQgPSBpZiAodXNlcklkLmlzTnVsbE9yRW1wdHkoKSkgbnVsbCBlbHNlIHVzZXJJZAogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5b2T5YmN55So5oi355qE5o6p56CB5ZCN56ewCiAgICAgKiDkv67lpI3vvJrlpoLmnpwgY3VycmVudFVpZCDkuLogbnVsbO+8jOebtOaOpei/lOWbniBudWxs77yM6YG/5YWNIENvbmN1cnJlbnRIYXNoTWFwIOW0qea6gwogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0Q3VycmVudE1hc2tOYW1lKCk6IFN0cmluZz8gewogICAgICAgIHJldHVybiBnZXRNYXNrTmFtZShjdXJyZW50VWlkKQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5oyH5a6a55So5oi355qE5o6p56CB5ZCN56ewCiAgICAgKiDkv67lpI3vvJrlop7liqDkuoYgdXNlcklkIOWIpOepuuajgOafpQogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0TWFza05hbWUodXNlcklkOiBTdHJpbmc/KTogU3RyaW5nPyB7CiAgICAgICAgaWYgKHVzZXJJZCA9PSBudWxsKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAiZ2V0TWFza05hbWU6IHVzZXJJZCBpcyBudWxsIikKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9IC8vIOWFs+mUruS/ruWkje+8mumYsuatoiB1c2VyTWFwLmdldChudWxsKSDltKnmuoMKICAgICAgICByZXR1cm4gdXNlck1hcFt1c2VySWRdPy5tYXNrTmFtZQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5oyH5a6a55So5oi35a6e5L2TCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXQodXNlcklkOiBTdHJpbmc/KTogVXNlckVudGl0eT8gewogICAgICAgIGlmICh1c2VySWQgPT0gbnVsbCkgcmV0dXJuIG51bGwgLy8g5YWz6ZSu5L+u5aSNCiAgICAgICAgcmV0dXJuIHVzZXJNYXBbdXNlcklkXQogICAgfQoKICAgIC8qKgogICAgICog5re75Yqg55So5oi35Yiw5pig5bCECiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBhZGQodXNlckVudGl0eTogVXNlckVudGl0eT8pIHsKICAgICAgICBpZiAodXNlckVudGl0eSA9PSBudWxsKSByZXR1cm4KICAgICAgICB2YWwgdWlkID0gdXNlckVudGl0eS51c2VySWQKICAgICAgICBpZiAoIXVpZC5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgdXNlck1hcFt1aWRdID0gdXNlckVudGl0eQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOS7juaYoOWwhOS4reenu+mZpOaMh+WumueUqOaItwogICAgICovCiAgICBASnZtU3RhdGljCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gcmVtb3ZlKHVzZXJJZDogU3RyaW5nPykgewogICAgICAgIGlmICh1c2VySWQgIT0gbnVsbCkgewogICAgICAgICAgICB1c2VyTWFwLnJlbW92ZSh1c2VySWQpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5Yqg6L2955So5oi35pWw5o2uCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBsb2FkKHVzZXJJZDogU3RyaW5nPykgewogICAgICAgIHVzZXJNYXAuY2xlYXIoKQogICAgICAgIGlmICh1c2VySWQuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJTa2lwIGxvYWRpbmcgdXNlciBtYXAgZm9yIGVtcHR5IHVzZXJJZCIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZnJpZW5kSWRNYXBGaWxlID0gRmlsZXMuZ2V0RnJpZW5kSWRNYXBGaWxlKHVzZXJJZCkKICAgICAgICAgICAgaWYgKGZyaWVuZElkTWFwRmlsZSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAiRnJpZW5kIElEIG1hcCBmaWxlIGlzIG51bGwgZm9yIHVzZXJJZDogJHVzZXJJZCIpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgYm9keSA9IEZpbGVzLnJlYWRGcm9tRmlsZShmcmllbmRJZE1hcEZpbGUpCiAgICAgICAgICAgIGlmIChib2R5LmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgLy8gS290bGluIOS4reS9v+eUqCBUeXBlUmVmZXJlbmNlIOeahOaWueW8jwogICAgICAgICAgICAgICAgdmFsIGR0b01hcDogTWFwPFN0cmluZywgVXNlckVudGl0eS5Vc2VyRHRvPj8gPSBKc29uVXRpbC5wYXJzZU9iamVjdCgKICAgICAgICAgICAgICAgICAgICBib2R5LAogICAgICAgICAgICAgICAgICAgIG9iamVjdCA6IFR5cGVSZWZlcmVuY2U8TWFwPFN0cmluZywgVXNlckVudGl0eS5Vc2VyRHRvPj4oKSB7fQogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIGR0b01hcD8udmFsdWVzPy5mb3JFYWNoIHsgZHRvIC0+CiAgICAgICAgICAgICAgICAgICAgLy8g5YaN5qyh56Gu5L+dIEtleSDlkowgVmFsdWUg5LiN5Li6IG51bGwKICAgICAgICAgICAgICAgICAgICB2YWwgdWlkID0gZHRvLnVzZXJJZAogICAgICAgICAgICAgICAgICAgIHZhbCBlbnRpdHkgPSBkdG8udG9FbnRpdHkoKQogICAgICAgICAgICAgICAgICAgIGlmICghdWlkLmlzTnVsbE9yRW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB1c2VyTWFwW3VpZF0gPSBlbnRpdHkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWNuOi9veeUqOaIt+aVsOaNrgogICAgICovCiAgICBASnZtU3RhdGljCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gdW5sb2FkKCkgewogICAgICAgIHVzZXJNYXAuY2xlYXIoKQogICAgfQoKICAgIC8qKgogICAgICog5L+d5a2Y55So5oi35pWw5o2u5Yiw5paH5Lu2CiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBzYXZlKHVzZXJJZDogU3RyaW5nPyk6IEJvb2xlYW4gewogICAgICAgIGlmICh1c2VySWQuaXNOdWxsT3JFbXB0eSgpKSByZXR1cm4gZmFsc2UKICAgICAgICByZXR1cm4gRmlsZXMud3JpdGUyRmlsZShKc29uVXRpbC5mb3JtYXRKc29uKHVzZXJNYXApLCBGaWxlcy5nZXRGcmllbmRJZE1hcEZpbGUodXNlcklkKSEhKQogICAgfQoKICAgIC8qKgogICAgICog5Yqg6L295b2T5YmN55So5oi355qE5pWw5o2uCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBsb2FkU2VsZih1c2VySWQ6IFN0cmluZz8pIHsKICAgICAgICB1c2VyTWFwLmNsZWFyKCkKICAgICAgICBpZiAodXNlcklkLmlzTnVsbE9yRW1wdHkoKSkgcmV0dXJuCgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBib2R5ID0gRmlsZXMucmVhZEZyb21GaWxlKEZpbGVzLmdldFNlbGZJZEZpbGUodXNlcklkKSEhKQogICAgICAgICAgICBpZiAoYm9keS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHZhbCBkdG86IFVzZXJFbnRpdHkuVXNlckR0bz8gPSBKc29uVXRpbC5wYXJzZU9iamVjdCgKICAgICAgICAgICAgICAgICAgICBib2R5LAogICAgICAgICAgICAgICAgICAgIG9iamVjdCA6IFR5cGVSZWZlcmVuY2U8VXNlckVudGl0eS5Vc2VyRHRvPigpIHt9CiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgaWYgKGR0byAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHVpZCA9IGR0by51c2VySWQKICAgICAgICAgICAgICAgICAgICB2YWwgZW50aXR5ID0gZHRvLnRvRW50aXR5KCkKICAgICAgICAgICAgICAgICAgICBpZiAoIXVpZC5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdXNlck1hcFt1aWRdID0gZW50aXR5CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDkv53lrZjlvZPliY3nlKjmiLfmlbDmja7liLDmlofku7YKICAgICAqLwogICAgQEp2bVN0YXRpYwogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHNhdmVTZWxmKHVzZXJFbnRpdHk6IFVzZXJFbnRpdHk/KSB7CiAgICAgICAgaWYgKHVzZXJFbnRpdHkgIT0gbnVsbCkgewogICAgICAgICAgICAvLyAyLiDnm7TmjqXlrZjlhaXlr7nosaHvvIFEYXRhU3RvcmUg5Lya6Ieq5Yqo6L2sIEpTT04g5bm25YaZ5YWl5paH5Lu2CiAgICAgICAgICAgIERhdGFTdG9yZS5wdXQoImFjdGl2ZWRVc2VyIiwgdXNlckVudGl0eSkKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJ1cGRhdGUgbm93IGFjdGl2ZSB1c2VyOiAkdXNlckVudGl0eSIpCiAgICAgICAgfQogICAgICAgIHZhbCBib2R5ID0gSnNvblV0aWwuZm9ybWF0SnNvbih1c2VyRW50aXR5KQogICAgICAgIEZpbGVzLndyaXRlMkZpbGUoYm9keSwgRmlsZXMuZ2V0U2VsZklkRmlsZSh1c2VyRW50aXR5Py51c2VySWQpISEpCiAgICB9Cn0=
+package fansirsqi.xposed.sesame.util.maps
+
+import com.fasterxml.jackson.core.type.TypeReference
+import fansirsqi.xposed.sesame.entity.UserEntity
+import fansirsqi.xposed.sesame.util.DataStore
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.JsonUtil
+import fansirsqi.xposed.sesame.util.Log
+import java.util.Collections
+import java.util.concurrent.ConcurrentHashMap
+
+/**
+ * 用于管理和操作用户数据的映射关系。
+ * 转换为 Kotlin object 单例模式。
+ */
+object UserMap {
+    private val TAG = UserMap::class.java.simpleName
+
+    // 存储用户信息的线程安全映射
+    // ConcurrentHashMap 不允许 key 或 value 为 null
+    private val userMap = ConcurrentHashMap<String, UserEntity>()
+
+    /**
+     * 当前用户ID
+     * 使用 @JvmStatic 和 @JvmField 保持 Java 互操作性
+     */
+    var currentUid: String? = null
+        private set // 外部只能通过 setCurrentUserId 修改
+
+    /**
+     * 获取只读的用户信息映射
+     */
+    @JvmStatic
+    fun getUserMap(): Map<String, UserEntity> {
+        return Collections.unmodifiableMap(userMap)
+    }
+
+    /**
+     * 获取所有用户ID的集合
+     */
+    @JvmStatic
+    fun getUserIdSet(): Set<String> {
+        return userMap.keys
+    }
+
+    /**
+     * 设置当前用户ID
+     */
+    @JvmStatic
+    @Synchronized
+    fun setCurrentUserId(userId: String?) {
+        currentUid = if (userId.isNullOrEmpty()) null else userId
+    }
+
+    /**
+     * 获取当前用户的掩码名称
+     * 修复：如果 currentUid 为 null，直接返回 null，避免 ConcurrentHashMap 崩溃
+     */
+    @JvmStatic
+    fun getCurrentMaskName(): String? {
+        return getMaskName(currentUid)
+    }
+
+    /**
+     * 获取指定用户的掩码名称
+     * 修复：增加了 userId 判空检查
+     */
+    @JvmStatic
+    fun getMaskName(userId: String?): String? {
+        if (userId == null) {
+            Log.record(TAG, "getMaskName: userId is null")
+            return null
+        } // 关键修复：防止 userMap.get(null) 崩溃
+        return userMap[userId]?.maskName
+    }
+
+    /**
+     * 获取指定用户实体
+     */
+    @JvmStatic
+    fun get(userId: String?): UserEntity? {
+        if (userId == null) return null // 关键修复
+        return userMap[userId]
+    }
+
+    /**
+     * 添加用户到映射
+     */
+    @JvmStatic
+    @Synchronized
+    fun add(userEntity: UserEntity?) {
+        if (userEntity == null) return
+        val uid = userEntity.userId
+        if (!uid.isNullOrEmpty()) {
+            userMap[uid] = userEntity
+        }
+    }
+
+    /**
+     * 从映射中移除指定用户
+     */
+    @JvmStatic
+    @Synchronized
+    fun remove(userId: String?) {
+        if (userId != null) {
+            userMap.remove(userId)
+        }
+    }
+
+    /**
+     * 加载用户数据
+     */
+    @JvmStatic
+    @Synchronized
+    fun load(userId: String?) {
+        userMap.clear()
+        if (userId.isNullOrEmpty()) {
+            Log.error(TAG, "Skip loading user map for empty userId")
+            return
+        }
+        try {
+            val friendIdMapFile = Files.getFriendIdMapFile(userId)
+            if (friendIdMapFile == null) {
+                Log.error(TAG, "Friend ID map file is null for userId: $userId")
+                return
+            }
+            val body = Files.readFromFile(friendIdMapFile)
+            if (body.isNotEmpty()) {
+                // Kotlin 中使用 TypeReference 的方式
+                val dtoMap: Map<String, UserEntity.UserDto>? = JsonUtil.parseObject(
+                    body,
+                    object : TypeReference<Map<String, UserEntity.UserDto>>() {}
+                )
+
+                dtoMap?.values?.forEach { dto ->
+                    // 再次确保 Key 和 Value 不为 null
+                    val uid = dto.userId
+                    val entity = dto.toEntity()
+                    if (!uid.isNullOrEmpty()) {
+                        userMap[uid] = entity
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    /**
+     * 卸载用户数据
+     */
+    @JvmStatic
+    @Synchronized
+    fun unload() {
+        userMap.clear()
+    }
+
+    /**
+     * 保存用户数据到文件
+     */
+    @JvmStatic
+    @Synchronized
+    fun save(userId: String?): Boolean {
+        if (userId.isNullOrEmpty()) return false
+        return Files.write2File(JsonUtil.formatJson(userMap), Files.getFriendIdMapFile(userId)!!)
+    }
+
+    /**
+     * 加载当前用户的数据
+     */
+    @JvmStatic
+    @Synchronized
+    fun loadSelf(userId: String?) {
+        userMap.clear()
+        if (userId.isNullOrEmpty()) return
+
+        try {
+            val body = Files.readFromFile(Files.getSelfIdFile(userId)!!)
+            if (body.isNotEmpty()) {
+                val dto: UserEntity.UserDto? = JsonUtil.parseObject(
+                    body,
+                    object : TypeReference<UserEntity.UserDto>() {}
+                )
+
+                if (dto != null) {
+                    val uid = dto.userId
+                    val entity = dto.toEntity()
+                    if (!uid.isNullOrEmpty()) {
+                        userMap[uid] = entity
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+        }
+    }
+
+    /**
+     * 保存当前用户数据到文件
+     */
+    @JvmStatic
+    @Synchronized
+    fun saveSelf(userEntity: UserEntity?) {
+        if (userEntity != null) {
+            // 2. 直接存入对象！DataStore 会自动转 JSON 并写入文件
+            DataStore.put("activedUser", userEntity)
+            Log.record(TAG, "update now active user: $userEntity")
+        }
+        val body = JsonUtil.formatJson(userEntity)
+        Files.write2File(body, Files.getSelfIdFile(userEntity?.userId)!!)
+    }
+}

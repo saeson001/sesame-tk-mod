@@ -1,1 +1,118 @@
-IyBTZXNhbWUtQUfvvIhUSyDkv67mlLnniYggwrcgMS4wLjDvvIkKCuWfuuS6jiBbd2l0cmVyL1Nlc2FtZS1BRy0yMDI2XShodHRwczovL2dpdGh1Yi5jb20vd2l0cmVyL1Nlc2FtZS1BRy0yMDI2Ke+8iEtvdGxpbiwgdjAuOS4577yJ77yMCuS7jiBg6Iqd6bq757OKIFNWSVAgMi4wLjYuNmAg6YCG5ZCR56e75qSN5LqGIDQg5Liq57y65aSx5Lu75Yqh5qih5Z2X77yM5bm25YGa5LqG5LiA57O75YiX56iz5a6a5oCn5LiO5piT55So5oCn5aKe5by644CCCgo+IOKaoO+4jyDku4XkvpvlrabkuaDnoJTnqbbjgILkvKrpgKDor7fmsYLot5Hku7vliqHov53lj43mlK/ku5jlrp3nlKjmiLfljY/orq7vvIzlrZjlnKjpu5Hlj7fpo47pmanvvIzor7fli7/kvb/nlKjkuLvlipvotKblj7fjgIIKCj4gKirorrjlj6/or4EqKu+8muacrOmhueebruWfuuS6jiBbd2l0cmVyL1Nlc2FtZS1BRy0yMDI2XShodHRwczovL2dpdGh1Yi5jb20vd2l0cmVyL1Nlc2FtZS1BRy0yMDI2Ke+8iCoqQUdQTC0zLjAqKu+8ieS/ruaUue+8jOayv+eUqCBBR1BMLTMuMOOAguato+W8j+adoeasvuingSBbYExJQ0VOU0VgXShMSUNFTlNFKe+8jOeZveivneino+ivu+ingSBbYExFR0FMLm1kYF0oTEVHQUwubWQp77yb5Y+C5LiO6K6o6K666K+355yLIFtgQ09OVFJJQlVUSU5HLm1kYF0oQ09OVFJJQlVUSU5HLm1kKeOAggoKLS0tCgojIyDmnKzmrKHmlLnliqjkuIDop4gKCiMjIyB2MC45Ljkgwrcg56e75qSN5Lu75Yqh77yI5Z+656GA77yJCnwg5paH5Lu2IHwg6K+05piOIHwKfC0tLXwtLS18CnwgYHRhc2svZ2FtZUNlbnRlci9gIHwgKirmuLjmiI/kuK3lv4MqKu+8muetvuWIsCAvIOaJuemHj+aUtuenr+WIhueQgyAvIOS7u+WKoeaKpeWQjeWujOaIkCB8CnwgYHRhc2svc2VzYW1lQ3JlZGl0L2AgfCAqKuiKnem6u+S/oeeUqCoq77ya6aKG5Y+W5L+h55So56ev57SvIC8g5a6J5b+D6LGG562+5YiwIC8g5a6J5b+D6LGG5Lu75YqhIHwKfCBgdGFzay93ZWxmYXJlQ2VudGVyL2AgfCAqKuemj+WIqeS4reW/gyoq77ya572R5ZWG6ZO26KGM56aP5Yip562+5YiwIC8g5aW95a625peg5b+n5Y2h6Kem5Y+RIC8g56ev5YiG5p+l6K+iIHwKfCBgdGFzay9iYWNrdXBTeW5jL2AgfCAqKumFjee9ruWkh+S7veWQjOatpSoq77yaY29uZmlnIOebruW9leaVtOS9k+S4iuS8oCBXZWJEQVbvvIhPa0h0dHDvvIzkuI3otbDmlK/ku5jlrp0gUlBD77yJIHwKfCBgbW9kZWwvTW9kZWxPcmRlci5rdGAgfCDms6jlhozku6XkuIogNCDkuKrmlrDku7vliqEgfAoKIyMjIHYxLjAuMCDCtyDnqLPlrprmgKcgKyDmmJPnlKjmgKcKLSAqKuS/rumXqumAgCoq77ya6buY6K6k6Lez6L+HIGBEZXRlY3Rvci5pbml0RGV0ZWN0b3IoKWDvvIjljp8gYGxpYmNoZWNrZXIuc29gIOeahCBKTkkgU0lHQUJSVCDmoLnlm6DvvInvvIxMU1Bvc2VkIOW8gOWFs+WPr+ato+W4uOWQr+eUqCBUS+OAggotICoq54mI5pys5Y+36KeE6IyDKirvvJrmraPlvI/niYjpgJLlop4gYDEuMC4wIC8gMS4wLjEgLyAxLjEuMCAuLi5g77yM5LiN5YaN5oyCIGAtZml4MSAvIC10b29sMWAg5ZCO57yA77yb5LiA5qyh5oCn5o6S5p+l5YyF5omN55SoIGAtUHZlck5hbWU9MS4wLjAtZGlhZzFg44CCCi0gKirlh7rljIUgQUJJKirvvJrpu5jorqTlj6rmiZMgYGFybTY0LXY4YWDvvIjkuLvmtYHmnLrlnovvvInvvIzpnIDopoEgdW5pdmVyc2FsIOWMheaXtuWKoCBgLVB1bml2ZXJzYWw9dHJ1ZWDjgIIKLSAqKui/kOWKqOatpeaVsCoq77ya5Z+65bqn5bey5Y6f55Sf5pSv5oyB44CM5L+u5pS56L+Q5Yqo5q2l5pWw44CN77yIaG9vayBgUGVkb21ldGVyQWdlbnQucmVhZERhaWx5U3RlcCgpYCDlj5YgbWF4KOecn+Wuniwg6K6+5a6aKSArIGBScGNNYW5hZ2VyLmEoc3RlcCwuLi4pYCDlkIzmraXmnI3liqHnq6/vvInvvIzlvIDnrrHljbPnlKjjgIIKLSAqKuaJi+acuuerr+aKk+WMheWIhuaekCoq77ya5paw5aKe44CM5oqT5YyF5YiG5p6QKOaMkeaOpeWPo+KGkuWvvOWHuinjgI3nlYzpnaLvvIzlj6/lnKjmiYvmnLrkuIrmkJzntKIgUlBD44CB5bGV5byA5qC85byP5YyWIEpTT07jgIHkuIDplK7lr7zlh7ogYHJwY19leHBvcnRfKi50eHRg77yITWVkaWFTdG9yZe+8jOWFjeWtmOWCqOadg+mZkO+8ie+8jOaXoOmcgOi/nueUteiEkeWPluaWh+S7tuOAggotICoq5Yqg5Lu75Yqh5bel5YW3KirvvJpgdG9vbHMvdGtfdG9vbHMucHlg77yIbGlzdCAvIHNob3cgLyBuZXd0YXNrIC8gd2l6YXJk77yJ77yM5LiA5p2h5ZG95Luk55Sf5oiQ5Lu75Yqh57G75bm26Ieq5Yqo5rOo5YaM6L+bIGBNb2RlbE9yZGVyLmt0YOOAggoKLS0tCgojIyDmnoTlu7oKCiMjIyDlh7rljIXnuqblrpoKYGBgYmF0CmNkIFNlc2FtZS1BRwpncmFkbGV3LmJhdCBhc3NlbWJsZURlYnVnICAgICAgICAgICAgICAgICAgOjog6buY6K6k5Y+q5Ye6IGFybTY0LXY4YQpncmFkbGV3LmJhdCBhc3NlbWJsZURlYnVnIC1QdW5pdmVyc2FsPXRydWUgIDo6IOmineWkluWGjeWHuiB1bml2ZXJzYWwg5YyFCmdyYWRsZXcuYmF0IGFzc2VtYmxlRGVidWcgLVB2ZXJOYW1lPTEuMC4wLWRpYWcxICA6OiDkuLTml7bmjpLmn6XljIUKYGBgCuS6p+eJqeWcqCBgYXBwL2J1aWxkL291dHB1dHMvYXBrL2RlYnVnL2DvvIzmlofku7blkI3luKbml7bpl7TmiLPkuI3kvJrkupLnm7jopobnm5bjgIIKCiMjIyDmlrnlvI8gQe+8mkdpdEh1YiBBY3Rpb25z77yI5o6o6I2Q77yM5peg6ZyA5pys5Zyw546v5aKD77yJCjEuIEZvcmsgLyDlhYvpmobmnKzpobnnm67vvJsKMi4g5LuT5bqTIEFjdGlvbnMg6aG16YCJ5oupICJCdWlsZCBTZXNhbWUtQUciIOKGkiBgd29ya2Zsb3dfZGlzcGF0Y2hgIOaJi+WKqOinpuWPke+8mwozLiDlrozmiJDlkI7ku47or6XmrKEgcnVuIOeahCBhcnRpZmFjdHMg5LiL6L29IEFQS+OAggoK77yISkRLIDE3ICsgQW5kcm9pZCAzNiDlt7LnlLEgYC5naXRodWIvd29ya2Zsb3dzL2J1aWxkLnltbGAg6YWN5aW977yJCgojIyMg5pa55byPIELvvJrmnKzlnLDlkb3ku6TooYzvvIhXaW5kb3dzIOWunua1i+mAmui/h++8iQpgYGBiYXQKOjog5YmN572u77yaSkRLIDE3KyDkuI4gQW5kcm9pZCBTREsocGxhdGZvcm0gMzYgLyBidWlsZC10b29scyAzNikKOjogMSkgZ3JhZGxlIOWPkeihjOWMheW3suaUueiFvuiur+mVnOWDj++8iGdyYWRsZS93cmFwcGVyL2dyYWRsZS13cmFwcGVyLnByb3BlcnRpZXPvvIkKOjogMikgbG9jYWwucHJvcGVydGllcyDmjIflkJHkvaDnmoQgU0RL77yI5pys5LuT5bqT5beyIC5naXRpZ25vcmXvvIzpnIDoh6rooYzliJvlu7rvvInvvJoKOjogICAgc2RrLmRpcj1DOlxccGF0aFxcdG9cXEFuZHJvaWRcXFNkawpzZXQgSkFWQV9IT01FPTzkvaDnmoRKREsxNyvot6/lvoQ+CmdyYWRsZXcuYmF0IGFzc2VtYmxlRGVidWcgLS1jb25zb2xlPXBsYWluCmBgYAoKPiDoi6XmupDnoIHmmK/ku44gemlwIOino+WMhe+8iOaXoCBgLmdpdGDvvInvvIxgYXBwL2J1aWxkLmdyYWRsZS5rdHNgIOWPliBgZ2l0IHJldi1saXN0IC0tY291bnQgSEVBRGAKPiDmsYIgdmVyc2lvbkNvZGUg5Lya5aSx6LSl77yM5pys6aG555uu5bey5YqgIGBpc0lnbm9yZUV4aXRWYWx1ZSA9IHRydWVgIOWFnOW6leS4uiAx77yM5Y+v55u05o6l5p6E5bu644CCCgotLS0KCiMjIOWuieijheS9v+eUqAoxLiDlronoo4UgQVBL77yMTFNQb3NlZCDkuK3lkK/nlKjmqKHlnZfvvJsKMi4g5Yu+6YCJ5L2c55So5Z+f77yaKirmlK/ku5jlrp0qKu+8mwozLiDph43lkK/mlK/ku5jlrp3vvIjmiJbph43lkK/miYvmnLrvvInvvJsKNC4g5omT5byA5qih5Z2X55WM6Z2iIOKGkiDku7vliqHliJfooagg4oaSIOW8gOWQr+OAjOa4uOaIj+S4reW/g+OAjeOAjOiKnem6u+S/oeeUqOOAjeOAjOemj+WIqeS4reW/g+OAjeOAjOmFjee9ruWkh+S7veWQjOatpeOAjeetieaWsOaooeWdl+W8gOWFs++8jOaMiemcgOiwg+aVtOWtkOW8gOWFs+OAggoKLS0tCgojIyDmipPljIUgLyDliqDku7vliqHlvIDlj5HmtYHnqIsKClRLIOazqOWFpeaUr+S7mOWuneWQjuaJgOaciSBSUEMg6K+35rGCL+WTjeW6lOWunuaXtuWGmeWFpe+8iOS4jemcgOimgeW8gOWFs++8jOaUr+S7mOWuneWQr+WKqOWNs+iusOW9le+8ie+8mgpgYGAKL3NkY2FyZC9BbmRyb2lkL21lZGlhL2NvbS5lZy5hbmRyb2lkLkFsaXBheUdwaG9uZS9zZXNhbWUtVEsvbG9nL3JwY19jYXAudHh0CmBgYAoKKirpppbpgInvvIjmiYvmnLrkuIrnm7TmjqXnnIsgKyDlr7zlh7rvvIkqKu+8mlRLIOKGkiDorr7nva7pobUg4oaS44CM5oqT5YyF5YiG5p6QKOaMkeaOpeWPo+KGkuWvvOWHuinjgI0K4oaSIOaQnOe0ouaOpeWPoyDihpIg5bGV5byA55yL5qC85byP5YyWIEpTT04g4oaSIOWvvOWHuuWIsCBg5LiL6L29L3Nlc2FtZS1USy1ycGMvcnBjX2V4cG9ydF8qLnR4dGDvvIjlj6/nm7TmjqXliIbkuqvnu5nnlLXohJHvvInjgIIKCioq55S16ISR5L6n5YiG5p6QIC8g5LiA6ZSu5Yqg5Lu75YqhKirvvIhgdG9vbHMvdGtfdG9vbHMucHlg77yJ77yaCmBgYGJhdApweXRob24gdGtfdG9vbHMucHkgbGlzdCAgIHJwY19leHBvcnRfYWxsLnR4dCAgICAgICAgICA6OiDliJflh7rmiYDmnIkgUlBDIOaWueazleS4juasoeaVsApweXRob24gdGtfdG9vbHMucHkgc2hvdyAgIHJwY19leHBvcnRfYWxsLnR4dCBxdWVyeVh4eCAgOjog55yL5p+Q5p2h6K+35rGCL+WTjeW6lOWOn+aWhwpweXRob24gdGtfdG9vbHMucHkgbmV3dGFzayBNeVRhc2sg5Lit5paH5ZCNIC0tcnBjIGNvbS54eHgucXVlcnkgLS1wYXJhbXMgIlt7Li4ufV0iICA6OiDnlJ/miJDlubbms6jlhozku7vliqEKYGBgCueUn+aIkOWQjuWbnuWIsOacrOS7k+W6kyBgZ3JhZGxldy5iYXQgYXNzZW1ibGVEZWJ1Z2Ag57yW6K+R5Y2z5Y+v5Zyo55WM6Z2i55yL5Yiw5paw5byA5YWz44CCCuivpuingSBgdG9vbHMv5L2/55So6K+05piOLm1kYOOAggoKLS0tCgojIyDkuI7ljp/niYjoip3purvns4ogU1ZJUCDnmoTlr7nlupTlhbPns7sKfCDoip3purvns4ogU1ZJUCDku7vliqEgfCDmnKzpobnnm67nirbmgIEgfAp8LS0tfC0tLXwKfCDomoLomoHmo67mnpcgLyDluoTlm60gLyDmtbfmtIsgLyDmlrDmnZEgLyDnpZ7lpYfniannp40gLyDlkIjnp40gLyDkvJrlkZggLyDlhpzlnLogLyDov5DliqggLyDlj6TmoJEgLyDnu7/oibLnu4/okKUgLyDkv53miqTlnLAgfCDinIUg5Y6f55Sf5bey5pyJIHwKfCDop4bpopHnuqLljIUgLyBBSSDnrZTpopggLyDlhbbku5bku7vliqEgfCDinIUg5Y6f55Sf5bey5pyJIHwKfCAqKua4uOaIj+S4reW/gyAvIOiKnem6u+S/oeeUqCAvIOemj+WIqeS4reW/gyoqIHwg4pyFIOacrOasoeenu+akjSB8CnwgKirphY3nva7lpIfku70oV2ViREFWKSoqIHwg4pyFIOacrOasoeenu+akje+8iOeyvueugOeJiO+8muaVtOebruW9leS4iuS8oC/mgaLlpI3vvIkgfAp8IOWNoeWvhueZu+W9lSB8IOKdjCDmnInmhI/ljrvmjonvvIjmlLbotLnngrnvvIkgfAoKLS0tCgojIyDnm67lvZXpgJ/mn6UKYGBgCmFwcC9zcmMvbWFpbi9qYXZhL2ZhbnNpcnNxaS94cG9zZWQvc2VzYW1lLwrilJzilIDilIAgaG9vay8K4pSCICAg4pSc4pSA4pSAIEFwcGxpY2F0aW9uSG9vay5rdCAgICAgICAgICAjIFhwb3NlZCDms6jlhaXlhaXlj6MK4pSCICAg4pSc4pSA4pSAIFJlcXVlc3RNYW5hZ2VyLmt0ICAgICAgICAgICAjIFJQQyDor7fmsYLnrqHnkIbvvIjnhpTmlq0v6YeN6K+V77yJCuKUgiAgIOKUnOKUgOKUgCBpbnRlcm5hbC9ScGNDYXB0dXJlSGVscGVyLmt0IyDoh6rliqjmipPljIUK4pSCICAg4pSU4pSA4pSAIHJwYy9icmlkZ2UvICAgICAgICAgICAgICAgICAjIE5ld1JwY0JyaWRnZS9PbGRScGNCcmlkZ2UK4pSc4pSA4pSAIG1vZGVsL01vZGVsT3JkZXIua3QgICAgICAgICAgICAgIyDimIUg5Lu75Yqh5rOo5YaM6KGoCuKUnOKUgOKUgCB0YXNrLyAgICAgICAgICAgICAgICAgICAgICAgICAgICMg4piFIOaJgOacieS7u+WKoeaooeWdlwrilJzilIDilIAgdWkvICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIOKYhSDmiYvmnLrnq6/nlYzpnaLvvIjlkKvmipPljIXliIbmnpDvvIkK4pSU4pSA4pSAIHV0aWwvICAgICAgICAgICAgICAgICAgICAgICAgICAgIyDlt6XlhbfnsbsKYGBgCg==
+# Sesame-AG（TK 修改版 · 1.0.0）
+
+基于 [witrer/Sesame-AG-2026](https://github.com/witrer/Sesame-AG-2026)（Kotlin, v0.9.9），
+从 `芝麻糊 SVIP 2.0.6.6` 逆向移植了 4 个缺失任务模块，并做了一系列稳定性与易用性增强。
+
+> ⚠️ 仅供学习研究。伪造请求跑任务违反支付宝用户协议，存在黑号风险，请勿使用主力账号。
+
+> **许可证**：本项目基于 [witrer/Sesame-AG-2026](https://github.com/witrer/Sesame-AG-2026)（**AGPL-3.0**）修改，沿用 AGPL-3.0。正式条款见 [`LICENSE`](LICENSE)，白话解读见 [`LEGAL.md`](LEGAL.md)；参与讨论请看 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
+
+---
+
+## 本次改动一览
+
+### v0.9.9 · 移植任务（基础）
+| 文件 | 说明 |
+|---|---|
+| `task/gameCenter/` | **游戏中心**：签到 / 批量收积分球 / 任务报名完成 |
+| `task/sesameCredit/` | **芝麻信用**：领取信用积累 / 安心豆签到 / 安心豆任务 |
+| `task/welfareCenter/` | **福利中心**：网商银行福利签到 / 好家无忧卡触发 / 积分查询 |
+| `task/backupSync/` | **配置备份同步**：config 目录整体上传 WebDAV（OkHttp，不走支付宝 RPC） |
+| `model/ModelOrder.kt` | 注册以上 4 个新任务 |
+
+### v1.0.0 · 稳定性 + 易用性
+- **修闪退**：默认跳过 `Detector.initDetector()`（原 `libchecker.so` 的 JNI SIGABRT 根因），LSPosed 开关可正常启用 TK。
+- **版本号规范**：正式版递增 `1.0.0 / 1.0.1 / 1.1.0 ...`，不再挂 `-fix1 / -tool1` 后缀；一次性排查包才用 `-PverName=1.0.0-diag1`。
+- **出包 ABI**：默认只打 `arm64-v8a`（主流机型），需要 universal 包时加 `-Puniversal=true`。
+- **运动步数**：基座已原生支持「修改运动步数」（hook `PedometerAgent.readDailyStep()` 取 max(真实, 设定) + `RpcManager.a(step,...)` 同步服务端），开箱即用。
+- **手机端抓包分析**：新增「抓包分析(挑接口→导出)」界面，可在手机上搜索 RPC、展开格式化 JSON、一键导出 `rpc_export_*.txt`（MediaStore，免存储权限），无需连电脑取文件。
+- **加任务工具**：`tools/tk_tools.py`（list / show / newtask / wizard），一条命令生成任务类并自动注册进 `ModelOrder.kt`。
+
+---
+
+## 构建
+
+### 出包约定
+```bat
+cd Sesame-AG
+gradlew.bat assembleDebug                  :: 默认只出 arm64-v8a
+gradlew.bat assembleDebug -Puniversal=true  :: 额外再出 universal 包
+gradlew.bat assembleDebug -PverName=1.0.0-diag1  :: 临时排查包
+```
+产物在 `app/build/outputs/apk/debug/`，文件名带时间戳不会互相覆盖。
+
+### 方式 A：GitHub Actions（推荐，无需本地环境）
+1. Fork / 克隆本项目；
+2. 仓库 Actions 页选择 "Build Sesame-AG" → `workflow_dispatch` 手动触发；
+3. 完成后从该次 run 的 artifacts 下载 APK。
+
+（JDK 17 + Android 36 已由 `.github/workflows/build.yml` 配好）
+
+### 方式 B：本地命令行（Windows 实测通过）
+```bat
+:: 前置：JDK 17+ 与 Android SDK(platform 36 / build-tools 36)
+:: 1) gradle 发行包已改腾讯镜像（gradle/wrapper/gradle-wrapper.properties）
+:: 2) local.properties 指向你的 SDK（本仓库已 .gitignore，需自行创建）：
+::    sdk.dir=C:\\path\\to\\Android\\Sdk
+set JAVA_HOME=<你的JDK17+路径>
+gradlew.bat assembleDebug --console=plain
+```
+
+> 若源码是从 zip 解包（无 `.git`），`app/build.gradle.kts` 取 `git rev-list --count HEAD`
+> 求 versionCode 会失败，本项目已加 `isIgnoreExitValue = true` 兜底为 1，可直接构建。
+
+---
+
+## 安装使用
+1. 安装 APK，LSPosed 中启用模块；
+2. 勾选作用域：**支付宝**；
+3. 重启支付宝（或重启手机）；
+4. 打开模块界面 → 任务列表 → 开启「游戏中心」「芝麻信用」「福利中心」「配置备份同步」等新模块开关，按需调整子开关。
+
+---
+
+## 抓包 / 加任务开发流程
+
+TK 注入支付宝后所有 RPC 请求/响应实时写入（不需要开关，支付宝启动即记录）：
+```
+/sdcard/Android/media/com.eg.android.AlipayGphone/sesame-TK/log/rpc_cap.txt
+```
+
+**首选（手机上直接看 + 导出）**：TK → 设置页 →「抓包分析(挑接口→导出)」
+→ 搜索接口 → 展开看格式化 JSON → 导出到 `下载/sesame-TK-rpc/rpc_export_*.txt`（可直接分享给电脑）。
+
+**电脑侧分析 / 一键加任务**（`tools/tk_tools.py`）：
+```bat
+python tk_tools.py list   rpc_export_all.txt          :: 列出所有 RPC 方法与次数
+python tk_tools.py show   rpc_export_all.txt queryXxx  :: 看某条请求/响应原文
+python tk_tools.py newtask MyTask 中文名 --rpc com.xxx.query --params "[{...}]"  :: 生成并注册任务
+```
+生成后回到本仓库 `gradlew.bat assembleDebug` 编译即可在界面看到新开关。
+详见 `tools/使用说明.md`。
+
+---
+
+## 与原版芝麻糊 SVIP 的对应关系
+| 芝麻糊 SVIP 任务 | 本项目状态 |
+|---|---|
+| 蚂蚁森林 / 庄园 / 海洋 / 新村 / 神奇物种 / 合种 / 会员 / 农场 / 运动 / 古树 / 绿色经营 / 保护地 | ✅ 原生已有 |
+| 视频红包 / AI 答题 / 其他任务 | ✅ 原生已有 |
+| **游戏中心 / 芝麻信用 / 福利中心** | ✅ 本次移植 |
+| **配置备份(WebDAV)** | ✅ 本次移植（精简版：整目录上传/恢复） |
+| 卡密登录 | ❌ 有意去掉（收费点） |
+
+---
+
+## 目录速查
+```
+app/src/main/java/fansirsqi/xposed/sesame/
+├── hook/
+│   ├── ApplicationHook.kt          # Xposed 注入入口
+│   ├── RequestManager.kt           # RPC 请求管理（熔断/重试）
+│   ├── internal/RpcCaptureHelper.kt# 自动抓包
+│   └── rpc/bridge/                 # NewRpcBridge/OldRpcBridge
+├── model/ModelOrder.kt             # ★ 任务注册表
+├── task/                           # ★ 所有任务模块
+├── ui/                             # ★ 手机端界面（含抓包分析）
+└── util/                           # 工具类
+```

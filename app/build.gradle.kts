@@ -1,1 +1,233 @@
-aW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQppbXBvcnQgamF2YS51dGlsLlRpbWVab25lCgpwbHVnaW5zIHsKICAgIGFsaWFzKGxpYnMucGx1Z2lucy5hbmRyb2lkLmFwcGxpY2F0aW9uKQogICAgYWxpYXMobGlicy5wbHVnaW5zLmtvdGxpbi5hbmRyb2lkKQogICAgYWxpYXMobGlicy5wbHVnaW5zLmtvdGxpbi5jb21wb3NlKQogICAgYWxpYXMobGlicy5wbHVnaW5zLnJpa2thLnRvb2xzLnJlZmluZSkKfQp2YXIgaXNDSUJ1aWxkOiBCb29sZWFuID0gU3lzdGVtLmdldGVudigiQ0kiKS50b0Jvb2xlYW4oKQoKLy8g5Ye65YyFIEFCSSDnuqblrprvvJrpu5jorqTlj6rmiZMgYXJtNjQtdjhh77yI5omL5py66YO95pivIDY0IOS9je+8jOWMheS5n+acgOWwj++8iQovLyDpnIDopoEgdW5pdmVyc2FsIOWMheaXtuaYvuW8j+aMh+Wumu+8mmdyYWRsZXcgYXNzZW1ibGVEZWJ1ZyAtUHVuaXZlcnNhbD10cnVlCnZhbCB3YW50VW5pdmVyc2FsQXBrOiBCb29sZWFuID0KICAgIChwcm9qZWN0LmZpbmRQcm9wZXJ0eSgidW5pdmVyc2FsIikgYXMgU3RyaW5nPyk/LnRyaW0oKT8uZXF1YWxzKCJ0cnVlIiwgaWdub3JlQ2FzZSA9IHRydWUpID86IGZhbHNlCgovL2lzQ0lCdWlsZCA9IHRydWUgLy8g5rKh5pyJYysr5rqQ56CB5pe25byA5ZCvQ0nmnoTlu7osIHB1c2jliY3lhbPpl60KCmFuZHJvaWQgewogICAgbmFtZXNwYWNlID0gImZhbnNpcnNxaS54cG9zZWQuc2VzYW1lIgogICAgY29tcGlsZVNkayA9IDM2CiAgICBwYWNrYWdpbmcgewogICAgICAgIGpuaUxpYnMgewogICAgICAgICAgICB1c2VMZWdhY3lQYWNrYWdpbmcgPSB0cnVlCiAgICAgICAgfQogICAgICAgIHNwbGl0cyB7CiAgICAgICAgICAgIGFiaSB7CiAgICAgICAgICAgICAgICBpc0VuYWJsZSA9IHRydWUKICAgICAgICAgICAgICAgIHJlc2V0KCkKICAgICAgICAgICAgICAgIGluY2x1ZGUoImFybTY0LXY4YSIpCiAgICAgICAgICAgICAgICBpc1VuaXZlcnNhbEFwayA9IHdhbnRVbml2ZXJzYWxBcGsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICB9CiAgICAvLyDkvb/nlKhwcm92aWRlcnMgQVBJ5p2l5pSv5oyB6YWN572u57yT5a2YCiAgICB2YWwgZ2l0Q29tbWl0Q291bnQ6IEludCA9IHByb3ZpZGVycy5leGVjIHsKICAgICAgICBjb21tYW5kTGluZSgiZ2l0IiwgInJldi1saXN0IiwgIi0tY291bnQiLCAiSEVBRCIpCiAgICAgICAgLy8g5LuOIHppcCDop6PljIXmnoTlu7rml7bmsqHmnIkgLmdpdO+8jOW/veeVpeWksei0peWbnumAgOS4uiAxCiAgICAgICAgaXNJZ25vcmVFeGl0VmFsdWUgPSB0cnVlCiAgICB9LnN0YW5kYXJkT3V0cHV0LmFzVGV4dC5nZXQoKS50cmltKCkudG9JbnRPck51bGwoKSA/OiAxCiAgICBkZWZhdWx0Q29uZmlnIHsKICAgICAgICB2ZWN0b3JEcmF3YWJsZXMudXNlU3VwcG9ydExpYnJhcnkgPSB0cnVlCiAgICAgICAgYXBwbGljYXRpb25JZCA9ICJmYW5zaXJzcWkueHBvc2VkLnNlc2FtZSIKICAgICAgICBtaW5TZGsgPSAyNgogICAgICAgIHRhcmdldFNkayA9IDM2CgogICAgICAgIHZhbCBidWlsZERhdGUgPSBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5LU1NLWRkIiwgTG9jYWxlLkNISU5BKS5hcHBseSB7CiAgICAgICAgICAgIHRpbWVab25lID0gVGltZVpvbmUuZ2V0VGltZVpvbmUoIkdNVCs4IikKICAgICAgICB9LmZvcm1hdChEYXRlKCkpCgogICAgICAgIHZhbCBidWlsZFRpbWUgPSBTaW1wbGVEYXRlRm9ybWF0KCJISDptbTpzcyIsIExvY2FsZS5DSElOQSkuYXBwbHkgewogICAgICAgICAgICB0aW1lWm9uZSA9IFRpbWVab25lLmdldFRpbWVab25lKCJHTVQrOCIpCiAgICAgICAgfS5mb3JtYXQoRGF0ZSgpKQoKICAgICAgICAvLyDniYjmnKzlj7fnuqblrprvvJoKICAgICAgICAvLyAgIOato+W8j+eJiCAgPSAxLjAuMCAvIDEuMC4xIC8gMS4xLjAgLi4u77yI5omL5py644CM54mI5pys44CN6YeM55yL5Yiw55qE5bCx5piv6L+Z5Liq77yJCiAgICAgICAgLy8gICDkuLTml7bljIUgID0gZ3JhZGxldyBhc3NlbWJsZURlYnVnIC1QdmVyTmFtZT0xLjAuMC1kaWFnMQogICAgICAgIC8vIOazqOaEj++8muS4jeimgeWGjeW+gOato+W8j+eJiOacrOWPt+WQjumdouWKoCAtZml4MSAvIC10b29sMSDkuYvnsbvnmoTlkI7nvIDvvIwKICAgICAgICAvLyAgICAgIOmCo+S6m+WPqueUqOS6juS4gOasoeaAp+eahOaOkuafpeWMhe+8jOeUqOWujOWNs+W8g+OAggogICAgICAgIHZhbCBjdXN0b21WZXJOYW1lID0gKHByb2plY3QuZmluZFByb3BlcnR5KCJ2ZXJOYW1lIikgYXMgU3RyaW5nPyk/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICB2YWwgdmVyQ29kZUZsYWcgPSAocHJvamVjdC5maW5kUHJvcGVydHkoInZlckNvZGUiKSBhcyBTdHJpbmc/KT8udHJpbSgpCgogICAgICAgIHZlcnNpb25Db2RlID0gdmVyQ29kZUZsYWc/LnRvSW50T3JOdWxsKCkgPzogZ2l0Q29tbWl0Q291bnQKICAgICAgICB2ZXJzaW9uTmFtZSA9IGlmIChjdXN0b21WZXJOYW1lLmlzRW1wdHkoKSkgIjEuMC4wIiBlbHNlIGN1c3RvbVZlck5hbWUKCiAgICAgICAgYnVpbGRDb25maWdGaWVsZCgiU3RyaW5nIiwgIkJVSUxEX0RBVEUiLCAiXCIkYnVpbGREYXRlXCIiKQogICAgICAgIGJ1aWxkQ29uZmlnRmllbGQoIlN0cmluZyIsICJCVUlMRF9USU1FIiwgIlwiJGJ1aWxkVGltZVwiIikKICAgICAgICBpZiAoaXNDSUJ1aWxkKSB7CiAgICAgICAgICAgIG5kayB7CiAgICAgICAgICAgICAgICBhYmlGaWx0ZXJzLmFkZEFsbChsaXN0T2YoImFybTY0LXY4YSIpKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0ZXN0T3B0aW9ucyB7CiAgICAgICAgICAgIHVuaXRUZXN0cy5hbGwgewogICAgICAgICAgICAgICAgaXQuZW5hYmxlZCA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgoKCiAgICBidWlsZEZlYXR1cmVzIHsKICAgICAgICB2aWV3QmluZGluZyA9IHRydWUKICAgICAgICBidWlsZENvbmZpZyA9IHRydWUKICAgICAgICBjb21wb3NlID0gdHJ1ZQogICAgICAgIGFpZGwgPSBmYWxzZQogICAgfQoKICAgIGNvbXBpbGVPcHRpb25zIHsKICAgICAgICBpc0NvcmVMaWJyYXJ5RGVzdWdhcmluZ0VuYWJsZWQgPSBmYWxzZS8v5YWz6Zet6ISx57OWCiAgICAgICAgc291cmNlQ29tcGF0aWJpbGl0eSA9IEphdmFWZXJzaW9uLlZFUlNJT05fMTcKICAgICAgICB0YXJnZXRDb21wYXRpYmlsaXR5ID0gSmF2YVZlcnNpb24uVkVSU0lPTl8xNwogICAgfQogICAga290bGluIHsKICAgICAgICBjb21waWxlck9wdGlvbnMgewogICAgICAgICAgICBqdm1UYXJnZXQgPSBvcmcuamV0YnJhaW5zLmtvdGxpbi5ncmFkbGUuZHNsLkp2bVRhcmdldC5KVk1fMTcKICAgICAgICB9CiAgICB9CgogICAgc2lnbmluZ0NvbmZpZ3MgewogICAgICAgIGdldEJ5TmFtZSgiZGVidWciKSB7CiAgICAgICAgfQogICAgfQoKICAgIGJ1aWxkVHlwZXMgewogICAgICAgIGdldEJ5TmFtZSgiZGVidWciKSB7CiAgICAgICAgICAgIGlzRGVidWdnYWJsZSA9IHRydWUKICAgICAgICAgICAgdmVyc2lvbk5hbWVTdWZmaXggPSAiLWRlYnVnIgogICAgICAgICAgICBpc1Nocmlua1Jlc291cmNlcyA9IGZhbHNlCiAgICAgICAgICAgIGlzTWluaWZ5RW5hYmxlZCA9IGZhbHNlCiAgICAgICAgICAgIHByb2d1YXJkRmlsZXMoZ2V0RGVmYXVsdFByb2d1YXJkRmlsZSgicHJvZ3VhcmQtYW5kcm9pZC1vcHRpbWl6ZS50eHQiKSwgInByb2d1YXJkLXJ1bGVzLnBybyIpCiAgICAgICAgICAgIHNpZ25pbmdDb25maWcgPSBzaWduaW5nQ29uZmlncy5nZXRCeU5hbWUoImRlYnVnIikKICAgICAgICB9CiAgICAgICAgZ2V0QnlOYW1lKCJyZWxlYXNlIikgewogICAgICAgICAgICBpc0RlYnVnZ2FibGUgPSBmYWxzZQogICAgICAgICAgICBpc01pbmlmeUVuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgIGlzU2hyaW5rUmVzb3VyY2VzID0gdHJ1ZQogICAgICAgICAgICBwcm9ndWFyZEZpbGVzKGdldERlZmF1bHRQcm9ndWFyZEZpbGUoInByb2d1YXJkLWFuZHJvaWQtb3B0aW1pemUudHh0IiksICJwcm9ndWFyZC1ydWxlcy5wcm8iKQogICAgICAgICAgICBzaWduaW5nQ29uZmlnID0gc2lnbmluZ0NvbmZpZ3MuZ2V0QnlOYW1lKCJkZWJ1ZyIpCiAgICAgICAgfQogICAgfQoKICAgIHNvdXJjZVNldHMgewogICAgICAgIGdldEJ5TmFtZSgibWFpbiIpIHsKICAgICAgICAgICAgam5pTGlicy5zcmNEaXJzKCJzcmMvbWFpbi9qbmlMaWJzIikKICAgICAgICB9CiAgICB9CiAgICB2YWwgY21ha2VGaWxlID0gZmlsZSgic3JjL21haW4vY3BwL0NNYWtlTGlzdHMudHh0IikKICAgIGlmICghaXNDSUJ1aWxkICYmIGNtYWtlRmlsZS5leGlzdHMoKSkgewogICAgICAgIGV4dGVybmFsTmF0aXZlQnVpbGQgewogICAgICAgICAgICBjbWFrZSB7CiAgICAgICAgICAgICAgICBwYXRoID0gY21ha2VGaWxlCi8vICAgICAgICAgICAgICAgIHZlcnNpb24gPSAiNC4xLjIiICAvL+S4jeimgemaj+aEj+aUuei/meS4quS6huetlOW6lOaIkQogICAgICAgICAgICAgICAgbmRrVmVyc2lvbiA9ICIyOS4wLjE0MjA2ODY1IiAvL+i/meS4quS5n+aYryDnrZTlupTmiJHlsLHov5nmoLflkKcKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBhcHBsaWNhdGlvblZhcmlhbnRzLmFsbCB7CiAgICAgICAgdmFsIHZhcmlhbnQgPSB0aGlzCiAgICAgICAgdmFyaWFudC5vdXRwdXRzLmFsbCB7CiAgICAgICAgICAgIHZhbCBvdXRwdXQgPSB0aGlzCiAgICAgICAgICAgIHZhbCBhYmlOYW1lID0gb3V0cHV0LmZpbHRlcnMuZmluZCB7IGl0LmZpbHRlclR5cGUgPT0gIkFCSSIgfT8uaWRlbnRpZmllciA/OiAidW5pdmVyc2FsIgogICAgICAgICAgICAvLyDmlofku7blkI3luKbmnoTlu7rml7bpl7TmiLPvvIzkv53or4Hmr4/mrKHkuqfniankuI3kvJrooqvkuIvkuIDmrKHnvJbor5Hopobnm5YKICAgICAgICAgICAgdmFsIHN0YW1wID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eU1NZGQtSEhtbSIsIExvY2FsZS5DSElOQSkuYXBwbHkgewogICAgICAgICAgICAgICAgdGltZVpvbmUgPSBUaW1lWm9uZS5nZXRUaW1lWm9uZSgiR01UKzgiKQogICAgICAgICAgICB9LmZvcm1hdChEYXRlKCkpCiAgICAgICAgICAgIHZhbCBmaWxlTmFtZSA9ICJTZXNhbWUtVEstJHthYmlOYW1lfS0ke3ZhcmlhbnQudmVyc2lvbk5hbWV9LSR7c3RhbXB9LmFwayIKICAgICAgICAgICAgKG91dHB1dCBhcyBjb20uYW5kcm9pZC5idWlsZC5ncmFkbGUuaW50ZXJuYWwuYXBpLkJhc2VWYXJpYW50T3V0cHV0SW1wbCkub3V0cHV0RmlsZU5hbWUgPSBmaWxlTmFtZQogICAgICAgIH0KICAgIH0KfQoKZGVwZW5kZW5jaWVzIHsKICAgIC8vIFNoaXp1a3Ug55u45YWz5L6d6LWWIC0g55So5LqO6I635Y+W57O757uf57qn5p2D6ZmQCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLnJpa2thLnNoaXp1a3UuYXBpKSAgICAgICAgLy8gU2hpenVrdSBBUEkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMucmlra2Euc2hpenVrdS5wcm92aWRlcikgICAvLyBTaGl6dWt1IOaPkOS+m+iAhQogICAgaW1wbGVtZW50YXRpb24obGlicy5yaWtrYS5yZWZpbmUpICAgICAgICAgICAgIC8vIFJpa2thIOWPjeWwhOW3peWFtwovLyAgICBpbXBsZW1lbnRhdGlvbihsaWJzLnJpa2thLmhpZGRlbi5zdHViKQogICAgLy8gaW1wbGVtZW50YXRpb24obGlicy51aS50b29saW5nLnByZXZpZXcuYW5kcm9pZCkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuY21kLmFuZHJvaWQpCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LnVpLnRleHQuZ29vZ2xlLmZvbnRzKQogICAgaW1wbGVtZW50YXRpb24obGlicy5tYXRlcmlhbDMpIC8vIOeUqOS6jumAmui/hyBTaGl6dWt1IOaJp+ihjOWRveS7pAoKICAgIC8vIENvbXBvc2Ug55u45YWz5L6d6LWWIC0g546w5Luj5YyWIFVJIOahhuaetgogICAgdmFsIGNvbXBvc2VCb20gPSBwbGF0Zm9ybSgiYW5kcm9pZHguY29tcG9zZTpjb21wb3NlLWJvbToyMDI1LjEyLjAwIikgIC8vIENvbXBvc2UgQk9NIOeJiOacrOeuoeeQhgogICAgaW1wbGVtZW50YXRpb24oY29tcG9zZUJvbSkKCiAgICB0ZXN0SW1wbGVtZW50YXRpb24oY29tcG9zZUJvbSkKICAgIGFuZHJvaWRUZXN0SW1wbGVtZW50YXRpb24oY29tcG9zZUJvbSkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHgubWF0ZXJpYWwzKSAgICAgICAgICAgICAgICAvLyBNYXRlcmlhbCAzIOiuvuiuoee7hOS7tgogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC51aS50b29saW5nLnByZXZpZXcpICAgICAgICAgICAgICAvLyBVSSDlt6XlhbfpooTop4gKICAgIGRlYnVnSW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC51aS50b29saW5nKSAgICAgICAgICAgICAgICAgLy8g6LCD6K+V5pe255qEIFVJIOW3peWFtwogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5tYXRlcmlhbC5pY29ucy5leHRlbmRlZCkgICAgICAgICAvLyBNYXRlcmlhbCAzIOWbvuaghwoKICAgIC8vIOeUn+WRveWRqOacn+WSjOaVsOaNrue7keWumgogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5saWZlY3ljbGUudmlld21vZGVsLmNvbXBvc2UpIC8vIENvbXBvc2UgVmlld01vZGVsIOaUr+aMgQoKICAgIC8vIEpTT04g5bqP5YiX5YyWCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uKSAvLyBLb3RsaW4gSlNPTiDluo/liJfljJblupMKCiAgICAvLyBLb3RsaW4g5Y2P56iL5L6d6LWWIC0g5byC5q2l57yW56iL77yI57qv5Y2P56iL6LCD5bqm77yJCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmtvdGxpbnguY29yb3V0aW5lcy5jb3JlKSAgICAgLy8g5Y2P56iL5qC45b+D5bqTCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmtvdGxpbnguY29yb3V0aW5lcy5hbmRyb2lkKSAgLy8gQW5kcm9pZCDljY/nqIvmlK/mjIEKCiAgICAvLyDmlbDmja7op4Llr5/lkowgSFRUUCDmnI3liqEKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHgubGlmZWN5Y2xlLmxpdmVkYXRhLmt0eCkgIC8vIExpdmVEYXRhIEtUWCDmianlsZUKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHgucnVudGltZS5saXZlZGF0YSkgICAgICAgIC8vIENvbXBvc2UgTGl2ZURhdGEg6L+Q6KGM5pe2CiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLm5hbm9odHRwZCkgICAgICAgICAgICAgICAgICAgLy8g6L276YeP57qnIEhUVFAg5pyN5Yqh5ZmoCgogICAgLy8gVUkg5biD5bGA5ZKM57uE5Lu2CiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNvbnN0cmFpbnRsYXlvdXQpICAvLyDnuqbmnZ/luIPlsYAKCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFjdGl2aXR5LmNvbXBvc2UpICAgICAgICAgICAvLyBDb21wb3NlIEFjdGl2aXR5IOaUr+aMgQoKICAgIC8vIEFuZHJvaWQg5qC45b+D5bqTCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmNvcmUua3R4KSAgICAgICAgICAgICAgICAgICAvLyBBbmRyb2lkIEtUWCDmoLjlv4PmianlsZUKICAgIGltcGxlbWVudGF0aW9uKGxpYnMua290bGluLnN0ZGxpYikgICAgICAgICAgICAgIC8vIEtvdGxpbiDmoIflh4blupMKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuc2xmNGouYXBpKSAgICAgICAgICAgICAgICAgIC8vIFNMRjRKIOaXpeW/lyBBUEkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMubG9nYmFjay5hbmRyb2lkKSAgICAgICAgICAgIC8vIExvZ2JhY2sgQW5kcm9pZCDml6Xlv5flrp7njrAKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuYXBwY29tcGF0KSAgICAgICAgICAgICAgICAgIC8vIEFwcENvbXBhdCDlhbzlrrnlupMKICAgIGltcGxlbWVudGF0aW9uKGxpYnMucmVjeWNsZXJ2aWV3KSAgICAgICAgICAgICAgIC8vIFJlY3ljbGVyVmlldyDliJfooajnu4Tku7YKICAgIGltcGxlbWVudGF0aW9uKGxpYnMudmlld3BhZ2VyMikgICAgICAgICAgICAgICAgIC8vIFZpZXdQYWdlcjIg6aG16Z2i5ruR5YqoCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLm1hdGVyaWFsKSAgICAgICAgICAgICAgICAgICAvLyBNYXRlcmlhbCBEZXNpZ24g57uE5Lu2CiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLndlYmtpdCkgICAgICAgICAgICAgICAgICAgICAvLyBXZWJWaWV3IOe7hOS7tgoKICAgIC8vIOS7hee8luivkeaXtuS+nei1liAtIFhwb3NlZCDnm7jlhbMKICAgIGNvbXBpbGVPbmx5KGZpbGVzKCJsaWJzL2FwaS04Mi5qYXIiKSkgICAgICAgICAgLy8gWHBvc2VkIEFQSSA4MgogICAgY29tcGlsZU9ubHkoZmlsZXMoImxpYnMvYXBpLTEwMC5hYXIiKSkgICAgICAgICAvLyBYcG9zZWQgQVBJIDEwMCBodHRwczovL2dpdGh1Yi5jb20vbGlieHBvc2VkL2FwaQogICAgaW1wbGVtZW50YXRpb24oZmlsZXMoImxpYnMvaW50ZXJmYWNlLTEwMC5hYXIiKSkgLy8gWHBvc2VkIOaooeWdl+aOpeWPoyBodHRwczovL2dpdGh1Yi5jb20vbGlieHBvc2VkL2FwaQogICAgaW1wbGVtZW50YXRpb24oZmlsZXMoImxpYnMvc2VydmljZS0xMDAtMS4wLjAuYWFyIikpICAvLyBodHRwczovL2dpdGh1Yi5jb20vbGlieHBvc2VkL3NlcnZpY2UKCiAgICAvLyDku6PnoIHnlJ/miJDlkozlt6XlhbflupMKICAgIGNvbXBpbGVPbmx5KGxpYnMubG9tYm9rKSAgICAgICAgICAgICAgICAgICAgICAgLy8gTG9tYm9rIOazqOino+WkhOeQhuWZqO+8iOe8luivkeaXtu+8iQogICAgYW5ub3RhdGlvblByb2Nlc3NvcihsaWJzLmxvbWJvaykgICAgICAgICAgICAgICAvLyBMb21ib2sg5rOo6Kej5aSE55CGCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLm9raHR0cCkgICAgICAgICAgICAgICAgICAgIC8vIE9rSHR0cCDnvZHnu5zor7fmsYLlupMKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuZGV4a2l0KSAgICAgICAgICAgICAgICAgICAgLy8gREVYIOaWh+S7tuWIhuaekOW3peWFtwogICAgaW1wbGVtZW50YXRpb24obGlicy5qYWNrc29uLmtvdGxpbikgICAgICAgICAgICAvLyBKYWNrc29uIEtvdGxpbiDmlK/mjIEKCiAgICAvLyDmoLjlv4PlupPohLHns5blkozns7vnu58gQVBJIOiuv+mXrgovLyAgICBjb3JlTGlicmFyeURlc3VnYXJpbmcobGlicy5kZXN1Z2FyKSAgICAgICAgICAgIC8vIEphdmEgOCsgQVBJIOiEseezluaUr+aMgQoKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuaGlkZGVuYXBpYnlwYXNzKSAgICAgICAgICAgLy8g6ZqQ6JePIEFQSSDorr/pl67nu5Xov4cKCiAgICAvLyBKYWNrc29uIEpTT04g5aSE55CG5bqTCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmphY2tzb24uY29yZSkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuamFja3Nvbi5kYXRhYmluZCkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuamFja3Nvbi5hbm5vdGF0aW9ucykKfQ==
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+import java.util.TimeZone
+
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.rikka.tools.refine)
+}
+var isCIBuild: Boolean = System.getenv("CI").toBoolean()
+
+// 出包 ABI 约定：默认只打 arm64-v8a（手机都是 64 位，包也最小）
+// 需要 universal 包时显式指定：gradlew assembleDebug -Puniversal=true
+val wantUniversalApk: Boolean =
+    (project.findProperty("universal") as String?)?.trim()?.equals("true", ignoreCase = true) ?: false
+
+//isCIBuild = true // 没有c++源码时开启CI构建, push前关闭
+
+android {
+    namespace = "fansirsqi.xposed.sesame"
+    compileSdk = 36
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+        splits {
+            abi {
+                isEnable = true
+                reset()
+                include("arm64-v8a")
+                isUniversalApk = wantUniversalApk
+            }
+        }
+
+    }
+    // 使用providers API来支持配置缓存
+    val gitCommitCount: Int = providers.exec {
+        commandLine("git", "rev-list", "--count", "HEAD")
+        // 从 zip 解包构建时没有 .git，忽略失败回退为 1
+        isIgnoreExitValue = true
+    }.standardOutput.asText.get().trim().toIntOrNull() ?: 1
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId = "fansirsqi.xposed.sesame"
+        minSdk = 26
+        targetSdk = 36
+
+        val buildDate = SimpleDateFormat("yyyy-MM-dd", Locale.CHINA).apply {
+            timeZone = TimeZone.getTimeZone("GMT+8")
+        }.format(Date())
+
+        val buildTime = SimpleDateFormat("HH:mm:ss", Locale.CHINA).apply {
+            timeZone = TimeZone.getTimeZone("GMT+8")
+        }.format(Date())
+
+        // 版本号约定：
+        //   正式版  = 1.0.0 / 1.0.1 / 1.1.0 ...（手机「版本」里看到的就是这个）
+        //   临时包  = gradlew assembleDebug -PverName=1.0.0-diag1
+        // 注意：不要再往正式版本号后面加 -fix1 / -tool1 之类的后缀，
+        //      那些只用于一次性的排查包，用完即弃。
+        val customVerName = (project.findProperty("verName") as String?)?.trim().orEmpty()
+        val verCodeFlag = (project.findProperty("verCode") as String?)?.trim()
+
+        versionCode = verCodeFlag?.toIntOrNull() ?: gitCommitCount
+        versionName = if (customVerName.isEmpty()) "1.0.0" else customVerName
+
+        buildConfigField("String", "BUILD_DATE", "\"$buildDate\"")
+        buildConfigField("String", "BUILD_TIME", "\"$buildTime\"")
+        if (isCIBuild) {
+            ndk {
+                abiFilters.addAll(listOf("arm64-v8a"))
+            }
+        }
+
+        testOptions {
+            unitTests.all {
+                it.enabled = false
+            }
+        }
+    }
+
+
+
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
+        compose = true
+        aidl = false
+    }
+
+    compileOptions {
+        isCoreLibraryDesugaringEnabled = false//关闭脱糖
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlin {
+        compilerOptions {
+            jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
+        }
+    }
+
+    signingConfigs {
+        getByName("debug") {
+        }
+    }
+
+    buildTypes {
+        getByName("debug") {
+            isDebuggable = true
+            versionNameSuffix = "-debug"
+            isShrinkResources = false
+            isMinifyEnabled = false
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = signingConfigs.getByName("debug")
+        }
+        getByName("release") {
+            isDebuggable = false
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = signingConfigs.getByName("debug")
+        }
+    }
+
+    sourceSets {
+        getByName("main") {
+            jniLibs.srcDirs("src/main/jniLibs")
+        }
+    }
+    val cmakeFile = file("src/main/cpp/CMakeLists.txt")
+    if (!isCIBuild && cmakeFile.exists()) {
+        externalNativeBuild {
+            cmake {
+                path = cmakeFile
+//                version = "4.1.2"  //不要随意改这个了答应我
+                ndkVersion = "29.0.14206865" //这个也是 答应我就这样吧
+            }
+        }
+    }
+
+    applicationVariants.all {
+        val variant = this
+        variant.outputs.all {
+            val output = this
+            val abiName = output.filters.find { it.filterType == "ABI" }?.identifier ?: "universal"
+            // 文件名带构建时间戳，保证每次产物不会被下一次编译覆盖
+            val stamp = SimpleDateFormat("yyyyMMdd-HHmm", Locale.CHINA).apply {
+                timeZone = TimeZone.getTimeZone("GMT+8")
+            }.format(Date())
+            val fileName = "Sesame-TK-${abiName}-${variant.versionName}-${stamp}.apk"
+            (output as com.android.build.gradle.internal.api.BaseVariantOutputImpl).outputFileName = fileName
+        }
+    }
+}
+
+dependencies {
+    // Shizuku 相关依赖 - 用于获取系统级权限
+    implementation(libs.rikka.shizuku.api)        // Shizuku API
+    implementation(libs.rikka.shizuku.provider)   // Shizuku 提供者
+    implementation(libs.rikka.refine)             // Rikka 反射工具
+//    implementation(libs.rikka.hidden.stub)
+    // implementation(libs.ui.tooling.preview.android)
+    implementation(libs.cmd.android)
+    implementation(libs.androidx.ui.text.google.fonts)
+    implementation(libs.material3) // 用于通过 Shizuku 执行命令
+
+    // Compose 相关依赖 - 现代化 UI 框架
+    val composeBom = platform("androidx.compose:compose-bom:2025.12.00")  // Compose BOM 版本管理
+    implementation(composeBom)
+
+    testImplementation(composeBom)
+    androidTestImplementation(composeBom)
+    implementation(libs.androidx.material3)                // Material 3 设计组件
+    implementation(libs.androidx.ui.tooling.preview)              // UI 工具预览
+    debugImplementation(libs.androidx.ui.tooling)                 // 调试时的 UI 工具
+    implementation(libs.androidx.material.icons.extended)         // Material 3 图标
+
+    // 生命周期和数据绑定
+    implementation(libs.androidx.lifecycle.viewmodel.compose) // Compose ViewModel 支持
+
+    // JSON 序列化
+    implementation(libs.kotlinx.serialization.json) // Kotlin JSON 序列化库
+
+    // Kotlin 协程依赖 - 异步编程（纯协程调度）
+    implementation(libs.kotlinx.coroutines.core)     // 协程核心库
+    implementation(libs.kotlinx.coroutines.android)  // Android 协程支持
+
+    // 数据观察和 HTTP 服务
+    implementation(libs.androidx.lifecycle.livedata.ktx)  // LiveData KTX 扩展
+    implementation(libs.androidx.runtime.livedata)        // Compose LiveData 运行时
+    implementation(libs.nanohttpd)                   // 轻量级 HTTP 服务器
+
+    // UI 布局和组件
+    implementation(libs.androidx.constraintlayout)  // 约束布局
+
+    implementation(libs.activity.compose)           // Compose Activity 支持
+
+    // Android 核心库
+    implementation(libs.core.ktx)                   // Android KTX 核心扩展
+    implementation(libs.kotlin.stdlib)              // Kotlin 标准库
+    implementation(libs.slf4j.api)                  // SLF4J 日志 API
+    implementation(libs.logback.android)            // Logback Android 日志实现
+    implementation(libs.appcompat)                  // AppCompat 兼容库
+    implementation(libs.recyclerview)               // RecyclerView 列表组件
+    implementation(libs.viewpager2)                 // ViewPager2 页面滑动
+    implementation(libs.material)                   // Material Design 组件
+    implementation(libs.webkit)                     // WebView 组件
+
+    // 仅编译时依赖 - Xposed 相关
+    compileOnly(files("libs/api-82.jar"))          // Xposed API 82
+    compileOnly(files("libs/api-100.aar"))         // Xposed API 100 https://github.com/libxposed/api
+    implementation(files("libs/interface-100.aar")) // Xposed 模块接口 https://github.com/libxposed/api
+    implementation(files("libs/service-100-1.0.0.aar"))  // https://github.com/libxposed/service
+
+    // 代码生成和工具库
+    compileOnly(libs.lombok)                       // Lombok 注解处理器（编译时）
+    annotationProcessor(libs.lombok)               // Lombok 注解处理
+    implementation(libs.okhttp)                    // OkHttp 网络请求库
+    implementation(libs.dexkit)                    // DEX 文件分析工具
+    implementation(libs.jackson.kotlin)            // Jackson Kotlin 支持
+
+    // 核心库脱糖和系统 API 访问
+//    coreLibraryDesugaring(libs.desugar)            // Java 8+ API 脱糖支持
+
+    implementation(libs.hiddenapibypass)           // 隐藏 API 访问绕过
+
+    // Jackson JSON 处理库
+    implementation(libs.jackson.core)
+    implementation(libs.jackson.databind)
+    implementation(libs.jackson.annotations)
+}

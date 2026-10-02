@@ -1,1 +1,48 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5yZXBvc2l0b3J5CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5TaGFyZWRQcmVmZXJlbmNlcwppbXBvcnQgYW5kcm9pZHguY29yZS5jb250ZW50LmVkaXQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLm1vZGVsLlVpTW9kZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKCm9iamVjdCBDb25maWdSZXBvc2l0b3J5IHsKCiAgICAvLyDlhoXlrZjnvJPlrZggKFN0YXRlRmxvdynvvIxVSSDop4Llr5/lroMKICAgIHByaXZhdGUgdmFsIF91aU1vZGUgPSBNdXRhYmxlU3RhdGVGbG93KFVpTW9kZS5XZWIpCiAgICB2YWwgdWlNb2RlID0gX3VpTW9kZS5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgcHJlZnM6IFNoYXJlZFByZWZlcmVuY2VzCiAgICBwcml2YXRlIHZhciBpc0luaXRpYWxpemVkID0gZmFsc2UKCiAgICAvLyDplK7lkI3luLjph48KICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9VSV9PUFRJT04gPSAidWlfb3B0aW9uIgoKICAgIC8qKgogICAgICog5Yid5aeL5YyW77ya5ZyoIEFwcGxpY2F0aW9uIG9uQ3JlYXRlIOS4reiwg+eUqAogICAgICovCiAgICBmdW4gaW5pdChjb250ZXh0OiBDb250ZXh0LCBwcmVmS2V5OiBTdHJpbmcpIHsKICAgICAgICBpZiAoaXNJbml0aWFsaXplZCkgcmV0dXJuCgogICAgICAgIC8vIOiOt+WPliBTUCDlrp7kvosKICAgICAgICBwcmVmcyA9IGNvbnRleHQuZ2V0U2hhcmVkUHJlZmVyZW5jZXMocHJlZktleSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCgogICAgICAgIC8vIOWQjOatpeS4gOasoeWIneWni+eKtuaAgeWIsOWGheWtmAogICAgICAgIHZhbCBzYXZlZFZhbHVlID0gcHJlZnMuZ2V0U3RyaW5nKEtFWV9VSV9PUFRJT04sIFVpTW9kZS5XZWIudmFsdWUpCiAgICAgICAgX3VpTW9kZS52YWx1ZSA9IFVpTW9kZS5mcm9tVmFsdWUoc2F2ZWRWYWx1ZSkKCiAgICAgICAgaXNJbml0aWFsaXplZCA9IHRydWUKICAgIH0KCiAgICAvKioKICAgICAqIOabtOaWsOmFjee9ru+8muWQjOaXtuabtOaWsOWGheWtmOWSjOejgeebmAogICAgICovCiAgICBmdW4gc2V0VWlNb2RlKG1vZGU6IFVpTW9kZSkgewogICAgICAgIGNoZWNrKGlzSW5pdGlhbGl6ZWQpIHsgIkNvbmZpZ1JlcG9zaXRvcnkg5pyq5Yid5aeL5YyW77yBIiB9CiAgICAgICAgLy8gMS4g5pu05paw5YaF5a2YIChVSSDnnqzpl7Tlk43lupQpCiAgICAgICAgX3VpTW9kZS52YWx1ZSA9IG1vZGUKICAgICAgICAvLyAyLiDmjIHkuYXljJYgKOW8guatpeWGmeWFpSBYTUwpCiAgICAgICAgcHJlZnMuZWRpdCB7IHB1dFN0cmluZyhLRVlfVUlfT1BUSU9OLCBtb2RlLnZhbHVlKSB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.ui.repository
+
+import android.content.Context
+import android.content.SharedPreferences
+import androidx.core.content.edit
+import fansirsqi.xposed.sesame.ui.model.UiMode
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+object ConfigRepository {
+
+    // 内存缓存 (StateFlow)，UI 观察它
+    private val _uiMode = MutableStateFlow(UiMode.Web)
+    val uiMode = _uiMode.asStateFlow()
+
+    private lateinit var prefs: SharedPreferences
+    private var isInitialized = false
+
+    // 键名常量
+    private const val KEY_UI_OPTION = "ui_option"
+
+    /**
+     * 初始化：在 Application onCreate 中调用
+     */
+    fun init(context: Context, prefKey: String) {
+        if (isInitialized) return
+
+        // 获取 SP 实例
+        prefs = context.getSharedPreferences(prefKey, Context.MODE_PRIVATE)
+
+        // 同步一次初始状态到内存
+        val savedValue = prefs.getString(KEY_UI_OPTION, UiMode.Web.value)
+        _uiMode.value = UiMode.fromValue(savedValue)
+
+        isInitialized = true
+    }
+
+    /**
+     * 更新配置：同时更新内存和磁盘
+     */
+    fun setUiMode(mode: UiMode) {
+        check(isInitialized) { "ConfigRepository 未初始化！" }
+        // 1. 更新内存 (UI 瞬间响应)
+        _uiMode.value = mode
+        // 2. 持久化 (异步写入 XML)
+        prefs.edit { putString(KEY_UI_OPTION, mode.value) }
+    }
+}

@@ -1,1 +1,192 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuR3Jhdml0eTsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkJ1dHRvbjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkxpbmVhckxheW91dDsKaW1wb3J0IGFuZHJvaWR4LmNvcmUuY29udGVudC5Db250ZXh0Q29tcGF0OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2c7CmltcG9ydCBsb21ib2suR2V0dGVyOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsRmllbGQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS53aWRnZXQuU3RyaW5nRGlhbG9nOwovKioKICogSW50ZWdlciDnsbvlnovlrZfmrrXnsbvvvIznu6fmib/oh6ogTW9kZWxGaWVsZDxJbnRlZ2VyPgogKiDor6XnsbvnlKjkuo7ooajnpLrlhbfmnInmnIDlsI/lgLzlkozmnIDlpKflgLzpmZDliLbnmoTmlbTmlbDlrZfmrrXjgIIKICovCkBHZXR0ZXIKcHVibGljIGNsYXNzIEludGVnZXJNb2RlbEZpZWxkIGV4dGVuZHMgTW9kZWxGaWVsZDxJbnRlZ2VyPiB7CiAgICAvKiog5pyA5bCP5YC86ZmQ5Yi2ICovCiAgICBwcm90ZWN0ZWQgZmluYWwgSW50ZWdlciBtaW5MaW1pdDsKICAgIC8qKiDmnIDlpKflgLzpmZDliLYgKi8KICAgIHByb3RlY3RlZCBmaW5hbCBJbnRlZ2VyIG1heExpbWl0OwogICAgLyoqCiAgICAgKiDmnoTpgKDlh73mlbDvvJrliJvlu7rkuIDkuKrmsqHmnInmnIDlsI/lgLzlkozmnIDlpKflgLzpmZDliLbnmoQgSW50ZWdlciDnsbvlnovlrZfmrrUKICAgICAqCiAgICAgKiBAcGFyYW0gY29kZSDlrZfmrrXku6PnoIEKICAgICAqIEBwYXJhbSBuYW1lIOWtl+auteWQjeensAogICAgICogQHBhcmFtIHZhbHVlIOWtl+auteWIneWni+WAvAogICAgICovCiAgICBwdWJsaWMgSW50ZWdlck1vZGVsRmllbGQoU3RyaW5nIGNvZGUsIFN0cmluZyBuYW1lLCBJbnRlZ2VyIHZhbHVlKSB7CiAgICAgICAgc3VwZXIoY29kZSwgbmFtZSwgdmFsdWUpOyAgLy8g6LCD55So54i257G755qE5p6E6YCg5Ye95pWwCiAgICAgICAgdGhpcy5taW5MaW1pdCA9IG51bGw7ICAvLyDml6DmnIDlsI/lgLzpmZDliLYKICAgICAgICB0aGlzLm1heExpbWl0ID0gbnVsbDsgIC8vIOaXoOacgOWkp+WAvOmZkOWItgogICAgfQogICAgLyoqCiAgICAgKiDmnoTpgKDlh73mlbDvvJrliJvlu7rkuIDkuKrlhbfmnInmnIDlsI/lgLzlkozmnIDlpKflgLzpmZDliLbnmoQgSW50ZWdlciDnsbvlnovlrZfmrrUKICAgICAqCiAgICAgKiBAcGFyYW0gY29kZSDlrZfmrrXku6PnoIEKICAgICAqIEBwYXJhbSBuYW1lIOWtl+auteWQjeensAogICAgICogQHBhcmFtIHZhbHVlIOWtl+auteWIneWni+WAvAogICAgICogQHBhcmFtIG1pbkxpbWl0IOacgOWwj+WAvOmZkOWItgogICAgICogQHBhcmFtIG1heExpbWl0IOacgOWkp+WAvOmZkOWItgogICAgICovCiAgICBwdWJsaWMgSW50ZWdlck1vZGVsRmllbGQoU3RyaW5nIGNvZGUsIFN0cmluZyBuYW1lLCBJbnRlZ2VyIHZhbHVlLCBJbnRlZ2VyIG1pbkxpbWl0LCBJbnRlZ2VyIG1heExpbWl0KSB7CiAgICAgICAgc3VwZXIoY29kZSwgbmFtZSwgdmFsdWUpOyAgLy8g6LCD55So54i257G755qE5p6E6YCg5Ye95pWwCiAgICAgICAgdGhpcy5taW5MaW1pdCA9IG1pbkxpbWl0OyAgLy8g6K6+572u5pyA5bCP5YC86ZmQ5Yi2CiAgICAgICAgdGhpcy5tYXhMaW1pdCA9IG1heExpbWl0OyAgLy8g6K6+572u5pyA5aSn5YC86ZmQ5Yi2CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPluWtl+auteexu+WeiwogICAgICoKICAgICAqIEByZXR1cm4g6L+U5Zue5a2X5q6157G75Z6L55qE5a2X56ym5Liy6KGo56S6ICJJTlRFR0VSIgogICAgICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0VHlwZSgpIHsKICAgICAgICByZXR1cm4gIklOVEVHRVIiOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5blrZfmrrXnmoTphY3nva7lgLzvvIjlsIblvZPliY3nmoTlgLzovazmjaLkuLrlrZfnrKbkuLLvvIkKICAgICAqCiAgICAgKiBAcmV0dXJuIOi/lOWbnuWtl+auteeahOWtl+espuS4suW9ouW8j+eahOmFjee9ruWAvAogICAgICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0Q29uZmlnVmFsdWUoKSB7CiAgICAgICAgcmV0dXJuIFN0cmluZy52YWx1ZU9mKHZhbHVlKTsgIC8vIOi/lOWbnuWtl+auteWAvOeahOWtl+espuS4suihqOekugogICAgfQogICAgLyoqCiAgICAgKiDorr7nva7lrZfmrrXnmoTphY3nva7lgLzvvIjmoLnmja7phY3nva7lgLzorr7nva7mlrDnmoTlgLzvvIzlubbkuJTlnKjmnInmnIDlsI8v5pyA5aSn5YC86ZmQ5Yi255qE5oOF5Ya15LiL6L+b6KGM6ZmQ5Yi277yJCiAgICAgKgogICAgICogQHBhcmFtIGNvbmZpZ1ZhbHVlIOWtl+auteeahOmFjee9ruWAvAogICAgICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIHNldENvbmZpZ1ZhbHVlKFN0cmluZyBjb25maWdWYWx1ZSkgewogICAgICAgIEludGVnZXIgbmV3VmFsdWU7CiAgICAgICAgLy8g5aaC5p6c6YWN572u5YC85Li656m677yM5L2/55So6buY6K6k5YC8CiAgICAgICAgaWYgKGNvbmZpZ1ZhbHVlID09IG51bGwgfHwgY29uZmlnVmFsdWUudHJpbSgpLmlzRW1wdHkoKSkgewogICAgICAgICAgICBuZXdWYWx1ZSA9IGRlZmF1bHRWYWx1ZTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgLy8g5bCd6K+V5bCG6YWN572u5YC86L2s5o2i5Li65pW05pWwCiAgICAgICAgICAgICAgICBuZXdWYWx1ZSA9IEludGVnZXIucGFyc2VJbnQoY29uZmlnVmFsdWUpOwogICAgICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKTsgIC8vIOW8guW4uOWkhOeQhu+8jOaJk+WNsOagiOi/vei4qgogICAgICAgICAgICAgICAgbmV3VmFsdWUgPSBkZWZhdWx0VmFsdWU7ICAvLyDlpoLmnpzovazmjaLlpLHotKXvvIzkvb/nlKjpu5jorqTlgLwKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAvLyDmoLnmja7mnIDlsI/lgLzpmZDliLbosIPmlbTmlrDlgLwKICAgICAgICBpZiAobWluTGltaXQgIT0gbnVsbCkgewogICAgICAgICAgICBuZXdWYWx1ZSA9IE1hdGgubWF4KG1pbkxpbWl0LCBuZXdWYWx1ZSk7CiAgICAgICAgfQogICAgICAgIC8vIOagueaNruacgOWkp+WAvOmZkOWItuiwg+aVtOaWsOWAvAogICAgICAgIGlmIChtYXhMaW1pdCAhPSBudWxsKSB7CiAgICAgICAgICAgIG5ld1ZhbHVlID0gTWF0aC5taW4obWF4TGltaXQsIG5ld1ZhbHVlKTsKICAgICAgICB9CiAgICAgICAgLy8g6K6+572u5a2X5q615YC8CiAgICAgICAgdGhpcy52YWx1ZSA9IG5ld1ZhbHVlOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5bop4blm77vvIjov5Tlm57kuIDkuKogQnV0dG9u77yM54K55Ye75ZCO5by55Ye657yW6L6R5qGG77yJCiAgICAgKgogICAgICogQHBhcmFtIGNvbnRleHQg5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIOaMiemSruinhuWbvgogICAgICovCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBWaWV3IGdldFZpZXcoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgQnV0dG9uIGJ0biA9IG5ldyBCdXR0b24oY29udGV4dCk7CiAgICAgICAgLy8g6K6+572u5oyJ6ZKu55qE5paH5pys5Li65a2X5q615ZCN56ewCiAgICAgICAgYnRuLnNldFRleHQoZ2V0TmFtZSgpKTsKICAgICAgICAvLyDorr7nva7mjInpkq7nmoTluIPlsYDlj4LmlbAKICAgICAgICBidG4uc2V0TGF5b3V0UGFyYW1zKG5ldyBMaW5lYXJMYXlvdXQuTGF5b3V0UGFyYW1zKFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5ULCBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLldSQVBfQ09OVEVOVCkpOwogICAgICAgIC8vIOiuvue9ruaMiemSrueahOaWh+acrOminOiJsgogICAgICAgIGJ0bi5zZXRUZXh0Q29sb3IoQ29udGV4dENvbXBhdC5nZXRDb2xvcihjb250ZXh0LCBSLmNvbG9yLnNlbGVjdGlvbl9jb2xvcikpOwogICAgICAgIC8vIOiuvue9ruaMiemSrueahOiDjOaZrwogICAgICAgIGJ0bi5zZXRCYWNrZ3JvdW5kKENvbnRleHRDb21wYXQuZ2V0RHJhd2FibGUoY29udGV4dCwgUi5kcmF3YWJsZS5kaWFsb2dfbGlzdF9idXR0b24pKTsKICAgICAgICAvLyDorr7nva7mjInpkq7nmoTmlofmnKzlr7npvZDmlrnlvI8KICAgICAgICBidG4uc2V0R3Jhdml0eShHcmF2aXR5LlNUQVJUIHwgR3Jhdml0eS5DRU5URVJfVkVSVElDQUwpOwogICAgICAgIC8vIOiuvue9ruaMiemSrueahOacgOWwj+mrmOW6pgogICAgICAgIGJ0bi5zZXRNaW5IZWlnaHQoMTUwKTsKICAgICAgICAvLyDorr7nva7mjInpkq7nmoTmnIDlpKfpq5jluqYKICAgICAgICBidG4uc2V0TWF4SGVpZ2h0KDE4MCk7CiAgICAgICAgLy8g6K6+572u5oyJ6ZKu55qE5bem5Y+z5YaF6L656LedCiAgICAgICAgYnRuLnNldFBhZGRpbmdSZWxhdGl2ZSg0MCwgMCwgNDAsIDApOwogICAgICAgIC8vIOiuvue9ruaMiemSrueahOaWh+acrOS4jeWFqOWkp+WGmQogICAgICAgIGJ0bi5zZXRBbGxDYXBzKGZhbHNlKTsKICAgICAgICAvLyDorr7nva7ngrnlh7vkuovku7bvvIzlvLnlh7rnvJbovpHlr7nor53moYYKICAgICAgICBidG4uc2V0T25DbGlja0xpc3RlbmVyKHYgLT4gU3RyaW5nRGlhbG9nLnNob3dFZGl0RGlhbG9nKHYuZ2V0Q29udGV4dCgpLCAoKEJ1dHRvbikgdikuZ2V0VGV4dCgpLCB0aGlzKSk7CiAgICAgICAgcmV0dXJuIGJ0bjsKICAgIH0KICAgIC8qKgogICAgICogTXVsdGlwbHlJbnRlZ2VyTW9kZWxGaWVsZCDnsbvvvIznu6fmib/oh6ogSW50ZWdlck1vZGVsRmllbGTvvIzlpITnkIbluKbkuZjmlbDnmoTmlbTmlbDnsbvlnovlrZfmrrUKICAgICAqIOivpeexu+WcqOiuvue9ruWAvOaXtuS8muS5mOS7peaMh+WumueahOWAjeaVsOOAggogICAgICovCiAgICBAR2V0dGVyCiAgICBwdWJsaWMgc3RhdGljIGNsYXNzIE11bHRpcGx5SW50ZWdlck1vZGVsRmllbGQgZXh0ZW5kcyBJbnRlZ2VyTW9kZWxGaWVsZCB7CiAgICAgICAgLyoqIOS5mOaVsO+8jOeUqOS6juiuoeeul+acgOe7iOWAvCAqLwogICAgICAgIHByaXZhdGUgZmluYWwgSW50ZWdlciBtdWx0aXBsZTsKICAgICAgICAvKioKICAgICAgICAgKiDmnoTpgKDlh73mlbDvvJrliJvlu7rkuIDkuKrluKbkuZjmlbDpmZDliLbnmoTmlbTmlbDnsbvlnovlrZfmrrUKICAgICAgICAgKgogICAgICAgICAqIEBwYXJhbSBjb2RlIOWtl+auteS7o+eggQogICAgICAgICAqIEBwYXJhbSBuYW1lIOWtl+auteWQjeensAogICAgICAgICAqIEBwYXJhbSB2YWx1ZSDpu5jorqTorr7nva7lgLwKICAgICAgICAgKiBAcGFyYW0gbWluTGltaXQg5pyA5bCP5YC86ZmQ5Yi2CiAgICAgICAgICogQHBhcmFtIG1heExpbWl0IOacgOWkp+WAvOmZkOWItgogICAgICAgICAqIEBwYXJhbSBtdWx0aXBsZSDkuZjmlbAgZWc655So5LqO5bCG5a2X5q615YC85LuO5YiG6ZKf6L2s5o2i5Li65q+r56eSIDFtaW4gKiA2MF8wMDAKICAgICAgICAgKi8KICAgICAgICBwdWJsaWMgTXVsdGlwbHlJbnRlZ2VyTW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUsIEludGVnZXIgdmFsdWUsIEludGVnZXIgbWluTGltaXQsIEludGVnZXIgbWF4TGltaXQsIEludGVnZXIgbXVsdGlwbGUpIHsKICAgICAgICAgICAgc3VwZXIoY29kZSwgbmFtZSwgdmFsdWUgKiBtdWx0aXBsZSwgbWluTGltaXQsIG1heExpbWl0KTsgIC8vIOiwg+eUqOeItuexu+aehOmAoOWHveaVsO+8jOW5tuS4lOWIneWni+WAvOS5mOS7pSBtdWx0aXBsZQogICAgICAgICAgICB0aGlzLm11bHRpcGxlID0gbXVsdGlwbGU7ICAvLyDorr7nva7kuZjmlbAKICAgICAgICB9CiAgICAgICAgLyoqCiAgICAgICAgICog6I635Y+W5a2X5q6157G75Z6LCiAgICAgICAgICoKICAgICAgICAgKiBAcmV0dXJuIOi/lOWbnuWtl+auteexu+Wei+eahOWtl+espuS4suihqOekuiAiTVVMVElQTFlfSU5URUdFUiIKICAgICAgICAgKi8KICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgU3RyaW5nIGdldFR5cGUoKSB7CiAgICAgICAgICAgIHJldHVybiAiTVVMVElQTFlfSU5URUdFUiI7CiAgICAgICAgfQogICAgICAgIC8qKgogICAgICAgICAqIOiuvue9ruWtl+auteeahOmFjee9ruWAvO+8iOS5mOaVsOW9seWTjeacgOe7iOWAvO+8iQogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIGNvbmZpZ1ZhbHVlIOWtl+auteeahOmFjee9ruWAvAogICAgICAgICAqLwogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyB2b2lkIHNldENvbmZpZ1ZhbHVlKFN0cmluZyBjb25maWdWYWx1ZSkgewogICAgICAgICAgICBpZiAoY29uZmlnVmFsdWUgPT0gbnVsbCB8fCBjb25maWdWYWx1ZS50cmltKCkuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICByZXNldCgpOyAgLy8g5aaC5p6c6YWN572u5YC85Li656m677yM5YiZ6YeN572u5a2X5q61CiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIH0KICAgICAgICAgICAgc3VwZXIuc2V0Q29uZmlnVmFsdWUoY29uZmlnVmFsdWUpOyAgLy8g6LCD55So54i257G755qEIHNldENvbmZpZ1ZhbHVlIOaWueazlQogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgLy8g5qC55o2u5LmY5pWw6LCD5pW05YC8CiAgICAgICAgICAgICAgICB2YWx1ZSA9IHZhbHVlICogbXVsdGlwbGU7ICAvLyDkvb/nlKjkuZjmlbDosIPmlbTlrZfmrrXlgLwKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7ICAvLyDlvILluLjlpITnkIYKICAgICAgICAgICAgfQogICAgICAgICAgICByZXNldCgpOyAgLy8g5aaC5p6c5Ye6546w5byC5bi477yM6YeN572u5a2X5q61CiAgICAgICAgfQogICAgICAgIC8qKgogICAgICAgICAqIOiOt+WPluWtl+auteeahOmFjee9ruWAvO+8iOi/lOWbnuWAvOmZpOS7peS5mOaVsO+8iQogICAgICAgICAqCiAgICAgICAgICogQHJldHVybiDphY3nva7lgLzvvIjlrZfmrrXlgLzpmaTku6XkuZjmlbDvvIkKICAgICAgICAgKi8KICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgU3RyaW5nIGdldENvbmZpZ1ZhbHVlKCkgewogICAgICAgICAgICByZXR1cm4gU3RyaW5nLnZhbHVlT2YodmFsdWUgLyBtdWx0aXBsZSk7ICAvLyDkvb/nlKjkuZjmlbDojrflj5blrp7pmYXphY3nva7lgLwKICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+import android.content.Context;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import androidx.core.content.ContextCompat;
+import fansirsqi.xposed.sesame.util.Log;
+import lombok.Getter;
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelField;
+import fansirsqi.xposed.sesame.ui.widget.StringDialog;
+/**
+ * Integer 类型字段类，继承自 ModelField<Integer>
+ * 该类用于表示具有最小值和最大值限制的整数字段。
+ */
+@Getter
+public class IntegerModelField extends ModelField<Integer> {
+    /** 最小值限制 */
+    protected final Integer minLimit;
+    /** 最大值限制 */
+    protected final Integer maxLimit;
+    /**
+     * 构造函数：创建一个没有最小值和最大值限制的 Integer 类型字段
+     *
+     * @param code 字段代码
+     * @param name 字段名称
+     * @param value 字段初始值
+     */
+    public IntegerModelField(String code, String name, Integer value) {
+        super(code, name, value);  // 调用父类的构造函数
+        this.minLimit = null;  // 无最小值限制
+        this.maxLimit = null;  // 无最大值限制
+    }
+    /**
+     * 构造函数：创建一个具有最小值和最大值限制的 Integer 类型字段
+     *
+     * @param code 字段代码
+     * @param name 字段名称
+     * @param value 字段初始值
+     * @param minLimit 最小值限制
+     * @param maxLimit 最大值限制
+     */
+    public IntegerModelField(String code, String name, Integer value, Integer minLimit, Integer maxLimit) {
+        super(code, name, value);  // 调用父类的构造函数
+        this.minLimit = minLimit;  // 设置最小值限制
+        this.maxLimit = maxLimit;  // 设置最大值限制
+    }
+    /**
+     * 获取字段类型
+     *
+     * @return 返回字段类型的字符串表示 "INTEGER"
+     */
+    @Override
+    public String getType() {
+        return "INTEGER";
+    }
+    /**
+     * 获取字段的配置值（将当前的值转换为字符串）
+     *
+     * @return 返回字段的字符串形式的配置值
+     */
+    @Override
+    public String getConfigValue() {
+        return String.valueOf(value);  // 返回字段值的字符串表示
+    }
+    /**
+     * 设置字段的配置值（根据配置值设置新的值，并且在有最小/最大值限制的情况下进行限制）
+     *
+     * @param configValue 字段的配置值
+     */
+    @Override
+    public void setConfigValue(String configValue) {
+        Integer newValue;
+        // 如果配置值为空，使用默认值
+        if (configValue == null || configValue.trim().isEmpty()) {
+            newValue = defaultValue;
+        } else {
+            try {
+                // 尝试将配置值转换为整数
+                newValue = Integer.parseInt(configValue);
+            } catch (Exception e) {
+                Log.printStackTrace(e);  // 异常处理，打印栈追踪
+                newValue = defaultValue;  // 如果转换失败，使用默认值
+            }
+        }
+        // 根据最小值限制调整新值
+        if (minLimit != null) {
+            newValue = Math.max(minLimit, newValue);
+        }
+        // 根据最大值限制调整新值
+        if (maxLimit != null) {
+            newValue = Math.min(maxLimit, newValue);
+        }
+        // 设置字段值
+        this.value = newValue;
+    }
+    /**
+     * 获取视图（返回一个 Button，点击后弹出编辑框）
+     *
+     * @param context 上下文
+     * @return 按钮视图
+     */
+    @Override
+    public View getView(Context context) {
+        Button btn = new Button(context);
+        // 设置按钮的文本为字段名称
+        btn.setText(getName());
+        // 设置按钮的布局参数
+        btn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        // 设置按钮的文本颜色
+        btn.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+        // 设置按钮的背景
+        btn.setBackground(ContextCompat.getDrawable(context, R.drawable.dialog_list_button));
+        // 设置按钮的文本对齐方式
+        btn.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+        // 设置按钮的最小高度
+        btn.setMinHeight(150);
+        // 设置按钮的最大高度
+        btn.setMaxHeight(180);
+        // 设置按钮的左右内边距
+        btn.setPaddingRelative(40, 0, 40, 0);
+        // 设置按钮的文本不全大写
+        btn.setAllCaps(false);
+        // 设置点击事件，弹出编辑对话框
+        btn.setOnClickListener(v -> StringDialog.showEditDialog(v.getContext(), ((Button) v).getText(), this));
+        return btn;
+    }
+    /**
+     * MultiplyIntegerModelField 类，继承自 IntegerModelField，处理带乘数的整数类型字段
+     * 该类在设置值时会乘以指定的倍数。
+     */
+    @Getter
+    public static class MultiplyIntegerModelField extends IntegerModelField {
+        /** 乘数，用于计算最终值 */
+        private final Integer multiple;
+        /**
+         * 构造函数：创建一个带乘数限制的整数类型字段
+         *
+         * @param code 字段代码
+         * @param name 字段名称
+         * @param value 默认设置值
+         * @param minLimit 最小值限制
+         * @param maxLimit 最大值限制
+         * @param multiple 乘数 eg:用于将字段值从分钟转换为毫秒 1min * 60_000
+         */
+        public MultiplyIntegerModelField(String code, String name, Integer value, Integer minLimit, Integer maxLimit, Integer multiple) {
+            super(code, name, value * multiple, minLimit, maxLimit);  // 调用父类构造函数，并且初始值乘以 multiple
+            this.multiple = multiple;  // 设置乘数
+        }
+        /**
+         * 获取字段类型
+         *
+         * @return 返回字段类型的字符串表示 "MULTIPLY_INTEGER"
+         */
+        @Override
+        public String getType() {
+            return "MULTIPLY_INTEGER";
+        }
+        /**
+         * 设置字段的配置值（乘数影响最终值）
+         *
+         * @param configValue 字段的配置值
+         */
+        @Override
+        public void setConfigValue(String configValue) {
+            if (configValue == null || configValue.trim().isEmpty()) {
+                reset();  // 如果配置值为空，则重置字段
+                return;
+            }
+            super.setConfigValue(configValue);  // 调用父类的 setConfigValue 方法
+            try {
+                // 根据乘数调整值
+                value = value * multiple;  // 使用乘数调整字段值
+                return;
+            } catch (Exception e) {
+                Log.printStackTrace(e);  // 异常处理
+            }
+            reset();  // 如果出现异常，重置字段
+        }
+        /**
+         * 获取字段的配置值（返回值除以乘数）
+         *
+         * @return 配置值（字段值除以乘数）
+         */
+        @Override
+        public String getConfigValue() {
+            return String.valueOf(value / multiple);  // 使用乘数获取实际配置值
+        }
+    }
+}

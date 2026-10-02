@@ -1,1 +1,130 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHk7CmltcG9ydCBsb21ib2suR2V0dGVyOwppbXBvcnQgbG9tYm9rLlNldHRlcjsKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3Q7Ci8qKgogKiDooajnpLrkuIDkuKrog73ph4/mlLbpm4blrp7kvZPvvIzljIXlkKvnlKjmiLfkv6Hmga/lj4rmk43kvZznm7jlhbPnmoTnirbmgIHjgIIKICovCkBHZXR0ZXIKcHVibGljIGNsYXNzIENvbGxlY3RFbmVyZ3lFbnRpdHkgewogICAgLy8g55So5oi3IElECiAgICBwdWJsaWMgIGZpbmFsIFN0cmluZyB1c2VySWQ7CiAgICAvLyDnlKjmiLfkuLvpobUgSlNPTiDlr7nosaEKICAgIEBTZXR0ZXIKICAgIHB1YmxpYyBKU09OT2JqZWN0IHVzZXJIb21lOwogICAgLy8gUlBDIOivt+axguWunuS9kwogICAgQFNldHRlcgogICAgcHVibGljIFJwY0VudGl0eSBycGNFbnRpdHk7CiAgICAvLyDmlLbpm4bmrKHmlbAKICAgIHByaXZhdGUgSW50ZWdlciBjb2xsZWN0Q291bnQgPSAwOwogICAgLy8g5bCd6K+V5qyh5pWwCiAgICBwcml2YXRlIEludGVnZXIgdHJ5Q291bnQgPSAwOwogICAgLy8g5piv5ZCm6ZyA6KaB57+75YCNCiAgICBAU2V0dGVyCiAgICBwdWJsaWMgQm9vbGVhbiBuZWVkRG91YmxlID0gZmFsc2U7CiAgICAvLyDmmK/lkKbpnIDopoHph43or5UKICAgIEBTZXR0ZXIKICAgIHB1YmxpYyBCb29sZWFuIG5lZWRSZXRyeSA9IGZhbHNlOwogICAgLy8g5pS25Y+W5p2l5rqQ5qCH6K+GCiAgICBAU2V0dGVyCiAgICBwdWJsaWMgU3RyaW5nIGZyb21UYWc7CiAgICAvLyDmmK/lkKbot7Pov4fpgZPlhbfmo4Dmn6XvvIjnlKjkuo7oubLngrnmlLblj5blv6vpgJ/pgJrpgZPvvIkKICAgIEBTZXR0ZXIKICAgIHB1YmxpYyBCb29sZWFuIHNraXBQcm9wQ2hlY2sgPSBmYWxzZTsKICAgIC8qKgogICAgICog5p6E6YCg5pa55rOV77yM5LuF5oyH5a6a55So5oi3IElE44CCCiAgICAgKiBAcGFyYW0gdXNlcklkIOeUqOaItyBJRAogICAgICovCiAgICBwdWJsaWMgQ29sbGVjdEVuZXJneUVudGl0eShTdHJpbmcgdXNlcklkKSB7CiAgICAgICAgdGhpcy51c2VySWQgPSB1c2VySWQ7CiAgICB9CiAgICAvKioKICAgICAqIOaehOmAoOaWueazle+8jOaMh+WumueUqOaItyBJRCDlkoznlKjmiLfkuLvpobXkv6Hmga/jgIIKICAgICAqIEBwYXJhbSB1c2VySWQg55So5oi3IElECiAgICAgKiBAcGFyYW0gdXNlckhvbWUg55So5oi35Li76aG1IEpTT04g5a+56LGhCiAgICAgKi8KICAgIHB1YmxpYyBDb2xsZWN0RW5lcmd5RW50aXR5KFN0cmluZyB1c2VySWQsIEpTT05PYmplY3QgdXNlckhvbWUpIHsKICAgICAgICB0aGlzLnVzZXJJZCA9IHVzZXJJZDsKICAgICAgICB0aGlzLnVzZXJIb21lID0gdXNlckhvbWU7CiAgICB9CiAgICAvKioKICAgICAqIOaehOmAoOaWueazle+8jOaMh+WumueUqOaItyBJROOAgeeUqOaIt+S4u+mhteS/oeaBr+WPiiBSUEMg6K+35rGC5a6e5L2T44CCCiAgICAgKiBAcGFyYW0gdXNlcklkIOeUqOaItyBJRAogICAgICogQHBhcmFtIHVzZXJIb21lIOeUqOaIt+S4u+mhtSBKU09OIOWvueixoQogICAgICogQHBhcmFtIHJwY0VudGl0eSBSUEMg6K+35rGC5a6e5L2TCiAgICAgKi8KICAgIHB1YmxpYyBDb2xsZWN0RW5lcmd5RW50aXR5KFN0cmluZyB1c2VySWQsIEpTT05PYmplY3QgdXNlckhvbWUsIFJwY0VudGl0eSBycGNFbnRpdHkpIHsKICAgICAgICB0aGlzLnVzZXJJZCA9IHVzZXJJZDsKICAgICAgICB0aGlzLnVzZXJIb21lID0gdXNlckhvbWU7CiAgICAgICAgdGhpcy5ycGNFbnRpdHkgPSBycGNFbnRpdHk7CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5p6E6YCg5pa55rOV77yM5oyH5a6a55So5oi3IElE44CB55So5oi35Li76aG15L+h5oGv44CBUlBDIOivt+axguWunuS9k+WPiuadpea6kOagh+ivhuOAggogICAgICogQHBhcmFtIHVzZXJJZCDnlKjmiLcgSUQKICAgICAqIEBwYXJhbSB1c2VySG9tZSDnlKjmiLfkuLvpobUgSlNPTiDlr7nosaEKICAgICAqIEBwYXJhbSBycGNFbnRpdHkgUlBDIOivt+axguWunuS9kwogICAgICogQHBhcmFtIGZyb21UYWcg5pS25Y+W5p2l5rqQ5qCH6K+GCiAgICAgKi8KICAgIHB1YmxpYyBDb2xsZWN0RW5lcmd5RW50aXR5KFN0cmluZyB1c2VySWQsIEpTT05PYmplY3QgdXNlckhvbWUsIFJwY0VudGl0eSBycGNFbnRpdHksIFN0cmluZyBmcm9tVGFnKSB7CiAgICAgICAgdGhpcy51c2VySWQgPSB1c2VySWQ7CiAgICAgICAgdGhpcy51c2VySG9tZSA9IHVzZXJIb21lOwogICAgICAgIHRoaXMucnBjRW50aXR5ID0gcnBjRW50aXR5OwogICAgICAgIHRoaXMuZnJvbVRhZyA9IGZyb21UYWc7CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5p6E6YCg5pa55rOV77yM5oyH5a6a55So5oi3IElE44CB55So5oi35Li76aG15L+h5oGv44CBUlBDIOivt+axguWunuS9k+OAgeadpea6kOagh+ivhuWPiuaYr+WQpui3s+i/h+mBk+WFt+ajgOafpeOAggogICAgICogQHBhcmFtIHVzZXJJZCDnlKjmiLcgSUQKICAgICAqIEBwYXJhbSB1c2VySG9tZSDnlKjmiLfkuLvpobUgSlNPTiDlr7nosaEKICAgICAqIEBwYXJhbSBycGNFbnRpdHkgUlBDIOivt+axguWunuS9kwogICAgICogQHBhcmFtIGZyb21UYWcg5pS25Y+W5p2l5rqQ5qCH6K+GCiAgICAgKiBAcGFyYW0gc2tpcFByb3BDaGVjayDmmK/lkKbot7Pov4fpgZPlhbfmo4Dmn6XvvIjnlKjkuo7lv6vpgJ/mlLblj5bpgJrpgZPvvIkKICAgICAqLwogICAgcHVibGljIENvbGxlY3RFbmVyZ3lFbnRpdHkoU3RyaW5nIHVzZXJJZCwgSlNPTk9iamVjdCB1c2VySG9tZSwgUnBjRW50aXR5IHJwY0VudGl0eSwgU3RyaW5nIGZyb21UYWcsIEJvb2xlYW4gc2tpcFByb3BDaGVjaykgewogICAgICAgIHRoaXMudXNlcklkID0gdXNlcklkOwogICAgICAgIHRoaXMudXNlckhvbWUgPSB1c2VySG9tZTsKICAgICAgICB0aGlzLnJwY0VudGl0eSA9IHJwY0VudGl0eTsKICAgICAgICB0aGlzLmZyb21UYWcgPSBmcm9tVGFnOwogICAgICAgIHRoaXMuc2tpcFByb3BDaGVjayA9IHNraXBQcm9wQ2hlY2s7CiAgICB9CiAgICAvKioKICAgICAqIOWinuWKoOWwneivleasoeaVsOOAggogICAgICogQHJldHVybiDmm7TmlrDlkI7nmoTlsJ3or5XmrKHmlbAKICAgICAqLwogICAgcHVibGljIEludGVnZXIgYWRkVHJ5Q291bnQoKSB7CiAgICAgICAgdGhpcy50cnlDb3VudCArPSAxOwogICAgICAgIHJldHVybiB0cnlDb3VudDsKICAgIH0KICAgIC8qKgogICAgICog6YeN572u5bCd6K+V5qyh5pWw5Li6IDDjgIIKICAgICAqLwogICAgcHVibGljIHZvaWQgcmVzZXRUcnlDb3VudCgpIHsKICAgICAgICB0aGlzLnRyeUNvdW50ID0gMDsKICAgIH0KICAgIC8qKgogICAgICog6K6+572u6ZyA6KaB57+75YCN77yM5bm25aKe5Yqg5pS26ZuG5qyh5pWw44CCCiAgICAgKi8KICAgIHB1YmxpYyB2b2lkIHNldE5lZWREb3VibGUoKSB7CiAgICAgICAgdGhpcy5jb2xsZWN0Q291bnQgKz0gMTsKICAgICAgICB0aGlzLm5lZWREb3VibGUgPSB0cnVlOwogICAgfQogICAgLyoqCiAgICAgKiDlj5bmtojpnIDopoHnv7vlgI3nirbmgIHjgIIKICAgICAqLwogICAgcHVibGljIHZvaWQgdW5zZXROZWVkRG91YmxlKCkgewogICAgICAgIHRoaXMubmVlZERvdWJsZSA9IGZhbHNlOwogICAgfQogICAgLyoqCiAgICAgKiDorr7nva7pnIDopoHph43or5XnirbmgIHjgIIKICAgICAqLwogICAgcHVibGljIHZvaWQgc2V0TmVlZFJldHJ5KCkgewogICAgICAgIHRoaXMubmVlZFJldHJ5ID0gdHJ1ZTsKICAgIH0KICAgIC8qKgogICAgICog5Y+W5raI6ZyA6KaB6YeN6K+V54q25oCB44CCCiAgICAgKi8KICAgIHB1YmxpYyB2b2lkIHVuc2V0TmVlZFJldHJ5KCkgewogICAgICAgIHRoaXMubmVlZFJldHJ5ID0gZmFsc2U7CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.entity;
+import lombok.Getter;
+import lombok.Setter;
+import org.json.JSONObject;
+/**
+ * 表示一个能量收集实体，包含用户信息及操作相关的状态。
+ */
+@Getter
+public class CollectEnergyEntity {
+    // 用户 ID
+    public  final String userId;
+    // 用户主页 JSON 对象
+    @Setter
+    public JSONObject userHome;
+    // RPC 请求实体
+    @Setter
+    public RpcEntity rpcEntity;
+    // 收集次数
+    private Integer collectCount = 0;
+    // 尝试次数
+    private Integer tryCount = 0;
+    // 是否需要翻倍
+    @Setter
+    public Boolean needDouble = false;
+    // 是否需要重试
+    @Setter
+    public Boolean needRetry = false;
+    // 收取来源标识
+    @Setter
+    public String fromTag;
+    // 是否跳过道具检查（用于蹲点收取快速通道）
+    @Setter
+    public Boolean skipPropCheck = false;
+    /**
+     * 构造方法，仅指定用户 ID。
+     * @param userId 用户 ID
+     */
+    public CollectEnergyEntity(String userId) {
+        this.userId = userId;
+    }
+    /**
+     * 构造方法，指定用户 ID 和用户主页信息。
+     * @param userId 用户 ID
+     * @param userHome 用户主页 JSON 对象
+     */
+    public CollectEnergyEntity(String userId, JSONObject userHome) {
+        this.userId = userId;
+        this.userHome = userHome;
+    }
+    /**
+     * 构造方法，指定用户 ID、用户主页信息及 RPC 请求实体。
+     * @param userId 用户 ID
+     * @param userHome 用户主页 JSON 对象
+     * @param rpcEntity RPC 请求实体
+     */
+    public CollectEnergyEntity(String userId, JSONObject userHome, RpcEntity rpcEntity) {
+        this.userId = userId;
+        this.userHome = userHome;
+        this.rpcEntity = rpcEntity;
+    }
+    
+    /**
+     * 构造方法，指定用户 ID、用户主页信息、RPC 请求实体及来源标识。
+     * @param userId 用户 ID
+     * @param userHome 用户主页 JSON 对象
+     * @param rpcEntity RPC 请求实体
+     * @param fromTag 收取来源标识
+     */
+    public CollectEnergyEntity(String userId, JSONObject userHome, RpcEntity rpcEntity, String fromTag) {
+        this.userId = userId;
+        this.userHome = userHome;
+        this.rpcEntity = rpcEntity;
+        this.fromTag = fromTag;
+    }
+    
+    /**
+     * 构造方法，指定用户 ID、用户主页信息、RPC 请求实体、来源标识及是否跳过道具检查。
+     * @param userId 用户 ID
+     * @param userHome 用户主页 JSON 对象
+     * @param rpcEntity RPC 请求实体
+     * @param fromTag 收取来源标识
+     * @param skipPropCheck 是否跳过道具检查（用于快速收取通道）
+     */
+    public CollectEnergyEntity(String userId, JSONObject userHome, RpcEntity rpcEntity, String fromTag, Boolean skipPropCheck) {
+        this.userId = userId;
+        this.userHome = userHome;
+        this.rpcEntity = rpcEntity;
+        this.fromTag = fromTag;
+        this.skipPropCheck = skipPropCheck;
+    }
+    /**
+     * 增加尝试次数。
+     * @return 更新后的尝试次数
+     */
+    public Integer addTryCount() {
+        this.tryCount += 1;
+        return tryCount;
+    }
+    /**
+     * 重置尝试次数为 0。
+     */
+    public void resetTryCount() {
+        this.tryCount = 0;
+    }
+    /**
+     * 设置需要翻倍，并增加收集次数。
+     */
+    public void setNeedDouble() {
+        this.collectCount += 1;
+        this.needDouble = true;
+    }
+    /**
+     * 取消需要翻倍状态。
+     */
+    public void unsetNeedDouble() {
+        this.needDouble = false;
+    }
+    /**
+     * 设置需要重试状态。
+     */
+    public void setNeedRetry() {
+        this.needRetry = true;
+    }
+    /**
+     * 取消需要重试状态。
+     */
+    public void unsetNeedRetry() {
+        this.needRetry = false;
+    }
+}

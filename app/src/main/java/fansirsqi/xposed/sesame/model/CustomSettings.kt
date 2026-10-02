@@ -1,1 +1,331 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5hcHBjb21wYXQuYXBwLkFsZXJ0RGlhbG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5SCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhLlN0YXR1cwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuZW50aXR5Lk1hcHBlckVudGl0eQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5Cb29sZWFuTW9kZWxGaWVsZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5MaXN0TW9kZWxGaWVsZC5MaXN0Sm9pbkNvbW1hVG9TdHJpbmdNb2RlbEZpZWxkCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0LlNlbGVjdE1vZGVsRmllbGQKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLndpZGdldC5MaXN0RGlhbG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkZhbnNpcnNxaVV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRmlsZXMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuSnNvblV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTGlzdFV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlRpbWVVdGlsCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlRvYXN0VXRpbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLlVzZXJNYXAKaW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkZpZWxkCmltcG9ydCBqYXZhLnRleHQuU2ltcGxlRGF0ZUZvcm1hdAppbXBvcnQgamF2YS51dGlsLkRhdGUKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKCi8qKgogKiDoh6rlrprkuYnorr7nva7nrqHnkIbnsbsKICog6LSf6LSj4oCc5q+P5pel5Y2V5qyh6L+Q6KGM4oCd5Yqf6IO955qE6YC76L6R5bCB6KOF44CB6YWN572u5oyB5LmF5YyW5Y+KIFVJIOS6pOS6kuOAggogKi8Kb2JqZWN0IEN1c3RvbVNldHRpbmdzIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJDdXN0b21TZXR0aW5ncyIKCiAgICB2YWwgb25seU9uY2VEYWlseSA9IEJvb2xlYW5Nb2RlbEZpZWxkKCJvbmx5T25jZURhaWx5IiwgIumAieS4reavj+aXpeWPqui/kOihjOS4gOasoeeahOaooeWdlyIsIGZhbHNlKQogICAgdmFsIGF1dG9IYW5kbGVPbmNlRGFpbHkgPSBCb29sZWFuTW9kZWxGaWVsZCgiYXV0b0hhbmRsZU9uY2VEYWlseSIsICLlrprml7boh6rliqjlhbPpl63ljZXmrKHov5DooYwiLCBmYWxzZSkKCiAgICB2YWwgYXV0b0hhbmRsZU9uY2VEYWlseVRpbWVzID0gTGlzdEpvaW5Db21tYVRvU3RyaW5nTW9kZWxGaWVsZCgKICAgICAgICAiYXV0b0hhbmRsZU9uY2VEYWlseVRpbWVzIiwKICAgICAgICAi6Ieq5Yqo5YWo6YeP5pe26Ze054K5IiwKICAgICAgICBMaXN0VXRpbC5uZXdBcnJheUxpc3QoIjA2MDAiLCAiMjAwMCIpCiAgICApCgogICAgdmFsIG9ubHlPbmNlRGFpbHlMaXN0ID0gU2VsZWN0TW9kZWxGaWVsZCgKICAgICAgICAib25seU9uY2VEYWlseUxpc3QiLAogICAgICAgICLmr4/ml6Xlj6rov5DooYzkuIDmrKEgfCDmqKHlnZfpgInmi6kiLAogICAgICAgIExpbmtlZEhhc2hTZXQ8U3RyaW5nPigpLmFwcGx5IHsKICAgICAgICAgICAgYWRkKCJhbnRPcmNoYXJkIikKICAgICAgICAgICAgYWRkKCJhbnRDb29wZXJhdGUiKQogICAgICAgICAgICBhZGQoImFudFNwb3J0cyIpCiAgICAgICAgICAgIGFkZCgiYW50TWVtYmVyIikKICAgICAgICAgICAgYWRkKCJFY29Qcm90ZWN0aW9uIikKICAgICAgICAgICAgYWRkKCJncmVlbkZpbmFuY2UiKQogICAgICAgICAgICBhZGQoInJlc2VydmUiKQogICAgICAgIH0sCiAgICAgICAgZ2V0TW9kdWxlTGlzdCgpCiAgICApCgogICAgcHJpdmF0ZSBmdW4gZ2V0TW9kdWxlTGlzdCgpOiBMaXN0PE1hcHBlckVudGl0eT4gewogICAgICAgIHJldHVybiBsaXN0T2YoCiAgICAgICAgICAgIFNpbXBsZUVudGl0eSgiYW50Rm9yZXN0IiwgIuiaguiageajruaelyIpLAogICAgICAgICAgICBTaW1wbGVFbnRpdHkoImFudEZhcm0iLCAi6JqC6JqB5bqE5ZutIiksCiAgICAgICAgICAgIFNpbXBsZUVudGl0eSgiYW50T2NlYW4iLCAi5rW35rSLIiksCiAgICAgICAgICAgIFNpbXBsZUVudGl0eSgiYW50T3JjaGFyZCIsICLlhpzlnLoiKSwKICAgICAgICAgICAgU2ltcGxlRW50aXR5KCJhbnRTdGFsbCIsICLmlrDmnZEiKSwKICAgICAgICAgICAgU2ltcGxlRW50aXR5KCJhbnREb2RvIiwgIuelnuWlh+eJqeenjSIpLAogICAgICAgICAgICBTaW1wbGVFbnRpdHkoImFudENvb3BlcmF0ZSIsICLomoLomoHmo67mnpflkIjnp40iKSwKICAgICAgICAgICAgU2ltcGxlRW50aXR5KCJhbnRTcG9ydHMiLCAi6L+Q5YqoIiksCiAgICAgICAgICAgIFNpbXBsZUVudGl0eSgiYW50TWVtYmVyIiwgIuS8muWRmCIpLAogICAgICAgICAgICBTaW1wbGVFbnRpdHkoIkVjb1Byb3RlY3Rpb24iLCAi55Sf5oCB5L+d5oqkIiksCiAgICAgICAgICAgIFNpbXBsZUVudGl0eSgiZ3JlZW5GaW5hbmNlIiwgIue7v+iJsue7j+iQpSIpLAogICAgICAgICAgICBTaW1wbGVFbnRpdHkoInJlc2VydmUiLCAi5L+d5oqk5ZywIiksCiAgICAgICAgICAgIFNpbXBsZUVudGl0eSgib3RoZXIiLCAi5YW25LuW5Lu75YqhIikKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2V0VXNlckRpc3BsYXlOYW1lTGlzdCgpOiBQYWlyPExpc3Q8U3RyaW5nPiwgTGlzdDxTdHJpbmc+PiB7CiAgICAgICAgdmFsIHVpZHMgPSBGYW5zaXJzcWlVdGlsLmdldEZvbGRlckxpc3QoRmlsZXMuQ09ORklHX0RJUi5hYnNvbHV0ZVBhdGgpCiAgICAgICAgdmFsIGRpc3BsYXlOYW1lcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgdmFsIHZhbGlkVWlkcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgdmFsIGJhY2t1cFVpZCA9IFVzZXJNYXAuY3VycmVudFVpZAogICAgICAgIHVpZHMuZm9yRWFjaCB7IHVpZCAtPgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgVXNlck1hcC5sb2FkU2VsZih1aWQpCiAgICAgICAgICAgICAgICB2YWwgdXNlciA9IFVzZXJNYXAuZ2V0KHVpZCkKICAgICAgICAgICAgICAgIGRpc3BsYXlOYW1lcy5hZGQodXNlcj8uc2hvd05hbWUgPzogdWlkKQogICAgICAgICAgICAgICAgdmFsaWRVaWRzLmFkZCh1aWQpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgZGlzcGxheU5hbWVzLmFkZCh1aWQpCiAgICAgICAgICAgICAgICB2YWxpZFVpZHMuYWRkKHVpZCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpZiAoIWJhY2t1cFVpZC5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgVXNlck1hcC5zZXRDdXJyZW50VXNlcklkKGJhY2t1cFVpZCkKICAgICAgICAgICAgVXNlck1hcC5sb2FkU2VsZihiYWNrdXBVaWQpCiAgICAgICAgfQogICAgICAgIHJldHVybiBQYWlyKGRpc3BsYXlOYW1lcywgdmFsaWRVaWRzKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc2V0VG9EZWZhdWx0KCkgewogICAgICAgIG9ubHlPbmNlRGFpbHkuc2V0T2JqZWN0VmFsdWUoZmFsc2UpCiAgICAgICAgYXV0b0hhbmRsZU9uY2VEYWlseS5zZXRPYmplY3RWYWx1ZShmYWxzZSkKICAgICAgICBhdXRvSGFuZGxlT25jZURhaWx5VGltZXMuc2V0T2JqZWN0VmFsdWUoTGlzdFV0aWwubmV3QXJyYXlMaXN0KCIwNjAwIiwgIjIwMDAiKSkKICAgICAgICB2YWwgZGVmYXVsdFNldCA9IExpbmtlZEhhc2hTZXQ8U3RyaW5nPigpLmFwcGx5IHsKICAgICAgICAgICAgYWRkKCJhbnRPcmNoYXJkIikKICAgICAgICAgICAgYWRkKCJhbnRDb29wZXJhdGUiKQogICAgICAgICAgICBhZGQoImFudFNwb3J0cyIpCiAgICAgICAgICAgIGFkZCgiYW50TWVtYmVyIikKICAgICAgICAgICAgYWRkKCJFY29Qcm90ZWN0aW9uIikKICAgICAgICAgICAgYWRkKCJncmVlbkZpbmFuY2UiKQogICAgICAgICAgICBhZGQoInJlc2VydmUiKQogICAgICAgIH0KICAgICAgICBvbmx5T25jZURhaWx5TGlzdC5zZXRPYmplY3RWYWx1ZShkZWZhdWx0U2V0KQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBzYXZlKHVzZXJJZDogU3RyaW5nKSB7CiAgICAgICAgaWYgKHVzZXJJZC5pc0VtcHR5KCkpIHJldHVybgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBmaWxlID0gRmlsZXMuZ2V0Q3VzdG9tU2V0RmlsZSh1c2VySWQpCiAgICAgICAgICAgIHZhbCBkYXRhID0gbXV0YWJsZU1hcE9mPFN0cmluZywgQW55Pz4oKQogICAgICAgICAgICBkYXRhW29ubHlPbmNlRGFpbHkuY29kZV0gPSBvbmx5T25jZURhaWx5LnZhbHVlCiAgICAgICAgICAgIGRhdGFbb25seU9uY2VEYWlseUxpc3QuY29kZV0gPSBvbmx5T25jZURhaWx5TGlzdC52YWx1ZQogICAgICAgICAgICBkYXRhW2F1dG9IYW5kbGVPbmNlRGFpbHkuY29kZV0gPSBhdXRvSGFuZGxlT25jZURhaWx5LnZhbHVlCiAgICAgICAgICAgIGRhdGFbYXV0b0hhbmRsZU9uY2VEYWlseVRpbWVzLmNvZGVdID0gYXV0b0hhbmRsZU9uY2VEYWlseVRpbWVzLnZhbHVlCiAgICAgICAgICAgIHZhbCBqc29uID0gSnNvblV0aWwuZm9ybWF0SnNvbihkYXRhKQogICAgICAgICAgICBpZiAoanNvbiAhPSBudWxsKSBGaWxlcy53cml0ZTJGaWxlKGpzb24sIGZpbGUhISkKICAgICAgICB9IGNhdGNoIChlOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJGYWlsZWQgdG8gc2F2ZSBjdXN0b20gc2V0dGluZ3MiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gbG9hZCh1c2VySWQ6IFN0cmluZykgewogICAgICAgIGlmICh1c2VySWQuaXNFbXB0eSgpKSByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZmlsZSA9IEZpbGVzLmdldEN1c3RvbVNldEZpbGUodXNlcklkKQogICAgICAgICAgICBpZiAoIWZpbGUhIS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgcmVzZXRUb0RlZmF1bHQoKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGpzb24gPSBGaWxlcy5yZWFkRnJvbUZpbGUoZmlsZSkKICAgICAgICAgICAgaWYgKGpzb24uaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICByZXNldFRvRGVmYXVsdCgpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgZGF0YSA9IEpzb25VdGlsLmNvcHlNYXBwZXIoKS5yZWFkVmFsdWUoanNvbiwgTWFwOjpjbGFzcy5qYXZhKQogICAgICAgICAgICBpZiAoZGF0YS5jb250YWluc0tleShvbmx5T25jZURhaWx5LmNvZGUpKSBvbmx5T25jZURhaWx5LnNldE9iamVjdFZhbHVlKGRhdGFbb25seU9uY2VEYWlseS5jb2RlXSkKICAgICAgICAgICAgaWYgKGRhdGEuY29udGFpbnNLZXkob25seU9uY2VEYWlseUxpc3QuY29kZSkpIG9ubHlPbmNlRGFpbHlMaXN0LnNldE9iamVjdFZhbHVlKGRhdGFbb25seU9uY2VEYWlseUxpc3QuY29kZV0pCiAgICAgICAgICAgIGlmIChkYXRhLmNvbnRhaW5zS2V5KGF1dG9IYW5kbGVPbmNlRGFpbHkuY29kZSkpIGF1dG9IYW5kbGVPbmNlRGFpbHkuc2V0T2JqZWN0VmFsdWUoZGF0YVthdXRvSGFuZGxlT25jZURhaWx5LmNvZGVdKQogICAgICAgICAgICBpZiAoZGF0YS5jb250YWluc0tleShhdXRvSGFuZGxlT25jZURhaWx5VGltZXMuY29kZSkpIGF1dG9IYW5kbGVPbmNlRGFpbHlUaW1lcy5zZXRPYmplY3RWYWx1ZShkYXRhW2F1dG9IYW5kbGVPbmNlRGFpbHlUaW1lcy5jb2RlXSkKICAgICAgICB9IGNhdGNoIChlOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsICJGYWlsZWQgdG8gbG9hZCBjdXN0b20gc2V0dGluZ3MiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gbG9hZEZvclRhc2tSdW5uZXIoKSB7CiAgICAgICAgdmFsIGN1cnJlbnRVaWQgPSBVc2VyTWFwLmN1cnJlbnRVaWQKICAgICAgICBpZiAoIWN1cnJlbnRVaWQuaXNOdWxsT3JFbXB0eSgpKSBsb2FkKGN1cnJlbnRVaWQpCiAgICB9CgogICAgZnVuIGdldE1vZHVsZUlkKHRhc2tJbmZvOiBTdHJpbmc/KTogU3RyaW5nPyB7CiAgICAgICAgaWYgKHRhc2tJbmZvID09IG51bGwpIHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIHdoZW4gewogICAgICAgICAgICB0YXNrSW5mby5jb250YWlucygi5ZCI56eNIikgfHwgdGFza0luZm8uY29udGFpbnMoImFudENvb3BlcmF0ZSIpIC0+ICJhbnRDb29wZXJhdGUiCiAgICAgICAgICAgIHRhc2tJbmZvLmNvbnRhaW5zKCLomoLomoHmo67mnpciKSB8fCB0YXNrSW5mby5jb250YWlucygiYW50Rm9yZXN0IikgLT4gImFudEZvcmVzdCIKICAgICAgICAgICAgdGFza0luZm8uY29udGFpbnMoIuiaguiageW6hOWbrSIpIHx8IHRhc2tJbmZvLmNvbnRhaW5zKCJhbnRGYXJtIikgLT4gImFudEZhcm0iCiAgICAgICAgICAgIHRhc2tJbmZvLmNvbnRhaW5zKCLmtbfmtIsiKSB8fCB0YXNrSW5mby5jb250YWlucygiYW50T2NlYW4iKSAtPiAiYW50T2NlYW4iCiAgICAgICAgICAgIHRhc2tJbmZvLmNvbnRhaW5zKCLlhpzlnLoiKSB8fCB0YXNrSW5mby5jb250YWlucygiYW50T3JjaGFyZCIpIC0+ICJhbnRPcmNoYXJkIgogICAgICAgICAgICB0YXNrSW5mby5jb250YWlucygi5paw5p2RIikgfHwgdGFza0luZm8uY29udGFpbnMoImFudFN0YWxsIikgLT4gImFudFN0YWxsIgogICAgICAgICAgICB0YXNrSW5mby5jb250YWlucygi56We5aWH54mp56eNIikgfHwgdGFza0luZm8uY29udGFpbnMoImFudERvZG8iKSAtPiAiYW50RG9kbyIKICAgICAgICAgICAgdGFza0luZm8uY29udGFpbnMoIui/kOWKqCIpIHx8IHRhc2tJbmZvLmNvbnRhaW5zKCJhbnRTcG9ydHMiKSAtPiAiYW50U3BvcnRzIgogICAgICAgICAgICB0YXNrSW5mby5jb250YWlucygi5Lya5ZGYIikgfHwgdGFza0luZm8uY29udGFpbnMoImFudE1lbWJlciIpIC0+ICJhbnRNZW1iZXIiCiAgICAgICAgICAgIHRhc2tJbmZvLmNvbnRhaW5zKCLnlJ/mgIHkv53miqQiKSB8fCB0YXNrSW5mby5jb250YWlucygiRWNvUHJvdGVjdGlvbiIpIC0+ICJFY29Qcm90ZWN0aW9uIgogICAgICAgICAgICB0YXNrSW5mby5jb250YWlucygi57u/6Imy57uP6JClIikgfHwgdGFza0luZm8uY29udGFpbnMoImdyZWVuRmluYW5jZSIpIC0+ICJncmVlbkZpbmFuY2UiCiAgICAgICAgICAgIHRhc2tJbmZvLmNvbnRhaW5zKCLkv53miqTlnLAiKSB8fCB0YXNrSW5mby5jb250YWlucygicmVzZXJ2ZSIpIC0+ICJyZXNlcnZlIgogICAgICAgICAgICB0YXNrSW5mby5jb250YWlucygi5YW25LuW5Lu75YqhIikgfHwgdGFza0luZm8uY29udGFpbnMoIm90aGVyIikgLT4gIm90aGVyIgogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgZnVuIGlzT25jZURhaWx5QmxhY2tMaXN0ZWQodGFza0luZm86IFN0cmluZz8sIHN0YXR1czogT25jZURhaWx5U3RhdHVzPyA9IG51bGwpOiBCb29sZWFuIHsKICAgICAgICB2YWwgcyA9IHN0YXR1cyA/OiBnZXRPbmNlRGFpbHlTdGF0dXMoZmFsc2UpCiAgICAgICAgLy8g5Y+q5pyJ5b2T5Y2V5qyh6L+Q6KGM5qih5byP55Sf5pWI77yM5LiU5LuK5pel5bey57uP5a6M5oiQ6L+H6aaW6L2u5YWo6YeP6L+Q6KGM55qE5oOF5Ya15LiL77yM5omN5omn6KGM6buR5ZCN5Y2V5o6S6ZmkCiAgICAgICAgaWYgKHMuaXNFbmFibGVkT3ZlcnJpZGUgJiYgcy5pc0ZpbmlzaGVkVG9kYXkpIHsKICAgICAgICAgICAgdmFsIG1vZHVsZUlkID0gZ2V0TW9kdWxlSWQodGFza0luZm8pCiAgICAgICAgICAgIGlmIChtb2R1bGVJZCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gb25seU9uY2VEYWlseUxpc3QudmFsdWUuY29udGFpbnMobW9kdWxlSWQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CgogICAgZGF0YSBjbGFzcyBPbmNlRGFpbHlTdGF0dXMoCiAgICAgICAgdmFsIGlzRW5hYmxlZE92ZXJyaWRlOiBCb29sZWFuLAogICAgICAgIHZhbCBpc0ZpbmlzaGVkVG9kYXk6IEJvb2xlYW4KICAgICkKCiAgICBASnZtU3RhdGljCiAgICBmdW4gZ2V0T25jZURhaWx5U3RhdHVzKGVuYWJsZUxvZzogQm9vbGVhbiA9IGZhbHNlKTogT25jZURhaWx5U3RhdHVzIHsKICAgICAgICB2YWwgY29uZmlnRW5hYmxlZCA9IG9ubHlPbmNlRGFpbHkudmFsdWUgPT0gdHJ1ZQogICAgICAgIHZhbCBpc0ZpbmlzaGVkID0gdHJ5IHsKICAgICAgICAgICAgU3RhdHVzLmhhc0ZsYWdUb2RheSgiT25jZURhaWx5OjpGaW5pc2hlZCIpCiAgICAgICAgfSBjYXRjaCAoZTogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQoKICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB2YWwgaW50ZXJ2YWwgPSBCYXNlTW9kZWwuY2hlY2tJbnRlcnZhbC52YWx1ZS50b0xvbmcoKQogICAgICAgIHZhbCBpc1NwZWNpYWxUaW1lID0gYXV0b0hhbmRsZU9uY2VEYWlseVRpbWVzLnZhbHVlLmFueSB7IHRpbWVTdHIgLT4KICAgICAgICAgICAgdmFsIHN0YXJ0Q2FsID0gVGltZVV0aWwuZ2V0VG9kYXlDYWxlbmRhckJ5VGltZVN0cih0aW1lU3RyKQogICAgICAgICAgICBpZiAoc3RhcnRDYWwgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgdmFsIHN0YXJ0VGltZSA9IHN0YXJ0Q2FsLnRpbWVJbk1pbGxpcwogICAgICAgICAgICAgICAgdmFsIGVuZFRpbWUgPSBzdGFydFRpbWUgKyBpbnRlcnZhbAogICAgICAgICAgICAgICAgbm93IGluIHN0YXJ0VGltZS4uZW5kVGltZQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFyIGlzRW5hYmxlZCA9IGNvbmZpZ0VuYWJsZWQKCiAgICAgICAgaWYgKGlzU3BlY2lhbFRpbWUgJiYgYXV0b0hhbmRsZU9uY2VEYWlseS52YWx1ZSkgewogICAgICAgICAgICBpc0VuYWJsZWQgPSBmYWxzZQogICAgICAgICAgICBpZiAoZW5hYmxlTG9nKSBMb2cucmVjb3JkKCLoh6rliqjljZXmrKHov5DooYzop6blj5E6IOeOsOWcqOWkhOS6juiHquWKqOWFqOmHj+i/kOihjOaXtuaute+8jOacrOasoeWwhui/kOihjOaJgOacieW3suW8gOWQr+eahOS7u+WKoSIpCiAgICAgICAgfSBlbHNlIGlmIChlbmFibGVMb2cgJiYgYXV0b0hhbmRsZU9uY2VEYWlseS52YWx1ZSkgewogICAgICAgICAgICB2YWwgc2RmID0gU2ltcGxlRGF0ZUZvcm1hdCgiSEhtbSIsIExvY2FsZS5nZXREZWZhdWx0KCkpCiAgICAgICAgICAgIHZhbCByYW5nZXMgPSBhdXRvSGFuZGxlT25jZURhaWx5VGltZXMudmFsdWUubWFwTm90TnVsbCB7IHRpbWVTdHIgLT4KICAgICAgICAgICAgICAgIFRpbWVVdGlsLmdldFRvZGF5Q2FsZW5kYXJCeVRpbWVTdHIodGltZVN0cik/LmxldCB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGVuZFRpbWUgPSBpdC50aW1lSW5NaWxsaXMgKyBpbnRlcnZhbAogICAgICAgICAgICAgICAgICAgICIkdGltZVN0ci0ke3NkZi5mb3JtYXQoRGF0ZShlbmRUaW1lKSl9IgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LmpvaW5Ub1N0cmluZygiLCAiKQogICAgICAgICAgICBMb2cucmVjb3JkKCLlt7Lorr7nva7oh6rliqjlhajph4/ov5DooYzvvIzml7bmrrXkuLrvvJokcmFuZ2VzIikKICAgICAgICB9CgogICAgICAgIC8vIOWmguaenOS7iuaXpeWwmuacquWujOaIkOmmluasoeWFqOmHj+i/kOihjO+8jOWImeS4jeWQr+eUqOKAnOi3s+i/h+KAneaLpuaIqumAu+i+kQogICAgICAgIGlmIChpc0VuYWJsZWQgJiYgIWlzRmluaXNoZWQpIHsKICAgICAgICAgICAgaXNFbmFibGVkID0gZmFsc2UKICAgICAgICAgICAgaWYgKGVuYWJsZUxvZykgTG9nLnJlY29yZCgi5b2T5pel5Y2V5qyh6L+Q6KGM5qih5byP55Sf5pWIOiDku4rml6XlsJrmnKrlrozmiJDpppbmrKHlhajph4/ov5DooYzvvIzmnKzmrKHlsIbov5DooYzmiYDmnInku7vliqEiKQogICAgICAgIH0gZWxzZSBpZiAoaXNFbmFibGVkKSB7CiAgICAgICAgICAgIGlmIChlbmFibGVMb2cpIExvZy5yZWNvcmQoIuW9k+aXpeWNleasoei/kOihjOaooeW8j+eUn+aViDog5LuK5pel5bey5a6M5oiQ5YWo6YeP6L+Q6KGM77yM5bey5ZCv55So6Lez6L+H6buR5ZCN5Y2V5Lu75YqhIikKICAgICAgICB9CgogICAgICAgIHJldHVybiBPbmNlRGFpbHlTdGF0dXMoaXNFbmFibGVkLCBpc0ZpbmlzaGVkKQogICAgfQoKCiAgICBASnZtU3RhdGljCiAgICBmdW4gc2hvd1NpbmdsZVJ1bk1lbnUoY29udGV4dDogQ29udGV4dCwgb25SZWZyZXNoOiAoKSAtPiBVbml0KSB7CiAgICAgICAgdmFsIChkaXNwbGF5TmFtZXMsIHVzZXJJZHMpID0gZ2V0VXNlckRpc3BsYXlOYW1lTGlzdCgpCiAgICAgICAgaWYgKHVzZXJJZHMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIFRvYXN0VXRpbC5zaG93VG9hc3QoY29udGV4dCwgIuacquWPkeeOsOS7u+S9leeUqOaIt+mFjee9riIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBBbGVydERpYWxvZy5CdWlsZGVyKGNvbnRleHQpCiAgICAgICAgICAgIC5zZXRUaXRsZSgi6K+36YCJ5oup5pON5L2c55uu5qCH6LSm5Y+3IikKICAgICAgICAgICAgLnNldEl0ZW1zKGRpc3BsYXlOYW1lcy50b1R5cGVkQXJyYXkoKSkgeyBfLCB3aGljaCAtPgogICAgICAgICAgICAgICAgdmFsIHNlbGVjdGVkVWlkID0gdXNlcklkc1t3aGljaF0KICAgICAgICAgICAgICAgIHZhbCBzZWxlY3RlZFNob3dOYW1lID0gZGlzcGxheU5hbWVzW3doaWNoXQogICAgICAgICAgICAgICAgbG9hZChzZWxlY3RlZFVpZCkKICAgICAgICAgICAgICAgIHNob3dBY2NvdW50T3BzKGNvbnRleHQsIHNlbGVjdGVkVWlkLCBzZWxlY3RlZFNob3dOYW1lLCBvblJlZnJlc2gpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLnNldE5lZ2F0aXZlQnV0dG9uKFIuc3RyaW5nLmNhbmNlbCwgbnVsbCkKICAgICAgICAgICAgLnNob3coKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNob3dBY2NvdW50T3BzKGNvbnRleHQ6IENvbnRleHQsIHVpZDogU3RyaW5nLCBzaG93TmFtZTogU3RyaW5nLCBvblJlZnJlc2g6ICgpIC0+IFVuaXQpIHsKICAgICAgICB2YWwgaXNGaW5pc2hlZCA9IHRyeSB7CiAgICAgICAgICAgIFN0YXR1cy5oYXNGbGFnVG9kYXkoIk9uY2VEYWlseTo6RmluaXNoZWQiKQogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgICAgICB2YWwgc3RhdHVzVGV4dCA9IHdoZW4gewogICAgICAgICAgICAhb25seU9uY2VEYWlseS52YWx1ZSAtPiAi5Y2V5qyh6L+Q6KGM77ya5bey5YWz6ZetIgogICAgICAgICAgICBhdXRvSGFuZGxlT25jZURhaWx5LnZhbHVlIC0+ICLljZXmrKHov5DooYzvvJroh6rliqjmqKHlvI8iCiAgICAgICAgICAgIGlzRmluaXNoZWQgLT4gIuWNleasoei/kOihjO+8muS7iuaXpeW3suWujOaIkCIKICAgICAgICAgICAgZWxzZSAtPiAi5Y2V5qyh6L+Q6KGM77ya5bey5byA5ZCvIgogICAgICAgIH0KICAgICAgICB2YWwgb3BzID0gYXJyYXlPZihzdGF0dXNUZXh0LCAi6K6+572u6buR5ZCN5Y2V5qih5Z2XIiwgIuiuvue9rumdnuWNleasoei/kOihjOeahOaXtuautSIpCiAgICAgICAgQWxlcnREaWFsb2cuQnVpbGRlcihjb250ZXh0KQogICAgICAgICAgICAuc2V0VGl0bGUoIui0puWPt++8miRzaG93TmFtZSIpCiAgICAgICAgICAgIC5zZXRJdGVtcyhvcHMpIHsgXywgd2hpY2ggLT4KICAgICAgICAgICAgICAgIGlmICh3aGljaCA9PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGN1cnJlbnRPbmx5T25jZSA9IG9ubHlPbmNlRGFpbHkudmFsdWUgPT0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIHZhbCBjdXJyZW50QXV0byA9IGF1dG9IYW5kbGVPbmNlRGFpbHkudmFsdWUgPT0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIGlmICghY3VycmVudE9ubHlPbmNlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG9ubHlPbmNlRGFpbHkudmFsdWUgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgIGF1dG9IYW5kbGVPbmNlRGFpbHkudmFsdWUgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoIWN1cnJlbnRBdXRvKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGF1dG9IYW5kbGVPbmNlRGFpbHkudmFsdWUgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgb25seU9uY2VEYWlseS52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgIGF1dG9IYW5kbGVPbmNlRGFpbHkudmFsdWUgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzYXZlKHVpZCkKICAgICAgICAgICAgICAgICAgICBvblJlZnJlc2goKQogICAgICAgICAgICAgICAgICAgIHNob3dBY2NvdW50T3BzKGNvbnRleHQsIHVpZCwgc2hvd05hbWUsIG9uUmVmcmVzaCkKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAod2hpY2ggPT0gMSkgewogICAgICAgICAgICAgICAgICAgIExpc3REaWFsb2cuc2hvdyhjb250ZXh0LCAi6buR5ZCN5Y2VIHwgJHNob3dOYW1lIiwgb25seU9uY2VEYWlseUxpc3QpCiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGRpYWxvZ0ZpZWxkOiBGaWVsZCA9IExpc3REaWFsb2c6OmNsYXNzLmphdmEuZ2V0RGVjbGFyZWRGaWVsZCgibGlzdERpYWxvZyIpCiAgICAgICAgICAgICAgICAgICAgICAgIGRpYWxvZ0ZpZWxkLmlzQWNjZXNzaWJsZSA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGRpYWxvZyA9IGRpYWxvZ0ZpZWxkLmdldChudWxsKSBhcz8gYW5kcm9pZHguYXBwY29tcGF0LmFwcC5BbGVydERpYWxvZwogICAgICAgICAgICAgICAgICAgICAgICBkaWFsb2c/LnNldE9uRGlzbWlzc0xpc3RlbmVyIHsgc2F2ZSh1aWQpIH0KICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKHdoaWNoID09IDIpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgZWR0ID0gYW5kcm9pZC53aWRnZXQuRWRpdFRleHQoY29udGV4dCkKICAgICAgICAgICAgICAgICAgICBlZHQuc2V0VGV4dChhdXRvSGFuZGxlT25jZURhaWx5VGltZXMuY29uZmlnVmFsdWUpCiAgICAgICAgICAgICAgICAgICAgQWxlcnREaWFsb2cuQnVpbGRlcihjb250ZXh0KQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0VGl0bGUoIuiuvue9riAke3Nob3dOYW1lfSDpnZ7ljZXmrKHov5DooYzml7bmrrUiKQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0TWVzc2FnZSgi6L6T5YWl5byA5aeL5pe26Ze054K5KOWmgjA2MDAp77yM5aSa5Liq55So6YCX5Y+36ZqU5byA44CC5pe25q615Li66K+l5pe26Ze054K55YqgXCLorr7nva5cIuS4reeahOaJp+ihjOmXtOmalOaXtumXtCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5zZXRWaWV3KGVkdCkKICAgICAgICAgICAgICAgICAgICAgICAgLnNldFBvc2l0aXZlQnV0dG9uKFIuc3RyaW5nLm9rKSB7IF8sIF8gLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1dG9IYW5kbGVPbmNlRGFpbHlUaW1lcy5zZXRDb25maWdWYWx1ZShlZHQudGV4dC50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2F2ZSh1aWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaG93QWNjb3VudE9wcyhjb250ZXh0LCB1aWQsIHNob3dOYW1lLCBvblJlZnJlc2gpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgLnNldE5lZ2F0aXZlQnV0dG9uKFIuc3RyaW5nLmNhbmNlbCwgbnVsbCkKICAgICAgICAgICAgICAgICAgICAgICAgLnNob3coKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIC5zZXROZWdhdGl2ZUJ1dHRvbigi6L+U5ZueIiwgbnVsbCkKICAgICAgICAgICAgLnNob3coKQogICAgfQp9Cgpwcml2YXRlIGNsYXNzIFNpbXBsZUVudGl0eShpZDogU3RyaW5nLCBuYW1lOiBTdHJpbmcpIDogTWFwcGVyRW50aXR5KCkgewogICAgaW5pdCB7CiAgICAgICAgdGhpcy5pZCA9IGlkCiAgICAgICAgdGhpcy5uYW1lID0gbmFtZQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.model
+
+import android.content.Context
+import androidx.appcompat.app.AlertDialog
+import fansirsqi.xposed.sesame.R
+import fansirsqi.xposed.sesame.data.Status
+import fansirsqi.xposed.sesame.entity.MapperEntity
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.ListModelField.ListJoinCommaToStringModelField
+import fansirsqi.xposed.sesame.model.modelFieldExt.SelectModelField
+import fansirsqi.xposed.sesame.ui.widget.ListDialog
+import fansirsqi.xposed.sesame.util.FansirsqiUtil
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.JsonUtil
+import fansirsqi.xposed.sesame.util.ListUtil
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.TimeUtil
+import fansirsqi.xposed.sesame.util.ToastUtil
+import fansirsqi.xposed.sesame.util.maps.UserMap
+import java.lang.reflect.Field
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+/**
+ * 自定义设置管理类
+ * 负责“每日单次运行”功能的逻辑封装、配置持久化及 UI 交互。
+ */
+object CustomSettings {
+    private const val TAG = "CustomSettings"
+
+    val onlyOnceDaily = BooleanModelField("onlyOnceDaily", "选中每日只运行一次的模块", false)
+    val autoHandleOnceDaily = BooleanModelField("autoHandleOnceDaily", "定时自动关闭单次运行", false)
+
+    val autoHandleOnceDailyTimes = ListJoinCommaToStringModelField(
+        "autoHandleOnceDailyTimes",
+        "自动全量时间点",
+        ListUtil.newArrayList("0600", "2000")
+    )
+
+    val onlyOnceDailyList = SelectModelField(
+        "onlyOnceDailyList",
+        "每日只运行一次 | 模块选择",
+        LinkedHashSet<String>().apply {
+            add("antOrchard")
+            add("antCooperate")
+            add("antSports")
+            add("antMember")
+            add("EcoProtection")
+            add("greenFinance")
+            add("reserve")
+        },
+        getModuleList()
+    )
+
+    private fun getModuleList(): List<MapperEntity> {
+        return listOf(
+            SimpleEntity("antForest", "蚂蚁森林"),
+            SimpleEntity("antFarm", "蚂蚁庄园"),
+            SimpleEntity("antOcean", "海洋"),
+            SimpleEntity("antOrchard", "农场"),
+            SimpleEntity("antStall", "新村"),
+            SimpleEntity("antDodo", "神奇物种"),
+            SimpleEntity("antCooperate", "蚂蚁森林合种"),
+            SimpleEntity("antSports", "运动"),
+            SimpleEntity("antMember", "会员"),
+            SimpleEntity("EcoProtection", "生态保护"),
+            SimpleEntity("greenFinance", "绿色经营"),
+            SimpleEntity("reserve", "保护地"),
+            SimpleEntity("other", "其他任务")
+        )
+    }
+
+    private fun getUserDisplayNameList(): Pair<List<String>, List<String>> {
+        val uids = FansirsqiUtil.getFolderList(Files.CONFIG_DIR.absolutePath)
+        val displayNames = mutableListOf<String>()
+        val validUids = mutableListOf<String>()
+        val backupUid = UserMap.currentUid
+        uids.forEach { uid ->
+            try {
+                UserMap.loadSelf(uid)
+                val user = UserMap.get(uid)
+                displayNames.add(user?.showName ?: uid)
+                validUids.add(uid)
+            } catch (e: Exception) {
+                displayNames.add(uid)
+                validUids.add(uid)
+            }
+        }
+        if (!backupUid.isNullOrEmpty()) {
+            UserMap.setCurrentUserId(backupUid)
+            UserMap.loadSelf(backupUid)
+        }
+        return Pair(displayNames, validUids)
+    }
+
+    private fun resetToDefault() {
+        onlyOnceDaily.setObjectValue(false)
+        autoHandleOnceDaily.setObjectValue(false)
+        autoHandleOnceDailyTimes.setObjectValue(ListUtil.newArrayList("0600", "2000"))
+        val defaultSet = LinkedHashSet<String>().apply {
+            add("antOrchard")
+            add("antCooperate")
+            add("antSports")
+            add("antMember")
+            add("EcoProtection")
+            add("greenFinance")
+            add("reserve")
+        }
+        onlyOnceDailyList.setObjectValue(defaultSet)
+    }
+
+    @JvmStatic
+    fun save(userId: String) {
+        if (userId.isEmpty()) return
+        try {
+            val file = Files.getCustomSetFile(userId)
+            val data = mutableMapOf<String, Any?>()
+            data[onlyOnceDaily.code] = onlyOnceDaily.value
+            data[onlyOnceDailyList.code] = onlyOnceDailyList.value
+            data[autoHandleOnceDaily.code] = autoHandleOnceDaily.value
+            data[autoHandleOnceDailyTimes.code] = autoHandleOnceDailyTimes.value
+            val json = JsonUtil.formatJson(data)
+            if (json != null) Files.write2File(json, file!!)
+        } catch (e: Throwable) {
+            Log.printStackTrace(TAG, "Failed to save custom settings", e)
+        }
+    }
+
+    @JvmStatic
+    fun load(userId: String) {
+        if (userId.isEmpty()) return
+        try {
+            val file = Files.getCustomSetFile(userId)
+            if (!file!!.exists()) {
+                resetToDefault()
+                return
+            }
+            val json = Files.readFromFile(file)
+            if (json.isEmpty()) {
+                resetToDefault()
+                return
+            }
+            val data = JsonUtil.copyMapper().readValue(json, Map::class.java)
+            if (data.containsKey(onlyOnceDaily.code)) onlyOnceDaily.setObjectValue(data[onlyOnceDaily.code])
+            if (data.containsKey(onlyOnceDailyList.code)) onlyOnceDailyList.setObjectValue(data[onlyOnceDailyList.code])
+            if (data.containsKey(autoHandleOnceDaily.code)) autoHandleOnceDaily.setObjectValue(data[autoHandleOnceDaily.code])
+            if (data.containsKey(autoHandleOnceDailyTimes.code)) autoHandleOnceDailyTimes.setObjectValue(data[autoHandleOnceDailyTimes.code])
+        } catch (e: Throwable) {
+            Log.printStackTrace(TAG, "Failed to load custom settings", e)
+        }
+    }
+
+    fun loadForTaskRunner() {
+        val currentUid = UserMap.currentUid
+        if (!currentUid.isNullOrEmpty()) load(currentUid)
+    }
+
+    fun getModuleId(taskInfo: String?): String? {
+        if (taskInfo == null) return null
+        return when {
+            taskInfo.contains("合种") || taskInfo.contains("antCooperate") -> "antCooperate"
+            taskInfo.contains("蚂蚁森林") || taskInfo.contains("antForest") -> "antForest"
+            taskInfo.contains("蚂蚁庄园") || taskInfo.contains("antFarm") -> "antFarm"
+            taskInfo.contains("海洋") || taskInfo.contains("antOcean") -> "antOcean"
+            taskInfo.contains("农场") || taskInfo.contains("antOrchard") -> "antOrchard"
+            taskInfo.contains("新村") || taskInfo.contains("antStall") -> "antStall"
+            taskInfo.contains("神奇物种") || taskInfo.contains("antDodo") -> "antDodo"
+            taskInfo.contains("运动") || taskInfo.contains("antSports") -> "antSports"
+            taskInfo.contains("会员") || taskInfo.contains("antMember") -> "antMember"
+            taskInfo.contains("生态保护") || taskInfo.contains("EcoProtection") -> "EcoProtection"
+            taskInfo.contains("绿色经营") || taskInfo.contains("greenFinance") -> "greenFinance"
+            taskInfo.contains("保护地") || taskInfo.contains("reserve") -> "reserve"
+            taskInfo.contains("其他任务") || taskInfo.contains("other") -> "other"
+            else -> null
+        }
+    }
+
+    fun isOnceDailyBlackListed(taskInfo: String?, status: OnceDailyStatus? = null): Boolean {
+        val s = status ?: getOnceDailyStatus(false)
+        // 只有当单次运行模式生效，且今日已经完成过首轮全量运行的情况下，才执行黑名单排除
+        if (s.isEnabledOverride && s.isFinishedToday) {
+            val moduleId = getModuleId(taskInfo)
+            if (moduleId != null) {
+                return onlyOnceDailyList.value.contains(moduleId)
+            }
+        }
+        return false
+    }
+
+    data class OnceDailyStatus(
+        val isEnabledOverride: Boolean,
+        val isFinishedToday: Boolean
+    )
+
+    @JvmStatic
+    fun getOnceDailyStatus(enableLog: Boolean = false): OnceDailyStatus {
+        val configEnabled = onlyOnceDaily.value == true
+        val isFinished = try {
+            Status.hasFlagToday("OnceDaily::Finished")
+        } catch (e: Throwable) {
+            false
+        }
+
+        val now = System.currentTimeMillis()
+        val interval = BaseModel.checkInterval.value.toLong()
+        val isSpecialTime = autoHandleOnceDailyTimes.value.any { timeStr ->
+            val startCal = TimeUtil.getTodayCalendarByTimeStr(timeStr)
+            if (startCal != null) {
+                val startTime = startCal.timeInMillis
+                val endTime = startTime + interval
+                now in startTime..endTime
+            } else {
+                false
+            }
+        }
+
+        var isEnabled = configEnabled
+
+        if (isSpecialTime && autoHandleOnceDaily.value) {
+            isEnabled = false
+            if (enableLog) Log.record("自动单次运行触发: 现在处于自动全量运行时段，本次将运行所有已开启的任务")
+        } else if (enableLog && autoHandleOnceDaily.value) {
+            val sdf = SimpleDateFormat("HHmm", Locale.getDefault())
+            val ranges = autoHandleOnceDailyTimes.value.mapNotNull { timeStr ->
+                TimeUtil.getTodayCalendarByTimeStr(timeStr)?.let {
+                    val endTime = it.timeInMillis + interval
+                    "$timeStr-${sdf.format(Date(endTime))}"
+                }
+            }.joinToString(", ")
+            Log.record("已设置自动全量运行，时段为：$ranges")
+        }
+
+        // 如果今日尚未完成首次全量运行，则不启用“跳过”拦截逻辑
+        if (isEnabled && !isFinished) {
+            isEnabled = false
+            if (enableLog) Log.record("当日单次运行模式生效: 今日尚未完成首次全量运行，本次将运行所有任务")
+        } else if (isEnabled) {
+            if (enableLog) Log.record("当日单次运行模式生效: 今日已完成全量运行，已启用跳过黑名单任务")
+        }
+
+        return OnceDailyStatus(isEnabled, isFinished)
+    }
+
+
+    @JvmStatic
+    fun showSingleRunMenu(context: Context, onRefresh: () -> Unit) {
+        val (displayNames, userIds) = getUserDisplayNameList()
+        if (userIds.isEmpty()) {
+            ToastUtil.showToast(context, "未发现任何用户配置")
+            return
+        }
+        AlertDialog.Builder(context)
+            .setTitle("请选择操作目标账号")
+            .setItems(displayNames.toTypedArray()) { _, which ->
+                val selectedUid = userIds[which]
+                val selectedShowName = displayNames[which]
+                load(selectedUid)
+                showAccountOps(context, selectedUid, selectedShowName, onRefresh)
+            }
+            .setNegativeButton(R.string.cancel, null)
+            .show()
+    }
+
+    private fun showAccountOps(context: Context, uid: String, showName: String, onRefresh: () -> Unit) {
+        val isFinished = try {
+            Status.hasFlagToday("OnceDaily::Finished")
+        } catch (e: Throwable) {
+            false
+        }
+        val statusText = when {
+            !onlyOnceDaily.value -> "单次运行：已关闭"
+            autoHandleOnceDaily.value -> "单次运行：自动模式"
+            isFinished -> "单次运行：今日已完成"
+            else -> "单次运行：已开启"
+        }
+        val ops = arrayOf(statusText, "设置黑名单模块", "设置非单次运行的时段")
+        AlertDialog.Builder(context)
+            .setTitle("账号：$showName")
+            .setItems(ops) { _, which ->
+                if (which == 0) {
+                    val currentOnlyOnce = onlyOnceDaily.value == true
+                    val currentAuto = autoHandleOnceDaily.value == true
+                    if (!currentOnlyOnce) {
+                        onlyOnceDaily.value = true
+                        autoHandleOnceDaily.value = false
+                    } else if (!currentAuto) {
+                        autoHandleOnceDaily.value = true
+                    } else {
+                        onlyOnceDaily.value = false
+                        autoHandleOnceDaily.value = false
+                    }
+                    save(uid)
+                    onRefresh()
+                    showAccountOps(context, uid, showName, onRefresh)
+                } else if (which == 1) {
+                    ListDialog.show(context, "黑名单 | $showName", onlyOnceDailyList)
+                    try {
+                        val dialogField: Field = ListDialog::class.java.getDeclaredField("listDialog")
+                        dialogField.isAccessible = true
+                        val dialog = dialogField.get(null) as? androidx.appcompat.app.AlertDialog
+                        dialog?.setOnDismissListener { save(uid) }
+                    } catch (e: Exception) {
+                    }
+                } else if (which == 2) {
+                    val edt = android.widget.EditText(context)
+                    edt.setText(autoHandleOnceDailyTimes.configValue)
+                    AlertDialog.Builder(context)
+                        .setTitle("设置 ${showName} 非单次运行时段")
+                        .setMessage("输入开始时间点(如0600)，多个用逗号隔开。时段为该时间点加\"设置\"中的执行间隔时间")
+                        .setView(edt)
+                        .setPositiveButton(R.string.ok) { _, _ ->
+                            autoHandleOnceDailyTimes.setConfigValue(edt.text.toString())
+                            save(uid)
+                            showAccountOps(context, uid, showName, onRefresh)
+                        }
+                        .setNegativeButton(R.string.cancel, null)
+                        .show()
+                }
+            }
+            .setNegativeButton("返回", null)
+            .show()
+    }
+}
+
+private class SimpleEntity(id: String, name: String) : MapperEntity() {
+    init {
+        this.id = id
+        this.name = name
+    }
+}

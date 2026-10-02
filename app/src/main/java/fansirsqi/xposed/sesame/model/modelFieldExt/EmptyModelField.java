@@ -1,1 +1,56 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5tb2RlbEZpZWxkRXh0OwppbXBvcnQgYW5kcm9pZC5hcHAuQWxlcnREaWFsb2c7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQudmlldy5HcmF2aXR5OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlld0dyb3VwOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuQnV0dG9uOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuTGluZWFyTGF5b3V0OwppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3Q7CmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuQ29udGV4dENvbXBhdDsKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLkpzb25JZ25vcmU7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5SOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxGaWVsZDsKcHVibGljIGNsYXNzIEVtcHR5TW9kZWxGaWVsZCBleHRlbmRzIE1vZGVsRmllbGQ8T2JqZWN0PiB7CiAgICBwcml2YXRlIGZpbmFsIFJ1bm5hYmxlIGNsaWNrUnVubmVyOwogICAgcHVibGljIEVtcHR5TW9kZWxGaWVsZChTdHJpbmcgY29kZSwgU3RyaW5nIG5hbWUpIHsKICAgICAgICBzdXBlcihjb2RlLCBuYW1lLCBudWxsKTsKICAgICAgICB0aGlzLmNsaWNrUnVubmVyID0gbnVsbDsKICAgIH0KICAgIHB1YmxpYyBFbXB0eU1vZGVsRmllbGQoU3RyaW5nIGNvZGUsIFN0cmluZyBuYW1lLCBSdW5uYWJsZSBjbGlja1J1bm5lcikgewogICAgICAgIHN1cGVyKGNvZGUsIG5hbWUsIG51bGwpOwogICAgICAgIHRoaXMuY2xpY2tSdW5uZXIgPSBjbGlja1J1bm5lcjsKICAgIH0KICAgIEBPdmVycmlkZQogICAgcHVibGljIFN0cmluZyBnZXRUeXBlKCkgewogICAgICAgIHJldHVybiAiRU1QVFkiOwogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBzZXRPYmplY3RWYWx1ZShPYmplY3QgdmFsdWUpIHsKICAgIH0KICAgIEBKc29uSWdub3JlCiAgICBwdWJsaWMgVmlldyBnZXRWaWV3KENvbnRleHQgY29udGV4dCkgewogICAgICAgIEJ1dHRvbiBidG4gPSBuZXcgQnV0dG9uKGNvbnRleHQpOwogICAgICAgIGJ0bi5zZXRUZXh0KGdldE5hbWUoKSk7CiAgICAgICAgYnRuLnNldExheW91dFBhcmFtcyhuZXcgTGluZWFyTGF5b3V0LkxheW91dFBhcmFtcyhWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwgVmlld0dyb3VwLkxheW91dFBhcmFtcy5XUkFQX0NPTlRFTlQpKTsKICAgICAgICBidG4uc2V0VGV4dENvbG9yKENvbnRleHRDb21wYXQuZ2V0Q29sb3IoY29udGV4dCwgUi5jb2xvci5zZWxlY3Rpb25fY29sb3IpKTsKICAgICAgICBidG4uc2V0QmFja2dyb3VuZChDb250ZXh0Q29tcGF0LmdldERyYXdhYmxlKGNvbnRleHQsIFIuZHJhd2FibGUuZGlhbG9nX2xpc3RfYnV0dG9uKSk7CiAgICAgICAgYnRuLnNldEdyYXZpdHkoR3Jhdml0eS5TVEFSVCB8IEdyYXZpdHkuQ0VOVEVSX1ZFUlRJQ0FMKTsKICAgICAgICBidG4uc2V0TWluSGVpZ2h0KDE1MCk7CiAgICAgICAgYnRuLnNldE1heEhlaWdodCgxODApOwogICAgICAgIGJ0bi5zZXRQYWRkaW5nUmVsYXRpdmUoNDAsIDAsIDQwLCAwKTsKICAgICAgICBidG4uc2V0QWxsQ2FwcyhmYWxzZSk7CiAgICAgICAgaWYgKGNsaWNrUnVubmVyICE9IG51bGwpIHsKICAgICAgICAgICAgYnRuLnNldE9uQ2xpY2tMaXN0ZW5lcih2IC0+IG5ldyBBbGVydERpYWxvZy5CdWlsZGVyKGNvbnRleHQpCiAgICAgICAgICAgICAgICAgICAgLnNldFRpdGxlKCLorablkYoiKQogICAgICAgICAgICAgICAgICAgIC5zZXRNZXNzYWdlKCLnoa7orqTmiafooYzor6Xmk43kvZzvvJ8iKQogICAgICAgICAgICAgICAgICAgIC5zZXRQb3NpdGl2ZUJ1dHRvbihSLnN0cmluZy5vaywgKGRpYWxvZywgaWQpIC0+IGNsaWNrUnVubmVyLnJ1bigpKQogICAgICAgICAgICAgICAgICAgIC5zZXROZWdhdGl2ZUJ1dHRvbihSLnN0cmluZy5jYW5jZWwsIChkaWFsb2csIGlkKSAtPiBkaWFsb2cuZGlzbWlzcygpKQogICAgICAgICAgICAgICAgICAgIC5jcmVhdGUoKQogICAgICAgICAgICAgICAgICAgIC5zaG93KCkpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGJ0bi5zZXRPbkNsaWNrTGlzdGVuZXIodiAtPiBUb2FzdC5tYWtlVGV4dChjb250ZXh0LCAi5peg6YWN572u6aG5IiwgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCkpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gYnRuOwogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.model.modelFieldExt;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+import androidx.core.content.ContextCompat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.model.ModelField;
+public class EmptyModelField extends ModelField<Object> {
+    private final Runnable clickRunner;
+    public EmptyModelField(String code, String name) {
+        super(code, name, null);
+        this.clickRunner = null;
+    }
+    public EmptyModelField(String code, String name, Runnable clickRunner) {
+        super(code, name, null);
+        this.clickRunner = clickRunner;
+    }
+    @Override
+    public String getType() {
+        return "EMPTY";
+    }
+    @Override
+    public void setObjectValue(Object value) {
+    }
+    @JsonIgnore
+    public View getView(Context context) {
+        Button btn = new Button(context);
+        btn.setText(getName());
+        btn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        btn.setTextColor(ContextCompat.getColor(context, R.color.selection_color));
+        btn.setBackground(ContextCompat.getDrawable(context, R.drawable.dialog_list_button));
+        btn.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+        btn.setMinHeight(150);
+        btn.setMaxHeight(180);
+        btn.setPaddingRelative(40, 0, 40, 0);
+        btn.setAllCaps(false);
+        if (clickRunner != null) {
+            btn.setOnClickListener(v -> new AlertDialog.Builder(context)
+                    .setTitle("警告")
+                    .setMessage("确认执行该操作？")
+                    .setPositiveButton(R.string.ok, (dialog, id) -> clickRunner.run())
+                    .setNegativeButton(R.string.cancel, (dialog, id) -> dialog.dismiss())
+                    .create()
+                    .show());
+        } else {
+            btn.setOnClickListener(v -> Toast.makeText(context, "无配置项", Toast.LENGTH_SHORT).show());
+        }
+        return btn;
+    }
+}

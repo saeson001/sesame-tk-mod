@@ -1,1 +1,105 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbDsKaW1wb3J0IGphdmEuaW8uU2VyaWFsOwppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5Cb29sZWFuTW9kZWxGaWVsZDsKaW1wb3J0IGxvbWJvay5EYXRhOwovKioKICog5qih5Z6L6YWN572u57G777yM55So5LqO5L+d5a2Y5q+P5Liq5qih5Z6L55qE6YWN572u5L+h5oGv44CCCiAqIOWMheaLrOaooeWei+eahOWfuuacrOS/oeaBr++8iOWmguWQjeensOOAgee7hOOAgeWtl+auteetie+8ie+8jOW5tuaPkOS+m+aWueazleadpeiuv+mXruWSjOaTjeS9nOi/meS6m+mFjee9rumhueOAggogKi8KQERhdGEKcHVibGljIGZpbmFsIGNsYXNzIE1vZGVsQ29uZmlnIGltcGxlbWVudHMgU2VyaWFsaXphYmxlIHsKICAgIEBTZXJpYWwKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIGxvbmcgc2VyaWFsVmVyc2lvblVJRCA9IDFMOwogICAgLy8g5qih5Z6L55qE5ZSv5LiA5qCH6K+G56ym77yM6YCa5bi45piv5qih5Z6L57G75ZCNCiAgICBwcml2YXRlIFN0cmluZyBjb2RlOwogICAgLy8g5qih5Z6L5ZCN56ewCiAgICBwcml2YXRlIFN0cmluZyBuYW1lOwogICAgLy8g5qih5Z6L5omA5bGe55qE57uECiAgICBwcml2YXRlIE1vZGVsR3JvdXAgZ3JvdXA7CiAgICAvLyDmqKHlnovlm77moIfvvIjlj6/pgInvvIkKICAgIHByaXZhdGUgU3RyaW5nIGljb247CiAgICAvLyDmqKHlnovnmoTmiYDmnInlrZfmrrUKICAgIHByaXZhdGUgZmluYWwgTW9kZWxGaWVsZHMgZmllbGRzID0gbmV3IE1vZGVsRmllbGRzKCk7CiAgICAvKioKICAgICAqIOm7mOiupOaehOmAoOWHveaVsAogICAgICog55uu5YmN5rKh5pyJ5a6a5LmJ6aKd5aSW55qE5pWw5o2u57G75Z6L77yIZGF0YVR5cGXvvInvvIzlj6/ku6XpgJrov4fmraTmnoTpgKDlh73mlbDov5vooYzliJ3lp4vljJbjgIIKICAgICAqLwogICAgcHVibGljIE1vZGVsQ29uZmlnKCkgewogICAgICAgIC8vZGF0YVR5cGUgPSBUeXBlVXRpbC5nZXRUeXBlQXJndW1lbnQodGhpcy5nZXRDbGFzcygpLmdldEdlbmVyaWNTdXBlcmNsYXNzKCksIDApOwogICAgfQogICAgLyoqCiAgICAgKiDkvb/nlKjnu5nlrprnmoTmqKHlnovlrp7kvovmnaXliJ3lp4vljJbmqKHlnovphY3nva4KICAgICAqCiAgICAgKiBAcGFyYW0gbW9kZWwg5qih5Z6L5a6e5L6LCiAgICAgKi8KICAgIHB1YmxpYyBNb2RlbENvbmZpZyhNb2RlbCBtb2RlbCkgewogICAgICAgIHRoaXMoKTsKICAgICAgICAvLyDorr7nva7mqKHlnovnmoTnroDljZXnsbvlkI3kvZzkuLrllK/kuIDmoIfor4bnrKYKICAgICAgICB0aGlzLmNvZGUgPSBtb2RlbC5nZXRDbGFzcygpLmdldFNpbXBsZU5hbWUoKTsKICAgICAgICAvLyDorr7nva7mqKHlnovnmoTlkI3np7AKICAgICAgICB0aGlzLm5hbWUgPSBtb2RlbC5nZXROYW1lKCk7CiAgICAgICAgLy8g6K6+572u5qih5Z6L5omA5bGe57uECiAgICAgICAgdGhpcy5ncm91cCA9IG1vZGVsLmdldEdyb3VwKCk7CiAgICAgICAgLy8g6K6+572u5qih5Z6L55qE5Zu+5qCH5paH5Lu25ZCN56ew77yI5Zu+5qCH5L2N572uYXBwL3NyYy9tYWluL2Fzc2V0cy93ZWIvaW1hZ2VzL2ljb24vbW9kZWxbL3NlbGVjdGVkXe+8jOato+W4uOeKtuaAgeWSjOmAieS4reeKtuaAge+8iQogICAgICAgIC8vIOaXoOWbvuagh+WumuS5ieaXtuS9v+eUqGRlZmF1bHQuc3ZnCiAgICAgICAgdGhpcy5pY29uID0gbW9kZWwuZ2V0SWNvbigpOwogICAgICAgIC8vIOiOt+WPluaooeWei+eahOWQr+eUqOWtl+aute+8jOW5tuWwhuWFtuWKoOWFpeWIsOWtl+auteWIl+ihqOS4rQogICAgICAgIEJvb2xlYW5Nb2RlbEZpZWxkIGVuYWJsZUZpZWxkID0gbW9kZWwuZ2V0RW5hYmxlRmllbGQoKTsKICAgICAgICBmaWVsZHMucHV0KGVuYWJsZUZpZWxkLmdldENvZGUoKSwgZW5hYmxlRmllbGQpOwogICAgICAgIC8vIOiOt+WPluaooeWei+eahOWFtuS7luWtl+aute+8jOW5tuWwhuWFtuWKoOWFpeWIsOWtl+auteWIl+ihqOS4rQogICAgICAgIE1vZGVsRmllbGRzIG1vZGVsRmllbGRzID0gbW9kZWwuZ2V0RmllbGRzKCk7CiAgICAgICAgaWYgKG1vZGVsRmllbGRzICE9IG51bGwpIHsKICAgICAgICAgICAgZm9yIChNYXAuRW50cnk8U3RyaW5nLCBNb2RlbEZpZWxkPD8+PiBlbnRyeSA6IG1vZGVsRmllbGRzLmVudHJ5U2V0KCkpIHsKICAgICAgICAgICAgICAgIE1vZGVsRmllbGQ8Pz4gbW9kZWxGaWVsZCA9IGVudHJ5LmdldFZhbHVlKCk7CiAgICAgICAgICAgICAgICBpZiAobW9kZWxGaWVsZCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgZmllbGRzLnB1dChtb2RlbEZpZWxkLmdldENvZGUoKSwgbW9kZWxGaWVsZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAvKioKICAgICAqIOWIpOaWreaooeWei+aYr+WQpuWMheWQq+aMh+WumuWtl+autQogICAgICoKICAgICAqIEBwYXJhbSBmaWVsZENvZGUg5a2X5q615Luj56CBCiAgICAgKiBAcmV0dXJuIOWmguaenOaooeWei+WMheWQq+ivpeWtl+aute+8jOWImei/lOWbnnRydWXvvIzlkKbliJnov5Tlm55mYWxzZQogICAgICovCiAgICBwdWJsaWMgQm9vbGVhbiBoYXNNb2RlbEZpZWxkKFN0cmluZyBmaWVsZENvZGUpIHsKICAgICAgICByZXR1cm4gZmllbGRzLmNvbnRhaW5zS2V5KGZpZWxkQ29kZSk7CiAgICB9CiAgICAvKioKICAgICAqIOiOt+WPluaMh+WumuWtl+auteS7o+eggeeahOaooeWei+Wtl+autQogICAgICoKICAgICAqIEBwYXJhbSBmaWVsZENvZGUg5a2X5q615Luj56CBCiAgICAgKiBAcmV0dXJuIOi/lOWbnuaMh+WumuWtl+auteS7o+eggeeahOaooeWei+Wtl+autQogICAgICovCiAgICBwdWJsaWMgTW9kZWxGaWVsZDw/PiBnZXRNb2RlbEZpZWxkKFN0cmluZyBmaWVsZENvZGUpIHsKICAgICAgICByZXR1cm4gZmllbGRzLmdldChmaWVsZENvZGUpOwogICAgfQogICAgLyoKICAgICAqIOS7peS4i+aWueazleaaguaXtuiiq+azqOmHiuaOie+8jOiLpemcgOimgeWPr+S7peWcqOacquadpei/m+ihjOWunueOsOOAggogICAgICovCiAgICAvKgogICAgcHVibGljIHZvaWQgcmVtb3ZlTW9kZWxGaWVsZChTdHJpbmcgZmllbGRDb2RlKSB7CiAgICAgICAgZmllbGRzLnJlbW92ZShmaWVsZENvZGUpOwogICAgfQogICAgKi8KICAgIC8qCiAgICBwdWJsaWMgQm9vbGVhbiBhZGRNb2RlbEZpZWxkKE1vZGVsRmllbGQgbW9kZWxGaWVsZCkgewogICAgICAgIGZpZWxkcy5wdXQobW9kZWxGaWVsZC5nZXRDb2RlKCksIG1vZGVsRmllbGQpOwogICAgICAgIHJldHVybiB0cnVlOwogICAgfQogICAgKi8KICAgIC8qKgogICAgICog6I635Y+W5oyH5a6a5a2X5q615Luj56CB55qE5qih5Z6L5a2X5q615omp5bGV57G75Z6LCiAgICAgKgogICAgICogQHBhcmFtIGZpZWxkQ29kZSDlrZfmrrXku6PnoIEKICAgICAqIEBwYXJhbSA8VD4gICAgICAg5a2X5q6157G75Z6LCiAgICAgKiBAcmV0dXJuIOi/lOWbnuaMh+WumuWtl+auteS7o+eggeeahOaooeWei+Wtl+auteaJqeWxleexu+WeiwogICAgICovCiAgICBAU3VwcHJlc3NXYXJuaW5ncygidW5jaGVja2VkIikKICAgIHB1YmxpYyA8VCBleHRlbmRzIE1vZGVsRmllbGQ8Pz4+IFQgZ2V0TW9kZWxGaWVsZEV4dChTdHJpbmcgZmllbGRDb2RlKSB7CiAgICAgICAgcmV0dXJuIChUKSBmaWVsZHMuZ2V0KGZpZWxkQ29kZSk7CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.model;
+import java.io.Serial;
+import java.io.Serializable;
+import java.util.Map;
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import lombok.Data;
+/**
+ * 模型配置类，用于保存每个模型的配置信息。
+ * 包括模型的基本信息（如名称、组、字段等），并提供方法来访问和操作这些配置项。
+ */
+@Data
+public final class ModelConfig implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
+    // 模型的唯一标识符，通常是模型类名
+    private String code;
+    // 模型名称
+    private String name;
+    // 模型所属的组
+    private ModelGroup group;
+    // 模型图标（可选）
+    private String icon;
+    // 模型的所有字段
+    private final ModelFields fields = new ModelFields();
+    /**
+     * 默认构造函数
+     * 目前没有定义额外的数据类型（dataType），可以通过此构造函数进行初始化。
+     */
+    public ModelConfig() {
+        //dataType = TypeUtil.getTypeArgument(this.getClass().getGenericSuperclass(), 0);
+    }
+    /**
+     * 使用给定的模型实例来初始化模型配置
+     *
+     * @param model 模型实例
+     */
+    public ModelConfig(Model model) {
+        this();
+        // 设置模型的简单类名作为唯一标识符
+        this.code = model.getClass().getSimpleName();
+        // 设置模型的名称
+        this.name = model.getName();
+        // 设置模型所属组
+        this.group = model.getGroup();
+        // 设置模型的图标文件名称（图标位置app/src/main/assets/web/images/icon/model[/selected]，正常状态和选中状态）
+        // 无图标定义时使用default.svg
+        this.icon = model.getIcon();
+        // 获取模型的启用字段，并将其加入到字段列表中
+        BooleanModelField enableField = model.getEnableField();
+        fields.put(enableField.getCode(), enableField);
+        // 获取模型的其他字段，并将其加入到字段列表中
+        ModelFields modelFields = model.getFields();
+        if (modelFields != null) {
+            for (Map.Entry<String, ModelField<?>> entry : modelFields.entrySet()) {
+                ModelField<?> modelField = entry.getValue();
+                if (modelField != null) {
+                    fields.put(modelField.getCode(), modelField);
+                }
+            }
+        }
+    }
+    /**
+     * 判断模型是否包含指定字段
+     *
+     * @param fieldCode 字段代码
+     * @return 如果模型包含该字段，则返回true，否则返回false
+     */
+    public Boolean hasModelField(String fieldCode) {
+        return fields.containsKey(fieldCode);
+    }
+    /**
+     * 获取指定字段代码的模型字段
+     *
+     * @param fieldCode 字段代码
+     * @return 返回指定字段代码的模型字段
+     */
+    public ModelField<?> getModelField(String fieldCode) {
+        return fields.get(fieldCode);
+    }
+    /*
+     * 以下方法暂时被注释掉，若需要可以在未来进行实现。
+     */
+    /*
+    public void removeModelField(String fieldCode) {
+        fields.remove(fieldCode);
+    }
+    */
+    /*
+    public Boolean addModelField(ModelField modelField) {
+        fields.put(modelField.getCode(), modelField);
+        return true;
+    }
+    */
+    /**
+     * 获取指定字段代码的模型字段扩展类型
+     *
+     * @param fieldCode 字段代码
+     * @param <T>       字段类型
+     * @return 返回指定字段代码的模型字段扩展类型
+     */
+    @SuppressWarnings("unchecked")
+    public <T extends ModelField<?>> T getModelFieldExt(String fieldCode) {
+        return (T) fields.get(fieldCode);
+    }
+}

@@ -1,1 +1,161 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNhbmNlbGxhdGlvbkV4Y2VwdGlvbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZU5hbWUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRlZmVycmVkCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5FeHBlcmltZW50YWxDb3JvdXRpbmVzQXBpCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuUnVubmFibGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5TdXBlcnZpc29ySm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuYXN5bmMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jYW5jZWwKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5pc0FjdGl2ZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGluLmNvcm91dGluZXMuQ29yb3V0aW5lQ29udGV4dAppbXBvcnQga290bGluLm1hdGgubWF4CmltcG9ydCBrb3RsaW4ubWF0aC5taW4KCi8qKgogKiBAYXV0aG9yOiBnaG9zdHh4CiAqIEBkYXRlOiAyMDI1LzkvMTcKICogQGRlc2NyaXB0aW9uOiDlhajlsYDljY/nqIvosIPluqblmajvvIznlKjkuo7nu5/kuIDnrqHnkIblupTnlKjlhoXnmoTljY/nqIvvvIzmj5Dkvpvnu5PmnoTljJblubblj5HlkoznlJ/lkb3lkajmnJ/nrqHnkIbjgIIKICogQHVwZGF0ZTog5L+u5aSN5LqGIFI4IOe8luivkeWZqOWcqOWkhOeQhiBKYXZhIOWFvOWuueaWueazleaXtueahOWFg+aVsOaNruW0qea6g+mXrumimAogKi8Kb2JqZWN0IEdsb2JhbFRocmVhZFBvb2xzIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJHbG9iYWxUaHJlYWRQb29scyIKCiAgICAvKioKICAgICAqIENQVeaguOW/g+aVsAogICAgICovCiAgICBwcml2YXRlIHZhbCBDUFVfQ09VTlQgPSBSdW50aW1lLmdldFJ1bnRpbWUoKS5hdmFpbGFibGVQcm9jZXNzb3JzKCkKCiAgICAvKioKICAgICAqIOiuoeeul+WvhumbhuWei+S7u+WKoeW5tuihjOW6pgogICAgICog5qC55o2uQ1BV5qC45b+D5pWw5Yqo5oCB6K6h566X77yM5L+d6K+B5pyA5L2z5oCn6IO944CCCiAgICAgKi8KICAgIHByaXZhdGUgdmFsIENPTVBVVEVfUEFSQUxMRUxJU00gPSBtYXgoMiwgbWluKENQVV9DT1VOVCAtIDEsIDQpKQoKICAgIC8qKgogICAgICog5Yib5bu65LiA5Liq5paw55qE5Y2P56iL5L2c55So5Z+f44CCCiAgICAgKiDov5nmmK/kuIDkuKrnp4HmnInovoXliqnlh73mlbDvvIznlKjkuo7lnKjliJ3lp4vljJblkozph43nva7ml7bliJvlu7rkvZznlKjln5/jgIIKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gY3JlYXRlU2NvcGUoKTogQ29yb3V0aW5lU2NvcGUgPSBDb3JvdXRpbmVTY29wZSgKICAgICAgICBTdXBlcnZpc29ySm9iKCkgKwogICAgICAgICAgICAgICAgRGlzcGF0Y2hlcnMuRGVmYXVsdCArCiAgICAgICAgICAgICAgICBDb3JvdXRpbmVOYW1lKCJTZXNhbWVHbG9iYWxTY29wZSIpCiAgICApCgogICAgLyoqCiAgICAgKiDlhajlsYDljY/nqIvkvZznlKjln58KICAgICAqIOeUqOS6juWQr+WKqOS4jee7keWumuWIsOeJueWumueUn+WRveWRqOacn+eahOmVv+Wvv+WRveWNj+eoiwogICAgICog5L2/55SoIEBWb2xhdGlsZSDku6XmlK/mjIHlnKjkvJror53liIfmjaLml7bov5vooYzph43nva4KICAgICAqLwogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBnbG9iYWxTY29wZSA9IGNyZWF0ZVNjb3BlKCkKCiAgICAvKioKICAgICAqIOiuoeeul+WvhumbhuWei+S7u+WKoeiwg+W6puWZqAogICAgICog6YCC55So5LqOQ1BV5a+G6ZuG5Z6L5pON5L2c77yM5aaC5aSN5p2C6K6h566X44CB5pWw5o2u5aSE55CG562JCiAgICAgKi8KICAgIEBPcHRJbihFeHBlcmltZW50YWxDb3JvdXRpbmVzQXBpOjpjbGFzcykKICAgIHZhbCBjb21wdXRlRGlzcGF0Y2hlciA9IERpc3BhdGNoZXJzLkRlZmF1bHQubGltaXRlZFBhcmFsbGVsaXNtKENPTVBVVEVfUEFSQUxMRUxJU00pCgogICAgLyoqCiAgICAgKiDlnKjlhajlsYDljY/nqIvkvZznlKjln5/kuK3miafooYzkuIDkuKrku7vliqEgKEtvdGxpbiDkuJPnlKgp44CCCiAgICAgKgogICAgICogQHBhcmFtIGJsb2NrIOimgeaJp+ihjOeahOaMgui1t+WHveaVsOS7o+eggeWdlwogICAgICogQHBhcmFtIGNvbnRleHQg5Y+v6YCJ55qE5Y2P56iL5LiK5LiL5paH77yM6buY6K6k5L2/55So6K6h566X6LCD5bqm5ZmoCiAgICAgKiBAcmV0dXJuIOS7o+ihqOS7u+WKoeeahEpvYuWvueixoQogICAgICovCiAgICBmdW4gZXhlY3V0ZSgKICAgICAgICBjb250ZXh0OiBDb3JvdXRpbmVDb250ZXh0ID0gY29tcHV0ZURpc3BhdGNoZXIsCiAgICAgICAgYmxvY2s6IHN1c3BlbmQgQ29yb3V0aW5lU2NvcGUuKCkgLT4gVW5pdAogICAgKTogSm9iIHsKICAgICAgICByZXR1cm4gZ2xvYmFsU2NvcGUubGF1bmNoKGNvbnRleHQpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGJsb2NrKCkKICAgICAgICAgICAgfSBjYXRjaCAoXzogQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAvLyDljY/nqIvlj5bmtojlvILluLjvvIzmraPluLjmtYHnqIvvvIzkuI3orrDlvZUKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5omn6KGM5Lu75Yqh5byC5bi4OiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5o+Q5Lqk5LiA5Liq5Y+v6L+U5Zue57uT5p6c55qE5Lu75YqhIChLb3RsaW4g5LiT55SoKeOAggogICAgICoKICAgICAqIEBwYXJhbSBUIOe7k+aenOexu+WeiwogICAgICogQHBhcmFtIGNvbnRleHQg5Y+v6YCJ55qE5Y2P56iL5LiK5LiL5paH77yM6buY6K6k5L2/55So6K6h566X6LCD5bqm5ZmoCiAgICAgKiBAcGFyYW0gYmxvY2sg6KaB5omn6KGM55qE5oyC6LW35Ye95pWw5Luj56CB5Z2X77yM6L+U5Zue57G75Z6L5Li6VAogICAgICogQHJldHVybiDku6Pooajku7vliqHnu5PmnpznmoREZWZlcnJlZOWvueixoQogICAgICovCiAgICBmdW4gPFQ+IHN1Ym1pdCgKICAgICAgICBjb250ZXh0OiBDb3JvdXRpbmVDb250ZXh0ID0gY29tcHV0ZURpc3BhdGNoZXIsCiAgICAgICAgYmxvY2s6IHN1c3BlbmQgQ29yb3V0aW5lU2NvcGUuKCkgLT4gVAogICAgKTogRGVmZXJyZWQ8VD4gewogICAgICAgIHJldHVybiBnbG9iYWxTY29wZS5hc3luYyhjb250ZXh0KSB7CiAgICAgICAgICAgIGJsb2NrKCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlhbzlrrlKYXZh55qE5omn6KGM5pa55rOVCiAgICAgKiDjgJDkv67lpI3jgJHnm7TmjqXosIPnlKggbGF1bmNo77yM6ICM5LiN5piv5bWM5aWX6LCD55SoIGV4ZWN1dGUoYmxvY2sp77yM6YG/5YWNIFI4IOWFg+aVsOaNrumUmeivrwogICAgICoKICAgICAqIEBwYXJhbSBjb21tYW5kIOimgeaJp+ihjOeahFJ1bm5hYmxl5Lu75YqhCiAgICAgKiBAcmV0dXJuIOS7o+ihqOS7u+WKoeeahEpvYuWvueixoQogICAgICovCiAgICBASnZtT3ZlcmxvYWRzCiAgICBmdW4gZXhlY3V0ZShjb21tYW5kOiBSdW5uYWJsZT8sIGNvbnRleHQ6IENvcm91dGluZUNvbnRleHQgPSBjb21wdXRlRGlzcGF0Y2hlcik6IEpvYiB7CiAgICAgICAgcmV0dXJuIGdsb2JhbFNjb3BlLmxhdW5jaChjb250ZXh0KSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBjb21tYW5kPy5ydW4oKQogICAgICAgICAgICB9IGNhdGNoIChfOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIC8vIOW/veeVpQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICJKYXZh5Lu75Yqh5omn6KGM5byC5bi4OiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5YW85a65SmF2YeeahOaPkOS6pOaWueazlQogICAgICog44CQ5L+u5aSN44CR55u05o6l6LCD55SoIGFzeW5j77yM6ICM5LiN5piv5bWM5aWX6LCD55SoIHN1Ym1pdChibG9jaykKICAgICAqCiAgICAgKiBAcGFyYW0gdGFzayDopoHmj5DkuqTnmoRSdW5uYWJsZeS7u+WKoQogICAgICogQHJldHVybiDku6Pooajku7vliqHnmoREZWZlcnJlZOWvueixoQogICAgICovCiAgICBASnZtT3ZlcmxvYWRzCiAgICBmdW4gc3VibWl0KHRhc2s6IFJ1bm5hYmxlPywgY29udGV4dDogQ29yb3V0aW5lQ29udGV4dCA9IGNvbXB1dGVEaXNwYXRjaGVyKTogRGVmZXJyZWQ8VW5pdD4gewogICAgICAgIHJldHVybiBnbG9iYWxTY29wZS5hc3luYyhjb250ZXh0KSB7CiAgICAgICAgICAgIHRhc2s/LnJ1bigpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5YWz6Zet5bm26YeN5ZCv5YWo5bGA5Y2P56iL5L2c55So5Z+f44CCCiAgICAgKiDkuLvopoHnlKjkuo7nlKjmiLfliIfmjaLotKblj7fnrYnpnIDopoHlvbvlupXmuIXnkIbkvJror53otYTmupDnmoTlnLrmma/jgIIKICAgICAqLwogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHNodXRkb3duQW5kUmVzdGFydCgpIHsKICAgICAgICBMb2cucmVjb3JkKFRBRywgIuato+WcqOWFs+mXreW5tumHjeWQr+WFqOWxgOWNj+eoi+axoC4uLiIpCiAgICAgICAgaWYgKGdsb2JhbFNjb3BlLmlzQWN0aXZlKSB7CiAgICAgICAgICAgIGdsb2JhbFNjb3BlLmNhbmNlbCgiVXNlciBzZXNzaW9uIGNoYW5nZWQuIFJlc2V0dGluZyBjb3JvdXRpbmUgc2NvcGUuIikKICAgICAgICB9CiAgICAgICAgZ2xvYmFsU2NvcGUgPSBjcmVhdGVTY29wZSgpCiAgICAgICAgTG9nLnJlY29yZChUQUcsICLlhajlsYDljY/nqIvmsaDlt7Lph43nva7jgIIiKQogICAgfQoKICAgIC8qKgogICAgICog5Y2P56iL5YW85a6555qE5pqC5YGc5pa55rOVCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBzbGVlcENvbXBhdChtaWxsaXM6IExvbmcpIHsKICAgICAgICBDb3JvdXRpbmVVdGlscy5zbGVlcENvbXBhdChtaWxsaXMpCiAgICB9Cn0=
+package fansirsqi.xposed.sesame.util
+
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineName
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.Runnable
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.async
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.isActive
+import kotlinx.coroutines.launch
+import kotlin.coroutines.CoroutineContext
+import kotlin.math.max
+import kotlin.math.min
+
+/**
+ * @author: ghostxx
+ * @date: 2025/9/17
+ * @description: 全局协程调度器，用于统一管理应用内的协程，提供结构化并发和生命周期管理。
+ * @update: 修复了 R8 编译器在处理 Java 兼容方法时的元数据崩溃问题
+ */
+object GlobalThreadPools {
+    private const val TAG = "GlobalThreadPools"
+
+    /**
+     * CPU核心数
+     */
+    private val CPU_COUNT = Runtime.getRuntime().availableProcessors()
+
+    /**
+     * 计算密集型任务并行度
+     * 根据CPU核心数动态计算，保证最佳性能。
+     */
+    private val COMPUTE_PARALLELISM = max(2, min(CPU_COUNT - 1, 4))
+
+    /**
+     * 创建一个新的协程作用域。
+     * 这是一个私有辅助函数，用于在初始化和重置时创建作用域。
+     */
+    private fun createScope(): CoroutineScope = CoroutineScope(
+        SupervisorJob() +
+                Dispatchers.Default +
+                CoroutineName("SesameGlobalScope")
+    )
+
+    /**
+     * 全局协程作用域
+     * 用于启动不绑定到特定生命周期的长寿命协程
+     * 使用 @Volatile 以支持在会话切换时进行重置
+     */
+    @Volatile
+    private var globalScope = createScope()
+
+    /**
+     * 计算密集型任务调度器
+     * 适用于CPU密集型操作，如复杂计算、数据处理等
+     */
+    @OptIn(ExperimentalCoroutinesApi::class)
+    val computeDispatcher = Dispatchers.Default.limitedParallelism(COMPUTE_PARALLELISM)
+
+    /**
+     * 在全局协程作用域中执行一个任务 (Kotlin 专用)。
+     *
+     * @param block 要执行的挂起函数代码块
+     * @param context 可选的协程上下文，默认使用计算调度器
+     * @return 代表任务的Job对象
+     */
+    fun execute(
+        context: CoroutineContext = computeDispatcher,
+        block: suspend CoroutineScope.() -> Unit
+    ): Job {
+        return globalScope.launch(context) {
+            try {
+                block()
+            } catch (_: CancellationException) {
+                // 协程取消异常，正常流程，不记录
+            } catch (e: Exception) {
+                Log.error(TAG, "执行任务异常: ${e.message}")
+                Log.printStackTrace(e)
+            }
+        }
+    }
+
+    /**
+     * 提交一个可返回结果的任务 (Kotlin 专用)。
+     *
+     * @param T 结果类型
+     * @param context 可选的协程上下文，默认使用计算调度器
+     * @param block 要执行的挂起函数代码块，返回类型为T
+     * @return 代表任务结果的Deferred对象
+     */
+    fun <T> submit(
+        context: CoroutineContext = computeDispatcher,
+        block: suspend CoroutineScope.() -> T
+    ): Deferred<T> {
+        return globalScope.async(context) {
+            block()
+        }
+    }
+
+    /**
+     * 兼容Java的执行方法
+     * 【修复】直接调用 launch，而不是嵌套调用 execute(block)，避免 R8 元数据错误
+     *
+     * @param command 要执行的Runnable任务
+     * @return 代表任务的Job对象
+     */
+    @JvmOverloads
+    fun execute(command: Runnable?, context: CoroutineContext = computeDispatcher): Job {
+        return globalScope.launch(context) {
+            try {
+                command?.run()
+            } catch (_: CancellationException) {
+                // 忽略
+            } catch (e: Exception) {
+                Log.error(TAG, "Java任务执行异常: ${e.message}")
+                Log.printStackTrace(e)
+            }
+        }
+    }
+
+    /**
+     * 兼容Java的提交方法
+     * 【修复】直接调用 async，而不是嵌套调用 submit(block)
+     *
+     * @param task 要提交的Runnable任务
+     * @return 代表任务的Deferred对象
+     */
+    @JvmOverloads
+    fun submit(task: Runnable?, context: CoroutineContext = computeDispatcher): Deferred<Unit> {
+        return globalScope.async(context) {
+            task?.run()
+        }
+    }
+
+    /**
+     * 关闭并重启全局协程作用域。
+     * 主要用于用户切换账号等需要彻底清理会话资源的场景。
+     */
+    @Synchronized
+    fun shutdownAndRestart() {
+        Log.record(TAG, "正在关闭并重启全局协程池...")
+        if (globalScope.isActive) {
+            globalScope.cancel("User session changed. Resetting coroutine scope.")
+        }
+        globalScope = createScope()
+        Log.record(TAG, "全局协程池已重置。")
+    }
+
+    /**
+     * 协程兼容的暂停方法
+     */
+    @JvmStatic
+    fun sleepCompat(millis: Long) {
+        CoroutineUtils.sleepCompat(millis)
+    }
+}

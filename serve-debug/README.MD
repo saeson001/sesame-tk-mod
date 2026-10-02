@@ -1,1 +1,45 @@
-CiMgY3JlYXRlIHZpcnR1YWwgZW52aXJvbm1lbnQKCmBweXRob24gLW0gdmVudiAudmVudmAKCiMgYWN0aXZhdGUgdmlydHVhbCBlbnZpcm9ubWVudAoKYHNvdXJjZSAudmVudi9iaW4vYWN0aXZhdGVgCgojIGluc3RhbGwgZGVwZW5kZW5jaWVzCgpgcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dGAKCiMgcnVuIHRoZSBhcHAKCmBweXRob24gbWFpbi5weWAKCiMgc2V0IHRhcmdldCB1cmwgaG9va3MgdXJsIGluIG1vZGVsIGNvbmdpZyBhbmQgdHJ1biBvbiBob29rcwoKIyBlbmpveSBpdAoKCiMgYHdlYnVpLnB5YOS9v+eUqOaWueazlQoK5bCG5qih5Z2XYHdlYmDnm67lvZXmi7fotJ3liLDmnKznm67lvZUK5bCG5L2g5qih5Z2X55qEYGNvbmZpZy5qc29uYOaWh+S7tuaLt+i0neWIsOacrOebruW9lQrlsIbkvaDku7vmhI/kuIDkuKrphY3nva7nmoRgZnJpZW5kLmpzb25g5paH5Lu25ou36LSd5Yiw5pys55uu5b2VCmNkIOWIsOacrOebruW9lQrov5DooYxgdXYgcnVuIHdlYnVpLnB5YArorr/pl65gaHR0cDovLzEyNy4wLjAuMTo4MDAwYOi/meagt+S9oOWwseWPr+aWueS+v+eahOWcqOacrOWcsOiwg+ivleS9oOeahGBXRUItVUlg5LqGCgohW2ltYWdlXShodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvRmFuc2lyc3FpL3BpY3gtaW1hZ2VzLWhvc3RpbmdAbWFzdGVyL2ltYWdlLmx3N2x3dGl3ZS53ZWJwKQoKCnVybOa3u+WKoOi3r+W+hOWwseWPr+S7peiuv+mXruiHquWumuS5ieeahFVJ5LqGIGh0dHA6Ly8xMjcuMC4wLjE6ODA4MC9zZW1pX2luZGV4Lmh0bWwKCmh0dHA6Ly8xMjcuMC4wLjE6ODA4MC92YXJsZXRfaW5kZXguaHRtbAoKIVtpbWFnZV0oaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL0ZhbnNpcnNxaS9waWN4LWltYWdlcy1ob3N0aW5nQG1hc3Rlci9pbWFnZS43M3VmZjg3NncyLndlYnApCgohW2ltYWdlXShodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvRmFuc2lyc3FpL3BpY3gtaW1hZ2VzLWhvc3RpbmdAbWFzdGVyL2ltYWdlLjRnNHo0dmZsZDAud2VicCkKCuasoui/juabtOWkmuWkp+S9rHByCgoK
+
+# create virtual environment
+
+`python -m venv .venv`
+
+# activate virtual environment
+
+`source .venv/bin/activate`
+
+# install dependencies
+
+`pip install -r requirements.txt`
+
+# run the app
+
+`python main.py`
+
+# set target url hooks url in model congig and trun on hooks
+
+# enjoy it
+
+
+# `webui.py`使用方法
+
+将模块`web`目录拷贝到本目录
+将你模块的`config.json`文件拷贝到本目录
+将你任意一个配置的`friend.json`文件拷贝到本目录
+cd 到本目录
+运行`uv run webui.py`
+访问`http://127.0.0.1:8000`这样你就可方便的在本地调试你的`WEB-UI`了
+
+![image](https://cdn.jsdelivr.net/gh/Fansirsqi/picx-images-hosting@master/image.lw7lwtiwe.webp)
+
+
+url添加路径就可以访问自定义的UI了 http://127.0.0.1:8080/semi_index.html
+
+http://127.0.0.1:8080/varlet_index.html
+
+![image](https://cdn.jsdelivr.net/gh/Fansirsqi/picx-images-hosting@master/image.73uff876w2.webp)
+
+![image](https://cdn.jsdelivr.net/gh/Fansirsqi/picx-images-hosting@master/image.4g4z4vfld0.webp)
+
+欢迎更多大佬pr
+
+

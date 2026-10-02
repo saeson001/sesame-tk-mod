@@ -1,1 +1,108 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5zZXJ2aWNlCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5wbS5QYWNrYWdlTWFuYWdlcgppbXBvcnQgYW5kcm9pZC51dGlsLkxvZwppbXBvcnQgY29tLm5pa2kuY21kLlNoZWxsCmltcG9ydCBjb20ubmlraS5jbWQuU2hpenVrdVNoZWxsCmltcG9ydCBjb20ubmlraS5jbWQubW9kZWwuYmVhbi5TaGVsbFJlc3VsdAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuc2VydmljZS5wYXRjaC5TYWZlUm9vdFNoZWxsCmltcG9ydCByaWtrYS5zaGl6dWt1LlNoaXp1a3UKCmNsYXNzIFNoZWxsTWFuYWdlcihjb250ZXh0OiBDb250ZXh0KSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlNoZWxsTWFuYWdlciIKICAgIH0KCiAgICB2YXIgb25TdGF0ZUNoYW5nZWQ6ICgoU3RyaW5nKSAtPiBVbml0KT8gPSBudWxsCgogICAgLy8gMS4g56e76ZmkIFVzZXJTaGVsbO+8jOWPquS/neeVmeeJueadgyBTaGVsbAogICAgcHJpdmF0ZSB2YWwgZXhlY3V0b3JzID0gbGlzdE9mKAogICAgICAgIFNhZmVSb290U2hlbGwoKSwKICAgICAgICBTaGl6dWt1U2hlbGwoY29udGV4dCkKICAgICkKCiAgICAvLyDkvb/nlKggVm9sYXRpbGUg56Gu5L+d5aSa57q/56iL5LiL55qE5Y+v6KeB5oCnCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIHNlbGVjdGVkU2hlbGw6IFNoZWxsPyA9IG51bGwKCiAgICAvKioKICAgICAqIOiOt+WPluW9k+WJjeS9v+eUqOeahCBTaGVsbCDlkI3np7AKICAgICAqLwogICAgdmFsIHNlbGVjdGVkTmFtZTogU3RyaW5nCiAgICAgICAgZ2V0KCkgPSBzZWxlY3RlZFNoZWxsPy5qYXZhQ2xhc3M/LnNpbXBsZU5hbWUgPzogIm5vX2V4ZWN1dG9yIgoKCiAgICBwcml2YXRlIGZ1biBub3RpZnlDaGFuZ2UoKSB7CiAgICAgICAgdmFsIGN1cnJlbnRUeXBlID0gc2VsZWN0ZWROYW1lIC8vIOiOt+WPluW9k+WJjeexu+WeiyAoU2FmZVJvb3RTaGVsbC9TaGl6dWt1L25vX2V4ZWN1dG9yKQogICAgICAgIExvZy5kKFRBRywgIlNoZWxs54q25oCB5Y+Y5pu0IC0+ICRjdXJyZW50VHlwZSIpCiAgICAgICAgb25TdGF0ZUNoYW5nZWQ/Lmludm9rZShjdXJyZW50VHlwZSkKICAgIH0KCiAgICAvKioKICAgICAqIDIuIOaWsOWiniByZXNldCDmlrnms5UKICAgICAqIOeUqOS6juW8uuWItumHjee9rumAieaLqeeKtuaAge+8iOS+i+WmgiBTaGl6dWt1IOaOiOadg+WQju+8iQogICAgICovCiAgICBmdW4gcmVzZXQoKSB7CiAgICAgICAgc2VsZWN0ZWRTaGVsbCA9IG51bGwKICAgICAgICBMb2cuZChUQUcsICJTaGVsbE1hbmFnZXIg5bey6YeN572u77yM5LiL5qyh5omn6KGM5bCG6YeN5paw6YCJ5oupIEV4ZWN1dG9yIikKICAgICAgICBub3RpZnlDaGFuZ2UoKSAvLyDwn5SlIOmAmuefpe+8mumHjee9ruS6hgogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gc2VsZWN0RXhlY3V0b3IoKSB7CiAgICAgICAgLy8g5aaC5p6c5bey57uP6YCJ5Lit5LiU5Y+v55So77yM55u05o6l6L+U5ZueCiAgICAgICAgaWYgKHNlbGVjdGVkU2hlbGwgIT0gbnVsbCAmJiBzZWxlY3RlZFNoZWxsISEuaXNBdmFpbGFibGUoKSkgcmV0dXJuCgogICAgICAgIExvZy5kKFRBRywgIuato+WcqOWvu+aJvuWPr+eUqOeahCBSb290IOaIliBTaGl6dWt1IFNoZWxsLi4uIikKCiAgICAgICAgZm9yIChzaGVsbCBpbiBleGVjdXRvcnMpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIDMuIOmSiOWvuSBTaGl6dWt1IOWBmueJueauiuajgOafpe+8jOmYsuatouacquaOiOadg+aXtuaKpemUmeaIluWBh+atuwogICAgICAgICAgICAgICAgaWYgKHNoZWxsIGlzIFNoaXp1a3VTaGVsbCkgewogICAgICAgICAgICAgICAgICAgIGlmICghaXNTaGl6dWt1UmVhZHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICBMb2cuZChUQUcsICLot7Pov4cgU2hpenVrdVNoZWxsOiDmnKrmjojmnYPmiJbmnI3liqHmnKrov5DooYwiKQogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiAoc2hlbGwuaXNBdmFpbGFibGUoKSkgewogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkU2hlbGwgPSBzaGVsbAogICAgICAgICAgICAgICAgICAgIG5vdGlmeUNoYW5nZSgpIC8vIPCflKUg6YCa55+l77ya6YCJ5Lit5LqG5pawIFNoZWxsCiAgICAgICAgICAgICAgICAgICAgTG9nLmkoVEFHLCAi4pyFIOaIkOWKn+mAieS4rSBTaGVsbDogJHtzaGVsbC5qYXZhQ2xhc3Muc2ltcGxlTmFtZX0iKQogICAgICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy53KFRBRywgIlNoZWxsICR7c2hlbGwuamF2YUNsYXNzLnNpbXBsZU5hbWV9IOajgOa1i+Wksei0pTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAvLyDlpoLmnpzpg73lpLHotKXkuobvvIznva7nqboKICAgICAgICBzZWxlY3RlZFNoZWxsID0gbnVsbAogICAgICAgIG5vdGlmeUNoYW5nZSgpIC8vIPCflKUg6YCa55+l77ya5Y+Y5oiQIE5vbmUg5LqGCiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6UgU2hpenVrdSDmmK/lkKblsLHnu6oKICAgICAqLwogICAgZnVuIGlzU2hpenVrdVJlYWR5KCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgaXNCaW5kZXJBbGl2ZSA9IFNoaXp1a3UucGluZ0JpbmRlcigpCiAgICAgICAgICAgIHZhbCBoYXNQZXJtaXNzaW9uID0gaWYgKGlzQmluZGVyQWxpdmUpIFNoaXp1a3UuY2hlY2tTZWxmUGVybWlzc2lvbigpID09IFBhY2thZ2VNYW5hZ2VyLlBFUk1JU1NJT05fR1JBTlRFRCBlbHNlIGZhbHNlCiAgICAgICAgICAgIExvZy5kKFRBRywgIlNoaXp1a3VDaGVjazogaXNCaW5kZXJBbGl2ZTogJGlzQmluZGVyQWxpdmUsIGhhc1Blcm1pc3Npb246ICRoYXNQZXJtaXNzaW9uLCBQSUQ6ICR7YW5kcm9pZC5vcy5Qcm9jZXNzLm15UGlkKCl9IikKICAgICAgICAgICAgcmV0dXJuIGlzQmluZGVyQWxpdmUgJiYgaGFzUGVybWlzc2lvbgogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZShUQUcsICJpc1NoaXp1a3VSZWFkeSIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5omn6KGM5ZG95LukCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGV4ZWMoY29tbWFuZDogU3RyaW5nKTogU2hlbGxSZXN1bHQgewogICAgICAgIHNlbGVjdEV4ZWN1dG9yKCkKICAgICAgICB2YWwgc2hlbGwgPSBzZWxlY3RlZFNoZWxsID86IHJldHVybiBTaGVsbFJlc3VsdCggIiIsICJObyB2YWxpZCBSb290L1NoaXp1a3Ugc2hlbGwgZm91bmQuIiwtMSkKICAgICAgICBMb2cuZChUQUcsICLmiafooYzlkb3ku6Q6ICRjb21tYW5kICh2aWEgJHNlbGVjdGVkTmFtZSkiKQogICAgICAgIHJldHVybiBzaGVsbC5leGVjKGNvbW1hbmQsIDVfMDAwTCkKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.service
+
+import android.content.Context
+import android.content.pm.PackageManager
+import android.util.Log
+import com.niki.cmd.Shell
+import com.niki.cmd.ShizukuShell
+import com.niki.cmd.model.bean.ShellResult
+import fansirsqi.xposed.sesame.service.patch.SafeRootShell
+import rikka.shizuku.Shizuku
+
+class ShellManager(context: Context) {
+
+    companion object {
+        private const val TAG = "ShellManager"
+    }
+
+    var onStateChanged: ((String) -> Unit)? = null
+
+    // 1. 移除 UserShell，只保留特权 Shell
+    private val executors = listOf(
+        SafeRootShell(),
+        ShizukuShell(context)
+    )
+
+    // 使用 Volatile 确保多线程下的可见性
+    @Volatile
+    private var selectedShell: Shell? = null
+
+    /**
+     * 获取当前使用的 Shell 名称
+     */
+    val selectedName: String
+        get() = selectedShell?.javaClass?.simpleName ?: "no_executor"
+
+
+    private fun notifyChange() {
+        val currentType = selectedName // 获取当前类型 (SafeRootShell/Shizuku/no_executor)
+        Log.d(TAG, "Shell状态变更 -> $currentType")
+        onStateChanged?.invoke(currentType)
+    }
+
+    /**
+     * 2. 新增 reset 方法
+     * 用于强制重置选择状态（例如 Shizuku 授权后）
+     */
+    fun reset() {
+        selectedShell = null
+        Log.d(TAG, "ShellManager 已重置，下次执行将重新选择 Executor")
+        notifyChange() // 🔥 通知：重置了
+    }
+
+    private suspend fun selectExecutor() {
+        // 如果已经选中且可用，直接返回
+        if (selectedShell != null && selectedShell!!.isAvailable()) return
+
+        Log.d(TAG, "正在寻找可用的 Root 或 Shizuku Shell...")
+
+        for (shell in executors) {
+            try {
+                // 3. 针对 Shizuku 做特殊检查，防止未授权时报错或假死
+                if (shell is ShizukuShell) {
+                    if (!isShizukuReady()) {
+                        Log.d(TAG, "跳过 ShizukuShell: 未授权或服务未运行")
+                        continue
+                    }
+                }
+
+                if (shell.isAvailable()) {
+                    selectedShell = shell
+                    notifyChange() // 🔥 通知：选中了新 Shell
+                    Log.i(TAG, "✅ 成功选中 Shell: ${shell.javaClass.simpleName}")
+                    return
+                }
+            } catch (e: Exception) {
+                Log.w(TAG, "Shell ${shell.javaClass.simpleName} 检测失败: ${e.message}")
+            }
+        }
+        // 如果都失败了，置空
+        selectedShell = null
+        notifyChange() // 🔥 通知：变成 None 了
+    }
+
+    /**
+     * 检查 Shizuku 是否就绪
+     */
+    fun isShizukuReady(): Boolean {
+        return try {
+            val isBinderAlive = Shizuku.pingBinder()
+            val hasPermission = if (isBinderAlive) Shizuku.checkSelfPermission() == PackageManager.PERMISSION_GRANTED else false
+            Log.d(TAG, "ShizukuCheck: isBinderAlive: $isBinderAlive, hasPermission: $hasPermission, PID: ${android.os.Process.myPid()}")
+            return isBinderAlive && hasPermission
+        } catch (e: Exception) {
+            Log.e(TAG, "isShizukuReady", e)
+            false
+        }
+    }
+
+    /**
+     * 执行命令
+     */
+    suspend fun exec(command: String): ShellResult {
+        selectExecutor()
+        val shell = selectedShell ?: return ShellResult( "", "No valid Root/Shizuku shell found.",-1)
+        Log.d(TAG, "执行命令: $command (via $selectedName)")
+        return shell.exec(command, 5_000L)
+    }
+}

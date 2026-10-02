@@ -1,1 +1,57 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uYW5ub3RhdGlvbi5Kc29uQWxpYXMKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLkpzb25JZ25vcmUKaW1wb3J0IGNvbS5mYXN0ZXJ4bWwuamFja3Nvbi5hbm5vdGF0aW9uLkpzb25JZ25vcmVQcm9wZXJ0aWVzCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uZGF0YWJpbmQuT2JqZWN0TWFwcGVyCgovKioKICogUlBDIOiwg+ivlemhueaVsOaNruaooeWeiwogKi8KLyoqCiAqIFJQQyDosIPor5XpobnmlbDmja7mqKHlnosKICovCkBKc29uSWdub3JlUHJvcGVydGllcyhpZ25vcmVVbmtub3duID0gdHJ1ZSkKZGF0YSBjbGFzcyBScGNEZWJ1Z0VudGl0eSgKICAgIC8vIOKchSDkvb/nlKggQGZpZWxkOkpzb25BbGlhcyDmtojpmaTorablkYrvvIzlkIzml7bmlK/mjIHlpJrkuKrliKvlkI0KCiAgICBAZmllbGQ6SnNvbkFsaWFzKCJOYW1lIikKICAgIHZhciBuYW1lOiBTdHJpbmcgPSAiIiwKCiAgICAvLyDwn5SlIOWFs+mUru+8muWQjOaXtuaUr+aMgSAibWV0aG9kIiAo6buY6K6kKSwgIm1ldGhvZE5hbWUiLCAiTWV0aG9kIgogICAgQGZpZWxkOkpzb25BbGlhcygibWV0aG9kTmFtZSIsICJNZXRob2QiKQogICAgdmFyIG1ldGhvZDogU3RyaW5nID0gIiIsCgogICAgQGZpZWxkOkpzb25BbGlhcygiUmVxdWVzdERhdGEiKQogICAgdmFyIHJlcXVlc3REYXRhOiBBbnk/ID0gbnVsbCwKCiAgICB2YXIgaWQ6IFN0cmluZyA9ICIiLAoKICAgIEBmaWVsZDpKc29uQWxpYXMoIkRlc2NyaXB0aW9uIiwgImRlc2MiLCAiRGVzYyIpCiAgICB2YXIgZGVzY3JpcHRpb246IFN0cmluZyA9ICIiCikgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSB2YWwgb2JqZWN0TWFwcGVyID0gT2JqZWN0TWFwcGVyKCkKICAgIH0KCiAgICBpbml0IHsKICAgICAgICBpZiAoaWQuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIGlkID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkudG9TdHJpbmcoKQogICAgICAgIH0KICAgIH0KCiAgICBASnNvbklnbm9yZQogICAgZnVuIGdldERpc3BsYXlOYW1lKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIG5hbWUuaWZFbXB0eSB7IG1ldGhvZCB9CiAgICB9CgogICAgQEpzb25JZ25vcmUKICAgIGZ1biBnZXRSZXF1ZXN0RGF0YVN0cmluZygpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aGVuIChyZXF1ZXN0RGF0YSkgewogICAgICAgICAgICBpcyBTdHJpbmcgLT4gcmVxdWVzdERhdGEgYXMgU3RyaW5nCiAgICAgICAgICAgIGlzIExpc3Q8Kj4gLT4gb2JqZWN0TWFwcGVyLndyaXRlVmFsdWVBc1N0cmluZyhyZXF1ZXN0RGF0YSkKICAgICAgICAgICAgaXMgTWFwPCosICo+IC0+IG9iamVjdE1hcHBlci53cml0ZVZhbHVlQXNTdHJpbmcobGlzdE9mKHJlcXVlc3REYXRhKSkKICAgICAgICAgICAgZWxzZSAtPiAiW3t9XSIKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.entity
+
+import com.fasterxml.jackson.annotation.JsonAlias
+import com.fasterxml.jackson.annotation.JsonIgnore
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+import com.fasterxml.jackson.databind.ObjectMapper
+
+/**
+ * RPC 调试项数据模型
+ */
+/**
+ * RPC 调试项数据模型
+ */
+@JsonIgnoreProperties(ignoreUnknown = true)
+data class RpcDebugEntity(
+    // ✅ 使用 @field:JsonAlias 消除警告，同时支持多个别名
+
+    @field:JsonAlias("Name")
+    var name: String = "",
+
+    // 🔥 关键：同时支持 "method" (默认), "methodName", "Method"
+    @field:JsonAlias("methodName", "Method")
+    var method: String = "",
+
+    @field:JsonAlias("RequestData")
+    var requestData: Any? = null,
+
+    var id: String = "",
+
+    @field:JsonAlias("Description", "desc", "Desc")
+    var description: String = ""
+) {
+    companion object {
+        private val objectMapper = ObjectMapper()
+    }
+
+    init {
+        if (id.isEmpty()) {
+            id = System.currentTimeMillis().toString()
+        }
+    }
+
+    @JsonIgnore
+    fun getDisplayName(): String {
+        return name.ifEmpty { method }
+    }
+
+    @JsonIgnore
+    fun getRequestDataString(): String {
+        return when (requestData) {
+            is String -> requestData as String
+            is List<*> -> objectMapper.writeValueAsString(requestData)
+            is Map<*, *> -> objectMapper.writeValueAsString(listOf(requestData))
+            else -> "[{}]"
+        }
+    }
+}

@@ -1,1 +1,68 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrOwoKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLkJhc2VNb2RlbDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5UaW1lVXRpbDsKCi8qKgogKiDpgJrnlKjku7vliqHlt6XlhbfnsbsKICogPHA+CiAqIOaPkOS+m+S7u+WKoeebuOWFs+eahOmAmueUqOWKn+iDve+8jOWMheaLrOaXtumXtOWIpOaWreWSjOeKtuaAgeabtOaWsOOAggogKi8KcHVibGljIGNsYXNzIFRhc2tDb21tb24gewogICAgcHVibGljIHN0YXRpYyB2b2xhdGlsZSBCb29sZWFuIElTX0VORVJHWV9USU1FID0gZmFsc2U7CiAgICBwdWJsaWMgc3RhdGljIHZvbGF0aWxlIEJvb2xlYW4gSVNfQUZURVJfOEFNID0gZmFsc2U7CiAgICBwdWJsaWMgc3RhdGljIHZvbGF0aWxlIEJvb2xlYW4gSVNfTU9EVUxFX1NMRUVQX1RJTUUgPSBmYWxzZTsKCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgdXBkYXRlKCkgewogICAgICAgIGxvbmcgY3VycmVudFRpbWVNaWxsaXMgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKCiAgICAgICAgLy8g5Y+q5pS26IO96YeP5pe26Ze05qOA5p+lCiAgICAgICAgSVNfRU5FUkdZX1RJTUUgPSBjaGVja1RpbWVSYW5nZUNvbmZpZyhCYXNlTW9kZWwuQ29tcGFuaW9uLmdldEVuZXJneVRpbWUoKS5nZXRWYWx1ZSgpLCAi5Y+q5pS26IO96YeP5pe26Ze0IiwgY3VycmVudFRpbWVNaWxsaXMpOwoKICAgICAgICAvLyDmqKHlnZfkvJHnnKDml7bpl7Tmo4Dmn6UKICAgICAgICBJU19NT0RVTEVfU0xFRVBfVElNRSA9IGNoZWNrVGltZVJhbmdlQ29uZmlnKEJhc2VNb2RlbC5Db21wYW5pb24uZ2V0TW9kZWxTbGVlcFRpbWUoKS5nZXRWYWx1ZSgpLCAi5qih5Z2X5LyR55yg5pe26Ze0IiwgY3VycmVudFRpbWVNaWxsaXMpOwoKICAgICAgICAvLyDmmK/lkKbov4fkuoYgOCDngrkKICAgICAgICBJU19BRlRFUl84QU0gPSBUaW1lVXRpbC5pc0FmdGVyT3JDb21wYXJlVGltZVN0cihjdXJyZW50VGltZU1pbGxpcywgIjA4MDAiKTsKCiAgICAgICAgLy8g6L6T5Ye654q25oCB5pu05paw5pel5b+XCiAgLyogICAgICBMb2cucnVudGltZSgiVGFza0NvbW1vbiBVcGRhdGUg5a6M5oiQOlxuIiArCiAgICAgICAgICAgICAgICAi5Y+q5pS26IO96YeP5pe26Ze06YWN572uOiAiICsgSVNfRU5FUkdZX1RJTUUgKyAiXG4iICsKICAgICAgICAgICAgICAgICLmqKHlnZfkvJHnnKDphY3nva46ICIgKyBJU19NT0RVTEVfU0xFRVBfVElNRSArICJcbiIgKwogICAgICAgICAgICAgICAgIuW9k+WJjeaYr+WQpui/h+S6hjjngrk6ICIgKyBJU19BRlRFUl84QU0pOyovCiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6Xml7bpl7TphY3nva7mmK/lkKblnKjlvZPliY3ml7bpl7TojIPlm7TlhoUKICAgICAqCiAgICAgKiBAcGFyYW0gdGltZUNvbmZpZyDphY3nva7nmoTml7bpl7TmrrUKICAgICAqIEBwYXJhbSBsYWJlbCAgICAgIOmFjee9ruagh+etvu+8iOeUqOS6juaXpeW/l+i+k+WHuu+8iQogICAgICogQHBhcmFtIGN1cnJlbnRUaW1lIOW9k+WJjeaXtumXtAogICAgICogQHJldHVybiDmmK/lkKblnKjml7bpl7TojIPlm7TlhoUKICAgICAqLwogICAgcHJpdmF0ZSBzdGF0aWMgYm9vbGVhbiBjaGVja1RpbWVSYW5nZUNvbmZpZyhMaXN0PFN0cmluZz4gdGltZUNvbmZpZywgU3RyaW5nIGxhYmVsLCBsb25nIGN1cnJlbnRUaW1lKSB7CiAgICAgICAgaWYgKGlzQ29uZmlnRGlzYWJsZWQodGltZUNvbmZpZykpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChsYWJlbCArICIg6YWN572u5bey5YWz6ZetIik7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CgogICAgICAgIExvZy5yZWNvcmQoIuiOt+WPliAiICsgbGFiZWwgKyAiIOmFjee9rjogIiArIHRpbWVDb25maWcpOwogICAgICAgIHJldHVybiBUaW1lVXRpbC5jaGVja0luVGltZVJhbmdlKGN1cnJlbnRUaW1lLCB0aW1lQ29uZmlnKTsKICAgIH0KCiAgICAvKioKICAgICAqIOWIpOaWreW9k+WJjemFjee9ruaYr+WQpuihqOekuuKAnOWFs+mXreKAnQogICAgICoKICAgICAqIEBwYXJhbSBjb25maWcg6L6T5YWl55qE5a2X56ym5Liy5YiX6KGoCiAgICAgKiBAcmV0dXJuIHRydWUg6KGo56S65YWz6ZetCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBpc0NvbmZpZ0Rpc2FibGVkKExpc3Q8U3RyaW5nPiBjb25maWcpIHsKICAgICAgICBpZiAoY29uZmlnID09IG51bGwgfHwgY29uZmlnLmlzRW1wdHkoKSkgcmV0dXJuIHRydWU7CgogICAgICAgIFN0cmluZyBmaXJzdCA9IGNvbmZpZy5nZXQoMCkudHJpbSgpOwogICAgICAgIHJldHVybiAiLTEiLmVxdWFscyhmaXJzdCk7ICAvLyDooajnpLrphY3nva7lt7LlhbPpl60KICAgIH0KfQ==
+package fansirsqi.xposed.sesame.task;
+
+import java.util.List;
+
+import fansirsqi.xposed.sesame.model.BaseModel;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.TimeUtil;
+
+/**
+ * 通用任务工具类
+ * <p>
+ * 提供任务相关的通用功能，包括时间判断和状态更新。
+ */
+public class TaskCommon {
+    public static volatile Boolean IS_ENERGY_TIME = false;
+    public static volatile Boolean IS_AFTER_8AM = false;
+    public static volatile Boolean IS_MODULE_SLEEP_TIME = false;
+
+    public static void update() {
+        long currentTimeMillis = System.currentTimeMillis();
+
+        // 只收能量时间检查
+        IS_ENERGY_TIME = checkTimeRangeConfig(BaseModel.Companion.getEnergyTime().getValue(), "只收能量时间", currentTimeMillis);
+
+        // 模块休眠时间检查
+        IS_MODULE_SLEEP_TIME = checkTimeRangeConfig(BaseModel.Companion.getModelSleepTime().getValue(), "模块休眠时间", currentTimeMillis);
+
+        // 是否过了 8 点
+        IS_AFTER_8AM = TimeUtil.isAfterOrCompareTimeStr(currentTimeMillis, "0800");
+
+        // 输出状态更新日志
+  /*      Log.runtime("TaskCommon Update 完成:\n" +
+                "只收能量时间配置: " + IS_ENERGY_TIME + "\n" +
+                "模块休眠配置: " + IS_MODULE_SLEEP_TIME + "\n" +
+                "当前是否过了8点: " + IS_AFTER_8AM);*/
+    }
+
+    /**
+     * 检查时间配置是否在当前时间范围内
+     *
+     * @param timeConfig 配置的时间段
+     * @param label      配置标签（用于日志输出）
+     * @param currentTime 当前时间
+     * @return 是否在时间范围内
+     */
+    private static boolean checkTimeRangeConfig(List<String> timeConfig, String label, long currentTime) {
+        if (isConfigDisabled(timeConfig)) {
+            Log.record(label + " 配置已关闭");
+            return false;
+        }
+
+        Log.record("获取 " + label + " 配置: " + timeConfig);
+        return TimeUtil.checkInTimeRange(currentTime, timeConfig);
+    }
+
+    /**
+     * 判断当前配置是否表示“关闭”
+     *
+     * @param config 输入的字符串列表
+     * @return true 表示关闭
+     */
+    public static boolean isConfigDisabled(List<String> config) {
+        if (config == null || config.isEmpty()) return true;
+
+        String first = config.get(0).trim();
+        return "-1".equals(first);  // 表示配置已关闭
+    }
+}

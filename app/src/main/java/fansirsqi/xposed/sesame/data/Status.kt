@@ -1,1 +1,608 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhCgppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmRhdGFiaW5kLkpzb25NYXBwaW5nRXhjZXB0aW9uCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5hbnRGb3Jlc3QuQW50Rm9yZXN0CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkZpbGVzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkpzb25VdGlsCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5TdHJpbmdVdGlsCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlRpbWVVdGlsCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuVXNlck1hcAppbXBvcnQgamF2YS51dGlsLkNhbGVuZGFyCmltcG9ydCBqYXZhLnV0aWwuRGF0ZQoKY2xhc3MgU3RhdHVzIHsKCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT0gZm9yZXN0CiAgICB2YXIgd2F0ZXJGcmllbmRMb2dMaXN0OiBNdXRhYmxlTWFwPFN0cmluZywgSW50PiA9IEhhc2hNYXAoKQogICAgdmFyIGNvb3BlcmF0ZVdhdGVyTGlzdDogTXV0YWJsZVNldDxTdHJpbmc+ID0gSGFzaFNldCgpIC8vIOWQiOS9nOa1h+awtAogICAgdmFyIHJlc2VydmVMb2dMaXN0OiBNdXRhYmxlTWFwPFN0cmluZywgSW50PiA9IEhhc2hNYXAoKQogICAgdmFyIGFuY2llbnRUcmVlQ2l0eUNvZGVMaXN0OiBNdXRhYmxlU2V0PFN0cmluZz4gPSBIYXNoU2V0KCkgLy8g5Y+k5qCRCiAgICB2YXIgcHJvdGVjdEJ1YmJsZUxpc3Q6IE11dGFibGVTZXQ8U3RyaW5nPiA9IEhhc2hTZXQoKQogICAgdmFyIGRvdWJsZVRpbWVzOiBJbnQgPSAwCiAgICB2YXIgZXhjaGFuZ2VFbmVyZ3lTaGllbGQ6IEJvb2xlYW4gPSBmYWxzZSAvLyDmtLvlipvlgLzlhZHmjaLog73ph4/kv53miqTnvakKICAgIHZhciBleGNoYW5nZUNvbGxlY3RIaXN0b3J5QW5pbWFsN0RheXM6IEJvb2xlYW4gPSBmYWxzZQogICAgdmFyIGV4Y2hhbmdlQ29sbGVjdFRvRnJpZW5kVGltZXM3RGF5czogQm9vbGVhbiA9IGZhbHNlCiAgICB2YXIgeW91dGhQcml2aWxlZ2U6IEJvb2xlYW4gPSB0cnVlCiAgICB2YXIgc3R1ZGVudFRhc2s6IEJvb2xlYW4gPSB0cnVlCiAgICB2YXIgdml0YWxpdHlTdG9yZUxpc3Q6IE11dGFibGVNYXA8U3RyaW5nLCBJbnQ+ID0gSGFzaE1hcCgpIC8vIOazqOaEj+WRveWQjeinhOiMg+mmluWtl+avjeWwj+WGmQoKICAgIC8vID09PT09PT09PT09PT09PT09PT09PT09PT09PSBmYXJtCiAgICB2YXIgYW5zd2VyUXVlc3Rpb246IEJvb2xlYW4gPSBmYWxzZQogICAgdmFyIGZlZWRGcmllbmRMb2dMaXN0OiBNdXRhYmxlTWFwPFN0cmluZywgSW50PiA9IEhhc2hNYXAoKQogICAgdmFyIHZpc2l0RnJpZW5kTG9nTGlzdDogTXV0YWJsZU1hcDxTdHJpbmcsIEludD4gPSBIYXNoTWFwKCkKCiAgICAvLyDlj6/ku6XlrZjlkITnp43ku4rml6XorqHmlbDvvIjmraXmlbDjgIHmrKHmlbDnrYnvvIkKICAgIC8vIDIwMjUvMTIvNCBHU01UIOeUqOadpeWtmOWCqGludOexu+Wei+aVsOaNru+8jOaXoOmcgOWGjemHjeWkjeWumuS5iQogICAgdmFyIGludEZsYWdNYXA6IE11dGFibGVNYXA8U3RyaW5nLCBJbnQ+ID0gSGFzaE1hcCgpCgogICAgdmFyIGRhaWx5QW5zd2VyTGlzdDogTXV0YWJsZVNldDxTdHJpbmc+ID0gSGFzaFNldCgpCiAgICB2YXIgZG9uYXRpb25FZ2dMaXN0OiBNdXRhYmxlU2V0PFN0cmluZz4gPSBIYXNoU2V0KCkKICAgIHZhciB1c2VBY2NlbGVyYXRlVG9vbENvdW50OiBJbnQgPSAwCgogICAgLyoqIOWwj+m4oeaNouijhSAqLwogICAgdmFyIGNhbk9ybmFtZW50OiBCb29sZWFuID0gdHJ1ZQogICAgdmFyIGFuaW1hbFNsZWVwOiBCb29sZWFuID0gZmFsc2UKCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PSBzdGFsbAogICAgdmFyIHN0YWxsSGVscGVkQ291bnRMb2dMaXN0OiBNdXRhYmxlTWFwPFN0cmluZywgSW50PiA9IEhhc2hNYXAoKQogICAgdmFyIHNwcmVhZE1hbnVyZUxpc3Q6IE11dGFibGVTZXQ8U3RyaW5nPiA9IEhhc2hTZXQoKQogICAgdmFyIHN0YWxsUDJQSGVscGVkTGlzdDogTXV0YWJsZVNldDxTdHJpbmc+ID0gSGFzaFNldCgpCiAgICB2YXIgY2FuU3RhbGxEb25hdGU6IEJvb2xlYW4gPSB0cnVlCgogICAgLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT0gc3BvcnQKICAgIHZhciBzeW5jU3RlcExpc3Q6IE11dGFibGVTZXQ8U3RyaW5nPiA9IEhhc2hTZXQoKQogICAgdmFyIGV4Y2hhbmdlTGlzdDogTXV0YWJsZVNldDxTdHJpbmc+ID0gSGFzaFNldCgpCgogICAgLyoqIOaNkOi/kOWKqOW4gSAqLwogICAgdmFyIGRvbmF0ZUNoYXJpdHlDb2luOiBCb29sZWFuID0gZmFsc2UKCiAgICAvLyA9PT09PT09PT09PT09PT09PT09PT09PSBvdGhlcgogICAgdmFyIG1lbWJlclNpZ25Jbkxpc3Q6IE11dGFibGVTZXQ8U3RyaW5nPiA9IEhhc2hTZXQoKQogICAgdmFsIGZsYWdMaXN0OiBNdXRhYmxlU2V0PFN0cmluZz4gPSBIYXNoU2V0KCkKCiAgICAvKiog5Y+j56KR562+5YiwICovCiAgICB2YXIga2JTaWduSW46IExvbmcgPSAwCgogICAgLyoqIOS/neWtmOaXtumXtCAqLwogICAgdmFyIHNhdmVUaW1lOiBMb25nID0gMEwKCiAgICAvKiog5paw5p2R5Yqp5Yqb5aW95Y+L77yM5bey5LiK6ZmQ55qE55So5oi3ICovCiAgICB2YXIgYW50U3RhbGxBc3Npc3RGcmllbmQ6IE11dGFibGVTZXQ8U3RyaW5nPiA9IEhhc2hTZXQoKQoKICAgIC8qKiDmlrDmnZEt572a5Y2V5bey6LS05a6M55qE55So5oi3ICovCiAgICB2YXIgY2FuUGFzdGVUaWNrZXRUaW1lOiBNdXRhYmxlU2V0PFN0cmluZz4gPSBIYXNoU2V0KCkKCiAgICAvKiog57u/6Imy57uP6JCl77yM5pS25Y+W5aW95Y+L6YeR5biB5bey5a6M5oiQ55So5oi3ICovCiAgICB2YXIgZ3JlZW5GaW5hbmNlUG9pbnRGcmllbmQ6IE11dGFibGVTZXQ8U3RyaW5nPiA9IEhhc2hTZXQoKQoKICAgIC8qKiDnu7/oibLnu4/okKXvvIzor4TnuqfpooblpZblt7LlrozmiJDnlKjmiLcgKi8KICAgIHZhciBncmVlbkZpbmFuY2VQcml6ZXNNYXA6IE11dGFibGVNYXA8U3RyaW5nLCBJbnQ+ID0gSGFzaE1hcCgpCgogICAgLyoqIOWGnOWcuuWKqeWKmyAqLwogICAgdmFyIGFudE9yY2hhcmRBc3Npc3RGcmllbmQ6IE11dGFibGVTZXQ8U3RyaW5nPiA9IEhhc2hTZXQoKQoKICAgIC8qKiDkvJrlkZjmnYPnm4ogKi8KICAgIHZhciBtZW1iZXJQb2ludEV4Y2hhbmdlQmVuZWZpdExvZ0xpc3Q6IE11dGFibGVTZXQ8U3RyaW5nPiA9IEhhc2hTZXQoKQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgdmFsIFRBRyA9IFN0YXR1czo6Y2xhc3MuamF2YS5zaW1wbGVOYW1lCgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICB2YWwgSU5TVEFOQ0U6IFN0YXR1cyA9IFN0YXR1cygpCgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICB2YWwgY3VycmVudERheVRpbWVzdGFtcDogTG9uZwogICAgICAgICAgICBnZXQoKSB7CiAgICAgICAgICAgICAgICB2YWwgY2FsZW5kYXIgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpCiAgICAgICAgICAgICAgICBjYWxlbmRhci5zZXQoQ2FsZW5kYXIuSE9VUl9PRl9EQVksIDApCiAgICAgICAgICAgICAgICBjYWxlbmRhci5zZXQoQ2FsZW5kYXIuTUlOVVRFLCAwKQogICAgICAgICAgICAgICAgY2FsZW5kYXIuc2V0KENhbGVuZGFyLlNFQ09ORCwgMCkKICAgICAgICAgICAgICAgIGNhbGVuZGFyLnNldChDYWxlbmRhci5NSUxMSVNFQ09ORCwgMCkKICAgICAgICAgICAgICAgIHJldHVybiBjYWxlbmRhci50aW1lSW5NaWxsaXMKICAgICAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGdldFZpdGFsaXR5Q291bnQoc2t1SWQ6IFN0cmluZyk6IEludCB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRS52aXRhbGl0eVN0b3JlTGlzdFtza3VJZF0gPzogMAogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBjYW5WaXRhbGl0eUV4Y2hhbmdlVG9kYXkoc2t1SWQ6IFN0cmluZywgY291bnQ6IEludCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gIWhhc0ZsYWdUb2RheSgiZm9yZXN0OjpWaXRhbGl0eUV4Y2hhbmdlTGltaXQ6OiRza3VJZCIpICYmIGdldFZpdGFsaXR5Q291bnQoc2t1SWQpIDwgY291bnQKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gdml0YWxpdHlFeGNoYW5nZVRvZGF5KHNrdUlkOiBTdHJpbmcpIHsKICAgICAgICAgICAgdmFsIGNvdW50ID0gZ2V0Vml0YWxpdHlDb3VudChza3VJZCkgKyAxCiAgICAgICAgICAgIElOU1RBTkNFLnZpdGFsaXR5U3RvcmVMaXN0W3NrdUlkXSA9IGNvdW50CiAgICAgICAgICAgIHNhdmUoKQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBjYW5BbmltYWxTbGVlcCgpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuICFJTlNUQU5DRS5hbmltYWxTbGVlcAogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBhbmltYWxTbGVlcCgpIHsKICAgICAgICAgICAgaWYgKCFJTlNUQU5DRS5hbmltYWxTbGVlcCkgewogICAgICAgICAgICAgICAgSU5TVEFOQ0UuYW5pbWFsU2xlZXAgPSB0cnVlCiAgICAgICAgICAgICAgICBzYXZlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBjYW5XYXRlckZyaWVuZFRvZGF5KGlkOiBTdHJpbmcsIG5ld0NvdW50OiBJbnQpOiBCb29sZWFuIHsKICAgICAgICAgICAgdmFsIGtleSA9ICIke1VzZXJNYXAuY3VycmVudFVpZH0tJGlkIgogICAgICAgICAgICB2YWwgY291bnQgPSBJTlNUQU5DRS53YXRlckZyaWVuZExvZ0xpc3Rba2V5XSA/OiByZXR1cm4gdHJ1ZQogICAgICAgICAgICByZXR1cm4gY291bnQgPCBuZXdDb3VudAogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biB3YXRlckZyaWVuZFRvZGF5KGlkOiBTdHJpbmcsIGNvdW50OiBJbnQpIHsKICAgICAgICAgICAgdmFsIGtleSA9ICIke1VzZXJNYXAuY3VycmVudFVpZH0tJGlkIgogICAgICAgICAgICBJTlNUQU5DRS53YXRlckZyaWVuZExvZ0xpc3Rba2V5XSA9IGNvdW50CiAgICAgICAgICAgIHNhdmUoKQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBnZXRSZXNlcnZlVGltZXMoaWQ6IFN0cmluZyk6IEludCB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRS5yZXNlcnZlTG9nTGlzdFtpZF0gPzogMAogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBjYW5SZXNlcnZlVG9kYXkoaWQ6IFN0cmluZywgY291bnQ6IEludCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gZ2V0UmVzZXJ2ZVRpbWVzKGlkKSA8IGNvdW50CiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIHJlc2VydmVUb2RheShpZDogU3RyaW5nLCBuZXdDb3VudDogSW50KSB7CiAgICAgICAgICAgIHZhbCBjb3VudCA9IElOU1RBTkNFLnJlc2VydmVMb2dMaXN0W2lkXSA/OiAwCiAgICAgICAgICAgIElOU1RBTkNFLnJlc2VydmVMb2dMaXN0W2lkXSA9IGNvdW50ICsgbmV3Q291bnQKICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhbkNvb3BlcmF0ZVdhdGVyVG9kYXkodWlkOiBTdHJpbmc/LCBjb29wSWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gIUlOU1RBTkNFLmNvb3BlcmF0ZVdhdGVyTGlzdC5jb250YWlucygiJHt1aWR9XyRjb29wSWQiKQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBjb29wZXJhdGVXYXRlclRvZGF5KHVpZDogU3RyaW5nPywgY29vcElkOiBTdHJpbmc/KSB7CiAgICAgICAgICAgIHZhbCB2ID0gIiR7dWlkfV8kY29vcElkIgogICAgICAgICAgICBpZiAoSU5TVEFOQ0UuY29vcGVyYXRlV2F0ZXJMaXN0LmFkZCh2KSkgewogICAgICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuQW5jaWVudFRyZWVUb2RheShjaXR5Q29kZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiAhSU5TVEFOQ0UuYW5jaWVudFRyZWVDaXR5Q29kZUxpc3QuY29udGFpbnMoY2l0eUNvZGUpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGFuY2llbnRUcmVlVG9kYXkoY2l0eUNvZGU6IFN0cmluZykgewogICAgICAgICAgICBpZiAoSU5TVEFOQ0UuYW5jaWVudFRyZWVDaXR5Q29kZUxpc3QuYWRkKGNpdHlDb2RlKSkgewogICAgICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuQW5zd2VyUXVlc3Rpb25Ub2RheSgpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuICFJTlNUQU5DRS5hbnN3ZXJRdWVzdGlvbgogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBhbnN3ZXJRdWVzdGlvblRvZGF5KCkgewogICAgICAgICAgICBpZiAoIUlOU1RBTkNFLmFuc3dlclF1ZXN0aW9uKSB7CiAgICAgICAgICAgICAgICBJTlNUQU5DRS5hbnN3ZXJRdWVzdGlvbiA9IHRydWUKICAgICAgICAgICAgICAgIHNhdmUoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhbkZlZWRGcmllbmRUb2RheShpZDogU3RyaW5nLCBuZXdDb3VudDogSW50KTogQm9vbGVhbiB7CiAgICAgICAgICAgIHZhbCBjb3VudCA9IElOU1RBTkNFLmZlZWRGcmllbmRMb2dMaXN0W2lkXSA/OiByZXR1cm4gdHJ1ZQogICAgICAgICAgICByZXR1cm4gY291bnQgPCBuZXdDb3VudAogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBmZWVkRnJpZW5kVG9kYXkoaWQ6IFN0cmluZykgewogICAgICAgICAgICB2YWwgY291bnQgPSBJTlNUQU5DRS5mZWVkRnJpZW5kTG9nTGlzdFtpZF0gPzogMAogICAgICAgICAgICBJTlNUQU5DRS5mZWVkRnJpZW5kTG9nTGlzdFtpZF0gPSBjb3VudCArIDEKICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhblZpc2l0RnJpZW5kVG9kYXkoaWQ6IFN0cmluZywgbmV3Q291bnQ6IEludCk6IEJvb2xlYW4gewogICAgICAgICAgICB2YWwga2V5ID0gIiR7VXNlck1hcC5jdXJyZW50VWlkfS0kaWQiCiAgICAgICAgICAgIHZhbCBjb3VudCA9IElOU1RBTkNFLnZpc2l0RnJpZW5kTG9nTGlzdFtrZXldID86IHJldHVybiB0cnVlCiAgICAgICAgICAgIHJldHVybiBjb3VudCA8IG5ld0NvdW50CiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIHZpc2l0RnJpZW5kVG9kYXkoaWQ6IFN0cmluZywgbmV3Q291bnQ6IEludCkgewogICAgICAgICAgICB2YWwga2V5ID0gIiR7VXNlck1hcC5jdXJyZW50VWlkfS0kaWQiCiAgICAgICAgICAgIElOU1RBTkNFLnZpc2l0RnJpZW5kTG9nTGlzdFtrZXldID0gbmV3Q291bnQKICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhbk1lbWJlclNpZ25JblRvZGF5KHVpZDogU3RyaW5nPyk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gIUlOU1RBTkNFLm1lbWJlclNpZ25Jbkxpc3QuY29udGFpbnModWlkKQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBtZW1iZXJTaWduSW5Ub2RheSh1aWQ6IFN0cmluZz8pIHsKICAgICAgICAgICAgaWYgKHVpZCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBpZiAoSU5TVEFOQ0UubWVtYmVyU2lnbkluTGlzdC5hZGQodWlkKSkgewogICAgICAgICAgICAgICAgICAgIHNhdmUoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhblVzZUFjY2VsZXJhdGVUb29sKCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UudXNlQWNjZWxlcmF0ZVRvb2xDb3VudCA8IDgKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gdXNlQWNjZWxlcmF0ZVRvb2woKSB7CiAgICAgICAgICAgIElOU1RBTkNFLnVzZUFjY2VsZXJhdGVUb29sQ291bnQgKz0gMQogICAgICAgICAgICBzYXZlKCkKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuRG9uYXRpb25FZ2codWlkOiBTdHJpbmc/KTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiAhSU5TVEFOQ0UuZG9uYXRpb25FZ2dMaXN0LmNvbnRhaW5zKHVpZCkKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gZG9uYXRpb25FZ2codWlkOiBTdHJpbmc/KSB7CiAgICAgICAgICAgIGlmICghdWlkLmlzTnVsbE9yRW1wdHkoKSAmJiBJTlNUQU5DRS5kb25hdGlvbkVnZ0xpc3QuYWRkKHVpZCkpIHsKICAgICAgICAgICAgICAgIHNhdmUoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhblNwcmVhZE1hbnVyZVRvZGF5KHVpZDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiAhSU5TVEFOQ0Uuc3ByZWFkTWFudXJlTGlzdC5jb250YWlucyh1aWQpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIHNwcmVhZE1hbnVyZVRvZGF5KHVpZDogU3RyaW5nKSB7CiAgICAgICAgICAgIGlmIChJTlNUQU5DRS5zcHJlYWRNYW51cmVMaXN0LmFkZCh1aWQpKSB7CiAgICAgICAgICAgICAgICBzYXZlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBjYW5BbnRTdGFsbEFzc2lzdEZyaWVuZFRvZGF5KCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gIUlOU1RBTkNFLmFudFN0YWxsQXNzaXN0RnJpZW5kLmNvbnRhaW5zKFVzZXJNYXAuY3VycmVudFVpZCkKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gYW50U3RhbGxBc3Npc3RGcmllbmRUb2RheSgpIHsKICAgICAgICAgICAgaWYgKElOU1RBTkNFLmFudFN0YWxsQXNzaXN0RnJpZW5kLmFkZChVc2VyTWFwLmN1cnJlbnRVaWQhISkpIHsKICAgICAgICAgICAgICAgIHNhdmUoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhbkFudE9yY2hhcmRBc3Npc3RGcmllbmRUb2RheSgpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuICFJTlNUQU5DRS5hbnRPcmNoYXJkQXNzaXN0RnJpZW5kLmNvbnRhaW5zKFVzZXJNYXAuY3VycmVudFVpZCkKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gYW50T3JjaGFyZEFzc2lzdEZyaWVuZFRvZGF5KCkgewogICAgICAgICAgICBpZiAoSU5TVEFOQ0UuYW50T3JjaGFyZEFzc2lzdEZyaWVuZC5hZGQoVXNlck1hcC5jdXJyZW50VWlkISEpKSB7CiAgICAgICAgICAgICAgICBzYXZlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBjYW5Qcm90ZWN0QnViYmxlVG9kYXkodWlkOiBTdHJpbmc/KTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiAhSU5TVEFOQ0UucHJvdGVjdEJ1YmJsZUxpc3QuY29udGFpbnModWlkKQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBwcm90ZWN0QnViYmxlVG9kYXkodWlkOiBTdHJpbmc/KSB7CiAgICAgICAgICAgIGlmICh1aWQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgaWYgKElOU1RBTkNFLnByb3RlY3RCdWJibGVMaXN0LmFkZCh1aWQpKSB7CiAgICAgICAgICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBMb2cuZXJyb3IoInByb3RlY3RCdWJibGVUb2RheSB1aWQgaXMgbnVsbCIpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuUGFzdGVUaWNrZXRUaW1lKCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gIUlOU1RBTkNFLmNhblBhc3RlVGlja2V0VGltZS5jb250YWlucyhVc2VyTWFwLmN1cnJlbnRVaWQpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIHBhc3RlVGlja2V0VGltZSgpIHsKICAgICAgICAgICAgaWYgKElOU1RBTkNFLmNhblBhc3RlVGlja2V0VGltZS5hZGQoVXNlck1hcC5jdXJyZW50VWlkISEpKSB7CiAgICAgICAgICAgICAgICBzYXZlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBjYW5Eb3VibGVUb2RheSgpOiBCb29sZWFuIHsKICAgICAgICAgICAgdmFsIHRhc2sgPSBNb2RlbC5nZXRNb2RlbChBbnRGb3Jlc3Q6OmNsYXNzLmphdmEpID86IHJldHVybiBmYWxzZQogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UuZG91YmxlVGltZXMgPCAodGFzay5kb3VibGVDb3VudExpbWl0Py52YWx1ZSA/OiAwKQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBkb3VibGVUb2RheSgpIHsKICAgICAgICAgICAgSU5TVEFOQ0UuZG91YmxlVGltZXMgKz0gMQogICAgICAgICAgICBzYXZlKCkKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuS2JTaWduSW5Ub2RheSgpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuIElOU1RBTkNFLmtiU2lnbkluIDwgY3VycmVudERheVRpbWVzdGFtcAogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBLYlNpZ25JblRvZGF5KCkgewogICAgICAgICAgICB2YWwgdG9kYXlaZXJvID0gY3VycmVudERheVRpbWVzdGFtcAogICAgICAgICAgICBpZiAoSU5TVEFOQ0Uua2JTaWduSW4gIT0gdG9kYXlaZXJvKSB7CiAgICAgICAgICAgICAgICBJTlNUQU5DRS5rYlNpZ25JbiA9IHRvZGF5WmVybwogICAgICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gc2V0RGFkYURhaWx5U2V0KGRhaWx5QW5zd2VyTGlzdDogTXV0YWJsZVNldDxTdHJpbmc+KSB7CiAgICAgICAgICAgIElOU1RBTkNFLmRhaWx5QW5zd2VyTGlzdCA9IGRhaWx5QW5zd2VyTGlzdAogICAgICAgICAgICBzYXZlKCkKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuRG9uYXRlQ2hhcml0eUNvaW4oKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiAhSU5TVEFOQ0UuZG9uYXRlQ2hhcml0eUNvaW4KICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gZG9uYXRlQ2hhcml0eUNvaW4oKSB7CiAgICAgICAgICAgIGlmICghSU5TVEFOQ0UuZG9uYXRlQ2hhcml0eUNvaW4pIHsKICAgICAgICAgICAgICAgIElOU1RBTkNFLmRvbmF0ZUNoYXJpdHlDb2luID0gdHJ1ZQogICAgICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuRXhjaGFuZ2VUb2RheSh1aWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gIUlOU1RBTkNFLmV4Y2hhbmdlTGlzdC5jb250YWlucyh1aWQpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGV4Y2hhbmdlVG9kYXkodWlkOiBTdHJpbmcpIHsKICAgICAgICAgICAgaWYgKElOU1RBTkNFLmV4Y2hhbmdlTGlzdC5hZGQodWlkKSkgewogICAgICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuR3JlZW5GaW5hbmNlUG9pbnRGcmllbmQoKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRS5ncmVlbkZpbmFuY2VQb2ludEZyaWVuZC5jb250YWlucyhVc2VyTWFwLmN1cnJlbnRVaWQpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGdyZWVuRmluYW5jZVBvaW50RnJpZW5kKCkgewogICAgICAgICAgICBpZiAoY2FuR3JlZW5GaW5hbmNlUG9pbnRGcmllbmQoKSkgcmV0dXJuCiAgICAgICAgICAgIElOU1RBTkNFLmdyZWVuRmluYW5jZVBvaW50RnJpZW5kLmFkZChVc2VyTWFwLmN1cnJlbnRVaWQhISkKICAgICAgICAgICAgc2F2ZSgpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhbkdyZWVuRmluYW5jZVByaXplc01hcCgpOiBCb29sZWFuIHsKICAgICAgICAgICAgdmFsIHdlZWsgPSBUaW1lVXRpbC5nZXRXZWVrTnVtYmVyKERhdGUoKSkKICAgICAgICAgICAgdmFsIGN1cnJlbnRVaWQgPSBVc2VyTWFwLmN1cnJlbnRVaWQKICAgICAgICAgICAgaWYgKElOU1RBTkNFLmdyZWVuRmluYW5jZVByaXplc01hcC5jb250YWluc0tleShjdXJyZW50VWlkKSkgewogICAgICAgICAgICAgICAgdmFsIHN0b3JlZFdlZWsgPSBJTlNUQU5DRS5ncmVlbkZpbmFuY2VQcml6ZXNNYXBbY3VycmVudFVpZF0KICAgICAgICAgICAgICAgIHJldHVybiBzdG9yZWRXZWVrID09IG51bGwgfHwgc3RvcmVkV2VlayAhPSB3ZWVrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gZ3JlZW5GaW5hbmNlUHJpemVzTWFwKCkgewogICAgICAgICAgICBpZiAoIWNhbkdyZWVuRmluYW5jZVByaXplc01hcCgpKSByZXR1cm4KICAgICAgICAgICAgSU5TVEFOQ0UuZ3JlZW5GaW5hbmNlUHJpemVzTWFwW1VzZXJNYXAuY3VycmVudFVpZCEhXSA9IFRpbWVVdGlsLmdldFdlZWtOdW1iZXIoRGF0ZSgpKQogICAgICAgICAgICBzYXZlKCkKICAgICAgICB9CgogICAgICAgIEBTeW5jaHJvbml6ZWQKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGxvYWQoY3VycmVudFVpZDogU3RyaW5nPyk6IFN0YXR1cyB7CiAgICAgICAgICAgIGlmIChTdHJpbmdVdGlsLmlzRW1wdHkoY3VycmVudFVpZCkpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi55So5oi35Li656m677yM54q25oCB5Yqg6L295aSx6LSlIikKICAgICAgICAgICAgICAgIHRocm93IFJ1bnRpbWVFeGNlcHRpb24oIueUqOaIt+S4uuepuu+8jOeKtuaAgeWKoOi9veWksei0pSIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBzdGF0dXNGaWxlID0gRmlsZXMuZ2V0U3RhdHVzRmlsZShjdXJyZW50VWlkKQogICAgICAgICAgICAgICAgaWYgKHN0YXR1c0ZpbGUhIS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5Yqg6L29IHN0YXR1cy5qc29uIikKICAgICAgICAgICAgICAgICAgICB2YWwganNvbiA9IEZpbGVzLnJlYWRGcm9tRmlsZShzdGF0dXNGaWxlKQogICAgICAgICAgICAgICAgICAgIGlmICghanNvbi50cmltKCkuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOS9v+eUqCBKYWNrc29uIOabtOaWsOeOsOacieWvueixoQogICAgICAgICAgICAgICAgICAgICAgICBKc29uVXRpbC5jb3B5TWFwcGVyKCkucmVhZGVyRm9yVXBkYXRpbmcoSU5TVEFOQ0UpLnJlYWRWYWx1ZTxTdGF0dXM+KGpzb24pCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOagvOW8j+WMluajgOafpQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZm9ybWF0dGVkID0gSnNvblV0aWwuZm9ybWF0SnNvbihJTlNUQU5DRSkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGZvcm1hdHRlZCAhPSBudWxsICYmIGZvcm1hdHRlZCAhPSBqc29uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIumHjeaWsOagvOW8j+WMliBzdGF0dXMuanNvbiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBGaWxlcy53cml0ZTJGaWxlKGZvcm1hdHRlZCwgc3RhdHVzRmlsZSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi6YWN572u5paH5Lu25Li656m677yM5Yid5aeL5YyW6buY6K6k6YWN572uIikKICAgICAgICAgICAgICAgICAgICAgICAgaW5pdGlhbGl6ZURlZmF1bHRDb25maWcoc3RhdHVzRmlsZSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi6YWN572u5paH5Lu25LiN5a2Y5Zyo77yM5Yid5aeL5YyW6buY6K6k6YWN572uIikKICAgICAgICAgICAgICAgICAgICBpbml0aWFsaXplRGVmYXVsdENvbmZpZyhzdGF0dXNGaWxlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoICh0OiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCB0KQogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLnirbmgIHmlofku7bmoLzlvI/mnInor6/vvIzlt7Lph43nva4iKQogICAgICAgICAgICAgICAgcmVzZXRBbmRTYXZlQ29uZmlnKCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g6L+Z6YeM6YC76L6R5pyJ54K55aWH5oCq77yM5aaC5p6cIHNhdmVUaW1lIOaYryAw77yM5YiZ6K6+5Li65b2T5YmN5pe26Ze044CCCiAgICAgICAgICAgIC8vIOWOn+WniyBKYXZhIOS7o+eggeS4rSBMb25nIOm7mOiupOS4uiBudWxs77yM5L2G6L+Z6YeM5bGe5oCn5Yid5aeL5YyW5Li6IDBM44CCCiAgICAgICAgICAgIGlmIChJTlNUQU5DRS5zYXZlVGltZSA9PSAwTCkgewogICAgICAgICAgICAgICAgSU5TVEFOQ0Uuc2F2ZVRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gaW5pdGlhbGl6ZURlZmF1bHRDb25maWcoc3RhdHVzRmlsZTogamF2YS5pby5GaWxlKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBKc29uVXRpbC5jb3B5TWFwcGVyKCkudXBkYXRlVmFsdWUoSU5TVEFOQ0UsIFN0YXR1cygpKQogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLliJ3lp4vljJYgc3RhdHVzLmpzb24iKQogICAgICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZShKc29uVXRpbC5mb3JtYXRKc29uKElOU1RBTkNFKSwgc3RhdHVzRmlsZSkKICAgICAgICAgICAgfSBjYXRjaCAoZTogSnNvbk1hcHBpbmdFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCBlKQogICAgICAgICAgICAgICAgdGhyb3cgUnVudGltZUV4Y2VwdGlvbigi5Yid5aeL5YyW6YWN572u5aSx6LSlIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gcmVzZXRBbmRTYXZlQ29uZmlnKCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgSnNvblV0aWwuY29weU1hcHBlcigpLnVwZGF0ZVZhbHVlKElOU1RBTkNFLCBTdGF0dXMoKSkKICAgICAgICAgICAgICAgIEZpbGVzLndyaXRlMkZpbGUoSnNvblV0aWwuZm9ybWF0SnNvbihJTlNUQU5DRSksIEZpbGVzLmdldFN0YXR1c0ZpbGUoVXNlck1hcC5jdXJyZW50VWlkKSEhKQogICAgICAgICAgICB9IGNhdGNoIChlOiBKc29uTWFwcGluZ0V4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsIGUpCiAgICAgICAgICAgICAgICB0aHJvdyBSdW50aW1lRXhjZXB0aW9uKCLph43nva7phY3nva7lpLHotKUiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBAU3luY2hyb25pemVkCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biB1bmxvYWQoKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAvLyDliJvlu7rmlrDnirbmgIHlrp7kvovlubbnoa7kv53muIXnqbrmiYDmnInmr4/ml6XmoIforrAKICAgICAgICAgICAgICAgIHZhbCBuZXdTdGF0dXMgPSBTdGF0dXMoKQogICAgICAgICAgICAgICAgLy8g56Gu5L+d5riF56m6ZmxhZ0xpc3QKICAgICAgICAgICAgICAgIElOU1RBTkNFLmZsYWdMaXN0LmNsZWFyKCkKICAgICAgICAgICAgICAgIEpzb25VdGlsLmNvcHlNYXBwZXIoKS51cGRhdGVWYWx1ZShJTlNUQU5DRSwgbmV3U3RhdHVzKQogICAgICAgICAgICB9IGNhdGNoIChlOiBKc29uTWFwcGluZ0V4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBTeW5jaHJvbml6ZWQKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIHNhdmUobm93Q2FsZW5kYXI6IENhbGVuZGFyID0gQ2FsZW5kYXIuZ2V0SW5zdGFuY2UoKSkgewogICAgICAgICAgICB2YWwgY3VycmVudFVpZCA9IFVzZXJNYXAuY3VycmVudFVpZAogICAgICAgICAgICBpZiAoU3RyaW5nVXRpbC5pc0VtcHR5KGN1cnJlbnRVaWQpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIueUqOaIt+S4uuepuu+8jOeKtuaAgeS/neWtmOWksei0pSIpCiAgICAgICAgICAgICAgICB0aHJvdyBSdW50aW1lRXhjZXB0aW9uKCLnlKjmiLfkuLrnqbrvvIznirbmgIHkv53lrZjlpLHotKUiKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICh1cGRhdGVEYXkobm93Q2FsZW5kYXIpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIumHjee9riBzdGF0aXN0aWNzLmpzb24iKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICLkv53lrZggc3RhdHVzLmpzb24iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBsYXN0U2F2ZVRpbWUgPSBJTlNUQU5DRS5zYXZlVGltZQogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgSU5TVEFOQ0Uuc2F2ZVRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZShKc29uVXRpbC5mb3JtYXRKc29uKElOU1RBTkNFKSwgRmlsZXMuZ2V0U3RhdHVzRmlsZShjdXJyZW50VWlkKSEhKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIElOU1RBTkNFLnNhdmVUaW1lID0gbGFzdFNhdmVUaW1lCiAgICAgICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gdXBkYXRlRGF5KG5vd0NhbGVuZGFyOiBDYWxlbmRhcik6IEJvb2xlYW4gewogICAgICAgICAgICBpZiAoVGltZVV0aWwuaXNMZXNzVGhhblNlY29uZE9mRGF5cyhJTlNUQU5DRS5zYXZlVGltZSwgbm93Q2FsZW5kYXIudGltZUluTWlsbGlzKSkgewogICAgICAgICAgICAgICAgdW5sb2FkKCkKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhbk9ybmFtZW50VG9kYXkoKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRS5jYW5Pcm5hbWVudAogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBzZXRPcm5hbWVudFRvZGF5KCkgewogICAgICAgICAgICBpZiAoSU5TVEFOQ0UuY2FuT3JuYW1lbnQpIHsKICAgICAgICAgICAgICAgIElOU1RBTkNFLmNhbk9ybmFtZW50ID0gZmFsc2UKICAgICAgICAgICAgICAgIHNhdmUoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhblN0YWxsRG9uYXRlVG9kYXkoKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRS5jYW5TdGFsbERvbmF0ZQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBzZXRTdGFsbERvbmF0ZVRvZGF5KCkgewogICAgICAgICAgICBpZiAoSU5TVEFOQ0UuY2FuU3RhbGxEb25hdGUpIHsKICAgICAgICAgICAgICAgIElOU1RBTkNFLmNhblN0YWxsRG9uYXRlID0gZmFsc2UKICAgICAgICAgICAgICAgIHNhdmUoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiAjIyDorr7nva7ku4rml6Xlt7Lov5DooYznirbmgIEKICAgICAgICAgKiBAcGFyYW0gZmxhZyB0YWdOYW1lOjpkb25lCiAgICAgICAgICovCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBoYXNGbGFnVG9kYXkoZmxhZzogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRS5mbGFnTGlzdC5jb250YWlucyhmbGFnKQogICAgICAgIH0KCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBzZXRGbGFnVG9kYXkoZmxhZzogU3RyaW5nKSB7CiAgICAgICAgICAgIGlmIChJTlNUQU5DRS5mbGFnTGlzdC5hZGQoZmxhZykpIHsKICAgICAgICAgICAgICAgIHNhdmUoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyAyMDI1LzEyLzQg55So5p2l6I635Y+WIOiHquWumuS5iWZsYWfnmoRpbnQKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGdldEludEZsYWdUb2RheShrZXk6IFN0cmluZyk6IEludD8gewogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UuaW50RmxhZ01hcFtrZXldCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIHNldEludEZsYWdUb2RheShrZXk6IFN0cmluZywgdmFsdWU6IEludCkgewogICAgICAgICAgICBJTlNUQU5DRS5pbnRGbGFnTWFwW2tleV0gPSB2YWx1ZQogICAgICAgICAgICBzYXZlKCkKICAgICAgICB9CgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gY2FuTWVtYmVyUG9pbnRFeGNoYW5nZUJlbmVmaXRUb2RheShiZW5lZml0SWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gIUlOU1RBTkNFLm1lbWJlclBvaW50RXhjaGFuZ2VCZW5lZml0TG9nTGlzdC5jb250YWlucyhiZW5lZml0SWQpCiAgICAgICAgfQoKICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIG1lbWJlclBvaW50RXhjaGFuZ2VCZW5lZml0VG9kYXkoYmVuZWZpdElkOiBTdHJpbmcpIHsKICAgICAgICAgICAgaWYgKGNhbk1lbWJlclBvaW50RXhjaGFuZ2VCZW5lZml0VG9kYXkoYmVuZWZpdElkKSkgewogICAgICAgICAgICAgICAgSU5TVEFOQ0UubWVtYmVyUG9pbnRFeGNoYW5nZUJlbmVmaXRMb2dMaXN0LmFkZChiZW5lZml0SWQpCiAgICAgICAgICAgICAgICBzYXZlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog5LmQ5Zut5ZWG5Z+OLeaYr+WQpuWPr+S7peWFkeaNouivpeWVhuWTgQogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIHNwdUlkIOWVhuWTgXNwdUlkCiAgICAgICAgICogQHJldHVybiB0cnVlIOWPr+S7peWFkeaNoiBmYWxzZSDlhZHmjaLovr7liLDkuIrpmZAKICAgICAgICAgKi8KICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGNhblBhcmFkaXNlQ29pbkV4Y2hhbmdlQmVuZWZpdFRvZGF5KHNwdUlkOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuICFoYXNGbGFnVG9kYXkoImZhcm06OnBhcmFkaXNlQ29pbkV4Y2hhbmdlTGltaXQ6OiRzcHVJZCIpCiAgICAgICAgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.data
+
+import com.fasterxml.jackson.databind.JsonMappingException
+import fansirsqi.xposed.sesame.model.Model
+import fansirsqi.xposed.sesame.task.antForest.AntForest
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.JsonUtil
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.StringUtil
+import fansirsqi.xposed.sesame.util.TimeUtil
+import fansirsqi.xposed.sesame.util.maps.UserMap
+import java.util.Calendar
+import java.util.Date
+
+class Status {
+
+    // =========================== forest
+    var waterFriendLogList: MutableMap<String, Int> = HashMap()
+    var cooperateWaterList: MutableSet<String> = HashSet() // 合作浇水
+    var reserveLogList: MutableMap<String, Int> = HashMap()
+    var ancientTreeCityCodeList: MutableSet<String> = HashSet() // 古树
+    var protectBubbleList: MutableSet<String> = HashSet()
+    var doubleTimes: Int = 0
+    var exchangeEnergyShield: Boolean = false // 活力值兑换能量保护罩
+    var exchangeCollectHistoryAnimal7Days: Boolean = false
+    var exchangeCollectToFriendTimes7Days: Boolean = false
+    var youthPrivilege: Boolean = true
+    var studentTask: Boolean = true
+    var vitalityStoreList: MutableMap<String, Int> = HashMap() // 注意命名规范首字母小写
+
+    // =========================== farm
+    var answerQuestion: Boolean = false
+    var feedFriendLogList: MutableMap<String, Int> = HashMap()
+    var visitFriendLogList: MutableMap<String, Int> = HashMap()
+
+    // 可以存各种今日计数（步数、次数等）
+    // 2025/12/4 GSMT 用来存储int类型数据，无需再重复定义
+    var intFlagMap: MutableMap<String, Int> = HashMap()
+
+    var dailyAnswerList: MutableSet<String> = HashSet()
+    var donationEggList: MutableSet<String> = HashSet()
+    var useAccelerateToolCount: Int = 0
+
+    /** 小鸡换装 */
+    var canOrnament: Boolean = true
+    var animalSleep: Boolean = false
+
+    // ============================= stall
+    var stallHelpedCountLogList: MutableMap<String, Int> = HashMap()
+    var spreadManureList: MutableSet<String> = HashSet()
+    var stallP2PHelpedList: MutableSet<String> = HashSet()
+    var canStallDonate: Boolean = true
+
+    // ========================== sport
+    var syncStepList: MutableSet<String> = HashSet()
+    var exchangeList: MutableSet<String> = HashSet()
+
+    /** 捐运动币 */
+    var donateCharityCoin: Boolean = false
+
+    // ======================= other
+    var memberSignInList: MutableSet<String> = HashSet()
+    val flagList: MutableSet<String> = HashSet()
+
+    /** 口碑签到 */
+    var kbSignIn: Long = 0
+
+    /** 保存时间 */
+    var saveTime: Long = 0L
+
+    /** 新村助力好友，已上限的用户 */
+    var antStallAssistFriend: MutableSet<String> = HashSet()
+
+    /** 新村-罚单已贴完的用户 */
+    var canPasteTicketTime: MutableSet<String> = HashSet()
+
+    /** 绿色经营，收取好友金币已完成用户 */
+    var greenFinancePointFriend: MutableSet<String> = HashSet()
+
+    /** 绿色经营，评级领奖已完成用户 */
+    var greenFinancePrizesMap: MutableMap<String, Int> = HashMap()
+
+    /** 农场助力 */
+    var antOrchardAssistFriend: MutableSet<String> = HashSet()
+
+    /** 会员权益 */
+    var memberPointExchangeBenefitLogList: MutableSet<String> = HashSet()
+
+    companion object {
+        private val TAG = Status::class.java.simpleName
+
+        @JvmStatic
+        val INSTANCE: Status = Status()
+
+        @JvmStatic
+        val currentDayTimestamp: Long
+            get() {
+                val calendar = Calendar.getInstance()
+                calendar.set(Calendar.HOUR_OF_DAY, 0)
+                calendar.set(Calendar.MINUTE, 0)
+                calendar.set(Calendar.SECOND, 0)
+                calendar.set(Calendar.MILLISECOND, 0)
+                return calendar.timeInMillis
+            }
+
+        @JvmStatic
+        fun getVitalityCount(skuId: String): Int {
+            return INSTANCE.vitalityStoreList[skuId] ?: 0
+        }
+
+        @JvmStatic
+        fun canVitalityExchangeToday(skuId: String, count: Int): Boolean {
+            return !hasFlagToday("forest::VitalityExchangeLimit::$skuId") && getVitalityCount(skuId) < count
+        }
+
+        @JvmStatic
+        fun vitalityExchangeToday(skuId: String) {
+            val count = getVitalityCount(skuId) + 1
+            INSTANCE.vitalityStoreList[skuId] = count
+            save()
+        }
+
+        @JvmStatic
+        fun canAnimalSleep(): Boolean {
+            return !INSTANCE.animalSleep
+        }
+
+        @JvmStatic
+        fun animalSleep() {
+            if (!INSTANCE.animalSleep) {
+                INSTANCE.animalSleep = true
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canWaterFriendToday(id: String, newCount: Int): Boolean {
+            val key = "${UserMap.currentUid}-$id"
+            val count = INSTANCE.waterFriendLogList[key] ?: return true
+            return count < newCount
+        }
+
+        @JvmStatic
+        fun waterFriendToday(id: String, count: Int) {
+            val key = "${UserMap.currentUid}-$id"
+            INSTANCE.waterFriendLogList[key] = count
+            save()
+        }
+
+        @JvmStatic
+        fun getReserveTimes(id: String): Int {
+            return INSTANCE.reserveLogList[id] ?: 0
+        }
+
+        @JvmStatic
+        fun canReserveToday(id: String, count: Int): Boolean {
+            return getReserveTimes(id) < count
+        }
+
+        @JvmStatic
+        fun reserveToday(id: String, newCount: Int) {
+            val count = INSTANCE.reserveLogList[id] ?: 0
+            INSTANCE.reserveLogList[id] = count + newCount
+            save()
+        }
+
+        @JvmStatic
+        fun canCooperateWaterToday(uid: String?, coopId: String): Boolean {
+            return !INSTANCE.cooperateWaterList.contains("${uid}_$coopId")
+        }
+
+        @JvmStatic
+        fun cooperateWaterToday(uid: String?, coopId: String?) {
+            val v = "${uid}_$coopId"
+            if (INSTANCE.cooperateWaterList.add(v)) {
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canAncientTreeToday(cityCode: String): Boolean {
+            return !INSTANCE.ancientTreeCityCodeList.contains(cityCode)
+        }
+
+        @JvmStatic
+        fun ancientTreeToday(cityCode: String) {
+            if (INSTANCE.ancientTreeCityCodeList.add(cityCode)) {
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canAnswerQuestionToday(): Boolean {
+            return !INSTANCE.answerQuestion
+        }
+
+        @JvmStatic
+        fun answerQuestionToday() {
+            if (!INSTANCE.answerQuestion) {
+                INSTANCE.answerQuestion = true
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canFeedFriendToday(id: String, newCount: Int): Boolean {
+            val count = INSTANCE.feedFriendLogList[id] ?: return true
+            return count < newCount
+        }
+
+        @JvmStatic
+        fun feedFriendToday(id: String) {
+            val count = INSTANCE.feedFriendLogList[id] ?: 0
+            INSTANCE.feedFriendLogList[id] = count + 1
+            save()
+        }
+
+        @JvmStatic
+        fun canVisitFriendToday(id: String, newCount: Int): Boolean {
+            val key = "${UserMap.currentUid}-$id"
+            val count = INSTANCE.visitFriendLogList[key] ?: return true
+            return count < newCount
+        }
+
+        @JvmStatic
+        fun visitFriendToday(id: String, newCount: Int) {
+            val key = "${UserMap.currentUid}-$id"
+            INSTANCE.visitFriendLogList[key] = newCount
+            save()
+        }
+
+        @JvmStatic
+        fun canMemberSignInToday(uid: String?): Boolean {
+            return !INSTANCE.memberSignInList.contains(uid)
+        }
+
+        @JvmStatic
+        fun memberSignInToday(uid: String?) {
+            if (uid != null) {
+                if (INSTANCE.memberSignInList.add(uid)) {
+                    save()
+                }
+            }
+        }
+
+        @JvmStatic
+        fun canUseAccelerateTool(): Boolean {
+            return INSTANCE.useAccelerateToolCount < 8
+        }
+
+        @JvmStatic
+        fun useAccelerateTool() {
+            INSTANCE.useAccelerateToolCount += 1
+            save()
+        }
+
+        @JvmStatic
+        fun canDonationEgg(uid: String?): Boolean {
+            return !INSTANCE.donationEggList.contains(uid)
+        }
+
+        @JvmStatic
+        fun donationEgg(uid: String?) {
+            if (!uid.isNullOrEmpty() && INSTANCE.donationEggList.add(uid)) {
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canSpreadManureToday(uid: String): Boolean {
+            return !INSTANCE.spreadManureList.contains(uid)
+        }
+
+        @JvmStatic
+        fun spreadManureToday(uid: String) {
+            if (INSTANCE.spreadManureList.add(uid)) {
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canAntStallAssistFriendToday(): Boolean {
+            return !INSTANCE.antStallAssistFriend.contains(UserMap.currentUid)
+        }
+
+        @JvmStatic
+        fun antStallAssistFriendToday() {
+            if (INSTANCE.antStallAssistFriend.add(UserMap.currentUid!!)) {
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canAntOrchardAssistFriendToday(): Boolean {
+            return !INSTANCE.antOrchardAssistFriend.contains(UserMap.currentUid)
+        }
+
+        @JvmStatic
+        fun antOrchardAssistFriendToday() {
+            if (INSTANCE.antOrchardAssistFriend.add(UserMap.currentUid!!)) {
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canProtectBubbleToday(uid: String?): Boolean {
+            return !INSTANCE.protectBubbleList.contains(uid)
+        }
+
+        @JvmStatic
+        fun protectBubbleToday(uid: String?) {
+            if (uid != null) {
+                if (INSTANCE.protectBubbleList.add(uid)) {
+                    save()
+                }
+            } else {
+                Log.error("protectBubbleToday uid is null")
+            }
+        }
+
+        @JvmStatic
+        fun canPasteTicketTime(): Boolean {
+            return !INSTANCE.canPasteTicketTime.contains(UserMap.currentUid)
+        }
+
+        @JvmStatic
+        fun pasteTicketTime() {
+            if (INSTANCE.canPasteTicketTime.add(UserMap.currentUid!!)) {
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canDoubleToday(): Boolean {
+            val task = Model.getModel(AntForest::class.java) ?: return false
+            return INSTANCE.doubleTimes < (task.doubleCountLimit?.value ?: 0)
+        }
+
+        @JvmStatic
+        fun doubleToday() {
+            INSTANCE.doubleTimes += 1
+            save()
+        }
+
+        @JvmStatic
+        fun canKbSignInToday(): Boolean {
+            return INSTANCE.kbSignIn < currentDayTimestamp
+        }
+
+        @JvmStatic
+        fun KbSignInToday() {
+            val todayZero = currentDayTimestamp
+            if (INSTANCE.kbSignIn != todayZero) {
+                INSTANCE.kbSignIn = todayZero
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun setDadaDailySet(dailyAnswerList: MutableSet<String>) {
+            INSTANCE.dailyAnswerList = dailyAnswerList
+            save()
+        }
+
+        @JvmStatic
+        fun canDonateCharityCoin(): Boolean {
+            return !INSTANCE.donateCharityCoin
+        }
+
+        @JvmStatic
+        fun donateCharityCoin() {
+            if (!INSTANCE.donateCharityCoin) {
+                INSTANCE.donateCharityCoin = true
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canExchangeToday(uid: String): Boolean {
+            return !INSTANCE.exchangeList.contains(uid)
+        }
+
+        @JvmStatic
+        fun exchangeToday(uid: String) {
+            if (INSTANCE.exchangeList.add(uid)) {
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canGreenFinancePointFriend(): Boolean {
+            return INSTANCE.greenFinancePointFriend.contains(UserMap.currentUid)
+        }
+
+        @JvmStatic
+        fun greenFinancePointFriend() {
+            if (canGreenFinancePointFriend()) return
+            INSTANCE.greenFinancePointFriend.add(UserMap.currentUid!!)
+            save()
+        }
+
+        @JvmStatic
+        fun canGreenFinancePrizesMap(): Boolean {
+            val week = TimeUtil.getWeekNumber(Date())
+            val currentUid = UserMap.currentUid
+            if (INSTANCE.greenFinancePrizesMap.containsKey(currentUid)) {
+                val storedWeek = INSTANCE.greenFinancePrizesMap[currentUid]
+                return storedWeek == null || storedWeek != week
+            }
+            return true
+        }
+
+        @JvmStatic
+        fun greenFinancePrizesMap() {
+            if (!canGreenFinancePrizesMap()) return
+            INSTANCE.greenFinancePrizesMap[UserMap.currentUid!!] = TimeUtil.getWeekNumber(Date())
+            save()
+        }
+
+        @Synchronized
+        @JvmStatic
+        fun load(currentUid: String?): Status {
+            if (StringUtil.isEmpty(currentUid)) {
+                Log.record(TAG, "用户为空，状态加载失败")
+                throw RuntimeException("用户为空，状态加载失败")
+            }
+            try {
+                val statusFile = Files.getStatusFile(currentUid)
+                if (statusFile!!.exists()) {
+                    Log.record(TAG, "加载 status.json")
+                    val json = Files.readFromFile(statusFile)
+                    if (!json.trim().isEmpty()) {
+                        // 使用 Jackson 更新现有对象
+                        JsonUtil.copyMapper().readerForUpdating(INSTANCE).readValue<Status>(json)
+                        // 格式化检查
+                        val formatted = JsonUtil.formatJson(INSTANCE)
+                        if (formatted != null && formatted != json) {
+                            Log.record(TAG, "重新格式化 status.json")
+                            Files.write2File(formatted, statusFile)
+                        }
+                    } else {
+                        Log.record(TAG, "配置文件为空，初始化默认配置")
+                        initializeDefaultConfig(statusFile)
+                    }
+                } else {
+                    Log.record(TAG, "配置文件不存在，初始化默认配置")
+                    initializeDefaultConfig(statusFile)
+                }
+            } catch (t: Throwable) {
+                Log.printStackTrace(TAG, t)
+                Log.record(TAG, "状态文件格式有误，已重置")
+                resetAndSaveConfig()
+            }
+
+            // 这里逻辑有点奇怪，如果 saveTime 是 0，则设为当前时间。
+            // 原始 Java 代码中 Long 默认为 null，但这里属性初始化为 0L。
+            if (INSTANCE.saveTime == 0L) {
+                INSTANCE.saveTime = System.currentTimeMillis()
+            }
+            return INSTANCE
+        }
+
+        private fun initializeDefaultConfig(statusFile: java.io.File) {
+            try {
+                JsonUtil.copyMapper().updateValue(INSTANCE, Status())
+                Log.record(TAG, "初始化 status.json")
+                Files.write2File(JsonUtil.formatJson(INSTANCE), statusFile)
+            } catch (e: JsonMappingException) {
+                Log.printStackTrace(TAG, e)
+                throw RuntimeException("初始化配置失败", e)
+            }
+        }
+
+        private fun resetAndSaveConfig() {
+            try {
+                JsonUtil.copyMapper().updateValue(INSTANCE, Status())
+                Files.write2File(JsonUtil.formatJson(INSTANCE), Files.getStatusFile(UserMap.currentUid)!!)
+            } catch (e: JsonMappingException) {
+                Log.printStackTrace(TAG, e)
+                throw RuntimeException("重置配置失败", e)
+            }
+        }
+
+        @Synchronized
+        @JvmStatic
+        fun unload() {
+            try {
+                // 创建新状态实例并确保清空所有每日标记
+                val newStatus = Status()
+                // 确保清空flagList
+                INSTANCE.flagList.clear()
+                JsonUtil.copyMapper().updateValue(INSTANCE, newStatus)
+            } catch (e: JsonMappingException) {
+                Log.printStackTrace(TAG, e)
+            }
+        }
+
+        @Synchronized
+        @JvmStatic
+        fun save(nowCalendar: Calendar = Calendar.getInstance()) {
+            val currentUid = UserMap.currentUid
+            if (StringUtil.isEmpty(currentUid)) {
+                Log.record(TAG, "用户为空，状态保存失败")
+                throw RuntimeException("用户为空，状态保存失败")
+            }
+            if (updateDay(nowCalendar)) {
+                Log.record(TAG, "重置 statistics.json")
+            } else {
+                Log.record(TAG, "保存 status.json")
+            }
+            val lastSaveTime = INSTANCE.saveTime
+            try {
+                INSTANCE.saveTime = System.currentTimeMillis()
+                Files.write2File(JsonUtil.formatJson(INSTANCE), Files.getStatusFile(currentUid)!!)
+            } catch (e: Exception) {
+                INSTANCE.saveTime = lastSaveTime
+                throw e
+            }
+        }
+
+        @JvmStatic
+        fun updateDay(nowCalendar: Calendar): Boolean {
+            if (TimeUtil.isLessThanSecondOfDays(INSTANCE.saveTime, nowCalendar.timeInMillis)) {
+                unload()
+                return true
+            }
+            return false
+        }
+
+        @JvmStatic
+        fun canOrnamentToday(): Boolean {
+            return INSTANCE.canOrnament
+        }
+
+        @JvmStatic
+        fun setOrnamentToday() {
+            if (INSTANCE.canOrnament) {
+                INSTANCE.canOrnament = false
+                save()
+            }
+        }
+
+        @JvmStatic
+        fun canStallDonateToday(): Boolean {
+            return INSTANCE.canStallDonate
+        }
+
+        @JvmStatic
+        fun setStallDonateToday() {
+            if (INSTANCE.canStallDonate) {
+                INSTANCE.canStallDonate = false
+                save()
+            }
+        }
+
+        /**
+         * ## 设置今日已运行状态
+         * @param flag tagName::done
+         */
+        @JvmStatic
+        fun hasFlagToday(flag: String): Boolean {
+            return INSTANCE.flagList.contains(flag)
+        }
+
+        @JvmStatic
+        fun setFlagToday(flag: String) {
+            if (INSTANCE.flagList.add(flag)) {
+                save()
+            }
+        }
+
+        // 2025/12/4 用来获取 自定义flag的int
+        @JvmStatic
+        fun getIntFlagToday(key: String): Int? {
+            return INSTANCE.intFlagMap[key]
+        }
+
+        @JvmStatic
+        fun setIntFlagToday(key: String, value: Int) {
+            INSTANCE.intFlagMap[key] = value
+            save()
+        }
+
+        @JvmStatic
+        fun canMemberPointExchangeBenefitToday(benefitId: String): Boolean {
+            return !INSTANCE.memberPointExchangeBenefitLogList.contains(benefitId)
+        }
+
+        @JvmStatic
+        fun memberPointExchangeBenefitToday(benefitId: String) {
+            if (canMemberPointExchangeBenefitToday(benefitId)) {
+                INSTANCE.memberPointExchangeBenefitLogList.add(benefitId)
+                save()
+            }
+        }
+
+        /**
+         * 乐园商城-是否可以兑换该商品
+         *
+         * @param spuId 商品spuId
+         * @return true 可以兑换 false 兑换达到上限
+         */
+        @JvmStatic
+        fun canParadiseCoinExchangeBenefitToday(spuId: String): Boolean {
+            return !hasFlagToday("farm::paradiseCoinExchangeLimit::$spuId")
+        }
+    }
+}

@@ -1,1 +1,121 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmdhbWVDZW50ZXIKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5Nb2RlbEZpZWxkcwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxHcm91cAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwubW9kZWxGaWVsZEV4dC5Cb29sZWFuTW9kZWxGaWVsZAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5Nb2RlbFRhc2sKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLlJlc0NoZWNrZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqCiAqIOa4uOaIj+S4reW/gyDigJQg562+5Yiw6aKG56ev5YiG55CD44CB56ev5YiG55CD5om56YeP5pS25Y+WCiAqIOWNj+iuruenu+akjeiHquiKnem6u+ezilNWSVAgMi4wLjYuNu+8iOmAhuWQkei/mOWOn++8iQogKi8KY2xhc3MgR2FtZUNlbnRlciA6IE1vZGVsVGFzaygpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiR2FtZUNlbnRlciIKICAgICAgICBjb25zdCB2YWwgTU9EVUxFX05BTUUgPSAi5ri45oiP5Lit5b+DIgoKICAgICAgICBAVm9sYXRpbGUgdmFyIGluc3RhbmNlOiBHYW1lQ2VudGVyPyA9IG51bGwKICAgIH0KCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBlbmFibGVTaWduSW46IEJvb2xlYW5Nb2RlbEZpZWxkCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBlbmFibGVQb2ludEJhbGw6IEJvb2xlYW5Nb2RlbEZpZWxkCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBlbmFibGVUYXNrOiBCb29sZWFuTW9kZWxGaWVsZAoKICAgIG92ZXJyaWRlIGZ1biBnZXROYW1lKCkgPSBNT0RVTEVfTkFNRQogICAgb3ZlcnJpZGUgZnVuIGdldEdyb3VwKCkgPSBNb2RlbEdyb3VwLk9USEVSCiAgICBvdmVycmlkZSBmdW4gZ2V0SWNvbigpID0gIkRlZmF1bHQucG5nIgoKICAgIG92ZXJyaWRlIGZ1biBnZXRGaWVsZHMoKSA9IE1vZGVsRmllbGRzKCkuYXBwbHkgewogICAgICAgIGFkZEZpZWxkKEJvb2xlYW5Nb2RlbEZpZWxkKCJnYW1lQ2VudGVyU2lnbkluIiwgIua4uOaIj+S4reW/gyB8IOiHquWKqOetvuWIsCIsIHRydWUpLmFsc28geyBlbmFibGVTaWduSW4gPSBpdCB9KQogICAgICAgIGFkZEZpZWxkKEJvb2xlYW5Nb2RlbEZpZWxkKCJnYW1lQ2VudGVyUG9pbnRCYWxsIiwgIua4uOaIj+S4reW/gyB8IOaUtuenr+WIhueQgyIsIHRydWUpLmFsc28geyBlbmFibGVQb2ludEJhbGwgPSBpdCB9KQogICAgICAgIGFkZEZpZWxkKEJvb2xlYW5Nb2RlbEZpZWxkKCJnYW1lQ2VudGVyVGFzayIsICLmuLjmiI/kuK3lv4MgfCDku7vliqHmiqXlkI3lubblrozmiJAiLCBmYWxzZSkuYWxzbyB7IGVuYWJsZVRhc2sgPSBpdCB9KQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBwcmVwYXJlKCkgeyBpbnN0YW5jZSA9IHRoaXMgfQogICAgb3ZlcnJpZGUgZnVuIGRlc3Ryb3koKSB7IGluc3RhbmNlID0gbnVsbDsgc3VwZXIuZGVzdHJveSgpIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBydW5TdXNwZW5kKCkgewogICAgICAgIGlmIChlbmFibGVTaWduSW4udmFsdWUpIGRvU2lnbkluKCkKICAgICAgICBpZiAoZW5hYmxlUG9pbnRCYWxsLnZhbHVlKSBkb1JlY2VpdmVQb2ludEJhbGwoKQogICAgICAgIGlmIChlbmFibGVUYXNrLnZhbHVlKSBkb1Rhc2tzKCkKICAgIH0KCiAgICAvKiog5ri45oiP5Lit5b+D5q+P5pel562+5YiwICovCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGRvU2lnbkluKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGRlbGF5KDE1MDApCiAgICAgICAgICAgIHZhbCBzaWduUmVzdWx0ID0gR2FtZUNlbnRlclJwY0NhbGwuY29udGludWVTaWduSW4oKQogICAgICAgICAgICBpZiAoUmVzQ2hlY2tlci5jaGVja1JlcyhUQUcsIEpTT05PYmplY3Qoc2lnblJlc3VsdCkpKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIua4uOaIj+S4reW/g+etvuWIsOaIkOWKnyDinIUiKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLnrb7liLDlvILluLg6ICR7dC5tZXNzYWdlfSIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDmibnph4/pooblj5bnp6/liIbnkIMgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZG9SZWNlaXZlUG9pbnRCYWxsKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIOWFiOafpeivouacieWTquS6m+WPr+mihueahOeQgwogICAgICAgICAgICBkZWxheSgxNTAwKQogICAgICAgICAgICB2YWwgbGlzdFJlc3VsdCA9IEdhbWVDZW50ZXJScGNDYWxsLnF1ZXJ5UG9pbnRCYWxsTGlzdCgpCiAgICAgICAgICAgIHZhbCBsaXN0SnNvbiA9IEpTT05PYmplY3QobGlzdFJlc3VsdCkKICAgICAgICAgICAgaWYgKCFSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgbGlzdEpzb24pKSByZXR1cm4KCiAgICAgICAgICAgIHZhbCBiYWxsTGlzdCA9IGxpc3RKc29uLm9wdEpTT05PYmplY3QoImRhdGEiKT8ub3B0SlNPTkFycmF5KCJwb2ludEJhbGxMaXN0IikKICAgICAgICAgICAgaWYgKGJhbGxMaXN0ICE9IG51bGwgJiYgYmFsbExpc3QubGVuZ3RoKCkgPiAwKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuWPkeeOsCAke2JhbGxMaXN0Lmxlbmd0aCgpfSDkuKrnp6/liIbnkIMiKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDnm7TmjqXmibnph4/pooblj5bvvIjmnI3liqHnq6/kvJroh6rliqjot7Pov4fkuI3lj6/poobnmoTvvIkKICAgICAgICAgICAgZGVsYXkoMjAwMCkKICAgICAgICAgICAgdmFsIHJlY2VpdmVSZXN1bHQgPSBHYW1lQ2VudGVyUnBjQ2FsbC5iYXRjaFJlY2VpdmVQb2ludEJhbGwoKQogICAgICAgICAgICB2YWwgcmVjZWl2ZUpzb24gPSBKU09OT2JqZWN0KHJlY2VpdmVSZXN1bHQpCiAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgcmVjZWl2ZUpzb24pKSB7CiAgICAgICAgICAgICAgICB2YWwgcmVjZWl2ZWQgPSByZWNlaXZlSnNvbi5vcHRKU09OT2JqZWN0KCJkYXRhIik/Lm9wdFN0cmluZygicmVjZWl2ZWRBbW91bnQiLCAiIikKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi56ev5YiG55CD5om56YeP6aKG5Y+W5a6M5oiQICR7aWYgKCFyZWNlaXZlZC5pc051bGxPckJsYW5rKCkpICLph5Hpop06JHJlY2VpdmVkIiBlbHNlICIifSIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoICh0OiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgTG9nLmVycm9yKFRBRywgIuenr+WIhueQg+W8guW4uDogJHt0Lm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgLyoqIOafpeivouS7u+WKoeWIl+ihqCDihpIg5oql5ZCNIOKGkiDlrozmiJAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZG9UYXNrcygpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBkZWxheSgxNTAwKQogICAgICAgICAgICB2YWwgbGlzdFJlc3VsdCA9IEdhbWVDZW50ZXJScGNDYWxsLnF1ZXJ5TW9kdWxhclRhc2tMaXN0KCkKICAgICAgICAgICAgdmFsIGxpc3RKc29uID0gSlNPTk9iamVjdChsaXN0UmVzdWx0KQogICAgICAgICAgICBpZiAoIVJlc0NoZWNrZXIuY2hlY2tSZXMoVEFHLCBsaXN0SnNvbikpIHJldHVybgoKICAgICAgICAgICAgdmFsIHRhc2tMaXN0ID0gbGlzdEpzb24ub3B0SlNPTk9iamVjdCgiZGF0YSIpPy5vcHRKU09OQXJyYXkoInRhc2tMaXN0IikgPzogcmV0dXJuCiAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIHRhc2tMaXN0Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICB2YWwgdGFzayA9IHRhc2tMaXN0Lm9wdEpTT05PYmplY3QoaSkgPzogY29udGludWUKICAgICAgICAgICAgICAgIHZhbCB0YXNrSWQgPSB0YXNrLm9wdFN0cmluZygidGFza0lkIiwgIiIpCiAgICAgICAgICAgICAgICB2YWwgdGl0bGUgPSB0YXNrLm9wdFN0cmluZygidGl0bGUiLCB0YXNrSWQpCiAgICAgICAgICAgICAgICB2YWwgc3RhdHVzID0gdGFzay5vcHRTdHJpbmcoInByb2Nlc3NTdGF0dXMiLCAiIikKICAgICAgICAgICAgICAgIGlmICh0YXNrSWQuaXNCbGFuaygpIHx8IHN0YXR1cyA9PSAiQ09NUExFVEVEIikgY29udGludWUKCiAgICAgICAgICAgICAgICBkZWxheSgyNTAwKQogICAgICAgICAgICAgICAgLy8g5oql5ZCNCiAgICAgICAgICAgICAgICB2YWwgc2lnbnVwUmVzdWx0ID0gR2FtZUNlbnRlclJwY0NhbGwuZG9UYXNrU2lnbnVwKHRhc2tJZCkKICAgICAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgSlNPTk9iamVjdChzaWdudXBSZXN1bHQpKSkgewogICAgICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5Lu75Yqh5oql5ZCNOiAkdGl0bGUiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZGVsYXkoMjAwMCkKICAgICAgICAgICAgICAgIC8vIOWujOaIkAogICAgICAgICAgICAgICAgdmFsIHNlbmRSZXN1bHQgPSBHYW1lQ2VudGVyUnBjQ2FsbC5kb1Rhc2tTZW5kKHRhc2tJZCkKICAgICAgICAgICAgICAgIGlmIChSZXNDaGVja2VyLmNoZWNrUmVzKFRBRywgSlNPTk9iamVjdChzZW5kUmVzdWx0KSkpIHsKICAgICAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuS7u+WKoeWujOaIkDogJHRpdGxlIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKHQ6IFRocm93YWJsZSkgewogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCAi5Lu75Yqh5byC5bi4OiAke3QubWVzc2FnZX0iKQogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.task.gameCenter
+
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
+import fansirsqi.xposed.sesame.task.ModelTask
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ResChecker
+import kotlinx.coroutines.delay
+import org.json.JSONObject
+
+/**
+ * 游戏中心 — 签到领积分球、积分球批量收取
+ * 协议移植自芝麻糊SVIP 2.0.6.6（逆向还原）
+ */
+class GameCenter : ModelTask() {
+
+    companion object {
+        private const val TAG = "GameCenter"
+        const val MODULE_NAME = "游戏中心"
+
+        @Volatile var instance: GameCenter? = null
+    }
+
+    private lateinit var enableSignIn: BooleanModelField
+    private lateinit var enablePointBall: BooleanModelField
+    private lateinit var enableTask: BooleanModelField
+
+    override fun getName() = MODULE_NAME
+    override fun getGroup() = ModelGroup.OTHER
+    override fun getIcon() = "Default.png"
+
+    override fun getFields() = ModelFields().apply {
+        addField(BooleanModelField("gameCenterSignIn", "游戏中心 | 自动签到", true).also { enableSignIn = it })
+        addField(BooleanModelField("gameCenterPointBall", "游戏中心 | 收积分球", true).also { enablePointBall = it })
+        addField(BooleanModelField("gameCenterTask", "游戏中心 | 任务报名并完成", false).also { enableTask = it })
+    }
+
+    override fun prepare() { instance = this }
+    override fun destroy() { instance = null; super.destroy() }
+
+    override suspend fun runSuspend() {
+        if (enableSignIn.value) doSignIn()
+        if (enablePointBall.value) doReceivePointBall()
+        if (enableTask.value) doTasks()
+    }
+
+    /** 游戏中心每日签到 */
+    private suspend fun doSignIn() {
+        try {
+            delay(1500)
+            val signResult = GameCenterRpcCall.continueSignIn()
+            if (ResChecker.checkRes(TAG, JSONObject(signResult))) {
+                Log.record(TAG, "游戏中心签到成功 ✅")
+            }
+        } catch (t: Throwable) {
+            Log.error(TAG, "签到异常: ${t.message}")
+        }
+    }
+
+    /** 批量领取积分球 */
+    private suspend fun doReceivePointBall() {
+        try {
+            // 先查询有哪些可领的球
+            delay(1500)
+            val listResult = GameCenterRpcCall.queryPointBallList()
+            val listJson = JSONObject(listResult)
+            if (!ResChecker.checkRes(TAG, listJson)) return
+
+            val ballList = listJson.optJSONObject("data")?.optJSONArray("pointBallList")
+            if (ballList != null && ballList.length() > 0) {
+                Log.record(TAG, "发现 ${ballList.length()} 个积分球")
+            }
+
+            // 直接批量领取（服务端会自动跳过不可领的）
+            delay(2000)
+            val receiveResult = GameCenterRpcCall.batchReceivePointBall()
+            val receiveJson = JSONObject(receiveResult)
+            if (ResChecker.checkRes(TAG, receiveJson)) {
+                val received = receiveJson.optJSONObject("data")?.optString("receivedAmount", "")
+                Log.record(TAG, "积分球批量领取完成 ${if (!received.isNullOrBlank()) "金额:$received" else ""}")
+            }
+        } catch (t: Throwable) {
+            Log.error(TAG, "积分球异常: ${t.message}")
+        }
+    }
+
+    /** 查询任务列表 → 报名 → 完成 */
+    private suspend fun doTasks() {
+        try {
+            delay(1500)
+            val listResult = GameCenterRpcCall.queryModularTaskList()
+            val listJson = JSONObject(listResult)
+            if (!ResChecker.checkRes(TAG, listJson)) return
+
+            val taskList = listJson.optJSONObject("data")?.optJSONArray("taskList") ?: return
+            for (i in 0 until taskList.length()) {
+                val task = taskList.optJSONObject(i) ?: continue
+                val taskId = task.optString("taskId", "")
+                val title = task.optString("title", taskId)
+                val status = task.optString("processStatus", "")
+                if (taskId.isBlank() || status == "COMPLETED") continue
+
+                delay(2500)
+                // 报名
+                val signupResult = GameCenterRpcCall.doTaskSignup(taskId)
+                if (ResChecker.checkRes(TAG, JSONObject(signupResult))) {
+                    Log.record(TAG, "任务报名: $title")
+                }
+                delay(2000)
+                // 完成
+                val sendResult = GameCenterRpcCall.doTaskSend(taskId)
+                if (ResChecker.checkRes(TAG, JSONObject(sendResult))) {
+                    Log.record(TAG, "任务完成: $title")
+                }
+            }
+        } catch (t: Throwable) {
+            Log.error(TAG, "任务异常: ${t.message}")
+        }
+    }
+}

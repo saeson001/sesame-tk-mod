@@ -1,1 +1,88 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgoKaW1wb3J0IGphdmEuaW8uSW5wdXRTdHJlYW0KCi8qKgogKiDmqKHlnZfnirbmgIHkuI7moYbmnrbmo4DmtYvlt6XlhbfnsbsKICoKICog6IGM6LSj77yaCiAqIDEuIOaPkOS+myBVSSDlsYLosIPnlKjnmoTmjqXlj6MgZ2V0QWN0aXZhdGVkU3RhdHVzKCnvvIzpu5jorqTov5Tlm54gIk5vdCBBY3RpdmF0ZWQi44CCCiAqIDIuIOaPkOS+myBIb29rIOWxguiwg+eUqOeahOajgOa1i+mAu+i+kSBkZXRlY3RGcmFtZXdvcmsoQ2xhc3NMb2FkZXIp77yM55So5LqO6K+G5Yir5YW35L2T5qGG5p6244CCCiAqLwpvYmplY3QgTW9kdWxlU3RhdHVzIHsKCiAgICAvKioKICAgICAqIOiOt+WPluW9k+WJjea/gOa0u+eKtuaAgSAoVUkg5bGC6LCD55So5YWl5Y+jKQogICAgICoKICAgICAqIOm7mOiupOaDheWGteS4i++8jOatpOaWueazlei/lOWbniAiTm90IEFjdGl2YXRlZCLjgIIKICAgICAqIOW9k+aooeWdl+iiqyBYcG9zZWQg5qGG5p625Yqg6L295LiUIFNlbGYtSG9vayDnlJ/mlYjml7bvvIxNYWluSG9vayDkvJrmi6bmiKrmraTmlrnms5XvvIwKICAgICAqIOW5tuWwhuWFtuabv+aNouS4uui/lOWbniBkZXRlY3RGcmFtZXdvcmsoKSDnmoTnu5PmnpwgKOWmgiAiTFNQb3NlZCIsICJMU1BhdGNoIiDnrYkp44CCCiAgICAgKi8KICAgIGZ1biBnZXRBY3RpdmF0ZWRTdGF0dXMoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIk5vdCBBY3RpdmF0ZWQiCiAgICB9CgogICAgLyoqCiAgICAgKiDmiafooYzlrp7pmYXnmoTmoYbmnrbmo4DmtYsgKEhvb2sg5bGC6LCD55SoKQogICAgICoKICAgICAqIEBwYXJhbSBjbGFzc0xvYWRlciDnm67moIfov5vnqIvnmoQgQ2xhc3NMb2FkZXIgKOmAmuW4uOaYr+aooeWdl+iHqui6q+iiq+azqOWFpeWQjueahCBDbGFzc0xvYWRlcikKICAgICAqIEByZXR1cm4g5qGG5p625ZCN56ew5a2X56ym5LiyCiAgICAgKi8KICAgIGZ1biBkZXRlY3RGcmFtZXdvcmsoY2xhc3NMb2FkZXI6IENsYXNzTG9hZGVyKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgICAgIC8vIDEuIOS8mOWFiOajgOa1iyBMU1BhdGNoIC8gTlBhdGNoICjlm6DkuLrlroPku6zpgJrov4fkv67mlLkgQVBLIOWunueOsO+8jOeJueW+gei+g+eJueauiikKICAgICAgICAgICAgaXNMU1BhdGNoKGNsYXNzTG9hZGVyKSAtPiAiTFNQYXRjaCIKICAgICAgICAgICAgaXNOUGF0Y2goY2xhc3NMb2FkZXIpIC0+ICJOUGF0Y2giCgogICAgICAgICAgICAvLyAyLiDmo4DmtYvmoIflh4bmoYbmnrYKICAgICAgICAgICAgY2hlY2tDbGFzcyhjbGFzc0xvYWRlciwgImRlLnJvYnYuYW5kcm9pZC54cG9zZWQuWHBvc2VkSW5pdCIpIC0+ICJMU1Bvc2VkIgogICAgICAgICAgICBjaGVja0NsYXNzKGNsYXNzTG9hZGVyLCAib3JnLm1lb3djYXQuZWR4cG9zZWQubWFuYWdlciIpIC0+ICJFZFhwb3NlZCIKICAgICAgICAgICAgY2hlY2tDbGFzcyhjbGFzc0xvYWRlciwgImRlLnJvYnYuYW5kcm9pZC54cG9zZWQuWHBvc2VkQnJpZGdlIikgLT4gIlhwb3NlZCIKCiAgICAgICAgICAgIC8vIDMuIOWFnOW6le+8muiZveeEtuiiqyBIb29rIOS6huS9huaXoOazleivhuWIq+ahhuaetgogICAgICAgICAgICBlbHNlIC0+ICJVbmtub3duIEFjdGl2YXRlZCIKICAgICAgICB9CiAgICB9CgogICAgLy8gLS0tIOWGhemDqOajgOa1i+mAu+i+kSAtLS0KCiAgICBwcml2YXRlIGZ1biBpc0xTUGF0Y2goY2w6IENsYXNzTG9hZGVyKTogQm9vbGVhbiB7CiAgICAgICAgLy8g5qOA5p+l57G75piv5ZCm5a2Y5ZyoCiAgICAgICAgaWYgKGNoZWNrQ2xhc3MoY2wsICJvcmcubHNwb3NlZC5sc3BhdGNoLmxvYWRlci5MU1BBcHBsaWNhdGlvbiIpKSByZXR1cm4gdHJ1ZQogICAgICAgIC8vIOajgOafpei1hOa6kOaWh+S7tuaYr+WQpuWtmOWcqCAo5YW85a656a2U5pS554mIKQogICAgICAgIHJldHVybiBjaGVja1Jlc291cmNlKGNsLCAiYXNzZXRzL2xzcGF0Y2gvY29uZmlnLmpzb24iKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzTlBhdGNoKGNsOiBDbGFzc0xvYWRlcik6IEJvb2xlYW4gewogICAgICAgIGlmIChjaGVja0NsYXNzKGNsLCAib3JnLmxzcG9zZWQubnBhdGNoLmxvYWRlci5MU1BBcHBsaWNhdGlvbiIpKSByZXR1cm4gdHJ1ZQogICAgICAgIHJldHVybiBjaGVja1Jlc291cmNlKGNsLCAiYXNzZXRzL25wYXRjaC9jb25maWcuanNvbiIpCiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6XnsbvmmK/lkKblrZjlnKjkuo7nu5nlrprnmoQgQ2xhc3NMb2FkZXIg5LitCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGNoZWNrQ2xhc3MoY2w6IENsYXNzTG9hZGVyLCBjbGFzc05hbWU6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICAvLyBmYWxzZTog5LiN5Yid5aeL5YyW57G777yM5Y+q5qOA5p+l5a2Y5Zyo5oCnCiAgICAgICAgICAgIENsYXNzLmZvck5hbWUoY2xhc3NOYW1lLCBmYWxzZSwgY2wpCiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBDbGFzc05vdEZvdW5kRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+l6LWE5rqQ5paH5Lu25piv5ZCm5a2Y5Zyo5LqOIENsYXNzTG9hZGVyIOS4rQogICAgICovCiAgICBwcml2YXRlIGZ1biBjaGVja1Jlc291cmNlKGNsOiBDbGFzc0xvYWRlciwgcGF0aDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBzdHJlYW06IElucHV0U3RyZWFtPyA9IGNsLmdldFJlc291cmNlQXNTdHJlYW0ocGF0aCkKICAgICAgICAgICAgLy8g5aaC5p6c5rWB5LiN5Li656m677yM6K+05piO6LWE5rqQ5a2Y5Zyo77yb6K6w5b6X5YWz6Zet5rWBCiAgICAgICAgICAgIHN0cmVhbT8udXNlIHsgfQogICAgICAgICAgICBzdHJlYW0gIT0gbnVsbAogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KfQ==
+package fansirsqi.xposed.sesame.util
+
+
+import java.io.InputStream
+
+/**
+ * 模块状态与框架检测工具类
+ *
+ * 职责：
+ * 1. 提供 UI 层调用的接口 getActivatedStatus()，默认返回 "Not Activated"。
+ * 2. 提供 Hook 层调用的检测逻辑 detectFramework(ClassLoader)，用于识别具体框架。
+ */
+object ModuleStatus {
+
+    /**
+     * 获取当前激活状态 (UI 层调用入口)
+     *
+     * 默认情况下，此方法返回 "Not Activated"。
+     * 当模块被 Xposed 框架加载且 Self-Hook 生效时，MainHook 会拦截此方法，
+     * 并将其替换为返回 detectFramework() 的结果 (如 "LSPosed", "LSPatch" 等)。
+     */
+    fun getActivatedStatus(): String {
+        return "Not Activated"
+    }
+
+    /**
+     * 执行实际的框架检测 (Hook 层调用)
+     *
+     * @param classLoader 目标进程的 ClassLoader (通常是模块自身被注入后的 ClassLoader)
+     * @return 框架名称字符串
+     */
+    fun detectFramework(classLoader: ClassLoader): String {
+        return when {
+            // 1. 优先检测 LSPatch / NPatch (因为它们通过修改 APK 实现，特征较特殊)
+            isLSPatch(classLoader) -> "LSPatch"
+            isNPatch(classLoader) -> "NPatch"
+
+            // 2. 检测标准框架
+            checkClass(classLoader, "de.robv.android.xposed.XposedInit") -> "LSPosed"
+            checkClass(classLoader, "org.meowcat.edxposed.manager") -> "EdXposed"
+            checkClass(classLoader, "de.robv.android.xposed.XposedBridge") -> "Xposed"
+
+            // 3. 兜底：虽然被 Hook 了但无法识别框架
+            else -> "Unknown Activated"
+        }
+    }
+
+    // --- 内部检测逻辑 ---
+
+    private fun isLSPatch(cl: ClassLoader): Boolean {
+        // 检查类是否存在
+        if (checkClass(cl, "org.lsposed.lspatch.loader.LSPApplication")) return true
+        // 检查资源文件是否存在 (兼容魔改版)
+        return checkResource(cl, "assets/lspatch/config.json")
+    }
+
+    private fun isNPatch(cl: ClassLoader): Boolean {
+        if (checkClass(cl, "org.lsposed.npatch.loader.LSPApplication")) return true
+        return checkResource(cl, "assets/npatch/config.json")
+    }
+
+    /**
+     * 检查类是否存在于给定的 ClassLoader 中
+     */
+    private fun checkClass(cl: ClassLoader, className: String): Boolean {
+        return try {
+            // false: 不初始化类，只检查存在性
+            Class.forName(className, false, cl)
+            true
+        } catch (e: ClassNotFoundException) {
+            false
+        }
+    }
+
+    /**
+     * 检查资源文件是否存在于 ClassLoader 中
+     */
+    private fun checkResource(cl: ClassLoader, path: String): Boolean {
+        return try {
+            val stream: InputStream? = cl.getResourceAsStream(path)
+            // 如果流不为空，说明资源存在；记得关闭流
+            stream?.use { }
+            stream != null
+        } catch (e: Exception) {
+            false
+        }
+    }
+}

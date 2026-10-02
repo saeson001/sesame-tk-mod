@@ -1,1 +1,46 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCi8qKgogKiDooajnpLrnm67moIflupTnlKjniYjmnKznmoTlrp7kvZPnsbvvvIzlj6/ov5vooYzniYjmnKzmr5TovoPjgIIKICovCmNsYXNzIEFsaXBheVZlcnNpb24odmFsIHZlcnNpb25TdHJpbmc6IFN0cmluZykgOiBDb21wYXJhYmxlPEFsaXBheVZlcnNpb24+IHsKCiAgICAvLyDniYjmnKzlj7fliJfooajvvIznlKjkuo7mr5TovoMKICAgIC8vIOino+aekOeJiOacrOWtl+espuS4sgogICAgLy8gS290bGluIOeahCBzcGxpdChTdHJpbmcpIOm7mOiupOaMieWtl+mdoumHj+WIhuWJsu+8jOS4jemcgOimgeato+WImei9rOS5iQogICAgcHJpdmF0ZSB2YWwgdmVyc2lvblBhcnRzOiBMaXN0PEludD4gPSB2ZXJzaW9uU3RyaW5nLnNwbGl0KCIuIikubWFwIHsgcGFydCAtPgogICAgICAgIHBhcnQudG9JbnRPck51bGwoKSA/OiBJbnQuTUFYX1ZBTFVFCiAgICB9CgogICAgLyoqCiAgICAgKiDlrp7njrDniYjmnKzmr5TovoPpgLvovpHjgIIKICAgICAqIEBwYXJhbSBvdGhlciDpnIDopoHmr5TovoPnmoTlj6bkuIDkuKogQWxpcGF5VmVyc2lvbiDlrp7kvosKICAgICAqIEByZXR1cm4gLTEg6KGo56S65b2T5YmN54mI5pys5bCP5LqO5a+55q+U54mI5pys77yMMSDooajnpLrlpKfkuo7vvIwwIOihqOekuuebuOetiQogICAgICovCiAgICBvdmVycmlkZSBmdW4gY29tcGFyZVRvKG90aGVyOiBBbGlwYXlWZXJzaW9uKTogSW50IHsKICAgICAgICB2YWwgdGhpc1NpemUgPSB2ZXJzaW9uUGFydHMuc2l6ZQogICAgICAgIHZhbCB0aGF0U2l6ZSA9IG90aGVyLnZlcnNpb25QYXJ0cy5zaXplCgogICAgICAgIC8vIOWmguaenOWJjemdoumDveebuOetie+8jOi/meWwseS9nOS4uuacgOe7iOe7k+aenCAo6ZW/5bqm6ZW/55qE54mI5pys5pu05aSnKQogICAgICAgIC8vIOS+i+WmgjogMS4wIHZzIDEuMC4xIC0+IDEuMC4xIOabtOWkpwogICAgICAgIHZhbCBsZW5ndGhDb21wYXJlID0gdGhpc1NpemUuY29tcGFyZVRvKHRoYXRTaXplKQoKICAgICAgICB2YWwgbWluTGVuZ3RoID0gbWluT2YodGhpc1NpemUsIHRoYXRTaXplKQoKICAgICAgICAvLyDpgJDmrrXmr5TovoMKICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBtaW5MZW5ndGgpIHsKICAgICAgICAgICAgdmFsIHRoaXNQYXJ0ID0gdmVyc2lvblBhcnRzW2ldCiAgICAgICAgICAgIHZhbCB0aGF0UGFydCA9IG90aGVyLnZlcnNpb25QYXJ0c1tpXQogICAgICAgICAgICBpZiAodGhpc1BhcnQgIT0gdGhhdFBhcnQpIHsKICAgICAgICAgICAgICAgIHJldHVybiB0aGlzUGFydC5jb21wYXJlVG8odGhhdFBhcnQpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIOWmguaenOaJgOacieWvueW6lOautemDveebuOetie+8jOi/lOWbnumVv+W6puavlOi+g+e7k+aenAogICAgICAgIHJldHVybiBsZW5ndGhDb21wYXJlCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHRvU3RyaW5nKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHZlcnNpb25TdHJpbmcKICAgIH0KfQ==
+package fansirsqi.xposed.sesame.entity
+
+/**
+ * 表示目标应用版本的实体类，可进行版本比较。
+ */
+class AlipayVersion(val versionString: String) : Comparable<AlipayVersion> {
+
+    // 版本号列表，用于比较
+    // 解析版本字符串
+    // Kotlin 的 split(String) 默认按字面量分割，不需要正则转义
+    private val versionParts: List<Int> = versionString.split(".").map { part ->
+        part.toIntOrNull() ?: Int.MAX_VALUE
+    }
+
+    /**
+     * 实现版本比较逻辑。
+     * @param other 需要比较的另一个 AlipayVersion 实例
+     * @return -1 表示当前版本小于对比版本，1 表示大于，0 表示相等
+     */
+    override fun compareTo(other: AlipayVersion): Int {
+        val thisSize = versionParts.size
+        val thatSize = other.versionParts.size
+
+        // 如果前面都相等，这就作为最终结果 (长度长的版本更大)
+        // 例如: 1.0 vs 1.0.1 -> 1.0.1 更大
+        val lengthCompare = thisSize.compareTo(thatSize)
+
+        val minLength = minOf(thisSize, thatSize)
+
+        // 逐段比较
+        for (i in 0 until minLength) {
+            val thisPart = versionParts[i]
+            val thatPart = other.versionParts[i]
+            if (thisPart != thatPart) {
+                return thisPart.compareTo(thatPart)
+            }
+        }
+
+        // 如果所有对应段都相等，返回长度比较结果
+        return lengthCompare
+    }
+
+    override fun toString(): String {
+        return versionString
+    }
+}

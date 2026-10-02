@@ -1,1 +1,99 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmludGVybmFsCgppbXBvcnQgZGUucm9idi5hbmRyb2lkLnhwb3NlZC5YcG9zZWRIZWxwZXJzCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkRhdGFTdG9yZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EZWxpY2F0ZUNvcm91dGluZXNBcGkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkdsb2JhbFNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCm9iamVjdCBMb2NhdGlvbkhlbHBlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkxvY2F0aW9uSW5mb0hlbHBlciIKICAgIHByaXZhdGUgdmFyIGNsYXNzTG9hZGVyOiBDbGFzc0xvYWRlcj8gPSBudWxsCiAgICBwcml2YXRlIGNvbnN0IHZhbCBMT0NBVElPTl9LRVkgPSAiY2FjaGVkX2xvY2F0aW9uIgoKICAgIC8vIOS/neeVmeaXp+eahOWbnuiwg+aOpeWPo+S7peWFvOWuuSBKYXZhIOS7o+egge+8jOS9huW3suagh+iusOS4uiBEZXByZWNhdGVkCiAgICBmdW4gaW50ZXJmYWNlIExvY2F0aW9uQ2FsbGJhY2sgewogICAgICAgIGZ1biBvbkxvY2F0aW9uUmVzdWx0KGxvY2F0aW9uOiBKU09OT2JqZWN0PykKICAgIH0KCiAgICBmdW4gaW5pdChsb2FkZXI6IENsYXNzTG9hZGVyKSB7CiAgICAgICAgY2xhc3NMb2FkZXIgPSBsb2FkZXIKICAgIH0KCiAgICAvKioKICAgICAqIOWQjOatpeiOt+WPlue8k+WtmOeahOS9jee9ruS/oeaBrwogICAgICovCiAgICBmdW4gZ2V0TG9jYXRpb24oKTogSlNPTk9iamVjdD8gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgbWFwID0gRGF0YVN0b3JlLmdldChMT0NBVElPTl9LRVksIE1hcDo6Y2xhc3MuamF2YSkKICAgICAgICAgICAgbWFwPy5sZXQgeyBKU09OT2JqZWN0KGl0KSB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLor7vlj5bkvY3nva7nvJPlrZjlpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDinIUg5paw5aKe77ya5oyC6LW35Ye95pWw54mI5pysICjmjqjojZAgS290bGluIOS9v+eUqCkKICAgICAqIOWcqOWQjuWPsOe6v+eoi+iOt+WPluS9jee9ruW5tui/lOWbnue7k+aenO+8jOiHquWKqOWIh+WbnuWOn+e6v+eoiwogICAgICovCiAgICBzdXNwZW5kIGZ1biByZXF1ZXN0TG9jYXRpb25TdXNwZW5kKCk6IEpTT05PYmplY3QgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5EZWZhdWx0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKGNsYXNzTG9hZGVyID09IG51bGwpIHsKICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBjcmVhdGVBbmRTYXZlRXJyb3IoIkNsYXNzTG9hZGVyIOacquWIneWni+WMliIpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOaJp+ihjOWPjeWwhOiwg+eUqCAo6ICX5pe25pON5L2cKQogICAgICAgICAgICB2YWwgbG5zY3RyVXRpbHNDbGFzcyA9IFhwb3NlZEhlbHBlcnMuZmluZENsYXNzKCJjb20uYWxpcGF5Lm1vYmlsZS5jb21tb24ubG5zY3RyLkxuc2N0clV0aWxzIiwgY2xhc3NMb2FkZXIpCiAgICAgICAgICAgIHZhbCBsYXRpdHVkZSA9IFhwb3NlZEhlbHBlcnMuY2FsbFN0YXRpY01ldGhvZChsbnNjdHJVdGlsc0NsYXNzLCAiZ2V0TGF0aXR1ZGUiKSBhcz8gRG91YmxlCiAgICAgICAgICAgIHZhbCBsb25naXR1ZGUgPSBYcG9zZWRIZWxwZXJzLmNhbGxTdGF0aWNNZXRob2QobG5zY3RyVXRpbHNDbGFzcywgImdldExvbmdpdHVkZSIpIGFzPyBEb3VibGUKCiAgICAgICAgICAgIGlmIChsYXRpdHVkZSAhPSBudWxsICYmIGxvbmdpdHVkZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICB2YWwgbG9jYXRpb25NYXAgPSBtYXBPZigKICAgICAgICAgICAgICAgICAgICAibGF0aXR1ZGUiIHRvIGxhdGl0dWRlLAogICAgICAgICAgICAgICAgICAgICJsb25naXR1ZGUiIHRvIGxvbmdpdHVkZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgc2F2ZUxvY2F0aW9uVG9EYXRhU3RvcmUobG9jYXRpb25NYXApCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KGxvY2F0aW9uTWFwKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgY3JlYXRlQW5kU2F2ZUVycm9yKCLnrYnlvoXnm67moIflupTnlKjliJ3lp4vljJbkuK0uLi4iKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLojrflj5bnu4/nuqzluqblvILluLg6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIGNyZWF0ZUFuZFNhdmVFcnJvcigi6I635Y+W5aSx6LSlOiAke2UubWVzc2FnZX0iKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWFvOWuueaXp+eJiO+8muWbnuiwg+mjjuagvCAo5YaF6YOo5L2/55So5Y2P56iLKQogICAgICog5L6bIEphdmEg5Luj56CB5oiW5bCa5pyq6L+B56e755qEIEtvdGxpbiDku6PnoIHkvb/nlKgKICAgICAqLwogICAgQE9wdEluKERlbGljYXRlQ29yb3V0aW5lc0FwaTo6Y2xhc3MpCiAgICBmdW4gcmVxdWVzdExvY2F0aW9uKGNhbGxiYWNrOiBMb2NhdGlvbkNhbGxiYWNrKSB7CiAgICAgICAgLy8g5L2/55SoIEdsb2JhbFNjb3BlIOWQr+WKqOWNj+eoi+abv+S7oyBuZXcgVGhyZWFkCiAgICAgICAgLy8g5rOo5oSP77ya5ZyoIEFwcGxpY2F0aW9uSG9vayDkuK3mnIDlpb3kvb/nlKjlj5fmjqfnmoQgU2NvcGXvvIzov5nph4zkvZzkuLrljZXkvovlt6XlhbfnsbvmmoLml7bnlKggR2xvYmFsU2NvcGUKICAgICAgICBHbG9iYWxTY29wZS5sYXVuY2goRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICB2YWwgcmVzdWx0ID0gcmVxdWVzdExvY2F0aW9uU3VzcGVuZCgpCiAgICAgICAgICAgIGNhbGxiYWNrLm9uTG9jYXRpb25SZXN1bHQocmVzdWx0KQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBjcmVhdGVBbmRTYXZlRXJyb3IobXNnOiBTdHJpbmcpOiBKU09OT2JqZWN0IHsKICAgICAgICB2YWwgbWFwID0gbWFwT2YoInN0YXR1cyIgdG8gbXNnKQogICAgICAgIHNhdmVMb2NhdGlvblRvRGF0YVN0b3JlKG1hcCkKICAgICAgICByZXR1cm4gSlNPTk9iamVjdChtYXApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2F2ZUxvY2F0aW9uVG9EYXRhU3RvcmUobG9jYXRpb25NYXA6IE1hcDxTdHJpbmcsIEFueT4pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBEYXRhU3RvcmUucHV0KExPQ0FUSU9OX0tFWSwgbG9jYXRpb25NYXApCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lcnJvcihUQUcsICLkv53lrZjkvY3nva7nvJPlrZjlpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.hook.internal
+
+import de.robv.android.xposed.XposedHelpers
+import fansirsqi.xposed.sesame.util.DataStore
+import fansirsqi.xposed.sesame.util.Log
+import kotlinx.coroutines.DelicateCoroutinesApi
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+
+object LocationHelper {
+
+    private const val TAG = "LocationInfoHelper"
+    private var classLoader: ClassLoader? = null
+    private const val LOCATION_KEY = "cached_location"
+
+    // 保留旧的回调接口以兼容 Java 代码，但已标记为 Deprecated
+    fun interface LocationCallback {
+        fun onLocationResult(location: JSONObject?)
+    }
+
+    fun init(loader: ClassLoader) {
+        classLoader = loader
+    }
+
+    /**
+     * 同步获取缓存的位置信息
+     */
+    fun getLocation(): JSONObject? {
+        return try {
+            val map = DataStore.get(LOCATION_KEY, Map::class.java)
+            map?.let { JSONObject(it) }
+        } catch (e: Exception) {
+            Log.error(TAG, "读取位置缓存失败: ${e.message}")
+            null
+        }
+    }
+
+    /**
+     * ✅ 新增：挂起函数版本 (推荐 Kotlin 使用)
+     * 在后台线程获取位置并返回结果，自动切回原线程
+     */
+    suspend fun requestLocationSuspend(): JSONObject = withContext(Dispatchers.Default) {
+        try {
+            if (classLoader == null) {
+                return@withContext createAndSaveError("ClassLoader 未初始化")
+            }
+
+            // 执行反射调用 (耗时操作)
+            val lnsctrUtilsClass = XposedHelpers.findClass("com.alipay.mobile.common.lnsctr.LnsctrUtils", classLoader)
+            val latitude = XposedHelpers.callStaticMethod(lnsctrUtilsClass, "getLatitude") as? Double
+            val longitude = XposedHelpers.callStaticMethod(lnsctrUtilsClass, "getLongitude") as? Double
+
+            if (latitude != null && longitude != null) {
+                val locationMap = mapOf(
+                    "latitude" to latitude,
+                    "longitude" to longitude
+                )
+                saveLocationToDataStore(locationMap)
+                JSONObject(locationMap)
+            } else {
+                createAndSaveError("等待目标应用初始化中...")
+            }
+        } catch (e: Throwable) {
+            Log.error(TAG, "获取经纬度异常: ${e.message}")
+            createAndSaveError("获取失败: ${e.message}")
+        }
+    }
+
+    /**
+     * 兼容旧版：回调风格 (内部使用协程)
+     * 供 Java 代码或尚未迁移的 Kotlin 代码使用
+     */
+    @OptIn(DelicateCoroutinesApi::class)
+    fun requestLocation(callback: LocationCallback) {
+        // 使用 GlobalScope 启动协程替代 new Thread
+        // 注意：在 ApplicationHook 中最好使用受控的 Scope，这里作为单例工具类暂时用 GlobalScope
+        GlobalScope.launch(Dispatchers.Main) {
+            val result = requestLocationSuspend()
+            callback.onLocationResult(result)
+        }
+    }
+
+    private fun createAndSaveError(msg: String): JSONObject {
+        val map = mapOf("status" to msg)
+        saveLocationToDataStore(map)
+        return JSONObject(map)
+    }
+
+    private fun saveLocationToDataStore(locationMap: Map<String, Any>) {
+        try {
+            DataStore.put(LOCATION_KEY, locationMap)
+        } catch (e: Exception) {
+            Log.error(TAG, "保存位置缓存失败: ${e.message}")
+        }
+    }
+}

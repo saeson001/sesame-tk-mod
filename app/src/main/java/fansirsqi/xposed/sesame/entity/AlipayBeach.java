@@ -1,1 +1,55 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHk7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuQmVhY2hNYXA7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHMuSWRNYXBNYW5hZ2VyOwppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9uczsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKLyoqCiAqIOihqOekuuebruagh+W6lOeUqOa1t+a7qeeahOWunuS9k+exu++8jOWMheWQqyBJRCDlkozlkI3np7DjgIIKICovCnB1YmxpYyBjbGFzcyBBbGlwYXlCZWFjaCBleHRlbmRzIE1hcHBlckVudGl0eSB7CiAgICAvLyDkvb/nlKggdm9sYXRpbGUg5YWz6ZSu5a2X56Gu5L+d5aSa57q/56iL546v5aKD5LiL55qE5Y+v6KeB5oCnCiAgICBwcml2YXRlIHN0YXRpYyB2b2xhdGlsZSBMaXN0PEFsaXBheUJlYWNoPiBsaXN0OwogICAgLyoqCiAgICAgKiDmnoTpgKDmlrnms5XvvIzmoLnmja7nu5nlrprnmoQgSUQg5ZKM5ZCN56ew5Yid5aeL5YyW5a+56LGh44CCCiAgICAgKiBAcGFyYW0gaSDmtbfmu6nnmoQgSUQKICAgICAqIEBwYXJhbSBuIOa1t+a7qeeahOWQjeensAogICAgICovCiAgICBwdWJsaWMgQWxpcGF5QmVhY2goU3RyaW5nIGksIFN0cmluZyBuKSB7CiAgICAgICAgaWQgPSBpOwogICAgICAgIG5hbWUgPSBuOwogICAgfQogICAgLyoqCiAgICAgKiDojrflj5bljIXlkKvmiYDmnInmtbfmu6nnmoTliJfooajvvIzpppbmrKHosIPnlKjml7bku44gQmVhY2hNYXAg5Yid5aeL5YyW44CCCiAgICAgKiDkvb/nlKjlj4zph43mo4Dmn6XplIHlrprmnLrliLblrp7njrDmh5LliqDovb3ku6Xmj5Dpq5jmgKfog73jgIIKICAgICAqIEByZXR1cm4g5YyF5ZCr5omA5pyJIEFsaXBheUJlYWNoIOWvueixoeeahOS4jeWPr+WPmOWIl+ihqAogICAgICovCiAgICBwdWJsaWMgc3RhdGljIExpc3Q8QWxpcGF5QmVhY2g+IGdldExpc3QoKSB7CiAgICAgICAgaWYgKGxpc3QgPT0gbnVsbCkgewogICAgICAgICAgICBzeW5jaHJvbml6ZWQgKEFsaXBheUJlYWNoLmNsYXNzKSB7CiAgICAgICAgICAgICAgICBpZiAobGlzdCA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgTGlzdDxBbGlwYXlCZWFjaD4gdGVtcExpc3QgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICAgICAgICAgICAgICBmb3IgKE1hcC5FbnRyeTxTdHJpbmcsIFN0cmluZz4gZW50cnkgOiBJZE1hcE1hbmFnZXIuZ2V0SW5zdGFuY2UoQmVhY2hNYXAuY2xhc3MpLmdldE1hcCgpLmVudHJ5U2V0KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGVtcExpc3QuYWRkKG5ldyBBbGlwYXlCZWFjaChlbnRyeS5nZXRLZXkoKSwgZW50cnkuZ2V0VmFsdWUoKSkpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBsaXN0ID0gQ29sbGVjdGlvbnMudW5tb2RpZmlhYmxlTGlzdCh0ZW1wTGlzdCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGxpc3Q7CiAgICB9CiAgICAvKioKICAgICAqIOagueaNrue7meWumueahCBJRCDliKDpmaTnm7jlupTnmoQgQWxpcGF5QmVhY2gg5a+56LGh44CCCiAgICAgKiDpppbmrKHosIPnlKggZ2V0TGlzdCDmlrnms5Xku6Xnoa7kv53liJfooajlt7LliJ3lp4vljJbjgIIKICAgICAqIEBwYXJhbSBpZCDopoHliKDpmaTnmoTmtbfmu6kgSUQKICAgICAqLwogICAgcHVibGljIHN0YXRpYyB2b2lkIHJlbW92ZShTdHJpbmcgaWQpIHsKICAgICAgICBnZXRMaXN0KCk7CiAgICAgICAgc3luY2hyb25pemVkIChBbGlwYXlCZWFjaC5jbGFzcykgewogICAgICAgICAgICBsaXN0ID0gbmV3IEFycmF5TGlzdDw+KGxpc3QpOyAvLyDliJvlu7rlj6/lj5jliJfooajnmoTlia/mnKwKICAgICAgICAgICAgbGlzdC5yZW1vdmVJZihiZWFjaCAtPiBiZWFjaC5pZC5lcXVhbHMoaWQpKTsgLy8g5L2/55So5rWB566A5YyW56e76Zmk5pON5L2cCiAgICAgICAgICAgIGxpc3QgPSBDb2xsZWN0aW9ucy51bm1vZGlmaWFibGVMaXN0KGxpc3QpOyAvLyDnoa7kv53ov5Tlm57kuI3lj6/lj5jliJfooagKICAgICAgICB9CiAgICB9Cn0K
+package fansirsqi.xposed.sesame.entity;
+import fansirsqi.xposed.sesame.util.maps.BeachMap;
+import fansirsqi.xposed.sesame.util.maps.IdMapManager;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+/**
+ * 表示目标应用海滩的实体类，包含 ID 和名称。
+ */
+public class AlipayBeach extends MapperEntity {
+    // 使用 volatile 关键字确保多线程环境下的可见性
+    private static volatile List<AlipayBeach> list;
+    /**
+     * 构造方法，根据给定的 ID 和名称初始化对象。
+     * @param i 海滩的 ID
+     * @param n 海滩的名称
+     */
+    public AlipayBeach(String i, String n) {
+        id = i;
+        name = n;
+    }
+    /**
+     * 获取包含所有海滩的列表，首次调用时从 BeachMap 初始化。
+     * 使用双重检查锁定机制实现懒加载以提高性能。
+     * @return 包含所有 AlipayBeach 对象的不可变列表
+     */
+    public static List<AlipayBeach> getList() {
+        if (list == null) {
+            synchronized (AlipayBeach.class) {
+                if (list == null) {
+                    List<AlipayBeach> tempList = new ArrayList<>();
+                    for (Map.Entry<String, String> entry : IdMapManager.getInstance(BeachMap.class).getMap().entrySet()) {
+                        tempList.add(new AlipayBeach(entry.getKey(), entry.getValue()));
+                    }
+                    list = Collections.unmodifiableList(tempList);
+                }
+            }
+        }
+        return list;
+    }
+    /**
+     * 根据给定的 ID 删除相应的 AlipayBeach 对象。
+     * 首次调用 getList 方法以确保列表已初始化。
+     * @param id 要删除的海滩 ID
+     */
+    public static void remove(String id) {
+        getList();
+        synchronized (AlipayBeach.class) {
+            list = new ArrayList<>(list); // 创建可变列表的副本
+            list.removeIf(beach -> beach.id.equals(id)); // 使用流简化移除操作
+            list = Collections.unmodifiableList(list); // 确保返回不可变列表
+        }
+    }
+}

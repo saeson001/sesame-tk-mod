@@ -1,1 +1,94 @@
-IyBtb2RlbHMucHkgLSDmlbDmja7lupPmqKHlnosKZnJvbSB0eXBpbmcgaW1wb3J0IE9wdGlvbmFsCmZyb20gc3FsYWxjaGVteSBpbXBvcnQgQ29sdW1uLCBJbnRlZ2VyLCBTdHJpbmcsIERhdGVUaW1lLCBUZXh0CmZyb20gc3FsYWxjaGVteS5zcWwgaW1wb3J0IGZ1bmMKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YSwgdGltZXpvbmUKZnJvbSB0eXBpbmcgaW1wb3J0IE9wdGlvbmFsICMgSW1wb3J0IE9wdGlvbmFsIGZvciB0eXBlIGhpbnRzCgoKZnJvbSBjb25maWcgaW1wb3J0IEJhc2UKCmRlZiBnZXRfbG9jYWxfbm93KCk6CiAgICAjIEFzc3VtaW5nIFVUQys4LCBhZGp1c3QgYXMgbmVjZXNzYXJ5IGZvciB5b3VyIHNwZWNpZmljIGxvY2FsIHRpbWV6b25lCiAgICByZXR1cm4gZGF0ZXRpbWUubm93KHRpbWV6b25lKHRpbWVkZWx0YShob3Vycz04KSkpCgpjbGFzcyBIb29rRGF0YShCYXNlKToKICAgIF9fdGFibGVuYW1lX18gPSAiaG9va2RhdGEiCgogICAgaWQgPSBDb2x1bW4oSW50ZWdlciwgcHJpbWFyeV9rZXk9VHJ1ZSwgaW5kZXg9VHJ1ZSkKICAgIFRpbWVTdGFtcCA9IENvbHVtbihUZXh0KSAjQ29sdW1uKERhdGVUaW1lLCBkZWZhdWx0PWRhdGV0aW1lLm5vdygpKQogICAgTWV0aG9kID0gQ29sdW1uKFN0cmluZyg1MCkpCiAgICBQYXJhbXMgPSBDb2x1bW4oVGV4dCkKICAgIERhdGEgPSBDb2x1bW4oVGV4dCkKICAgIGNyZWF0ZWRfYXQgPSBDb2x1bW4oRGF0ZVRpbWUsIGRlZmF1bHQ9Z2V0X2xvY2FsX25vdykKICAgIHVwZGF0ZWRfYXQgPSBDb2x1bW4oRGF0ZVRpbWUsIGRlZmF1bHQ9Z2V0X2xvY2FsX25vdywgb251cGRhdGU9Z2V0X2xvY2FsX25vdykKCiAgICAjIOiHquWKqOa4heeQhuetlueVpe+8iOavj+Wwj+aXtuinpuWPke+8iQogICAgQGNsYXNzbWV0aG9kCiAgICBkZWYgY2xlYW51cF9vbGRfZGF0YShjbHMsIHNlc3Npb24sIG1heF9hZ2VfZGF5czogT3B0aW9uYWxbaW50XSA9IDMwLCBtYXhfY291bnQ6IE9wdGlvbmFsW2ludF0gPSBOb25lKToKICAgICAgICAiIiIKICAgICAgICBDbGVhbnMgdXAgb2xkIGRhdGEgYmFzZWQgb24gbWF4aW11bSBhZ2UgYW5kL29yIG1heGltdW0gY291bnQuCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIHNlc3Npb246IFRoZSBkYXRhYmFzZSBzZXNzaW9uLgogICAgICAgICAgICBtYXhfYWdlX2RheXM6IE1heGltdW0gYWdlIGluIGRheXMgdG8ga2VlcCByZWNvcmRzLiBSZWNvcmRzIG9sZGVyIHRoYW4gdGhpcyB3aWxsIGJlIGRlbGV0ZWQuCiAgICAgICAgICAgICAgICAgICAgICAgICAgU2V0IHRvIE5vbmUgdG8gZGlzYWJsZSBhZ2UtYmFzZWQgY2xlYW51cC4gRGVmYXVsdHMgdG8gMzAuCiAgICAgICAgICAgIG1heF9jb3VudDogTWF4aW11bSBudW1iZXIgb2YgcmVjb3JkcyB0byBrZWVwLiBJZiB0aGUgdG90YWwgY291bnQgZXhjZWVkcyB0aGlzLAogICAgICAgICAgICAgICAgICAgICAgIHRoZSBvbGRlc3QgcmVjb3JkcyB3aWxsIGJlIGRlbGV0ZWQgdW50aWwgdGhlIGNvdW50IGlzIG1ldC4KICAgICAgICAgICAgICAgICAgICAgICBTZXQgdG8gTm9uZSB0byBkaXNhYmxlIGNvdW50LWJhc2VkIGNsZWFudXAuIERlZmF1bHRzIHRvIE5vbmUuCiAgICAgICAgIiIiCiAgICAgICAgZnJvbSBjb25maWcgaW1wb3J0IGxvZ2dlciAjIEltcG9ydCBsb2dnZXIgbG9jYWxseSBpZiBuZWVkZWQKICAgICAgICBmcm9tIHNxbGFsY2hlbXkuc3FsIGltcG9ydCBmdW5jICMgRW5zdXJlIGZ1bmMgaXMgYXZhaWxhYmxlCiAgICAgICAgZnJvbSB0eXBpbmcgaW1wb3J0IE9wdGlvbmFsICMgRW5zdXJlIE9wdGlvbmFsIGlzIGF2YWlsYWJsZQoKICAgICAgICBkZWxldGVkX2J5X2FnZV9jb3VudCA9IDAKICAgICAgICBpZiBtYXhfYWdlX2RheXMgaXMgbm90IE5vbmUgYW5kIG1heF9hZ2VfZGF5cyA+IDA6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGN1dG9mZl9kYXRlID0gZGF0ZXRpbWUubm93KCkgLSB0aW1lZGVsdGEoZGF5cz1tYXhfYWdlX2RheXMpCiAgICAgICAgICAgICAgICAjIENvcnJlY3RlZCBjb2x1bW4gbmFtZSBmcm9tIGNscy50aW1lc3RhbXAgdG8gY2xzLmNyZWF0ZWRfYXQKICAgICAgICAgICAgICAgIHF1ZXJ5X2FnZSA9IHNlc3Npb24ucXVlcnkoY2xzKS5maWx0ZXIoY2xzLmNyZWF0ZWRfYXQgPCBjdXRvZmZfZGF0ZSkKICAgICAgICAgICAgICAgICMgVXNlIHN5bmNocm9uaXplX3Nlc3Npb249RmFsc2UgZm9yIHBvdGVudGlhbGx5IGxhcmdlIGRlbGV0ZXMKICAgICAgICAgICAgICAgIGRlbGV0ZWRfYnlfYWdlX2NvdW50ID0gcXVlcnlfYWdlLmRlbGV0ZShzeW5jaHJvbml6ZV9zZXNzaW9uPUZhbHNlKQogICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oZiJEZWxldGVkIHtkZWxldGVkX2J5X2FnZV9jb3VudH0gcmVjb3JkcyBvbGRlciB0aGFuIHttYXhfYWdlX2RheXN9IGRheXMuIikKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYiRXJyb3IgZHVyaW5nIGFnZS1iYXNlZCBjbGVhbnVwOiB7ZX0iKQogICAgICAgICAgICAgICAgc2Vzc2lvbi5yb2xsYmFjaygpICMgUm9sbGJhY2sgb24gZXJyb3IgZHVyaW5nIGFnZSBjbGVhbnVwCiAgICAgICAgICAgICAgICByZXR1cm4gIyBTdG9wIGZ1cnRoZXIgcHJvY2Vzc2luZyBpZiBhZ2UgY2xlYW51cCBmYWlsZWQKCiAgICAgICAgZGVsZXRlZF9ieV9jb3VudF9jb3VudCA9IDAKICAgICAgICBpZiBtYXhfY291bnQgaXMgbm90IE5vbmUgYW5kIG1heF9jb3VudCA+IDA6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHRvdGFsX2NvdW50ID0gc2Vzc2lvbi5xdWVyeShmdW5jLmNvdW50KGNscy5pZCkpLnNjYWxhcigpCiAgICAgICAgICAgICAgICB0b19kZWxldGVfY291bnQgPSBtYXgoMCwgdG90YWxfY291bnQgLSBtYXhfY291bnQpCgogICAgICAgICAgICAgICAgaWYgdG9fZGVsZXRlX2NvdW50ID4gMDoKICAgICAgICAgICAgICAgICAgICAjIEZpbmQgdGhlIElEcyBvZiB0aGUgb2xkZXN0IHJlY29yZHMgdG8gZGVsZXRlCiAgICAgICAgICAgICAgICAgICAgb2xkZXN0X2lkc19zdWJxdWVyeSA9IHNlc3Npb24ucXVlcnkoY2xzLmlkKVwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5vcmRlcl9ieShjbHMuY3JlYXRlZF9hdC5hc2MoKSlcCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAubGltaXQodG9fZGVsZXRlX2NvdW50KVwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zdWJxdWVyeSgpCgogICAgICAgICAgICAgICAgICAgICMgRGVsZXRlIHRoZSByZWNvcmRzIHdpdGggdGhvc2UgSURzCiAgICAgICAgICAgICAgICAgICAgcXVlcnlfY291bnQgPSBzZXNzaW9uLnF1ZXJ5KGNscykuZmlsdGVyKGNscy5pZC5pbl8ob2xkZXN0X2lkc19zdWJxdWVyeSkpCiAgICAgICAgICAgICAgICAgICAgZGVsZXRlZF9ieV9jb3VudF9jb3VudCA9IHF1ZXJ5X2NvdW50LmRlbGV0ZShzeW5jaHJvbml6ZV9zZXNzaW9uPUZhbHNlKQogICAgICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKGYiRGVsZXRlZCB7ZGVsZXRlZF9ieV9jb3VudF9jb3VudH0gb2xkZXN0IHJlY29yZHMgdG8gbWVldCBtYXhfY291bnQgb2Yge21heF9jb3VudH0uIikKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYiRXJyb3IgZHVyaW5nIGNvdW50LWJhc2VkIGNsZWFudXA6IHtlfSIpCiAgICAgICAgICAgICAgICBzZXNzaW9uLnJvbGxiYWNrKCkgIyBSb2xsYmFjayBvbiBlcnJvciBkdXJpbmcgY291bnQgY2xlYW51cAogICAgICAgICAgICAgICAgIyBFdmVuIGlmIGNvdW50IGNsZWFudXAgZmFpbHMsIGFnZSBjbGVhbnVwIG1pZ2h0IGhhdmUgc3VjY2VlZGVkLCBzbyBjb21taXQgdGhhdCBwYXJ0IGlmIG5lZWRlZC4KICAgICAgICAgICAgICAgICMgSG93ZXZlciwgaXQncyBzYWZlciB0byByb2xsYmFjayBldmVyeXRoaW5nIGlmIGFueSBwYXJ0IGZhaWxzLgogICAgICAgICAgICAgICAgIyBJZiBwYXJ0aWFsIHN1Y2Nlc3MgaXMgZGVzaXJlZCwgY29tbWl0IG5lZWRzIGNhcmVmdWwgcGxhY2VtZW50LgogICAgICAgICAgICAgICAgcmV0dXJuICMgU3RvcCBmdXJ0aGVyIHByb2Nlc3NpbmcKCiAgICAgICAgIyBDb21taXQgb25seSBpZiBubyBlcnJvcnMgb2NjdXJyZWQgZHVyaW5nIGNsZWFudXAgc3RlcHMKICAgICAgICBpZiBkZWxldGVkX2J5X2FnZV9jb3VudCA+IDAgb3IgZGVsZXRlZF9ieV9jb3VudF9jb3VudCA+IDA6CiAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgc2Vzc2lvbi5jb21taXQoKQogICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJDbGVhbnVwIGNvbW1pdHRlZCBzdWNjZXNzZnVsbHkuIikKICAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiJFcnJvciBjb21taXR0aW5nIGNsZWFudXAgdHJhbnNhY3Rpb246IHtlfSIpCiAgICAgICAgICAgICAgICAgc2Vzc2lvbi5yb2xsYmFjaygpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbG9nZ2VyLmluZm8oIk5vIHJlY29yZHMgbmVlZGVkIGNsZWFudXAuIikKCgo=
+# models.py - 数据库模型
+from typing import Optional
+from sqlalchemy import Column, Integer, String, DateTime, Text
+from sqlalchemy.sql import func
+from datetime import datetime, timedelta, timezone
+from typing import Optional # Import Optional for type hints
+
+
+from config import Base
+
+def get_local_now():
+    # Assuming UTC+8, adjust as necessary for your specific local timezone
+    return datetime.now(timezone(timedelta(hours=8)))
+
+class HookData(Base):
+    __tablename__ = "hookdata"
+
+    id = Column(Integer, primary_key=True, index=True)
+    TimeStamp = Column(Text) #Column(DateTime, default=datetime.now())
+    Method = Column(String(50))
+    Params = Column(Text)
+    Data = Column(Text)
+    created_at = Column(DateTime, default=get_local_now)
+    updated_at = Column(DateTime, default=get_local_now, onupdate=get_local_now)
+
+    # 自动清理策略（每小时触发）
+    @classmethod
+    def cleanup_old_data(cls, session, max_age_days: Optional[int] = 30, max_count: Optional[int] = None):
+        """
+        Cleans up old data based on maximum age and/or maximum count.
+
+        Args:
+            session: The database session.
+            max_age_days: Maximum age in days to keep records. Records older than this will be deleted.
+                          Set to None to disable age-based cleanup. Defaults to 30.
+            max_count: Maximum number of records to keep. If the total count exceeds this,
+                       the oldest records will be deleted until the count is met.
+                       Set to None to disable count-based cleanup. Defaults to None.
+        """
+        from config import logger # Import logger locally if needed
+        from sqlalchemy.sql import func # Ensure func is available
+        from typing import Optional # Ensure Optional is available
+
+        deleted_by_age_count = 0
+        if max_age_days is not None and max_age_days > 0:
+            try:
+                cutoff_date = datetime.now() - timedelta(days=max_age_days)
+                # Corrected column name from cls.timestamp to cls.created_at
+                query_age = session.query(cls).filter(cls.created_at < cutoff_date)
+                # Use synchronize_session=False for potentially large deletes
+                deleted_by_age_count = query_age.delete(synchronize_session=False)
+                logger.info(f"Deleted {deleted_by_age_count} records older than {max_age_days} days.")
+            except Exception as e:
+                logger.error(f"Error during age-based cleanup: {e}")
+                session.rollback() # Rollback on error during age cleanup
+                return # Stop further processing if age cleanup failed
+
+        deleted_by_count_count = 0
+        if max_count is not None and max_count > 0:
+            try:
+                total_count = session.query(func.count(cls.id)).scalar()
+                to_delete_count = max(0, total_count - max_count)
+
+                if to_delete_count > 0:
+                    # Find the IDs of the oldest records to delete
+                    oldest_ids_subquery = session.query(cls.id)\
+                                                 .order_by(cls.created_at.asc())\
+                                                 .limit(to_delete_count)\
+                                                 .subquery()
+
+                    # Delete the records with those IDs
+                    query_count = session.query(cls).filter(cls.id.in_(oldest_ids_subquery))
+                    deleted_by_count_count = query_count.delete(synchronize_session=False)
+                    logger.info(f"Deleted {deleted_by_count_count} oldest records to meet max_count of {max_count}.")
+            except Exception as e:
+                logger.error(f"Error during count-based cleanup: {e}")
+                session.rollback() # Rollback on error during count cleanup
+                # Even if count cleanup fails, age cleanup might have succeeded, so commit that part if needed.
+                # However, it's safer to rollback everything if any part fails.
+                # If partial success is desired, commit needs careful placement.
+                return # Stop further processing
+
+        # Commit only if no errors occurred during cleanup steps
+        if deleted_by_age_count > 0 or deleted_by_count_count > 0:
+             try:
+                 session.commit()
+                 logger.info("Cleanup committed successfully.")
+             except Exception as e:
+                 logger.error(f"Error committing cleanup transaction: {e}")
+                 session.rollback()
+        else:
+            logger.info("No records needed cleanup.")
+
+

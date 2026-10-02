@@ -1,1 +1,82 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQgamF2YS5pby5GaWxlCgpkYXRhIGNsYXNzIE1vZHVsZVJ1bnRpbWVTdGF0dXMoCiAgICB2YWwgZnJhbWV3b3JrOiBTdHJpbmcsCiAgICB2YWwgdGltZXN0YW1wOiBMb25nLAogICAgdmFsIHBhY2thZ2VOYW1lOiBTdHJpbmcKKQoKb2JqZWN0IFN0YXR1c01hbmFnZXIgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlN0YXR1c01hbmFnZXIiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBTVEFUVVNfRklMRV9OQU1FID0gIk1vZHVsZVN0YXR1cy5qc29uIgoKICAgIHByaXZhdGUgZnVuIGdldFN0YXR1c0ZpbGUoKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIEZpbGUoRmlsZXMuQ09ORklHX0RJUi5wYXJlbnRGaWxlLCBTVEFUVVNfRklMRV9OQU1FKQogICAgfQoKICAgIC8qKiBbSG9va+err10g5YaZ5YWl5b2T5YmN5r+A5rS754q25oCBICovCiAgICBmdW4gdXBkYXRlU3RhdHVzKGZyYW1ld29yazogU3RyaW5nLCBwYWNrYWdlTmFtZTogU3RyaW5nKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5YaZ5YWl5paH5Lu2CiAgICAgICAgICAgIHZhbCBzdGF0dXMgPSBNb2R1bGVSdW50aW1lU3RhdHVzKGZyYW1ld29yaywgU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksIHBhY2thZ2VOYW1lKQogICAgICAgICAgICB2YWwganNvbiA9IEpzb25IZWxwZXIudG9Kc29uKHN0YXR1cykKICAgICAgICAgICAgRmlsZXMud3JpdGUyRmlsZShqc29uLCBnZXRTdGF0dXNGaWxlKCkpCgogICAgICAgICAgICAvLyDlkIzml7blhpnlhaUgWFNoYXJlZFByZWZlcmVuY2VzIOS+m+aooeWdlyBBcHAg6K+75Y+WCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcHJlZnMgPSBkZS5yb2J2LmFuZHJvaWQueHBvc2VkLlhTaGFyZWRQcmVmZXJlbmNlcygKICAgICAgICAgICAgICAgICAgICBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhLkdlbmVyYWwuTU9EVUxFX1BBQ0tBR0VfTkFNRSwKICAgICAgICAgICAgICAgICAgICBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5TZXNhbWVBcHBsaWNhdGlvbi5QUkVGRVJFTkNFU19LRVkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHByZWZzLm1ha2VXb3JsZFJlYWRhYmxlKCkKICAgICAgICAgICAgICAgIHByZWZzLnJlbG9hZCgpCiAgICAgICAgICAgICAgICBwcmVmcy5lZGl0KCkKICAgICAgICAgICAgICAgICAgICAucHV0U3RyaW5nKCJzdGF0dXNfZnJhbWV3b3JrIiwgZnJhbWV3b3JrKQogICAgICAgICAgICAgICAgICAgIC5wdXRMb25nKCJzdGF0dXNfdGltZXN0YW1wIiwgU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpCiAgICAgICAgICAgICAgICAgICAgLnB1dFN0cmluZygic3RhdHVzX3BhY2thZ2UiLCBwYWNrYWdlTmFtZSkKICAgICAgICAgICAgICAgICAgICAuYXBwbHkoKQogICAgICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHt9CgogICAgICAgICAgICBMb2cuZChUQUcsICJTdGF0dXMgdXBkYXRlZDogJGZyYW1ld29yayIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lKFRBRywgIkZhaWxlZCB0byB3cml0ZSBzdGF0dXMiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICAvKiogW1VJ56uvXSDor7vlj5bmv4DmtLvnirbmgIEgKi8KICAgIGZ1biByZWFkU3RhdHVzKCk6IE1vZHVsZVJ1bnRpbWVTdGF0dXM/IHsKICAgICAgICAvLyDkvJjlhYjku47mlofku7bor7vlj5bvvIjlj6/pnaDmgKfpq5jvvIkKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZmlsZSA9IGdldFN0YXR1c0ZpbGUoKQogICAgICAgICAgICBpZiAoZmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgdmFsIGpzb24gPSBGaWxlcy5yZWFkRnJvbUZpbGUoZmlsZSkKICAgICAgICAgICAgICAgIHZhbCBzdGF0dXMgPSBKc29uSGVscGVyLmZyb21Kc29uPE1vZHVsZVJ1bnRpbWVTdGF0dXM+KGpzb24pCiAgICAgICAgICAgICAgICBpZiAoc3RhdHVzICE9IG51bGwgJiYgc3RhdHVzLmZyYW1ld29yay5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gc3RhdHVzCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHt9CgogICAgICAgIC8vIOWkh+eUqO+8muS7jiBYU2hhcmVkUHJlZmVyZW5jZXMg6K+75Y+WCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHByZWZzID0gZGUucm9idi5hbmRyb2lkLnhwb3NlZC5YU2hhcmVkUHJlZmVyZW5jZXMoCiAgICAgICAgICAgICAgICBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhLkdlbmVyYWwuTU9EVUxFX1BBQ0tBR0VfTkFNRSwKICAgICAgICAgICAgICAgIGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLlNlc2FtZUFwcGxpY2F0aW9uLlBSRUZFUkVOQ0VTX0tFWQogICAgICAgICAgICApCiAgICAgICAgICAgIHByZWZzLm1ha2VXb3JsZFJlYWRhYmxlKCkKICAgICAgICAgICAgcHJlZnMucmVsb2FkKCkKICAgICAgICAgICAgdmFsIGZyYW1ld29yayA9IHByZWZzLmdldFN0cmluZygic3RhdHVzX2ZyYW1ld29yayIsIG51bGwpCiAgICAgICAgICAgIGlmICghZnJhbWV3b3JrLmlzTnVsbE9yRW1wdHkoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIE1vZHVsZVJ1bnRpbWVTdGF0dXMoCiAgICAgICAgICAgICAgICAgICAgZnJhbWV3b3JrID0gZnJhbWV3b3JrLAogICAgICAgICAgICAgICAgICAgIHRpbWVzdGFtcCA9IHByZWZzLmdldExvbmcoInN0YXR1c190aW1lc3RhbXAiLCAwTCksCiAgICAgICAgICAgICAgICAgICAgcGFja2FnZU5hbWUgPSBwcmVmcy5nZXRTdHJpbmcoInN0YXR1c19wYWNrYWdlIiwgIiIpID86ICIiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHt9CgogICAgICAgIHJldHVybiBudWxsCiAgICB9Cn0K
+package fansirsqi.xposed.sesame.util
+
+import java.io.File
+
+data class ModuleRuntimeStatus(
+    val framework: String,
+    val timestamp: Long,
+    val packageName: String
+)
+
+object StatusManager {
+    private const val TAG = "StatusManager"
+    private const val STATUS_FILE_NAME = "ModuleStatus.json"
+
+    private fun getStatusFile(): File {
+        return File(Files.CONFIG_DIR.parentFile, STATUS_FILE_NAME)
+    }
+
+    /** [Hook端] 写入当前激活状态 */
+    fun updateStatus(framework: String, packageName: String) {
+        try {
+            // 写入文件
+            val status = ModuleRuntimeStatus(framework, System.currentTimeMillis(), packageName)
+            val json = JsonHelper.toJson(status)
+            Files.write2File(json, getStatusFile())
+
+            // 同时写入 XSharedPreferences 供模块 App 读取
+            try {
+                val prefs = de.robv.android.xposed.XSharedPreferences(
+                    fansirsqi.xposed.sesame.data.General.MODULE_PACKAGE_NAME,
+                    fansirsqi.xposed.sesame.SesameApplication.PREFERENCES_KEY
+                )
+                prefs.makeWorldReadable()
+                prefs.reload()
+                prefs.edit()
+                    .putString("status_framework", framework)
+                    .putLong("status_timestamp", System.currentTimeMillis())
+                    .putString("status_package", packageName)
+                    .apply()
+            } catch (_: Throwable) {}
+
+            Log.d(TAG, "Status updated: $framework")
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to write status", e)
+        }
+    }
+
+    /** [UI端] 读取激活状态 */
+    fun readStatus(): ModuleRuntimeStatus? {
+        // 优先从文件读取（可靠性高）
+        try {
+            val file = getStatusFile()
+            if (file.exists()) {
+                val json = Files.readFromFile(file)
+                val status = JsonHelper.fromJson<ModuleRuntimeStatus>(json)
+                if (status != null && status.framework.isNotEmpty()) {
+                    return status
+                }
+            }
+        } catch (_: Exception) {}
+
+        // 备用：从 XSharedPreferences 读取
+        try {
+            val prefs = de.robv.android.xposed.XSharedPreferences(
+                fansirsqi.xposed.sesame.data.General.MODULE_PACKAGE_NAME,
+                fansirsqi.xposed.sesame.SesameApplication.PREFERENCES_KEY
+            )
+            prefs.makeWorldReadable()
+            prefs.reload()
+            val framework = prefs.getString("status_framework", null)
+            if (!framework.isNullOrEmpty()) {
+                return ModuleRuntimeStatus(
+                    framework = framework,
+                    timestamp = prefs.getLong("status_timestamp", 0L),
+                    packageName = prefs.getString("status_package", "") ?: ""
+                )
+            }
+        } catch (_: Throwable) {}
+
+        return null
+    }
+}

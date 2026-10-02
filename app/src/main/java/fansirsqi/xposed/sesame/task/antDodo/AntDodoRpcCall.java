@@ -1,1 +1,137 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudERvZG87CgppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdDsKCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlJlcXVlc3RNYW5hZ2VyOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5SYW5kb21VdGlsOwoKcHVibGljIGNsYXNzIEFudERvZG9ScGNDYWxsIHsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBWRVJTSU9OID0gIjIwMjQxMjAzIjsKICAgIC8qIOelnuWlh+eJqeenjSAqLwogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcXVlcnlBbmltYWxTdGF0dXMoKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRkb2RvLnJwYy5oNS5xdWVyeUFuaW1hbFN0YXR1cyIsCiAgICAgICAgICAgICAgICAiW3tcInNvdXJjZVwiOlwiY2hJbmZvX2NoX2FwcGNlbnRlcl9fY2hzdWJfOXBhdGNoXCJ9XSIpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGhvbWVQYWdlKCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKCJhbGlwYXkuYW50ZG9kby5ycGMuaDUuaG9tZVBhZ2UiLAogICAgICAgICAgICAgICAgIlt7fV0iKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBjb2xsZWN0KCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKCJhbGlwYXkuYW50ZG9kby5ycGMuaDUuY29sbGVjdCIsCiAgICAgICAgICAgICAgICAiW3t9XSIpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHRhc2tMaXN0KCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKCJhbGlwYXkuYW50ZG9kby5ycGMuaDUudGFza0xpc3QiLAogICAgICAgICAgICAgICAgIlt7XCJ2ZXJzaW9uXCI6XCIiK1ZFUlNJT04rIlwifV0iKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBmaW5pc2hUYXNrKFN0cmluZyBzY2VuZUNvZGUsIFN0cmluZyB0YXNrVHlwZSkgewogICAgICAgIFN0cmluZyB1bmlxdWVJZCA9IGdldFVuaXF1ZUlkKCk7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImNvbS5hbGlwYXkuYW50aWVwLmZpbmlzaFRhc2siLAogICAgICAgICAgICAgICAgIlt7XCJvdXRCaXpOb1wiOlwiIiArIHVuaXF1ZUlkICsgIlwiLFwicmVxdWVzdFR5cGVcIjpcInJwY1wiLFwic2NlbmVDb2RlXCI6XCIiCiAgICAgICAgICAgICAgICAgICAgICAgICsgc2NlbmVDb2RlICsgIlwiLFwic291cmNlXCI6XCJhZi1iaW9kaXZlcnNpdHlcIixcInRhc2tUeXBlXCI6XCIiCiAgICAgICAgICAgICAgICAgICAgICAgICsgdGFza1R5cGUgKyAiXCIsXCJ1bmlxdWVJZFwiOlwiIiArIHVuaXF1ZUlkICsgIlwifV0iKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBTdHJpbmcgZ2V0VW5pcXVlSWQoKSB7CiAgICAgICAgcmV0dXJuIFN0cmluZy52YWx1ZU9mKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKSArIFJhbmRvbVV0aWwubmV4dExvbmcoKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyByZWNlaXZlVGFza0F3YXJkKFN0cmluZyBzY2VuZUNvZGUsIFN0cmluZyB0YXNrVHlwZSkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKCJjb20uYWxpcGF5LmFudGllcC5yZWNlaXZlVGFza0F3YXJkIiwKICAgICAgICAgICAgICAgICJbe1wiaWdub3JlTGltaXRcIjowLFwicmVxdWVzdFR5cGVcIjpcInJwY1wiLFwic2NlbmVDb2RlXCI6XCIiICsgc2NlbmVDb2RlCiAgICAgICAgICAgICAgICAgICAgICAgICsgIlwiLFwic291cmNlXCI6XCJhZi1iaW9kaXZlcnNpdHlcIixcInRhc2tUeXBlXCI6XCIiICsgdGFza1R5cGUKICAgICAgICAgICAgICAgICAgICAgICAgKyAiXCJ9XSIpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHByb3BMaXN0KCkgewogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKCJhbGlwYXkuYW50ZG9kby5ycGMuaDUucHJvcExpc3QiLAogICAgICAgICAgICAgICAgIlt7fV0iKTsKICAgIH0KCgogICAgLy/kvb/nlKjpgZPlhbcKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGNvbnN1bWVQcm9wKFN0cmluZyBwcm9wSWQsIFN0cmluZyBwcm9wVHlwZSwgU3RyaW5nIGFuaW1hbElkKSB7CiAgICAgICAgLy8g5Z+656GA5Y+C5pWwCiAgICAgICAgU3RyaW5nQnVpbGRlciBwYXJhbXMgPSBuZXcgU3RyaW5nQnVpbGRlcigiW3siKTsKCiAgICAgICAgLy8g5aaC5p6cIGFuaW1hbElkIOS4jeS4uuepuu+8jOWImeaehOW7uiBleHRlbmRJbmZvIOWtl+autQogICAgICAgIGlmIChhbmltYWxJZCAhPSBudWxsICYmICFhbmltYWxJZC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcGFyYW1zLmFwcGVuZCgiXCJleHRlbmRJbmZvXCI6eyIpCiAgICAgICAgICAgICAgICAgICAgLmFwcGVuZCgiXCJhbmltYWxJZFwiOlwiIikuYXBwZW5kKGFuaW1hbElkKS5hcHBlbmQoIlwiIikKICAgICAgICAgICAgICAgICAgICAuYXBwZW5kKCJ9LCIpOwogICAgICAgIH0KCiAgICAgICAgLy8g5ou85o6lIHByb3BJZCDlkowgcHJvcFR5cGUKICAgICAgICBwYXJhbXMuYXBwZW5kKCJcInByb3BJZFwiOlwiIikuYXBwZW5kKHByb3BJZCkuYXBwZW5kKCJcIiwiKQogICAgICAgICAgICAgICAgLmFwcGVuZCgiXCJwcm9wVHlwZVwiOlwiIikuYXBwZW5kKHByb3BUeXBlKS5hcHBlbmQoIlwiIikKICAgICAgICAgICAgICAgIC5hcHBlbmQoIn1dIik7CgogICAgICAgIHJldHVybiBSZXF1ZXN0TWFuYWdlci5yZXF1ZXN0U3RyaW5nKCJhbGlwYXkuYW50ZG9kby5ycGMuaDUuY29uc3VtZVByb3AiLCBwYXJhbXMudG9TdHJpbmcoKSk7CiAgICB9CgogICAgLyoqCiAgICAgKiDkuJPpl6jnlKjkuo7vvJrmir3lpb3lj4vljaHpgZPlhbcg55qE5raI6ICX6K+35rGCCiAgICAgKiDlj4LmlbDmoLzlvI/vvJpbeyJwcm9wSWQiOiIuLi4iLCJwcm9wVHlwZSI6Ii4uLiJ9XQogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBjb25zdW1lUHJvcEZvckZyaWVuZChTdHJpbmcgcHJvcElkLCBTdHJpbmcgcHJvcFR5cGUpIHsKICAgICAgICAvLyDmnoTpgKDkuI3lkKsgZXh0ZW5kSW5mbyDnmoTlj4LmlbAKICAgICAgICBTdHJpbmcgcGFyYW1zID0gIlt7IiArCiAgICAgICAgICAgICAgICAiXCJwcm9wSWRcIjpcIiIgKyBwcm9wSWQgKyAiXCIsIiArCiAgICAgICAgICAgICAgICAiXCJwcm9wVHlwZVwiOlwiIiArIHByb3BUeXBlICsgIlwiIiArCiAgICAgICAgICAgICAgICAifV0iOwoKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygiYWxpcGF5LmFudGRvZG8ucnBjLmg1LmNvbnN1bWVQcm9wIiwgcGFyYW1zKTsKICAgIH0KCiAgICAvL+afpeivouWbvumJtOivpuaDhQogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcXVlcnlCb29rSW5mbyhTdHJpbmcgYm9va0lkKSB7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRkb2RvLnJwYy5oNS5xdWVyeUJvb2tJbmZvIiwKICAgICAgICAgICAgICAgICJbe1wiYm9va0lkXCI6XCIiICsgYm9va0lkICsgIlwifV0iKTsKICAgIH0KCiAgICAvLyDpgIHljaHniYfnu5nlpb3lj4sKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIHNvY2lhbChTdHJpbmcgdGFyZ2V0QW5pbWFsSWQsIFN0cmluZyB0YXJnZXRVc2VySWQpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygiYWxpcGF5LmFudGRvZG8ucnBjLmg1LnNvY2lhbCIsCiAgICAgICAgICAgICAgICAiW3tcImFjdGlvbkNvZGVcIjpcIkdJRlRfVE9fRlJJRU5EXCIsXCJzb3VyY2VcIjpcIkdJRlRfVE9fRlJJRU5EX0ZST01fQ0NcIixcInRhcmdldEFuaW1hbElkXCI6XCIiCiAgICAgICAgICAgICAgICAgICAgICAgICsgdGFyZ2V0QW5pbWFsSWQgKyAiXCIsXCJ0YXJnZXRVc2VySWRcIjpcIiIgKyB0YXJnZXRVc2VySWQKICAgICAgICAgICAgICAgICAgICAgICAgKyAiXCIsXCJ0cmlnZ2VyVGltZVwiOlwiIiArIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpICsgIlwifV0iKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBxdWVyeUZyaWVuZCgpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygiYWxpcGF5LmFudGRvZG8ucnBjLmg1LnF1ZXJ5RnJpZW5kIiwKICAgICAgICAgICAgICAgICJbe1wic2NlbmVDb2RlXCI6XCJFWENIQU5HRVwifV0iKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBjb2xsZWN0dGFyZ2V0KFN0cmluZyB0YXJnZXRVc2VySWQpIHsKICAgICAgICByZXR1cm4gUmVxdWVzdE1hbmFnZXIucmVxdWVzdFN0cmluZygiYWxpcGF5LmFudGRvZG8ucnBjLmg1LmNvbGxlY3QiLAogICAgICAgICAgICAgICAgIlt7XCJ0YXJnZXRVc2VySWRcIjoiICsgdGFyZ2V0VXNlcklkICsgIn1dIik7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgcXVlcnlCb29rTGlzdChpbnQgcGFnZVNpemUsIFN0cmluZyBwYWdlU3RhcnQpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyDkvb/nlKggSlNPTk9iamVjdCDmnoTpgKDlj6/ku6Xpgb/lhY3miYvliqjmi7zmjqXlrZfnrKbkuLLlr7zoh7TnmoTovazkuYnlkozpgJflj7fplJnor68KICAgICAgICAgICAgSlNPTk9iamVjdCBwYXJhbXMgPSBuZXcgSlNPTk9iamVjdCgpOwogICAgICAgICAgICBwYXJhbXMucHV0KCJwYWdlU2l6ZSIsIHBhZ2VTaXplKTsKICAgICAgICAgICAgcGFyYW1zLnB1dCgidjIiLCAidHJ1ZSIpOwoKICAgICAgICAgICAgLy8g5LuF5ZyoIHBhZ2VTdGFydCDkuI3kuLrnqbrml7bmiY3mt7vliqDor6XlrZfmrrUKICAgICAgICAgICAgaWYgKHBhZ2VTdGFydCAhPSBudWxsICYmICFwYWdlU3RhcnQuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBwYXJhbXMucHV0KCJwYWdlU3RhcnQiLCBwYWdlU3RhcnQpOwogICAgICAgICAgICB9CgoKICAgICAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRkb2RvLnJwYy5oNS5xdWVyeUJvb2tMaXN0IiwgIlsiICsgcGFyYW1zLnRvU3RyaW5nKCkgKyAiXSIpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHJldHVybiAiIjsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZ2VuZXJhdGVCb29rTWVkYWwoU3RyaW5nIGJvb2tJZCkgewogICAgICAgIFN0cmluZyBhcmdzID0gIlt7XCJib29rSWRcIjpcIiIgKyBib29rSWQgKyAiXCJ9XSI7CiAgICAgICAgcmV0dXJuIFJlcXVlc3RNYW5hZ2VyLnJlcXVlc3RTdHJpbmcoImFsaXBheS5hbnRkb2RvLnJwYy5oNS5nZW5lcmF0ZUJvb2tNZWRhbCIsIGFyZ3MpOwogICAgfQp9
+package fansirsqi.xposed.sesame.task.antDodo;
+
+import org.json.JSONObject;
+
+import fansirsqi.xposed.sesame.hook.RequestManager;
+import fansirsqi.xposed.sesame.util.RandomUtil;
+
+public class AntDodoRpcCall {
+    private static final String VERSION = "20241203";
+    /* 神奇物种 */
+    public static String queryAnimalStatus() {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.queryAnimalStatus",
+                "[{\"source\":\"chInfo_ch_appcenter__chsub_9patch\"}]");
+    }
+
+    public static String homePage() {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.homePage",
+                "[{}]");
+    }
+
+    public static String collect() {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.collect",
+                "[{}]");
+    }
+
+    public static String taskList() {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.taskList",
+                "[{\"version\":\""+VERSION+"\"}]");
+    }
+
+    public static String finishTask(String sceneCode, String taskType) {
+        String uniqueId = getUniqueId();
+        return RequestManager.requestString("com.alipay.antiep.finishTask",
+                "[{\"outBizNo\":\"" + uniqueId + "\",\"requestType\":\"rpc\",\"sceneCode\":\""
+                        + sceneCode + "\",\"source\":\"af-biodiversity\",\"taskType\":\""
+                        + taskType + "\",\"uniqueId\":\"" + uniqueId + "\"}]");
+    }
+
+    private static String getUniqueId() {
+        return String.valueOf(System.currentTimeMillis()) + RandomUtil.nextLong();
+    }
+
+    public static String receiveTaskAward(String sceneCode, String taskType) {
+        return RequestManager.requestString("com.alipay.antiep.receiveTaskAward",
+                "[{\"ignoreLimit\":0,\"requestType\":\"rpc\",\"sceneCode\":\"" + sceneCode
+                        + "\",\"source\":\"af-biodiversity\",\"taskType\":\"" + taskType
+                        + "\"}]");
+    }
+
+    public static String propList() {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.propList",
+                "[{}]");
+    }
+
+
+    //使用道具
+    public static String consumeProp(String propId, String propType, String animalId) {
+        // 基础参数
+        StringBuilder params = new StringBuilder("[{");
+
+        // 如果 animalId 不为空，则构建 extendInfo 字段
+        if (animalId != null && !animalId.isEmpty()) {
+            params.append("\"extendInfo\":{")
+                    .append("\"animalId\":\"").append(animalId).append("\"")
+                    .append("},");
+        }
+
+        // 拼接 propId 和 propType
+        params.append("\"propId\":\"").append(propId).append("\",")
+                .append("\"propType\":\"").append(propType).append("\"")
+                .append("}]");
+
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.consumeProp", params.toString());
+    }
+
+    /**
+     * 专门用于：抽好友卡道具 的消耗请求
+     * 参数格式：[{"propId":"...","propType":"..."}]
+     */
+    public static String consumePropForFriend(String propId, String propType) {
+        // 构造不含 extendInfo 的参数
+        String params = "[{" +
+                "\"propId\":\"" + propId + "\"," +
+                "\"propType\":\"" + propType + "\"" +
+                "}]";
+
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.consumeProp", params);
+    }
+
+    //查询图鉴详情
+    public static String queryBookInfo(String bookId) {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.queryBookInfo",
+                "[{\"bookId\":\"" + bookId + "\"}]");
+    }
+
+    // 送卡片给好友
+    public static String social(String targetAnimalId, String targetUserId) {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.social",
+                "[{\"actionCode\":\"GIFT_TO_FRIEND\",\"source\":\"GIFT_TO_FRIEND_FROM_CC\",\"targetAnimalId\":\""
+                        + targetAnimalId + "\",\"targetUserId\":\"" + targetUserId
+                        + "\",\"triggerTime\":\"" + System.currentTimeMillis() + "\"}]");
+    }
+
+    public static String queryFriend() {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.queryFriend",
+                "[{\"sceneCode\":\"EXCHANGE\"}]");
+    }
+
+    public static String collecttarget(String targetUserId) {
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.collect",
+                "[{\"targetUserId\":" + targetUserId + "}]");
+    }
+
+    public static String queryBookList(int pageSize, String pageStart) {
+        try {
+            // 使用 JSONObject 构造可以避免手动拼接字符串导致的转义和逗号错误
+            JSONObject params = new JSONObject();
+            params.put("pageSize", pageSize);
+            params.put("v2", "true");
+
+            // 仅在 pageStart 不为空时才添加该字段
+            if (pageStart != null && !pageStart.isEmpty()) {
+                params.put("pageStart", pageStart);
+            }
+
+
+            return RequestManager.requestString("alipay.antdodo.rpc.h5.queryBookList", "[" + params.toString() + "]");
+        } catch (Exception e) {
+            return "";
+        }
+    }
+
+    public static String generateBookMedal(String bookId) {
+        String args = "[{\"bookId\":\"" + bookId + "\"}]";
+        return RequestManager.requestString("alipay.antdodo.rpc.h5.generateBookMedal", args);
+    }
+}

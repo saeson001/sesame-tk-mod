@@ -1,1 +1,47 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLmxzcDEwMAoKaW1wb3J0IGRlLnJvYnYuYW5kcm9pZC54cG9zZWQuWHBvc2VkQnJpZGdlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5kYXRhLkdlbmVyYWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmhvb2suQXBwbGljYXRpb25Ib29rCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLlhwb3NlZEVudgppbXBvcnQgaW8uZ2l0aHViLmxpYnhwb3NlZC5hcGkuWHBvc2VkSW50ZXJmYWNlCmltcG9ydCBpby5naXRodWIubGlieHBvc2VkLmFwaS5YcG9zZWRNb2R1bGUKaW1wb3J0IGlvLmdpdGh1Yi5saWJ4cG9zZWQuYXBpLlhwb3NlZE1vZHVsZUludGVyZmFjZQoKY2xhc3MgSG9va0VudHJ5KAogICAgYmFzZTogWHBvc2VkSW50ZXJmYWNlLCBwYXJhbTogWHBvc2VkTW9kdWxlSW50ZXJmYWNlLk1vZHVsZUxvYWRlZFBhcmFtCikgOiBYcG9zZWRNb2R1bGUoYmFzZSwgcGFyYW0pIHsKICAgIHZhbCB0YWcgPSAiTHNwb3NlZEVudHJ5IgogICAgcHJpdmF0ZSB2YWwgcHJvY2Vzc05hbWUgPSBwYXJhbS5wcm9jZXNzTmFtZQogICAgdmFyIGN1c3RvbUhvb2tlcjogQXBwbGljYXRpb25Ib29rPyA9IG51bGwKCgogICAgaW5pdCB7CiAgICAgICAgY3VzdG9tSG9va2VyID0gQXBwbGljYXRpb25Ib29rKCkKICAgICAgICBjdXN0b21Ib29rZXI/Lnhwb3NlZEludGVyZmFjZSA9IGJhc2UKICAgICAgICAvLyDlsIbmoYbmnrbmj5DkvpvnmoQgYmFzZSDmjqXlj6Plrp7kvovkvKDpgJLnu5npgLvovpHmoLjlv4PvvIzov57mjqUgSG9vayDov5vnqIvkuI7moYbmnrblip/og73jgIIKICAgICAgICBYcG9zZWRCcmlkZ2UubG9nKCIkdGFnOiBJbml0aWFsaXplZCBmb3IgcHJvY2VzcyAkcHJvY2Vzc05hbWUiKQoKCiAgICAgICAgdmFsIGJhc2VGdyA9ICIke2Jhc2UuZnJhbWV3b3JrTmFtZX0gJHtiYXNlLmZyYW1ld29ya1ZlcnNpb259ICR7YmFzZS5mcmFtZXdvcmtWZXJzaW9uQ29kZX0gdGFyZ2V0X21vZGVsX3Byb2Nlc3M6ICR7YmFzZS5hcHBsaWNhdGlvbkluZm8ucHJvY2Vzc05hbWV9IgogICAgICAgIFhwb3NlZEJyaWRnZS5sb2coIkxzcEVudHJ5OiBGcmFtZXdvcmsgZnJvbSBiYXNlOiAkYmFzZUZ3ICIpCiAgICB9CgogICAgLyoqCiAgICAgKiDlvZPmqKHlnZfkvZznlKjln5/lhoXnmoTlupTnlKjov5vnqIvlkK/liqjml7bvvIzmoYbmnrbkvJrlm57osIPmraTmlrnms5XjgIIKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIG9uUGFja2FnZUxvYWRlZChwYXJhbTogWHBvc2VkTW9kdWxlSW50ZXJmYWNlLlBhY2thZ2VMb2FkZWRQYXJhbSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChHZW5lcmFsLlBBQ0tBR0VfTkFNRSAhPSBwYXJhbS5wYWNrYWdlTmFtZSkgcmV0dXJuCiAgICAgICAgICAgIFhwb3NlZEVudi5jbGFzc0xvYWRlciA9IHBhcmFtLmNsYXNzTG9hZGVyCiAgICAgICAgICAgIFhwb3NlZEVudi5hcHBJbmZvID0gcGFyYW0uYXBwbGljYXRpb25JbmZvCiAgICAgICAgICAgIFhwb3NlZEVudi5wYWNrYWdlTmFtZSA9IHBhcmFtLnBhY2thZ2VOYW1lCiAgICAgICAgICAgIFhwb3NlZEVudi5wcm9jZXNzTmFtZSA9IHByb2Nlc3NOYW1lCiAgICAgICAgICAgIGN1c3RvbUhvb2tlcj8ubG9hZFBhY2thZ2UocGFyYW0pCiAgICAgICAgICAgIFhwb3NlZEJyaWRnZS5sb2coIiR0YWc6IEhvb2tpbmcgJHtwYXJhbS5wYWNrYWdlTmFtZX0gaW4gcHJvY2VzcyAkcHJvY2Vzc05hbWUiKQogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICBYcG9zZWRCcmlkZ2UubG9nKCIkdGFnOiBIb29rIGZhaWxlZCAtICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIFhwb3NlZEJyaWRnZS5sb2coZSkKICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.hook.lsp100
+
+import de.robv.android.xposed.XposedBridge
+import fansirsqi.xposed.sesame.data.General
+import fansirsqi.xposed.sesame.hook.ApplicationHook
+import fansirsqi.xposed.sesame.hook.XposedEnv
+import io.github.libxposed.api.XposedInterface
+import io.github.libxposed.api.XposedModule
+import io.github.libxposed.api.XposedModuleInterface
+
+class HookEntry(
+    base: XposedInterface, param: XposedModuleInterface.ModuleLoadedParam
+) : XposedModule(base, param) {
+    val tag = "LsposedEntry"
+    private val processName = param.processName
+    var customHooker: ApplicationHook? = null
+
+
+    init {
+        customHooker = ApplicationHook()
+        customHooker?.xposedInterface = base
+        // 将框架提供的 base 接口实例传递给逻辑核心，连接 Hook 进程与框架功能。
+        XposedBridge.log("$tag: Initialized for process $processName")
+
+
+        val baseFw = "${base.frameworkName} ${base.frameworkVersion} ${base.frameworkVersionCode} target_model_process: ${base.applicationInfo.processName}"
+        XposedBridge.log("LspEntry: Framework from base: $baseFw ")
+    }
+
+    /**
+     * 当模块作用域内的应用进程启动时，框架会回调此方法。
+     */
+    override fun onPackageLoaded(param: XposedModuleInterface.PackageLoadedParam) {
+        try {
+            if (General.PACKAGE_NAME != param.packageName) return
+            XposedEnv.classLoader = param.classLoader
+            XposedEnv.appInfo = param.applicationInfo
+            XposedEnv.packageName = param.packageName
+            XposedEnv.processName = processName
+            customHooker?.loadPackage(param)
+            XposedBridge.log("$tag: Hooking ${param.packageName} in process $processName")
+        } catch (e: Throwable) {
+            XposedBridge.log("$tag: Hook failed - ${e.message}")
+            XposedBridge.log(e)
+        }
+    }
+}

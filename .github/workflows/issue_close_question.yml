@@ -1,1 +1,67 @@
-bmFtZTogSXNzdWUgQ2xvc2UgUXVlc3Rpb24KCm9uOgogIHNjaGVkdWxlOgogICAgLSBjcm9uOiAiMCAwICogKiAqIgogIHdvcmtmbG93X2Rpc3BhdGNoOgoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHJlYWQKICBpc3N1ZXM6IHdyaXRlCgpqb2JzOgogIGlzc3VlLWNsb3NlLXJlcXVpcmU6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSBuYW1lOiBDbG9zZSBzdGFsZSBuZWVkIGluZm8gaXNzdWVzCiAgICAgICAgdXNlczogYWN0aW9ucy9naXRodWItc2NyaXB0QHY3CiAgICAgICAgd2l0aDoKICAgICAgICAgIHNjcmlwdDogfAogICAgICAgICAgICBjb25zdCBvd25lciA9IGNvbnRleHQucmVwby5vd25lcjsKICAgICAgICAgICAgY29uc3QgcmVwbyA9IGNvbnRleHQucmVwby5yZXBvOwogICAgICAgICAgICBjb25zdCBsYWJlbE5hbWUgPSAnbmVlZCBpbmZvJzsKICAgICAgICAgICAgY29uc3QgaW5hY3RpdmVNcyA9IDMgKiAyNCAqIDYwICogNjAgKiAxMDAwOwogICAgICAgICAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwoKICAgICAgICAgICAgY29uc3QgaXNzdWVzID0gYXdhaXQgZ2l0aHViLnBhZ2luYXRlKGdpdGh1Yi5yZXN0Lmlzc3Vlcy5saXN0Rm9yUmVwbywgewogICAgICAgICAgICAgIG93bmVyLAogICAgICAgICAgICAgIHJlcG8sCiAgICAgICAgICAgICAgc3RhdGU6ICdvcGVuJywKICAgICAgICAgICAgICBsYWJlbHM6IGxhYmVsTmFtZSwKICAgICAgICAgICAgICBwZXJfcGFnZTogMTAwCiAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgbGV0IGNsb3NlZENvdW50ID0gMDsKICAgICAgICAgICAgZm9yIChjb25zdCBpc3N1ZSBvZiBpc3N1ZXMpIHsKICAgICAgICAgICAgICBpZiAoaXNzdWUucHVsbF9yZXF1ZXN0KSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgIGNvbnN0IGxhYmVscyA9IChpc3N1ZS5sYWJlbHMgfHwgW10pLm1hcCgobGFiZWwpID0+IGxhYmVsLm5hbWUpOwogICAgICAgICAgICAgIGlmICghbGFiZWxzLmluY2x1ZGVzKGxhYmVsTmFtZSkpIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgY29uc3QgaW5hY3RpdmVGb3JNcyA9IG5vdyAtIG5ldyBEYXRlKGlzc3VlLnVwZGF0ZWRfYXQpLmdldFRpbWUoKTsKICAgICAgICAgICAgICBpZiAoaW5hY3RpdmVGb3JNcyA8IGluYWN0aXZlTXMpIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgYXdhaXQgZ2l0aHViLnJlc3QuaXNzdWVzLmNyZWF0ZUNvbW1lbnQoewogICAgICAgICAgICAgICAgb3duZXIsCiAgICAgICAgICAgICAgICByZXBvLAogICAgICAgICAgICAgICAgaXNzdWVfbnVtYmVyOiBpc3N1ZS5udW1iZXIsCiAgICAgICAgICAgICAgICBib2R5OiBg55Sx5LqO6K+lIElzc3VlIDMg5aSp5YaF5pyq5pS25Yiw6Laz5aSf5L+h5oGv77yM546w5bey6KKr6Ieq5Yqo5YWz6Zet44CC6Iul5LuN6ZyA5aSE55CG77yM6K+36KGl5YWF5b+F6KaB6ZmE5Lu25oiW5L+h5oGv5ZCO6YeN5paw5omT5byA44CCYAogICAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgICBhd2FpdCBnaXRodWIucmVzdC5pc3N1ZXMudXBkYXRlKHsKICAgICAgICAgICAgICAgIG93bmVyLAogICAgICAgICAgICAgICAgcmVwbywKICAgICAgICAgICAgICAgIGlzc3VlX251bWJlcjogaXNzdWUubnVtYmVyLAogICAgICAgICAgICAgICAgc3RhdGU6ICdjbG9zZWQnLAogICAgICAgICAgICAgICAgc3RhdGVfcmVhc29uOiAnbm90X3BsYW5uZWQnCiAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgY2xvc2VkQ291bnQgKz0gMTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgY29yZS5pbmZvKGBDbG9zZWQgJHtjbG9zZWRDb3VudH0gc3RhbGUgbmVlZCBpbmZvIGlzc3VlKHMpLmApOwo=
+name: Issue Close Question
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  issue-close-require:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close stale need info issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const labelName = 'need info';
+            const inactiveMs = 3 * 24 * 60 * 60 * 1000;
+            const now = Date.now();
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: 'open',
+              labels: labelName,
+              per_page: 100
+            });
+
+            let closedCount = 0;
+            for (const issue of issues) {
+              if (issue.pull_request) {
+                continue;
+              }
+
+              const labels = (issue.labels || []).map((label) => label.name);
+              if (!labels.includes(labelName)) {
+                continue;
+              }
+
+              const inactiveForMs = now - new Date(issue.updated_at).getTime();
+              if (inactiveForMs < inactiveMs) {
+                continue;
+              }
+
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issue.number,
+                body: `由于该 Issue 3 天内未收到足够信息，现已被自动关闭。若仍需处理，请补充必要附件或信息后重新打开。`
+              });
+
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'not_planned'
+              });
+              closedCount += 1;
+            }
+
+            core.info(`Closed ${closedCount} stale need info issue(s).`);

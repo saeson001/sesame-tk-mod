@@ -1,1 +1,242 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5icmlkZ2U7CgppbXBvcnQgb3JnLmpzb24uSlNPTkV4Y2VwdGlvbjsKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3Q7CgppbXBvcnQgamF2YS5sYW5nLnJlZmxlY3QuSW52b2NhdGlvblRhcmdldEV4Y2VwdGlvbjsKaW1wb3J0IGphdmEubGFuZy5yZWZsZWN0Lk1ldGhvZDsKaW1wb3J0IGphdmEudXRpbC5PYmplY3RzOwoKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuR2VuZXJhbDsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmRhdGEuUnVudGltZUluZm87CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkuUnBjRW50aXR5OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuaG9vay5BcHBsaWNhdGlvbkhvb2s7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5ob29rLnJwYy5pbnRlcnZhbGxpbWl0LlJwY0ludGVydmFsTGltaXQ7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5CYXNlTW9kZWw7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkxvZzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTm90aWZ5OwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5TdHJpbmdVdGlsOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5UaW1lVXRpbDsKcHVibGljIGNsYXNzIE9sZFJwY0JyaWRnZSBpbXBsZW1lbnRzIFJwY0JyaWRnZSB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gT2xkUnBjQnJpZGdlLmNsYXNzLmdldFNpbXBsZU5hbWUoKTsKICAgIHByaXZhdGUgQ2xhc3NMb2FkZXIgbG9hZGVyOwogICAgcHJpdmF0ZSBDbGFzczw/PiBoNVBhZ2VDbGF6ejsKICAgIHByaXZhdGUgTWV0aG9kIHJwY0NhbGxNZXRob2Q7CiAgICBwcml2YXRlIE1ldGhvZCBnZXRSZXNwb25zZU1ldGhvZDsKICAgIHByaXZhdGUgT2JqZWN0IGN1ckg1UGFnZUltcGw7CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBScGNWZXJzaW9uIGdldFZlcnNpb24oKSB7CiAgICAgICAgcmV0dXJuIFJwY1ZlcnNpb24uTkVXOyAvLyDov5Tlm54gUlBDIOeahOeJiOacrAogICAgfQogICAgLyoqCiAgICAgKiDliqDovb0gUlBDIOaJgOmcgOeahOexu+WSjOaWueazleOAggogICAgICovCiAgICBwdWJsaWMgdm9pZCBsb2FkKCkgdGhyb3dzIEV4Y2VwdGlvbiB7CiAgICAgICAgbG9hZGVyID0gQXBwbGljYXRpb25Ib29rLmNsYXNzTG9hZGVyOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGg1UGFnZUNsYXp6ID0gbG9hZGVyLmxvYWRDbGFzcyhHZW5lcmFsLkg1UEFHRV9OQU1FKTsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJSUEMg57G75Yqg6L295oiQ5YqfIik7CiAgICAgICAgICAgIGxvYWRScGNNZXRob2RzKCk7IC8vIOWKoOi9vSBSUEMg5pa55rOVCiAgICAgICAgfSBjYXRjaCAoQ2xhc3NOb3RGb3VuZEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5Yqg6L29IFJQQyDnsbvml7blh7rplJnvvJoiKTsKICAgICAgICAgICAgTG9nLnByaW50U3RhY2tUcmFjZShUQUcsIGUpOwogICAgICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbihlKTsKICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdCkgewogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuWKoOi9vSBSUEMg57G75pe25Y+R55Sf5oSP5aSW6ZSZ6K+v77yaIik7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCB0KTsKICAgICAgICAgICAgdGhyb3cgdDsKICAgICAgICB9CiAgICB9CiAgICAvKioKICAgICAqIOS9v+eUqOWPjeWwhOWKoOi9vSBSUEMg5pa55rOV44CCCiAgICAgKi8KICAgIHByaXZhdGUgdm9pZCBsb2FkUnBjTWV0aG9kcygpIHsKICAgICAgICBpZiAocnBjQ2FsbE1ldGhvZCA9PSBudWxsKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBDbGFzczw/PiBycGNVdGlsQ2xhc3MgPSBsb2FkZXIubG9hZENsYXNzKCJjb20uYWxpcGF5Lm1vYmlsZS5uZWJ1bGFhcHBwcm94eS5hcGkucnBjLkg1UnBjVXRpbCIpOwogICAgICAgICAgICAgICAgQ2xhc3M8Pz4gcmVzcG9uc2VDbGFzcyA9IGxvYWRlci5sb2FkQ2xhc3MoImNvbS5hbGlwYXkubW9iaWxlLm5lYnVsYWFwcHByb3h5LmFwaS5ycGMuSDVSZXNwb25zZSIpOwogICAgICAgICAgICAgICAgcnBjQ2FsbE1ldGhvZCA9IHJwY1V0aWxDbGFzcy5nZXRNZXRob2QoInJwY0NhbGwiLCBTdHJpbmcuY2xhc3MsIFN0cmluZy5jbGFzcywgU3RyaW5nLmNsYXNzLAogICAgICAgICAgICAgICAgICAgICAgICBib29sZWFuLmNsYXNzLCBsb2FkZXIubG9hZENsYXNzKEdlbmVyYWwuSlNPTl9PQkpFQ1RfTkFNRSksIFN0cmluZy5jbGFzcywKICAgICAgICAgICAgICAgICAgICAgICAgYm9vbGVhbi5jbGFzcywgaDVQYWdlQ2xhenosIGludC5jbGFzcywgU3RyaW5nLmNsYXNzLCBib29sZWFuLmNsYXNzLCBpbnQuY2xhc3MsIFN0cmluZy5jbGFzcyk7CiAgICAgICAgICAgICAgICBnZXRSZXNwb25zZU1ldGhvZCA9IHJlc3BvbnNlQ2xhc3MuZ2V0TWV0aG9kKCJnZXRSZXNwb25zZSIpOwogICAgICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsICJSUEMg6LCD55So5pa55rOV5Yqg6L295oiQ5YqfIik7CiAgICAgICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICBMb2cucmVjb3JkKFRBRywgIuWKoOi9vSBSUEMg6LCD55So5pa55rOV5pe25Ye66ZSZ77yaIik7CiAgICAgICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKFRBRywgZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIHVubG9hZCgpIHsKICAgICAgICBnZXRSZXNwb25zZU1ldGhvZCA9IG51bGw7IC8vIOa4heepuuWTjeW6lOaWueazlQogICAgICAgIHJwY0NhbGxNZXRob2QgPSBudWxsOyAvLyDmuIXnqbrosIPnlKjmlrnms5UKICAgICAgICBoNVBhZ2VDbGF6eiA9IG51bGw7IC8vIOa4heepuiBINSDpobXpnaLnsbsKICAgICAgICBsb2FkZXIgPSBudWxsOyAvLyDmuIXnqbrnsbvliqDovb3lmagKICAgIH0KICAgIC8qKgogICAgICog5ZCRIFJQQyDlrp7kvZPor7fmsYLlrZfnrKbkuLLlk43lupTjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gcnBjRW50aXR5ICAgICDopoHlj5HpgIHnmoQgUlBDIOWunuS9k+OAggogICAgICogQHBhcmFtIHRyeUNvdW50ICAgICAg6YeN6K+V5qyh5pWw44CCCiAgICAgKiBAcGFyYW0gcmV0cnlJbnRlcnZhbCAg6YeN6K+V6Ze06ZqU44CCCiAgICAgKiBAcmV0dXJuIOWTjeW6lOWtl+espuS4su+8jOWmguaenOWksei0peWImei/lOWbniBudWxs44CCCiAgICAgKi8KICAgIHB1YmxpYyBTdHJpbmcgcmVxdWVzdFN0cmluZyhScGNFbnRpdHkgcnBjRW50aXR5LCBpbnQgdHJ5Q291bnQsIGludCByZXRyeUludGVydmFsKSB7CiAgICAgICAgUnBjRW50aXR5IHJlc3BvbnNlRW50aXR5ID0gcmVxdWVzdE9iamVjdChycGNFbnRpdHksIHRyeUNvdW50LCByZXRyeUludGVydmFsKTsKICAgICAgICByZXR1cm4gcmVzcG9uc2VFbnRpdHkgIT0gbnVsbCA/IHJlc3BvbnNlRW50aXR5LmdldFJlc3BvbnNlU3RyaW5nKCkgOiBudWxsOyAvLyDov5Tlm57lk43lupTlrZfnrKbkuLLmiJYgbnVsbAogICAgfQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgUnBjRW50aXR5IHJlcXVlc3RPYmplY3QoUnBjRW50aXR5IHJwY0VudGl0eSwgaW50IHRyeUNvdW50LCBpbnQgcmV0cnlJbnRlcnZhbCkgewogICAgICAgIGlmIChBcHBsaWNhdGlvbkhvb2sub2ZmbGluZSkgewogICAgICAgICAgICByZXR1cm4gbnVsbDsgLy8g5aaC5p6c56a757q/77yM55u05o6l6L+U5ZueIG51bGwKICAgICAgICB9CiAgICAgICAgaW50IGlkID0gcnBjRW50aXR5Lmhhc2hDb2RlKCk7IC8vIOiOt+WPluivt+axgiBJRAogICAgICAgIFN0cmluZyBtZXRob2QgPSBycGNFbnRpdHkuZ2V0UmVxdWVzdE1ldGhvZCgpOyAvLyDojrflj5bor7fmsYLmlrnms5UKICAgICAgICBTdHJpbmcgYXJncyA9IHJwY0VudGl0eS5nZXRSZXF1ZXN0RGF0YSgpOyAvLyDojrflj5bor7fmsYLlj4LmlbAKICAgICAgICBmb3IgKGludCBjb3VudCA9IDA7IGNvdW50IDwgdHJ5Q291bnQ7IGNvdW50KyspIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIFJwY0ludGVydmFsTGltaXQuSU5TVEFOQ0UuZW50ZXJJbnRlcnZhbExpbWl0KE9iamVjdHMucmVxdWlyZU5vbk51bGwobWV0aG9kKSk7IC8vIOi/m+WFpSBSUEMg6LCD55So6Ze06ZqU6ZmQ5Yi2CiAgICAgICAgICAgICAgICBPYmplY3QgcmVzcG9uc2UgPSBpbnZva2VScGNDYWxsKG1ldGhvZCwgYXJncyk7IC8vIOiwg+eUqCBSUEMg5pa55rOVCiAgICAgICAgICAgICAgICByZXR1cm4gcHJvY2Vzc1Jlc3BvbnNlKHJwY0VudGl0eSwgcmVzcG9uc2UsIGlkLCBtZXRob2QsIGFyZ3MsIHJldHJ5SW50ZXJ2YWwpOyAvLyDlpITnkIblk43lupQKICAgICAgICAgICAgfSBjYXRjaCAoVGhyb3dhYmxlIHQpIHsKICAgICAgICAgICAgICAgIGhhbmRsZUVycm9yKHJwY0VudGl0eSwgdCwgbWV0aG9kLCBpZCwgYXJncyk7IC8vIOWkhOeQhumUmeivrwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBudWxsOyAvLyDmiYDmnInlsJ3or5XlpLHotKXlkI7ov5Tlm54gbnVsbAogICAgfQogICAgLyoqCiAgICAgKiDkvb/nlKjlj43lsITosIPnlKggUlBDIOaWueazleOAggogICAgICoKICAgICAqIEBwYXJhbSBtZXRob2Qg6K+35rGC55qE5pa55rOV5ZCN44CCCiAgICAgKiBAcGFyYW0gYXJncyAgIOivt+axgueahOWPguaVsOOAggogICAgICogQHJldHVybiDlk43lupTlr7nosaHjgIIKICAgICAqIEB0aHJvd3MgVGhyb3dhYmxlIOWmguaenOiwg+eUqOi/h+eoi+S4reWHuueOsOmUmeivr+OAggogICAgICovCiAgICBwcml2YXRlIE9iamVjdCBpbnZva2VScGNDYWxsKFN0cmluZyBtZXRob2QsIFN0cmluZyBhcmdzKSB0aHJvd3MgVGhyb3dhYmxlIHsKICAgICAgICBpZiAocnBjQ2FsbE1ldGhvZC5nZXRQYXJhbWV0ZXJUeXBlcygpLmxlbmd0aCA9PSAxMikgewogICAgICAgICAgICByZXR1cm4gcnBjQ2FsbE1ldGhvZC5pbnZva2UobnVsbCwgbWV0aG9kLCBhcmdzLCAiIiwgdHJ1ZSwgbnVsbCwgbnVsbCwgZmFsc2UsIGN1ckg1UGFnZUltcGwsIDAsICIiLCBmYWxzZSwgLTEpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiBycGNDYWxsTWV0aG9kLmludm9rZShudWxsLCBtZXRob2QsIGFyZ3MsICIiLCB0cnVlLCBudWxsLCBudWxsLCBmYWxzZSwgY3VySDVQYWdlSW1wbCwgMCwgIiIsIGZhbHNlLCAtMSwgIiIpOwogICAgICAgIH0KICAgIH0KICAgIC8qKgogICAgICog5aSE55CGIFJQQyDlk43lupTjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gcnBjRW50aXR5ICAg6KaB5pu05paw55qEIFJQQyDlrp7kvZPjgIIKICAgICAqIEBwYXJhbSByZXNwb25zZSAgICDlk43lupTlr7nosaHjgIIKICAgICAqIEBwYXJhbSBpZCAgICAgICAgICDllK/kuIDor7fmsYIgSUTjgIIKICAgICAqIEBwYXJhbSBtZXRob2QgICAgICDor7fmsYLnmoTmlrnms5XlkI3jgIIKICAgICAqIEBwYXJhbSBhcmdzICAgICAgICDor7fmsYLnmoTlj4LmlbDjgIIKICAgICAqIEBwYXJhbSByZXRyeUludGVydmFsIOmHjeivlemXtOmalOOAggogICAgICogQHJldHVybiDmm7TmlrDlkI7nmoQgUlBDIOWunuS9k+OAggogICAgICogQHRocm93cyBUaHJvd2FibGUg5aaC5p6c5aSE55CG6L+H56iL5Lit5Ye6546w6ZSZ6K+v44CCCiAgICAgKi8KICAgIHByaXZhdGUgUnBjRW50aXR5IHByb2Nlc3NSZXNwb25zZShScGNFbnRpdHkgcnBjRW50aXR5LCBPYmplY3QgcmVzcG9uc2UsIGludCBpZCwgU3RyaW5nIG1ldGhvZCwgU3RyaW5nIGFyZ3MsIGludCByZXRyeUludGVydmFsKSB0aHJvd3MgVGhyb3dhYmxlIHsKICAgICAgICBTdHJpbmcgcmVzdWx0U3RyID0gKFN0cmluZykgZ2V0UmVzcG9uc2VNZXRob2QuaW52b2tlKHJlc3BvbnNlKTsgLy8g6I635Y+W5ZON5bqU5a2X56ym5LiyCiAgICAgICAgSlNPTk9iamVjdCByZXN1bHRPYmplY3QgPSBuZXcgSlNPTk9iamVjdChyZXN1bHRTdHIpOwogICAgICAgIHJwY0VudGl0eS5zZXRSZXNwb25zZU9iamVjdChyZXN1bHRPYmplY3QsIHJlc3VsdFN0cik7IC8vIOiuvue9ruWTjeW6lOWvueixoQogICAgICAgIC8vIOajgOafpeWTjeW6lOS4reeahCAibWVtbyIg5a2X5q615piv5ZCm5YyF5ZCrICLns7vnu5/nuYHlv5kiCiAgICAgICAgaWYgKHJlc3VsdE9iamVjdC5vcHRTdHJpbmcoIm1lbW8iLCAiIikuY29udGFpbnMoIuezu+e7n+e5geW/mSIpKSB7CiAgICAgICAgICAgIEFwcGxpY2F0aW9uSG9vay5zZXRPZmZsaW5lKHRydWUpOyAvLyDorr7nva7kuLrnprvnur/nirbmgIEKICAgICAgICAgICAgTm90aWZ5LnVwZGF0ZVN0YXR1c1RleHQoIuezu+e7n+e5geW/me+8jOWPr+iDvemcgOimgea7keWKqOmqjOivgSIpOwogICAgICAgICAgICBMb2cucmVjb3JkKFRBRywi57O757uf57mB5b+Z77yM5Y+v6IO96ZyA6KaB5ruR5Yqo6aqM6K+BIik7CiAgICAgICAgICAgIHJldHVybiBudWxsOyAvLyDov5Tlm54gbnVsbAogICAgICAgIH0KICAgICAgICBpZiAoIXJlc3VsdE9iamVjdC5vcHRCb29sZWFuKCJzdWNjZXNzIikpIHsKICAgICAgICAgICAgcnBjRW50aXR5LnNldEVycm9yKCk7IC8vIOiuvue9ruS4uumUmeivr+eKtuaAgQogICAgICAgICAgICBMb2cuZXJyb3IoVEFHLCLml6cgUlBDIOWTjeW6lCB8IGlkOiAiICsgaWQgKyAiIHwgbWV0aG9kOiAiICsgbWV0aG9kICsgIiBhcmdzOiAiICsgYXJncyArICIgfCBkYXRhOiAiICsgcnBjRW50aXR5LmdldFJlc3BvbnNlU3RyaW5nKCkpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gcnBjRW50aXR5OyAvLyDov5Tlm57mm7TmlrDlkI7nmoQgUlBDIOWunuS9kwogICAgfQogICAgLyoqCiAgICAgKiDlpITnkIYgUlBDIOivt+axgui/h+eoi+S4reWPkeeUn+eahOmUmeivr+OAggogICAgICoKICAgICAqIEBwYXJhbSBycGNFbnRpdHkg6KaB5pu05paw55qEIFJQQyDlrp7kvZPjgIIKICAgICAqIEBwYXJhbSB0ICAgICAgICDlj5HnlJ/nmoTlvILluLjjgIIKICAgICAqIEBwYXJhbSBtZXRob2QgICDor7fmsYLnmoTmlrnms5XlkI3jgIIKICAgICAqIEBwYXJhbSBpZCAgICAgICDllK/kuIDor7fmsYIgSUTjgIIKICAgICAqIEBwYXJhbSBhcmdzICAgICDor7fmsYLnmoTlj4LmlbDjgIIKICAgICAqLwogICAgcHJpdmF0ZSB2b2lkIGhhbmRsZUVycm9yKFJwY0VudGl0eSBycGNFbnRpdHksIFRocm93YWJsZSB0LCBTdHJpbmcgbWV0aG9kLCBpbnQgaWQsIFN0cmluZyBhcmdzKSB7CiAgICAgICAgcnBjRW50aXR5LnNldEVycm9yKCk7IC8vIOiuvue9ruS4uumUmeivr+eKtuaAgQogICAgICAgIExvZy5lcnJvcihUQUcsIuaXpyBSUEMg6K+35rGCIHwgaWQ6ICIgKyBpZCArICIgfCBtZXRob2Q6ICIgKyBtZXRob2QgKyAiIGVycjoiKTsKICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKHQpOyAvLyDmiZPljbDloIbmoIjot5/ouKoKICAgICAgICBpZiAodCBpbnN0YW5jZW9mIEludm9jYXRpb25UYXJnZXRFeGNlcHRpb24pIHsKICAgICAgICAgICAgaGFuZGxlSW52b2NhdGlvbkV4Y2VwdGlvbihycGNFbnRpdHksIChJbnZvY2F0aW9uVGFyZ2V0RXhjZXB0aW9uKSB0LCBtZXRob2QpOyAvLyDlpITnkIbosIPnlKjlvILluLgKICAgICAgICB9CiAgICB9CiAgICAvKioKICAgICAqIOWkhOeQhuiwg+eUqOi/h+eoi+S4reeahOeJueWumuW8guW4uOOAggogICAgICoKICAgICAqIEBwYXJhbSBycGNFbnRpdHkg6KaB5pu05paw55qEIFJQQyDlrp7kvZPjgIIKICAgICAqIEBwYXJhbSBlICAgICAgICDlj5HnlJ/nmoQgSW52b2NhdGlvblRhcmdldEV4Y2VwdGlvbuOAggogICAgICogQHBhcmFtIG1ldGhvZCAgIOivt+axgueahOaWueazleWQjeOAggogICAgICovCiAgICBwcml2YXRlIHZvaWQgaGFuZGxlSW52b2NhdGlvbkV4Y2VwdGlvbihScGNFbnRpdHkgcnBjRW50aXR5LCBJbnZvY2F0aW9uVGFyZ2V0RXhjZXB0aW9uIGUsIFN0cmluZyBtZXRob2QpIHsKICAgICAgICBUaHJvd2FibGUgY2F1c2UgPSBlLmdldENhdXNlKCk7CiAgICAgICAgaWYgKGNhdXNlICE9IG51bGwpIHsKICAgICAgICAgICAgU3RyaW5nIG1zZyA9IGNhdXNlLmdldE1lc3NhZ2UoKTsKICAgICAgICAgICAgaWYgKCFTdHJpbmdVdGlsLmlzRW1wdHkobXNnKSkgewogICAgICAgICAgICAgICAgaGFuZGxlRXJyb3JNZXNzYWdlKHJwY0VudGl0eSwgbXNnLCBtZXRob2QpOyAvLyDlpITnkIbplJnor6/mtojmga8KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIC8qKgogICAgICog5aSE55CG54m55a6a55qE6ZSZ6K+v5raI5oGv77yM5bm25qC55o2u5YaF5a655omn6KGM55u45bqU55qE5pON5L2c44CCCiAgICAgKgogICAgICogQHBhcmFtIHJwY0VudGl0eSDopoHmm7TmlrDnmoQgUlBDIOWunuS9k+OAggogICAgICogQHBhcmFtIG1zZyAgICAgIOmUmeivr+a2iOaBr+OAggogICAgICogQHBhcmFtIG1ldGhvZCAgIOivt+axgueahOaWueazleWQjeOAggogICAgICovCiAgICBwcml2YXRlIHZvaWQgaGFuZGxlRXJyb3JNZXNzYWdlKFJwY0VudGl0eSBycGNFbnRpdHksIFN0cmluZyBtc2csIFN0cmluZyBtZXRob2QpIHsKICAgICAgICBpZiAobXNnLmNvbnRhaW5zKCLnmbvlvZXotoXml7YiKSkgewogICAgICAgICAgICBoYW5kbGVMb2dpblRpbWVvdXQoKTsgLy8g5aSE55CG55m75b2V6LaF5pe2CiAgICAgICAgfSBlbHNlIGlmIChtc2cuY29udGFpbnMoIlsxMDA0XSIpICYmICJhbGlwYXkuYW50bWVtYmVyLmZvcmVzdC5oNS5jb2xsZWN0RW5lcmd5Ii5lcXVhbHMobWV0aG9kKSkgewogICAgICAgICAgICBoYW5kbGVFbmVyZ3lDb2xsZWN0RXhjZXB0aW9uKCk7IC8vIOWkhOeQhuiDvemHj+aUtumbhuW8guW4uAogICAgICAgIH0gZWxzZSBpZiAobXNnLmNvbnRhaW5zKCJNTVRQRXhjZXB0aW9uIikpIHsKICAgICAgICAgICAgaGFuZGxlRXhjZXB0aW9uKHJwY0VudGl0eSk7IC8vIOWkhOeQhiBNTVRQIOW8guW4uAogICAgICAgIH0KICAgIH0KICAgIC8qKgogICAgICog5aSE55CG55m75b2V6LaF5pe255qE5oOF5Ya144CCCiAgICAgKi8KICAgIHByaXZhdGUgdm9pZCBoYW5kbGVMb2dpblRpbWVvdXQoKSB7CiAgICAgICAgaWYgKCFBcHBsaWNhdGlvbkhvb2sub2ZmbGluZSkgewogICAgICAgICAgICBBcHBsaWNhdGlvbkhvb2suc2V0T2ZmbGluZSh0cnVlKTsKICAgICAgICAgICAgTm90aWZ5LnVwZGF0ZVN0YXR1c1RleHQoIueZu+W9lei2heaXtiIpOwogICAgICAgICAgICBpZiAoQmFzZU1vZGVsLkNvbXBhbmlvbi5nZXRUaW1lb3V0UmVzdGFydCgpLmdldFZhbHVlKCkpIHsKICAgICAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCLlsJ3or5Xph43mlrDnmbvlvZUiKTsKICAgICAgICAgICAgICAgIEFwcGxpY2F0aW9uSG9vay5yZUxvZ2luQnlCcm9hZGNhc3QoKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIC8qKgogICAgICog5aSE55CG6IO96YeP5pS26ZuG5byC5bi455qE5oOF5Ya144CCCiAgICAgKi8KICAgIHByaXZhdGUgdm9pZCBoYW5kbGVFbmVyZ3lDb2xsZWN0RXhjZXB0aW9uKCkgewogICAgICAgIGlmIChCYXNlTW9kZWwuQ29tcGFuaW9uLmdldFdhaXRXaGVuRXhjZXB0aW9uKCkuZ2V0VmFsdWUoKSA+IDApIHsKICAgICAgICAgICAgbG9uZyB3YWl0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpICsgQmFzZU1vZGVsLkNvbXBhbmlvbi5nZXRXYWl0V2hlbkV4Y2VwdGlvbigpLmdldFZhbHVlKCk7CiAgICAgICAgICAgIFJ1bnRpbWVJbmZvLmdldEluc3RhbmNlKCkucHV0KFJ1bnRpbWVJbmZvLlJ1bnRpbWVJbmZvS2V5LkZvcmVzdFBhdXNlVGltZSwgd2FpdFRpbWUpOwogICAgICAgICAgICBOb3RpZnkudXBkYXRlU3RhdHVzVGV4dCgi5byC5bi4Iik7CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCLop6blj5HlvILluLgsIOetieW+heiHsyIgKyBUaW1lVXRpbC5nZXRDb21tb25EYXRlKHdhaXRUaW1lKSk7CiAgICAgICAgfQogICAgfQogICAgLyoqCiAgICAgKiDlpITnkIYgTVRQIOW8guW4uOeahOaDheWGteOAggogICAgICoKICAgICAqIEBwYXJhbSBycGNFbnRpdHkg6KaB5pu05paw55qEIFJQQyDlrp7kvZPjgIIKICAgICAqLwogICAgcHJpdmF0ZSB2b2lkIGhhbmRsZUV4Y2VwdGlvbihScGNFbnRpdHkgcnBjRW50aXR5KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgU3RyaW5nIGpzb25TdHJpbmc7CiAgICAgICAgICAgIEpTT05PYmplY3Qgam8gPSBuZXcgSlNPTk9iamVjdCgpOwogICAgICAgICAgICBqby5wdXQoInJlc3VsdENvZGUiLCAiRkFJTCIpOwogICAgICAgICAgICBqby5wdXQoIm1lbW8iLCAiTU1UUEV4Y2VwdGlvbiIpOwogICAgICAgICAgICBqby5wdXQoInJlc3VsdERlc2MiLCAiTU1UUEV4Y2VwdGlvbiIpOwogICAgICAgICAgICBqc29uU3RyaW5nID0gam8udG9TdHJpbmcoKTsKICAgICAgICAgICAgcnBjRW50aXR5LnNldFJlc3BvbnNlT2JqZWN0KG5ldyBKU09OT2JqZWN0KGpzb25TdHJpbmcpLCBqc29uU3RyaW5nKTsgLy8g6K6+572uIE1NVFAg5byC5bi45ZON5bqUCiAgICAgICAgfSBjYXRjaCAoSlNPTkV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7IC8vIOaJk+WNsOW8guW4uOS/oeaBrwogICAgICAgIH0KICAgIH0KfQo=
+package fansirsqi.xposed.sesame.hook.rpc.bridge;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.Objects;
+
+import fansirsqi.xposed.sesame.data.General;
+import fansirsqi.xposed.sesame.data.RuntimeInfo;
+import fansirsqi.xposed.sesame.entity.RpcEntity;
+import fansirsqi.xposed.sesame.hook.ApplicationHook;
+import fansirsqi.xposed.sesame.hook.rpc.intervallimit.RpcIntervalLimit;
+import fansirsqi.xposed.sesame.model.BaseModel;
+import fansirsqi.xposed.sesame.util.Log;
+import fansirsqi.xposed.sesame.util.Notify;
+import fansirsqi.xposed.sesame.util.StringUtil;
+import fansirsqi.xposed.sesame.util.TimeUtil;
+public class OldRpcBridge implements RpcBridge {
+    private static final String TAG = OldRpcBridge.class.getSimpleName();
+    private ClassLoader loader;
+    private Class<?> h5PageClazz;
+    private Method rpcCallMethod;
+    private Method getResponseMethod;
+    private Object curH5PageImpl;
+    @Override
+    public RpcVersion getVersion() {
+        return RpcVersion.NEW; // 返回 RPC 的版本
+    }
+    /**
+     * 加载 RPC 所需的类和方法。
+     */
+    public void load() throws Exception {
+        loader = ApplicationHook.classLoader;
+        try {
+            h5PageClazz = loader.loadClass(General.H5PAGE_NAME);
+            Log.record(TAG, "RPC 类加载成功");
+            loadRpcMethods(); // 加载 RPC 方法
+        } catch (ClassNotFoundException e) {
+            Log.record(TAG, "加载 RPC 类时出错：");
+            Log.printStackTrace(TAG, e);
+            throw new RuntimeException(e);
+        } catch (Throwable t) {
+            Log.record(TAG, "加载 RPC 类时发生意外错误：");
+            Log.printStackTrace(TAG, t);
+            throw t;
+        }
+    }
+    /**
+     * 使用反射加载 RPC 方法。
+     */
+    private void loadRpcMethods() {
+        if (rpcCallMethod == null) {
+            try {
+                Class<?> rpcUtilClass = loader.loadClass("com.alipay.mobile.nebulaappproxy.api.rpc.H5RpcUtil");
+                Class<?> responseClass = loader.loadClass("com.alipay.mobile.nebulaappproxy.api.rpc.H5Response");
+                rpcCallMethod = rpcUtilClass.getMethod("rpcCall", String.class, String.class, String.class,
+                        boolean.class, loader.loadClass(General.JSON_OBJECT_NAME), String.class,
+                        boolean.class, h5PageClazz, int.class, String.class, boolean.class, int.class, String.class);
+                getResponseMethod = responseClass.getMethod("getResponse");
+                Log.record(TAG, "RPC 调用方法加载成功");
+            } catch (Exception e) {
+                Log.record(TAG, "加载 RPC 调用方法时出错：");
+                Log.printStackTrace(TAG, e);
+            }
+        }
+    }
+    @Override
+    public void unload() {
+        getResponseMethod = null; // 清空响应方法
+        rpcCallMethod = null; // 清空调用方法
+        h5PageClazz = null; // 清空 H5 页面类
+        loader = null; // 清空类加载器
+    }
+    /**
+     * 向 RPC 实体请求字符串响应。
+     *
+     * @param rpcEntity     要发送的 RPC 实体。
+     * @param tryCount      重试次数。
+     * @param retryInterval  重试间隔。
+     * @return 响应字符串，如果失败则返回 null。
+     */
+    public String requestString(RpcEntity rpcEntity, int tryCount, int retryInterval) {
+        RpcEntity responseEntity = requestObject(rpcEntity, tryCount, retryInterval);
+        return responseEntity != null ? responseEntity.getResponseString() : null; // 返回响应字符串或 null
+    }
+    @Override
+    public RpcEntity requestObject(RpcEntity rpcEntity, int tryCount, int retryInterval) {
+        if (ApplicationHook.offline) {
+            return null; // 如果离线，直接返回 null
+        }
+        int id = rpcEntity.hashCode(); // 获取请求 ID
+        String method = rpcEntity.getRequestMethod(); // 获取请求方法
+        String args = rpcEntity.getRequestData(); // 获取请求参数
+        for (int count = 0; count < tryCount; count++) {
+            try {
+                RpcIntervalLimit.INSTANCE.enterIntervalLimit(Objects.requireNonNull(method)); // 进入 RPC 调用间隔限制
+                Object response = invokeRpcCall(method, args); // 调用 RPC 方法
+                return processResponse(rpcEntity, response, id, method, args, retryInterval); // 处理响应
+            } catch (Throwable t) {
+                handleError(rpcEntity, t, method, id, args); // 处理错误
+            }
+        }
+        return null; // 所有尝试失败后返回 null
+    }
+    /**
+     * 使用反射调用 RPC 方法。
+     *
+     * @param method 请求的方法名。
+     * @param args   请求的参数。
+     * @return 响应对象。
+     * @throws Throwable 如果调用过程中出现错误。
+     */
+    private Object invokeRpcCall(String method, String args) throws Throwable {
+        if (rpcCallMethod.getParameterTypes().length == 12) {
+            return rpcCallMethod.invoke(null, method, args, "", true, null, null, false, curH5PageImpl, 0, "", false, -1);
+        } else {
+            return rpcCallMethod.invoke(null, method, args, "", true, null, null, false, curH5PageImpl, 0, "", false, -1, "");
+        }
+    }
+    /**
+     * 处理 RPC 响应。
+     *
+     * @param rpcEntity   要更新的 RPC 实体。
+     * @param response    响应对象。
+     * @param id          唯一请求 ID。
+     * @param method      请求的方法名。
+     * @param args        请求的参数。
+     * @param retryInterval 重试间隔。
+     * @return 更新后的 RPC 实体。
+     * @throws Throwable 如果处理过程中出现错误。
+     */
+    private RpcEntity processResponse(RpcEntity rpcEntity, Object response, int id, String method, String args, int retryInterval) throws Throwable {
+        String resultStr = (String) getResponseMethod.invoke(response); // 获取响应字符串
+        JSONObject resultObject = new JSONObject(resultStr);
+        rpcEntity.setResponseObject(resultObject, resultStr); // 设置响应对象
+        // 检查响应中的 "memo" 字段是否包含 "系统繁忙"
+        if (resultObject.optString("memo", "").contains("系统繁忙")) {
+            ApplicationHook.setOffline(true); // 设置为离线状态
+            Notify.updateStatusText("系统繁忙，可能需要滑动验证");
+            Log.record(TAG,"系统繁忙，可能需要滑动验证");
+            return null; // 返回 null
+        }
+        if (!resultObject.optBoolean("success")) {
+            rpcEntity.setError(); // 设置为错误状态
+            Log.error(TAG,"旧 RPC 响应 | id: " + id + " | method: " + method + " args: " + args + " | data: " + rpcEntity.getResponseString());
+        }
+        return rpcEntity; // 返回更新后的 RPC 实体
+    }
+    /**
+     * 处理 RPC 请求过程中发生的错误。
+     *
+     * @param rpcEntity 要更新的 RPC 实体。
+     * @param t        发生的异常。
+     * @param method   请求的方法名。
+     * @param id       唯一请求 ID。
+     * @param args     请求的参数。
+     */
+    private void handleError(RpcEntity rpcEntity, Throwable t, String method, int id, String args) {
+        rpcEntity.setError(); // 设置为错误状态
+        Log.error(TAG,"旧 RPC 请求 | id: " + id + " | method: " + method + " err:");
+        Log.printStackTrace(t); // 打印堆栈跟踪
+        if (t instanceof InvocationTargetException) {
+            handleInvocationException(rpcEntity, (InvocationTargetException) t, method); // 处理调用异常
+        }
+    }
+    /**
+     * 处理调用过程中的特定异常。
+     *
+     * @param rpcEntity 要更新的 RPC 实体。
+     * @param e        发生的 InvocationTargetException。
+     * @param method   请求的方法名。
+     */
+    private void handleInvocationException(RpcEntity rpcEntity, InvocationTargetException e, String method) {
+        Throwable cause = e.getCause();
+        if (cause != null) {
+            String msg = cause.getMessage();
+            if (!StringUtil.isEmpty(msg)) {
+                handleErrorMessage(rpcEntity, msg, method); // 处理错误消息
+            }
+        }
+    }
+    /**
+     * 处理特定的错误消息，并根据内容执行相应的操作。
+     *
+     * @param rpcEntity 要更新的 RPC 实体。
+     * @param msg      错误消息。
+     * @param method   请求的方法名。
+     */
+    private void handleErrorMessage(RpcEntity rpcEntity, String msg, String method) {
+        if (msg.contains("登录超时")) {
+            handleLoginTimeout(); // 处理登录超时
+        } else if (msg.contains("[1004]") && "alipay.antmember.forest.h5.collectEnergy".equals(method)) {
+            handleEnergyCollectException(); // 处理能量收集异常
+        } else if (msg.contains("MMTPException")) {
+            handleException(rpcEntity); // 处理 MMTP 异常
+        }
+    }
+    /**
+     * 处理登录超时的情况。
+     */
+    private void handleLoginTimeout() {
+        if (!ApplicationHook.offline) {
+            ApplicationHook.setOffline(true);
+            Notify.updateStatusText("登录超时");
+            if (BaseModel.Companion.getTimeoutRestart().getValue()) {
+                Log.record(TAG,"尝试重新登录");
+                ApplicationHook.reLoginByBroadcast();
+            }
+        }
+    }
+    /**
+     * 处理能量收集异常的情况。
+     */
+    private void handleEnergyCollectException() {
+        if (BaseModel.Companion.getWaitWhenException().getValue() > 0) {
+            long waitTime = System.currentTimeMillis() + BaseModel.Companion.getWaitWhenException().getValue();
+            RuntimeInfo.getInstance().put(RuntimeInfo.RuntimeInfoKey.ForestPauseTime, waitTime);
+            Notify.updateStatusText("异常");
+            Log.record(TAG,"触发异常, 等待至" + TimeUtil.getCommonDate(waitTime));
+        }
+    }
+    /**
+     * 处理 MTP 异常的情况。
+     *
+     * @param rpcEntity 要更新的 RPC 实体。
+     */
+    private void handleException(RpcEntity rpcEntity) {
+        try {
+            String jsonString;
+            JSONObject jo = new JSONObject();
+            jo.put("resultCode", "FAIL");
+            jo.put("memo", "MMTPException");
+            jo.put("resultDesc", "MMTPException");
+            jsonString = jo.toString();
+            rpcEntity.setResponseObject(new JSONObject(jsonString), jsonString); // 设置 MMTP 异常响应
+        } catch (JSONException e) {
+            Log.printStackTrace(e); // 打印异常信息
+        }
+    }
+}

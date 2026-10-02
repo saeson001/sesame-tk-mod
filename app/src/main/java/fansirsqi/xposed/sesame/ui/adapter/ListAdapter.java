@@ -1,1 +1,190 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5hZGFwdGVyOwoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQ29sb3I7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3R3JvdXA7CmltcG9ydCBhbmRyb2lkLndpZGdldC5CYXNlQWRhcHRlcjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkNoZWNrQm94OwppbXBvcnQgYW5kcm9pZC53aWRnZXQuVGV4dFZpZXc7CgppbXBvcnQgYW5kcm9pZHguY29yZS5jb250ZW50LkNvbnRleHRDb21wYXQ7CgppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9uczsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk9iamVjdHM7CgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuUjsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5NYXBwZXJFbnRpdHk7CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbC5TZWxlY3RNb2RlbEZpZWxkRnVuYzsKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLndpZGdldC5MaXN0RGlhbG9nOwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2c7CgpwdWJsaWMgY2xhc3MgTGlzdEFkYXB0ZXIgZXh0ZW5kcyBCYXNlQWRhcHRlciB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gIkxpc3RBZGFwdGVyIjsKICAgIEBTdXBwcmVzc0xpbnQoIlN0YXRpY0ZpZWxkTGVhayIpCiAgICBwcml2YXRlIHN0YXRpYyBMaXN0QWRhcHRlciBhZGFwdGVyOwogICAgcHJpdmF0ZSBzdGF0aWMgTGlzdERpYWxvZy5MaXN0VHlwZSBsaXN0VHlwZTsKICAgIHByaXZhdGUgZmluYWwgQ29udGV4dCBjb250ZXh0OyAgLy8g5bCGIGNvbnRleHQg5aOw5piO5Li6IGZpbmFsCiAgICBwcml2YXRlIExpc3Q8PyBleHRlbmRzIE1hcHBlckVudGl0eT4gbGlzdDsKICAgIHByaXZhdGUgU2VsZWN0TW9kZWxGaWVsZEZ1bmMgc2VsZWN0TW9kZWxGaWVsZEZ1bmM7CiAgICBwcml2YXRlIGludCBmaW5kSW5kZXggPSAtMTsKICAgIHByaXZhdGUgU3RyaW5nIGZpbmRXb3JkID0gbnVsbDsKICAgIHB1YmxpYyBzdGF0aWMgTGlzdDxWaWV3SG9sZGVyPiB2aWV3SG9sZGVyTGlzdCA9IG5ldyBBcnJheUxpc3Q8PigpOwoKICAgIHB1YmxpYyBzdGF0aWMgTGlzdEFkYXB0ZXIgZ2V0KENvbnRleHQgYykgewogICAgICAgIGlmIChhZGFwdGVyID09IG51bGwpIHsKICAgICAgICAgICAgYWRhcHRlciA9IG5ldyBMaXN0QWRhcHRlcihjLmdldEFwcGxpY2F0aW9uQ29udGV4dCgpKTsgIC8vIOS9v+eUqCBBcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGFkYXB0ZXI7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBMaXN0QWRhcHRlciBnZXRDbGVhcihDb250ZXh0IGMpIHsKICAgICAgICBMaXN0QWRhcHRlciBhZGFwdGVyID0gZ2V0KGMpOwogICAgICAgIGFkYXB0ZXIucmVzZXRGaW5kU3RhdGUoKTsKICAgICAgICByZXR1cm4gYWRhcHRlcjsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIExpc3RBZGFwdGVyIGdldENsZWFyKENvbnRleHQgYywgTGlzdERpYWxvZy5MaXN0VHlwZSBsaXN0VHlwZSkgewogICAgICAgIExpc3RBZGFwdGVyIGFkYXB0ZXIgPSBnZXQoYyk7CiAgICAgICAgTGlzdEFkYXB0ZXIubGlzdFR5cGUgPSBsaXN0VHlwZTsKICAgICAgICBhZGFwdGVyLnJlc2V0RmluZFN0YXRlKCk7CiAgICAgICAgcmV0dXJuIGFkYXB0ZXI7CiAgICB9CgogICAgcHJpdmF0ZSBMaXN0QWRhcHRlcihDb250ZXh0IGMpIHsKICAgICAgICB0aGlzLmNvbnRleHQgPSBjOyAgLy8g5L2/55So5Lyg5YWl55qE5LiK5LiL5paHCiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0QmFzZUxpc3QoTGlzdDw/IGV4dGVuZHMgTWFwcGVyRW50aXR5PiBsKSB7CiAgICAgICAgaWYgKGwgIT0gbGlzdCkgewogICAgICAgICAgICBleGl0RmluZCgpOwogICAgICAgIH0KICAgICAgICB0aGlzLmxpc3QgPSBsOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFNlbGVjdGVkTGlzdChTZWxlY3RNb2RlbEZpZWxkRnVuYyBzZWxlY3RNb2RlbEZpZWxkRnVuYykgewogICAgICAgIHRoaXMuc2VsZWN0TW9kZWxGaWVsZEZ1bmMgPSBzZWxlY3RNb2RlbEZpZWxkRnVuYzsKICAgICAgICB0cnkgewogICAgICAgICAgICBDb2xsZWN0aW9ucy5zb3J0KGxpc3QsIChvMSwgbzIpIC0+IHsKICAgICAgICAgICAgICAgIGJvb2xlYW4gY29udGFpbnMxID0gQm9vbGVhbi5UUlVFLmVxdWFscyhzZWxlY3RNb2RlbEZpZWxkRnVuYy5jb250YWlucyhvMS5pZCkpOwogICAgICAgICAgICAgICAgYm9vbGVhbiBjb250YWluczIgPSBCb29sZWFuLlRSVUUuZXF1YWxzKHNlbGVjdE1vZGVsRmllbGRGdW5jLmNvbnRhaW5zKG8yLmlkKSk7CiAgICAgICAgICAgICAgICBpZiAoY29udGFpbnMxID09IGNvbnRhaW5zMikgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBvMS5jb21wYXJlVG8obzIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmV0dXJuIGNvbnRhaW5zMSA/IC0xIDogMTsKICAgICAgICAgICAgfSk7CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgTG9nLnJlY29yZChUQUcsIkxpc3RBZGFwdGVyIGVycm9yIik7CiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoZSk7CiAgICAgICAgfQogICAgfQoKICAgIHB1YmxpYyBpbnQgZmluZExhc3QoU3RyaW5nIGZpbmRUaGlzKSB7CiAgICAgICAgcmV0dXJuIGZpbmRJdGVtKGZpbmRUaGlzLCBmYWxzZSk7CiAgICB9CgogICAgcHVibGljIGludCBmaW5kTmV4dChTdHJpbmcgZmluZFRoaXMpIHsKICAgICAgICByZXR1cm4gZmluZEl0ZW0oZmluZFRoaXMsIHRydWUpOwogICAgfQoKICAgIHByaXZhdGUgaW50IGZpbmRJdGVtKFN0cmluZyBmaW5kVGhpcywgYm9vbGVhbiBmb3J3YXJkKSB7CiAgICAgICAgaWYgKGxpc3QgPT0gbnVsbCB8fCBsaXN0LmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gLTE7CiAgICAgICAgfQogICAgICAgIGZpbmRUaGlzID0gZmluZFRoaXMudG9Mb3dlckNhc2UoKTsKICAgICAgICBpZiAoIU9iamVjdHMuZXF1YWxzKGZpbmRUaGlzLCBmaW5kV29yZCkpIHsKICAgICAgICAgICAgcmVzZXRGaW5kU3RhdGUoKTsKICAgICAgICAgICAgZmluZFdvcmQgPSBmaW5kVGhpczsKICAgICAgICB9CiAgICAgICAgaW50IGN1cnJlbnQgPSBNYXRoLm1heChmaW5kSW5kZXgsIDApOwogICAgICAgIGludCBzaXplID0gbGlzdC5zaXplKCk7CiAgICAgICAgaW50IHN0YXJ0ID0gY3VycmVudDsKICAgICAgICBkbyB7CiAgICAgICAgICAgIGN1cnJlbnQgPSAoZm9yd2FyZCkgPyAoY3VycmVudCArIDEpICUgc2l6ZSA6IChjdXJyZW50IC0gMSArIHNpemUpICUgc2l6ZTsKICAgICAgICAgICAgaWYgKGxpc3QuZ2V0KGN1cnJlbnQpLm5hbWUudG9Mb3dlckNhc2UoKS5jb250YWlucyhmaW5kVGhpcykpIHsKICAgICAgICAgICAgICAgIGZpbmRJbmRleCA9IGN1cnJlbnQ7CiAgICAgICAgICAgICAgICBub3RpZnlEYXRhU2V0Q2hhbmdlZCgpOwogICAgICAgICAgICAgICAgcmV0dXJuIGZpbmRJbmRleDsKICAgICAgICAgICAgfQogICAgICAgIH0gd2hpbGUgKGN1cnJlbnQgIT0gc3RhcnQpOwogICAgICAgIHJldHVybiAtMTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCByZXNldEZpbmRTdGF0ZSgpIHsKICAgICAgICBmaW5kSW5kZXggPSAtMTsKICAgICAgICBmaW5kV29yZCA9IG51bGw7CiAgICB9CgogICAgcHVibGljIHZvaWQgZXhpdEZpbmQoKSB7CiAgICAgICAgcmVzZXRGaW5kU3RhdGUoKTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZWxlY3RBbGwoKSB7CiAgICAgICAgc2VsZWN0TW9kZWxGaWVsZEZ1bmMuY2xlYXIoKTsKICAgICAgICBmb3IgKE1hcHBlckVudGl0eSBpdGVtIDogbGlzdCkgewogICAgICAgICAgICBzZWxlY3RNb2RlbEZpZWxkRnVuYy5hZGQoaXRlbS5pZCwgMCk7CiAgICAgICAgfQogICAgICAgIG5vdGlmeURhdGFTZXRDaGFuZ2VkKCk7CiAgICB9CgogICAgcHVibGljIHZvaWQgU2VsZWN0SW52ZXJ0KCkgewogICAgICAgIGZvciAoTWFwcGVyRW50aXR5IGl0ZW0gOiBsaXN0KSB7CiAgICAgICAgICAgIGlmIChCb29sZWFuLkZBTFNFLmVxdWFscyhzZWxlY3RNb2RlbEZpZWxkRnVuYy5jb250YWlucyhpdGVtLmlkKSkpIHsKICAgICAgICAgICAgICAgIHNlbGVjdE1vZGVsRmllbGRGdW5jLmFkZChpdGVtLmlkLCAwKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHNlbGVjdE1vZGVsRmllbGRGdW5jLnJlbW92ZShpdGVtLmlkKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBub3RpZnlEYXRhU2V0Q2hhbmdlZCgpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIGludCBnZXRDb3VudCgpIHsKICAgICAgICByZXR1cm4gbGlzdCAhPSBudWxsID8gbGlzdC5zaXplKCkgOiAwOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIE9iamVjdCBnZXRJdGVtKGludCBwb3NpdGlvbikgewogICAgICAgIHJldHVybiBsaXN0LmdldChwb3NpdGlvbik7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgbG9uZyBnZXRJdGVtSWQoaW50IHBvc2l0aW9uKSB7CiAgICAgICAgcmV0dXJuIHBvc2l0aW9uOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIFZpZXcgZ2V0VmlldyhpbnQgcG9zaXRpb24sIFZpZXcgY29udmVydFZpZXcsIFZpZXdHcm91cCBwYXJlbnQpIHsKICAgICAgICBWaWV3SG9sZGVyIHZoOwogICAgICAgIGlmIChjb252ZXJ0VmlldyA9PSBudWxsKSB7CiAgICAgICAgICAgIHZoID0gbmV3IFZpZXdIb2xkZXIoKTsKICAgICAgICAgICAgY29udmVydFZpZXcgPSBWaWV3LmluZmxhdGUoY29udGV4dCwgUi5sYXlvdXQubGlzdF9pdGVtLCBudWxsKTsKICAgICAgICAgICAgdmgudHYgPSBjb252ZXJ0Vmlldy5maW5kVmlld0J5SWQoUi5pZC50dl9pZG4pOwogICAgICAgICAgICB2aC5jYiA9IGNvbnZlcnRWaWV3LmZpbmRWaWV3QnlJZChSLmlkLmNiX2xpc3QpOwogICAgICAgICAgICBpZiAobGlzdFR5cGUgPT0gTGlzdERpYWxvZy5MaXN0VHlwZS5TSE9XKSB7CiAgICAgICAgICAgICAgICB2aC5jYi5zZXRWaXNpYmlsaXR5KFZpZXcuR09ORSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29udmVydFZpZXcuc2V0VGFnKHZoKTsKICAgICAgICAgICAgdmlld0hvbGRlckxpc3QuYWRkKHZoKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB2aCA9IChWaWV3SG9sZGVyKSBjb252ZXJ0Vmlldy5nZXRUYWcoKTsKICAgICAgICB9CiAgICAgICAgTWFwcGVyRW50aXR5IGl0ZW0gPSBsaXN0LmdldChwb3NpdGlvbik7CiAgICAgICAgdmgudHYuc2V0VGV4dChpdGVtLm5hbWUpOwogICAgICAgIGludCB0ZXh0Q29sb3JQcmltYXJ5ID0gQ29udGV4dENvbXBhdC5nZXRDb2xvcihjb250ZXh0LCBSLmNvbG9yLnRleHRDb2xvclByaW1hcnkpOwogICAgICAgIHZoLnR2LnNldFRleHRDb2xvcihmaW5kSW5kZXggPT0gcG9zaXRpb24gPyBDb2xvci5SRUQgOiB0ZXh0Q29sb3JQcmltYXJ5KTsKICAgICAgICB2aC5jYi5zZXRDaGVja2VkKHNlbGVjdE1vZGVsRmllbGRGdW5jICE9IG51bGwgJiYgQm9vbGVhbi5UUlVFLmVxdWFscyhzZWxlY3RNb2RlbEZpZWxkRnVuYy5jb250YWlucyhpdGVtLmlkKSkpOwogICAgICAgIHJldHVybiBjb252ZXJ0VmlldzsKICAgIH0KCiAgICAvKioKICAgICAqIOWGhemDqCBWaWV3SG9sZGVyIOexu++8jOeUqOS6jue8k+WtmOWIl+ihqOmhueinhuWbvuOAggogICAgICovCiAgICBwdWJsaWMgc3RhdGljIGNsYXNzIFZpZXdIb2xkZXIgewogICAgICAgIFRleHRWaWV3IHR2OwogICAgICAgIHB1YmxpYyBDaGVja0JveCBjYjsKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.ui.adapter;
+
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.graphics.Color;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.CheckBox;
+import android.widget.TextView;
+
+import androidx.core.content.ContextCompat;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Objects;
+
+import fansirsqi.xposed.sesame.R;
+import fansirsqi.xposed.sesame.entity.MapperEntity;
+import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
+import fansirsqi.xposed.sesame.ui.widget.ListDialog;
+import fansirsqi.xposed.sesame.util.Log;
+
+public class ListAdapter extends BaseAdapter {
+    private static final String TAG = "ListAdapter";
+    @SuppressLint("StaticFieldLeak")
+    private static ListAdapter adapter;
+    private static ListDialog.ListType listType;
+    private final Context context;  // 将 context 声明为 final
+    private List<? extends MapperEntity> list;
+    private SelectModelFieldFunc selectModelFieldFunc;
+    private int findIndex = -1;
+    private String findWord = null;
+    public static List<ViewHolder> viewHolderList = new ArrayList<>();
+
+    public static ListAdapter get(Context c) {
+        if (adapter == null) {
+            adapter = new ListAdapter(c.getApplicationContext());  // 使用 ApplicationContext
+        }
+        return adapter;
+    }
+
+    public static ListAdapter getClear(Context c) {
+        ListAdapter adapter = get(c);
+        adapter.resetFindState();
+        return adapter;
+    }
+
+    public static ListAdapter getClear(Context c, ListDialog.ListType listType) {
+        ListAdapter adapter = get(c);
+        ListAdapter.listType = listType;
+        adapter.resetFindState();
+        return adapter;
+    }
+
+    private ListAdapter(Context c) {
+        this.context = c;  // 使用传入的上下文
+    }
+
+    public void setBaseList(List<? extends MapperEntity> l) {
+        if (l != list) {
+            exitFind();
+        }
+        this.list = l;
+    }
+
+    public void setSelectedList(SelectModelFieldFunc selectModelFieldFunc) {
+        this.selectModelFieldFunc = selectModelFieldFunc;
+        try {
+            Collections.sort(list, (o1, o2) -> {
+                boolean contains1 = Boolean.TRUE.equals(selectModelFieldFunc.contains(o1.id));
+                boolean contains2 = Boolean.TRUE.equals(selectModelFieldFunc.contains(o2.id));
+                if (contains1 == contains2) {
+                    return o1.compareTo(o2);
+                }
+                return contains1 ? -1 : 1;
+            });
+        } catch (Exception e) {
+            Log.record(TAG,"ListAdapter error");
+            Log.printStackTrace(e);
+        }
+    }
+
+    public int findLast(String findThis) {
+        return findItem(findThis, false);
+    }
+
+    public int findNext(String findThis) {
+        return findItem(findThis, true);
+    }
+
+    private int findItem(String findThis, boolean forward) {
+        if (list == null || list.isEmpty()) {
+            return -1;
+        }
+        findThis = findThis.toLowerCase();
+        if (!Objects.equals(findThis, findWord)) {
+            resetFindState();
+            findWord = findThis;
+        }
+        int current = Math.max(findIndex, 0);
+        int size = list.size();
+        int start = current;
+        do {
+            current = (forward) ? (current + 1) % size : (current - 1 + size) % size;
+            if (list.get(current).name.toLowerCase().contains(findThis)) {
+                findIndex = current;
+                notifyDataSetChanged();
+                return findIndex;
+            }
+        } while (current != start);
+        return -1;
+    }
+
+    public void resetFindState() {
+        findIndex = -1;
+        findWord = null;
+    }
+
+    public void exitFind() {
+        resetFindState();
+    }
+
+    public void selectAll() {
+        selectModelFieldFunc.clear();
+        for (MapperEntity item : list) {
+            selectModelFieldFunc.add(item.id, 0);
+        }
+        notifyDataSetChanged();
+    }
+
+    public void SelectInvert() {
+        for (MapperEntity item : list) {
+            if (Boolean.FALSE.equals(selectModelFieldFunc.contains(item.id))) {
+                selectModelFieldFunc.add(item.id, 0);
+            } else {
+                selectModelFieldFunc.remove(item.id);
+            }
+        }
+        notifyDataSetChanged();
+    }
+
+    @Override
+    public int getCount() {
+        return list != null ? list.size() : 0;
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return list.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder vh;
+        if (convertView == null) {
+            vh = new ViewHolder();
+            convertView = View.inflate(context, R.layout.list_item, null);
+            vh.tv = convertView.findViewById(R.id.tv_idn);
+            vh.cb = convertView.findViewById(R.id.cb_list);
+            if (listType == ListDialog.ListType.SHOW) {
+                vh.cb.setVisibility(View.GONE);
+            }
+            convertView.setTag(vh);
+            viewHolderList.add(vh);
+        } else {
+            vh = (ViewHolder) convertView.getTag();
+        }
+        MapperEntity item = list.get(position);
+        vh.tv.setText(item.name);
+        int textColorPrimary = ContextCompat.getColor(context, R.color.textColorPrimary);
+        vh.tv.setTextColor(findIndex == position ? Color.RED : textColorPrimary);
+        vh.cb.setChecked(selectModelFieldFunc != null && Boolean.TRUE.equals(selectModelFieldFunc.contains(item.id)));
+        return convertView;
+    }
+
+    /**
+     * 内部 ViewHolder 类，用于缓存列表项视图。
+     */
+    public static class ViewHolder {
+        TextView tv;
+        public CheckBox cb;
+    }
+}

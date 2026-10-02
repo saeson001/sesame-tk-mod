@@ -1,1 +1,7 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLm1hcHM7CnB1YmxpYyBjbGFzcyBWaXRhbGl0eVJld2FyZHNNYXAgZXh0ZW5kcyBJZE1hcE1hbmFnZXJ7CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgdGhpc0ZpbGVOYW1lKCl7CiAgICAgICAgcmV0dXJuICJ2aXRhbGl0eVJld2FyZHNNYXAuanNvbiI7Ly/mtLvlipvlgLzlhZHmjaLmmKDlsITooagKICAgIH0KfQo=
+package fansirsqi.xposed.sesame.util.maps;
+public class VitalityRewardsMap extends IdMapManager{
+    @Override
+    public String thisFileName(){
+        return "vitalityRewardsMap.json";//活力值兑换映射表
+    }
+}

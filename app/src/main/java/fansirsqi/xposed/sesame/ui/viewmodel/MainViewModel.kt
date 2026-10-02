@@ -1,1 +1,240 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS52aWV3bW9kZWwKCmltcG9ydCBhbmRyb2lkLmFwcC5BcHBsaWNhdGlvbgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5BbmRyb2lkVmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUudmlld01vZGVsU2NvcGUKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLlNlc2FtZUFwcGxpY2F0aW9uLkNvbXBhbmlvbi5QUkVGRVJFTkNFU19LRVkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLmVudGl0eS5Vc2VyRW50aXR5CmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5zZXJ2aWNlLkNvbm5lY3Rpb25TdGF0ZQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuc2VydmljZS5Mc3Bvc2VkU2VydmljZU1hbmFnZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLnNjcmVlbi5EZXZpY2VJbmZvVXRpbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Bc3NldFV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuQ29tbWFuZFV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRGF0YVN0b3JlCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsLkRpcmVjdG9yeVdhdGNoZXIKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuRmFuc2lyc3FpVXRpbAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5GaWxlcwppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5JY29uTWFuYWdlcgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5Mb2cKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuU3RhdHVzTWFuYWdlcgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudXRpbC5tYXBzLlVzZXJNYXAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkZsb3dQcmV2aWV3CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmNvbGxlY3RMYXRlc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmRlYm91bmNlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKCi8qKgogKiDkuLvnlYzpnaIgVmlld01vZGVsCiAqLwpjbGFzcyBNYWluVmlld01vZGVsKGFwcGxpY2F0aW9uOiBBcHBsaWNhdGlvbikgOiBBbmRyb2lkVmlld01vZGVsKGFwcGxpY2F0aW9uKSB7CgoKCiAgICAvLyAtLS0g5YaF6YOo54q25oCB5a6a5LmJIC0tLQogICAgc2VhbGVkIGNsYXNzIE1vZHVsZVN0YXR1cyB7CiAgICAgICAgZGF0YSBvYmplY3QgTG9hZGluZyA6IE1vZHVsZVN0YXR1cygpCiAgICAgICAgZGF0YSBvYmplY3QgTm90QWN0aXZhdGVkIDogTW9kdWxlU3RhdHVzKCkKICAgICAgICBkYXRhIGNsYXNzIEFjdGl2YXRlZCgKICAgICAgICAgICAgdmFsIGZyYW1ld29ya05hbWU6IFN0cmluZywgICAgIC8vIOahhuaetuWQjeensCAoTFNQb3NlZCwgTFNQYXRjaC4uLikKICAgICAgICAgICAgdmFsIGZyYW1ld29ya1ZlcnNpb246IFN0cmluZywgIC8vIOeJiOacrOWPtyAoTFNQb3NlZOaJjeacie+8jOWFtuS7luWPr+iDveS4uuepuikKICAgICAgICAgICAgdmFsIGFwaVZlcnNpb246IEludCAgICAgICAgICAgIC8vIEFQSeeJiOacrAogICAgICAgICkgOiBNb2R1bGVTdGF0dXMoKQogICAgfQoKCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgY29uc3QgdmFsIFRBRyA9ICJNYWluVmlld01vZGVsIgogICAgICAgIHZhciB2ZXJpZnVpZHMgPSBGYW5zaXJzcWlVdGlsLmdldEZvbGRlckxpc3QoRmlsZXMuQ09ORklHX0RJUi5hYnNvbHV0ZVBhdGgpCiAgICB9CgogICAgLy8gMS4g5a6a5LmJ54q25oCBCiAgICBwcml2YXRlIHZhbCBwcmVmcyA9IGFwcGxpY2F0aW9uLmdldFNoYXJlZFByZWZlcmVuY2VzKFBSRUZFUkVOQ0VTX0tFWSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCgogICAgcHJpdmF0ZSB2YWwgX29uZVdvcmQgPSBNdXRhYmxlU3RhdGVGbG93KCLmraPlnKjojrflj5blj6XlrZAuLi4iKQogICAgdmFsIG9uZVdvcmQ6IFN0YXRlRmxvdzxTdHJpbmc+ID0gX29uZVdvcmQuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9pc09uZVdvcmRMb2FkaW5nID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKICAgIHZhbCBpc09uZVdvcmRMb2FkaW5nID0gX2lzT25lV29yZExvYWRpbmcuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9tb2R1bGVTdGF0dXMgPSBNdXRhYmxlU3RhdGVGbG93PE1vZHVsZVN0YXR1cz4oTW9kdWxlU3RhdHVzLkxvYWRpbmcpCiAgICB2YWwgbW9kdWxlU3RhdHVzOiBTdGF0ZUZsb3c8TW9kdWxlU3RhdHVzPiA9IF9tb2R1bGVTdGF0dXMuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9hY3RpdmVVc2VyID0gTXV0YWJsZVN0YXRlRmxvdzxVc2VyRW50aXR5Pz4obnVsbCkKICAgIHZhbCBhY3RpdmVVc2VyOiBTdGF0ZUZsb3c8VXNlckVudGl0eT8+ID0gX2FjdGl2ZVVzZXIuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF91c2VyTGlzdCA9IE11dGFibGVTdGF0ZUZsb3c8TGlzdDxVc2VyRW50aXR5Pj4oZW1wdHlMaXN0KCkpCiAgICB2YWwgdXNlckxpc3Q6IFN0YXRlRmxvdzxMaXN0PFVzZXJFbnRpdHk+PiA9IF91c2VyTGlzdC5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2RldmljZUluZm8gPSBNdXRhYmxlU3RhdGVGbG93PE1hcDxTdHJpbmcsIFN0cmluZz4/PihudWxsKQogICAgdmFsIGRldmljZUluZm8gPSBfZGV2aWNlSW5mby5hc1N0YXRlRmxvdygpCgogICAgLy8gLS0tIOebkeWQrOWZqCAtLS0KCiAgICAvLyDnm5HlkKwgTFNQb3NlZCDmnI3liqHov57mjqUgKOS7heeUqOS6juabtOaWsOivpue7hueJiOacrOS/oeaBrykKICAgIHByaXZhdGUgdmFsIHNlcnZpY2VMaXN0ZW5lcjogKENvbm5lY3Rpb25TdGF0ZSkgLT4gVW5pdCA9IHsgXyAtPgogICAgICAgIHJlZnJlc2hNb2R1bGVGcmFtZXdvcmtTdGF0dXMoKQogICAgfQoKCiAgICBwcml2YXRlIHZhciBpc0luaXRpYWxpemVkID0gZmFsc2UKCiAgICBmdW4gaW5pdEFwcExvZ2ljKCkgewogICAgICAgIGlmIChpc0luaXRpYWxpemVkKSByZXR1cm4KICAgICAgICBpc0luaXRpYWxpemVkID0gdHJ1ZQoKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2goRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgaW5pdEVudmlyb25tZW50KCkKICAgICAgICAgICAgY29weUFzc2V0cygpCgogICAgICAgICAgICAvLyDliqDovb3liJ3lp4vmlbDmja4KICAgICAgICAgICAgcmVmcmVzaFVzZXJDb25maWdzKCkKICAgICAgICAgICAgZmV0Y2hPbmVXb3JkKCkKICAgICAgICAgICAgLy8g5Yid5aeL5qOA5p+l54q25oCBCiAgICAgICAgICAgIHJlZnJlc2hNb2R1bGVGcmFtZXdvcmtTdGF0dXMoKQogICAgICAgICAgICByZWZyZXNoQWN0aXZlVXNlcigpCiAgICAgICAgICAgIC8vIPCflKUg5paw5aKe77ya6Kem5Y+RIENvbW1hbmRTZXJ2aWNlIOi/nuaOpQogICAgICAgICAgICAvLyDov57mjqXmiJDlip/lkI7vvIxBSURMIOWbnuiwg+S8muiHquWKqOabtOaWsCBzZXJ2aWNlU3RhdHVzCiAgICAgICAgICAgIENvbW1hbmRVdGlsLmNvbm5lY3QoZ2V0QXBwbGljYXRpb24oKSkKCiAgICAgICAgICAgIC8vIOazqOWGjOebkeWQrAogICAgICAgICAgICBMc3Bvc2VkU2VydmljZU1hbmFnZXIuYWRkQ29ubmVjdGlvbkxpc3RlbmVyKHNlcnZpY2VMaXN0ZW5lcikKICAgICAgICAgICAgc3RhcnRDb25maWdEaXJlY3RvcnlPYnNlcnZlcigpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkNsZWFyZWQoKSB7CiAgICAgICAgc3VwZXIub25DbGVhcmVkKCkKICAgICAgICBMc3Bvc2VkU2VydmljZU1hbmFnZXIucmVtb3ZlQ29ubmVjdGlvbkxpc3RlbmVyKHNlcnZpY2VMaXN0ZW5lcikKICAgIH0KCgoKICAgIC8qKgogICAgICog5Yi35paw5qih5Z2X5qGG5p625r+A5rS754q25oCBCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHJlZnJlc2hNb2R1bGVGcmFtZXdvcmtTdGF0dXMoKSB7CiAgICAgICAgLy8gMS4g5bCd6K+V5LuO5paH5Lu26K+75Y+W54q25oCBICjlhbzlrrkgTFNQYXRjaCkKICAgICAgICB2YWwgZmlsZVN0YXR1cyA9IFN0YXR1c01hbmFnZXIucmVhZFN0YXR1cygpCgogICAgICAgIC8vIDIuIOWwneivleS7jiBTZXJ2aWNlIOivu+WPlueKtuaAgSAo5YW85a65IExTUG9zZWQpCiAgICAgICAgdmFsIGxzcFN0YXRlID0gTHNwb3NlZFNlcnZpY2VNYW5hZ2VyLmNvbm5lY3Rpb25TdGF0ZQoKICAgICAgICBpZiAobHNwU3RhdGUgaXMgQ29ubmVjdGlvblN0YXRlLkNvbm5lY3RlZCkgewogICAgICAgICAgICAvLyDkvJjlhYjkv6HotZYgU2VydmljZe+8jOWboOS4uuWug+aYr+WunuaXtueahOS4lOS/oeaBr+WFqAogICAgICAgICAgICBfbW9kdWxlU3RhdHVzLnZhbHVlID0gTW9kdWxlU3RhdHVzLkFjdGl2YXRlZCgKICAgICAgICAgICAgICAgIGZyYW1ld29ya05hbWUgPSBsc3BTdGF0ZS5zZXJ2aWNlLmZyYW1ld29ya05hbWUsCiAgICAgICAgICAgICAgICBmcmFtZXdvcmtWZXJzaW9uID0gbHNwU3RhdGUuc2VydmljZS5mcmFtZXdvcmtWZXJzaW9uLAogICAgICAgICAgICAgICAgYXBpVmVyc2lvbiA9IGxzcFN0YXRlLnNlcnZpY2UuYXBpVmVyc2lvbgogICAgICAgICAgICApCiAgICAgICAgfSBlbHNlIGlmIChmaWxlU3RhdHVzICE9IG51bGwpIHsKICAgICAgICAgICAgLy8g5aaC5p6cIFNlcnZpY2Ug5rKh6L+e5LiK77yM5L2G5paH5Lu26YeM5pyJ54q25oCB77yI6K+05piOIExTUGF0Y2gg55Sf5pWI5bm25YaZ5YWl5LqG77yJCiAgICAgICAgICAgIC8vIOWPr+mAie+8muajgOafpeaXtumXtOaIs++8jOWmguaenOWkquS5hei/nOWPr+iDveaEj+WRs+edgOebruagh+W6lOeUqOayoeWcqOi/kOihjAogICAgICAgICAgICBfbW9kdWxlU3RhdHVzLnZhbHVlID0gTW9kdWxlU3RhdHVzLkFjdGl2YXRlZCgKICAgICAgICAgICAgICAgIGZyYW1ld29ya05hbWUgPSBmaWxlU3RhdHVzLmZyYW1ld29yaywKICAgICAgICAgICAgICAgIGZyYW1ld29ya1ZlcnNpb24gPSAiIiwKICAgICAgICAgICAgICAgIGFwaVZlcnNpb24gPSAtMQogICAgICAgICAgICApCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgLy8g5ZWl6YO95rKh5pyJCiAgICAgICAgICAgIF9tb2R1bGVTdGF0dXMudmFsdWUgPSBNb2R1bGVTdGF0dXMuTm90QWN0aXZhdGVkCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5Yi35paw5b2T5YmN5r+A5rS755So5oi3CiAgICAgKiDku44gRGF0YVN0b3JlICjmlofku7YpIOivu+WPlgogICAgICovCiAgICBwcml2YXRlIGZ1biByZWZyZXNoQWN0aXZlVXNlcigpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgYWN0aXZlVXNlckVudGl0eSA9IERhdGFTdG9yZS5nZXQoImFjdGl2ZWRVc2VyIiwgVXNlckVudGl0eTo6Y2xhc3MuamF2YSkKICAgICAgICAgICAgX2FjdGl2ZVVzZXIudmFsdWUgPSBhY3RpdmVVc2VyRW50aXR5CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZy5lKFRBRywgIlJlYWQgYWN0aXZlIHVzZXIgZmFpbGVkIiwgZSkKICAgICAgICAgICAgX2FjdGl2ZVVzZXIudmFsdWUgPSBudWxsCiAgICAgICAgfQogICAgfQoKICAgIEBPcHRJbihGbG93UHJldmlldzo6Y2xhc3MpCiAgICBwcml2YXRlIGZ1biBzdGFydENvbmZpZ0RpcmVjdG9yeU9ic2VydmVyKCkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICBEaXJlY3RvcnlXYXRjaGVyLm9ic2VydmVEaXJlY3RvcnlDaGFuZ2VzKEZpbGVzLkNPTkZJR19ESVIpCiAgICAgICAgICAgICAgICAuZGVib3VuY2UoMTAwKQogICAgICAgICAgICAgICAgLmNvbGxlY3RMYXRlc3QgewogICAgICAgICAgICAgICAgICAgIHJlZnJlc2hVc2VyQ29uZmlncygpCiAgICAgICAgICAgICAgICAgICAgcmVmcmVzaEFjdGl2ZVVzZXIoKQogICAgICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWIt+aWsOeUqOaIt+mFjee9rgogICAgICovCiAgICBmdW4gcmVmcmVzaFVzZXJDb25maWdzKCkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGxhdGVzdFVzZXJJZHMgPSBGYW5zaXJzcWlVdGlsLmdldEZvbGRlckxpc3QoRmlsZXMuQ09ORklHX0RJUi5hYnNvbHV0ZVBhdGgpCiAgICAgICAgICAgICAgICB2YWwgbmV3TGlzdCA9IG11dGFibGVMaXN0T2Y8VXNlckVudGl0eT4oKQogICAgICAgICAgICAgICAgZm9yICh1c2VySWQgaW4gbGF0ZXN0VXNlcklkcykgewogICAgICAgICAgICAgICAgICAgIFVzZXJNYXAubG9hZFNlbGYodXNlcklkKQogICAgICAgICAgICAgICAgICAgIFVzZXJNYXAuZ2V0KHVzZXJJZCk/LmxldCB7IG5ld0xpc3QuYWRkKGl0KSB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBfdXNlckxpc3QudmFsdWUgPSBuZXdMaXN0CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLmUoVEFHLCAiRXJyb3IgcmVsb2FkaW5nIHVzZXIgY29uZmlncyIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgoKICAgIGZ1biByZWZyZXNoRGV2aWNlSW5mbyhjb250ZXh0OiBDb250ZXh0KSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdmFsIGluZm8gPSBEZXZpY2VJbmZvVXRpbC5zaG93SW5mbyhjb250ZXh0KQogICAgICAgICAgICBfZGV2aWNlSW5mby52YWx1ZSA9IGluZm8KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaW5pdEVudmlyb25tZW50KCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIExzcG9zZWRTZXJ2aWNlTWFuYWdlci5pbml0KCkKICAgICAgICAgICAgRGF0YVN0b3JlLmluaXQoRmlsZXMuQ09ORklHX0RJUikKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9nLmUoVEFHLCAiRW52aXJvbm1lbnQgaW5pdCBmYWlsZWQiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBjb3B5QXNzZXRzKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBjdHggPSBnZXRBcHBsaWNhdGlvbjxBcHBsaWNhdGlvbj4oKQogICAgICAgICAgICBBc3NldFV0aWwuY29weVNvRmlsZVRvU3RvcmFnZShjdHgsIEFzc2V0VXRpbC5jaGVja2VyRGVzdEZpbGUpCiAgICAgICAgICAgIEFzc2V0VXRpbC5jb3B5U29GaWxlVG9TdG9yYWdlKGN0eCwgQXNzZXRVdGlsLmRleGtpdERlc3RGaWxlKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cuZShUQUcsICJBc3NldCBjb3B5IGVycm9yIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGZldGNoT25lV29yZCgpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBfaXNPbmVXb3JkTG9hZGluZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgdmFsIHN0YXJ0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgeyBGYW5zaXJzcWlVdGlsLmdldE9uZVdvcmQoKSB9CiAgICAgICAgICAgIHZhbCBlbGFwc2VkVGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnRUaW1lCiAgICAgICAgICAgIGlmIChlbGFwc2VkVGltZSA8IDI1MDApIGRlbGF5KDUwMCAtIGVsYXBzZWRUaW1lKQogICAgICAgICAgICBfb25lV29yZC52YWx1ZSA9IHJlc3VsdAogICAgICAgICAgICBfaXNPbmVXb3JkTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzeW5jSWNvblN0YXRlKGlzSGlkZGVuOiBCb29sZWFuKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoKERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIEljb25NYW5hZ2VyLnN5bmNJY29uU3RhdGUoZ2V0QXBwbGljYXRpb24oKSwgaXNIaWRkZW4pCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.ui.viewmodel
+
+import android.app.Application
+import android.content.Context
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
+import fansirsqi.xposed.sesame.SesameApplication.Companion.PREFERENCES_KEY
+import fansirsqi.xposed.sesame.entity.UserEntity
+import fansirsqi.xposed.sesame.service.ConnectionState
+import fansirsqi.xposed.sesame.service.LsposedServiceManager
+import fansirsqi.xposed.sesame.ui.screen.DeviceInfoUtil
+import fansirsqi.xposed.sesame.util.AssetUtil
+import fansirsqi.xposed.sesame.util.CommandUtil
+import fansirsqi.xposed.sesame.util.DataStore
+import fansirsqi.xposed.sesame.util.DirectoryWatcher
+import fansirsqi.xposed.sesame.util.FansirsqiUtil
+import fansirsqi.xposed.sesame.util.Files
+import fansirsqi.xposed.sesame.util.IconManager
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.StatusManager
+import fansirsqi.xposed.sesame.util.maps.UserMap
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.debounce
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+/**
+ * 主界面 ViewModel
+ */
+class MainViewModel(application: Application) : AndroidViewModel(application) {
+
+
+
+    // --- 内部状态定义 ---
+    sealed class ModuleStatus {
+        data object Loading : ModuleStatus()
+        data object NotActivated : ModuleStatus()
+        data class Activated(
+            val frameworkName: String,     // 框架名称 (LSPosed, LSPatch...)
+            val frameworkVersion: String,  // 版本号 (LSPosed才有，其他可能为空)
+            val apiVersion: Int            // API版本
+        ) : ModuleStatus()
+    }
+
+
+
+    companion object {
+        const val TAG = "MainViewModel"
+        var verifuids = FansirsqiUtil.getFolderList(Files.CONFIG_DIR.absolutePath)
+    }
+
+    // 1. 定义状态
+    private val prefs = application.getSharedPreferences(PREFERENCES_KEY, Context.MODE_PRIVATE)
+
+    private val _oneWord = MutableStateFlow("正在获取句子...")
+    val oneWord: StateFlow<String> = _oneWord.asStateFlow()
+
+    private val _isOneWordLoading = MutableStateFlow(false)
+    val isOneWordLoading = _isOneWordLoading.asStateFlow()
+
+    private val _moduleStatus = MutableStateFlow<ModuleStatus>(ModuleStatus.Loading)
+    val moduleStatus: StateFlow<ModuleStatus> = _moduleStatus.asStateFlow()
+
+    private val _activeUser = MutableStateFlow<UserEntity?>(null)
+    val activeUser: StateFlow<UserEntity?> = _activeUser.asStateFlow()
+
+    private val _userList = MutableStateFlow<List<UserEntity>>(emptyList())
+    val userList: StateFlow<List<UserEntity>> = _userList.asStateFlow()
+
+    private val _deviceInfo = MutableStateFlow<Map<String, String>?>(null)
+    val deviceInfo = _deviceInfo.asStateFlow()
+
+    // --- 监听器 ---
+
+    // 监听 LSPosed 服务连接 (仅用于更新详细版本信息)
+    private val serviceListener: (ConnectionState) -> Unit = { _ ->
+        refreshModuleFrameworkStatus()
+    }
+
+
+    private var isInitialized = false
+
+    fun initAppLogic() {
+        if (isInitialized) return
+        isInitialized = true
+
+        viewModelScope.launch(Dispatchers.IO) {
+            initEnvironment()
+            copyAssets()
+
+            // 加载初始数据
+            refreshUserConfigs()
+            fetchOneWord()
+            // 初始检查状态
+            refreshModuleFrameworkStatus()
+            refreshActiveUser()
+            // 🔥 新增：触发 CommandService 连接
+            // 连接成功后，AIDL 回调会自动更新 serviceStatus
+            CommandUtil.connect(getApplication())
+
+            // 注册监听
+            LsposedServiceManager.addConnectionListener(serviceListener)
+            startConfigDirectoryObserver()
+        }
+    }
+
+    override fun onCleared() {
+        super.onCleared()
+        LsposedServiceManager.removeConnectionListener(serviceListener)
+    }
+
+
+
+    /**
+     * 刷新模块框架激活状态
+     */
+    private fun refreshModuleFrameworkStatus() {
+        // 1. 尝试从文件读取状态 (兼容 LSPatch)
+        val fileStatus = StatusManager.readStatus()
+
+        // 2. 尝试从 Service 读取状态 (兼容 LSPosed)
+        val lspState = LsposedServiceManager.connectionState
+
+        if (lspState is ConnectionState.Connected) {
+            // 优先信赖 Service，因为它是实时的且信息全
+            _moduleStatus.value = ModuleStatus.Activated(
+                frameworkName = lspState.service.frameworkName,
+                frameworkVersion = lspState.service.frameworkVersion,
+                apiVersion = lspState.service.apiVersion
+            )
+        } else if (fileStatus != null) {
+            // 如果 Service 没连上，但文件里有状态（说明 LSPatch 生效并写入了）
+            // 可选：检查时间戳，如果太久远可能意味着目标应用没在运行
+            _moduleStatus.value = ModuleStatus.Activated(
+                frameworkName = fileStatus.framework,
+                frameworkVersion = "",
+                apiVersion = -1
+            )
+        } else {
+            // 啥都没有
+            _moduleStatus.value = ModuleStatus.NotActivated
+        }
+    }
+
+    /**
+     * 刷新当前激活用户
+     * 从 DataStore (文件) 读取
+     */
+    private fun refreshActiveUser() {
+        try {
+            val activeUserEntity = DataStore.get("activedUser", UserEntity::class.java)
+            _activeUser.value = activeUserEntity
+        } catch (e: Exception) {
+            Log.e(TAG, "Read active user failed", e)
+            _activeUser.value = null
+        }
+    }
+
+    @OptIn(FlowPreview::class)
+    private fun startConfigDirectoryObserver() {
+        viewModelScope.launch(Dispatchers.IO) {
+            DirectoryWatcher.observeDirectoryChanges(Files.CONFIG_DIR)
+                .debounce(100)
+                .collectLatest {
+                    refreshUserConfigs()
+                    refreshActiveUser()
+                }
+        }
+    }
+
+    /**
+     * 刷新用户配置
+     */
+    fun refreshUserConfigs() {
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                val latestUserIds = FansirsqiUtil.getFolderList(Files.CONFIG_DIR.absolutePath)
+                val newList = mutableListOf<UserEntity>()
+                for (userId in latestUserIds) {
+                    UserMap.loadSelf(userId)
+                    UserMap.get(userId)?.let { newList.add(it) }
+                }
+                _userList.value = newList
+            } catch (e: Exception) {
+                Log.e(TAG, "Error reloading user configs", e)
+            }
+        }
+    }
+
+
+    fun refreshDeviceInfo(context: Context) {
+        viewModelScope.launch {
+            val info = DeviceInfoUtil.showInfo(context)
+            _deviceInfo.value = info
+        }
+    }
+
+    private fun initEnvironment() {
+        try {
+            LsposedServiceManager.init()
+            DataStore.init(Files.CONFIG_DIR)
+        } catch (e: Exception) {
+            Log.e(TAG, "Environment init failed", e)
+        }
+    }
+
+    private fun copyAssets() {
+        try {
+            val ctx = getApplication<Application>()
+            AssetUtil.copySoFileToStorage(ctx, AssetUtil.checkerDestFile)
+            AssetUtil.copySoFileToStorage(ctx, AssetUtil.dexkitDestFile)
+        } catch (e: Exception) {
+            Log.e(TAG, "Asset copy error", e)
+        }
+    }
+
+    fun fetchOneWord() {
+        viewModelScope.launch {
+            _isOneWordLoading.value = true
+            val startTime = System.currentTimeMillis()
+            val result = withContext(Dispatchers.IO) { FansirsqiUtil.getOneWord() }
+            val elapsedTime = System.currentTimeMillis() - startTime
+            if (elapsedTime < 2500) delay(500 - elapsedTime)
+            _oneWord.value = result
+            _isOneWordLoading.value = false
+        }
+    }
+
+    fun syncIconState(isHidden: Boolean) {
+        viewModelScope.launch(Dispatchers.IO) {
+            IconManager.syncIconState(getApplication(), isHidden)
+        }
+    }
+}

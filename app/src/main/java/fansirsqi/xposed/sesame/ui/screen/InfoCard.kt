@@ -1,1 +1,122 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ2xpcERhdGEKaW1wb3J0IGFuZHJvaWQuY29udGVudC5DbGlwYm9hcmRNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmNvbWJpbmVkQ2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DYXJkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DYXJkRGVmYXVsdHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5zcAppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUuQnVpbGRDb25maWcKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuQ29tbWFuZFV0aWwKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuVG9hc3RVdGlsCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKQENvbXBvc2FibGUKZnVuIERldmljZUluZm9DYXJkKGluZm86IE1hcDxTdHJpbmcsIFN0cmluZz4pIHsKICAgIENhcmQoCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgLnBhZGRpbmcoOC5kcCksCiAgICAgICAgZWxldmF0aW9uID0gQ2FyZERlZmF1bHRzLmNhcmRFbGV2YXRpb24oNC5kcCkvL+mYtOW9sQogICAgKSB7CiAgICAgICAgQ29sdW1uKAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAucGFkZGluZyg4LmRwKSwKICAgICAgICApIHsKICAgICAgICAgICAgaW5mby5mb3JFYWNoIHsgKGxhYmVsLCB2YWx1ZSkgLT4KICAgICAgICAgICAgICAgIHdoZW4gKGxhYmVsKSB7CiAgICAgICAgICAgICAgICAgICAgIlZlcmlmeSBJRCIgLT4gewogICAgICAgICAgICAgICAgICAgICAgICB2YXIgc2hvd0Z1bGwgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZGlzcGxheVZhbHVlID0gaWYgKHNob3dGdWxsKSB2YWx1ZSBlbHNlICIqKioqKioqKioqKioqKioqKioqKioqIgogICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gIiRsYWJlbDogJGRpc3BsYXlWYWx1ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IDE0LnNwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb21iaW5lZENsaWNrYWJsZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgc2hvd0Z1bGwgPSAhc2hvd0Z1bGwgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25Mb25nQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY2xpcGJvYXJkTWFuYWdlciA9IGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LkNMSVBCT0FSRF9TRVJWSUNFKSBhcyBDbGlwYm9hcmRNYW5hZ2VyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY2xpcCA9IENsaXBEYXRhLm5ld1BsYWluVGV4dCgiVmVyaWZ5IElEIiwgdmFsdWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGlwYm9hcmRNYW5hZ2VyLnNldFByaW1hcnlDbGlwKGNsaXApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb2FzdFV0aWwuc2hvd1RvYXN0KCJWZXJpZnkgSUQgY29waWVkIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSAiJGxhYmVsOiAkdmFsdWUiLCBmb250U2l6ZSA9IDE0LnNwLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgxLmRwKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKb2JqZWN0IERldmljZUluZm9VdGlsIHsKCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGdldFByb3AoY29udGV4dDogQ29udGV4dCwgcHJvcDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gQ29tbWFuZFV0aWwuZXhlY3V0ZUNvbW1hbmQoY29udGV4dCwgImdldHByb3AgJHByb3AiKT8udHJpbSgpID86ICIiCiAgICB9CgoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZ2V0RGV2aWNlTmFtZShjb250ZXh0OiBDb250ZXh0KTogU3RyaW5nIHsKICAgICAgICB2YWwgY2FuZGlkYXRlcyA9IGxpc3RPZigKICAgICAgICAgICAgInJvLnByb2R1Y3QubWFya2V0bmFtZSIsLy9taXVpCiAgICAgICAgICAgICJyby52ZW5kb3Iub3BsdXMubWFya2V0LmVubmFtZSIsLy9vcGx1cwogICAgICAgICAgICAicm8udmVuZG9yLm9wbHVzLm1hcmtldC5uYW1lIiwvL3JlYWxtZQogICAgICAgICAgICAicm8udml2by5tYXJrZXQubmFtZSIsLy92aXZvCiAgICAgICAgICAgICJyby5jb25maWcubWFya2V0aW5nX25hbWUiLC8vaHVhd2VpL2hvbm9yCiAgICAgICAgICAgICJyby5wcm9kdWN0Lm1vZGVsIiwvL+WFnOW6lQogICAgICAgICkKICAgICAgICBmb3IgKHByb3AgaW4gY2FuZGlkYXRlcykgewogICAgICAgICAgICB2YWwgdmFsdWUgPSBnZXRQcm9wKGNvbnRleHQsIHByb3ApCiAgICAgICAgICAgIGlmICh2YWx1ZS5pc05vdEJsYW5rKCkpIHJldHVybiB2YWx1ZQogICAgICAgIH0KICAgICAgICByZXR1cm4gIiR7QnVpbGQuQlJBTkR9ICR7QnVpbGQuTU9ERUx9IgogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZ2V0U24oY29udGV4dDogQ29udGV4dCk6IFN0cmluZyB7CiAgICAgICAgdmFsIHNuID0gZ2V0UHJvcChjb250ZXh0LCAicm8uc2VyaWFsbm8iKQogICAgICAgIGlmIChzbi5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIHNuCiAgICAgICAgfQogICAgICAgIHJldHVybiAi6K+35L2/55SoU2hpenVrdeaOiOadg+aooeWdl+KaoO+4jyIKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzaG93SW5mbyhjb250ZXh0OiBDb250ZXh0KTogTWFwPFN0cmluZywgU3RyaW5nPiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIGRldmljZU5hbWUgPSBnZXREZXZpY2VOYW1lKGNvbnRleHQpCiAgICAgICAgdmFsIHZlcmlmeUlkID0gZ2V0U24oY29udGV4dCkKCiAgICAgICAgbWFwT2YoCiAgICAgICAgICAgICJQcm9kdWN0IiB0byAiJHtCdWlsZC5NQU5VRkFDVFVSRVJ9ICR7QnVpbGQuUFJPRFVDVH0iLAogICAgICAgICAgICAiRGV2aWNlIiB0byBkZXZpY2VOYW1lLAogICAgICAgICAgICAiQW5kcm9pZCBWZXJzaW9uIiB0byAiJHtCdWlsZC5WRVJTSU9OLlJFTEVBU0V9IChTREsgJHtCdWlsZC5WRVJTSU9OLlNES19JTlR9KSIsCiAgICAgICAgICAgICJTeXN0ZW0gVmVyc2lvbiIgdG8gIiR7QnVpbGQuRElTUExBWX0iLAogICAgICAgICAgICAiVmVyaWZ5IElEIiB0byB2ZXJpZnlJZCwKICAgICAgICAgICAgIkJ1aWxkIERhdGUiIHRvICIke0J1aWxkQ29uZmlnLkJVSUxEX0RBVEV9ICR7QnVpbGRDb25maWcuQlVJTERfVElNRX0iCiAgICAgICAgKQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.ui.screen
+
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
+import android.os.Build
+import androidx.compose.foundation.combinedClickable
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import fansirsqi.xposed.sesame.BuildConfig
+import fansirsqi.xposed.sesame.util.CommandUtil
+import fansirsqi.xposed.sesame.util.ToastUtil
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+@Composable
+fun DeviceInfoCard(info: Map<String, String>) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(8.dp),
+        elevation = CardDefaults.cardElevation(4.dp)//阴影
+    ) {
+        Column(
+            modifier = Modifier
+                .padding(8.dp),
+        ) {
+            info.forEach { (label, value) ->
+                when (label) {
+                    "Verify ID" -> {
+                        var showFull by remember { mutableStateOf(false) }
+                        val displayValue = if (showFull) value else "**********************"
+                        val context = LocalContext.current
+                        Text(
+                            text = "$label: $displayValue",
+                            fontSize = 14.sp,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .combinedClickable(
+                                    onClick = { showFull = !showFull },
+                                    onLongClick = {
+                                        val clipboardManager = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                                        val clip = ClipData.newPlainText("Verify ID", value)
+                                        clipboardManager.setPrimaryClip(clip)
+                                        ToastUtil.showToast("Verify ID copied")
+                                    }
+                                ),
+                            style = MaterialTheme.typography.bodyMedium
+                        )
+                    }
+
+                    else -> {
+                        Text(text = "$label: $value", fontSize = 14.sp, style = MaterialTheme.typography.bodyMedium)
+                    }
+                }
+                Spacer(modifier = Modifier.height(1.dp))
+            }
+        }
+    }
+}
+
+object DeviceInfoUtil {
+
+    private suspend fun getProp(context: Context, prop: String): String {
+        return CommandUtil.executeCommand(context, "getprop $prop")?.trim() ?: ""
+    }
+
+
+    private suspend fun getDeviceName(context: Context): String {
+        val candidates = listOf(
+            "ro.product.marketname",//miui
+            "ro.vendor.oplus.market.enname",//oplus
+            "ro.vendor.oplus.market.name",//realme
+            "ro.vivo.market.name",//vivo
+            "ro.config.marketing_name",//huawei/honor
+            "ro.product.model",//兜底
+        )
+        for (prop in candidates) {
+            val value = getProp(context, prop)
+            if (value.isNotBlank()) return value
+        }
+        return "${Build.BRAND} ${Build.MODEL}"
+    }
+
+    private suspend fun getSn(context: Context): String {
+        val sn = getProp(context, "ro.serialno")
+        if (sn.isNotBlank()) {
+            return sn
+        }
+        return "请使用Shizuku授权模块⚠️"
+    }
+
+    suspend fun showInfo(context: Context): Map<String, String> = withContext(Dispatchers.IO) {
+        val deviceName = getDeviceName(context)
+        val verifyId = getSn(context)
+
+        mapOf(
+            "Product" to "${Build.MANUFACTURER} ${Build.PRODUCT}",
+            "Device" to deviceName,
+            "Android Version" to "${Build.VERSION.RELEASE} (SDK ${Build.VERSION.SDK_INT})",
+            "System Version" to "${Build.DISPLAY}",
+            "Verify ID" to verifyId,
+            "Build Date" to "${BuildConfig.BUILD_DATE} ${BuildConfig.BUILD_TIME}"
+        )
+    }
+}

@@ -1,1 +1,109 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrCgppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUubW9kZWwuTW9kZWxGaWVsZHMKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLm1vZGVsLk1vZGVsR3JvdXAKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnV0aWwuTG9nCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKLyoqCiAqIOS4u+S7u+WKoeexuyAtIOeUqOS6jiBBcHBsaWNhdGlvbkhvb2sg5Lit55qE5Li75Lu75Yqh6LCD5bqmCiAqIAogKiDov5nmmK/kuIDkuKrovbvph4/nuqfnmoQgTW9kZWxUYXNrIOWunueOsO+8jOeUqOS6juabv+S7o+WOn+adpeeahCBCYXNlVGFza+OAggogKiDkvb/nlKjljY/nqIvogIzkuI3mmK/kvKDnu5/nur/nqIvvvIzmj5Dkvpvmm7Tlpb3nmoTmgKfog73lkozotYTmupDnrqHnkIbjgIIKICogCiAqIEBwYXJhbSB0YXNrSWQg5Lu75YqhSUQKICogQHBhcmFtIHRhc2tSdW5uYWJsZSDopoHmiafooYznmoTku7vliqHpgLvovpEKICovCmNsYXNzIE1haW5UYXNrKAogICAgcHJpdmF0ZSB2YWwgdGFza0lkOiBTdHJpbmcsCiAgICBwcml2YXRlIHZhbCB0YXNrUnVubmFibGU6IHN1c3BlbmQgKCkgLT4gVW5pdAopIDogTW9kZWxUYXNrKCkgewogICAgCiAgICBpbml0IHsKICAgICAgICAvLyDkuLvku7vliqHlp4vnu4jlkK/nlKjvvIzkuI3lj5fphY3nva7mjqfliLYKICAgICAgICBlbmFibGVGaWVsZC52YWx1ZSA9IHRydWUKICAgIH0KICAgIAogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIk1haW5UYXNrIgogICAgICAgIAogICAgICAgIC8qKgogICAgICAgICAqIOW3peWOguaWueazle+8muS7jiBKYXZhIFJ1bm5hYmxlIOWIm+W7uiBNYWluVGFzawoKICAgICAgICAgKiAKICAgICAgICAgKiBAcGFyYW0gaWQg5Lu75YqhSUQKICAgICAgICAgKiBAcGFyYW0gcnVubmFibGUgSmF2YSBSdW5uYWJsZSDlr7nosaEKICAgICAgICAgKiBAcmV0dXJuIE1haW5UYXNrIOWunuS+iwogICAgICAgICAqLwogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gbmV3SW5zdGFuY2UoaWQ6IFN0cmluZywgcnVubmFibGU6IFJ1bm5hYmxlKTogTWFpblRhc2sgewogICAgICAgICAgICByZXR1cm4gTWFpblRhc2soaWQpIHsKICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgcnVubmFibGUucnVuKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICB9CiAgICAKICAgIC8qKgogICAgICog6I635Y+W5Lu75Yqh5ZCN56ewCiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBnZXROYW1lKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRhc2tJZAogICAgfQogICAgCiAgICAvKioKICAgICAqIOiOt+WPluS7u+WKoeaJgOWxnue7hO+8iOS4u+S7u+WKoeWxnuS6juWfuuehgOe7hO+8iQogICAgICovCiAgICBvdmVycmlkZSBmdW4gZ2V0R3JvdXAoKTogTW9kZWxHcm91cCB7CiAgICAgICAgcmV0dXJuIE1vZGVsR3JvdXAuQkFTRQogICAgfQogICAgCiAgICAvKioKICAgICAqIOiOt+WPluS7u+WKoeWbvuagh++8iOS4u+S7u+WKoeS9v+eUqOm7mOiupOWbvuagh++8iQogICAgICovCiAgICBvdmVycmlkZSBmdW4gZ2V0SWNvbigpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiZGVmYXVsdC5zdmciCiAgICB9CiAgICAKICAgIC8qKgogICAgICog6I635Y+W5a2X5q616YWN572u77yI5Li75Lu75Yqh5LiN6ZyA6KaB6YWN572u5a2X5q6177yJCiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBnZXRGaWVsZHMoKTogTW9kZWxGaWVsZHM/IHsKICAgICAgICByZXR1cm4gbnVsbAogICAgfQogICAgCiAgICAvKioKICAgICAqIOajgOafpeS7u+WKoeaYr+WQpuWPr+S7peaJp+ihjAogICAgICog5Li75Lu75Yqh5aeL57uI6L+U5ZueIHRydWUKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIGNoZWNrKCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnVlCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5omn6KGM5Lu75Yqh6YC76L6R77yI5Y2P56iL54mI5pys77yJCiAgICAgKi8KICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHJ1blN1c3BlbmQoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdGFza1J1bm5hYmxlKCkKICAgICAgICB9IGNhdGNoIChlOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgLy8g5Y2P56iL5Y+W5raI5piv5q2j5bi455qE5o6n5Yi25rWB77yM5LiN5bqU6K+l5o2V6I6377yM6ZyA6KaB6YeN5paw5oqb5Ye6CiAgICAgICAgICAgIExvZy5yZWNvcmQoVEFHLCAi5Lu75Yqh6KKr5Y+W5raIOiAkdGFza0lkIikKICAgICAgICAgICAgdGhyb3cgZSAvLyDph43mlrDmipvlh7ogQ2FuY2VsbGF0aW9uRXhjZXB0aW9uIOS7peS/neaMgeWNj+eoi+WPlua2iOivreS5iQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAvLyDlj6rmjZXojrfnnJ/mraPnmoTlvILluLjvvIzkuI3mjZXojrcgQ2FuY2VsbGF0aW9uRXhjZXB0aW9uCiAgICAgICAgICAgIExvZy5wcmludFN0YWNrVHJhY2UoVEFHLCAi5Li75Lu75Yqh5omn6KGM5byC5bi4IiwgZSkKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICogSmF2YSDlhbzlrrnnmoQgc3RhcnRUYXNrIOaWueazlQogICAgICovCiAgICBmdW4gc3RhcnRUYXNrKGZvcmNlOiBCb29sZWFuKSB7CiAgICAgICAgc3RhcnRUYXNrKGZvcmNlLCAxKQogICAgfQp9
+package fansirsqi.xposed.sesame.task
+
+import fansirsqi.xposed.sesame.model.ModelFields
+import fansirsqi.xposed.sesame.model.ModelGroup
+import fansirsqi.xposed.sesame.util.Log
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+/**
+ * 主任务类 - 用于 ApplicationHook 中的主任务调度
+ * 
+ * 这是一个轻量级的 ModelTask 实现，用于替代原来的 BaseTask。
+ * 使用协程而不是传统线程，提供更好的性能和资源管理。
+ * 
+ * @param taskId 任务ID
+ * @param taskRunnable 要执行的任务逻辑
+ */
+class MainTask(
+    private val taskId: String,
+    private val taskRunnable: suspend () -> Unit
+) : ModelTask() {
+    
+    init {
+        // 主任务始终启用，不受配置控制
+        enableField.value = true
+    }
+    
+    companion object {
+        private const val TAG = "MainTask"
+        
+        /**
+         * 工厂方法：从 Java Runnable 创建 MainTask
+
+         * 
+         * @param id 任务ID
+         * @param runnable Java Runnable 对象
+         * @return MainTask 实例
+         */
+        @JvmStatic
+        fun newInstance(id: String, runnable: Runnable): MainTask {
+            return MainTask(id) {
+                withContext(Dispatchers.IO) {
+                    runnable.run()
+                }
+            }
+        }
+
+    }
+    
+    /**
+     * 获取任务名称
+     */
+    override fun getName(): String {
+        return taskId
+    }
+    
+    /**
+     * 获取任务所属组（主任务属于基础组）
+     */
+    override fun getGroup(): ModelGroup {
+        return ModelGroup.BASE
+    }
+    
+    /**
+     * 获取任务图标（主任务使用默认图标）
+     */
+    override fun getIcon(): String {
+        return "default.svg"
+    }
+    
+    /**
+     * 获取字段配置（主任务不需要配置字段）
+     */
+    override fun getFields(): ModelFields? {
+        return null
+    }
+    
+    /**
+     * 检查任务是否可以执行
+     * 主任务始终返回 true
+     */
+    override fun check(): Boolean {
+        return true
+    }
+    
+    /**
+     * 执行任务逻辑（协程版本）
+     */
+    override suspend fun runSuspend() {
+        try {
+            taskRunnable()
+        } catch (e: CancellationException) {
+            // 协程取消是正常的控制流，不应该捕获，需要重新抛出
+            Log.record(TAG, "任务被取消: $taskId")
+            throw e // 重新抛出 CancellationException 以保持协程取消语义
+        } catch (e: Exception) {
+            // 只捕获真正的异常，不捕获 CancellationException
+            Log.printStackTrace(TAG, "主任务执行异常", e)
+        }
+    }
+    
+    /**
+     * Java 兼容的 startTask 方法
+     */
+    fun startTask(force: Boolean) {
+        startTask(force, 1)
+    }
+}

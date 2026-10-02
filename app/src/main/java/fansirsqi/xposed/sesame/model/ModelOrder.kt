@@ -1,1 +1,49 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5tb2RlbA0KDQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5BbnN3ZXJBSS5BbnN3ZXJBSQ0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suRWNvUHJvdGVjdGlvbi5FY29Qcm90ZWN0aW9uDQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5hbnRDb29wZXJhdGUuQW50Q29vcGVyYXRlDQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5hbnREb2RvLkFudERvZG8NCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudEZhcm0uQW50RmFybQ0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suYW50Rm9yZXN0LkFudEZvcmVzdA0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suYW50TWVtYmVyLkFudE1lbWJlcg0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suYW50T2NlYW4uQW50T2NlYW4NCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmFudE9yY2hhcmQuQW50T3JjaGFyZA0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suYW50U3BvcnRzLkFudFNwb3J0cw0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suYW50U3RhbGwuQW50U3RhbGwNCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmJhY2t1cFN5bmMuQmFja3VwU3luYw0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suYnJvd3NlVmlkZW8uQnJvd3NlVmlkZW8NCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLmdhbWVDZW50ZXIuR2FtZUNlbnRlcg0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2suZ3JlZW5GaW5hbmNlLkdyZWVuRmluYW5jZQ0KaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnRhc2sub3RoZXIuT3RoZXJUYXNrDQppbXBvcnQgZmFuc2lyc3FpLnhwb3NlZC5zZXNhbWUudGFzay5yZXNlcnZlLlJlc2VydmUNCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLnNlc2FtZUNyZWRpdC5TZXNhbWVDcmVkaXQNCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS50YXNrLndlbGZhcmVDZW50ZXIuV2VsZmFyZUNlbnRlcg0KDQpvYmplY3QgTW9kZWxPcmRlciB7DQogICAgcHJpdmF0ZSB2YWwgYXJyYXkgPSBhcnJheU9mKA0KICAgICAgICBCYXNlTW9kZWw6OmNsYXNzLmphdmEsICAgICAgIC8vIOWfuuehgOiuvue9rg0KICAgICAgICBBbnRGb3Jlc3Q6OmNsYXNzLmphdmEsICAgICAgIC8vIOajruaelw0KICAgICAgICBBbnRGYXJtOjpjbGFzcy5qYXZhLCAgICAgICAgIC8vIOW6hOWbrQ0KICAgICAgICBBbnRPY2Vhbjo6Y2xhc3MuamF2YSwgICAgICAgIC8vIOa1t+a0iw0KICAgICAgICBBbnRTdGFsbDo6Y2xhc3MuamF2YSwgICAgICAvLyDomoLomoHmlrDmnZENCiAgICAgICAgQW50RG9kbzo6Y2xhc3MuamF2YSwgICAgICAgLy8g56We5aWH54mp56eNDQogICAgICAgIEFudENvb3BlcmF0ZTo6Y2xhc3MuamF2YSwgICAgLy8g5ZCI56eNDQogICAgICAgIEFudE1lbWJlcjo6Y2xhc3MuamF2YSwgICAgIC8vIOS8muWRmA0KICAgICAgICBBbnRPcmNoYXJkOjpjbGFzcy5qYXZhLCAgICAvLyDlhpzlnLoNCiAgICAgICAgQW50U3BvcnRzOjpjbGFzcy5qYXZhLCAgICAgICAvLyDov5DliqgNCiAgICAgICAgRWNvUHJvdGVjdGlvbjo6Y2xhc3MuamF2YSwgICAgIC8vIOWPpOagkQ0KICAgICAgICBHcmVlbkZpbmFuY2U6OmNsYXNzLmphdmEsICAvLyDnu7/oibLnu4/okKUNCiAgICAgICAgUmVzZXJ2ZTo6Y2xhc3MuamF2YSwgICAgICAgLy8g5L+d5oqk5ZywDQogICAgICAgIEJyb3dzZVZpZGVvOjpjbGFzcy5qYXZhLCAgIC8vIOinhumikee6ouWMhQ0KICAgICAgICBHYW1lQ2VudGVyOjpjbGFzcy5qYXZhLCAgICAvLyDmuLjmiI/kuK3lv4MgKOenu+akjeiHquiKnem6u+ezilNWSVApDQogICAgICAgIFNlc2FtZUNyZWRpdDo6Y2xhc3MuamF2YSwgIC8vIOiKnem6u+S/oeeUqCAo56e75qSN6Ieq6Iqd6bq757OKU1ZJUCkNCiAgICAgICAgV2VsZmFyZUNlbnRlcjo6Y2xhc3MuamF2YSwgLy8g56aP5Yip5Lit5b+DICjnp7vmpI3oh6roip3purvns4pTVklQKQ0KICAgICAgICBPdGhlclRhc2s6OmNsYXNzLmphdmEsICAgICAgLy8g5YW25LuWDQogICAgICAgIEFuc3dlckFJOjpjbGFzcy5qYXZhLCAgICAgICAvLyBBSeetlOmimA0KICAgICAgICBCYWNrdXBTeW5jOjpjbGFzcy5qYXZhICAgICAgLy8g6YWN572u5aSH5Lu95ZCM5q2lICjnp7vmpI3oh6roip3purvns4pTVklQKQ0KDQogICAgKQ0KDQogICAgdmFsIGFsbENvbmZpZzogTGlzdDxDbGFzczxvdXQgTW9kZWw+PiA9IGFycmF5LnRvTGlzdCgpDQp9DQo=
+package fansirsqi.xposed.sesame.model
+
+import fansirsqi.xposed.sesame.task.AnswerAI.AnswerAI
+import fansirsqi.xposed.sesame.task.EcoProtection.EcoProtection
+import fansirsqi.xposed.sesame.task.antCooperate.AntCooperate
+import fansirsqi.xposed.sesame.task.antDodo.AntDodo
+import fansirsqi.xposed.sesame.task.antFarm.AntFarm
+import fansirsqi.xposed.sesame.task.antForest.AntForest
+import fansirsqi.xposed.sesame.task.antMember.AntMember
+import fansirsqi.xposed.sesame.task.antOcean.AntOcean
+import fansirsqi.xposed.sesame.task.antOrchard.AntOrchard
+import fansirsqi.xposed.sesame.task.antSports.AntSports
+import fansirsqi.xposed.sesame.task.antStall.AntStall
+import fansirsqi.xposed.sesame.task.backupSync.BackupSync
+import fansirsqi.xposed.sesame.task.browseVideo.BrowseVideo
+import fansirsqi.xposed.sesame.task.gameCenter.GameCenter
+import fansirsqi.xposed.sesame.task.greenFinance.GreenFinance
+import fansirsqi.xposed.sesame.task.other.OtherTask
+import fansirsqi.xposed.sesame.task.reserve.Reserve
+import fansirsqi.xposed.sesame.task.sesameCredit.SesameCredit
+import fansirsqi.xposed.sesame.task.welfareCenter.WelfareCenter
+
+object ModelOrder {
+    private val array = arrayOf(
+        BaseModel::class.java,       // 基础设置
+        AntForest::class.java,       // 森林
+        AntFarm::class.java,         // 庄园
+        AntOcean::class.java,        // 海洋
+        AntStall::class.java,      // 蚂蚁新村
+        AntDodo::class.java,       // 神奇物种
+        AntCooperate::class.java,    // 合种
+        AntMember::class.java,     // 会员
+        AntOrchard::class.java,    // 农场
+        AntSports::class.java,       // 运动
+        EcoProtection::class.java,     // 古树
+        GreenFinance::class.java,  // 绿色经营
+        Reserve::class.java,       // 保护地
+        BrowseVideo::class.java,   // 视频红包
+        GameCenter::class.java,    // 游戏中心 (移植自芝麻糊SVIP)
+        SesameCredit::class.java,  // 芝麻信用 (移植自芝麻糊SVIP)
+        WelfareCenter::class.java, // 福利中心 (移植自芝麻糊SVIP)
+        OtherTask::class.java,      // 其他
+        AnswerAI::class.java,       // AI答题
+        BackupSync::class.java      // 配置备份同步 (移植自芝麻糊SVIP)
+
+    )
+
+    val allConfig: List<Class<out Model>> = array.toList()
+}

@@ -1,1 +1,53 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5zY3JlZW4uY29udGVudAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMucm91bmRlZC5BZ3JpY3VsdHVyZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5yb3VuZGVkLkFsaWduVmVydGljYWxUb3AKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMucm91bmRlZC5CdWdSZXBvcnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMucm91bmRlZC5EZXNjcmlwdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5yb3VuZGVkLkZvcmVzdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5yb3VuZGVkLkhpc3RvcnkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5NYWluQWN0aXZpdHkKaW1wb3J0IGZhbnNpcnNxaS54cG9zZWQuc2VzYW1lLnVpLnNjcmVlbi5jb21wb25lbnRzLk1lbnVCdXR0b24KCkBDb21wb3NhYmxlCmZ1biBMb2dzQ29udGVudCgKICAgIG9uRXZlbnQ6IChNYWluQWN0aXZpdHkuTWFpblVpRXZlbnQpIC0+IFVuaXQKKSB7CiAgICBDb2x1bW4oCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAucGFkZGluZygxNi5kcCksCiAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LkNlbnRlciwgLy8g5bGF5Lit5pi+56S6CiAgICAgICAgaG9yaXpvbnRhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHkKICAgICkgewogICAgICAgIC8vIOS9v+eUqCBHcmlkIOW4g+WxgOaIluiAheeugOWNleeahCBSb3cg57uE5ZCICiAgICAgICAgdmFsIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKQoKICAgICAgICBSb3coaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTIuZHApKSB7CiAgICAgICAgICAgIE1lbnVCdXR0b24odGV4dCA9ICLmo67mnpfml6Xlv5ciLCBpY29uID0gSWNvbnMuUm91bmRlZC5Gb3Jlc3QsIG1vZGlmaWVyID0gbW9kaWZpZXIpIHsgb25FdmVudChNYWluQWN0aXZpdHkuTWFpblVpRXZlbnQuT3BlbkZvcmVzdExvZykgfQogICAgICAgICAgICBNZW51QnV0dG9uKHRleHQgPSAi5Yac5Zy65pel5b+XIiwgaWNvbiA9IEljb25zLlJvdW5kZWQuQWdyaWN1bHR1cmUsIG1vZGlmaWVyID0gbW9kaWZpZXIpIHsgb25FdmVudChNYWluQWN0aXZpdHkuTWFpblVpRXZlbnQuT3BlbkZhcm1Mb2cpIH0KICAgICAgICB9CiAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMi5kcCkpCiAgICAgICAgUm93KGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDEyLmRwKSkgewogICAgICAgICAgICBNZW51QnV0dG9uKHRleHQgPSAi5YW25LuW5pel5b+XIiwgaWNvbiA9IEljb25zLlJvdW5kZWQuQWxpZ25WZXJ0aWNhbFRvcCwgbW9kaWZpZXIgPSBtb2RpZmllcikgeyBvbkV2ZW50KE1haW5BY3Rpdml0eS5NYWluVWlFdmVudC5PcGVuT3RoZXJMb2cpIH0KICAgICAgICAgICAgTWVudUJ1dHRvbih0ZXh0ID0gIumUmeivr+aXpeW/lyIsIGljb24gPSBJY29ucy5Sb3VuZGVkLkJ1Z1JlcG9ydCwgbW9kaWZpZXIgPSBtb2RpZmllcikgeyBvbkV2ZW50KE1haW5BY3Rpdml0eS5NYWluVWlFdmVudC5PcGVuRXJyb3JMb2cpIH0KICAgICAgICB9CiAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMi5kcCkpCiAgICAgICAgUm93KGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDEyLmRwKSkgewogICAgICAgICAgICBNZW51QnV0dG9uKHRleHQgPSAi5YWo6YOo5pel5b+XIiwgaWNvbiA9IEljb25zLlJvdW5kZWQuRGVzY3JpcHRpb24sIG1vZGlmaWVyID0gbW9kaWZpZXIpIHsgb25FdmVudChNYWluQWN0aXZpdHkuTWFpblVpRXZlbnQuT3BlbkFsbExvZykgfQogICAgICAgICAgICBNZW51QnV0dG9uKHRleHQgPSAi5oqT5YyF5pel5b+XIiwgaWNvbiA9IEljb25zLlJvdW5kZWQuSGlzdG9yeSwgbW9kaWZpZXIgPSBtb2RpZmllcikgeyBvbkV2ZW50KE1haW5BY3Rpdml0eS5NYWluVWlFdmVudC5PcGVuQ2FwdHVyZUxvZykgfQogICAgICAgIH0KICAgIH0KfQ==
+package fansirsqi.xposed.sesame.ui.screen.content
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Agriculture
+import androidx.compose.material.icons.rounded.AlignVerticalTop
+import androidx.compose.material.icons.rounded.BugReport
+import androidx.compose.material.icons.rounded.Description
+import androidx.compose.material.icons.rounded.Forest
+import androidx.compose.material.icons.rounded.History
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import fansirsqi.xposed.sesame.ui.MainActivity
+import fansirsqi.xposed.sesame.ui.screen.components.MenuButton
+
+@Composable
+fun LogsContent(
+    onEvent: (MainActivity.MainUiEvent) -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        verticalArrangement = Arrangement.Center, // 居中显示
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        // 使用 Grid 布局或者简单的 Row 组合
+        val modifier = Modifier.weight(1f)
+
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            MenuButton(text = "森林日志", icon = Icons.Rounded.Forest, modifier = modifier) { onEvent(MainActivity.MainUiEvent.OpenForestLog) }
+            MenuButton(text = "农场日志", icon = Icons.Rounded.Agriculture, modifier = modifier) { onEvent(MainActivity.MainUiEvent.OpenFarmLog) }
+        }
+        Spacer(Modifier.height(12.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            MenuButton(text = "其他日志", icon = Icons.Rounded.AlignVerticalTop, modifier = modifier) { onEvent(MainActivity.MainUiEvent.OpenOtherLog) }
+            MenuButton(text = "错误日志", icon = Icons.Rounded.BugReport, modifier = modifier) { onEvent(MainActivity.MainUiEvent.OpenErrorLog) }
+        }
+        Spacer(Modifier.height(12.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            MenuButton(text = "全部日志", icon = Icons.Rounded.Description, modifier = modifier) { onEvent(MainActivity.MainUiEvent.OpenAllLog) }
+            MenuButton(text = "抓包日志", icon = Icons.Rounded.History, modifier = modifier) { onEvent(MainActivity.MainUiEvent.OpenCaptureLog) }
+        }
+    }
+}

@@ -1,1 +1,112 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS5lbnRpdHkKCmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uYW5ub3RhdGlvbi5Kc29uSWdub3JlUHJvcGVydGllcwoKLyoqCiAqIOihqOekuuS4gOS4queUqOaIt+WunuS9k++8jOWMheWQq+eUqOaIt+eahOWfuuacrOS/oeaBr+OAggogKiDkvb/nlKggZGF0YSBjbGFzcyDoh6rliqjlpITnkIYgZ2V0dGVyL2VxdWFscy9oYXNoQ29kZQogKi8KZGF0YSBjbGFzcyBVc2VyRW50aXR5KAogICAgLyoqIOeUqOaItyBJRCAqLwogICAgdmFsIHVzZXJJZDogU3RyaW5nPywKICAgIC8qKiDnlKjmiLfnmoTotKblj7cgKi8KICAgIHZhbCBhY2NvdW50OiBTdHJpbmc/LAogICAgLyoqIOeUqOaIt+eahOWlveWPi+eKtuaAgSAqLwogICAgdmFsIGZyaWVuZFN0YXR1czogSW50PywKICAgIC8qKiDnlKjmiLfnmoTnnJ/lrp7lp5PlkI0gKi8KICAgIHZhbCByZWFsTmFtZTogU3RyaW5nPywKICAgIC8qKiDnlKjmiLfnmoTmmLXnp7AgKi8KICAgIHZhbCBuaWNrTmFtZTogU3RyaW5nPywKICAgIC8qKiDnlKjmiLfnmoTlpIfms6jlkI0gKi8KICAgIHZhbCByZW1hcmtOYW1lOiBTdHJpbmc/CikgewogICAgLyoqCiAgICAgKiDnlKjkuo7mmL7npLrnmoTlkI3lrZfvvIzkvJjlhYjkvb/nlKjlpIfms6jlkI3vvIzoi6Xml6DliJnkvb/nlKjmmLXnp7AKICAgICAqIOS8mOWMlu+8muS9v+eUqOS6hiBsYXp5IOWnlOaJmO+8jOWPquacieWcqOesrOS4gOasoeiuv+mXruaXtuaJjeiuoeeul++8jOiKguecgeWIneWni+WMluaAp+iDve+8iOWmguaenOWIl+ihqOW+iOmVv++8iQogICAgICog5oiW6ICF55u05o6l5L2c5Li65bGe5oCn5Yid5aeL5YyW5Lmf5Y+v5Lul44CCCiAgICAgKi8KICAgIHZhbCBzaG93TmFtZTogU3RyaW5nID0gaWYgKCFyZW1hcmtOYW1lLmlzTnVsbE9yRW1wdHkoKSkgcmVtYXJrTmFtZSBlbHNlIChuaWNrTmFtZSA/OiAiIikKCiAgICAvKioKICAgICAqIOeUqOS6juaYvuekuueahOmBruaOqeWQjeWtl++8jOecn+WunuWnk+WQjemmluWtl+avjeiiq+mBruaOqQogICAgICovCiAgICB2YWwgbWFza05hbWU6IFN0cmluZwoKICAgIC8qKgogICAgICog55So5oi355qE5YWo5ZCN77yM5qC85byP5Li677ya5pi+56S65ZCN5a2XIHwg55yf5a6e5aeT5ZCNICjotKblj7cpCiAgICAgKi8KICAgIHZhbCBmdWxsTmFtZTogU3RyaW5nCgogICAgLy8g5Yid5aeL5YyW5Z2X77yM5aSE55CG5aSN5p2C55qE5qC85byP5YyW6YC76L6RCi8vICAgIGluaXQgewovLyAgICAgICAgLy8g5aSE55CG6YGu5o6p5ZCN56ewCi8vICAgICAgICAvLyDkv67lpI3pgLvovpHvvJrlpITnkIYgcmVhbE5hbWUg5Li6IG51bGwg55qE5oOF5Ya177yM6YG/5YWN5pi+56S6ICJudWxsIgovLyAgICAgICAgdmFsIHNhZmVSZWFsTmFtZSA9IHJlYWxOYW1lID86ICIiCi8vICAgICAgICB2YWwgbWFza05hbWVUbXAgPSBpZiAoc2FmZVJlYWxOYW1lLmxlbmd0aCA+IDEpIHsKLy8gICAgICAgICAgICAiKiIgKyBzYWZlUmVhbE5hbWUuc3Vic3RyaW5nKDEpCi8vICAgICAgICB9IGVsc2UgewovLyAgICAgICAgICAgIHNhZmVSZWFsTmFtZQovLyAgICAgICAgfQovLwovLyAgICAgICAgLy8g5qC85byP5YyW6L6T5Ye6Ci8vICAgICAgICAvLyDkv67lpI3pgLvovpHvvJrlpoLmnpwgbWFza05hbWVUbXAg5Li656m677yM5LiN6KaB5ou85o6lICJ8Iu+8jOaIluiAheagueaNruS9oOeahOmcgOaxguS/neeVmeagvOW8jwovLyAgICAgICAgLy8g5Y6f6YC76L6R5piv55u05o6l5ou85o6l77yM6L+Z6YeM5L+d5oyB5Y6f6YC76L6R5L2G5Y676Zmk5LqGICJudWxsIiDlrZfnrKbkuLIKLy8gICAgICAgIHRoaXMubWFza05hbWUgPSAiJHNob3dOYW1lfCRtYXNrTmFtZVRtcCIKLy8KLy8gICAgICAgIC8vIOS/ruWkjemAu+i+ke+8muWkhOeQhiBhY2NvdW50IOS4uiBudWxsIOeahOaDheWGtQovLyAgICAgICAgdmFsIHNhZmVBY2NvdW50ID0gYWNjb3VudCA/OiAiIgovLyAgICAgICAgdGhpcy5mdWxsTmFtZSA9ICIkc2hvd05hbWV8JHNhZmVSZWFsTmFtZSgkc2FmZUFjY291bnQpIgovLyAgICB9CgoKICAgIGluaXQgewogICAgICAgIHZhbCBzYWZlUmVhbE5hbWUgPSByZWFsTmFtZSA/OiAiIgoKICAgICAgICAvLyDmmbrog70gTWFza05hbWXvvJrlpoLmnpzmsqHlrp7lkI3vvIzlsLHkuI3mmL7npLrliIbpmpTnrKblkI7pnaLnmoTkuJzopb8KICAgICAgICB0aGlzLm1hc2tOYW1lID0gaWYgKHNhZmVSZWFsTmFtZS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgdmFsIG1hc2tlZCA9IGlmIChzYWZlUmVhbE5hbWUubGVuZ3RoID4gMSkgIioke3NhZmVSZWFsTmFtZS5zdWJzdHJpbmcoMSl9IiBlbHNlIHNhZmVSZWFsTmFtZQogICAgICAgICAgICAiJHNob3dOYW1lfCRtYXNrZWQiCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc2hvd05hbWUgLy8g5Y+q5pyJ5pi+56S65ZCNCiAgICAgICAgfQoKICAgICAgICAvLyDmmbrog70gRnVsbE5hbWXvvJrlpoLmnpzmsqHmnInotKblj7fmiJblrp7lkI3vvIzosIPmlbTmoLzlvI8KICAgICAgICB2YWwgc2IgPSBTdHJpbmdCdWlsZGVyKHNob3dOYW1lKQogICAgICAgIGlmIChzYWZlUmVhbE5hbWUuaXNOb3RFbXB0eSgpIHx8ICFhY2NvdW50LmlzTnVsbE9yRW1wdHkoKSkgewogICAgICAgICAgICBzYi5hcHBlbmQoInwiKQogICAgICAgICAgICBzYi5hcHBlbmQoc2FmZVJlYWxOYW1lKQogICAgICAgICAgICBpZiAoIWFjY291bnQuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBzYi5hcHBlbmQoIigkYWNjb3VudCkiKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHRoaXMuZnVsbE5hbWUgPSBzYi50b1N0cmluZygpCiAgICB9CgogICAgLyoqCiAgICAgKiDnlKjmiLcgRFRPIOexu++8jOeUqOS6juS8oOi+k+aVsOaNrueahOeugOWMlueJiOacrOOAggogICAgICog5Yqg5LiKIEBKc29uSWdub3JlUHJvcGVydGllcyhpZ25vcmVVbmtub3duID0gdHJ1ZSkg5aKe5Yqg6bKB5qOS5oCnCiAgICAgKi8KICAgIEBKc29uSWdub3JlUHJvcGVydGllcyhpZ25vcmVVbmtub3duID0gdHJ1ZSkKICAgIGRhdGEgY2xhc3MgVXNlckR0bygKICAgICAgICB2YXIgdXNlcklkOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YXIgYWNjb3VudDogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgdmFyIGZyaWVuZFN0YXR1czogSW50PyA9IG51bGwsCiAgICAgICAgdmFyIHJlYWxOYW1lOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YXIgbmlja05hbWU6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhciByZW1hcmtOYW1lOiBTdHJpbmc/ID0gbnVsbAogICAgKSB7CiAgICAgICAgLyoqCiAgICAgICAgICog5bCGIFVzZXJEdG8g6L2s5o2i5Li6IFVzZXJFbnRpdHkg5a6e5L2T44CCCiAgICAgICAgICovCiAgICAgICAgZnVuIHRvRW50aXR5KCk6IFVzZXJFbnRpdHkgewogICAgICAgICAgICByZXR1cm4gVXNlckVudGl0eSgKICAgICAgICAgICAgICAgIHVzZXJJZCA9IHVzZXJJZCwKICAgICAgICAgICAgICAgIGFjY291bnQgPSBhY2NvdW50LAogICAgICAgICAgICAgICAgZnJpZW5kU3RhdHVzID0gZnJpZW5kU3RhdHVzLAogICAgICAgICAgICAgICAgcmVhbE5hbWUgPSByZWFsTmFtZSwKICAgICAgICAgICAgICAgIG5pY2tOYW1lID0gbmlja05hbWUsCiAgICAgICAgICAgICAgICByZW1hcmtOYW1lID0gcmVtYXJrTmFtZQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9
+package fansirsqi.xposed.sesame.entity
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+
+/**
+ * 表示一个用户实体，包含用户的基本信息。
+ * 使用 data class 自动处理 getter/equals/hashCode
+ */
+data class UserEntity(
+    /** 用户 ID */
+    val userId: String?,
+    /** 用户的账号 */
+    val account: String?,
+    /** 用户的好友状态 */
+    val friendStatus: Int?,
+    /** 用户的真实姓名 */
+    val realName: String?,
+    /** 用户的昵称 */
+    val nickName: String?,
+    /** 用户的备注名 */
+    val remarkName: String?
+) {
+    /**
+     * 用于显示的名字，优先使用备注名，若无则使用昵称
+     * 优化：使用了 lazy 委托，只有在第一次访问时才计算，节省初始化性能（如果列表很长）
+     * 或者直接作为属性初始化也可以。
+     */
+    val showName: String = if (!remarkName.isNullOrEmpty()) remarkName else (nickName ?: "")
+
+    /**
+     * 用于显示的遮掩名字，真实姓名首字母被遮掩
+     */
+    val maskName: String
+
+    /**
+     * 用户的全名，格式为：显示名字 | 真实姓名 (账号)
+     */
+    val fullName: String
+
+    // 初始化块，处理复杂的格式化逻辑
+//    init {
+//        // 处理遮掩名称
+//        // 修复逻辑：处理 realName 为 null 的情况，避免显示 "null"
+//        val safeRealName = realName ?: ""
+//        val maskNameTmp = if (safeRealName.length > 1) {
+//            "*" + safeRealName.substring(1)
+//        } else {
+//            safeRealName
+//        }
+//
+//        // 格式化输出
+//        // 修复逻辑：如果 maskNameTmp 为空，不要拼接 "|"，或者根据你的需求保留格式
+//        // 原逻辑是直接拼接，这里保持原逻辑但去除了 "null" 字符串
+//        this.maskName = "$showName|$maskNameTmp"
+//
+//        // 修复逻辑：处理 account 为 null 的情况
+//        val safeAccount = account ?: ""
+//        this.fullName = "$showName|$safeRealName($safeAccount)"
+//    }
+
+
+    init {
+        val safeRealName = realName ?: ""
+
+        // 智能 MaskName：如果没实名，就不显示分隔符后面的东西
+        this.maskName = if (safeRealName.isNotEmpty()) {
+            val masked = if (safeRealName.length > 1) "*${safeRealName.substring(1)}" else safeRealName
+            "$showName|$masked"
+        } else {
+            showName // 只有显示名
+        }
+
+        // 智能 FullName：如果没有账号或实名，调整格式
+        val sb = StringBuilder(showName)
+        if (safeRealName.isNotEmpty() || !account.isNullOrEmpty()) {
+            sb.append("|")
+            sb.append(safeRealName)
+            if (!account.isNullOrEmpty()) {
+                sb.append("($account)")
+            }
+        }
+        this.fullName = sb.toString()
+    }
+
+    /**
+     * 用户 DTO 类，用于传输数据的简化版本。
+     * 加上 @JsonIgnoreProperties(ignoreUnknown = true) 增加鲁棒性
+     */
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    data class UserDto(
+        var userId: String? = null,
+        var account: String? = null,
+        var friendStatus: Int? = null,
+        var realName: String? = null,
+        var nickName: String? = null,
+        var remarkName: String? = null
+    ) {
+        /**
+         * 将 UserDto 转换为 UserEntity 实体。
+         */
+        fun toEntity(): UserEntity {
+            return UserEntity(
+                userId = userId,
+                account = account,
+                friendStatus = friendStatus,
+                realName = realName,
+                nickName = nickName,
+                remarkName = remarkName
+            )
+        }
+    }
+}

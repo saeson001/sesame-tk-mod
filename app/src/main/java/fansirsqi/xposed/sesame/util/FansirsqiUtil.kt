@@ -1,1 +1,82 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51dGlsCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IGphdmEuaW8uQnVmZmVyZWRSZWFkZXIKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5JbnB1dFN0cmVhbVJlYWRlcgppbXBvcnQgamF2YS5uZXQuSHR0cFVSTENvbm5lY3Rpb24KaW1wb3J0IGphdmEubmV0LlVSTAoKb2JqZWN0IEZhbnNpcnNxaVV0aWwgewogICAgLy8g5a6a5LmJ5LiA6KiAQVBJ55qEVVJMCgogICAgcHJpdmF0ZSBjb25zdCB2YWwgSElST0hJVE9fQVBJX1VSTDEgPSAiaHR0cHM6Ly9pbnRlcm5hdGlvbmFsLnYxLmhpdG9rb3RvLmNuLyIKICAgIHByaXZhdGUgY29uc3QgdmFsIEhJUk9ISVRPX0FQSV9VUkwyID0gImh0dHBzOi8vdjEuaGl0b2tvdG8uY24vIgoKICAgIC8qKgogICAgICog5LuO5oyH5a6aIFVSTCDojrflj5bkuIDoqIAKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gZmV0Y2hIaXRva290b0Zyb21VcmwodXJsOiBTdHJpbmcpOiBQYWlyPFN0cmluZywgU3RyaW5nPj8gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgY29ubmVjdGlvbiA9IFVSTCh1cmwpLm9wZW5Db25uZWN0aW9uKCkgYXMgSHR0cFVSTENvbm5lY3Rpb24KICAgICAgICAgICAgY29ubmVjdGlvbi5yZXF1ZXN0TWV0aG9kID0gIkdFVCIKICAgICAgICAgICAgY29ubmVjdGlvbi5jb25uZWN0VGltZW91dCA9IDUwMDAKICAgICAgICAgICAgY29ubmVjdGlvbi5yZWFkVGltZW91dCA9IDUwMDAKCiAgICAgICAgICAgIHZhbCByZXNwb25zZSA9IEJ1ZmZlcmVkUmVhZGVyKElucHV0U3RyZWFtUmVhZGVyKGNvbm5lY3Rpb24uaW5wdXRTdHJlYW0pKS51c2UgeyByZWFkZXIgLT4KICAgICAgICAgICAgICAgIHJlYWRlci5yZWFkVGV4dCgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBqc29uT2JqZWN0ID0gSlNPTk9iamVjdChyZXNwb25zZSkKICAgICAgICAgICAgdmFsIGhpdG9rb3RvID0ganNvbk9iamVjdC5vcHRTdHJpbmcoImhpdG9rb3RvIiwgIiIpCiAgICAgICAgICAgIHZhbCBmcm9tID0ganNvbk9iamVjdC5vcHRTdHJpbmcoImZyb20iLCAiIikKICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChoaXRva290by5pc05vdEVtcHR5KCkpIFBhaXIoaGl0b2tvdG8sIGZyb20pIGVsc2UgbnVsbAogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5LiA6KiA77yI5oyC6LW35Ye95pWw77yJ77yM5o6o6I2Q5Zyo5Y2P56iL5Lit5L2/55SoCiAgICAgKiBAcmV0dXJuIOaIkOWKn+i/lOWbnuWPpeWtkO+8jOWksei0pei/lOWbnum7mOiupOWPpeWtkAogICAgICovCiAgICBzdXNwZW5kIGZ1biBnZXRPbmVXb3JkKCk6IFN0cmluZyA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IHRyeSB7CiAgICAgICAgICAgIC8vIOWFiOWwneivleWbveWGheeJiCBBUEnvvIzlpLHotKXliJnlsJ3or5Xlm73pmYXniYggQVBJCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBmZXRjaEhpdG9rb3RvRnJvbVVybChISVJPSElUT19BUElfVVJMMikgPzogZmV0Y2hIaXRva290b0Zyb21VcmwoSElST0hJVE9fQVBJX1VSTDEpCiAgICAgICAgICAgIAogICAgICAgICAgICByZXN1bHQ/LmxldCB7IChoaXRva290bywgZnJvbSkgLT4KICAgICAgICAgICAgICAgICIkaGl0b2tvdG9cblxuICAgICAgICAgICAgICAgICAgICAtLS0tLVJlOiAkZnJvbSIKICAgICAgICAgICAgfSA/OiAiIOWOu+W5tOebuOmAge+8jOS9meadremXqOWklu+8jOmjnumbquS8vOadqOiKseOAglxu5LuK5bm05pil5bC977yM5p2o6Iqx5Ly86Zuq77yM54q55LiN6KeB6L+Y5a6244CCXG5cbiAgICAgICAgICAgICAgICAgICAgLS0tLS1SZTog5bCR5bm05ri4wrfmtqblt57kvZzku6Pkurrlr4Tov5wg6IuP6L28IgogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2cucHJpbnRTdGFja1RyYWNlKGUpCiAgICAgICAgICAgICIg5Y675bm055u46YCB77yM5L2Z5p2t6Zeo5aSW77yM6aOe6Zuq5Ly85p2o6Iqx44CCXG7ku4rlubTmmKXlsL3vvIzmnajoirHkvLzpm6rvvIznirnkuI3op4Hov5jlrrbjgIJcblxuICAgICAgICAgICAgICAgICAgICAtLS0tLVJlOiDlsJHlubTmuLjCt+a2puW3nuS9nOS7o+S6uuWvhOi/nCDoi4/ovbwiCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog55Sf5oiQ6ZqP5py65a2X56ym5LiyCiAgICAgKiBAcGFyYW0gbGVuZ3RoIOWtl+espuS4sumVv+W6pgogICAgICovCiAgICBmdW4gZ2V0UmFuZG9tU3RyaW5nKGxlbmd0aDogSW50KTogU3RyaW5nIHsKICAgICAgICB2YWwgY2hhclBvb2w6IExpc3Q8Q2hhcj4gPSAoJ2EnLi4neicpICsgKCdBJy4uJ1onKSArICgnMCcuLic5JykKICAgICAgICByZXR1cm4gKDEuLmxlbmd0aCkKICAgICAgICAgICAgLm1hcCB7IGtvdGxpbi5yYW5kb20uUmFuZG9tLm5leHRJbnQoMCwgY2hhclBvb2wuc2l6ZSkgfQogICAgICAgICAgICAubWFwKGNoYXJQb29sOjpnZXQpCiAgICAgICAgICAgIC5qb2luVG9TdHJpbmcoIiIpCiAgICB9CgoKICAgIC8v6I635Y+W55uu5qCH5paH5Lu25aS55LiL55qE5paH5Lu25aS55YiX6KGoCiAgICBmdW4gZ2V0Rm9sZGVyTGlzdChmb2xkZXJQYXRoOiBTdHJpbmcpOiBMaXN0PFN0cmluZz4gewogICAgICAgIHZhbCBmaWxlID0gRmlsZShmb2xkZXJQYXRoKQogICAgICAgIHJldHVybiBpZiAoZmlsZS5leGlzdHMoKSAmJiBmaWxlLmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgIGZpbGUubGlzdEZpbGVzKCk/LmZpbHRlciB7IGl0LmlzRGlyZWN0b3J5IH0/Lm1hcCB7IGl0Lm5hbWUgfSA/OiBlbXB0eUxpc3QoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGVtcHR5TGlzdCgpCiAgICAgICAgfQogICAgfQp9Cg==
+package fansirsqi.xposed.sesame.util
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+import java.io.BufferedReader
+import java.io.File
+import java.io.InputStreamReader
+import java.net.HttpURLConnection
+import java.net.URL
+
+object FansirsqiUtil {
+    // 定义一言API的URL
+
+    private const val HIROHITO_API_URL1 = "https://international.v1.hitokoto.cn/"
+    private const val HIROHITO_API_URL2 = "https://v1.hitokoto.cn/"
+
+    /**
+     * 从指定 URL 获取一言
+     */
+    private fun fetchHitokotoFromUrl(url: String): Pair<String, String>? {
+        return try {
+            val connection = URL(url).openConnection() as HttpURLConnection
+            connection.requestMethod = "GET"
+            connection.connectTimeout = 5000
+            connection.readTimeout = 5000
+
+            val response = BufferedReader(InputStreamReader(connection.inputStream)).use { reader ->
+                reader.readText()
+            }
+
+            val jsonObject = JSONObject(response)
+            val hitokoto = jsonObject.optString("hitokoto", "")
+            val from = jsonObject.optString("from", "")
+            
+            if (hitokoto.isNotEmpty()) Pair(hitokoto, from) else null
+        } catch (e: Exception) {
+            null
+        }
+    }
+
+    /**
+     * 获取一言（挂起函数），推荐在协程中使用
+     * @return 成功返回句子，失败返回默认句子
+     */
+    suspend fun getOneWord(): String = withContext(Dispatchers.IO) {
+        return@withContext try {
+            // 先尝试国内版 API，失败则尝试国际版 API
+            val result = fetchHitokotoFromUrl(HIROHITO_API_URL2) ?: fetchHitokotoFromUrl(HIROHITO_API_URL1)
+            
+            result?.let { (hitokoto, from) ->
+                "$hitokoto\n\n                    -----Re: $from"
+            } ?: " 去年相送，余杭门外，飞雪似杨花。\n今年春尽，杨花似雪，犹不见还家。\n\n                    -----Re: 少年游·润州作代人寄远 苏轼"
+        } catch (e: Exception) {
+            Log.printStackTrace(e)
+            " 去年相送，余杭门外，飞雪似杨花。\n今年春尽，杨花似雪，犹不见还家。\n\n                    -----Re: 少年游·润州作代人寄远 苏轼"
+        }
+    }
+
+    /**
+     * 生成随机字符串
+     * @param length 字符串长度
+     */
+    fun getRandomString(length: Int): String {
+        val charPool: List<Char> = ('a'..'z') + ('A'..'Z') + ('0'..'9')
+        return (1..length)
+            .map { kotlin.random.Random.nextInt(0, charPool.size) }
+            .map(charPool::get)
+            .joinToString("")
+    }
+
+
+    //获取目标文件夹下的文件夹列表
+    fun getFolderList(folderPath: String): List<String> {
+        val file = File(folderPath)
+        return if (file.exists() && file.isDirectory) {
+            file.listFiles()?.filter { it.isDirectory }?.map { it.name } ?: emptyList()
+        } else {
+            emptyList()
+        }
+    }
+}

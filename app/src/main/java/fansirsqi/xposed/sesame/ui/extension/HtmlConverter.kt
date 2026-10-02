@@ -1,1 +1,55 @@
-cGFja2FnZSBmYW5zaXJzcWkueHBvc2VkLnNlc2FtZS51aS5leHRlbnNpb24KCgppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5UeXBlZmFjZQppbXBvcnQgYW5kcm9pZC50ZXh0LnN0eWxlLkZvcmVncm91bmRDb2xvclNwYW4KaW1wb3J0IGFuZHJvaWQudGV4dC5zdHlsZS5TdHlsZVNwYW4KaW1wb3J0IGFuZHJvaWQudGV4dC5zdHlsZS5VbmRlcmxpbmVTcGFuCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuQW5ub3RhdGVkU3RyaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuU3BhblN0eWxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuYnVpbGRBbm5vdGF0ZWRTdHJpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRTdHlsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHREZWNvcmF0aW9uCmltcG9ydCBhbmRyb2lkeC5jb3JlLnRleHQuSHRtbENvbXBhdAoKLyoqCiAqIOWwhiBIVE1MIOWtl+espuS4sui9rOaNouS4uiBDb21wb3NlIOWPr+eUqOeahCBBbm5vdGF0ZWRTdHJpbmcKICog5pSv5oyB77ya6aKc6ImyIDxmb250IGNvbG9yPiwg5Yqg57KXIDxiPiwg5pac5L2TIDxpPiwg5LiL5YiS57q/IDx1PgogKi8KZnVuIFN0cmluZy5wYXJzZUh0bWwoKTogQW5ub3RhdGVkU3RyaW5nIHsKICAgIC8vIDEuIOWIqeeUqCBBbmRyb2lkIOWOn+eUn+iDveWKm+ino+aekCBIVE1MCiAgICB2YWwgc3Bhbm5lZCA9IEh0bWxDb21wYXQuZnJvbUh0bWwodGhpcywgSHRtbENvbXBhdC5GUk9NX0hUTUxfTU9ERV9MRUdBQ1kpCgogICAgLy8gMi4g5bCGIFNwYW5uZWQg6L2s5o2i5Li6IENvbXBvc2UgQW5ub3RhdGVkU3RyaW5nCiAgICByZXR1cm4gYnVpbGRBbm5vdGF0ZWRTdHJpbmcgewogICAgICAgIGFwcGVuZChzcGFubmVkLnRvU3RyaW5nKCkpCgogICAgICAgIC8vIOmBjeWOhuaJgOacieeahCBTcGFuIOagt+W8jwogICAgICAgIHZhbCBzcGFucyA9IHNwYW5uZWQuZ2V0U3BhbnMoMCwgc3Bhbm5lZC5sZW5ndGgsIEFueTo6Y2xhc3MuamF2YSkKICAgICAgICBzcGFucy5mb3JFYWNoIHsgc3BhbiAtPgogICAgICAgICAgICB2YWwgc3RhcnQgPSBzcGFubmVkLmdldFNwYW5TdGFydChzcGFuKQogICAgICAgICAgICB2YWwgZW5kID0gc3Bhbm5lZC5nZXRTcGFuRW5kKHNwYW4pCgogICAgICAgICAgICB3aGVuIChzcGFuKSB7CiAgICAgICAgICAgICAgICAvLyDlpITnkIbpopzoibIKICAgICAgICAgICAgICAgIGlzIEZvcmVncm91bmRDb2xvclNwYW4gLT4gewogICAgICAgICAgICAgICAgICAgIGFkZFN0eWxlKFNwYW5TdHlsZShjb2xvciA9IENvbG9yKHNwYW4uZm9yZWdyb3VuZENvbG9yKSksIHN0YXJ0LCBlbmQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyDlpITnkIbliqDnspcv5pac5L2TCiAgICAgICAgICAgICAgICBpcyBTdHlsZVNwYW4gLT4gewogICAgICAgICAgICAgICAgICAgIHdoZW4gKHNwYW4uc3R5bGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgVHlwZWZhY2UuQk9MRCAtPiBhZGRTdHlsZShTcGFuU3R5bGUoZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuQm9sZCksIHN0YXJ0LCBlbmQpCiAgICAgICAgICAgICAgICAgICAgICAgIFR5cGVmYWNlLklUQUxJQyAtPiBhZGRTdHlsZShTcGFuU3R5bGUoZm9udFN0eWxlID0gRm9udFN0eWxlLkl0YWxpYyksIHN0YXJ0LCBlbmQpCiAgICAgICAgICAgICAgICAgICAgICAgIFR5cGVmYWNlLkJPTERfSVRBTElDIC0+IGFkZFN0eWxlKFNwYW5TdHlsZShmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkLCBmb250U3R5bGUgPSBGb250U3R5bGUuSXRhbGljKSwgc3RhcnQsIGVuZCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyDlpITnkIbkuIvliJLnur8KICAgICAgICAgICAgICAgIGlzIFVuZGVybGluZVNwYW4gLT4gewogICAgICAgICAgICAgICAgICAgIGFkZFN0eWxlKFNwYW5TdHlsZSh0ZXh0RGVjb3JhdGlvbiA9IFRleHREZWNvcmF0aW9uLlVuZGVybGluZSksIHN0YXJ0LCBlbmQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0=
+package fansirsqi.xposed.sesame.ui.extension
+
+
+import android.graphics.Typeface
+import android.text.style.ForegroundColorSpan
+import android.text.style.StyleSpan
+import android.text.style.UnderlineSpan
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.core.text.HtmlCompat
+
+/**
+ * 将 HTML 字符串转换为 Compose 可用的 AnnotatedString
+ * 支持：颜色 <font color>, 加粗 <b>, 斜体 <i>, 下划线 <u>
+ */
+fun String.parseHtml(): AnnotatedString {
+    // 1. 利用 Android 原生能力解析 HTML
+    val spanned = HtmlCompat.fromHtml(this, HtmlCompat.FROM_HTML_MODE_LEGACY)
+
+    // 2. 将 Spanned 转换为 Compose AnnotatedString
+    return buildAnnotatedString {
+        append(spanned.toString())
+
+        // 遍历所有的 Span 样式
+        val spans = spanned.getSpans(0, spanned.length, Any::class.java)
+        spans.forEach { span ->
+            val start = spanned.getSpanStart(span)
+            val end = spanned.getSpanEnd(span)
+
+            when (span) {
+                // 处理颜色
+                is ForegroundColorSpan -> {
+                    addStyle(SpanStyle(color = Color(span.foregroundColor)), start, end)
+                }
+                // 处理加粗/斜体
+                is StyleSpan -> {
+                    when (span.style) {
+                        Typeface.BOLD -> addStyle(SpanStyle(fontWeight = FontWeight.Bold), start, end)
+                        Typeface.ITALIC -> addStyle(SpanStyle(fontStyle = FontStyle.Italic), start, end)
+                        Typeface.BOLD_ITALIC -> addStyle(SpanStyle(fontWeight = FontWeight.Bold, fontStyle = FontStyle.Italic), start, end)
+                    }
+                }
+                // 处理下划线
+                is UnderlineSpan -> {
+                    addStyle(SpanStyle(textDecoration = TextDecoration.Underline), start, end)
+                }
+            }
+        }
+    }
+}
