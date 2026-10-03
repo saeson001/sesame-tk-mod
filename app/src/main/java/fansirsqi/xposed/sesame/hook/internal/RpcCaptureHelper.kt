@@ -57,6 +57,27 @@ object RpcCaptureHelper {
     /** 当前抓包文件（供 UI / 其它模块直接读取） */
     fun captureFile(): File = File(Files.LOG_DIR, CAPTURE_FILE_NAME)
 
+    /** 清空抓包记录（删除文件并重置写入器，下次写入重新创建） */
+    @Synchronized
+    @JvmStatic
+    fun clearCapture(): Boolean {
+        return try {
+            try {
+                writer?.flush()
+                writer?.close()
+            } catch (_: Throwable) {}
+            writer = null
+            val f = captureFile()
+            val deleted = !f.exists() || f.delete()
+            f.createNewFile()
+            Log.record("RpcCapture", "抓包记录已清空")
+            deleted
+        } catch (e: Throwable) {
+            Log.error("RpcCapture", "清空抓包记录失败: ${e.message}")
+            false
+        }
+    }
+
     @Synchronized
     fun stopRecording() {
         if (!isRecording) return

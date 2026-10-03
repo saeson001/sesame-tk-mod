@@ -7,6 +7,7 @@ import fansirsqi.xposed.sesame.model.modelFieldExt.StringModelField
 import fansirsqi.xposed.sesame.task.ModelTask
 import fansirsqi.xposed.sesame.util.Log
 import fansirsqi.xposed.sesame.util.ResChecker
+import fansirsqi.xposed.sesame.util.TaskFailureTracker
 import kotlinx.coroutines.delay
 import org.json.JSONArray
 import org.json.JSONObject
@@ -85,6 +86,7 @@ class SesameCredit : ModelTask() {
             Log.record(TAG, "共领取 $collected 项信用积累")
         } catch (t: Throwable) {
             Log.error(TAG, "信用积累异常: ${t.message}")
+            TaskFailureTracker.record("SesameCredit", "creditCollect", t.message ?: "")
         }
     }
 
@@ -103,6 +105,7 @@ class SesameCredit : ModelTask() {
             }
         } catch (t: Throwable) {
             Log.error(TAG, "安心豆签到异常: ${t.message}")
+            TaskFailureTracker.record("SesameCredit", "creditAnxinSign", t.message ?: "")
         }
     }
 
@@ -129,6 +132,7 @@ class SesameCredit : ModelTask() {
             }
         } catch (t: Throwable) {
             Log.error(TAG, "安心豆任务异常: ${t.message}")
+            TaskFailureTracker.record("SesameCredit", "creditAnxinTask", t.message ?: "")
         }
     }
 }

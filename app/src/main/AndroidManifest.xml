@@ -31,6 +31,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:screenOrientation="portrait"
         android:theme="@style/AppTheme">
 
         <!-- 原有的元数据保持不变 -->
@@ -50,7 +52,8 @@
         <!-- 主 Activity (隐藏的，不负责显示图标) -->
         <activity
             android:name="fansirsqi.xposed.sesame.ui.MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
@@ -60,32 +63,39 @@
         <!-- 其他 Activity 保持不变 -->
         <activity
             android:name=".ui.ExtendActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.WebSettingsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.SettingActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <!-- RPC 调试 Activity -->
         <activity
             android:name=".ui.RpcDebugActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <!-- 高性能日志查看器 (Compose) -->
         <!-- theme 必须设置为 NoActionBar，因为 Compose 自带了 TopAppBar -->
         <activity
             android:name=".ui.LogViewerActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".ui.ManualTaskActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:label="手动任务" />
 
         <!-- 抓包分析：查看并导出支付宝 RPC 抓包结果 -->
         <activity
             android:name=".ui.RpcCaptureActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:label="抓包分析" />
 
 
@@ -94,6 +104,7 @@
             android:name=".ui.MainActivityAlias"
             android:enabled="true"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:targetActivity="fansirsqi.xposed.sesame.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -106,6 +117,7 @@
             android:name=".ui.MainActivityAliasChristmas"
             android:enabled="false"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:icon="@drawable/ic_launcher_christmas"
             android:label="@string/app_name"
             android:targetActivity="fansirsqi.xposed.sesame.ui.MainActivity">

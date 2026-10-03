@@ -43,6 +43,8 @@ import fansirsqi.xposed.sesame.model.Model;
 import fansirsqi.xposed.sesame.model.ModelConfig;
 import fansirsqi.xposed.sesame.model.ModelField;
 import fansirsqi.xposed.sesame.model.ModelFields;
+import fansirsqi.xposed.sesame.task.ConfigTaskRunner;
+import fansirsqi.xposed.sesame.util.TaskFailureTracker;
 import fansirsqi.xposed.sesame.model.ModelGroup;
 import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
 import fansirsqi.xposed.sesame.task.ModelTask;
@@ -112,6 +114,15 @@ public class WebSettingsActivity extends BaseActivity {
         IdMapManager.getInstance(ReserveaMap.class).load();
         IdMapManager.getInstance(BeachMap.class).load();
         Config.load(userId);
+        // 异常任务自动禁用：累计异常达阈值的开关置为false并持久化
+        try {
+            if (TaskFailureTracker.applyAutoDisable()) {
+                Config.save(userId, true);
+                Log.record(TAG, "已应用异常任务自动禁用");
+            }
+        } catch (Throwable t) {
+            Log.printStackTrace(TAG, "应用异常任务自动禁用失败", t);
+        }
         LanguageUtil.setLocale(this);
         setContentView(R.layout.activity_web_settings);
         //处理返回键
@@ -402,6 +413,140 @@ public class WebSettingsActivity extends BaseActivity {
                 WebSettingsActivity.this.finish();
             });
             return true;
+        }
+
+        /**
+         * 任务管理：返回配置任务 JSON（文件不存在则返回内置默认任务）
+         */
+        @JavascriptInterface
+        public String listCustomTasks() {
+            return ConfigTaskRunner.getTasksJson();
+        }
+
+        /**
+         * 任务管理：保存配置任务 JSON（供前端增删改启停后回写）
+         */
+        @JavascriptInterface
+        public boolean saveCustomTasks(String json) {
+            return ConfigTaskRunner.saveTasksJson(json);
+        }
+
+        /**
+         * 异常任务：返回各设置项异常次数 JSON（供前端标红）
+         */
+        @JavascriptInterface
+        public String getTaskFailures() {
+            return TaskFailureTracker.getFailuresJson();
+        }
+
+        /**
+         * 异常任务：用户重新勾选时清除该字段失败记录（需重新抓包）
+         */
+        @JavascriptInterface
+        public boolean resetTaskFailure(String modelCode, String fieldCode) {
+            TaskFailureTracker.resetField(modelCode, fieldCode);
+            return true;
+        }
+
+        /**
+         * 任务管理：从电脑局域网地址拉取配置 JSON（导入任务，免出包）
+         */
+        @JavascriptInterface
+        public String fetchRemoteTasks(final String url) {
+            final StringBuilder sb = new StringBuilder();
+            final String[] err = new String[1];
+            Thread t = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        java.net.HttpURLConnection conn = (java.net.HttpURLConnection) new java.net.URL(url).openConnection();
+                        conn.setConnectTimeout(5000);
+                        conn.setReadTimeout(8000);
+                        conn.setRequestMethod("GET");
+                        try (java.io.InputStream is = conn.getInputStream();
+                             java.io.BufferedReader br = new java.io.BufferedReader(
+                                     new java.io.InputStreamReader(is, StandardCharsets.UTF_8))) {
+                            String line;
+                            while ((line = br.readLine()) != null) sb.append(line);
+                        }
+                    } catch (Throwable e) {
+                        err[0] = String.valueOf(e.getMessage());
+                    }
+                }
+            });
+            t.start();
+            try { t.join(12000); } catch (InterruptedException ignored) { }
+            if (err[0] != null) {
+                Log.record(TAG, "拉取电脑配置失败: " + err[0]);
+                return "";
+            }
+            String body = sb.toString();
+            if (body.isEmpty()) {
+                Log.record(TAG, "拉取电脑配置为空");
+                return "";
+            }
+            // 直接保存到配置目录
+            boolean ok = ConfigTaskRunner.saveTasksJson(body);
+            Log.record(TAG, "从电脑导入配置: " + ok);
+            return ok ? body : "";
+        }
+
+        /**
+         * 重启支付宝：保存配置后，通过 root/Shizuku 执行 am start 命令
+         * （模块与支付宝同进程，startActivity 拉起的是自己，必须走外部命令）
+         */
+        @JavascriptInterface
+        public void restartAlipay() {
+            Log.record(TAG, "WebViewCallback: restartAlipay called");
+            save();
+            new Thread(() -> {
+                try {
+                    Thread.sleep(600);
+                    String cmd = "am start -n com.eg.android.AlipayGphone/"
+                            + "com.alipay.mobile.framework.service.common.SchemeStartActivity";
+                    fansirsqi.xposed.sesame.util.CommandUtil.INSTANCE.execCommandAsync(
+                            WebSettingsActivity.this, cmd,
+                            new kotlin.jvm.functions.Function1<String, kotlin.Unit>() {
+                                @Override
+                                public kotlin.Unit invoke(String result) {
+                                    Log.record(TAG, "重启命令执行结果: "
+                                            + (result != null ? "成功" : "失败(需Root/Shizuku权限)"));
+                                    return kotlin.Unit.INSTANCE;
+                                }
+                            });
+                } catch (Throwable t) {
+                    Log.printStackTrace(TAG, "重启支付宝失败", t);
+                }
+            }).start();
+        }
+
+        /**
+         * 简单键值持久化（用于记忆电脑配置地址等，localStorage 在 WebView 重载后会丢）
+         */
+        @JavascriptInterface
+        public String getPref(String key) {
+            try {
+                java.io.File dir = new java.io.File(Files.CONFIG_DIR, "webui");
+                if (!dir.exists()) dir.mkdirs();
+                java.io.File f = new java.io.File(dir, key.replaceAll("[^a-zA-Z0-9_\\-]", "_") + ".txt");
+                if (!f.exists()) return "";
+                return Files.readFromFile(f);
+            } catch (Throwable t) {
+                return "";
+            }
+        }
+
+        @JavascriptInterface
+        public boolean setPref(String key, String value) {
+            try {
+                java.io.File dir = new java.io.File(Files.CONFIG_DIR, "webui");
+                if (!dir.exists()) dir.mkdirs();
+                java.io.File f = new java.io.File(dir, key.replaceAll("[^a-zA-Z0-9_\\-]", "_") + ".txt");
+                return Files.write2File(value == null ? "" : value, f);
+            } catch (Throwable t) {
+                Log.printStackTrace(TAG, "setPref 失败", t);
+                return false;
+            }
         }
 
         @JavascriptInterface

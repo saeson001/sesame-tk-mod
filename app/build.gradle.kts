@@ -35,12 +35,6 @@ android {
         }
 
     }
-    // 使用providers API来支持配置缓存
-    val gitCommitCount: Int = providers.exec {
-        commandLine("git", "rev-list", "--count", "HEAD")
-        // 从 zip 解包构建时没有 .git，忽略失败回退为 1
-        isIgnoreExitValue = true
-    }.standardOutput.asText.get().trim().toIntOrNull() ?: 1
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
         applicationId = "fansirsqi.xposed.sesame"
@@ -55,16 +49,29 @@ android {
             timeZone = TimeZone.getTimeZone("GMT+8")
         }.format(Date())
 
-        // 版本号约定：
+        // 版本号约定（用户明确要求）：
         //   正式版  = 1.0.0 / 1.0.1 / 1.1.0 ...（手机「版本」里看到的就是这个）
-        //   临时包  = gradlew assembleDebug -PverName=1.0.0-diag1
-        // 注意：不要再往正式版本号后面加 -fix1 / -tool1 之类的后缀，
-        //      那些只用于一次性的排查包，用完即弃。
+        //   进位规则：修复 BUG  → +0.0.1（如 1.0.0 → 1.0.1）
+        //            增加功能  → +0.1  （如 1.0.0 → 1.1.0）  ← 本版新增远程日志功能，故 1.0.0→1.1.0
+        //   临时排查包 = gradlew assembleDebug -PverName=1.0.0-diag1（用完即弃，不发布）
+        //   不要往正式版本号加 -fix1 / -tool1 后缀；包名也不要带 -debug / 时间戳
         val customVerName = (project.findProperty("verName") as String?)?.trim().orEmpty()
         val verCodeFlag = (project.findProperty("verCode") as String?)?.trim()
 
-        versionCode = verCodeFlag?.toIntOrNull() ?: gitCommitCount
-        versionName = if (customVerName.isEmpty()) "1.0.0" else customVerName
+        val finalVerName = if (customVerName.isEmpty()) "1.9.1" else customVerName
+        versionName = finalVerName
+
+        // 版本代号自动跟随版本名称：1.6.1 → 161（去掉小数点后取整）
+        // 例：1.0.0=100 / 1.0.1=101 / 1.6.1=161 / 1.12.3=1123
+        val autoVerCode = finalVerName.split(".")
+            .take(3)
+            .map { it.filter { ch -> ch.isDigit() }.ifEmpty { "0" }.toInt() }
+            .let { parts ->
+                val padded = (parts + listOf(0, 0, 0)).take(3)
+                padded[0] * 100 + padded[1] * 10 + padded[2]
+            }
+
+        versionCode = verCodeFlag?.toIntOrNull() ?: autoVerCode
 
         buildConfigField("String", "BUILD_DATE", "\"$buildDate\"")
         buildConfigField("String", "BUILD_TIME", "\"$buildTime\"")
@@ -109,7 +116,7 @@ android {
     buildTypes {
         getByName("debug") {
             isDebuggable = true
-            versionNameSuffix = "-debug"
+            // 不要再挂 -debug 后缀：手机「版本」里显示为 1.1.0，包名也干净
             isShrinkResources = false
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
@@ -145,11 +152,8 @@ android {
         variant.outputs.all {
             val output = this
             val abiName = output.filters.find { it.filterType == "ABI" }?.identifier ?: "universal"
-            // 文件名带构建时间戳，保证每次产物不会被下一次编译覆盖
-            val stamp = SimpleDateFormat("yyyyMMdd-HHmm", Locale.CHINA).apply {
-                timeZone = TimeZone.getTimeZone("GMT+8")
-            }.format(Date())
-            val fileName = "Sesame-TK-${abiName}-${variant.versionName}-${stamp}.apk"
+            // 文件名：Sesame-TK-<abi>-<versionName>.apk（不带 -debug、不带时间戳）
+            val fileName = "Sesame-TK-${abiName}-${variant.versionName}.apk"
             (output as com.android.build.gradle.internal.api.BaseVariantOutputImpl).outputFileName = fileName
         }
     }

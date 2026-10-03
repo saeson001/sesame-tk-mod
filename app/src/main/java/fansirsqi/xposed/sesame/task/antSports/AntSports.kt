@@ -52,6 +52,9 @@ class AntSports : ModelTask() {
         /** @brief 运动任务完成日期缓存键 */
         private const val SPORTS_TASKS_COMPLETED_DATE = "SPORTS_TASKS_COMPLETED_DATE"
 
+        /** @brief 每日拒绝计数的任务键（步数同步） */
+        const val KEY_STEP_SYNC = "antSports.syncStep"
+
         /** @brief 训练好友 0 金币达上限日期缓存键 */
         private const val TRAIN_FRIEND_ZERO_COIN_DATE = "TRAIN_FRIEND_ZERO_COIN_DATE"
     }
@@ -355,9 +358,25 @@ class AntSports : ModelTask() {
     }
 
     /**
-     * 步数同步任务
+     * 手动执行步数同步（绕过当日重试次数上限）
      */
-    private fun syncStepTask() {
+    fun manualSyncStep() {
+        Log.record(TAG, "手动同步运动步数🏃🏻‍♂️")
+        syncStepTask(manual = true)
+    }
+
+    /**
+     * 步数同步任务
+     *
+     * 服务端拒绝时（通常是"今日已同步过"等业务限制）累计拒绝次数，
+     * 达到 [DailyRejectCounter.MAX_REJECT] 次后当天不再自动执行，次日自动恢复。
+     * 手动执行不受该限制。
+     */
+    fun syncStepTask(manual: Boolean = false) {
+        // 自动执行时先检查当天是否已被服务端拒绝多次
+        if (!manual && DailyRejectCounter.isStoppedToday(KEY_STEP_SYNC)) {
+            return
+        }
         addChildTask(
             ChildModelTask(
                 "syncStep",
@@ -386,8 +405,16 @@ class AntSports : ModelTask() {
                         if (success) {
                             Log.other("同步步数🏃🏻‍♂️[$step 步]")
                             Status.setFlagToday(StatusFlags.FLAG_ANTSPORTS_SYNC_STEP_DONE)
+                            DailyRejectCounter.clearReject(KEY_STEP_SYNC)
                         } else {
-                            Log.error(TAG, "同步运动步数失败:$step")
+                            // 服务端拒绝(通常当日步数已同步过或超出上限), 属正常情况
+                            val reached = DailyRejectCounter.recordReject(KEY_STEP_SYNC, "服务端拒绝")
+                            val left = DailyRejectCounter.remaining(KEY_STEP_SYNC)
+                            if (reached) {
+                                Log.other(TAG, "同步步数被拒 $left/2，今日已达重试上限，明天再试")
+                            } else {
+                                Log.other(TAG, "同步步数未生效:$step（服务端已拒绝，今日还可重试 $left 次）")
+                            }
                         }
                     } catch (t: Throwable) {
                         Log.printStackTrace(TAG, t)

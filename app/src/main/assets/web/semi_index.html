@@ -132,7 +132,7 @@
             }
         };
         const { useState, useEffect, useMemo, useRef } = React;
-        const { Collapse, Switch, Input, RadioGroup, Radio, Button, Toast, SideSheet, Checkbox, InputNumber, Typography } = SemiUI;
+        const { Collapse, Switch, Input, RadioGroup, Radio, Button, Toast, SideSheet, Checkbox, InputNumber, TextArea, Typography } = SemiUI;
         const { IconSearch } = SemiIcons;
         const { Title, Text } = Typography;
 
@@ -178,6 +178,16 @@
 
             const [tabs, setTabs] = useState([]);
             const [modelsMap, setModelsMap] = useState({});
+            const [searchText, setSearchText] = useState('');
+            const [activeKey, setActiveKey] = useState('');
+
+            // 任务管理（配置驱动）
+            const [taskMgrVisible, setTaskMgrVisible] = useState(false);
+            const [taskList, setTaskList] = useState([]);
+            const [editingTask, setEditingTask] = useState(null);
+            const [failures, setFailures] = useState({});
+            const [pcTaskUrl, setPcTaskUrl] = useState('');
+            const [importing, setImporting] = useState(false);
 
             // 列表弹窗相关的 State
             const [sheetVisible, setSheetVisible] = useState(false);
@@ -191,6 +201,8 @@
             useEffect(() => {
                 const tabsData = getTabsData();
                 setTabs(tabsData);
+                // 默认全部收起
+                setActiveKey('');
                 const initialMap = {};
                 tabsData.forEach(tab => {
                     initialMap[tab.modelCode] = getModelData(tab.modelCode);
@@ -198,7 +210,39 @@
                 setModelsMap(initialMap);
             }, []);
 
+            // 加载异常任务记录（用于标红 / 重新勾选提示）
+            useEffect(() => {
+                let failObj = {};
+                try {
+                    const res = JSON.parse(window.HOOK.getTaskFailures());
+                    failObj = res.failures || {};
+                } catch (e) { }
+                setFailures(failObj);
+            }, []);
+
+            // 恢复上次填写的电脑配置地址（后端持久化优先，localStorage 兜底）
+            useEffect(() => {
+                let v = '';
+                try {
+                    if (window.HOOK && window.HOOK.getPref) v = window.HOOK.getPref('pc_task_url') || '';
+                } catch (e) { }
+                if (!v) {
+                    try { v = window.localStorage.getItem('sesame_pc_task_url') || ''; } catch (e) { }
+                }
+                if (v) setPcTaskUrl(v);
+            }, []);
+
             const handleFieldChange = (modelCode, fieldCode, newValue) => {
+                // 重新勾选曾异常的任务：提示需重新抓包，并清除其失败记录
+                if (newValue === true || newValue === 'true') {
+                    const key = modelCode + '.' + fieldCode;
+                    const failInfo = failures[key];
+                    if (failInfo && failInfo.count > 0) {
+                        Toast.warning('该任务曾连续异常' + failInfo.count + '次，建议重新抓包获取最新参数');
+                        try { window.HOOK.resetTaskFailure(modelCode, fieldCode); } catch (e) { }
+                        setFailures(prev => { const n = { ...prev }; delete n[key]; return n; });
+                    }
+                }
                 setModelsMap(prev => {
                     const currentFields = [...prev[modelCode]];
                     const fieldIndex = currentFields.findIndex(f => f.code === fieldCode);
@@ -213,6 +257,110 @@
                     return { ...prev, [modelCode]: currentFields };
                 });
             };
+
+            // 分类展开/折叠：受控 + 切换时滚动到该分类最上方
+            const handleCollapseChange = (key) => {
+                const k = Array.isArray(key) ? key[0] : key;
+                setActiveKey(k || '');
+                if (k) {
+                    setTimeout(() => {
+                        const el = document.getElementById('panel-' + k);
+                        if (el) {
+                            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                            window.scrollBy(0, -110);
+                        }
+                    }, 60);
+                }
+            };
+
+            // 点击分类标题：已展开则折叠，未展开则展开并滚到该分类最上方
+            const toggleCategory = (modelCode) => {
+                if (activeKey === modelCode) {
+                    setActiveKey('');
+                } else {
+                    setActiveKey(modelCode);
+                    setTimeout(() => {
+                        const el = document.getElementById('cat-' + modelCode);
+                        if (el) {
+                            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                            window.scrollBy(0, -110);
+                        }
+                    }, 60);
+                }
+            };
+
+            // --- 任务管理（增删改启停，保存后1分钟内生效） ---
+            const openTaskMgr = () => {
+                let list = [];
+                try {
+                    const res = JSON.parse(window.HOOK.listCustomTasks());
+                    list = res.tasks || [];
+                } catch (e) { list = []; }
+                setTaskList(list);
+                setEditingTask(null);
+                setTaskMgrVisible(true);
+            };
+
+            const saveTasks = () => {
+                try {
+                    const ok = window.HOOK.saveCustomTasks(JSON.stringify({ tasks: taskList }));
+                    if (ok) {
+                        Toast.success('任务已保存，1分钟内生效');
+                        setTaskMgrVisible(false);
+                    } else {
+                        Toast.error('保存失败');
+                    }
+                } catch (e) { Toast.error('保存异常: ' + e); }
+            };
+
+            const updateEditing = (field, val) => {
+                setEditingTask(prev => ({ ...prev, [field]: val }));
+            };
+
+            const addTask = () => setEditingTask({
+                id: '', name: '新任务', type: 'normal', taskType: 'single', operationType: '',
+                requestData: '[]', intervalMinutes: 3, enabled: true
+            });
+
+            const commitEdit = () => {
+                const tt = editingTask.taskType || 'single';
+                if (tt === 'single' && !editingTask.operationType) { Toast.error('operationType 不能为空'); return; }
+                const t = { ...editingTask, taskType: tt };
+                if (!t.id) t.id = 'task_' + Date.now();
+                setTaskList(prev => {
+                    const idx = prev.findIndex(x => x.id === t.id);
+                    if (idx >= 0) { const n = [...prev]; n[idx] = t; return n; }
+                    return [...prev, t];
+                });
+                setEditingTask(null);
+            };
+
+            const removeTask = (id) => setTaskList(prev => prev.filter(t => t.id !== id));
+
+            // 从电脑局域网拉取配置并保存（新增任务无需重新出包）
+            const importFromPc = () => {
+                let url = (pcTaskUrl || '').trim();
+                if (!url) { Toast.warning('请先填写电脑配置地址'); return; }
+                if (!/^https?:\/\//i.test(url)) url = 'http://' + url;
+                setImporting(true);
+                try {
+                    const res = window.HOOK.fetchRemoteTasks(url);
+                    if (res) {
+                        let list = [];
+                        try { list = (JSON.parse(res).tasks || []); } catch (e) { }
+                        setTaskList(list);
+                        Toast.success('已从电脑导入 ' + list.length + ' 条任务，1分钟内生效');
+                    } else {
+                        Toast.error('导入失败：检查电脑地址与网络');
+                    }
+                } catch (e) {
+                    Toast.error('导入异常: ' + e);
+                }
+                setImporting(false);
+            };
+
+            const toggleTask = (id) => setTaskList(prev =>
+                prev.map(t => t.id === id ? { ...t, enabled: !t.enabled } : t));
 
             // --- 列表弹窗逻辑 (关键修改部分) ---
 
@@ -343,9 +491,18 @@
             const renderFieldItem = (modelCode, item) => {
                 const { type, name, code, configValue, desc, expandKey } = item;
                 if (type === 'BOOLEAN') {
+                    const failInfo = failures[modelCode + '.' + code];
+                    const hasFail = failInfo && failInfo.count > 0;
                     return (
-                        <div className="field-row" key={code}>
-                            <div className="field-label">{name}</div>
+                        <div className="field-row" key={code} style={hasFail ? { background: 'rgba(245,34,45,0.07)', borderRadius: 6 } : {}}>
+                            <div className="field-label" style={hasFail ? { color: '#f5222d' } : {}}>
+                                {name}
+                                {hasFail && (
+                                    <span style={{ marginLeft: 6, fontSize: 11, color: '#f5222d', fontWeight: 400 }}>
+                                        ⚠ 异常{failInfo.count}次{failInfo.autoDisabled ? '·已自动关闭' : ''}
+                                    </span>
+                                )}
+                            </div>
                             <div className="field-control">
                                 <Switch checked={configValue === 'true'} onChange={(v) => handleFieldChange(modelCode, code, v)} />
                             </div>
@@ -402,31 +559,66 @@
             return (
                 <div className="container">
                     <div className="header">
-                        <Title heading={2} style={{ margin: 0 }}>Sesame-TK 设置</Title>
-                        <Button disabled theme="borderless">欢迎加入我们的组织</Button>
-                        <Text style={{ marginRight: 15 }} link={{ href: 'https://t.me/fansirsqi_xposed_sesame' }}> ➤TG </Text> |
-                        <Text style={{ marginLeft: 15, marginRight: 15 }} link={{ href: 'https://qm.qq.com/q/740DFRGOXe' }}> ➤QQ </Text>
-                        <Button style={{}} onClick={switchMode} > 切换主题 </Button>
+                        <Title heading={6} style={{ margin: 0 }}>Sesame-TK 设置</Title>
+                        <Input
+                            prefix={<IconSearch />}
+                            placeholder="搜索设置项..."
+                            value={searchText}
+                            onChange={setSearchText}
+                            style={{ marginTop: 10 }}
+                        />
+                        <Button theme='solid' type='secondary' block onClick={openTaskMgr} style={{ marginTop: 10 }}>
+                            任务管理（增删改启停）
+                        </Button>
                     </div>
 
                     <div className="section-padding">
-                        <Collapse accordion defaultActiveKey={tabs[0]?.modelCode}>
-                            {tabs.map((tab) => (
-                                <Collapse.Panel
-                                    header={<div style={{ fontWeight: 600 }}>{tab.modelName}</div>}
-                                    itemKey={tab.modelCode}
-                                    key={tab.modelCode}
-                                >
-                                    <div>
-                                        {modelsMap[tab.modelCode] ? (
-                                            modelsMap[tab.modelCode].map(field => renderFieldItem(tab.modelCode, field))
-                                        ) : (
-                                            <div style={{ padding: 20, textAlign: 'center' }}>加载中...</div>
-                                        )}
+                        {searchText.trim() ? (
+                            tabs.map((tab) => {
+                                const q = searchText.trim().toLowerCase();
+                                const fields = (modelsMap[tab.modelCode] || []).filter(f =>
+                                    (f.name && f.name.toLowerCase().includes(q)) || tab.modelName.toLowerCase().includes(q)
+                                );
+                                if (fields.length === 0) return null;
+                                return (
+                                    <div key={tab.modelCode} style={{ marginBottom: 8 }}>
+                                        <div style={{ fontWeight: 600, padding: '10px 0', borderBottom: '1px solid var(--semi-color-border)' }}>{tab.modelName}</div>
+                                        {fields.map(field => renderFieldItem(tab.modelCode, field))}
                                     </div>
-                                </Collapse.Panel>
-                            ))}
-                        </Collapse>
+                                );
+                            })
+                        ) : (
+                            <div>
+                                {tabs.map((tab) => {
+                                    const expanded = activeKey === tab.modelCode;
+                                    return (
+                                        <div key={tab.modelCode} style={{ borderBottom: '1px solid var(--semi-color-border)' }}>
+                                            <div
+                                                id={'cat-' + tab.modelCode}
+                                                onClick={() => toggleCategory(tab.modelCode)}
+                                                style={{
+                                                    display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                                                    padding: '13px 2px', cursor: 'pointer', fontWeight: 600, fontSize: 14,
+                                                    color: 'var(--semi-color-text-0)', background: expanded ? 'var(--semi-color-fill-1)' : 'transparent'
+                                                }}
+                                            >
+                                                <span>{tab.modelName}</span>
+                                                <span style={{ fontSize: 12, color: '#999' }}>{expanded ? '▲ 收起' : '▼ 展开'}</span>
+                                            </div>
+                                            {expanded && (
+                                                <div style={{ paddingBottom: 10 }}>
+                                                    {modelsMap[tab.modelCode] ? (
+                                                        modelsMap[tab.modelCode].map(field => renderFieldItem(tab.modelCode, field))
+                                                    ) : (
+                                                        <div style={{ padding: 20, textAlign: 'center' }}>加载中...</div>
+                                                    )}
+                                                </div>
+                                            )}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        )}
                     </div>
 
                     <div style={{ padding: 20, textAlign: 'center' }}>
@@ -446,10 +638,130 @@
                         >
                             退出并保存
                         </Button>
+                        <Button
+                            theme='solid'
+                            type='warning'
+                            block
+                            style={{ marginTop: 10 }}
+                            onClick={() => {
+                                if (window.HOOK && window.HOOK.restartAlipay) {
+                                    Toast.success('正在保存并重启支付宝…');
+                                    window.HOOK.restartAlipay();
+                                } else {
+                                    Toast.error('当前版本不支持重启');
+                                }
+                            }}
+                        >
+                            重启支付宝（保存配置）
+                        </Button>
                         <Text style={{ marginTop: 15, color: '#999', fontSize: 12 }} link={{ href: 'https://github.com/Fansirsqi/Sesame-TK' }}> Github开源地址 </Text>
                         <div style={{ marginTop: 5, color: '#999', fontSize: 14 }}>🥳 Power by <Text link={{ href: 'https://semi.design/' }}>Semi.Design</Text> © 2025-12-11 With <Text link={{ href: 'https://github.com/Fansirsqi' }}>Byseven Offical</Text> </div>
                         <div style={{ marginTop: 5, color: '#999', fontSize: 14 }}>Ver: {window.HOOK.getBuildInfo()}</div>
                     </div>
+
+                    {/* 任务管理弹窗 */}
+                    <SideSheet
+                        title={<span style={{ fontSize: 16, fontWeight: 600 }}>任务管理</span>}
+                        visible={taskMgrVisible}
+                        onCancel={() => { setTaskMgrVisible(false); setEditingTask(null); }}
+                        width="100%"
+                        placement="right"
+                        bodyStyle={{ padding: 0 }}
+                    >
+                        {editingTask ? (
+                            <div style={{ padding: '16px' }}>
+                                <div style={{ fontWeight: 600, marginBottom: 12 }}>{taskList.some(t => t.id === editingTask.id) ? '编辑任务' : '新增任务'}</div>
+                                <div style={{ marginBottom: 10 }}>
+                                    <Text size="small">名称</Text>
+                                    <Input value={editingTask.name} onChange={v => updateEditing('name', v)} placeholder="任务名称" />
+                                </div>
+                                <div style={{ marginBottom: 10 }}>
+                                    <Text size="small">ID（唯一，留空自动生成）</Text>
+                                    <Input value={editingTask.id} onChange={v => updateEditing('id', v)} placeholder="task_id" />
+                                </div>
+                                <div style={{ marginBottom: 10 }}>
+                                    <Text size="small">类型</Text>
+                                    <RadioGroup type="button" value={editingTask.type} onChange={e => updateEditing('type', e.target.value)}>
+                                        <Radio value="normal">其他(3分钟)</Radio>
+                                        <Radio value="game">游戏(15分钟)</Radio>
+                                    </RadioGroup>
+                                </div>
+                                <div style={{ marginBottom: 10 }}>
+                                    <Text size="small">执行方式</Text>
+                                    <RadioGroup type="button" value={editingTask.taskType || 'single'} onChange={e => updateEditing('taskType', e.target.value)}>
+                                        <Radio value="single">单次RPC</Radio>
+                                        <Radio value="flow">多步流程</Radio>
+                                    </RadioGroup>
+                                </div>
+                                <div style={{ marginBottom: 10 }}>
+                                    <Text size="small">间隔（分钟）</Text>
+                                    <InputNumber value={editingTask.intervalMinutes} onChange={v => updateEditing('intervalMinutes', v || 0)} min={0} style={{ width: '100%' }} />
+                                </div>
+                                <div style={{ marginBottom: 10 }}>
+                                    <Text size="small">operationType（RPC 接口名）</Text>
+                                    <Input
+                                        value={editingTask.operationType}
+                                        onChange={v => updateEditing('operationType', v)}
+                                        placeholder="com.alipay.xxx.yyy"
+                                        disabled={editingTask.taskType === 'flow'}
+                                        style={editingTask.taskType === 'flow' ? { opacity: 0.4 } : {}}
+                                    />
+                                </div>
+                                <div style={{ marginBottom: 10 }}>
+                                    <Text size="small">
+                                        requestData（{(editingTask.taskType === 'flow') ? '流程步骤 JSON：{"steps":[{operationType,requestData},...]}' : 'JSON 数组文本'}
+                                    </Text>
+                                    <TextArea value={editingTask.requestData} onChange={v => updateEditing('requestData', v)} rows={6} style={{ width: '100%' }} placeholder='[{"sceneCode":"ANTFARM"}]' />
+                                </div>
+                                <div style={{ display: 'flex', gap: 10, marginTop: 16 }}>
+                                    <Button onClick={() => setEditingTask(null)} style={{ flex: 1 }}>返回列表</Button>
+                                    <Button theme='solid' onClick={commitEdit} style={{ flex: 1 }}>确定</Button>
+                                </div>
+                            </div>
+                        ) : (
+                            <div>
+                                <div style={{ padding: '12px 16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+                                    <Text size="small" type="secondary">共 {taskList.length} 条 · 游戏15分钟/其他3分钟</Text>
+                                    <div style={{ display: 'flex', gap: 8 }}>
+                                        <Button size='small' onClick={() => { setTaskMgrVisible(false); }}>关闭</Button>
+                                        <Button size='small' onClick={addTask}>+ 新增</Button>
+                                        <Button theme='solid' size='small' onClick={saveTasks}>保存</Button>
+                                    </div>
+                                </div>
+                                <div style={{ padding: '0 16px 10px' }}>
+                                    <Input
+                                        prefix={<IconSearch />}
+                                        placeholder="电脑配置地址，如 http://192.168.1.10:8765/custom_tasks.json"
+                                        value={pcTaskUrl}
+                                        onChange={v => {
+                                            setPcTaskUrl(v);
+                                            try { window.localStorage.setItem('sesame_pc_task_url', v); } catch (e) { }
+                                            try { if (window.HOOK && window.HOOK.setPref) window.HOOK.setPref('pc_task_url', v); } catch (e) { }
+                                        }}
+                                        style={{ marginBottom: 8 }}
+                                    />
+                                    <Button block theme='solid' type='secondary' onClick={importFromPc} loading={importing}>
+                                        从电脑导入配置（新增任务免出包）
+                                    </Button>
+                                </div>
+                                <div style={{ padding: '0 16px', overflowY: 'auto', height: 'calc(100vh - 170px)' }}>
+                                    {taskList.length === 0 && <div style={{ padding: 20, textAlign: 'center', color: '#999' }}>暂无任务</div>}
+                                    {taskList.map(t => (
+                                        <div key={t.id} style={{ padding: '12px 0', borderBottom: '1px solid var(--semi-color-border)', display: 'flex', alignItems: 'center', gap: 8 }}>
+                                            <Switch size='small' checked={t.enabled !== false} onChange={() => toggleTask(t.id)} />
+                                            <div style={{ flex: 1, minWidth: 0 }}>
+                                                <div style={{ fontSize: 14, fontWeight: 600, color: t.enabled === false ? '#999' : 'var(--semi-color-text-0)' }}>{t.name || t.id}</div>
+                                                <div style={{ fontSize: 11, color: '#999', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{t.operationType || (t.taskType === 'flow' ? '多步流程(steps)' : '')}</div>
+                                                <div style={{ fontSize: 11, color: '#999' }}>{t.type === 'game' ? '游戏类' : '其他'} · 每{t.intervalMinutes || (t.type === 'game' ? 15 : 3)}分钟{t.taskType === 'flow' ? ' · 流程' : ''}</div>
+                                            </div>
+                                            <Button size='small' onClick={() => setEditingTask({ ...t })}>编辑</Button>
+                                            <Button size='small' type='danger' onClick={() => removeTask(t.id)}>删</Button>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                    </SideSheet>
 
                     {/* 侧边列表弹窗 */}
                     <SideSheet

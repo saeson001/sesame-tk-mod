@@ -4,6 +4,7 @@ import fansirsqi.xposed.sesame.hook.ApplicationHook
 import fansirsqi.xposed.sesame.model.Model
 import fansirsqi.xposed.sesame.task.antFarm.AntFarm
 import fansirsqi.xposed.sesame.task.antForest.AntForest
+import fansirsqi.xposed.sesame.task.antSports.AntSports
 import fansirsqi.xposed.sesame.util.GlobalThreadPools
 import fansirsqi.xposed.sesame.util.Log
 import kotlinx.coroutines.Dispatchers
@@ -101,6 +102,17 @@ object ManualTask {
                                 val toolCount = extraParams["toolCount"] as? Int ?: 1
                                 getFarmInstance()?.manualUseFarmTool(toolType, toolCount)
                             }
+
+                            // 运动类任务
+                            CustomTask.SPORTS_SYNC_STEP -> {
+                                val instance = getSportsInstance()
+                                if (instance != null) {
+                                    // 手动执行绕过"当日拒绝次数上限"，但成功后仍会清零计数
+                                    instance.manualSyncStep()
+                                } else {
+                                    Log.record("ManualTask", "❌ 无法加载运动模块")
+                                }
+                            }
                         }
                     } catch (t: Throwable) {
                         Log.record("ManualTask", "❌ 执行 ${task.displayName} 出错: ${t.message}")
@@ -142,5 +154,24 @@ object ManualTask {
             }
         }
         return AntFarm.instance
+    }
+
+    /**
+     * 按需获取并确保蚂蚁运动实例已加载
+     *
+     * 注意：AntSports 没有 companion instance 字段（不同于 AntForest/AntFarm），
+     *      直接用 Model.getModel() 取实例；prepare/boot 重复调用是安全的。
+     */
+    private fun getSportsInstance(): AntSports? {
+        val loader = ApplicationHook.classLoader ?: return null
+        val model = Model.getModel(AntSports::class.java)
+        if (model == null) {
+            Log.record("ManualTask", "❌ 运动模块未注册")
+            return null
+        }
+        Log.record("ManualTask", "⚙️ 正在按需加载运动模块...")
+        model.prepare()
+        model.boot(loader)
+        return model
     }
 }

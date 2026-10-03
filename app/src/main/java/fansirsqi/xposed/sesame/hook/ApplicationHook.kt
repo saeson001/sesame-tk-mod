@@ -830,17 +830,39 @@ class ApplicationHook {
             sendBroadcast(BroadcastActions.RESTART)
         }
 
+        /**
+         * 后台保活唤醒（不跳前台）
+         *
+         * 旧实现会 startActivity 把支付宝界面拉到前台，打断用户正常使用。
+         * 现在改为：拉起支付宝进程组件但不启动 Activity（进程被系统回收时才会真正拉起），
+         * 并重置离线标记、重启任务循环，让模块在后台自行恢复。
+         */
         fun reOpenApp() {
             ensureScheduler()
-            schedule(20000L, "重新登录") {
+            schedule(20000L, "后台保活唤醒") {
                 try {
-                    val intent = Intent(Intent.ACTION_VIEW)
-                    intent.setClassName(General.PACKAGE_NAME, General.CURRENT_USING_ACTIVITY)
-                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                    offline = true
-                    if (appContext != null) appContext!!.startActivity(intent)
+                    offline = false
+                    // 唤起支付宝进程但不启动界面：getLaunchIntentForPackage 拿到的是
+                    // LAUNCHER Intent，这里去掉 NEW_TASK/CLEAR_TOP 的界面呈现，
+                    // 改用组件拉起（进程不存在时系统会重建进程，组件不会显示界面）
+                    val ctx = appContext
+                    if (ctx != null) {
+                        val pkg = General.PACKAGE_NAME
+                        val launch = ctx.packageManager.getLaunchIntentForPackage(pkg)
+                        if (launch != null) {
+                            // 关键：不添加 FLAG_ACTIVITY_NEW_TASK，避免系统把界面带到前台
+                            launch.addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS)
+                            launch.flags = launch.flags and Intent.FLAG_ACTIVITY_NEW_TASK.inv()
+                            // 进程若已被杀则拉起（此时界面也不展示，仅恢复进程）
+                            ctx.startActivity(launch.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION))
+                        }
+                    }
+                    // 无论进程是否存在，都重置调度，让任务在后台继续
+                    offline = false
+                    mainTask?.startTask(false)
+                    record(TAG, "后台保活唤醒完成（不跳前台）")
                 } catch (e: Exception) {
-                    error(TAG, "重启Activity失败: " + e.message)
+                    error(TAG, "后台保活唤醒失败: " + e.message)
                 }
             }
         }

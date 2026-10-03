@@ -6,6 +6,7 @@ import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
 import fansirsqi.xposed.sesame.task.ModelTask
 import fansirsqi.xposed.sesame.util.Log
 import fansirsqi.xposed.sesame.util.ResChecker
+import fansirsqi.xposed.sesame.util.TaskFailureTracker
 import kotlinx.coroutines.delay
 import org.json.JSONObject
 
@@ -55,6 +56,7 @@ class GameCenter : ModelTask() {
             }
         } catch (t: Throwable) {
             Log.error(TAG, "签到异常: ${t.message}")
+            TaskFailureTracker.record("GameCenter", "gameCenterSignIn", t.message ?: "")
         }
     }
 
@@ -82,6 +84,7 @@ class GameCenter : ModelTask() {
             }
         } catch (t: Throwable) {
             Log.error(TAG, "积分球异常: ${t.message}")
+            TaskFailureTracker.record("GameCenter", "gameCenterPointBall", t.message ?: "")
         }
     }
 
@@ -116,6 +119,7 @@ class GameCenter : ModelTask() {
             }
         } catch (t: Throwable) {
             Log.error(TAG, "任务异常: ${t.message}")
+            TaskFailureTracker.record("GameCenter", "gameCenterTask", t.message ?: "")
         }
     }
 }

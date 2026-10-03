@@ -23,6 +23,7 @@ import fansirsqi.xposed.sesame.util.CoroutineUtils
 import fansirsqi.xposed.sesame.util.GlobalThreadPools
 import fansirsqi.xposed.sesame.util.Log
 import fansirsqi.xposed.sesame.util.Log.record
+import fansirsqi.xposed.sesame.util.TaskFailureTracker
 import fansirsqi.xposed.sesame.util.ResChecker
 import fansirsqi.xposed.sesame.util.TaskBlacklist
 import fansirsqi.xposed.sesame.util.TimeUtil
@@ -172,7 +173,7 @@ class AntMember : ModelTask() {
             BooleanModelField(
                 "enableGoldTicketConsume", "黄金票提取(兑换黄金)", false
             ).also { enableGoldTicketConsume = it })
-        modelFields.addField(BooleanModelField("enableGameCenter", "游戏中心签到", false).also {
+        modelFields.addField(BooleanModelField("enableGameCenter", "游戏中心签到+玩乐豆任务", false).also {
             enableGameCenter = it
         })
         modelFields.addField(
@@ -297,7 +298,10 @@ class AntMember : ModelTask() {
                 }
 
                 if (enableGameCenter!!.value) {
+                    Log.record(TAG, "游戏中心🎮 开关已开启，开始执行签到+玩乐豆任务")
                     deferredTasks.add(async(Dispatchers.IO) { enableGameCenter() })
+                } else {
+                    Log.record(TAG, "游戏中心🎮 开关未开启，跳过（如需玩乐豆请在「模块设置→蚂蚁会员」中勾选）")
                 }
 
                 if (beanSignIn!!.value) {
@@ -1726,6 +1730,15 @@ class AntMember : ModelTask() {
                                     record(
                                         "$TAG.enableGameCenter.tasks", "游戏中心🎮[平台任务处理完成]#待做:$total 完成:$finished 失败:$failed"
                                     )
+                                    // 失败过半时上报异常，连续3次会自动关闭该功能
+                                    if (failed > finished) {
+                                        TaskFailureTracker.record(
+                                            "AntMember", "enableGameCenter",
+                                            "游戏中心任务失败$failed/$total"
+                                        )
+                                    } else {
+                                        TaskFailureTracker.clear("AntMember", "enableGameCenter")
+                                    }
                                 } else {
                                     record(
                                         "$TAG.enableGameCenter.tasks", "游戏中心🎮[无待处理的平台任务]"
@@ -1906,7 +1919,14 @@ class AntMember : ModelTask() {
                                 break
                             }
                         } else {
-                            Log.error(TAG, "芝麻炼金失败: " + alchemyJo.optString("resultView"))
+                            // 常见为 CAP_REACHED(盖帽值拦截): 今日芝麻粒已达上限, 属正常业务限制
+                            val reason = alchemyJo.optString("resultView")
+                            val code = alchemyJo.optString("resultCode")
+                            if (code == "CAP_REACHED" || reason.contains("盖帽")) {
+                                Log.other(TAG, "芝麻炼金⚗️ 今日已达上限（盖帽值拦截），明日再来")
+                            } else {
+                                Log.error(TAG, "芝麻炼金失败[$code]: $reason")
+                            }
                             break
                         }
                     }

@@ -53,7 +53,9 @@ object TokenHooker {
     private fun handleAntFarmToken(userId: String, paramsJson: JSONObject) {
         try {
             val positionRequest = paramsJson.optJSONObject("positionRequest") ?: run {
-                Log.error(TAG, "未找到 positionRequest")
+                // 支付宝已调整该接口参数结构, 不再携带 positionRequest。
+                // 这是抓 token 的可选增强功能, 拿不到不影响主流程, 故不作为错误上报(避免刷屏)。
+                Log.other(TAG, "未找到 positionRequest(接口结构已变更, 跳过 referToken 捕获)")
                 return
             }
 

@@ -6,6 +6,7 @@ import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField
 import fansirsqi.xposed.sesame.task.ModelTask
 import fansirsqi.xposed.sesame.util.Log
 import fansirsqi.xposed.sesame.util.ResChecker
+import fansirsqi.xposed.sesame.util.TaskFailureTracker
 import kotlinx.coroutines.delay
 import org.json.JSONObject
 
@@ -58,6 +59,7 @@ class WelfareCenter : ModelTask() {
             }
         } catch (t: Throwable) {
             Log.error(TAG, "签到异常: ${t.message}")
+            TaskFailureTracker.record("WelfareCenter", "welfareSign", t.message ?: "")
         }
     }
 
@@ -71,6 +73,7 @@ class WelfareCenter : ModelTask() {
             }
         } catch (t: Throwable) {
             Log.error(TAG, "营地触发异常: ${t.message}")
+            TaskFailureTracker.record("WelfareCenter", "welfareCamp", t.message ?: "")
         }
     }
 
@@ -86,6 +89,7 @@ class WelfareCenter : ModelTask() {
             }
         } catch (t: Throwable) {
             Log.error(TAG, "积分查询异常: ${t.message}")
+            TaskFailureTracker.record("WelfareCenter", "welfarePoint", t.message ?: "")
         }
     }
 }

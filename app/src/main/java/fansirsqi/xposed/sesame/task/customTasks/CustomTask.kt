@@ -10,5 +10,6 @@ enum class CustomTask(val displayName: String) {
     FARM_GAME_LOGIC("庄园游戏改分"),
     FARM_CHOUCHOULE("庄园抽抽乐"),
     FARM_SPECIAL_FOOD("庄园使用特殊美食"),
-    FARM_USE_TOOL("使用庄园道具")
+    FARM_USE_TOOL("使用庄园道具"),
+    SPORTS_SYNC_STEP("同步运动步数")
 }

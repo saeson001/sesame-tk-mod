@@ -1,11 +1,14 @@
 package fansirsqi.xposed.sesame.ui.screen
 
+import android.content.ComponentName
 import android.content.Context
+import android.content.Intent
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.RestartAlt
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
@@ -13,6 +16,11 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import fansirsqi.xposed.sesame.util.CommandUtil
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -33,7 +41,10 @@ import fansirsqi.xposed.sesame.entity.UserEntity
 import fansirsqi.xposed.sesame.ui.MainActivity
 import fansirsqi.xposed.sesame.ui.navigation.BottomNavItem
 import fansirsqi.xposed.sesame.ui.screen.content.HomeContent
+import fansirsqi.xposed.sesame.ui.compose.CommonAlertDialog
 import fansirsqi.xposed.sesame.ui.screen.content.LogsContent
+import fansirsqi.xposed.sesame.util.Log
+import fansirsqi.xposed.sesame.util.ToastUtil
 import fansirsqi.xposed.sesame.ui.screen.content.SettingsContent
 import fansirsqi.xposed.sesame.ui.theme.ThemeManager
 import fansirsqi.xposed.sesame.ui.viewmodel.MainViewModel
@@ -52,6 +63,7 @@ fun MainScreen(
     onEvent: (MainActivity.MainUiEvent) -> Unit,
 ) {
     val context = LocalContext.current
+    val scope = rememberCoroutineScope()
 
     LaunchedEffect(Unit) {
         viewModel.refreshDeviceInfo(context)
@@ -66,6 +78,7 @@ fun MainScreen(
     val prefs = context.getSharedPreferences(PREFERENCES_KEY, Context.MODE_PRIVATE)
     var isIconHidden by remember { mutableStateOf(prefs.getBoolean("is_icon_hidden", false)) }
     var showMenu by remember { mutableStateOf(false) }
+    var showRestartDialog by remember { mutableStateOf(false) }
 //    var showUserDialog by remember { mutableStateOf(false) }
 
     val deviceInfoMap by viewModel.deviceInfo.collectAsStateWithLifecycle()
@@ -91,6 +104,15 @@ fun MainScreen(
                     containerColor = MaterialTheme.colorScheme.background
                 ),
                 actions = {
+
+                    // 重启支付宝按钮（位于三点菜单左侧）
+                    IconButton(onClick = { showRestartDialog = true }) {
+                        Icon(
+                            Icons.Default.RestartAlt,
+                            contentDescription = "重启支付宝",
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
 
                     IconButton(onClick = { showMenu = true }) {
                         Icon(Icons.Default.MoreVert, contentDescription = "更多")
@@ -160,5 +182,37 @@ fun MainScreen(
             }
         }
     }
+
+    // ===== 重启支付宝确认弹窗 =====
+    CommonAlertDialog(
+        showDialog = showRestartDialog,
+        onDismissRequest = { showRestartDialog = false },
+        onConfirm = {
+            // 模块运行在支付宝进程内，startActivity 拉起的是自己（无效），
+            // 必须通过 root/Shizuku 从外部进程执行命令。
+            // 按"多重动作"方式：先结束应用 → 延时 → 再 am start（真正冷重启）
+            val ctx = context.applicationContext
+            ToastUtil.showToast(ctx, "正在重启支付宝…")
+            CommandUtil.connect(ctx)
+            CommandUtil.execCommandAsync(ctx, "am force-stop com.eg.android.AlipayGphone") { _ ->
+                android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
+                    val cmd = "am start -n com.eg.android.AlipayGphone/" +
+                            "com.alipay.mobile.framework.service.common.SchemeStartActivity"
+                    CommandUtil.execCommandAsync(ctx, cmd) { result ->
+                        ToastUtil.showToast(
+                            ctx,
+                            if (result != null) "支付宝已重启" else "拉起失败，请手动打开支付宝"
+                        )
+                    }
+                }, 5000)
+            }
+        },
+        title = "重启支付宝",
+        text = "将重新拉起支付宝以使配置生效，<font color='red'>支付宝会立即跳转并重启</font>。确认继续吗？",
+        icon = Icons.Default.RestartAlt,
+        iconTint = MaterialTheme.colorScheme.primary,
+        confirmText = "确认重启",
+        dismissText = "取消"
+    )
 
 }

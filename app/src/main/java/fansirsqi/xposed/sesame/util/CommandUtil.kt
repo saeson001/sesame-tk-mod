@@ -228,6 +228,21 @@ object CommandUtil {
     }
 
     /**
+     * 异步执行命令（供 Java 调用，避免直接依赖 suspend 函数）
+     * @param onResult 回调在主线程执行；结果为 null 表示执行失败
+     */
+    @JvmStatic
+    fun execCommandAsync(context: Context, command: String, onResult: (String?) -> Unit) {
+        scope.launch {
+            val r = executeCommand(context, command)
+            Log.i(TAG, "执行命令[$command] 结果: ${if (r != null) "成功->$r" else "失败(可能是无Root/Shizuku权限或服务未连接)"}")
+            withContext(Dispatchers.Main) {
+                try { onResult(r) } catch (_: Exception) { }
+            }
+        }
+    }
+
+    /**
      * 手动解绑服务
      */
     fun unbind(context: Context) {

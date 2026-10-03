@@ -109,6 +109,9 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.io.File
 import kotlin.math.max
+import androidx.compose.material.icons.filled.ErrorOutline
+import androidx.compose.material.icons.automirrored.filled.Send
+import android.widget.Toast
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalAnimationApi::class)
 @Composable
@@ -335,18 +338,63 @@ fun LogViewerScreen(
                                         )
                                         HorizontalDivider()
 
-                                        // 二级菜单逻辑 ...
+                                        // 一键筛选错误日志（配合 TaskFailureTracker 自动关闭机制）
+                                        DropdownMenuItem(
+                                            text = { Text("只看错误/待关闭任务", color = MaterialTheme.colorScheme.error) },
+                                            onClick = {
+                                                showMenu = false
+                                                isSearchActive = true
+                                                viewModel.search("异常")
+                                            },
+                                            leadingIcon = {
+                                                Icon(
+                                                    Icons.Default.ErrorOutline,
+                                                    null,
+                                                    tint = MaterialTheme.colorScheme.error
+                                                )
+                                            }
+                                        )
+                                        // 发送到电脑分析
+                                        DropdownMenuItem(
+                                            text = { Text("发送日志到电脑") },
+                                            onClick = {
+                                                showMenu = false
+                                                scope.launch {
+                                                    Toast.makeText(context, "正在发送…", Toast.LENGTH_SHORT).show()
+                                                    val result = viewModel.sendLogToPc(pcUrl(context))
+                                                    Toast.makeText(
+                                                        context,
+                                                        if (result.startsWith("已发送")) "✅ $result"
+                                                        else "❌ $result",
+                                                        Toast.LENGTH_LONG
+                                                    ).show()
+                                                }
+                                            },
+                                            leadingIcon = { Icon(Icons.AutoMirrored.Filled.Send, null) }
+                                        )
+                                        HorizontalDivider()
+
+                                        // 二级菜单：点击"字体设置"向右展开
                                         var showFontSubMenu by remember { mutableStateOf(false) }
                                         Box {
                                             DropdownMenuItem(
                                                 text = { Text("字体设置") },
                                                 onClick = { showFontSubMenu = true },
-                                                leadingIcon = { Icon(Icons.Default.FontDownload, null) }
+                                                leadingIcon = { Icon(Icons.Default.FontDownload, null) },
+                                                trailingIcon = {
+                                                    Icon(
+                                                        if (showFontSubMenu) Icons.Default.KeyboardArrowUp
+                                                        else Icons.Default.KeyboardArrowDown,
+                                                        contentDescription = null,
+                                                        tint = MaterialTheme.colorScheme.onSurfaceVariant
+                                                    )
+                                                }
                                             )
                                             DropdownMenu(
                                                 expanded = showFontSubMenu,
                                                 onDismissRequest = { showFontSubMenu = false },
-                                                offset = DpOffset(x = 10.dp, y = 0.dp)
+                                                // 向右偏移出父菜单宽度，避免与父菜单重叠
+                                                offset = DpOffset(x = 200.dp, y = 0.dp)
                                             ) {
                                                 DropdownMenuItem(
                                                     text = { Text("放大字体") },
@@ -637,3 +685,6 @@ fun DraggableScrollbar(listState: LazyListState, totalItems: Int, modifier: Modi
         }
     }
 }
+/** 读取电脑接收地址（与抓包页共用同一份配置） */
+private fun pcUrl(context: android.content.Context): String =
+    context.getSharedPreferences("sesame_tk", 0).getString("pc_url", "") ?: ""

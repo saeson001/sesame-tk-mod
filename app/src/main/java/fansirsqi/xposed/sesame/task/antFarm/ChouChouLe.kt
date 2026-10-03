@@ -17,6 +17,15 @@ class ChouChouLe {
 
     companion object {
         private val TAG = ChouChouLe::class.java.simpleName
+
+        /** 兑换优先级：限定装扮（最高） */
+        private const val TIER_LIMITED_DRESS = 0
+
+        /** 兑换优先级：补签卡 */
+        private const val TIER_MAKEUP_CARD = 1
+
+        /** 兑换优先级：其他物品（最后） */
+        private const val TIER_OTHER = 2
     }
 
     /**
@@ -77,6 +86,9 @@ class ChouChouLe {
             if (drawMachineInfo.has("dailyDrawMachineActivityId")) {
                 allFinished = allFinished and doChouchoule("dailyDraw")
             }
+
+            // 抽奖后领取饲料（chouchoule_xiaritianpin，ALLPURPOSE）
+            claimPostLotteryFeed()
 
             return allFinished
         } catch (t: Throwable) {
@@ -247,24 +259,41 @@ class ChouChouLe {
     }
 
     /**
-     * 处理广告任务
+     * 处理广告任务（看广告换机会，15秒×3）
+     * 策略：优先尝试直接跳过完成（finishTask）；若服务端不允许跳过，则观看广告并模拟等待15秒
      */
     private fun handleAdTask(drawType: String, task: TaskInfo): Boolean {
         try {
-            val referToken = AntFarm.loadAntFarmReferToken()
             val taskSceneCode = if (drawType == "ipDraw") "ANTFARM_IP_DRAW_TASK" else "ANTFARM_DAILY_DRAW_TASK"
+            val taskName = if (drawType == "ipDraw") "IP抽抽乐" else "抽抽乐"
 
-            // 如果有referToken，尝试执行广告任务
+            // 1) 先尝试直接跳过完成（无需看广告）
+            val outBizNo = task.taskId + "_" + System.currentTimeMillis() + "_" +
+                    Integer.toHexString((Math.random() * 0xFFFFFF).toInt())
+            val skipResp = AntFarmRpcCall.finishTask(task.taskId, taskSceneCode, outBizNo)
+            val skipJo = JSONObject(skipResp)
+            if (skipJo.optBoolean("success", false)) {
+                Log.farm("$taskName🧾️[任务: ${task.title}] (直接跳过完成)")
+                GlobalThreadPools.sleepCompat(500L)
+                return true
+            }
+
+            // 跳过被拒（服务端要求真实观看），记原因后走广告路径
+            val skipMsg = skipJo.optString(
+                "memo",
+                skipJo.optString("resultDesc", skipJo.optString("resultView", ""))
+            )
+            Log.record(TAG, "浏览广告任务[无法直接跳过: $skipMsg，改为观看广告]")
+
+            // 2) 观看广告路径（真实广告或猜价格小游戏）
+            val referToken = AntFarm.loadAntFarmReferToken()
             if (!referToken.isNullOrEmpty()) {
                 val response = AntFarmRpcCall.xlightPlugin(referToken, "HDWFCJGXNZW_CUSTOM_20250826173111")
                 val jo = JSONObject(response)
-
                 if (jo.optString("retCode") == "0") {
                     val resData = jo.getJSONObject("resData")
                     val adList = resData.optJSONArray("adList")
-
                     if (adList != null && adList.length() > 0) {
-                        // 检查是否有猜一猜任务
                         val playingResult = resData.optJSONObject("playingResult")
                         if (playingResult != null &&
                             "XLIGHT_GUESS_PRICE_FEEDS" == playingResult.optString("playingStyleType")
@@ -278,21 +307,40 @@ class ChouChouLe {
                 Log.record(TAG, "浏览广告任务[没有可用Token，请手动看一起广告]")
             }
 
-            // 没有token或广告任务失败，使用普通完成方式
-            val outBizNo = task.taskId + "_" + System.currentTimeMillis() + "_" +
+            // 3) 广告路径兜底：模拟等待15秒后再 finishTask
+            Log.record(TAG, "浏览广告任务[模拟等待15秒]")
+            GlobalThreadPools.sleepCompat(15000L)
+            val outBizNo2 = task.taskId + "_" + System.currentTimeMillis() + "_" +
                     Integer.toHexString((Math.random() * 0xFFFFFF).toInt())
-            val response = AntFarmRpcCall.finishTask(task.taskId, taskSceneCode, outBizNo)
+            val response = AntFarmRpcCall.finishTask(task.taskId, taskSceneCode, outBizNo2)
             val jo = JSONObject(response)
-
             if (jo.optBoolean("success", false)) {
-                Log.farm((if (drawType == "ipDraw") "IP抽抽乐" else "抽抽乐") + "🧾️[任务: ${task.title}]")
-                GlobalThreadPools.sleepCompat(3000L)
+                Log.farm("$taskName🧾️[任务: ${task.title}]")
+                GlobalThreadPools.sleepCompat(500L)
                 return true
             }
             return false
         } catch (t: Throwable) {
             Log.printStackTrace("处理广告任务 err:", t)
             return false
+        }
+    }
+
+    /**
+     * 抽奖后领取饲料（chouchoule_xiaritianpin，awardType=ALLPURPOSE）
+     * 对应抓包：com.alipay.antfarm.receiveFarmTaskAward taskId=chouchoule_xiaritianpin
+     */
+    private fun claimPostLotteryFeed() {
+        try {
+            val response = AntFarmRpcCall.receiveFarmTaskAward("chouchoule_xiaritianpin")
+            val jo = JSONObject(response)
+            if (ResChecker.checkRes(TAG, jo)) {
+                Log.farm("抽抽乐🎁[抽奖后领取饲料: chouchoule_xiaritianpin]")
+            } else {
+                Log.record(TAG, "抽抽乐[抽奖后领取饲料: 无需领取或已领取]")
+            }
+        } catch (t: Throwable) {
+            Log.printStackTrace("claimPostLotteryFeed err:", t)
         }
     }
 
@@ -545,31 +593,58 @@ class ChouChouLe {
                 }
                 allSkus.sortWith { a, b -> b.optInt("_cent", 0).compareTo(a.optInt("_cent", 0)) }
 
+                // ============ 兑换优先级 ============
+                // 用户要求：限定装扮 > 补签卡 > 其他
+                // 只要还有"未兑换完"的限定装扮或补签卡，就绝不动其他类物品。
+                // 实现：给每个 sku 打 _tier 标签(0=限定装扮, 1=补签卡, 2=其他)，
+                //      排序按 tier 升序 + tier 内价格降序。
                 for (sku in allSkus) {
-                    if (sku.optBoolean("_isReachLimit")) continue
-                    val cent = sku.optInt("_cent", 0)
-                    val skuName = sku.optString("skuName")
-
-                    if (isNoEnoughPoint(sku) || (cent > 0 && totalCent < cent)) {
-                        Log.record("自动兑换", "最高价值项 [$skuName] 碎片不足(持有 ${totalCent/100}, 需 ${cent/100})，等攒够再换，终止本次兑换")
-                        return
-                    }
-                    break
+                    sku.put("_tier", resolveTier(sku))
+                }
+                allSkus.sortWith { a, b ->
+                    val ta = a.optInt("_tier", 2)
+                    val tb = b.optInt("_tier", 2)
+                    if (ta != tb) ta.compareTo(tb)
+                    else b.optInt("_cent", 0).compareTo(a.optInt("_cent", 0))
                 }
 
-                // 执行顺序兑换，按价格从高到低
+                // 兑换主循环：限定装扮 → 补签卡 → 其他
+                // 注意: 每次循环都重新判断"高优先级是否还有可兑换项"，
+                //      这样限定装扮兑换完成后能自动过渡到补签卡，再过渡到其他。
                 for (sku in allSkus) {
                     if (sku.optBoolean("_isReachLimit")) continue
 
                     val skuName = sku.optString("skuName")
                     val cent = sku.optInt("_cent", 0)
+
+                    // 动态判断：当前是否还存在"买得起且未兑换完"的限定装扮/补签卡
+                    val hasPendingHighTier = allSkus.any { s ->
+                        !s.optBoolean("_isReachLimit") &&
+                            s.optInt("_tier", TIER_OTHER) < TIER_OTHER &&
+                            !isNoEnoughPoint(s) &&
+                            s.optInt("_cent", 0) <= totalCent
+                    }
+
+                    // 关键规则：只要还有未兑换完的限定装扮/补签卡，就不换其他类
+                    val tier = sku.optInt("_tier", TIER_OTHER)
+                    if (tier >= TIER_OTHER && hasPendingHighTier) {
+                        Log.record("自动兑换", "限定装扮/补签卡尚未兑换完，暂不兑换其他物品 [$skuName]")
+                        continue
+                    }
+
                     val extendInfo = sku.optString("skuExtendInfo")
                     val limitCount = if (extendInfo.contains("20次")) 20 else if (extendInfo.contains("5次")) 5 else 1
 
-                    // 【核心逻辑】：如果当前项买不起，直接 return 停止，不再尝试后续更便宜的项目
+                    // 买不起当前项：
+                    //  - 高优先级项(限定装扮/补签卡)：continue 继续尝试下一项(例如装扮买不起就先换补签卡)
+                    //  - 其他项：continue（高优先级未完成时本来就会被上面跳过）
                     if (isNoEnoughPoint(sku) || (cent > 0 && totalCent < cent)) {
-                        Log.record("自动兑换", "剩余碎片不足以兑换优先级项 [$skuName] (需 ${cent/100})，停止后续兑换任务")
-                        return
+                        if (tier < TIER_OTHER) {
+                            Log.record("自动兑换", "碎片不足以兑换优先项 [$skuName] (需 ${cent/100}, 持有 ${totalCent/100})，先尝试其它同类优先项")
+                        } else {
+                            Log.record("自动兑换", "碎片不足，跳过 [$skuName] (需 ${cent/100}, 持有 ${totalCent/100})")
+                        }
+                        continue
                     }
 
                     var sessionExchangedCount = 0
@@ -609,6 +684,45 @@ class ChouChouLe {
         } catch (e: Exception) {
             Log.printStackTrace(TAG,"自动兑换异常", e)
         }
+    }
+
+    /**
+     * 兑换优先级判定
+     *
+     * tier 0 = 限定装扮（最高优先，永远先换）
+     * tier 1 = 补签卡（其次）
+     * tier 2 = 其他物品（只有前两类都兑换完/买不起时才碰）
+     *
+     * 识别方式：优先看服务端下发的类型标记字段（若有），
+     *          否则回退到名称关键字匹配，保证兼容不同活动批次。
+     */
+    private fun resolveTier(sku: JSONObject): Int {
+        // 服务端若直接给了类型字段，优先采用（比名称匹配更可靠）
+        val typeField = sku.optString("itemType").ifEmpty { sku.optString("category") }
+            .ifEmpty { sku.optString("subCategory") }
+        if (typeField.isNotEmpty()) {
+            val t = typeField.uppercase()
+            if (t.contains("LIMIT") || t.contains("DRESS") || t.contains("SUIT")) return TIER_LIMITED_DRESS
+            if (t.contains("SIGN") || t.contains("MAKEUP") || t.contains("CARD")) return TIER_MAKEUP_CARD
+        }
+
+        val spuName = sku.optString("_spuName")
+        val skuName = sku.optString("skuName")
+        val all = (spuName + " " + skuName)
+
+        // 限定装扮
+        if (all.contains("限定") || all.contains("联名") || all.contains("绝版") ||
+            all.contains("典藏") || all.contains("专属")
+        ) {
+            return TIER_LIMITED_DRESS
+        }
+        // 补签卡
+        if (all.contains("补签") || all.contains("补卡") || all.contains("签到卡") ||
+            all.contains("补签券")
+        ) {
+            return TIER_MAKEUP_CARD
+        }
+        return TIER_OTHER
     }
 
     private fun isReachedLimit(jo: JSONObject?): Boolean {

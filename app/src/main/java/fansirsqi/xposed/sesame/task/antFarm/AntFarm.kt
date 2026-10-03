@@ -45,8 +45,12 @@ import fansirsqi.xposed.sesame.util.maps.IdMapManager
 import fansirsqi.xposed.sesame.util.maps.ParadiseCoinBenefitIdMap
 import fansirsqi.xposed.sesame.util.maps.UserMap
 import fansirsqi.xposed.sesame.util.maps.VipDataIdMap
+import fansirsqi.xposed.sesame.task.ConfigTaskRunner
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import lombok.ToString
 import org.json.JSONArray
 import org.json.JSONException
@@ -212,6 +216,10 @@ class AntFarm : ModelTask() {
      * 收取饲料奖励（无时间限制）
      */
     private var receiveFarmTaskAward: BooleanModelField? = null
+    private var receiveFarmAwardPeriodic: BooleanModelField? = null // 每30分钟独立检查并领取已完成任务的饲料
+    @Volatile private var periodicFeedEnabled = false
+    private var periodicFeedJob: Job? = null
+    private var configTaskEnabled: BooleanModelField? = null // 配置任务定时执行(游戏类15分钟/其他3分钟)
     private var useAccelerateTool: BooleanModelField? = null
     private var ignoreAcceLimit: BooleanModelField? = null
     private var useBigEaterTool: BooleanModelField? = null // ✅ 新增加饭卡
@@ -308,6 +316,18 @@ class AntFarm : ModelTask() {
                 "收取饲料奖励",
                 false
             ).also { receiveFarmTaskAward = it })
+        modelFields.addField(
+            BooleanModelField(
+                "receiveFarmAwardPeriodic",
+                "收取饲料奖励 | 每30分钟独立检查",
+                false
+            ).also { receiveFarmAwardPeriodic = it })
+        modelFields.addField(
+            BooleanModelField(
+                "configTaskEnabled",
+                "配置任务定时执行 | 游戏类15分钟·其他3分钟(读custom_tasks.json)",
+                false
+            ).also { configTaskEnabled = it })
         modelFields.addField(
             BooleanModelField(
                 "useBigEaterTool",
@@ -644,6 +664,75 @@ class AntFarm : ModelTask() {
         super.boot(classLoader)
         instance = this
         addIntervalLimit("com.alipay.antfarm.enterFarm", 2000)
+        if (receiveFarmAwardPeriodic?.value == true) {
+            startPeriodicFeedClaim()
+        }
+        if (configTaskEnabled?.value == true) {
+            ConfigTaskRunner.start()
+        }
+    }
+
+    /**
+     * 启动「每30分钟独立检查并领取已完成任务的饲料」后台协程
+     * 与收取饲料奖励(receiveFarmAwards)相互独立：即使主流程未跑到，也能周期性把已完成任务的饲料领到手
+     */
+    private fun startPeriodicFeedClaim() {
+        if (periodicFeedJob?.isActive == true) return
+        periodicFeedEnabled = true
+        periodicFeedJob = GlobalScope.launch {
+            Log.record(TAG, "周期领饲料[已启动, 间隔30分钟]")
+            while (periodicFeedEnabled) {
+                delay(30 * 60 * 1000L)
+                try {
+                    claimFinishedFarmTasks()
+                } catch (ce: CancellationException) {
+                    throw ce
+                } catch (t: Throwable) {
+                    Log.printStackTrace(TAG, "周期领饲料异常:", t)
+                }
+            }
+        }
+    }
+
+    /**
+     * 独立领取庄园已完成(FINISHED)任务的饲料奖励，受 foodStockLimit 上限约束
+     * 不依赖主流程状态(ownerFarmId)，仅在食槽已同步(foodStockLimit>0)后执行
+     */
+    private suspend fun claimFinishedFarmTasks() {
+        if (foodStockLimit <= 0) return
+        val response = AntFarmRpcCall.listFarmTask()
+        if (response.isNullOrEmpty()) return
+        val jo = JSONObject(response)
+        if (!ResChecker.checkRes(TAG, jo)) return
+        val farmTaskList = jo.optJSONArray("farmTaskList") ?: return
+        for (i in 0..<farmTaskList.length()) {
+            val task = farmTaskList.getJSONObject(i)
+            if (TaskStatus.FINISHED.name != task.optString("taskStatus")) continue
+            val taskId = task.optString("taskId")
+            val awardCount = task.optInt("awardCount", 0)
+            val awardType = task.optString("awardType")
+            val title = task.optString("title", "?")
+            if ("ALLPURPOSE" == awardType) {
+                if (foodStock >= foodStockLimit) {
+                    Log.record(TAG, "周期领饲料[已满]跳过")
+                    break
+                }
+                val isNight = TimeUtil.isNowAfterOrCompareTimeStr("2000")
+                if (foodStock + awardCount > foodStockLimit && !isNight) continue
+            }
+            val r = JSONObject(AntFarmRpcCall.receiveFarmTaskAward(taskId))
+            if (ResChecker.checkRes(TAG, r)) {
+                Log.farm("周期领取庄园任务奖励[$title] # ${awardCount}g (剩余容量: ${foodStockLimit - foodStock}g)")
+                if ("ALLPURPOSE" == awardType) foodStock += awardCount
+                delay(1000)
+            } else {
+                val resultCode = r.optString("resultCode", "")
+                if ("331" == resultCode || r.optString("memo").contains("饲料槽已满")) {
+                    Log.record(TAG, "周期领饲料[饲料槽已满]停止")
+                    break
+                }
+            }
+        }
     }
 
     override suspend fun runSuspend() {
@@ -784,6 +873,12 @@ class AntFarm : ModelTask() {
             if (enableChouchoule!!.value) {
                 tc.countDebug("抽抽乐")
                 handleChouChouLeLogic()
+            } else {
+                Log.record(
+                    TAG,
+                    "抽抽乐未执行：「开启小鸡抽抽乐」开关关闭（请在「蚂蚁庄园」设置中勾选）" +
+                            " | 执行时间设定=${enableChouchouleTime?.value}"
+                )
             }
 
             if (getFeed!!.value) {
@@ -2076,14 +2171,24 @@ class AntFarm : ModelTask() {
         }
     }
     private fun handleChouChouLeLogic() {
+        // 诊断日志：明确记录为什么执行/不执行
+        val cclTime = enableChouchouleTime?.value ?: "0900"
+        val gameEnabled = recordFarmGame!!.value
+        val timeReached = TaskTimeChecker.isTimeReached(cclTime, "0900")
+        Log.record(
+            TAG,
+            "抽抽乐检查: 已完成标记=${Status.hasFlagToday("farm::chouChouLeFinished")}" +
+                    " 游戏改分开关=$gameEnabled 设定时间=$cclTime 已到点=$timeReached"
+        )
+
         // 1. 检查抽抽乐是否已完成
         if (Status.hasFlagToday("farm::chouChouLeFinished")) {
-            Log.record("今日抽抽乐已完成")
+            Log.record(TAG, "今日抽抽乐已完成")
             return
         }
         val isGameFinished = Status.hasFlagToday("farm::farmGameFinished")
-        val isGameEnabled = recordFarmGame!!.value
-        val isTimeReached = TaskTimeChecker.isTimeReached(enableChouchouleTime?.value, "0900")
+        val isGameEnabled = gameEnabled
+        val isTimeReached = timeReached
         val ignoreAcceLimitMode = !isGameEnabled || ignoreAcceLimit!!.value
 
         when {
@@ -2091,7 +2196,7 @@ class AntFarm : ModelTask() {
                 if (isTimeReached) {
                     playChouChouLe()
                 } else {
-                    Log.record(TAG, "当前处于按时抽抽乐模式，未到设定时间，跳过")
+                    Log.record(TAG, "抽抽乐未执行: 未到设定时间 $cclTime（游戏改分开关=$isGameEnabled）")
                 }
             }
 

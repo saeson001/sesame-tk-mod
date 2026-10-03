@@ -38,14 +38,15 @@ import java.util.concurrent.atomic.AtomicLong
 
 /**
  * 日志 UI 状态
- */
-data class LogUiState(
+ */data class LogUiState(
     val mappingList: List<Int> = emptyList(),
     val isLoading: Boolean = true,
     val isSearching: Boolean = false,
     val searchQuery: String = "",
     val totalCount: Int = 0,
-    val autoScroll: Boolean = true
+    val autoScroll: Boolean = true,
+    /** 分类过滤：空=全部；"森林"/"庄园"/"海洋"/"抽抽乐"/"错误" 等 */
+    val category: String = ""
 )
 
 /**
@@ -198,16 +199,24 @@ class LogViewerViewModel(application: Application) : AndroidViewModel(applicatio
 
     private suspend fun refreshList() {
         val query = _uiState.value.searchQuery.trim()
+        val cat = _uiState.value.category
 
         val resultOffsets = withContext(Dispatchers.IO) {
             synchronized(allLineOffsets) {
-                if (query.isEmpty()) {
+                if (query.isEmpty() && cat.isEmpty()) {
                     ArrayList(allLineOffsets)
                 } else {
                     allLineOffsets.filter { offset ->
                         ensureActive()
                         val line = readLineAt(offset)
-                        line?.contains(query, ignoreCase = true) ?: false
+                        if (line == null) return@filter false
+                        if (query.isNotEmpty() && !line.contains(query, ignoreCase = true)) {
+                            return@filter false
+                        }
+                        if (cat.isNotEmpty() && !matchCategory(line, cat)) {
+                            return@filter false
+                        }
+                        true
                     }
                 }
             }
@@ -228,6 +237,51 @@ class LogViewerViewModel(application: Application) : AndroidViewModel(applicatio
         if (_uiState.value.autoScroll && resultOffsets.isNotEmpty()) {
             _scrollEvent.send(resultOffsets.size - 1)
         }
+    }
+
+    /** 分类关键字：把一行日志归到某个设置分类 */
+    private fun matchCategory(line: String, category: String): Boolean {
+        return when (category) {
+            "错误" -> ERROR_PATTERNS.any { line.contains(it, ignoreCase = true) }
+            "全部" -> true
+            else -> {
+                val keys = CATEGORY_KEYWORDS[category]
+                if (keys == null) true
+                else keys.any { line.contains(it, ignoreCase = true) }
+            }
+        }
+    }
+
+    /** 切换分类（再点一次取消） */
+    fun setCategory(category: String) {
+        val newCat = if (_uiState.value.category == category) "" else category
+        _uiState.update { it.copy(category = newCat, isSearching = true) }
+        viewModelScope.launch {
+            delay(150)
+            refreshList()
+        }
+    }
+
+    /** 各分类的匹配关键字（与设置里的分类对应） */
+    companion object {        /** 分类名 -> 日志中出现的关键字（任一命中即算该分类） */
+        val CATEGORY_KEYWORDS = linkedMapOf(
+            "森林" to listOf("AntForest", "森林", "forest", "能量", "种树"),
+            "庄园" to listOf("AntFarm", "庄园", "farm", "小鸡", "饲料", " manure", "orchardSign"),
+            "海洋" to listOf("AntOcean", "海洋", "ocean", "oceanS"),
+            "果园" to listOf("AntOrchard", "果园", "orchard", "种果"),
+            "运动" to listOf("AntSports", "运动", "sports", "走路", "步数"),
+            "会员" to listOf("AntMember", "会员", "member", "玩乐豆", "乐豆", "游戏中心"),
+            "抽抽乐" to listOf("ChouChouLe", "chouchoule", "抽抽乐", "drawMachine", "drawLotteryPlus", "ipDraw", "IP抽抽乐"),
+            "其他" to listOf("GameCenter", "WelfareCenter", "SesameCredit", "ConfigTask", "游戏中心", "福利中心", "芝麻信用", "配置任务")
+        )
+
+        /** 错误日志特征 */
+        val ERROR_PATTERNS = listOf(
+            "异常", "失败", "错误", "Error", "Exception", "error:", "超时", "timeout"
+        )
+
+        /** 分类下拉菜单的显示顺序 */
+        val CATEGORY_ORDER = listOf("森林", "庄园", "海洋", "果园", "运动", "会员", "抽抽乐", "其他", "错误")
     }
 
     fun getLineContent(position: Int): String {
@@ -473,6 +527,59 @@ class LogViewerViewModel(application: Application) : AndroidViewModel(applicatio
             if (size > 0) _scrollEvent.send(size - 1)
         }
     }
+
+    /**
+     * 把当前日志发送到电脑（POST 到 receive_rpc.py 的 /upload）
+     * @param url 形如 http://192.168.1.10:8765
+     * @return 成功返回服务器响应，失败返回错误信息
+     */
+    suspend fun sendLogToPc(url: String): String = withContext(Dispatchers.IO) {
+        val path = currentFilePath
+        if (path.isNullOrEmpty()) return@withContext "未打开日志文件"
+        val file = File(path)
+        if (!file.exists()) return@withContext "日志文件不存在"
+
+        // 读取当前筛选后的内容（限制体积，避免超大文件传输失败）
+        val sb = StringBuilder()
+        var total = 0
+        for (offset in displayLineOffsets) {
+            if (total > 512 * 1024) break
+            val line = readLineAt(offset) ?: continue
+            sb.append(line).append('\n')
+            total += line.length
+        }
+        if (sb.isEmpty()) return@withContext "当前筛选结果为空，无内容可发送"
+
+        try {
+            // 脚本支持的 JSON 格式：{"name":..., "content":...}
+            val json = org.json.JSONObject().apply {
+                put("name", file.name)
+                put("content", sb.toString())
+            }.toString()
+
+            val sep = if (url.contains("://")) "" else "://"
+            val full = "$url$sep/upload?token=sesame&name=${java.net.URLEncoder.encode(file.name, "UTF-8")}"
+            val conn = (java.net.URL(full).openConnection() as java.net.HttpURLConnection).apply {
+                requestMethod = "POST"
+                doOutput = true
+                connectTimeout = 5000
+                readTimeout = 8000
+                setRequestProperty("Content-Type", "application/json; charset=utf-8")
+            }
+            conn.outputStream.use { it.write(json.toByteArray(StandardCharsets.UTF_8)) }
+            val code = conn.responseCode
+            val resp = runCatching { conn.inputStream.bufferedReader().readText() }.getOrDefault("")
+            if (code == 200) {
+                "已发送 ${sb.length / 1024} KB 到电脑\n\n$resp"
+            } else {
+                "电脑返回 HTTP $code"
+            }
+        } catch (e: Throwable) {
+            "发送失败: ${e.message}"
+        }
+    }
+
+    fun closeFile_() = Unit
 
     private fun closeFile() {
         try {

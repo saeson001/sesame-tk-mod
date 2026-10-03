@@ -20,7 +20,6 @@ import androidx.compose.material.icons.rounded.BugReport
 import androidx.compose.material.icons.rounded.DeleteForever
 import androidx.compose.material.icons.rounded.Extension
 import androidx.compose.material.icons.rounded.Analytics
-import androidx.compose.material.icons.rounded.Groups
 import androidx.compose.material.icons.rounded.Palette
 import androidx.compose.material.icons.rounded.SatelliteAlt
 import androidx.compose.material3.MaterialTheme
@@ -41,7 +40,6 @@ import fansirsqi.xposed.sesame.ui.ManualTaskActivity
 import fansirsqi.xposed.sesame.ui.RpcCaptureActivity
 import fansirsqi.xposed.sesame.ui.RpcDebugActivity
 import fansirsqi.xposed.sesame.ui.compose.CommonAlertDialog
-import fansirsqi.xposed.sesame.ui.extension.joinQQGroup
 import fansirsqi.xposed.sesame.ui.screen.components.SettingsItem
 import fansirsqi.xposed.sesame.ui.screen.components.UserItemCard
 
@@ -189,25 +187,6 @@ fun SettingsContent(
                     icon = Icons.AutoMirrored.Rounded.OpenInNew,
                     onClick = {
                         uriHandler.openUri("https://github.com/Fansirsqi/Sesame-TK")
-                    }
-                )
-            }
-            item {
-                SettingsItem(
-                    title = "Telegram",
-                    icon = Icons.AutoMirrored.Rounded.Send,
-                    onClick = {
-                        uriHandler.openUri("https://t.me/Sesame_TK_Channel")
-                    }
-                )
-            }
-
-            item {
-                SettingsItem(
-                    title = "QQ群",
-                    icon = Icons.Rounded.Groups,
-                    onClick = {
-                        joinQQGroup(context)
                     }
                 )
             }

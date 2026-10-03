@@ -14,6 +14,7 @@ import fansirsqi.xposed.sesame.model.modelFieldExt.SelectModelField
 import fansirsqi.xposed.sesame.task.ModelTask
 import fansirsqi.xposed.sesame.util.CoroutineUtils
 import fansirsqi.xposed.sesame.util.GameTask
+import fansirsqi.xposed.sesame.util.DailyRejectCounter
 import fansirsqi.xposed.sesame.util.Log
 import fansirsqi.xposed.sesame.util.RandomUtil
 import fansirsqi.xposed.sesame.util.ResChecker
@@ -225,6 +226,12 @@ class AntOrchard : ModelTask() {
         // 独立计数：果树使用原Flag，摇钱树使用新Key
         val statusKey = if (isMain) StatusFlags.FLAG_ANTORCHARD_SPREAD_MANURE_COUNT else STATUS_YEB_WATER_COUNT
 
+        // 当日额度用完被拒 2 次后，当天不再对该场景施肥（次日自动恢复）
+        if (DailyRejectCounter.isStoppedToday("antOrchard.spread.$targetScene")) {
+            Log.record(TAG, "$sceneName 今日额度已用尽，跳过施肥")
+            return
+        }
+
         var totalWatered = Status.getIntFlagToday(statusKey) ?: 0
 
         if (totalWatered >= targetLimit) {
@@ -302,9 +309,26 @@ class AntOrchard : ModelTask() {
                 }
 
                 if (resultCode != "100") {
-                    Log.error(TAG, "$sceneName 施肥失败: ${spreadJson.optString("resultDesc")}")
+                    // 次数/额度用完属正常业务上限, 不作为错误上报(避免污染错误日志)
+                    val desc = spreadJson.optString("resultDesc")
+                    if (desc.contains("次数") || desc.contains("已用完") || desc.contains("上限") || desc.contains("限制")) {
+                        // 累计"额度用完"次数, 达到上限后当天不再对该场景施肥
+                        val rejectKey = "antOrchard.spread.$targetScene"
+                        val reached = DailyRejectCounter.recordReject(rejectKey, desc)
+                        if (reached) {
+                            Log.record(TAG, "$sceneName $desc（今日已达上限，明天再试）")
+                        } else {
+                            val left = DailyRejectCounter.remaining(rejectKey)
+                            Log.record(TAG, "$sceneName $desc（今日还可重试 $left 次）")
+                        }
+                    } else {
+                        Log.error(TAG, "$sceneName 施肥失败[$resultCode]: $desc")
+                    }
                     return
                 }
+
+                // 施肥成功：清除该场景的拒绝计数
+                DailyRejectCounter.clearReject("antOrchard.spread.$targetScene")
 
                 // 更新计数
                 val spreadTaobaoDataStr = spreadJson.optString("taobaoData")
